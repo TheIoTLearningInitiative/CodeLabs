@@ -60,5 +60,11 @@ if __name__ == '__main__':
 
 ### Execution
 
-
+```sh
+# python LiveStreamProcessed.py 
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 775-529-825
+```
 
