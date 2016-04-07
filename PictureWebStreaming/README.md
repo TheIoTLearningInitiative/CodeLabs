@@ -3,8 +3,16 @@ Picture Web Streaming
 
 From [Github Smoyerman Live Stream Processed](https://raw.githubusercontent.com/smoyerman/EdisonWebVideoProcessed/master/LiveStreamProcessed.py)
 
+### Requirements
+
 ```sh
-# pip install cv2 flask
+# pip install flask
+# opkg install python-opencv
+```
+
+### Code
+
+```sh
 # vi LiveStreamProcessed.py
 ```
 
