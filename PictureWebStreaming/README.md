@@ -5,6 +5,11 @@ From [Github Smoyerman Live Stream Processed](https://raw.githubusercontent.com/
 
 ```sh
 # pip install cv2 flask
+# vi LiveStreamProcessed.py
+```
+
+```
+
 ```
 
 
