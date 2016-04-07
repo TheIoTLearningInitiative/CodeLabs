@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](Introduction.md)
-* Camera
+* [Camera](documentation/PictureWebStreaming.md)
    * Picture Web Streaming
 
