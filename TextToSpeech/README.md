@@ -1,5 +1,8 @@
 Text To Speech
 ==
+```sh
+# vi ~/.asoundrc
+```
 
 ```sh
 # mkdir configuration
