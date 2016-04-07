@@ -1,8 +1,8 @@
 Picture Web Streaming
 
-´´´sh
-# pip install
-´´´
+```sh
+# pip install cv2 flask
+```
 
 
 
