@@ -3,5 +3,5 @@
 * [Introduction](Introduction.md)
 * [Picture Web Streaming](PictureWebStreaming/README.md)
 * [Face Recognition Web Streaming](FaceRecognitionWebStreaming/README.md)
-* Image Capture OpenCV
+* [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
 
