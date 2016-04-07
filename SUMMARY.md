@@ -2,5 +2,5 @@
 
 * [Introduction](Introduction.md)
 * [Picture Web Streaming](PictureWebStreaming/README.md)
-* Face Recognition Web Streaming
+* [Face Recognition Web Streaming](FaceRecognitionWebStreaming/README.md)
 
