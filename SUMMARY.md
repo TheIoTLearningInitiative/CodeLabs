@@ -8,5 +8,5 @@
 * [Image Webpage Flask](ImageWebpageFlask/README.md)
 * [Audio Capture Playback](AudioCapturePlayback/README.md)
 * [Text To Speech](TextToSpeech/README.md)
-* [SpeechToText](SpeechToText.md)
+* [SpeechToText](SpeechToText/README.md)
 
