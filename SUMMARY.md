@@ -5,4 +5,5 @@
 * [Face Recognition Web Streaming](FaceRecognitionWebStreaming/README.md)
 * [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
 * [Web Server Flask](WebServerFlask/README.md)
+* Image Streaming Flask
 
