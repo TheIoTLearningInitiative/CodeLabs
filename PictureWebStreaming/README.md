@@ -5,7 +5,7 @@ From [Github Smoyerman Live Stream Processed](https://raw.githubusercontent.com/
 
 ## Hardware Requirements
 
-- Logitech UVC Compatible
+- Logitech Camera UVC Compatible
 
 ## Software Requirements
 
