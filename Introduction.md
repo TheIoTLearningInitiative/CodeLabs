@@ -14,7 +14,6 @@ root@edison:~# cd CodeLabs/
 root@edison:~/CodeLabs# 
 ```
 
-
 ```sh
 root@edison:~/CodeLabs# git clone https://github.com/xe1gyq/core.git
 Cloning into 'core'...
