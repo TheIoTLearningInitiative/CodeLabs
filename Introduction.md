@@ -15,3 +15,16 @@ root@edison:~/CodeLabs#
 ```
 
 
+```sh
+root@edison:~/CodeLabs# git clone https://github.com/xe1gyq/core.git
+Cloning into 'core'...
+remote: Counting objects: 1294, done.
+remote: Compressing objects: 100% (166/166), done.
+remote: Total 1294 (delta 95), reused 0 (delta 0), pack-reused 1125
+Receiving objects: 100% (1294/1294), 596.34 KiB | 595.00 KiB/s, done.
+Resolving deltas: 100% (716/716), done.
+Checking connectivity... done.
+root@edison:~/CodeLabs# 
+```
+
+
