@@ -26,4 +26,14 @@ Checking connectivity... done.
 root@edison:~/CodeLabs# 
 ```
 
+```sh
+root@edison:~/CodeLabs# ls
+AudioCapturePlayback         LICENSE              TelegramBotSensors
+FaceRecognitionWebStreaming  PictureWebStreaming  TextToSpeech
+ImageCaptureOpenCV           README.md            WebServerFlask
+ImageWebpageFlask            SUMMARY.md           core                          
+Introduction.md              SpeechToText                                       
+root@edison:~/CodeLabs# 
+```
+
 
