@@ -10,7 +10,8 @@ remote: Total 323 (delta 0), reused 0 (delta 0), pack-reused 320
 Receiving objects: 100% (323/323), 142.55 KiB | 0 bytes/s, done.
 Resolving deltas: 100% (136/136), done.
 Checking connectivity... done.
-root@edison:~# 
+root@edison:~# cd CodeLabs/
+root@edison:~/CodeLabs# 
 ```
 
 
