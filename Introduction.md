@@ -51,4 +51,5 @@ git clone https://github.com/xe1gyq/giekis.git
 cd giekis/
 pip install -r requirements.pip
 git clone https://github.com/xe1gyq/core.git
+sh requirements.opkg
 ```
