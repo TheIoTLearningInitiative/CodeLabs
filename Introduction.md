@@ -36,13 +36,19 @@ Introduction.md              SpeechToText
 root@edison:~/CodeLabs# 
 ```
 
+
+```sh
+git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
+cd CodeLabs
+git clone https://github.com/xe1gyq/core.git
+pip install -r requirements.pip
+```
+
+## Giekis
+
 ```sh
 git clone https://github.com/xe1gyq/giekis.git
 cd giekis/
-git clone https://github.com/xe1gyq/core.git
-cd ..
-git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
-cd CodeLabs
 git clone https://github.com/xe1gyq/core.git
 pip install -r requirements.pip
 ```
