@@ -38,5 +38,5 @@ root@edison:~/CodeLabs#
 
 ```sh
 git clone https://github.com/xe1gyq/giekis.git
-git clone https://github.com/TheIoTLearningInitiative/CodeLabs.gi 
+git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
 ```
