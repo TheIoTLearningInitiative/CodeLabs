@@ -44,4 +44,9 @@ cd ..
 git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
 cd CodeLabs
 git clone https://github.com/xe1gyq/core.git
+pip install requests --upgrade
+pip install futures --upgrade
+pip install urllib --upgrade
+pip install future --upgrade
+pip install python-telegram-bot --upgrade
 ```
