@@ -53,3 +53,7 @@ pip install -r requirements.pip
 git clone https://github.com/xe1gyq/core.git
 sh requirements.opkg
 ```
+
+```sh
+curl https://bootstrap.pypa.io/ez_setup.py -o - | python
+```
