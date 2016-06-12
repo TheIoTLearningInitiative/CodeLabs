@@ -49,6 +49,6 @@ pip install -r requirements.pip
 ```sh
 git clone https://github.com/xe1gyq/giekis.git
 cd giekis/
-git clone https://github.com/xe1gyq/core.git
 pip install -r requirements.pip
+git clone https://github.com/xe1gyq/core.git
 ```
