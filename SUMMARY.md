@@ -22,5 +22,5 @@
        * [IoT101 Inc](documentation/openstack/IoT101Inc.md)
        * [Mqtt Clients](documentation/openstack/Mqtt.md)
        * [Sensors](documentation/openstack/Sensors.md)
-   * 
+   * Server
 
