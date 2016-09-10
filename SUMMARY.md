@@ -17,4 +17,5 @@
        * [Telegram Bot](documentation/openstack/TelegramBot.md)
        * [Bootup](documentation/openstack/Bootup.md)
        * [Text Editors](documentation/openstack/TextEditors.md)
+       * Setup
 
