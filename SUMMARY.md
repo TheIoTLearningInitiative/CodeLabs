@@ -23,5 +23,5 @@
        * [Mqtt Clients](documentation/openstack/Mqtt.md)
        * [Sensors](documentation/openstack/Sensors.md)
    * Server
-       * 
+       * Setup
 
