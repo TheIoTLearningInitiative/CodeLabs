@@ -14,4 +14,5 @@
    * [Introduction](documentation/openstack/Introduction.md)
    * Device
        * [Development Board](documentation/openstack/DevelopmentBoard.md)
+       * Telegram Bot
 
