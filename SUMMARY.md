@@ -13,5 +13,5 @@
 * [Openstack](documentation/openstack/Openstack.md)
    * [Introduction](documentation/openstack/Introduction.md)
    * Device
-       * Development Board
+       * [Development Board](documentation/openstack/DevelopmentBoard.md)
 
