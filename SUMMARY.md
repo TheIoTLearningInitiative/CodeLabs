@@ -12,4 +12,5 @@
 * [Speech To Text](SpeechToText/README.md)
 * [Openstack](documentation/openstack/Openstack.md)
    * [Introduction](documentation/openstack/Introduction.md)
+   * Device
 
