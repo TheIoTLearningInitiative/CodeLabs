@@ -19,5 +19,5 @@
        * [Text Editors](documentation/openstack/TextEditors.md)
        * [Setup](documentation/openstack/Setup.md)
        * [Main](documentation/openstack/Main.md)
-       * IoT101 Inc
+       * [IoT101 Inc](documentation/openstack/IoT101Inc.md)
 
