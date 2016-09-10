@@ -35,7 +35,6 @@ Introduction.md              SpeechToText
 root@edison:~/CodeLabs# 
 ```
 
-
 ```sh
 git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
 cd CodeLabs
