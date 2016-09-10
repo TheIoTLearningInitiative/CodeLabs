@@ -20,6 +20,6 @@
        * [Setup](documentation/openstack/Setup.md)
        * [Main](documentation/openstack/Main.md)
        * [IoT101 Inc](documentation/openstack/IoT101Inc.md)
-       * [Mqtt](documentation/openstack/Mqtt.md)
+       * [Mqtt Clients](documentation/openstack/Mqtt.md)
        * [Sensors](documentation/openstack/Sensors.md)
 
