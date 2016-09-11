@@ -10,7 +10,7 @@ Yucatan
 - __Dzibilchaltun__ 
 - __La Ruta Puuc__
 - __Chacmultun__ 
-- __Xcambo__ Mqtt
+- __Xcambo__ Mqtt Sensor Data
 - __Mayapan__
 - __Kinich KaK Moo__
 
