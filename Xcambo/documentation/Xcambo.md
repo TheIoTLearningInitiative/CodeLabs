@@ -11,6 +11,7 @@
 ```sh
 root@board:~# pip install psutil paho-mqtt
 root@board:~# opkg install python-dev
+
 ```
 
 ## Setup
