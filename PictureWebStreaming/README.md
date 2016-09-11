@@ -27,15 +27,12 @@ import numpy as np
 class Camera(object):
     def __init__(self):
         self.cap = cv2.VideoCapture(0)
-    # Reset camera capture size for faster processing
 	self.cap.set(3,480)
 	self.cap.set(4,360)
 
     def get_frame(self):
 	ret, frame = self.cap.read()
-    # Apply laplacian edge detection to image
 	laplacian = cv2.Laplacian(frame,cv2.CV_64F)
-    # Write out original and edge detected images at once
 	cv2.imwrite('imagewritten.jpg',np.hstack((frame,laplacian)))
 	return open('imagewritten.jpg', 'rb').read()
 
