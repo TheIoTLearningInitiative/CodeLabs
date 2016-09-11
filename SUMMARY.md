@@ -27,5 +27,5 @@
        * [Setup](documentation/openstack/ServerSetup.md)
        * [Dashboard](documentation/openstack/Dashboard.md)
        * [Mqtt Broker](documentation/openstack/MqttBroker.md)
-   * Challenge
+   * [Challenge](documentation/openstack/Challenge.md)
 
