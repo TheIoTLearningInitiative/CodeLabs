@@ -9,7 +9,7 @@ root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/C
 ## openstack device setup log
 
 ```sh
-Welcome to Tulum Playground
+Welcome to Tulum Device Playground
 
 --2016-08-14 18:04:12--  https://launchpad.net/python-weather-api/trunk/0.3.8/+download/pywapi-0.3.8.tar.gz
 Resolving launchpad.net... 91.189.89.223, 91.189.89.222
