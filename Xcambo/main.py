@@ -6,7 +6,6 @@ import pywapi
 import signal
 import sys
 import time
-import pyupm_grove as grove
 
 from threading import Thread
 
@@ -28,16 +27,13 @@ def functionDataActuatorMqttSubscribe():
     mqttclient = paho.Client()
     mqttclient.on_message = functionDataActuatorMqttOnMessage
     mqttclient.connect("test.mosquitto.org", 1883, 60)
-    mqttclient.subscribe("IoT101/DataActuator", 0)
+    mqttclient.subscribe("Xcambo/Main/DataActuator", 0)
     while mqttclient.loop() == 0:
         pass
 
 def functionDataSensor():
-    #netdata = psutil.net_io_counters()
-    #data = netdata.packets_sent + netdata.packets_recv
-    light = grove.GroveLight(0)
-    data = light.raw_value()
-    del light
+    netdata = psutil.net_io_counters()
+    data = netdata.packets_sent + netdata.packets_recv
     return data
 
 def functionDataSensorMqttOnPublish(mosq, obj, msg):
@@ -49,7 +45,7 @@ def functionDataSensorMqttPublish():
     mqttclient.connect("test.mosquitto.org", 1883, 60)
     while True:
         data = functionDataSensor()
-        topic = "IoT101/DataSensor"
+        topic = "Xcambo/Main/DataSensor"
         mqttclient.publish(topic, data)
         time.sleep(1)
 
