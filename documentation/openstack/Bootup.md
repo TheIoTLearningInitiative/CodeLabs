@@ -1,7 +1,5 @@
 # Bootup
 
-# Bootup
-
 Intel® Edison Official Get Started Guide
 
 - [Intel® Edison Board Get Started Guide](https://software.intel.com/en-us/iot/library/edison-getting-started)
