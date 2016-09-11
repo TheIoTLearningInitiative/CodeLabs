@@ -9,7 +9,7 @@ root@edison:~# curl https://raw.githubusercontent.com/xe1gyq/openstack/master/de
 ## openstack device setup log
 
 ```sh
-Welcome to Xe1Gyq Openstack Device Playground
+Welcome to Tulum Playground
 
 --2016-08-14 18:04:12--  https://launchpad.net/python-weather-api/trunk/0.3.8/+download/pywapi-0.3.8.tar.gz
 Resolving launchpad.net... 91.189.89.223, 91.189.89.222
@@ -90,7 +90,7 @@ Now go to openstack/device directory to get started!
 Work on having your credentials ready!
 credentials.config
 
-Happy Openstack'ing!
+Happy Tulum'ing!
 
 root@edison:~# 
 ```
