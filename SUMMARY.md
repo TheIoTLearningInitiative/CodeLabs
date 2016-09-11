@@ -3,7 +3,7 @@
 * [Cover](README.md)
 * [Summary](SUMMARY.md)
 * [Introduction](Introduction.md)
-* [Uxmal](documentation/uxmal/documentation/Uxmal.md)
+* [Uxmal](uxmal/documentation/Uxmal.md)
 * [Tulum](documentation/openstack/Openstack.md)
    * [Introduction](documentation/openstack/Introduction.md)
    * Device
