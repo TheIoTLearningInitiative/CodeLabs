@@ -4,7 +4,6 @@
 * [Summary](SUMMARY.md)
 * [Introduction](Introduction.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
-* [Uxmal](Uxmal/documentation/Uxmal.md)
 * [Tulum](Tulum/documentation/Openstack.md)
    * [Introduction](Tulum/documentation/Introduction.md)
    * Device
@@ -22,6 +21,7 @@
        * [Dashboard](Tulum/documentation/Dashboard.md)
        * [Mqtt Broker](Tulum/documentation/MqttBroker.md)
    * [Challenge](Tulum/documentation/Challenge.md)
+* [Uxmal](Uxmal/documentation/Uxmal.md)
 * Xcambo
 * Sandbox
    * [Picture Web Streaming](PictureWebStreaming/README.md)
