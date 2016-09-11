@@ -1,8 +1,6 @@
 # Uxmal
 
-# Picture Web Streaming
-
-From [Github Smoyerman Live Stream Processed](https://raw.githubusercontent.com/smoyerman/EdisonWebVideoProcessed/master/LiveStreamProcessed.py)
+> Picture Web Streaming [Github Smoyerman Live Stream Processed](https://raw.githubusercontent.com/smoyerman/EdisonWebVideoProcessed/master/LiveStreamProcessed.py)
 
 ## Hardware Requirements
 
