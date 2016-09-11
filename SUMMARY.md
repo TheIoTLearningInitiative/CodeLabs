@@ -4,7 +4,7 @@
 * [Summary](SUMMARY.md)
 * [Introduction](Introduction.md)
 * [Uxmal](uxmal/documentation/Uxmal.md)
-* [Tulum](tulum/documentation/Openstack.md)
+* [Tulum](Tulum/documentation/Openstack.md)
    * [Introduction](Tulum/documentation/Introduction.md)
    * Device
        * [Development Board](Tulum/documentation/DevelopmentBoard.md)
