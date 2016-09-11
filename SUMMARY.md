@@ -18,7 +18,7 @@
        * [Telegram Bot](documentation/openstack/TelegramBot.md)
        * [Bootup](documentation/openstack/Bootup.md)
        * [Text Editors](documentation/openstack/TextEditors.md)
-       * [Setup](documentation/openstack/Setup.md)
+       * [Setup](documentation/openstack/DeviceSetup.md)
        * [Main](documentation/openstack/Main.md)
        * [IoT101 Inc](documentation/openstack/IoT101Inc.md)
        * [Mqtt Clients](documentation/openstack/MqttClients.md)
