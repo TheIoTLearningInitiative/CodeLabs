@@ -1,6 +1,6 @@
 # Xcambo
 
-> OpenCV Camera Web Streaming [Github Smoyerman Live Stream Processed](https://raw.githubusercontent.com/smoyerman/EdisonWebVideoProcessed/master/LiveStreamProcessed.py)
+> Mqtt Sensor Data [Github Smoyerman Live Stream Processed](https://raw.githubusercontent.com/smoyerman/EdisonWebVideoProcessed/master/LiveStreamProcessed.py)
 
 ## Hardware Requirements
 
