@@ -23,7 +23,7 @@ Quintana Roo
 
 Campeche
 
-- __Chicanna__ 
+- __Chicanna__ Face Recognition Web Picture
 - __Edzna__
 - __Hormiguero__
 - __Hochob__
