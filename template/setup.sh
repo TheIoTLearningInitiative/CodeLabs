@@ -4,7 +4,7 @@ echo
 
 sleep 4
 
-git clone 
+git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
 cd CodeLabs/project/
 
 pip install pip --upgrade
