@@ -26,7 +26,7 @@ root@board:~# rm -rf pywapi-0.3.8*
 ## Setup
 
 ```sh
-root@edison:~# curl  -o - | sh
+root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Xcambo/setup.sh -o - | sh
 ```
 
 ## Code
