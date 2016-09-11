@@ -33,6 +33,10 @@ Campeche
 - __Tabasqueno__
 
 ```sh
+https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Scripts/clean.sh
+```
+
+```sh
 root@edison:~# git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
 Cloning into 'CodeLabs'...
 remote: Counting objects: 323, done.
