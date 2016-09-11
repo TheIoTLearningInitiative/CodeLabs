@@ -10,7 +10,7 @@
 
 ```sh
 root@board:~# pip install flask numpy
-root@board:~# opkg install python-opencv python-numpy
+root@board:~# opkg install python-dev python-opencv python-numpy
 ```
 
 ## Setup
