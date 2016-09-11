@@ -12,7 +12,7 @@
 * [Audio Capture Playback](AudioCapturePlayback/README.md)
 * [Text To Speech](TextToSpeech/README.md)
 * [Speech To Text](SpeechToText/README.md)
-* [Openstack](documentation/openstack/Openstack.md)
+* [Tulum](documentation/openstack/Openstack.md)
    * [Introduction](documentation/openstack/Introduction.md)
    * Device
        * [Development Board](documentation/openstack/DevelopmentBoard.md)
