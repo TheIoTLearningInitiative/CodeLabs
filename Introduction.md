@@ -33,8 +33,11 @@ Campeche
 - __Tabasqueno__
 
 ```sh
-root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Scripts/clean.sh -o - | sh
+root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Scripts/clean.sh -o - | sh
 ```
+
+```sh
+root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Scripts/setup.sh -o - | sh
 
 ```sh
 root@edison:~# git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
