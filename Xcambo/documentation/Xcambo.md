@@ -36,37 +36,75 @@ root@board:~# vi main.py
 ```
 
 ```python
-from flask import Flask, Response
-import cv2
-import numpy as np
+#!/usr/bin/python
 
-class Camera(object):
-    def __init__(self):
-        self.cap = cv2.VideoCapture(0)
-	    self.cap.set(3,480)
-	    self.cap.set(4,360)
+import paho.mqtt.client as paho
+import psutil
+import pywapi
+import signal
+import sys
+import time
 
-    def get_frame(self):
-	    ret, frame = self.cap.read()
-	    laplacian = cv2.Laplacian(frame,cv2.CV_64F)
-	    cv2.imwrite('imagewritten.jpg',np.hstack((frame,laplacian)))
-	    return open('imagewritten.jpg', 'rb').read()
+from threading import Thread
 
-app = Flask(__name__)
+def functionApiWeather():
+    data = pywapi.get_weather_from_weather_com('MXJO0043', 'metric')
+    message = data['location']['name']
+    message = message + ", Temperature " + data['current_conditions']['temperature'] + " C"
+    message = message + ", Atmospheric Pressure " + data['current_conditions']['barometer']['reading'][:-3] + " mbar"
+    return message
 
-def gen(camera):
+def functionDataActuator(status):
+    print "Data Actuator Status %s" % status
+
+def functionDataActuatorMqttOnMessage(mosq, obj, msg):
+    print "Data Sensor Mqtt Subscribe Message!"
+    functionDataActuator(msg.payload)
+
+def functionDataActuatorMqttSubscribe():
+    mqttclient = paho.Client()
+    mqttclient.on_message = functionDataActuatorMqttOnMessage
+    mqttclient.connect("test.mosquitto.org", 1883, 60)
+    mqttclient.subscribe("Xcambo/Main/DataActuator", 0)
+    while mqttclient.loop() == 0:
+        pass
+
+def functionDataSensor():
+    netdata = psutil.net_io_counters()
+    data = netdata.packets_sent + netdata.packets_recv
+    return data
+
+def functionDataSensorMqttOnPublish(mosq, obj, msg):
+    print "Data Sensor Mqtt Published!"
+
+def functionDataSensorMqttPublish():
+    mqttclient = paho.Client()
+    mqttclient.on_publish = functionDataSensorMqttOnPublish
+    mqttclient.connect("test.mosquitto.org", 1883, 60)
     while True:
-        frame = camera.get_frame()
-        yield (b'--frame\r\n'
-               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
+        data = functionDataSensor()
+        topic = "Xcambo/Main/DataSensor"
+        mqttclient.publish(topic, data)
+        time.sleep(1)
 
-@app.route('/')
-def video_feed():
-    return Response(gen(Camera()),
-                    mimetype='multipart/x-mixed-replace; boundary=frame')
+def functionSignalHandler(signal, frame):
+    sys.exit(0)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=True)
+
+    signal.signal(signal.SIGINT, functionSignalHandler)
+
+    threadmqttpublish = Thread(target=functionDataSensorMqttPublish)
+    threadmqttpublish.start()
+
+    threadmqttsubscribe = Thread(target=functionDataActuatorMqttSubscribe)
+    threadmqttsubscribe.start()
+
+    while True:
+        print "Hello Xcambo"
+        print "Data Sensor: %s " % functionDataSensor()
+        print "API Weather: %s " % functionApiWeather()
+        time.sleep(5)
 ```
 
 ## Execution
