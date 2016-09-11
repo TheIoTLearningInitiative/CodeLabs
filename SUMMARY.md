@@ -3,6 +3,7 @@
 * [Cover](README.md)
 * [Summary](SUMMARY.md)
 * [Introduction](Introduction.md)
+* [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Uxmal](Uxmal/documentation/Uxmal.md)
 * [Tulum](Tulum/documentation/Openstack.md)
    * [Introduction](Tulum/documentation/Introduction.md)
@@ -31,5 +32,4 @@
    * [Audio Capture Playback](AudioCapturePlayback/README.md)
    * [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
    * Tbd
-* [Chicanna](Chicanna/documentation/Chicanna.md)
 
