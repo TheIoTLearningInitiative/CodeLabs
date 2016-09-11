@@ -36,8 +36,8 @@ class Camera(object):
     # Apply laplacian edge detection to image
 	laplacian = cv2.Laplacian(frame,cv2.CV_64F)
     # Write out original and edge detected images at once
-	cv2.imwrite('blah.jpg',np.hstack((frame,laplacian)))
-	return open('blah.jpg', 'rb').read()
+	cv2.imwrite('imagewritten.jpg',np.hstack((frame,laplacian)))
+	return open('imagewritten.jpg', 'rb').read()
 
 
 app = Flask(__name__)
