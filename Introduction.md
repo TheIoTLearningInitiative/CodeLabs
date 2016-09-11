@@ -5,7 +5,7 @@
 Yucatan
 
 - __Chichen  Itza__
-- [__Uxmal__ Picture Web Streaming](documentation/Uxmal.md)
+- [__Uxmal__ Picture Web Streaming]()
 - __Ek Balam__ 
 - __Dzibilchaltun__ 
 - __La Ruta Puuc__
