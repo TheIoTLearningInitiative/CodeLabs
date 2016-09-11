@@ -4,7 +4,7 @@
 
 ## Hardware Requirements
 
-- Camera UVC Compatible
+- None
 
 ## Software Requirements
 
@@ -16,7 +16,7 @@ root@board:~# opkg install python-opencv python-numpy
 ## Setup
 
 ```sh
-root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/uxmal/setup.sh -o - | sh
+root@edison:~# curl  -o - | sh
 ```
 
 ## Code
