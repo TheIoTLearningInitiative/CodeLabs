@@ -13,6 +13,10 @@ root@board:~# pip install flask numpy
 root@board:~# opkg install python-opencv python-numpy
 ```
 
+## 
+
+https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/uxmal/setup.sh
+
 ## Code
 
 ```sh
