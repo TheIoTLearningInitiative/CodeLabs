@@ -4,7 +4,7 @@
 
 Yucatan
 
-- __Chichen  Itza__
+- __Chichen Itza__
 - __Uxmal__ Picture Web Streaming
 - __Ek Balam__ 
 - __Dzibilchaltun__ 
