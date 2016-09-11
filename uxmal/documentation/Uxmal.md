@@ -19,8 +19,6 @@ root@board:~# opkg install python-opencv python-numpy
 root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/uxmal/setup.sh -o - | sh
 ```
 
-
-
 ## Code
 
 ```sh
