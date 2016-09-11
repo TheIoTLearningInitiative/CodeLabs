@@ -16,7 +16,7 @@ Yucatan
 
 Quintana Roo
 
-- __Tulum__
+- __Tulum__ Openstack Sensor Dashboard
 - __Coba__
 - __Muyil__
 - __Kohunlich__
