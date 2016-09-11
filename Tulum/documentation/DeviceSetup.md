@@ -3,7 +3,7 @@
 ## openstack device setup execution
 
 ```sh
-root@edison:~# curl https://raw.githubusercontent.com/xe1gyq/openstack/master/device/setup.sh -o - | sh
+root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Tulum/device/setup.sh -o - | sh
 ```
 
 ## openstack device setup log
