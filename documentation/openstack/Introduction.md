@@ -28,6 +28,10 @@
   - Pitch Session
   - Winner
 
+# Resources
+
+
+
 # Curso “Introducción al Internet de las Cosas”
 
 ## Objetivo
