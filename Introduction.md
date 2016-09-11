@@ -16,7 +16,7 @@ Yucatan
 
 Quintana Roo
 
-- [__Tulum__](Tulum/documentation/Tulum/md)
+- [__Tulum__](Tulum/documentation/Tulum.md)
 - __Coba__
 - __Muyil__
 - __Kohunlich__
