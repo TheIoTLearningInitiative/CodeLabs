@@ -1,5 +1,5 @@
 echo
-echo "Welcome to Xe1Gyq Openstack Device Playground"
+echo "Welcome to Tulum Device Playground"
 echo
 
 sleep 4
@@ -13,14 +13,14 @@ cd ..
 rm -rf pywapi-0.3.8*
 
 git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
-cd CodeLabs/tulum/device
+cd CodeLabs/Tulum/device
 
 pip install pip --upgrade
 sh requirements.opkg
 pip install -r requirements.pip
 
 echo
-echo "Now go to CodeLabs/tulum/device directory to get started!"
+echo "Now go to CodeLabs/Tulum/device directory to get started!"
 echo
 echo "Work on having your credentials ready!"
 echo "credentials.config"
