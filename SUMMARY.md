@@ -25,5 +25,5 @@
        * [Sensors](documentation/openstack/Sensors.md)
    * Server
        * [Setup](documentation/openstack/ServerSetup.md)
-       * Dashboard
+       * [Dashboard](documentation/openstack/Dashboard.md)
 
