@@ -22,7 +22,7 @@ root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/C
 ## Code
 
 ```sh
-root@board:~# vi main.py
+root@edison:~/CodeLabs/Uxmal# vi main.py
 ```
 
 ```python
