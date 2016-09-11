@@ -1,7 +1,5 @@
 # Text Editors
 
-# Text Editors
-
 > When getting used to the command-line, Linux novices are often put off by other, more advanced text editors such as vim and emacs. While they are excellent programs, they do have a bit of a learning curve. Enter Nano, an easy-to-use text editor that proves itself versatile and simple. [The Beginner’s Guide to Nano, the Linux Command-Line Text Editor](http://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/)
 
 # vi
