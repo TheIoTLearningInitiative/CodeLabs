@@ -9,14 +9,14 @@ From [Github Smoyerman Live Stream Processed](https://raw.githubusercontent.com/
 ## Software Requirements
 
 ```sh
-# pip install flask cv2
-# opkg install python-opencv
+root@board:~# pip install flask cv2
+root@board:~# opkg install python-opencv
 ```
 
 ## Code
 
 ```sh
-# vi LiveStreamProcessed.py
+root@board:~# vi LiveStreamProcessed.py
 ```
 
 ```python
@@ -60,7 +60,7 @@ if __name__ == '__main__':
 ## Execution
 
 ```sh
-# python LiveStreamProcessed.py 
+root@board:~# python LiveStreamProcessed.py 
  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
  * Restarting with stat
  * Debugger is active!
