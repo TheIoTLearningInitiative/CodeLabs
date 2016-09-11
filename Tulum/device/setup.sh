@@ -4,20 +4,13 @@ echo
 
 sleep 4
 
-wget https://launchpad.net/python-weather-api/trunk/0.3.8/+download/pywapi-0.3.8.tar.gz
-tar zxvf pywapi-0.3.8.tar.gz
-cd pywapi-0.3.8
-python setup.py build
-python setup.py install
-cd ..
-rm -rf pywapi-0.3.8*
-
 git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
 cd CodeLabs/Tulum/device
 
 pip install pip --upgrade
 sh requirements.opkg
 pip install -r requirements.pip
+sh requirements.manual
 
 echo
 echo "Now go to CodeLabs/Tulum/device directory to get started!"
