@@ -1,7 +1,7 @@
 # Summary
 
 * [Cover](README.md)
-* Summary
+* [Summary](SUMMARY.md)
 * [Introduction](Introduction.md)
 * [Picture Web Streaming](PictureWebStreaming/README.md)
 * [Face Recognition Web Streaming](FaceRecognitionWebStreaming/README.md)
