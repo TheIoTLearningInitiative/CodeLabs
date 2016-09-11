@@ -9,7 +9,7 @@ From [Github Smoyerman Live Stream Processed](https://raw.githubusercontent.com/
 ## Software Requirements
 
 ```sh
-root@board:~# pip install flask cv2
+root@board:~# pip install flask
 root@board:~# opkg install python-opencv
 ```
 
