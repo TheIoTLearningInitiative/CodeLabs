@@ -10,7 +10,7 @@ From [Github Smoyerman Live Stream Processed](https://raw.githubusercontent.com/
 
 ```sh
 root@board:~# pip install flask
-root@board:~# opkg install python-opencv
+root@board:~# opkg install python-opencv python-numpy
 ```
 
 ## Code
