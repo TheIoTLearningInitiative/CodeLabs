@@ -99,16 +99,16 @@ root@edison:~#
 
 ```sh
 root@edison:~# cd openstack/device/
-root@edison:~/openstack/device# ls
+root@edison:~/CodeLabs/Tulum/device# ls
 iot101inc.py  main.py  requirements.opkg  requirements.pip  setup.sh
-root@edison:~/openstack/device# 
+root@edison:~/CodeLabs/Tulum/device# 
 ```
 
 ## setup.sh file
 
 ```sh
 echo
-echo "Welcome to Xe1Gyq Openstack Device Playground"
+echo "Welcome to Tulum Device Playground"
 echo
 
 sleep 4
@@ -129,11 +129,11 @@ sh requirements.opkg
 pip install -r requirements.pip
 
 echo
-echo "Now go to openstack/device directory to get started!"
+echo "Now go to CodeLabs/Tulum/device directory to get started!"
 echo
 echo "Work on having your credentials ready!"
 echo "credentials.config"
 echo
-echo "Happy Openstack'ing!"
+echo "Happy Tulum'ing!"
 echo
 ```
