@@ -11,6 +11,9 @@
 ```sh
 root@board:~# pip install psutil paho-mqtt
 root@board:~# opkg install python-dev
+```
+
+```sh
 root@board:~# wget https://launchpad.net/python-weather-api/trunk/0.3.8/+download/pywapi-0.3.8.tar.gz
 root@board:~# tar zxvf pywapi-0.3.8.tar.gz
 root@board:~# cd pywapi-0.3.8
