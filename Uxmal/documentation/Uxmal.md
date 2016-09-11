@@ -22,7 +22,7 @@ root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/C
 ## Code
 
 ```sh
-root@edison:~/CodeLabs/Uxmal# vi main.py
+root@board:~/CodeLabs/Uxmal# vi main.py
 ```
 
 ```python
@@ -62,9 +62,10 @@ if __name__ == '__main__':
 ## Execution
 
 ```sh
-root@board:~# python LiveStreamProcessed.py 
+root@board:~/CodeLabs/Uxmal# python LiveStreamProcessed.py 
  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
  * Restarting with stat
  * Debugger is active!
  * Debugger pin code: 775-529-825
+root@board:~/CodeLabs/Uxmal# 
 ```
