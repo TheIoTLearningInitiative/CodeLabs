@@ -1,6 +1,5 @@
 # Setup
 
-
 ```
 root@openstackme:~# apt-get update
 root@openstackme:~# apt-get install -y apache2
