@@ -1,0 +1,10 @@
+pytz
+shade
+os-client-config
+ipaddress
+oslo.config
+python-heatclient
+futures
+python-ironicclient
+python-designateclient
+decorator

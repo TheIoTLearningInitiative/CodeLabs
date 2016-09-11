@@ -1,0 +1,5 @@
+requests
+future
+python-telegram-bot
+psutil
+paho-mqtt

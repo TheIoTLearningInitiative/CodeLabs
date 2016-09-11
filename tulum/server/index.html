@@ -1,0 +1,113 @@
+<html>
+<head>
+<title>Uber Simple Websockets - IoT 101 Inc</title>
+
+<!-- Websocket -->
+<script type="text/javascript">
+
+var port = 9000;
+var host = "ws://104.236.227.50:"+port;
+
+
+var socket;
+var explodedValues = [0];
+
+function init() {
+	try {
+		socket = new WebSocket(host);
+		console.log('WebSocket status '+socket.readyState);
+		socket.onopen    = function(msg) {
+			console.log("Welcome - status "+this.readyState); 
+		};
+		socket.onmessage = function(msg) { 
+			console.log("Message Received: "+msg.data);
+			explodedValues = msg.data.split(';');
+			for(var i=0; i<explodedValues.length; i++) { explodedValues[i] = +explodedValues[i]; } 
+			drawVisualization();
+		};
+		socket.onclose   = function(msg) {
+			console.log("Disconnected - status "+this.readyState); 
+		};
+	}
+	catch(ex){ 
+		console.log(ex); 
+	}
+	
+}
+
+function quit(){
+	if (socket != null) {
+		console.log("Close Socket");
+		socket.close();
+		socket=null;
+	}
+}
+
+function reconnect() {
+	quit();
+	init();
+}
+
+</script>
+
+
+<!-- Google Chart -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+<script type="text/javascript">
+
+  function drawVisualization() {
+    var data = google.visualization.arrayToDataTable([
+        ['Tracker', '1'],
+        ['Sensor', explodedValues[0]],
+    ]);
+    
+    var view = new google.visualization.DataView(data);
+    view.setColumns([0, {
+        type: 'number',
+        label: data.getColumnLabel(1),
+        calc: function () {return 0;}
+    }]);
+    
+    var chart = new google.visualization.BarChart(document.getElementById('visualization'));
+    
+    var options = {
+        title:"End to End Industrial Automation System",
+        width: 600,
+        height: 400,
+        bar: { groupWidth: "95%" },
+        legend: { position: "none" },
+        animation: {
+            duration: 800
+        },
+        hAxis: {
+            minValue: 0,
+            maxValue: 10
+        }
+    };
+    
+    var runOnce = google.visualization.events.addListener(chart, 'ready', function () {
+        google.visualization.events.removeListener(runOnce);
+        chart.draw(data, options);
+    });
+    
+    chart.draw(view, options);
+    
+    $(window).resize(function() {
+        chart.draw(data, options);
+    });
+}
+google.load('visualization', '1', {packages: ['corechart'], callback: drawVisualization});
+
+</script>
+
+</head>
+<body onload="init()">
+<h3>Uber Simple Websockets - IoT 101 Inc</h3>
+
+<div id="visualization"></div>
+
+<button onclick="reconnect()">Reconnect</button>
+
+</body>
+</html>
