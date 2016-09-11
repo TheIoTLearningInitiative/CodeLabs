@@ -9,7 +9,7 @@ cd CodeLabs/Chicanna/
 
 get https://raw.githubusercontent.com/xe1gyq/core/master/configuration/haarcascade_frontalface_alt.xml
 wget https://upload.wikimedia.org/wikipedia/commons/5/5d/Barack_Obama_family_portrait_2011.jpg
-mv Barack_Obama_family_portrait_2011.jpg imageinput2.jpg
+mv Barack_Obama_family_portrait_2011.jpg imageinput.jpg
 
 pip install pip --upgrade
 sh requirements.opkg
