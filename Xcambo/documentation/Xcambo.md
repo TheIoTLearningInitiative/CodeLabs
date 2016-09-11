@@ -110,7 +110,7 @@ if __name__ == '__main__':
 ## Execution
 
 ```sh
-root@edison:~/CodeLabs/Xcambo# python LiveStreamProcessed.py 
+root@edison:~/CodeLabs/Xcambo# python main.py 
 
 ```
 
