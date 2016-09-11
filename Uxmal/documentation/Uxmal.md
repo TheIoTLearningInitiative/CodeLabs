@@ -16,13 +16,13 @@ root@board:~# opkg install python-opencv python-numpy
 ## Setup
 
 ```sh
-root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/uxmal/setup.sh -o - | sh
+root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Uxmal/setup.sh -o - | sh
 ```
 
 ## Code
 
 ```sh
-root@board:~# vi LiveStreamProcessed.py
+root@board:~/CodeLabs/Uxmal# vi main.py
 ```
 
 ```python
@@ -62,9 +62,10 @@ if __name__ == '__main__':
 ## Execution
 
 ```sh
-root@board:~# python LiveStreamProcessed.py 
+root@board:~/CodeLabs/Uxmal# python LiveStreamProcessed.py 
  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
  * Restarting with stat
  * Debugger is active!
  * Debugger pin code: 775-529-825
+root@board:~/CodeLabs/Uxmal# 
 ```
