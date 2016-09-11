@@ -26,5 +26,5 @@
    * Server
        * [Setup](documentation/openstack/ServerSetup.md)
        * [Dashboard](documentation/openstack/Dashboard.md)
-       * Mqtt Broker
+       * [Mqtt Broker](documentation/openstack/MqttBroker.md)
 
