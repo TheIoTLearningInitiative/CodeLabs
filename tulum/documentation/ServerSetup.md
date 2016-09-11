@@ -35,3 +35,4 @@ root@openstackme:/var/www/html# mkdir
 root@openstackme:/var/www/html# cd iot101inc
 root@openstackme:/var/www/html/iot101inc# echo "Hello World" > index.html
 root@openstackme:/var/www/html/iot101inc# 
+```
