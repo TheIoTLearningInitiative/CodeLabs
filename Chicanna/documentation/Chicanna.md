@@ -70,5 +70,6 @@ if __name__ == "__main__":
 
 ```sh
 root@board:~# python main.py 
+Found 23 faces!
 
 ```
