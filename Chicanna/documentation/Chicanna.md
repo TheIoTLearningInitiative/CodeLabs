@@ -22,7 +22,7 @@ root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/C
 ## Code
 
 ```sh
-root@board:~# vi LiveStreamProcessed.py
+root@board:~# vi main.py
 ```
 
 ```python
