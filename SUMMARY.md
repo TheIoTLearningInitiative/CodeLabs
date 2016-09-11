@@ -1,6 +1,7 @@
 # Summary
 
 * [Cover](README.md)
+* Summary
 * [Introduction](Introduction.md)
 * [Picture Web Streaming](PictureWebStreaming/README.md)
 * [Face Recognition Web Streaming](FaceRecognitionWebStreaming/README.md)
@@ -25,5 +26,4 @@
    * Server
        * Setup
        * Dashboard
-* Summary
 
