@@ -5,7 +5,7 @@
 Yucatan
 
 - __Chichen Itza__
-- __Uxmal__ Camera Picture Web Streaming
+- __Uxmal__ OpenCV Camera Picture Web Streaming
 - __Ek Balam__ 
 - __Dzibilchaltun__ 
 - __La Ruta Puuc__
@@ -23,7 +23,7 @@ Quintana Roo
 
 Campeche
 
-- __Chicanna__ Face Recognition Web Picture
+- __Chicanna__ OpenCV Face Recognition Web Picture
 - __Edzna__
 - __Hormiguero__
 - __Hochob__
