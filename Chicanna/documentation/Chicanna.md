@@ -69,7 +69,7 @@ if __name__ == "__main__":
 ## Execution
 
 ```sh
-root@board:~# python main.py 
+root@edison:~/CodeLabs/Chicanna# python main.py 
 Found 23 faces!
-
+root@edison:~/CodeLabs/Chicanna# 
 ```
