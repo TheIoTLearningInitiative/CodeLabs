@@ -90,7 +90,7 @@ Now go to openstack/device directory to get started!
 Work on having your credentials ready!
 credentials.config
 
-Happy Openstack'ing!
+Happy Tulum'ing!
 
 root@edison:~# 
 ```
