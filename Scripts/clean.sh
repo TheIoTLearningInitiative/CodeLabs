@@ -4,6 +4,8 @@ echo
 
 sleep 4
 
+echo "Removing all files under Home directory..."
+
 cd
 rm -rf *
 
