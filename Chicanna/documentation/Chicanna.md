@@ -9,7 +9,7 @@
 ## Software Requirements
 
 ```sh
-root@board:~# pip install flask numpy
+root@board:~# pip install numpy
 root@board:~# opkg install python-dev python-opencv python-numpy
 ```
 
