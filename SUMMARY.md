@@ -21,7 +21,6 @@
        * [Dashboard](Tulum/documentation/Dashboard.md)
        * [Mqtt Broker](Tulum/documentation/MqttBroker.md)
    * [Challenge](Tulum/documentation/Challenge.md)
-* [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
 * [Web Server Flask](WebServerFlask/README.md)
 * [Face Recognition Web Streaming](FaceRecognitionWebStreaming/README.md)
 * [Image Webpage Flask](ImageWebpageFlask/README.md)
@@ -30,5 +29,6 @@
 * [Speech To Text](SpeechToText/README.md)
 * Sandbox
    * [Picture Web Streaming](PictureWebStreaming/README.md)
+   * [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
    * Tbd
 
