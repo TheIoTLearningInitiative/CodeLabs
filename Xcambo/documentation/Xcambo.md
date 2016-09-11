@@ -4,7 +4,7 @@
 
 ## Hardware Requirements
 
-- Camera UVC Compatible
+- None
 
 ## Software Requirements
 
