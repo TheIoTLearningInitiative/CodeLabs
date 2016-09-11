@@ -1,4 +1,4 @@
-<h1><center><b>Internet of Things Openstack Sensor Dashbboard</b></center></h1>
+<h1><center><b>Internet of Things Openstack Sensor Dashboard</b></center></h1>
 
 <center><img src="documentation/openstackhackathon.png"></center>
 <br>
