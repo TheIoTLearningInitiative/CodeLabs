@@ -25,5 +25,5 @@
    * Server
        * Setup
        * Dashboard
-* Sumary
+* Summary
 
