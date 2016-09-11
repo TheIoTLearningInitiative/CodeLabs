@@ -35,6 +35,7 @@ class Camera(object):
 	    laplacian = cv2.Laplacian(frame,cv2.CV_64F)
 	    cv2.imwrite('imagewritten.jpg',np.hstack((frame,laplacian)))
 	    return open('imagewritten.jpg', 'rb').read()
+
 app = Flask(__name__)
 
 def gen(camera):
