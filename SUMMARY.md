@@ -21,7 +21,6 @@
        * [Dashboard](tulum/documentation/Dashboard.md)
        * [Mqtt Broker](tulum/documentation/MqttBroker.md)
    * [Challenge](tulum/documentation/Challenge.md)
-   * [Sandbox](tulum/documentation/Sandbox.md)
 * [Picture Web Streaming](PictureWebStreaming/README.md)
 * [Face Recognition Web Streaming](FaceRecognitionWebStreaming/README.md)
 * [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
