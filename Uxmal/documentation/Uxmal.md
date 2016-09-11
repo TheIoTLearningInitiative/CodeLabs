@@ -33,8 +33,8 @@ import numpy as np
 class Camera(object):
     def __init__(self):
         self.cap = cv2.VideoCapture(0)
-	self.cap.set(3,480)
-	self.cap.set(4,360)
+	    self.cap.set(3,480)
+	    self.cap.set(4,360)
 
     def get_frame(self):
 	    ret, frame = self.cap.read()
