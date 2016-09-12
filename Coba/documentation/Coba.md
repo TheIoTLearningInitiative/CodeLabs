@@ -61,6 +61,5 @@ clean:
 ## Execution
 
 ```sh
-root@edison:~/CodeLabs/Chicanna#  
-root@edison:~/CodeLabs/Chicanna# 
+root@edison:~/CodeLabs/Chicanna# make
 ```
