@@ -53,7 +53,7 @@ module_exit(module_exit_function);
 root@edison:~/CodeLabs/Coba# nano Makefile
 ```
 
-```c
+```sh
 obj-m += main.o
 
 all:
