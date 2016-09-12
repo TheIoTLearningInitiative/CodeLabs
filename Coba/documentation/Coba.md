@@ -9,8 +9,8 @@
 ## Software Requirements
 
 ```sh
-root@board:~# pip install numpy
-root@board:~# opkg install python-dev python-opencv python-numpy
+root@board:~# echo "pip install none"
+root@board:~# echo "opkg install python-dev"
 ```
 
 ## Setup
@@ -25,7 +25,7 @@ root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/C
 root@edison:~/CodeLabs/Coba# 
 ```
 
-```python
+```c
 ```
 
 ## Execution
