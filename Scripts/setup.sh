@@ -7,6 +7,7 @@ sleep 4
 git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
 
 sh CodeLabs/Chicanna/setup.sh
+sh CodeLabs/Coba/setup.sh
 sh CodeLabs/Tulum/device/setup.sh
 sh CodeLabs/Uxmal/setup.sh
 sh CodeLabs/Xcambo/setup.sh
