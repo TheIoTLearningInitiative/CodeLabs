@@ -16,7 +16,7 @@ root@board:~# opkg install python-dev python-opencv python-numpy
 ## Setup
 
 ```sh
-root@edison:~# curl  -o - | sh
+root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Coba/setup.sh -o - | sh
 ```
 
 ## Code
