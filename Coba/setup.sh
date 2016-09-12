@@ -14,6 +14,7 @@ echo > ~/usr/src/linux-headers-3.10.98-poky-edison/include/generated/utsrelease.
 echo "#define UTS_RELEASE "3.10.98-poky-edison+"" > ~/usr/src/linux-headers-3.10.98-poky-edison/include/generated/utsrelease.h
 cd /lib/modules/3.10.17-poky-edison+
 ln -s /home/root/usr/src/linux-headers-3.10.17-poky-edison build
+cd
 rm data.tar.gz
 rm linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
 
