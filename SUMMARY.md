@@ -4,6 +4,7 @@
 * [Summary](SUMMARY.md)
 * [Introduction](Introduction.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
+* [Coba](Coba/documentation/Coba.md)
 * [Tulum](Tulum/documentation/Openstack.md)
    * [Introduction](Tulum/documentation/Introduction.md)
    * Device
@@ -33,5 +34,4 @@
    * [Audio Capture Playback](AudioCapturePlayback/README.md)
    * [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
    * Tbd
-* [Coba](Coba/documentation/Coba.md)
 
