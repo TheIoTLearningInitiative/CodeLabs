@@ -17,7 +17,7 @@ Yucatan
 Quintana Roo
 
 - __Tulum__ Openstack Sensor Dashboard
-- __Coba__
+- __Coba__ Linux Kernel Module
 - __Muyil__
 - __Kohunlich__
 
