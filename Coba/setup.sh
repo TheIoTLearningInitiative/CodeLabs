@@ -11,7 +11,7 @@ tar -xvf data.tar.gz
 cd ~/usr/src/
 ln -s linux-headers-3.10.17-poky-edison linux-headers-3.10.98-poky-edison
 echo > ~/usr/src/linux-headers-3.10.98-poky-edison/include/generated/utsrelease.h
-echo "#define UTS_RELEASE "3.10.98-poky-edison+"" > ~/usr/src/linux-headers-3.10.98-poky-edison/include/generated/utsrelease.h
+echo "#define UTS_RELEASE \"3.10.98-poky-edison+\"" > ~/usr/src/linux-headers-3.10.98-poky-edison/include/generated/utsrelease.h
 cd /lib/modules/3.10.17-poky-edison+
 ln -s /home/root/usr/src/linux-headers-3.10.17-poky-edison build
 cd
