@@ -31,7 +31,6 @@ root@edison:~/CodeLabs/Coba#
 ## Execution
 
 ```sh
-root@edison:~/CodeLabs/Chicanna# python main.py 
-Found 23 faces!
+root@edison:~/CodeLabs/Chicanna#  
 root@edison:~/CodeLabs/Chicanna# 
 ```
