@@ -70,7 +70,7 @@ make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-ediso
   CC      /home/root/CodeLabs/Coba/main.mod.o
   LD [M]  /home/root/CodeLabs/Coba/main.ko
 make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
-root@edison:~/CodeLabs/Coba#
+root@edison:~/CodeLabs/Coba# 
 ```
 
 ```sh
@@ -80,5 +80,5 @@ make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-ediso
   CLEAN   /home/root/CodeLabs/Coba/.tmp_versions
   CLEAN   /home/root/CodeLabs/Coba/Module.symvers
 make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
-root@edison:~/CodeLabs/Coba#
+root@edison:~/CodeLabs/Coba# 
 ```
