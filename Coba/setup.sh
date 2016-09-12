@@ -19,7 +19,8 @@ cd
 rm data.tar.gz
 rm linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
 
-git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
+cd
+test build || git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
 # cd CodeLabs/Coba/
 
 # pip install pip --upgrade
