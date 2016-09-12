@@ -22,7 +22,7 @@ root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/C
 ## Code
 
 ```sh
-root@edison:~/CodeLabs/Coba# 
+root@edison:~/CodeLabs/Coba# nano main.c
 ```
 
 ```c
@@ -47,6 +47,10 @@ MODULE_DESCRIPTION("My First Linux Kernel Module");
 
 module_init(module_init_function);
 module_exit(module_exit_function);
+```
+
+```sh
+root@edison:~/CodeLabs/Coba# nano Makefile
 ```
 
 ```Makefile
