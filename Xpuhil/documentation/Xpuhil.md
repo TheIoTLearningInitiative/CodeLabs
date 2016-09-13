@@ -32,6 +32,6 @@ root@edison:~/CodeLabs/Xpuhil# vi main.py
 
 ```sh
 root@edison:~/CodeLabs/Xpuhil# python main.py 
-Found 23 faces!
+...
 root@edison:~/CodeLabs/Xpuhil# 
 ```
