@@ -9,7 +9,7 @@ Yucatan
 - __Chichen Itza__
 - __Uxmal__ OpenCV Camera Picture Web Streaming
 - __Ek Balam__ 
-- __Dzibilchaltun__ New! 
+- __Dzibilchaltun__ New! Telegram
 - __La Ruta Puuc__
 - __Chacmultun__ I2C Library LCD
 - __Xcambo__ Mqtt Sensor Data
