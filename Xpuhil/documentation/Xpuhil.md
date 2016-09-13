@@ -16,7 +16,7 @@ root@board:~# opkg install python-dev
 ## Setup
 
 ```sh
-root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Chicanna/setup.sh -o - | sh
+root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Xpuhil/setup.sh -o - | sh
 ```
 
 ## Code
