@@ -77,6 +77,11 @@ clean:
 ## Execution
 
 ```sh
-root@board:~/CodeLabs/Hochob# 
-root@board:~/CodeLabs/Hochob# 
+root@edison:~/CodeLabs/Hochob# make
+g++ -lmraa -lupm-i2clcd -I/usr/include/upm/ main.cpp -o main
+root@edison:~/CodeLabs/Hochob#
+```
+
+```sh
+
 ```
