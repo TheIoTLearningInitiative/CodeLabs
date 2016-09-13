@@ -13,6 +13,7 @@ wget https://raw.githubusercontent.com/xe1gyq/core/master/configuration/haarcasc
 wget https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/09/1442313353nasa-small.jpg
 mv 1442313353nasa-small.jpg imageinput.jpeg
 
+echo > /etc/opkg/base-feeds.conf
 cat << EOT >> /etc/opkg/base-feeds.conf
 src/gz all http://repo.opkg.net/edison/repo/all
 src/gz edison http://repo.opkg.net/edison/repo/edison
