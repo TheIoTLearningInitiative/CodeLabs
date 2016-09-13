@@ -32,9 +32,6 @@ root@board:~/CodeLabs/Hochob# vi main.py
 ## Execution
 
 ```sh
-root@board:~/CodeLabs/Hochob# python main.py 
-Hello Xcambo
-Data Sensor: 131970 
-API Weather: Guadalajara, JO, Mexico, Temperature 22 C, Atmospheric Pressure 847 mbar 
+root@board:~/CodeLabs/Hochob# 
 root@board:~/CodeLabs/Hochob# 
 ```
