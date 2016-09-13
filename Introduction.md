@@ -20,7 +20,7 @@ Quintana Roo
 
 - __Tulum__ Openstack Sensor Dashboard
 - __Coba__ Linux Kernel Module
-- __Muyil__
+- __Muyil__ 
 - __Kohunlich__ Linux Kernel Module I2C LCD
 
 Campeche
@@ -30,7 +30,7 @@ Campeche
 - __Hormiguero__
 - __Hochob__ Upm Sensor Library LCD
 - __Xcalumkin__
-- __Xpuhil__
+- __Xpuhil__ New! 
 - __Kanki__
 - __Tabasqueno__
 
