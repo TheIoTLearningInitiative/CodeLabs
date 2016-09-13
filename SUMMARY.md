@@ -27,6 +27,7 @@
    * [Challenge](Tulum/documentation/Challenge.md)
 * [Uxmal](Uxmal/documentation/Uxmal.md)
 * [Xcambo](Xcambo/documentation/Xcambo.md)
+* Xpuhil
 * Sandbox
    * [Picture Web Streaming](PictureWebStreaming/README.md)
    * [Text To Speech](TextToSpeech/README.md)
@@ -37,5 +38,4 @@
    * [Audio Capture Playback](AudioCapturePlayback/README.md)
    * [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
    * Tbd
-* Xpuhil
 
