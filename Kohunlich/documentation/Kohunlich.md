@@ -1,4 +1,4 @@
-# Chacmultun
+# Kohunlich
 
 > I2C Library LCD [From IoT Sensors by Marco Antonio Salgado SourceCodeCat](https://theiotlearninginitiative.gitbooks.io/internetofthingssensors/content/)
 
