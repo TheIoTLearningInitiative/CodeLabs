@@ -1,16 +1,16 @@
 echo
-echo "Welcome to Hochob Playground"
+echo "Welcome to Chacmultun Playground"
 echo
 
 sleep 4
 
 git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
-cd CodeLabs/Hochob/
+cd CodeLabs/Chacmultun/
 
 sh requirements.opkg
 
 echo
-echo "Now go to CodeLabs/Hochob directory to get started!"
+echo "Now go to CodeLabs/Chacmultun directory to get started!"
 echo
-echo "Happy Hochob'ing!"
+echo "Happy Chacmultun'ing!"
 echo
