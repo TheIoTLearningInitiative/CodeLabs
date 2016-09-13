@@ -22,7 +22,7 @@ root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/Co
 ## Code
 
 ```sh
-root@board:~/CodeLabs/Chacmultun# vi main.py
+root@board:~/CodeLabs/Kohunlich# vi main.py
 ```
 
 ```python
@@ -32,6 +32,6 @@ root@board:~/CodeLabs/Chacmultun# vi main.py
 ## Execution
 
 ```sh
-root@board:~/CodeLabs/Chacmultun# 
-root@board:~/CodeLabs/Chacmultun# 
+root@board:~/CodeLabs/Kohunlich# 
+root@board:~/CodeLabs/Kohunlich# 
 ```
