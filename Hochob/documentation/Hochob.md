@@ -9,8 +9,8 @@
 ## Software Requirements
 
 ```sh
-root@board:~# pip install psutil paho-mqtt
-root@board:~# opkg install python-dev
+root@board:~# echo "pip install none"
+root@board:~# opkg install upm mraa
 ```
 
 ```sh
