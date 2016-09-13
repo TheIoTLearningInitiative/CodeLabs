@@ -9,7 +9,7 @@ Yucatan
 - __Chichen Itza__
 - __Uxmal__ OpenCV Camera Picture Web Streaming
 - __Ek Balam__ 
-- __Dzibilchaltun__ 
+- __Dzibilchaltun__ New! Telegram
 - __La Ruta Puuc__
 - __Chacmultun__ I2C Library LCD
 - __Xcambo__ Mqtt Sensor Data
@@ -20,7 +20,7 @@ Quintana Roo
 
 - __Tulum__ Openstack Sensor Dashboard
 - __Coba__ Linux Kernel Module
-- __Muyil__
+- __Muyil__ 
 - __Kohunlich__ Linux Kernel Module I2C LCD
 
 Campeche
@@ -30,7 +30,7 @@ Campeche
 - __Hormiguero__
 - __Hochob__ Upm Sensor Library LCD
 - __Xcalumkin__
-- __Xpuhil__
+- __Xpuhil__ Freeboard!
 - __Kanki__
 - __Tabasqueno__
 

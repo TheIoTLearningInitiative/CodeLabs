@@ -27,6 +27,7 @@
    * [Challenge](Tulum/documentation/Challenge.md)
 * [Uxmal](Uxmal/documentation/Uxmal.md)
 * [Xcambo](Xcambo/documentation/Xcambo.md)
+* [Xpuhil](Xpuhil/documentation/Xpuhil.md)
 * Sandbox
    * [Picture Web Streaming](PictureWebStreaming/README.md)
    * [Text To Speech](TextToSpeech/README.md)
