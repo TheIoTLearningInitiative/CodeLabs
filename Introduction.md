@@ -30,7 +30,7 @@ Campeche
 - __Hormiguero__
 - __Hochob__ Upm Sensor Library LCD
 - __Xcalumkin__
-- __Xpuhil__ New! Freeboard!
+- __Xpuhil__ Freeboard!
 - __Kanki__
 - __Tabasqueno__
 
