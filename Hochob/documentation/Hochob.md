@@ -65,8 +65,13 @@ int main(int argc, char **argv)
 root@board:~/CodeLabs/Hochob# vi Makefile
 ```
 
-```Makefile
+```sh
+all: main
 
+main:
+	g++ -lmraa -lupm-i2clcd -I/usr/include/upm/ main.cpp -o main
+clean:
+	rm main
 ```
 
 ## Execution
