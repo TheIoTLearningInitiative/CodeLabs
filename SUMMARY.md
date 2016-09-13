@@ -5,7 +5,7 @@
 * [Introduction](Introduction.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Coba](Coba/documentation/Coba.md)
-* Hochob
+* [Hochob](Hochob/documentation/Hochob.md)
 * [Tulum](Tulum/documentation/Openstack.md)
    * [Introduction](Tulum/documentation/Introduction.md)
    * Device
