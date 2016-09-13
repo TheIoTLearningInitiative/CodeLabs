@@ -2,6 +2,8 @@
 
 > Establecidos en el sureste de México los mayas ocuparón lo que hoy son los estados de Yucatán, Campeche, Quintana Roo, Chiapas y Tabasco. [Zonas Arqueologicas Mayas](http://www.en-yucatan.com.mx/mundo-maya/)
 
+> The Maya civilization was a Mesoamerican civilization developed by the Maya peoples, and noted for its hieroglyphic script—the only known fully developed writing system of the pre-Columbian Americas—as well as for its art, architecture, mathematics, calendar, and astronomical system. The Maya civilization developed in an area that encompasses southeastern Mexico, all of Guatemala and Belize, and the western portions of Honduras and El Salvador. [Wikipedia](https://en.wikipedia.org/wiki/Maya_civilization)
+
 Yucatan
 
 - __Chichen Itza__
