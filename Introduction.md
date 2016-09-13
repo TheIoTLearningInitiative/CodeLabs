@@ -28,7 +28,7 @@ Campeche
 - __Chicanna__ OpenCV Face Recognition Web Picture
 - __Edzna__
 - __Hormiguero__
-- __Hochob__ Upm Sensor Libraries LCD
+- __Hochob__ Upm Sensor Library LCD
 - __Xcalumkin__
 - __Xpuhil__
 - __Kanki__
