@@ -16,7 +16,7 @@ root@board:~# opkg install upm mraa
 ## Setup
 
 ```sh
-root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Xcambo/setup.sh -o - | sh
+root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Hochob/setup.sh -o - | sh
 ```
 
 ## Code
