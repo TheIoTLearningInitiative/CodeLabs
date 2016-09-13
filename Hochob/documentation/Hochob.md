@@ -61,6 +61,14 @@ int main(int argc, char **argv)
 }
 ```
 
+```sh
+root@board:~/CodeLabs/Hochob# vi Makefile
+```
+
+```Makefile
+
+```
+
 ## Execution
 
 ```sh
