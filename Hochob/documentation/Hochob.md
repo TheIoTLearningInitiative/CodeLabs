@@ -83,5 +83,6 @@ root@edison:~/CodeLabs/Hochob#
 ```
 
 ```sh
+root@edison:~/CodeLabs/Hochob# ./main
 
 ```
