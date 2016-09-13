@@ -21,7 +21,7 @@ Quintana Roo
 - __Tulum__ Openstack Sensor Dashboard
 - __Coba__ Linux Kernel Module
 - __Muyil__
-- __Kohunlich__
+- __Kohunlich__ Linux Kernel Module LCD
 
 Campeche
 
