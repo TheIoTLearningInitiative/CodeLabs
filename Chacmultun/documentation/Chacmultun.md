@@ -10,7 +10,7 @@
 
 ```sh
 root@board:~# echo "pip install none"
-root@board:~# opkg install upm mraa
+root@board:~# opkg install i2c
 ```
 
 ## Setup
