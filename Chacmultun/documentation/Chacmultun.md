@@ -274,6 +274,10 @@ int main()
 ```
 
 ```sh
+root@board:~/CodeLabs/Chacmultun# vi Makefile
+```
+
+```sh
 all: lcdtest
 
 lcdtest:lcd.c
