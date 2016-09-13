@@ -16,13 +16,13 @@ root@board:~# opkg install i2c
 ## Setup
 
 ```sh
-root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Hochob/setup.sh -o - | sh
+root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Chacmultun/setup.sh -o - | sh
 ```
 
 ## Code
 
 ```sh
-root@board:~/CodeLabs/Hochob# vi main.py
+root@board:~/CodeLabs/Chacmultun# vi main.py
 ```
 
 ```python
@@ -32,6 +32,6 @@ root@board:~/CodeLabs/Hochob# vi main.py
 ## Execution
 
 ```sh
-root@board:~/CodeLabs/Hochob# 
-root@board:~/CodeLabs/Hochob# 
+root@board:~/CodeLabs/Chacmultun# 
+root@board:~/CodeLabs/Chacmultun# 
 ```
