@@ -10,7 +10,7 @@
 
 ```sh
 root@board:~# echo "pip install none"
-root@board:~# opkg install i2c
+root@board:~# echo "opkg install none"
 ```
 
 ## Setup
@@ -22,11 +22,24 @@ root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/Co
 ## Code
 
 ```sh
-root@board:~/CodeLabs/Kohunlich# vi main.py
+root@edison:~/.../LKM# wget https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/JHD1313M2.c
 ```
 
-```c
+```sh
+root@edison:~/.../LKM# wget https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/JHD1313M2.h
+```
 
+```sh
+root@edison:~/.../LKM# nano Makefile
+```
+
+```sh
+obj-m += JHD1313M2.o
+
+all:
+        make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+clean:
+        make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
 ```
 
 ## Execution
