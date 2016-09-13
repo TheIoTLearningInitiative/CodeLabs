@@ -20,6 +20,12 @@ def SIGINTHandler(signum, frame):
 
 def exitHandler():
 	print "Exiting"
+        time.sleep(2)
+        datafreeboard = {}
+        datafreeboard['alive'] = "0"
+        datafreeboard['luxes'] =  0
+        datafreeboard['message'] = "None"
+        dweepy.dweet_for('INTECS2016', datafreeboard)
 	sys.exit(0)
 
 atexit.register(exitHandler)
