@@ -1,6 +1,6 @@
 # Hochob
 
-> Upm Sensor Library LCD [From IoT Sensors by ](https://theiotlearninginitiative.gitbooks.io/internetofthingssensors/content/)
+> Upm Sensor Library LCD [From IoT Sensors by Marco Antonio Salgado SourceCodeCat](https://theiotlearninginitiative.gitbooks.io/internetofthingssensors/content/)
 
 ## Hardware Requirements
 
