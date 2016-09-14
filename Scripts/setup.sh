@@ -6,6 +6,8 @@ sleep 4
 
 git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
 
+opkg update
+
 sh CodeLabs/Chacmultun/setup.sh
 sh CodeLabs/Chicanna/setup.sh
 sh CodeLabs/Coba/setup.sh
