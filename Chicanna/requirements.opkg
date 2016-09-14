@@ -1,2 +1,2 @@
-opkg update
+# opkg update
 opkg install python-dev python-opencv python-numpy
