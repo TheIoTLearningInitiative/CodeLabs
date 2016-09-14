@@ -1,2 +1,2 @@
-opkg update
+# opkg update
 opkg install python-dev i2c-tools-dev
