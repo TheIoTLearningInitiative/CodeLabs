@@ -6,6 +6,7 @@
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Coba](Coba/documentation/Coba.md)
+* Dzibilchaltun
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Kohunlich](Kohunlich/documentation/Kohunlich.md)
 * [Tulum](Tulum/documentation/Openstack.md)
@@ -38,5 +39,4 @@
    * [Audio Capture Playback](AudioCapturePlayback/README.md)
    * [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
    * Tbd
-* Dzibilchaltun
 
