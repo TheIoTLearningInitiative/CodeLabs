@@ -108,19 +108,6 @@ if __name__ == '__main__':
     updater.idle()
 ```
 
-```sh
-root@edison:~/CodeLabs/Dzibilchaltun# nano Makefile
-```
-
-```sh
-obj-m += main.o
-
-all:
-	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
-clean:
-	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
-```
-
 ## Execution
 
 ```sh
