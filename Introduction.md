@@ -32,6 +32,8 @@ Campeche
 - __Kanki__
 - __Tabasqueno__
 
+## CodeLabs Not Available Automated
+
 ```sh
 root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Scripts/clean.sh -o - | sh
 ```
@@ -39,6 +41,8 @@ root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/Co
 ```sh
 root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Scripts/setup.sh -o - | sh
 ```
+
+## CodeLabs Not Available Manual
 
 ```sh
 root@edison:~# git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
@@ -51,6 +55,14 @@ Resolving deltas: 100% (136/136), done.
 Checking connectivity... done.
 root@edison:~# cd CodeLabs/
 root@edison:~/CodeLabs# 
+```
+
+## CodeLabs Available
+
+```sh
+root@edison:~/CodeLabs# git reset --hard
+HEAD is now at 2fe8288 Merge branch 'master' of https://github.com/TheIoTLearningInitiative/CodeLabs
+root@edison:~/CodeLabs# git clean -xf
 ```
 
 ```sh
