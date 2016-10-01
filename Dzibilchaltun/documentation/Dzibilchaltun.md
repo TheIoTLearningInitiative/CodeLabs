@@ -9,7 +9,7 @@
 ## Software Requirements
 
 ```sh
-root@board:~# echo "pip install none"
+root@board:~# echo "pip install requests future python-telegram-bot"
 root@board:~# echo "opkg install python-dev"
 ```
 
