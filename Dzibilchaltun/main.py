@@ -70,7 +70,7 @@ if __name__ == '__main__':
         display.clear()
 
         if button.value() is 1:
-            display.setColor(255, 0, 0)
+            display.setColor(255, 255, 0)
             display.setCursor(0,0)
             display.write(str(message))
             relay.on()
