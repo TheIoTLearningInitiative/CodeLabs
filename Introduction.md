@@ -50,7 +50,7 @@ rm: cannot remove '/lib/modules/3.10.98-poky-edison+/build': No such file or dir
 
 Happy Hacking'ing!
 
-root@edison:~#
+root@edison:~# 
 ```
 
 ```sh
