@@ -39,6 +39,21 @@ root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/Co
 ```
 
 ```sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   239  100   239    0     0    195      0  0:00:01  0:00:01 --:--:--   217
+
+Welcome to The IoT Learning Initiative Code Labs Playground
+
+Removing all files under Home directory...
+rm: cannot remove '/lib/modules/3.10.98-poky-edison+/build': No such file or directory
+
+Happy Hacking'ing!
+
+root@edison:~#
+```
+
+```sh
 root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Scripts/setup.sh -o - | sh
 ```
 
