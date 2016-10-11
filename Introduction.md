@@ -57,6 +57,17 @@ root@edison:~#
 root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Scripts/setup.sh -o - | sh
 ```
 
+```sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   469  100   469    0     0    437      0  0:00:01  0:00:01 --:--:--   489
+
+Welcome to The IoT Learning Initiative Code Labs Playground
+
+
+
+```
+
 ## CodeLabs Not Available Manual
 
 ```sh
