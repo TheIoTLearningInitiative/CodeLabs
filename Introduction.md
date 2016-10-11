@@ -64,8 +64,20 @@ root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/Co
 
 Welcome to The IoT Learning Initiative Code Labs Playground
 
-
-
+Cloning into 'CodeLabs'...
+remote: Counting objects: 2114, done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 2114 (delta 4), reused 0 (delta 0), pack-reused 2101
+Receiving objects: 100% (2114/2114), 325.17 KiB | 212.00 KiB/s, done.
+Resolving deltas: 100% (1111/1111), done.
+Checking connectivity... done.
+Downloading http://iotdk.intel.com/repos/3.5/intelgalactic/opkg/i586//Packages.
+Updated list of available packages in /var/lib/opkg/iotkit.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/all/Packages.
+Updated list of available packages in /var/lib/opkg/iotdk-all.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/Packages.
+...
+...
 ```
 
 ## CodeLabs Not Available Manual
