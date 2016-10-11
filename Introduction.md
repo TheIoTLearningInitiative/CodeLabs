@@ -78,6 +78,14 @@ Updated list of available packages in /var/lib/opkg/iotdk-all.
 Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/Packages.
 ...
 ...
+Successfully installed dweepy-0.2.0
+
+Now go to CodeLabs/Xpuhil directory to get started!
+
+Happy Xpuhil'ing!
+
+
+Happy Hacking'ing!
 ```
 
 ## CodeLabs Not Available, Only Cloning
