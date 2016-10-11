@@ -32,7 +32,7 @@ Campeche
 - __Kanki__
 - __Tabasqueno__
 
-## CodeLabs Not Available Automated
+## CodeLabs Not Available, Cloning and Setup
 
 ```sh
 root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Scripts/clean.sh -o - | sh
@@ -80,7 +80,7 @@ Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/Packages.
 ...
 ```
 
-## CodeLabs Not Available Manual
+## CodeLabs Not Available, Only Cloning
 
 ```sh
 root@edison:~# git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
