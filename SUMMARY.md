@@ -10,6 +10,7 @@
 * [Hochob](Hochob/documentation/Hochob.md)
 * Kanki
    * [Introduction](Kanki/documentation/Introduction.md)
+   * Device
 * [Kohunlich](Kohunlich/documentation/Kohunlich.md)
 * [Tulum](Tulum/documentation/Openstack.md)
    * [Introduction](Tulum/documentation/Introduction.md)
