@@ -12,6 +12,7 @@
    * [Introduction](Kanki/documentation/Introduction.md)
    * [Device](Kanki/documentation/Device.md)
 * [Kohunlich](Kohunlich/documentation/Kohunlich.md)
+* Mayapan
 * [Tulum](Tulum/documentation/Openstack.md)
    * [Introduction](Tulum/documentation/Introduction.md)
    * Device
@@ -42,5 +43,4 @@
    * [Audio Capture Playback](AudioCapturePlayback/README.md)
    * [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
    * Tbd
-* Mayapan
 
