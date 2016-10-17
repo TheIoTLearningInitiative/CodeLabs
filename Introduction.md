@@ -11,7 +11,7 @@ Yucatan
 - __La Ruta Puuc__
 - __Chacmultun__ I2C Library LCD
 - __Xcambo__ Mqtt Sensor Data
-- __Mayapan__
+- __Mayapan__ 
 - __Kinich KaK Moo__
 
 Quintana Roo
