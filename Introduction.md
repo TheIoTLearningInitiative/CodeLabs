@@ -29,7 +29,7 @@ Campeche
 - __Hochob__ Upm Sensor Library LCD
 - __Xcalumkin__
 - __Xpuhil__ Freeboard
-- __Kanki__ 
+- __Kanki__ Tbd
 - __Tabasqueno__
 
 ## CodeLabs Not Available, Cloning and Setup
