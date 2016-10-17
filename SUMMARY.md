@@ -12,7 +12,7 @@
    * [Introduction](Kanki/documentation/Introduction.md)
    * [Device](Kanki/documentation/Device.md)
 * [Kohunlich](Kohunlich/documentation/Kohunlich.md)
-* Mayapan
+* [Mayapan](Mayapan/documentation/Mayapan.md)
 * [Tulum](Tulum/documentation/Openstack.md)
    * [Introduction](Tulum/documentation/Introduction.md)
    * Device
