@@ -1,5 +1,9 @@
 # Gateway
 
+```sh
+user@ẁorkstation:~$ sudo apt-get install -y apache2
+```
+
 # IP Address
 
 ```sh
