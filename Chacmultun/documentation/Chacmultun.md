@@ -15,7 +15,7 @@
 root@board:~# opkg install i2c-tools-dev
 ```
 
-## Setup
+## Setup Automated
 
 ```sh
 root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Chacmultun/setup.sh -o - | sh
