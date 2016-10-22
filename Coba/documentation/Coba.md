@@ -1,6 +1,6 @@
 # Coba
 
-> Linux Kernel module
+> Linux Kernel Module
 
 ## Hardware Requirements
 
