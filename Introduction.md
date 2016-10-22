@@ -27,7 +27,7 @@ Campeche
 - __Edzna__
 - __Hormiguero__
 - __Hochob__ Upm Sensor Library LCD
-- __Kanki__ Arduino
+- __Kanki__ ESP8266
 - __Tabasqueno__
 - __Xcalumkin__
 - __Xpuhil__ Freeboard
