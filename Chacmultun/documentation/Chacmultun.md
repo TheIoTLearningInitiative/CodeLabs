@@ -291,6 +291,5 @@ clean:
 ## Execution
 
 ```sh
-root@board:~/CodeLabs/Chacmultun# 
-root@board:~/CodeLabs/Chacmultun# 
+root@board:~/CodeLabs/Chacmultun# ./main
 ```
