@@ -29,7 +29,7 @@ xe1gyq@jessie:~$ curl http://192.168.1.73/led?params=0
 
 # Python urllib json
 
-## 
+## loads
 
 ```python
 import urllib, json
@@ -43,6 +43,8 @@ print data
 root@edison:~# python main.py 
 {u'hardware': u'esp8266', u'variables': {u'temperature': 24, u'humidity': 40}, u'connected': True, u'id': u'1', u'name': u'esp8266'}
 ```
+
+## load
 
 ```python
 import json
