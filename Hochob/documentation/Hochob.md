@@ -9,13 +9,13 @@
 - [Intel Edison for Arduino](https://www.seeedstudio.com/Intel%C2%AE-Edison-for-Arduino-p-2149.html)
 - [Grove - LCD RGB Backlight](http://wiki.seeed.cc/Grove-LCD_RGB_Backlight/)
 
-## Software Requirements
+## Setup Manual
 
 ```sh
 root@board:~# opkg install python-dev upm mraa
 ```
 
-## Setup
+## Setup Automated
 
 ```sh
 root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Hochob/setup.sh -o - | sh
