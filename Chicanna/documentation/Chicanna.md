@@ -1,19 +1,28 @@
 # Chicanna
 
-> 
+> Face Recogntion OpenCV Web Image
 
 ## Hardware Requirements
 
-- None
+- Workstation (Linux, Windows, OS X)
+- Internet Connection
+- [Intel Edison for Arduino](https://www.seeedstudio.com/Intel%C2%AE-Edison-for-Arduino-p-2149.html)
 
-## Software Requirements
+## Setup Manual
 
 ```sh
 root@board:~# pip install numpy
 root@board:~# opkg install python-dev python-opencv python-numpy
+root@board:~# echo > /etc/opkg/base-feeds.conf
+root@board:~# cat << EOT >> /etc/opkg/base-feeds.conf
+src/gz all http://repo.opkg.net/edison/repo/all
+src/gz edison http://repo.opkg.net/edison/repo/edison
+src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
+EOT
+root@board:~# 
 ```
 
-## Setup
+## Setup Automated
 
 ```sh
 root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Chicanna/setup.sh -o - | sh
@@ -69,7 +78,12 @@ if __name__ == "__main__":
 ## Execution
 
 ```sh
-root@edison:~/CodeLabs/Chicanna# python main.py 
+root@board:~/CodeLabs/Chicanna# wget https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/09/1442313353nasa-small.jpg
+root@board:~/CodeLabs/Chicanna# mv 1442313353nasa-small.jpg imageinput.jpeg
+```
+
+```sh
+root@board:~/CodeLabs/Chicanna# python main.py 
 Found 23 faces!
-root@edison:~/CodeLabs/Chicanna# 
+root@board:~/CodeLabs/Chicanna# 
 ```

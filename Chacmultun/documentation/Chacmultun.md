@@ -9,14 +9,13 @@
 - [Intel Edison for Arduino](https://www.seeedstudio.com/Intel%C2%AE-Edison-for-Arduino-p-2149.html)
 - [Grove - LCD RGB Backlight](http://wiki.seeed.cc/Grove-LCD_RGB_Backlight/)
 
-## Software Requirements
+## Setup Manual
 
 ```sh
-root@board:~# echo "pip install none"
-root@board:~# opkg install python-dev i2c-tools-dev
+root@board:~# opkg install i2c-tools-dev
 ```
 
-## Setup
+## Setup Automated
 
 ```sh
 root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Chacmultun/setup.sh -o - | sh
@@ -281,17 +280,25 @@ root@board:~/CodeLabs/Chacmultun# vi Makefile
 ```
 
 ```sh
-all: lcdtest
+all: main
 
-lcdtest:lcd.c
-		gcc -O lcd.c -o lcdtest
+main:main.c
+		gcc -O main.c -o main
 clean:
-		@rm lcdtest
+		@rm main
 ```
 
 ## Execution
 
 ```sh
-root@board:~/CodeLabs/Chacmultun# 
+root@board:~/CodeLabs/Chacmultun# ls
+Makefile  documentation  main.c  requirements.opkg  setup.sh
+root@board:~/CodeLabs/Chacmultun# make
+gcc -O main.c -o main
+root@board:~/CodeLabs/Chacmultun# ls
+Makefile  documentation  main  main.c  requirements.opkg  setup.sh
+root@board:~/CodeLabs/Chacmultun# ./main
+
+DONE!
 root@board:~/CodeLabs/Chacmultun# 
 ```

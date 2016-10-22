@@ -8,7 +8,7 @@
 * [Coba](Coba/documentation/Coba.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
 * [Hochob](Hochob/documentation/Hochob.md)
-* Kanki
+* [Kanki](Kanki)
    * [Introduction](Kanki/documentation/Introduction.md)
    * [Device](Kanki/documentation/Device.md)
 * [Kohunlich](Kohunlich/documentation/Kohunlich.md)
