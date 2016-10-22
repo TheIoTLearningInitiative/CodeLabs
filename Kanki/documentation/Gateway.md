@@ -100,14 +100,15 @@ user@ẁorkstation:~$ npm update -g express  body-parser
 ```
 
 ```sh
-user@ẁorkstation:~$ npm isntall socket.io --save
+user@ẁorkstation:~$ npm install socket.io --save
 user@ẁorkstation:~$ npm install express --save
 user@ẁorkstation:~$ npm install johnny-five --save
 user@ẁorkstation:~$ npm install edison-io --save
 user@ẁorkstation:~$ npm install -g bower
+user@ẁorkstation:~$ npm install j5-songs --save
 user@ẁorkstation:~$ bower install angularjs --save --allow-root
 user@ẁorkstation:~$ bower install socket.io-client --save --allow-root
 user@ẁorkstation:~$ bower install angular-socket-io --save
-user@ẁorkstation:~$ 
+user@ẁorkstation:~$ npm install j5-songs --save
 user@ẁorkstation:~$ 
 ```
