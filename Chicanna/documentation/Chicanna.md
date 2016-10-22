@@ -71,6 +71,11 @@ if __name__ == "__main__":
 ## Execution
 
 ```sh
+root@edison:~/CodeLabs/Chicanna# wget https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/09/1442313353nasa-small.jpg
+root@edison:~/CodeLabs/Chicanna# mv 1442313353nasa-small.jpg imageinput.jpeg
+```
+
+```sh
 root@edison:~/CodeLabs/Chicanna# python main.py 
 Found 23 faces!
 root@edison:~/CodeLabs/Chicanna# 
