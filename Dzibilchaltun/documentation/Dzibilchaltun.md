@@ -12,14 +12,14 @@
 - [Grove - Light Sensor](https://www.seeedstudio.com/Grove-Light-Sensor-p-746.html)
 - [Grove - Relay](https://www.seeedstudio.com/Grove-Relay-p-769.html)
 
-## Software Requirements
+## Setup Manual
 
 ```sh
 root@board:~# pip install requests future python-telegram-bot"
 root@board:~# opkg install python-dev"
 ```
 
-## Setup
+## Setup Automated
 
 ```sh
 root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Dzibilchaltun/setup.sh -o - | sh
