@@ -96,6 +96,8 @@ root@board:~/CodeLabs/Coba# insmod main.ko
 root@board:~/CodeLabs/Coba# dmesg
 [ 3723.256572] Main? Hello!
 root@board:~/CodeLabs/Coba# rmmod main.ko
+root@board:~/CodeLabs/Coba# dmesg
+[ 3723.256572] Main? Bye!
 ```
 
 ```sh
