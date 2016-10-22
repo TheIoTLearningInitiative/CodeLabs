@@ -211,9 +211,9 @@ void loop() {
 user@ẁorkstation:~$ sudo nmap -sP 192.168.1.1-254
 
 Starting Nmap 6.47 ( http://nmap.org ) at 2016-10-22 15:14 CDT
-MAC Address: 18:FE:34:DC:27:3F (Espressif)
-Nmap scan report for 192.168.1.74
+Nmap scan report for 192.168.1.73
 Host is up (0.13s latency).
+MAC Address: 18:FE:34:DC:27:3F (Espressif)
 Nmap done: 254 IP addresses (8 hosts up) scanned in 5.20 seconds
 user@ẁorkstation:~$ 
 ```
