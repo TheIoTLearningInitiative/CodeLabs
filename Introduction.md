@@ -4,15 +4,15 @@
 
 Yucatan
 
-- __Chichen Itza__
-- __Uxmal__ OpenCV Camera Picture Web Streaming
-- __Ek Balam__ 
-- __Dzibilchaltun__ Telegram Bot
-- __La Ruta Puuc__
 - __Chacmultun__ I2C Library LCD
-- __Xcambo__ Mqtt Sensor Data
-- __Mayapan__ Domotics
+- __Chichen Itza__
+- __Dzibilchaltun__ Telegram Bot
+- __Ek Balam__ 
 - __Kinich KaK Moo__
+- __La Ruta Puuc__
+- __Mayapan__ Domotics
+- __Uxmal__ OpenCV Camera Picture Web Streaming
+- __Xcambo__ Mqtt Sensor Data
 
 Quintana Roo
 
