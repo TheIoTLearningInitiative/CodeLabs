@@ -280,12 +280,12 @@ root@board:~/CodeLabs/Chacmultun# vi Makefile
 ```
 
 ```sh
-all: lcdtest
+all: main
 
-lcdtest:lcd.c
-		gcc -O lcd.c -o lcdtest
+main:main.c
+		gcc -O main.c -o main
 clean:
-		@rm lcdtest
+		@rm main
 ```
 
 ## Execution
