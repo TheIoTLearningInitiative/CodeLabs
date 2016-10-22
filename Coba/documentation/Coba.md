@@ -11,32 +11,32 @@
 ## Setup Manual
 
 ```sh
-root@edison:~# cd
-root@edison:~# wget https://github.com/SourceCodeCat/IoTDownloads/raw/master/linux-headers-3.1$
-root@edison:~# ar x linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
-root@edison:~# tar -xvf data.tar.gz
-root@edison:~# cd ~/usr/src/
-root@edison:~# ln -s linux-headers-3.10.17-poky-edison linux-headers-3.10.98-poky-edison
-root@edison:~# cd
-root@edison:~# echo > ~/usr/src/linux-headers-3.10.98-poky-edison/include/generated/utsrelease$
-root@edison:~# echo "#define UTS_RELEASE \"3.10.98-poky-edison+\"" > ~/usr/src/linux-headers-3$
-root@edison:~# cd /lib/modules/3.10.98-poky-edison+
-root@edison:~# ln -s /home/root/usr/src/linux-headers-3.10.98-poky-edison build
-root@edison:~# cd
-root@edison:~# rm data.tar.gz
-root@edison:~# rm linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
+root@board:~# cd
+root@board:~# wget https://github.com/SourceCodeCat/IoTDownloads/raw/master/linux-headers-3.1$
+root@board:~# ar x linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
+root@board:~# tar -xvf data.tar.gz
+root@board:~# cd ~/usr/src/
+root@board:~# ln -s linux-headers-3.10.17-poky-edison linux-headers-3.10.98-poky-edison
+root@board:~# cd
+root@board:~# echo > ~/usr/src/linux-headers-3.10.98-poky-edison/include/generated/utsrelease$
+root@board:~# echo "#define UTS_RELEASE \"3.10.98-poky-edison+\"" > ~/usr/src/linux-headers-3$
+root@board:~# cd /lib/modules/3.10.98-poky-edison+
+root@board:~# ln -s /home/root/usr/src/linux-headers-3.10.98-poky-edison build
+root@board:~# cd
+root@board:~# rm data.tar.gz
+root@board:~# rm linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
 ```
 
 ## Setup Automated
 
 ```sh
-root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Coba/setup.sh -o - | sh
+root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Coba/setup.sh -o - | sh
 ```
 
 ## Code
 
 ```sh
-root@edison:~/CodeLabs/Coba# nano main.c
+root@board:~/CodeLabs/Coba# nano main.c
 ```
 
 ```c
@@ -79,7 +79,7 @@ clean:
 ## Execution
 
 ```sh
-root@edison:~/CodeLabs/Coba# make
+root@board:~/CodeLabs/Coba# make
 make -C /lib/modules/3.10.98-poky-edison+/build M=/home/root/CodeLabs/Coba modules
 make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
   CC [M]  /home/root/CodeLabs/Coba/main.o
@@ -88,15 +88,15 @@ make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-ediso
   CC      /home/root/CodeLabs/Coba/main.mod.o
   LD [M]  /home/root/CodeLabs/Coba/main.ko
 make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
-root@edison:~/CodeLabs/Coba# 
+root@board:~/CodeLabs/Coba# 
 ```
 
 ```sh
-root@edison:~/CodeLabs/Coba# make clean
+root@board:~/CodeLabs/Coba# make clean
 make -C /lib/modules/3.10.98-poky-edison+/build M=/home/root/CodeLabs/Coba clean
 make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
   CLEAN   /home/root/CodeLabs/Coba/.tmp_versions
   CLEAN   /home/root/CodeLabs/Coba/Module.symvers
 make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
-root@edison:~/CodeLabs/Coba# 
+root@board:~/CodeLabs/Coba# 
 ```
