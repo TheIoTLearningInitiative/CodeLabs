@@ -13,8 +13,8 @@
 ## Software Requirements
 
 ```sh
-root@board:~# echo "pip install requests future python-telegram-bot"
-root@board:~# echo "opkg install python-dev"
+root@board:~# pip install requests future python-telegram-bot"
+root@board:~# opkg install python-dev"
 ```
 
 ## Setup
