@@ -111,6 +111,8 @@ user@ẁorkstation:~$ curl http://192.168.1.73
 ```
 
 ```sh
-user@ẁorkstation:~$ curl http://192.168.1.73/led
+xe1gyq@jessie:~$ curl http://192.168.1.73/led?params=1
+{"return_value": 1, "id": "1", "name": "esp8266", "hardware": "esp8266", "connected": true}
+xe1gyq@jessie:~$ curl http://192.168.1.73/led?params=0
 {"return_value": 1, "id": "1", "name": "esp8266", "hardware": "esp8266", "connected": true}
 ```
