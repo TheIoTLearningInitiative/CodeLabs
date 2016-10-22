@@ -73,9 +73,6 @@ root@edison:~# python url.py
 {u'hardware': u'esp8266', u'variables': {u'temperature': 24, u'humidity': 40}, u'connected': True, u'id': u'1', u'name': u'esp8266'}
 ```
 
-# Python urllib json
-
-
 # App
 
 ```sh
