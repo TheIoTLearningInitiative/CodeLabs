@@ -20,13 +20,13 @@ root@board:~# opkg install python-dev"
 ## Setup
 
 ```sh
-root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Dzibilchaltun/setup.sh -o - | sh
+root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Dzibilchaltun/setup.sh -o - | sh
 ```
 
 ## Code
 
 ```sh
-root@edison:~/CodeLabs/Dzibilchaltun# nano main.c
+root@board:~/CodeLabs/Dzibilchaltun# nano main.c
 ```
 
 ```c
@@ -115,7 +115,7 @@ if __name__ == '__main__':
 ## Execution
 
 ```sh
-root@edison:~/CodeLabs/Dzibilchaltun# 
+root@board:~/CodeLabs/Dzibilchaltun# 
 /usr/lib/python2.7/site-packages/urllib3/util/ssl_.py:318: SNIMissingWarning: An HTTPS request has been made, but the SNI (Subject Name Indication) extension to TLS is not available on this platform. This may cause the server to present an incorrect TLS certificate, which can cause validation failures. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.io/en/latest/security.html#snimissingwarning.
   SNIMissingWarning
 /usr/lib/python2.7/site-packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.io/en/latest/security.html#insecureplatformwarning.
