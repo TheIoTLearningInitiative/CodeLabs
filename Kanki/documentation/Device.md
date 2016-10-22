@@ -222,3 +222,8 @@ user@ẁorkstation:~$
 user@ẁorkstation:~$ curl http://192.168.1.73
 {"variables": {"temperature": 24, "humidity": 40}, "id": "1", "name": "esp8266", "hardware": "esp8266", "connected": true}
 ```
+
+```sh
+user@ẁorkstation:~$ curl http://192.168.1.73/led
+{"return_value": 1, "id": "1", "name": "esp8266", "hardware": "esp8266", "connected": true}
+```
