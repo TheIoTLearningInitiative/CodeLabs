@@ -27,10 +27,10 @@ Campeche
 - __Edzna__
 - __Hormiguero__
 - __Hochob__ Upm Sensor Library LCD
-- __Xcalumkin__
-- __Xpuhil__ Freeboard
 - __Kanki__ Arduino
 - __Tabasqueno__
+- __Xcalumkin__
+- __Xpuhil__ Freeboard
 
 ## CodeLabs Not Available, Cloning and Setup
 
