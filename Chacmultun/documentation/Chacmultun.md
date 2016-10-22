@@ -13,7 +13,7 @@
 
 ```sh
 root@board:~# echo "pip install none"
-root@board:~# opkg install python-dev i2c-tools-dev
+root@board:~# opkg install i2c-tools-dev
 ```
 
 ## Setup
