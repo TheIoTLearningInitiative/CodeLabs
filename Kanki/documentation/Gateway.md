@@ -109,6 +109,5 @@ user@ẁorkstation:~$ npm install j5-songs --save
 user@ẁorkstation:~$ bower install angularjs --save --allow-root
 user@ẁorkstation:~$ bower install socket.io-client --save --allow-root
 user@ẁorkstation:~$ bower install angular-socket-io --save
-user@ẁorkstation:~$ npm install j5-songs --save
 user@ẁorkstation:~$ 
 ```
