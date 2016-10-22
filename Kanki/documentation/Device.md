@@ -27,8 +27,7 @@ int humidity;
 
 int ledControl(String command);
 
-void setup(void)
-{
+void setup(void) {
   Serial.begin(115200);
 
   pinMode(LED_BUILTIN, OUTPUT);
@@ -57,7 +56,6 @@ void setup(void)
 }
 
 void loop() {
-
   WiFiClient client = server.available();
   if (!client) {
     return;
@@ -66,15 +64,12 @@ void loop() {
     delay(1);
   }
   rest.handle(client);
-
 }
 
 int ledControl(String command) {
-
   int state = command.toInt();
   digitalWrite(LED_BUILTIN,state);
   return 1;
-
 }
 ```
 
