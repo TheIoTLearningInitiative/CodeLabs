@@ -6,6 +6,10 @@ user@ẁorkstation:~$ sudo apt-get install -y apache2
 user@ẁorkstation:~$ sudo apt-get -y install php5 libapache2-mod-php5
 ```
 
+```sh
+npm update -g express
+```
+
 # IP Address
 
 ```sh
