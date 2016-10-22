@@ -113,5 +113,16 @@ print r.json()
 ```
 
 ```sh
-pip install request
+root@edison:~# cat j.py 
+import json
+import urllib
+
+url = 'http://192.168.1.73'
+output = json.load(urllib.urlopen(url))
+print(output)
+```
+
+```sh
+root@edison:~# python j.py 
+{u'hardware': u'esp8266', u'variables': {u'temperature': 24, u'humidity': 40}, u'connected': True, u'id': u'1', u'name': u'esp8266'}
 ```
