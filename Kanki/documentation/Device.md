@@ -2,6 +2,8 @@
 
 https://github.com/marcoschwartz/aREST/tree/master/examples
 
+
+
 ```sh
 /*
   This a simple example of the aREST Library for the ESP8266 WiFi chip.
@@ -108,4 +110,8 @@ print data
 import requests
 r = requests.get('http://192.168.1.73')
 print r.json()
+```
+
+```sh
+pip install request
 ```
