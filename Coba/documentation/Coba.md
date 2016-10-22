@@ -6,7 +6,7 @@
 
 - None
 
-## Software Requirements
+## Setup Manual
 
 ```sh
 root@edison:~# cd
@@ -25,7 +25,7 @@ root@edison:~# rm data.tar.gz
 root@edison:~# rm linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
 ```
 
-## Setup
+## Setup Automated
 
 ```sh
 root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Coba/setup.sh -o - | sh
