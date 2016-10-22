@@ -104,4 +104,9 @@ user@ẁorkstation:~$ npm isntall socket.io --save
 user@ẁorkstation:~$ npm install express --save
 user@ẁorkstation:~$ npm install johnny-five --save
 user@ẁorkstation:~$ npm install -g bower
+user@ẁorkstation:~$ bower install angularjs --save --allow-root
+user@ẁorkstation:~$ 
+user@ẁorkstation:~$ 
+user@ẁorkstation:~$ 
+user@ẁorkstation:~$ 
 ```
