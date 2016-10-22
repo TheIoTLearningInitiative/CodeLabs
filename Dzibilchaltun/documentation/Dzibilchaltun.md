@@ -2,7 +2,7 @@
 
 > Telegram
 
-## Hardware Requirements
+## Requirements
 
 - Workstation (Linux, Windows, OS X)
 - Internet Connection
