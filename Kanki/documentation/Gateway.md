@@ -1,15 +1,5 @@
 # Gateway
 
-```sh
-user@ẁorkstation:~$ sudo apt-get update
-user@ẁorkstation:~$ sudo apt-get install -y apache2
-user@ẁorkstation:~$ sudo apt-get -y install php5 libapache2-mod-php5
-```
-
-```sh
-user@ẁorkstation:~$ npm update -g express  body-parser
-```
-
 # IP Address
 
 ```sh
@@ -97,4 +87,14 @@ root@edison:~# cd aREST-app-example/
 root@edison:~/aREST-app-example# ls
 README.md  curl.php  interface.html  jquery-2.0.3.min.js  script.js  style.css
 root@edison:~/aREST-app-example# 
+```
+
+```sh
+user@ẁorkstation:~$ sudo apt-get update
+user@ẁorkstation:~$ sudo apt-get install -y apache2
+user@ẁorkstation:~$ sudo apt-get -y install php5 libapache2-mod-php5
+```
+
+```sh
+user@ẁorkstation:~$ npm update -g express  body-parser
 ```
