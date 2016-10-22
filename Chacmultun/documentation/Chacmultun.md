@@ -4,7 +4,9 @@
 
 ## Hardware Requirements
 
-
+- Workstation (Linux, Windows, OS X)
+- Internet Connection
+- Intel Edison Development Board
 - [Grove - LCD RGB Backlight](http://wiki.seeed.cc/Grove-LCD_RGB_Backlight/)
 
 ## Software Requirements
