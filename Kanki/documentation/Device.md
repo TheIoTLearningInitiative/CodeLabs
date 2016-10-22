@@ -113,7 +113,6 @@ print r.json()
 ```
 
 ```sh
-root@edison:~# cat j.py 
 import json
 import urllib
 
