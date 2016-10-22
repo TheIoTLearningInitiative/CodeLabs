@@ -135,3 +135,20 @@ print(output)
 root@edison:~# python j.py 
 {u'hardware': u'esp8266', u'variables': {u'temperature': 24, u'humidity': 40}, u'connected': True, u'id': u'1', u'name': u'esp8266'}
 ```
+
+
+# App
+
+```sh
+root@edison:~# git clone https://github.com/marcoschwartz/aREST-app-example.git
+Cloning into 'aREST-app-example'...
+remote: Counting objects: 11, done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 11 (delta 0), reused 11 (delta 0), pack-reused 0
+Unpacking objects: 100% (11/11), done.
+Checking connectivity... done.
+root@edison:~# cd aREST-app-example/
+root@edison:~/aREST-app-example# ls
+README.md  curl.php  interface.html  jquery-2.0.3.min.js  script.js  style.css
+root@edison:~/aREST-app-example# 
+```
