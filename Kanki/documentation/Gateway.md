@@ -103,7 +103,7 @@ user@ẁorkstation:~$ npm update -g express  body-parser
 user@ẁorkstation:~$ npm install socket.io --save
 user@ẁorkstation:~$ npm install express --save
 user@ẁorkstation:~$ npm install johnny-five --save
-user@ẁorkstation:~$ npm install edison-io --save
+user@ẁorkstation:~$ npm install edison-io galileo-io --save
 user@ẁorkstation:~$ npm install -g bower
 user@ẁorkstation:~$ npm install j5-songs --save
 user@ẁorkstation:~$ bower install angularjs --save --allow-root
