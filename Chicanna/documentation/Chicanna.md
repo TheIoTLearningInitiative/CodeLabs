@@ -8,7 +8,7 @@
 - Internet Connection
 - [Intel Edison for Arduino](https://www.seeedstudio.com/Intel%C2%AE-Edison-for-Arduino-p-2149.html)
 
-## Software Requirements
+## Setup Manual
 
 ```sh
 root@board:~# pip install numpy
@@ -22,7 +22,7 @@ EOT
 root@board:~# 
 ```
 
-## Setup
+## Setup Automated
 
 ```sh
 root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Chicanna/setup.sh -o - | sh
