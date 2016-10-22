@@ -94,6 +94,7 @@ root@board:~/CodeLabs/Coba#
 ```sh
 root@board:~/CodeLabs/Coba# insmod main.ko
 root@board:~/CodeLabs/Coba# dmesg
+root@board:~/CodeLabs/Coba# rmmod main.ko
 ```
 
 ```sh
