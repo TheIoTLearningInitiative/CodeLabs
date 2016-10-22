@@ -43,6 +43,22 @@ WiFiServer server(LISTEN_PORT);
 // Functions
 void callback(char* topic, byte* payload, unsigned int length);
 
+// Handles message arrived on subscribed topic(s)
+void callback(char* topic, byte* payload, unsigned int length) {
+
+  rest.handle_callback(client, topic, payload, length);
+
+}
+
+// Convert IP address to String
+String ipToString(IPAddress address)
+{
+  return String(address[0]) + "." +
+    String(address[1]) + "." +
+    String(address[2]) + "." +
+    String(address[3]);
+}
+
 void setup(void)
 {
   // Start Serial
@@ -96,22 +112,6 @@ void loop() {
   }
   rest.handle(clientLocal);
 
-}
-
-// Handles message arrived on subscribed topic(s)
-void callback(char* topic, byte* payload, unsigned int length) {
-
-  rest.handle_callback(client, topic, payload, length);
-
-}
-
-// Convert IP address to String
-String ipToString(IPAddress address)
-{
-  return String(address[0]) + "." +
-    String(address[1]) + "." +
-    String(address[2]) + "." +
-    String(address[3]);
 }
 ```
 
