@@ -291,14 +291,14 @@ clean:
 ## Execution
 
 ```sh
-root@edison:~/CodeLabs/Chacmultun# ls
+root@board:~/CodeLabs/Chacmultun# ls
 Makefile  documentation  main.c  requirements.opkg  setup.sh
-root@edison:~/CodeLabs/Chacmultun# make
+root@board:~/CodeLabs/Chacmultun# make
 gcc -O main.c -o main
-root@edison:~/CodeLabs/Chacmultun# ls
+root@board:~/CodeLabs/Chacmultun# ls
 Makefile  documentation  main  main.c  requirements.opkg  setup.sh
-root@edison:~/CodeLabs/Chacmultun# ./main
+root@board:~/CodeLabs/Chacmultun# ./main
 
 DONE!
-root@edison:~/CodeLabs/Chacmultun# 
+root@board:~/CodeLabs/Chacmultun# 
 ```
