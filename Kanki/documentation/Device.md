@@ -207,7 +207,7 @@ void loop() {
 }
 ```
 
-
+```sh
 user@ẁorkstation:~$ sudo nmap -sP 192.168.1.1-254
 
 Starting Nmap 6.47 ( http://nmap.org ) at 2016-10-22 15:14 CDT
@@ -218,3 +218,7 @@ Nmap done: 254 IP addresses (8 hosts up) scanned in 5.20 seconds
 user@ẁorkstation:~$ 
 ```
 
+```sh
+user@ẁorkstation:~$ curl http://192.168.1.73
+{"variables": {"temperature": 24, "humidity": 40}, "id": "1", "name": "esp8266", "hardware": "esp8266", "connected": true}
+```
