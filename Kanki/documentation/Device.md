@@ -95,3 +95,15 @@ xe1gyq@jessie:~$ curl http://192.168.1.73/led?params=1
 xe1gyq@jessie:~$ curl http://192.168.1.73/led?params=0
 {"return_value": 1, "id": "1", "name": "esp8266", "hardware": "esp8266", "connected": true}
 ```
+
+```python
+import urllib, json
+url = "http://192.168.1.73"
+response = urllib.urlopen(url)
+data = json.loads(response.read())
+print data
+```
+
+```python
+
+```
