@@ -35,7 +35,7 @@ signal.signal(signal.SIGINT, SIGINTHandler)
 
 if __name__ == '__main__':
 
-    message = "Hi! I'm Xpuhil!"
+    message = "Hola Cacerola! I'm Xpuhil!"
 
     while True:
 

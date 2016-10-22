@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
     updater.start_polling()
 
-    message = "Hi! I'm Dzibilchaltun!"
+    message = "Hola Cacerola"
 
     while True:
 
