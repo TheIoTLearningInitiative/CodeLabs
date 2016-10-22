@@ -4,7 +4,7 @@
 
 ## Hardware Requirements
 
-- [](http://wiki.seeed.cc/Grove-LCD_RGB_Backlight/)
+- [Grove - LCD RGB Backlight](http://wiki.seeed.cc/Grove-LCD_RGB_Backlight/)
 
 ## Software Requirements
 
