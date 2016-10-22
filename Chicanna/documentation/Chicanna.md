@@ -1,6 +1,6 @@
 # Chicanna
 
-> 
+> Face Recogntion OpenCV Web Image
 
 ## Hardware Requirements
 
