@@ -1,7 +1,9 @@
 # Gateway
 
 ```sh
+user@ẁorkstation:~$ sudo apt-get update
 user@ẁorkstation:~$ sudo apt-get install -y apache2
+user@ẁorkstation:~$ apt-get -y install php5 libapache2-mod-php5
 ```
 
 # IP Address
