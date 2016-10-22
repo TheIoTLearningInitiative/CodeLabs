@@ -92,6 +92,11 @@ root@board:~/CodeLabs/Coba#
 ```
 
 ```sh
+root@board:~/CodeLabs/Coba# insmod main.ko
+root@board:~/CodeLabs/Coba# dmesg
+```
+
+```sh
 root@board:~/CodeLabs/Coba# make clean
 make -C /lib/modules/3.10.98-poky-edison+/build M=/home/root/CodeLabs/Coba clean
 make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
