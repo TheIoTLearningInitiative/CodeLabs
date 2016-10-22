@@ -29,21 +29,6 @@ xe1gyq@jessie:~$ curl http://192.168.1.73/led?params=0
 
 # Python urllib json
 
-## loads
-
-```python
-import urllib, json
-url = "http://192.168.1.73"
-response = urllib.urlopen(url)
-data = json.loads(response.read())
-print data
-```
-
-```sh
-root@edison:~# python main.py 
-{u'hardware': u'esp8266', u'variables': {u'temperature': 24, u'humidity': 40}, u'connected': True, u'id': u'1', u'name': u'esp8266'}
-```
-
 ## load
 
 ```python
@@ -60,6 +45,20 @@ root@edison:~# python j.py
 {u'hardware': u'esp8266', u'variables': {u'temperature': 24, u'humidity': 40}, u'connected': True, u'id': u'1', u'name': u'esp8266'}
 ```
 
+## loads
+
+```python
+import urllib, json
+url = "http://192.168.1.73"
+response = urllib.urlopen(url)
+data = json.loads(response.read())
+print data
+```
+
+```sh
+root@edison:~# python main.py 
+{u'hardware': u'esp8266', u'variables': {u'temperature': 24, u'humidity': 40}, u'connected': True, u'id': u'1', u'name': u'esp8266'}
+```
 
 # Python requests
 
