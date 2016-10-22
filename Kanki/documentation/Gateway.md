@@ -106,6 +106,7 @@ user@ẁorkstation:~$ npm install johnny-five --save
 user@ẁorkstation:~$ npm install edison-io galileo-io --save
 user@ẁorkstation:~$ npm install -g bower
 user@ẁorkstation:~$ npm install j5-songs --save
+user@ẁorkstation:~$ npm install serialport --save
 user@ẁorkstation:~$ bower install angularjs --save --allow-root
 user@ẁorkstation:~$ bower install socket.io-client --save --allow-root
 user@ẁorkstation:~$ bower install angular-socket-io --save
