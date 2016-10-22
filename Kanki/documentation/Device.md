@@ -105,5 +105,7 @@ print data
 ```
 
 ```python
-
+import requests
+r = requests.get('http://192.168.1.73')
+print r.json()
 ```
