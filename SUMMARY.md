@@ -11,6 +11,7 @@
 * [Kanki](Kanki)
    * [Introduction](Kanki/documentation/Introduction.md)
    * [Device](Kanki/documentation/Device.md)
+   * Gateway
 * [Kohunlich](Kohunlich/documentation/Kohunlich.md)
 * [Mayapan](Mayapan/documentation/Mayapan.md)
 * [Tulum](Tulum/documentation/Openstack.md)
