@@ -12,8 +12,7 @@
 ## Software Requirements
 
 ```sh
-root@board:~# echo "pip install none"
-root@board:~# opkg install upm mraa
+root@board:~# opkg install python-dev upm mraa
 ```
 
 ## Setup
