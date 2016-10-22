@@ -106,6 +106,11 @@ data = json.loads(response.read())
 print data
 ```
 
+```sh
+root@edison:~# python main.py 
+{u'hardware': u'esp8266', u'variables': {u'temperature': 24, u'humidity': 40}, u'connected': True, u'id': u'1', u'name': u'esp8266'}
+```
+
 ```python
 import requests
 r = requests.get('http://192.168.1.73')
