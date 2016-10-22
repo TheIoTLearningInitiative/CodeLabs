@@ -100,7 +100,7 @@ user@ẁorkstation:~$ npm update -g express  body-parser
 ```
 
 ```sh
-user@ẁorkstation:~$ 
+user@ẁorkstation:~$ npm isntall socket.io --save
 user@ẁorkstation:~$ 
 user@ẁorkstation:~$ 
 user@ẁorkstation:~$ 
