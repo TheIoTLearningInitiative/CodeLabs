@@ -300,5 +300,5 @@ Makefile  documentation  main  main.c  requirements.opkg  setup.sh
 root@edison:~/CodeLabs/Chacmultun# ./main
 
 DONE!
-root@edison:~/CodeLabs/Chacmultun# ^C
+root@edison:~/CodeLabs/Chacmultun# 
 ```
