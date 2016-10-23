@@ -9,7 +9,7 @@
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
 * [Edzna](Edzna/documentation/Edzna.md)
    * [Server](Edzna/documentation/Server.md)
-   * Device
+   * [Device](Edzna/documentation/EdznaDevice.md)
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Kanki](Kanki)
    * [Device](Kanki/documentation/Device.md)
