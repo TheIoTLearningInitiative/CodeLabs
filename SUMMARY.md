@@ -14,7 +14,7 @@
    * [Server](Edzna/documentation/Server.md)
        * [Hello](Edzna/documentation/Hello.md)
        * [MQTT](Edzna/documentation/Mqtt.md)
-       * MQTT Light
+       * [MQTT Light](Edzna/documentation/MqttLight.md)
        * [Telegram](Edzna/documentation/Telegram.md)
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Kanki](Kanki)
