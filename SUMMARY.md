@@ -12,6 +12,7 @@
        * [ESP8266](Edzna/documentation/Esp8266.md)
        * [Intel Edison](Edzna/documentation/IntelEdison.md)
    * [Server](Edzna/documentation/Server.md)
+       * Telegram
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Kanki](Kanki)
    * [Device](Kanki/documentation/Device.md)
