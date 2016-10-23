@@ -13,7 +13,7 @@
    * [Device](Kanki/documentation/Device.md)
    * [Gateway](Kanki/documentation/Gateway.md)
 * [Kohunlich](Kohunlich/documentation/Kohunlich.md)
-* La Ruta Puuc
+* [La Ruta Puuc](LaRutaPuuc/documentation/LaRutaPuuc.md)
 * [Mayapan](Mayapan/documentation/Mayapan.md)
 * [Tabasqueno](Tabasqueno/documentation/Tabasqueno.md)
 * [Tulum](Tulum/documentation/Openstack.md)
