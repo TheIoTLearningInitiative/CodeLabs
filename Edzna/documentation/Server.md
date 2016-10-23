@@ -28,6 +28,8 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 hello_state:
 ```
 
+## Custom Component Hello State
+
 ```sh
 user@server:~$ mkdir ~/.homeassistant/custom_components/
 ```
@@ -60,7 +62,7 @@ mqtt:
   port: 1883
 ```
 
-## MQTT Custom Component
+## Custom Component Hello MQTT
 
 ```sh
 user@server:~$ nano ~/.homeassistant/custom_components/hello_mqtt.py
