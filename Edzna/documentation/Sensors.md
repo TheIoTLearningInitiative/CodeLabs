@@ -1,5 +1,10 @@
 # Sensors
 
+```sh
+user@server:~$ nano ~/.homeassistant/configuration.yaml
+```
+
+```sh
 sensor:
   - platform: darksky
     api_key: c07694254ea2fa73d657db1cd700971c
@@ -13,3 +18,4 @@ sensor:
     name: "MQTT Sensor Light"
   - platform: worldclock
     time_zone: America/Mexico_City
+```
