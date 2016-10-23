@@ -19,11 +19,15 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 # Hello World
 
 ```sh
-user@server:~$ mkdir ~/.homeassistant/custom_components/
+user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```
 
 ```
 hello_state:
+```
+
+```sh
+user@server:~$ mkdir ~/.homeassistant/custom_components/
 ```
 
 ```sh
