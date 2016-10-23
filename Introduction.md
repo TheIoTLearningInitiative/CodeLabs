@@ -10,7 +10,7 @@ Yucatan
 - __Ek Balam__ 
 - __Kinich KaK Moo__
 - __La Ruta Puuc__ NodeJS, Socket.io, Johnny Five, AngularJS  ! In Process
-- __Mayapan__ Domotics
+- __Mayapan__ Domotics ! In Process
 - __Uxmal__ OpenCV Camera Picture Web Streaming
 - __Xcambo__ Mqtt Sensor Data
 
