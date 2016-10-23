@@ -24,7 +24,7 @@ Quintana Roo
 Campeche
 
 - __Chicanna__ OpenCV Face Recognition Web Picture
-- __Edzna__ Home Assistant
+- __Edzna__ Home Assistant  ! In Process
 - __Hormiguero__
 - __Hochob__ Upm Sensor Library LCD
 - __Kanki__ ESP8266
