@@ -9,7 +9,7 @@ user@server:~$ sudo pip3 install python-telegram-bot
 
 - Chat Id
 
-## Notify
+## notify
 
 ```sh
 user@server:~$ nano ~/.homeassistant/configuration.yaml
@@ -23,7 +23,7 @@ notify:
     chat_id: 
 ```
 
-## Sensor
+## sensor
 
 ```sh
 sensor:
@@ -34,7 +34,7 @@ sensor:
     time_zone: America/Mexico_City
 ```
 
-## Automation
+## automation
 
 ```sh
 user@server:~$ nano ~/.homeassistant/configuration.yaml
