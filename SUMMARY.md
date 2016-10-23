@@ -10,6 +10,7 @@
 * [Edzna](Edzna/documentation/Edzna.md)
    * [Device](Edzna/documentation/Device.md)
        * ESP8266
+       * Intel Edison
    * [Server](Edzna/documentation/Server.md)
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Kanki](Kanki)
