@@ -1,5 +1,7 @@
 # Weather
 
+> The darksky platform uses the Dark Sky web service as a source for meteorological data for your location. [Documentation](https://home-assistant.io/components/sensor.darksky/)
+
 ```sh
 user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```
