@@ -81,7 +81,7 @@ DEPENDENCIES = ['mqtt']
 
 
 CONF_TOPIC = 'topic'
-DEFAULT_TOPIC = 'home-assistant/hello_mqtt'
+DEFAULT_TOPIC = 'edzna/hello_mqtt'
 
 
 def setup(hass, config):
