@@ -14,7 +14,7 @@
    * [Gateway](Kanki/documentation/Gateway.md)
 * [Kohunlich](Kohunlich/documentation/Kohunlich.md)
 * [Mayapan](Mayapan/documentation/Mayapan.md)
-* [Tabasqueno](Tabasqueno)
+* [Tabasqueno](Tabasqueno/documentation/Tabasqueno.md)
 * [Tulum](Tulum/documentation/Openstack.md)
    * [Introduction](Tulum/documentation/Introduction.md)
    * Device
