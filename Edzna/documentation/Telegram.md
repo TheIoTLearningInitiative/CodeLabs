@@ -8,6 +8,10 @@ user@server:~$ sudo pip install python-telegram-bot
 - Chat Id
 
 ```sh
+user@server:~$ nano ~/.homeassistant/configuration.yaml
+```
+
+```sh
 notify:
   - name: EdznaBot
   platform: telegram
