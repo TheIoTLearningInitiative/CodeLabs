@@ -9,7 +9,7 @@ user@server:~$ sudo pip install python-telegram-bot
 
 ```sh
 notify:
-  name: EdznaBot
+  - name: EdznaBot
   platform: telegram
   api_key: 
   chat_id: 
