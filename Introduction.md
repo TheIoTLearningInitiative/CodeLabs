@@ -9,7 +9,7 @@ Yucatan
 - __Dzibilchaltun__ Telegram Bot
 - __Ek Balam__ 
 - __Kinich KaK Moo__
-- __La Ruta Puuc__ NodeJS, Socket.io, Johnny Five, AngularJS
+- __La Ruta Puuc__ NodeJS, Socket.io, Johnny Five, AngularJS  ! In Process
 - __Mayapan__ Domotics
 - __Uxmal__ OpenCV Camera Picture Web Streaming
 - __Xcambo__ Mqtt Sensor Data
@@ -24,11 +24,11 @@ Quintana Roo
 Campeche
 
 - __Chicanna__ OpenCV Face Recognition Web Picture
-- __Edzna__
+- __Edzna__ 
 - __Hormiguero__
 - __Hochob__ Upm Sensor Library LCD
 - __Kanki__ ESP8266
-- __Tabasqueno__
+- __Tabasqueno__ NodeJS, Socket.io, Johnny Five ! In Process
 - __Xcalumkin__
 - __Xpuhil__ Freeboard
 
