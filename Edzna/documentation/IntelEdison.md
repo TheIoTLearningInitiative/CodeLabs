@@ -1,6 +1,10 @@
 # Intel Edison
 
 ```sh
+root@edison:~/CodeLabs/Edzna/device# pip install paho-mqtt
+```
+
+```sh
 root@edison:~/CodeLabs/Edzna/device# python main.py
 Hello Edzna
 Data Sensor Mqtt Subscribe Message!
