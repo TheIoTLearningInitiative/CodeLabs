@@ -140,7 +140,7 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```
 light:
   platform: mqtt
-  name: Office light'
+  name: Edzna Headquarters Light'
   state_topic: 'edzna/light/status'
   command_topic: 'edzna/light/switch'
   optimistic: false
