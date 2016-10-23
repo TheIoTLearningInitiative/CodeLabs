@@ -128,6 +128,10 @@ hello_mqtt:
 
 https://github.com/mertenats/open-home-automation/tree/master/openhome
 
+```sh
+user@server:~$ nano ~/.homeassistant/configuration.yaml
+```
+
 ```
 light:
   platform: mqtt
