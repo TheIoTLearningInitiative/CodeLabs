@@ -1,5 +1,8 @@
 # Intel Edison
 
+```sh
+root@edison:~/CodeLabs/Edzna/device# python main.py
+```
 
 ```
 Hello Edzna
