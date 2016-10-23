@@ -131,7 +131,7 @@ user@server:~$ mosquitto_pub -h test.mosquitto.org -p 1883 -t edzna/hello_mqtt -
 
 # Apps
 
-https://github.com/mertenats/open-home-automation/tree/master/openhome
+- [](https://github.com/mertenats/open-home-automation/tree/master/openhome)
 
 ```sh
 user@server:~$ nano ~/.homeassistant/configuration.yaml
