@@ -8,8 +8,12 @@ user@server:~$ hass --open-ui
 http://192.168.1.70:8123/
 
 ```sh
-xe1gyq@jessie:~$ ls ~/.homeassistant
+user@server:~$ ls ~/.homeassistant
 configuration.yaml  deps  home-assistant.db  home-assistant.log
+```
+
+```sh
+user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```
 
 ```sh
