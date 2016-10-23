@@ -13,6 +13,14 @@ Nmap done: 254 IP addresses (8 hosts up) scanned in 5.20 seconds
 user@ẁorkstation:~$ 
 ```
 
+# Basic Functions
+
+```sh
+http://192.168.1.73/mode/13/o
+http://192.168.1.73/digital/13/1
+http://192.168.1.73/digital/13/0
+```
+
 # Command Line Curl
 
 ```sh
