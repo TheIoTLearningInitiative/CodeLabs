@@ -60,7 +60,7 @@ mqtt:
   port: 1883
 ```
 
-## 
+## MQTT Custom Component
 
 ```sh
 user@server:~$ nano ~/.homeassistant/custom_components/hello_mqtt.py
