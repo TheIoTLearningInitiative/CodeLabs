@@ -125,7 +125,7 @@ hello_mqtt:
 ```
 
 ```sh
-user@server:~$ mosquitto_pub -h test.mosquitto.org -p 1883 -t edzna/demo/light -m "ThisIsIt"
+user@server:~$ mosquitto_pub -h test.mosquitto.org -p 1883 -t edzna/hello_mqtt -m "ThisIsIt"
 ```
 
 # Apps
