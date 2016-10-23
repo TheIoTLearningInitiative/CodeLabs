@@ -19,7 +19,7 @@
        * [Weather](Edzna/documentation/Weather.md)
        * [Light Sensor](Edzna/documentation/Sensors.md)
        * [Dweet](Edzna/documentation/Dweet.md)
-       * Binary Sensor
+       * [Binary Sensor](Edzna/documentation/BinarySensor.md)
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Kanki](Kanki)
    * [Device](Kanki/documentation/Device.md)
