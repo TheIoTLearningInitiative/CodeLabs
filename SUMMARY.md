@@ -10,7 +10,7 @@
 * [Edzna](Edzna/documentation/Edzna.md)
    * [Device](Edzna/documentation/Device.md)
        * [Light ESP8266](Edzna/documentation/Esp8266.md)
-       * [Intel Edison](Edzna/documentation/IntelEdison.md)
+       * [Light Intel Edison](Edzna/documentation/IntelEdison.md)
    * [Server](Edzna/documentation/Server.md)
        * [Hello](Edzna/documentation/Hello.md)
        * [MQTT](Edzna/documentation/Mqtt.md)
