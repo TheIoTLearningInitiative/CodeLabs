@@ -1,6 +1,10 @@
 # Weather
 
 ```sh
+user@server:~$ nano ~/.homeassistant/configuration.yaml
+```
+
+```sh
 sensor:
   - platform: darksky
     api_key: 
