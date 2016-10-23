@@ -127,3 +127,13 @@ hello_mqtt:
 # Apps
 
 https://github.com/mertenats/open-home-automation/tree/master/openhome
+
+
+```
+light:
+  platform: mqtt
+  name: Office light'
+  state_topic: 'edzna/light/status'
+  command_topic: 'edzna/light/switch'
+  optimistic: false
+```
