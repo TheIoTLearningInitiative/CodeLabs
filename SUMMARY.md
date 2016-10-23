@@ -18,6 +18,7 @@
        * [Telegram](Edzna/documentation/Telegram.md)
        * [Weather](Edzna/documentation/Weather.md)
        * [Light Sensor](Edzna/documentation/Sensors.md)
+       * Dweet
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Kanki](Kanki)
    * [Device](Kanki/documentation/Device.md)
