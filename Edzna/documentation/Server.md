@@ -12,3 +12,10 @@ xe1gyq@jessie:~$ ls ~/.homeassistant
 configuration.yaml  deps  home-assistant.db  home-assistant.log
 ```
 
+```sh
+mqtt:
+  broker: test.mosquitto.org
+  port: 1883
+  port: 8883
+  certificate: /home/paulus/downloads/mosquitto.org.crt
+```
