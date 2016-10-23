@@ -16,7 +16,7 @@
        * [MQTT](Edzna/documentation/Mqtt.md)
        * [MQTT Light](Edzna/documentation/MqttLight.md)
        * [Telegram](Edzna/documentation/Telegram.md)
-       * Weather
+       * [Weather](Edzna/documentation/Weather.md)
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Kanki](Kanki)
    * [Device](Kanki/documentation/Device.md)
