@@ -36,7 +36,7 @@ user@server:~$ mkdir ~/.homeassistant/custom_components/
 user@server:~$ nano ~/.homeassistant/custom_components/hello_state.py
 ```
 
-```sh
+```python
 DOMAIN = 'hello_state'
 
 def setup(hass, config):
