@@ -27,12 +27,12 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 
 ```sh
 automation:
-  - alias: Send message at a given time
+  - alias: Alarm Notification          
     trigger:
       platform: time
       hours: 00
-      minutes: 58
-      seconds: 0
+      minutes: 00
+      seconds: 00
     action:
       service: notify.EdznaBot
       data:
