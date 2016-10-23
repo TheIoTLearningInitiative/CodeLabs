@@ -9,7 +9,7 @@ Yucatan
 - __Dzibilchaltun__ Telegram Bot
 - __Ek Balam__ 
 - __Kinich KaK Moo__
-- __La Ruta Puuc__ NodeJS, Socket.io, Johnny Five, AngularJS  ! Under Construction
+- __La Ruta Puuc__ NodeJS, Socket.io, Johnny Five, AngularJS  ! __Under Construction__
 - __Mayapan__ Domotics ! __Under Construction__
 - __Uxmal__ OpenCV Camera Picture Web Streaming
 - __Xcambo__ Mqtt Sensor Data
