@@ -1,5 +1,7 @@
 # Telegram
 
+>  [Documentation](https://home-assistant.io/components/notify.telegram/)
+
 ```sh
 user@server:~$ sudo pip3 install telegram
 user@server:~$ sudo pip install python-telegram-bot
