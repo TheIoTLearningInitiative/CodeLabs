@@ -2,7 +2,7 @@
 
 > A RESTful environment for Arduino [Homepage](http://aREST.io/)
 
-[aRest Github](https://github.com/marcoschwartz/aREST/tree/master/examples)
+- [aRest Github](https://github.com/marcoschwartz/aREST/tree/master/examples)
 
 ```sh
 /*
