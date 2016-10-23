@@ -9,7 +9,6 @@
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Kanki](Kanki)
-   * [Introduction](Kanki/documentation/Introduction.md)
    * [Device](Kanki/documentation/Device.md)
    * [Gateway](Kanki/documentation/Gateway.md)
 * [Kohunlich](Kohunlich/documentation/Kohunlich.md)
