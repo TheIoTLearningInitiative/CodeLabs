@@ -8,7 +8,7 @@
 * [Coba](Coba/documentation/Coba.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
 * [Edzna](Edzna/documentation/Edzna.md)
-   * Server
+   * [Server](Edzna/documentation/Server.md)
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Kanki](Kanki)
    * [Device](Kanki/documentation/Device.md)
