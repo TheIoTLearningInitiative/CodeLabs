@@ -34,6 +34,8 @@ sensor:
     time_zone: America/Mexico_City
 ```
 
+## Automation
+
 ```sh
 user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```
