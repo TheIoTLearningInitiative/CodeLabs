@@ -7,5 +7,4 @@ Data Sensor Mqtt Subscribe Message!
 Data Actuator Status OFF
 Data Sensor Mqtt Subscribe Message!
 Data Actuator Status ON
-
 ```
