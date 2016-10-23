@@ -18,6 +18,8 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 
 # Hello World
 
+[](https://home-assistant.io/developers/creating_components/)
+
 ```sh
 user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```
