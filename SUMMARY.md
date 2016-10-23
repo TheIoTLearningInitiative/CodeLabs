@@ -13,6 +13,7 @@
    * [Device](Kanki/documentation/Device.md)
    * [Gateway](Kanki/documentation/Gateway.md)
 * [Kohunlich](Kohunlich/documentation/Kohunlich.md)
+* La Ruta Puuc
 * [Mayapan](Mayapan/documentation/Mayapan.md)
 * [Tabasqueno](Tabasqueno/documentation/Tabasqueno.md)
 * [Tulum](Tulum/documentation/Openstack.md)
@@ -45,5 +46,4 @@
    * [Audio Capture Playback](AudioCapturePlayback/README.md)
    * [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
    * Tbd
-* La Ruta Puuc
 
