@@ -123,3 +123,7 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 hello_mqtt:
   topic: edzna/demo/light
 ```
+
+# Apps
+
+https://github.com/mertenats/open-home-automation/tree/master/openhome
