@@ -2,9 +2,6 @@
 
 ```sh
 root@edison:~/CodeLabs/Edzna/device# python main.py
-```
-
-```
 Hello Edzna
 Data Sensor Mqtt Subscribe Message!
 Data Actuator Status OFF
