@@ -1,6 +1,6 @@
 # Telegram
 
->  [Documentation](https://home-assistant.io/components/notify.telegram/)
+> The telegram platform uses Telegram to delivery notifications from Home Assistant to your Android device, your Windows phone, or your iOS device. [Documentation](https://home-assistant.io/components/notify.telegram/)
 
 ```sh
 user@server:~$ sudo pip3 install telegram
