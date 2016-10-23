@@ -10,7 +10,7 @@ Yucatan
 - __Ek Balam__ 
 - __Kinich KaK Moo__
 - __La Ruta Puuc__ NodeJS, Socket.io, Johnny Five, AngularJS  ! Under Construction
-- __Mayapan__ Domotics ! Under Construction
+- __Mayapan__ Domotics ! __Under Construction__
 - __Uxmal__ OpenCV Camera Picture Web Streaming
 - __Xcambo__ Mqtt Sensor Data
 
@@ -18,17 +18,17 @@ Quintana Roo
 
 - __Coba__ Linux Kernel Module
 - __Kohunlich__ Linux Kernel Module I2C LCD
-- __Muyil__ Emoncms
+- __Muyil__ Emoncms ! __Under Construction__
 - __Tulum__ Openstack Sensor Dashboard
 
 Campeche
 
 - __Chicanna__ OpenCV Face Recognition Web Picture
-- __Edzna__ Home Assistant  ! In Process
+- __Edzna__ Home Assistant  ! __Under Construction__
 - __Hormiguero__
 - __Hochob__ Upm Sensor Library LCD
-- __Kanki__ ESP8266 ! Under Construction
-- __Tabasqueno__ NodeJS, Socket.io, Johnny Five ! Under Construction
+- __Kanki__ ESP8266 ! __Under Construction__
+- __Tabasqueno__ NodeJS, Socket.io, Johnny Five ! __Under Construction__
 - __Xcalumkin__
 - __Xpuhil__ Freeboard
 
