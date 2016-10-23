@@ -137,7 +137,7 @@ user@server:~$ mosquitto_pub -h test.mosquitto.org -p 1883 -t edzna/hello_mqtt -
 user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```
 
-```
+```sh
 light:
   platform: mqtt
   name: Edzna Light'
