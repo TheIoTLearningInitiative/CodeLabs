@@ -13,8 +13,8 @@
        * [Intel Edison](Edzna/documentation/IntelEdison.md)
    * [Server](Edzna/documentation/Server.md)
        * Hello
-       * [Telegram](Edzna/documentation/Telegram.md)
        * MQTT
+       * [Telegram](Edzna/documentation/Telegram.md)
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Kanki](Kanki)
    * [Device](Kanki/documentation/Device.md)
