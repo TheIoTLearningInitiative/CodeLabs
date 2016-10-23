@@ -128,7 +128,6 @@ hello_mqtt:
 
 https://github.com/mertenats/open-home-automation/tree/master/openhome
 
-
 ```
 light:
   platform: mqtt
