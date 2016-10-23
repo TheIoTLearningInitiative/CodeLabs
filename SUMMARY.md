@@ -7,6 +7,7 @@
 * [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Coba](Coba/documentation/Coba.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
+* Edzna
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Kanki](Kanki)
    * [Device](Kanki/documentation/Device.md)
@@ -45,5 +46,4 @@
    * [Audio Capture Playback](AudioCapturePlayback/README.md)
    * [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
    * Tbd
-* Edzna
 
