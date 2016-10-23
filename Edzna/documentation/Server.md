@@ -16,6 +16,27 @@ configuration.yaml  deps  home-assistant.db  home-assistant.log
 user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```
 
+# Hello World
+
+```sh
+user@server:~$ mkdir ~/.homeassistant/custom_components/
+```
+
+```
+hello_state:
+```
+
+<config_dir>/custom_components/hello_state.py with the below code to test it locally.
+
+```sh
+DOMAIN = 'hello_state'
+
+def setup(hass, config):
+    hass.states.set('hello.world', 'Paulus')
+
+    return True
+```   
+
 ```sh
 mqtt:
   broker: test.mosquitto.org
