@@ -9,6 +9,8 @@ user@server:~$ sudo pip3 install python-telegram-bot
 
 - Chat Id
 
+## Notify
+
 ```sh
 user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```
@@ -19,6 +21,17 @@ notify:
     platform: telegram
     api_key: 
     chat_id: 
+```
+
+## Sensor
+
+```sh
+sensor:
+  - platform: mqtt
+    name: EdznaLightSensor
+    state_topic: "edzna/light/sensor"
+  - platform: worldclock
+    time_zone: America/Mexico_City
 ```
 
 ```sh
