@@ -9,7 +9,7 @@
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
 * [Edzna](Edzna/documentation/Edzna.md)
    * [Device](Edzna/documentation/Device.md)
-       * ESP8266
+       * [ESP8266](Edzna/documentation/Esp8266.md)
        * Intel Edison
    * [Server](Edzna/documentation/Server.md)
 * [Hochob](Hochob/documentation/Hochob.md)
