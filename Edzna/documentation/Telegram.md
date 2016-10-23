@@ -20,3 +20,21 @@ notify:
   api_key: 
   chat_id: 
 ```
+
+```sh
+user@server:~$ nano ~/.homeassistant/configuration.yaml
+```
+
+```sh
+automation:
+  - alias: Send message at a given time
+    trigger:
+      platform: time
+      hours: 00
+      minutes: 58
+      seconds: 0
+    action:
+      service: notify.EdznaBot
+      data:
+        message: 'Time to sleep'
+```
