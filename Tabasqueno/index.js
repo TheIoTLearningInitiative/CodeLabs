@@ -7,7 +7,6 @@ var board = new five.Board({
   io: new Edison()
 });
 
-var msglcd;
 var led;
 var lcd;
 
@@ -23,8 +22,8 @@ app.get('/', function(req, res){
 });
 
 io.on('connection', function(socket){
-  socket.on('chat message', function(msg){
-    io.emit('chat message', msg);
+  socket.on('iomessage', function(msg){
+    io.emit('iomessage', msg);
     console.log(msg)
     lcd.cursor(0, 0).print(msg);
     led.blink();
