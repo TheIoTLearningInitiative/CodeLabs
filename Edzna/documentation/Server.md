@@ -39,7 +39,7 @@ def setup(hass, config):
     return True
 ```
 
-# Hello World
+# MQTT
 
 ```sh
 mqtt:
