@@ -129,7 +129,7 @@ hello_mqtt:
 user@server:~$ mosquitto_pub -h test.mosquitto.org -p 1883 -t edzna/hello_mqtt -m "ThisIsIt"
 ```
 
-# Apps
+# Edzna Light
 
 - [](https://github.com/mertenats/open-home-automation/tree/master/openhome)
 
