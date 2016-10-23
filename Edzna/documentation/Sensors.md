@@ -21,7 +21,7 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 
 ```sh
 automation:
-  - alias: Sunrise Notification
+  - alias: Sunrise
     trigger:
       platform: numeric_state
       entity_id: sensor.EdznaLightSensor
