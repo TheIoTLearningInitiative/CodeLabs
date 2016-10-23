@@ -47,6 +47,8 @@ def setup(hass, config):
 
 # MQTT
 
+https://home-assistant.io/components/mqtt/
+
 ```sh
 mqtt:
   broker: test.mosquitto.org
