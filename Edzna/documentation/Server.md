@@ -103,9 +103,10 @@ def setup(hass, config):
 ```
 
 ```sh
-user@server:~$ 
+user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```
 
 ```sh
-user@server:~$ 
+hello_mqtt:
+  topic: edzna/demo/light
 ```
