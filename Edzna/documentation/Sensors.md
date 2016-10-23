@@ -7,7 +7,7 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```sh
 sensor:
   - platform: mqtt
-    state_topic: "edzna/sensor/light"
+    state_topic: "edzna/light/sensor"
     name: "MQTT Sensor Light"
   - platform: worldclock
     time_zone: America/Mexico_City
