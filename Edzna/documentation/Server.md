@@ -50,6 +50,10 @@ def setup(hass, config):
 > MQTT (aka MQ Telemetry Transport) is a machine-to-machine or “Internet of Things” connectivity protocol on top of TCP/IP. It allows extremely lightweight publish/subscribe messaging transport. To integrate MQTT into Home Assistant... [MQTT](https://home-assistant.io/components/mqtt/)
 
 ```sh
+user@server:~$ nano ~/.homeassistant/configuration.yaml
+```
+
+```sh
 mqtt:
   broker: test.mosquitto.org
   port: 1883
