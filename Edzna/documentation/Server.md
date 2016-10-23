@@ -111,7 +111,7 @@ def setup(hass, config):
     return True
 ```
 
-## 
+## Topic
 
 ```sh
 user@server:~$ nano ~/.homeassistant/configuration.yaml
