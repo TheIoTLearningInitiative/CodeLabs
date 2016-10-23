@@ -30,7 +30,7 @@ automation:
       service: notify.EdznaBot
       data_template:
         title: "Good Morning!"
-        message: "Time to wake up, we have {{ states.sensor.EdznaBot.state }} luxes in the air!"
+        message: "Time to wake up, we have {{ states.sensor.EdznaLightSensor.state }} luxes in the air!"
   - alias: Sunset 
     trigger:
       platform: numeric_state
@@ -40,5 +40,5 @@ automation:
       service: notify.EdznaBot
       data_template:
         title: "Good Night!"
-        message: "Time to sleep, we have {{ states.sensor.EdznaBot.state }} luxes in the air!"
+        message: "Time to sleep, we have {{ states.sensor.EdznaLightSensor.state }} luxes in the air!"
 ```
