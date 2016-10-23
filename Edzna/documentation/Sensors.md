@@ -1,4 +1,4 @@
-# Sensors
+# Light Sensor
 
 ## sensor
 
