@@ -15,11 +15,11 @@ user@ẁorkstation:~$
 
 # Basic Functions
 
-```sh
-http://192.168.1.73/mode/13/o
-http://192.168.1.73/digital/13/1
-http://192.168.1.73/digital/13/0
-```
+Go to 
+
+- http://192.168.1.73/mode/13/o
+- http://192.168.1.73/digital/13/1
+- http://192.168.1.73/digital/13/0
 
 # Command Line Curl
 
