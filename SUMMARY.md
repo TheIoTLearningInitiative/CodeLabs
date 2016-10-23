@@ -14,7 +14,7 @@
    * [Server](Edzna/documentation/Server.md)
        * [Hello](Edzna/documentation/Hello.md)
        * [MQTT](Edzna/documentation/Mqtt.md)
-       * [MQTT Light](Edzna/documentation/MqttLight.md)
+       * [Light](Edzna/documentation/MqttLight.md)
        * [Telegram](Edzna/documentation/Telegram.md)
        * [Weather](Edzna/documentation/Weather.md)
        * [Sensors](Edzna/documentation/Sensors.md)
