@@ -26,7 +26,9 @@ user@server:~$ mkdir ~/.homeassistant/custom_components/
 hello_state:
 ```
 
-<config_dir>/custom_components/hello_state.py with the below code to test it locally.
+```sh
+user@server:~$ nano ~/.homeassistant/custom_components/hello_state.py
+```
 
 ```sh
 DOMAIN = 'hello_state'
