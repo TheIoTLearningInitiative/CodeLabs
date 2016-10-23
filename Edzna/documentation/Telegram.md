@@ -4,7 +4,7 @@
 
 ```sh
 user@server:~$ sudo pip3 install telegram
-user@server:~$ sudo pip install python-telegram-bot
+user@server:~$ sudo pip3 install python-telegram-bot
 ```
 
 - Chat Id
