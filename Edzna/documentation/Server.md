@@ -124,6 +124,10 @@ hello_mqtt:
   topic: edzna/demo/light
 ```
 
+```sh
+user@server:~$ mosquitto_pub -h test.mosquitto.org -p 1883 -t edzna/demo/light -m "ThisIsIt"
+```
+
 # Apps
 
 https://github.com/mertenats/open-home-automation/tree/master/openhome
