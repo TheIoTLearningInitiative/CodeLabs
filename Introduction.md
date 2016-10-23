@@ -27,7 +27,7 @@ Campeche
 - __Edzna__ Home Assistant  ! In Process
 - __Hormiguero__
 - __Hochob__ Upm Sensor Library LCD
-- __Kanki__ ESP8266
+- __Kanki__ ESP8266 ! In Process
 - __Tabasqueno__ NodeJS, Socket.io, Johnny Five ! In Process
 - __Xcalumkin__
 - __Xpuhil__ Freeboard
