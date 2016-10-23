@@ -7,7 +7,7 @@
 * [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Coba](Coba/documentation/Coba.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
-* Edzna
+* [Edzna](Edzna/documentation/Edzna.md)
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Kanki](Kanki)
    * [Device](Kanki/documentation/Device.md)
