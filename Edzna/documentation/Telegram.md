@@ -16,9 +16,9 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```sh
 notify:
   - name: EdznaBot
-  platform: telegram
-  api_key: 
-  chat_id: 
+    platform: telegram
+    api_key: 
+    chat_id: 
 ```
 
 ```sh
