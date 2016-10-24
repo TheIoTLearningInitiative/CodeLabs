@@ -21,7 +21,7 @@
        * [Dweet](Edzna/documentation/Dweet.md)
        * [Binary Sensor](Edzna/documentation/BinarySensor.md)
 * [Hochob](Hochob/documentation/Hochob.md)
-* Kanki
+* [Kanki](Kanki)
    * [Device](Kanki/documentation/Device.md)
    * [Gateway](Kanki/documentation/Gateway.md)
 * [Kohunlich](Kohunlich/documentation/Kohunlich.md)
