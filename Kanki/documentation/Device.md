@@ -4,7 +4,7 @@
 
 - [aRest Github](https://github.com/marcoschwartz/aREST/tree/master/examples)
 
-```sh
+```c
 /*
   This a simple example of the aREST Library for the ESP8266 WiFi chip.
   See the README file for more details.

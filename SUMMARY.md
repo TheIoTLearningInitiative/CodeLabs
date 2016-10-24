@@ -8,7 +8,7 @@
 * [Coba](Coba/documentation/Coba.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
 * [Edzna](Edzna/documentation/Edzna.md)
-   * [Device](Edzna/documentation/Device.md)
+   * Device
        * [Light ESP8266](Edzna/documentation/Esp8266.md)
        * [Light Intel Edison](Edzna/documentation/IntelEdison.md)
    * [Server](Edzna/documentation/Server.md)
@@ -21,7 +21,7 @@
        * [Dweet](Edzna/documentation/Dweet.md)
        * [Binary Sensor](Edzna/documentation/BinarySensor.md)
 * [Hochob](Hochob/documentation/Hochob.md)
-* [Kanki](Kanki)
+* Kanki
    * [Device](Kanki/documentation/Device.md)
    * [Gateway](Kanki/documentation/Gateway.md)
 * [Kohunlich](Kohunlich/documentation/Kohunlich.md)

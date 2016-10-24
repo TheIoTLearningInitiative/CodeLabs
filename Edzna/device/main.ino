@@ -1,6 +1,3 @@
-# ESP8266
-
-```c
 /*
    MQTT Light for Home-Assistant - NodeMCU (ESP8266)
    https://home-assistant.io/components/light.mqtt/
@@ -36,8 +33,8 @@
 
 #define MQTT_VERSION MQTT_VERSION_3_1_1
 
-const char* WIFI_SSID = "INFINITUM";
-const char* WIFI_PASSWORD = "xxxxxxxxxx";
+const char* WIFI_SSID = "INFINITUMfjph";
+const char* WIFI_PASSWORD = "1c2899dfda";
 
 const PROGMEM char* MQTT_CLIENT_ID = "edznalight";
 const PROGMEM char* MQTT_SERVER_IP = "test.mosquitto.org";
@@ -146,4 +143,3 @@ void loop() {
   }
   client.loop();
 }
-```
