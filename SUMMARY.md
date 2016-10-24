@@ -8,7 +8,7 @@
 * [Coba](Coba/documentation/Coba.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
 * [Edzna](Edzna/documentation/Edzna.md)
-   * [Device](Edzna/documentation/Device.md)
+   * Device
        * [Light ESP8266](Edzna/documentation/Esp8266.md)
        * [Light Intel Edison](Edzna/documentation/IntelEdison.md)
    * [Server](Edzna/documentation/Server.md)
