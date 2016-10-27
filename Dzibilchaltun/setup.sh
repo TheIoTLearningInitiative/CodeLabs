@@ -10,7 +10,6 @@ cd CodeLabs/Dzibilchaltun
 pip install pip --upgrade
 sh requirements.opkg
 pip install -r requirements.pip
-sh requirements.manual
 
 echo
 echo "Now go to CodeLabs/Dzibilchaltun directory to get started!"
