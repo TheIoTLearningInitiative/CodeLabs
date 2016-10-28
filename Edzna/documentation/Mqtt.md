@@ -71,7 +71,7 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 
 ```sh
 hello_mqtt:
-  topic: edzna/demo/light
+  topic: edzna/hello
 ```
 
 ```sh
