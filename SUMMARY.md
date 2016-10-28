@@ -13,6 +13,7 @@
        * [Light Intel Edison](Edzna/documentation/IntelEdison.md)
    * [Server](Edzna/documentation/Server.md)
        * [MQTT Broker](Edzna/documentation/MqttBroker.md)
+       * Home Assistant
        * [Hello](Edzna/documentation/Hello.md)
        * [MQTT](Edzna/documentation/Mqtt.md)
        * [Light](Edzna/documentation/MqttLight.md)
@@ -21,7 +22,6 @@
        * [Light Sensor](Edzna/documentation/Sensors.md)
        * [Dweet](Edzna/documentation/Dweet.md)
        * [Binary Sensor](Edzna/documentation/BinarySensor.md)
-       * Home Assistant
 * [Hochob](Hochob/documentation/Hochob.md)
 * Kanki
    * [Device](Kanki/documentation/Device.md)
