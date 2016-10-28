@@ -8,7 +8,7 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 
 ```sh
 mqtt:
-  broker: test.mosquitto.org
+  broker: iot.eclipse.org
   port: 1883
 ```
 
