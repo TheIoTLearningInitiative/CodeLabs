@@ -17,8 +17,8 @@
            * [Hello](Edzna/documentation/Hello.md)
            * [MQTT](Edzna/documentation/Mqtt.md)
            * [Light](Edzna/documentation/MqttLight.md)
+           * [Telegram](Edzna/documentation/Telegram.md)
            * Temp
-       * [Telegram](Edzna/documentation/Telegram.md)
        * [Weather](Edzna/documentation/Weather.md)
        * [Light Sensor](Edzna/documentation/Sensors.md)
        * [Dweet](Edzna/documentation/Dweet.md)
