@@ -20,7 +20,7 @@ mosquitto stop/waiting
 ```
 
 ```sh
-
+root@workstation:~# nano /etc/mosquitto/mosquitto.conf
 ```
 
 ```
