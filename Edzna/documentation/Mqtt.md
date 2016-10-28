@@ -10,6 +10,8 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 mqtt:
   broker: iot.eclipse.org
   port: 1883
+  client_id: edznahomeassistant
+  keepalive: 60
 ```
 
 ## Custom Component Hello MQTT
