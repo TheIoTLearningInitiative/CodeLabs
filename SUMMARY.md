@@ -19,7 +19,7 @@
                * [Alarm](Edzna/documentation/MqttAlarm.md)
                * [Light](Edzna/documentation/MqttLight.md)
                * [Sensor](Edzna/documentation/MqttSensor.md)
-               * Binary Sensor
+               * [Binary Sensor](Edzna/documentation/MqttBinarySensor.md)
            * [Telegram](Edzna/documentation/Telegram.md)
            * [Weather](Edzna/documentation/Weather.md)
            * [Light Sensor](Edzna/documentation/Sensors.md)
