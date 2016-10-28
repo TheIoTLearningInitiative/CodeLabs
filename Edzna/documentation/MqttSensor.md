@@ -1,5 +1,8 @@
 # Sensor
 
+https://home-assistant.io/components/binary_sensor/
+
+
 ```python
 sensor:
   - platform: mqtt
