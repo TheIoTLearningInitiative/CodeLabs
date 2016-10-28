@@ -2,7 +2,7 @@
 
 [MQTT Sensor](https://home-assistant.io/components/sensor.mqtt/)
 [MQTT Binary Sensor](https://home-assistant.io/components/binary_sensor.mqtt/)
-[](https://home-assistant.io/components/binary_sensor/)
+[Binary Sensor](https://home-assistant.io/components/binary_sensor/)
 
 ```python
 sensor:
