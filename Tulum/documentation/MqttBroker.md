@@ -18,12 +18,12 @@ user@server:~$ sudo apt-get install mosquitto-clients
 As subscribers
 
 ```sh
-user@server:~$ mosquitto_sub -h serverip -p 1883 -t IoT101Inc/#
+user@server:~$ mosquitto_sub -h serverip -p 1883 -t This/#
 ```
 
 As publishers
 
 ```sh
-user@server:~$ mosquitto_pub -h serverip -p 1883 -t IoT101Inc/all -m "Hello All!"
+user@server:~$ mosquitto_pub -h serverip -p 1883 -t This/Topic -m "Hello All!"
 ```
 
