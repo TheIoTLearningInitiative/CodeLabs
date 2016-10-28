@@ -16,8 +16,8 @@
        * Home Assistant
            * [Hello](Edzna/documentation/Hello.md)
            * [MQTT](Edzna/documentation/Mqtt.md)
-               * [Light](Edzna/documentation/MqttLight.md)
                * Alarm
+               * [Light](Edzna/documentation/MqttLight.md)
            * [Telegram](Edzna/documentation/Telegram.md)
            * [Weather](Edzna/documentation/Weather.md)
            * [Light Sensor](Edzna/documentation/Sensors.md)
