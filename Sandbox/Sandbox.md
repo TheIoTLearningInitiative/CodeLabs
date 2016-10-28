@@ -1,5 +1,21 @@
 
 ```sh
+>>> import pyupm_th02
+>>> sensor = pyupm_th02.TH02()
+>>> sensor.getTemperature()
+25.875
+>>> sensor.getHumidity()
+52.4375
+>>> print "Temperatura: " + sensor.getTemperature() + " Humedad: " + sensor.getHumidity()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: cannot concatenate 'str' and 'float' objects
+>>> print "Temperatura: " + str(sensor.getTemperature()) + " Humedad: " + str(sensor.getHumidity())
+Temperatura: 25.9375 Humedad: 52.5625
+
+```
+
+```sh
 root@edison:~/CodeLabs# git clone https://github.com/xe1gyq/core.git
 Cloning into 'core'...
 remote: Counting objects: 1294, done.
