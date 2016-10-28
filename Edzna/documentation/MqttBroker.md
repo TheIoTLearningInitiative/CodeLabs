@@ -35,6 +35,14 @@ port 1883
 allow_anonymous true
 ```
 
+```sh
+root@workstation:~# service mosquitto start
+mosquitto start/running, process 3386
+root@workstation:~# service mosquitto status
+mosquitto start/running, process 3386
+root@workstation:~# 
+```
+
 ## Testing
 
 ```sh
