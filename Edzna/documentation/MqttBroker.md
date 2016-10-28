@@ -11,11 +11,11 @@ user@server:~$ sudo /etc/init.d/mosquitto start
 ```
 
 ```sh
-root@server:/home/pymelab# service mosquitto status 
+root@server:~# service mosquitto status 
 mosquitto start/running, process 682
-root@server:/home/pymelab# service mosquitto stop
+root@server:~# service mosquitto stop
 mosquitto stop/waiting
-root@server:/home/pymelab# service mosquitto status 
+root@server:~# service mosquitto status 
 mosquitto stop/waiting
 ```
 
