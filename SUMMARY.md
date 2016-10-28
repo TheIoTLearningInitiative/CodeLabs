@@ -18,7 +18,7 @@
            * [MQTT](Edzna/documentation/Mqtt.md)
                * [Alarm](Edzna/documentation/MqttAlarm.md)
                * [Light](Edzna/documentation/MqttLight.md)
-               * Sensor
+               * [Sensor](Edzna/documentation/MqttSensor.md)
            * [Telegram](Edzna/documentation/Telegram.md)
            * [Weather](Edzna/documentation/Weather.md)
            * [Light Sensor](Edzna/documentation/Sensors.md)
