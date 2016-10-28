@@ -8,8 +8,10 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 
 ```sh
 mqtt:
-  broker: test.mosquitto.org
+  broker: iot.eclipse.org
   port: 1883
+  client_id: edznahomeassistant
+  keepalive: 60
 ```
 
 ## Custom Component Hello MQTT
@@ -31,7 +33,7 @@ DEPENDENCIES = ['mqtt']
 
 
 CONF_TOPIC = 'topic'
-DEFAULT_TOPIC = 'edzna/hello_mqtt'
+DEFAULT_TOPIC = 'edzna/hello'
 
 
 def setup(hass, config):
@@ -71,9 +73,9 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 
 ```sh
 hello_mqtt:
-  topic: edzna/demo/light
+  topic: edzna/hello
 ```
 
 ```sh
-user@server:~$ mosquitto_pub -h test.mosquitto.org -p 1883 -t edzna/hello_mqtt -m "ThisIsIt"
+user@server:~$ mosquitto_pub -h test.mosquitto.org -p 1883 -t edzna/hello -m "ThisIsIt"
 ```
