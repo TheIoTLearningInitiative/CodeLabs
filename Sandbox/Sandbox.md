@@ -6,6 +6,12 @@ sensor.getTemperature()
 print "Temperatura: " + str(sensor.getTemperature()) + " Humedad: " + str(sensor.getHumidity())
 ```
 
+```python
+import pyupm_hcsr04
+sensor = pyupm_hcsr04.HCSR04(5, 6);
+print sensor.getDistance(5)
+```
+
 ```sh
 root@edison:~/CodeLabs# git clone https://github.com/xe1gyq/core.git
 Cloning into 'core'...
