@@ -57,4 +57,11 @@ configuration.yaml  deps  home-assistant.db  home-assistant.log
 user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```
 
+# Mqtt Broker
 
+```sh
+user@server:~$ sudo apt-get update
+user@server:~$ sudo apt-get install mosquitto
+user@server:~$ sudo update-rc.d mosquitto defaults
+user@server:~$ sudo /etc/init.d/mosquitto start
+```
