@@ -31,7 +31,7 @@ DEPENDENCIES = ['mqtt']
 
 
 CONF_TOPIC = 'topic'
-DEFAULT_TOPIC = 'edzna/hello_mqtt'
+DEFAULT_TOPIC = 'edzna/hello'
 
 
 def setup(hass, config):
