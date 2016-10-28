@@ -3,23 +3,27 @@
 # Setup
 
 ```sh
-user@host:~$ sudo apt-get update
-user@host:~$ sudo apt-get install mosquitto
-user@host:~$ sudo update-rc.d mosquitto defaults
-user@host:~$ sudo /etc/init.d/mosquitto start
+user@server:~$ sudo apt-get update
+user@server:~$ sudo apt-get install mosquitto
+user@server:~$ sudo update-rc.d mosquitto defaults
+user@server:~$ sudo /etc/init.d/mosquitto start
 ```
 
 # Testing
 
+```sh
+user@server:~$ sudo apt-get install mosquitto-clients
+```
+
 As subscribers
 
 ```sh
-root@edison:~# mosquitto_sub -h ip.of.deployed.server -p 1883 -t IoT101Inc/#
+user@server:~$ mosquitto_sub -h ip.of.deployed.server -p 1883 -t IoT101Inc/#
 ```
 
 As publishers
 
 ```sh
-root@edison:~# mosquitto_pub -h ip.of.deployed.server -p 1883 -t IoT101Inc/all -m "Hello All!"
+user@server:~$ mosquitto_pub -h ip.of.deployed.server -p 1883 -t IoT101Inc/all -m "Hello All!"
 ```
 
