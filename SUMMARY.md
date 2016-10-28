@@ -14,6 +14,7 @@
    * [Server](Edzna/documentation/Server.md)
        * [MQTT Broker](Edzna/documentation/MqttBroker.md)
        * Home Assistant
+           * Temp
        * [Hello](Edzna/documentation/Hello.md)
        * [MQTT](Edzna/documentation/Mqtt.md)
        * [Light](Edzna/documentation/MqttLight.md)
