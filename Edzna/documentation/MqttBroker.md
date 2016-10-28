@@ -19,6 +19,22 @@ root@server:~# service mosquitto status
 mosquitto stop/waiting
 ```
 
+```sh
+
+```
+
+```
+# Port to use for the default listener.
+port 1883
+
+# Boolean value that determines whether clients that connect
+# without providing a username are allowed to connect. If set to
+# false then a password file should be created (see the
+# password_file option) to control authenticated client access.
+# Defaults to true.
+allow_anonymous true
+```
+
 ## Testing
 
 ```sh
