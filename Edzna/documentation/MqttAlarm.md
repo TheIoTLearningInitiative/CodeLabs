@@ -1,6 +1,5 @@
 # Alarm
 
-
 - ‘disarmed’
 - ‘armed_home’
 - ‘armed_away’
