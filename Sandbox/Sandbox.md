@@ -1,5 +1,29 @@
 
 ```sh
+pip install pyTelegramBotAPI
+```
+
+http://forums.dlink.com/index.php?topic=57131.0
+
+```
+dcs-2121   MJPEG   http://IPADDRESS/video/mjpg.cgi   No   None      
+DCS-2121   JPEG   http://IPADDRESS/image/jpeg.cgi   No   None
+```
+
+```python
+import pyupm_th02
+sensor = pyupm_th02.TH02()
+sensor.getTemperature()
+print "Temperatura: " + str(sensor.getTemperature()) + " Humedad: " + str(sensor.getHumidity())
+```
+
+```python
+import pyupm_hcsr04
+sensor = pyupm_hcsr04.HCSR04(5, 6);
+print sensor.getDistance(5)
+```
+
+```sh
 root@edison:~/CodeLabs# git clone https://github.com/xe1gyq/core.git
 Cloning into 'core'...
 remote: Counting objects: 1294, done.
