@@ -1,6 +1,10 @@
 # Alarm
 
-Create a Alarm based on Mqtt 
+Based on [MQTT Alarm Control Panel](https://home-assistant.io/components/alarm_control_panel.mqtt/)
+
+Create a Alarm based on Mqtt
+
+
 
 - disarmed
 - armed_home
