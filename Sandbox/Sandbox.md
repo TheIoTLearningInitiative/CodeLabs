@@ -1,4 +1,9 @@
 
+```
+dcs-2121   MJPEG   http://IPADDRESS/video/mjpg.cgi   No   None      
+DCS-2121   JPEG   http://IPADDRESS/image/jpeg.cgi   No   None
+```
+
 ```python
 import pyupm_th02
 sensor = pyupm_th02.TH02()
