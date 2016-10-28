@@ -33,23 +33,23 @@
 
 #define MQTT_VERSION MQTT_VERSION_3_1_1
 
-const char* WIFI_SSID = "INFINITUMfjph";
-const char* WIFI_PASSWORD = "1c2899dfda";
+const char* WIFI_SSID = "INFINITUM";
+const char* WIFI_PASSWORD = "xxxxxxxxxx";
 
-const PROGMEM char* MQTT_CLIENT_ID = "edznalight";
-const PROGMEM char* MQTT_SERVER_IP = "test.mosquitto.org";
+const PROGMEM char* MQTT_CLIENT_ID = "edznakitchenlight";
+const PROGMEM char* MQTT_SERVER_IP = "iot.eclipse.org";
 const PROGMEM uint16_t MQTT_SERVER_PORT = 1883;
 const PROGMEM char* MQTT_USER = "";
 const PROGMEM char* MQTT_PASSWORD = "";
 
-const char* MQTT_LIGHT_STATE_TOPIC = "edzna/light/status";
-const char* MQTT_LIGHT_COMMAND_TOPIC = "edzna/light/switch";
+const char* MQTT_LIGHT_STATE_TOPIC = "edzna/kitchen/light/status";
+const char* MQTT_LIGHT_COMMAND_TOPIC = "edzna/kitchen/light/switch";
 
 const char* LIGHT_ON = "ON";
 const char* LIGHT_OFF = "OFF";
 
 const PROGMEM uint8_t LED_PIN = LED_BUILTIN;
-boolean m_light_state = false; // light is turned off by default
+boolean m_light_state = false;
 
 WiFiClient wifiClient;
 PubSubClient client(wifiClient);
