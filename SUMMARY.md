@@ -21,6 +21,7 @@
        * [Light Sensor](Edzna/documentation/Sensors.md)
        * [Dweet](Edzna/documentation/Dweet.md)
        * [Binary Sensor](Edzna/documentation/BinarySensor.md)
+       * Home Assistant
 * [Hochob](Hochob/documentation/Hochob.md)
 * Kanki
    * [Device](Kanki/documentation/Device.md)
