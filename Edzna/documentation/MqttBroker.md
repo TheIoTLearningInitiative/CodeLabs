@@ -46,7 +46,7 @@ root@workstation:~#
 ```sh
 Conexiones activas de Internet (servidores y establecidos)
 Proto  Recib Enviad Dirección local         Dirección remota       Estado      
-tcp        0      0 pymelab-ThinkPad:domain *:*                     ESCUCHAR   
+tcp        0      0 pymelab-ThinkPad:domain *:*                        
 tcp        0      0 localhost:ipp           *:*                     ESCUCHAR   
 tcp        0      0 *:1883                  *:*                     ESCUCHAR   
 tcp        0      0 *:8123                  *:*                     ESCUCHAR   
