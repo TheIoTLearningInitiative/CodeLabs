@@ -3,7 +3,8 @@
 import pyupm_th02
 sensor = pyupm_th02.TH02()
 sensor.getTemperature()
-print "Temperatura: " + str(sensor.getTemperature()) + " Humedad: " + ```
+print "Temperatura: " + str(sensor.getTemperature()) + " Humedad: " + str(sensor.getHumidty())
+```
 
 ```sh
 root@edison:~/CodeLabs# git clone https://github.com/xe1gyq/core.git
