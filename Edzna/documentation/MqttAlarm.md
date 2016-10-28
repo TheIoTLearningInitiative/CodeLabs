@@ -20,4 +20,5 @@ alarm_control_panel:
     name: Alarm
     state_topic: "edzna/alarm"
     command_topic: "edna/alarm/set"
+  - platform: manual
 ```
