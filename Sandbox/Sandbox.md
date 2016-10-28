@@ -1,4 +1,8 @@
 
+```sh
+pip install pyTelegramBotAPI
+```
+
 http://forums.dlink.com/index.php?topic=57131.0
 
 ```
