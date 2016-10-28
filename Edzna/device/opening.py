@@ -1,9 +1,6 @@
 #!/usr/bin/python
 
 import paho.mqtt.client as paho
-import pywapi
-import signal
-import sys
 import time
 import pyupm_grove as grove
 from threading import Thread
