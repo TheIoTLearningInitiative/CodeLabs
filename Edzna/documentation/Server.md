@@ -1,8 +1,8 @@
 # Server
 
 ```sh
-user@server:~$ apt-get install python3-pip
-user@server:~$ pip3 install homeassistant
+user@server:~$ sudo apt-get install python3-pip
+user@server:~$ sudo pip3 install homeassistant
 ```
 
 ```sh
