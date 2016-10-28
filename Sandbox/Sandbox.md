@@ -1,4 +1,6 @@
 
+http://forums.dlink.com/index.php?topic=57131.0
+
 ```
 dcs-2121   MJPEG   http://IPADDRESS/video/mjpg.cgi   No   None      
 DCS-2121   JPEG   http://IPADDRESS/image/jpeg.cgi   No   None
