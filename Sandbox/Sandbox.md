@@ -1,15 +1,9 @@
 
-```sh
->>> import pyupm_th02
->>> sensor = pyupm_th02.TH02()
->>> sensor.getTemperature()
-25.875
->>> sensor.getHumidity()
-52.4375
->>> print "Temperatura: " + str(sensor.getTemperature()) + " Humedad: " + str(sensor.getHumidity())
-Temperatura: 25.9375 Humedad: 52.5625
-
-```
+```python
+import pyupm_th02
+sensor = pyupm_th02.TH02()
+sensor.getTemperature()
+print "Temperatura: " + str(sensor.getTemperature()) + " Humedad: " + ```
 
 ```sh
 root@edison:~/CodeLabs# git clone https://github.com/xe1gyq/core.git
