@@ -1,8 +1,8 @@
 # Sensor
 
-https://home-assistant.io/components/sensor.mqtt/
-https://home-assistant.io/components/binary_sensor.mqtt/
-https://home-assistant.io/components/binary_sensor/
+[](https://home-assistant.io/components/sensor.mqtt/)
+[](https://home-assistant.io/components/binary_sensor.mqtt/)
+[](https://home-assistant.io/components/binary_sensor/)
 
 ```python
 sensor:
