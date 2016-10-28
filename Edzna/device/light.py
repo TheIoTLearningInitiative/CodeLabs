@@ -1,11 +1,8 @@
 #!/usr/bin/python
 
 import paho.mqtt.client as paho
-import signal
-import sys
 import time
 import pyupm_grove as grove
-
 from threading import Thread
 
 relay = grove.GroveRelay(2)

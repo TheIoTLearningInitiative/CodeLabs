@@ -1,9 +1,6 @@
 #!/usr/bin/python
 
 import paho.mqtt.client as paho
-import pywapi
-import signal
-import sys
 import time
 import pyupm_grove as grove
 from threading import Thread
@@ -16,9 +13,9 @@ def functionDataSensor():
 def functionDataSensorMqttPublish():
     mqttclient = paho.Client()
     mqttclient.connect("iot.eclipse.org", 1883, 60)
+    topic = "edzna/principal/luxes"
     while True:
         data = functionDataSensor()
-        topic = "edzna/principal/luxes"
         mqttclient.publish(topic, data)
         time.sleep(1)
 
