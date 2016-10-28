@@ -65,3 +65,7 @@ user@server:~$ sudo apt-get install mosquitto
 user@server:~$ sudo update-rc.d mosquitto defaults
 user@server:~$ sudo /etc/init.d/mosquitto start
 ```
+
+```sh
+user@server:~$ sudo apt-get install mosquitto-clients
+```
