@@ -33,3 +33,7 @@ sensor:
       - apparent_temperature
 ```
 
+```sh
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/kitchen/luxes -m 25
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/principal/luxes -m 50
+```
