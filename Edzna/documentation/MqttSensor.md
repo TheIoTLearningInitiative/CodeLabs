@@ -26,8 +26,8 @@ sensor:
     value_template: '{{ value_json.luxes }}'
     unit_of_measurement: "lx"
   - platform: dweet
-    name: KitchenLuxesDweet
-    device: EdznaKitchenLuxes
+    name: PrincipalLuxesDweet
+    device: EdznaPrincipalLuxes
     value_template: '{{ value_json.luxes }}'
     unit_of_measurement: "lx"
   - platform: darksky
