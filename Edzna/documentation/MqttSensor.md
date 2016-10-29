@@ -11,11 +11,11 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```python
 sensor:
   - platform: mqtt
-    name: "Kitchen Luxes"
+    name: KitchenLuxes
     state_topic: "edzna/kitchen/luxes"
     sensor_class: light
   - platform: mqtt
-    name: "Principal Luxes"
+    name: PrincipalLuxes
     state_topic: "edzna/principal/luxes"
     sensor_class: light
   - platform: worldclock
