@@ -25,6 +25,11 @@ sensor:
     device: EdznaKitchenLuxes
     value_template: '{{ value_json.luxes }}'
     unit_of_measurement: "lx"
+  - platform: dweet
+    name: KitchenLuxesDweet
+    device: EdznaKitchenLuxes
+    value_template: '{{ value_json.luxes }}'
+    unit_of_measurement: "lx"
   - platform: darksky
     api_key: c07694254ea2fa73d657db1cd700971c
     monitored_conditions:
