@@ -1,5 +1,9 @@
 # Camera
 
+```sh
+user@server:~$ nano ~/.homeassistant/configuration.yaml
+```
+
 ```
 camera:
   - platform: generic
