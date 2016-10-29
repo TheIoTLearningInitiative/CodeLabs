@@ -4,6 +4,10 @@
 [MQTT Binary Sensor](https://home-assistant.io/components/binary_sensor.mqtt/)
 [Binary Sensor](https://home-assistant.io/components/binary_sensor/)
 
+```sh
+user@server:~$ nano ~/.homeassistant/configuration.yaml
+```
+
 ```python
 sensor:
   - platform: mqtt
