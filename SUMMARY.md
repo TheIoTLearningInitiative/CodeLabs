@@ -21,11 +21,11 @@
                * [Sensor](Edzna/documentation/MqttSensor.md)
                * [Binary Sensor](Edzna/documentation/MqttBinarySensor.md)
            * [Dweet](Edzna/documentation/Dweet.md)
+           * [Binary Sensor](Edzna/documentation/BinarySensor.md)
            * [Telegram](Edzna/documentation/Telegram.md)
            * [Weather](Edzna/documentation/Weather.md)
            * [Light Sensor](Edzna/documentation/Sensors.md)
            * [Camera](documentation/HomeAssistantCamera.md)
-           * [Binary Sensor](Edzna/documentation/BinarySensor.md)
            * [Automation](documentation/Automation.md)
 * [Hochob](Hochob/documentation/Hochob.md)
 * Kanki
