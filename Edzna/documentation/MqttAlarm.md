@@ -26,4 +26,3 @@ user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m a
 user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m armed_away
 user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m triggered
 ```
-
