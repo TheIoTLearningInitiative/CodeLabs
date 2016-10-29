@@ -8,13 +8,6 @@ Based on [MQTT Alarm Control Panel](https://home-assistant.io/components/alarm_c
 - triggered
 
 ```sh
-user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m disarmed
-user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m armed_home
-user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m armed_away
-user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m triggered
-```
-
-```sh
 user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```
 
@@ -26,3 +19,11 @@ alarm_control_panel:
     command_topic: "edna/alarm/set"
   - platform: manual
 ```
+
+```sh
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m disarmed
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m armed_home
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m armed_away
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m triggered
+```
+
