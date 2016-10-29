@@ -27,8 +27,8 @@ light:
 ```
 
 ```sh
-user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/kitchen/light/switch ON
-user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/kitchen/light/switch OFF
-user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/principal/light/switch ON
-user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/principal/light/switch OFF
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/kitchen/light/status ON
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/kitchen/light/status OFF
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/principal/light/status ON
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/principal/light/status OFF
 ```
