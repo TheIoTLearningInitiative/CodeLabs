@@ -9,8 +9,13 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```sh
 sensor:
   - platform: dweet
-    name: EdznaLightSensorDweet
-    device: ThisIsDweeting
+    name: KitchenLuxesDweet
+    device: EdznaKitchenLuxes
+    value_template: '{{ value_json.luxes }}'
+    unit_of_measurement: "lx"
+  - platform: dweet
+    name: PrincipalLuxesDweet
+    device: EdznaPrincipalLuxes
     value_template: '{{ value_json.luxes }}'
     unit_of_measurement: "lx"
 ```
