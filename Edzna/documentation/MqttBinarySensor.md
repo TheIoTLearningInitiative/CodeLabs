@@ -39,4 +39,6 @@ binary_sensor:
 ```sh
 user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/kitchen/motion -m True
 user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/principal/motion -m True
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/kitchen/opening -m True
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/principal/opening -m True
 ```
