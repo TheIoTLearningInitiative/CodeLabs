@@ -8,7 +8,7 @@ import time
 import cv2
 
 
-TOKEN = '253044355:AAEI6fYXci3Pqsd7NJVuMJsSFqkb-ZHV3Gs'
+TOKEN = ''
 
 knownUsers = []  # todo: save these in a file,
 userStep = {}  # so they won't reset every time the bot restarts
