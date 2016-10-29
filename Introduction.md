@@ -24,8 +24,8 @@ Quintana Roo
 Campeche
 
 - __Chicanna__ OpenCV Face Recognition Web Picture
-- __Edzna__ Home Assistant  ! __Under Construction__
-- __Hormiguero__ MQTT Alarm __Under Construction__
+- __Edzna__ Home Assistant
+- __Hormiguero__ MQTT Alarm ! __Under Construction__
 - __Hochob__ Upm Sensor Library LCD
 - __Kanki__ ESP8266 ! __Under Construction__
 - __Tabasqueno__ NodeJS, Socket.io, Johnny Five ! __Under Construction__
