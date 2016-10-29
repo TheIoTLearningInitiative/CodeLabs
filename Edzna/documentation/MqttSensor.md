@@ -21,8 +21,8 @@ sensor:
   - platform: worldclock
     time_zone: America/Mexico_City
   - platform: dweet
-    name: KitchenLuxesDweet
-    device: ThisIsDweeting
+    name: EdznaKitchenLuxesDweet
+    device: EdznaKitchenLuxes
     value_template: '{{ value_json.luxes }}'
     unit_of_measurement: "lx"
   - platform: darksky
