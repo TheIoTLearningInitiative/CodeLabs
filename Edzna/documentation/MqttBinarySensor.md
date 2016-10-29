@@ -5,6 +5,10 @@
 [Binary Sensor](https://home-assistant.io/components/binary_sensor/)
 
 ```sh
+user@server:~$ nano ~/.homeassistant/configuration.yaml
+```
+
+```sh
 binary_sensor:
   - platform: mqtt
     name: "Kitchen Motion"
