@@ -26,7 +26,7 @@ automation:
       topic: edzna/principal/opening
       payload: 1
     action:
-      service: notify.EdznaBot
+      service: notify.Bot
       data:
         message: 'Window in Principal was opened!'
   - alias: Alarm Notification
@@ -36,7 +36,7 @@ automation:
       minutes: 00
       seconds: 00
     action:
-      service: notify.EdznaBot
+      service: notify.Bot
       data:
         message: 'Time to sleep'
   - alias: Sunrise
