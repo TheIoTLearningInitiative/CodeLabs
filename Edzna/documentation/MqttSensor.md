@@ -32,3 +32,4 @@ sensor:
       - precip_probability
       - apparent_temperature
 ```
+
