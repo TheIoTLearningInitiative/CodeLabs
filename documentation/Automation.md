@@ -26,9 +26,12 @@ automation:
       topic: edzna/principal/opening
       payload: 1
     action:
-      service: notify.Bot
-      data:
-        message: 'Window in Principal was opened!'
+      - service: notify.Bot
+        data:
+          message: 'Window in Principal was opened!'
+      - service: notify.Bot
+        data:
+          message: 'Implement taking a picture!'
   - alias: Alarm Notification
     trigger:
       platform: time
