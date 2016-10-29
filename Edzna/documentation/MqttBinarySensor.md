@@ -35,3 +35,8 @@ binary_sensor:
     payload_on: 1
     payload_off: 0
 ```
+
+```sh
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/kitchen/luxes -m 25
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/principal/luxes -m 50
+```
