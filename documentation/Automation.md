@@ -45,7 +45,7 @@ automation:
       entity_id: sensor.EdznaLightSensor
       above: 10
     action:
-      service: notify.EdznaBot
+      service: notify.Bot
       data_template:
         title: "Good Morning!"
         message: "Time to wake up, we have {{ states.sensor.EdznaLightSensor.state }} luxes in the air!"
@@ -55,7 +55,7 @@ automation:
       entity_id: sensor.EdznaLightSensor
       below: 10
     action:
-      service: notify.EdznaBot
+      service: notify.Bot
       data_template:
         title: "Good Night!"
         message: "Time to sleep, we have {{ states.sensor.EdznaLightSensor.state }} luxes in the air!"
