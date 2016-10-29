@@ -9,7 +9,7 @@ automation:
       payload: True
     action:
       entity_id:
-      - light.principal
+      - light.Principal
       service: light.turn_on
   - alias: Turn off lights when motion not detected
     trigger:
@@ -18,7 +18,7 @@ automation:
       payload: False
     action:
       entity_id:
-      - light.principal
+      - light.Principal
       service: light.turn_off
   - alias: Send to Telegram Bot messsage when window opening happens
     trigger:
