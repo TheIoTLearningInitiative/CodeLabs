@@ -23,16 +23,19 @@ relay = grove.GroveRelay(2)
 
 def functionLight(bot, update):
     luxes = light.value()
-    bot.sendMessage(update.message.chat_id, text='Light ' + str(luxes))
+    bot.sendMessage(update.message.chat_id, text='Light! ' + str(luxes))
 
 def functionMessage(bot, update):
     bot.sendMessage(update.message.chat_id, text=message)
+
+def functionPicture(bot, update):
+    bot.sendPhoto(update.message.chat_id, photo=open('documentation/image.jpg', 'rb'))
 
 def functionRelay(bot, update):
     relay.on()
     time.sleep(2)
     relay.off()
-    bot.sendMessage(update.message.chat_id, text='Relay Used!')
+    bot.sendMessage(update.message.chat_id, text='Relay!')
 
 def functionEcho(bot, update):
     bot.sendMessage(update.message.chat_id, text=update.message.text)
@@ -55,12 +58,13 @@ if __name__ == '__main__':
 
     dp.add_handler(CommandHandler("light", functionLight))
     dp.add_handler(CommandHandler("message", functionMessage))
+    dp.add_handler(CommandHandler("picture", functionPicture))
     dp.add_handler(CommandHandler("relay", functionRelay))
     dp.add_handler(MessageHandler([Filters.text], functionEcho))
 
     updater.start_polling()
 
-    message = "Hola Cacerola"
+    message = "Dzibilchaltun"
 
     while True:
 
