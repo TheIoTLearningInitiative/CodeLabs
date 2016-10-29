@@ -17,7 +17,7 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 
 ```sh
 notify:
-  - name: EdznaBot
+  - name: Bot
     platform: telegram
     api_key: 
     chat_id: 
@@ -46,7 +46,7 @@ automation:
       minutes: 00
       seconds: 00
     action:
-      service: notify.EdznaBot
+      service: notify.Bot
       data:
         message: 'Time to sleep'
 ```
