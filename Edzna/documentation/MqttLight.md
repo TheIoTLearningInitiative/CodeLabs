@@ -34,6 +34,6 @@ user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/principal/
 ```
 
 ```sh
-user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/kitchen/light/status OFF
-user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/principal/light/status ON
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/kitchen/light/rgb/status OFF
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/principal/light/rgb/status ON
 ```
