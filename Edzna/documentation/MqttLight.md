@@ -25,3 +25,10 @@ light:
     rgb_command_topic: "edzna/principal/light/rgb/set"
     optimistic: true
 ```
+
+```sh
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m disarmed
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m armed_home
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m armed_away
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m triggered
+```
