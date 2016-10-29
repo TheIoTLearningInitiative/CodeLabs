@@ -52,7 +52,7 @@ automation:
   - alias: Sunset
     trigger:
       platform: numeric_state
-      entity_id: sensor.EdznaLightSensor
+      entity_id: sensor.PrincipalLuxesMqtt
       below: 10
     action:
       service: notify.Bot
@@ -64,7 +64,7 @@ automation:
       - platform: state
         entity_id: updater.updater
     action:
-      service: notify.EdznaBot
+      service: notify.PrincipalLuxesMqtt
       data:
         message: 'There is a new Home Assistant release available.'
 ```
