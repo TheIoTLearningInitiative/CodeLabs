@@ -14,6 +14,10 @@ user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m a
 user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/alarm -m triggered
 ```
 
+```sh
+user@server:~$ nano ~/.homeassistant/configuration.yaml
+```
+
 ```python
 alarm_control_panel:
   - platform: mqtt
