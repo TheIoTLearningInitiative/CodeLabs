@@ -26,7 +26,7 @@
            * [Dweet](Edzna/documentation/Dweet.md)
            * [Camera](documentation/HomeAssistantCamera.md)
            * [Binary Sensor](Edzna/documentation/BinarySensor.md)
-           * Automation
+           * [Automation](documentation/Automation.md)
 * [Hochob](Hochob/documentation/Hochob.md)
 * Kanki
    * [Device](Kanki/documentation/Device.md)
