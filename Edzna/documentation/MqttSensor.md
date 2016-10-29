@@ -11,17 +11,17 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```python
 sensor:
   - platform: mqtt
-    name: KitchenLuxes
+    name: KitchenLuxesMqtt
     state_topic: "edzna/kitchen/luxes"
     sensor_class: light
   - platform: mqtt
-    name: PrincipalLuxes
+    name: PrincipalLuxesMqtt
     state_topic: "edzna/principal/luxes"
     sensor_class: light
   - platform: worldclock
     time_zone: America/Mexico_City
   - platform: dweet
-    name: EdznaLightSensorDweet
+    name: KitchenLuxesDweet
     device: ThisIsDweeting
     value_template: '{{ value_json.luxes }}'
     unit_of_measurement: "lx"
