@@ -24,7 +24,6 @@
            * [Weather](Edzna/documentation/Weather.md)
            * [Binary Sensor](Edzna/documentation/BinarySensor.md)
            * [Telegram](Edzna/documentation/Telegram.md)
-           * [Light Sensor](Edzna/documentation/Sensors.md)
            * [Camera](documentation/HomeAssistantCamera.md)
            * [Automation](documentation/Automation.md)
 * [Hochob](Hochob/documentation/Hochob.md)
