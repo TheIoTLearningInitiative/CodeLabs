@@ -3,6 +3,10 @@
 Device based on Xpuhil Project
 
 ```sh
+user@server:~$ nano ~/.homeassistant/configuration.yaml
+```
+
+```sh
 sensor:
   - platform: dweet
     name: EdznaLightSensorDweet
