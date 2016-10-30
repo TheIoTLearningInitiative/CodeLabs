@@ -106,7 +106,7 @@ root@edison:~# cd CodeLabs/
 root@edison:~/CodeLabs# 
 ```
 
-## CodeLabs Available
+## CodeLabs Available, Update
 
 ```sh
 root@edison:~/CodeLabs# git reset --hard
