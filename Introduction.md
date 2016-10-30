@@ -32,7 +32,7 @@ Campeche
 - __Xcalumkin__ 
 - __Xpuhil__ Freeboard
 
-## CodeLabs Not Available, Clean
+## Clean
 
 ```sh
 root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Scripts/clean.sh -o - | sh
