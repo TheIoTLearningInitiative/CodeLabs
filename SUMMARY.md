@@ -28,7 +28,7 @@
            * [Camera](documentation/HomeAssistantCamera.md)
            * [Automation](documentation/Automation.md)
 * [Hochob](Hochob/documentation/Hochob.md)
-* Hormiguero
+* [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * Kanki
    * [Device](Kanki/documentation/Device.md)
    * [Gateway](Kanki/documentation/Gateway.md)
