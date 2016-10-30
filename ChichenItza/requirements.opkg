@@ -1,4 +1,8 @@
 # opkg update
-opkg install alsa-utils mpg123 espeak
+opkg install alsa-utils espeak
 opkg install --nodeps jack-dev
 opkg install --nodeps libportaudio-dev
+opkg install ../Tools/mpg123_1.21.0-r0_core2-32.ipk
+opkg install ../Tools/mpg123-doc_1.21.0-r0_core2-32.ipk
+opkg install ../Tools/mpg123-dev_1.21.0-r0_core2-32.ipk
+opkg install ../Tools/mpg123-dbg_1.21.0-r0_core2-32.ipk

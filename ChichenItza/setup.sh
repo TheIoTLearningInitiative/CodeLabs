@@ -9,8 +9,8 @@ sleep 4
 
 pip install pip --upgrade
 sh requirements.opkg
+sh requirements.manual
 # pip install -r requirements.pip
-
 
 cat <<EOF > ~/.asoundrc
 pcm.!default {
@@ -26,6 +26,10 @@ ctl.!default {
        }
 }
 EOF
+
+mkdir configuration
+echo > configuration/voicerss.mk
+echo > configuration/voicerss.ak
 
 echo
 echo "Now go to CodeLabs/ChichenItza directory to get started!"
