@@ -53,7 +53,7 @@ Happy Hacking'ing!
 root@edison:~# 
 ```
 
-## CodeLabs Not Available, Setup
+## CodeLabs Not Available, Setup Up
 
 ```sh
 root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Scripts/setup.sh -o - | sh
@@ -91,7 +91,7 @@ Happy Xpuhil'ing!
 Happy Hacking'ing!
 ```
 
-## CodeLabs Not Available, Cloning
+## CodeLabs Not Available, Clone
 
 ```sh
 root@edison:~# git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
