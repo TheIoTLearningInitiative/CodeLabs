@@ -6,7 +6,7 @@
    * [Getting Started](documentation/GettingStarted.md)
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
-* Chichen Itza
+* [Chichen Itza](ChichenItza/documentation/ChichenItza.md)
 * [Coba](Coba/documentation/Coba.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
 * [Edzna](Edzna/documentation/Edzna.md)
