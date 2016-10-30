@@ -3,5 +3,5 @@
 - Push Button
 - LCD
 - Buzzer
-- PIR
+- Touch / PIR
 - MQTT
