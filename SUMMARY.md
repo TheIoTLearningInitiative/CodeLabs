@@ -6,6 +6,7 @@
    * [Getting Started](documentation/GettingStarted.md)
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
+* Chichen Itza
 * [Coba](Coba/documentation/Coba.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
 * [Edzna](Edzna/documentation/Edzna.md)
@@ -64,5 +65,4 @@
    * [Image Webpage Flask](ImageWebpageFlask/README.md)
    * [Audio Capture Playback](AudioCapturePlayback/README.md)
    * [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
-* Chichen Itza
 
