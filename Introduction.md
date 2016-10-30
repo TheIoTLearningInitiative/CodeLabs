@@ -5,7 +5,7 @@
 Yucatan
 
 - __Chacmultun__ I2C Library LCD
-- __Chichen Itza__
+- __Chichen Itza__ Bluetooth
 - __Dzibilchaltun__ Telegram Bot
 - __Ek Balam__ 
 - __Kinich KaK Moo__
