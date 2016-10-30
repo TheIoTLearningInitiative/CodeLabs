@@ -32,7 +32,7 @@ Campeche
 - __Xcalumkin__ 
 - __Xpuhil__ Freeboard
 
-## CodeLabs Not Available, Cloning and Setup
+## CodeLabs Not Available, Clean
 
 ```sh
 root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Scripts/clean.sh -o - | sh
@@ -52,6 +52,8 @@ Happy Hacking'ing!
 
 root@edison:~# 
 ```
+
+## CodeLabs Not Available, Cloning and Setup
 
 ```sh
 root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Scripts/setup.sh -o - | sh
