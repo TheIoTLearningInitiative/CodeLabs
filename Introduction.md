@@ -91,7 +91,7 @@ Happy Xpuhil'ing!
 Happy Hacking'ing!
 ```
 
-## CodeLabs Not Available, Only Cloning
+## CodeLabs Not Available, Cloning
 
 ```sh
 root@edison:~# git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
