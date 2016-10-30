@@ -10,7 +10,7 @@ sleep 4
 pip install pip --upgrade
 sh requirements.opkg
 sh requirements.manual
-# pip install -r requirements.pip
+pip install -r requirements.pip
 
 cat <<EOF > ~/.asoundrc
 pcm.!default {
