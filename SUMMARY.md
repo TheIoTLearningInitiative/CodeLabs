@@ -3,6 +3,7 @@
 * [Cover](README.md)
 * [Summary](SUMMARY.md)
 * [Introduction](Introduction.md)
+   * Getting Started
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Coba](Coba/documentation/Coba.md)
