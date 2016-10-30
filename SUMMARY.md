@@ -11,7 +11,7 @@
 * [Edzna](Edzna/documentation/Edzna.md)
    * Device
        * [Light ESP8266](Edzna/documentation/Esp8266.md)
-       * [Light Intel Edison](Edzna/documentation/IntelEdison.md)
+       * [Intel Edison](Edzna/documentation/IntelEdison.md)
    * [Server](Edzna/documentation/Server.md)
        * [MQTT Broker](Edzna/documentation/MqttBroker.md)
        * Home Assistant
