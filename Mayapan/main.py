@@ -6,9 +6,9 @@ import dweepy
 import signal
 import time
 import threading
-import pytz #need to add to setup.sh pip install pytz
+import pytz
 import os
-import pywapi #need to add to manual setup
+import pywapi
 
 import pyupm_grove as grove
 import pyupm_grovespeaker as upmGrovespeaker
@@ -46,15 +46,11 @@ gTemp = temp.TH02(0, 0x40)
 gServo.setAngle(Angle)
 
 def dataWeather(bot, update):
-    print "dataWeather function"
+    global weather
     weather = pywapi.get_weather_from_weather_com('MXJO0043')
-    wmessage = "It is " + weather['current_conditions']['text'].lower() + " and " + weather['current_conditions']['temperature'] + " C now in Guadalajara."
-    print wmessage
-    #wmessage = wmessage + ", Temperature " + weather['condition']['temp'] + " C"
-    #print wmessage
-    #wmessage = wmessage + ", Atmospheric Pressure " + weather['atmosphere']['pressure'] + " mbar"
-    #print wmessage
-    bot.sendMessage(update.message.chat_id, text = str(wmessage))
+    message = "It is " + weather['current_conditions']['text'].lower() + " and " + weather['current_conditions']['temperature'] + " C now in Guadalajara."
+    print message
+    bot.sendMessage(update.message.chat_id, text = str(message))
 
 def functionLight(bot, update):
     luxes = light.value()
@@ -161,16 +157,22 @@ def functionAutoMode():
     now = datetime.now(pytz.timezone("America/Mexico_City"))
     sleeptime = now.replace(hour=23, minute=0, second=0, microsecond=0)
     waketime = now.replace(hour=7, minute=0, second=0, microsecond=0)
-    
+    weather = pywapi.get_weather_from_weather_com('MXJO0043')
+    WeatherTemp = weather['current_conditions']['temperature']
+
     if now > waketime and now < sleeptime:
 	if int(luxes) < 20 and relay.isOff():
 	    functionRelay()
 	elif int(luxes) > 19 and relay.isOn():
 	    functionRelay()
     
-    if int(temperature) > 25 and Angle == 0:
-	functionBlinds()
-    elif int(temperature) < 26 and Angle == 90:
+    if int(temperature) > 23 and Angle == 0:
+	if int(WeatherTemp) < int(temperature):
+	    functionBlinds()
+    elif int(temperature) > 23 and Angle == 90:
+        if int(WeatherTemp) > int(temperature):
+	    functionBlinds()
+    elif int(temperature) < 24 and Angle == 90:
 	functionBlinds()
 
 def functionEnableAuto(bot, update):

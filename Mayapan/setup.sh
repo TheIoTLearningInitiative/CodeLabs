@@ -1,18 +1,19 @@
 echo
-echo "Welcome to Xpuhil Playground"
+echo "Welcome to Mayapan Playground"
 echo
 
 sleep 4
 
 git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
-cd CodeLabs/Xpuhil/
+cd CodeLabs/Mayapan/
 
 pip install pip --upgrade
 sh requirements.opkg
 pip install -r requirements.pip
+sh requirements.manual
 
 echo
-echo "Now go to CodeLabs/Xpuhil directory to get started!"
+echo "Now go to CodeLabs/Mayapan directory to get started!"
 echo
-echo "Happy Xpuhil'ing!"
+echo "Happy Mayapan'ing!"
 echo
