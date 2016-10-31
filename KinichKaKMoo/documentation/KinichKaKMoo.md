@@ -17,6 +17,7 @@ root@edison:~/.node-red# npm install node-red-node-watson
 root@edison:~/.node-red# npm install node-red-contrib-play-audio
 root@edison:~/.node-red# npm install node-red-bluemix-nodes
 root@edison:~/.node-red# npm install node-red-contrib-telegrambot
+root@edison:~/.node-red# npm install node-telegram-bot-api
 ```
 
 ```sh
