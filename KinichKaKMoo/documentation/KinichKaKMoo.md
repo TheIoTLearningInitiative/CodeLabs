@@ -12,4 +12,5 @@ root@edison:~/.node-red# npm install node-red-contrib-gpio
 root@edison:~/.node-red# npm install node-red-node-intel-gpio
 root@edison:~/.node-red# npm install node-red-contrib-grove-edison
 root@edison:~/.node-red# npm install node-red-node-upm
+root@edison:~/.node-red# npm install node-red-contrib-upm
 ```
