@@ -33,7 +33,7 @@
 * Kanki
    * [Device](Kanki/documentation/Device.md)
    * [Gateway](Kanki/documentation/Gateway.md)
-* Kinich KaK Moo
+* [Kinich KaK Moo](KinichKaKMoo/documentation/KinichKaKMoo.md)
 * [Kohunlich](Kohunlich/documentation/Kohunlich.md)
 * [La Ruta Puuc](LaRutaPuuc/documentation/LaRutaPuuc.md)
 * [Mayapan](Mayapan/documentation/Mayapan.md)
