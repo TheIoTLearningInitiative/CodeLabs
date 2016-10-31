@@ -8,7 +8,10 @@ with sr.Microphone() as source:
     print("Say something!")
     audio = r.listen(source)
 
-    WIT_AI_KEY = "CDMAGXSNZ2LXGI7AANPQI442KCZ2DFTQ"
+file = open('configuration/wit.wi', 'r')
+WIT_AI_KEY = file.readline()
+file.close()
+
 try:
     print("Wit.ai thinks you said " + r.recognize_wit(audio,key=WIT_AI_KEY))
 except sr.UnknownValueError:
