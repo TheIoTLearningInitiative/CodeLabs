@@ -33,6 +33,7 @@
 * Kanki
    * [Device](Kanki/documentation/Device.md)
    * [Gateway](Kanki/documentation/Gateway.md)
+* Kinich KaK Moo
 * [Kohunlich](Kohunlich/documentation/Kohunlich.md)
 * [La Ruta Puuc](LaRutaPuuc/documentation/LaRutaPuuc.md)
 * [Mayapan](Mayapan/documentation/Mayapan.md)
@@ -65,5 +66,4 @@
    * [Image Webpage Flask](ImageWebpageFlask/README.md)
    * [Audio Capture Playback](AudioCapturePlayback/README.md)
    * [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
-* Kinich KaK Moo
 
