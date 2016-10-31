@@ -15,4 +15,5 @@ root@edison:~/.node-red# npm install node-red-node-upm
 root@edison:~/.node-red# npm install node-red-contrib-upm
 root@edison:~/.node-red# npm install node-red-node-watson
 root@edison:~/.node-red# npm install node-red-contrib-play-audio
+root@edison:~/.node-red# npm install npm i node-red-bluemix-nodes
 ```
