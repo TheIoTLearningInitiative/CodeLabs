@@ -24,11 +24,13 @@ def SIGINTHandler(signum, frame):
 def exitHandler():
 	print "Exiting"
         time.sleep(2)
+	sys.exit(0)
+'''
         datafreeboard['alive'] = "0"
         datafreeboard['luxes'] =  0
         datafreeboard['message'] = "None"
         dweepy.dweet_for(datadweet, datafreeboard)
-	sys.exit(0)
+'''
 
 atexit.register(exitHandler)
 signal.signal(signal.SIGINT, SIGINTHandler)
@@ -47,7 +49,7 @@ if __name__ == '__main__':
         datafreeboard['alive'] = "1"
         datafreeboard['luxes'] =  luxes
         datafreeboard['message'] = message
-        dweepy.dweet_for(datadweet, datafreeboard)
+        #dweepy.dweet_for(datadweet, datafreeboard)
 
         if button.value() is 1:
             display.setColor(255, 0, 0)
