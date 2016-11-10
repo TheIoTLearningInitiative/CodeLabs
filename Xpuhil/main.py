@@ -38,6 +38,8 @@ if __name__ == '__main__':
 
     while True:
 
+        luxes = light.value()
+
         datafreeboard['alive'] = "1"
         datafreeboard['luxes'] =  luxes
         datafreeboard['message'] = message
