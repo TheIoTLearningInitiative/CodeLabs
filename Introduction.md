@@ -7,7 +7,7 @@ Yucatán
 - __Chacmultun__ I2C Library LCD
 - __Chichen Itza__ Audio
 - __Dzibilchaltun__ Telegram Bot
-- __Ek Balam__ 
+- __Ek Balam__ Google APIS __Under Construction__
 - __Kinich KaK Moo__ Node-RED
 - __La Ruta Puuc__ NodeJS, Socket.io, Johnny Five, AngularJS  ! __Under Construction__
 - __Mayapan__ Domotics ! __Under Construction__
@@ -29,6 +29,6 @@ Campeche
 - __Hochob__ Upm Sensor Library LCD
 - __Kanki__ ESP8266 ! __Under Construction__
 - __Tabasqueno__ NodeJS, Socket.io, Johnny Five ! __Under Construction__
-- __Xcalumkin__ 
+- __Xcalumkin__ Python Cross Platform (PC/Embedded) __Under Construction__
 - __Xpuhil__ Freeboard
 

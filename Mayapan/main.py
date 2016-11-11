@@ -24,6 +24,7 @@ credentialsfile = "credentials.config"
 credentials.read(credentialsfile)
 controlmode = 1
 Angle = 0
+weather = pywapi.get_weather_from_weather_com('MXJO0043')
 
 # Create the button object using D3
 button = grove.GroveButton(3)
@@ -45,11 +46,13 @@ gTemp = temp.TH02(0, 0x40)
 # Initialize servo to 0 degrees
 gServo.setAngle(Angle)
 
-def dataWeather(bot, update):
+def getWeather():
     global weather
     weather = pywapi.get_weather_from_weather_com('MXJO0043')
-    message = "It is " + weather['current_conditions']['text'].lower() + " and " + weather['current_conditions']['temperature'] + " C now in Guadalajara."
-    print message
+
+def dataWeather(bot, update):
+    global weather
+    message = "It is " + weather['current_conditions']['text'].lower() + " and " + weather['current_conditions']['temperature'] + " C now in Guadalajara"
     bot.sendMessage(update.message.chat_id, text = str(message))
 
 def functionLight(bot, update):
@@ -126,8 +129,18 @@ def functionEcho(bot, update):
 
 def displayOutput(arg):
     threadlcd = threading.currentThread()
+    global weather
     while getattr(threadlcd, "do_run", True):
+        now = datetime.now(pytz.timezone("America/Mexico_City"))
+	for x in range (0, 6):
+            updateWeather = now.replace(minute=(x*10))
+	    if(now.minute == updateWeather.minute):
+		getWeather()
+	message = "It is " + weather['current_conditions']['text'].lower() + " and " + weather['current_conditions']['temperature'] + " C now in Guadalajara"
+	messageLenght = len(message)
         cont=0
+	i = 0
+
         while cont < 50:
             luxes = light.value()
             temperature = gTemp.getTemperature()
@@ -140,24 +153,28 @@ def displayOutput(arg):
             cont += 1
             time.sleep(0.1)
         myLcd.clear()
-        while cont > 49 and cont < 100:
-            if controlmode==1:
+        while i < (messageLenght - 15):
+	    lcdMessage = str(message[(i):(i+16)])
+            myLcd.setCursor(1, 0)
+	    myLcd.write(lcdMessage)
+
+	    if controlmode==1:
                 myLcd.setCursor(0, 0)
                 myLcd.write("Mode: Auto")
             else:
                 myLcd.setCursor(0,0)
                 myLcd.write("Mode: Manual")
-	    cont += 1
-	    time.sleep(0.1)
+	    i += 1
+	    time.sleep(.6)
         myLcd.clear()
 
 def functionAutoMode():
+    global weather
     luxes = light.value()
     temperature = gTemp.getTemperature()
     now = datetime.now(pytz.timezone("America/Mexico_City"))
     sleeptime = now.replace(hour=23, minute=0, second=0, microsecond=0)
     waketime = now.replace(hour=7, minute=0, second=0, microsecond=0)
-    weather = pywapi.get_weather_from_weather_com('MXJO0043')
     WeatherTemp = weather['current_conditions']['temperature']
 
     if now > waketime and now < sleeptime:
