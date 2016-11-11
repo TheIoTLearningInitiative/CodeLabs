@@ -29,6 +29,6 @@ Campeche
 - __Hochob__ Upm Sensor Library LCD
 - __Kanki__ ESP8266 ! __Under Construction__
 - __Tabasqueno__ NodeJS, Socket.io, Johnny Five ! __Under Construction__
-- __Xcalumkin__ 
+- __Xcalumkin__ Python Cross Platform (PC/Embedded) __Under Construction__
 - __Xpuhil__ Freeboard
 
