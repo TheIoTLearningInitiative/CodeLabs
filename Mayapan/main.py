@@ -50,10 +50,18 @@ def getWeather():
     global weather
     weather = pywapi.get_weather_from_weather_com('MXJO0043')
 
-def dataWeather(bot, update):
+def getWeatherMsg():
+	global weather
+	message = "It is " + weather['current_conditions']['text'].lower() + " and " + weather['current_conditions']['temperature'] + " C now in Guadalajara"
+	return message;
+
+def getWeatherMsgForecast(day):
     global weather
-    message = "It is " + weather['current_conditions']['text'].lower() + " and " + weather['current_conditions']['temperature'] + " C now in Guadalajara"
-    bot.sendMessage(update.message.chat_id, text = str(message))
+    forecastMsg =  weather['forecasts'][day]['date'] + " - " + " Highest Temp: " + weather['forecasts'][day]['high'] + " C  Lowest Temp: " + weather['forecasts'][day]['low'] + " C" 
+    return forecastMsg;
+
+def dataWeather(bot, update):
+    bot.sendMessage(update.message.chat_id, text = str(getWeatherMsg()))
 
 def functionLight(bot, update):
     luxes = light.value()
@@ -251,6 +259,13 @@ if __name__ == '__main__':
 	if controlmode == 1:
 	    functionAutoMode()
 	luxes = light.value()
+	weathermsg = getWeatherMsg()
+	forecastweather1 = getWeatherMsgForecast(1)
+	forecastweather2 = getWeatherMsgForecast(2)
+	forecastweather3 = getWeatherMsgForecast(3)
+	forecastweather4 = getWeatherMsgForecast(4)
+	#forecastweather5 = getWeatherMsgForecast(5)
+	#forecastweather6 = getWeatherMsgForecast(6)
 	temp = gTemp.getTemperature()
         if Angle == 0:
 	    msgBlinds = "Blinds Open"
@@ -267,6 +282,13 @@ if __name__ == '__main__':
         datafreeboard['blinds'] = msgBlinds
         datafreeboard['light'] = msgLight
         datafreeboard['message'] = msgStatus
+        datafreeboard['weather'] = weathermsg
+        datafreeboard['weathernext1'] = forecastweather1
+        datafreeboard['weathernext2'] = forecastweather2
+        datafreeboard['weathernext3'] = forecastweather3
+        datafreeboard['weathernext4'] = forecastweather4
+        #datafreeboard['weathernext5'] = forecastweather5
+        #datafreeboard['weathernext6'] = forecastweather6        
         dweepy.dweet_for('domotics', datafreeboard)
 	time.sleep(1)
 
