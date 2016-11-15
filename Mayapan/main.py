@@ -57,7 +57,7 @@ def getWeatherMsg():
 
 def getWeatherMsgForecast(day):
     global weather
-    forecastMsg =  weather['forecasts'][day]['date'] + " - " + " Highest Temp: " + weather['forecasts'][day]['high'] + " C  Lowest Temp: " + weather['forecasts'][day]['low'] + " C" 
+    forecastMsg =  weather['forecasts'][day]['date'] + " - " + weather['forecasts'][day]['day']['text'] + " - " +"Highest Temp: " + weather['forecasts'][day]['high'] + " C  Lowest Temp: " + weather['forecasts'][day]['low'] + " C" 
     return forecastMsg;
 
 def dataWeather(bot, update):
