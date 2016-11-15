@@ -7,7 +7,6 @@ import sys
 import time
 
 import pyupm_grove as grove
-import pyupm_grovespeaker as upmGrovespeaker
 import pyupm_i2clcd as lcd
 
 button = grove.GroveButton(8)
@@ -40,21 +39,10 @@ if __name__ == '__main__':
     while True:
 
         luxes = light.value()
-        luxes = int(luxes)
-        display.setColor(luxes, luxes, luxes)
-        display.clear()
 
         datafreeboard['alive'] = "1"
         datafreeboard['luxes'] =  luxes
         datafreeboard['message'] = message
         dweepy.dweet_for(datadweet, datafreeboard)
-
-        if button.value() is 1:
-            display.setColor(255, 0, 0)
-            display.setCursor(0,0)
-            display.write(str(message))
-            relay.on()
-            time.sleep(1)
-            relay.off()
 
         time.sleep(1)

@@ -1,2 +1,4 @@
 dweepy
 pytz
+python-telegram-bot
+pyopenssl ndg-httpsclient pyasn1
