@@ -10,7 +10,9 @@ opkg update
 
 sh CodeLabs/Chacmultun/setup.sh
 sh CodeLabs/Chicanna/setup.sh
+sh CodeLabs/ChichenItza/setup.sh
 sh CodeLabs/Coba/setup.sh
+sh CodeLabs/Dzibilchaltun/setup.sh
 sh CodeLabs/Hochob/setup.sh
 sh CodeLabs/Kohunlich/setup.sh
 sh CodeLabs/Tulum/device/setup.sh
