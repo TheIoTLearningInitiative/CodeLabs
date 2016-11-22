@@ -10,7 +10,7 @@ static int module_init_function(void)
 
 static void module_exit_function(void)
 {
-    printk(KERN_INFO "Main? Bye! %s\n", minombre);
+    printk(KERN_INFO "Main? Bye!\n");
 }
 
 MODULE_LICENSE("GPL");
