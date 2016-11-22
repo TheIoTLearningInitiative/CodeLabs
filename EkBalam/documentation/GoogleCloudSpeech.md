@@ -9,7 +9,7 @@ API Manager
 
 - Dashboard. Enable API
   - Search: Translate
-  - Google Cloud Translation API. The Google Translate API lets websites and programs integrate with Google Translate programmatically.
+  - Google Cloud Speech API.	Google Cloud Speech API.
   - Enable
 - Credentials
   - Create Credentials
