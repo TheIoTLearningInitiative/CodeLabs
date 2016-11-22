@@ -1,5 +1,11 @@
 # Google Cloud Vision API
 
+> Integrates Google Vision features, including image labeling, face, logo, and landmark detection, optical character recognition (OCR), and detection of explicit content, into applications.
+
+- [Sample code for Google Cloud Vision](https://github.com/GoogleCloudPlatform/cloud-vision)
+
+## Google Cloud Platform Dashboard
+
 __Use Google APIs.__ Enable APIS, create credentials and track your usage.
 
 API Manager
@@ -8,9 +14,25 @@ API Manager
   - Search: Translate
   - Google Cloud Vision API. Integrates Google Vision features, including image labeling, face, logo, and landmark detection, optical character recognition (OCR), and detection of explicit content, into applications.
   - Enable
-- Credentials
-  - Create Credentials
-  - > APIs. Credentials. You need credentials to access APIs. Enable the APIs you plan to use and then create the credentials they require. Depending on the API, you need an API key, a service account, or an OAuth 2.0 client ID. Refer to the API documentation for details.
-  - Select API Key and Close
-    - API key created. Use this key in your application by passing it with the key=API_KEY parameter.
-    - Your API key: Xx
+
+```sh
+root@edison:~/CodeLabs/EkBalam# wget https://upload.wikimedia.org/wikipedia/commons/5/5d/Barack_Obama_family_portrait_2011.jpg
+--2016-11-22 04:01:37--  https://upload.wikimedia.org/wikipedia/commons/5/5d/Barack_Obama_family_portrait_2011.jpg
+Resolving upload.wikimedia.org... 208.80.153.240, 2620:0:860:ed1a::2:b
+Connecting to upload.wikimedia.org|208.80.153.240|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1972894 (1.9M) [image/jpeg]
+Saving to: 'Barack_Obama_family_portrait_2011.jpg'
+
+100%[======================================>] 1,972,894    477KB/s   in 4.0s   
+
+2016-11-22 04:01:42 (477 KB/s) - 'Barack_Obama_family_portrait_2011.jpg' saved [1972894/1972894]
+root@edison:~/CodeLabs/EkBalam# 
+```
+
+```sh
+root@edison:~/CodeLabs/EkBalam# python gcpfaces.py Barack_Obama_family_portrait_2
+Found 4 faces
+Writing to file out.jpg
+root@edison:~/CodeLabs/EkBalam# 
+```
