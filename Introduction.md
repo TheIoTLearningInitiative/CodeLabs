@@ -38,7 +38,15 @@ Chiapas
 
 -  Palenque
 -  Yaxchilan
+-  Bonampak
+-  Toniná
 
+Guatemala
+
+- Iximche
+- Kaminaljuyu
+- Mixco Viejo
+- Q'umarkaj (also known as Utatlán)
 
 
 ## Maya Gods and Supernatural Beings
