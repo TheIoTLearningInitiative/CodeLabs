@@ -4,7 +4,7 @@ echo
 
 sleep 4
 
-git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
+# git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
 cd CodeLabs/Kohunlich/
 
 wget https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/JHD1313M2.c
