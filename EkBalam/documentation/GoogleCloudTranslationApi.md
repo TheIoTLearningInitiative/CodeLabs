@@ -2,7 +2,7 @@
 
 > The Google Translate API lets websites and programs integrate with Google Translate programmatically.
 
-## Google Cloud Platform
+## Google Cloud Platform Dashboard
 
 __Use Google APIs.__ Enable APIS, create credentials and track your usage.
 
