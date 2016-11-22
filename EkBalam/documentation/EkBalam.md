@@ -1,15 +1,8 @@
 # Ek Balam
 
-
-
-https://console.cloud.google.com/
-
 ```sh
 root@edison:~# pip install --upgrade google-api-python-client
 ```
-# Google Cloud Translation API
-
-> The Google Translate API lets websites and programs integrate with Google Translate programmatically.
 
 ## Google Cloud Platform Dashboard
 
