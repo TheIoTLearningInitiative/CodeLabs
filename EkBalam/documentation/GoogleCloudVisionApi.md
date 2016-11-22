@@ -1,5 +1,9 @@
 # Google Cloud Vision API
 
+
+
+## Google Cloud Platform Dashboard
+
 __Use Google APIs.__ Enable APIS, create credentials and track your usage.
 
 API Manager
