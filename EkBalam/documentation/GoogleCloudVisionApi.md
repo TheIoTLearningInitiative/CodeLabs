@@ -27,3 +27,10 @@ Saving to: 'Barack_Obama_family_portrait_2011.jpg'
 2016-11-22 04:01:42 (477 KB/s) - 'Barack_Obama_family_portrait_2011.jpg' saved [1972894/1972894]
 root@edison:~/CodeLabs/EkBalam# 
 ```
+
+```sh
+2011.jpg on:~/CodeLabs/EkBalam# python gcpfaces.py Barack_Obama_family_portrait_2
+Found 4 faces
+Writing to file out.jpg
+root@edison:~/CodeLabs/EkBalam# 
+```
