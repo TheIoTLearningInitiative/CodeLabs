@@ -29,7 +29,7 @@ root@edison:~/CodeLabs/EkBalam#
 ```
 
 ```sh
-2011.jpg on:~/CodeLabs/EkBalam# python gcpfaces.py Barack_Obama_family_portrait_2
+root@edison:~/CodeLabs/EkBalam# python gcpfaces.py Barack_Obama_family_portrait_2
 Found 4 faces
 Writing to file out.jpg
 root@edison:~/CodeLabs/EkBalam# 
