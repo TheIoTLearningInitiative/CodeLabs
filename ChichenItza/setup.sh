@@ -5,7 +5,7 @@ echo
 sleep 4
 
 #git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
-#cd CodeLabs/ChichenItza/
+cd CodeLabs/ChichenItza/
 
 pip install pip --upgrade
 sh requirements.opkg
