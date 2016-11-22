@@ -33,6 +33,7 @@
    * [Google Cloud Translation API](EkBalam/documentation/GoogleCloudTranslationApi.md)
    * [Google Cloud Vision API](EkBalam/documentation/GoogleCloudVisionApi.md)
    * [Google Cloud Speech](EkBalam/documentation/GoogleCloudSpeech.md)
+   * Google Application Default Credentials
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * Kanki
