@@ -4,8 +4,8 @@ echo
 
 sleep 4
 
-#git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
-#cd CodeLabs/Xcambo/
+# git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
+cd CodeLabs/Xcambo/
 
 pip install pip --upgrade
 sh requirements.opkg
