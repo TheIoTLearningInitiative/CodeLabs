@@ -2,10 +2,10 @@
 
 ```sh
 root@edison:~# pip install --upgrade google-api-python-client
-root@edison:~# pip install --upgrade google-cloud
 ```
 
 ```sh
+root@edison:~# pip install --upgrade google-cloud
 Collecting google-cloud-happybase>=0.20.0 (from google-cloud)
 Collecting google-cloud-language>=0.21.0 (from google-cloud)
 Collecting google-cloud-resource-manager>=0.21.0 (from google-cloud)
