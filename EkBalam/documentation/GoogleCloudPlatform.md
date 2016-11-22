@@ -23,3 +23,11 @@ Google Cloud Platform Welcome Components
 # Google Application Default Credentials
 
 > The Application Default Credentials provide a simple way to get authorization credentials for use in calling Google APIs. [Homepage](https://developers.google.com/identity/protocols/application-default-credentials)
+
+
+- Credentials
+  - Create Credentials
+  - > APIs. Credentials. You need credentials to access APIs. Enable the APIs you plan to use and then create the credentials they require. Depending on the API, you need an API key, a service account, or an OAuth 2.0 client ID. Refer to the API documentation for details.
+  - Select API Key and Close
+    - API key created. Use this key in your application by passing it with the key=API_KEY parameter.
+    - Your API key: Xx
