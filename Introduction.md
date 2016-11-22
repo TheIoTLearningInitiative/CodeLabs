@@ -47,6 +47,13 @@ Guatemala
 - Kaminaljuyu
 - Mixco Viejo
 - Q'umarkaj (also known as Utatlán)
+- Tikal
+- Dos Pilas
+- Seibal
+- Uaxactún
+
+Belice
+
 
 
 ## Maya Gods and Supernatural Beings
