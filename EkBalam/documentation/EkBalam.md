@@ -11,10 +11,7 @@
 - Google Cloud Platform
   - Google Cloud Translation API: Enable
 - New Project
-  - Project Name: The IoT Learning Initiative
-
-> You've set up a Cloud Vision API project in the Google Cloud Platform Console.
-
+  - Project Name: Xe1Gyq
 - Search
   - Vision -> Enable
 
