@@ -19,3 +19,7 @@ Google Cloud Platform Welcome Components
 - Use Google APIs. enable APIS, create credentials and track your usage.
 - Create a Cloud SWL Interface. CloudSQL is a MySQL database that runs in Google's cloud, with no installation and maintenance required
 - Documentation
+
+# Google Application Default Credentials
+
+> The Application Default Credentials provide a simple way to get authorization credentials for use in calling Google APIs. [Homepage](https://developers.google.com/identity/protocols/application-default-credentials)
