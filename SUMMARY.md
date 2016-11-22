@@ -30,7 +30,7 @@
            * [Automation](documentation/Automation.md)
 * [Ek Balam](EkBalam/documentation/EkBalam.md)
    * [Google Cloud Platform](EkBalam/documentation/GoogleCloudPlatform.md)
-       * Google API Keys
+       * [Google API Keys](EkBalam/documentation/GoogleApiKeys.md)
        * [Google Application Default Credentials](EkBalam/documentation/GoogleApplicationDefaultCredentials.md)
    * [Google Cloud Translation API](EkBalam/documentation/GoogleCloudTranslationApi.md)
    * [Google Cloud Vision API](EkBalam/documentation/GoogleCloudVisionApi.md)
