@@ -46,3 +46,10 @@ Traceback (most recent call last):
 oauth2client.client.ApplicationDefaultCredentialsError: The Application Default Credentials are not available. They are a.
 root@edison:~/CodeLabs/EkBalam# 
 ```
+
+```sh
+root@edison:~/CodeLabs/EkBalam# python gcptranslate.py 
+Text: Hello, world!
+Translation: �áHola Mundo!
+root@edison:~/CodeLabs/EkBalam# 
+```
