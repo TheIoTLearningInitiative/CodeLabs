@@ -14,3 +14,10 @@ API Manager
   - Select API Key and Close
     - API key created. Use this key in your application by passing it with the key=API_KEY parameter.
     - Your API key: Xx
+
+
+```sh
+root@edison:~/CodeLabs/EkBalam# python gtranslate.py 
+{u'translations': [{u'translatedText': u'une fleur'}, {u'translatedText': u'voiture'}]}
+root@edison:~/CodeLabs/EkBalam# 
+```
