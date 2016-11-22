@@ -31,6 +31,7 @@
 * [Ek Balam](EkBalam/documentation/EkBalam.md)
    * [Google Cloud Platform](EkBalam/documentation/GoogleCloudPlatform.md)
    * [Google Cloud Translation API](EkBalam/documentation/GoogleCloudTranslationApi.md)
+   * Google Cloud Vision API
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * Kanki
