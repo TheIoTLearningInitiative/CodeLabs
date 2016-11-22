@@ -33,7 +33,7 @@ Guatemala
 - __Iximche__
 - __Kaminaljuyu__
 - __Mixco Viejo__
-- __Q'umarkaj__ (also known as Utatlán)
+- __Q'umarkaj__ (Utatlán)
 - __Tikal__
 - __Dos Pilas__
 - __Seibal__
