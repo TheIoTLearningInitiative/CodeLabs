@@ -28,8 +28,8 @@
            * [Telegram](Edzna/documentation/Telegram.md)
            * [Camera](documentation/HomeAssistantCamera.md)
            * [Automation](documentation/Automation.md)
-* [Hochob](Hochob/documentation/Hochob.md)
 * Ek Balam
+* [Hochob](Hochob/documentation/Hochob.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * Kanki
    * [Device](Kanki/documentation/Device.md)
