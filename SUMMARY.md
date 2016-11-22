@@ -29,6 +29,7 @@
            * [Camera](documentation/HomeAssistantCamera.md)
            * [Automation](documentation/Automation.md)
 * [Hochob](Hochob/documentation/Hochob.md)
+* Ek Balam
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * Kanki
    * [Device](Kanki/documentation/Device.md)
@@ -66,5 +67,4 @@
    * [Image Webpage Flask](ImageWebpageFlask/README.md)
    * [Audio Capture Playback](AudioCapturePlayback/README.md)
    * [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
-* Ek Balam
 
