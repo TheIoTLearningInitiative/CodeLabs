@@ -11,4 +11,5 @@ API Manager
 - Credentials
   - Create Credentials
   - > APIs. Credentials. You need credentials to access APIs. Enable the APIs you plan to use and then create the credentials they require. Depending on the API, you need an API key, a service account, or an OAuth 2.0 client ID. Refer to the API documentation for details.
+  - Select API Key
   - 
