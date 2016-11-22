@@ -51,7 +51,7 @@ Yucatán
 - __Chacmultun__ I2C Library LCD
 - __Chichen Itza__ Audio
 - __Dzibilchaltun__ Telegram Bot
-- __Ek Balam__ Google APIS __Under Construction__
+- __Ek Balam__ Google APIs __Under Construction__
 - __Kinich KaK Moo__ Node-RED
 - __La Ruta Puuc__ NodeJS, Socket.io, Johnny Five, AngularJS  ! __Under Construction__
 - __Mayapan__ Domotics ! __Under Construction__
