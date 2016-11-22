@@ -29,6 +29,7 @@
            * [Camera](documentation/HomeAssistantCamera.md)
            * [Automation](documentation/Automation.md)
 * [Ek Balam](EkBalam/documentation/EkBalam.md)
+   * Google Cloud Platform
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * Kanki
