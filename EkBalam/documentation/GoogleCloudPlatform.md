@@ -28,6 +28,8 @@ Google Cloud Platform Welcome Components
 - Credentials
   - Create Credentials
   - > Service Account Key. Enable Server-to-Server, app-level authentication using robot accounts. For use with Google Cloud APIs.
-  - Select API Key and Close
+  - Select an existing service account or create a new one: App Engine Default Service Account
+  - 
+
     - API key created. Use this key in your application by passing it with the key=API_KEY parameter.
     - Your API key: Xx
