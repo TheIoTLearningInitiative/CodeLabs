@@ -5,8 +5,7 @@ echo
 sleep 4
 
 #git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
-#cd CodeLabs/Edzna/
-#cd device
+cd CodeLabs/Edzna/device
 
 pip install pip --upgrade
 sh requirements.opkg
