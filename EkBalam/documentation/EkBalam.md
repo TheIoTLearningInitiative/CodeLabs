@@ -31,3 +31,4 @@ Collecting gapic-google-pubsub-v1<0.11dev,>=0.10.1 (from google-cloud-pubsub>=0.
 Collecting oauth2client<4.0.0dev,>=3.0.0 (from google-cloud-core>=0.21.0->google-cloud)
 Collecting googleapis-common-protos>=1.3.4 (from google-cloud-core>=0.21.0->google-cloud)
 Collecting protobuf>=3.0.0 (from google-cloud-core>=0.21.0->google-cloud)
+```
