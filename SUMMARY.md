@@ -30,7 +30,7 @@
            * [Automation](documentation/Automation.md)
 * [Ek Balam](EkBalam/documentation/EkBalam.md)
    * [Google Cloud Platform](EkBalam/documentation/GoogleCloudPlatform.md)
-   * Google Cloud Translation API
+   * [Google Cloud Translation API](EkBalam/documentation/GoogleCloudTranslationApi.md)
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * Kanki
