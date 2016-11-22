@@ -6,4 +6,4 @@
 3. Google Cloud Platform
    - Home
    - Dashboard
-   - Activity 
+   - Activity
