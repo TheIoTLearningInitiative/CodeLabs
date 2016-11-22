@@ -3,7 +3,7 @@
 
 ## Google Cloud Platform Dashboard
 
-- Go to [Cloud Vision API](https://cloud.google.com/vision/)
+- Go to [Cloud Translate API](https://cloud.google.com/translate/)
   - Try it for Free
 
 > Google Cloud Platform
