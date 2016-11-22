@@ -31,5 +31,6 @@ Google Cloud Platform Welcome Components
   - Select an existing service account or create a new one: App Engine Default Service Account
   - 
 
-    - API key created. Use this key in your application by passing it with the key=API_KEY parameter.
-    - Your API key: Xx
+```sh
+root@edison:~# nano ~/gcp.json
+```
