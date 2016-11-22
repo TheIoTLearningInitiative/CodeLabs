@@ -4,7 +4,7 @@ echo
 
 sleep 4
 
-git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
+# git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
 cd CodeLabs/Uxmal/
 
 echo > /etc/opkg/base-feeds.conf
