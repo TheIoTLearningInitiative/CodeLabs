@@ -9,7 +9,7 @@ API Manager
 
 - Dashboard. Enable API
   - Search: Translate
-  - Google Cloud Speech API.	Google Cloud Speech API.
+  - Google Cloud Speech API. Google Cloud Speech API.
   - Enable
 - Credentials
   - Create Credentials
