@@ -2,15 +2,9 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
 
-static char *minombre = "blah";
-
-module_param(minombre, charp, 0000);
-MODULE_PARM_DESC(minombre, "A character string");
-
 static int module_init_function(void)
 {
-    //printk(KERN_INFO "Main? Hello!\n");
-    printk(KERN_INFO "Main? Hello! %s\n", minombre);
+    printk(KERN_INFO "Main? Hello!\n");
     return 0;
 }
 
