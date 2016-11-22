@@ -4,7 +4,7 @@
 ## Google Cloud Platform Dashboard
 
 - Go to [Cloud Translate API](https://cloud.google.com/translate/)
-  - Try it for Free
+  - View My Console
 
 > Google Cloud Platform
 > > Thanks for signing up for the 60-day free trial. We have given your $300 in free trial credit to spend. If you run out of credit, do not worry, you will not be billed until you give permission.
