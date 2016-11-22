@@ -4,7 +4,7 @@ echo
 
 sleep 4
 
-git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
+# git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
 cd CodeLabs/Chicanna/
 
 wget https://raw.githubusercontent.com/xe1gyq/core/master/configuration/haarcascade_frontalface_alt.xml
