@@ -9,3 +9,4 @@ API Manager
   - Google Cloud Translation API. The Google Translate API lets websites and programs integrate with Google Translate programmatically.
   - Enable
 - Credentials
+  - Create Credentials
