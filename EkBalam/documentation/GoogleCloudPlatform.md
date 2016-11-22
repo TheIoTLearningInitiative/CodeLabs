@@ -33,4 +33,5 @@ Google Cloud Platform Welcome Components
 
 ```sh
 root@edison:~# nano ~/gcp.json
+root@edison:~# export GOOGLE_APPLICATION_CREDENTIALS=/home/root/gcp.json
 ```
