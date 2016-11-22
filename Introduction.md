@@ -36,25 +36,27 @@ Campeche
 
 Chiapas
 
--  Palenque
--  Yaxchilan
--  Bonampak
--  Toniná
+-  __Palenque__
+-  __Yaxchilan__
+-  __Bonampak__
+-  __Toniná__
 
 Guatemala
 
-- Iximche
-- Kaminaljuyu
-- Mixco Viejo
-- Q'umarkaj (also known as Utatlán)
-- Tikal
-- Dos Pilas
-- Seibal
-- Uaxactún
+- __Iximche__
+- __Kaminaljuyu__
+- __Mixco Viejo__
+- __Q'umarkaj__ (also known as Utatlán)
+- __Tikal__
+- __Dos Pilas__
+- __Seibal__
+- __Uaxactún__
 
 Belice
 
-
+- __Altun Ha__
+- __Caracol__
+- __Xunantunich__
 
 ## Maya Gods and Supernatural Beings
 
