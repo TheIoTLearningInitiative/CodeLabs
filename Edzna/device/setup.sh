@@ -10,7 +10,7 @@ cd CodeLabs/Edzna/device
 pip install pip --upgrade
 sh requirements.opkg
 pip install -r requirements.pip
-sh requirements.manual
+# sh requirements.manual
 
 echo
 echo "Now go to CodeLabs/Edzna directory to get started!"
