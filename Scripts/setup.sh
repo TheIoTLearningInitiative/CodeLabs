@@ -22,7 +22,7 @@ sh CodeLabs/Edzna/device/setup.sh
 # sh CodeLabs/LaRutaPuuc
 # sh CodeLabs/Mayapan/setup.sh
 # sh CodeLabs/Tabasqueno
-sh CodeLabs/Tulum/device/setup.sh
+# sh CodeLabs/Tulum/device/setup.sh
 # sh CodeLabs/Uxmal/setup.sh
 sh CodeLabs/Xcambo/setup.sh
 sh CodeLabs/Xpuhil/setup.sh
