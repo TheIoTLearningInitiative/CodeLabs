@@ -23,21 +23,21 @@ Campeche
 
 Chiapas
 
--  __Palenque__
--  __Yaxchilan__
--  __Bonampak__
--  __Toniná__
+-  __Palenque__ 
+-  __Yaxchilan__ 
+-  __Bonampak__ 
+-  __Toniná__ 
 
 Guatemala
 
-- __Iximche__
-- __Kaminaljuyu__
-- __Mixco Viejo__
-- __Q'umarkaj__ (Utatlán)
-- __Tikal__
-- __Dos Pilas__
-- __Seibal__
-- __Uaxactún__
+- __Iximche__ 
+- __Kaminaljuyu__ 
+- __Mixco Viejo__ 
+- __Q'umarkaj__ (Utatlán) 
+- __Tikal__ 
+- __Dos Pilas__ 
+- __Seibal__ 
+- __Uaxactún__ 
 
 Quintana Roo
 
