@@ -6,7 +6,7 @@
 
 Belice
 
-- __Altun Ha__
+- __Altun Ha__ Chat Telegram __Under Construction__
 - __Caracol__
 - __Xunantunich__
 
