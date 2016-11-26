@@ -5,11 +5,11 @@ user@ubilinux:~$ sudo apt-get install wish xbindkeys
 ```
 
 ```sh
-user@ubilinux:~$ 
+user@ubilinux:~$ nano /home/xe1gyq/.xbindkeysrc
 ```
 
 ```sh
-user@ubilinux:~$ 
+user@ubilinux:~$ xbindkeys
 ```
 
 ```sh
