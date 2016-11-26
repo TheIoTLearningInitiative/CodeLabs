@@ -68,5 +68,4 @@ user@ubilinux:~/CodeLabs/ChichenItza$ nano configuration/credentials.config
 ```
 
 ```sh
-user@ubilinux:~/CodeLabs/ChichenItza$ mkdir files
 ```
