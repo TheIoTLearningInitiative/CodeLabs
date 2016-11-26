@@ -29,6 +29,8 @@ configure
 http://www.zsnes.com/
 http://romhustler.net/roms/snes
 
+# Snes9x
+
 ```
 user@ubilinux:~$ sudo apt-get install scons libsdl1.2-dev liblua5.1-dev zlib1g-dev zenity
 user@ubilinux:~$ sudo apt-get install zenity
