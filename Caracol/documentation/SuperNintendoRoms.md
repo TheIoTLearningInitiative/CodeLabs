@@ -1,8 +1,8 @@
 # ROMs
 
+# Rom Hustler
 
-
->  [Homepage](http://romhustler.net/roms/snes)
+[Homepage](http://romhustler.net/roms/snes)
 
 
 # LoveRoms
