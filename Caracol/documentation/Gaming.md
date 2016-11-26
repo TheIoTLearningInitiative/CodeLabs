@@ -8,6 +8,10 @@
 user@ubuntu:~$ sudo apt-get install zsnes
 ```
 
+# Snes9x
+
+>  [Homepage](http://www.snes9x.com/)
+
 ```sh
 sudo apt-get install nasm
 sudo apt-get install libsdl1.2-dev
