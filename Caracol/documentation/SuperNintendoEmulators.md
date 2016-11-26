@@ -35,6 +35,8 @@ http://romhustler.net/roms/snes
 
 # Fceux
 
+## Manual
+
 ```
 user@ubilinux:~$ sudo apt-get install scons libsdl1.2-dev liblua5.1-dev zlib1g-dev zenity
 user@ubilinux:~$ sudo apt-get install zenity
