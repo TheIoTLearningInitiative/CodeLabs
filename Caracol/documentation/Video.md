@@ -1,9 +1,9 @@
 # Video
 
 ```sh
-user@jessie:~$ sudo apt-get install mplayer
+user@ubilinux:~$ sudo apt-get install mplayer
 ```
 
 ```sh
-mplayer brooklynne_vUWnBUxz.mp4
+user@ubilinux:~$mplayer brooklynne_vUWnBUxz.mp4
 ```
