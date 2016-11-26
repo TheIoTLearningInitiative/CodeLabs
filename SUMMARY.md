@@ -5,6 +5,7 @@
 * [Introduction](Introduction.md)
    * [Getting Started](documentation/GettingStarted.md)
 * [Caracol](Caracol/documentation/Caracol.md)
+   * Graphics
    * [Video](Caracol/documentation/Video.md)
    * [Keyboard](Caracol/documentation/Keyboard.md)
    * [Camera](Caracol/documentation/Camera.md)
@@ -12,7 +13,6 @@
        * [Super Nintendo Emulators](Caracol/documentation/SuperNintendoEmulators.md)
        * [Super Nintendo ROMs](Caracol/documentation/SuperNintendoRoms.md)
    * [Twitter](Caracol/documentation/Twitter.md)
-   * Graphics
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Chichen Itza](ChichenItza/documentation/ChichenItza.md)
