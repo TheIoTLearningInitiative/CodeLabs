@@ -4,9 +4,13 @@
 
 > ZSNES is a Super Nintendo emulator programmed by zsKnight and _Demo_. On April 2, 2001 the ZSNES project was GPL'ed and its source released to the public. It currently runs on Windows, Linux, FreeBSD, and DOS. Remember that this is a public beta so don't expect this to run on your machine [Homepage](http://www.zsnes.com/)
 
+## Package Management System
+
 ```sh
 user@ubuntu:~$ sudo apt-get install zsnes
 ```
+
+## Manual
 
 ```sh
 user@ubuntu:~$ sudo apt-get install nasm
