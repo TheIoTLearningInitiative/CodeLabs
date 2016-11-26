@@ -1,6 +1,11 @@
 # Gaming
 
 # Zsnes
+
+```sh
+user@ubuntu:~$ sudo apt-get install zsnes
+```
+
 ```sh
 sudo apt-get install nasm
 sudo apt-get install libsdl1.2-dev
