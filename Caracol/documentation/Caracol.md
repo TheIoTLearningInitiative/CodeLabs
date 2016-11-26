@@ -64,4 +64,5 @@ user@ubilinux:~/CodeLabs/ChichenItza$
 user@ubilinux:~/CodeLabs/ChichenItza$ mkdir configuration
 user@ubilinux:~/CodeLabs/ChichenItza$ nano configuration/voicerss.ak
 user@ubilinux:~/CodeLabs/ChichenItza$ nano configuration/voicerss.mk
+user@ubilinux:~/CodeLabs/ChichenItza$ nano configuration/credentials.config
 ```
