@@ -7,6 +7,7 @@
 * [Caracol](Caracol/documentation/Caracol.md)
    * [Video](Caracol/documentation/Video.md)
    * [Keyboard](Caracol/documentation/Keyboard.md)
+   * Gaming
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Chichen Itza](ChichenItza/documentation/ChichenItza.md)
