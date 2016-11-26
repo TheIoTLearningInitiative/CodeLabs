@@ -8,7 +8,7 @@
    * [Video](Caracol/documentation/Video.md)
    * [Keyboard](Caracol/documentation/Keyboard.md)
    * [Gaming](Caracol/documentation/Gaming.md)
-       * [Super Nintendo Emulators](Caracol/documentation/SuperNintendo.md)
+       * [Super Nintendo Emulators](Caracol/documentation/SuperNintendoEmulators.md)
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Chichen Itza](ChichenItza/documentation/ChichenItza.md)
