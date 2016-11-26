@@ -4,6 +4,7 @@
 * [Summary](SUMMARY.md)
 * [Introduction](Introduction.md)
    * [Getting Started](documentation/GettingStarted.md)
+* Caracol
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Chichen Itza](ChichenItza/documentation/ChichenItza.md)
@@ -73,5 +74,4 @@
    * [Image Webpage Flask](ImageWebpageFlask/README.md)
    * [Audio Capture Playback](AudioCapturePlayback/README.md)
    * [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
-* Caracol
 
