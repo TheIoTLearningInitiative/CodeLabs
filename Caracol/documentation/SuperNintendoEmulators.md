@@ -30,9 +30,6 @@ user@ubuntu:~$ configure
 user@ubilinux:~$ wget http://www.zophar.net/download_file/22383
 ```
 
-http://www.zsnes.com/
-http://romhustler.net/roms/snes
-
 # Fceux
 
 ## Manual
