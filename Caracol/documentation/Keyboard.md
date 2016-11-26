@@ -1,7 +1,7 @@
 # Keyboard
 
 ```sh
-xe1gyq@jessie:~/Downloads$ sudo apt-get install xbindkeys
+xe1gyq@jessie:~/Downloads$ sudo apt-get install wish xbindkeys
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
