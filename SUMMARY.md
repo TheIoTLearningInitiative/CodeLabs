@@ -5,7 +5,7 @@
 * [Introduction](Introduction.md)
    * [Getting Started](documentation/GettingStarted.md)
 * [Caracol](Caracol/documentation/Caracol.md)
-   * Video
+   * [Video](Caracol/documentation/Video.md)
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Chichen Itza](ChichenItza/documentation/ChichenItza.md)
