@@ -1,2 +1,2 @@
-# Super Nintendo
+# Super Nintendo Emulators
 
