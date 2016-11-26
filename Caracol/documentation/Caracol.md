@@ -18,3 +18,10 @@ user@ubilinux:~/CodeLabs/ChichenItza$ ls
 documentation  irecognize.py  isay.py  isound.py  iwit.py  requirements.manual  requirements.opkg  requirements.pip  setup.sh  test.sh  voicerss.sh
 user@ubilinux:~/CodeLabs/ChichenItza$ 
 ```
+
+```sh
+user@ubilinux:~/CodeLabs/ChichenItza$ mkdir configuration
+user@ubilinux:~/CodeLabs/ChichenItza$ nano configuration/voicerss.ak
+user@ubilinux:~/CodeLabs/ChichenItza$ nano configuration/voicerss.mk
+user@ubilinux:~/CodeLabs/ChichenItza$ 
+```
