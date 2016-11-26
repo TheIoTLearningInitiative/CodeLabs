@@ -7,11 +7,11 @@
 * [Caracol](Caracol/documentation/Caracol.md)
    * [Video](Caracol/documentation/Video.md)
    * [Keyboard](Caracol/documentation/Keyboard.md)
+   * Camera
    * [Gaming](Caracol/documentation/Gaming.md)
        * [Super Nintendo Emulators](Caracol/documentation/SuperNintendoEmulators.md)
        * [Super Nintendo ROMs](Caracol/documentation/SuperNintendoRoms.md)
    * [Twitter](Caracol/documentation/Twitter.md)
-   * Camera
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Chichen Itza](ChichenItza/documentation/ChichenItza.md)
