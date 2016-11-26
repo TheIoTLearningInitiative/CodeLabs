@@ -11,3 +11,10 @@ Resolving deltas: 100% (3011/3011), done.
 Checking connectivity... done.
 user@ubilinux:~$ 
 ```
+
+```sh
+user@ubilinux:~$ cd CodeLabs/ChichenItza/
+user@ubilinux:~/CodeLabs/ChichenItza$ ls
+documentation  irecognize.py  isay.py  isound.py  iwit.py  requirements.manual  requirements.opkg  requirements.pip  setup.sh  test.sh  voicerss.sh
+user@ubilinux:~/CodeLabs/ChichenItza$ 
+```
