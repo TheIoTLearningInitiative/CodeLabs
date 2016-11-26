@@ -13,6 +13,12 @@ user@ubuntu:~$ sudo apt-get install zsnes
 > Snes9x is a portable, freeware Super Nintendo Entertainment System (SNES) emulator. It basically allows you to play most games designed for the SNES and Super Famicom Nintendo game systems on your PC or Workstation; which includes some real gems that were only ever released in Japan [Homepage](http://www.snes9x.com/)
 
 ```sh
+user@ubilinux:~$ wget http://www.zophar.net/download_file/22383
+```
+
+
+
+```sh
 sudo apt-get install nasm
 sudo apt-get install libsdl1.2-dev
 sudo apt-get install libsdl1.2-dbg
