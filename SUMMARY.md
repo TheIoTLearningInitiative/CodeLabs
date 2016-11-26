@@ -6,7 +6,7 @@
    * [Getting Started](documentation/GettingStarted.md)
 * [Caracol](Caracol/documentation/Caracol.md)
    * [Video](Caracol/documentation/Video.md)
-   * Kerboard
+   * Keyboard
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Chichen Itza](ChichenItza/documentation/ChichenItza.md)
