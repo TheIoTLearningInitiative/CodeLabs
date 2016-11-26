@@ -5,6 +5,7 @@
 sudo apt-get install nasm
 sudo apt-get install libsdl1.2-dev
 sudo apt-get install libsdl1.2-dbg
+sudo apt-get install libncurses5-dev
 
 ```
 http://www.zsnes.com/
