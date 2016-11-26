@@ -5,7 +5,8 @@ user@ubilinux:~$ ls *fce*
 fceux-2.1.1.src.tar.bz2
 user@ubilinux:~$ tar xvf fceux-2.1.1.src.tar.bz2
 ...
-user@ubilinux:~$ 
+user@ubilinux:~$ cd fceu
+user@ubilinux:~/fceu$
 ```
 
 ```
