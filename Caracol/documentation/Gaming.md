@@ -1,5 +1,10 @@
 # Gaming
 
+# Zsnes
+```sh
+sudo apt-get install libsdl1.2-de
+
+```
 http://www.zsnes.com/
 http://romhustler.net/roms/snes
 
