@@ -4,12 +4,10 @@ import commands
 import logging
 import os
 
-class iCamera(object):
+class xCamera(object):
 
-    def __init__(self, photoname="photo.jpeg"):
-        self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
-        self.directoryfiles = self.directorycurrent + '/files/'
-        self.picturefswebcam = self.directoryfiles + photoname
+    def __init__(self, media="files/photo.jpg"):
+        self.picturefswebcam = media
 
     def __del__(self):
         pass
@@ -19,8 +17,9 @@ class iCamera(object):
 
     def setup(self):
         self.fswebcam = 'fswebcam'
-        self.fswebcamarguments = ' '
         #self.fswebcamarguments = ' -r 1280x720 -s brightness=65% -s Contrast=50% -s Gamma=100% --jpeg 100 --no-banner '
+        #self.fswebcamarguments = ' -r 1280x720 --jpeg 100 --no-banner '
+        self.fswebcamarguments = ' -r 1280x720 --jpeg 100 --no-banner '
         self.fswebcamcommand = self.fswebcam + self.fswebcamarguments + self.picturefswebcam
 
     def capture(self):
@@ -30,12 +29,12 @@ class iCamera(object):
 
 def takePhoto(photoname):
 
-        idCamera = iCamera(photoname)
+        idCamera = xCamera(photoname)
         idCamera.capture()
 
 if __name__ == "__main__":
 
-        idCamera = iCamera()
+        idCamera = xCamera()
         idCamera.capture()
 
 # End of File
