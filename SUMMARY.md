@@ -56,6 +56,7 @@
 * [Mayapan](Mayapan/documentation/Mayapan.md)
 * [Tabasqueno](Tabasqueno/documentation/Tabasqueno.md)
 * [Tikal](Tikal/documentation/Tikal.md)
+   * Sensors
 * [Tulum](Tulum/documentation/Openstack.md)
    * [Introduction](Tulum/documentation/Introduction.md)
    * Device
