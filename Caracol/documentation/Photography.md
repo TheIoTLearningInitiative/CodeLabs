@@ -9,5 +9,5 @@ user@ubuntu:~$ sudo apt-get install ffmpeg
 ```
 
 ```sh
-ffmpeg -framerate 30 -i %02d.jpeg -vf fps=30 -pix_fmt yuv420p output.mp4
+user@ubilinux:~$ ffmpeg -framerate 30 -i %02d.jpeg -vf fps=30 -pix_fmt yuv420p output.mp4
 ```
