@@ -10,7 +10,7 @@
        * [Video](Caracol/documentation/Video.md)
        * [Camera](Caracol/documentation/Camera.md)
        * [Twitter](Caracol/documentation/Twitter.md)
-       * [Voice Recognition](Caracol/documentation/VoiceRecognition.md)
+       * [Voice Recognition](Caracol/documentation/SpeechToText.md)
        * [Photography](Caracol/documentation/Photography.md)
        * [Gaming](Caracol/documentation/Gaming.md)
            * [Super Nintendo Emulators](Caracol/documentation/SuperNintendoEmulators.md)
