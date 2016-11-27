@@ -34,9 +34,9 @@ Guatemala
 - __Kaminaljuyu__ 
 - __Mixco Viejo__ 
 - __Q'umarkaj__ (Utatlán) 
-- __Tikal__ Air Quality
+- __Tikal__ Air Quality __Under Construction__
 - __Dos Pilas__ 
-- __Seibal__ Time Lapse Photography
+- __Seibal__ Time Lapse Photography __Under Construction__
 - __Uaxactún__ 
 
 Quintana Roo
