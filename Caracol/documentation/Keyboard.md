@@ -5,7 +5,16 @@ user@ubilinux:~$ sudo apt-get install wish xbindkeys
 ```
 
 ```sh
-user@ubilinux:~$ nano /home/xe1gyq/.xbindkeysrc
+user@ubilinux:~$ xbindkeys
+Error : /home/user/.xbindkeysrc not found or reading not allowed.
+please, create one with 'xbindkeys --defaults > /home/user/.xbindkeysrc'.
+or, if you want scheme configuration style,
+with 'xbindkeys --defaults-guile > /home/user/.xbindkeysrc.scm'.
+user@ubilinux:~$ 
+```
+
+```sh
+user@ubilinux:~$ nano /home/user/.xbindkeysrc
 ```
 
 ```sh
