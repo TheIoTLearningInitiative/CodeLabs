@@ -11,4 +11,5 @@
 ```sh
 user@ubilinux:~/Downloads/snes9x-1.53-src/unix$ 
 user@ubilinux:~/Downloads/snes9x-1.53-src/unix$ ./snes9x ../../
+/home/user/Downloads/snes9x-1.53-src/unix/snes9x /home/user/Downloads/DonkeyKongCountry.zip
 ```
