@@ -5,7 +5,7 @@
 - Ctrl + 9
   - ugame (Keyboard + Graphics + Video + Gaming)
 - Ctrl + Shift + 1
-  - usay (Keyboard + )
+  - usay (Keyboard + Text To Speech)
 - Ctrl + Shift + 2
   - usmile
 - Ctrl + Shift + 3
