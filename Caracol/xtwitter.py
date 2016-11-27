@@ -40,12 +40,12 @@ def sendTweet(status):
 def sendPicture(status, picture):
 
     idTwitter = xTwitter()
-    idTwitter.tweet(status=status, media=picture)
+    idTwitter.pweet(status, picture)
 
 def sendVideo(status, video):
 
     idTwitter = xTwitter()
-    idTwitter.tweet(status=status, media=video)
+    idTwitter.vweet(status, video)
 
 if __name__ == "__main__":
 
