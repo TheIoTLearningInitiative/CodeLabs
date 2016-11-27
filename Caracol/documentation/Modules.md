@@ -1,7 +1,7 @@
 # Modules
 
 - Ctrl + 1
-  - uvideo
+  - uvideo ()
 - Ctrl + 9
   - gaming
 - Ctrl + Shift + 1
