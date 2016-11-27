@@ -22,20 +22,23 @@ user@ubilinux:~$ nano /home/user/.xbindkeysrc
 ```
 
 ```sh
-"mplayer /home/user/Downloads/videoplayb_01NYLBn1.mp4"
+"mplayer -fs /home/user/Downloads/videoplayb_01NYLBn1.mp4"
   Control + 1
 
-"mplayer /home/user/CodeLabs/Caracol/files/output.mp4"
+"mplayer -fs /home/user/CodeLabs/Caracol/files/output.mp4"
+  Control + 3
+
+"/home/user/Downloads/snes9x-1.53-src/unix/snes9x /home/user/Downloads/DonkeyKongCountry.zip"
   Control + 9
 
-"mplayer -fs /home/xe1gyq/Downloads/brooklynne_vUWnBUxz.mp4"
-  Control + 1
+"python /home/user/CodeLabs/Caracol/usay.py"
+  Shift + 1
 
-"mplayer -fs /home/xe1gyq/Downloads/brooklynne_vUWnBUxz.mp4"
-  Control + 2
+"python /home/user/CodeLabs/Caracol/usmile.py"
+  Shift + 2
 
-"mplayer -fs /home/xe1gyq/Downloads/brooklynne_vUWnBUxz.mp4"
-  Control + 3
+"python /home/user/CodeLabs/Caracol/ulapse.py"
+  Shift + 3
 ```
 
 ```sh
