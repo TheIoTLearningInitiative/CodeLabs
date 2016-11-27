@@ -13,8 +13,8 @@ user@ubuntu:~$ sudo apt-get install ffmpeg
 ## Setup Ubilinux
 
 ```sh
-user@ubuntu:~$ sudo apt-get install libav-tools
-user@ubuntu:~$ sudo apt-get install ffmpeg
+user@ubilinux:~$ sudo apt-get install libav-tools
+user@ubilinux:~$ sudo apt-get install ffmpeg
 ```
 
 ```sh
