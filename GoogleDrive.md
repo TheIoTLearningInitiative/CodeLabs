@@ -1,6 +1,6 @@
 # Google Drive
 
-> [](https://github.com/odeke-em/drive)
+> Drive is a tiny program to pull or push Google Drive files [Homepage](https://github.com/odeke-em/drive)
 
 ```sh
 user@ubuntu:~$ sudo apt-get install golang git mercurial
