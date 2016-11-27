@@ -1,7 +1,6 @@
 # Modules
 
-- Video
-- 
+- uvideo
 
 - usay
 - usmile
