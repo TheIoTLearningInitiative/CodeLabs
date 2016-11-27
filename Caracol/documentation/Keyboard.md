@@ -14,6 +14,10 @@ user@ubilinux:~$
 ```
 
 ```sh
+user@ubilinux:~$ xbindkeys --defaults > /home/user/.xbindkeysrc
+```
+
+```sh
 user@ubilinux:~$ nano /home/user/.xbindkeysrc
 ```
 
