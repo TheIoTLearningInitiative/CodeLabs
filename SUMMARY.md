@@ -11,12 +11,12 @@
        * [Camera](Caracol/documentation/Camera.md)
        * [Twitter](Caracol/documentation/Twitter.md)
        * [Speech To Text](Caracol/documentation/SpeechToText.md)
+       * Text To Speech
        * [Photography](Caracol/documentation/Photography.md)
        * [Gaming](Caracol/documentation/Gaming.md)
            * [Super Nintendo Emulators](Caracol/documentation/SuperNintendoEmulators.md)
            * [Super Nintendo ROMs](Caracol/documentation/SuperNintendoRoms.md)
        * [Keyboard](Caracol/documentation/Keyboard.md)
-       * Text To Speech
    * [Modules](Caracol/documentation/Modules.md)
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
