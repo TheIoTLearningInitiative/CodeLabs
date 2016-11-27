@@ -1,11 +1,11 @@
 # Google Drive
 
 ```sh
-sudo apt-get install golang git mercurial
-xe1gyq@jessie:~$ cat << ! >> ~/.bashrc
+user@ubuntu:~$ sudo apt-get install golang git mercurial
+user@ubuntu:~$ cat << ! >> ~/.bashrc
 > export GOPATH=\$HOME/gopath
 > export PATH=\$GOPATH:\$GOPATH/bin:\$PATH
 > !
-xe1gyq@jessie:~$ source ~/.bashrc
-xe1gyq@jessie:~$ 
+user@ubuntu:~$ source ~/.bashrc
+user@ubuntu:~$ 
 ```
