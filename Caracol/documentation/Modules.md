@@ -7,7 +7,7 @@
 - Ctrl + Shift + 1
   - usay (Keyboard + Text To Speech)
 - Ctrl + Shift + 2
-  - usmile
+  - usmile (Keyboard + Camera + Twitter)
 - Ctrl + Shift + 3
   - ulapse
 - Ctrl + 3
