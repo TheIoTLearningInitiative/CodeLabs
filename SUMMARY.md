@@ -14,6 +14,7 @@
        * [Super Nintendo ROMs](Caracol/documentation/SuperNintendoRoms.md)
    * [Twitter](Caracol/documentation/Twitter.md)
    * [Voice Recognition](Caracol/documentation/VoiceRecognition.md)
+   * Photography
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Chichen Itza](ChichenItza/documentation/ChichenItza.md)
