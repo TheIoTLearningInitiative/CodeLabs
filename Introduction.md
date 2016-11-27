@@ -8,7 +8,7 @@ Belice
 
 - __Altun Ha__ Chat Telegram __Under Construction__
 - __Caracol__ Puerta Digital
-- __Xunantunich__ Air Quality
+- __Xunantunich__ 
 
 Campeche
 
@@ -34,7 +34,7 @@ Guatemala
 - __Kaminaljuyu__ 
 - __Mixco Viejo__ 
 - __Q'umarkaj__ (Utatlán) 
-- __Tikal__ 
+- __Tikal__ Air Quality
 - __Dos Pilas__ 
 - __Seibal__ 
 - __Uaxactún__ 
