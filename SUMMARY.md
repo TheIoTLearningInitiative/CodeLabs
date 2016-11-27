@@ -16,6 +16,7 @@
            * [Super Nintendo Emulators](Caracol/documentation/SuperNintendoEmulators.md)
            * [Super Nintendo ROMs](Caracol/documentation/SuperNintendoRoms.md)
        * [Keyboard](Caracol/documentation/Keyboard.md)
+       * Text To Speech
    * [Modules](Caracol/documentation/Modules.md)
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
