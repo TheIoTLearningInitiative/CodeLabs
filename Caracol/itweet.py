@@ -26,6 +26,8 @@ class xTwitter(object):
         else:
             self.twythonid.update_status(status=status)
 
+    def vweet(self, status="", media=
+
 if __name__ == "__main__":
 
     idTwitter = xTwitter()

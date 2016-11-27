@@ -28,9 +28,9 @@ class iCamera(object):
         self.setup()
         status, output = commands.getstatusoutput(self.fswebcamcommand)
 
-def takePhoto():
+def takePhoto(photoname):
 
-        idCamera = iCamera()
+        idCamera = iCamera(photoname)
         idCamera.capture()
 
 if __name__ == "__main__":
