@@ -20,13 +20,13 @@ if __name__ == "__main__":
     call(["rm", media])
     call(["rm", "-rf", pictures])
 
-    for i in range(1,30):
+    for i in range(1,120):
         name = directorycurrent + "/files/%02d" % i + ".jpeg"
         takePhoto(name)
 
     pictures = directorycurrent + "/files/%02d.jpeg"
-    call(["ffmpeg", "-framerate", "20", "-i", pictures, "-vf", "fps=20", "-pix_fmt", "yuv420p", media])
+    call(["ffmpeg", "-framerate", "30", "-i", pictures, "-vf", "fps=30", "-pix_fmt", "yuv420p", media])
 
-    sendVideo(status + " 02", media)
+    sendVideo(status, media)
 
 # End of File
