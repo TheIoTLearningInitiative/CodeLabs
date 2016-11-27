@@ -9,8 +9,8 @@
        * [Graphics](Caracol/documentation/Graphics.md)
        * [Video](Caracol/documentation/Video.md)
        * [Keyboard](Caracol/documentation/Keyboard.md)
+       * [Camera](Caracol/documentation/Camera.md)
        * Tbd
-   * [Camera](Caracol/documentation/Camera.md)
    * [Gaming](Caracol/documentation/Gaming.md)
        * [Super Nintendo Emulators](Caracol/documentation/SuperNintendoEmulators.md)
        * [Super Nintendo ROMs](Caracol/documentation/SuperNintendoRoms.md)
