@@ -9,6 +9,6 @@
 - Ctrl + Shift + 2
   - usmile (Keyboard + Camera + Twitter)
 - Ctrl + Shift + 3
-  - ulapse
+  - ulapse (Keyboard + Camera + Video + Twitter)
 - Ctrl + 3
   - uvideo
