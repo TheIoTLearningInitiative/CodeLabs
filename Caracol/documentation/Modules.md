@@ -3,7 +3,7 @@
 - Ctrl + 1
   - uvideo (Keyboard + Graphics + Video)
 - Ctrl + 9
-  - gaming (Keyboard + Graphics + Video + Gaming)
+  - ugame (Keyboard + Graphics + Video + Gaming)
 - Ctrl + Shift + 1
   - usay (Keyboard + )
 - Ctrl + Shift + 2
