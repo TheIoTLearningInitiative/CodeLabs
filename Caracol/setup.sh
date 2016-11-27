@@ -7,9 +7,9 @@ sleep 4
 #git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
 cd CodeLabs/Caracol/
 
-pip install pip --upgrade
-sh requirements.aptget
-pip install -r requirements.pip
+sudo pip install pip --upgrade
+sudo sh requirements.aptget
+sudo pip install -r requirements.pip
 
 cat <<EOF > ~/.asoundrc
 pcm.!default {
@@ -21,7 +21,7 @@ pcm.!default {
 ctl.!default {
     type plug
         slave {
-           pcm "hw:2,0"
+           pcm "hw:1,0"
        }
 }
 EOF
