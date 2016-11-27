@@ -1,11 +1,11 @@
 # Modules
 
 - Ctrl + 1
-  - uvideo ()
+  - uvideo (Keyboard + Graphics + Video)
 - Ctrl + 9
-  - gaming
+  - gaming (Keyboard + Graphics + Video + Gaming)
 - Ctrl + Shift + 1
-  - usay
+  - usay (Keyboard + )
 - Ctrl + Shift + 2
   - usmile
 - Ctrl + Shift + 3
