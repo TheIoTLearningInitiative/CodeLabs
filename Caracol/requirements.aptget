@@ -1,0 +1,5 @@
+sudo apt-get update
+sudo apt-get install alsa-utils espeak
+sudo apt-get install --nodeps jack-dev
+sudo apt-get install --nodeps libportaudio-dev
+sudo apt-get install libav-tools ffmpeg
