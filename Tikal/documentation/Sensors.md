@@ -8,7 +8,7 @@
 
 ## Waspmpote
 
-- [](http://www.libelium.com/products/waspmote/)
+- [Homepage](http://www.libelium.com/products/waspmote/)
 
 ## Waspmpote Plug and Sense
 
