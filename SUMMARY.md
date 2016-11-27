@@ -15,6 +15,7 @@
    * [Twitter](Caracol/documentation/Twitter.md)
    * [Voice Recognition](Caracol/documentation/VoiceRecognition.md)
    * [Photography](Caracol/documentation/Photography.md)
+   * Core
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Chichen Itza](ChichenItza/documentation/ChichenItza.md)
