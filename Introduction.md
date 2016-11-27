@@ -25,7 +25,7 @@ Chiapas
 
 -  __Palenque__ 
 -  __Yaxchilan__ 
--  __Bonampak__ 
+-  __Bonampak__ Time Lapse Photography __Under Construction__
 -  __Toniná__ 
 
 Guatemala
@@ -36,7 +36,7 @@ Guatemala
 - __Q'umarkaj__ (Utatlán) 
 - __Tikal__ Air Quality __Under Construction__
 - __Dos Pilas__ 
-- __Seibal__ Time Lapse Photography __Under Construction__
+- __Seibal__ 
 - __Uaxactún__ 
 
 Quintana Roo
