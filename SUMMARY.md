@@ -7,8 +7,8 @@
 * [Caracol](Caracol/documentation/Caracol.md)
    * Core
        * [Graphics](Caracol/documentation/Graphics.md)
+       * [Video](Caracol/documentation/Video.md)
        * Tbd
-   * [Video](Caracol/documentation/Video.md)
    * [Keyboard](Caracol/documentation/Keyboard.md)
    * [Camera](Caracol/documentation/Camera.md)
    * [Gaming](Caracol/documentation/Gaming.md)
