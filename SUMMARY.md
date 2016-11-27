@@ -10,7 +10,7 @@
        * [Video](Caracol/documentation/Video.md)
        * [Camera](Caracol/documentation/Camera.md)
        * [Twitter](Caracol/documentation/Twitter.md)
-       * Text To Speech
+       * [Text To Speech](Caracol/documentation/TextToSpeech.md)
        * [Speech To Text](Caracol/documentation/SpeechToText.md)
        * [Photography](Caracol/documentation/Photography.md)
        * [Gaming](Caracol/documentation/Gaming.md)
