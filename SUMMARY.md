@@ -5,7 +5,7 @@
 * [Introduction](Introduction.md)
    * [Getting Started](documentation/GettingStarted.md)
 * [Caracol](Caracol/documentation/Caracol.md)
-   * Core
+   * [Core](Caracol/documentation/Core.md)
        * [Graphics](Caracol/documentation/Graphics.md)
        * [Video](Caracol/documentation/Video.md)
        * [Camera](Caracol/documentation/Camera.md)
