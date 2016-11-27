@@ -4,7 +4,7 @@ import os
 import subprocess
 import time
 
-def isay(language, message):
+def usay(language, message):
 
     if language is "english":
          language = "en-us"
@@ -20,8 +20,8 @@ def isay(language, message):
 
 if __name__ == "__main__":
 
-    isay("english", "Hello World of Text To Speech via Voice RSS")
-    isay("espanol", "Hola Mundo de Texto a Voz")
+    usay("english", "Hello World of Text To Speech via Voice RSS")
+    usay("espanol", "Hola Mundo de Texto a Voz")
 
     while True:
         
@@ -30,7 +30,7 @@ if __name__ == "__main__":
         if x.lower() == 'e':
             break;
         else:
-            isay("espanol", x)
+            usay("espanol", x)
         time.sleep(1)
 
 # End Of File

@@ -11,7 +11,7 @@ if __name__ == "__main__":
     configuration.read(directorycurrent + '/configuration/messages.config')
     status = configuration.get('twitter','picture')
 
-    media = "files/smile.jpeg"
+    media = directorycurrent + "/files/smile.jpeg"
 
     takePhoto(media)
     sendPicture(status, media)

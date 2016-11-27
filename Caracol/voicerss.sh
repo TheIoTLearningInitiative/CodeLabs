@@ -3,13 +3,14 @@
 language=$1
 text=$2
 
-mashapekey=`cat configuration/voicerss.mk`
-apikey=`cat configuration/voicerss.ak`
+script=$(readlink -f "$0")
+directoryRoot=$(dirname "$script")
+directoryOutput=$directoryRoot/files/
+
+mashapekey=`cat $directoryRoot/configuration/voicerss.mk`
+apikey=`cat $directoryRoot/configuration/voicerss.ak`
 
 player=mpg123
-
-directoryRoot=`pwd`
-directoryOutput=$directoryRoot/files/
 
 test -d $directoryOutput || mkdir $directoryOutput
 
