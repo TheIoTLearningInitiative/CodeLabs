@@ -1,3 +1,5 @@
 SpeechRecognition
 pyaudio==0.2.9
 wit
+wheel
+pocketsphinx
