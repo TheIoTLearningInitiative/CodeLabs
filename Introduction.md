@@ -36,7 +36,7 @@ Guatemala
 - __Q'umarkaj__ (Utatlán) 
 - __Tikal__ Air Quality
 - __Dos Pilas__ 
-- __Seibal__ 
+- __Seibal__ Time Lapse Photography
 - __Uaxactún__ 
 
 Quintana Roo
