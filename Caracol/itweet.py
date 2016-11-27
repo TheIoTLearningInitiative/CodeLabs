@@ -26,11 +26,15 @@ class xTwitter(object):
         else:
             self.twythonid.update_status(status=status)
 
-    def vweet(self, status="", media=
+    def vweet(self, status="", media=None):
+        video = open('files/output.mp4', 'rb')
+        response = self.twythonid.upload_video(media=video, media_type='video/mp4')
+        self.twythonid.update_status(status='Checkout this cool video!', media_ids=[response['media_id']])
 
 if __name__ == "__main__":
 
     idTwitter = xTwitter()
-    idTwitter.tweet('#TheIoTLearningInitiative Testing Time', None)
+    #idTwitter.tweet('#TheIoTLearningInitiative Testing Time', None)
+    idTwitter.vweet('Hi')
 
 # End of File
