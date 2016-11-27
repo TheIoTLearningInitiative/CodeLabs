@@ -55,7 +55,7 @@
 * [La Ruta Puuc](LaRutaPuuc/documentation/LaRutaPuuc.md)
 * [Mayapan](Mayapan/documentation/Mayapan.md)
 * [Tabasqueno](Tabasqueno/documentation/Tabasqueno.md)
-* Tikal
+* [Tikal](Tikal/documentation/Tikal.md)
 * [Tulum](Tulum/documentation/Openstack.md)
    * [Introduction](Tulum/documentation/Introduction.md)
    * Device
