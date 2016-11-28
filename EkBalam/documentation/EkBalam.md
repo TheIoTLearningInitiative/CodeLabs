@@ -1,6 +1,7 @@
 # Ek Balam
 
 [](http://www.techrepublic.com/article/google-cloud-platform-the-smart-persons-guide/)
+[](http://www.techrepublic.com/article/pokemon-go-how-the-cloud-saved-the-smash-hit-game-from-collapse/)
 
 ```sh
 root@edison:~# pip install --upgrade google-api-python-client
