@@ -1,5 +1,7 @@
 # Ek Balam
 
+[](http://www.techrepublic.com/article/google-cloud-platform-the-smart-persons-guide/)
+
 ```sh
 root@edison:~# pip install --upgrade google-api-python-client
 ```
