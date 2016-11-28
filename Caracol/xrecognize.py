@@ -6,6 +6,7 @@ import os
 import re
 import speech_recognition as sr
 
+from usay import usay
 from xsound import recordAudio
 from xsound import playAudio
 
@@ -37,14 +38,16 @@ class xSpeechRecognition(object):
         if self.engine == 'witai':
             WIT_AI_KEY = "7LUFYD6ZZKLYSI652C75J4UZWTIMJIPX"
             try:
-                print("Wit.ai thinks you said " + self.r.recognize_wit(self.audio, key=WIT_AI_KEY))
+                print("Wit.ai")
+                return self.r.recognize_wit(self.audio, key=WIT_AI_KEY)
             except sr.UnknownValueError:
                 print("Wit.ai could not understand audio")
             except sr.RequestError as e:
                 print("Could not request results from Wit.ai service; {0}".format(e))
         if self.engine == 'sphinx':
             try:
-                print("Sphinx thinks you said " + self.r.recognize_sphinx(self.audio))
+                print("Sphinx")
+                return self.r.recognize_sphinx(self.audio)
             except sr.UnknownValueError:
                 print("Sphinx could not understand audio")
             except sr.RequestError as e:
@@ -56,7 +59,8 @@ def recognizeSpeech():
     recordAudio()
     playAudio()
     speechrecognition = xSpeechRecognition()
-    return speechrecognition.recognize()
+    text = speechrecognition.recognize()
+    usay("english", text)
 
 if __name__ == "__main__":
 
