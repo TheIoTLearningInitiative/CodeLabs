@@ -59,7 +59,7 @@
 * [Kohunlich](Kohunlich/documentation/Kohunlich.md)
 * [La Ruta Puuc](LaRutaPuuc/documentation/LaRutaPuuc.md)
 * [Mayapan](Mayapan/documentation/Mayapan.md)
-* Seibal
+* [Seibal](Seibal/documentation/Seibal.md)
 * [Tabasqueno](Tabasqueno/documentation/Tabasqueno.md)
 * [Tikal](Tikal/documentation/Tikal.md)
    * [Sensors](Tikal/documentation/Sensors.md)
