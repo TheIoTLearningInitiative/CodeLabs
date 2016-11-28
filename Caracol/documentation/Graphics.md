@@ -19,3 +19,5 @@ user@ubuntu:~$ xrandr --output LVDS1 --rotate left
 user@ubuntu:~$ xrandr --output LVDS1 --rotate inverted
 user@ubuntu:~$ xrandr --output LVDS1 --rotate normal
 ```
+
+ToDo. 
