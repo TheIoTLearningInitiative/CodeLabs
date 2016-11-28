@@ -16,6 +16,6 @@ user@ubuntu:~$ source ~/.bashrc
 user@ubuntu:~$ 
 ```
 
-# GDrive
+# Gdrive
 
-[](https://www.howtoforge.com/tutorial/how-to-access-google-drive-from-linux-gdrive/)
+[How to access your Google Drive account from Linux command line using Gdrive](https://www.howtoforge.com/tutorial/how-to-access-google-drive-from-linux-gdrive/)
