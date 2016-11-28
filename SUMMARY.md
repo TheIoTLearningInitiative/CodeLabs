@@ -18,6 +18,7 @@
        * [Twitter](Caracol/documentation/Twitter.md)
        * [Keyboard](Caracol/documentation/Keyboard.md)
        * [Google Drive](GoogleDrive.md)
+       * WiFi
    * [Modules](Caracol/documentation/Modules.md)
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
