@@ -1,6 +1,7 @@
 # Google Drive
 
-[](http://www.linuxandubuntu.com/home/5-free-alternatives-to-google-drive-on-linux)
+- [](http://www.linuxandubuntu.com/home/5-free-alternatives-to-google-drive-on-linux)
+- [](http://www.techrepublic.com/article/how-to-mount-your-google-drive-on-linux-with-google-drive-ocamlfuse/)
 
 # Drive
 
