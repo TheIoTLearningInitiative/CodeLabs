@@ -1,5 +1,0 @@
-# Face Recognition Web Streaming
-
-
-
-
