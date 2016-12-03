@@ -7,5 +7,5 @@
 
 # Phillips Hue
 
-> Your personal wireless lighting that lets you easily control your light from your device and create the right ambience for your every moments. Meet the world's most connected light. It will change the way you use light. []()
+> Your personal wireless lighting that lets you easily control your light from your device and create the right ambience for your every moments. Meet the world's most connected light. It will change the way you use light. [Homepaghe](http://www2.meethue.com/en-us/)
 
