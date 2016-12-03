@@ -30,7 +30,7 @@ Chiapas
 
 Guatemala
 
-- __Iximche__ 
+- __Iximche__ Bot Translator __Under Construction__
 - __Kaminaljuyu__ 
 - __Mixco Viejo__ 
 - __Q'umarkaj__ (Utatlán) 
