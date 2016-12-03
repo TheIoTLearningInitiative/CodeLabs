@@ -23,7 +23,7 @@ Campeche
 
 Chiapas
 
--  __Palenque__ 
+-  __Palenque__ Smart Home
 -  __Yaxchilan__ 
 -  __Bonampak__ Time Lapse Photography __Under Construction__
 -  __Toniná__ 
