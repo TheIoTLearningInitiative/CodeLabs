@@ -11,5 +11,5 @@
 
 # Sonos Playbar
 
-> The home theatre soundbar and streaming music speaker in one. [Homepage]()
+> The home theatre soundbar and streaming music speaker in one. [Homepage](http://www.sonos.com/en/shop/playbar.html)
 
