@@ -26,7 +26,7 @@ Chiapas
 -  __Palenque__ Living Lab Smart Space __Under Construction__
 -  __Yaxchilan__ 
 -  __Bonampak__ Time Lapse Photography __Under Construction__
--  __Toniná__ 
+-  __Toniná__ Smart Parking __Under Consideration__
 
 Guatemala
 
