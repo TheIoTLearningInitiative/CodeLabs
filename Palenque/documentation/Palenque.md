@@ -16,4 +16,4 @@
 
 # MiOS
 
->  [Homepage](http://www.mios.com/)
+> Your brand. Your goals. Your platform. Your way - MiOS. Deliver Smart Products In Record Time. [Homepage](http://www.mios.com/)
