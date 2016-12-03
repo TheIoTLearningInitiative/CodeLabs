@@ -13,3 +13,7 @@
 
 > The home theatre soundbar and streaming music speaker in one. [Homepage](http://www.sonos.com/en/shop/playbar.html)
 
+
+# MiOS
+
+>  [Homepage](http://www.mios.com/)
