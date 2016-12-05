@@ -32,7 +32,7 @@ Guatemala
 
 - __Iximche__ Bot Translator __Under Construction__
 - __Kaminaljuyu__ 
-- __Mixco Viejo__ 
+- __Mixco Viejo__ mBot
 - __Q'umarkaj__ (Utatlán) 
 - __Tikal__ Air Quality __Under Construction__
 - __Dos Pilas__ 
