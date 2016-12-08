@@ -95,5 +95,5 @@
    * [Audio Capture Playback](AudioCapturePlayback/README.md)
    * [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
 * [Mixco Viejo](MixcoViejo/documentation/MixcoViejo.md)
-* Dos Pilas
+* [Dos Pilas](DosPilas/documentation/DosPilas.md)
 
