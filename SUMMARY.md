@@ -24,6 +24,7 @@
 * [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Chichen Itza](ChichenItza/documentation/ChichenItza.md)
 * [Coba](Coba/documentation/Coba.md)
+* [Dos Pilas](DosPilas/documentation/DosPilas.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
 * [Edzna](Edzna/documentation/Edzna.md)
    * Device
@@ -95,5 +96,4 @@
    * [Audio Capture Playback](AudioCapturePlayback/README.md)
    * [Image Capture OpenCV](ImageCaptureOpenCV/README.md)
 * [Mixco Viejo](MixcoViejo/documentation/MixcoViejo.md)
-* [Dos Pilas](DosPilas/documentation/DosPilas.md)
 
