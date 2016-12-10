@@ -8,7 +8,7 @@ Belice
 
 * **Altun Ha** Chat Telegram **Under Construction**
 * **Caracol** Puerta Digital
-* **Xunantunich** 
+* **Xunantunich** Stamply Kik Com **Under Construction**
 
 Campeche
 
