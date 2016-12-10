@@ -11,10 +11,6 @@ root@edison:~/CodeLabs/Edzna/device# python motion.py
 root@edison:~/CodeLabs/Edzna/device# python opening.py
 ```
 
-* light.py
-* luxes.py
-* motion.py
-* opening.py
 
 
 
