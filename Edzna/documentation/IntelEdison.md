@@ -4,7 +4,17 @@
 root@edison:~/CodeLabs/Edzna/device# pip install paho-mqtt
 ```
 
-- light.py
-- luxes.py
-- motion.py
-- opening.py
+```sh
+root@edison:~/CodeLabs/Edzna/device# python light.py
+root@edison:~/CodeLabs/Edzna/device# python luxes.py
+root@edison:~/CodeLabs/Edzna/device# python motion.py
+root@edison:~/CodeLabs/Edzna/device# python opening.py
+```
+
+* light.py
+* luxes.py
+* motion.py
+* opening.py
+
+
+
