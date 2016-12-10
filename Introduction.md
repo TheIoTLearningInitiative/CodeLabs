@@ -6,58 +6,61 @@
 
 Belice
 
-- __Altun Ha__ Chat Telegram __Under Construction__
-- __Caracol__ Puerta Digital
-- __Xunantunich__ 
+* **Altun Ha** Chat Telegram **Under Construction**
+* **Caracol** Puerta Digital
+* **Xunantunich** 
 
 Campeche
 
-- __Chicanna__ OpenCV Face Recognition Web Picture
-- __Edzna__ Home Assistant
-- __Hormiguero__ MQTT Alarm ! __Under Construction__
-- __Hochob__ Upm Sensor Library LCD
-- __Kanki__ ESP8266 ! __Under Construction__
-- __Tabasqueno__ NodeJS, Socket.io, Johnny Five ! __Under Construction__
-- __Xcalumkin__ Python Cross Platform (PC/Embedded) __Under Construction__
-- __Xpuhil__ Freeboard
+* **Chicanna** OpenCV Face Recognition Web Picture
+* **Edzna** Home Assistant
+* **Hormiguero** MQTT Alarm ! **Under Construction**
+* **Hochob** Upm Sensor Library LCD
+* **Kanki** ESP8266 ! **Under Construction**
+* **Tabasqueno** NodeJS, Socket.io, Johnny Five ! **Under Construction**
+* **Xcalumkin** Python Cross Platform \(PC/Embedded\) **Under Construction**
+* **Xpuhil** Freeboard
 
 Chiapas
 
--  __Palenque__ Living Lab Smart Space __Under Construction__
--  __Yaxchilan__ 
--  __Bonampak__ Time Lapse Photography __Under Construction__
--  __Toniná__ Smart Parking __Under Consideration__
+* **Palenque** Living Lab Smart Space **Under Construction**
+* **Yaxchilan** Open Sound Control **Under Construction**
+* **Bonampak** Time Lapse Photography **Under Construction**
+* **Toniná** Smart Parking **Under Consideration**
 
 Guatemala
 
-- __Iximche__ Bot Translator __Under Construction__
-- __Kaminaljuyu__ 
-- __Mixco Viejo__ mBot __Under Construction__
-- __Q'umarkaj__ (Utatlán) 
-- __Tikal__ Air Quality __Under Construction__
-- __Dos Pilas__ RapidAPI __Under Construction__
-- __Seibal__ Cloud Drives
-- __Uaxactún__ IMU Car Control
+* **Iximche** Bot Translator **Under Construction**
+* **Kaminaljuyu** 
+* **Mixco Viejo** mBot **Under Construction**
+* **Q'umarkaj** \(Utatlán\) 
+* **Tikal** Air Quality **Under Construction**
+* **Dos Pilas** RapidAPI **Under Construction**
+* **Seibal** Cloud Drives
+* **Uaxactún** IMU Car Control
 
 Quintana Roo
 
-- __Coba__ Linux Kernel Module
-- __Kohunlich__ Linux Kernel Module I2C LCD
-- __Muyil__ Emoncms ! __Under Construction__
-- __Tulum__ Openstack Sensor Dashboard
+* **Coba** Linux Kernel Module
+* **Kohunlich** Linux Kernel Module I2C LCD
+* **Muyil** Emoncms ! **Under Construction**
+* **Tulum** Openstack Sensor Dashboard
 
 Yucatán
 
-- __Chacmultun__ I2C Library LCD
-- __Chichen Itza__ Audio
-- __Dzibilchaltun__ Telegram Bot
-- __Ek Balam__ Google APIs __Under Construction__
-- __Kinich KaK Moo__ Node-RED
-- __La Ruta Puuc__ NodeJS, Socket.io, Johnny Five, AngularJS  ! __Under Construction__
-- __Mayapan__ Domotics ! __Under Construction__
-- __Uxmal__ OpenCV Camera Picture Web Streaming
-- __Xcambo__ Mqtt Sensor Data
+* **Chacmultun** I2C Library LCD
+* **Chichen Itza** Audio
+* **Dzibilchaltun** Telegram Bot
+* **Ek Balam** Google APIs **Under Construction**
+* **Kinich KaK Moo** Node-RED
+* **La Ruta Puuc** NodeJS, Socket.io, Johnny Five, AngularJS  ! **Under Construction**
+* **Mayapan** Domotics ! **Under Construction**
+* **Uxmal** OpenCV Camera Picture Web Streaming
+* **Xcambo** Mqtt Sensor Data
 
 ## Maya Gods and Supernatural Beings
 
-> This is a name list of Maya gods and supernatural beings playing a role in the Classic (200–1000 CE) and Post-Classic (1000–1697 CE) Maya religion. [Wikipedia](https://en.wikipedia.org/wiki/List_of_Maya_gods_and_supernatural_beings)
+> This is a name list of Maya gods and supernatural beings playing a role in the Classic \(200–1000 CE\) and Post-Classic \(1000–1697 CE\) Maya religion. [Wikipedia](https://en.wikipedia.org/wiki/List_of_Maya_gods_and_supernatural_beings)
+
+
+
