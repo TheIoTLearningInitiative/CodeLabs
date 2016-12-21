@@ -9,8 +9,9 @@ apt-get install python3-setuptools
 apt-get install python3-pip
 ```
 
-- xe1gyq.sytes.net
-- whatismyip.org
+1. xe1gyq.sytes.net
+2. Install noip client
+3. whatismyip.org
 
 
 
