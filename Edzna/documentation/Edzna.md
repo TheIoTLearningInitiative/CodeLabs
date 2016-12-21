@@ -9,4 +9,7 @@ apt-get install python3-setuptools
 apt-get install python3-pip
 ```
 
+xe1gyq.sytes.net
+
+
 
