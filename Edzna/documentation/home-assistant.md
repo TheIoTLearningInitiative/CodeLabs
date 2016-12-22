@@ -8,6 +8,8 @@ user@server:~$ sudo apt-get install python3-pip
 user@server:~$ sudo pip3 install homeassistant
 ```
 
+# HomeASsistant Configuration
+
 ```sh
 user@server:~$ ls ~/.homeassistant
 configuration.yaml  deps  home-assistant.db  home-assistant.log
