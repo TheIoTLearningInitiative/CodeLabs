@@ -22,7 +22,12 @@ user@server:~$ nano ~/.homeassistant/configuration.yaml
 # HomeAssistant Automatic Startup @ Debian Jessie
 
 ```sh
-user@server:/etc/init.d# wget https://raw.githubusercontent.com/home-assistant/home-assistant/dev/script/hass-daemon
+root@server:~# cd /etc/init.d
+root@server:/etc/init.d# 
+```
+
+```sh
+root@server:/etc/init.d# wget https://raw.githubusercontent.com/home-assistant/home-assistant/dev/script/hass-daemon
 --2016-10-24 03:02:12--  https://raw.githubusercontent.com/home-assistant/home-assistant/dev/script/hass-daemon
 Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.32.133
 Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.32.133|:443... connected.
@@ -34,10 +39,10 @@ Saving to: ‘hass-daemon’
 
 2016-10-24 03:02:12 (25.6 MB/s) - ‘hass-daemon’ saved [2783/2783]
 
-user@server:/etc/init.d# sudo service hass-daemon start
+root@server:/etc/init.d# sudo service hass-daemon start
 hass-daemon: unrecognized service
-user@server:/etc/init.d# chmod +x /etc/init.d/hass-daemon
-user@server:/etc/init.d# sudo update-rc.d hass-daemon defaults
+root@server:/etc/init.d# chmod +x /etc/init.d/hass-daemon
+root@server:/etc/init.d# sudo update-rc.d hass-daemon defaults
  Adding system startup for /etc/init.d/hass-daemon ...
    /etc/rc0.d/K20hass-daemon -> ../init.d/hass-daemon
    /etc/rc1.d/K20hass-daemon -> ../init.d/hass-daemon
@@ -46,16 +51,16 @@ user@server:/etc/init.d# sudo update-rc.d hass-daemon defaults
    /etc/rc3.d/S20hass-daemon -> ../init.d/hass-daemon
    /etc/rc4.d/S20hass-daemon -> ../init.d/hass-daemon
    /etc/rc5.d/S20hass-daemon -> ../init.d/hass-daemon
-user@server:/etc/init.d# sudo service hass-daemon install
+root@server:/etc/init.d# sudo service hass-daemon install
 Installing Home Assistant Daemon (hass-daemon)
 chown: invalid user: ‘USER’
 chown: invalid user: ‘USER’
-user@server:/etc/init.d# nano hass-daemon 
-user@server:/etc/init.d# sudo update-rc.d hass-daemon defaults
+root@server:/etc/init.d# nano hass-daemon 
+root@server:/etc/init.d# sudo update-rc.d hass-daemon defaults
  System start/stop links for /etc/init.d/hass-daemon already exist.
-user@server:/etc/init.d# sudo service hass-daemon install
+root@server:/etc/init.d# sudo service hass-daemon install
 Installing Home Assistant Daemon (hass-daemon)
-user@server:/etc/init.d# 
+root@server:/etc/init.d# 
 ```
 
 ```sh
