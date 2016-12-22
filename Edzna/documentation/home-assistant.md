@@ -19,7 +19,7 @@ configuration.yaml  deps  home-assistant.db  home-assistant.log
 user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```
 
-# HomeAssistant Automatic Startup @ Debian Jessie
+# HomeAssistant Automatic Startup @ Debian Jessie with existing file
 
 ```sh
 root@server:~# cd /etc/init.d
@@ -62,6 +62,8 @@ root@server:/etc/init.d# sudo service hass-daemon install
 Installing Home Assistant Daemon (hass-daemon)
 root@server:/etc/init.d# 
 ```
+
+# HomeAssistant Automatic Startup @ Debian Jessie with unexisting file
 
 ```sh
 sudo nano /etc/init.d/hass-daemon
