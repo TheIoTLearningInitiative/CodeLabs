@@ -1,25 +1,10 @@
 # 
 
 ```sh
+user@server:~$ sudo apt-get install python3-setuptools
 user@server:~$ sudo apt-get install python3-pip
 user@server:~$ sudo pip3 install homeassistant
 ```
-
-
-```sh
-apt-get install python3-setuptools
-apt-get install python3-pip
-```
-
-1. xe1gyq.sytes.net
-2. Install noip client
-3. whatismyip.org
-
-```sh
-user@server:~$ hass --open-ui
-```
-
-Go to http://192.168.1.70:8123/
 
 ```sh
 user@server:~$ ls ~/.homeassistant
@@ -29,6 +14,7 @@ configuration.yaml  deps  home-assistant.db  home-assistant.log
 ```sh
 user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```
+
 ```sh
 user@server:/etc/init.d# wget https://raw.githubusercontent.com/home-assistant/home-assistant/dev/script/hass-daemon
 --2016-10-24 03:02:12--  https://raw.githubusercontent.com/home-assistant/home-assistant/dev/script/hass-daemon
@@ -185,3 +171,12 @@ sudo update-rc.d hass-daemon enable
 sudo service hass-daemon status
 sudo service hass-daemon start
 ```
+1. xe1gyq.sytes.net
+2. Install noip client
+3. whatismyip.org
+
+```sh
+user@server:~$ hass --open-ui
+```
+
+Go to http://192.168.1.70:8123/
