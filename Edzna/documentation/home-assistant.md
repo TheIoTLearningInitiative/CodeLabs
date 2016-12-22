@@ -66,7 +66,7 @@ root@server:/etc/init.d#
 # HomeAssistant Automatic Startup @ Debian Jessie with unexisting file
 
 ```sh
-sudo nano /etc/init.d/hass-daemon
+user@server:~$ sudo nano /etc/init.d/hass-daemon
 ```
 
 ```sh
@@ -177,12 +177,12 @@ esac
 ```
 
 ```sh
-sudo chmod 755 /etc/init.d/hass-daemon
-sudo chown root:root /etc/init.d/hass-daemon
-sudo update-rc.d hass-daemon defaults
-sudo update-rc.d hass-daemon enable
-sudo service hass-daemon status
-sudo service hass-daemon start
+user@server:~$ sudo chmod 755 /etc/init.d/hass-daemon
+user@server:~$ sudo chown root:root /etc/init.d/hass-daemon
+user@server:~$ sudo update-rc.d hass-daemon defaults
+user@server:~$ sudo update-rc.d hass-daemon enable
+user@server:~$ sudo service hass-daemon status
+user@server:~$ sudo service hass-daemon start
 ```
 
 ```sh
