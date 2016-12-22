@@ -171,12 +171,13 @@ sudo update-rc.d hass-daemon enable
 sudo service hass-daemon status
 sudo service hass-daemon start
 ```
-1. xe1gyq.sytes.net
-2. Install noip client
-3. whatismyip.org
 
 ```sh
 user@server:~$ hass --open-ui
 ```
 
 Go to http://192.168.1.70:8123/
+
+1. xe1gyq.sytes.net
+2. Install noip client
+3. whatismyip.org
