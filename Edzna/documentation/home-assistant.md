@@ -19,6 +19,8 @@ configuration.yaml  deps  home-assistant.db  home-assistant.log
 user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```
 
+# HomeAssistant Automatic Startup Debian Jessie
+
 ```sh
 user@server:/etc/init.d# wget https://raw.githubusercontent.com/home-assistant/home-assistant/dev/script/hass-daemon
 --2016-10-24 03:02:12--  https://raw.githubusercontent.com/home-assistant/home-assistant/dev/script/hass-daemon
