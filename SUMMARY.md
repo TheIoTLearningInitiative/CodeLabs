@@ -32,7 +32,7 @@
         * [Intel Edison](Edzna/documentation/IntelEdison.md)
     * [Server](Edzna/documentation/Server.md)
         * [MQTT Broker](Edzna/documentation/MqttBroker.md)
-        * Home Assistant
+        * [Home Assistant](Edzna/documentation/home-assistant.md)
             * [Hello](Edzna/documentation/Hello.md)
             * [MQTT](Edzna/documentation/Mqtt.md)
                 * [Alarm](Edzna/documentation/MqttAlarm.md)
