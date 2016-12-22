@@ -1,4 +1,6 @@
-# 
+# Server
+
+# HomeAssistant Installation
 
 ```sh
 user@server:~$ sudo apt-get install python3-setuptools
