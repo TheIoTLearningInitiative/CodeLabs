@@ -40,11 +40,9 @@
     - Plomo
     - Monóxido de Carbono Caso de Exito
     - Benceno
-Métodos
-Metodos de Medicion
-Metodos Equivalentes
-
-
+- Métodos
+  - Metodos de Medicion
+  - Metodos Equivalentes
 
 Interfaces
 Digital Display
