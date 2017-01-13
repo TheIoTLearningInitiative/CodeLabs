@@ -26,7 +26,10 @@ Desirable Direction
     - Multipollutant sensor stations in near road 
     - Community setting
 - Mobile Mode
-  - 
+  - Personal monitoring
+  - Community group monitoring
+  - Mapping spatial trends
+
 
 # High Level Single Arquitecture
 
