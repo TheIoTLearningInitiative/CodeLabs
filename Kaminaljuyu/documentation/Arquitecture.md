@@ -62,9 +62,9 @@ Desirable Direction
 
 # High Level Development Plan
 
-- Phase Adquisition 
-- Phase Design
-- Phase Measurement
+- Adquisition 
+- Design
+- Measurement
   - Preliminary observations (~1 week of data)
 
 
