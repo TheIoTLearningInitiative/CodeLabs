@@ -1,6 +1,6 @@
 # Bill Of Materials
  
-Seeed Studio
+## Seeed Studio
 
 - Grove - Gas Sensor(MQ2)
   - https://www.seeedstudio.com/Grove-Gas-Sensor(MQ2)-p-937.html
