@@ -11,7 +11,8 @@
   
 Desirable Direction
 
-- 
+- Lower Cost Systems
+- Higher Spatial Resolution
 
 ## Tiempos
 
