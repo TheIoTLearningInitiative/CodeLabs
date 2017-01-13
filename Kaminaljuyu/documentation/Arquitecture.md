@@ -34,7 +34,7 @@ Desirable Direction
 - Education Outreach
   - EPA ORD’s particle sensor kit
   - Instrumented kites measuring VOCs
-  - 
+  - Hacking fiber optic flowers to light up based on CO2 sensor readings (EPA ORD)
 
 
 # High Level Single Arquitecture
