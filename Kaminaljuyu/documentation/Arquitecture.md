@@ -28,7 +28,10 @@ Desirable Direction
   - Cellular
   - Radio Frequency
 - Algorithms
-  - Concentration Estimation 
+  - Concentration Estimation
+- Interruptions
+  - Maintenance
+  - Commnunications
 
 ## Tiempos
 
