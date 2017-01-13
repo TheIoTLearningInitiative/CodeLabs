@@ -21,7 +21,13 @@ Possible sensor measurement issues
   - Some use a passive means to move air through sensing region; others have a fan.
 - Signal translation to concentration estimate
 
+## Gas Phase
 
+Possible sensor measurement issues
+
+- Interfering gases in mixture
+- Measurement artifact due to temperature and humidity
+- Eventual failure of sensor
 
 # Seeed Studio
 
