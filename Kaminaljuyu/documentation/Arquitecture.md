@@ -41,6 +41,8 @@ Desirable Direction
 
 # High Level Development Plan
 
+
+
 Controlled Laboratory Setting - challenge against interfering 
 species, temperature/humidity effects, etc.
 - Co-locate with a reference instrument
