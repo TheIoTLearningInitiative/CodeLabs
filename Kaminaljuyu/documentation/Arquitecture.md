@@ -179,4 +179,3 @@ species, temperature/humidity effects, etc.
 # Links
 
 - [EPA Air Sensor Toolbox for Citizen Scientists, Researchers and Developers](https://www.epa.gov/air-sensor-toolbox)
-- [EPA Air Sensor Toolbox](https://www.epa.gov/air-sensor-toolbox/air-sensor-toolbox-resources-and-funding)
