@@ -10,7 +10,7 @@
   - Education
   - Information/Awareness
 
-## 
+## Before Collecting
 
 - Basics
   - Purpose
