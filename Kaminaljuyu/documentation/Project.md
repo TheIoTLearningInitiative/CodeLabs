@@ -16,11 +16,11 @@
 
 ## Before Collecting
 
-- Basics
+- __Basics__
   - Purpose
     - Government - School - Company Sandbox Learning Project
   - Number of Pollutants
-- Monitor
+- __Monitor__
   - What sensor?
   - How often data collected?
   - Calibration
@@ -29,7 +29,7 @@
   - Additional data?
     - Noise
     - Temperature
-- Location
+- __Location__
   - Where?
     - Moving /Stationary
     - Indoor / Outdoor
@@ -37,7 +37,7 @@
     - Industry
     - Construction
   - Wheather Conditions
-- Data Analysis
+- __Data Analysis__
 
 
 - What is our top priority?
