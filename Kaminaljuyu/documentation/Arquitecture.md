@@ -14,6 +14,7 @@
   - Public demand
   - More personalized information
 - Experimental
+  - Do It Yourself
 
 Desirable Direction
 
