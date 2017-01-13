@@ -17,6 +17,12 @@ Desirable Direction
 - Lower Cost Systems
 - Higher Spatial Resolution
 
+# Sensor Applications
+
+- Stationary Mode
+  - Multipollutant sensor stations in near road 
+  - Community setting
+
 # High Level Single Arquitecture
 
 - Low-cost electrochemical sensors 
