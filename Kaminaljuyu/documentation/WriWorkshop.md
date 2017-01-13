@@ -6,23 +6,23 @@
 
 - Mortalidad 
 - Taller IER Function: PM2.5 and child ALRI risk
-Contaminación
-Orografia (Cazuela)
-Actividad
-+ Alta concentracion solar
-Ozono
-Material Particulado
-Vientos
-Estabilidad Atmosférica
-Fuentes de emisión
-Óxidos de Nitrógeno, Compuestos Volátiles
-Formación de Ozono
-Fuentes
-Naturales
-Fijas
-Industriales
-Vehiculares
-De Area
+- Contaminación
+  - Orografia (Cazuela)
+  - Actividad
+    - + Alta concentracion solar
+    - Ozono
+  - Material Particulado
+  - Vientos
+    - Estabilidad Atmosférica
+  - Fuentes de emisión
+  - Óxidos de Nitrógeno, Compuestos Volátiles
+  - Formación de Ozono
+- Fuentes
+  - Naturales
+  - Fijas
+  - Industriales
+  - Vehiculares
+  - De Area
 Norma Mexicana: 12 uG x Metro Cubico
 Riesgo Relativo
 Se requiere la reducción de la exposición para prevenir la mayoría de las causas de mortalidad
