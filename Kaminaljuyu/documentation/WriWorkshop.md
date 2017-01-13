@@ -78,5 +78,5 @@
     - Fijas
     - Area
     - Portatiles
-Sensores Remotos
-Contaminometros
+- Sensores Remotos
+- Contaminometros
