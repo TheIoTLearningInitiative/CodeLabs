@@ -17,7 +17,7 @@
     - Focos Rojos
   - Sensiblizacion Proyectos
   - Salud Publica
-    - InTake, Esposicion
+    - InTake, Exposition
   - Exposicion Personal
     - Lineas Bases
       - Corredores Viales
