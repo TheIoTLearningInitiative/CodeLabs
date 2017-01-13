@@ -80,3 +80,12 @@
     - Portatiles
 - Sensores Remotos
 - Contaminometros
+
+## Key Players
+
+- Banco Mundial
+- Edinburg Univeristy
+- Cambridge
+- EPA
+- City Science
+- Citizen Monitoring
