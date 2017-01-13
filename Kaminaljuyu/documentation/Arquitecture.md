@@ -18,7 +18,7 @@
 - Do It Yourself Stations
   - Low Cost
   - Measurements
-  - Contador de Vehiculos
+  - Car Counting
 
 ## Objetivos
 - Monitoreo
