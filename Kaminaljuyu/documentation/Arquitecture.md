@@ -12,11 +12,12 @@
 
 ## Infraestructura
 
-- Estaciones actuales
-- Estaciones comerciales
-  - Personales
-- Estaciones desde 0 Bajo Costo
-  - Medicion
+- Existing Stations
+- Commercial Stations
+  - Personal
+- Do It Yourself Stations
+  - Low Cost
+  - Measurements
   - Contador de Vehiculos
 
 ## Objetivos
