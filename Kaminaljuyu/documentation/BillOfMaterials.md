@@ -19,8 +19,6 @@ Possible sensor measurement issues
   - Some use a passive means to move air through sensing region; others have a fan.
 - Signal translation to concentration estimate
 
-
-
 ## Seeed Studio
 
 - __Grove - Gas Sensor(MQ2)__
