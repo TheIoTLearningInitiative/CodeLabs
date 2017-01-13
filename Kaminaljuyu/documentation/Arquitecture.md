@@ -4,12 +4,14 @@
 - Experimental Design
 
 ## Tiempos
+
 - Recursos
   - Estatales
   - Municipales
 - Arrancar la Obra
 
 ## Infraestructura
+
 - Estaciones actuales Guadalajara
 - Estaciones comerciales
   - Personales
