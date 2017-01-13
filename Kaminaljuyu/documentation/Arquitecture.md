@@ -65,6 +65,5 @@
   - CENAM
   - Instituto Nacional de Metrología y Cambio Climático
 
-## Corrections
-
-- 
+- Corrections
+  - Device   - Cloud
