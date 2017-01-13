@@ -2,6 +2,7 @@
 
 - Basics
   - Purpose
+    - Government - School - Company Sandbox Learning Project
   - Number of Pollutants
 - Monitor
   - What sensor?
@@ -15,8 +16,6 @@
 - Data Analysis
 
 
-
-- Government - School - Company Sandbox Learning Project
 - Sensors
   - Research
   - Personal Exposure Monitoring
