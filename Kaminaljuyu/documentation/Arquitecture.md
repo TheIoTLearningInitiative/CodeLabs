@@ -24,7 +24,7 @@
 ## Objetives
 
 - Monitoring
-- Actividad Humana
+- Human Activity
 - Sensibilizacion Informacion
   - Estudios
   - Focos Rojos
