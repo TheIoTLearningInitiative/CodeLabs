@@ -8,7 +8,7 @@
 - Unit? Range of gases, particulates and environmental conditions
 - Secure
 - Credibility
-
+- Installation and Operation
 
 
 ## Seeed Studio
