@@ -23,7 +23,7 @@
   - Industriales
   - Vehiculares
   - De Area
-Norma Mexicana: 12 uG x Metro Cubico
+- Norma Mexicana: 12 uG x Metro Cubico
 Riesgo Relativo
 Se requiere la reducción de la exposición para prevenir la mayoría de las causas de mortalidad
 Medición
