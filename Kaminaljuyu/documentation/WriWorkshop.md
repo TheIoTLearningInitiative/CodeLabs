@@ -44,6 +44,39 @@
   - Metodos de Medicion
   - Metodos Equivalentes
 
-Interfaces
-Digital Display
-Software
+## Interfaces
+
+- Digital Display
+- Software
+
+## Estaciones
+
+- Monitoreo
+  - Automático de Calidad del Aire
+  - Manual
+  - Portátiles
+- Costos
+  - Alto (>10k)
+  - Medio (10k)
+    - Haz Dust
+    - TCI
+    - Langan
+  - Bajo
+- Modelos
+  - Palas
+  - TSI
+  - Haz Dust
+  - BAM 1020
+    - Varios Sensores
+    - Datalogger
+- Localizacion
+  - Fija
+  - Movil
+Medicion
+  - En Fuentes
+  - Natuarles
+  - Fijas
+- Area
+Portatiles
+Sensores Remotos
+Contaminometros
