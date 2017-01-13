@@ -15,6 +15,8 @@
     - Temperature
 - Location
   - Where?
+    - Moving
+    - Stationary
   - Other Sources
 - Data Analysis
 
