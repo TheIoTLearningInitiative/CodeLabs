@@ -2,7 +2,7 @@
 
 Available Equipments
 
-- Commercial
+- Traditional
   - Expensive instruments
   - Specialized training required
   - Large physical footprint
