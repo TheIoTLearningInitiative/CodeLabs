@@ -3,6 +3,7 @@
 # Low Cost Air Quality Sensor
 
 - Sensitivity
+- Proven Accuracy
 
 
 ## Seeed Studio
