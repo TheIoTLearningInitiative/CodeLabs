@@ -20,21 +20,8 @@ SNCF Europe, It’s Just Next Door
 - Entertainment System
 - Mobile System
 
-## Agreement
+In simple words we have:
 
 - Stationary Video Conference Station
 - Live Translation
-
-# Digital Signage Technology from Intel
-
-http://www.intel.com/content/www/us/en/retail/retail-digital-signage.html
-
-Digital Signage
-Point Of Sales
-Kiosk
-Vending
-Retail Mobility
-Intel® RCM and Intel® AIM Suite
-Payment Technology
-Retail Ecosystem
 
