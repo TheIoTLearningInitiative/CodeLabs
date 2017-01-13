@@ -2,6 +2,8 @@
 
 # Low Cost Air Quality Sensor
 
+Characteristics
+
 - Sensitivity
 - Proven Accuracy
 - Location
@@ -11,6 +13,8 @@
 - Installation and Operation
 - Remote Management
 - High quality
+
+- 
 
 ## Seeed Studio
 
