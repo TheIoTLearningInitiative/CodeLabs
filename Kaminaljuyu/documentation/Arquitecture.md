@@ -19,13 +19,14 @@
     - Lineas Bases
       - Corredores Viales
       - Corredores Comerciales
-Infraestructura
-Estaciones actuales Guadalajara
-Estaciones comerciales
-Personales
-Estaciones desde 0 Bajo Costo
-Medicion
-Contador de Vehiculos
+
+- Infraestructura
+  - Estaciones actuales Guadalajara
+  - Estaciones comerciales
+    - Personales
+  - Estaciones desde 0 Bajo Costo
+    - Medicion
+    - Contador de Vehiculos
 Estaciones
 Personal (Equipos de Exposicion Personal)
 Linea Base
