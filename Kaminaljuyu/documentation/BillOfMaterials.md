@@ -6,6 +6,9 @@
 - Proven Accuracy
 - Location
 - Unit? Range of gases, particulates and environmental conditions
+- Secure
+- Credibility
+
 
 
 ## Seeed Studio
