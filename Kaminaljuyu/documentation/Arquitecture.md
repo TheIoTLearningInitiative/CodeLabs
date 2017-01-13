@@ -12,9 +12,9 @@
   - Sensibilizacion Informacion
     - Estudios
     - Focos Rojos
-Sensiblizacion Proyectos
-Salud Publica
-InTake, Esposicion
+  - Sensiblizacion Proyectos
+  - Salud Publica
+    - InTake, Esposicion
 
 Exposicion Personal
 Lineas Bases
