@@ -17,6 +17,8 @@
   - Where?
     - Moving
     - Stationary
+    - Indoor
+    - Outdoor
   - Other Sources
 - Data Analysis
 
