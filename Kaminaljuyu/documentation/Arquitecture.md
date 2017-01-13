@@ -6,6 +6,8 @@
   - Large physical footprint
   - Large power draw
 - Experimental Design
+  - Public demand 
+  - More personalized information 
 
 ## Tiempos
 
