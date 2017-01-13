@@ -19,7 +19,7 @@
 - Operating System
   - Ubuntu14.04, Windows 10
 
-# Intel® Compute Stick
+## Intel® Compute Stick
 
 > The Intel® Compute Stick is a device the size of a pack of gum that can transform any HDMI* display into a complete computer. [Homepage](http://www.intel.com/content/www/us/en/compute-stick/intel-compute-stick.html)
 
@@ -28,7 +28,7 @@
 - Operating System
   - Ubuntu14.04, Windows 10
 
-# Minnowboard Turbo
+## Minnowboard Turbo
 
 > MinnowBoard Turbot is a MinnowBoard MAX-compatible derivative board [Homepage](http://wiki.minnowboard.org/MinnowBoard_Wiki_Home)
 
@@ -37,7 +37,7 @@
 - Operating System
   - Ubuntu 14.04, Windows 10
 
-Up Board
+## Up Board
 
 UP is the computer board for makers and professional makers. UP is the bridge between your hobby and your future business.
 
