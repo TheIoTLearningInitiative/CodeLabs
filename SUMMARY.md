@@ -6,6 +6,7 @@
     * [Getting Started](documentation/GettingStarted.md)
 * [Caracol](Caracol/documentation/Caracol.md)
     * [Project](Caracol/documentation/Project.md)
+        * [Intel](Caracol/documentation/Intel.md)
     * [Core](Caracol/documentation/Core.md)
         * [Graphics](Caracol/documentation/Graphics.md)
         * [Video](Caracol/documentation/Video.md)
