@@ -60,7 +60,7 @@
 - Digital Display
 - Software
 
-## Estaciones
+## Station
 
 - Monitoreo
   - Automático de Calidad del Aire
