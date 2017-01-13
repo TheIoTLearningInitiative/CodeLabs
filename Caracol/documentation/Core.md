@@ -1,11 +1,10 @@
 # Core
 
 ```sh
-git clone
-```
+user@ubilinux:~$ cd CodeLabs/Caracol/
+user@ubilinux:~/CodeLabs/Caracol$ ls
 
-```sh
-sudo apt-get -y upgrade
+user@ubilinux:~/CodeLabs/Caracol$ 
 ```
 
 ```sh
@@ -59,13 +58,6 @@ Receiving objects: 100% (5561/5561), 9.22 MiB | 1013.00 KiB/s, done.
 Resolving deltas: 100% (3011/3011), done.
 Checking connectivity... done.
 user@ubilinux:~$ 
-```
-
-```sh
-user@ubilinux:~$ cd CodeLabs/Caracol/
-user@ubilinux:~/CodeLabs/ChichenItza$ ls
-documentation  irecognize.py  isay.py  isound.py  iwit.py  requirements.manual  requirements.opkg  requirements.pip  setup.sh  test.sh  voicerss.sh
-user@ubilinux:~/CodeLabs/Caracol$ 
 ```
 
 ```sh
