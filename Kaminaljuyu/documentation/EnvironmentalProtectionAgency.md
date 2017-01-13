@@ -2,6 +2,8 @@
 
 > Our mission is to protect human health and the environment. [Homepage](https://www.epa.gov/)
 
+- [Lower cost air measurement technology ](http://www.marama.org/images/stories/documents/16%20-%20Gayle%20Hagler,%20Lower%20Cost%20Air%20Measurement%20Technology.pdf)
+
 ## Sensors
 
 - Research
