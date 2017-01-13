@@ -40,11 +40,14 @@
 - Remotas
   Naturales
 - Fijas (Industria)
-  - Mediciones Contaminantes
-  - Monoxido de Carbono
-CleanSpace
-PM2.5
-PM10
+
+## Mediciones Contaminantes
+
+- Monoxido de Carbono
+- CleanSpace
+- PM2.5
+- PM10
+
 Innovacion
 Benzeno
 Ozono
