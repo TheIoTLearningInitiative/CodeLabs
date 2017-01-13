@@ -25,6 +25,8 @@ Desirable Direction
   - e.g.
     - Multipollutant sensor stations in near road 
     - Community setting
+- Mobile Mode
+  - 
 
 # High Level Single Arquitecture
 
