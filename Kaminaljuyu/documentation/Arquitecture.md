@@ -46,7 +46,7 @@ Desirable Direction
 - Commercial Stations
   - Stationary
   - Mobile
-- Do It Yourself Stations
+- Do It Yourself Stations, Educationary
   - Low Cost
   - Measurements
   - Car Counting
