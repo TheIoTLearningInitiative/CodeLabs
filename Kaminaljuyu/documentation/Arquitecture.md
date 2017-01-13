@@ -6,6 +6,12 @@
   - Lower cost strategies to achieve air monitoring goals
   - Engagement with communities, schools, industry
 
+Challenges:
+
+- Data interpretation and public messaging 
+- “Big data” analysis
+- Support for do-it-yourself/citizen science
+
 # Air Measurement Technologies
 
 - Traditional
