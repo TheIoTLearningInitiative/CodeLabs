@@ -39,22 +39,17 @@
 
 ## Up Board
 
-UP is the computer board for makers and professional makers. UP is the bridge between your hobby and your future business.
+> UP is the computer board for makers and professional makers. UP is the bridge between your hobby and your future business. [Homepage](http://www.up-board.org/)
 
-http://www.up-board.org/
+- Linux, Windows based
+- Raspberry Pi compatible General Purpose I/O Connector
+- Operating System
+  - Ubilinux™v3.0 [Homepage](https://up-community.org/downloads/ubilinux/ubilinux-ubilinux-3-0)
+  - Ubuntu 14.04 (More resources)
 
-Linux, Windows based
-Raspberry Pi compatible General Purpose I/O Connector
+## LattePanda
 
-Operating System
-
-Ubilinux™v3.0 https://up-community.org/downloads/ubilinux/ubilinux-ubilinux-3-0
-Ubuntu 14.04 (More resources)
-
-LattePanda
-
-A Windows 10 Developer Board for everything
-http://www.lattepanda.com/
+> A Windows 10 Developer Board for everything [Homepage](http://www.lattepanda.com/)
 
 Windows based
 Arduino Compatible CoProcessor
