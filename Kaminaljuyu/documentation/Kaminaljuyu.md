@@ -8,7 +8,5 @@ Health effects
 - Cardiovascular disease
 - Lung disease
 - Cancer
-- Children
-- "Clean" areas
 - Central nervous system
 
