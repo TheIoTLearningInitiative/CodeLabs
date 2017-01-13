@@ -1,6 +1,11 @@
 # Arquitecture
 
 - Commercial
+  - Government provided data via traditional instrumented shelters
+  - Expensive instruments
+  - Specialized training required
+  - Large physical footprint
+  - Large power draw
 - Experimental Design
 
 ## Tiempos
