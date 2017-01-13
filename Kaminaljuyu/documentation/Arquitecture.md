@@ -19,7 +19,9 @@ Desirable Direction
 # High Level Arquitecture
 
 - Low-cost electrochemical sensors 
-- Battery Power
+- Power
+  - Internal via Battery
+  - External via Landline
 - Communications
 - Algorithms
   - Concentration Estimation 
