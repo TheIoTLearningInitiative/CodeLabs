@@ -21,7 +21,7 @@
   - Measurements
   - Car Counting
 
-## Objetivos
+## Objetives
 
 - Monitoring
 - Actividad Humana
