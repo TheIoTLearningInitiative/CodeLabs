@@ -103,3 +103,8 @@ http://www.wri.org/publication/achieving-mexicos-goals
   - Propuestas de medidas para fortalecer la capacidad de medición y predicción
   - Reglas y procesos robustos para la atención de contingencias
   - Propuesta para fortalecer las capacidades institucionales y de comunicación
+
+# EPA
+
+> The US EPA has focused a majority of its attention on sensors costing < $2,500.00 as it is
+believed such a cost would be at the upper limit to that which citizen scientists, as well as many others might be able to afford.
