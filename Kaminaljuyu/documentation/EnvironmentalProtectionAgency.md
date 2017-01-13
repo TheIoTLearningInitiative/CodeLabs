@@ -87,5 +87,3 @@ Desirable Direction
 believed such a cost would be at the upper limit to that which citizen scientists, as well as many others might be able to afford.
 
 - [Evaluation of Emerging Air Pollution Sensor Performance](https://www.epa.gov/air-sensor-toolbox/evaluation-emerging-air-pollution-sensor-performance)
-
-
