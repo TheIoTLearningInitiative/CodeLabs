@@ -1,6 +1,8 @@
 # Project
 
 
+> Kaminaljuyu (pronounced /kæminælˈhuːjuː/) is a Pre-Columbian site of the Maya civilization that was primarily occupied from 1500 BC to AD 1200. Kaminaljuyu has been described as one of the greatest of all archaeological sites in the New World by Michael Coe,[1] although its remains today – a few mounds only – are far less impressive than other Maya sites more frequented by tourists. When first mapped scientifically (by E. M. Shook over a period of decades from the 1930s on), it comprised some 200 platforms and pyramidal mounds, at least half of which were created before the end of the Preclassic period (250 AD). Debate continues about the size, scale, and degree by which, as an economic and political entity, it integrated both the immediate Valley of Guatemala and the Southern Maya area. [Wikipedia](https://en.wikipedia.org/wiki/Kaminaljuyu)
+
 
 - What is our top priority?
 
@@ -21,57 +23,7 @@ Challenges
 - “Big data” analysis
 - Support for do-it-yourself/citizen science
 
-# Air Measurement Technologies
 
-- Traditional
-  - Expensive instruments
-  - Specialized training required
-  - Large physical footprint
-  - Large power draw
-- Low Cost
-  - Public demand
-  - More personalized information
-- Experimental
-  - Do It Yourself
-
-Desirable Direction
-
-- Lower Cost Systems
-- Higher Spatial Resolution
-
-# Sensor Applications
-
-- Stationary Mode
-  - Source Fence line
-  - Community measurements
-  - e.g.
-    - Multipollutant sensor stations in near road 
-    - Community setting
-- Mobile Mode
-  - Personal monitoring
-  - Community group monitoring
-  - Mapping spatial trends
-- Education Outreach
-  - EPA ORD’s particle sensor kit
-  - Instrumented kites measuring VOCs
-  - Hacking fiber optic flowers to light up based on CO2 sensor readings (EPA ORD)
-
-# Additional Factors
-
-- Reliability of the manufacturing 
-   - many are produced in batches
-- Data communications
-- Ease of operation 
-- Power draw
-- Lifetime of sensor 
-  - some likely to fail within 1 year
-
-# EPA
-
-> The US EPA has focused a majority of its attention on sensors costing < $2,500.00 as it is
-believed such a cost would be at the upper limit to that which citizen scientists, as well as many others might be able to afford.
-
-- [Evaluation of Emerging Air Pollution Sensor Performance](https://www.epa.gov/air-sensor-toolbox/evaluation-emerging-air-pollution-sensor-performance)
 
 - Calibracion
 - Contaminantes Criterio
