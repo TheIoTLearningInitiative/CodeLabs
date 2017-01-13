@@ -38,6 +38,15 @@ Desirable Direction
   - Instrumented kites measuring VOCs
   - Hacking fiber optic flowers to light up based on CO2 sensor readings (EPA ORD)
 
+# Additional Factors
+
+- Reliability of the manufacturing 
+   - many are produced in batches
+- Data communications
+- Ease of operation 
+- Power draw
+- Lifetime of sensor 
+  - some likely to fail within 1 
 
 # High Level Single Arquitecture
 
