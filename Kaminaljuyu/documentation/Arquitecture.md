@@ -1,7 +1,10 @@
 # Arquitecture
 
 - Government - School - Company Sandbox Learning Project
-- What is our top priority? 
+- What is our top priority?
+  - Unprecedented access to data on neighborhood-scale air quality 
+  - Lower cost strategies to achieve air monitoring goals
+  - Engagement withcommunities, schools, industry
 
 # Air Measurement Technologies
 
