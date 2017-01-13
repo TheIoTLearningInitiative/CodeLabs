@@ -1,13 +1,11 @@
 # Arquitecture
 
 - Diseno Experimental
-
-Tiempos
-Recursos
-Estatales
-Municipales
-Arrancar la Obra
-
+- Tiempos
+  - Recursos
+    - Estatales
+    - Municipales
+  - Arrancar la Obra
 Objetivos
 Monitoreo
 Actividad Humana
