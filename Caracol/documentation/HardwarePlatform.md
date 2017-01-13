@@ -23,15 +23,12 @@
 
 > The Intel® Compute Stick is a device the size of a pack of gum that can transform any HDMI* display into a complete computer. [Homepage](http://www.intel.com/content/www/us/en/compute-stick/intel-compute-stick.html)
 
-Pros
+- Linux, Windows based
+- No General Purpose I/O Connector
+- Operating System
+  - Ubuntu14.04, Windows 10
 
-Linux, Windows based
-No General Purpose I/O Connector
-
-Operating System
-
-Ubuntu14.04, Windows 10
-Minnowboard Turbo
+# Minnowboard Turbo
 
 MinnowBoard Turbot is a MinnowBoard MAX-compatible derivative board
 http://wiki.minnowboard.org/MinnowBoard_Wiki_Home
