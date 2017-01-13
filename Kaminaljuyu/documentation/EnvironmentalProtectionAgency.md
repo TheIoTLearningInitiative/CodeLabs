@@ -37,4 +37,56 @@
   - Wheather Conditions
 - __Data Analysis__
 
+## Air Measurement Technologies
+
+- Traditional
+  - Expensive instruments
+  - Specialized training required
+  - Large physical footprint
+  - Large power draw
+- Low Cost
+  - Public demand
+  - More personalized information
+- Experimental
+  - Do It Yourself
+
+Desirable Direction
+
+- Lower Cost Systems
+- Higher Spatial Resolution
+
+### Sensor Applications
+
+- Stationary Mode
+  - Source Fence line
+  - Community measurements
+  - e.g.
+    - Multipollutant sensor stations in near road 
+    - Community setting
+- Mobile Mode
+  - Personal monitoring
+  - Community group monitoring
+  - Mapping spatial trends
+- Education Outreach
+  - EPA ORD’s particle sensor kit
+  - Instrumented kites measuring VOCs
+  - Hacking fiber optic flowers to light up based on CO2 sensor readings (EPA ORD)
+
+# Additional Factors
+
+- Reliability of the manufacturing 
+   - many are produced in batches
+- Data communications
+- Ease of operation 
+- Power draw
+- Lifetime of sensor 
+  - some likely to fail within 1 year
+
+# EPA
+
+> The US EPA has focused a majority of its attention on sensors costing < $2,500.00 as it is
+believed such a cost would be at the upper limit to that which citizen scientists, as well as many others might be able to afford.
+
+- [Evaluation of Emerging Air Pollution Sensor Performance](https://www.epa.gov/air-sensor-toolbox/evaluation-emerging-air-pollution-sensor-performance)
+
 
