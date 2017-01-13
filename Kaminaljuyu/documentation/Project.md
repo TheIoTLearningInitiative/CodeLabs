@@ -27,10 +27,8 @@
     - Temperature
 - Location
   - Where?
-    - Moving
-    - Stationary
-    - Indoor
-    - Outdoor
+    - Moving /Stationary
+    - Indoor / Outdoor
   - Other Sources
     - Industry
     - Construction
