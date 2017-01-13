@@ -44,8 +44,8 @@ Desirable Direction
 
 - Existing Stations
 - Commercial Stations
-  - Fixed
-  - Personal
+  - Stationary
+  - Mobile
 - Do It Yourself Stations
   - Low Cost
   - Measurements
