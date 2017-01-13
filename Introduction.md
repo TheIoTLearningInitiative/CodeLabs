@@ -31,7 +31,7 @@ Chiapas
 Guatemala
 
 * **Iximche** Bot Translator **Under Construction**
-* **Kaminaljuyu** 
+* **Kaminaljuyu**  **Under Construction**
 * **Mixco Viejo** mBot **Under Construction**
 * **Q'umarkaj** \(Utatlán\) 
 * **Tikal** Air Quality **Under Construction**
