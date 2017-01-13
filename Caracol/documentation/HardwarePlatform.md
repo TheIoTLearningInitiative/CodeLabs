@@ -30,7 +30,7 @@
 
 # Minnowboard Turbo
 
-MinnowBoard Turbot is a MinnowBoard MAX-compatible derivative board
+> MinnowBoard Turbot is a MinnowBoard MAX-compatible derivative board
 http://wiki.minnowboard.org/MinnowBoard_Wiki_Home
 
 Linux, Windows Based
