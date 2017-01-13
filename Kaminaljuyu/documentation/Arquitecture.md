@@ -1,6 +1,7 @@
 # Arquitecture
 
-- Diseno Experimental
+- Experimental Design
+
 
 ## Tiempos
   - Recursos
