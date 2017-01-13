@@ -31,6 +31,10 @@ Desirable Direction
   - Personal monitoring
   - Community group monitoring
   - Mapping spatial trends
+- Education Outreach
+  - EPA ORD’s particle sensor kit
+  - Instrumented kites measuring VOCs
+  - 
 
 
 # High Level Single Arquitecture
