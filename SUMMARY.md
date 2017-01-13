@@ -11,9 +11,10 @@
         * [Hardware Platform](Caracol/documentation/HardwarePlatform.md)
         * [Field Requirements](Caracol/documentation/FieldRequirements.md)
         * [Software Development](Caracol/documentation/SoftwareDevelopment.md)
-        * Video Conference Station
+        * [Video Conference Station](Caracol/documentation/video-conference-station.md)
             * [Applications](Caracol/documentation/VideoConferenceApplications.md)
             * [Software Services](Caracol/documentation/VideoConferenceSoftwareServices.md)
+        * [Functionality](Caracol/documentation/Functionality.md)
     * [Core](Caracol/documentation/Core.md)
         * [Graphics](Caracol/documentation/Graphics.md)
         * [Video](Caracol/documentation/Video.md)
