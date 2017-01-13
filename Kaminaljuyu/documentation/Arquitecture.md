@@ -4,32 +4,32 @@
 - Experimental Design
 
 ## Tiempos
-  - Recursos
-    - Estatales
-    - Municipales
-  - Arrancar la Obra
-
-## Objetivos
-  - Monitoreo
-  - Actividad Humana
-  - Sensibilizacion Informacion
-    - Estudios
-    - Focos Rojos
-  - Sensiblizacion Proyectos
-  - Salud Publica
-    - InTake, Exposition
-  - Exposicion Personal
-    - Lineas Bases
-      - Corredores Viales
-      - Corredores Comerciales
+- Recursos
+  - Estatales
+  - Municipales
+- Arrancar la Obra
 
 ## Infraestructura
-  - Estaciones actuales Guadalajara
-  - Estaciones comerciales
-    - Personales
-  - Estaciones desde 0 Bajo Costo
-    - Medicion
-    - Contador de Vehiculos
+- Estaciones actuales Guadalajara
+- Estaciones comerciales
+  - Personales
+- Estaciones desde 0 Bajo Costo
+  - Medicion
+  - Contador de Vehiculos
+
+## Objetivos
+- Monitoreo
+- Actividad Humana
+- Sensibilizacion Informacion
+  - Estudios
+  - Focos Rojos
+- Sensiblizacion Proyectos
+- Salud Publica
+  - InTake, Exposition
+- Exposicion Personal
+  - Lineas Bases
+    - Corredores Viales
+    - Corredores Comerciales
 
 ## Estaciones
 
