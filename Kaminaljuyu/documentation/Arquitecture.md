@@ -22,8 +22,9 @@ Desirable Direction
 - Stationary Mode
   - Source Fence line
   - Community measurements
-  - Multipollutant sensor stations in near road 
-  - Community setting
+  - e.g.
+    - Multipollutant sensor stations in near road 
+    - Community setting
 
 # High Level Single Arquitecture
 
