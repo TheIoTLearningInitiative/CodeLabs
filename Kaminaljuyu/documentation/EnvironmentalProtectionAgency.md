@@ -75,12 +75,12 @@ Desirable Direction
 ## Additional Factors
 
 - Reliability of the manufacturing 
-   - many are produced in batches
+   - Many are produced in batches
 - Data communications
-- Ease of operation 
+- Ease of operation
 - Power draw
-- Lifetime of sensor 
-  - some likely to fail within 1 year
+- Lifetime of sensor
+  - Some likely to fail within 1 year
 
 # EPA
 
