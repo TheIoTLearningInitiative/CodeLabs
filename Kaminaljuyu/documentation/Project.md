@@ -1,6 +1,9 @@
 # Project
 
 - Basics
+  - Purpose
+  - Number of Pollutants
+  
 - Monitor
 - Location
 - Data Analysis
