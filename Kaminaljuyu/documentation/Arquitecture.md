@@ -21,7 +21,7 @@ Desirable Direction
 - Low-cost electrochemical sensors 
 - Power
   - Internal via Battery
-  - External via Landline
+  - External via Landpower
 - Communications
 - Algorithms
   - Concentration Estimation 
