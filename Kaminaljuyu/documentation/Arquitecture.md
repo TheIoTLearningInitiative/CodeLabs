@@ -15,11 +15,10 @@
   - Sensiblizacion Proyectos
   - Salud Publica
     - InTake, Esposicion
-
-Exposicion Personal
-Lineas Bases
-Corredores Viales
-Corredores Comerciales
+  - Exposicion Personal
+    - Lineas Bases
+      - Corredores Viales
+      - Corredores Comerciales
 Infraestructura
 Estaciones actuales Guadalajara
 Estaciones comerciales
