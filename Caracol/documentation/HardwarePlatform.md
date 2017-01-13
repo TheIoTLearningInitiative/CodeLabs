@@ -30,15 +30,13 @@
 
 # Minnowboard Turbo
 
-> MinnowBoard Turbot is a MinnowBoard MAX-compatible derivative board
-http://wiki.minnowboard.org/MinnowBoard_Wiki_Home
+> MinnowBoard Turbot is a MinnowBoard MAX-compatible derivative board [Homepage](http://wiki.minnowboard.org/MinnowBoard_Wiki_Home)
 
-Linux, Windows Based
-General Purpose I/O Connector
+- Linux, Windows Based
+- General Purpose I/O Connector
+- Operating System
+  - Ubuntu 14.04, Windows 10
 
-Operating System
-
-Ubuntu 14.04, Windows 10
 Up Board
 
 UP is the computer board for makers and professional makers. UP is the bridge between your hobby and your future business.
