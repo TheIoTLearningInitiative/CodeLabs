@@ -6,12 +6,12 @@
     - Estatales
     - Municipales
   - Arrancar la Obra
-Objetivos
-Monitoreo
-Actividad Humana
-Sensibilizacion Informacion
-Estudios
-Focos Rojos
+- Objetivos
+  - Monitoreo
+  - Actividad Humana
+  - Sensibilizacion Informacion
+    - Estudios
+    - Focos Rojos
 Sensiblizacion Proyectos
 Salud Publica
 InTake, Esposicion
