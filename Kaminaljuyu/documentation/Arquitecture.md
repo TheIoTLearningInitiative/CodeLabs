@@ -14,6 +14,7 @@
 
 - Existing Stations
 - Commercial Stations
+  - Fixed
   - Personal
 - Do It Yourself Stations
   - Low Cost
