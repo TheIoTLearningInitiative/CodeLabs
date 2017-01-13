@@ -20,6 +20,8 @@ Desirable Direction
 # Sensor Applications
 
 - Stationary Mode
+  - Source Fence line
+  - Community measurements
   - Multipollutant sensor stations in near road 
   - Community setting
 
