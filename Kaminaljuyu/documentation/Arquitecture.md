@@ -17,7 +17,7 @@ Desirable Direction
 - Lower Cost Systems
 - Higher Spatial Resolution
 
-# High Level Arquitecture
+# High Level Single Arquitecture
 
 - Low-cost electrochemical sensors 
 - Power
@@ -34,6 +34,15 @@ Desirable Direction
   - Maintenance
     - Update
   - Commnunications
+
+# High Level Solution Arquitecture
+
+
+# High Level Development Plan
+
+Controlled Laboratory Setting - challenge against interfering 
+species, temperature/humidity effects, etc.
+- Co-locate with a reference instrument
 
 ## Tiempos
 
