@@ -1,18 +1,26 @@
 # Arquitecture
 
+Available Equipments
+
 - Commercial
   - Expensive instruments
   - Specialized training required
   - Large physical footprint
   - Large power draw
 - Experimental Design
-  - Public demand 
-  - More personalized information 
+  - Public demand
+  - More personalized information
   
 Desirable Direction
 
 - Lower Cost Systems
 - Higher Spatial Resolution
+
+# High Level Arquitecture
+
+- Low-cost electrochemical sensors 
+- Battery Power
+- Communications 
 
 ## Tiempos
 
