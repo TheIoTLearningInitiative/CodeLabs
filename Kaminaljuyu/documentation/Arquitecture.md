@@ -1,12 +1,14 @@
 # Arquitecture
 
 - Diseno Experimental
-- Tiempos
+
+## Tiempos
   - Recursos
     - Estatales
     - Municipales
   - Arrancar la Obra
-- Objetivos
+
+## Objetivos
   - Monitoreo
   - Actividad Humana
   - Sensibilizacion Informacion
