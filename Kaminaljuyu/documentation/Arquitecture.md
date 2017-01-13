@@ -22,6 +22,7 @@ Desirable Direction
 - Low-cost electrochemical sensors 
 - Power
   - Internal via Battery
+    - Solar
   - External via Landpower
 - Communications
   - Cellular
