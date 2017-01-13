@@ -14,7 +14,12 @@ Characteristics
 - Remote Management
 - High quality
 
-- 
+Possible sensor measurement issues
+- Particle detection capability – transport of particles to sensor, sensor sensitivity
+  - Some use a passive means to move air through sensing region; others have a fan.
+- Signal translation to concentration estimate
+
+
 
 ## Seeed Studio
 
