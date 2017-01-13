@@ -67,6 +67,7 @@
     * [Google Cloud Speech](EkBalam/documentation/GoogleCloudSpeech.md)
 * [Hochob](Hochob/documentation/Hochob.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
+* [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
 * Kanki
     * [Device](Kanki/documentation/Device.md)
     * [Gateway](Kanki/documentation/Gateway.md)
