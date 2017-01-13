@@ -1,5 +1,17 @@
 # Project
 
+## Sensors
+
+- Sensors
+  - Research
+  - Personal Exposure Monitoring
+  - Supplementing Existing Monitoring
+  - Source Identification and Characterization
+  - Education
+  - Information/Awareness
+
+## 
+
 - Basics
   - Purpose
     - Government - School - Company Sandbox Learning Project
@@ -26,13 +38,6 @@
 - Data Analysis
 
 
-- Sensors
-  - Research
-  - Personal Exposure Monitoring
-  - Supplementing Existing Monitoring
-  - Source Identification and Characterization
-  - Education
-  - Information/Awareness
 - What is our top priority?
   - Unprecedented access to data on neighborhood-scale air quality 
   - Lower cost strategies to achieve air monitoring goals
