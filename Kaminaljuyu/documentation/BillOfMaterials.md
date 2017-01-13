@@ -10,7 +10,7 @@
 - Credibility
 - Installation and Operation
 - Remote Management
-- 
+- High quality
 
 
 ## Seeed Studio
