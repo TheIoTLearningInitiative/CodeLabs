@@ -9,6 +9,8 @@
 - Secure
 - Credibility
 - Installation and Operation
+- Remote Management
+- 
 
 
 ## Seeed Studio
