@@ -14,13 +14,13 @@
     - https://www.seeedstudio.com/Grove-Gas-Sensor(MQ3)-p-1418.html
     - http://iotdk.intel.com/docs/master/upm/classupm_1_1_m_q3.html
     - https://github.com/intel-iot-devkit/upm/blob/master/examples/python/mq3.py
-
 - Grove - Gas Sensor(MQ5)
-  - https://www.seeedstudio.com/Grove-Gas-Sensor(MQ5)-p-938.html
-  - http://iotdk.intel.com/docs/master/upm/classupm_1_1_m_q5.html
-  - https://github.com/intel-iot-devkit/upm/blob/master/examples/python/mq5.py
   - LPG, Natural Gas, Town Gas
-  - Useful for gas leakage detection
+    - Useful for gas leakage detection
+  - Links
+    - https://www.seeedstudio.com/Grove-Gas-Sensor(MQ5)-p-938.html
+    - http://iotdk.intel.com/docs/master/upm/classupm_1_1_m_q5.html
+    - https://github.com/intel-iot-devkit/upm/blob/master/examples/python/mq5.py
 - Grove - Gas Sensor(MQ9)
   - https://www.seeedstudio.com/Grove-Gas-Sensor(MQ9)-p-1419.html
   - http://iotdk.intel.com/docs/master/upm/classupm_1_1_m_q9.html
