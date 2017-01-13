@@ -38,6 +38,7 @@ Desirable Direction
 # High Level Solution Arquitecture
 
 
+
 # High Level Development Plan
 
 Controlled Laboratory Setting - challenge against interfering 
