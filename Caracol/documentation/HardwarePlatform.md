@@ -21,8 +21,7 @@
 
 # Intel® Compute Stick
 
-The Intel® Compute Stick is a device the size of a pack of gum that can transform any HDMI* display into a complete computer.
-http://www.intel.com/content/www/us/en/compute-stick/intel-compute-stick.html
+> The Intel® Compute Stick is a device the size of a pack of gum that can transform any HDMI* display into a complete computer. [Homepage](http://www.intel.com/content/www/us/en/compute-stick/intel-compute-stick.html)
 
 Pros
 
