@@ -59,7 +59,7 @@ Desirable Direction
 
 Phase One
 
-- 1 Low Cost Device + 1 Experimental Design
+- 1 Low Cost Device + 2 Experimental Design
 - A couple of Stations with Sensors deployed at X points
   - Sensor data compared to reference analyzer data
   - Low-cost sensors performed well
