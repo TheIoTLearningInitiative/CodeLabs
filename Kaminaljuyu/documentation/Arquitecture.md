@@ -1,6 +1,6 @@
 # Arquitecture
 
-Available Equipments
+# Available Devices
 
 - Traditional
   - Expensive instruments
@@ -37,7 +37,7 @@ Desirable Direction
 
 # High Level Solution Arquitecture
 
-- 1 Commercial Device
+- 1 Low Cost Device
 - 1 Experimental Design
 
 # High Level Development Plan
