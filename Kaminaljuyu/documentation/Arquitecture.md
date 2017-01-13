@@ -23,6 +23,8 @@ Desirable Direction
   - Internal via Battery
   - External via Landpower
 - Communications
+  - Cellular
+  - Radio Frequency
 - Algorithms
   - Concentration Estimation 
 
