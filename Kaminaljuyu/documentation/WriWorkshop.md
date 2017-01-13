@@ -24,22 +24,22 @@
   - Vehiculares
   - De Area
 - Norma Mexicana: 12 uG x Metro Cubico
-Riesgo Relativo
-Se requiere la reducción de la exposición para prevenir la mayoría de las causas de mortalidad
-Medición
-Concentración
-Indice de partes por millon
-Partes por billon
-Oxidos de Noitrogeno
-Dioxido de Nitrogeno
-Compuestos orgánicos volátiles
-Ozono
-Hidrocarburos
-Oxidos de Nitrogeno
-Particulas suspendidas PM2.5 PM10
-Plomo
-Monóxido de Carbono Caso de Exito
-Benceno
+  - Riesgo Relativo
+  - Se requiere la reducción de la exposición para prevenir la mayoría de las causas de mortalidad
+    - Medición
+      - Concentración
+      - Indice de partes por millon
+      - Partes por billon
+    - Oxidos de Noitrogeno
+    - Dioxido de Nitrogeno
+    - Compuestos orgánicos volátiles
+    - Ozono
+      - Hidrocarburos
+      - Oxidos de Nitrogeno
+    - Particulas suspendidas PM2.5 PM10
+    - Plomo
+    - Monóxido de Carbono Caso de Exito
+    - Benceno
 Métodos
 Metodos de Medicion
 Metodos Equivalentes
