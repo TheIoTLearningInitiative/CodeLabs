@@ -44,6 +44,13 @@ Possible sensor measurement issues:
 - Measurement artifact due to temperature and humidity
 - Eventual failure of sensor
 
+> Photoionization sensors
+
+Possible sensor measurement issues:
+- Baseline drift
+- Eventual failure of sensor based on 
+lamp lifetime.
+
 # Seeed Studio
 
 - __Grove - Gas Sensor(MQ2)__
