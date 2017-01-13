@@ -20,7 +20,9 @@ Desirable Direction
 
 - Low-cost electrochemical sensors 
 - Battery Power
-- Communications 
+- Communications
+- Algorithms
+  - Concentration Estimation 
 
 ## Tiempos
 
