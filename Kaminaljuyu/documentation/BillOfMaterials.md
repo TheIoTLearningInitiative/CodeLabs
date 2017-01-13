@@ -18,7 +18,8 @@ Characteristics
 
 > Larger particles (>0.1 μm)
 
-Possible sensor measurement issues
+Possible sensor measurement issues:
+
 - Particle detection capability – transport of particles to sensor, sensor sensitivity
   - Some use a passive means to move air through sensing region; others have a fan.
 - Signal translation to concentration estimate
@@ -27,7 +28,15 @@ Possible sensor measurement issues
 
 > Metal oxide sensors
 
-Possible sensor measurement issues
+Possible sensor measurement issues:
+
+- Interfering gases in mixture
+- Measurement artifact due to temperature and humidity
+- Eventual failure of sensor
+
+> Electrochemical sensors
+
+Possible sensor measurement issues:
 
 - Interfering gases in mixture
 - Measurement artifact due to temperature and humidity
