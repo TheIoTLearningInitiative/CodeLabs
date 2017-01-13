@@ -4,10 +4,10 @@
 
 - Grove - Gas Sensor(MQ2)
   - Combustible Gas、Smoke
-  -  Links
-     - https://www.seeedstudio.com/Grove-Gas-Sensor(MQ2)-p-937.html
-     - http://iotdk.intel.com/docs/master/upm/classupm_1_1_m_q2.html
-     - https://github.com/intel-iot-devkit/upm/blob/master/examples/python/mq2.py
+  - Links
+    - https://www.seeedstudio.com/Grove-Gas-Sensor(MQ2)-p-937.html
+    - http://iotdk.intel.com/docs/master/upm/classupm_1_1_m_q2.html
+    - https://github.com/intel-iot-devkit/upm/blob/master/examples/python/mq2.py
 - Grove - Gas Sensor(MQ3)
   - Alcohol vapor
   - Links
