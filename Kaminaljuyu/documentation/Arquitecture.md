@@ -31,16 +31,17 @@
     - Contador de Vehiculos
 
 ## Estaciones
-Personal (Equipos de Exposicion Personal)
-Linea Base
-Ciudad (Fuentes de Area)
-Escuelas
-Corredor Ninios Heroes Guadalupe
-Remotas
-Naturales
-Fijas (Industria)
-Mediciones Contaminantes
-Monoxido de Carbono
+
+- Personal (Equipos de Exposicion Personal)
+- Linea Base
+  - Ciudad (Fuentes de Area)
+  - Escuelas
+  - Corredor Ninios Heroes Guadalupe
+- Remotas
+  Naturales
+- Fijas (Industria)
+  - Mediciones Contaminantes
+  - Monoxido de Carbono
 CleanSpace
 PM2.5
 PM10
