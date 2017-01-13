@@ -16,6 +16,7 @@
             * [Software Services](Caracol/documentation/VideoConferenceSoftwareServices.md)
         * [Functionality](Caracol/documentation/Functionality.md)
         * [Bill Of Materials](Caracol/documentation/BillOfMaterials.md)
+        * [Open Questions](Caracol/documentation/OpenQuestions.md)
     * [Core](Caracol/documentation/Core.md)
         * [Graphics](Caracol/documentation/Graphics.md)
         * [Video](Caracol/documentation/Video.md)
