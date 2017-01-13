@@ -10,7 +10,7 @@
 - Low Cost
   - Public demand
   - More personalized information
-- Experimental Design
+- Experimental
 
 Desirable Direction
 
