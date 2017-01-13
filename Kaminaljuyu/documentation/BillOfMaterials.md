@@ -16,12 +16,16 @@ Characteristics
 
 ## Particle Phase
 
+> Larger particles (>0.1 μm)
+
 Possible sensor measurement issues
 - Particle detection capability – transport of particles to sensor, sensor sensitivity
   - Some use a passive means to move air through sensing region; others have a fan.
 - Signal translation to concentration estimate
 
 ## Gas Phase
+
+> Metal oxide sensors
 
 Possible sensor measurement issues
 
