@@ -70,6 +70,7 @@
 * [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
     * [WRI Workshop](Kaminaljuyu/documentation/WriWorkshop.md)
     * [Project](Kaminaljuyu/documentation/Project.md)
+    * [Arquitecture](Kaminaljuyu/documentation/Arquitecture.md)
 * Kanki
     * [Device](Kanki/documentation/Device.md)
     * [Gateway](Kanki/documentation/Gateway.md)
