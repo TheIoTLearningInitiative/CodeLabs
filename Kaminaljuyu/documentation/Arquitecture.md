@@ -62,6 +62,10 @@ Desirable Direction
 
 # High Level Development Plan
 
+- Phase Adquisition 
+- Phase Design
+- Phase Measurement
+  - Preliminary observations (~1 week of data)
 
 
 Controlled Laboratory Setting - challenge against interfering 
