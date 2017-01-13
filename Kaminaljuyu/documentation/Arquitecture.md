@@ -20,14 +20,15 @@
       - Corredores Viales
       - Corredores Comerciales
 
-- Infraestructura
+## Infraestructura
   - Estaciones actuales Guadalajara
   - Estaciones comerciales
     - Personales
   - Estaciones desde 0 Bajo Costo
     - Medicion
     - Contador de Vehiculos
-Estaciones
+
+## Estaciones
 Personal (Equipos de Exposicion Personal)
 Linea Base
 Ciudad (Fuentes de Area)
