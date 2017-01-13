@@ -9,7 +9,7 @@
 
 ## Linux (Ubuntu 14.04, Ubilinux)
 
-Several Programming languages available
-Open source software
-Huge amount of programming examples
-Strong worlwide community support
+- Several Programming languages available
+- Open source software
+- Huge amount of programming examples
+- Strong worlwide community support
