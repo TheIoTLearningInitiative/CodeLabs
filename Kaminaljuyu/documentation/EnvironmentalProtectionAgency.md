@@ -82,7 +82,7 @@ Desirable Direction
 - Lifetime of sensor
   - Some likely to fail within 1 year
 
-# EPA
+# Evaluation of Emerging Air Pollution Sensor Performance
 
 > The US EPA has focused a majority of its attention on sensors costing < $2,500.00 as it is
 believed such a cost would be at the upper limit to that which citizen scientists, as well as many others might be able to afford.
