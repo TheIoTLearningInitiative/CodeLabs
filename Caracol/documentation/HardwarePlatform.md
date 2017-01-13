@@ -51,10 +51,8 @@
 
 > A Windows 10 Developer Board for everything [Homepage](http://www.lattepanda.com/)
 
-Windows based
-Arduino Compatible CoProcessor
-General Purpose I/O Connector
-
-Operating System
-
-Windows 10
+- Windows based
+- Arduino Compatible CoProcessor
+- General Purpose I/O Connector
+- Operating System
+  - Windows 10
