@@ -49,8 +49,7 @@ Possible sensor measurement issues:
 Possible sensor measurement issues:
 
 - Baseline drift
-- Eventual failure of sensor based on 
-lamp lifetime.
+- Eventual failure of sensor based on lamp lifetime.
 
 # Seeed Studio
 
