@@ -55,7 +55,7 @@ Desirable Direction
 - Lower Cost Systems
 - Higher Spatial Resolution
 
-### Sensor Applications
+## Sensor Applications
 
 - Stationary Mode
   - Source Fence line
