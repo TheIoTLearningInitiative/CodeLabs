@@ -8,7 +8,10 @@
 
 Approaches
 
-- 
+- Current Vs New
+- Who collects the data?
+- Why data are collected?
+- How data are accessed?
 
 Challenges
 
@@ -172,3 +175,7 @@ species, temperature/humidity effects, etc.
   - Other
 - Reading
 - Data Transmission
+
+# Links
+
+- [EPA Air Sensor Toolbox](https://www.epa.gov/air-sensor-toolbox/air-sensor-toolbox-resources-and-funding)
