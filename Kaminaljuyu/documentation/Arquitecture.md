@@ -7,9 +7,10 @@ Available Equipments
   - Specialized training required
   - Large physical footprint
   - Large power draw
-- Experimental Design
+- Low Cost
   - Public demand
   - More personalized information
+- Experimental Design
   
 Desirable Direction
 
