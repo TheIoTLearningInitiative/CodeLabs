@@ -26,7 +26,8 @@ Desirable Direction
   - External via Landpower
 - Communications
   - Cellular
-  - Radio Frequency
+  - Low Power Area Networks
+  - WiFi
 - Algorithms
   - Concentration Estimation
 - Interruptions
