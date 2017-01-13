@@ -37,7 +37,8 @@ Desirable Direction
 
 # High Level Solution Arquitecture
 
-
+- 1 Commercial Device
+- 1 Experimental Design
 
 # High Level Development Plan
 
