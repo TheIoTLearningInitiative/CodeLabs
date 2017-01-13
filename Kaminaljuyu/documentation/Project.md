@@ -20,6 +20,9 @@
     - Indoor
     - Outdoor
   - Other Sources
+    - Industry
+    - Construction
+  - Wheather Conditions
 - Data Analysis
 
 
