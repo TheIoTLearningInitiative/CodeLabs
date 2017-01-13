@@ -5,14 +5,14 @@
 
 ## Tiempos
 
-- Recursos
-  - Estatales
-  - Municipales
-- Arrancar la Obra
+- Resources
+  - State
+  - Minicipalities
+- Once construction starts
 
 ## Infraestructura
 
-- Estaciones actuales Guadalajara
+- Estaciones actuales
 - Estaciones comerciales
   - Personales
 - Estaciones desde 0 Bajo Costo
