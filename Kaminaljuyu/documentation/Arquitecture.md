@@ -8,6 +8,10 @@
 - Experimental Design
   - Public demand 
   - More personalized information 
+  
+Desirable Direction
+
+- 
 
 ## Tiempos
 
