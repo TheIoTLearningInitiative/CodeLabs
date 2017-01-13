@@ -4,6 +4,7 @@
 
 - Sensitivity
 - Proven Accuracy
+- Location
 
 
 ## Seeed Studio
