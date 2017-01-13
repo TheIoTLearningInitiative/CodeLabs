@@ -8,6 +8,12 @@
 - Como la miden
 - Como hacen para reducir
 
+## Cual es el objetivo?
+
+- Lineas Base
+- Intevrencion
+
+
 ## Notes
 
 - Mortalidad 
