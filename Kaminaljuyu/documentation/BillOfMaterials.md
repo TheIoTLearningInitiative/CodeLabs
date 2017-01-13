@@ -12,7 +12,6 @@
 - Remote Management
 - High quality
 
-
 ## Seeed Studio
 
 - __Grove - Gas Sensor(MQ2)__
