@@ -6,6 +6,10 @@
   - Lower cost strategies to achieve air monitoring goals
   - Engagement with communities, schools, industry
 
+Approaches
+
+
+
 Challenges
 
 - Data interpretation and public messaging 
