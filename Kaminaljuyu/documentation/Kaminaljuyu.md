@@ -1,3 +1,14 @@
 # Kaminaljuyu
 
 > Air pollution is the introduction of harmful substances including particulates and biological molecules into Earth's atmosphere. It may cause diseases, allergies or death in humans; it may also cause harm to other living organisms such as animals and food crops, and may damage the natural or built environment. Human activity and natural processes can both generate air pollution. [Wikipedia](https://en.wikipedia.org/wiki/Air_pollution)
+
+Health effects
+
+- Mortality
+- Cardiovascular disease
+- Lung disease
+- Cancer
+- Children
+- "Clean" areas
+- Central nervous system
+
