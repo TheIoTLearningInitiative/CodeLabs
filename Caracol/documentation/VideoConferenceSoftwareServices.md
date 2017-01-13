@@ -15,4 +15,4 @@
 - Speech To Text (Voice Recognition)
   - Google
   - Wit.Ai
-  - News
+- News
