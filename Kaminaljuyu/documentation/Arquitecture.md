@@ -11,7 +11,7 @@ Available Equipments
   - Public demand
   - More personalized information
 - Experimental Design
-  
+
 Desirable Direction
 
 - Lower Cost Systems
