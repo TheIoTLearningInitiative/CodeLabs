@@ -66,6 +66,3 @@ user@ubilinux:~/CodeLabs/Caracol$ nano configuration/voicerss.ak
 user@ubilinux:~/CodeLabs/Caracol$ nano configuration/voicerss.mk
 user@ubilinux:~/CodeLabs/Caracol$ nano configuration/credentials.config
 ```
-
-```sh
-```
