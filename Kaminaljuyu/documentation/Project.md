@@ -41,6 +41,7 @@
 
 
 - What is our top priority?
+
   - Unprecedented access to data on neighborhood-scale air quality 
   - Lower cost strategies to achieve air monitoring goals
   - Engagement with communities, schools, industry
