@@ -1,6 +1,6 @@
-# Digital Signage Technology from Intel
+# Intel Digital Signage Technology
 
-http://www.intel.com/content/www/us/en/retail/retail-digital-signage.html
+- [Retail Digital Signage](http://www.intel.com/content/www/us/en/retail/retail-digital-signage.html)
 
 Digital Signage
 Point Of Sales
