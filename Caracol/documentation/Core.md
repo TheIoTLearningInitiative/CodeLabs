@@ -9,7 +9,7 @@ sudo apt-get -y upgrade
 ```
 
 ```sh
-user@ubilinux:~/CodeLabs/ChichenItza$ sudo apt-get install curl mpg123
+user@ubilinux:~/CodeLabs/Caracol$ sudo apt-get install curl mpg123
 [sudo] password for user: 
 Reading package lists... Done
 Building dependency tree       
@@ -62,17 +62,17 @@ user@ubilinux:~$
 ```
 
 ```sh
-user@ubilinux:~$ cd CodeLabs/ChichenItza/
+user@ubilinux:~$ cd CodeLabs/Caracol/
 user@ubilinux:~/CodeLabs/ChichenItza$ ls
 documentation  irecognize.py  isay.py  isound.py  iwit.py  requirements.manual  requirements.opkg  requirements.pip  setup.sh  test.sh  voicerss.sh
-user@ubilinux:~/CodeLabs/ChichenItza$ 
+user@ubilinux:~/CodeLabs/Caracol$ 
 ```
 
 ```sh
-user@ubilinux:~/CodeLabs/ChichenItza$ mkdir configuration
-user@ubilinux:~/CodeLabs/ChichenItza$ nano configuration/voicerss.ak
-user@ubilinux:~/CodeLabs/ChichenItza$ nano configuration/voicerss.mk
-user@ubilinux:~/CodeLabs/ChichenItza$ nano configuration/credentials.config
+user@ubilinux:~/CodeLabs/Caracol$ mkdir configuration
+user@ubilinux:~/CodeLabs/Caracol$ nano configuration/voicerss.ak
+user@ubilinux:~/CodeLabs/Caracol$ nano configuration/voicerss.mk
+user@ubilinux:~/CodeLabs/Caracol$ nano configuration/credentials.config
 ```
 
 ```sh
