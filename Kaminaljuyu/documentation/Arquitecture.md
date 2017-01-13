@@ -21,7 +21,8 @@
   - Car Counting
 
 ## Objetivos
-- Monitoreo
+
+- Monitoring
 - Actividad Humana
 - Sensibilizacion Informacion
   - Estudios
