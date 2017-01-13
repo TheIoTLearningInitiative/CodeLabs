@@ -9,4 +9,3 @@ Health effects
 - Lung disease
 - Cancer
 - Central nervous system
-
