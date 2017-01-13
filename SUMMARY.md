@@ -69,6 +69,7 @@
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
     * [WRI Workshop](Kaminaljuyu/documentation/WriWorkshop.md)
+    * [Project](Kaminaljuyu/documentation/Project.md)
 * Kanki
     * [Device](Kanki/documentation/Device.md)
     * [Gateway](Kanki/documentation/Gateway.md)
