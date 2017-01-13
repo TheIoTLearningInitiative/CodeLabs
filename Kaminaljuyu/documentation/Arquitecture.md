@@ -30,7 +30,7 @@ Desirable Direction
   - WiFi
 - Algorithms
   - Concentration Estimation
-- Interruptions
+- Interruption
   - Maintenance
   - Commnunications
 
