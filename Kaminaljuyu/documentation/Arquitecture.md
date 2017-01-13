@@ -46,7 +46,7 @@ Desirable Direction
 - Ease of operation 
 - Power draw
 - Lifetime of sensor 
-  - some likely to fail within 1 
+  - some likely to fail within 1 year
 
 # High Level Single Arquitecture
 
