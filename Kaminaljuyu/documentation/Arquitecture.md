@@ -71,3 +71,5 @@
 - Online Data
   - AWS
   - Other
+- Reading
+- Data Transmission
