@@ -3,7 +3,7 @@
 ## Microsoft Windows 10
 
 - Several Programming languages available
-- Propietary software
+- Likely propietary software
 - Few amount of programming examples
 - Weak local community support
 
