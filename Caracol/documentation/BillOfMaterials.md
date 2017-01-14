@@ -25,17 +25,17 @@
 
 # Mobile System
 
-- Commercial
-- Windows 10 Cellphone
-  - Custom Made
-  - Computer  Up Board powered by Ubilinux
-  - Battery 5V @ 3340 mAh
+1. Commercial
+2. Windows 10 Cellphone
+   - Custom Made
+   - Computer  Up Board powered by Ubilinux
+   - Battery 5V @ 3340 mAh
   - Display 10.1" 1366x768 Display IPS + Speakers - HDMI/VGA/NTSC/PAL
-  - Cable HDMI Cable Male-to-Male 1.0 m
-  - HUB Powered USB Hub
-  - Keyboard Mini Keyboard Wireless Rii i8 RT-MWK-08
-  - Camera Logitech C930e USB Desktop or Laptop Webcam, HD 1080p Camera
-  - WiFi USB WiFi Dongle
-  - Audio USB Audio Dongle
-  - Audio Speakers
-  - Modem 4G LTE Mobile Broadband USB modem
+   - Cable HDMI Cable Male-to-Male 1.0 m
+   - HUB Powered USB Hub
+   - Keyboard Mini Keyboard Wireless Rii i8 RT-MWK-08
+   - Camera Logitech C930e USB Desktop or Laptop Webcam, HD 1080p Camera
+   - WiFi USB WiFi Dongle
+   - Audio USB Audio Dongle
+   - Audio Speakers
+   - Modem 4G LTE Mobile Broadband USB modem
