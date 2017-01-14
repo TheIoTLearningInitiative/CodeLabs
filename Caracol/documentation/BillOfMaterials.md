@@ -30,7 +30,7 @@
 3. Custom Made
    - Computer  Up Board powered by Ubilinux
    - Battery 5V @ 3340 mAh
-  - Display 10.1" 1366x768 Display IPS + Speakers - HDMI/VGA/NTSC/PAL
+   - Display 10.1" 1366x768 Display IPS + Speakers - HDMI/VGA/NTSC/PAL
    - Cable HDMI Cable Male-to-Male 1.0 m
    - HUB Powered USB Hub
    - Keyboard Mini Keyboard Wireless Rii i8 RT-MWK-08
