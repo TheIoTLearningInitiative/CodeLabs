@@ -21,6 +21,7 @@
   - Large physical footprint
   - Large power draw
 - Low Cost
+  - Stationary / Mobile
   - Public demand
   - More personalized information
 - Experimental
