@@ -28,6 +28,33 @@
     - Update
   - Commnunications
 
+# WRI Proposal
+
+## Objetives
+
+- Monitoring
+- Human Activity
+- Sensibilizacion Informacion
+  - Estudios
+  - Focos Rojos
+- Sensiblizacion Proyectos
+- Salud Publica
+  - InTake, Exposition
+- Personal Exposition
+  - Lineas Bases
+    - Corredores Viales
+    - Corredores Comerciales
+
+## Mediciones Contaminantes
+
+- Monoxido de Carbono
+  - CleanSpace
+- PM2.5
+- PM10
+- Innovacion
+  - Benzeno
+- Ozono
+
 # High Level Solution Arquitecture
 
 ## Phase One
@@ -46,21 +73,6 @@
 - __ __ 
 - __ __ 
 
-## Objetives
-
-- Monitoring
-- Human Activity
-- Sensibilizacion Informacion
-  - Estudios
-  - Focos Rojos
-- Sensiblizacion Proyectos
-- Salud Publica
-  - InTake, Exposition
-- Personal Exposition
-  - Lineas Bases
-    - Corredores Viales
-    - Corredores Comerciales
-
 ## Estaciones
 
 - Personal (Equipos de Exposicion Personal)
@@ -71,16 +83,6 @@
 - Remotas
   Naturales
 - Fijas (Industria)
-
-## Mediciones Contaminantes
-
-- Monoxido de Carbono
-  - CleanSpace
-- PM2.5
-- PM10
-- Innovacion
-  - Benzeno
-- Ozono
 
 ## Calibracion
 
