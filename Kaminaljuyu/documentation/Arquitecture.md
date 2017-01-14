@@ -1,5 +1,31 @@
 # Arquitecture
 
+# WRI Proposal
+
+## Objetives
+
+- Monitoring
+- Human Activity
+- Sensibilizacion Informacion
+  - Estudios
+  - Focos Rojos
+- Sensiblizacion Proyectos
+- Salud Publica
+  - InTake, Exposition
+- Personal Exposition
+  - Lineas Bases
+    - Corredores Viales
+    - Corredores Comerciales
+
+## Mediciones Contaminantes
+
+- Monoxido de Carbono
+- PM2.5
+- PM10
+- Innovacion
+  - Benzeno
+  - Ozono
+
 # Infraestructura
 
 - Existing Stations
@@ -27,32 +53,6 @@
   - Maintenance
     - Update
   - Commnunications
-
-# WRI Proposal
-
-## Objetives
-
-- Monitoring
-- Human Activity
-- Sensibilizacion Informacion
-  - Estudios
-  - Focos Rojos
-- Sensiblizacion Proyectos
-- Salud Publica
-  - InTake, Exposition
-- Personal Exposition
-  - Lineas Bases
-    - Corredores Viales
-    - Corredores Comerciales
-
-## Mediciones Contaminantes
-
-- Monoxido de Carbono
-- PM2.5
-- PM10
-- Innovacion
-  - Benzeno
-  - Ozono
 
 # High Level Solution Arquitecture
 
