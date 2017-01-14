@@ -40,10 +40,10 @@ Chiapas
 Guatemala
 
 * **Iximche** Bot Translator **Under Construction**
-* **Kaminaljuyu** Emergency Medical Monitoring System **Under Construction**
+* **Kaminaljuyu** Air Quality **Under Construction**
 * **Mixco Viejo** mBot **Under Construction**
 * **Q'umarkaj** \(Utatlán\) 
-* **Tikal** Air Quality **Under Construction**
+* **Tikal** Emergency Medical Monitoring System **Under Construction**
 * **Dos Pilas** RapidAPI **Under Construction**
 * **Seibal** Cloud Drives
 * **Uaxactún** IMU Car Control
