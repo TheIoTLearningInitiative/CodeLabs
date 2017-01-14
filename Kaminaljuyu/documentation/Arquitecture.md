@@ -42,8 +42,8 @@
 
 ## Phase Two
 
-- __ __ 
 - __Design__ 2 experimental device
+- __ __ 
 - __ __ 
 
 ## Objetives
