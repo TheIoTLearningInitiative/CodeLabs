@@ -2,18 +2,18 @@
 
 # High Level Single Arquitecture
 
-- Low-cost electrochemical sensors 
-- Power
+- __Low-cost electrochemical sensors__
+- __Power__
   - Internal via Battery
     - Solar
   - External via Landpower
-- Communications
+- __Communications__
   - Cellular
   - Low Power Area Networks
   - WiFi
-- Algorithms
+- __Algorithms__
   - Concentration Estimation
-- Interruption Management
+- __Interruption Management__
   - Maintenance
     - Update
   - Commnunications
