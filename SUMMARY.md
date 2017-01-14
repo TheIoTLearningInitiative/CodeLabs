@@ -70,8 +70,7 @@
 * [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
     * [WRI Workshop](Kaminaljuyu/documentation/WriWorkshop.md)
         * [Environmental Protection Agency](Kaminaljuyu/documentation/EnvironmentalProtectionAgency.md)
-    * [Project](Kaminaljuyu/documentation/Project.md)
-        * [Arquitecture](Kaminaljuyu/documentation/Arquitecture.md)
+    * [Arquitecture](Kaminaljuyu/documentation/Arquitecture.md)
         * [Bill Of Materials](Kaminaljuyu/documentation/BillOfMaterials.md)
 * Kanki
     * [Device](Kanki/documentation/Device.md)
