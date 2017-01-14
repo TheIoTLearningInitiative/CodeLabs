@@ -6,37 +6,12 @@
 
 ## Sensors
 
-- Research
-- Personal Exposure Monitoring
-- Supplementing Existing Monitoring
-- Source Identification and Characterization
-- Education
-- Information/Awareness
-
-## Before Collecting
-
-- __Basics__
-  - Purpose
-    - Government - School - Company Sandbox Learning Project
-  - Number of Pollutants
-- __Monitor__
-  - What sensor?
-  - How often data collected?
-  - Calibration
-    - Calibration
-    - Collocation
-  - Additional data?
-    - Noise
-    - Temperature
-- __Location__
-  - Where?
-    - Moving /Stationary
-    - Indoor / Outdoor
-  - Other Sources
-    - Industry
-    - Construction
-  - Wheather Conditions
-- __Data Analysis__
+- [ ] Research
+- [ ] Personal Exposure Monitoring
+- [ ] Supplementing Existing Monitoring
+- [ ] Source Identification and Characterization
+- [ ] Education
+- [ ] Information/Awareness
 
 ## Air Measurement Technologies
 
@@ -82,6 +57,31 @@ Desirable Direction
 - Power draw
 - Lifetime of sensor
   - Some likely to fail within 1 year
+
+## Before Collecting
+
+- __Basics__
+  - Purpose
+    - Government - School - Company Sandbox Learning Project
+  - Number of Pollutants
+- __Monitor__
+  - What sensor?
+  - How often data collected?
+  - Calibration
+    - Calibration
+    - Collocation
+  - Additional data?
+    - Noise
+    - Temperature
+- __Location__
+  - Where?
+    - Moving /Stationary
+    - Indoor / Outdoor
+  - Other Sources
+    - Industry
+    - Construction
+  - Wheather Conditions
+- __Data Analysis__
 
 # Evaluation of Emerging Air Pollution Sensor Performance
 
