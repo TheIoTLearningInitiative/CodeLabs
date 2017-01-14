@@ -26,6 +26,10 @@
   - More personalized information
 - Experimental
   - Do It Yourself
+  - Education/Outreach
+  - Low Cost
+  - Measurements
+  - Car Counting
 
 Desirable Direction
 
