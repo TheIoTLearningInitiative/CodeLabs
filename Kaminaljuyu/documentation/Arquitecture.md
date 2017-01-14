@@ -19,12 +19,12 @@
 
 ## Mediciones Contaminantes
 
-- Monoxido de Carbono
-- PM2.5
-- PM10
+- Carbon Monoxide (CO)
+- Particle Matter PM2.5
+- Particle Matter PM10
 - Innovacion
   - Benzeno
-  - Ozono
+  - Ozone (O3)
 
 # Infraestructura
 
