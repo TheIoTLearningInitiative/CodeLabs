@@ -48,7 +48,6 @@
 ## Mediciones Contaminantes
 
 - Monoxido de Carbono
-  - CleanSpace
 - PM2.5
 - PM10
 - Innovacion
