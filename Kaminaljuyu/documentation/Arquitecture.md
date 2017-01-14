@@ -20,6 +20,7 @@
 ## Mediciones Contaminantes
 
 - [Developments and Applications of Sensor Technologies for Ambient Air Monitoring ](http://www.airmontech.eu/fileadmin/airmontech/user/2012-presentations/Day_2_09h10_MGerboles_26_April_2012.pdf)
+- [Smart Gases PRO Technical Guide](http://www.libelium.com/downloads/documentation/gases_sensor_board_pro.pdf)
 
 ### First Priority
 
