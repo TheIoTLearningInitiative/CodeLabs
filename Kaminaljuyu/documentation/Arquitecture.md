@@ -4,13 +4,7 @@
 
 - Existing Stations
 - Commercial Stations
-  - Stationary
-  - Mobile
 - Do It Yourself Stations
-  - Education/Outreach
-  - Low Cost
-  - Measurements
-  - Car Counting
 
 # High Level Device Arquitecture
 
