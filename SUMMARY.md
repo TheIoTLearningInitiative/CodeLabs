@@ -5,7 +5,7 @@
 * [Introduction](Introduction.md)
     * [Getting Started](documentation/GettingStarted.md)
 * [Caracol](Caracol/documentation/Caracol.md)
-    * [Project](Caracol/documentation/Project.md)
+    * [Project](Caracol/documentation/Architecture.md)
         * [Intel](Caracol/documentation/Intel.md)
         * [Operating Systems](Caracol/documentation/OperatingSystems.md)
         * [Hardware Platform](Caracol/documentation/HardwarePlatform.md)
