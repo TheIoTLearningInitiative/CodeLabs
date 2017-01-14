@@ -30,7 +30,7 @@
 
 # High Level Solution Arquitecture
 
-Phase One
+## Phase One
 
 - __Adquisition__ 1 low cost device
 - __Integration__ 2 experimental devices
