@@ -7,9 +7,9 @@
 ## Priority
 
 * __Caracol__ Digital Door
-* __Edzna__ Home Assistant
 * __Kaminaljuyu__ Air Quality **Under Construction**
 * __Tikal__ Emergency Medical Monitoring System **Under Construction**
+* __Edzna__ Home Assistant
 
 ## Full List
 
