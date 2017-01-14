@@ -18,6 +18,16 @@
     - Update
   - Commnunications
 
+# Communications
+
+- Radio
+- Protocol
+- Frequency Band
+- Transmission Power
+- Sensitivity
+- Range
+- Certification
+
 # High Level Solution Arquitecture
 
 Phase One
