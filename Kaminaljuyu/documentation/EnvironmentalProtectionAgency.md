@@ -70,7 +70,7 @@ Desirable Direction
   - Mapping spatial trends
 - Education Outreach
   - EPA ORD’s particle sensor kit
-  - Instrumented kites measuring VOCs
+  - Instrumented kits measuring VOCs
   - Hacking fiber optic flowers to light up based on CO2 sensor readings (EPA ORD)
 
 ## Additional Factors
