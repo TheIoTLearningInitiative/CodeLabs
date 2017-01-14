@@ -26,6 +26,16 @@
   - Benzeno
   - Ozone (O3)
 
+
+- Nitrogen dioxide (NO2)
+- Nitrogen oxides (NOx) 
+- Sulphur dioxide (SO2)  
+- Volatile  organic  compounds  (VOC)
+- Hydrogen sulphide (H2S)
+- Non-methane hydrocarbons  (NMHC),  
+- Carbon  dioxide (CO2), 
+- Particulate matter (PM1)
+
 # Infraestructura
 
 - Existing Stations
