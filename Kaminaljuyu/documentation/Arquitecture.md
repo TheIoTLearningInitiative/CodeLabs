@@ -33,7 +33,7 @@
 Phase One
 
 - __Adquisition__ 1 low cost device
-- __Design__ / Integration 2 experimental devices
+- __Design__ / __Integration__ 2 experimental devices
 - __Deployment__ Devices at certain locations
   - Co-locate with a reference instrument
   - Controlled environment
