@@ -19,6 +19,8 @@
 
 ## Mediciones Contaminantes
 
+- [Developments and Applications of Sensor Technologies for Ambient Air Monitoring ](http://www.airmontech.eu/fileadmin/airmontech/user/2012-presentations/Day_2_09h10_MGerboles_26_April_2012.pdf)
+
 ### First Priority
 
 - Carbon Monoxide (CO)
@@ -70,8 +72,6 @@
   - Commnunications
 
 # High Level Solution Arquitecture
-
-- [Developments and Applications of Sensor Technologies for Ambient Air Monitoring ](http://www.airmontech.eu/fileadmin/airmontech/user/2012-presentations/Day_2_09h10_MGerboles_26_April_2012.pdf)
 
 ## Phase One
 
