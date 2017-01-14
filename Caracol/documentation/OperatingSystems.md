@@ -2,11 +2,11 @@
 
 ## Microsoft Windows 10
 
-- Live Translation Mechanism
-  - Microsoft Skype Translator available through Skype for Windows Desktop
 - License Cost
 - No Open Source Software Development Tools
 - Some level of difficulty in Software Development environment
+- Live Translation Mechanism
+  - Microsoft Skype Translator available through Skype for Windows Desktop
 
 ## Linux
 
