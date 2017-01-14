@@ -29,7 +29,6 @@
   - Education/Outreach
   - Low Cost
   - Measurements
-  - Car Counting
 
 Desirable Direction
 
