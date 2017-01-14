@@ -72,17 +72,6 @@
 - __ __ 
 - __ __ 
 
-## Estaciones
-
-- Personal (Equipos de Exposicion Personal)
-- Linea Base
-  - Ciudad (Fuentes de Area)
-  - Escuelas
-  - Corredor Ninios Heroes Guadalupe
-- Remotas
-  Naturales
-- Fijas (Industria)
-
 ## Calibracion
 
 - Certificados
