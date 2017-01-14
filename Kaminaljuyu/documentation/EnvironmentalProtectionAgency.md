@@ -6,12 +6,12 @@
 
 ## Sensors
 
-- [ ] Research
-- [ ] Personal Exposure Monitoring
-- [ ] Supplementing Existing Monitoring
-- [ ] Source Identification and Characterization
-- [ ] Education
-- [ ] Information/Awareness
+- Research
+- Personal Exposure Monitoring
+- Supplementing Existing Monitoring
+- Source Identification and Characterization
+- Education
+- Information/Awareness
 
 ## Air Measurement Technologies
 
