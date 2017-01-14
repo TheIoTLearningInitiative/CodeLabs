@@ -1,5 +1,17 @@
 # Arquitecture
 
+# Infraestructura
+
+- Existing Stations
+- Commercial Stations
+  - Stationary
+  - Mobile
+- Do It Yourself Stations
+  - Education/Outreach
+  - Low Cost
+  - Measurements
+  - Car Counting
+
 # High Level Device Arquitecture
 
 - __Low-cost electrochemical sensors__
@@ -21,18 +33,6 @@
   - Maintenance
     - Update
   - Commnunications
-
-## Infraestructura
-
-- Existing Stations
-- Commercial Stations
-  - Stationary
-  - Mobile
-- Do It Yourself Stations
-  - Education/Outreach
-  - Low Cost
-  - Measurements
-  - Car Counting
 
 # High Level Solution Arquitecture
 
