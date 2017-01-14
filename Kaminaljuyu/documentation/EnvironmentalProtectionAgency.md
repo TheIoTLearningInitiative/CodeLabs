@@ -67,7 +67,6 @@ Desirable Direction
 - __Basics__
   - Purpose
     - Government - School - Company Sandbox Learning Project
-    - 
   - Number of Pollutants
 - __Monitor__
   - What sensor?
