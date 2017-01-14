@@ -38,6 +38,8 @@
 - Non-Methane Hydrocarbons  (NMHC),  
 - Carbon Dioxide (CO2), 
 - Particulate Matter (PM1)
+- Ammonia (NH3) 
+- Methane (CH4) 
 
 # Infraestructura
 
