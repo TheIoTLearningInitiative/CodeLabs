@@ -1,5 +1,3 @@
-# Caracol
-
 # Digital Door
 
 ## Background
