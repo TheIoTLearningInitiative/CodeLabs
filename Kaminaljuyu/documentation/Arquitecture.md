@@ -46,13 +46,6 @@
 - __Design__ 2 experimental device
 - __ __ 
 
-## Tiempos
-
-- Resources
-  - State
-  - Minicipalities
-- Once construction starts
-
 ## Objetives
 
 - Monitoring
