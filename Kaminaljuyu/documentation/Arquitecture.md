@@ -40,7 +40,7 @@
   - Sensor data from experimental device compared to reference data from low cost device
   - Preliminary observations (~1 week of data)
 
-Phase Two
+## Phase Two
 
 - __ __ 
 - __Design__ 2 experimental device
