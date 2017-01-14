@@ -29,9 +29,10 @@ Phase One
 - __Adquisition__ 1 low cost device
 - __Design__ / Integration 2 experimental devices
 - __Deployment__ Devices at certain locations
+  - Co-locate with a reference instrument
+  - Controlled environment
   - Sensor data from experimental device compared to reference data from low cost device
   - Preliminary observations (~1 week of data)
-  - Controlled environment
 
 Phase Two
 
