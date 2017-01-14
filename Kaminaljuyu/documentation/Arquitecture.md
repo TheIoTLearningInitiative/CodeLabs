@@ -28,7 +28,7 @@ Phase One
 
 - 1 Low Cost Device + 2 Experimental Device
 - A couple of Stations with Sensors deployed at X points
-  - Sensor data compared to reference analyzer data
+  - Sensor data from Experimental Device compared to reference data from Low Cost Device
   - Low-cost sensors performed well
 
 
