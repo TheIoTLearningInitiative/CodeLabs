@@ -26,10 +26,12 @@
 
 Phase One
 
-- 1 low cost device adquisition
-- 2 experimental device integration
-- Devices deployed
-  - Sensor data from Experimental Device compared to reference data from Low Cost Device
+- __Adquisition__ 1 low cost device
+- __Design__ / Integration 2 experimental devices
+- __Deployment__ Devices at certain locations
+  - Sensor data from experimental device compared to reference data from low cost device
+  - Preliminary observations (~1 week of data)
+  - 
 
 Phase Two
 
