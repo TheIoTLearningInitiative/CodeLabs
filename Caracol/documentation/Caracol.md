@@ -2,7 +2,9 @@
 
 ## Background
 
-[SNCF "Take a look at Brussels"](https://www.youtube.com/watch?v=KDYsHAhPyuQ)
+[](https://www.youtube.com/watch?v=KDYsHAhPyuQ)
+
+[![SNCF "Take a look at Brussels"](https://img.youtube.com/vi/KDYsHAhPyuQ/0.jpg)](https://www.youtube.com/watch?v=KDYsHAhPyuQ)
 
 SNCF Europe, It’s Just Next Door
 
