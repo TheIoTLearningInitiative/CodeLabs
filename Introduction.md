@@ -62,7 +62,7 @@ Yucatán
 * **Ek Balam** Google APIs **Under Construction**
 * **Kinich KaK Moo** Node-RED
 * **La Ruta Puuc** NodeJS, Socket.io, Johnny Five, AngularJS  ! **Under Construction**
-* **Mayapan** Domotics ! **Under Construction**
+* **Mayapan** Domotics
 * **Uxmal** OpenCV Camera Picture Web Streaming
 * **Xcambo** Mqtt Sensor Data
 
