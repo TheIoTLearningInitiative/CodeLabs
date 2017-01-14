@@ -27,7 +27,7 @@
 
 1. Commercial
 2. Windows 10 Cellphone
-   - Custom Made
+3. Custom Made
    - Computer  Up Board powered by Ubilinux
    - Battery 5V @ 3340 mAh
   - Display 10.1" 1366x768 Display IPS + Speakers - HDMI/VGA/NTSC/PAL
