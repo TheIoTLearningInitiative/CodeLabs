@@ -31,7 +31,7 @@ Phase One
 - __Deployment__ Devices at certain locations
   - Sensor data from experimental device compared to reference data from low cost device
   - Preliminary observations (~1 week of data)
-  - 
+  - Controlled environment
 
 Phase Two
 
