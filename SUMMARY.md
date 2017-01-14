@@ -18,7 +18,7 @@
         * [Bill Of Materials](Caracol/documentation/BillOfMaterials.md)
         * [Open Questions](Caracol/documentation/OpenQuestions.md)
         * [Future](Caracol/documentation/Future.md)
-    * [Core](Caracol/documentation/Core.md)
+    * [Services](Caracol/documentation/Services.md)
         * [Graphics](Caracol/documentation/Graphics.md)
         * [Video](Caracol/documentation/Video.md)
         * [Camera](Caracol/documentation/Camera.md)
