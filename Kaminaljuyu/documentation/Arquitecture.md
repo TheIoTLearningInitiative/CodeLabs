@@ -72,23 +72,6 @@
 - __ __ 
 - __ __ 
 
-## Calibracion
-
-- Certificados
-- Protocolos de Metrologia
-- Entidades
-  - CENAM
-  - Instituto Nacional de Metrología y Cambio Climático
-
-- Corrections
-  - Device
-  - Cloud
-- Online Data
-  - AWS
-  - Other
-- Reading
-- Data Transmission
-
 # Links
 
 - [EPA Air Sensor Toolbox for Citizen Scientists, Researchers and Developers](https://www.epa.gov/air-sensor-toolbox)
