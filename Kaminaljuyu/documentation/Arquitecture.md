@@ -30,14 +30,14 @@
 
 ### Second Priority
 
-- Nitrogen dioxide (NO2)
-- Nitrogen oxides (NOx) 
-- Sulphur dioxide (SO2)  
-- Volatile  organic  compounds  (VOC)
-- Hydrogen sulphide (H2S)
-- Non-methane hydrocarbons  (NMHC),  
-- Carbon  dioxide (CO2), 
-- Particulate matter (PM1)
+- Nitrogen Dioxide (NO2)
+- Nitrogen Oxides (NOx) 
+- Sulphur Dioxide (SO2)  
+- Volatile Organic Compounds  (VOC)
+- Hydrogen Sulphide (H2S)
+- Non-Methane Hydrocarbons  (NMHC),  
+- Carbon Dioxide (CO2), 
+- Particulate Matter (PM1)
 
 # Infraestructura
 
