@@ -56,7 +56,7 @@
 - Sensiblizacion Proyectos
 - Salud Publica
   - InTake, Exposition
-- Exposicion Personal
+- Personal Exposition
   - Lineas Bases
     - Corredores Viales
     - Corredores Comerciales
