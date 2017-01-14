@@ -28,7 +28,7 @@ Phase One
 
 - 1 Low Cost Device adquisition
 - 2 Experimental Device integration
-- A couple of Stations with Sensors deployed at X points
+- Devices deployed
   - Sensor data from Experimental Device compared to reference data from Low Cost Device
 
 Phase Two
