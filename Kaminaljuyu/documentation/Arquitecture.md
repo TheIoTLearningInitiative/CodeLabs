@@ -42,7 +42,7 @@
 
 ## Phase Two
 
-- __Design__ 2 experimental device
+- __Design__ 2 experimental device case
 - __ __ 
 - __ __ 
 
