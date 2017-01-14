@@ -73,6 +73,3 @@ Yucatán
 * **Acat** Blockchain **Under Construction**
 * **...** Web Camera **Under Construction**
 * API Slack Bot Users
-
-
-
