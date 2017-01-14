@@ -8,13 +8,12 @@
 
 ### SNCF Europe, It’s Just Next Door
 
-[![SNCF "L'Europe, C'est la porte à côté"](https://img.youtube.com/vi/HR5zDFUpF4Y/0.jpg)](https://www.youtube.com/watch?v=HR5zDFUpF4Y)
+> The success of this event is based on a double technological achievement: providing a spotless real-time experience thanks to a satellite connexion, and hold the operation's sophisticated technology in a custom-made digital screen that fit perfectly inside a doorframe.
 
+[![SNCF "L'Europe, C'est la porte à côté"](https://img.youtube.com/vi/HR5zDFUpF4Y/0.jpg)](https://www.youtube.com/watch?v=HR5zDFUpF4Y)
 
 - http://www.tbwa-paris.com/sncf/europe/en/index.html
 - http://www.keywestvideo.com/corporatevideoblog/interactive-doors-sncfs-innovative-marketing/
-
-> The success of this event is based on a double technological achievement: providing a spotless real-time experience thanks to a satellite connexion, and hold the operation's sophisticated technology in a custom-made digital screen that fit perfectly inside a doorframe.
 
 ## Devices
 
