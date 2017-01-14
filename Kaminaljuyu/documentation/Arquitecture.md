@@ -22,6 +22,18 @@
     - Update
   - Commnunications
 
+## Infraestructura
+
+- Existing Stations
+- Commercial Stations
+  - Stationary
+  - Mobile
+- Do It Yourself Stations
+  - Education/Outreach
+  - Low Cost
+  - Measurements
+  - Car Counting
+
 # High Level Solution Arquitecture
 
 Phase One
@@ -44,18 +56,6 @@ Phase Two
   - State
   - Minicipalities
 - Once construction starts
-
-## Infraestructura
-
-- Existing Stations
-- Commercial Stations
-  - Stationary
-  - Mobile
-- Do It Yourself Stations
-  - Education/Outreach
-  - Low Cost
-  - Measurements
-  - Car Counting
 
 ## Objetives
 
