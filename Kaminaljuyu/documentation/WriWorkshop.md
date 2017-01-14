@@ -164,8 +164,6 @@ Challenges
 - “Big data” analysis
 - Support for do-it-yourself/citizen science
 
-
-
 - Calibracion
 - Contaminantes Criterio
 - Medir impactos
