@@ -1,6 +1,6 @@
 # Arquitecture
 
-# High Level Single Arquitecture
+# High Level Device Arquitecture
 
 - __Low-cost electrochemical sensors__
 - __Power__
