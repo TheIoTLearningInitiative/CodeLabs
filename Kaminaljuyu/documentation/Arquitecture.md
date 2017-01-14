@@ -69,7 +69,7 @@
 ## Phase Two
 
 - __Design__ 2 experimental device case
-- __ __ 
+- __Calibration__ 
 - __ __ 
 
 # Links
