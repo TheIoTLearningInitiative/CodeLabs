@@ -19,6 +19,8 @@
 
 ## Mediciones Contaminantes
 
+### First Priority
+
 - Carbon Monoxide (CO)
 - Particle Matter PM2.5
 - Particle Matter PM10
@@ -26,7 +28,7 @@
   - Benzeno
   - Ozone (O3)
 
-
+### Second Priority
 
 - Nitrogen dioxide (NO2)
 - Nitrogen oxides (NOx) 
