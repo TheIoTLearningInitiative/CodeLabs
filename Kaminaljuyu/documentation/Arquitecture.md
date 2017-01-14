@@ -38,18 +38,6 @@ Phase Two
 
 - 
 
-# High Level Development Plan
-
-- Adquisition 
-- Design
-- Measurement
-  - Preliminary observations (~1 week of data)
-
-
-Controlled Laboratory Setting - challenge against interfering 
-species, temperature/humidity effects, etc.
-- Co-locate with a reference instrument
-
 ## Tiempos
 
 - Resources
