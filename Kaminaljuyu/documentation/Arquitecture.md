@@ -42,7 +42,9 @@ Phase One
 
 Phase Two
 
-- __Design__ 
+- __ __
+- __Design__ 2 experimental device
+- __ __
 
 ## Tiempos
 
