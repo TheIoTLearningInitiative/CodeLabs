@@ -8,25 +8,19 @@
     - Solar
   - External via Landpower
 - __Communications__
-  - Cellular
-  - Low Power Area Networks
-  - WiFi
+  - Radio
+  - Protocol
+  - Frequency Band
+  - Transmission Power
+  - Sensitivity
+  - Range
+  - Certification
 - __Algorithms__
   - Concentration Estimation
 - __Interruption Management__
   - Maintenance
     - Update
   - Commnunications
-
-# Communications
-
-- Radio
-- Protocol
-- Frequency Band
-- Transmission Power
-- Sensitivity
-- Range
-- Certification
 
 # High Level Solution Arquitecture
 
