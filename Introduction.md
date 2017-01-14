@@ -6,9 +6,9 @@
 
 ## Priority
 
-* **Caracol** Puerta Digital
-* **Edzna** Home Assistant
-* **Kaminaljuyu** Emergency Medical Monitoring System **Under Construction**
+* __Caracol__ Puerta Digital
+* __Edzna__ Home Assistant
+* __Kaminaljuyu__ Emergency Medical Monitoring System **Under Construction**
 
 ## Full List
 
