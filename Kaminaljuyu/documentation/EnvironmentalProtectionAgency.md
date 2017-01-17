@@ -73,7 +73,7 @@ Desirable Direction
   - What sensor?
   - How often data collected?
   - Calibration
-    - Calibration
+    - Certified Entity
     - Collocation
   - Additional data?
     - Noise
