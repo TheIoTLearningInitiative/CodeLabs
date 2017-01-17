@@ -11,7 +11,7 @@
 ## Cual es el objetivo?
 
 - Lineas Base
-- Intevrencion
+- Intervencion
 
 ## Notes
 
