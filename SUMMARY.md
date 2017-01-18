@@ -87,8 +87,8 @@
 * [Tikal](Tikal/documentation/Tikal.md)
     * [Emergency Medical Services](Tikal/documentation/EmergencyMedicalServices.md)
     * [Mexican Red Cross](Tikal/documentation/MexicanRedCross.md)
-    * [Architecture](Tikal/documentation/Architecture.md)
     * [My Signals](Tikal/documentation/MySignals.md)
+    * [Architecture](Tikal/documentation/Architecture.md)
 * [Tulum](Tulum/documentation/Openstack.md)
     * [Introduction](Tulum/documentation/Introduction.md)
     * Device
