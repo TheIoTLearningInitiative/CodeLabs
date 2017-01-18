@@ -13,11 +13,11 @@
 
 - EMS activated
 - Ambulance arrival
-- Onsite Basic / Advanced Life Support
+- Assesment
   - Scene / Safety
   - Cronology
-  - Assesment
+  - Assesment, Life-treathening classification
     - ABC
     - Trauma
-- Ambulance Basic / Advanced Life Support
+- Transportation Basic / Advanced Life Support
 - Hospital arrival
