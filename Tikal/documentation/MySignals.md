@@ -5,7 +5,6 @@
 - Software Development Platform
 - Hardware Development Platform
 
-
 > “The most complete eHealth development platform in the market connecting more than 15 sensors”
 
 - __Priority 1__
