@@ -14,8 +14,9 @@
 - EMS activated
 - Ambulance arrival
 - Onsite Basic / Advanced Life Support
-  - Scene
+  - Scene / Safety
   - Cronology
   - Relatives identification
+  - 
 - Ambulance Basic / Advanced Life Support
 - Hospital arrival
