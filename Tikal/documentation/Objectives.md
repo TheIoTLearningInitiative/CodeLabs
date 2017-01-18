@@ -7,10 +7,10 @@
 - Online medical direction
 - Anticipated Clinical history
 - EMS Analytics
+- Post emergency patient cost
 
 # Others
 
 - Triage Classification
   - Red, Yellow, Green, Blue
-- Post emergency patient cost
 - ...
