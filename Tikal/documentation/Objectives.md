@@ -1,6 +1,6 @@
 # Objectives
 
-- Specialized training guideline reinforcement
+- Protocols reinforcement
 - Real time monitoring
 - Online medical direction
 - Clinical history
