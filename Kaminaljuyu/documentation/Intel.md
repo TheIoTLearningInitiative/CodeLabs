@@ -10,4 +10,4 @@
 
 # Phoenix Robotix
 
-> [](http://phoenixrobotix.com/case-studies/osima-and-trade-gprs)
+> We presented them our real-time online data transmitter "TraDe" to address this particular challenge. [Homepage](http://phoenixrobotix.com/case-studies/osima-and-trade-gprs)
