@@ -21,5 +21,8 @@
     - Trauma
   - Life-treathening classification
 - Transportation
- -  Based on assesment Basic / Advanced Life Support
+ - Based on assesment Basic / Advanced Life Support
+ - Clinical history
 - Hospital arrival
+ - Patient delivery
+ - Clinical history
