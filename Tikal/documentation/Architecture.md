@@ -2,12 +2,13 @@
 
 # Objectives
 
-- Real Time Monitoring
 - Specialized Training Guideline Reinforcement
-- Statistics
+- Real Time Monitoring
+- Online Medical Direction
 - Triage Classification … Clasificacion Triage
   - Red
   - Yellow
   - Green
   - Blue
 - Post emergency patient cost
+- Statistics
