@@ -6,17 +6,17 @@
 
 > “The most complete eHealth development platform in the market connecting more than 15 sensors”
 
-- Priority 1
+- __Priority 1__
   - Glucometer
   - Pulsioximeter
   - Blood Pressure
   - ECG
   - Voice Communication
-- Priority 2
+- __Priority 2__
   - Spirometer
   - GSR
   - Airflow Sensor
   - Temperature
   - Image Communication
-- Priority 3
+- __Priority 3__
   - EMG
