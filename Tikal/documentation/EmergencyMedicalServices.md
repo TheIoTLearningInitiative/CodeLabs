@@ -18,4 +18,4 @@
 
 # Advanced Pediatric Life Support
 
->  [Wikipedia](https://en.wikipedia.org/wiki/Advanced_Pediatric_Life_Support)
+> Advanced Pediatric Life Support (APLS) is a program created by the American Academy of Pediatrics and the American College of Emergency Physicians to teach health care providers how to take care of sick children. [Wikipedia](https://en.wikipedia.org/wiki/Advanced_Pediatric_Life_Support)
