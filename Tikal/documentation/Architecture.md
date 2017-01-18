@@ -5,7 +5,7 @@
 - Specialized training guideline reinforcement
 - Real time monitoring
 - Online medical direction
-- state of the art medical care is given on scene and during transportation
+- State of the art medical care is given on scene and during transportation to the hospital
 - Satisfactorily treating the presenting conditions
 - Others
   - Triage Classification
