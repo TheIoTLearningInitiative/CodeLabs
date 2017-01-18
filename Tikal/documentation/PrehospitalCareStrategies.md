@@ -17,5 +17,7 @@
   - Scene / Safety
   - Cronology
   - Assesment
+    - ABC
+    - Trauma
 - Ambulance Basic / Advanced Life Support
 - Hospital arrival
