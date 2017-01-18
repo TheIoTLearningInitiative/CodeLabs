@@ -13,8 +13,6 @@
 
 - EMS activated
 - Ambulance arrival
-- Basic Life Support
-  - Respiratory 
-  - Cardiac
-  - Trauma
-- 
+- Onsite Basic / Advanced Life Support
+- Ambulance Basic / Advanced Life Support
+- Hospital arrival
