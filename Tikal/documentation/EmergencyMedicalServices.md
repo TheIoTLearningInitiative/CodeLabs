@@ -4,6 +4,10 @@
 
 # Specialized Training
 
+## Basic Life Support
+
+>  [](https://en.wikipedia.org/wiki/Basic_life_support)
+
 ## International Trauma Life Support
 
 > International Trauma Life Support is a nonprofit organization dedicated to the education in managing out-of-hospital trauma situations. International Trauma Life Support was formed in 1982 as Basic Trauma Life Support. The organization renamed itself to International Trauma Life Support to highlight its focus on become an international standard. The educational materials presented by this organization are taught to EMTs and Paramedics across the United States and internationally. [Wikipedia](https://en.wikipedia.org/wiki/International_Trauma_Life_Support)
