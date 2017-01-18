@@ -72,6 +72,7 @@
         * [Environmental Protection Agency](Kaminaljuyu/documentation/EnvironmentalProtectionAgency.md)
     * [Arquitecture](Kaminaljuyu/documentation/Arquitecture.md)
         * [Bill Of Materials](Kaminaljuyu/documentation/BillOfMaterials.md)
+    * [Intel](Kaminaljuyu/documentation/Intel.md)
 * [Kanki](kanki.md)
     * [Device](Kanki/documentation/Device.md)
     * [Gateway](Kanki/documentation/Gateway.md)
