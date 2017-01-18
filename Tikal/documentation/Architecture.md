@@ -24,7 +24,7 @@
 # Objectives
 
 - Real Time Monitoring
-
+- Specialized Training Guideline Reinforcement
 - Statistics
 - Triage Classification … Clasificacion Triage
   - Red
