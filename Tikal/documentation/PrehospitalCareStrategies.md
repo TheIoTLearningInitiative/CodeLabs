@@ -14,10 +14,11 @@
 - EMS activated
 - Ambulance arrival
 - Assesment
-  - Scene / Safety
+  - Scene
   - Cronology
-  - Assesment, Life-treathening classification
+  - Protocols
     - ABC
     - Trauma
+  - Life-treathening classification
 - Transportation Basic / Advanced Life Support
 - Hospital arrival
