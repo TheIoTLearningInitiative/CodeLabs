@@ -1,4 +1,4 @@
-# Sensors
+# Architecture
 
 # Objectives
 
