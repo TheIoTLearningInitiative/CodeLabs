@@ -2,7 +2,7 @@
 
 > Emergency medical services, also known as ambulance services or paramedic services (abbreviated to the initialism EMS, EMAS, EMARS or SAMU in some countries), are a type of emergency service dedicated to providing out-of-hospital acute medical care, transport to definitive care, and other medical transport to patients with illnesses and injuries which prevent the patient from transporting themselves. Emergency medical services may also be locally known as a paramedic service, a first aid squad, FAST squad, emergency squad, rescue squad, ambulance squad, ambulance service, ambulance corps, or life squad. [Wikipedia](https://en.wikipedia.org/wiki/Emergency_medical_services)
 
-# Training
+# Specialized Training
 
 ## International Trauma Life Support
 
