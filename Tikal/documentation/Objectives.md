@@ -1,5 +1,9 @@
 # Objectives
 
+> State of the art treating the presenting medical conditions is given from second 1 of arrival throughout transportation to the hospital
+
+# Features
+
 - Protocols reinforcement
 - Real time monitoring
 - Online medical direction
@@ -7,8 +11,6 @@
 
 
 
-- State of the art medical care is given on scene and during transportation to the hospital
-- Satisfactorily treating the presenting conditions
 - Others
   - Triage Classification
     - Red, Yellow, Green, Blue
