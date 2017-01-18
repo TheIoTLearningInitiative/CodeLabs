@@ -90,6 +90,7 @@
         * [Prehospital Care Strategies](Tikal/documentation/PrehospitalCareStrategies.md)
     * [My Signals](Tikal/documentation/MySignals.md)
     * [Architecture](Tikal/documentation/Architecture.md)
+        * [Objectives](Tikal/documentation/Objectives.md)
 * [Tulum](Tulum/documentation/Openstack.md)
     * [Introduction](Tulum/documentation/Introduction.md)
     * Device
