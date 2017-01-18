@@ -6,7 +6,7 @@
 
 ## Basic Life Support
 
->  [](https://en.wikipedia.org/wiki/Basic_life_support)
+> Basic life support (BLS) is a level of medical care which is used for victims of life-threatening illnesses or injuries until they can be given full medical care at a hospital. It can be provided by trained medical personnel, including emergency medical technicians, paramedics, and by qualified bystanders. [Wikipedia](https://en.wikipedia.org/wiki/Basic_life_support)
 
 ## International Trauma Life Support
 
