@@ -1,4 +1,3 @@
-
 # Sensors
 
 ## My Signals
