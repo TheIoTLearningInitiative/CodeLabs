@@ -10,7 +10,7 @@
 
 ## Advanced Life Support 
 
-> 
+> [Wikipedia](https://en.wikipedia.org/wiki/Emergency_medical_services#Advanced_life_support_.28ALS.29)
 
 # Specialized Training
 
