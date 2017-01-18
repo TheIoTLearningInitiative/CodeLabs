@@ -85,9 +85,9 @@
 * [Seibal](Seibal/documentation/Seibal.md)
 * [Tabasqueno](Tabasqueno/documentation/Tabasqueno.md)
 * [Tikal](Tikal/documentation/Tikal.md)
-    * [Architecture](Tikal/documentation/Architecture.md)
-    * [Mexican Red Cross](Tikal/documentation/MexicanRedCross.md)
     * [Emergency Medical Services](Tikal/documentation/EmergencyMedicalServices.md)
+    * [Mexican Red Cross](Tikal/documentation/MexicanRedCross.md)
+    * [Architecture](Tikal/documentation/Architecture.md)
 * [Tulum](Tulum/documentation/Openstack.md)
     * [Introduction](Tulum/documentation/Introduction.md)
     * Device

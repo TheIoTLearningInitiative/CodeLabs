@@ -20,3 +20,15 @@
   - Image Communication
 - __Priority 3__
   - EMG
+
+# Objectives
+
+- Real Time Monitoring
+
+- Statistics
+- Triage Classification … Clasificacion Triage
+  - Red
+  - Yellow
+  - Green
+  - Blue
+- Post emergency patient cost
