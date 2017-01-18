@@ -14,7 +14,8 @@
 - EMS activated
 - Ambulance arrival
 - Onsite Basic / Advanced Life Support
-  - Scena
+  - Scene
+  - History
   - 
 - Ambulance Basic / Advanced Life Support
 - Hospital arrival
