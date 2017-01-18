@@ -16,7 +16,6 @@
 - Onsite Basic / Advanced Life Support
   - Scene / Safety
   - Cronology
-  - Relatives identification
-  - 
+  - Assesment
 - Ambulance Basic / Advanced Life Support
 - Hospital arrival
