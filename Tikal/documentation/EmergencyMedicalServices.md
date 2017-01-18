@@ -2,11 +2,17 @@
 
 > Emergency medical services, also known as ambulance services or paramedic services (abbreviated to the initialism EMS, EMAS, EMARS or SAMU in some countries), are a type of emergency service dedicated to providing out-of-hospital acute medical care, transport to definitive care, and other medical transport to patients with illnesses and injuries which prevent the patient from transporting themselves. Emergency medical services may also be locally known as a paramedic service, a first aid squad, FAST squad, emergency squad, rescue squad, ambulance squad, ambulance service, ambulance corps, or life squad. [Wikipedia](https://en.wikipedia.org/wiki/Emergency_medical_services)
 
-# Specialized Training
+# Levels of Care
 
 ## Basic Life Support
 
 > Basic life support (BLS) is a level of medical care which is used for victims of life-threatening illnesses or injuries until they can be given full medical care at a hospital. It can be provided by trained medical personnel, including emergency medical technicians, paramedics, and by qualified bystanders. [Wikipedia](https://en.wikipedia.org/wiki/Basic_life_support)
+
+## Advanced Life Support 
+
+> 
+
+# Specialized Training
 
 ## International Trauma Life Support
 
