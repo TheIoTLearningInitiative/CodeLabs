@@ -8,4 +8,4 @@
 
 # Advanced Cardiac Life Support
 
-> Advanced cardiac life support or advanced cardiovascular life support (ACLS) refers to a set of clinical interventions for the urgent treatment of cardiac arrest, stroke and other life-threatening medical emergencies, as well as the knowledge and skills to deploy those interventions.[1] Outside North America, Advanced Life Support is used. [Wikipedia](https://en.wikipedia.org/wiki/Advanced_cardiac_life_support)
+> Advanced cardiac life support or advanced cardiovascular life support (ACLS) refers to a set of clinical interventions for the urgent treatment of cardiac arrest, stroke and other life-threatening medical emergencies, as well as the knowledge and skills to deploy those interventions. Outside North America, Advanced Life Support is used. [Wikipedia](https://en.wikipedia.org/wiki/Advanced_cardiac_life_support)
