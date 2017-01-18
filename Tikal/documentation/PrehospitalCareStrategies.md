@@ -11,4 +11,6 @@
 
 ...
 
-- 
+- EMS activated
+- Ambulance arrival
+- Basic Trauma Life Support
