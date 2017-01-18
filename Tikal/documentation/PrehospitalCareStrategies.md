@@ -8,3 +8,7 @@
 
 - __First Priority__ Life-threatening Problems'
 - __Second Priority__ Obtaining a patient’s history
+
+...
+
+- 
