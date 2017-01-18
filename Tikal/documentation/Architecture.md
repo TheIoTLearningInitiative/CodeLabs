@@ -5,7 +5,7 @@
 - Specialized Training Guideline Reinforcement
 - Real Time Monitoring
 - Online Medical Direction
-- Triage Classification … Clasificacion Triage
+- Triage Classification
   - Red
   - Yellow
   - Green
