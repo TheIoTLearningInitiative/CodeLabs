@@ -1,4 +1,4 @@
-# My Signals
+# Sensors My Signals
 
 > MySignals changes the future of medical and eHealth applications. Development platform for remote health monitoring. Innovative product development for IoT based medical products. [Homepage](http://www.my-signals.com/)
 
