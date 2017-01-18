@@ -20,5 +20,6 @@
     - ABC
     - Trauma
   - Life-treathening classification
-- Transportation Basic / Advanced Life Support
+- Transportation
+ -  Based on assesment Basic / Advanced Life Support
 - Hospital arrival
