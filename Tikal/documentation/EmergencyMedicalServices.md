@@ -12,4 +12,4 @@
 
 # Pediatric Advanced Life Support
 
->  [](https://en.wikipedia.org/wiki/Pediatric_advanced_life_support)\
+>  [](https://en.wikipedia.org/wiki/Pediatric_advanced_life_support)
