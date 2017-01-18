@@ -85,8 +85,6 @@
 * [Seibal](Seibal/documentation/Seibal.md)
 * [Tabasqueno](Tabasqueno/documentation/Tabasqueno.md)
 * [Tikal](Tikal/documentation/Tikal.md)
-    * [Sensors](Tikal/documentation/Sensors.md)
-    * [Communications](Tikal/documentation/communications.md)
 * [Tulum](Tulum/documentation/Openstack.md)
     * [Introduction](Tulum/documentation/Introduction.md)
     * Device
