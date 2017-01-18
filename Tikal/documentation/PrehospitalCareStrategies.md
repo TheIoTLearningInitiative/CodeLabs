@@ -15,7 +15,7 @@
 - Ambulance arrival
 - Onsite Basic / Advanced Life Support
   - Scene
-  - History
+  - Cronology
   - 
 - Ambulance Basic / Advanced Life Support
 - Hospital arrival
