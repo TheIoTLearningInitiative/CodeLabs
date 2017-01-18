@@ -3,7 +3,7 @@
 - Protocols reinforcement
 - Real time monitoring
 - Online medical direction
-- Clinical history
+- Anticipated Clinical history
 
 
 
