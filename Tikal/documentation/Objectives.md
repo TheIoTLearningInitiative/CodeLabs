@@ -1,6 +1,6 @@
 # Objectives
 
-> State of the art treating the presenting medical conditions is given from second 1 of arrival throughout transportation to the hospital
+> State of the art collaborative treating the present medical conditions is given from second 1 of arrival throughout transportation to the hospital
 
 - Protocols reinforcement
 - Real time monitoring
