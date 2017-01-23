@@ -16,4 +16,6 @@
 
 > HIT-W181 - Patient Infotainment System (Bedside Computer Terminal) [Intel Information](https://solutionsdirectory.intel.com/solutions-directory/hit-w181-patient-infotainment-system-bedside-computer-terminal)
 
-https://www.youtube.com/watch?v=Mfd0_XdgQPM
+[![SNCF "Take a look at Brussels"](https://img.youtube.com/vi/Mfd0_XdgQPM/0.jpg)](https://www.youtube.com/watch?v=Mfd0_XdgQPM
+)
+
