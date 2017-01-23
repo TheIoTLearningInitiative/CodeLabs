@@ -88,6 +88,7 @@
     * [Mexican Red Cross](Tikal/documentation/MexicanRedCross.md)
     * [Emergency Medical Services](Tikal/documentation/EmergencyMedicalServices.md)
         * [Prehospital Care Strategies](Tikal/documentation/PrehospitalCareStrategies.md)
+    * [Intel](Tikal/documentation/Intel.md)
     * [My Signals](Tikal/documentation/MySignals.md)
     * [Architecture](Tikal/documentation/Architecture.md)
         * [Objectives](Tikal/documentation/Objectives.md)
