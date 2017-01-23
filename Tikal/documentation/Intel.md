@@ -14,4 +14,4 @@
 
 ### 
 
-> HIT-W181 - PATIENT INFOTAINMENT SYSTEM (BEDSIDE COMPUTER TERMINAL) [Homepage](https://solutionsdirectory.intel.com/solutions-directory/hit-w181-patient-infotainment-system-bedside-computer-terminal)
+> HIT-W181 - Patient Infotainment System (Bedside Computer Terminal) [Intel Information](https://solutionsdirectory.intel.com/solutions-directory/hit-w181-patient-infotainment-system-bedside-computer-terminal)
