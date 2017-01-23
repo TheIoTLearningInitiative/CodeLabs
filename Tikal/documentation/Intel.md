@@ -10,3 +10,8 @@
 - Healthcare IT
 - Fitness
 - Patient Infotainment
+
+
+### 
+
+> [](https://solutionsdirectory.intel.com/solutions-directory/hit-w181-patient-infotainment-system-bedside-computer-terminal)
