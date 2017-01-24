@@ -40,7 +40,7 @@
 * [Dos Pilas](DosPilas/documentation/DosPilas.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
 * [Edzna](Edzna/documentation/Edzna.md)
-  * MQ Telemetry Transport
+  * [MQ Telemetry Transport](Edzna/documentation/mq-telemetry-transport.md)
   * Device
     * [Light ESP8266](Edzna/documentation/Esp8266.md)
     * [Intel Edison](Edzna/documentation/IntelEdison.md)
