@@ -9,4 +9,5 @@ Setting Up Your Environment
 
 ## Samples
 
-1.  
+1. My First Recon App
+2. 
