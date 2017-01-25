@@ -39,3 +39,4 @@ Activity Status API.
    > When a fitness activity is started, paused, or ended, it sends a broadcast intent. This intent can be received by any application or service running on the device. Using the Activity Status API, your app can listen for this information and discover the fitness activity’s type and status.
 8. __Glance__
    > This guide offers a quick insight into the using the Glance API.
+   > 
