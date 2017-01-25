@@ -85,6 +85,7 @@
 * [Palenque](Palenque/documentation/Palenque.md)
 * [Qumarkaj](Qumarkaj/documentation/Qumarkaj.md)
   * [Amazon Alexa](Qumarkaj/documentation/AmazonAlexa.md)
+    * [Alexa Skills Kit](Qumarkaj/documentation/AlexaSkillsKit.md)
   * [Lifx](Qumarkaj/documentation/Lifx.md)
 * [Seibal](Seibal/documentation/Seibal.md)
 * [Tabasqueno](Tabasqueno/documentation/Tabasqueno.md)
