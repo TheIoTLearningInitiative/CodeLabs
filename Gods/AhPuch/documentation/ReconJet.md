@@ -14,3 +14,6 @@
   - Location
 3. Make account public?
 4. Select your Heads-Up display
+  - ReconJet
+  - AirWave 1.5 / Snow2
+  - AirWave / ModLive
