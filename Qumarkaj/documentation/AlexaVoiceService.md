@@ -9,7 +9,7 @@
 - [The Internet of Voice Challenge](https://www.hackster.io/contests/alexa-raspberry-pi)
 - [Github Alexa Pi](https://github.com/sammachin/AlexaPi)
 - [Youtube Make your Raspberry Pi artificially intelligent! - Amazon Alexa Personal Assistant Tutorial](https://plus.google.com/+raspberrypi/posts/FzSdSWBxNGn)
-- [](https://www.youtube.com/watch?v=iwlQnRHX9Ms)
+- [The AlexaPi - Setup and Demo](https://www.youtube.com/watch?v=iwlQnRHX9Ms)
 
 ## Interfaces
 
