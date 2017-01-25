@@ -4,6 +4,9 @@
 
 # Getting Started, Web
 
+1. Plug in your Echo
+2. Go to http://alexa.amazon.com/
+3. Setup your Echo under Alexa Devices
 
 # Getting Started, App
 
