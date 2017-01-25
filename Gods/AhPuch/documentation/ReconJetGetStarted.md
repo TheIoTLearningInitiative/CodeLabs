@@ -3,7 +3,7 @@
 1. Touchpad
 2. Buttons
 3. Calibration
-   - Pin
-   - Roll
    - Pitch
+   - Roll
+   - Yaw
 4. 
