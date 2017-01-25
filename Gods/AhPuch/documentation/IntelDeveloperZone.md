@@ -9,4 +9,4 @@
 
 ## ReconJet Smart Eye Wear for Sports
 
-> Recon Jet* is a powerful wearable computer with smartphone-class hardware, a comprehensive sensor suite, and extensive connectivity features. Based on a smartphone-class operating system and development kit, developers can create apps that relay information directly to the user’s eye. [Homepage]()
+> Recon Jet* is a powerful wearable computer with smartphone-class hardware, a comprehensive sensor suite, and extensive connectivity features. Based on a smartphone-class operating system and development kit, developers can create apps that relay information directly to the user’s eye. [Homepage](https://software.intel.com/en-us/recon/jet)
