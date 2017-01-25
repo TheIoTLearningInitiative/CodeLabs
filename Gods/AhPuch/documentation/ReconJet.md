@@ -36,7 +36,7 @@
   - Remove the NosePiece
     > Hold the lens by its top and bottom edges. Using your other hand, grip one side of the nosepiece between your thumb and forefinger. Pull the nosepiece outward in a swiveling motion.
 8. Download and Install Uplink
-  - Download Uplink
+  - [Download Uplink](https://reconproddata.s3.amazonaws.com/prod/software/Recon_Uplink.exe)
     > Recon Uplink allows you to download software updates, upload activities, sync dashboards and maps, and install apps onto your Recon device.
   - Then
     > After you have installed Uplink onto your computer, connect your Recon device using the supplied Micro-USB cable. Register your Recon device through Uplink to get started.
