@@ -91,6 +91,7 @@
     * [Alexa Voice Service](Qumarkaj/documentation/AlexaVoiceService.md)
   * [Amazon Echo](Qumarkaj/documentation/AmazonEcho.md)
   * [Lifx](Qumarkaj/documentation/Lifx.md)
+  * [IFTTT](Qumarkaj/documentation/Ifttt.md)
 * [Seibal](Seibal/documentation/Seibal.md)
 * [Tabasqueno](Tabasqueno/documentation/Tabasqueno.md)
 * [Tikal](Tikal/documentation/Tikal.md)
