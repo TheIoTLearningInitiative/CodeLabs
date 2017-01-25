@@ -136,6 +136,7 @@
 * [Ah Puch](Gods/AhPuch/documentation/AhPuch.md)
   * [Recon Instruments](Gods/AhPuch/documentation/ReconInstruments.md)
     * [ReconJet](Gods/AhPuch/documentation/ReconJet.md)
+      * [Get Started](Gods/AhPuch/documentation/ReconJetGetStarted.md)
     * [ReconEngage](Gods/AhPuch/documentation/ReconEngage.md)
     * [Uplink](Gods/AhPuch/documentation/Uplink.md)
 
