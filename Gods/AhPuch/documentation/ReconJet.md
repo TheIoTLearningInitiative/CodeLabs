@@ -35,3 +35,4 @@
     > Hold the center of the frame with one hand. Hold the nose pads and nose bridge with your other hand, then pull straight down to remove the lens from the frame.
   - Remove the NosePiece
     > Hold the lens by its top and bottom edges. Using your other hand, grip one side of the nosepiece between your thumb and forefinger. Pull the nosepiece outward in a swiveling motion.
+8. Download and Install Uplink
