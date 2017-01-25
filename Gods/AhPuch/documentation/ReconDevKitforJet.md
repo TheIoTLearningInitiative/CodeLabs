@@ -40,4 +40,5 @@ Activity Status API.
 8. __Glance__
    > This guide offers a quick insight into the using the Glance API.
    > Jet’s (patented!) Glance Detection technology uses an infrared sensor to detect whether the user is looking at the screen. Removal detection, meanwhile, detects when the user physically takes their Jet off—or puts it on. In this tutorial, we’ll show you how to set up your app to receive both Glance Detection and removal detection events.
-9. 
+9. __Bluetooth LE__
+   > 
