@@ -1,3 +1,3 @@
 # Recon Instruments
 
-> Recon Instruments is a Canadian technology company that produces smartglasses and heads-up displays for sports. Recon's products deliver live activity metrics, GPS maps, and notifications directly to the user's eye. Recon's first heads-up display offering was released commercially in October 2010, roughly a year and a half before Google introduced Google Glass. [Wikipedia]()
+> Recon Instruments is a Canadian technology company that produces smartglasses and heads-up displays for sports. Recon's products deliver live activity metrics, GPS maps, and notifications directly to the user's eye. Recon's first heads-up display offering was released commercially in October 2010, roughly a year and a half before Google introduced Google Glass. [Wikipedia](https://en.wikipedia.org/wiki/Recon_Instruments)
