@@ -134,4 +134,6 @@
 ## Gods
 
 * [Ah Puch](Gods/AhPuch/documentation/AhPuch.md)
+  * [Recon Instruments](Gods/AhPuch/documentation/ReconInstruments.md)
+    * [Recon Jet](Gods/AhPuch/documentation/ReconJet.md)
 
