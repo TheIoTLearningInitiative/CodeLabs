@@ -1,4 +1,4 @@
-# 
+# Recon Dev Kit for Jet™
 
 Setting Up Your Environment
 
