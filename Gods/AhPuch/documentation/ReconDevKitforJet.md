@@ -42,4 +42,5 @@ Activity Status API.
    > Jet’s (patented!) Glance Detection technology uses an infrared sensor to detect whether the user is looking at the screen. Removal detection, meanwhile, detects when the user physically takes their Jet off—or puts it on. In this tutorial, we’ll show you how to set up your app to receive both Glance Detection and removal detection events.
 9. __Bluetooth LE__
    > This guide offers a quick insight into the using Bluetooth Smart (BLE).
-   > 
+   > ReconOS allows third-party applications to use Bluetooth Smart (BLE) connections and to communicate with BLE sensors. This tutorial will outline the basics of setting up Bluetooth Smart (BLE) functionality within an application so that you can have full control of the data being sent between devices
+10. 
