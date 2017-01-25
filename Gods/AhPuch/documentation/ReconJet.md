@@ -19,3 +19,7 @@
   - AirWave / ModLive
 5. Get the mobile app
   - Recon Engage
+6. Adjusting your fit
+  - Adjust the noisepiece
+  - Adjust the display
+  - Adjust the ear stems
