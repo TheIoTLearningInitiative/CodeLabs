@@ -2,4 +2,4 @@
 
 > 
 
-[Homepage](http://www.lifx.com/)
+- [Homepage](http://www.lifx.com/)
