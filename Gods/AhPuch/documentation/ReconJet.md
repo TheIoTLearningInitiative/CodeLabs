@@ -1,3 +1,3 @@
 # Recon Jet
 
-[Get Started](reconinstruments.com/getstarted)
+[Get Started](https://reconinstruments.com/getstarted)
