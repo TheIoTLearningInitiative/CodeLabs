@@ -139,4 +139,5 @@
       * [Get Started](Gods/AhPuch/documentation/ReconJetGetStarted.md)
     * [ReconEngage](Gods/AhPuch/documentation/ReconEngage.md)
     * [Uplink](Gods/AhPuch/documentation/Uplink.md)
+    * [Intel Developer Zone](Gods/AhPuch/documentation/IntelDeveloperZone.md)
 
