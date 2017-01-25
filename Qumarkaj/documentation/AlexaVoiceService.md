@@ -7,6 +7,7 @@
 
 - [Alexa Voice Service Github](https://github.com/alexa)
 - [The Internet of Voice Challenge](https://www.hackster.io/contests/alexa-raspberry-pi)
+- [Github Alexa Pi](https://github.com/sammachin/AlexaPi)
 
 
 ## Interfaces
