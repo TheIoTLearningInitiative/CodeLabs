@@ -20,5 +20,6 @@ Setting Up Your Environment
    > This guide offers a quick insight into the using the
 Heading API. This sample will show how to use the heading service to determine the orientation of the user’s head. Our sample compass app contains a single activity, CompassActivity, which shows the compass’ user interface and updates that interface with the correct heading. Note that, since pitch and roll values aren’t needed in a compass, our sample app retrieves only yaw values.
 4. Notifications
-   > This guide offers a quick insight into the using the
-Notifications API. A notification is a message you can show to the user outside of your application’s user interface (UI). Because of their unique design, Recon devices present notifications in a different way than other mobile devices. 
+   > This guide offers a quick insight into the using the Notifications API. A notification is a message you can show to the user outside of your application’s user interface (UI). Because of their unique design, Recon devices present notifications in a different way than other mobile devices.
+   > Notifications on ReconOS come in two distinct flavors: passive and interactive. Both types of notification are displayed at the bottom of the screen.
+   >> Passive notifications are used to show short, concise messages for a brief amount of time
