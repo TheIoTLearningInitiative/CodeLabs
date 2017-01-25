@@ -1,5 +1,7 @@
 # Intel Developer Zone
 
+> Intel® Developer Zone. The Intel Developer Zone is now your official source for developing on Recon Jet and Jet Pro
+
 > Recon Smart Glasses. Design and develop apps for Recon devices. [Homepage](https://software.intel.com/en-us/recon)
 
 - Recon Jet* Pro—Smart Glasses for Enterprise
