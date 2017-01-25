@@ -86,6 +86,7 @@
 * [Qumarkaj](Qumarkaj/documentation/Qumarkaj.md)
   * [Amazon Alexa](Qumarkaj/documentation/AmazonAlexa.md)
     * [Alexa Skills Kit](Qumarkaj/documentation/AlexaSkillsKit.md)
+    * [Alexa Voice Service](Qumarkaj/documentation/AlexaVoiceService.md)
   * [Amazon Echo](Qumarkaj/documentation/AmazonEcho.md)
   * [Lifx](Qumarkaj/documentation/Lifx.md)
 * [Seibal](Seibal/documentation/Seibal.md)
