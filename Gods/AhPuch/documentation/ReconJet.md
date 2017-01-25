@@ -31,4 +31,5 @@
     > Gently push the release tab forward with your thumb, then swing the battery or engine inward to release it from the frame.
   - Remove the Lens (I)
     > There is a release tab at the center of Jet’s frame. Using your fingernail, gently pull the release tab all the way back. This will open the lens release mechanism.
-  - 
+  - Remove the Lens (II)
+    > Hold the center of the frame with one hand. Hold the nose pads and nose bridge with your other hand, then pull straight down to remove the lens from the frame.
