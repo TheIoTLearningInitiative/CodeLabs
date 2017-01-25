@@ -140,4 +140,5 @@
     * [ReconEngage](Gods/AhPuch/documentation/ReconEngage.md)
     * [Uplink](Gods/AhPuch/documentation/Uplink.md)
     * [Intel Developer Zone](Gods/AhPuch/documentation/IntelDeveloperZone.md)
+      * [Recon Dev Kit for Jet™](Gods/AhPuch/documentation/ReconDevKitforJet.md)
 
