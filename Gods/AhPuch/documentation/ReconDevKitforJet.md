@@ -17,4 +17,5 @@ Setting Up Your Environment
 2. Web Connectivity
   >  This guide offers a quick insight into the using the Web Connectivity API. Recon devices can get Internet access by connecting (via Bluetooth) to an iPhone or Android smartphone running the Engage app (iOS, Android). The web connectivity service allows your app to use this functionality easily, without knowing the type of smartphone connected to the Recon device. In this sample, we’ll show you how to use the Web Connectivity API to download and upload files. We’ll cover two types of file downloads, including one involving an image. For our upload example, we’ll use the HTTP request and response service httpbin.org to test the upload process.
 3. Heading
-   > 
+   > This guide offers a quick insight into the using the
+Heading API.
