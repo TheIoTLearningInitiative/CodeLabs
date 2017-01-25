@@ -19,11 +19,10 @@ Setting Up Your Environment
 3. __Heading__
    > This guide offers a quick insight into the using the
 Heading API. This sample will show how to use the heading service to determine the orientation of the user’s head. Our sample compass app contains a single activity, CompassActivity, which shows the compass’ user interface and updates that interface with the correct heading. Note that, since pitch and roll values aren’t needed in a compass, our sample app retrieves only yaw values.
-4. Notifications
+4. __Notifications__
    > This guide offers a quick insight into the using the Notifications API. A notification is a message you can show to the user outside of your application’s user interface (UI). Because of their unique design, Recon devices present notifications in a different way than other mobile devices.
    > Notifications on ReconOS come in two distinct flavors: passive and interactive. Both types of notification are displayed at the bottom of the screen.
    >> Passive notifications are used to show short, concise messages for a brief amount of time
    >> Interactive notifications can be acted upon by the user. These notifications are larger and remain visible for a longer period of time (10 seconds). They can also be dismissed manually.
-4. Metrics
-   > This guide offers a quick insight into the using the Metrics API. When this document refers to ‘metrics’, we are talking about fitness data. ReconOS generates metrics by processing, filtering, and sometimes combining raw readings from both built-in and third-party (i.e. BLE & ANT+) sensors. For example, raw readings from Jet’s GPS and barometer/altimeter are combined be combined to generate a 3D speed metric. 
-The Metrics API gives developers full access to metrics like 3D speed, heart rate, distance, altitude, etc.
+5. __Metrics__
+   > This guide offers a quick insight into the using the Metrics API. When this document refers to ‘metrics’, we are talking about fitness data. ReconOS generates metrics by processing, filtering, and sometimes combining raw readings from both built-in and third-party (i.e. BLE & ANT+) sensors. For example, raw readings from Jet’s GPS and barometer/altimeter are combined be combined to generate a 3D speed metric. The Metrics API gives developers full access to metrics like 3D speed, heart rate, distance, altitude, etc.
