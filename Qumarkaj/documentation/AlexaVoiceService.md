@@ -5,7 +5,8 @@
 > This project demonstrates how to access and test the Alexa Voice Service using a Java client (running on a Raspberry Pi), and a Node.js server. [Alexa Voice Service Github Sample App](https://github.com/alexa/alexa-avs-sample-app)
 
 
-- [](https://github.com/alexa)
+- [Alexa Voice Service Github](https://github.com/alexa)
+- [The Internet of Voice Challenge](https://www.hackster.io/contests/alexa-raspberry-pi)
 
 
 ## Interfaces
