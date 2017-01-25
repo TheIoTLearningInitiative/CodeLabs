@@ -4,7 +4,7 @@
 
 - [Alexa Voice Service Github Sample App](https://github.com/alexa/alexa-avs-sample-app)
 
-# Interfaces
+## Interfaces
 
 - __SpeechRecognizer__ .. The core interface for the Alexa Voice Service. Each user utterance leverages the Recognize event.
 - __SpeechSynthesizer__ .. The interface for Alexa speech.
