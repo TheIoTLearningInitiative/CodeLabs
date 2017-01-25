@@ -27,3 +27,8 @@
   - Adjust the ear stems
     > The soft rubber ear stems on Jet’s frame can be adjusted to the exact contour of your head for a secure and comfortable fit.
 7. Changing Lenses & Batteries
+  - Remove the Engine & Battery
+    > Gently push the release tab forward with your thumb, then swing the battery or engine inward to release it from the frame.
+  - Remove the Lens (I)
+    > There is a release tab at the center of Jet’s frame. Using your fingernail, gently pull the release tab all the way back. This will open the lens release mechanism.
+  - 
