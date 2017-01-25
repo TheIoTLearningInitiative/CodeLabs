@@ -21,5 +21,8 @@
   - Recon Engage
 6. Adjusting your fit
   - Adjust the noisepiece
+    > Adjust the nosepiece so that Jet sits comfortably on your face, with the display in the right position.
   - Adjust the display
+    > Lightly press and twist the Display Control Column with your thumb to adjust the display horizontally. Move the Display Control Column back and forth to adjust the display vertically.
   - Adjust the ear stems
+    > The soft rubber ear stems on Jet’s frame can be adjusted to the exact contour of your head for a secure and comfortable fit.
