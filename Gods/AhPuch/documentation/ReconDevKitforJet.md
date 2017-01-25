@@ -32,4 +32,5 @@ Setting Up Your Environment
 Activity Status API.
    > Recon devices enable users to record fitness activities like running, biking, skiing, and snowboarding. When a user starts recording a fitness activity, various relevant metrics (e.g. pace, power, and heart rate) are displayed on the screen and are simultaneously saved to the device’s memory. Recorded fitness activities can be uploaded to Engage, pushed to other fitness tracking services, and shared to social media.
    > When a fitness activity is started, paused, or ended, it sends a broadcast intent. This intent can be received by any application or service running on the device. Using the Activity Status API, your app can listen for this information and discover the fitness activity’s type and status.
-8. 
+8. __Glance__
+ 
