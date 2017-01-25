@@ -24,3 +24,5 @@ Heading API. This sample will show how to use the heading service to determine t
    > Notifications on ReconOS come in two distinct flavors: passive and interactive. Both types of notification are displayed at the bottom of the screen.
    >> Passive notifications are used to show short, concise messages for a brief amount of time
    >> Interactive notifications can be acted upon by the user. These notifications are larger and remain visible for a longer period of time (10 seconds). They can also be dismissed manually.
+4. Metrics
+   > 
