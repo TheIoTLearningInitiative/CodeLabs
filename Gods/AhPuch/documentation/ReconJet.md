@@ -11,4 +11,6 @@
   - Height
   - Weight
   - Gender
-  - Location 
+  - Location
+3. Make account public?
+4. Select your Heads-Up display
