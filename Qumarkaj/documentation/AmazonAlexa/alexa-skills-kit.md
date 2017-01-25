@@ -1,3 +1,3 @@
 # Alexa Skills Kit
 
-[](https://developer.amazon.com/alexa-skills-kit)
+>  [Homepage](https://developer.amazon.com/alexa-skills-kit)
