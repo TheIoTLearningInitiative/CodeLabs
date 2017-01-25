@@ -9,7 +9,7 @@
 
 ## 
 
-> [Developer Homepage](https://software.intel.com/en-us/recon/jet-pro)
+> This hands-free solution for industries like field service, manufacturing, and logistics enables workers to access mission-critical information, stream video images during calls, and interface with remote ERP systems in real time. [Developer Homepage](https://software.intel.com/en-us/recon/jet-pro)
 
 ## ReconJet Smart Eye Wear for Sports
 
