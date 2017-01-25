@@ -10,8 +10,5 @@ Setting Up Your Environment
 ## Samples
 
 1. My First Recon App
-   > This is a brief overview of the resources you'll need to develop apps for ReconOS, an Operating System
-that provides a powerful platform compatible with Android API level 16. Once you've familiarized yourself
-with our reference app and with the Recon SDK UI components, you should be comfortable enough to
-create your own Jet Pro app
+   > This is a brief overview of the resources you'll need to develop apps for ReconOS, an Operating System that provides a powerful platform compatible with Android API level 16. Once you've familiarized yourself with our reference app and with the Recon SDK UI components, you should be comfortable enough to create your own Jet Pro app
 2. 
