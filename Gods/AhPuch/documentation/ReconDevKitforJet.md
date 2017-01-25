@@ -24,9 +24,11 @@ Setting Up Your Environment
    >> Passive notifications are used to show short, concise messages for a brief amount of time
    >> Interactive notifications can be acted upon by the user. These notifications are larger and remain visible for a longer period of time (10 seconds). They can also be dismissed manually.
 5. __Metrics__
-   > This guide offers a quick insight into the using the Metrics API. When this document refers to ‘metrics’, we are talking about fitness data. ReconOS generates metrics by processing, filtering, and sometimes combining raw readings from both built-in and third-party (i.e. BLE & ANT+) sensors. For example, raw readings from Jet’s GPS and barometer/altimeter are combined be combined to generate a 3D speed metric. The Metrics API gives developers full access to metrics like 3D speed, heart rate, distance, altitude, etc.
+   > This guide offers a quick insight into the using the Metrics API. 
+   > When this document refers to ‘metrics’, we are talking about fitness data. ReconOS generates metrics by processing, filtering, and sometimes combining raw readings from both built-in and third-party (i.e. BLE & ANT+) sensors. For example, raw readings from Jet’s GPS and barometer/altimeter are combined be combined to generate a 3D speed metric. The Metrics API gives developers full access to metrics like 3D speed, heart rate, distance, altitude, etc.
 6. __External Sensor__
-   > This guide offers a quick insight into the using the External Sensor API. The External Sensor API makes it easier to work with ANT+ and Bluetooth Smart (BLE) fitness sensors. This API allows developers to connect and disconnect sensors, manage which sensors are in use, and ensure that sensors are properly connected. For instance, before an app can obtain heart-rate data (via the Metrics API) a heart-rate sensor must be connected. Using the External Sensor API, the app can check for this critical connection.
+   > This guide offers a quick insight into the using the External Sensor API. 
+   > The External Sensor API makes it easier to work with ANT+ and Bluetooth Smart (BLE) fitness sensors. This API allows developers to connect and disconnect sensors, manage which sensors are in use, and ensure that sensors are properly connected. For instance, before an app can obtain heart-rate data (via the Metrics API) a heart-rate sensor must be connected. Using the External Sensor API, the app can check for this critical connection.
 7. __Activity Status__
    > This guide offers a quick insight into the using the
 Activity Status API.
