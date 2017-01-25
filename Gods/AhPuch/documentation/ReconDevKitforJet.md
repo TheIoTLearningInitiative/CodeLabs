@@ -23,3 +23,5 @@ Heading API. This sample will show how to use the heading service to determine t
    > This guide offers a quick insight into the using the Notifications API. A notification is a message you can show to the user outside of your application’s user interface (UI). Because of their unique design, Recon devices present notifications in a different way than other mobile devices.
    > Notifications on ReconOS come in two distinct flavors: passive and interactive. Both types of notification are displayed at the bottom of the screen.
    >> Passive notifications are used to show short, concise messages for a brief amount of time
+   >> Interactive notifications can be acted upon by the user. These notifications are larger and
+remain visible for a longer period of time (10 seconds). They can also be dismissed manually
