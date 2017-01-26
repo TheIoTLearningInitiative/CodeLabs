@@ -77,7 +77,7 @@ root@edison:~/led-speech-edison/bin# source ~/.profile
 root@edison:~/led-speech-edison/bin# ./installPocketsphinx.sh
 ```
 
-```sh
+```bash
 #!/bin/sh
 
 mkdir -p ../install
