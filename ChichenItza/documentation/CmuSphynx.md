@@ -104,7 +104,6 @@ python setup.py install
 echo "Pocketsphinx installed."
 ```
 
-
 ```sh
 root@edison:~/led-speech-edison/bin# ./installPyAudio.sh
 ```
