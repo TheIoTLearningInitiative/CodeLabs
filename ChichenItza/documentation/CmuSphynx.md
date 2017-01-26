@@ -9,6 +9,7 @@ root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav
 ```
 
 ```sh
+root@edison:~# nano ~/.asoundrc
 ```
 
 ```sh
