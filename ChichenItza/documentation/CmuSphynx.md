@@ -65,6 +65,11 @@ echo "Sphinxbase installed."
 
 ```sh
 root@edison:~/led-speech-edison/bin# nano ~/.profile
+export LD_LIBRARY_PATH=/usr/local/lib
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
+```
+
+```sh
 
 ```
 
