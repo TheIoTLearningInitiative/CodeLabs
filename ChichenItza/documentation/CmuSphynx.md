@@ -15,3 +15,7 @@ Successfully installed cython-0.25.2
 /usr/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true .
   InsecurePlatformWarning
 ```
+
+```sh
+root@edison:~# git clone https://github.com/drejkim/led-speech-edison.git
+```
