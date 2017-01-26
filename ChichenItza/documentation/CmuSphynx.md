@@ -64,6 +64,11 @@ echo "Sphinxbase installed."
 ```
 
 ```sh
+root@edison:~/led-speech-edison/bin# nano ~/.profile
+
+```
+
+```sh
 root@edison:~/led-speech-edison/bin# ./installPocketsphinx.sh
 ```
 
