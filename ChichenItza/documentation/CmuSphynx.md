@@ -5,6 +5,16 @@ root@edison:~# opkg install alsa-utils libportaudio2 libasound2 bison espeak als
 ```
 
 ```sh
+root@edison:~# aplay -l
+...
+...
+card 1: dummyaudio [dummy-audio], device 0: 14 []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 2: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+root@edison:~# 
 ```
 
 ```sh
