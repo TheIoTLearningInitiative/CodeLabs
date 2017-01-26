@@ -70,7 +70,7 @@ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 ```
 
 ```sh
-
+root@edison:~/led-speech-edison/bin# source ~/.profile
 ```
 
 ```sh
