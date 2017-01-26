@@ -27,9 +27,11 @@ root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav
 ```
 
 ```sh
+root@edison:~# arecord ~/test.wav
 ```
 
 ```sh
+root@edison:~# aplay ~/test.wav
 ```
 
 ```sh
