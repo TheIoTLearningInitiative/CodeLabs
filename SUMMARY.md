@@ -38,6 +38,7 @@
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
 * [Chichen Itza](ChichenItza/documentation/ChichenItza.md)
+  * [CMU Sphinx](ChichenItza/documentation/CmuSphynx.md)
 * [Coba](Coba/documentation/Coba.md)
 * [Dos Pilas](DosPilas/documentation/DosPilas.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
