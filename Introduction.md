@@ -12,6 +12,7 @@
 * **Edzna** Home Assistant
 * **Q'umarkaj** Amazon Alexa
 * **Ah Puch** Recon Instruments
+* **Chichen Itza** Audio
 
 ## Full List
 
