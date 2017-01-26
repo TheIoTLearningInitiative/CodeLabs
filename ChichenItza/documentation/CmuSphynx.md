@@ -33,6 +33,10 @@ root@edison:~/led-speech-edison/bin#
 ```
 
 ```sh
+root@edison:~/led-speech-edison/bin# ./installSphinxbase.sh
+```
+
+```sh
 #!/bin/sh
 
 mkdir -p ../install
@@ -58,3 +62,14 @@ python setup.py install
 
 echo "Sphinxbase installed."
 ```
+
+```sh
+root@edison:~/led-speech-edison/bin# ./installPocketsphinx.sh
+```
+
+
+```sh
+root@edison:~/led-speech-edison/bin# ./installPyAudio.sh
+```
+
+
