@@ -35,4 +35,5 @@ root@edison:~# aplay ~/test.wav
 ```
 
 ```sh
+root@edison:~# pip install cython
 ```
