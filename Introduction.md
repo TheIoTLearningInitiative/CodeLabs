@@ -78,6 +78,12 @@ Yucatán
 * **Ah Muzen Cab** Web Camera **Under Construction**
 * **Ah Peku** API Slack Bot Users
 * **Ah Puch** Recon Instruments
+* **Tbd** Bosch IoT Suite
+
+
+
+
+
 
 
 
