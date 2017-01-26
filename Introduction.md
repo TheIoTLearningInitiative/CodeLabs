@@ -7,10 +7,10 @@
 ## Priority
 
 * **Caracol** Digital Door
-* **Kaminaljuyu** Air Quality **Under Construction**
-* **Tikal** Emergency Medical Monitoring System **Under Construction**
+* **Kaminaljuyu** Air Quality
+* **Tikal** Emergency Medical Monitoring System
 * **Edzna** Home Assistant
-* **Q'umarkaj** Amazon Alexa  
+* **Q'umarkaj** Amazon Alexa
 * **Ah Puch** Recon Instruments
 
 ## Full List
