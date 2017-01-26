@@ -10,9 +10,9 @@
 
 - [Homepage](http://alexa.amazon.com/)
 - [Alexa Voice Service Introduces API Update that Makes It Easier to Build Hands-Free Products](https://developer.amazon.com/blogs/post/Tx1WVAG8L2OOXF0/Alexa-Voice-Service-Introduces-API-Update-that-Makes-It-Easier-to-Build-Hands-Fr)
-- https://github.com/drejkim/particle-light-alexa
-- https://www.meetup.com/Hackster-Hardware-Meetup-SJC/events/232329858/
-- https://developer.amazon.com/alexa
+- [1](https://github.com/drejkim/particle-light-alexa)
+- [2](https://www.meetup.com/Hackster-Hardware-Meetup-SJC/events/232329858/)
+- [3](https://developer.amazon.com/alexa)
 
 ## Alexa Developer Resources
 
