@@ -19,3 +19,15 @@ Successfully installed cython-0.25.2
 ```sh
 root@edison:~# git clone https://github.com/drejkim/led-speech-edison.git
 ```
+
+```sh
+root@edison:~# cd led-speech-edison/
+root@edison:~/led-speech-edison# ls
+LICENSE.md  README.md  bin  blink.py  cycle.py  images  lm  speech.py
+
+```sh
+root@edison:~/led-speech-edison# cd bin/
+root@edison:~/led-speech-edison/bin# ls
+installPocketsphinx.sh  installPyAudio.sh  installSphinxbase.sh
+root@edison:~/led-speech-edison/bin# 
+```
