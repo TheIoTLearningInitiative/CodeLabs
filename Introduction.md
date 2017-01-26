@@ -6,12 +6,12 @@
 
 ## Priority
 
-* __Caracol__ Digital Door
-* __Kaminaljuyu__ Air Quality **Under Construction**
-* __Tikal__ Emergency Medical Monitoring System **Under Construction**
-* __Edzna__ Home Assistant
-* __Q'umarkaj__ Amazon Alexa  
-* __Ah Puch__ Recon Instruments
+* **Caracol** Digital Door
+* **Kaminaljuyu** Air Quality **Under Construction**
+* **Tikal** Emergency Medical Monitoring System **Under Construction**
+* **Edzna** Home Assistant
+* **Q'umarkaj** Amazon Alexa  
+* **Ah Puch** Recon Instruments
 
 ## Full List
 
@@ -73,7 +73,10 @@ Yucatán
 
 > This is a name list of Maya gods and supernatural beings playing a role in the Classic \(200–1000 CE\) and Post-Classic \(1000–1697 CE\) Maya religion. [Wikipedia](https://en.wikipedia.org/wiki/List_of_Maya_gods_and_supernatural_beings)
 
-* __Acat__ Blockchain **Under Construction**
-* __Ah Muzen Cab__ Web Camera **Under Construction**
-* __Ah Peku__ API Slack Bot Users
-* __Ah Puch__ Recon Instruments
+* **Acat** Blockchain **Under Construction**
+* **Ah Muzen Cab** Web Camera **Under Construction**
+* **Ah Peku** API Slack Bot Users
+* **Ah Puch** Recon Instruments
+
+
+
