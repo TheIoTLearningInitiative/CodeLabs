@@ -34,3 +34,5 @@ root@edison:~# arecord ~/test.wav
 root@edison:~# aplay ~/test.wav
 ```
 
+
+
