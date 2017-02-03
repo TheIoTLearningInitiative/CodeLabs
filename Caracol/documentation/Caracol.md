@@ -32,6 +32,6 @@
 # What we offer
 
 - Stationary Video Conference Station
-- Live Translation
+  - Live Translation
 - Entertainment System
 - Mobile Video Conference Station
