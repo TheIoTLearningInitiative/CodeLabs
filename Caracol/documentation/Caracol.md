@@ -19,12 +19,19 @@
 
 # Devices
 
+# What we see
+
 - Digital Door
-- Entertainment System
 - Mobile System
 
-In simple words we have:
+# What they want
 
 - Stationary Video Conference Station
 - Live Translation
 
+# What we offer
+
+- Stationary Video Conference Station
+- Live Translation
+- Entertainment System
+- Mobile Video Conference Station
