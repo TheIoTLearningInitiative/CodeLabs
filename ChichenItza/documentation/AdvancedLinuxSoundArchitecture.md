@@ -45,7 +45,7 @@ root@edison:~/CodeLabs#
 
 # Play & Record, One Single Device
 
-Device USB Audio Dongle
+> Device USB Audio Dongle
 
 ```sh
 root@edison:~# nano ~/.asoundrc
@@ -54,10 +54,9 @@ pcm.!default sysdefault:Device
 
 # Play & Capture, Two Devices
 
-Devices:
-
-- USB Audio Dongle (Play)
-- USB Camera with Microphone (Record)
+> Devices:
+>> - USB Audio Dongle (Play)
+>> - USB Camera with Microphone (Record)
 
 # Test
 
