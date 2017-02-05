@@ -179,3 +179,9 @@ SConstruct            configure.in          ltmain.sh
 aclocal.m4            depcomp               missing
 root@edison:~/portaudio# 
 ```
+
+```sh
+root@edison:~/portaudio# ./configure
+root@edison:~/portaudio# make
+root@edison:~/portaudio# make install
+```
