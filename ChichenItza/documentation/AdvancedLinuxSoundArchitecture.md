@@ -17,18 +17,21 @@ card 2: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
 root@edison:~# 
 ```
 
-# One Single Device, Play & Capture
+# Play & Record, One Single Device
 
-E.g. USB Audio Dongle
+Device USB Audio Dongle
 
 ```sh
 root@edison:~# nano ~/.asoundrc
 pcm.!default sysdefault:Device
 ```
 
-# Two Devices, Play + Capture
+# Play & Capture, Two Devices
 
-E.g. USB Audio Dongle (Play), USB Camera with Microphone (Capture)
+Devices:
+
+- USB Audio Dongle (Play)
+- USB Camera with Microphone (Record)
 
 ```sh
 root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav
