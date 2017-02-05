@@ -160,3 +160,7 @@ Saving to: 'pa_stable_v190600_20161030.tgz'
 
 root@edison:~# 
 ```
+
+```sh
+root@edison:~# tar xvf pa_stable_v190600_20161030.tgz
+```
