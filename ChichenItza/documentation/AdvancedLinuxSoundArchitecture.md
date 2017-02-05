@@ -1,5 +1,7 @@
 # Advanced Linux Sound Architecture
 
+# Package Requirement Installation
+
 ```sh
 root@edison:~# opkg install alsa-utils libportaudio2 libasound2 bison espeak alsa-lib-dev alsa-utils-dev alsa-dev python-numpy
 ```
@@ -18,7 +20,7 @@ root@edison:~#
 ```
 
 ```sh
-root@edison:~# aplay -l
+root@edison:~# record -l
 ...
 ...
 card 1: dummyaudio [dummy-audio], device 0: 14 []
