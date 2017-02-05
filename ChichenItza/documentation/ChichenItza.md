@@ -6,4 +6,6 @@
 
 # Required Hardware
 
-USB Audio Dongle USB PnP Sound Device
+- USB Audio Dongle USB PnP Sound Device
+- Microphone
+
