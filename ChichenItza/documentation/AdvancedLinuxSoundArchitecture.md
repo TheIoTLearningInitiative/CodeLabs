@@ -1,10 +1,12 @@
 # Advanced Linux Sound Architecture
 
-# Package Requirement Installation
+## Package Requirement Installation
 
 ```sh
 root@edison:~# opkg install alsa-utils libportaudio2 libasound2 bison espeak alsa-lib-dev alsa-utils-dev alsa-dev python-numpy
 ```
+
+## Play Device Identification
 
 ```sh
 root@edison:~# aplay -l
