@@ -17,7 +17,9 @@ card 2: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
 root@edison:~# 
 ```
 
-# Play Capture Device
+# One Single Device, Play & Capture
+
+E.g. 
 
 ```sh
 root@edison:~# nano ~/.asoundrc
