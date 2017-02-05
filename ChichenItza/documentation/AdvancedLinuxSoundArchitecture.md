@@ -6,7 +6,9 @@
 root@edison:~# opkg install alsa-utils libportaudio2 libasound2 bison espeak alsa-lib-dev alsa-utils-dev alsa-dev python-numpy
 ```
 
-## Play Device Identification
+## Play Devices Identification
+
+> List all soundcards and digital audio devices
 
 ```sh
 root@edison:~# aplay -l
@@ -20,6 +22,10 @@ card 2: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
   Subdevice #0: subdevice #0
 root@edison:~# 
 ```
+
+## Record Devices Identification
+
+> List all soundcards and digital audio devices
 
 ```sh
 root@edison:~# record -l
