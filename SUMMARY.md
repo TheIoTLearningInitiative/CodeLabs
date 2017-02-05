@@ -40,6 +40,7 @@
 * [Chichen Itza](ChichenItza/documentation/ChichenItza.md)
   * [Advanced Linux Sound Architecture](ChichenItza/documentation/AdvancedLinuxSoundArchitecture.md)
   * [CMU Sphinx](ChichenItza/documentation/CmuSphynx.md)
+    * [Sphinx Knowledge Base Tool](ChichenItza/documentation/CmuSphynxKnowledgeBaseTool.md)
   * [Temp](ChichenItza/documentation/temp.md)
 * [Coba](Coba/documentation/Coba.md)
 * [Dos Pilas](DosPilas/documentation/DosPilas.md)

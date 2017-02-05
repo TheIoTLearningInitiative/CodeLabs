@@ -142,3 +142,21 @@ root@edison:~/led-speech-edison# ls install/
 PyAudio-0.2.8  pocketsphinx-0.8  sphinxbase-0.8
 root@edison:~/led-speech-edison# 
 ```
+
+## PortAudio
+
+```sh
+root@edison:~# wget http://www.portaudio.com/archives/pa_stable_v190600_20161030.tgz
+--2017-02-05 19:04:41--  http://www.portaudio.com/archives/pa_stable_v190600_20161030.tgz
+Resolving www.portaudio.com... 107.22.210.58
+Connecting to www.portaudio.com|107.22.210.58|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1450572 (1.4M) [application/x-gzip]
+Saving to: 'pa_stable_v190600_20161030.tgz'
+
+100%[======================================>] 1,450,572    701KB/s   in 2.0s   
+
+2017-02-05 19:04:43 (701 KB/s) - 'pa_stable_v190600_20161030.tgz' saved [1450572/1450572]
+
+root@edison:~# 
+```
