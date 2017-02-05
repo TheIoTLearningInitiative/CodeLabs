@@ -164,3 +164,18 @@ root@edison:~#
 ```sh
 root@edison:~# tar xvf pa_stable_v190600_20161030.tgz
 ```
+
+```sh
+root@edison:~# cd portaudio/
+root@edison:~/portaudio# ls
+CMakeLists.txt        bindings              doc          pablio
+Doxyfile              build                 examples     portaudio-2.0.pc.in
+Doxyfile.developer    clear_gitrevision.sh  fixdir.bat   qa
+LICENSE.txt           cmake_support         fixfile.bat  src
+Makefile.in           config.guess          include      test
+README.configure.txt  config.sub            index.html   testcvs
+README.txt            configure             install-sh   update_gitrevision.sh
+SConstruct            configure.in          ltmain.sh
+aclocal.m4            depcomp               missing
+root@edison:~/portaudio# 
+```
