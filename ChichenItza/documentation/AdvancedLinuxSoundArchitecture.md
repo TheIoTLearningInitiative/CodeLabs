@@ -25,7 +25,7 @@ root@edison:~#
 
 ## Record Devices Identification
 
-> List all soundcards and digital audio devices
+> List all soundcards and digital audio devices [ALSA Project Asoundrc](https://www.alsa-project.org/main/index.php/Asoundrc)
 
 ```sh
 root@edison:~# record -l
@@ -42,6 +42,8 @@ card 3: C525 [HD Webcam C525], device 0: USB Audio [USB Audio]
   Subdevice #0: subdevice #0
 root@edison:~/CodeLabs# 
 ```
+
+## 
 
 # Play & Record, One Single Device
 
