@@ -137,3 +137,8 @@ python setup.py install
 echo "PyAudio installed."
 ```
 
+```sh
+root@edison:~/led-speech-edison# ls install/
+PyAudio-0.2.8  pocketsphinx-0.8  sphinxbase-0.8
+root@edison:~/led-speech-edison# 
+```
