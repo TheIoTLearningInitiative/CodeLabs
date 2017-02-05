@@ -19,12 +19,16 @@ root@edison:~#
 
 # One Single Device, Play & Capture
 
-E.g. USB Sound Card
+E.g. USB Audio Dongle
 
 ```sh
 root@edison:~# nano ~/.asoundrc
 pcm.!default sysdefault:Device
 ```
+
+# Two Devices, Play + Capture
+
+E.g. USB Audio Dongle (Play), USB Camera with Microphone (Capture)
 
 ```sh
 root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav
