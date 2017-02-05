@@ -9,3 +9,6 @@
 - USB Audio Dongle USB PnP Sound Device
 - Microphone
 
+# Links
+
+- [LED Speech Edison](https://github.com/drejkim/led-speech-edison)
