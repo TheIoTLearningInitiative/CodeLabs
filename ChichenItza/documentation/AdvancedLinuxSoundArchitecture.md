@@ -19,7 +19,7 @@ root@edison:~#
 
 # One Single Device, Play & Capture
 
-E.g. 
+E.g. USB Sound Card
 
 ```sh
 root@edison:~# nano ~/.asoundrc
