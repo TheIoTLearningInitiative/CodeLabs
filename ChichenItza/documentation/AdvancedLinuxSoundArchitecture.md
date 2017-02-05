@@ -17,6 +17,22 @@ card 2: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
 root@edison:~# 
 ```
 
+```sh
+root@edison:~# aplay -l
+...
+...
+card 1: dummyaudio [dummy-audio], device 0: 14 []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 2: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 3: C525 [HD Webcam C525], device 0: USB Audio [USB Audio]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+root@edison:~/CodeLabs# 
+```
+
 # Play & Record, One Single Device
 
 Device USB Audio Dongle
@@ -32,6 +48,8 @@ Devices:
 
 - USB Audio Dongle (Play)
 - USB Camera with Microphone (Record)
+
+# Test
 
 ```sh
 root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav
