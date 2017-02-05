@@ -25,7 +25,7 @@ root@edison:~#
 
 ## Record Devices Identification
 
-> List all soundcards and digital audio devices [ALSA Project Asoundrc](https://www.alsa-project.org/main/index.php/Asoundrc)
+> List all soundcards and digital audio devices
 
 ```sh
 root@edison:~# record -l
@@ -43,9 +43,11 @@ card 3: C525 [HD Webcam C525], device 0: USB Audio [USB Audio]
 root@edison:~/CodeLabs# 
 ```
 
-## 
+## ALSA Configuration
 
-# Play & Record, One Single Device
+> .asoundrc [ALSA Project Asoundrc](https://www.alsa-project.org/main/index.php/Asoundrc)
+
+### Play & Record, One Single Device
 
 > Device USB Audio Dongle
 
@@ -54,13 +56,15 @@ root@edison:~# nano ~/.asoundrc
 pcm.!default sysdefault:Device
 ```
 
-# Play & Capture, Two Devices
+### Play & Capture, Two Devices
 
 > Devices:
 >> - USB Audio Dongle (Play)
 >> - USB Camera with Microphone (Record)
 
-# Test
+## Arecord, Aplay
+
+> arecord, aplay - command-line sound recorder and player for ALSA soundcard driver
 
 ```sh
 root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav
