@@ -42,11 +42,11 @@
     * [Advanced Linux Sound Architecture](ChichenItza/documentation/AdvancedLinuxSoundArchitecture.md)
   * [Text To Speech](ChichenItza/documentation/TextToSpeech.md)
     * [eSpeak](ChichenItza/documentation/eSpeak.md)
-  * [CMU Sphinx](ChichenItza/documentation/CmuSphynx.md)
-    * [Sphinx Knowledge Base Tool](ChichenItza/documentation/CmuSphynxKnowledgeBaseTool.md)
-  * [SpeechRecognition](ChichenItza/documentation/SpeechRecognition.md)
   * [Speech To Text](ChichenItza/documentation/SpeechToText.md)
-    * Tbd
+    * [CMU Sphinx](ChichenItza/documentation/CmuSphynx.md)
+      * [Sphinx Knowledge Base Tool](ChichenItza/documentation/CmuSphynxKnowledgeBaseTool.md)
+      * Tbd
+    * [SpeechRecognition](ChichenItza/documentation/SpeechRecognition.md)
 * [Coba](Coba/documentation/Coba.md)
 * [Dos Pilas](DosPilas/documentation/DosPilas.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
