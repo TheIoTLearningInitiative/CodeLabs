@@ -66,7 +66,7 @@ while 1:
                 p = pyaudio.PyAudio()
                 speech_rec = ps.Decoder(lm=LMD, dict=DICTD)
 
-                                #Record audio
+                #Record audio
                 print("* recording")
                 frames = []
                 for i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
