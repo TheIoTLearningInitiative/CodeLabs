@@ -2,7 +2,6 @@
 
 ```sh
 root@edison:~# nano main.py
-...
 ```
 
 ```python
@@ -49,3 +48,6 @@ File "/usr/lib/python2.7/site-packages/pyaudio.py", line 608, in read
 return pa.read_stream(self._stream, num_frames, exception_on_overflow)
 IOError: [Errno -9981] Input overflowed
 ```
+
+Reboot...
+
