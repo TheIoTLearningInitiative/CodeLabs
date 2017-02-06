@@ -40,6 +40,7 @@
 * [Chichen Itza](ChichenItza/documentation/ChichenItza.md)
   * [Audio](ChichenItza/documentation/Audio.md)
     * [Advanced Linux Sound Architecture](ChichenItza/documentation/AdvancedLinuxSoundArchitecture.md)
+    * [PyAudio](ChichenItza/documentation/PyAudio.md)
   * [Text To Speech](ChichenItza/documentation/TextToSpeech.md)
     * [eSpeak](ChichenItza/documentation/eSpeak.md)
     * [VoiceRss](ChichenItza/documentation/VoiceRss.md)
