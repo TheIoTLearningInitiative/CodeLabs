@@ -10,5 +10,5 @@ from urllib import urlretrieve
 
 filename = 'speech.wav'
 urlretrieve("http://api.voicerss.org/?key=04f49802d32d442ca997d4d2ea76d3d5"
-            "&hl=en-us&c=wav&src=texto", filename)
+            "&hl=en-us&c=wav&src=Hello World", filename)
 ```
