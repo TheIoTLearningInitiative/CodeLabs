@@ -4,6 +4,12 @@
 
 - [For Reference Only](http://stackoverflow.com/questions/33513522/when-installing-pyaudio-pip-cannot-find-portaudio-h-in-usr-local-include)
 
+## Installation
+
+```sh
+root@edison:~# python -m pip install pyaudio
+```
+
 ## Play
 
 ```sh
