@@ -63,6 +63,9 @@ root@edison:~# nano main.py
 ```
 
 ```python
+#!usr/bin/env python  
+#coding=utf-8
+
 import pyaudio
 import wave
 
