@@ -10,6 +10,7 @@ Demos
 - Play (Callback)
 - Wire (Callback)
 
+- [PyAudio Documentation](https://people.csail.mit.edu/hubert/pyaudio/docs/)
 - [For Reference Only](http://stackoverflow.com/questions/33513522/when-installing-pyaudio-pip-cannot-find-portaudio-h-in-usr-local-include)
 - [For Reference Only](https://jfraj.github.io/2015/06/17/recording_audio.html)
 
