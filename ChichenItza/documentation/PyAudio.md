@@ -1,5 +1,7 @@
 # PyAudio
 
+## Play
+
 ```python
 #!usr/bin/env python  
 #coding=utf-8  
@@ -33,4 +35,19 @@ stream.close()
 
 #close PyAudio  
 p.terminate()
+```
+
+## Record
+
+```sh
+root@edison:~# python main.py 
+...
+recording...
+...
+Traceback (most recent call last):
+  File "main.py", line 21, in <module>
+    data = stream.read(CHUNK)
+  File "/usr/lib/python2.7/site-packages/pyaudio.py", line 608, in read
+    return pa.read_stream(self._stream, num_frames, exception_on_overflow)
+IOError: [Errno -9981] Input overflowed
 ```
