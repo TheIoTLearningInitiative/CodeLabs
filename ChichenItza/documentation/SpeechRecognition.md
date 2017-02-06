@@ -11,9 +11,9 @@ TypeError: function takes exactly 2 arguments (3 given)
 ```
 
 ```sh
-pip install SpeechRecognition --upgrade
-pip install pyaudio --upgrade
-pip install wheel --upgrade
+root@edison:~# pip install SpeechRecognition --upgrade
+root@edison:~# pip install pyaudio --upgrade
+root@edison:~# pip install wheel --upgrade
 ```
 
 ```python
