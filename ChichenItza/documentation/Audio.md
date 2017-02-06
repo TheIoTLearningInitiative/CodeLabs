@@ -1,3 +1,3 @@
 # Audio
 
->  [Wikipedia](https://en.wikipedia.org/wiki/Audio_signal)
+> An audio signal is a representation of sound, typically as an electrical voltage. Audio signals have frequencies in the audio frequency range of roughly 20 to 20,000 Hz (the limits of human hearing). Audio signals may be synthesized directly, or may originate at a transducer such as a microphone, musical instrument pickup, phonograph cartridge, or tape head. Loudspeakers or headphones convert an electrical audio signal into sound. Digital representations of audio signals exist in a variety of formats. [Wikipedia](https://en.wikipedia.org/wiki/Audio_signal)
