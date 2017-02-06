@@ -40,6 +40,11 @@ p.terminate()
 ## Record
 
 ```sh
+root@edison:~# nano main.py 
+...
+
+
+```sh
 root@edison:~# python main.py 
 ...
 recording...
