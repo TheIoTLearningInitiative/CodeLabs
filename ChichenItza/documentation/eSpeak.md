@@ -38,3 +38,9 @@ root@edison:~# echo "hello world" | espeak -ven+m5
 ALSA lib /export/users/neck/iotdk_3.5_dev/workdir/build_edison/tmp/work/core2-32-poky-linux/alsa-lib/1.0.28-r0/alsa-lib-1r
 root@edison:~# 
 ```
+
+```sh
+root@edison:~# echo "hola mundo" | espeak -ves      
+ALSA lib /export/users/neck/iotdk_3.5_dev/workdir/build_edison/tmp/work/core2-32-poky-linux/alsa-lib/1.0.28-r0/alsa-lib-1r
+root@edison:~# 
+```
