@@ -1,6 +1,6 @@
 # PyAudio
 
-> 
+> PyAudio provides Python bindings for PortAudio, the cross-platform audio I/O library. With PyAudio, you can easily use Python to play and record audio on a variety of platforms, such as GNU/Linux, Microsoft Windows, and Apple Mac OS X / macOS. [Homepage](https://people.csail.mit.edu/hubert/pyaudio/)
 
 - [For Reference Only](http://stackoverflow.com/questions/33513522/when-installing-pyaudio-pip-cannot-find-portaudio-h-in-usr-local-include)
 
