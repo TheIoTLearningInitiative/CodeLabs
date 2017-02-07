@@ -18,7 +18,6 @@
 - [Alexa Particle](https://github.com/drejkim/particle-light-alexa)
 - [Hackster Hardware Meetup](https://www.meetup.com/Hackster-Hardware-Meetup-SJC/events/232329858/)
 
-
 ## Alexa Developer Resources
 
 - Alexa Voice Service (AVS)
