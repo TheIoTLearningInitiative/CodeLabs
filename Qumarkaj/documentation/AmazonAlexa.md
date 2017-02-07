@@ -11,6 +11,9 @@
 - [Homepage](http://alexa.amazon.com/)
 - [Amazon Developer Zone Alexa](https://developer.amazon.com/alexa)
 - [Amazon Developer Console Alexa](https://developer.amazon.com/edw/home.html#/)
+
+## Links
+
 - [Alexa Voice Service Introduces API Update that Makes It Easier to Build Hands-Free Products](https://developer.amazon.com/blogs/post/Tx1WVAG8L2OOXF0/Alexa-Voice-Service-Introduces-API-Update-that-Makes-It-Easier-to-Build-Hands-Fr)
 - [1](https://github.com/drejkim/particle-light-alexa)
 - [2](https://www.meetup.com/Hackster-Hardware-Meetup-SJC/events/232329858/)
