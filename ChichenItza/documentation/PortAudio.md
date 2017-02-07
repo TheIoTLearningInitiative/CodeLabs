@@ -40,3 +40,14 @@ root@edison:~/portaudio# ./configure
 root@edison:~/portaudio# make
 root@edison:~/portaudio# make install
 ```
+
+```sh
+root@edison:~/portaudio# ldconfig
+root@edison:~/portaudio# echo $LD_LIBRARY_PATH 
+
+root@edison:~/portaudio# ls /usr/local/lib/                                                                                                        
+libportaudio.a   libportaudio.so    libportaudio.so.2.0.0
+libportaudio.la  libportaudio.so.2  pkgconfig
+root@edison:~/portaudio# export LD_LIBRARY_PATH=/usr/local/lib
+root@edison:~/portaudio# 
+```
