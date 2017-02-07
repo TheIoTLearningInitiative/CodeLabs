@@ -3,7 +3,7 @@
 ## Package Requirement Installation
 
 ```sh
-root@edison:~# opkg install alsa-utils libportaudio2 libasound2 bison espeak alsa-lib-dev alsa-utils-dev alsa-dev python-numpy
+root@edison:~# opkg install alsa-utils libportaudio2 libasound2 bison alsa-lib-dev alsa-utils-dev alsa-dev
 ```
 
 ## Play Devices Identification
