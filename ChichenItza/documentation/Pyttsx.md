@@ -4,10 +4,19 @@
 
 - [Pyttsx Documentation](http://pyttsx.readthedocs.io/en/latest/)
 
+
+```sh
+root@edison:~# nano main.py
+```
+
 ```python
 import pyttsx
 
 engine = pyttsx.init()
 engine.say('Hello World Python Text To Speech X Platform')
 engine.runAndWait()
+```
+
+```sh
+root@edison:~# python main.py
 ```
