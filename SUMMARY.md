@@ -46,6 +46,7 @@
       * [Play](ChichenItza/documentation/PyAudioPlay.md)
   * [Text To Speech](ChichenItza/documentation/TextToSpeech.md)
     * [eSpeak](ChichenItza/documentation/eSpeak.md)
+      * [pyttsx](ChichenItza/documentation/Pyttsx.md)
     * [VoiceRss](ChichenItza/documentation/VoiceRss.md)
   * [Speech To Text](ChichenItza/documentation/SpeechToText.md)
     * [CMU Sphinx](ChichenItza/documentation/CmuSphynx.md)
