@@ -3,6 +3,10 @@
 > eSpeakNG is a compact open source software speech synthesizer for Linux, Windows and other platforms. It uses a formant synthesis method, providing many languages in a small size. Much of the programming for eSpeakNG's language support is done using rule files with feedback from native speakers. [Wikipedia](https://en.wikipedia.org/wiki/ESpeakNG)
 
 ```sh
+root@edison:~# opkg install espeak
+```
+
+```sh
 root@edison:~# espeak --voices=variant
 Pty Language Age/Gender VoiceName          File          Other Languages
  5  variant        F  female2              !v/f2         
