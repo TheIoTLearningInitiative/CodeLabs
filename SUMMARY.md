@@ -99,6 +99,7 @@
 * [Mixco Viejo](MixcoViejo/documentation/MixcoViejo.md)
 * [Palenque](Palenque/documentation/Palenque.md)
 * [Qumarkaj](Qumarkaj/documentation/Qumarkaj.md)
+  * [Amazon](Qumarkaj/documentation/Amazon.md)
   * [Amazon Alexa](Qumarkaj/documentation/AmazonAlexa.md)
     * [Alexa Skills Kit](Qumarkaj/documentation/AlexaSkillsKit.md)
     * [Alexa Voice Service](Qumarkaj/documentation/AlexaVoiceService.md)
