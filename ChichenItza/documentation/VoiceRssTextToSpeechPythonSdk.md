@@ -1,5 +1,10 @@
 # Voice RSS Text To Speech Python SDK
 
+> The Voice RSS Text-to-Speech Python SDK wraps Voice RSS Text-to-Speech API. The Voice RSS Text-to-Speech Python SDKs will help to make integration with our Text-to-Speech API faster and easer. [Homepage](http://www.voicerss.org/sdk/python.aspx)
+
+```sh
+root@edison:~# nano voicerss_tts.py
+```
 
 ```python
 import httplib, urllib
@@ -55,3 +60,4 @@ def __buildRequest(settings):
 	
 	return params
 ```
+
