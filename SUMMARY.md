@@ -48,6 +48,7 @@
     * [eSpeak](ChichenItza/documentation/eSpeak.md)
       * [pyttsx](ChichenItza/documentation/Pyttsx.md)
     * [VoiceRss](ChichenItza/documentation/VoiceRss.md)
+      * [VoiceRss Text To Speech Python SDK](ChichenItza/documentation/VoiceRssTextToSpeechPythonSdk.md)
   * [Speech To Text](ChichenItza/documentation/SpeechToText.md)
     * [CMU Sphinx](ChichenItza/documentation/CmuSphynx.md)
       * [Sphinx Knowledge Base Tool](ChichenItza/documentation/CmuSphynxKnowledgeBaseTool.md)
