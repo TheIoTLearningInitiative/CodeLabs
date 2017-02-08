@@ -128,7 +128,7 @@ root@board:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t Xcambo/Main/DataSen
 As publishers
 
 ```sh
-root@board:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t Xcambo/Main/DataActuator -m "Actuator On"
+root@board:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t Xcambo/Main/DataActuator -m "On"
 ```
 
 
