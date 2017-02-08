@@ -73,13 +73,13 @@ voice = voicerss_tts.speech({
     'hl': 'en-us',
     'src': 'Hello, world! Now we are talking!',
     'r': '0',
-    'c': 'mp3',
+    'c': 'wav',
     'f': '44khz_16bit_stereo',
     'ssml': 'false',
     'b64': 'false'
 })
 
-newFile = open ("voicerss.mp3", "wb")
+newFile = open ("voicerss.wav", "wb")
 newFile.write(voice['response'])
 newFile.close()
 ```
@@ -87,4 +87,9 @@ newFile.close()
 ```sh
 root@edison:~# python main.py
 ```
+
+```sh
+root@edison:~# aplay voicerss.wav
+```
+
 
