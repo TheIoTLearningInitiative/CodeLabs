@@ -61,3 +61,21 @@ def __buildRequest(settings):
 	return params
 ```
 
+```python
+import voicerss_tts
+
+voice = voicerss_tts.speech({
+    'key': '',
+    'hl': 'en-us',
+    'src': 'Hello, world! Now we are talking!',
+    'r': '0',
+    'c': 'mp3',
+    'f': '44khz_16bit_stereo',
+    'ssml': 'false',
+    'b64': 'false'
+})
+
+newFile = open ("voicerss.mp3", "wb")
+newFile.write(voice['response'])
+newFile.close()
+```
