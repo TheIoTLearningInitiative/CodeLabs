@@ -1,7 +1,5 @@
 # PyAudio Record
 
-# 
-
 ```sh
 root@edison:~# nano main.py
 ```
@@ -52,10 +50,14 @@ root@edison:~# python main.py
 ...
 recording...
 ...
-root@edison:~# python main.py
+root@edison:~# 
 ```
 
 ## Root-Mean-Square
+
+```sh
+root@edison:~# nano main.py
+```
 
 ```python
 
@@ -95,6 +97,14 @@ waveFile.setsampwidth(audio.get_sample_size(FORMAT))
 waveFile.setframerate(RATE)
 waveFile.writeframes(b''.join(frames))
 waveFile.close()
+```
+
+```sh
+root@edison:~# python main.py
+...
+recording...
+...
+root@edison:~# 
 ```
 
 ## Errors
