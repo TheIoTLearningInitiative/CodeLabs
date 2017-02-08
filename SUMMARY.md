@@ -52,7 +52,7 @@
   * [Speech To Text](ChichenItza/documentation/SpeechToText.md)
     * [CMU Sphinx](ChichenItza/documentation/CmuSphynx.md)
       * [Sphinx Knowledge Base Tool](ChichenItza/documentation/CmuSphynxKnowledgeBaseTool.md)
-      * Tbd
+      * [PyAudio](ChichenItza/documentation/CmuSphynxPyAudio.md)
     * [SpeechRecognition](ChichenItza/documentation/SpeechRecognition.md)
 * [Coba](Coba/documentation/Coba.md)
 * [Dos Pilas](DosPilas/documentation/DosPilas.md)
