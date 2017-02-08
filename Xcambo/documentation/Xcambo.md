@@ -125,6 +125,8 @@ As subscribers
 root@board:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t Xcambo/Main/DataSensor
 ```
 
+## Activity
+
 As publishers
 
 ```sh
