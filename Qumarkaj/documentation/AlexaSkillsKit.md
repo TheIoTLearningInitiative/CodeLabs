@@ -8,7 +8,8 @@
 
 ## 
 
-[](https://github.com/alexa/skill-sample-nodejs-fact)
+- [](https://github.com/alexa/skill-sample-nodejs-fact)
+- [](https://github.com/alexa/skill-sample-nodejs-trivia)
 
 ```sh
 pymelab@workstation:~/Intel/Alexa$ npm install --save alexa-sdk
