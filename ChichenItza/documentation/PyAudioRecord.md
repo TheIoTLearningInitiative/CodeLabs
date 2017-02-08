@@ -1,6 +1,7 @@
 # PyAudio Record
 
 - [To Explore](https://github.com/rhee/sam-alexa-pi)
+- [To Study](http://stackoverflow.com/questions/4160175/detect-tap-with-pyaudio-from-live-mic)
 
 ```sh
 root@edison:~# nano main.py
