@@ -12,7 +12,7 @@
 - [Step-by-Step Guide to Build a Trivia Alexa Skill](https://github.com/alexa/skill-sample-nodejs-trivia)
 
 ```sh
-pymelab@workstation:~/Intel/Alexa$ npm install --save alexa-sdk
+root@edison:~# npm install --save alexa-sdk
 ```
 
 
