@@ -131,6 +131,7 @@ cd ..
 
 echo "Building..."
 export CFLAGS="-I `pwd`/portaudio-v19/include/ -L `pwd`/portaudio-v19/lib/.libs/"
+export CFLAGS="-I `pwd`/portaudio-v20/include/ -L `pwd`/portaudio-v20/lib/.libs/"
 python setup.py build --static-link
 python setup.py install
 
