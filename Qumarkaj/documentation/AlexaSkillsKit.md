@@ -6,7 +6,7 @@
 
 > The Alexa Skills Kit SDK for Node.js helps you get a skill up and running quickly, letting you focus on skill logic instead of boilerplate code. [Github](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs)
 
-## Intel Guadalajara Fact
+## Intel Guadalajara Facts
 
 - [Step-by-Step Guide to Build a Fact-Based Alexa Skill](https://github.com/alexa/skill-sample-nodejs-fact)
 - [Step-by-Step Guide to Build a Trivia Alexa Skill](https://github.com/alexa/skill-sample-nodejs-trivia)
