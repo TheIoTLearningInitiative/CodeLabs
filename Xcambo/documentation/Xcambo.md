@@ -119,3 +119,16 @@ root@board:~/CodeLabs/Xcambo#
 
 ## Monitoring
 
+As subscribers
+
+```sh
+root@board:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t Xcambo/Main/DataSensor
+```
+
+As publishers
+
+```sh
+root@board:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t Xcambo/Main/DataActuator -m "Actuator On"
+```
+
+
