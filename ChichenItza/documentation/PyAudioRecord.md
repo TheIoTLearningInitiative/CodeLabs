@@ -78,10 +78,10 @@ frames = []
 threshold = 1000
 for i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
     data = stream.read(CHUNK)
-rms = audioop.rms(data,2)
-if rms > threshold:
-    print "I am hearing you now"
-frames.append(data)
+    rms = audioop.rms(data,2)
+    if rms > threshold:
+        print "I am hearing you now"
+    frames.append(data)
 print "finished recording"
  
 # stop Recording
