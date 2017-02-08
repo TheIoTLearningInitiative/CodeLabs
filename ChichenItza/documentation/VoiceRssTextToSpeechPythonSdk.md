@@ -61,6 +61,10 @@ def __buildRequest(settings):
 	return params
 ```
 
+```sh
+root@edison:~# nano main.py
+```
+
 ```python
 import voicerss_tts
 
@@ -79,3 +83,8 @@ newFile = open ("voicerss.mp3", "wb")
 newFile.write(voice['response'])
 newFile.close()
 ```
+
+```sh
+root@edison:~# python main.py
+```
+
