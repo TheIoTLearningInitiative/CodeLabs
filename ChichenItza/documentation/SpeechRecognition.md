@@ -7,6 +7,10 @@ root@edison:~# pip install pyaudio --upgrade
 root@edison:~# pip install wheel --upgrade
 ```
 
+```sh
+root@edison:~# nano main.py
+```
+
 ```python
 import collections
 import mraa
@@ -75,6 +79,10 @@ while 1:
 			print "Servo 0"
 		cm = 'espeak "'+recognised+'"'
 		os.system(cm)
+```
+
+```sh
+root@edison:~# python main.py
 ```
 
 ## Errors
