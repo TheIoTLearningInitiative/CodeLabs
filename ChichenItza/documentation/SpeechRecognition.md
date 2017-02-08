@@ -18,11 +18,10 @@ root@edison:~# python -m pip install SpeechRecognition
 # Examples
 
 > See the examples/ directory in the repository root for usage examples:
-
-Recognize speech input from the microphone
-Transcribe an audio file
-Save audio data to an audio file
-Show extended recognition results
-Calibrate the recognizer energy threshold for ambient noise levels (see recognizer_instance.energy_threshold for details)
-Listening to a microphone in the background
-Various other useful recognizer features
+> - Recognize speech input from the microphone
+> - Transcribe an audio file
+> - Save audio data to an audio file
+> - Show extended recognition results
+> - Calibrate the recognizer energy threshold for ambient noise levels (see recognizer_instance.energy_threshold for details)
+> - Listening to a microphone in the background
+> - Various other useful recognizer features
