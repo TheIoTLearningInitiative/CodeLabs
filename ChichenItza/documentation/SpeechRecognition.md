@@ -1,6 +1,6 @@
 # SpeechRecognition
 
-> Library for performing speech recognition, with support for several engines and APIs, online and offline.
+> Library for performing speech recognition, with support for several engines and APIs, online and offline. [Github](https://github.com/Uberi/speech_recognition)
 
 Speech recognition engine/API support:
 
