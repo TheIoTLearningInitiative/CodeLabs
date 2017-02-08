@@ -55,7 +55,7 @@ recording...
 root@edison:~# python main.py
 ```
 
-## 
+## Root-Mean-Square
 
 ```python
 
@@ -68,7 +68,7 @@ WAVE_OUTPUT_FILENAME = self.voicefile
  
 audio = pyaudio.PyAudio()
  
-# start Recording
+# Start Recording
 stream = audio.open(format=FORMAT, channels=CHANNELS,
                     rate=RATE, input=True,
                     frames_per_buffer=CHUNK)
@@ -84,7 +84,7 @@ for i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
     frames.append(data)
 print "finished recording"
  
-# stop Recording
+# Stop Recording
 stream.stop_stream()
 stream.close()
 audio.terminate()
