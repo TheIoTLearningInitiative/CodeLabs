@@ -17,5 +17,5 @@ Demos
 ## Installation
 
 ```sh
-root@edison:~#  
+root@edison:~# python -m pip install pyaudio
 ```
