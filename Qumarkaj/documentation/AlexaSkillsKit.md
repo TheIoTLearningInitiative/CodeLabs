@@ -6,6 +6,11 @@
 
 > The Alexa Skills Kit SDK for Node.js helps you get a skill up and running quickly, letting you focus on skill logic instead of boilerplate code. [Github](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs)
 
+## 
+
+[](https://github.com/alexa/skill-sample-nodejs-fact)
+
 ```sh
 pymelab@workstation:~/Intel/Alexa$ npm install --save alexa-sdk
 ```
+
