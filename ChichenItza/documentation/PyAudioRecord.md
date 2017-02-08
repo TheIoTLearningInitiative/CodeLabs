@@ -1,6 +1,6 @@
 # PyAudio Record
 
-- [To Explore](https://github.com/rhee/sam-alexa-pi/blob/master/microphone.py)
+- [To Explore](https://github.com/rhee/sam-alexa-pi)
 
 ```sh
 root@edison:~# nano main.py
