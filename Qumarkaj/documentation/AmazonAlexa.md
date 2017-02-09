@@ -28,10 +28,13 @@
 
 # Hello, Alexa!
 
+[Developing Alexa Skills - Hello, Alexa!](https://www.youtube.com/watch?v=QxgdPI1B7rg)
+
 - Devices
-  - Echo
-  - Dot
-  - Fire
+  - Amazon Echo
+  - Amazon Dot
+  - Amazon Tap
+  - Fire TV
 
 
 
