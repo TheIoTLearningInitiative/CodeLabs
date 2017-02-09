@@ -51,6 +51,8 @@ Alexa: Hello
 > > They are defined on the Skills Service to handle particular events like OnLaunch Event
 > > > Will be sent to the Greeter Skills Service when the Skill is first launch by the user
 
+Basic Greeter Skill
+
 ```js
 GreeterService.prototype.eventHandlers.onLaunch = helloAlexaResponseFunction;
 var helloAlexaResponseFunction = function(intent, session, response) {
@@ -58,13 +60,15 @@ var helloAlexaResponseFunction = function(intent, session, response) {
 };
 ```
 
-> User will trigger our Skills by saying
+> User will trigger our Basic Greeter Skill by saying
 > > Alexa: Open Greeter
 > > Alexa: Start Greeter
 
 #### Handlers Types: Intent
 
 > Type of event that is an indication of soemthing the user would like to do
+
+Basic Greeter Skill
 
 ### Skill Interface
 
