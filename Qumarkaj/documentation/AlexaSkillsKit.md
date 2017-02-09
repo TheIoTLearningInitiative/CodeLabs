@@ -121,7 +121,19 @@ GreeterService.prototype.intentHandlers = {
 #### Intents Schema
 
 > We also declare a Intent Schema on the Interaction Model
-> The Intent Schema 
+> The Intent Schema tells the Skill Interface what Intents the Skill Service implements
+
+From __Amazon Alexa Webpage__: Intent Schema. The schema of user intents in JSON format. For more information, see Intent Schema. Also see built-in slots and built-in intents.
+
+```json
+{
+  "intents": [
+    {
+      "intent": "HelloWorldIntent"
+    }
+  ]
+}
+```
 
 ## Intel Guadalajara Facts
 
