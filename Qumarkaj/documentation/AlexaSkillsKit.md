@@ -39,6 +39,8 @@ Alexa: Hello
 > > > Sessions
 > > > Database Access
 
+Alexa: Hello
+
 ### Skill Interface
 
 > Voice User Interface Configuration, develop via Amazon Alexa Skills Developer Portal
