@@ -68,6 +68,7 @@ var helloAlexaResponseFunction = function(intent, session, response) {
 
 > Type of event that is an indication of soemthing the user would like to do
 > Map the number of features or interactions that a skill offers
+> A Skill Service can have many Intent Handlers
 
 Basic Greeter Skill
 
