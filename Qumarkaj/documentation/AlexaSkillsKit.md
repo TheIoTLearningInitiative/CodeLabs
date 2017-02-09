@@ -49,6 +49,7 @@ Alexa: Hello
 > A Skill Service implement Event Handlers
 > Event Handlers defines how a Skill will behave when the user triggers the event by speaking to an Alexa enabled device 
 > > They are defined on the Skills Service to handle particular events like OnLaunch Event
+> > > Will be sent to the Greeter Skills Service when the Skill is first launch by the user
 
 ```js
 GreeterService.prototype.eventHandlers.onLaunch = helloAlexaResponseFunction;
