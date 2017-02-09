@@ -39,7 +39,8 @@ Alexa: Hello
 > > > Sessions
 > > > Database Access
 > > Can be enable in any language that is supported in HTTPS server and return JSON responses
-> > > Implementation in Node.js running in AWS Labda
+> > > Can be implemented in any HTTPS server but additional SSL configuration (assign certificates)
+> > > Implementation in Node.js running in AWS Labda since no additional configuration is required
 
 Alexa: Hello
 
