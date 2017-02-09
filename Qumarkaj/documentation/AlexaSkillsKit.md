@@ -105,13 +105,17 @@ GreeterService.prototype.intentHandlers = {
 > > > Interaction Model is what train the Skill Interface so it knows how to listen for User spoken words
 
 - It resolves the spoken words to specific intent events
-- You define the words that shoulp map to a particular intent name
+- You define the words that shoulp map to a particular intent name in the interaction model by providing a list of sample utterances
   - helloWorldIntent say hi world
   - helloWorldIntent say hello
   - helloWorldIntent say hello world
   - helloWorldIntent hello
   - helloWorldIntent say hi
   - helloWorldIntent how are you
+
+#### Sample Utterance
+
+> It is a string that represents a possible way the user may talk to the skill
 
 ## Intel Guadalajara Facts
 
