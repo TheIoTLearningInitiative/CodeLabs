@@ -38,6 +38,8 @@ Alexa: Hello
 > > > Information Processing
 > > > Sessions
 > > > Database Access
+> > Can be enable in any language that is supported in HTTPS server and return JSON responses
+> > > Implementation in Node.js running in AWS Labda
 
 Alexa: Hello
 
