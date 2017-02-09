@@ -25,9 +25,16 @@
 ### Skill Service
 
 > Service Container (HTTP Server/AWS Labda)
-> > First component, it si the business logic from the skill
+> > First component, it si the business logic for the skill
 > > Lives in the Cloud
 > > Host code that will write and receives JSON payloads from AlexaIndex.js
+> > Determines what actions to take in response to user speech
+> > Skill Service Layer manages:
+> > > Http requests
+> > > User accounts
+> > > Information Processing
+> > > Sessions
+> > > Database Access
 
 ### Skill Interface
 
