@@ -118,6 +118,11 @@ GreeterService.prototype.intentHandlers = {
 > It is a string that represents a possible way the user may talk to the skill
 > Utterances are use to generate a natural laguage understanding model that resolves the users voice to our Skills Intents
 
+#### Intents Schema
+
+> We also declare a Intent Schema on the Interaction Model
+> The Intent Schema 
+
 ## Intel Guadalajara Facts
 
 - [Step-by-Step Guide to Build a Fact-Based Alexa Skill](https://github.com/alexa/skill-sample-nodejs-fact)
