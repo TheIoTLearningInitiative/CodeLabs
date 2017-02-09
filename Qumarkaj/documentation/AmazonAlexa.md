@@ -28,6 +28,11 @@
 
 # Hello, Alexa!
 
+- Devices
+  - Echo
+  - Dot
+  - Fire
+
 
 
 # Echo Simulator
