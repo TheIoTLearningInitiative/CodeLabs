@@ -89,6 +89,7 @@ GreeterService.prototype.intentHandlers = {
 > Voice User Interface Configuration, develop via Amazon Alexa Skills Developer Portal
 > > First component to ceate a Skill
 > > Processing user spoken words
+> > It handles the translation between Audio from the User to Events The Skills Service can handle
 
 ## Intel Guadalajara Facts
 
