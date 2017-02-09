@@ -63,6 +63,8 @@ root@edison:~# nano main.py
 ```
 
 ```python
+import pyaudio
+import wave
 
 FORMAT = pyaudio.paInt16
 CHANNELS = 2
