@@ -93,6 +93,7 @@ GreeterService.prototype.intentHandlers = {
 > >  It's since the Events the Skills Service so the Events Handlers can do their work
 > > Skills Interface is also where we specify what a Skill is called so User can invoke it by name when talking to an Alexa enabled device, its name users will address our Skill with, this is called the Skills Invocation Name
 > > > From Amazon Alexa Webpage: Invocation Name: The name users will say to interact with this skill. this does not have the same name as the skill name. The invocation name must comply with the Invocation Name Guidelines.
+> > > Inovation Name: Greeter
 
 
 
