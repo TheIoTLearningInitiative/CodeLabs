@@ -26,20 +26,6 @@
 - AVS Developer Forums
 - Alexa on a Raspberry Pi
 
-# Hello, Alexa!
-
-[Developing Alexa Skills - Hello, Alexa!](https://www.youtube.com/watch?v=QxgdPI1B7rg)
-
-- Devices
-  - Amazon Echo
-  - Amazon Dot
-  - Amazon Tap
-  - Fire TV
-
-
- > Provides Capabilities or Skills to interact with devices in intuitive way using voice
- 
-
 # Echo Simulator
 
 > Alexa Skill Testing Tool https://echosim.io/
