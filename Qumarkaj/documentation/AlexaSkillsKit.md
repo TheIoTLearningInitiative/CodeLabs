@@ -70,6 +70,8 @@ var helloAlexaResponseFunction = function(intent, session, response) {
 
 Basic Greeter Skill
 
+
+
 ### Skill Interface
 
 > Voice User Interface Configuration, develop via Amazon Alexa Skills Developer Portal
