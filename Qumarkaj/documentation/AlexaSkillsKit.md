@@ -18,7 +18,10 @@
 
 > Alexa provides capabilities or skills to interact with devices in intuitive way using voice
 
+## Capability, Skill
 
+> Skill Service: Service Container (HTTP Server/AWS Labda)
+> Skill Interface: Voice User Interface Configuration
 
 ## Intel Guadalajara Facts
 
