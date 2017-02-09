@@ -99,15 +99,19 @@ GreeterService.prototype.intentHandlers = {
 > > > Invocation Name: Greeter
 > > > From Amazon Alexa Webpage: Invocation Name: The name users will say to interact with this skill. this does not have the same name as the skill name. The invocation name must comply with the Invocation Name Guidelines.
 > > Within the Skill Interface we define the Skills Interaction Model
+
+#### Interaction Model
+
 > > > Interaction Model is what train the Skill Interface so it knows how to listen for User spoken words
-> > > It resolves the spoken words to specific intent events
-> > > You define the words that shoulp map to a particular intent name
-> > > helloWorldIntent say hi world
-> > > helloWorldIntent say hello
-> > > helloWorldIntent say hello world
-> > > helloWorldIntent hello
-> > > helloWorldIntent say hi
-> > > helloWorldIntent how are you
+
+- It resolves the spoken words to specific intent events
+- You define the words that shoulp map to a particular intent name
+  - helloWorldIntent say hi world
+  - helloWorldIntent say hello
+  - helloWorldIntent say hello world
+  - helloWorldIntent hello
+  - helloWorldIntent say hi
+  - helloWorldIntent how are you
 
 ## Intel Guadalajara Facts
 
