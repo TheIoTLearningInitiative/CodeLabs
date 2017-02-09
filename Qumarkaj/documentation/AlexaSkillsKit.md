@@ -60,7 +60,8 @@ var helloAlexaResponseFunction = function(intent, session, response) {
 
 > User will trigger our Skills by saying
 > > Alexa: Open Greeter
-> >   
+> > Alexa: Start Greeter
+
 
 
 ### Skill Interface
