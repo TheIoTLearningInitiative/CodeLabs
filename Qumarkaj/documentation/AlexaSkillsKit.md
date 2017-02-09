@@ -50,7 +50,9 @@ Alexa: Hello
 > Event Handlers defines how a Skill will behave when the user triggers the event by speaking to an Alexa enabled device 
 > > They are defined to hadle particular events like OnLaunch Event
 
+```js
 
+```
 
 
 
