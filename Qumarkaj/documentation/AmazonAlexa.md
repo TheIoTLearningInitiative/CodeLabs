@@ -37,6 +37,8 @@
   - Fire TV
 
 
+ > Provides Capabilities or Skills to interact with devices in intuitive way using voice
+ 
 
 # Echo Simulator
 
