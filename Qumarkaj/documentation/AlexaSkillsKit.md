@@ -30,7 +30,7 @@ Alexa: Hello
 > Service Container (HTTP Server/AWS Labda)
 > > First component, it is the business logic for the skill
 > > Lives in the Cloud
-> > Host code that will write and receives JSON payloads from AlexaIndex.js
+> > Host code that will write and receives JSON payloads from Alexa: Index.js
 > > Determines what actions to take in response to user speech
 > > Skill Service Layer manages:
 > > > Http requests
@@ -40,7 +40,7 @@ Alexa: Hello
 > > > Database Access
 > > Can be enable in any language that is supported in HTTPS server and return JSON responses
 > > > Can be implemented in any HTTPS server but additional SSL configuration (assign certificates)
-> > > Implementation in Node.js running in AWS Labda since no additional configuration is required
+> > > Implementation in Node.js running in AWS Labda means no additional configuration
 
 Alexa: Hello
 
