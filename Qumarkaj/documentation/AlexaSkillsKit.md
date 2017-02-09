@@ -62,8 +62,9 @@ var helloAlexaResponseFunction = function(intent, session, response) {
 > > Alexa: Open Greeter
 > > Alexa: Start Greeter
 
-#### Handlers Types: Event
+#### Handlers Types: Intent
 
+> Type of event  
 
 ### Skill Interface
 
