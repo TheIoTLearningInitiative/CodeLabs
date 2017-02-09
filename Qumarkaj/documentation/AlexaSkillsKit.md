@@ -64,7 +64,7 @@ var helloAlexaResponseFunction = function(intent, session, response) {
 
 #### Handlers Types: Intent
 
-> Type of event 
+> Type of event that is an indication of soemthing the user would like to do
 
 ### Skill Interface
 
