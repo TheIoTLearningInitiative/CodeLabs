@@ -16,8 +16,9 @@
   - Amazon Tap
   - Fire TV
 
+> Alexa provides capabilities or skills to interact with devices in intuitive way using voice
 
-> Provides Capabilities or Skills to interact with devices in intuitive way using voice
+
 
 ## Intel Guadalajara Facts
 
