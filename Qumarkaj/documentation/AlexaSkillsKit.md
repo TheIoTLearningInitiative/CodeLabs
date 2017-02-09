@@ -70,6 +70,8 @@ var helloAlexaResponseFunction = function(intent, session, response) {
 
 Basic Greeter Skill
 
+One type of Intent: Hello
+
 ```js
 var helloAlexaResponseFunction = function(intent, session, response){
     response.tell(SPEECH_OUT);
