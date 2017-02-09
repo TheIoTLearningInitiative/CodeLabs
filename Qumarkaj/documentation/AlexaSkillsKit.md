@@ -116,6 +116,7 @@ GreeterService.prototype.intentHandlers = {
 #### Sample Utterance
 
 > It is a string that represents a possible way the user may talk to the skill
+> Utterances are use to generate a natural laguage understanding model that resolves the users voice to our Skills Intents
 
 ## Intel Guadalajara Facts
 
