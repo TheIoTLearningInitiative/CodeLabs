@@ -22,6 +22,8 @@
 
 > The interaction between the Skill Service and the Skill Interface yield the working Skill
 
+User: Ask Greeter to say Hello
+Alexa: Hello
 
 ### Skill Service
 
