@@ -92,7 +92,7 @@ GreeterService.prototype.intentHandlers = {
 > > > > Utterences
 > > > > Slot Types
 > > > > Intent Schema
-> > Processing user spoken words
+> > Responsible for processing user spoken words
 > > It handles the translation between Audio from the User to Events The Skills Service can handle
 > >  It's since the Events the Skills Service so the Events Handlers can do their work
 > > Skills Interface is also where we specify what a Skill is called so User can invoke it by name when talking to an Alexa enabled device, its name users will address our Skill with, this is called the Skills Invocation Name
