@@ -28,7 +28,7 @@ Alexa: Hello
 ### Skill Service
 
 > Service Container (HTTP Server/AWS Labda)
-> > First component, it si the business logic for the skill
+> > First component, it is the business logic for the skill
 > > Lives in the Cloud
 > > Host code that will write and receives JSON payloads from AlexaIndex.js
 > > Determines what actions to take in response to user speech
