@@ -28,7 +28,7 @@ Alexa: Hello
 ### Skill Service
 
 > Service Container (HTTP Server/AWS Labda)
-> > First component, it is the business logic for the skill
+> > First component to ceate a Skill, it is the business logic for the skill
 > > Lives in the Cloud
 > > Host code that will write and receives JSON payloads from Alexa: Index.js
 > > Determines what actions to take in response to user speech
@@ -87,6 +87,7 @@ GreeterService.prototype.intentHandlers = {
 ### Skill Interface
 
 > Voice User Interface Configuration, develop via Amazon Alexa Skills Developer Portal
+> > First component to ceate a Skill
 
 ## Intel Guadalajara Facts
 
