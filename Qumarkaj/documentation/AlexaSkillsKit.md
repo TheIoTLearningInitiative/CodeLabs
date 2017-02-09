@@ -6,6 +6,19 @@
 
 > The Alexa Skills Kit SDK for Node.js helps you get a skill up and running quickly, letting you focus on skill logic instead of boilerplate code. [Github](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs)
 
+# Hello, Alexa!
+
+[Developing Alexa Skills - Hello, Alexa!](https://www.youtube.com/watch?v=QxgdPI1B7rg)
+
+- Devices
+  - Amazon Echo
+  - Amazon Dot
+  - Amazon Tap
+  - Fire TV
+
+
+> Provides Capabilities or Skills to interact with devices in intuitive way using voice
+
 ## Intel Guadalajara Facts
 
 - [Step-by-Step Guide to Build a Fact-Based Alexa Skill](https://github.com/alexa/skill-sample-nodejs-fact)
