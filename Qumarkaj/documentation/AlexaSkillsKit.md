@@ -70,7 +70,7 @@ var helloAlexaResponseFunction = function(intent, session, response) {
 
 Basic Greeter Skill
 
-One type of Intent: Hello
+One type of Intent: Hello, TheHelloWorldIntent
 
 ```js
 var helloAlexaResponseFunction = function(intent, session, response){
