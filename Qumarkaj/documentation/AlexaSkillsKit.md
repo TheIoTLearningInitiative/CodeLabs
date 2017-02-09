@@ -90,7 +90,8 @@ GreeterService.prototype.intentHandlers = {
 > > Second component to ceate a Skill
 > > Processing user spoken words
 > > It handles the translation between Audio from the User to Events The Skills Service can handle
-> >  It's in the Events Skills Service so the Events Handlers can do their work 
+> >  It's since the Events the Skills Service so the Events Handlers can do their work
+> > Skills Interface is also where we specify what a Skill is called so User can invoke it by name
 
 ## Intel Guadalajara Facts
 
