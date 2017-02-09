@@ -47,7 +47,8 @@ Alexa: Hello
 #### Event Handlers
 
 > A Skill Service implement Event Handlers
-> Event Handlers defines how a Skill will behave when the user triggers the event by speaking to an Alexa enabled device
+> Event Handlers defines how a Skill will behave when the user triggers the event by speaking to an Alexa enabled device 
+> > They are defined 
 
 
 
