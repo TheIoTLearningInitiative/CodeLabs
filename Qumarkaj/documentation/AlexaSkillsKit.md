@@ -44,7 +44,7 @@ Alexa: Hello
 
 Alexa: Hello
 
-#### Event Handlers
+#### Handlers Types: Event
 
 > A Skill Service implement Event Handlers
 > Event Handlers defines how a Skill will behave when the user triggers the event by speaking to an Alexa enabled device 
@@ -62,6 +62,7 @@ var helloAlexaResponseFunction = function(intent, session, response) {
 > > Alexa: Open Greeter
 > > Alexa: Start Greeter
 
+#### Handlers Types: Event
 
 
 ### Skill Interface
