@@ -21,7 +21,7 @@
 ## Skill
 
 > Skill Service: Service Container (HTTP Server/AWS Labda)
-> Skill Interface: Voice User Interface Configuration
+> Skill Interface: Voice User Interface Configuration, develop via Amazon Alexa Skills Developer Portal
 
 ## Intel Guadalajara Facts
 
