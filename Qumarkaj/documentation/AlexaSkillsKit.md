@@ -51,7 +51,10 @@ Alexa: Hello
 > > They are defined to hadle particular events like OnLaunch Event
 
 ```js
-
+GreeterService.prototype.eventHandlers.onLaunch = helloAlexaResponseFunction;
+var helloAlexaResponseFunction = function(intent, session, response) {
+    response.tell(SPEECH_OUT);
+};
 ```
 
 
