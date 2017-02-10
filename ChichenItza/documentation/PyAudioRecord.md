@@ -71,7 +71,7 @@ CHANNELS = 2
 RATE = 44100
 CHUNK = 1024
 RECORD_SECONDS = 5
-WAVE_OUTPUT_FILENAME = self.voicefile
+WAVE_OUTPUT_FILENAME = output.wav
  
 audio = pyaudio.PyAudio()
  
