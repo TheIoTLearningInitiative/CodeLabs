@@ -8,6 +8,8 @@ root@edison:~# nano main.py
 ```
 
 ```python
+#!/usr/bin/env python  
+
 import pyaudio
 import wave
 
@@ -63,6 +65,8 @@ root@edison:~# nano main.py
 ```
 
 ```python
+#!/usr/bin/env python  
+
 import pyaudio
 import wave
 import audioop
