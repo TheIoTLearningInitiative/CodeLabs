@@ -62,7 +62,30 @@ pcm.!default sysdefault:Device
 >> - USB Audio Dongle (Play)
 >> - USB Camera with Microphone (Record)
 
+```sh
+root@edison:~# vi ~/.asoundrc
+```
 
+```sh
+pcm.!default {
+        type asym
+        playback.pcm {
+                type plug
+                slave.pcm "hw:2,0"
+        }
+        capture.pcm {
+                type plug
+                slave.pcm "hw:3,0"
+        }
+}
+
+ctl.!default {
+    type plug
+        slave {
+           pcm "hw:2,0"
+       }
+}
+```
 
 ## Arecord, Aplay
 
