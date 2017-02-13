@@ -135,6 +135,8 @@ From __Amazon Alexa Webpage__: Intent Schema. The schema of user intents in JSON
 }
 ```
 
+Once we provide the __Sample Utterances__ 
+
 ## Intel Guadalajara Facts
 
 - [Step-by-Step Guide to Build a Fact-Based Alexa Skill](https://github.com/alexa/skill-sample-nodejs-fact)
