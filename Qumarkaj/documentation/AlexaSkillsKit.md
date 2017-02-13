@@ -135,7 +135,7 @@ From __Amazon Alexa Webpage__: Intent Schema. The schema of user intents in JSON
 }
 ```
 
-Once we provide the __Sample Utterances__ 
+Once we provide the __Sample Utterances__ (Alexa ask Greeter to say Hello)
 
 ## Intel Guadalajara Facts
 
