@@ -87,7 +87,7 @@ GreeterService.prototype.intentHandlers = {
 ### Skill Interface Configuration
 
 > Voice User Interface Configuration, develop via Amazon Alexa Skills Developer Portal
-> > Second component to ceate a Skil where we specify Utterences
+> > Second component to ceate a Skill where we specify Utterences
 > > > It is composed of:
 > > > > Utterences
 > > > > Slot Types
