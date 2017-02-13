@@ -62,6 +62,8 @@ pcm.!default sysdefault:Device
 >> - USB Audio Dongle (Play)
 >> - USB Camera with Microphone (Record)
 
+
+
 ## Arecord, Aplay
 
 > arecord, aplay - command-line sound recorder and player for ALSA soundcard driver
