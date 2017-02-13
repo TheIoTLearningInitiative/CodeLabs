@@ -135,7 +135,7 @@ From __Amazon Alexa Webpage__: Intent Schema. The schema of user intents in JSON
 }
 ```
 
-Once we provide the __Sample Utterances__ (Alexa ask Greeter to say Hello)
+Once we provide the __Sample Utterances__ (Alexa ask Greeter to say Hello), the __Skill Interface__ can resolve the __User Spoken Words__
 
 ## Intel Guadalajara Facts
 
