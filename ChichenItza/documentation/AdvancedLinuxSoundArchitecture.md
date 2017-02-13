@@ -78,13 +78,6 @@ pcm.!default {
                 slave.pcm "hw:3,0"
         }
 }
-
-ctl.!default {
-    type plug
-        slave {
-           pcm "hw:2,0"
-       }
-}
 ```
 
 ## Arecord, Aplay
