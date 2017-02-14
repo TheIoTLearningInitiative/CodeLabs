@@ -11,5 +11,5 @@ root@board:~#
 ```sh
 root@board:~# pip install numpy
 root@board:~# opkg install python-dev opencv python-opencv python-numpy
-root@board:~# 
+root@board:~# opkg install mpg123
 ```
