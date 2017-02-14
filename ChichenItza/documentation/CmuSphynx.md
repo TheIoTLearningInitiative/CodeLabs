@@ -1,6 +1,5 @@
 # CMU Sphynx
 
-
 ```sh
 root@edison:~# pip install cython
 Collecting cython
@@ -36,6 +35,8 @@ root@edison:~/led-speech-edison/bin#
 root@edison:~/led-speech-edison/bin# ./installSphinxbase.sh
 ```
 
+## Old Version
+
 ```sh
 #!/bin/sh
 
@@ -67,6 +68,12 @@ echo "Sphinxbase installed."
 root@edison:~/led-speech-edison/bin# nano ~/.profile
 export LD_LIBRARY_PATH=/usr/local/lib
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
+```
+
+## New Version
+
+```sh
+
 ```
 
 ```sh
@@ -117,4 +124,6 @@ root@edison:~/led-speech-edison/bin# opkg install pulseaudio-dev
 root@edison:~/led-speech-edison/bin# pip uninstall pocketsphinx
 root@edison:~/led-speech-edison/bin# pip install --upgrade pocketsphinx
 ```
+
+
 
