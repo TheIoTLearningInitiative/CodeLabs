@@ -26,6 +26,10 @@ root@edison:~# pip install SpeechRecognition
 > - Listening to a microphone in the background
 > - Various other useful recognizer features
 
+```sh
+root@edison:~# nano main.py
+```
+
 ```python
 #!/usr/bin/python
 
@@ -57,4 +61,8 @@ except sr.UnknownValueError:
     print("Google Speech Recognition could not understand audio")
 except sr.RequestError as e:
     print("Could not request results from Google Speech Recognition service; {0}".format(e))
+```
+
+```sh
+root@edison:~# python main.py
 ```
