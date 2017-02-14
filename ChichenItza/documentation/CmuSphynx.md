@@ -143,9 +143,9 @@ cd ../install
 
 echo "Downloading pocketsphinx..."
 wget https://sourceforge.net/projects/cmusphinx/files/pocketsphinx/5prealpha/pocketsphinx-5prealpha.tar.gz/download
-tar -xvf pocketsphinx-0.8.tar.gz
-rm pocketsphinx-0.8.tar.gz
-cd pocketsphinx-0.8
+tar xvf download
+rm download
+cd pocketsphinx-5prealpha/
 
 # Remove pocketsphinx.c -- needs to be generated on the build for Edison
 rm python/pocketsphinx.c
