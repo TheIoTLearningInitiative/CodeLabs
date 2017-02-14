@@ -59,8 +59,9 @@ pcm.!default sysdefault:Device
 ### Play & Capture, Two Devices
 
 > Devices:
->> - USB Audio Dongle (Play)
->> - USB Camera with Microphone (Record)
+>
+> > * USB Audio Dongle \(Play\)
+> > * USB Camera with Microphone \(Record\)
 
 ```sh
 root@edison:~# vi ~/.asoundrc
