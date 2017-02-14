@@ -47,6 +47,8 @@ root@edison:~# cd sphinxbase-5prealpha/
 root@edison:~/sphinxbase-5prealpha# ./configure
 root@edison:~/sphinxbase-5prealpha# make
 root@edison:~/sphinxbase-5prealpha# make install
+root@edison:~/sphinxbase-5prealpha# cd
+root@edison:~# 
 ```
 
 ### Script
@@ -109,10 +111,6 @@ root@edison:~/led-speech-edison/bin# source ~/.profile
 ## PocketSphinx
 
 ```sh
-root@edison:~/led-speech-edison/bin# ./installPocketsphinx.sh
-```
-
-```sh
 #!/bin/sh
 echo "Downloading PocketSphinx..."
 wget https://sourceforge.net/projects/cmusphinx/files/pocketsphinx/5prealpha/pocketsphinx-5prealpha.tar.gz/download
@@ -127,6 +125,10 @@ make install
 ```
 
 ### Old Version
+
+```sh
+root@edison:~/led-speech-edison/bin# ./installPocketsphinx.sh
+```
 
 ```sh
 #!/bin/sh
