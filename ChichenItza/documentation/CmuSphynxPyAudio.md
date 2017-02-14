@@ -1,7 +1,7 @@
 # PyAudio
 
 ```sh
-root@edison:~# pip install SpeechRecognition --upgrade
+root@edison:~# pip install --upgrade SpeechRecognition
 ```
 
 ```sh
