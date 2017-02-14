@@ -99,13 +99,13 @@ echo "Sphinxbase installed."
 ## Profile
 
 ```sh
-root@edison:~/led-speech-edison/bin# nano ~/.profile
+root@edison:~# nano ~/.profile
 export LD_LIBRARY_PATH=/usr/local/lib
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 ```
 
 ```sh
-root@edison:~/led-speech-edison/bin# source ~/.profile
+root@edison:~# source ~/.profile
 ```
 
 ## PocketSphinx
