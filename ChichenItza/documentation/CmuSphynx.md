@@ -39,6 +39,30 @@ root@edison:~/led-speech-edison/bin#
 root@edison:~/led-speech-edison/bin# ./installSphinxbase.sh
 ```
 
+```sh
+root@edison:~# wget https://sourceforge.net/projects/cmusphinx/files/sphinxbase/5prealpha/sphinxbase-5prealpha.tar.gz/download
+root@edison:~# tar xvf download
+root@edison:~# rm download
+root@edison:~# cd sphinxbase-5prealpha/
+root@edison:~/sphinxbase-5prealpha# 
+```
+
+### Script
+
+```sh
+#!/bin/sh
+echo "Downloading SphinxBase..."
+wget https://sourceforge.net/projects/cmusphinx/files/sphinxbase/5prealpha/sphinxbase-5prealpha.tar.gz/download
+tar -xvf download
+rm download
+cd sphinxbase-5prealpha/
+
+echo "Installing SphinxBase..."
+./configure
+make
+make install
+```
+
 ### Old Version
 
 ```sh
@@ -66,30 +90,6 @@ cd python
 python setup.py install
 
 echo "Sphinxbase installed."
-```
-
-### New Version
-
-```sh
-root@edison:~# wget https://sourceforge.net/projects/cmusphinx/files/sphinxbase/5prealpha/sphinxbase-5prealpha.tar.gz/download
-root@edison:~# tar xvf download
-root@edison:~# rm download
-root@edison:~# cd sphinxbase-5prealpha/
-root@edison:~/sphinxbase-5prealpha# 
-```
-
-```sh
-#!/bin/sh
-echo "Downloading SphinxBase..."
-wget https://sourceforge.net/projects/cmusphinx/files/sphinxbase/5prealpha/sphinxbase-5prealpha.tar.gz/download
-tar -xvf download
-rm download
-cd sphinxbase-5prealpha/
-
-echo "Installing SphinxBase..."
-./configure
-make
-make install
 ```
 
 ## Profile
