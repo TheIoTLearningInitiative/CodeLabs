@@ -111,6 +111,16 @@ root@edison:~# source ~/.profile
 ## PocketSphinx
 
 ```sh
+root@edison:~# wget https://sourceforge.net/projects/cmusphinx/files/pocketsphinx/5prealpha/pocketsphinx-5prealpha.tar.gz/download
+root@edison:~# tar xvf download
+root@edison:~# rm download
+root@edison:~# cd pocketsphinx-5prealpha/
+root@edison:~/pocketsphinx-5prealpha# ./configure
+```
+
+### Script
+
+```sh
 #!/bin/sh
 echo "Downloading PocketSphinx..."
 wget https://sourceforge.net/projects/cmusphinx/files/pocketsphinx/5prealpha/pocketsphinx-5prealpha.tar.gz/download
