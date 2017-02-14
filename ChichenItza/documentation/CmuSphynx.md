@@ -73,6 +73,21 @@ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 ## New Version
 
 ```sh
+#!/bin/sh
+
+mkdir -p ../install
+cd ../install
+
+echo "Downloading sphinxbase..."
+wget https://sourceforge.net/projects/cmusphinx/files/sphinxbase/5prealpha/sphinxbase-5prealpha.tar.gz/download
+tar -xvf downloado
+rm download
+cd sphinxbase-5prealpha/
+
+echo "Installing sphinxbase..."
+./configure
+make
+make install
 
 ```
 
