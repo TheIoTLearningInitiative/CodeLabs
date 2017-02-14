@@ -12,7 +12,7 @@
 > - IBM Speech to Text
 
 ```sh
-root@edison:~# python -m pip install SpeechRecognition
+root@edison:~# pip install SpeechRecognition
 ```
 
 # Examples
