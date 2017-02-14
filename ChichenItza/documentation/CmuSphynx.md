@@ -147,9 +147,6 @@ tar xvf download
 rm download
 cd pocketsphinx-5prealpha/
 
-# Remove pocketsphinx.c -- needs to be generated on the build for Edison
-rm python/pocketsphinx.c
-
 echo "Installing pocketsphinx..."
 ./configure
 make
