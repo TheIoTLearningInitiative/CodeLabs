@@ -85,7 +85,6 @@ echo "Installing sphinxbase..."
 make
 make install
 
-cd ..
 ```
 
 ## Profile
