@@ -167,6 +167,9 @@ root@edison:~/led-speech-edison/bin# opkg install --nodeps jack-dev
 root@edison:~/led-speech-edison/bin# opkg install pulseaudio-dev
 root@edison:~/led-speech-edison/bin# pip uninstall pocketsphinx
 root@edison:~/led-speech-edison/bin# pip install --upgrade pocketsphinx
+... pocketsphinx-0.1.3.zip
+...
+root@edison:~/led-speech-edison/bin# 
 ```
 
 
