@@ -112,6 +112,20 @@ root@edison:~/led-speech-edison/bin# source ~/.profile
 root@edison:~/led-speech-edison/bin# ./installPocketsphinx.sh
 ```
 
+```sh
+#!/bin/sh
+echo "Downloading PocketSphinx..."
+wget https://sourceforge.net/projects/cmusphinx/files/pocketsphinx/5prealpha/pocketsphinx-5prealpha.tar.gz/download
+tar xvf download
+rm download
+cd pocketsphinx-5prealpha/
+
+echo "Installing PocketSphinx..."
+./configure
+make
+make install
+```
+
 ### Old Version
 
 ```sh
@@ -139,22 +153,6 @@ cd python
 python setup.py install
 
 echo "Pocketsphinx installed."
-```
-
-### New Version
-
-```sh
-#!/bin/sh
-echo "Downloading PocketSphinx..."
-wget https://sourceforge.net/projects/cmusphinx/files/pocketsphinx/5prealpha/pocketsphinx-5prealpha.tar.gz/download
-tar xvf download
-rm download
-cd pocketsphinx-5prealpha/
-
-echo "Installing PocketSphinx..."
-./configure
-make
-make install
 ```
 
 ## Continue
