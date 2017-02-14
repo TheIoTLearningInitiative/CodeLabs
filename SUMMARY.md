@@ -54,6 +54,7 @@
       * [Sphinx Knowledge Base Tool](ChichenItza/documentation/CmuSphynxKnowledgeBaseTool.md)
       * [PyAudio](ChichenItza/documentation/CmuSphynxPyAudio.md)
     * [SpeechRecognition](ChichenItza/documentation/SpeechRecognition.md)
+    * [PocketSphinx](ChichenItza/documentation/PocketSphinx.md)
 * [Coba](Coba/documentation/Coba.md)
 * [Dos Pilas](DosPilas/documentation/DosPilas.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
