@@ -111,6 +111,10 @@ root@edison:~/led-speech-edison#
 ```
 
 ```sh
-
+opkg install libjack
+opkg install --nodeps jack-dev
+opkg install pulseaudio-dev
+pip uninstall pocketsphinx
+pip install --upgrade pocketsphinx
 ```
 
