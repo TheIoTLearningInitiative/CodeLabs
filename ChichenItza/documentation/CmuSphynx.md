@@ -36,10 +36,6 @@ root@edison:~/led-speech-edison/bin#
 ## SphinxBase
 
 ```sh
-root@edison:~/led-speech-edison/bin# ./installSphinxbase.sh
-```
-
-```sh
 root@edison:~# wget https://sourceforge.net/projects/cmusphinx/files/sphinxbase/5prealpha/sphinxbase-5prealpha.tar.gz/download
 root@edison:~# tar xvf download
 root@edison:~# rm download
@@ -68,6 +64,10 @@ make install
 ```
 
 ### Old Version
+
+```sh
+root@edison:~/led-speech-edison/bin# ./installSphinxbase.sh
+```
 
 ```sh
 #!/bin/sh
