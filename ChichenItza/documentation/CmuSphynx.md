@@ -80,7 +80,7 @@ cd ../install
 
 echo "Downloading sphinxbase..."
 wget https://sourceforge.net/projects/cmusphinx/files/sphinxbase/5prealpha/sphinxbase-5prealpha.tar.gz/download
-tar -xvf downloado
+tar -xvf download
 rm download
 cd sphinxbase-5prealpha/
 
