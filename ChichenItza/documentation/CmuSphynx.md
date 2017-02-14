@@ -44,7 +44,9 @@ root@edison:~# wget https://sourceforge.net/projects/cmusphinx/files/sphinxbase/
 root@edison:~# tar xvf download
 root@edison:~# rm download
 root@edison:~# cd sphinxbase-5prealpha/
-root@edison:~/sphinxbase-5prealpha# 
+root@edison:~/sphinxbase-5prealpha# ./configure
+root@edison:~/sphinxbase-5prealpha# make
+root@edison:~/sphinxbase-5prealpha# make install
 ```
 
 ### Script
