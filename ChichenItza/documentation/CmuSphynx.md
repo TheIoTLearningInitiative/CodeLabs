@@ -155,14 +155,6 @@ python setup.py install
 echo "Pocketsphinx installed."
 ```
 
-## Continue
-
-```sh
-root@edison:~/led-speech-edison# ls install/
-pocketsphinx-0.8  sphinxbase-0.8
-root@edison:~/led-speech-edison# 
-```
-
 
 
 
