@@ -11,6 +11,7 @@ root@edison:~# opkg install pulseaudio-dev
 # PocketSphinx Installation
 
 ```sh
+root@edison:~# pip install --upgrade pip setuptools wheel
 root@edison:~# pip uninstall pocketsphinx
 root@edison:~# pip install --upgrade pocketsphinx
 ... 
