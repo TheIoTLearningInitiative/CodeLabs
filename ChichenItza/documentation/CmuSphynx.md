@@ -110,3 +110,7 @@ pocketsphinx-0.8  sphinxbase-0.8
 root@edison:~/led-speech-edison# 
 ```
 
+```sh
+
+```
+
