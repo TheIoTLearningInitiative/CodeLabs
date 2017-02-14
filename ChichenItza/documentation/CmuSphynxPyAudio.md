@@ -2,8 +2,6 @@
 
 ```sh
 root@edison:~# pip install SpeechRecognition --upgrade
-root@edison:~# pip install pyaudio --upgrade
-root@edison:~# pip install wheel --upgrade
 ```
 
 ```sh
