@@ -79,6 +79,7 @@ Yucatán
 * **Ah Peku** API Slack Bot Users
 * **Ah Puch** Recon Instruments
 * **Tbd** Bosch IoT Suite
+* **Tbd** Neural Networks Curie
 
 
 
