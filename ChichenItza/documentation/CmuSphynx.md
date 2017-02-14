@@ -151,12 +151,6 @@ echo "Installing pocketsphinx..."
 ./configure
 make
 make install
-
-echo "Installing Python bindings..."
-cd python
-python setup.py install
-
-echo "Pocketsphinx installed."
 ```
 
 ## Continue
