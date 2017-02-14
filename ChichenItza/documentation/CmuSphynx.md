@@ -87,7 +87,7 @@ make install
 
 ```
 
-## PocketSphinx
+## Profile
 
 ```sh
 root@edison:~/led-speech-edison/bin# nano ~/.profile
@@ -98,6 +98,8 @@ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 ```sh
 root@edison:~/led-speech-edison/bin# source ~/.profile
 ```
+
+## PocketSphinx
 
 ```sh
 root@edison:~/led-speech-edison/bin# ./installPocketsphinx.sh
