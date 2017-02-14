@@ -4,6 +4,19 @@
 
 - [Pyttsx Documentation](http://pyttsx.readthedocs.io/en/latest/)
 
+```sh
+root@edison:~# pip install pyttsx
+Downloading/unpacking pyttsx
+  Downloading pyttsx-1.1.tar.gz
+  Running setup.py egg_info for package pyttsx
+    
+Installing collected packages: pyttsx
+  Running setup.py install for pyttsx
+    
+Successfully installed pyttsx
+Cleaning up...
+root@edison:~# 
+```
 
 ```sh
 root@edison:~# nano main.py
