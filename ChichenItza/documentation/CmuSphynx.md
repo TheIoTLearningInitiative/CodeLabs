@@ -116,6 +116,10 @@ root@edison:~# tar xvf download
 root@edison:~# rm download
 root@edison:~# cd pocketsphinx-5prealpha/
 root@edison:~/pocketsphinx-5prealpha# ./configure
+root@edison:~/pocketsphinx-5prealpha# make
+root@edison:~/pocketsphinx-5prealpha# make install
+root@edison:~/pocketsphinx-5prealpha# cd
+root@edison:~# 
 ```
 
 ### Script
