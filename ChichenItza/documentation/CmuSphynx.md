@@ -31,11 +31,13 @@ installPocketsphinx.sh  installPyAudio.sh  installSphinxbase.sh
 root@edison:~/led-speech-edison/bin# 
 ```
 
+## SphinxBase
+
 ```sh
 root@edison:~/led-speech-edison/bin# ./installSphinxbase.sh
 ```
 
-## Old Version
+### Old Version
 
 ```sh
 #!/bin/sh
@@ -70,7 +72,7 @@ export LD_LIBRARY_PATH=/usr/local/lib
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 ```
 
-## New Version
+### New Version
 
 ```sh
 #!/bin/sh
@@ -90,6 +92,8 @@ make
 make install
 
 ```
+
+## PocketSphinx
 
 ```sh
 root@edison:~/led-speech-edison/bin# source ~/.profile
