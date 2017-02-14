@@ -103,3 +103,7 @@ try:
 except KeyboardInterrupt:
     pass
 ```
+
+```sh
+root@edison:~# python main.py
+```
