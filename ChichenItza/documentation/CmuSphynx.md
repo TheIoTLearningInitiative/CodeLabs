@@ -70,17 +70,13 @@ echo "Sphinxbase installed."
 
 ```sh
 #!/bin/sh
-
-mkdir -p ../install
-cd ../install
-
-echo "Downloading sphinxbase..."
+echo "Downloading SphinxBase..."
 wget https://sourceforge.net/projects/cmusphinx/files/sphinxbase/5prealpha/sphinxbase-5prealpha.tar.gz/download
 tar -xvf download
 rm download
 cd sphinxbase-5prealpha/
 
-echo "Installing sphinxbase..."
+echo "Installing SphinxBase..."
 ./configure
 make
 make install
@@ -137,17 +133,13 @@ echo "Pocketsphinx installed."
 
 ```sh
 #!/bin/sh
-
-mkdir -p ../install
-cd ../install
-
-echo "Downloading pocketsphinx..."
+echo "Downloading PocketSphinx..."
 wget https://sourceforge.net/projects/cmusphinx/files/pocketsphinx/5prealpha/pocketsphinx-5prealpha.tar.gz/download
 tar xvf download
 rm download
 cd pocketsphinx-5prealpha/
 
-echo "Installing pocketsphinx..."
+echo "Installing PocketSphinx..."
 ./configure
 make
 make install
