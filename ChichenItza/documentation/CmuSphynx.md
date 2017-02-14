@@ -70,7 +70,7 @@ echo "Sphinxbase installed."
 
 ### New Version
 
-```
+```sh
 root@edison:~# wget https://sourceforge.net/projects/cmusphinx/files/sphinxbase/5prealpha/sphinxbase-5prealpha.tar.gz/download
 root@edison:~# tar xvf download
 root@edison:~# rm download
