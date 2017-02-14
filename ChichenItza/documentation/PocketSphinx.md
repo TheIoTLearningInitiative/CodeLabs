@@ -8,7 +8,7 @@ root@edison:~# opkg install --nodeps jack-dev
 root@edison:~# opkg install pulseaudio-dev
 ```
 
-# PocketSphinx Installation
+## PocketSphinx Installation
 
 ```sh
 root@edison:~# pip install --upgrade pip setuptools wheel
