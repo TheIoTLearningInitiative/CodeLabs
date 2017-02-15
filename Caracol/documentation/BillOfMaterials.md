@@ -1,5 +1,10 @@
 # Bill of Materials
 
+# Accounts
+
+- PuertaDigitalGdl Outlook 408702
+- PuertaDigitalGdc Outlook
+
 # Stationary Video Conference Station, Digital Door
 
 - Computer Intel® Compute Stick powered by Windows 10
