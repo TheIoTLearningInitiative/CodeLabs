@@ -20,6 +20,7 @@ Accounts
 - Time Lapse Video
   - https://twitter.com/NuupXe/status/803289958681219073
 - Text To Speech
+  - "Hi There! I am Digital Door! I can play videos, take pictures, create a time lapse video from a set of pictures, be a game console, manage cloud storage and much more! Your imagination is the limit!"
 - Speech To Text
 - Cloud Storage
 - Game Emulator
