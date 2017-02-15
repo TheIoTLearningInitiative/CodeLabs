@@ -5,6 +5,11 @@
 - Digital Door
 - Live Translation (Third Party)
 
+Accounts
+
+- PuertaDigitalGdl
+- PuertaDigitalGdc
+
 # Non Official
 
 - Mobile Station
