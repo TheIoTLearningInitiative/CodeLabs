@@ -38,72 +38,23 @@ root@edison:~# dmesg
 root@edison:~# 
 ```
 
-```sh
-Driver Info (not using libv4l2):
-        Driver name   : uvcvideo
-        Card type     : FaceCam 320X
-        Bus info      : usb-dwc3-host.2-1
-        Driver version: 3.10.98
-        Capabilities  : 0x84000001
-                Video Capture
-                Streaming
-                Device Capabilities
-        Device Caps   : 0x04000001
-                Video Capture
-                Streaming
-Priority: 2
-Video input : 0 (Camera 1: ok)
-Format Video Capture:
-        Width/Height  : 640/480
-        Pixel Format  : 'YUYV'
-        Field         : None
-        Bytes per Line: 1280
-        Size Image    : 614400
-        Colorspace    : SRGB
-Crop Capability Video Capture:
-        Bounds      : Left 0, Top 0, Width 640, Height 480
-        Default     : Left 0, Top 0, Width 640, Height 480
-        Pixel Aspect: 1/1
-Streaming Parameters Video Capture:
-        Capabilities     : timeperframe
-        Frames per second: 5.000 (5/1)
-        Read buffers     : 0
-                     brightness (int)    : min=-255 max=255 step=1 default=0 va
-lue=0
-                       contrast (int)    : min=0 max=30 step=1 default=15 value
-=15
-                     saturation (int)    : min=0 max=127 step=1 default=32 valu
-e=32
-                            hue (int)    : min=-16000 max=16000 step=1 default=
-0 value=0
- white_balance_temperature_auto (bool)   : default=1 value=1
-                          gamma (int)    : min=20 max=250 step=1 default=100 va
-lue=100
-           power_line_frequency (menu)   : min=0 max=2 default=1 value=1
-      white_balance_temperature (int)    : min=2800 max=6500 step=1 default=500
-0 value=5000 flags=inactive
-                      sharpness (int)    : min=0 max=31 step=1 default=16 value
-=16
-         backlight_compensation (int)    : min=0 max=2 step=1 default=0 value=0        
-```
-
-### Kernel Modules
+## Kernel Modules
 
 ```sh
-    root@edison:~# lsmod
-    Module                  Size  Used by
-    uvcvideo               71516  0 
-    videobuf2_vmalloc      13003  1 uvcvideo
-    videobuf2_memops       13001  1 videobuf2_vmalloc
-    videobuf2_core         37707  1 uvcvideo
-    ...
-    root@edison:~# find /lib/modules/* -name 'uvc'
-    /lib/modules/3.10.17-poky-edison+/kernel/drivers/media/usb/uvc
+root@edison:~# lsmod
+Module                  Size  Used by
+uvcvideo               71516  0 
+videobuf2_vmalloc      13003  1 uvcvideo
+videobuf2_memops       13001  1 videobuf2_vmalloc
+videobuf2_core         37707  1 uvcvideo
+...
+root@edison:~# find /lib/modules/* -name 'uvc'
+/lib/modules/3.10.17-poky-edison+/kernel/drivers/media/usb/uvc
 ```
 
-## Userspace Interfaces
+# Userspace Interfaces
 
-### DevFs
+## DevFs
 
 ```sh
     root@edison:~# ls -l /dev/video0
