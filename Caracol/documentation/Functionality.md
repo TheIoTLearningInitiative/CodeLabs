@@ -7,8 +7,8 @@
 
 Accounts
 
-- PuertaDigitalGdl
-- PuertaDigitalGdc
+- PuertaDigitalGdl Outlook
+- PuertaDigitalGdc Outlook
 
 # Non Official
 
