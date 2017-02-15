@@ -33,5 +33,5 @@
 
 - Stationary Video Conference Station
   - Live Translation
-- Entertainment System
+- Entertainment System / Digital Signage
 - Mobile Video Conference Station
