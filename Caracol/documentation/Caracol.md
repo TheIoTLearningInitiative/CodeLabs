@@ -19,17 +19,17 @@
 
 # Devices
 
-# What we see
+## What we see
 
 - Digital Door
 - Mobile System
 
-# What they want
+## What we want
 
 - Stationary Video Conference Station
 - Live Translation
 
-# What we offer
+## What we offer
 
 - Stationary Video Conference Station
   - Live Translation
