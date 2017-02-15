@@ -5,11 +5,6 @@
 * Digital Door
 * Live Translation \(Third Party\)
 
-Accounts
-
-* PuertaDigitalGdl Outlook 408702
-* PuertaDigitalGdc Outlook
-
 # Non Official
 
 ## Digital Signage
