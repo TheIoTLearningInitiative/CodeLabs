@@ -12,7 +12,8 @@ Accounts
 
 # Non Official
 
-- Mobile Station
+## Digital Signage
+
 - Videos
 - Selfies
   - https://twitter.com/NuupXe/status/803289405616070656
@@ -22,3 +23,7 @@ Accounts
 - Speech To Text
 - Cloud Storage
 - Game Emulator
+
+## Mobile Station
+
+- Cell Phone
