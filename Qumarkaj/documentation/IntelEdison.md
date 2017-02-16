@@ -5,7 +5,7 @@ Based on [Amazon Echo in Edison with Hand Gesture Trigger](https://software.inte
 - [Github Sammachin Turn a Raspberry Pi into an Alexa Client](https://github.com/sammachin/AlexaPi)
 - [Github Alexa-Pi Alexa client for all your devices!](https://github.com/alexa-pi/AlexaPi)
 
-# Setup
+## Setup
 
 ```sh
 root@board:~# echo > /etc/opkg/base-feeds.conf
