@@ -107,6 +107,7 @@
   * [Amazon Alexa](Qumarkaj/documentation/AmazonAlexa.md)
     * [Alexa Skills Kit](Qumarkaj/documentation/AlexaSkillsKit.md)
     * [Alexa Voice Service](Qumarkaj/documentation/AlexaVoiceService.md)
+      * Tbd
   * [Amazon Echo](Qumarkaj/documentation/AmazonEcho.md)
   * [Lifx](Qumarkaj/documentation/Lifx.md)
   * [IFTTT](Qumarkaj/documentation/Ifttt.md)
