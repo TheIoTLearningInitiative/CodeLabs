@@ -1,4 +1,8 @@
-# Alexa Voice Service Intel Edison
+# Alexa Voice Service Intel Edison\
+
+Basd on [Amazon Echo in Edison with Hand Gesture Trigger](https://software.intel.com/en-us/blogs/2016/06/07/amazon-echo-in-edison-with-hand-gesture-trigger)
+  - [Alexa client for all your devices!](https://github.com/alexa-pi/AlexaPi)
+
 
 ```sh
 root@board:~# echo > /etc/opkg/base-feeds.conf
