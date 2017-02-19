@@ -5,7 +5,7 @@ root@edison:~# nano main.py
 ```
 
 ```python
-#!/usr/bin/env python  
+#!/usr/bin/python  
 
 import pyaudio  
 import wave  
