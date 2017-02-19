@@ -24,8 +24,8 @@ data = f.readframes(chunk)
 
 # Play stream
 while data:
-stream.write(data)
-data = f.readframes(chunk)
+	stream.write(data)
+	data = f.readframes(chunk)
 
 # Stop stream
 stream.stop_stream()
