@@ -65,6 +65,7 @@ Possible sensor measurement issues:
   - Temperature
   - Relative Humidity
   - Links
+    - http://wiki.seeed.cc/Grove-Temperature_and_Humidity_Sensor_Pro/
     - 
 - __Grove - Gas Sensor(MQ3)__
   - Alcohol vapor
