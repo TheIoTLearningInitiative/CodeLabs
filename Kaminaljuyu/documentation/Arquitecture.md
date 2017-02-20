@@ -6,14 +6,14 @@
 
 - Monitoring
 - Human Activity
-- Sensibilizacion Informacion
-  - Estudios
-  - Focos Rojos
-- Sensiblizacion Proyectos
-- Salud Publica
+- Informacion Sensibilization
+  - Research
+  - Red Zones
+- Project Sensibilization
+- Public Health
   - InTake, Exposition
 - Personal Exposition
-  - Lineas Bases
+  - Base Lines
     - Corredores Viales
     - Corredores Comerciales
 
