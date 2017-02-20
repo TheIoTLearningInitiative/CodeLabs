@@ -26,13 +26,30 @@ def fMq2():
 			thresh = thisMq2.findThreshold(threshContext, 30, thisbuffer, samplelen)
 			#thisMq2.printGraph(threshContext, 5)
 			if(thresh):
-				print("Threshold: ", thresh)
+				print("MQ2 Threshold: ", thresh)
 		time.sleep(1)
 
 def fMq5():
 
+	# From
+	# https://github.com/intel-iot-devkit/upm/blob/master/examples/python/mq5.py
+
+        thisMq5 = upmGas.MQ5(1);
+
+	threshContext = upmGas.thresholdContext()
+	threshContext.averageReading = 0
+	threshContext.runningAverage = 0
+	threshContext.averagedOver = 2
+
+	thisbuffer = upmGas.uint16Array(128)
+
 	while True:
-		print 'MQ5'
+		samplelen = thisMq5.getSampledWindow(2, 128, thisbuffer)
+		if samplelen:
+			thresh = thisMq5.findThreshold(threshContext, 30, thisbuffer, samplelen)
+			#thisMq5.printGraph(threshContext, 5)
+			if(thresh):
+				print("MQ5 Threshold: ", thresh)
 		time.sleep(1)
 
 def main():
