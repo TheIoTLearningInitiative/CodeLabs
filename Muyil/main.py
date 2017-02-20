@@ -5,8 +5,6 @@ import signal
 import sys
 import time
 
-from threading import Thread
-
 def functionApiWeather():
     data = pywapi.get_weather_from_weather_com('MXJO0043', 'metric')
     message = data['location']['name']
