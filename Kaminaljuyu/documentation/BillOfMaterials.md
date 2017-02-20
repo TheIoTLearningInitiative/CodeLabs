@@ -2,7 +2,9 @@
 
 - [1](http://www.marama.org/images/stories/documents/16%20-%20Gayle%20Hagler,%20Lower%20Cost%20Air%20Measurement%20Technology.pdf)
 
-# Low Cost Air Quality Sensor
+# Some Theory
+
+## Low Cost Air Quality Sensor
 
 Characteristics
 
