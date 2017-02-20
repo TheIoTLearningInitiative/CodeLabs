@@ -61,6 +61,11 @@ Possible sensor measurement issues:
     - https://www.seeedstudio.com/Grove-Gas-Sensor(MQ2)-p-937.html
     - http://iotdk.intel.com/docs/master/upm/classupm_1_1_m_q2.html
     - https://github.com/intel-iot-devkit/upm/blob/master/examples/python/mq2.py
+- __Grove - Temperature and Humidity Sensor Pro__
+  - Temperature
+  - Relative Humidity
+  - Links
+    - 
 - __Grove - Gas Sensor(MQ3)__
   - Alcohol vapor
   - Links
