@@ -1,10 +1,10 @@
 # Xcambo
 
-> Mqtt Sensor Data 
+> Mqtt Sensor Xcambó (X'Cambó) es un yacimiento arqueológico que se encuentra ubicado en el municipio de Dzemul en el estado mexicano de Yucatán. Es considerada por los expertos como una de los yacimientos de mayor extensión en la costa norte peninsular, contando con edificios de grandes dimensiones. Se asienta sobre el bosque húmedo de la ciénaga, a sólo 2 kilómetros de la costa del Golfo de México, en el norte de la península, aproximadamente 40 km al noreste de la ciudad de Mérida, capital del estado de Yucatán [Wikipedia](https://es.wikipedia.org/wiki/Xcamb%C3%B3)
 
 ## Hardware Requirements
 
-- None
+* None
 
 ## Software Requirements
 
@@ -132,5 +132,6 @@ As publishers
 ```sh
 root@board:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t Xcambo/Main/DataActuator -m "On"
 ```
+
 
 
