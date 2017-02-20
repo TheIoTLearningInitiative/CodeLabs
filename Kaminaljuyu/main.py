@@ -4,37 +4,53 @@ import time
 from datetime import datetime
 import threading
 
-def functiona():
+import pyupm_gas as upmGas
+
+def fMq2():
+
+	# From
+	# https://github.com/intel-iot-devkit/upm/blob/master/examples/python/mq2.py
+
+        thisMq2 = upmGas.MQ2(0);
+
+	threshContext = upmGas.thresholdContext()
+	threshContext.averageReading = 0
+	threshContext.runningAverage = 0
+	threshContext.averagedOver = 2
+
+	thisbuffer = upmGas.uint16Array(128)
 
 	while True:
+		samplelen = thisMq2.getSampledWindow(2, 128, thisbuffer)
+		if samplelen:
+			thresh = thisMq2.findThreshold(threshContext, 30, thisbuffer, samplelen)
+			#thisMq2.printGraph(threshContext, 5)
+			if(thresh):
+				print("Threshold: ", thresh)
+		time.sleep(1)
 
-		print 'Function A'
-		time.sleep(0.5)
-
-def functionb():
+def fMq5():
 
 	while True:
-
-		print 'Function B'
-		time.sleep(0.5)
+		print 'MQ5'
+		time.sleep(1)
 
 def main():
 
 	try:
 
-		d = threading.Thread(name='functiona', target=functiona)
-		d.setDaemon(True)
-		m = threading.Thread(name='functionb', target=functionb)
-		m.setDaemon(True)
-		d.start()
-		m.start()
+		mq2 = threading.Thread(name='fMq2', target=fMq2)
+		mq2.setDaemon(True)
+		mq5 = threading.Thread(name='fMq5', target=fMq5)
+		mq5.setDaemon(True)
+		mq2.start()
+		mq5.start()
 		signal.pause()
 
 	except(KeyboardInterrupt, SystemExit):
 
-		print 'Exiting program'		
-			
-			
+		print 'Exiting program'
+
 if __name__ == '__main__':
 
 	main()
