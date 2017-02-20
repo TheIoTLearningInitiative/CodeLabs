@@ -6,6 +6,6 @@
 
 Build Out Three Skills
 
-- space Geek
+- Space Geek
 - Game Helper
 - Interactive Story for Mac
