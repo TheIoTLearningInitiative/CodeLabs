@@ -55,7 +55,7 @@ Quintana Roo
 
 * **Coba** Linux Kernel Module
 * **Kohunlich** Linux Kernel Module I2C LCD
-* **Muyil**  ! **Under Construction**
+* **Muyil** Python Wrapper API **Under Construction**
 * **Tulum** Openstack Sensor Dashboard
 
 Yucatán
