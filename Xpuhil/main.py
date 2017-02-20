@@ -7,15 +7,11 @@ import sys
 import time
 
 import pyupm_grove as grove
-import pyupm_i2clcd as lcd
 
-button = grove.GroveButton(8)
-display = lcd.Jhd1313m1(0, 0x3E, 0x62)
 light = grove.GroveLight(0)
-relay = grove.GroveRelay(2)
 
 datafreeboard = {}
-datadweet = "ThisIsDweeting"
+datadweet = "Xpuhil"
 
 def SIGINTHandler(signum, frame):
 	raise SystemExit
@@ -34,7 +30,7 @@ signal.signal(signal.SIGINT, SIGINTHandler)
 
 if __name__ == '__main__':
 
-    message = "Hola Cacerola! I'm Xpuhil!"
+    message = "Hello Xpuhil!"
 
     while True:
 
