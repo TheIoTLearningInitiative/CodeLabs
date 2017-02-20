@@ -101,6 +101,7 @@
 * [La Ruta Puuc](LaRutaPuuc/documentation/LaRutaPuuc.md)
 * [Mayapan](Mayapan/documentation/Mayapan.md)
 * [Mixco Viejo](MixcoViejo/documentation/MixcoViejo.md)
+* [Muyil](Muyil/documentation/Muyil.md)
 * [Palenque](Palenque/documentation/Palenque.md)
 * [Qumarkaj](Qumarkaj/documentation/Qumarkaj.md)
   * [Amazon](Qumarkaj/documentation/Amazon.md)
