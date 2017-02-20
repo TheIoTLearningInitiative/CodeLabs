@@ -55,7 +55,7 @@ Quintana Roo
 
 * **Coba** Linux Kernel Module
 * **Kohunlich** Linux Kernel Module I2C LCD
-* **Muyil** Emoncms ! **Under Construction**
+* **Muyil** Python Wrapper API **Under Construction**
 * **Tulum** Openstack Sensor Dashboard
 
 Yucatán
@@ -80,6 +80,7 @@ Yucatán
 * **Ah Puch** Recon Instruments
 * **Tbd** Bosch IoT Suite
 * **Tbd** Neural Networks Curie
+* **Tbd **Emoncms
 
 
 
