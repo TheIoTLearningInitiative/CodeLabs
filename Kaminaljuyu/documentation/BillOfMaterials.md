@@ -61,6 +61,13 @@ Possible sensor measurement issues:
     - https://www.seeedstudio.com/Grove-Gas-Sensor(MQ2)-p-937.html
     - http://iotdk.intel.com/docs/master/upm/classupm_1_1_m_q2.html
     - https://github.com/intel-iot-devkit/upm/blob/master/examples/python/mq2.py
+- __Grove - Gas Sensor(MQ5)__
+  - LPG, Natural Gas, Town Gas
+    - Useful for gas leakage detection
+  - Links
+    - https://www.seeedstudio.com/Grove-Gas-Sensor(MQ5)-p-938.html
+    - http://iotdk.intel.com/docs/master/upm/classupm_1_1_m_q5.html
+    - https://github.com/intel-iot-devkit/upm/blob/master/examples/python/mq5.py
 - __Grove - Temperature and Humidity Sensor Pro__
   - Temperature
   - Relative Humidity
@@ -72,13 +79,6 @@ Possible sensor measurement issues:
     - https://www.seeedstudio.com/Grove-Gas-Sensor(MQ3)-p-1418.html
     - http://iotdk.intel.com/docs/master/upm/classupm_1_1_m_q3.html
     - https://github.com/intel-iot-devkit/upm/blob/master/examples/python/mq3.py
-- __Grove - Gas Sensor(MQ5)__
-  - LPG, Natural Gas, Town Gas
-    - Useful for gas leakage detection
-  - Links
-    - https://www.seeedstudio.com/Grove-Gas-Sensor(MQ5)-p-938.html
-    - http://iotdk.intel.com/docs/master/upm/classupm_1_1_m_q5.html
-    - https://github.com/intel-iot-devkit/upm/blob/master/examples/python/mq5.py
 - __Grove - Gas Sensor(MQ9)__
   - Carbon Monoxide, Coal Gas, Liquefied Gas
     - Gas leakage detecting(in home and industry)
