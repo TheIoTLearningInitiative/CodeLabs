@@ -16,13 +16,13 @@ root@board:~# opkg install python-dev
 ## Setup
 
 ```sh
-root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Xpuhil/setup.sh -o - | sh
+root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Xpuhil/setup.sh -o - | sh
 ```
 
 ## Code
 
 ```sh
-root@edison:~/CodeLabs/Xpuhil# vi main.py
+root@board:~/CodeLabs/Xpuhil# vi main.py
 ```
 
 ```python
