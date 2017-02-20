@@ -41,4 +41,4 @@ if __name__ == '__main__':
         datafreeboard['message'] = message
         dweepy.dweet_for(datadweet, datafreeboard)
 
-        time.sleep(1)
+        time.sleep(2)
