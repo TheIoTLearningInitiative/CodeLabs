@@ -63,7 +63,10 @@ if __name__ == '__main__':
 ```sh
 root@board:~/CodeLabs/Muyil# python main.py
 Hello Muyil
-API Weather: Guadalajara, JO, Mexico, Temperature 22 C, Atmospheric Pressure 847 mbar 
+API Weather: Guadalajara, JO, Mexico, Temperature 17 C, Atmospheric Pressure 842 mbar 
+Hello Muyil
+^Z
+[1]+  Stopped(SIGTSTP)        python main.py
 root@board:~/CodeLabs/Muyil# 
 ```
 
