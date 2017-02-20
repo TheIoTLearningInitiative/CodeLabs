@@ -1,0 +1,7 @@
+wget https://launchpad.net/python-weather-api/trunk/0.3.8/+download/pywapi-0.3.8.tar.gz
+tar zxvf pywapi-0.3.8.tar.gz
+cd pywapi-0.3.8
+python setup.py build
+python setup.py install
+cd ..
+rm -rf pywapi-0.3.8*
