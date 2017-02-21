@@ -9,3 +9,7 @@ Build Out Three Skills
 - Space Geek
 - Game Helper
 - Interactive Story for Mac
+
+Steps:
+
+1. 
