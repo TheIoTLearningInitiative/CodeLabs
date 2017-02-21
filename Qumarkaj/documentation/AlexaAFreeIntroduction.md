@@ -33,4 +33,5 @@ Steps:
      - Skill Interface: Automatic Speech Recognition (ASR), Natural Language Understanding (NLU)
      - Skill Service: AWS Lambda Processes, The text sent to it and issues a response
    - Google for "Space Geek Alexa"
-     - Go to [GitHub - alexa/skill-sample-nodejs-fact](https://github.com/alexa/skill-sample-nodejs-fact)
+     - Go to [SDK and example code for building voice-enabled skills for the Amazon Echo](https://github.com/amzn/alexa-skills-kit-js) but it will be outdated
+     - Now go to [GitHub - alexa/skill-sample-nodejs-fact](https://github.com/alexa/skill-sample-nodejs-fact)
