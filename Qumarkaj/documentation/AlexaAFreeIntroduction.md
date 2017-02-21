@@ -56,5 +56,9 @@ Steps:
 5. Setting up Your Alexa Skill in the Developer Portal
    - Under Alexa Skills Kit select "Getting Started"
    - Select "Add a New Skill"
-   - Select a Language, a Skill Type, a Name and an Invocation Name
+   - Select a
+     - Skill Type: Custom Interaction Model
+     - Language: English (U.S.)
+     - Name: Intel Geek
+     - Invocation Name: Intel Geek
    
