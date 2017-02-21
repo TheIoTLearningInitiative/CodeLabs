@@ -63,7 +63,6 @@ Steps:
      - Invocation Name: Intel Geek
      - Global Fields: Audio Player No
    - Under "Intent Schema"
-
 ```json
 {
   "intents": [
@@ -82,3 +81,4 @@ Steps:
   ]
 }
 ```
+   - 
