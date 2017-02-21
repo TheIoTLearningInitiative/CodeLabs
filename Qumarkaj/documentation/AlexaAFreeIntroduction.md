@@ -13,7 +13,7 @@ Build Out Three Skills
 Steps:
 
 1. Signing up to Amazon Web Services
-   - Search for Amazon Web Services
+   - Google for Amazon Web Services
    - Go to [https://aws.amazon.com/](https://aws.amazon.com/)
    - Select "Create an AWS Account" || "Create a Free Account"
    - Sign in to the Amazon Web Services Management Console
@@ -23,3 +23,6 @@ Steps:
    - Select "A virtual MFA device"
    - Get "Google Autheticator"
 3. Signing Up To The Alexa Developers Portal
+   - Google for "Alexa Developer Portal"
+   - Go to [https://developer.amazon.com/edw/home.html#/](https://developer.amazon.com/edw/home.html#/)
+   
