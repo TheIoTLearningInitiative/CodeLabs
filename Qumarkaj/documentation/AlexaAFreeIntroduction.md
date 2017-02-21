@@ -35,7 +35,6 @@ Steps:
    - Google for "Space Geek Alexa"
      - Go to [SDK and example code for building voice-enabled skills for the Amazon Echo](https://github.com/amzn/alexa-skills-kit-js) but it will be outdated
      - Now go to [GitHub - alexa/skill-sample-nodejs-fact](https://github.com/alexa/skill-sample-nodejs-fact)
-     - Tbd
    - Log in to the AWS Management Console
     - [How to integrate AWS Lambda with Alexa](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/developing-an-alexa-skill-as-a-lambda-function)
     - Under region drop-down in the upper-right corner, select US East (N. Virginia)
