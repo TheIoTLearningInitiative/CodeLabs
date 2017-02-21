@@ -22,3 +22,4 @@ Steps:
    - Select "Activate MFA on your root account"
    - Select "A virtual MFA device"
    - Get "Google Autheticator"
+3.
