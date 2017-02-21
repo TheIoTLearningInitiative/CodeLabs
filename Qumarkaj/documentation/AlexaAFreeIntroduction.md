@@ -25,4 +25,4 @@ Steps:
 3. Signing Up To The Alexa Developers Portal
    - Google for "Alexa Developer Portal"
    - Go to [https://developer.amazon.com/edw/home.html#/](https://developer.amazon.com/edw/home.html#/)
-   
+4. Setting Up Lambda In The Skills Service
