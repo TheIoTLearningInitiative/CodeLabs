@@ -52,4 +52,7 @@ Steps:
    - Select under "Services" "Lambda: Run Code without Thinking about Servers"
      - Select "Create a Lambda Function"
      - Under "Select Blueprint" choose "alexa-skill-kit-sdk-factskill"
-     
+     - Under "Configure Triggers" select 
+5. Setting up Your Alexa Skill in the Developer Portal
+   - Under Alexa Skills Kit select "Getting Started"
+   - 
