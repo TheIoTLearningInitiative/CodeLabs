@@ -59,6 +59,7 @@ Steps:
      - Under Lambda function handler and role
        - Role: Choose an existing role
        - Existing role: Alexa
+     - Select "Create Function"
 5. Setting up Your Alexa Skill in the Developer Portal
    - Under Alexa Skills Kit select "Getting Started"
    - Select "Add a New Skill"
@@ -87,4 +88,4 @@ Steps:
   ]
 }
 ```
-   - 
+   - arn:aws:lambda:us-east-1:007315488252:function:IntelGeek
