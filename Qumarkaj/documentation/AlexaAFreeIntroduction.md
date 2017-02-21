@@ -42,4 +42,11 @@ Steps:
      - Select "Create New Roles"
        - Set Role Name: Alexa
        - Select "AWS Lambda"
+       - Search and select "Policy Type" "AWSLambdaBasicExecutionRole"
+       - You will be given:
+         - Role Name
+         - Role ARN
+         - Trusted Entities
+         - Policies
+       - Select Create Role
      
