@@ -18,4 +18,4 @@ Steps:
    - Select "Create an AWS Account" || "Create a Free Account"
    - Sign in to the Amazon Web Services Management Console
 2. Secure account with Multi Factor Authetication 
-   - 
+   - Select under "Security & Identity", "Identity & Access Management, Manage User Access and Encryption Keys"
