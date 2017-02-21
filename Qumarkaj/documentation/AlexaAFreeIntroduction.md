@@ -12,4 +12,4 @@ Build Out Three Skills
 
 Steps:
 
-1. 
+1. Signing up to Amazon Web Services
