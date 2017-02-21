@@ -29,4 +29,7 @@ Steps:
    - How we build our Skills
      - Skills Service: AWS Lambda
      - Skills Interface: Invocation Name, Intent Schema, Slot Type, Utterances
-   - 
+   - "Alexa, whats is the weather like?"
+     - Skill Interface: Automatic Speech Recognition (ASR), Natural Language Understanding (NLU)
+     
+   
