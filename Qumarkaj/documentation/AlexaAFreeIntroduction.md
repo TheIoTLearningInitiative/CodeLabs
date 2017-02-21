@@ -111,4 +111,5 @@ GetNewFactIntent give me something
      - Pick a Geographical region that is closest to your customer target: North America
      - North America: arn:aws:lambda:us-east-1:007315488252:function:IntelGeek
      - Account Linking: Do you allow users to create an account or link to an existing account with you? No
-   - 
+   - Under Test
+     - Write under "Service Simulator" utterance ""
