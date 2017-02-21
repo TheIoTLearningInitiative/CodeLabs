@@ -112,7 +112,8 @@
     * [Alexa Skills Kit](Qumarkaj/documentation/AlexaSkillsKit.md)
       * [Training: Developing Alexa Skills - Hello, Alexa!](Qumarkaj/documentation/DevelopingAlexaSkillsHelloAlexa.md)
       * [Training: Alexa - A Free Introduction](Qumarkaj/documentation/AlexaAFreeIntroduction.md)
-      * [Project: Alexa Skill: Intel Geek](Qumarkaj/documentation/AlexaSkillIntelGeek.md)
+      * [Project: Intel GDC Visitor Center](Qumarkaj/documentation/AlexaSkillIntelGeek.md)
+      * Project: Voice Control Intel Edison
     * [Alexa Voice Service](Qumarkaj/documentation/AlexaVoiceService.md)
       * [Intel Edison](Qumarkaj/documentation/IntelEdison.md)
 * [Seibal](Seibal/documentation/Seibal.md)
