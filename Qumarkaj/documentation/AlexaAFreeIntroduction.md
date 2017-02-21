@@ -106,4 +106,8 @@ GetNewFactIntent give me some Intel information
 GetNewFactIntent tell me something
 GetNewFactIntent give me something
 ```
-   - Under "Configuration" arn:aws:lambda:us-east-1:007315488252:function:IntelGeek
+   - Under "Configuration" 
+     - Service Endpoint Type: AWS Lambda ARN (Amazon Resource Name)
+     - Pick a Geographical region that is closest to your customer target: North America
+     - North America: arn:aws:lambda:us-east-1:007315488252:function:IntelGeek
+     - Account Linking: Do you allow users to create an account or link to an existing account with you? No
