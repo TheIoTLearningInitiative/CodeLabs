@@ -61,4 +61,5 @@ Steps:
      - Language: English (U.S.)
      - Name: Intel Geek
      - Invocation Name: Intel Geek
+     - Global Fields: Audio Player No
    
