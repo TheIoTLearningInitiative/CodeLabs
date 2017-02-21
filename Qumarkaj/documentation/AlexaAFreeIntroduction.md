@@ -55,4 +55,6 @@ Steps:
      - Under "Configure Triggers" select 
 5. Setting up Your Alexa Skill in the Developer Portal
    - Under Alexa Skills Kit select "Getting Started"
-   - 
+   - Select "Add a New Skill"
+   - Select a Language, a Skill Type, a Name and an Invocation Name
+   
