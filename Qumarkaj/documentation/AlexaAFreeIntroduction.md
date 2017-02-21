@@ -62,4 +62,23 @@ Steps:
      - Name: Intel Geek
      - Invocation Name: Intel Geek
      - Global Fields: Audio Player No
-   
+   - Under "Intent Schema"
+
+```json
+{
+  "intents": [
+    {
+      "intent": "GetNewFactIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
+```
