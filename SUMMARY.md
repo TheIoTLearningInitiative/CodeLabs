@@ -113,7 +113,7 @@
       * [Training: Developing Alexa Skills - Hello, Alexa!](Qumarkaj/documentation/DevelopingAlexaSkillsHelloAlexa.md)
       * [Training: Alexa - A Free Introduction](Qumarkaj/documentation/AlexaAFreeIntroduction.md)
       * [Project: Intel GDC Visitor Center](Qumarkaj/documentation/AlexaSkillIntelGeek.md)
-      * Project: Voice Control Intel Edison
+      * [Project: Voice Control Intel Edison](Qumarkaj/documentation/AlexaSkillVoiceControlIntelEdison.md)
     * [Alexa Voice Service](Qumarkaj/documentation/AlexaVoiceService.md)
       * [Intel Edison](Qumarkaj/documentation/IntelEdison.md)
 * [Seibal](Seibal/documentation/Seibal.md)
