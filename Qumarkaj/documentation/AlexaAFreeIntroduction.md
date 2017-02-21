@@ -13,4 +13,7 @@ Build Out Three Skills
 Steps:
 
 1. Signing up to Amazon Web Services
+   - Search for Amazon Web Services
+   - Go to [https://aws.amazon.com/](https://aws.amazon.com/)
+   
 2. 
