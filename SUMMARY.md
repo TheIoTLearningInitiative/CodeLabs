@@ -110,6 +110,7 @@
     * [IFTTT](Qumarkaj/documentation/Ifttt.md)
   * [Amazon Alexa](Qumarkaj/documentation/AmazonAlexa.md)
     * [Alexa Skills Kit](Qumarkaj/documentation/AlexaSkillsKit.md)
+      * [Developing Alexa Skills - Hello, Alexa!](Qumarkaj/documentation/DevelopingAlexaSkillsHelloAlexa.md)
       * [Alexa - A Free Introduction](Qumarkaj/documentation/AlexaAFreeIntroduction.md)
     * [Alexa Voice Service](Qumarkaj/documentation/AlexaVoiceService.md)
       * [Intel Edison](Qumarkaj/documentation/IntelEdison.md)
