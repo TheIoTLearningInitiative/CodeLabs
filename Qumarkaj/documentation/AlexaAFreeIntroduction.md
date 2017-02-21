@@ -61,15 +61,16 @@ Steps:
        - Existing role: Alexa
      - Select "Create Function"
 5. Setting up Your Alexa Skill in the Developer Portal
-   - Under "Alexa Skills Kit" select "Getting Started"
-   - Under "Skill Information" select "Add a New Skill"
-   - Under "Interaction Model" select a
+   - Go to [https://developer.amazon.com/edw/home.html#/](https://developer.amazon.com/edw/home.html#/)
+   - Select "Alexa Skills Kit" 
+   - Go to "Getting Started" and select "Add a New Skill"
+   - Under "Skill Information"
      - Skill Type: Custom Interaction Model
      - Language: English (U.S.)
      - Name: Intel Geek
      - Invocation Name: Intel Geek
      - Global Fields: Audio Player No
-   - Under "Intent Schema"
+   - Under "Interaction Model" populate "Intent Schema" with
 ```json
 {
   "intents": [
@@ -87,5 +88,22 @@ Steps:
     }
   ]
 }
+```
+   - Under "Interaction Model" populate "Sample Utterances" with
+```sh
+GetNewFactIntent a fact
+GetNewFactIntent a Intel fact
+GetNewFactIntent tell me a fact
+GetNewFactIntent tell me a Intel fact
+GetNewFactIntent give me a fact
+GetNewFactIntent give me a Intel fact
+GetNewFactIntent tell me trivia
+GetNewFactIntent tell me a Intel trivia
+GetNewFactIntent give me trivia
+GetNewFactIntent give me a Intel trivia
+GetNewFactIntent give me some information
+GetNewFactIntent give me some Intel information
+GetNewFactIntent tell me something
+GetNewFactIntent give me something
 ```
    - Under "Configuration" arn:aws:lambda:us-east-1:007315488252:function:IntelGeek
