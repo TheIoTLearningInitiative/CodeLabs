@@ -32,5 +32,5 @@ Steps:
    - "Alexa, whats is the weather like?"
      - Skill Interface: Automatic Speech Recognition (ASR), Natural Language Understanding (NLU)
      - Skill Service: AWS Lambda Processes, The text sent to it and issues a response
-   - Google for "Space Geek"
-   
+   - Google for "Space Geek Alexa"
+     - Go to [GitHub - alexa/skill-sample-nodejs-fact](https://github.com/alexa/skill-sample-nodejs-fact)
