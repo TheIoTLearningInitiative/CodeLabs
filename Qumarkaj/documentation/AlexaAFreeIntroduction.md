@@ -61,9 +61,9 @@ Steps:
        - Existing role: Alexa
      - Select "Create Function"
 5. Setting up Your Alexa Skill in the Developer Portal
-   - Under Alexa Skills Kit select "Getting Started"
-   - Under "Skill Information" Select "Add a New Skill"
-   - Under "Interaction Model" Select a
+   - Under "Alexa Skills Kit" select "Getting Started"
+   - Under "Skill Information" select "Add a New Skill"
+   - Under "Interaction Model" select a
      - Skill Type: Custom Interaction Model
      - Language: English (U.S.)
      - Name: Intel Geek
