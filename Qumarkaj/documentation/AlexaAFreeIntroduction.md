@@ -18,4 +18,7 @@ Steps:
    - Select "Create an AWS Account" || "Create a Free Account"
    - Sign in to the Amazon Web Services Management Console
 2. Secure account with Multi Factor Authetication 
-   - Select under "Security & Identity", "Identity & Access Management, Manage User Access and Encryption Keys"
+   - Select under "Security & Identity", "Identity & Access Management (IAM), Manage User Access and Encryption Keys"
+   - Select "Activate MFA on your root account"
+   - Select "A virtual MFA device"
+   - Get "Google Autheticator"
