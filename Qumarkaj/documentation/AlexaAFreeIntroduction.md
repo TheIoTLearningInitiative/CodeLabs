@@ -38,4 +38,6 @@ Steps:
      - Tbd
    - Sign in to the Amazon Web Services Management Console
      - Select under "Security & Identity", "Identity & Access Management (IAM), Manage User Access and Encryption Keys"
+     - Select "Roles"
+     - Select "Create New Roles"
      - 
