@@ -40,4 +40,4 @@ Steps:
      - Select under "Security & Identity", "Identity & Access Management (IAM), Manage User Access and Encryption Keys"
      - Select "Roles"
      - Select "Create New Roles"
-     - 
+       - Set Role Name: 
