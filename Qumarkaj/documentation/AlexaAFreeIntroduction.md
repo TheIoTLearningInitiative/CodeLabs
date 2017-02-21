@@ -37,4 +37,5 @@ Steps:
      - Now go to [GitHub - alexa/skill-sample-nodejs-fact](https://github.com/alexa/skill-sample-nodejs-fact)
      - Tbd
    - Sign in to the Amazon Web Services Management Console
+     - Select under "Security & Identity", "Identity & Access Management (IAM), Manage User Access and Encryption Keys"
      - 
