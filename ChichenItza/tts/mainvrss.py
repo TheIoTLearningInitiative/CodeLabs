@@ -1,4 +1,5 @@
 import voicerssurllib
+import subprocess
 
 voice = voicerssurllib.speech({
 	'key': '9fbff2d35eb54b62998515ccbc656a07',
@@ -11,6 +12,10 @@ voice = voicerssurllib.speech({
 	'b64': 'false'
 })
 
-newFile = open ("voicerss.wav", "wb")
+file = 'voicerss.wav'
+
+newFile = open (file, "wb")
 newFile.write(voice['response'])
 newFile.close()
+
+player = subprocess.Popen(["aplay", file])
