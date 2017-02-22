@@ -1,20 +1,28 @@
+#!/usr/bin/python
+
 import speech_recognition as sr
-import pyaudio
-import wit
 
 r = sr.Recognizer()
-with sr.Microphone() as source:
-    r.adjust_for_ambient_noise(source) # listen for 1 second to calibrate the energy threshold for ambient noise levels
-    print("Say something!")
-    audio = r.listen(source)
-
-file = open('configuration/wit.wi', 'r')
-WIT_AI_KEY = file.readline()
-file.close()
+m = sr.Microphone()
 
 try:
-    print("Wit.ai thinks you said " + r.recognize_wit(audio,key=WIT_AI_KEY))
-except sr.UnknownValueError:
-    print("Wit.ai could not understand audio")
-except sr.RequestError:
-    print("Could not request results from Wit.ai service")
+    print("A moment of silence, please...")
+    with m as source: r.adjust_for_ambient_noise(source)
+    print("Set minimum energy threshold to {}".format(r.energy_threshold))
+    print("Say something!")
+    with m as source: audio = r.listen(source)
+    print("Got it! Now to recognize it...")
+    WIT_AI_KEY = "V3JL4FMYQMJEJQGBOVW5WAMUHIUPQ3SI"
+    try:
+        value = r.recognize_wit(audio, key=WIT_AI_KEY)
+
+        if str is bytes:
+            print(u"You said {}".format(value).encode("utf-8"))
+        else:
+            print("You said {}".format(value))
+    except sr.UnknownValueError:
+        print("Oops! Didn't catch that")
+    except sr.RequestError as e:
+        print("Uh oh! Couldn't request results from Wit.ai service; {0}".format(e))
+except KeyboardInterrupt:
+    pass
