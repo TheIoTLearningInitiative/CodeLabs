@@ -13,6 +13,9 @@
 
 ```sh
 root@edison:~# pip install SpeechRecognition
+root@edison:~# pip install wit
+
+
 ```
 
 # Examples
