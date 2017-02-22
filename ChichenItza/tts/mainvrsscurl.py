@@ -13,8 +13,7 @@ def isay(language, message):
 
     message = str(message)
 
-    directorycurrent = os.path.dirname(os.path.realpath(__file__))
-    voicerss = directorycurrent + '/voicerss.sh'
+    voicerss = 'voicersscurl.sh'
     command = [voicerss, language, message]
     proc = subprocess.call(command)
 
