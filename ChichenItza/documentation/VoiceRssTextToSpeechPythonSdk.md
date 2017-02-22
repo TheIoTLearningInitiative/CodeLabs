@@ -71,7 +71,7 @@ import voicerss_tts
 voice = voicerss_tts.speech({
     'key': '',
     'hl': 'en-us',
-    'src': 'Hello, world! Now we are talking!',
+    'src': 'Hello World! Now we are talking!',
     'r': '0',
     'c': 'wav',
     'f': '44khz_16bit_stereo',
