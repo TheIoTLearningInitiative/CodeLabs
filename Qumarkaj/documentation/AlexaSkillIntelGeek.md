@@ -3,6 +3,10 @@
 ## Skill: Me
 
 - 
+- Intents
+  - WelcomeIntent welcome
+  - WelcomeIntent say welcome
+  - WelcomeIntent say welcome all
 
 ## Skill: Geek
 
