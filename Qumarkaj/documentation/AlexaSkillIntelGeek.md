@@ -7,6 +7,7 @@
     - WelcomeIntent welcome
     - WelcomeIntent say welcome
     - WelcomeIntent say welcome all
+- __Answer__ Welcome to Intel Guadalajara Design Center!
 
 ## Skill: Geek
 
