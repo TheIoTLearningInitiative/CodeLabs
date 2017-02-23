@@ -2,7 +2,7 @@
 
 ## Skill: Me
 
-- Invocation Name: Ask Me
+- __Invocation Name__: Ask Me
   - __Intents__
     - WelcomeIntent welcome
     - WelcomeIntent say welcome
@@ -10,7 +10,7 @@
 
 ## Skill: Geek
 
-- Invocation Name: Ask Geek
+- __Invocation Name__: Ask Geek
   - __Intents__
     - GetNewFactIntent a fact
     - GetNewFactIntent facts
