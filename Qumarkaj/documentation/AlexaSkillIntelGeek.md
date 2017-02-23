@@ -2,6 +2,8 @@
 
 ## Skill: Me
 
+- 
+
 ## Skill: Geek
 
 - Intel Corporation was founded in 1968
