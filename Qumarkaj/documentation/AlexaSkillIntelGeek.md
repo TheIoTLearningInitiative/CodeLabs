@@ -2,7 +2,7 @@
 
 ## Skill: Me
 
-- 
+- Invocation Name: Ask Me
 - Intents
   - WelcomeIntent welcome
   - WelcomeIntent say welcome
