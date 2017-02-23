@@ -22,3 +22,6 @@
 
 ## Skill: Trivia
 
+- __Invocation Name__: Ask Geek
+  - __Intents__
+    - 
