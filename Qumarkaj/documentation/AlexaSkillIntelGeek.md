@@ -3,17 +3,22 @@
 ## Skill: Me
 
 - Invocation Name: Ask Me
-- Intents
-  - WelcomeIntent welcome
-  - WelcomeIntent say welcome
-  - WelcomeIntent say welcome all
+  - __Intents__
+    - WelcomeIntent welcome
+    - WelcomeIntent say welcome
+    - WelcomeIntent say welcome all
 
 ## Skill: Geek
 
 - Invocation Name: Ask Geek
-- Intel Corporation was founded in 1968
-- Intel Guadalajara was founded in 2000
-- Intel Guadalajara has over 1400 employees
+  - __Intents__
+    - GetNewFactIntent a fact
+    - GetNewFactIntent facts
+    - GetNewFactIntent an Intel fact
+    - GetNewFactIntent tell me a fact
+    - GetNewFactIntent tell me an Intel fact
+    - GetNewFactIntent give me a fact
+    - GetNewFactIntent give me an Intel fact
 
 ## Skill: Trivia
 
