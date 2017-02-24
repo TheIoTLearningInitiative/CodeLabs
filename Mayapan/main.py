@@ -268,9 +268,9 @@ if __name__ == '__main__':
 	#forecastweather6 = getWeatherMsgForecast(6)
 	temp = gTemp.getTemperature()
         if Angle == 0:
-	    msgBlinds = "Blinds Open"
-	else:
 	    msgBlinds = "Blinds Closed"
+	else:
+	    msgBlinds = "Blinds Open"
 	if relay.isOn():
 	    msgLight = "Lights on"
 	else:
