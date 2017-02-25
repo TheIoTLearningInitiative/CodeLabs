@@ -10,8 +10,8 @@
 * **Kaminaljuyu** Air Quality
 * **Tikal** Emergency Medical Monitoring System
 * **Edzna** Home Assistant
-* **Chichen Itza** Audio as a Service
 * **Q'umarkaj** Amazon Echo / Alexa Voice Service
+* **Chichen Itza** Audio as a Service
 * **Ah Puch** Recon Instruments
 
 ## Full List
