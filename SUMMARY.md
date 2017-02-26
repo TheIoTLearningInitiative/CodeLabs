@@ -60,7 +60,7 @@
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
 * [Edzna](Edzna/documentation/Edzna.md)
   * [MQ Telemetry Transport](Edzna/documentation/mq-telemetry-transport.md)
-  * Device
+  * [Device](Edzna/documentation/device.md)
     * [Light ESP8266](Edzna/documentation/Esp8266.md)
     * [Intel Edison](Edzna/documentation/IntelEdison.md)
   * [Server](Edzna/documentation/Server.md)
