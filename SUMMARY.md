@@ -4,7 +4,7 @@
 
 * [Cover](README.md)
 * [Summary](SUMMARY.md)
-* [Introduction](Introduction.md)
+* [Introduction](Documentation/Introduction.md)
   * [Getting Started](Documentation/GettingStarted.md)
 * [Caracol](Caracol/documentation/Caracol.md)
   * [Architecture](Caracol/documentation/Architecture.md)
