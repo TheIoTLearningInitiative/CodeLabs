@@ -13,3 +13,7 @@ root@edison:~/nodered# npm install node-red-contrib-socialogix4edison
 ```
 root@edison:~/nodered# npm i node-red-dashboard
 ```
+
+# Manage Palette
+
+- node-red-contrib-bluemix-nodes
