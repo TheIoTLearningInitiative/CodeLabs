@@ -28,7 +28,7 @@ root@edison:~#
 > List all soundcards and digital audio devices
 
 ```sh
-root@edison:~# record -l
+root@edison:~# arecord -l
 ...
 ...
 card 1: dummyaudio [dummy-audio], device 0: 14 []
