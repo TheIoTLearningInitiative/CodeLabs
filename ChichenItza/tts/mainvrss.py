@@ -2,7 +2,7 @@ import voicerssurllib
 import subprocess
 
 voice = voicerssurllib.speech({
-	'key': '9fbff2d35eb54b62998515ccbc656a70',
+	'key': '9fbff2d35eb54b62998515ccbc656a07',
 	'hl': 'en-us',
 	'src': 'Hello World! Now we are talking!',
 	'r': '0',
@@ -12,7 +12,7 @@ voice = voicerssurllib.speech({
 	'b64': 'false'
 })
 
-file = 'voicerss.wav'
+file = 'audio.wav'
 
 newFile = open (file, "wb")
 newFile.write(voice['response'])
