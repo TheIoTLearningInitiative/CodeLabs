@@ -48,9 +48,9 @@ pip install pyttsx
 
 pip install cython
 
-wget https://sourceforge.net/projects/cmusphinx/files/sphinxbase/5prealpha/sphinxbase-5prealpha.tar.gz/download
-tar xvf download
-rm download
+wget https://sourceforge.net/projects/cmusphinx/files/sphinxbase/5prealpha/sphinxbase-5prealpha.tar.gz
+tar xvf sphinxbase-5prealpha.tar.gz
+rm sphinxbase-5prealpha.tar.gz
 cd sphinxbase-5prealpha/
 ./configure
 make
@@ -65,9 +65,9 @@ EOT
 
 # Speech To Text: CMU Sphynx: PocketSphinx
 
-wget https://sourceforge.net/projects/cmusphinx/files/pocketsphinx/5prealpha/pocketsphinx-5prealpha.tar.gz/download
-tar xvf download
-rm download
+wget https://sourceforge.net/projects/cmusphinx/files/pocketsphinx/5prealpha/pocketsphinx-5prealpha.tar.gz
+tar xvf pocketsphinx-5prealpha.tar.gz
+rm pocketsphinx-5prealpha.tar.gz
 cd pocketsphinx-5prealpha/
 ./configure
 make
