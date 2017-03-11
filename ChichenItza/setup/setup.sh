@@ -77,6 +77,7 @@ cd ..
 # Speech To Text: SpeechRecognition
 
 pip install --upgrade SpeechRecognition
+pip install wit
 
 echo
 echo "Now go to CodeLabs/ChichenItza directory to get started!"
