@@ -12,6 +12,9 @@ root@edison:~# opkg install alsa-utils libportaudio2 libasound2 bison alsa-lib-d
 
 ```sh
 root@edison:~# aplay -l
+```
+
+```sh
 ...
 ...
 card 1: dummyaudio [dummy-audio], device 0: 14 []
@@ -29,6 +32,9 @@ root@edison:~#
 
 ```sh
 root@edison:~# arecord -l
+```
+
+```sh
 ...
 ...
 card 1: dummyaudio [dummy-audio], device 0: 14 []
