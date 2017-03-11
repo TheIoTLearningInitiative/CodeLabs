@@ -83,7 +83,7 @@ Yucatán
 * **Tbd** Neural Networks Curie
 * **Tbd** Emoncms
 * **Tbd** Blockchain
-* **Tbd** Microsfot Cognitive Services
+* **Tbd** Microsoft Cognitive Services
 
 
 
