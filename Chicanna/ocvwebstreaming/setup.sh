@@ -1,11 +1,6 @@
 echo
-echo "Welcome to Uxmal Playground"
+echo "Welcome to Chicanna Playground"
 echo
-
-sleep 4
-
-# git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
-cd CodeLabs/Uxmal/
 
 echo > /etc/opkg/base-feeds.conf
 cat << EOT >> /etc/opkg/base-feeds.conf
@@ -19,7 +14,7 @@ sh requirements.opkg
 pip install -r requirements.pip
 
 echo
-echo "Now go to CodeLabs/uxmal directory to get started!"
+echo "Now go to CodeLabs/Chicanna directory to get started!"
 echo
-echo "Happy Uxmal'ing!"
+echo "Happy Chicanna'ing!"
 echo
