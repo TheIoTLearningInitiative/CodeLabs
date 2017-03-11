@@ -6,6 +6,9 @@
 
 ```sh
 root@edison:~# wget http://www.portaudio.com/archives/pa_stable_v190600_20161030.tgz
+```
+
+```sh
 --2017-02-05 19:04:41--  http://www.portaudio.com/archives/pa_stable_v190600_20161030.tgz
 Resolving www.portaudio.com... 107.22.210.58
 Connecting to www.portaudio.com|107.22.210.58|:80... connected.
@@ -16,8 +19,6 @@ Saving to: 'pa_stable_v190600_20161030.tgz'
 100%[======================================>] 1,450,572    701KB/s   in 2.0s   
 
 2017-02-05 19:04:43 (701 KB/s) - 'pa_stable_v190600_20161030.tgz' saved [1450572/1450572]
-
-root@edison:~# 
 ```
 
 ```sh
@@ -27,6 +28,9 @@ root@edison:~# tar xvf pa_stable_v190600_20161030.tgz
 ```sh
 root@edison:~# cd portaudio/
 root@edison:~/portaudio# ls
+```
+
+```sh
 CMakeLists.txt        bindings              doc          pablio
 Doxyfile              build                 examples     portaudio-2.0.pc.in
 Doxyfile.developer    clear_gitrevision.sh  fixdir.bat   qa
@@ -36,7 +40,6 @@ README.configure.txt  config.sub            index.html   testcvs
 README.txt            configure             install-sh   update_gitrevision.sh
 SConstruct            configure.in          ltmain.sh
 aclocal.m4            depcomp               missing
-root@edison:~/portaudio# 
 ```
 
 ```sh
@@ -49,9 +52,17 @@ root@edison:~/portaudio# make install
 root@edison:~/portaudio# ldconfig
 root@edison:~/portaudio# echo $LD_LIBRARY_PATH 
 
+```
+
+```sh
 root@edison:~/portaudio# ls /usr/local/lib/                                                                                                        
+```
+
+```sh
 libportaudio.a   libportaudio.so    libportaudio.so.2.0.0
 libportaudio.la  libportaudio.so.2  pkgconfig
+```
+
+```sh
 root@edison:~/portaudio# export LD_LIBRARY_PATH=/usr/local/lib
-root@edison:~/portaudio# 
 ```
