@@ -15,6 +15,15 @@ root@board:~# opkg install python-dev upm mraa
 
 ## Code
 
+```sh
+root@edison:~/codelabs/Chacmultun/jhd1313m1/upm# ls
+Makefile  main.cpp
+```
+
+```sh
+root@edison:~/codelabs/Chacmultun/jhd1313m1/upm# make
+g++ -lmraa -lupm-i2clcd -I/usr/include/upm/ main.cpp -o main
+```
 
 
 ## Execution
