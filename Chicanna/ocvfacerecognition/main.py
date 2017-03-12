@@ -10,7 +10,7 @@ class Chicanna(object):
         self.directorycurrent = os.path.dirname(os.path.realpath(__file__))
         self.directoryoutput = self.directorycurrent
         self.imageinput = imageinput
-        self.cascPath = "haarcascade_frontalface_alt.xml"
+        self.cascPath = "filter.xml"
         self.imageoutput = imageoutput
 
     def detect(self):
