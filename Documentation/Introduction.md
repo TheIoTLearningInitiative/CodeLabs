@@ -72,7 +72,7 @@ Quintana Roo
 Yucatán
 
 * **Chacmultun** Optimization through Device Drivers Layers
-* **Chichen Itza** Audio
+* **Chichen Itza** Audio as a Service
 * **Dzibilchaltun** Telegram Bot
 * **Ek Balam** Google APIs **Under Construction**
 * **Kinich KaK Moo** Node-RED
