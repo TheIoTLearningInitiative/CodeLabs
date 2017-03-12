@@ -1,5 +1,3 @@
-set -x
-
 echo
 echo "Welcome to Chicanna Playground"
 echo
