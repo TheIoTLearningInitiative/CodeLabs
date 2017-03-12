@@ -2,7 +2,7 @@
 
 ## mraa
 
-
+> IO library that helps you use I2c, SPI, gpio, uart, pwm, analog inputs (aio) and more on a number of platforms such as the Intel galileo, the Intel edison and ... [Homepage](https://www.npmjs.com/package/mraa)
 
 ```sh
 root@edison:~# npm install mraa
@@ -21,7 +21,9 @@ mraa@1.5.1 node_modules/mraa
 
 ## galileo-io / edison-io
 
-> Intel Edison & Intel Galileo IO Plugin for Johnny-Five JavaScript Robotics
+> Intel Edison & Intel Galileo IO Plugin for Johnny-Five JavaScript Robotics 
+
+> Compatible with Intel's Galileo Generation 2 (no longer supports Galileo Generation 1), Edison (Mini and Arduino Board, SparkFun GPIO & Arduino Blocks, Xadow Board, DFRobot Romeo & IO Expansion) and Joule boards. [Homepage](https://www.npmjs.com/package/galileo-io)
 
 ```sh
 root@edison:~/nodered# npm install galileo-io

@@ -190,6 +190,11 @@ root@edison:~# ls .node-red/node_modules/
 node-red-contrib-socialogix4edison
 ```
 
+```sh
+root@edison:~# cd .node-red
+root@edison:~/.node-red# 
+```
+
 # node-red Dashboard
 
 Go to http://board.ip.adress:1880/#
