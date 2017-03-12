@@ -7,16 +7,10 @@
 - [Intel Edison for Arduino](https://www.seeedstudio.com/Intel%C2%AE-Edison-for-Arduino-p-2149.html)
 - [Grove - LCD RGB Backlight](http://wiki.seeed.cc/Grove-LCD_RGB_Backlight/)
 
-## Setup Manual
+## Setup
 
 ```sh
 root@board:~# opkg install i2c-tools-dev
-```
-
-## Setup Automated
-
-```sh
-root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Chacmultun/setup.sh -o - | sh
 ```
 
 ## Code
@@ -30,7 +24,6 @@ Makefile  main.c
 root@edison:~/codelabs/Chacmultun/jhd1313m1/i2clibrary# make
 gcc -O main.c -o main
 ```
-
 
 ## Execution
 
