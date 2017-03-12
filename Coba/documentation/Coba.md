@@ -4,11 +4,9 @@
 
 ## Hardware Requirements
 
-- Workstation (Linux, Windows, OS X)
-- Internet Connection
 - [Intel Edison for Arduino](https://www.seeedstudio.com/Intel%C2%AE-Edison-for-Arduino-p-2149.html)
 
-## Setup Manual
+## Setup
 
 ```sh
 root@board:~# cd
@@ -27,7 +25,7 @@ root@board:~# rm data.tar.gz
 root@board:~# rm linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
 ```
 
-## Setup Automated
+## Code
 
 ```sh
 root@edison:~/codelabs/Coba# ls
