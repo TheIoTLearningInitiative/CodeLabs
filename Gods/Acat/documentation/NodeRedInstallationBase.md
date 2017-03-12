@@ -94,6 +94,12 @@ Use --update-env to update environment variables
 ### node-red Autostart
 
 ```sh
+root@edison:~# whereis node-red
+node-red: /usr/bin/node-red
+root@edison:~# nano node-red.sh
+```
+
+```sh
 root@edison:~# cd /etc/init.d/
 ```
 
