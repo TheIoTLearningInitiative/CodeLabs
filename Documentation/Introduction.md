@@ -14,6 +14,7 @@
 * **Chichen Itza** Audio as a Service
 * **Ah Puch** Recon Instruments
 * **Acat** Node-Red
+* **Chicanna** Camara as a Service
 
 ## Full List
 
@@ -25,7 +26,7 @@ Belice
 
 Campeche
 
-* **Chicanna** OpenCV Face Recognition Web Picture
+* **Chicanna** Camara as a Service
 * **Edzna** Home Assistant
 * **Hormiguero** MQTT Alarm ! **Under Construction**
 * **Hochob** Upm Sensor Library LCD
