@@ -47,5 +47,4 @@ clean:
 
 ```sh
 root@board:~/CodeLabs/Kohunlich# 
-root@board:~/CodeLabs/Kohunlich# 
 ```
