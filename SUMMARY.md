@@ -68,6 +68,7 @@
       * [PyAudio](ChichenItza/documentation/CmuSphynxPyAudio.md)
     * [SpeechRecognition](ChichenItza/documentation/SpeechRecognition.md)
 * [Coba](Coba/documentation/Coba.md)
+  * Loadable Kernel Module
 * [Dos Pilas](DosPilas/documentation/DosPilas.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
 * [Edzna](Edzna/documentation/Edzna.md)
