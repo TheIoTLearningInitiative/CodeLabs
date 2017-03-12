@@ -17,7 +17,18 @@ make: Entering directory '/home/root/.node-red/node_modules/mraa/build'
   CC(target) Release/obj.target/mraa/src/x86/intel_gt_tuchuck.o
   CC(target) Release/obj.target/mraa/src/x86/up.o
   ...
-  
+  SOLINK_MODULE(target) Release/obj.target/mraa.node
+  COPY Release/mraa.node
+make: Leaving directory '/home/root/.node-red/node_modules/mraa/build'
+/home/root/.node-red
+`-- mraa@1.5.1 
+
+npm WARN enoent ENOENT: no such file or directory, open '/home/root/.node-red/package.json'
+npm WARN .node-red No description
+npm WARN .node-red No repository field.
+npm WARN .node-red No README data
+npm WARN .node-red No license field.
+
 
 ```
 
