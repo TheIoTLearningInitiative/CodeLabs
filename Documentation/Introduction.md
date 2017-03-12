@@ -6,21 +6,21 @@
 
 ## Priority
 
-* **Caracol** Digital Door
-* **Kaminaljuyu** Air Quality
-* **Tikal** Emergency Medical Monitoring System
-* **Edzna** Home Assistant
-* **Q'umarkaj** Amazon Echo / Alexa
-* **Chichen Itza** Audio as a Service
-* **Acat** IBM Node-Red
-* **Chicanna** Camara as a Service
-* **Chacmultun** Optimization Through Device Drivers Layers
+- __Caracol__ Digital Door
+- __Kaminaljuyu__ Air Quality
+- __Tikal__ Emergency Medical Monitoring System
+- __Edzna__ Home Assistant
+- __Q'umarkaj__ Amazon Echo / Alexa
+- __Chichen Itza__ Audio as a Service
+- __Acat__ IBM Node-Red
+- __Chicanna__ Camara as a Service
+- __Chacmultun__ Optimization Through Device Drivers Layers
   - Jhd1313m1 User Space Library UPM
   - Jhd1313m1 User Space Library MRAA
   - Jhd1313m1 User Space I2C Library
   - Jhd1313m1 Kernel Space I2C Driver
-* **Coba** Your First Linux Kernel Module
-* **Ah Puch** Recon Instruments
+- __Coba__ Your First Linux Kernel Module
+- __Ah Puch__ Recon Instruments
 
 ## Full List
 
