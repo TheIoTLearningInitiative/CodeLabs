@@ -111,6 +111,23 @@ root@edison:~# cd /lib/systemd/system
 root@edison:/lib/systemd/system# nano node-red.service
 ```
 
+```sh
+[Unit]
+Description=Node-RED   
+After=sys-subsystem-net-devices-%i.device
+
+[Service]
+ExecStart=/bin/bash /home/root/node-red.sh
+Restart=always
+RestartSec=10
+
+[Install]
+Alias=NodeRed   
+WantedBy=multi-user.target
+```
+
+
+
 # node-red Dashboard
 
 Go to http://board.ip.adress:1880/#
