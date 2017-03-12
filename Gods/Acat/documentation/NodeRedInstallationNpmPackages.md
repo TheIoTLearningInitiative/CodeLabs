@@ -55,8 +55,3 @@ make: Entering directory '/usr/lib/node_modules/edison-io/node_modules/mraa/buil
   ...
   
 ```
-
-```sh
-root@edison:~/.node-red# ls node_modules/
-edison-io  es6-shim  galileo-io  getobject  mraa  remapped  traverse
-```
