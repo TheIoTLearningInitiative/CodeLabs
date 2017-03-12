@@ -22,6 +22,7 @@
   - Jhd1313m1 User Space I2C Library
   - Jhd1313m1 Kernel Space I2C Driver
 * **Coba** Your First Linux Kernel Module
+* **Kohunlich** 
 * **Hochob** 
 
 
@@ -65,7 +66,7 @@ Guatemala
 Quintana Roo
 
 * **Coba** Your First Linux Kernel Module
-* **Kohunlich** Linux Kernel Module I2C LCD
+* **Kohunlich** 
 * **Muyil** Python Wrapper API **Under Construction**
 * **Tulum** Openstack Sensor Dashboard
 
@@ -75,8 +76,8 @@ Yucatán
 * **Chichen Itza** Audio as a Service
 * **Dzibilchaltun** Telegram Bot
 * **Ek Balam** Google APIs **Under Construction**
-* **Kinich KaK Moo** Node-RED
-* **La Ruta Puuc** NodeJS, Socket.io, Johnny Five, AngularJS  ! **Under Construction**
+* **Kinich KaK Moo** 
+* **La Ruta Puuc** NodeJS, Socket.io, Johnny Five, AngularJS  ! 
 * **Mayapan** Domotics
 * **Uxmal** OpenCV Camera Picture Web Streaming
 * **Xcambo** Mqtt Sensor Data
