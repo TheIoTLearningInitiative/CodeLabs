@@ -86,6 +86,13 @@ root@edison:~# npm install mraa -g
 > node-gyp rebuild
 ```
 
+```sh
+root@edison:~/.node-red# npm install mraa
+
+> mraa@1.5.1 install /home/root/.node-red/node_modules/mraa
+> node-gyp rebuild
+```
+
 ### mraa
 
 ```sh
