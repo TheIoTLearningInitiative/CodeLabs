@@ -49,7 +49,6 @@ make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison
 root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# 
 ```
 
-
 ```sh
 root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# ls
 JHD1313M2.c  JHD1313M2.ko     JHD1313M2.mod.o  Makefile        modules.order
