@@ -488,3 +488,83 @@ Loook at the installed __UI Nodes__
 - Intel_gpio
 - IBM_Watson
 - Watson_Deprecated
+
+
+```
+root@edison:~# cd /etc/init.d/
+root@edison:/etc/init.d# pm2 save
+[PM2] Saving current process list...
+[PM2] Successfully saved in /home/root/.pm2/dump.pm2
+root@edison:/etc/init.d# pm2 startup
+[PM2] Init System found: systemd
+Platform systemd
+Template
+[Unit]
+Description=PM2 process manager
+Documentation=https://pm2.keymetrics.io/
+After=network.target
+
+[Service]
+Type=forking
+User=root
+LimitNOFILE=infinity
+LimitNPROC=infinity
+LimitCORE=infinity
+TimeoutStartSec=8
+Environment=PATH=/usr/bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+Environment=PM2_HOME=/home/root/.pm2
+PIDFile=/home/root/.pm2/pm2.pid
+
+ExecStart=/usr/lib/node_modules/pm2/bin/pm2 resurrect
+ExecReload=/usr/lib/node_modules/pm2/bin/pm2 reload all
+ExecStop=/usr/lib/node_modules/pm2/bin/pm2 kill
+
+[Install]
+WantedBy=multi-user.target
+
+Target path
+/etc/systemd/system/pm2-root.service
+Command list
+[ 'chmod +x /etc/systemd/system/pm2-root.service',
+  'systemctl enable pm2-root',
+  'systemctl start pm2-root',
+  'systemctl daemon-reload',
+  'systemctl status pm2-root' ]
+[PM2] Writing init configuration in /etc/systemd/system/pm2-root.service
+[PM2] Making script booting at startup...
+>>> Executing chmod +x /etc/systemd/system/pm2-root.service
+[DONE] 
+>>> Executing systemctl enable pm2-root
+ln -s '/etc/systemd/system/pm2-root.service' '/etc/systemd/system/multi-user.target.wants/pm2-root.service'
+[DONE] 
+>>> Executing systemctl start pm2-root
+[DONE] 
+>>> Executing systemctl daemon-reload
+[DONE] 
+>>> Executing systemctl status pm2-root
+��● pm2-root.service - PM2 process manager
+   Loaded: loaded (/etc/systemd/system/pm2-root.service; enabled)
+   Active: active (running) since Sun 2017-03-12 18:55:52 UTC; 660ms ago
+     Docs: https://pm2.keymetrics.io/
+ Main PID: 2612 (PM2 v2.4.2: God)
+   CGroup: /system.slice/pm2-root.service
+           ��‣ 2612 PM2 v2.4.2: God Daemon (/home/root/.pm2)             
+
+Mar 12 18:55:51 edison pm2[2701]: [PM2] Resurrecting
+Mar 12 18:55:51 edison pm2[2701]: [PM2] Restoring processes located in /home/root/.pm2/dump.pm2
+Mar 12 18:55:52 edison pm2[2701]: ��┌��─��─��─��─��─��─��─��─��─��─��┬��─��─��─��─��┬��─��─��─��─��─��─��┬��─��─��─��─��─��─��┬��─��─��─��─�┐
+Mar 12 18:55:52 edison pm2[2701]: ��│ App name ��│ id ��│ mode ��│ pid  ��│ status ��│ restart ��│ uptime ��│ cpu ��│ mem       ��│ watching│
+Mar 12 18:55:52 edison pm2[2701]: ��├��─��─��─��─��─��─��─��─��─��─��┼��─��─��─��─��┼��─��─��─��─��─��─��┼��─��─��─��─��─��─��┼��─��─��─��─�┤
+Mar 12 18:55:52 edison pm2[2701]: ��│ node-red ��│ 0  ��│ fork ��│ 2656 ��│ online ��│ 1       ��│ 5m     ��│ 0%  ��│ 34.0 MB   ��│ disabled│
+Mar 12 18:55:52 edison pm2[2701]: ��└��─��─��─��─��─��─��─��─��─��─��┴��─��─��─��─��┴��─��─��─��─��─��─��┴��─��─��─��─��─��─��┴��─��─��─��─�┘
+Mar 12 18:55:52 edison pm2[2701]: Use `pm2 show <id|name>` to get more details about an app
+Mar 12 18:55:52 edison systemd[1]: Started PM2 process manager.
+[DONE] 
++---------------------------------------+
+[PM2] Freeze a process list on reboot via:
+$ pm2 save
+
+[PM2] Remove init script via:
+$ pm2 unstartup systemd
+root@edison:/etc/init.d# 
+```
