@@ -69,6 +69,7 @@
     * [SpeechRecognition](ChichenItza/documentation/SpeechRecognition.md)
 * [Coba](Coba/documentation/Coba.md)
   * [Loadable Kernel Module](Coba/documentation/LoadableKernelModule.md)
+  * [Linux Kernel Module](Coba/documentation/LinuxKernelModule.md)
 * [Dos Pilas](DosPilas/documentation/DosPilas.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
 * [Edzna](Edzna/documentation/Edzna.md)
