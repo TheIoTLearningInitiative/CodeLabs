@@ -32,7 +32,7 @@ Go to Chacmultun/jhd1313m1/i2cdriver directory
 
 ```sh
 root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# ls
-JHD1313M2.c  JHD1313M2.h  Makefile  setup.sh
+JHD1313M2.c  JHD1313M2.h  Makefile
 root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# 
 ```
 
@@ -52,7 +52,7 @@ root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver#
 ```sh
 root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# ls
 JHD1313M2.c  JHD1313M2.ko     JHD1313M2.mod.o  Makefile        modules.order
-JHD1313M2.h  JHD1313M2.mod.c  JHD1313M2.o      Module.symvers  setup.sh
+JHD1313M2.h  JHD1313M2.mod.c  JHD1313M2.o      Module.symvers
 root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# 
 ```
 
