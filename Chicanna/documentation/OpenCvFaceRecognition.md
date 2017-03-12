@@ -22,7 +22,7 @@ root@board:~# opkg install python-dev python-opencv python-numpy
 ## Code
 
 ```sh
-root@edison:~/CodeLabs/Chicanna# vi ocvfacerecognition.py
+root@edison:~/CodeLabs/Chicanna/facerecognition# vi ocvfacerecognition.py
 ```
 
 ```python
@@ -69,12 +69,12 @@ if __name__ == "__main__":
 ## Execution
 
 ```sh
-root@board:~/CodeLabs/Chicanna# wget https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/09/1442313353nasa-small.jpg
-root@board:~/CodeLabs/Chicanna# mv 1442313353nasa-small.jpg imageinput.jpeg
+root@board:~/CodeLabs/Chicanna/facerecognition# wget https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/09/1442313353nasa-small.jpg
+root@board:~/CodeLabs/Chicanna/facerecognition# mv 1442313353nasa-small.jpg imageinput.jpeg
 ```
 
 ```sh
-root@board:~/CodeLabs/Chicanna# python main.py 
+root@board:~/CodeLabs/Chicanna/facerecognition# python ocvfacerecognition.py 
 Found 23 faces!
-root@board:~/CodeLabs/Chicanna# 
+root@board:~/CodeLabs/Chicanna/facerecognition# 
 ```
