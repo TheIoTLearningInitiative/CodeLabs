@@ -38,8 +38,14 @@ root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver#
 
 ```sh
 root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# make
-JHD1313M2.c  JHD1313M2.ko     JHD1313M2.mod.o  Makefile        modules.order
-JHD1313M2.h  JHD1313M2.mod.c  JHD1313M2.o      Module.symvers  setup.sh
+make -C /lib/modules/3.10.98-poky-edison+/build M=/home/root/codelabs/Chacmultun/jhd1313m1/i2cdriver modules
+make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
+  CC [M]  /home/root/codelabs/Chacmultun/jhd1313m1/i2cdriver/JHD1313M2.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/root/codelabs/Chacmultun/jhd1313m1/i2cdriver/JHD1313M2.mod.o
+  LD [M]  /home/root/codelabs/Chacmultun/jhd1313m1/i2cdriver/JHD1313M2.ko
+make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
 root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# 
 ```
 
