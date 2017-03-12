@@ -2,7 +2,7 @@
 
 
 ```sh
-root@edison:~/.node-red# npm install node-red-contrib-grove-edison -g
+root@edison:~# npm install -g node-red-contrib-upm
 /usr/lib
-`-- node-red-contrib-grove-edison@0.1.1 
+`-- node-red-contrib-upm@0.3.2 
 ```
