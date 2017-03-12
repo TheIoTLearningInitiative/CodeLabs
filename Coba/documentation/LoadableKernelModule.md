@@ -1,4 +1,4 @@
-# Loadbale Kernel Module
+# Loadable Kernel Module
 
 > A loadable kernel module (LKM) is a mechanism for adding code to, or removing code from, the Linux kernel at run time. They are ideal for device drivers, enabling the kernel to communicate with the hardware without it having to know how the hardware. [DerekMolloy](http://derekmolloy.ie/writing-a-linux-kernel-module-part-1-introduction/)
 
