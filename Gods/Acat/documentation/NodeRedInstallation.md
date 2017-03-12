@@ -2,11 +2,6 @@
 
 Install the following npm packages:
 
-
-## Node-RED Mraa Library
-
-```sh
-root@edison:~/nodered# npm in
 ## Node-RED Official
 
 ```sh
