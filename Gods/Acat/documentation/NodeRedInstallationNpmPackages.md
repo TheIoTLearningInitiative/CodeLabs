@@ -13,7 +13,11 @@ root@edison:~/.node-red# npm install mraa
 > mraa@1.5.1 install /home/root/.node-red/node_modules/mraa
 > node-gyp rebuild
 
-...
+make: Entering directory '/home/root/.node-red/node_modules/mraa/build'
+  CC(target) Release/obj.target/mraa/src/x86/intel_gt_tuchuck.o
+  CC(target) Release/obj.target/mraa/src/x86/up.o
+  ...
+  
 
 ```
 
