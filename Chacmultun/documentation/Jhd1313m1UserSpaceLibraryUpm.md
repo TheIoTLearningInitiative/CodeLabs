@@ -29,12 +29,5 @@ g++ -lmraa -lupm-i2clcd -I/usr/include/upm/ main.cpp -o main
 ## Execution
 
 ```sh
-root@edison:~/CodeLabs/Hochob# make
-g++ -lmraa -lupm-i2clcd -I/usr/include/upm/ main.cpp -o main
-root@edison:~/CodeLabs/Hochob#
-```
-
-```sh
-root@edison:~/CodeLabs/Hochob# ./main
-
+root@edison:~/codelabs/Chacmultun/jhd1313m1/upm# ./main
 ```
