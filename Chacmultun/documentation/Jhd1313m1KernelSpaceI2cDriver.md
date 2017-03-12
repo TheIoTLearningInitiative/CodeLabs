@@ -25,7 +25,7 @@ root@edison:~# cd
 
 ## Code
 
-Go to Chacmultun/jhd1313m1/i2cdriver directory
+Go to CodeLabs/Chacmultun/jhd1313m1/i2cdriver directory
 
 ```sh
 root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# ls
