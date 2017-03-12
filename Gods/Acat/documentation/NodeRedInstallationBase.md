@@ -91,13 +91,59 @@ Use --update-env to update environment variables
  Use `pm2 show <id|name>` to get more details about an app
 ```
 
-### node-red Autostart
+### node-red Autostart, Working
 
 ```sh
 root@edison:~# whereis node-red
 node-red: /usr/bin/node-red
+```
+
+```sh
 root@edison:~# nano node-red.sh
 ```
+
+```sh
+root@edison:~# chmod +x node-red.sh 
+root@edison:~# cd /lib/systemd/system
+```
+
+```sh
+root@edison:/lib/systemd/system# nano node-red.service
+```
+
+# node-red Dashboard
+
+Go to http://board.ip.adress:1880/#
+
+Loook at the installed __UI Nodes__
+
+- Input
+- Output
+- Function
+- social
+- Storage
+- Analysis
+- Advanced
+
+
+# node-red Configuration
+
+```sh
+root@edison:~# ls .node-red/
+flows_edison.json  flows_edison_cred.json  lib  node_modules  settings.js
+```
+
+```sh
+root@edison:~# ls .node-red/node_modules/
+node-red-contrib-socialogix4edison
+```
+
+```sh
+root@edison:~# cd .node-red
+root@edison:~/.node-red# 
+```
+
+### node-red Autostart, Not Working
 
 ```sh
 root@edison:~# cd /etc/init.d/
@@ -266,34 +312,3 @@ root@edison:/etc/init.d# cd
 root@edison:~# 
 ```
 
-# node-red Dashboard
-
-Go to http://board.ip.adress:1880/#
-
-Loook at the installed __UI Nodes__
-
-- Input
-- Output
-- Function
-- social
-- Storage
-- Analysis
-- Advanced
-
-
-# node-red Configuration
-
-```sh
-root@edison:~# ls .node-red/
-flows_edison.json  flows_edison_cred.json  lib  node_modules  settings.js
-```
-
-```sh
-root@edison:~# ls .node-red/node_modules/
-node-red-contrib-socialogix4edison
-```
-
-```sh
-root@edison:~# cd .node-red
-root@edison:~/.node-red# 
-```
