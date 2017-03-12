@@ -54,7 +54,7 @@ root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver#
 root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# ls
 JHD1313M2.c  JHD1313M2.ko     JHD1313M2.mod.o  Makefile        modules.order
 JHD1313M2.h  JHD1313M2.mod.c  JHD1313M2.o      Module.symvers  setup.sh
-root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# insmod JHD1313M2.ko 
+root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# 
 ```
 
 ## Execution
