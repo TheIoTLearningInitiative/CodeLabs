@@ -22,4 +22,5 @@ root@edison:~/CodeLabs#
 root@edison:~/CodeLabs# git reset --hard
 HEAD is now at 2fe8288 Merge branch 'master' of https://github.com/TheIoTLearningInitiative/CodeLabs
 root@edison:~/CodeLabs# git clean -xf
+root@edison:~/CodeLabs# git pull
 ```
