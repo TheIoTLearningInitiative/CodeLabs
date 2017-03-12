@@ -9,6 +9,9 @@
 
 ## Software Requirements
 
+
+## Setup
+
 ```sh
 root@edison:~# cd
 root@edison:~# wget https://github.com/SourceCodeCat/IoTDownloads/raw/master/linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.deb
@@ -23,23 +26,15 @@ root@edison:~# ln -s /home/root/usr/src/linux-headers-3.10.98-poky-edison build
 root@edison:~# cd
 ```
 
-## Setup
-
-None
-
 ## Code
 
-```sh
-root@edison:~# nano Makefile
-```
+Go to Chacmultun/jhd1313m1/i2cdriver directory
 
 ```sh
-obj-m += JHD1313M2.o
-
-all:
-        make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
-clean:
-        make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
+root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# ls
+JHD1313M2.c  JHD1313M2.ko     JHD1313M2.mod.o  Makefile        modules.order
+JHD1313M2.h  JHD1313M2.mod.c  JHD1313M2.o      Module.symvers  setup.sh
+root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# insmod JHD1313M2.ko 
 ```
 
 ## Execution
