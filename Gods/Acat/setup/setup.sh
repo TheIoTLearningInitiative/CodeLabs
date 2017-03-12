@@ -8,6 +8,8 @@ opkg update
 opkg install mraa
 opkg install upm
 npm install npm@latest -g
+
+# npm install npm -g
 # npm cache clean -f
 # npm install -g n
 # n stable
