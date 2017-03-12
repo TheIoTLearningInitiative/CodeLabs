@@ -25,23 +25,23 @@ cd ~/.node-red
 
 # Npm Contributions
 
-npm install mraa
-npm install galileo-io
+npm install -g mraa
+npm install -g galileo-io
 
 # Node-RED Official
 
-npm install node-red-node-intel-gpio
-npm install node-red-node-watson
-npm install node-red-bluemix-nodes
+#npm install node-red-node-intel-gpio
+#npm install node-red-node-watson
+#npm install node-red-bluemix-nodes
 
 # Node-RED Contributions
 
-npm install node-red-contrib-gpio
-npm install node-red-contrib-grove-edison
-npm install node-red-contrib-upm
-npm install node-red-contrib-play-audio
-npm install node-red-contrib-voicerss-tts
-npm install node-red-contrib-cognitive-services
+#npm install node-red-contrib-gpio
+npm install -g node-red-contrib-grove-edison
+#npm install node-red-contrib-upm
+#npm install node-red-contrib-play-audio
+#npm install node-red-contrib-voicerss-tts
+#npm install node-red-contrib-cognitive-services
 
 cd
 
