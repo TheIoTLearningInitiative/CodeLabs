@@ -51,5 +51,5 @@ clean:
 ## Execution
 
 ```sh
-root@board:~/CodeLabs/Kohunlich# 
+root@board:~# 
 ```
