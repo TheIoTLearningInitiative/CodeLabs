@@ -187,7 +187,8 @@
     * [Installation](Gods/Acat/documentation/NodeRedInstallation.md)
       * [General](Gods/Acat/documentation/NodeRedInstallationGeneral.md)
       * [Base](Gods/Acat/documentation/NodeRedInstallationBase.md)
-      * Tbd
+      * [Npm Packages](Gods/Acat/documentation/NodeRedInstallationNpmPackages.md)
+      * [Tbd](Gods/Acat/documentation/tbd.md)
   * Projects
     * [GPIO](Gods/Acat/documentation/NodeRedProjectsGpio.md)
     * [MQTT](Gods/Acat/documentation/NodeRedProjectsMqtt.md)
