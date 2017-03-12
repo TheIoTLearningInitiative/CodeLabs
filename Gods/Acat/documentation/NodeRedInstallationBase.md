@@ -178,6 +178,8 @@ $ pm2 unstartup systemd
 root@edison:/etc/init.d# 
 ```
 
+# node-red Configuration
+
 ```sh
 root@edison:~# ls .node-red/
 flows_edison.json  flows_edison_cred.json  lib  node_modules  settings.js
@@ -187,6 +189,8 @@ flows_edison.json  flows_edison_cred.json  lib  node_modules  settings.js
 root@edison:~# ls .node-red/node_modules/
 node-red-contrib-socialogix4edison
 ```
+
+# node-red Dashboard
 
 Go to http://board.ip.adress:1880/#
 
