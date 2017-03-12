@@ -1,13 +1,5 @@
 # Face Recognition
 
-  OpenCV Web Image
-
-## Hardware Requirements
-
-- Workstation (Linux, Windows, OS X)
-- Internet Connection
-- [Intel Edison for Arduino](https://www.seeedstudio.com/Intel%C2%AE-Edison-for-Arduino-p-2149.html)
-
 ## Setup Manual
 
 ```sh
