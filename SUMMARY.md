@@ -174,4 +174,6 @@
 * [Acat](Gods/Acat/documentation/Acat.md)
   * [Node-RED](Gods/Acat/documentation/NodeRed.md)
     * [Installation](Gods/Acat/documentation/NodeRedInstallation.md)
+    * Projects
+      * [GPIO](Gods/Acat/documentation/NodeRedProjectsGpio.md)
 
