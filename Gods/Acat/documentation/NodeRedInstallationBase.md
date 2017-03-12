@@ -94,6 +94,14 @@ Use --update-env to update environment variables
 ### node-red Autostart, Working
 
 ```sh
+root@edison:/etc/init.d# ls
+fuse  node-red.sh
+root@edison:/etc/init.d# update-rc.d node-red.sh defaults                                                                                                      
+ Adding system startup for /etc/init.d/node-red.sh.
+root@edison:/etc/init.d# 
+```
+
+```sh
 root@edison:~# nano node-red.sh
 pm2 start /usr/bin/node-red --node-args="--max-old-space-size=256"
 ```
