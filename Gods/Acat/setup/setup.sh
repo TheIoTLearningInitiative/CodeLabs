@@ -7,6 +7,7 @@ echo
 opkg update
 opkg install mraa
 opkg install upm
+npm install npm@latest -g
 
 cd
 
