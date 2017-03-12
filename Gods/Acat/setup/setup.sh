@@ -9,12 +9,13 @@ opkg install mraa
 opkg install upm
 
 cd
-mkdir nodered
-cd nodered/
 
 # Node-RED Base
 
-npm install node-red
+npm install -g --unsafe-perm node-red
+npm install -g --unsafe-perm pm2
+pm2 start /usr/bin/node-red --node-args="--max-old-space-size=256"
+cd ~/.node-red
 
 # Npm Contributions
 
@@ -34,6 +35,8 @@ npm install node-red-contrib-grove-edison
 npm install node-red-contrib-upm
 npm install node-red-contrib-play-audio
 npm install node-red-contrib-voicerss-tts
+
+cd
 
 echo
 echo "Happy Acat'ing!"
