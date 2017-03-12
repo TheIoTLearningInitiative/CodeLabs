@@ -15,13 +15,6 @@ root@board:~#
 ```sh
 root@board:~# pip install numpy
 root@board:~# opkg install python-dev python-opencv python-numpy
-root@board:~# 
-```
-
-## Setup Automated
-
-```sh
-root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Chicanna/setup.sh -o - | sh
 ```
 
 ## Code
