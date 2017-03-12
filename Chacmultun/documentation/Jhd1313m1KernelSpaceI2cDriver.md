@@ -25,13 +25,7 @@ root@edison:~# cd
 
 ## Setup
 
-```sh
-root@edison:~# wget https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/JHD1313M2.c
-```
-
-```sh
-root@edison:~# wget https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/JHD1313M2.h
-```
+None
 
 ## Code
 
