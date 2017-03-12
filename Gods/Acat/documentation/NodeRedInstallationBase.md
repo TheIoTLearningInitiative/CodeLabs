@@ -178,21 +178,9 @@ $ pm2 unstartup systemd
 root@edison:/etc/init.d# 
 ```
 
-# node-red Configuration
-
 ```sh
-root@edison:~# ls .node-red/
-flows_edison.json  flows_edison_cred.json  lib  node_modules  settings.js
-```
-
-```sh
-root@edison:~# ls .node-red/node_modules/
-node-red-contrib-socialogix4edison
-```
-
-```sh
-root@edison:~# cd .node-red
-root@edison:~/.node-red# 
+root@edison:/etc/init.d# cd
+root@edison:~# 
 ```
 
 # node-red Dashboard
@@ -209,3 +197,20 @@ Loook at the installed __UI Nodes__
 - Analysis
 - Advanced
 
+
+# node-red Configuration
+
+```sh
+root@edison:~# ls .node-red/
+flows_edison.json  flows_edison_cred.json  lib  node_modules  settings.js
+```
+
+```sh
+root@edison:~# ls .node-red/node_modules/
+node-red-contrib-socialogix4edison
+```
+
+```sh
+root@edison:~# cd .node-red
+root@edison:~/.node-red# 
+```
