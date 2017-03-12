@@ -9,7 +9,7 @@ mv haarcascade_frontalface_alt.xml ../ocvfacerecognition/filter.xml
 wget https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/09/1442313353nasa-small.jpg
 mv 1442313353nasa-small.jpg ../ocvfacerecognition/imageinput.jpeg
 
-echo > /etc/opkg/base-feeds.conf
+#echo > /etc/opkg/base-feeds.conf
 cat << EOT >> /etc/opkg/base-feeds.conf
 src/gz all http://repo.opkg.net/edison/repo/all
 src/gz edison http://repo.opkg.net/edison/repo/edison
