@@ -17,9 +17,10 @@
 * **Chicanna** Camara as a Service
 
 * **Chacmultun** Device Drivers
-  - I2C Library LCD
-  - Linux Kernel Module
-  - Upm Sensor Library LCD
+  - Jhd1313m1 I2C Upm Library
+  - Jhd1313m1 I2C Mraa Library
+  - Jhd1313m1 I2C Userspace Driver
+  - Jhd1313m1 I2C Kernel Driver
 * **Coba** 
 * **Hochob** 
 
