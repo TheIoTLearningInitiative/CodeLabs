@@ -56,5 +56,10 @@ root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver#
 ## Execution
 
 ```sh
-root@board:~# 
+root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# insmod JHD1313M2.ko
+root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# 
+```
+
+```sh
+
 ```
