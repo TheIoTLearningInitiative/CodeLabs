@@ -22,7 +22,7 @@ root@board:~# opkg install python-dev python-opencv python-numpy
 ## Code
 
 ```sh
-root@edison:~/CodeLabs/Chicanna# vi main.py
+root@edison:~/CodeLabs/Chicanna# vi ocvfacerecognition.py
 ```
 
 ```python

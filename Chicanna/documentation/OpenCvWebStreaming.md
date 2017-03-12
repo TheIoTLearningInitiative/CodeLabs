@@ -16,7 +16,7 @@ root@board:~# opkg install python-opencv python-numpy
 ## Code
 
 ```sh
-root@board:~/CodeLabs/Uxmal# vi main.py
+root@board:~/CodeLabs/Uxmal# vi ocvwebstreaming.py
 ```
 
 ```python
