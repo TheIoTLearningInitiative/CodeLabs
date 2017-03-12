@@ -2,12 +2,19 @@
 
 ## MRAA IO Library
 
-> IO library that helps you use I2c, SPI, gpio, uart, pwm, analog inputs (aio) and more on a number of platforms such as the Intel galileo, the Intel edison and others
+> C/C++ library with bindings to JavaScript and Python to interface with the I/O on the Intel® Galileo board, Intel® Edison board, and other platforms. With board detection done at runtime, you can create portable code that works across multiple platforms.
 
-- mraa
+* AIO Sensors requiring an ADC value to be read
+* I2C Modules using the i2c bus
+* SPI Modules using the SPI bus
+* GPIO Modules using GPIOs directly
+* PWM Modules using a PWM capable GPIO pin
+* UART Modules using a serial connection (RX/TX)
+
+- [MRAA Github](https://github.com/intel-iot-devkit/mraa)
 
 ```sh
-root@edison:~# opkg install mraa  
+root@edison:~# opkg install mraa
 ```
 
 ```sh
@@ -21,3 +28,29 @@ Configuring mraa.
 
 ## UPM Sensors Library
 
+> High-level repository for sensors and actuators that use libmraa. In other words, UPM gives you easy function calls to use your sensors, such as reading temperature values or writing data to an LCD screen. With over a hundred sensors and more being added, this library speeds up your development time. 
+
+- [UPM Documentation](http://iotdk.intel.com/docs/master/upm/index.html)
+- [UPM Sensor Categories](http://iotdk.intel.com/docs/master/upm/modules.html)
+- [UPM Github](https://github.com/intel-iot-devkit/upm)
+- [UPM Python Examples](https://github.com/intel-iot-devkit/upm/tree/master/examples/python)
+
+```sh
+root@edison:~# opkg install upm
+```
+
+```sh
+Upgrading upm from 0.7.0-r0 to 1.1.0 on root.
+Downloading http://iotdk.intel.com/repos/3.5/intelgalactic/opkg/i586//upm_1.1.0_i586.ipk.
+Removing package upm-dev from root...
+...
+Removing obsolete file /usr/lib/python2.7/site-packages/pyupm_grovegprs.py.
+Removing obsolete file /usr/lib/python2.7/site-packages/pyupm_lm35.py.
+Removing obsolete file /usr/lib/python2.7/site-packages/_pyupm_itg3200.so.
+Removing obsolete file /usr/lib/libupm-t6713.so.0.7.0.
+Removing obsolete file /usr/lib/libupm-groveultrasonic.so.0.7.0.
+Removing obsolete file /usr/lib/libupm-otp538u.so.0.7.0.
+Removing obsolete file /usr/lib/python2.7/site-packages/pyupm_maxsonarez.py.
+Removing obsolete file /usr/lib/libupm-my9221.so.0.Configuring upm.
+Configuring upm.
+```
