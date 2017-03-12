@@ -14,14 +14,11 @@ npm install npm@latest -g
 # npm install -g n
 # n stable
 
-cd
-
 # Node-RED Base
 
 npm install -g --unsafe-perm node-red
 npm install -g --unsafe-perm pm2
 pm2 start /usr/bin/node-red --node-args="--max-old-space-size=256"
-cd ~/.node-red
 
 # Npm Contributions
 
@@ -37,13 +34,11 @@ npm install -g galileo-io
 # Node-RED Contributions
 
 #npm install node-red-contrib-gpio
-npm install -g node-red-contrib-grove-edison
-#npm install node-red-contrib-upm
+#npm install -g node-red-contrib-grove-edison
+npm install -g node-red-contrib-upm
 #npm install node-red-contrib-play-audio
 #npm install node-red-contrib-voicerss-tts
 #npm install node-red-contrib-cognitive-services
-
-cd
 
 echo
 echo "Happy Acat'ing!"
