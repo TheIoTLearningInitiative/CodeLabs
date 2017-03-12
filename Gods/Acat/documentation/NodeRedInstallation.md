@@ -254,6 +254,15 @@ root@edison:~/nodered# npm install node-red-contrib-grove-edison
 root@edison:~/nodered# 
 ```
 
+```sh
+root@edison:~/nodered# ls node_modules/
+galileo-io  node-red-contrib-gpio
+mraa        node-red-contrib-grove-edison
+node-red    node-red-node-intel-gpio
+root@edison:~/nodered# 
+```
+
+
 ### node-red-contrib-upm
 
 > Node-RED nodes to talk to sensors supported by the UPM library
