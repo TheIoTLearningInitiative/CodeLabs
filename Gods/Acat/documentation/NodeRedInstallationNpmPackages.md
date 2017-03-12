@@ -28,8 +28,6 @@ npm WARN .node-red No description
 npm WARN .node-red No repository field.
 npm WARN .node-red No README data
 npm WARN .node-red No license field.
-
-
 ```
 
 ## galileo-io / edison-io
