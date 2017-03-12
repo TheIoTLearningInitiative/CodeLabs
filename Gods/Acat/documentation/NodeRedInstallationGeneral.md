@@ -66,5 +66,6 @@ root@edison:~# npm install npm@latest -g
 ```
 
 ```sh
-root@edison:~# npm install npm@latest -g
+-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/usr/bin/npm -> /usr/lib/node_modules/npm/bin/npm-clis
+npm@4.4.1 /usr/lib/node_modules/npm
 ```
