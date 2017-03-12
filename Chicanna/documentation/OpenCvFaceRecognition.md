@@ -1,12 +1,6 @@
 # Face Recognition
 
-  OpenCV Web Image
-
-## Hardware Requirements
-
-- Workstation (Linux, Windows, OS X)
-- Internet Connection
-- [Intel Edison for Arduino](https://www.seeedstudio.com/Intel%C2%AE-Edison-for-Arduino-p-2149.html)
+> A face recognition system is a computer application capable of identifying or verifying a person from a digital image or a video frame from a video source. One of the ways to do this is by comparing selected facial features from the image and a face database. [Wikipedia](https://en.wikipedia.org/wiki/Facial_recognition_system)
 
 ## Setup Manual
 
@@ -23,19 +17,12 @@ root@board:~#
 ```sh
 root@board:~# pip install numpy
 root@board:~# opkg install python-dev python-opencv python-numpy
-root@board:~# 
-```
-
-## Setup Automated
-
-```sh
-root@edison:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Chicanna/setup.sh -o - | sh
 ```
 
 ## Code
 
 ```sh
-root@edison:~/CodeLabs/Chicanna# vi main.py
+root@edison:~/CodeLabs/Chicanna/facerecognition# vi ocvfacerecognition.py
 ```
 
 ```python
@@ -82,12 +69,12 @@ if __name__ == "__main__":
 ## Execution
 
 ```sh
-root@board:~/CodeLabs/Chicanna# wget https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/09/1442313353nasa-small.jpg
-root@board:~/CodeLabs/Chicanna# mv 1442313353nasa-small.jpg imageinput.jpeg
+root@board:~/CodeLabs/Chicanna/facerecognition# wget https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/09/1442313353nasa-small.jpg
+root@board:~/CodeLabs/Chicanna/facerecognition# mv 1442313353nasa-small.jpg imageinput.jpeg
 ```
 
 ```sh
-root@board:~/CodeLabs/Chicanna# python main.py 
+root@board:~/CodeLabs/Chicanna/facerecognition# python ocvfacerecognition.py 
 Found 23 faces!
-root@board:~/CodeLabs/Chicanna# 
+root@board:~/CodeLabs/Chicanna/facerecognition# 
 ```
