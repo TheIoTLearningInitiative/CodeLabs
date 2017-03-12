@@ -20,10 +20,7 @@ npm install node-red-contrib-play-audio
 npm install node-red-contrib-voicerss-tts
 ```
 
-
 ## Node-RED Base
-
-
 
 ## NodeRED Directory
 
