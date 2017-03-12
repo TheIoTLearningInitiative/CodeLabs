@@ -6,7 +6,7 @@
 
 - [Intel Edison for Arduino](https://www.seeedstudio.com/Intel%C2%AE-Edison-for-Arduino-p-2149.html)
 
-## Setup
+## Software Requirements
 
 ```sh
 root@board:~# cd
