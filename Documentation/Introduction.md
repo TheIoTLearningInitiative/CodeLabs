@@ -15,10 +15,6 @@
 - __Acat__ IBM Node-Red
 - __Chicanna__ Camara as a Service
 - __Chacmultun__ Optimization Through Device Drivers Layers
-  - Jhd1313m1 User Space Library UPM
-  - Jhd1313m1 User Space Library MRAA
-  - Jhd1313m1 User Space I2C Library
-  - Jhd1313m1 Kernel Space I2C Driver
 - __Coba__ Your First Linux Kernel Module
 - __Ah Puch__ Recon Instruments
 
