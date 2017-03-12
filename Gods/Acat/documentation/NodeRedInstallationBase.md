@@ -1,12 +1,6 @@
-## Node-RED Base
+# Base
 
-```sh
-root@edison:~# npm install -g --unsafe-perm node-red
-root@edison:~# npm install -g --unsafe-perm pm2
-root@edison:~# pm2 start /usr/bin/node-red --node-args="--max-old-space-size=256"
-```
-
-### Node-RED node-red :)
+## node-red :)
 
 > A visual tool for wiring the Internet of Things
 
@@ -57,6 +51,8 @@ node-red@0.14.6 /usr/lib/node_modules/node-red
 └── node-red-node-serialport@0.2.1 (serialport@2.1.2)
 ```
 
+## pm2 :)
+
 ```sh
 root@edison:~# npm install -g --unsafe-perm pm2
 ```
@@ -71,7 +67,7 @@ root@edison:~# pm2 start /usr/bin/node-red --node-args="--max-old-space-size=256
  Use `pm2 show <id|name>` to get more details about an app
 ```
 
-### Node-RED node-red Restart
+### node-red Restart
 
 ```sh
 root@edison:~# pm2 restart node-red
@@ -89,7 +85,7 @@ Use --update-env to update environment variables
  Use `pm2 show <id|name>` to get more details about an app
 ```
 
-### Node-RED node-red Autostart
+### node-red Autostart
 
 ```sh
 root@edison:~# cd /etc/init.d/
