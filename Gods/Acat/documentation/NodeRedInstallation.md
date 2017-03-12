@@ -268,9 +268,9 @@ root@edison:~/nodered# npm install node-red-contrib-upm
 
 ```sh
 root@edison:~/nodered# ls node_modules/
-galileo-io  node-red-contrib-gpio
-mraa        node-red-contrib-grove-edison  
-node-red    node-red-node-intel-gpio
+galileo-io  node-red-contrib-gpio          node-red-node-intel-gpio
+mraa        node-red-contrib-grove-edison
+node-red    node-red-contrib-upm
 root@edison:~/nodered# 
 ```
 
