@@ -16,7 +16,9 @@ src/gz edison http://repo.opkg.net/edison/repo/edison
 src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
 EOT
 
-opkg install python-dev python-opencv python-numpy
+opkg install python-dev
+opkg install http://repo.opkg.net/edison/repo/core2-32/python-numpy_1.7.0-r1_core2-32.ipk
+opkg install http://repo.opkg.net/edison/repo/core2-32/python-opencv_2.4.11+git0+2c9547e314-r0_core2-32.ipk
 
 pip install pip --upgrade
 pip install flask numpy
