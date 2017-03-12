@@ -33,9 +33,6 @@ root@edison:~# cd nodered/
 root@edison:~/nodered# 
 ```
 
-
-
-
 ## Node-Red Required Modules
 
 ### node-red-contrib-gpio
