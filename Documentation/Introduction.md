@@ -13,7 +13,7 @@
 * **Q'umarkaj** Amazon Echo / Alexa
 * **Chichen Itza** Audio as a Service
 * **Ah Puch** Recon Instruments
-* **Acat** Node-Red
+* **Acat** IBM Node-Red
 * **Chicanna** Camara as a Service
 
 ## Full List
