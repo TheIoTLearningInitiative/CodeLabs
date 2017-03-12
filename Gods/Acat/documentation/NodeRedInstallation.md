@@ -268,9 +268,9 @@ root@edison:~/nodered# npm install node-red-contrib-upm
 
 ```sh
 root@edison:~/nodered# ls node_modules/
-galileo-io  node-red-contrib-gpio          node-red-node-intel-gpio
+galileo-io  node-red-contrib-gpio
 mraa        node-red-contrib-grove-edison  
-node-red    node-red-contrib-upm
+node-red    node-red-node-intel-gpio
 root@edison:~/nodered# 
 ```
 
@@ -304,8 +304,8 @@ root@edison:~/nodered# npm install node-red-node-watson
 
 ```sh
 root@edison:~/nodered# ls node_modules/galileo-io  node-red-contrib-gpio          node-red-node-intel-gpio
-mraa        node-red-contrib-grove-edison  node-red-node-upm
-node-red    node-red-contrib-upm           node-red-node-watson
+mraa        node-red-contrib-grove-edison  node-red-node-watson
+node-red    node-red-contrib-upm
 root@edison:~/nodered# 
 ```
 
@@ -323,8 +323,8 @@ root@edison:~/nodered# npm install node-red-contrib-play-audio
 
 ```sh
 root@edison:~/nodered# ls node_modules/
-galileo-io             node-red-contrib-grove-edison  node-red-node-upm
-mraa                   node-red-contrib-play-audio    node-red-node-watson
+galileo-io             node-red-contrib-grove-edison  node-red-node-watson
+mraa                   node-red-contrib-play-audio
 node-red               node-red-contrib-upm
 node-red-contrib-gpio  node-red-node-intel-gpio
 root@edison:~/nodered# 
@@ -354,8 +354,8 @@ root@edison:~/nodered# npm install node-red-bluemix-nodes
 ```sh
 root@edison:~/nodered# ls node_modules/
 galileo-io              node-red-contrib-gpio          node-red-node-intel-gpio
-mraa                    node-red-contrib-grove-edison  node-red-node-upm
-node-red                node-red-contrib-play-audio    node-red-node-watson
+mraa                    node-red-contrib-grove-edison  node-red-node-watson
+node-red                node-red-contrib-play-audio
 node-red-bluemix-nodes  node-red-contrib-upm
 root@edison:~/nodered# 
 ```
