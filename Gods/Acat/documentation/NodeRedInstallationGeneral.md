@@ -54,3 +54,15 @@ Removing obsolete file /usr/lib/python2.7/site-packages/pyupm_maxsonarez.py.
 Removing obsolete file /usr/lib/libupm-my9221.so.0.Configuring upm.
 Configuring upm.
 ```
+
+## NPM 
+
+> npm is the package manager for JavaScript. Find, share, and reuse packages of code from hundreds of thousands of developers — and assemble them in powerful new ways. [Homepage](https://www.npmjs.com/)
+
+```sh
+root@edison:~# npm install npm@latest -g
+```
+
+```sh
+root@edison:~# npm install npm@latest -g
+```
