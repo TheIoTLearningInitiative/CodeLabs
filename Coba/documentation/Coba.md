@@ -28,12 +28,12 @@ root@board:~# rm linux-headers-3.10.17-poky-edison_3.10.17-poky-edison-1_i386.de
 ## Code
 
 ```sh
-root@edison:~/codelabs/Coba# ls
+root@board:~/CodeLabs/Coba# ls
 Makefile  documentation  main.c  setup.sh
 ```
 
 ```sh
-root@edison:~/codelabs/Coba# make
+root@board:~/CodeLabs/CobaCoba# make
 make -C /lib/modules/3.10.98-poky-edison+/build M=/home/root/codelabs/Coba modules
 make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
   CC [M]  /home/root/codelabs/Coba/main.o
@@ -45,7 +45,7 @@ make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison
 ```
 
 ```sh
-root@edison:~/codelabs/Coba# ls
+root@board:~/CodeLabs/CobaCoba# ls
 Makefile        documentation  main.ko     main.mod.o  modules.order
 Module.symvers  main.c         main.mod.c  main.o      setup.sh
 ```
@@ -54,10 +54,10 @@ Module.symvers  main.c         main.mod.c  main.o      setup.sh
 
 
 ```sh
-root@board:~/CodeLabs/Coba# insmod main.ko
-root@board:~/CodeLabs/Coba# dmesg
+root@board:~/CodeLabs/CobaCoba# insmod main.ko
+root@board:~/CodeLabs/CobaCoba# dmesg
 [ 3723.256572] Main? Hello!
-root@board:~/CodeLabs/Coba# rmmod main.ko
+root@board:~/CodeLabs/CobaCoba# rmmod main.ko
 root@board:~/CodeLabs/Coba# dmesg
 [ 3723.256572] Main? Bye!
 ```
