@@ -1,5 +1,7 @@
 # Face Recognition
 
+> A face recognition system is a computer application capable of identifying or verifying a person from a digital image or a video frame from a video source. One of the ways to do this is by comparing selected facial features from the image and a face database. [Wikipedia](https://en.wikipedia.org/wiki/Facial_recognition_system)
+
 ## Setup Manual
 
 ```sh
