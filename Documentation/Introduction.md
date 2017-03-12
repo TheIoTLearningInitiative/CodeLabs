@@ -12,16 +12,15 @@
 * **Edzna** Home Assistant
 * **Q'umarkaj** Amazon Echo / Alexa
 * **Chichen Itza** Audio as a Service
-* **Ah Puch** Recon Instruments
 * **Acat** IBM Node-Red
 * **Chicanna** Camara as a Service
-
 * **Chacmultun** Optimization Through Device Drivers Layers
   - Jhd1313m1 User Space Library UPM
   - Jhd1313m1 User Space Library MRAA
   - Jhd1313m1 User Space I2C Library
   - Jhd1313m1 Kernel Space I2C Driver
 * **Coba** Your First Linux Kernel Module
+* **Ah Puch** Recon Instruments
 
 ## Full List
 
