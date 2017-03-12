@@ -113,7 +113,7 @@ Description=Node-RED
 After=sys-subsystem-net-devices-%i.device
 
 [Service]
-ExecStart=/bin/bash /home/root/node-red.sh
+ExecStart=/bin/sh /home/root/node-red.sh
 Restart=always
 RestartSec=10
 
