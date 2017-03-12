@@ -16,12 +16,12 @@
 * **Acat** IBM Node-Red
 * **Chicanna** Camara as a Service
 
-* **Chacmultun** Device Drivers
+* **Chacmultun** Optimization through Device Drivers Layers
   - Jhd1313m1 User Space Library UPM
   - Jhd1313m1 User Space Library MRAA
   - Jhd1313m1 User Space I2C Library
   - Jhd1313m1 Kernel Space I2C Driver
-* **Coba** 
+* **Coba** Your First Linux Kernel Module
 * **Hochob** 
 
 
