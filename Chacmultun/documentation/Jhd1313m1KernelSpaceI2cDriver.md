@@ -28,40 +28,38 @@ root@edison:~# cd
 Go to CodeLabs/Chacmultun/jhd1313m1/i2cdriver directory
 
 ```sh
-root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# ls
+root@edison:~/CodeLabs/Chacmultun/jhd1313m1/i2cdriver# ls
 JHD1313M2.c  JHD1313M2.h  Makefile
-root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# 
+root@edison:~/CodeLabs/Chacmultun/jhd1313m1/i2cdriver# 
 ```
 
 ```sh
-root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# make
-make -C /lib/modules/3.10.98-poky-edison+/build M=/home/root/codelabs/Chacmultun/jhd1313m1/i2cdriver modules
+root@edison:~/CodeLabs/Chacmultun/jhd1313m1/i2cdriver# make
+make -C /lib/modules/3.10.98-poky-edison+/build M=/home/root/CodeLabs/Chacmultun/jhd1313m1/i2cdriver modules
 make[1]: Entering directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
-  CC [M]  /home/root/codelabs/Chacmultun/jhd1313m1/i2cdriver/JHD1313M2.o
+  CC [M]  /home/root/CodeLabs/Chacmultun/jhd1313m1/i2cdriver/JHD1313M2.o
   Building modules, stage 2.
   MODPOST 1 modules
-  CC      /home/root/codelabs/Chacmultun/jhd1313m1/i2cdriver/JHD1313M2.mod.o
-  LD [M]  /home/root/codelabs/Chacmultun/jhd1313m1/i2cdriver/JHD1313M2.ko
+  CC      /home/root/CodeLabs/Chacmultun/jhd1313m1/i2cdriver/JHD1313M2.mod.o
+  LD [M]  /home/root/CodeLabs/Chacmultun/jhd1313m1/i2cdriver/JHD1313M2.ko
 make[1]: Leaving directory '/home/root/usr/src/linux-headers-3.10.17-poky-edison'
-root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# 
 ```
 
 ```sh
-root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# ls
+root@edison:~/CodeLabs/Chacmultun/jhd1313m1/i2cdriver# ls
 JHD1313M2.c  JHD1313M2.ko     JHD1313M2.mod.o  Makefile        modules.order
 JHD1313M2.h  JHD1313M2.mod.c  JHD1313M2.o      Module.symvers
-root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# 
 ```
 
 ## Execution
 
 ```sh
-root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# insmod JHD1313M2.ko
-root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# 
+root@edison:~/CodeLabs/Chacmultun/jhd1313m1/i2cdriver# insmod JHD1313M2.ko
+root@edison:~/CodeLabs/Chacmultun/jhd1313m1/i2cdriver# 
 ```
 
 ```sh
-root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# dmesg
+root@edison:~/CodeLabs/Chacmultun/jhd1313m1/i2cdriver# dmesg
 ...
 [77920.801193] JHD1313M2: Unknown parameter `make'
 [78803.193070] JHD1313M2_init: Obtaining adapter from bus 6
@@ -73,11 +71,11 @@ root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# dmesg
 ```
 
 ```sh
-root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# rmmod JHD1313M2.ko
+root@edison:~/CodeLabs/Chacmultun/jhd1313m1/i2cdriver# rmmod JHD1313M2.ko
 ```
 
 ```sh
-root@edison:~/codelabs/Chacmultun/jhd1313m1/i2cdriver# dmesg
+root@edison:~/CodeLabs/Chacmultun/jhd1313m1/i2cdriver# dmesg
 ...
 [78879.759093] JHD1313M2_exit: trying to delete the device drivers...
 [78879.759182] JHD1313M2_RGB_remove: trying to remove the device...
