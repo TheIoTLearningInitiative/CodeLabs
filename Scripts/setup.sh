@@ -9,6 +9,11 @@ if [ "$1" == "ChichenItza" ]; then
   sh setup.sh
 fi
 
+if [ "$1" == "Acat" ]; then
+  cd Gods/Acat/setup
+  sh setup.sh
+fi
+
 if [ "$1" == "Chacmultun" ]; then
   cd Chacmultun/setup
   sh setup.sh
@@ -16,11 +21,6 @@ fi
 
 if [ "$1" == "Coba" ]; then
   cd Chacmultun/setup
-  sh setup.sh
-fi
-
-if [ "$1" == "Acat" ]; then
-  cd Gods/Acat/setup
   sh setup.sh
 fi
 
