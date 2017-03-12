@@ -18,17 +18,17 @@ root@board:~# opkg install i2c-tools-dev
 Go to CodeLabs/Chacmultun/jhd1313m1/i2clibrary directory
 
 ```sh
-root@edison:~/codelabs/Chacmultun/jhd1313m1/i2clibrary# ls
+root@edison:~/CodeLabs/Chacmultun/jhd1313m1/i2clibrary# ls
 Makefile  main.c
 ```
 
 ```sh
-root@edison:~/codelabs/Chacmultun/jhd1313m1/i2clibrary# make
+root@edison:~/CodeLabs/Chacmultun/jhd1313m1/i2clibrary# make
 gcc -O main.c -o main
 ```
 
 ## Execution
 
 ```sh
-root@edison:~/codelabs/Chacmultun/jhd1313m1/i2clibrary# ./main 
+root@edison:~/CodeLabs/Chacmultun/jhd1313m1/i2clibrary# ./main 
 ```
