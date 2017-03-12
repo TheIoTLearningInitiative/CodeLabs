@@ -59,6 +59,8 @@ Configuring upm.
 
 > npm is the package manager for JavaScript. Find, share, and reuse packages of code from hundreds of thousands of developers — and assemble them in powerful new ways. [Homepage](https://www.npmjs.com/)
 
+- [Npm Getting Started](https://docs.npmjs.com/getting-started/)
+
 ```sh
 root@edison:~# npm install npm@latest -g
 ```
