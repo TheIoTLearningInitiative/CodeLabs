@@ -17,10 +17,10 @@
 * **Chicanna** Camara as a Service
 
 * **Chacmultun** Device Drivers
-  - Jhd1313m1 I2C Upm Library
-  - Jhd1313m1 I2C Mraa Library
-  - Jhd1313m1 I2C Userspace Driver
-  - Jhd1313m1 I2C Kernel Driver
+  - Jhd1313m1 I2C Library UPM
+  - Jhd1313m1 I2C Library MRAA
+  - Jhd1313m1 I2C Driver Userspace
+  - Jhd1313m1 I2C Driver Kernel
 * **Coba** 
 * **Hochob** 
 
