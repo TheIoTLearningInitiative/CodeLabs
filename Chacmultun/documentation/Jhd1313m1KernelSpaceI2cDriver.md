@@ -26,18 +26,14 @@ root@edison:~# cd
 ## Setup
 
 ```sh
-root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/CodeLabs/master/Chacmultun/setup.sh -o - | sh
-```
-
-## Code
-
-```sh
 root@edison:~# wget https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/JHD1313M2.c
 ```
 
 ```sh
 root@edison:~# wget https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/JHD1313M2.h
 ```
+
+## Code
 
 ```sh
 root@edison:~# nano Makefile
