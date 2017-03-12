@@ -24,7 +24,12 @@ CC(target) Release/obj.target/mraa/src/x86/intel_de3815.o
 CC(target) Release/obj.target/mraa/src/x86/intel_edison_fab_c.o
 ../src/x86/intel_edison_fab_c.c: In function 'mraa_intel_edison_aio_init_pre':
 ../src/x86/intel_edison_fab_c.c:335:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-
+...
+  SOLINK_MODULE(target) Release/obj.target/mraa.node
+  COPY Release/mraa.node
+make: Leaving directory '/usr/lib/node_modules/mraa/build'
+/usr/lib
+`-- mraa@1.5.1 
 ```
 
 ## galileo-io / edison-io
