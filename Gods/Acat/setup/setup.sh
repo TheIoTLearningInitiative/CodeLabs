@@ -21,14 +21,16 @@ npm install -g --unsafe-perm pm2
 pm2 start /usr/bin/node-red --node-args="--max-old-space-size=256" -- -v
 #pm2 start /usr/bin/node-red --node-args="--max-old-space-size=128" -- -v
 
-pm2 save
+#pm2 save
 #pm2 startup
-pm2 startup systemd
+#pm2 startup systemd
 
 # Npm Contributions
 
-npm install -g mraa
-npm install -g galileo-io
+cd .node-red/
+npm install mraa
+npm install galileo-io
+cd
 
 # Node-RED Official
 
