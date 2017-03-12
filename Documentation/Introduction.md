@@ -13,7 +13,16 @@
 * **Q'umarkaj** Amazon Echo / Alexa
 * **Chichen Itza** Audio as a Service
 * **Ah Puch** Recon Instruments
-* **Acat** Node-Red
+* **Acat** IBM Node-Red
+* **Chicanna** Camara as a Service
+
+* **Chacmultun** Device Drivers
+  - I2C Library LCD
+  - Linux Kernel Module
+  - Upm Sensor Library LCD
+* **Coba** 
+* **Hochob** 
+
 
 ## Full List
 
@@ -25,7 +34,7 @@ Belice
 
 Campeche
 
-* **Chicanna** OpenCV Face Recognition Web Picture
+* **Chicanna** Camara as a Service
 * **Edzna** Home Assistant
 * **Hormiguero** MQTT Alarm ! **Under Construction**
 * **Hochob** Upm Sensor Library LCD
@@ -75,7 +84,7 @@ Yucatán
 
 > This is a name list of Maya gods and supernatural beings playing a role in the Classic \(200–1000 CE\) and Post-Classic \(1000–1697 CE\) Maya religion. [Wikipedia](https://en.wikipedia.org/wiki/List_of_Maya_gods_and_supernatural_beings)
 
-* **Acat** Node-Red **Under Construction**
+* **Acat** IBM Node-Red **Under Construction**
 * **Ah Muzen Cab** Web Camera **Under Construction**
 * **Ah Peku** API Slack Bot Users
 * **Ah Puch** Recon Instruments
