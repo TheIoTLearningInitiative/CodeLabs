@@ -66,7 +66,7 @@ Guatemala
 Quintana Roo
 
 * **Coba** Your First Linux Kernel Module
-* **Kohunlich** Linux Kernel Module I2C LCD
+* **Kohunlich**
 * **Muyil** Python Wrapper API **Under Construction**
 * **Tulum** Openstack Sensor Dashboard
 
