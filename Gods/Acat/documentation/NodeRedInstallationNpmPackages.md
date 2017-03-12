@@ -5,18 +5,16 @@
 > IO library that helps you use I2c, SPI, gpio, uart, pwm, analog inputs (aio) and more on a number of platforms such as the Intel galileo, the Intel edison and ... [Homepage](https://www.npmjs.com/package/mraa)
 
 ```sh
-root@edison:~# npm install mraa
+root@edison:~/.node-red# npm install mraa
 ```
 
 ```sh
--\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/
-> mraa@1.5.1 install /home/root/nodered/node_modules/mraa
+
+> mraa@1.5.1 install /home/root/.node-red/node_modules/mraa
 > node-gyp rebuild
+
 ...
-  SOLINK_MODULE(target) Release/obj.target/mraa.node
-  COPY Release/mraa.node
-make: Leaving directory '/home/root/nodered/node_modules/mraa/build'
-mraa@1.5.1 node_modules/mraa
+
 ```
 
 ## galileo-io / edison-io
