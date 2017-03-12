@@ -14,13 +14,18 @@ if [ "$1" == "Acat" ]; then
   sh setup.sh
 fi
 
+if [ "$1" == "Chicanna" ]; then
+  cd Chicanna/setup
+  sh setup.sh
+fi
+
 if [ "$1" == "Chacmultun" ]; then
   cd Chacmultun/setup
   sh setup.sh
 fi
 
 if [ "$1" == "Coba" ]; then
-  cd Chacmultun/setup
+  cd Coba/setup
   sh setup.sh
 fi
 
