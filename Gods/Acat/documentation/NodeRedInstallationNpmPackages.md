@@ -39,23 +39,21 @@ make: Leaving directory '/usr/lib/node_modules/mraa/build'
 > Compatible with Intel's Galileo Generation 2 (no longer supports Galileo Generation 1), Edison (Mini and Arduino Board, SparkFun GPIO & Arduino Blocks, Xadow Board, DFRobot Romeo & IO Expansion) and Joule boards. [Homepage](https://www.npmjs.com/package/galileo-io)
 
 ```sh
-root@edison:~/.node-red# npm install edison-io
+root@edison:~# npm install -g edison-io
 ```
 
 ```sh
-/home/root/.node-red
-`-- edison-io@0.10.0 
-  `-- galileo-io@0.10.0 
-    +-- es6-shim@0.35.3 
-    `-- remapped@0.2.1 
-      +-- getobject@0.1.0 
-      `-- traverse@0.6.6 
 
-npm WARN enoent ENOENT: no such file or directory, open '/home/root/.node-red/package.json'
-npm WARN .node-red No description
-npm WARN .node-red No repository field.
-npm WARN .node-red No README data
-npm WARN .node-red No license field.
+> mraa@1.5.1 install /usr/lib/node_modules/edison-io/node_modules/mraa
+> node-gyp rebuild
+
+make: Entering directory '/usr/lib/node_modules/edison-io/node_modules/mraa/build'
+  CC(target) Release/obj.target/mraa/src/x86/intel_gt_tuchuck.o
+  CC(target) Release/obj.target/mraa/src/x86/up.o
+  CC(target) Release/obj.target/mraa/src/x86/intel_cherryhills.o
+  CC(target) Release/obj.target/mraa/src/x86/intel_sofia_3gr.o
+  ...
+  
 ```
 
 ```sh
