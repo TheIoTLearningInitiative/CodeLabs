@@ -489,10 +489,41 @@ Loook at the installed __UI Nodes__
 - IBM_Watson
 - Watson_Deprecated
 
-
+```sh
+root@edison:~# pm2 start /usr/bin/node-red --node-args="--max-old-space-size=256"
+��┌��─��─��─��─��─��─��─��─��─��─��┬��─��─��─��─��─��─��┬��─��─��─��─��─��─��─��─��┬��─��─��─��┬��─��─��─��─��─��┬��─��─��─��─��─��─��─��─��┐
+��│ Name     ��│ mode ��│ status ��│ ��↺ ��│ cpu ��│ memory    ��│
+��├��─��─��─��─��─��─��─��─��─��─��┼��─��─��─��─��─��─��┼��─��─��─��─��─��─��─��─��┼��─��─��─��┼��─��─��─��─��─��┼��─��─��─��─��─��─��─��─��┤
+��│ node-red ��│ fork ��│ online ��│ 1 ��│ 0%  ��│ 34.3 MB   ��│
+��└��─��─��─��─��─��─��─��─��─��─��┴��─��─��─��─��─��─��┴��─��─��─��─��─��─��─��─��┴��─��─��─��┴��─��─��─��─��─��┴��─��─��─��─��─��─��─��─��┘
+ Use `pm2 show <id|name>` to get more details about an app
 ```
+
+```sh
+root@edison:~# pm2 restart node-red
+```
+
+```sh
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [node-red](ids: 0)
+[PM2] [node-red](0) ��✓
+��┌��─��─��─��─��─��─��─��─��─��─��┬��─��─��─��─��─��─��┬��─��─��─��─��─��─��─��─��┬��─��─��─��┬��─��─��─��─��─��─��┬��─��─��─��─��─��─��─��┐
+��│ Name     ��│ mode ��│ status ��│ ��↺ ��│ cpu  ��│ memory   ��│
+��├��─��─��─��─��─��─��─��─��─��─��┼��─��─��─��─��─��─��┼��─��─��─��─��─��─��─��─��┼��─��─��─��┼��─��─��─��─��─��─��┼��─��─��─��─��─��─��─��┤
+��│ node-red ��│ fork ��│ online ��│ 2 ��│ 100% ��│ 3.1 MB   ��│
+��└��─��─��─��─��─��─��─��─��─��─��┴��─��─��─��─��─��─��┴��─��─��─��─��─��─��─��─��┴��─��─��─��┴��─��─��─��─��─��─��┴��─��─��─��─��─��─��─��┘
+ Use `pm2 show <id|name>` to get more details about an app
+```
+
+```sh
 root@edison:~# cd /etc/init.d/
+```
+
+```sh
 root@edison:/etc/init.d# pm2 save
+```
+
+```sh
 [PM2] Saving current process list...
 [PM2] Successfully saved in /home/root/.pm2/dump.pm2
 root@edison:/etc/init.d# pm2 startup
