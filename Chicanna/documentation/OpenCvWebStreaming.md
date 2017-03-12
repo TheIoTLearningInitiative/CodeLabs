@@ -62,3 +62,5 @@ root@board:~/CodeLabs/Chicanna/webstreaming# python ocvwebstreaming.py
  * Debugger is active!
  * Debugger pin code: 775-529-825
 ```
+
+Go to your IntelEdisonBoardIp:5000
