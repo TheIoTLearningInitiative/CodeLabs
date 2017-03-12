@@ -76,7 +76,7 @@ Yucatán
 * **Dzibilchaltun** Telegram Bot
 * **Ek Balam** Google APIs **Under Construction**
 * **Kinich KaK Moo** 
-* **La Ruta Puuc** NodeJS, Socket.io, Johnny Five, AngularJS  ! **Under Construction**
+* **La Ruta Puuc** NodeJS, Socket.io, Johnny Five, AngularJS  ! 
 * **Mayapan** Domotics
 * **Uxmal** OpenCV Camera Picture Web Streaming
 * **Xcambo** Mqtt Sensor Data
