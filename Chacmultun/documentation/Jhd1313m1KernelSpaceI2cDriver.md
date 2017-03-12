@@ -23,15 +23,15 @@ root@board:~# curl https://raw.githubusercontent.com/TheIoTLearningInitiative/Co
 ## Code
 
 ```sh
-root@edison:~/.../LKM# wget https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/JHD1313M2.c
+root@edison:~# wget https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/JHD1313M2.c
 ```
 
 ```sh
-root@edison:~/.../LKM# wget https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/JHD1313M2.h
+root@edison:~# wget https://raw.githubusercontent.com/SourceCodeCat/IoTCodeExamples/master/I2C/JHD1313M2.h
 ```
 
 ```sh
-root@edison:~/.../LKM# nano Makefile
+root@edison:~# nano Makefile
 ```
 
 ```sh
