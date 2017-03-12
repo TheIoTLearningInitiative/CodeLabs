@@ -36,6 +36,15 @@
     * [WiFi](Caracol/documentation/WiFi.md)
   * [Modules](Caracol/documentation/Modules.md)
 * [Chacmultun](Chacmultun/documentation/Chacmultun.md)
+  * [JHD1313M1](Chacmultun/documentation/Jhd1313m1.md)
+    * Background
+      * [Inter-Integrated Circuit](Chacmultun/documentation/Jhd1313m1I2c.md)
+      * [Linux I2C Subsystem](Chacmultun/documentation/Jhd1313m1LinuxI2cSubsystem.md)
+    * Device Drivers
+      * [User Space Library UPM](Chacmultun/documentation/Jhd1313m1UserSpaceLibraryUpm.md)
+      * [User Space Library MRAA](Chacmultun/documentation/Jhd1313m1UserSpaceLibraryMraa.md)
+      * [User Space I2C Library](Chacmultun/documentation/Jhd1313m1UserSpaceI2cLibrary.md)
+      * [Kernel Space I2C Driver](Chacmultun/documentation/Jhd1313m1KernelSpaceI2cDriver.md)
 * [Chicanna](Chicanna/documentation/Chicanna.md)
   * [OpenCV](Chicanna/documentation/OpenCv.md)
     * [Face Recognition](Chicanna/documentation/OpenCvFaceRecognition.md)
