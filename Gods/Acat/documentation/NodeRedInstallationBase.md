@@ -94,11 +94,6 @@ Use --update-env to update environment variables
 ### node-red Autostart, Working
 
 ```sh
-root@edison:~# whereis node-red
-node-red: /usr/bin/node-red
-```
-
-```sh
 root@edison:~# nano node-red.sh
 pm2 start /usr/bin/node-red --node-args="--max-old-space-size=256"
 ```
