@@ -23,7 +23,6 @@ root@edison:~# ln -s /home/root/usr/src/linux-headers-3.10.98-poky-edison build
 root@edison:~# cd
 ```
 
-
 ## Setup
 
 ```sh
