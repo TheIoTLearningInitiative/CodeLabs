@@ -19,6 +19,11 @@ if [ "$1" == "Coba" ]; then
   sh setup.sh
 fi
 
+if [ "$1" == "Acat" ]; then
+  cd Gods/Acat/setup
+  sh setup.sh
+fi
+
 echo
 echo "Happy The IoT Learning Initiative CodeLabs Playground'ing!"
 echo
