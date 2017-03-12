@@ -1,5 +1,23 @@
 # Sandbox
 
+- [1](http://www.diyprojects.io/node-red-install-uninstall-easely-modules-palette-manager/)
+
+# Passed
+
+```
+root@edison:~/nodered# npm install node-red-contrib-socialogix4edison
+```
+
+# Failed
+
+```
+root@edison:~/nodered# npm i node-red-dashboard
+```
+
+# Manage Palette
+
+- node-red-contrib-bluemix-nodes
+
 ```sh
 root@edison:~# opkg update
 root@edison:~# opkg install mraa
