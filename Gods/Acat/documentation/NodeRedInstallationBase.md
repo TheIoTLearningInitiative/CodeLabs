@@ -93,13 +93,23 @@ Use --update-env to update environment variables
 
 ### node-red Autostart, Working
 
+
+```sh
+
+```
+
 ```sh
 root@edison:/etc/init.d# ls
 fuse  node-red.sh
+```
+
+```sh
 root@edison:/etc/init.d# update-rc.d node-red.sh defaults                                                                                                      
  Adding system startup for /etc/init.d/node-red.sh.
 root@edison:/etc/init.d# 
 ```
+
+### node-red Autostart, Not Working
 
 ```sh
 root@edison:~# nano node-red.sh
