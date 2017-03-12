@@ -58,6 +58,5 @@ npm WARN .node-red No license field.
 
 ```sh
 root@edison:~/.node-red# ls node_modules/
-edison-io  galileo-io  mraa                                remapped
-es6-shim   getobject   node-red-contrib-socialogix4edison  traverse
+edison-io  es6-shim  galileo-io  getobject  mraa  remapped  traverse
 ```
