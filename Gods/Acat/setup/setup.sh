@@ -9,16 +9,20 @@ opkg install mraa
 opkg install upm
 npm install npm@latest -g
 
-# npm install npm -g
-# npm cache clean -f
-# npm install -g n
-# n stable
+#npm install npm -g
+#npm cache clean -f
+#npm install -g n
+#n stable
 
 # Node-RED Base
 
 npm install -g --unsafe-perm node-red
 npm install -g --unsafe-perm pm2
 pm2 start /usr/bin/node-red --node-args="--max-old-space-size=256"
+
+pm2 save
+#pm2 startup
+pm2 startup systemd
 
 # Npm Contributions
 
