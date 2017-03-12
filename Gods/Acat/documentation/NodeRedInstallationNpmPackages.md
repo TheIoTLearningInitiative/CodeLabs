@@ -53,5 +53,15 @@ make: Entering directory '/usr/lib/node_modules/edison-io/node_modules/mraa/buil
   CC(target) Release/obj.target/mraa/src/x86/intel_cherryhills.o
   CC(target) Release/obj.target/mraa/src/x86/intel_sofia_3gr.o
   ...
-  
+  SOLINK_MODULE(target) Release/obj.target/mraa.node
+  COPY Release/mraa.node
+make: Leaving directory '/usr/lib/node_modules/edison-io/node_modules/mraa/build'
+/usr/lib
+`-- edison-io@0.10.0 
+  `-- galileo-io@0.10.0 
+    +-- es6-shim@0.35.3 
+    +-- mraa@1.5.1 
+    `-- remapped@0.2.1 
+      +-- getobject@0.1.0 
+      `-- traverse@0.6.6   
 ```
