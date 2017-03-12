@@ -16,11 +16,12 @@
 * **Acat** IBM Node-Red
 * **Chicanna** Camara as a Service
 
-* **Chacmultun** Device Drivers
-  - I2C Library LCD
-  - Linux Kernel Module
-  - Upm Sensor Library LCD
-* **Coba** 
+* **Chacmultun** Optimization through Device Drivers Layers
+  - Jhd1313m1 User Space Library UPM
+  - Jhd1313m1 User Space Library MRAA
+  - Jhd1313m1 User Space I2C Library
+  - Jhd1313m1 Kernel Space I2C Driver
+* **Coba** Your First Linux Kernel Module
 * **Hochob** 
 
 
@@ -37,7 +38,7 @@ Campeche
 * **Chicanna** Camara as a Service
 * **Edzna** Home Assistant
 * **Hormiguero** MQTT Alarm ! **Under Construction**
-* **Hochob** Upm Sensor Library LCD
+* **Hochob** 
 * **Kanki** ESP8266 ! **Under Construction**
 * **Tabasqueno** NodeJS, Socket.io, Johnny Five ! **Under Construction**
 * **Xcalumkin** Python Cross Platform \(PC/Embedded\) **Under Construction**
@@ -63,15 +64,15 @@ Guatemala
 
 Quintana Roo
 
-* **Coba** Linux Kernel Module
+* **Coba** Your First Linux Kernel Module
 * **Kohunlich** Linux Kernel Module I2C LCD
 * **Muyil** Python Wrapper API **Under Construction**
 * **Tulum** Openstack Sensor Dashboard
 
 Yucatán
 
-* **Chacmultun** I2C Library LCD
-* **Chichen Itza** Audio
+* **Chacmultun** Optimization through Device Drivers Layers
+* **Chichen Itza** Audio as a Service
 * **Dzibilchaltun** Telegram Bot
 * **Ek Balam** Google APIs **Under Construction**
 * **Kinich KaK Moo** Node-RED
