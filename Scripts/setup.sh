@@ -9,6 +9,11 @@ if [ "$1" == "ChichenItza" ]; then
   sh setup.sh
 fi
 
+if [ "$1" == "Chacmultun" ]; then
+  cd Chacmultun/setup
+  sh setup.sh
+fi
+
 echo
 echo "Happy The IoT Learning Initiative CodeLabs Playground'ing!"
 echo
