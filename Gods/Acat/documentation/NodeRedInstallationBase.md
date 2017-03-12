@@ -126,7 +126,32 @@ Alias=NodeRed
 WantedBy=multi-user.target
 ```
 
+```sh
+root@edison:/lib/systemd/system# systemctl daemon-reload
+```
 
+```sh
+root@edison:/lib/systemd/system# systemctl --system enable node-red
+ln -s '/lib/systemd/system/node-red.service' '/etc/systemd/system/NodeRed'
+ln -s '/lib/systemd/system/node-red.service' '/etc/systemd/system/multi-user.target.wants/node-red.service'
+```
+
+```sh
+root@edison:/lib/systemd/system# systemctl start node-red
+```
+
+```sh
+root@edison:/lib/systemd/system# systemctl status node-red.service -l
+��● node-red.service - Node-RED
+   Loaded: loaded (/lib/systemd/system/node-red.service; enabled)
+   Active: active (running) since Sun 2017-03-12 22:59:54 UTC; 1s ago
+ Main PID: 479 (bash)
+   CGroup: /system.slice/node-red.service
+           ��├��─479 /bin/bash /home/root/node-red.sh
+           ��└��─480 node /usr/bin/node-red
+
+Mar 12 22:59:54 edison systemd[1]: Started Node-RED.
+```
 
 # node-red Dashboard
 
