@@ -9,6 +9,7 @@ root@edison:~# npm install -g mraa
 ```
 
 ```sh
+
 > mraa@1.5.1 install /usr/lib/node_modules/mraa
 > node-gyp rebuild
 
