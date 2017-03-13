@@ -4,6 +4,11 @@
 
 - [New Video Course by A Cloud Guru: Alexa Development for Absolute Beginners](https://developer.amazon.com/blogs/post/TxQY6H9XJJQHVF/New-Video-Course-by-A-Cloud-Guru-Alexa-Development-for-Absolute-Beginners)
 
+Two important links
+
+- [AWS Lambda](https://aws.amazon.com/lambda/?nc2=h_m1)
+- [AWS Alexa](https://developer.amazon.com/edw/home.html#/skills/list)
+
 Build Out Three Skills
 
 - Space Geek
