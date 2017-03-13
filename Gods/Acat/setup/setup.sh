@@ -16,14 +16,15 @@ npm install npm@latest -g
 
 # Node-RED Base
 
-npm install -g --unsafe-perm node-red
-npm install -g --unsafe-perm pm2
-pm2 start /usr/bin/node-red --node-args="--max-old-space-size=256" -- -v
+npm install -g node-red
+npm install -g pm2
+#pm2 start /usr/bin/node-red --node-args="--max-old-space-size=256" -- -v
 #pm2 start /usr/bin/node-red --node-args="--max-old-space-size=128" -- -v
 
-#pm2 save
 #pm2 startup
 #pm2 startup systemd
+#pm2 startup -u myusername
+#pm2 save
 
 # Npm Contributions
 
