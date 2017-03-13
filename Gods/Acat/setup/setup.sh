@@ -7,7 +7,7 @@ echo
 opkg update
 opkg install mraa
 opkg install upm
-npm install npm@latest -g
+#npm install npm@latest -g
 
 #npm install npm -g
 #npm cache clean -f
@@ -16,8 +16,9 @@ npm install npm@latest -g
 
 # Node-RED Base
 
-npm install -g node-red
-npm install -g pm2
+npm install -g node-gyp
+npm install -g --unsafe-perm node-red
+#npm install -g pm2
 #pm2 start /usr/bin/node-red --node-args="--max-old-space-size=256" -- -v
 #pm2 start /usr/bin/node-red --node-args="--max-old-space-size=128" -- -v
 
@@ -31,7 +32,6 @@ npm install -g pm2
 cd .node-red/
 npm install mraa
 npm install galileo-io
-cd
 
 # Node-RED Official
 
@@ -43,10 +43,12 @@ cd
 
 #npm install node-red-contrib-gpio
 #npm install -g node-red-contrib-grove-edison
-npm install -g node-red-contrib-upm
+npm install node-red-contrib-upm
 #npm install node-red-contrib-play-audio
 #npm install node-red-contrib-voicerss-tts
 #npm install node-red-contrib-cognitive-services
+
+cd
 
 echo
 echo "Happy Acat'ing!"
