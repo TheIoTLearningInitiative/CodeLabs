@@ -31,6 +31,7 @@ cd portaudio/
 make
 make install
 cd ..
+
 ldconfig
 cat << EOT >> ~/.profile          
 export LD_LIBRARY_PATH=/usr/local/lib
