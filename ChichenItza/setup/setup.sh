@@ -6,6 +6,7 @@ echo
 
 opkg install alsa-utils libportaudio2 libasound2 bison alsa-lib-dev alsa-utils-dev alsa-dev
 
+echo > /home/root/.asoundrc
 cat << EOT >> /home/root/.asoundrc
 pcm.!default {
         type asym
