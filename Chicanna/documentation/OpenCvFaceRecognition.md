@@ -15,8 +15,14 @@ root@board:~#
 ```
 
 ```sh
-root@board:~# pip install numpy
-root@board:~# opkg install python-dev python-opencv python-numpy
+root@board:~# opkg install python-dev
+root@board:~# opkg install http://repo.opkg.net/edison/repo/core2-32/python-numpy_1.7.0-r1_core2-32.ipk
+root@board:~# opkg install http://repo.opkg.net/edison/repo/core2-32/python-opencv_2.4.11+git0+2c9547e314-r0_core2-32.ipk
+```
+
+```sh
+root@board:~# pip install pip --upgrade
+root@board:~# pip install flask numpy
 ```
 
 ## Code
