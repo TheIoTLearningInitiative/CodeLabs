@@ -167,6 +167,16 @@ root@edison:/lib/systemd/system# systemctl status node-red.service -l
 Mar 12 22:59:54 edison systemd[1]: Started Node-RED.
 ```
 
+```sh
+
+```
+
+```sh
+root@edison:/lib/systemd/system# systemctl daemon-reload
+root@edison:/lib/systemd/system# systemctl --system enable node-red                                                                                             
+root@edison:/lib/systemd/system# systemctl start node-red                                                                                             
+```
+
 # node-red Dashboard
 
 Go to http://board.ip.adress:1880/#
