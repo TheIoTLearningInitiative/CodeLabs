@@ -30,3 +30,21 @@ GroveStarterKit  LICENSE.md  README.md  curieimu  package.json  screenshot.png
 ```sh
 root@edison:~/.node-red/node_modules/node-red-contrib-upm# nano package.json
 ```
+
+```javascript
+  "node-red": {
+    "nodes": {
+      "upm-grove-button": "GroveStarterKit/grove-button.js",
+      "upm-grove-led": "GroveStarterKit/grove-led.js",
+      "upm-grove-light": "GroveStarterKit/grove-light.js",
+      "upm-grove-relay": "GroveStarterKit/grove-relay.js",
+      "upm-grove-rgb-lcd": "GroveStarterKit/grove-rgb-lcd.js",
+      "upm-grove-rotary": "GroveStarterKit/grove-rotary.js",
+      "upm-grove-sound": "GroveStarterKit/grove-sound.js",
+      "upm-grove-temperature": "GroveStarterKit/grove-temperature.js",
+      "upm-grove-servo": "GroveStarterKit/grove-servo.js",
+      "upm-grove-speaker": "GroveStarterKit/grove-speaker.js",
+      "upm-curieimu": "curieimu/curieimu.js"
+    }
+  },
+```
