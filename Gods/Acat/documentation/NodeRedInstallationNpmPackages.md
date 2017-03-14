@@ -4,16 +4,24 @@
 
 > IO library that helps you use I2c, SPI, gpio, uart, pwm, analog inputs (aio) and more on a number of platforms such as the Intel galileo, the Intel edison and ... [Homepage](https://www.npmjs.com/package/mraa)
 
+
 ```sh
-root@edison:~# npm install -g mraa
+root@edison:~# cd .node-red
+root@edison:~/.node-red# ls
+flows_edison.json  lib  node_modules  settings.js
+root@edison:~/.node-red# 
+```
+
+```sh
+root@edison:~/.node-red# npm install -g mraa
 ```
 
 ```sh
 
-> mraa@1.5.1 install /usr/lib/node_modules/mraa
+> mraa@1.5.1 install /home/root/.node-red/node_modules/mraa
 > node-gyp rebuild
 
-make: Entering directory '/usr/lib/node_modules/mraa/build'
+make: Entering directory '/home/root/.node-red/node_modules/mraa/build'
 CC(target) Release/obj.target/mraa/src/x86/intel_gt_tuchuck.o
 CC(target) Release/obj.target/mraa/src/x86/up.o
 CC(target) Release/obj.target/mraa/src/x86/intel_cherryhills.o
@@ -27,7 +35,7 @@ CC(target) Release/obj.target/mraa/src/x86/intel_edison_fab_c.o
 ...
   SOLINK_MODULE(target) Release/obj.target/mraa.node
   COPY Release/mraa.node
-make: Leaving directory '/usr/lib/node_modules/mraa/build'
+make: Leaving directory '/home/root/.node-red/node_modules/mraa/build'
 /usr/lib
 `-- mraa@1.5.1 
 ```
@@ -39,15 +47,15 @@ make: Leaving directory '/usr/lib/node_modules/mraa/build'
 > Compatible with Intel's Galileo Generation 2 (no longer supports Galileo Generation 1), Edison (Mini and Arduino Board, SparkFun GPIO & Arduino Blocks, Xadow Board, DFRobot Romeo & IO Expansion) and Joule boards. [Homepage](https://www.npmjs.com/package/galileo-io)
 
 ```sh
-root@edison:~# npm install -g edison-io
+root@edison:~/.node-red# npm install -g edison-io
 ```
 
 ```sh
 
-> mraa@1.5.1 install /usr/lib/node_modules/edison-io/node_modules/mraa
+> mraa@1.5.1 install /home/root/.node-red/node_modules/edison-io/node_modules/mraa
 > node-gyp rebuild
 
-make: Entering directory '/usr/lib/node_modules/edison-io/node_modules/mraa/build'
+make: Entering directory '/home/root/.node-red/node_modules/edison-io/node_modules/mraa/build'
   CC(target) Release/obj.target/mraa/src/x86/intel_gt_tuchuck.o
   CC(target) Release/obj.target/mraa/src/x86/up.o
   CC(target) Release/obj.target/mraa/src/x86/intel_cherryhills.o
@@ -55,7 +63,7 @@ make: Entering directory '/usr/lib/node_modules/edison-io/node_modules/mraa/buil
   ...
   SOLINK_MODULE(target) Release/obj.target/mraa.node
   COPY Release/mraa.node
-make: Leaving directory '/usr/lib/node_modules/edison-io/node_modules/mraa/build'
+make: Leaving directory '/home/root/.node-red/node_modules/edison-io/node_modules/mraa/build'
 /usr/lib
 `-- edison-io@0.10.0 
   `-- galileo-io@0.10.0 
