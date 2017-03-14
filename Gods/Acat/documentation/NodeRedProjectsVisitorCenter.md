@@ -4,6 +4,8 @@
 
 # Grove Indoor Environment Kit
 
+- Grove - Light
+- Grove - Temperature
 - 
 
 # Menu -> Manage Palette -> Nodes
