@@ -2,7 +2,7 @@
 
 # Visitor Center
 
-# Grove Indoor Environment Kit for Intel® Edison
+## Grove Indoor Environment Kit for Intel® Edison
 
 ## Input
 
