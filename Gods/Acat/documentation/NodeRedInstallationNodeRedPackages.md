@@ -79,6 +79,93 @@ Make modifications to grove-speaker.html
 root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# nano grove-speaker.html
 ```
 
+```html
+<script type="text/x-red" data-template-name="UPM-Grove-Speaker">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-platform"><i class="fa fa fa-wrench"></i> Platfrom</label>
+	<select type="text" id="node-input-platform">
+	    <option value="0" selected="selected">Native</option>
+	    <option value="512">Firmata</option>
+        </select>
+    </div>
+    <div class="form-row">
+        <label for="node-input-pin"><i class="fa fa-map-pin"></i> Pin</label>
+        <select type="text" id="node-input-pin">
+            <option value="0" selected="selected">D0</option>
+            <option value="1">D1</option>
+            <option value="2">D2</option>
+            <option value="3">D3</option>
+            <option value="4">D4</option>
+            <option value="5">D5</option>
+            <option value="6">D6</option>
+            <option value="7">D7</option>
+            <option value="8">D8</option>
+            <option value="9">D9</option>
+            <option value="10">D10</option>
+            <option value="11">D11</option>
+            <option value="12">D12</option>
+            <option value="13">D13</option>
+        </select>
+    </div>    
+    
+    <div id="interval-row" class="form-row">
+        <label for="node-input-interval"><i class="fa fa-refresh"></i> Interval (ms)</label>
+        <input type="text" id="node-input-interval" placeholder="1000">
+    </div>    
+</script>
+
+<script type="text/x-red" data-help-name="UPM-Grove-Relay">
+    <h2>Grove Speaker</h2>
+    <br>
+    <p>This node will toggle the Grove Speaker based on the msg.payload input (1 or 0).</p>
+    <br>
+    <p>Learn More:
+        <a href="https://software.intel.com/en-us/iot/hardware/sensors/grove-relay" target="_blank">Grove Speaker</a>
+    </p>
+    <br>
+    <img src="https://raw.githubusercontent.com/intel-iot-devkit/upm/master/docs/images/grovespeaker.jpg" />
+</script>
+
+
+<script type="text/javascript">
+
+    RED.nodes.registerType('UPM-Grove-Speaker', {
+        category: 'UPM Sensors',
+        defaults: {
+            name: {
+                value: ''
+            },
+            platform: {
+                value: '0'
+	    },		    
+            pin:  {
+                value: '0',
+                required: true,
+                validate:RED.validators.number()
+            },
+            interval: {
+                value: 1000,
+                required: true,
+                validate: RED.validators.number()
+            }
+        },
+        color: '#a6bbcf',
+        paletteLabel: 'Grove Speaker',
+        inputs: 1,
+        outputs: 0,
+        icon: 'debug.png',
+        align: 'right',
+        label: function(){
+            return this.name || 'Grove Relay';
+        },
+    });
+</script>
+```
+
 #### node-red-contrib-upm: GroveStarterKit: grove-speaker.js
 
 ```sh
