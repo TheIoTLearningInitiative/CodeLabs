@@ -3,8 +3,9 @@
 # nodes
 
 - node-red
-  - function
-  - inject
+  - 
+  function
+  - 
   - watch
 - node-red-contrib-ui
   - ui_gauge
