@@ -26,3 +26,7 @@ root@edison:~/.node-red# cd node_modules/node-red-contrib-upm/
 root@edison:~/.node-red/node_modules/node-red-contrib-upm# ls
 GroveStarterKit  LICENSE.md  README.md  curieimu  package.json  screenshot.png
 ```
+
+```sh
+root@edison:~/.node-red/node_modules/node-red-contrib-upm# nano package.json
+```
