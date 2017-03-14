@@ -6,7 +6,7 @@
 
 - Grove - Light
 - Grove - Temperature
-- [](https://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html)
+- [Grove - LCD RGB Backlight](https://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html)
 - [Grove - Relay](https://www.seeedstudio.com/Grove-Relay-p-769.html)
 
 # Menu -> Manage Palette -> Nodes
