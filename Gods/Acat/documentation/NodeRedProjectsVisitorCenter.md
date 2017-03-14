@@ -15,6 +15,7 @@
 - [Grove - LCD RGB Backlight](https://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html)
 - [Grove - Relay](https://www.seeedstudio.com/Grove-Relay-p-769.html)
 - [Grove - Buzzer](https://www.seeedstudio.com/Grove-Buzzer-p-768.html)
+- [Grove - Speaker]()
 
 
 # Menu -> Manage Palette -> Nodes
