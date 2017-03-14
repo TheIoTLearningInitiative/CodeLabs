@@ -189,7 +189,7 @@
       * [Base](Gods/Acat/documentation/NodeRedInstallationBase.md)
       * [Npm Packages](Gods/Acat/documentation/NodeRedInstallationNpmPackages.md)
       * [Node-RED Packages](Gods/Acat/documentation/NodeRedInstallationNodeRedPackages.md)
-  * Projects
+  * [Projects](Gods/Acat/documentation/projects.md)
     * [GPIO](Gods/Acat/documentation/NodeRedProjectsGpio.md)
     * [MQTT](Gods/Acat/documentation/NodeRedProjectsMqtt.md)
   * [Sandbox](Gods/Acat/documentation/Sandbox.md)
