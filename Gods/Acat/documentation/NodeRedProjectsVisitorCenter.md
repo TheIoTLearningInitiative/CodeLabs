@@ -3,11 +3,11 @@
 # Visitor Center
 
 # Grove Indoor Environment Kit for Intel® Edison
-
-- Grove - Light
-- Grove - Temperature
+- [Grove - Light](https://www.seeedstudio.com/Grove-Light-Sensor-p-746.html)
+- [Grove - Temperature]()
 - [Grove - LCD RGB Backlight](https://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html)
 - [Grove - Relay](https://www.seeedstudio.com/Grove-Relay-p-769.html)
+- []()
 
 # Menu -> Manage Palette -> Nodes
 
