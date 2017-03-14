@@ -9,7 +9,8 @@
 - node-red-contrib-ui
   - ui_gauge
   - 
--  vetton
+- node-red-contrib-upm
+  - UPM-Grove-Button
   - upm-grove-light
   - UPM-Grove-Relay
   - upm-grove-rgb-lcd
