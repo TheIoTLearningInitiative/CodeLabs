@@ -7,7 +7,7 @@
 ## Input
 
 - [Grove - Light](https://www.seeedstudio.com/Grove-Light-Sensor-p-746.html)
-- [Grove - Temperature]()
+- [Grove - Temperature](http://wiki.seeed.cc/Grove-Temperature_Sensor_V1.2/)
 - [Grove - Button](https://www.seeedstudio.com/Grove-Button%28P%29-p-1243.html)
 
 ## Output
