@@ -48,3 +48,17 @@ root@edison:~/.node-red/node_modules/node-red-contrib-upm# nano package.json
     }
   },
 ```
+
+```sh
+root@edison:~/.node-red/node_modules/node-red-contrib-upm# ls 
+GroveStarterKit  LICENSE.md  README.md  curieimu  package.json  screenshot.png
+root@edison:~/.node-red/node_modules/node-red-contrib-upm# cd GroveStarterKit/
+root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# ls
+grove-button.html  grove-relay.html    grove-servo.html
+grove-button.js    grove-relay.js      grove-servo.js
+grove-led.html     grove-rgb-lcd.html  grove-sound.html
+grove-led.js       grove-rgb-lcd.js    grove-sound.js
+grove-light.html   grove-rotary.html   grove-temperature.html
+grove-light.js     grove-rotary.js     grove-temperature.js
+root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# 
+```
