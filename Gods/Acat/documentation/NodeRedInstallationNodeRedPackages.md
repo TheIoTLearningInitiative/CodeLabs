@@ -9,14 +9,17 @@ flows_edison.json  lib  node_modules  settings.js
 root@edison:~/.node-red# 
 ```
 
+## node-red-contrib-upm
+
 ```sh
 root@edison:~/.node-red# npm install -g node-red-contrib-upm
 ```
 
+
+
 ```sh
 root@edison:~/.node-red# npm install node-red-contrib-u
 ```
-
 
 
 
