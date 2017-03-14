@@ -2,7 +2,9 @@
 
 # Visitor Center
 
-# nodes
+
+
+# Menu -> Manage Palette -> Nodes
 
 - node-red
   - function
