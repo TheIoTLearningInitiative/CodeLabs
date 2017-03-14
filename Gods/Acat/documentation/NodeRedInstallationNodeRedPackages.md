@@ -70,3 +70,15 @@ root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# cp gr
 ```sh
 root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# cp grove-relay.js grove-speaker.js
 ```
+
+```sh
+root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# ls
+grove-button.html  grove-relay.js      grove-sound.html
+grove-button.js    grove-rgb-lcd.html  grove-sound.js
+grove-led.html     grove-rgb-lcd.js    grove-speaker.html
+grove-led.js       grove-rotary.html   grove-speaker.js
+grove-light.html   grove-rotary.js     grove-temperature.html
+grove-light.js     grove-servo.html    grove-temperature.js
+grove-relay.html   grove-servo.js
+root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# 
+```
