@@ -18,7 +18,6 @@
 - [Grove - Buzzer](https://www.seeedstudio.com/Grove-Buzzer-p-768.html)
 - [Grove - Speaker](http://wiki.seeed.cc/Grove-Speaker/)
 
-
 # Menu -> Manage Palette -> Nodes
 
 - node-red
