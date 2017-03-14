@@ -79,7 +79,7 @@ Make modifications to grove-speaker.html
 root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# nano grove-speaker.html
 ```
 
-#### node-red-contrib-upm: GroveStarterKit: grove-speaker.html
+#### node-red-contrib-upm: GroveStarterKit: grove-speaker.js
 
 ```sh
 root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# cp grove-relay.js grove-speaker.js
