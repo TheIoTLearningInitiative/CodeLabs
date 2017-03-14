@@ -27,6 +27,8 @@ root@edison:~/.node-red/node_modules/node-red-contrib-upm# ls
 GroveStarterKit  LICENSE.md  README.md  curieimu  package.json  screenshot.png
 ```
 
+### node-red-contrib-upm: package.json
+
 ```sh
 root@edison:~/.node-red/node_modules/node-red-contrib-upm# nano package.json
 ```
@@ -49,6 +51,8 @@ root@edison:~/.node-red/node_modules/node-red-contrib-upm# nano package.json
   },
 ```
 
+### node-red-contrib-upm: GroveStarterKit
+
 ```sh
 root@edison:~/.node-red/node_modules/node-red-contrib-upm# ls 
 GroveStarterKit  LICENSE.md  README.md  curieimu  package.json  screenshot.png
@@ -63,12 +67,28 @@ grove-light.js     grove-rotary.js     grove-temperature.js
 root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# 
 ```
 
+#### node-red-contrib-upm: GroveStarterKit: grove-speaker.html
+
 ```sh
 root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# cp grove-relay.html grove-speaker.html
 ```
 
+Make modifications to grove-speaker.html
+
+```sh
+root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# nano grove-speaker.html
+```
+
+#### node-red-contrib-upm: GroveStarterKit: grove-speaker.html
+
 ```sh
 root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# cp grove-relay.js grove-speaker.js
+```
+
+Make modifications to grove-speaker.js
+
+```sh
+root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# nano grove-speaker.js
 ```
 
 ```sh
