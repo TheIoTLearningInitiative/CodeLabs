@@ -3,8 +3,14 @@
 # Visitor Center
 
 # Grove Indoor Environment Kit for Intel® Edison
+
+## Input
+
 - [Grove - Light](https://www.seeedstudio.com/Grove-Light-Sensor-p-746.html)
 - [Grove - Temperature]()
+
+## Output
+
 - [Grove - LCD RGB Backlight](https://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html)
 - [Grove - Relay](https://www.seeedstudio.com/Grove-Relay-p-769.html)
 - [Grove - Buzzer](https://www.seeedstudio.com/Grove-Buzzer-p-768.html)
