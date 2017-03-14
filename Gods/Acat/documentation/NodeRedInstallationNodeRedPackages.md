@@ -62,3 +62,11 @@ grove-light.html   grove-rotary.html   grove-temperature.html
 grove-light.js     grove-rotary.js     grove-temperature.js
 root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# 
 ```
+
+```sh
+root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# cp grove-relay.html grove-speaker.html
+```
+
+```sh
+root@edison:~/.node-red/node_modules/node-red-contrib-upm/GroveStarterKit# cp grove-relay.js grove-speaker.js
+```
