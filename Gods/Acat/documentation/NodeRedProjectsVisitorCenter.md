@@ -46,4 +46,4 @@
 # Big Changes
 
 - Use github repositories
-- Remove "Grove" and "ui" 
+- Remove "Grove" and "ui" words from the Nodes
