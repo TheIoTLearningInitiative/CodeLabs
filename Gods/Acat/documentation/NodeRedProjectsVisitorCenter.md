@@ -27,7 +27,9 @@
 - [Grove - Relay](https://www.seeedstudio.com/Grove-Relay-p-769.html)
 - [Grove - Buzzer](https://www.seeedstudio.com/Grove-Buzzer-p-768.html)
 
-# Menu -> Manage Palette -> Nodes
+# Node Management
+
+Go to Menu -> Manage Palette -> Nodes and keep enabled only the following items
 
 - node-red
   - function
