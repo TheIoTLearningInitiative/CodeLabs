@@ -6,6 +6,9 @@
 
 - Use github repositories
 - Remove "Grove" and "ui" words from the Nodes
+- Modification to default to 1/0 instead of True/False under ui_switch
+- Change from Speaker to Buzzer under UPM-Grove-Speaker
+
 
 ## Grove Indoor Environment Kit for Intel® Edison
 
@@ -38,8 +41,8 @@ Go to Menu -> Manage Palette -> Nodes and keep enabled only the following items
 - node-red-contrib-ui
   - ui_chart
   - ui_gauge
-  - ui_switch (AR Abraham Modification to default to 1/0 instead of True/False)
-  - ui_tab (won't show)
+  - ui_switch
+  - ui_tab
   - ui_text_input
 - node-red-contrib-upm
   - UPM-Grove-Button
@@ -47,6 +50,6 @@ Go to Menu -> Manage Palette -> Nodes and keep enabled only the following items
   - UPM-Grove-Relay
   - upm-grove-rgb-lcd
   - upm-grove-sound
-  - UPM-Grove-Speaker (AR Abraham Change from Speaker to Buzzer)
+  - UPM-Grove-Speaker
   - upm-grove-temperature
 
