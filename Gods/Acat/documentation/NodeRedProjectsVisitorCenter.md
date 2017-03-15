@@ -31,8 +31,8 @@
 - node-red-contrib-ui
   - ui_chart
   - ui_gauge
-  - ui_switch
-  - ui_tab
+  - ui_switch (AR Abraham Modification to )
+  - ui_tab (won't show)
   - ui_text_input
 - node-red-contrib-upm
   - UPM-Grove-Button
