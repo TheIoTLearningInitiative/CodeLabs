@@ -9,10 +9,10 @@ flows_edison.json  lib  node_modules  settings.js
 root@edison:~/.node-red# 
 ```
 
-## node-red-contrib-u
+## node-red-dashboard
 
 ```sh
-root@edison:~/.node-red# npm install node-red-contrib-u
+root@edison:~/.node-red# npm install node-red-dashboard
 ```
 
 ## node-red-contrib-upm
