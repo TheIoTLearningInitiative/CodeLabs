@@ -31,7 +31,7 @@
 - node-red-contrib-ui
   - ui_chart
   - ui_gauge
-  - ui_switch (AR Abraham Modification to )
+  - ui_switch (AR Abraham Modification to default to 1/0 instead of True/False)
   - ui_tab (won't show)
   - ui_text_input
 - node-red-contrib-upm
@@ -40,5 +40,5 @@
   - UPM-Grove-Relay
   - upm-grove-rgb-lcd
   - upm-grove-sound
-  - UPM-Grove-Speaker
+  - UPM-Grove-Speaker (AR Abraham Change from Speaker to Buzzer)
   - upm-grove-temperature
