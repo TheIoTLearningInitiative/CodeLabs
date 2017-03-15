@@ -1,6 +1,6 @@
 # Intel GDC Visitor Center
 
-## Skill: Me
+## Skill: Welcome
 
 - __Invocation Name__: Open Welcome, Ask Welcome...
   - __Intents__
