@@ -24,6 +24,8 @@
 
 # Menu -> Manage Palette -> Nodes
 
+
+
 - node-red
   - function
   - inject
