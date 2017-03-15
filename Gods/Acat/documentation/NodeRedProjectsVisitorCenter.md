@@ -2,6 +2,11 @@
 
 # Visitor Center
 
+# Big Changes
+
+- Use github repositories
+- Remove "Grove" and "ui" words from the Nodes
+
 ## Grove Indoor Environment Kit for Intel® Edison
 
 ## Input
@@ -43,7 +48,3 @@
   - UPM-Grove-Speaker (AR Abraham Change from Speaker to Buzzer)
   - upm-grove-temperature
 
-# Big Changes
-
-- Use github repositories
-- Remove "Grove" and "ui" words from the Nodes
