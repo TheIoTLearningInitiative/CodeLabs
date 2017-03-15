@@ -2,7 +2,7 @@
 
 ## Skill: Welcome
 
-- __Invocation Name__: Open Welcome, Ask Welcome...
+- __Invocation Name__: Open Robot Welcome, Ask Robot Welcome...
   - __Intents__
     - WelcomeIntent welcome
     - WelcomeIntent say welcome
