@@ -4,6 +4,7 @@
 
 # Big Changes
 
+- Use node-red-dashboard instead of node-red-contrib-ui
 - Use github repositories
 - Remove "Grove" and "ui" words from the Nodes
 - Modification to default to 1/0 instead of True/False under ui_switch
