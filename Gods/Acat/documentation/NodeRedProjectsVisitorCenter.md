@@ -24,8 +24,6 @@
 
 # Menu -> Manage Palette -> Nodes
 
-
-
 - node-red
   - function
   - inject
@@ -44,3 +42,8 @@
   - upm-grove-sound
   - UPM-Grove-Speaker (AR Abraham Change from Speaker to Buzzer)
   - upm-grove-temperature
+
+# Big Changes
+
+- Use github repositories
+- 
