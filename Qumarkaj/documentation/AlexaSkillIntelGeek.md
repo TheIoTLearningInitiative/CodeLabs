@@ -2,7 +2,7 @@
 
 ## Skill: Me
 
-- __Invocation Name__: Open Welcome, Ask Welcome to...
+- __Invocation Name__: Open Welcome, Ask Welcome...
   - __Intents__
     - WelcomeIntent welcome
     - WelcomeIntent say welcome
@@ -11,7 +11,7 @@
 
 ## Skill: Geek
 
-- __Invocation Name__: Open Geek, Ask Geek to...
+- __Invocation Name__: Open Geek, Ask Geek...
   - __Intents__
     - GetNewFactIntent a fact
     - GetNewFactIntent facts
@@ -27,7 +27,7 @@
 
 ## Skill: Trivia
 
-- __Invocation Name__: Open Trivia, Ask Trivia to...
+- __Invocation Name__: Open Trivia, Ask Trivia...
   - __Intents__
     - AnswerIntent the answer is {Answer}
     - AnswerIntent my answer is {Answer}
