@@ -9,7 +9,6 @@
 - Modification to default to 1/0 instead of True/False under ui_switch
 - Change from Speaker to Buzzer under UPM-Grove-Speaker
 
-
 ## Grove Indoor Environment Kit for Intel® Edison
 
 ## Input
