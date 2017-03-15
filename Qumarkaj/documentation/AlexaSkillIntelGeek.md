@@ -47,7 +47,7 @@ const languageStrings = {
                 'Robert Noyce mentored many other tech upstarts, among them Steve Jobs',
                 'Intel\'s first big success came in 1971 with the Intel 4004 microprocessor',
                 'The fingernail-thin 4004 offered the same computing firepower as the room-sized ENIAC, the first ever computer introduced in 1946',
-                'The four-bit CPU contained 2,300 transistors',
+                'The 4004 four-bit CPU contained 2,300 transistors',
                 'Ten years later, the 8088 CPU was included in the first personal computer released by IBM',
                 'Including the Intel 8088 CPU was the first time IBM had ever used an outside vendor to create a key microprocessor for one of its machines',
                 'The 8088 had 29,000 transistors',
