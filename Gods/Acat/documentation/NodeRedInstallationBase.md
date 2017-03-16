@@ -372,3 +372,19 @@ root@edison:/etc/init.d# cd
 root@edison:~# 
 ```
 
+
+# Crontab
+
+```sh
+root@edison:~# opkg install cronie
+Installing cronie (1.4.11-r0) on root.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/cronie_1.4.11-r0_core2-32.ipk.
+Installing pam-plugin-access (1.1.6-r5) on root.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/pam-plugin-access_1.1.6-r5_core2-32.ipk.
+Running groupadd commands...
+NOTE: Performing groupadd with [ --system crontab] and 10 times of retry
+Configuring pam-plugin-access.
+Configuring cronie.
+ln -s '/lib/systemd/system/crond.service' '/etc/systemd/system/multi-user.target.wants/crond.service'
+root@edison:~# 
+```
