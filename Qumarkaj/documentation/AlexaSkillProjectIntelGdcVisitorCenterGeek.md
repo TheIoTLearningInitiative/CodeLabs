@@ -1,6 +1,6 @@
 # Skill: Geek
 
-- __Invocation Name__: Open Geek, Ask Geek...
+- __Invocation Name__: Open Geek, Ask Geek to...
   - __Intents__
     - GetNewFactIntent a fact
     - GetNewFactIntent facts
