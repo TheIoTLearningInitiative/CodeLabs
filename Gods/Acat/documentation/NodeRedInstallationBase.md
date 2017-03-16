@@ -388,3 +388,9 @@ Configuring cronie.
 ln -s '/lib/systemd/system/crond.service' '/etc/systemd/system/multi-user.target.wants/crond.service'
 root@edison:~# 
 ```
+
+```sh
+systemctl status pm2-root.service
+echo $?
+pm2 restart node-red
+```
