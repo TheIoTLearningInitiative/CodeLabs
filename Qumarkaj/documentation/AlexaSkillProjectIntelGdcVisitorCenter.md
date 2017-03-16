@@ -9,7 +9,6 @@
     - WelcomeIntent say welcome all
 - __Answer__ See below...
 
-
 ```js
 'use strict';
 
