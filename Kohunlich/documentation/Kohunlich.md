@@ -124,4 +124,15 @@ root@edison:~#
 ```sh
 root@edison:~# systemctl disable bluetooth-rfkill-event.service
 root@edison:~# systemctl disable bluetooth.service
+root@edison:~# systemctl disable 
+root@edison:~# systemctl disable 
+root@edison:~# systemctl disable 
+root@edison:~# systemctl disable 
+root@edison:~# systemctl disable 
+root@edison:~# systemctl disable 
+root@edison:~# systemctl disable 
+root@edison:~# systemctl disable 
+root@edison:~# systemctl disable 
+root@edison:~# systemctl disable 
+root@edison:~# systemctl disable 
 ```
