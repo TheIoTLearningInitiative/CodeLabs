@@ -18,10 +18,10 @@ Same as Wrist Band
 - Putty
 - Bluetooth SPP Tools Pro
 
-Intel IoT SDK
+## Intel IoT SDK
 
-1.	Install Java
-Java SE Development Kit 8u121
+1. Install Java
+   1.1 Java SE Development Kit 8u121
 
 Usability
 
