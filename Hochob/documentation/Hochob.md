@@ -127,8 +127,6 @@ Changing 40:78:6A:26:4A:C2 trust succeeded
 [CHG] Device 40:78:6A:26:4A:C2 RSSI: -55
 [CHG] Device 40:78:6A:26:4A:C2 Connected: yes
 [bluetooth]# NewConnection(/org/bluez/hci0/dev_40_78_6A_26_4A_C2, 10)
-
-
 ```
 
 ```sh
