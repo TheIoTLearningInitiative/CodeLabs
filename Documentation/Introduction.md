@@ -31,7 +31,7 @@ Campeche
 * **Chicanna** Camara as a Service
 * **Edzna** Home Assistant
 * **Hormiguero** MQTT Alarm ! **Under Construction**
-* **Hochob** 
+* **Hochob** Mario Robot
 * **Kanki** ESP8266 ! **Under Construction**
 * **Tabasqueno** NodeJS, Socket.io, Johnny Five ! **Under Construction**
 * **Xcalumkin** Python Cross Platform \(PC/Embedded\) **Under Construction**
