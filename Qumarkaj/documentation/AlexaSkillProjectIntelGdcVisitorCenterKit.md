@@ -15,7 +15,6 @@
    - Choose a AWS IoT Device SDK
      - Connect in 15 minutes or less with these SDKs and a quick setup script: Node.js
 4. Connecting to AWS IoT requires the creation and configuration of several components with the service. The following steps will help do this for you. You will:
-
    - Register a thing. 
      - This step creates an entry in the thing registry and a thing shadow for your device.
      - Name: Kit
