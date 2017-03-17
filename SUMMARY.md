@@ -130,6 +130,7 @@
         * [Intel GDC Visitor Center](Qumarkaj/documentation/AlexaSkillProjectIntelGdcVisitorCenter.md)
           * [Geek](Qumarkaj/documentation/AlexaSkillProjectIntelGdcVisitorCenterGeek.md)
           * [Trivia](Qumarkaj/documentation/AlexaSkillProjectIntelGdcVisitorCenterTrivia.md)
+          * [Kit](Qumarkaj/documentation/AlexaSkillProjectIntelGdcVisitorCenterKit.md)
         * [Voice Control Intel Edison](Qumarkaj/documentation/AlexaSkillProjectVoiceControlIntelEdison.md)
     * [Alexa Voice Service](Qumarkaj/documentation/AlexaVoiceService.md)
       * [Intel Edison](Qumarkaj/documentation/IntelEdison.md)
