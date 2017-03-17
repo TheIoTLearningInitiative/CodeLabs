@@ -94,3 +94,12 @@ amixer -c 2 cset numid=5 30
 
 python SPP-pipe-out.py &
 ```
+
+```sh
+root@edison:~# amixer -c 2 cset numid=5 30
+numid=5,iface=MIXER,name='Speaker Playback Volume'
+  ; type=INTEGER,access=rw---R--,values=2,min=0,max=37,step=0
+  : values=30,30
+  | dBminmax-min=-37.00dB,max=0.00dB
+root@edison:~#
+```
