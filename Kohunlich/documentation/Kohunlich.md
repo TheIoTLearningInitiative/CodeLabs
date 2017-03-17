@@ -1,3 +1,8 @@
 # Kohunlich
 
 > Kohunlich (X-làabch'e'en in Modern Mayan) is a large archaeological site of the pre-Columbian Maya civilization, located on the Yucatán Peninsula in the state of Quintana Roo about 25 km east of the Rio Bec region, and about 65 km west of Chetumal on Highway 186, and 9 km south of the road. The Spanish name does not actually derive from Mayan but from the English Cohune Ridge where cohune palm grew. [Wikipedia](https://en.wikipedia.org/wiki/Kohunlich)
+
+```sh
+root@edison:~# systemctl disable bluetooth-rfkill-event.service
+
+```
