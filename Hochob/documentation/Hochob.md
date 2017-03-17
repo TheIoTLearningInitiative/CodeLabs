@@ -23,7 +23,7 @@ Same as Wrist Band
 1. Install Java
    1.1 Java SE Development Kit 8u121
 
-Usability
+## Usability
 
 •	Easy Guide (Pending)
 o	Robot
