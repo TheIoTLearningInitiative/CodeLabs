@@ -107,7 +107,15 @@ Request confirmation
         00001801-0000-1000-8000-00805f9b34fb
 [CHG] Device 40:78:6A:26:4A:C2 Paired: yes
 Pairing successful
+[bluetooth]# discoverable on
+Changing discoverable on succeeded
+[CHG] Controller 98:4F:EE:03:78:89 Discoverable: yes
+[bluetooth]# trust 40:78:6A:26:4A:C2
+[CHG] Device 40:78:6A:26:4A:C2 Trusted: yes
+Changing 40:78:6A:26:4A:C2 trust succeeded
+[CHG] Device 40:78:6A:26:4A:C2 RSSI: -55
 [bluetooth]#
+
 ```
 
 ```sh
