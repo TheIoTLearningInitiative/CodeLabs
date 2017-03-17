@@ -103,3 +103,69 @@ numid=5,iface=MIXER,name='Speaker Playback Volume'
   | dBminmax-min=-37.00dB,max=0.00dB
 root@edison:~#
 ```
+
+
+```sh
+root@edison:~# bluetoothctl
+[NEW] Controller 98:4F:EE:03:78:89 edison [default]
+[NEW] Device 00:16:D4:FA:F6:20 Project Tango Tablet Developmen
+[bluetooth]# scan on
+Discovery started
+[CHG] Controller 98:4F:EE:03:78:89 Discovering: yes
+[bluetooth]# reboot
+Invalid command
+[NEW] Device 40:78:6A:26:4A:C2 XT1008
+[bluetooth]# eit
+Invalid command
+[bluetooth]#
+```
+
+
+```sh
+[DEL] Device 40:78:6A:26:4A:C2 XT1008
+[NEW] Device 40:78:6A:26:4A:C2 XT1008
+[bluetooth]# connect 40:78:6A:26:4A:C2
+Attempting to connect to 40:78:6A:26:4A:C2
+[CHG] Device 40:78:6A:26:4A:C2 Connected: yes
+[CHG] Device 40:78:6A:26:4A:C2 Modalias: bluetooth:v001Dp1200d1436
+[CHG] Device 40:78:6A:26:4A:C2 UUIDs:
+        00001105-0000-1000-8000-00805f9b34fb
+        0000110a-0000-1000-8000-00805f9b34fb
+        0000110c-0000-1000-8000-00805f9b34fb
+        0000110e-0000-1000-8000-00805f9b34fb
+        00001112-0000-1000-8000-00805f9b34fb
+        00001116-0000-1000-8000-00805f9b34fb
+        0000111f-0000-1000-8000-00805f9b34fb
+        0000112f-0000-1000-8000-00805f9b34fb
+        00001132-0000-1000-8000-00805f9b34fb
+        00001200-0000-1000-8000-00805f9b34fb
+        00001800-0000-1000-8000-00805f9b34fb
+        00001801-0000-1000-8000-00805f9b34fb
+[CHG] Device 40:78:6A:26:4A:C2 Paired: yes
+Connection successful
+[NEW] Device 08:DF:1F:E6:A2:3E 08-DF-1F-E6-A2-3E
+[bluetooth]#
+[DEL] Device 40:78:6A:26:4A:C2 XT1008
+[NEW] Device 40:78:6A:26:4A:C2 XT1008
+[bluetooth]# connect 40:78:6A:26:4A:C2
+Attempting to connect to 40:78:6A:26:4A:C2
+[CHG] Device 40:78:6A:26:4A:C2 Connected: yes
+[CHG] Device 40:78:6A:26:4A:C2 Modalias: bluetooth:v001Dp1200d1436
+[CHG] Device 40:78:6A:26:4A:C2 UUIDs:
+        00001105-0000-1000-8000-00805f9b34fb
+        0000110a-0000-1000-8000-00805f9b34fb
+        0000110c-0000-1000-8000-00805f9b34fb
+        0000110e-0000-1000-8000-00805f9b34fb
+        00001112-0000-1000-8000-00805f9b34fb
+        00001116-0000-1000-8000-00805f9b34fb
+        0000111f-0000-1000-8000-00805f9b34fb
+        0000112f-0000-1000-8000-00805f9b34fb
+        00001132-0000-1000-8000-00805f9b34fb
+        00001200-0000-1000-8000-00805f9b34fb
+        00001800-0000-1000-8000-00805f9b34fb
+        00001801-0000-1000-8000-00805f9b34fb
+[CHG] Device 40:78:6A:26:4A:C2 Paired: yes
+Connection successful
+[NEW] Device 08:DF:1F:E6:A2:3E 08-DF-1F-E6-A2-3E
+[bluetooth]#
+```
