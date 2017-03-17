@@ -65,3 +65,32 @@ Sequence
 6. Run MotorsandServos Binary under Intel Edison
 7. Battery turn on legs (Left side of the robot)
 8. Tablet	
+
+
+```sh
+root@edison:~# systemctl daemon-reload
+root@edison:~# systemctl restart bluetooth.service
+root@edison:~# rfkill unblock bluetooth
+root@edison:~# bluetoothctl
+[NEW] Controller 98:4F:EE:03:78:89 edison [default]
+[NEW] Device 00:16:D4:FA:F6:20 Project Tango Tablet Developmen
+[bluetooth]#
+```
+
+```sh
+#!/bin/sh
+rfkill unblock bluetooth
+sleep 2
+bluetoothctl << EOF
+discoverable on
+EOF
+sleep 2
+bluetoothctl << EOF
+connect 00:16:D4:FA:F6:20
+EOF
+sleep 2
+
+amixer -c 2 cset numid=5 30
+
+python SPP-pipe-out.py &
+```
