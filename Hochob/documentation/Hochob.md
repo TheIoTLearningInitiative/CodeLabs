@@ -53,7 +53,7 @@ OS Version
 
 Sequence
 
-1. Battery turn on arms (Right side of the robot)
+1. Battery turn on arms (switch located at the right side of the robot)
    - Edison powered on
 2. Turn on Speakers
 3. Turn on Tablet Bluetooth
