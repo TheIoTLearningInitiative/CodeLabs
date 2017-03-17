@@ -124,15 +124,18 @@ root@edison:~#
 ```sh
 root@edison:~# systemctl disable bluetooth-rfkill-event.service
 root@edison:~# systemctl disable bluetooth.service
-root@edison:~# systemctl disable 
-root@edison:~# systemctl disable 
-root@edison:~# systemctl disable 
-root@edison:~# systemctl disable 
-root@edison:~# systemctl disable 
-root@edison:~# systemctl disable 
-root@edison:~# systemctl disable 
-root@edison:~# systemctl disable 
-root@edison:~# systemctl disable 
-root@edison:~# systemctl disable 
-root@edison:~# systemctl disable 
+root@edison:~# systemctl disable clloader.service
+root@edison:~# systemctl disable dbus-org.bluez.service
+root@edison:~# systemctl disable mcu_fw_loader.service
+root@edison:~# systemctl disable mdns.service
+root@edison:~# systemctl disable mosquitto.service
+root@edison:~# systemctl disable ofono.service
+root@edison:~# systemctl disable pulseaudio.service
+root@edison:~# systemctl disable pwr-button-handler.service
+root@edison:~# systemctl disable redis.service
+root@edison:~# systemctl disable sketch-check.service
+root@edison:~# systemctl disable sketch_reset.service
+root@edison:~# systemctl disable wyliodrin-hypervisor.service 
+root@edison:~# systemctl disable wyliodrin-server.service
+root@edison:~# systemctl disable xdk-daemon.service
 ```
