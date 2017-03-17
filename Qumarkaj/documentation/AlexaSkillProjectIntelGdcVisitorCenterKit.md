@@ -9,6 +9,12 @@
 
 1. AWS IoT ... Connect
 2. Configuring a device ... Get started
+3. How are you connecting to AWS IoT?
+   - Select the platform and SDK that best suits how you are connecting to AWS IoT
+     - Choose a platform: Linux/OSX
+   - Choose a AWS IoT Device SDK
+     - Connect in 15 minutes or less with these SDKs and a quick setup script: Node.js
+ 
    - Register a thing. 
      - This step creates an entry in the thing registry and a thing shadow for your device.
      - Name: Kit
