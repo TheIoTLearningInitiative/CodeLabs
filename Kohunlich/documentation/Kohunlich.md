@@ -118,8 +118,7 @@ root@edison:~# ps
   395 root      3220 S    -sh
   501 root         0 SW   [kworker/0:0]
   553 root      2892 R    ps
-root@edison:~# 
-CTRL-A Z for help | 115200 8N1 | NOR | Minicom 2.7 | VT102 | Desconectado | ttyUSB0                               
+root@edison:~#                    
 ```
 
 ```sh
