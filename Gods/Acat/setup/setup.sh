@@ -47,6 +47,7 @@ npm install node-red-contrib-upm
 #npm install node-red-contrib-play-audio
 #npm install node-red-contrib-voicerss-tts
 #npm install node-red-contrib-cognitive-services
+npm install node-red-dashboard
 
 cd
 
