@@ -78,6 +78,30 @@ root@edison:~# bluetoothctl
 ```
 
 ```sh
+root@edison:~# rfkill unblock bluetooth
+root@edison:~# bluetoothctl
+[NEW] Controller 98:4F:EE:03:78:89 edison [default]
+[NEW] Device 40:78:6A:26:4A:C2 XT1008
+[NEW] Device 00:16:D4:FA:F6:20 Project Tango Tablet Developmen
+[bluetooth]# scan on
+Discovery started
+[CHG] Controller 98:4F:EE:03:78:89 Discovering: yes
+[bluetooth]# pair 40:78:6A:26:4A:C2
+Attempting to pair with 40:78:6A:26:4A:C2
+Failed to pair: org.bluez.Error.AlreadyExists
+[bluetooth]# discoverable on
+Changing discoverable on succeeded
+[CHG] Controller 98:4F:EE:03:78:89 Discoverable: yes
+[bluetooth]# trust 78:24:AF:13:58:B9
+Device 78:24:AF:13:58:B9 not available
+[bluetooth]# trust 40:78:6A:26:4A:C2
+[CHG] Device 40:78:6A:26:4A:C2 Trusted: yes
+Changing 40:78:6A:26:4A:C2 trust succeeded
+[bluetooth]#
+```
+
+
+```sh
 #!/bin/sh
 rfkill unblock bluetooth
 sleep 2
