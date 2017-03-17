@@ -115,7 +115,7 @@ discoverable on
 EOF
 sleep 2
 bluetoothctl << EOF
-connect 00:16:D4:FA:F6:20
+connect 
 EOF
 sleep 2
 
