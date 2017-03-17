@@ -97,6 +97,9 @@ Device 78:24:AF:13:58:B9 not available
 [bluetooth]# trust 40:78:6A:26:4A:C2
 [CHG] Device 40:78:6A:26:4A:C2 Trusted: yes
 Changing 40:78:6A:26:4A:C2 trust succeeded
+[CHG] Controller 98:4F:EE:03:78:89 Discoverable: no
+[CHG] Device 40:78:6A:26:4A:C2 Connected: yes
+[CHG] Device 40:78:6A:26:4A:C2 Connected: no
 [bluetooth]#
 ```
 
