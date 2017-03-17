@@ -5,6 +5,10 @@
    - https://console.aws.amazon.com/iotv2/home?region=us-east-1#/home
 3. Get Started
 4. AWS IoT ... Registry .. Things
-5. Register a thing. 
-   - This step creates an entry in the thing registry and a thing shadow for your device.
-   - Name: Kit
+   - Register a thing. 
+     - This step creates an entry in the thing registry and a thing shadow for your device.
+     - Name: Kit
+   - Thing ARN
+     - A thing Amazon Resource Name uniquely identifies this thing.
+     - 
+
