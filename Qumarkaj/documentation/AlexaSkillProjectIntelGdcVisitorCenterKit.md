@@ -4,7 +4,11 @@
 2. Explore Our Products .. Compute .. Internet of Things .. AWS IoT PlatformConnect Devices to the Cloud
    - https://console.aws.amazon.com/iotv2/home?region=us-east-1#/home
 3. Get Started
-4. AWS IoT ... Registry .. Things
+
+...
+
+1. AWS IoT ... Connect
+2. Configuring a device ... Get started
    - Register a thing. 
      - This step creates an entry in the thing registry and a thing shadow for your device.
      - Name: Kit
