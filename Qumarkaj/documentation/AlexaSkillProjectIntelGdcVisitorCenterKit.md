@@ -9,6 +9,7 @@
      - This step creates an entry in the thing registry and a thing shadow for your device.
      - Name: Kit
    - Thing ARN
-     - A thing Amazon Resource Name uniquely identifies this thing.
-     - 
+     - A thing Amazon Resource Name uniquely identifies this thing: arn:aws:iot:us-east...
+     - Type: No Type
+     
 
