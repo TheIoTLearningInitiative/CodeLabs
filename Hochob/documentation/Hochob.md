@@ -64,6 +64,4 @@ Sequence
    - Go to Keyboard Mode
 6. Run MotorsandServos Binary under Intel Edison
 7. Battery turn on legs (Left side of the robot)
-8. 	
-o	Tablet
-	
+8. Tablet	
