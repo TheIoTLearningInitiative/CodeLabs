@@ -23,3 +23,7 @@ Processing triggers for desktop-file-utils (0.23-1) ...
 Processing triggers for mime-support (3.60) ...
 user@server:~$ 
 ```
+
+# Activities
+
+- Change Update Library Options
