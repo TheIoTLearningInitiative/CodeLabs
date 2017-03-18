@@ -49,7 +49,10 @@ homeassistant:
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: America/Mexico_City
   customize:
-   swith.main:
+   switch.luperobot:
     friendly_name: Lupe Robot Station
+    icon: mdi.video
+   switch.edison:
+    friendly_name: Edison Station
     icon: mdi.video
 ```
