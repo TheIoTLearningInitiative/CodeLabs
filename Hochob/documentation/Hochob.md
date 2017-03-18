@@ -12,11 +12,11 @@
 - Hardware
   - NUC based
   - Linux based
+  - Lupe Robot
 - Software
   - Plex
   - VLC Media Player
   - Home Assistant
-  - Lupe Robot
 - Features
   - Talk
   - Photography
