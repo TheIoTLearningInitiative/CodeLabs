@@ -1,0 +1,23 @@
+# Plex
+
+```sh
+user@server:~/Downloads$ sudo dpkg -i plexmediaserver_1.4.4.3495-edef59192_amd64.deb 
+[sudo] password for xe1gyq: 
+Selecting previously unselected package plexmediaserver.
+(Reading database ... 320138 files and directories currently installed.)
+Preparing to unpack plexmediaserver_1.4.4.3495-edef59192_amd64.deb ...
+Unpacking plexmediaserver (1.4.4.3495-edef59192) ...
+Setting up plexmediaserver (1.4.4.3495-edef59192) ...
+Warning: The postinst maintainerscript of the package plexmediaserver
+Warning: seems to use apt-key (provided by apt) without depending on gnupg or gnupg2.
+Warning: This will BREAK in the future and should be fixed by the package maintainer(s).
+Note: Check first if apt-key functionality is needed at all - it probably isn't!
+Warning: apt-key should not be used in scripts (called from postinst maintainerscript of the package plexmediaserver)
+OK
+Created symlink /etc/systemd/system/multi-user.target.wants/plexmediaserver.service → /lib/systemd/system/plexmediaserver.service.
+Processing triggers for systemd (232-18) ...
+Processing triggers for gnome-menus (3.13.3-8) ...
+Processing triggers for desktop-file-utils (0.23-1) ...
+Processing triggers for mime-support (3.60) ...
+user@server:~/Downloads$ 
+```
