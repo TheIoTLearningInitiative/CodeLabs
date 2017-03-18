@@ -1,5 +1,8 @@
 # VLC Media Player
 
+- [VLC Documentation](http://www.videolan.org/doc/)
+- []()
+
 ## VLC UI
 
 ```sh
