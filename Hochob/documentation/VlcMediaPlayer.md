@@ -25,7 +25,6 @@ VLC media player 2.2.4 Weatherwax (revision 2.2.3-37-g888b7e89)
 Failed to open VDPAU backend libvdpau_i965.so: cannot open shared object file: No such file or directory
 Failed to open VDPAU backend libvdpau_i965.so: cannot open shared object file: No such file or directory
 [00007f08bc001d78] xcb_window window error: X server failure
-
 ^C
 user@server:~$ 
 ```
