@@ -1,5 +1,7 @@
 # Plex
 
+Media Server
+
 ```sh
 user@server:~/Downloads$ sudo dpkg -i plexmediaserver_1.4.4.3495-edef59192_amd64.deb 
 [sudo] password for xe1gyq: 
