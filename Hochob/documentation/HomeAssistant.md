@@ -45,6 +45,29 @@ switch:
       command_off: "echo"
 ```
 
+# .homeassistant/configuration.yaml Telegram
+
+```sh
+notify:
+- name: Bot
+platform: telegram
+api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_co
+chat_id: 166426424
+```
+
+# .homeassistant/configuration.yaml Automation
+
+```
+automation:
+  trigger:
+    platform: state
+    entity_id: switch.edison
+  action:
+    service: notify.hochobbot
+    data:
+      message: "Edison switch has changed"
+```
+
 # .homeassistant/configuration.yaml Customization
 
 ```sh

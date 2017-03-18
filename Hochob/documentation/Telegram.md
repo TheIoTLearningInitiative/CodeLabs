@@ -24,12 +24,3 @@ Use this token to access the HTTP API:
 
 For a description of the Bot API, see this page: https://core.telegram.org/bots/api
 ```
-
-
-```sh
-notify:
-  - name: Bot
-    platform: telegram
-    api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_co
-    chat_id: 166426424
-```
