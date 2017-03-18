@@ -29,6 +29,16 @@ Failed to open VDPAU backend libvdpau_i965.so: cannot open shared object file: N
 user@server:~$ 
 ```
 
+```sh
+user@server:~$ cvlc Pigeon.mp4 vlc://quit
+VLC media player 2.2.4 Weatherwax (revision 2.2.3-37-g888b7e89)
+[000055ac8656c5a8] dummy interface: using the dummy interface module...
+Failed to open VDPAU backend libvdpau_i965.so: cannot open shared object file: No such file or directory
+Failed to open VDPAU backend libvdpau_i965.so: cannot open shared object file: No such file or directory
+[00007fc190c0f568] idummy demux: command `quit'
+user@server:~$ 
+```
+
 ### VLC Command Line Quit Ways
 
 ```sh
