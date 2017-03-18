@@ -2,6 +2,7 @@
 
 - [VLC Documentation](http://www.videolan.org/doc/)
 - [VLC Wiki](https://wiki.videolan.org/Documentation:Documentation)
+- [VLC Media Server](http://www.makeuseof.com/tag/create-linux-vlc-streaming-media-server-home/)
 
 ## VLC UI
 
