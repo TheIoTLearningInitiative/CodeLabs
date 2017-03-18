@@ -29,6 +29,18 @@ Failed to open VDPAU backend libvdpau_i965.so: cannot open shared object file: N
 user@server:~$ 
 ```
 
+### VLC Command Line Quit Ways
+
+```sh
+user@server:~/Downloads/pigeon_107$ cvlc --play-and-exit Pigeon.mp4 
+VLC media player 2.2.4 Weatherwax (revision 2.2.3-37-g888b7e89)
+[0000556b77830fd8] dummy interface: using the dummy interface module...
+Failed to open VDPAU backend libvdpau_i965.so: cannot open shared object file: No such file or directory
+Failed to open VDPAU backend libvdpau_i965.so: cannot open shared object file: No such file or directory
+[0000556b77736bf8] core playlist: end of playlist, exiting
+user@server:~/Downloads/pigeon_107$ 
+```
+
 ```sh
 user@server:~$ pkill vlc
 user@server:~$ 
