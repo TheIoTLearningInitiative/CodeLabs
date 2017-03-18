@@ -12,3 +12,8 @@ user@server:~$
 
 ## VLC Command Line
 
+```sh
+user@server:~$ cvlc 
+VLC media player 2.2.4 Weatherwax (revision 2.2.3-37-g888b7e89)
+[000055d0e7c69808] dummy interface: using the dummy interface module...
+```
