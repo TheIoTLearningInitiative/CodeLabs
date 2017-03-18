@@ -100,6 +100,7 @@
   * [Google Cloud Vision API](EkBalam/documentation/GoogleCloudVisionApi.md)
   * [Google Cloud Speech](EkBalam/documentation/GoogleCloudSpeech.md)
 * [Hochob](Hochob/documentation/Hochob.md)
+  * [HomeAssistant](Hochob/documentation/HomeAssistant.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
   * [WRI Workshop](Kaminaljuyu/documentation/WriWorkshop.md)
