@@ -18,7 +18,6 @@
   - Home Assistant
   - Lupe Robot
 
-
 ## Home Assistant
 
 - Features
