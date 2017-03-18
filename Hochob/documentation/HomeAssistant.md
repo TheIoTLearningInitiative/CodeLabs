@@ -37,7 +37,7 @@ switch:
 switch:
   platform: command_line
   switches:
-    luperobot:
+    main:
       command_on: "cvlc -f /home/xe1gyq/Videos/Pigeon.mp4 vlc://quit &"
       command_off: "sudo pkill vlc"
     edison:
@@ -84,7 +84,7 @@ homeassistant:
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: America/Mexico_City
   customize:
-   switch.luperobot:
+   switch.main:
     friendly_name: Lupe Robot Station
     icon: mdi:video
    switch.edison:
