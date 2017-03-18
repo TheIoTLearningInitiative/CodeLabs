@@ -26,4 +26,6 @@
   - Telegram
   - Conversation
   - Device Tracker
+  - Talk
+  - Photography
 
