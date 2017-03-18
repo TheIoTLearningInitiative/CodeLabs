@@ -33,6 +33,20 @@ switch:
       command_off: "sudo pkill vlc"
 ```
 
+# .homeassistant/configuration.yaml Switches
+
+```
+switch:
+  platform: command_line
+  switches:
+    luperobot:
+      command_on: "cvlc -f /home/xe1gyq/Videos/Pigeon.mp4 vlc://quit &"
+      command_off: "sudo pkill vlc"
+    edison:
+      command_on: "echo"
+      command_off: "echo"
+```
+
 # .homeassistant/configuration.yaml Customization
 
 ```sh
