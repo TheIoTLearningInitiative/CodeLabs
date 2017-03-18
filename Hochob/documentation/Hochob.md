@@ -4,9 +4,12 @@
 
 # Architecture
 
-## Station Lupe
-
 - Server
+- Tablet
+
+## Server
+
+- Hardware
   - NUC based
   - Linux based
 - Software
@@ -16,5 +19,8 @@
   - Lupe Robot
 
 
+## Home Assistant
 
+- Features
+  - 
 
