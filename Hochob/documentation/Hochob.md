@@ -17,6 +17,9 @@
   - VLC Media Player
   - Home Assistant
   - Lupe Robot
+- Features
+  - Talk
+  - Photography
 
 ## Home Assistant
 
@@ -26,6 +29,4 @@
   - Telegram
   - Conversation
   - Device Tracker
-  - Talk
-  - Photography
 
