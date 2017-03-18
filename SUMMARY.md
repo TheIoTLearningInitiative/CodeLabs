@@ -105,6 +105,7 @@
   * [Telegram](Hochob/documentation/Telegram.md)
   * [HomeAssistant](Hochob/documentation/HomeAssistant.md)
   * [Lupe Robot](Hochob/documentation/LupeRobot.md)
+  * [Photography](Hochob/documentation/Photography.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
   * [WRI Workshop](Kaminaljuyu/documentation/WriWorkshop.md)
