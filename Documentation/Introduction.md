@@ -17,7 +17,7 @@
 - __Chacmultun__ Optimization Through Device Drivers Layers
 - __Coba__ Your First Linux Kernel Module
 - __Ah Puch__ Recon Instruments
-- __Hochob__ Mario Robot
+- __Hochob__ Visitor Center
 
 ## Full List
 
@@ -32,7 +32,7 @@ Campeche
 * **Chicanna** Camara as a Service
 * **Edzna** Home Assistant
 * **Hormiguero** MQTT Alarm ! **Under Construction**
-* **Hochob** Mario Robot
+* **Hochob** Visitor Center
 * **Kanki** ESP8266 ! **Under Construction**
 * **Tabasqueno** NodeJS, Socket.io, Johnny Five ! **Under Construction**
 * **Xcalumkin** Python Cross Platform \(PC/Embedded\) **Under Construction**
