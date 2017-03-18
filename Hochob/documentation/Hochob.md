@@ -21,5 +21,5 @@
 ## Home Assistant
 
 - Features
-  - 
+  - Telegram
 
