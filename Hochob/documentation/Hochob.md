@@ -71,6 +71,7 @@ Sequence
 
 - https://home-assistant.io/components/switch.command_line/
 - https://www.youtube.com/watch?v=kaoLIE-LnRs
+- https://home-assistant.io/components/alexa/
 
 # Steps
 
