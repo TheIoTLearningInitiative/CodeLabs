@@ -17,20 +17,6 @@ user@server:~$ sudo apt-get install python3-pip
 user@server:~$ sudo pip3 install homeassistant
 ```
 
-# .homeassistant/configuration.yaml General
-
-```sh
-media_player:
-  - platform: plex
-
-switch:
-  platform: command_line
-  switches:
-    main:
-      command_on: "cvlc --fullscreen /home/xe1gyq/Videos/Pigeon.mp4 vlc://quit &"
-      command_off: "sudo pkill vlc"
-```
-
 # .homeassistant/configuration.yaml Switches
 
 ```
