@@ -21,5 +21,9 @@
 ## Home Assistant
 
 - Features
+  - Command Line
+    - VLC
   - Telegram
+  - Conversation
+  - Device Tracker
 

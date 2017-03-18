@@ -104,7 +104,7 @@
   * [VLC Media Player](Hochob/documentation/VlcMediaPlayer.md)
   * [HomeAssistant](Hochob/documentation/HomeAssistant.md)
   * [Lupe Robot](Hochob/documentation/LupeRobot.md)
-  * [Telegram](Hochob/documentation/telegram.md)
+  * [Telegram](Hochob/documentation/Telegram.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
   * [WRI Workshop](Kaminaljuyu/documentation/WriWorkshop.md)
