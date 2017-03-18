@@ -7,6 +7,7 @@
 - [Conversation](https://home-assistant.io/components/conversation/)
 - [Cast](https://home-assistant.io/components/media_player.cast/)
 - [Alexa](https://home-assistant.io/components/alexa/)
+- [Device Tracker](https://home-assistant.io/components/device_tracker/)
 
 # Installation
 
