@@ -6,6 +6,27 @@
 
 USB Camera HD Webcam
 
+```sh
+root@board:~# sudo apt-get install fswebcam
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following NEW packages will be installed:
+  fswebcam
+0 upgraded, 1 newly installed, 0 to remove and 127 not upgraded.
+Need to get 51.0 kB of archives.
+After this operation, 136 kB of additional disk space will be used.
+Get:1 http://archive-7.kali.org/kali kali-rolling/main amd64 fswebcam amd64 20140113-1+b1 [51.0 kB]
+Fetched 51.0 kB in 1s (41.5 kB/s) 
+Selecting previously unselected package fswebcam.
+(Reading database ... 322939 files and directories currently installed.)
+Preparing to unpack .../fswebcam_20140113-1+b1_amd64.deb ...
+Unpacking fswebcam (20140113-1+b1) ...
+Setting up fswebcam (20140113-1+b1) ...
+Processing triggers for man-db (2.7.6.1-2) ...
+root@board:~# 
+```
+
 # Kernel Integration
 
 ## Kernel Display Message
