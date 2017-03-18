@@ -371,7 +371,6 @@ root@edison:/etc/init.d# cd
 root@edison:~# 
 ```
 
-
 # Crontab
 
 ```sh
