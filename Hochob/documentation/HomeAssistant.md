@@ -32,3 +32,12 @@ switch:
       command_on: "cvlc --fullscreen /home/xe1gyq/Videos/Pigeon.mp4 vlc://quit &"
       command_off: "sudo pkill vlc"
 ```
+
+# Customization
+
+```sh
+  customize:
+   swith.main:
+    friendly_name: Lupe Robot Station
+    icon: mdi.video
+```
