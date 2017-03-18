@@ -31,6 +31,13 @@ user@server:~$
 ```
 
 ```sh
+user@server:~/Downloads/Backup$ pkill vlc
+user@server:~/Downloads/Backup$ 
+```
+
+### VLC Command Line Help
+
+```sh
 xe1gyq@kali:~/Downloads/pigeon_107$ cvlc -h
 VLC media player 2.2.4 Weatherwax (revision 2.2.3-37-g888b7e89)
 Usage: vlc [options] [stream] ...
