@@ -17,6 +17,7 @@
   - Plex
   - VLC Media Player
   - Home Assistant
+  - Python
 - Features
   - Talk
   - Photography
