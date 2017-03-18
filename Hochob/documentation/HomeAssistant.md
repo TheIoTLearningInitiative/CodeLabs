@@ -1,5 +1,7 @@
 # Home Assistant
 
+- [1](http://ratonland.org/tag/yaml/)
+
 # Installation
 
 ```sh
