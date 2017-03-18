@@ -185,7 +185,6 @@ Loook at the installed __UI Nodes__
 - Analysis
 - Advanced
 
-
 # node-red Configuration
 
 ```sh
