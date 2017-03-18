@@ -51,8 +51,8 @@ homeassistant:
   customize:
    switch.luperobot:
     friendly_name: Lupe Robot Station
-    icon: mdi.video
+    icon: mdi:video
    switch.edison:
     friendly_name: Edison Station
-    icon: mdi.video
+    icon: mdi:video
 ```
