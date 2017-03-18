@@ -9,4 +9,8 @@
 - Server
   - NUC based
   - Linux based
-- 
+- Software
+  - Plex
+  - VLC Media Player
+  - Home Assistant
+  - Lupe Robot
