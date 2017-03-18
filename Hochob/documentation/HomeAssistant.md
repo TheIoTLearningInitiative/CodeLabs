@@ -19,7 +19,7 @@ user@server:~$ sudo apt-get install python3-pip
 user@server:~$ sudo pip3 install homeassistant
 ```
 
-# .homeassistant/configuration.yaml
+# .homeassistant/configuration.yaml General
 
 ```sh
 media_player:
@@ -33,7 +33,7 @@ switch:
       command_off: "sudo pkill vlc"
 ```
 
-# Customization
+# .homeassistant/configuration.yaml Customization
 
 ```sh
 homeassistant:
