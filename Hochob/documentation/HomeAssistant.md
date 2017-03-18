@@ -19,12 +19,12 @@ user@server:~$ sudo pip3 install homeassistant
 
 # .homeassistant/configuration.yaml Switches
 
-```
+```sh
 switch:
   platform: command_line
   switches:
     main:
-      command_on: "cvlc -f /home/xe1gyq/Videos/Pigeon.mp4 vlc://quit &"
+      command_on: "cvlc --no-video-title-show --fullscreen /home/xe1gyq/Videos/Pigeon.mp4 vlc://quit &"
       command_off: "sudo pkill vlc"
     edison:
       command_on: "echo"
