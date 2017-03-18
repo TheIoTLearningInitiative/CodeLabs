@@ -6,4 +6,7 @@
 
 ## Station Lupe
 
-
+- Server
+  - NUC based
+  - Linux based
+- 
