@@ -1,7 +1,7 @@
 # VLC Media Player
 
 - [VLC Documentation](http://www.videolan.org/doc/)
-- []()
+- [VLC Wiki](https://wiki.videolan.org/Documentation:Documentation)
 
 ## VLC UI
 
