@@ -61,11 +61,11 @@ chat_id: 166426424
 automation:
   trigger:
     platform: state
-    entity_id: switch.edison
+    entity_id: switch.main
   action:
     service: notify.hochobbot
     data:
-      message: "Edison switch has changed"
+      message: "Lupe Robot Station has been activated..."
 ```
 
 # .homeassistant/configuration.yaml Customization
