@@ -67,6 +67,11 @@ Sequence
 8. Insert Heart
 8. Tablet	
 
+# Automation
+
+https://home-assistant.io/components/switch.command_line/
+
+# Steps
 
 ```sh
 Poky (Yocto Project Reference Distro) 1.6.1 edison ttyMFD2
