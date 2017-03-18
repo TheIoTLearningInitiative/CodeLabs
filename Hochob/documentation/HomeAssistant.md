@@ -20,6 +20,6 @@ switch:
   platform: command_line
   switches:
     main:
-      command_on: "cvlc -f /home/xe1gyq/Videos/Pigeon.mp4 vlc://quit &"
+      command_on: "cvlc --fullscreen /home/xe1gyq/Videos/Pigeon.mp4 vlc://quit &"
       command_off: "sudo pkill vlc"
 ```
