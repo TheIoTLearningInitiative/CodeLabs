@@ -31,8 +31,8 @@ user@server:~$
 ```
 
 ```sh
-user@server:~/Downloads/Backup$ pkill vlc
-user@server:~/Downloads/Backup$ 
+user@server:~$ pkill vlc
+user@server:~$ 
 ```
 
 ### VLC Command Line Help
