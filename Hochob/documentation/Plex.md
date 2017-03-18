@@ -26,4 +26,4 @@ user@server:~$
 
 # Activities
 
-- Change Update Library Options
+- Change Update Libraries Options
