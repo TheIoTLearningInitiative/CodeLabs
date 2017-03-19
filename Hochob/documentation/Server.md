@@ -5,7 +5,7 @@
 > Lubuntu is a fast, energy saving and lightweight variant of Ubuntu using LXDE. It is popular with PC and laptop users running on low-spec hardware. [Homepage](http://lubuntu.me/)
 
 ```sh
-hochob@server:~/Downloads$ /sbin/ifconfig
+hochob@server:~$ /sbin/ifconfig
 enp0s25: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
         ether f4:4d:30:61:f4:2a  txqueuelen 1000  (Ethernet)
         RX packets 0  bytes 0 (0.0 B)
@@ -32,5 +32,5 @@ wlp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         TX packets 52986  bytes 7347203 (7.3 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-hochob@server:~/Downloads$ 
+hochob@server:~$ 
 ```
