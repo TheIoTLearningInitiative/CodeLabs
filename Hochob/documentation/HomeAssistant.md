@@ -54,7 +54,30 @@ INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=turn_
 
 ```
 
+## Check Config
 
+```sh
+user@server:~$ hass --script check_config
+Testing configuration at /root/.homeassistant
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up sun
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up group
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up switch
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up conversation
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up updater
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up http
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up notify
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up automation
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up recorder
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up websocket_api
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up api
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up media_player
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up tts
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up config
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up history
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up frontend
+17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up logbook
+user@server:~$
+```
 
 # .homeassistant/configuration.yaml Switches
 
