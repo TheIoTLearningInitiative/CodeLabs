@@ -73,6 +73,8 @@ Sequence
 
 # Steps
 
+# Pair Intel Edison and Mobile Device
+
 ```sh
 Poky (Yocto Project Reference Distro) 1.6.1 edison ttyMFD2
 
@@ -123,7 +125,7 @@ Changing 40:78:6A:26:4A:C2 trust succeeded
 [bluetooth]# exit
 ```
 
-Start SPP pro and connect
+### Start SPP pro and connect
 
 ```
 root@edison:~# NewConnection(/org/bluez/hci0/dev_40_78_6A_26_4A_C2, 10)
