@@ -32,7 +32,7 @@ hochob@server:~/Downloads$
 
 Give it a friendly name to help identify it in Plex apps and on your network: Hochob Server
 
-# Activities
+# Add your media
 
 - Add Library
   - Name: Videos
