@@ -7,8 +7,6 @@
 - Pick a username: hochob
 - Password: None
 
-
-
 # Gmail
 
 Name: Hochob Vc
