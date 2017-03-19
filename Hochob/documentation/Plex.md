@@ -46,4 +46,4 @@ Give it a friendly name to help identify it in Plex apps and on your network: Ho
     
 ## Get apps and stream to any device
 
-- Install Android Application
+- Install Android Application in a mobile device
