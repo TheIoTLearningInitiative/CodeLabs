@@ -42,4 +42,4 @@ Give it a friendly name to help identify it in Plex apps and on your network: Ho
     
 ## Tablet
 
-- Install 
+- Install Android Application
