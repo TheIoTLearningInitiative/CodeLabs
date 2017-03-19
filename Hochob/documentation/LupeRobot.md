@@ -120,19 +120,14 @@ Changing discoverable on succeeded
 [CHG] Device 40:78:6A:26:4A:C2 Trusted: yes
 Changing 40:78:6A:26:4A:C2 trust succeeded
 [CHG] Device 40:78:6A:26:4A:C2 RSSI: -55
-[bluetooth]#
-[CHG] Device 40:78:6A:26:4A:C2 Paired: yes
-Pairing successful
-[CHG] Device 40:78:6A:26:4A:C2 Connected: no
-[bluetooth]# discoverable on
-Changing discoverable on succeeded
-[CHG] Controller 98:4F:EE:03:78:89 Discoverable: yes
-[bluetooth]# trust 40:78:6A:26:4A:C2
-[CHG] Device 40:78:6A:26:4A:C2 Trusted: yes
-Changing 40:78:6A:26:4A:C2 trust succeeded
-[CHG] Device 40:78:6A:26:4A:C2 RSSI: -55
-[CHG] Device 40:78:6A:26:4A:C2 Connected: yes
-[bluetooth]# NewConnection(/org/bluez/hci0/dev_40_78_6A_26_4A_C2, 10)
+[bluetooth]# exit
+```
+
+Start SPP pro and connect
+
+```
+root@edison:~# NewConnection(/org/bluez/hci0/dev_40_78_6A_26_4A_C2, 10)
+root@edison:~# 
 ```
 
 ```sh
