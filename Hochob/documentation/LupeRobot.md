@@ -74,7 +74,15 @@ Sequence
 # Configuration
 
 ```sh
-`
+root@edison:~# opkg update
+root@edison:~# opkg install git
+```
+
+
+```sh
+root@edison:~/CodeLabs/Hochob/LupeRobot# bluetoothctl 
+root@edison:~/CodeLabs/Hochob/LupeRobot# cd /lib/systemd/system
+root@edison:/lib/systemd/system# nano luperobot.service                                                                                            
 ```
 
 # One Time Configuration
