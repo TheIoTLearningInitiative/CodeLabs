@@ -102,8 +102,8 @@
 * [Hochob](Hochob/documentation/Hochob.md)
   * Hardware
     * [Server](Hochob/documentation/Server.md)
-  * [Plex](Hochob/documentation/Plex.md)
-  * [VLC Media Player](Hochob/documentation/VlcMediaPlayer.md)
+      * [VLC Media Player](Hochob/documentation/VlcMediaPlayer.md)
+      * [Plex](Hochob/documentation/Plex.md)
   * [Telegram](Hochob/documentation/Telegram.md)
   * [HomeAssistant](Hochob/documentation/HomeAssistant.md)
   * [Lupe Robot](Hochob/documentation/LupeRobot.md)
