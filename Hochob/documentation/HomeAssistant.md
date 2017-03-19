@@ -99,6 +99,10 @@ user@server:~$
 # .homeassistant/configuration.yaml
 
 ```sh
+hochob@server:~$ nano .homeassistant/configuration.yaml
+```
+
+```sh
 homeassistant:
   # Name of the location where Home Assistant is running
   name: Home
