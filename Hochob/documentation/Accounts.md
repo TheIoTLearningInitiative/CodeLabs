@@ -1,5 +1,11 @@
 # Accounts
 
+# Lubuntu
+
+- Your name: Hochob Vc
+- Your computer's name: server
+- Pick a username: hochob
+
 # Gmail
 
-Name: Hochob VC
+Name: Hochob Vc
