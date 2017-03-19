@@ -23,15 +23,12 @@ root@server:/lib/systemd/system# nano /lib/systemd/system/home-assistant.service
 ```sh
 [Unit]
 Description=Home Assistant
-Requires=docker.service
-After=docker.service
+After=network.target
 
 [Service]
-Restart=always
-RestartSec=3
-ExecStart=/usr/bin/docker run --name="home-assistant-%i" -v /home/%i/.homeassistant/:/config -v /etc/localtime:/etc/localtime:ro --net=host homeassistant/home-assistant
-ExecStop=/usr/bin/docker stop -t 2 home-assistant-%i
-ExecStopPost=/usr/bin/docker rm -f home-assistant-%i
+Type=simple
+User=%i
+ExecStart=/usr/bin/hass
 
 [Install]
 WantedBy=multi-user.target
