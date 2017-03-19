@@ -71,9 +71,9 @@ Sequence
 - https://www.youtube.com/watch?v=kaoLIE-LnRs
 - https://home-assistant.io/components/alexa/
 
-# Steps
+# One Time Configuration
 
-# Pair Intel Edison and Mobile Device
+## Pair Intel Edison and Mobile Device
 
 ```sh
 Poky (Yocto Project Reference Distro) 1.6.1 edison ttyMFD2
@@ -131,6 +131,8 @@ Changing 40:78:6A:26:4A:C2 trust succeeded
 root@edison:~# NewConnection(/org/bluez/hci0/dev_40_78_6A_26_4A_C2, 10)
 root@edison:~# 
 ```
+
+# Demo Configuration
 
 ## Bluetooth Configuration
 
