@@ -112,7 +112,7 @@ hochob@server:~/Videos$
 ### VLC Command Line Help
 
 ```sh
-xe1gyq@kali:~/Downloads/pigeon_107$ cvlc -h
+hochob@server:~$ cvlc -h
 VLC media player 2.2.4 Weatherwax (revision 2.2.3-37-g888b7e89)
 Usage: vlc [options] [stream] ...
 You can specify multiple streams on the commandline.
@@ -466,6 +466,5 @@ URL syntax:
 Note: add --advanced to your command line to see advanced options.
 
 To get exhaustive help, use '-H'.
-xe1gyq@kali:~/Downloads/pigeon_107$ 
-
+hochob@server:~$ 
 ```
