@@ -36,5 +36,4 @@ Give it a friendly name to help identify it in Plex apps and on your network: Ho
   - Name: Pictures
   - Path: /home/hochob/Pictures
 
-
 - Change Update Libraries Options
