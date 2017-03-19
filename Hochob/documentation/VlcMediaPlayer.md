@@ -4,6 +4,45 @@
 - [VLC Wiki](https://wiki.videolan.org/Documentation:Documentation)
 - [VLC Media Server](http://www.makeuseof.com/tag/create-linux-vlc-streaming-media-server-home/)
 
+# Install
+
+```sh
+hochob@server:~$ sudo apt-get install vlc
+[sudo] password for hochob: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  fonts-freefont-ttf libbasicusageenvironment1 libdvbpsi10 libebml4v5 libfreerdp-cache1.1 libfreerdp-client1.1 libfreerdp-codec1.1 libfreerdp-common1.1.0
+  libfreerdp-core1.1 libfreerdp-crypto1.1 libfreerdp-gdi1.1 libfreerdp-locale1.1 libfreerdp-primitives1.1 libfreerdp-utils1.1 libgl1-mesa-glx libglapi-mesa
+  libgles1-mesa libgles2-mesa libgroupsock8 libiso9660-8 liblivemedia52 liblua5.2-0 libmatroska6v5 libmpcdec6 libproxy-tools libqt5x11extras5
+  libresid-builder0c2a libsdl-image1.2 libsidplay2v5 libssh2-1 libupnp6 libusageenvironment3 libva-drm1 libva-x11-1 libvcdinfo0 libvlc5 libvlccore8
+  libvncclient1 libwinpr-crt0.1 libwinpr-dsparse0.1 libwinpr-environment0.1 libwinpr-file0.1 libwinpr-handle0.1 libwinpr-heap0.1 libwinpr-input0.1
+  libwinpr-interlocked0.1 libwinpr-library0.1 libwinpr-path0.1 libwinpr-pool0.1 libwinpr-registry0.1 libwinpr-rpc0.1 libwinpr-sspi0.1 libwinpr-synch0.1
+  libwinpr-sysinfo0.1 libwinpr-thread0.1 libwinpr-utils0.1 libxcb-composite0 libxcb-xv0 vlc-data vlc-nox vlc-plugin-notify vlc-plugin-samba
+Suggested packages:
+  freerdp-x11 libdvdcss2
+The following NEW packages will be installed:
+  fonts-freefont-ttf libbasicusageenvironment1 libdvbpsi10 libebml4v5 libfreerdp-cache1.1 libfreerdp-client1.1 libfreerdp-codec1.1 libfreerdp-common1.1.0
+  libfreerdp-core1.1 libfreerdp-crypto1.1 libfreerdp-gdi1.1 libfreerdp-locale1.1 libfreerdp-primitives1.1 libfreerdp-utils1.1 libgles1-mesa libgles2-mesa
+  libgroupsock8 libiso9660-8 liblivemedia52 liblua5.2-0 libmatroska6v5 libmpcdec6 libproxy-tools libqt5x11extras5 libresid-builder0c2a libsdl-image1.2
+  libsidplay2v5 libssh2-1 libupnp6 libusageenvironment3 libva-drm1 libva-x11-1 libvcdinfo0 libvlc5 libvlccore8 libvncclient1 libwinpr-crt0.1
+  libwinpr-dsparse0.1 libwinpr-environment0.1 libwinpr-file0.1 libwinpr-handle0.1 libwinpr-heap0.1 libwinpr-input0.1 libwinpr-interlocked0.1
+  libwinpr-library0.1 libwinpr-path0.1 libwinpr-pool0.1 libwinpr-registry0.1 libwinpr-rpc0.1 libwinpr-sspi0.1 libwinpr-synch0.1 libwinpr-sysinfo0.1
+  libwinpr-thread0.1 libwinpr-utils0.1 libxcb-composite0 libxcb-xv0 vlc vlc-data vlc-nox vlc-plugin-notify vlc-plugin-samba
+The following packages will be upgraded:
+  libgl1-mesa-glx libglapi-mesa
+2 upgraded, 61 newly installed, 0 to remove and 190 not upgraded.
+Need to get 22.4 MB of archives.
+After this operation, 97.8 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+...
+Setting up vlc (2.2.4-4ubuntu0.16.10.1) ...
+Processing triggers for libc-bin (2.24-3ubuntu1) ...
+Processing triggers for vlc-nox (2.2.4-4ubuntu0.16.10.1) ...
+hochob@server:~$ 
+```
+
 ## VLC UI
 
 ```sh
