@@ -30,7 +30,7 @@ def setup(hass, config):
 ```
 
 
-## 
+## Check Config
 
 ```sh
 user@server:~$ hass --script check_config
