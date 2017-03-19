@@ -82,7 +82,7 @@ root@edison:~# opkg install git
 ```sh
 root@edison:~/CodeLabs/Hochob/LupeRobot# bluetoothctl 
 root@edison:~/CodeLabs/Hochob/LupeRobot# cd /lib/systemd/system
-root@edison:/lib/systemd/system# nano luperobot.service                                                                                            
+root@edison:/lib/systemd/system# vi luperobot.service  
 ```
 
 # One Time Configuration
