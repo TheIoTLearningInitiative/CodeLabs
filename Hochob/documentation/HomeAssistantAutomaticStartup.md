@@ -62,7 +62,7 @@ hochob@server:/lib/systemd/system$
 ```
 
 ```sh
-root@server:/lib/systemd/system# nano /lib/systemd/system/home-assistant.service
+hochob@server:/lib/systemd/system$ sudo nano home-assistant.service
 ```
 
 ```sh
