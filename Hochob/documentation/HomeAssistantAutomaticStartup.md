@@ -61,11 +61,21 @@ dbus.service                            machine.slice                      rc-lo
 hochob@server:/lib/systemd/system$ 
 ```
 
+## Paths
+
 ```sh
 hochob@server:/lib/systemd/system$ whereis hass
 hass: /usr/local/bin/hass
 hochob@server:/lib/systemd/system$ 
 ```
+
+```sh
+hochob@server:/lib/systemd/system$ ls /home/hochob/.homeassistant/
+configuration.yaml  configuration.yaml.original  deps  groups.yaml  home-assistant.log  home-assistant_v2.db  tts
+hochob@server:/lib/systemd/system$ 
+```
+
+## File
 
 ```sh
 hochob@server:/lib/systemd/system$ sudo nano home-assistant.service
@@ -79,44 +89,35 @@ After=network.target
 [Service]
 Type=simple
 User=%i
-ExecStart=/usr/local/bin/hass
+ExecStart=/usr/local/bin/hass -c /home/hochob/.homeassistant/
 
 [Install]
 WantedBy=multi-user.target
 ```
 
 ```sh
-root@server:/lib/systemd/system# sudo ln -s /lib/systemd/system/home-assistant.service /etc/systemd/system/home-assistant.service
-root@server:/lib/systemd/system# 
-```
-
-```sh
-root@server:/lib/systemd/system# sudo systemctl --system daemon-reload
-root@server:/lib/systemd/system# sudo systemctl enable home-assistant.service
+hochob@server:/lib/systemd/system$ sudo systemctl --system daemon-reload
+hochob@server:/lib/systemd/system$ sudo systemctl enable home-assistant.service
 Created symlink /etc/systemd/system/multi-user.target.wants/home-assistant.service → /lib/systemd/system/home-assistant.service.
-```
-
-```sh
-root@server:/lib/systemd/system# sudo systemctl start home-assistant.service
-root@server:/lib/systemd/system# sudo systemctl status home-assistant.service
+hochob@server:/lib/systemd/system$ sudo systemctl start home-assistant.service
+hochob@server:/lib/systemd/system$ sudo systemctl status home-assistant.service
 ● home-assistant.service - Home Assistant
    Loaded: loaded (/lib/systemd/system/home-assistant.service; enabled; vendor preset: enabled)
-   Active: active (running) since dom 2017-03-19 11:11:47 CST; 3s ago
- Main PID: 13429 (hass)
-    Tasks: 11 (limit: 4915)
+   Active: active (running) since dom 2017-03-19 12:45:27 CST; 6s ago
+ Main PID: 11270 (hass)
+    Tasks: 13 (limit: 4915)
    CGroup: /system.slice/home-assistant.service
-           ├─13429 /usr/bin/python3 /usr/local/bin/hass
-           └─13441 /usr/bin/python3 -m pip install --quiet aiohttp_cors==0.5.0 --upgrade --target /root/.homeassistant/deps
+           └─11270 /usr/bin/python3 /usr/local/bin/hass -c /home/hochob/.homeassistant/
 
-mar 19 11:11:49 server hass[13429]: INFO:homeassistant.loader:Loaded tts from homeassistant.components.tts
-mar 19 11:11:49 server hass[13429]: INFO:homeassistant.loader:Loaded tts.google from homeassistant.components.tts.google
-mar 19 11:11:49 server hass[13429]: INFO:homeassistant.loader:Loaded updater from homeassistant.components.updater
-mar 19 11:11:49 server hass[13429]: INFO:homeassistant.loader:Loaded history from homeassistant.components.history
-mar 19 11:11:49 server hass[13429]: INFO:homeassistant.loader:Loaded conversation from homeassistant.components.conversation
-mar 19 11:11:49 server hass[13429]: INFO:homeassistant.loader:Loaded discovery from homeassistant.components.discovery
-mar 19 11:11:49 server hass[13429]: INFO:homeassistant.loader:Loaded config from homeassistant.components.config
-mar 19 11:11:49 server hass[13429]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=set_visibility, domain=group>
-mar 19 11:11:49 server hass[13429]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=reload, domain=group>
-mar 19 11:11:49 server hass[13429]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=group>
-root@server:/lib/systemd/system# 
+mar 19 12:45:28 server hass[11270]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=logbook>
+mar 19 12:45:29 server hass[11270]: INFO:homeassistant.components.notify.telegram:Telegram bot is 'HochobBot'
+mar 19 12:45:29 server hass[11270]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=hochobbot, domain=notify>
+mar 19 12:45:29 server hass[11270]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=notify>
+mar 19 12:45:29 server hass[11270]: INFO:homeassistant.bootstrap:Home Assistant initialized in 1.7s
+mar 19 12:45:29 server hass[11270]: INFO:homeassistant.core:Starting Home Assistant core loop
+mar 19 12:45:29 server hass[11270]: INFO:homeassistant.core:Starting Home Assistant
+mar 19 12:45:29 server hass[11270]: INFO:homeassistant.core:Bus:Handling <Event homeassistant_start[L]>
+mar 19 12:45:29 server hass[11270]: INFO:homeassistant.core:Timer:starting
+mar 19 12:45:30 server hass[11270]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=<state sun.sun=above_horizon; azimuth=0, friendly_name=Sun, next_setting=2017-03-20T01:04:33+00:00, next_rising=2017-03-20T12:57:
+lines 1-18/18 (END)
 ```
