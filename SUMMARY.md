@@ -107,7 +107,7 @@
       * [Plex](Hochob/documentation/Plex.md)
       * [Telegram](Hochob/documentation/Telegram.md)
       * [HomeAssistant](Hochob/documentation/HomeAssistant.md)
-  * [Lupe Robot](Hochob/documentation/LupeRobot.md)
+    * [Lupe Robot](Hochob/documentation/LupeRobot.md)
   * [Photography](Hochob/documentation/Photography.md)
   * Kodi
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
