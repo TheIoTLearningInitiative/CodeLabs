@@ -4,7 +4,7 @@
 - [VLC Wiki](https://wiki.videolan.org/Documentation:Documentation)
 - [VLC Media Server](http://www.makeuseof.com/tag/create-linux-vlc-streaming-media-server-home/)
 
-# Install
+## Install
 
 ```sh
 hochob@server:~$ sudo apt-get install vlc
@@ -41,6 +41,25 @@ Setting up vlc (2.2.4-4ubuntu0.16.10.1) ...
 Processing triggers for libc-bin (2.24-3ubuntu1) ...
 Processing triggers for vlc-nox (2.2.4-4ubuntu0.16.10.1) ...
 hochob@server:~$ 
+```
+
+## Video Sample
+
+```sh
+hochob@server:~$ cd Videos/
+hochob@server:~/Videos$ wget http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+--2017-03-19 10:22:49--  http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+Resolving commondatastorage.googleapis.com (commondatastorage.googleapis.com)... 172.217.6.48
+Connecting to commondatastorage.googleapis.com (commondatastorage.googleapis.com)|172.217.6.48|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 158008374 (151M) [video/mp4]
+Saving to: ‘BigBuckBunny.mp4’
+
+BigBuckBunny.mp4                        100%[==============================================================================>] 150.69M  10.4MB/s    in 16s     
+
+2017-03-19 10:23:05 (9.29 MB/s) - ‘BigBuckBunny.mp4’ saved [158008374/158008374]
+
+hochob@server:~/Videos$ 
 ```
 
 ## VLC UI
