@@ -1,6 +1,6 @@
 # Plex
 
-Media Server
+> Plex allows you to aggregate all your personal media and access it anywhere you go. Enjoy your own media on all your devices with the Plex Media Server. [Homepage](https://www.plex.tv/)
 
 ```sh
 user@server:~$ sudo dpkg -i plexmediaserver_1.4.4.3495-edef59192_amd64.deb 
