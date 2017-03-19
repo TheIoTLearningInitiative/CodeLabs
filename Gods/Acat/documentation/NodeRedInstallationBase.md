@@ -94,6 +94,8 @@ Use --update-env to update environment variables
 ### node-red Autostart, Working
 
 
+http://askubuntu.com/questions/676007/how-do-i-make-my-systemd-service-run-via-specific-user-and-start-on-boot
+
 ```sh
 
 ```
