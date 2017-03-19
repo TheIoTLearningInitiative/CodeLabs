@@ -71,6 +71,12 @@ Sequence
 - https://www.youtube.com/watch?v=kaoLIE-LnRs
 - https://home-assistant.io/components/alexa/
 
+# Configuration
+
+```sh
+`
+```
+
 # One Time Configuration
 
 ## Pair Intel Edison and Mobile Device
