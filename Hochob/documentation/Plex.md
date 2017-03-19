@@ -24,6 +24,14 @@ Processing triggers for mime-support (3.60ubuntu1) ...
 hochob@server:~/Downloads$ 
 ```
 
+## Identification
+
+Give it a friendly name to help identify it in Plex apps and on your network: Hochob Server
+
 # Activities
+
+- Add Library
+  - Name: Videos
+  - Path: /home/hochob/Videos
 
 - Change Update Libraries Options
