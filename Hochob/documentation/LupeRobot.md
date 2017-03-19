@@ -71,19 +71,6 @@ Sequence
 - https://www.youtube.com/watch?v=kaoLIE-LnRs
 - https://home-assistant.io/components/alexa/
 
-# Configuration
-
-```sh
-root@edison:~# opkg update
-root@edison:~# opkg install git
-```
-
-
-```sh
-root@edison:~/CodeLabs/Hochob/LupeRobot# bluetoothctl 
-root@edison:~/CodeLabs/Hochob/LupeRobot# cd /lib/systemd/system
-root@edison:/lib/systemd/system# vi luperobot.service  
-```
 
 # One Time Configuration
 
@@ -147,6 +134,35 @@ root@edison:~#
 ```
 
 # Demo Configuration
+
+## Configuration
+
+```sh
+root@edison:~# opkg update
+root@edison:~# opkg install git
+```
+
+
+```sh
+root@edison:~/CodeLabs/Hochob/LupeRobot# bluetoothctl 
+root@edison:~/CodeLabs/Hochob/LupeRobot# cd /lib/systemd/system
+root@edison:/lib/systemd/system# vi luperobot.service  
+```
+
+```sh
+[Unit]
+Description=Lupe Robot 
+After=sys-subsystem-net-devices-%i.device
+ 
+[Service]
+ExecStart=/bin/bash /home/root/CodeLabs/Hochob/LupeRobot/bluetoothlt.sh  
+Restart=always
+RestartSec=10 
+             
+[Install]
+Alias=LupeRobot 
+WantedBy=multi-user.target
+```
 
 ## Bluetooth Configuration
 
