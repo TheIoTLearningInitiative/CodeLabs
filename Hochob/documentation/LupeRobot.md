@@ -164,6 +164,13 @@ Alias=LupeRobot
 WantedBy=multi-user.target
 ```
 
+```sh
+root@edison:/lib/systemd/system# systemctl daemon-reload
+root@edison:/lib/systemd/system# systemctl --system enable luperobot
+root@edison:/lib/systemd/system# systemctl start luperobot
+```
+
+
 ## Bluetooth Configuration
 
 ```sh
