@@ -125,11 +125,64 @@ Changing 40:78:6A:26:4A:C2 trust succeeded
 [bluetooth]# exit
 ```
 
-### Start SPP pro and connect
+## Start SPP pro and connect
 
 ```
 root@edison:~# NewConnection(/org/bluez/hci0/dev_40_78_6A_26_4A_C2, 10)
 root@edison:~# 
+```
+
+## Bluetooth Configuration
+
+```sh
+root@edison:~# ./btup.sh 
+[NEW] Controller 98:4F:EE:03:78:89 edison [default]
+[NEW] Device 40:78:6A:26:4A:C2 XT1008
+[NEW] Device F8:CF:C5:D4:CB:BC Nexus 6
+[NEW] Device 00:16:D4:FA:F6:20 Project Tango Tablet Developmen
+[bluetooth]# discoverable on
+[bluetooth]# quit
+[DEL] Controller 98:4F:EE:03:78:89 edison [default]
+[NEW] Controller 98:4F:EE:03:78:89 edison [default]
+[NEW] Device 40:78:6A:26:4A:C2 XT1008
+[NEW] Device F8:CF:C5:D4:CB:BC Nexus 6
+[NEW] Device 00:16:D4:FA:F6:20 Project Tango Tablet Developmen
+[bluetooth]# connect 40:78:6A:26:4A:C2
+Attempting to connect to 40:78:6A:26:4A:C2
+[bluetooth]# quit
+[DEL] Controller 98:4F:EE:03:78:89 edison [default]
+root@edison:~# removing pipe file
+
+making pipe
+
+NewConnection(/org/bluez/hci0/dev_F8_CF_C5_D4_CB_BC, 10)
+waiting to open pipe
+
+
+root@edison:~# 
+```
+
+```
+root@edison:~# ./MotorsAndServos 
+1
+enter recv loop
+
+resetAll
+servosStop
+moveStop
+Asking in 7... 
+Asking in 6... 
+Asking in 5... 
+Asking in 4... 
+Asking in 3... 
+Asking in 2... 
+Asking in 1... 
+Go!
+resetAll
+servosStop
+moveStop
+Heart connected 
+received: 00
 ```
 
 ```sh
