@@ -29,7 +29,7 @@ hochob@server:~$ sudo pip3 install homeassistant
 # Execution
 
 ```sh
-user@server:~$ hass --open-ui
+hochob@server:~$ hass --open-ui
 Unable to find configuration. Creating default one in /home/xe1gyq/.homeassistant
 Config directory: /home/xe1gyq/.homeassistant
 INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=turn_off, domain=homeassistant>
