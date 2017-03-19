@@ -40,3 +40,6 @@ Give it a friendly name to help identify it in Plex apps and on your network: Ho
     - Update my library automatically 
     - Update my library periodically
     
+## Tablet
+
+- Install 
