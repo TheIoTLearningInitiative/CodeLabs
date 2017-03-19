@@ -1,4 +1,4 @@
-# Home Assistant: Automatic Startup
+# Home Assistant: Automatic Startup: systemd
 
 ```sh
 hochob@server:~$ ps -p 1 -o comm=
@@ -120,4 +120,22 @@ mar 19 12:45:29 server hass[11270]: INFO:homeassistant.core:Bus:Handling <Event 
 mar 19 12:45:29 server hass[11270]: INFO:homeassistant.core:Timer:starting
 mar 19 12:45:30 server hass[11270]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=<state sun.sun=above_horizon; azimuth=0, friendly_name=Sun, next_setting=2017-03-20T01:04:33+00:00, next_rising=2017-03-20T12:57:
 lines 1-18/18 (END)
+```
+
+# Home Assistant: Automatic Startup: init.d
+
+```sh
+hochob@server:~$ ls /etc/init.d/
+acpid       apport            cron         hwclock.sh         kmod             plymouth      resolvconf  ufw
+alsa-utils  avahi-daemon      cups         irqbalance         lightdm          plymouth-log  rsync       uuidd
+anacron     bluetooth         dbus         kerneloops         networking       pppd-dns      rsyslog     whoopsie
+apparmor    console-setup.sh  grub-common  keyboard-setup.sh  network-manager  procps        udev        x11-common
+hochob@server:~$ sudo /etc/init.d/hass-daemon
+sudo: /etc/init.d/hass-daemon: command not found
+hochob@server:~$ sudo nano /etc/init.d/hass-daemon
+hochob@server:~$ sudo chmod +x /etc/init.d/hass-daemon
+hochob@server:~$ sudo update-rc.d hass-daemon defaults
+hochob@server:~$ sudo service hass-daemon install
+Installing Home Assistant Daemon (hass-daemon)
+hochob@server:~$ 
 ```
