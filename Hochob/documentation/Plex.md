@@ -37,4 +37,5 @@ Give it a friendly name to help identify it in Plex apps and on your network: Ho
   - Path: /home/hochob/Pictures
 - Settings
   - Library
-    - 
+    - Update my library automatically 
+    - Update my library periodically
