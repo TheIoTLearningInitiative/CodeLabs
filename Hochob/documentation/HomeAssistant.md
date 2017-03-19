@@ -63,6 +63,14 @@ INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=turn_
 
 ```
 
+```sh
+hochob@server:~$ cd .homeassistant/
+hochob@server:~/.homeassistant$ ls
+configuration.yaml  deps  groups.yaml  home-assistant.log  home-assistant_v2.db  tts
+hochob@server:~/.homeassistant$ cp configuration.yaml configuration.yaml.original
+hochob@server:~/.homeassistant$ 
+```
+
 ## Check Config
 
 ```sh
