@@ -23,3 +23,9 @@ root@server:/lib/systemd/system# nano /lib/systemd/system/home-assistant.service
 ```sh
 
 ```
+
+
+```sh
+root@server:/lib/systemd/system# sudo ln -s /lib/systemd/system/home-assistant.service /etc/systemd/system/home-assistant.service
+root@server:/lib/systemd/system# 
+```
