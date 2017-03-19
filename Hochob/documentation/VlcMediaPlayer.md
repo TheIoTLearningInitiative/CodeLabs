@@ -81,41 +81,32 @@ VLC media player 2.2.4 Weatherwax (revision 2.2.3-37-g888b7e89)
 ```
 
 ```sh
-user@server:~$ cvlc --no-video-title-show --fullscreen Pigeon.mp4 
+hochob@server:~/Videos$ cvlc --no-video-title-show --fullscreen BigBuckBunny.mp4 vlc://quit
 VLC media player 2.2.4 Weatherwax (revision 2.2.3-37-g888b7e89)
-[0000558ca75bd078] dummy interface: using the dummy interface module...
+[000056434e039788] dummy interface: using the dummy interface module...
 Failed to open VDPAU backend libvdpau_i965.so: cannot open shared object file: No such file or directory
 Failed to open VDPAU backend libvdpau_i965.so: cannot open shared object file: No such file or directory
-[00007f08bc001d78] xcb_window window error: X server failure
+[00007f7f30001cd8] xcb_window window error: X server failure
 ^C
-user@server:~$ 
-```
-
-```sh
-user@server:~$ cvlc Pigeon.mp4 vlc://quit
-VLC media player 2.2.4 Weatherwax (revision 2.2.3-37-g888b7e89)
-[000055ac8656c5a8] dummy interface: using the dummy interface module...
-Failed to open VDPAU backend libvdpau_i965.so: cannot open shared object file: No such file or directory
-Failed to open VDPAU backend libvdpau_i965.so: cannot open shared object file: No such file or directory
-[00007fc190c0f568] idummy demux: command `quit'
-user@server:~$ 
+hochob@server:~/Videos$ 
 ```
 
 ### VLC Command Line Quit Ways
 
 ```sh
-user@server:~/Downloads/pigeon_107$ cvlc --play-and-exit Pigeon.mp4 
+hochob@server:~/Videos$ cvlc --no-video-title-show --fullscreen --play-and-exit BigBuckBunny.mp4
 VLC media player 2.2.4 Weatherwax (revision 2.2.3-37-g888b7e89)
-[0000556b77830fd8] dummy interface: using the dummy interface module...
+[000055a996daa8b8] dummy interface: using the dummy interface module...
 Failed to open VDPAU backend libvdpau_i965.so: cannot open shared object file: No such file or directory
 Failed to open VDPAU backend libvdpau_i965.so: cannot open shared object file: No such file or directory
-[0000556b77736bf8] core playlist: end of playlist, exiting
-user@server:~/Downloads/pigeon_107$ 
+[00007f23dc001cd8] xcb_window window error: X server failure
+^C
+hochob@server:~/Videos$ 
 ```
 
 ```sh
-user@server:~$ pkill vlc
-user@server:~$ 
+hochob@server:~/Videos$ pkill vlc
+hochob@server:~/Videos$ 
 ```
 
 ### VLC Command Line Help
