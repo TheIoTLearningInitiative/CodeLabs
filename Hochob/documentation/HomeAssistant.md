@@ -30,8 +30,8 @@ hochob@server:~$ sudo pip3 install homeassistant
 
 ```sh
 hochob@server:~$ hass --open-ui
-Unable to find configuration. Creating default one in /home/xe1gyq/.homeassistant
-Config directory: /home/xe1gyq/.homeassistant
+Unable to find configuration. Creating default one in /home/hochob/.homeassistant
+Config directory: /home/hochob/.homeassistant
 INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=turn_off, domain=homeassistant>
 ...
 
@@ -179,7 +179,7 @@ switch:
   platform: command_line
   switches:
     main:
-      command_on: "cvlc --no-video-title-show --fullscreen /home/xe1gyq/Videos/Pigeon.mp4 vlc://quit &"
+      command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/Videos/BigBuckBunny.mp4 vlc://quit &"
       command_off: "sudo pkill vlc"
     help:
       command_on: "echo"
@@ -246,6 +246,4 @@ group:
  demos:
   name: Help
    - switch.help
-
-
 ```
