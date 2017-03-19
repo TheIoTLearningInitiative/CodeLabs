@@ -1,6 +1,6 @@
 # Accounts
 
-# Lubuntu
+# Server
 
 - Your name: Hochob Vc
 - Your computer's name: server
