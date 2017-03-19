@@ -19,6 +19,10 @@ hochob@server:~$ sudo apt-get install python3-pip
 hochob@server:~$ sudo pip3 install homeassistant
 ```
 
+```sh
+hochob@server:~$ sudo pip3 install --upgrade pip
+```
+
 # Execution
 
 ```sh
