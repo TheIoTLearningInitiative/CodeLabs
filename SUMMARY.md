@@ -100,6 +100,8 @@
   * [Google Cloud Vision API](EkBalam/documentation/GoogleCloudVisionApi.md)
   * [Google Cloud Speech](EkBalam/documentation/GoogleCloudSpeech.md)
 * [Hochob](Hochob/documentation/Hochob.md)
+  * Hardware
+    * [Server](Hochob/documentation/Server.md)
   * [Plex](Hochob/documentation/Plex.md)
   * [VLC Media Player](Hochob/documentation/VlcMediaPlayer.md)
   * [Telegram](Hochob/documentation/Telegram.md)
