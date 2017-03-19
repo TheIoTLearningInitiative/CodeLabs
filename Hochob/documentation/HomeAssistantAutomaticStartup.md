@@ -62,6 +62,12 @@ hochob@server:/lib/systemd/system$
 ```
 
 ```sh
+hochob@server:/lib/systemd/system$ whereis hass
+hass: /usr/local/bin/hass
+hochob@server:/lib/systemd/system$ 
+```
+
+```sh
 hochob@server:/lib/systemd/system$ sudo nano home-assistant.service
 ```
 
@@ -73,7 +79,7 @@ After=network.target
 [Service]
 Type=simple
 User=%i
-ExecStart=/usr/bin/hass
+ExecStart=/usr/local/bin/hass
 
 [Install]
 WantedBy=multi-user.target
