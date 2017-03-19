@@ -107,6 +107,7 @@
       * [Plex](Hochob/documentation/Plex.md)
       * [Telegram](Hochob/documentation/Telegram.md)
       * [HomeAssistant](Hochob/documentation/HomeAssistant.md)
+        * [Automatic Startup](Hochob/documentation/HomeAssistantAutomaticStartup.md)
     * [Lupe Robot](Hochob/documentation/LupeRobot.md)
   * [Photography](Hochob/documentation/Photography.md)
   * Kodi
