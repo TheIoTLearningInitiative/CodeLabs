@@ -24,7 +24,7 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet 192.168.10.133  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet 192.168.10.138  netmask 255.255.255.0  broadcast 192.168.10.255
         inet6 fe80::a2a0:f0e3:8daf:9684  prefixlen 64  scopeid 0x20<link>
         ether 94:65:9c:a1:2c:6e  txqueuelen 1000  (Ethernet)
         RX packets 275175  bytes 364234831 (364.2 MB)
