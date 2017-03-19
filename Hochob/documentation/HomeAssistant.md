@@ -17,6 +17,8 @@ user@server:~$ sudo apt-get install python3-pip
 user@server:~$ sudo pip3 install homeassistant
 ```
 
+
+
 # .homeassistant/configuration.yaml Switches
 
 ```sh
