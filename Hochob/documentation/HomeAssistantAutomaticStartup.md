@@ -122,6 +122,10 @@ mar 19 12:45:30 server hass[11270]: INFO:homeassistant.core:Bus:Handling <Event 
 lines 1-18/18 (END)
 ```
 
+```sh
+hochob@server:$ sudo journalctl -f -u home-assistant
+```
+
 # Home Assistant: Automatic Startup: init.d
 
 ```sh
@@ -139,3 +143,4 @@ hochob@server:~$ sudo service hass-daemon install
 Installing Home Assistant Daemon (hass-daemon)
 hochob@server:~$ 
 ```
+
