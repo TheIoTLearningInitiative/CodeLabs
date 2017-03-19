@@ -43,6 +43,11 @@ Processing triggers for vlc-nox (2.2.4-4ubuntu0.16.10.1) ...
 hochob@server:~$ 
 ```
 
+```sh
+hochob@server:~$ sudo sed -i 's/geteuid/getppid/' /usr/bin/vlc
+hochob@server:~$ 
+```
+
 ## Video Sample
 
 ```sh
