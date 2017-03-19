@@ -124,6 +124,12 @@ lines 1-18/18 (END)
 
 ```sh
 hochob@server:$ sudo journalctl -f -u home-assistant
+-- Logs begin at dom 2017-03-19 16:08:27 CST. --
+mar 19 16:14:25 server hass[1907]: 17-03-19 16:14:25 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=logbook>
+mar 19 16:14:26 server hass[1907]: 17-03-19 16:14:26 INFO (Thread-6) [homeassistant.components.notify.telegram] Telegram bot is 'HochobBot'
+mar 19 16:14:26 server hass[1907]: 17-03-19 16:14:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: service=telegram, domain=notify>
+mar 19 16:14:26 server hass[1907]: 17-03-19 16:14:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=not
+...
 ```
 
 # Home Assistant: Automatic Startup: init.d
