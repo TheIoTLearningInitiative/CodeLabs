@@ -14,9 +14,9 @@
 # Installation
 
 ```sh
-user@server:~$ sudo apt-get install python3-setuptools
-user@server:~$ sudo apt-get install python3-pip
-user@server:~$ sudo pip3 install homeassistant
+hochob@server:~$ sudo apt-get install python3-setuptools
+hochob@server:~$ sudo apt-get install python3-pip
+hochob@server:~$ sudo pip3 install homeassistant
 ```
 
 # Execution
@@ -199,8 +199,8 @@ media_player:
 notify:
   - name: hochobbot
     platform: telegram
-    api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_oc
-    chat_id: 166426442
+    api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_co
+    chat_id: 166426424
 
 automation:
   - alias: Lupe Robot Station Telegram

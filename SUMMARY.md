@@ -105,8 +105,8 @@
     * [Server](Hochob/documentation/Server.md)
       * [VLC Media Player](Hochob/documentation/VlcMediaPlayer.md)
       * [Plex](Hochob/documentation/Plex.md)
-  * [Telegram](Hochob/documentation/Telegram.md)
-  * [HomeAssistant](Hochob/documentation/HomeAssistant.md)
+      * [Telegram](Hochob/documentation/Telegram.md)
+      * [HomeAssistant](Hochob/documentation/HomeAssistant.md)
   * [Lupe Robot](Hochob/documentation/LupeRobot.md)
   * [Photography](Hochob/documentation/Photography.md)
   * Kodi
