@@ -37,12 +37,15 @@ Give it a friendly name to help identify it in Plex apps and on your network: Ho
 - Add Library
   - Name: Videos
   - Path: /home/hochob/Videos
+  - Name: Videos Selfies
+  - Path: /home/hochob/Videos/Selfies
   - Name: Pictures
   - Path: /home/hochob/Pictures
 - Settings
   - Library
     - Update my library automatically 
     - Update my library periodically
+      - Library update interval 15 minutes
     
 ## Get apps and stream to any device
 
