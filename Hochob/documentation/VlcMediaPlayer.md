@@ -48,6 +48,17 @@ hochob@server:~$ sudo sed -i 's/geteuid/getppid/' /usr/bin/vlc
 hochob@server:~$ 
 ```
 
+## Camera Preview
+
+```sh
+hochob@server:~$ cvlc --no-video-title-show --fullscreen v4l2:///dev/video0
+VLC media player 2.2.4 Weatherwax (revision 2.2.3-37-g888b7e89)
+[000055909d6676a8] dummy interface: using the dummy interface module...
+Failed to open VDPAU backend libvdpau_i965.so: cannot open shared object file: No such file or directory
+^C
+hochob@server:~$ 
+```
+
 ## Video Sample
 
 ```sh
