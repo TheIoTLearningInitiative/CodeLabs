@@ -171,6 +171,19 @@ root@edison:/lib/systemd/system# systemctl start luperobot
 ```
 
 
+```sh
+root@edison:~# sdptool browse F8:CF:C5:D4:CB:BC | grep Channel
+    Channel: 2
+    Channel: 3
+    Channel: 4
+    Channel: 19
+    Channel: 5
+    Channel: 12
+root@edison:~# 
+```
+
+
+
 ## Bluetooth Configuration
 
 ```sh
