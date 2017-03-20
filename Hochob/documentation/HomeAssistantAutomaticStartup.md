@@ -2,7 +2,7 @@
 
 ## Links
 
-- [](https://wiki.archlinux.org/index.php/Systemd#Service_types)
+- [ArchLinux SystemD](https://wiki.archlinux.org/index.php/Systemd#Service_types)
 
 ```sh
 hochob@server:~$ ps -p 1 -o comm=
