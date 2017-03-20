@@ -86,7 +86,7 @@ hochob@server:~$ sudo systemctl enable NetworkManager-wait-online.service
 hochob@server:~$ 
 
 
-## File
+## File home-assistant.service
 
 ```sh
 hochob@server:/lib/systemd/system$ sudo nano home-assistant.service
@@ -143,6 +143,33 @@ mar 19 16:14:26 server hass[1907]: 17-03-19 16:14:26 INFO (MainThread) [homeassi
 ...
 ```
 
+## File home-assistant.service
+
+```sh
+hochob@server:/lib/systemd/system$ sudo nano home-assistant-restart.service
+```
+
+```
+[Unit]
+Description=Home Assistant Restart
+After=home-assistant.service
+
+[Service]
+Type=idle
+ExecStart=/bin/bash -c "systemctl restart home-assistant.service"
+TimeoutStartSec=10s
+
+[Install]
+WantedBy=multi-user.target
+```
+
+```
+hochob@server:/lib/systemd/system$ sudo systemctl --system daemon-reload
+hochob@server:/lib/systemd/system$ sudo systemctl enable home-assistant-restart.service
+Created symlink /etc/systemd/system/multi-user.target.wants/home-assistant-restart.service → /lib/systemd/system/home-assistant-restart.service.
+hochob@server:/lib/systemd/system$ sudo systemctl start home-assistant-restart.service
+hochob@server:/lib/systemd/system$ sudo systemctl status home-assistant-restart.service
+```
 
 # Home Assistant: Automatic Startup: init.d
 
