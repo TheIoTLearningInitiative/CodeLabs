@@ -95,11 +95,11 @@ hochob@server:/lib/systemd/system$ sudo nano home-assistant.service
 ```sh
 [Unit]
 Description=Home Assistant
-After=network.target
+After=NetworkManager-wait-online.service
 
 [Service]
-Type=simple
-User=%i
+Environment=DISPLAY=:0.0
+User=hochob
 ExecStart=/usr/local/bin/hass -c /home/hochob/.homeassistant/
 
 [Install]
