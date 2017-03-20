@@ -43,3 +43,12 @@ hochob@server:~$
       - Handle Display Power Management
     - Security
       - Automatically Lock The Session Never
+
+# Sudo Privileges
+
+
+
+```sh
+# User alias specification
+hochob ALL=(ALL) NOPASSWD:ALL
+```
