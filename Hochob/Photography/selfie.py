@@ -18,18 +18,18 @@ if __name__ == "__main__":
     videoname = time.strftime("%Y%m%d-%H%M%S") + ".mp4"
     videopath = mediapath + videoname
 
-    for i in range(1,120):
+    for i in range(1,240):
         name = "%02d" % i + ".jpg"
         picture = mediapath + name
         takePhoto(picture)
-        time.sleep(1)
 
     takePhoto(picturename)
 
     pictures = mediapath + "%02d.jpg"
     #call(["ffmpeg", "-framerate", "30", "-i", pictures, "-vf", "fps=30", "-pix_fmt", "yuv420p", videopath])
     call(["ffmpeg", "-framerate", "10", "-i", pictures, "-vf", "fps=10", "-pix_fmt", "yuv420p", videopath])
-    call(["mv", videopath, "/home/hochob/Selfies/"])
+    call(["cp", videopath, "/home/hochob/Selfies/"])
+    call(["mv", videopath, "/home/hochob/Selfies/latest.mp4"])
     call(["mv", picturename, "/home/hochob/Pictures/"])
 
 # End of File
