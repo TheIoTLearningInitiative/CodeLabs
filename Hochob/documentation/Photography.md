@@ -55,6 +55,6 @@ hochob@server:~$
 ```sh
 hochob@server:~$ cd CodeLabs/Hochob/Photography/
 hochob@server:~/CodeLabs/Hochob/Photography$ ls
-Pictures  ulapse.py  xcamera.py
+Media  selfie.py  xcamera.py
 ```
 
