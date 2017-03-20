@@ -12,13 +12,19 @@ homeassistant:
   time_zone: America/Mexico_City
   customize:
    switch.main:
-    friendly_name: Lupe Robot Introductory Video
+    friendly_name: Lupe Robot Video Play
     icon: mdi:video
    switch.selfie:
-    friendly_name: Selfie Video
+    friendly_name: Selfie Camera Record
+    icon: mdi:video
+   switch.camera:
+    friendly_name: Selfie Camera Preview
+    icon: mdi:video
+   switch.latest:
+    friendly_name: Selfie Camera Play Only Latest
     icon: mdi:video
    switch.loop:
-    friendly_name: Loop Videos
+    friendly_name: Selfie Camera Play All In A Loop
     icon: mdi:video
    script.help:
     friendly_name: Visitor Center Needs Technical Help
@@ -87,6 +93,12 @@ switch:
     selfie:
       command_on: "python /home/hochob/CodeLabs/Hochob/Photography/selfie.py"
       command_off: "echo"
+    camera:
+      command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0"
+      command_off: "pkill vlc"
+    latest:
+      command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/Selfies/latest.mp4"
+      command_off: "pkill vlc"
     loop:
       command_on: "cvlc --no-video-title-show --fullscreen --loop /home/hochob/Selfies/*.mp4"
       command_off: "pkill vlc"
@@ -148,14 +160,13 @@ group:
   idle:
     name: Idle
     entities:
+    - switch.camera
+    - switch.latest
     - switch.loop
   technical:
     name: Technical
     entities:
     - script.help
-  test:
-    name: this is a test
-    entities:
     - shell_command.restart_ha
 
 
