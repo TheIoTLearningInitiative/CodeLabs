@@ -38,4 +38,4 @@ hochob@server:~$
 # Power Management
 
 - Preferences > Power Manager
-  - 
+  - Handle Display Power Management
