@@ -52,3 +52,7 @@ Not Working!
 # User alias specification
 hochob ALL=(ALL) NOPASSWD:ALL
 ```
+
+# Extras
+
+- Cheese, not able to interact through command line
