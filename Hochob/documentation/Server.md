@@ -37,4 +37,5 @@ hochob@server:~$
 
 # Power Management
 
-- Preferences > 
+- Preferences > Power Manager
+  - 
