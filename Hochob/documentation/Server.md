@@ -42,4 +42,4 @@ hochob@server:~$
     - Display
       - Handle Display Power Management
     - Security
-      - 
+      - Automatically Lock The Session Never
