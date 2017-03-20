@@ -22,7 +22,7 @@ Same as Wrist Band
    
 ```sh
 pymelab@workstation:~/Descargas/l_iss_iot_p_2016.4.008$ export PATH=$PATH:/home/pymelab/Descargas/jdk1.8.0_121/bin/
-
+pymelab@workstation:~/Descargas/l_iss_iot_p_2016.4.008$ /opt/intel/ISS/iss-iot-launcher
 ```
 
 ## Usability
