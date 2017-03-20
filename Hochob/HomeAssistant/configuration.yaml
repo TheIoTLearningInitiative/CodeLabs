@@ -1,0 +1,162 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 20.6208618
+  longitude: -103.4254426
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 1579
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: America/Mexico_City
+  customize:
+   switch.main:
+    friendly_name: Lupe Robot Introductory Video
+    icon: mdi:video
+   switch.selfie:
+    friendly_name: Selfie Video
+    icon: mdi:video
+   switch.loop:
+    friendly_name: Loop Videos
+    icon: mdi:video
+   script.help:
+    friendly_name: Visitor Center Needs Technical Help
+    icon: mdi:block-helper
+   media_player.main:
+    hidden: yes
+   automation.lupe_robot_station_telegram:
+    hidden: yes
+   automation.lupe_robot_station_text_to_speech:
+    hidden: yes
+   automation.help_telegram:
+    hidden: yes
+
+# Show links to resources in log and frontend
+#introduction:
+
+# Enables the frontend
+frontend:
+
+# Enables configuration UI
+config:
+
+http:
+  # Uncomment this to add a password (recommended!)
+  # api_password: PASSWORD
+  # Uncomment this if you are using SSL or running in Docker etc
+  # base_url: example.duckdns.org:8123
+
+# Checks for available updates
+updater:
+
+# Discover some devices automatically
+#discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time.
+history:
+
+# View all events in a logbook
+logbook:
+
+# Track the sun
+#sun:
+
+#group: !include groups.yaml
+
+# Text to speech
+tts:
+  platform: google
+  #cache: true
+  #cache_dir: /tmp/tts
+  #time_memory: 300
+
+#sensor:
+#  - platform: plex
+#  - platform: yr
+
+switch:
+  platform: command_line
+  switches:
+    main:
+      command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/Videos/BigBuckBunny.mp4 vlc://quit &"
+      command_off: "pkill vlc"
+    selfie:
+      command_on: "python /home/hochob/CodeLabs/Hochob/Photography/selfie.py"
+      command_off: "echo"
+    loop:
+      command_on: "cvlc --no-video-title-show --fullscreen --loop /home/hochob/Selfies/*.mp4"
+      command_off: "pkill vlc"
+
+shell_command:
+  restart_ha: sudo systemctl restart home-assistant.service &
+
+media_player:
+  - platform: vlc
+    name: main
+#  - platform: plex
+#  - platform: cast
+#  - platform: kodi
+#    host: 127.0.0.1
+#    user: kodi
+#    password: kodi
+
+notify:
+  - platform: telegram
+    name: telegram
+    api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_co
+    chat_id: 166426424
+
+automation:
+  - alias: Lupe Robot Station Telegram
+    trigger:
+      platform: state
+      entity_id: switch.main
+      state: 'on'
+    action:
+      service: notify.telegram
+      data:
+        message: "Lupe Robot Station has been activated"
+  - alias: Lupe Robot Station Text To Speech
+    trigger:
+      platform: state
+      entity_id: switch.main
+      state: 'on'
+    action:
+      service: tts.google_say
+      data:
+        message: "Lupe Robot Station has been activated"
+
+script:
+  help:
+    alias: Help Needed
+    sequence:
+      - alias: Hocho Bot Notification
+        service: notify.telegram
+        data:
+          message: "Visitor Center needs technical help!"
+
+group:
+  entrance:
+    name: Entrance
+    entities:
+    - switch.main
+    - switch.selfie
+  idle:
+    name: Idle
+    entities:
+    - switch.loop
+  technical:
+    name: Technical
+    entities:
+    - script.help
+  test:
+    name: this is a test
+    entities:
+    - shell_command.restart_ha
+
+
+

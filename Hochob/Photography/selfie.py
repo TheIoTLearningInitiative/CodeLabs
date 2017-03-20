@@ -27,7 +27,8 @@ if __name__ == "__main__":
     takePhoto(picturename)
 
     pictures = mediapath + "%02d.jpg"
-    call(["ffmpeg", "-framerate", "30", "-i", pictures, "-vf", "fps=30", "-pix_fmt", "yuv420p", videopath])
+    #call(["ffmpeg", "-framerate", "30", "-i", pictures, "-vf", "fps=30", "-pix_fmt", "yuv420p", videopath])
+    call(["ffmpeg", "-framerate", "10", "-i", pictures, "-vf", "fps=10", "-pix_fmt", "yuv420p", videopath])
     call(["mv", videopath, "/home/hochob/Selfies/"])
     call(["mv", picturename, "/home/hochob/Pictures/"])
 
