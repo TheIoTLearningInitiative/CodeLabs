@@ -170,22 +170,3 @@ Created symlink /etc/systemd/system/multi-user.target.wants/home-assistant-resta
 hochob@server:/lib/systemd/system$ sudo systemctl start home-assistant-restart.service
 hochob@server:/lib/systemd/system$ sudo systemctl status home-assistant-restart.service
 ```
-
-# Home Assistant: Automatic Startup: init.d
-
-```sh
-hochob@server:~$ ls /etc/init.d/
-acpid       apport            cron         hwclock.sh         kmod             plymouth      resolvconf  ufw
-alsa-utils  avahi-daemon      cups         irqbalance         lightdm          plymouth-log  rsync       uuidd
-anacron     bluetooth         dbus         kerneloops         networking       pppd-dns      rsyslog     whoopsie
-apparmor    console-setup.sh  grub-common  keyboard-setup.sh  network-manager  procps        udev        x11-common
-hochob@server:~$ sudo /etc/init.d/hass-daemon
-sudo: /etc/init.d/hass-daemon: command not found
-hochob@server:~$ sudo nano /etc/init.d/hass-daemon
-hochob@server:~$ sudo chmod +x /etc/init.d/hass-daemon
-hochob@server:~$ sudo update-rc.d hass-daemon defaults
-hochob@server:~$ sudo service hass-daemon install
-Installing Home Assistant Daemon (hass-daemon)
-hochob@server:~$ 
-```
-
