@@ -46,7 +46,7 @@ hochob@server:~$
 
 # Sudo Privileges
 
-
+Not Working!
 
 ```sh
 # User alias specification
