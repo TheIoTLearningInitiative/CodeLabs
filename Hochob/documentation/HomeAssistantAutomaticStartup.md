@@ -79,6 +79,13 @@ configuration.yaml  configuration.yaml.original  deps  groups.yaml  home-assista
 hochob@server:/lib/systemd/system$ 
 ```
 
+## Extra Services
+
+hochob@server:~$ sudo systemctl enable NetworkManager-wait-online.service
+[sudo] password for hochob: 
+hochob@server:~$ 
+
+
 ## File
 
 ```sh
@@ -135,6 +142,7 @@ mar 19 16:14:26 server hass[1907]: 17-03-19 16:14:26 INFO (MainThread) [homeassi
 mar 19 16:14:26 server hass[1907]: 17-03-19 16:14:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=not
 ...
 ```
+
 
 # Home Assistant: Automatic Startup: init.d
 
