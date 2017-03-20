@@ -6,7 +6,7 @@ import os
 
 class xCamera(object):
 
-    def __init__(self, media="files/photo.jpg"):
+    def __init__(self, media="Pictures/photo.jpg"):
         self.picturefswebcam = media
 
     def __del__(self):
