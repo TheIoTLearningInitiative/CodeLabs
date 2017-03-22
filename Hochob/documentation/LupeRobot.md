@@ -2,7 +2,11 @@
 
 - https://community.home-assistant.io/t/passing-dynamic-info-to-shell-command/4212/2
 - https://community.home-assistant.io/t/pass-value-to-command-line/587
+
+User Input
+
 - https://github.com/PyUserInput/PyUserInput#dependencies
+- https://home-assistant.io/components/keyboard/
 
 ### Development
 
