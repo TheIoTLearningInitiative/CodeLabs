@@ -6,7 +6,7 @@
 
 ## Issues
 
-- Another video is showing up in latest
+- Another video is showing up in latest? yes, you have decreased th number of photos
 
 ## Configuration
 
