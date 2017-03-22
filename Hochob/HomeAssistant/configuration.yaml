@@ -11,29 +11,44 @@ homeassistant:
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: America/Mexico_City
   customize:
-   switch.main:
-    friendly_name: Lupe Robot Video Play
+
+   # Entrance
+
+   script.welcome:
+    friendly_name: Welcome to Intel Visitor Center
+    icon: mdi:human-child
+   script.selfie:
+    friendly_name: Selfie Record
+    icon: mdi:camera
+   switch.lupe:
+    friendly_name: Lupe Robot Show
     icon: mdi:video
-   switch.selfie:
-    friendly_name: Selfie Camera Record
-    icon: mdi:video
-   switch.camera:
-    friendly_name: Selfie Camera Preview
+
+   # Idle
+
+   switch.preview:
+    friendly_name: Selfie Preview
     icon: mdi:video
    switch.latest:
-    friendly_name: Selfie Camera Play Only Latest
+    friendly_name: Selfie Play Latest
     icon: mdi:video
    switch.loop:
-    friendly_name: Selfie Camera Play All In A Loop
+    friendly_name: Selfie Play All In A Loop
     icon: mdi:video
+
+   # Your Technical Corner
+
    script.help:
     friendly_name: Visitor Center Needs Technical Help
     icon: mdi:block-helper
+
+   # Hidden
+
    media_player.main:
     hidden: yes
-   automation.lupe_robot_station_telegram:
+   automation.lupe_robot_text_to_speech:
     hidden: yes
-   automation.lupe_robot_station_text_to_speech:
+   automation.lupe_robot_telegram:
     hidden: yes
    automation.help_telegram:
     hidden: yes
@@ -84,16 +99,44 @@ tts:
 #  - platform: plex
 #  - platform: yr
 
+script:
+  welcome:
+    alias: Welcome
+    sequence:
+      - alias: Warm Up
+        service: tts.google_say
+        data:
+          message: "..."
+          language: 'es'
+      - alias: Welcome To Intel Visitor Center
+        service: tts.google_say
+        data:
+          message: "Bienvenidos a Intel Guadalajara, este Centro de Visitantes es..."
+          language: 'es'
+  selfie:
+    alias: Selfie
+    sequence:
+      - alias: Selfie Record
+        service: shell_command.selfie
+  help:
+    alias: Help Needed
+    sequence:
+      - alias: Hocho Bot Notification
+        service: notify.telegram
+        data:
+          message: "Visitor Center needs technical help!"
+
+shell_command:
+  restart_ha: sudo systemctl restart home-assistant.service &
+  selfie: python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
+
 switch:
   platform: command_line
   switches:
-    main:
+    lupe:
       command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/Videos/BigBuckBunny.mp4 vlc://quit &"
       command_off: "pkill vlc"
-    selfie:
-      command_on: "python /home/hochob/CodeLabs/Hochob/Photography/selfie.py"
-      command_off: "echo"
-    camera:
+    preview:
       command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0"
       command_off: "pkill vlc"
     latest:
@@ -102,9 +145,6 @@ switch:
     loop:
       command_on: "cvlc --no-video-title-show --fullscreen --loop /home/hochob/Selfies/*.mp4"
       command_off: "pkill vlc"
-
-shell_command:
-  restart_ha: sudo systemctl restart home-assistant.service &
 
 media_player:
   - platform: vlc
@@ -123,51 +163,43 @@ notify:
     chat_id: 166426424
 
 automation:
-  - alias: Lupe Robot Station Telegram
+how  - alias: Lupe Robot Text To Speech
     trigger:
       platform: state
-      entity_id: switch.main
+      entity_id: switch.lupe
+      state: 'on'
+    action:
+      service: tts.google_say
+      data:
+        message: "Bienvenido Robot Lupe"
+        language: 'es'
+  - alias: Lupe Robot Telegram
+    trigger:
+      platform: state
+      entity_id: switch.lupe
       state: 'on'
     action:
       service: notify.telegram
       data:
         message: "Lupe Robot Station has been activated"
-  - alias: Lupe Robot Station Text To Speech
-    trigger:
-      platform: state
-      entity_id: switch.main
-      state: 'on'
-    action:
-      service: tts.google_say
-      data:
-        message: "Lupe Robot Station has been activated"
-
-script:
-  help:
-    alias: Help Needed
-    sequence:
-      - alias: Hocho Bot Notification
-        service: notify.telegram
-        data:
-          message: "Visitor Center needs technical help!"
 
 group:
   entrance:
-    name: Entrance
+    name: Your Entrance Corner
     entities:
-    - switch.main
-    - switch.selfie
-  idle:
-    name: Idle
+    - script.welcome
+    - script.selfie
+    - switch.lupe
+  selfies:
+    name: Your Selfies Corner
     entities:
-    - switch.camera
+    - switch.preview
     - switch.latest
     - switch.loop
   technical:
-    name: Technical
+    name: Your Technical Corner
     entities:
     - script.help
-    - shell_command.restart_ha
 
 
 
