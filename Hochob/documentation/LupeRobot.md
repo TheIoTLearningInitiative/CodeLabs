@@ -33,6 +33,8 @@ hochob@server:~$
 # Speech To Text
 
 ```sh
+hochob@server:~$ sudo apt-get install  portaudio19-dev
+hochob@server:~$ sudo apt-get install libportaudio2
 hochob@server:~$ sudo apt-get install libasound-dev
 hochob@server:~$ sudo apt-get install python-dev
 ```
