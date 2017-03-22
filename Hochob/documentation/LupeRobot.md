@@ -4,6 +4,7 @@ Shell Command
 
 - https://community.home-assistant.io/t/passing-dynamic-info-to-shell-command/4212/2
 - https://community.home-assistant.io/t/pass-value-to-command-line/587
+- https://hub.docker.com/r/balloob/home-assistant/builds/bacthg3u3vo63yzw8jotjna/
 
 User Input
 
