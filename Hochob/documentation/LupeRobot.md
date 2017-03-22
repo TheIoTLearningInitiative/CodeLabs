@@ -43,8 +43,10 @@ cvlc vlc://play &
 
 ```sh
 (cvlc --no-video-title-show --start-time 1 --stop-time 5 /home/hochob/Videos/BigBuckBunny.mp4 vlc://pause &) && (sleep 5 && cvlc vlc://play) &
-echo "hola mundo" | espeak -ves-la
+echo "Hola a todos, bienvenidos a Intel" | espeak -v es-la -a 200
 cvlc vlc://play &
+echo "Hola a todos, bienvenidos a Intel" | espeak -v es-la -a 200
+
 ```
 
 ```sh
