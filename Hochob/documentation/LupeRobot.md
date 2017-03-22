@@ -35,6 +35,10 @@ hochob@server:~$
 - https://ubuntuforums.org/showthread.php?t=1371622
 
 
+```sh
+hochob@server:~$ cvlc --no-video-title-show --start-time 1 --stop-time 5 /home/hochob/Videos/BigBuckBunny.mp4 vlc://quit
+```
+
 ### Development
 
 - https://www.gitbook.com/book/maquirog/rob/details
