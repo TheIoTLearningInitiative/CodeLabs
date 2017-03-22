@@ -48,7 +48,10 @@ cvlc vlc://play &
 ```
 
 ```sh
+#!/bin/sh
+
 cvlc --no-video-title-show --fullscreen /home/hochob/Selfies/latest.mp4 &
+echo "hola mundo! " | espeak -ves-la
 cvlc --no-video-title-show --fullscreen /home/hochob/Selfies/HochobOne.mp4 &
 ```
 
