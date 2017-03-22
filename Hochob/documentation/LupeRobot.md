@@ -54,6 +54,7 @@ hochob@server:~/CodeLabs/ChichenItza/stt$
 http://stackoverflow.com/questions/29615235/pyttsx-no-module-named-engine
 
 ```sh
+hochob@server:~/CodeLabs/ChichenItza/stt$ sudo pip3 uninstall pyttsx
 hochob@server:~/CodeLabs/ChichenItza/stt$ git clone https://github.com/westonpace/pyttsx.git
 Cloning into 'pyttsx'...
 remote: Counting objects: 198, done.
