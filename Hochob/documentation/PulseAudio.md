@@ -177,3 +177,10 @@ set-default-sink alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1.monitor
 hochob@server:~$ pacmd "set-default-sink alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1.monitor"
 ```
 
+```sh
+hochob@server:~$ pacmd "set-default-source alsa_input.usb-Microsoft_Microsoft___LifeCam_Studio_TM_-02.analog-mono"
+hochob@server:~$ arecord hola
+Recording WAVE 'hola' : Unsigned 8 bit, Rate 8000 Hz, Mono
+^CAborted by signal Interrupt...
+hochob@server:~$ aplay hola 
+```
