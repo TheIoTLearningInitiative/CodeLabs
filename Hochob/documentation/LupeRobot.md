@@ -53,6 +53,8 @@ hochob@server:~/CodeLabs/ChichenItza/stt$
 
 ```sh
 hochob@server:~$ sudo nano /usr/local/lib/python3.5/dist-packages/pyttsx/__init__.py
+from engine import Engine
+from .engine import Engine
 ```
 
 # Sync
