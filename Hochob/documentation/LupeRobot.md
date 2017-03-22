@@ -61,7 +61,8 @@ remote: Total 198 (delta 0), reused 0 (delta 0), pack-reused 198
 Receiving objects: 100% (198/198), 69.16 KiB | 0 bytes/s, done.
 Resolving deltas: 100% (102/102), done.
 Checking connectivity... done.
-hochob@server:~/CodeLabs/ChichenItza/stt$ 
+hochob@server:~/CodeLabs/ChichenItza/stt$ cd pyttsx
+hochob@server:~/CodeLabs/ChichenItza/stt/pyttsx$ sudo python3 setup.py install
 
 ```
 
