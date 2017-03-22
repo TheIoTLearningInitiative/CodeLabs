@@ -42,7 +42,7 @@ cvlc vlc://play &
 ```
 
 ```sh
-(cvlc --no-video-title-show /home/hochob/Videos/BigBuckBunny.mp4) && (sleep 5 && vlc://pause)
+(cvlc --no-video-title-show /home/hochob/Videos/BigBuckBunny.mp4) && (sleep 5 && cvlc vlc://pause)
 echo "hola mundo" | espeak -ves-la
 cvlc vlc://play &
 ```
