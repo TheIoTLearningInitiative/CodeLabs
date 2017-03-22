@@ -45,15 +45,13 @@ cvlc vlc://play &
 (cvlc --no-video-title-show --start-time 1 --stop-time 5 /home/hochob/Videos/BigBuckBunny.mp4 vlc://pause &) && (sleep 5 && cvlc vlc://play) &
 echo "Hola a todos, bienvenidos a Intel" | espeak -v es-la -a 200
 cvlc vlc://play &
-echo "Hola a todos, bienvenidos a Intel" | espeak -v es-la -a 200
-
 ```
 
 ```sh
 #!/bin/sh
 
 cvlc --no-video-title-show --fullscreen /home/hochob/Selfies/latest.mp4 &
-echo "hola mundo! " | espeak -ves-la
+echo "Hola a todos, bienvenidos a Intel" | espeak -v es-la -a 200
 cvlc --no-video-title-show --fullscreen /home/hochob/Selfies/HochobOne.mp4 &
 ```
 
