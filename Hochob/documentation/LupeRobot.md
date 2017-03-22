@@ -54,15 +54,15 @@ hochob@server:~/CodeLabs/ChichenItza/stt$
 http://stackoverflow.com/questions/29615235/pyttsx-no-module-named-engine
 
 ```sh
-hochob@server:~$ sudo nano /usr/local/lib/python3.5/dist-packages/pyttsx/__init__.py
-from engine import Engine
-from .engine import Engine
-```
+hochob@server:~/CodeLabs/ChichenItza/stt$ git clone https://github.com/westonpace/pyttsx.git
+Cloning into 'pyttsx'...
+remote: Counting objects: 198, done.
+remote: Total 198 (delta 0), reused 0 (delta 0), pack-reused 198
+Receiving objects: 100% (198/198), 69.16 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (102/102), done.
+Checking connectivity... done.
+hochob@server:~/CodeLabs/ChichenItza/stt$ 
 
-```sh
-hochob@server:~$ sudo nano /usr/local/lib/python3.5/dist-packages/pyttsx/engine.py
-import driver
-from . import driver
 ```
 
 # Sync
