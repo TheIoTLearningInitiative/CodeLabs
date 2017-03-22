@@ -109,6 +109,7 @@
       * [Photography](Hochob/documentation/Photography.md)
       * [HomeAssistant](Hochob/documentation/HomeAssistant.md)
         * [Automatic Startup](Hochob/documentation/HomeAssistantAutomaticStartup.md)
+      * [Pulse Audio](Hochob/documentation/PulseAudio.md)
     * [Lupe Robot](Hochob/documentation/LupeRobot.md)
   * Kodi
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
