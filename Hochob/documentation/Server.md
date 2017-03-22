@@ -1,5 +1,9 @@
 # Server
 
+# Issues
+
+- Make server not ask for password with sudo
+
 # Devices
 
 - Camera
