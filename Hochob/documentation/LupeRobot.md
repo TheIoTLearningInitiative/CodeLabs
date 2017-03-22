@@ -1,8 +1,8 @@
 # Lupe Robot
 
-# Lupe Robot
+- https://community.home-assistant.io/t/passing-dynamic-info-to-shell-command/4212/2
 
-Development
+### Development
 
 - https://www.gitbook.com/book/maquirog/rob/details
 - https://github.com/maquirog/MotorsAndServos
