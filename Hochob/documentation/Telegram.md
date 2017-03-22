@@ -1,5 +1,9 @@
 # Hochob
 
+# Issue
+
+- HochobBot in a group, it is not receiving messages
+
 ```sh
 Abraham:
 /newbot
