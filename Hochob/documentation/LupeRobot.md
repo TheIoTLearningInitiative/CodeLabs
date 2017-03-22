@@ -59,6 +59,12 @@ from engine import Engine
 from .engine import Engine
 ```
 
+```sh
+hochob@server:~$ sudo nano /usr/local/lib/python3.5/dist-packages/pyttsx/engine.py
+import driver
+from . import driver
+```
+
 # Sync
 
 - https://ubuntuforums.org/showthread.php?t=1371622
