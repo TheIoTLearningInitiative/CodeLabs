@@ -7,6 +7,7 @@
 ## Issues
 
 - Another video is showing up in latest? yes, you have decreased th number of photos so it is taking more from previous runs
+- Audio set to default once playing
 
 ## Configuration
 
