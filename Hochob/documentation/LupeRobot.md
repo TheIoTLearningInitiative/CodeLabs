@@ -52,9 +52,13 @@ cvlc vlc://play &
 
 cvlc --no-video-title-show --fullscreen /home/hochob/Selfies/latest.mp4 &
 echo "Hola a todos, bienvenidos a Intel" | espeak -v es-la -a 200
-cvlc --no-video-title-show --fullscreen /home/hochob/Selfies/HochobOne.mp4 &
+cvlc --no-video-title-show --fullscreen /home/hochob/Selfies/latest.mp4 &
+echo "Como pueden ver, por lo que traigo en el pecho" | espeak -v es-la -a 200
+cvlc --no-video-title-show --fullscreen /home/hochob/Selfies/latest.mp4 &
+echo "Yo funciono con la plataforma Intel Édison, que es una de las tantas cosas que hacemos en Intel" | espeak -v es-la -a 200
+cvlc --no-video-title-show --fullscreen /home/hochob/Selfies/latest.mp4 &
+echo "" | espeak -v es-la -a 200
 ```
-
 
 ### Development
 
