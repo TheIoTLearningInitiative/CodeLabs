@@ -33,6 +33,10 @@ hochob@server:~$
 # Speech To Text
 
 ```sh
+hochob@server:~/CodeLabs/ChichenItza/stt$ sudo apt-get install python-dev
+```
+
+```sh
 hochob@server:~/CodeLabs/ChichenItza/stt$ sudo pip install SpeechRecognition
 The directory '/home/hochob/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
 The directory '/home/hochob/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
