@@ -62,6 +62,7 @@ cvlc --no-video-title-show --fullscreen /home/hochob/Selfies/latest.mp4 &
 echo "Por lo pronto, le cederé la palabra a mis compañeros humanos" | espeak -v es-la -a 200
 cvlc --no-video-title-show --fullscreen /home/hochob/Selfies/latest.mp4 &
 echo "No, gracias a ti" | espeak -v es-la -a 200
+pkill vlc
 ```
 
 ### Development
