@@ -134,7 +134,8 @@ switch:
   platform: command_line
   switches:
     lupe:
-      command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/Videos/BigBuckBunny.mp4 vlc://quit &"
+      #command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/Videos/BigBuckBunny.mp4 vlc://quit &"
+      command_on: "sh /home/hochob/CodeLabs/Hochob/LupeRobot/sync.sh &"
       command_off: "pkill vlc"
     preview:
       command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0"
