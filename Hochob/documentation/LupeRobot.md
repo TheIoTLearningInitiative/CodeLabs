@@ -13,6 +13,23 @@ User Input
 - https://github.com/PyUserInput/PyUserInput#dependencies
 
 
+```sh
+hochob@server:~$ sudo pip3 install pyuserinput
+The directory '/home/hochob/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/home/hochob/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting pyuserinput
+  Downloading PyUserInput-0.1.11.tar.gz
+Collecting python-xlib (from pyuserinput)
+  Downloading python_xlib-0.19-py2.py3-none-any.whl (119kB)
+    100% |████████████████████████████████| 122kB 774kB/s 
+Requirement already satisfied: six>=1.10.0 in /usr/lib/python3/dist-packages (from python-xlib->pyuserinput)
+Installing collected packages: python-xlib, pyuserinput
+  Running setup.py install for pyuserinput ... done
+Successfully installed python-xlib-0.19 pyuserinput-0.1.11
+hochob@server:~$ 
+```
+
+
 ### Development
 
 - https://www.gitbook.com/book/maquirog/rob/details
