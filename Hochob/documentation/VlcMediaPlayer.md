@@ -4,10 +4,13 @@
 - [VLC Wiki](https://wiki.videolan.org/Documentation:Documentation)
 - [VLC Media Server](http://www.makeuseof.com/tag/create-linux-vlc-streaming-media-server-home/)
 
+## Issues
+
+- Another video is showing up in latest
+
 ## Configuration
 
 - Tools > Preferences > Playlist and Instances > Allow only one instance
-
 
 ## Install
 
