@@ -47,6 +47,11 @@ echo "hola mundo" | espeak -ves-la
 cvlc vlc://play &
 ```
 
+```sh
+cvlc --no-video-title-show --fullscreen /home/hochob/Selfies/latest.mp4 &
+cvlc --no-video-title-show --fullscreen /home/hochob/Selfies/HochobOne.mp4 &
+```
+
 
 ### Development
 
