@@ -30,6 +30,20 @@ Successfully installed python-xlib-0.19 pyuserinput-0.1.11
 hochob@server:~$ 
 ```
 
+# Speech To Text
+
+```sh
+hochob@server:~/CodeLabs/ChichenItza/stt$ sudo pip install SpeechRecognition
+The directory '/home/hochob/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/home/hochob/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting SpeechRecognition
+  Downloading SpeechRecognition-3.6.3-py2.py3-none-any.whl (31.8MB)
+    100% |████████████████████████████████| 31.8MB 52kB/s 
+Installing collected packages: SpeechRecognition
+Successfully installed SpeechRecognition-3.6.3
+hochob@server:~/CodeLabs/ChichenItza/stt$ 
+```
+
 # Sync
 
 - https://ubuntuforums.org/showthread.php?t=1371622
