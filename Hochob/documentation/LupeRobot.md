@@ -33,7 +33,8 @@ hochob@server:~$
 # Speech To Text
 
 ```sh
-hochob@server:~/CodeLabs/ChichenItza/stt$ sudo apt-get install python-dev
+hochob@server:~$ sudo apt-get install libasound-dev
+hochob@server:~$ sudo apt-get install python-dev
 ```
 
 ```sh
