@@ -7,29 +7,6 @@ Welcome to PulseAudio 9.0! Use "help" for usage information.
 >>> list-sinks
 ```
 
-# Set Default
-
-```sh
-hochob@server:~$ pacmd list-sources | grep -e device.string -e 'name:'
-	name: <alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1.monitor>
-		device.string = "0"
-	name: <alsa_input.usb-Microsoft_Microsoft___LifeCam_Studio_TM_-02.analog-mono>
-		device.string = "hw:1"
-	name: <alsa_output.pci-0000_00_1b.0.analog-stereo.monitor>
-		device.string = "2"
-	name: <alsa_input.pci-0000_00_1b.0.analog-stereo>
-		device.string = "front:2"
-hochob@server:~$ 
-```
-
-```sh
-hochob@server:~$ sudo nano /etc/pulse/default.pa
-set-default-sink alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1.monitor
-```
-```sh
-hochob@server:~$ pacmd "set-default-sink alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1.monitor"
-```
-
 ```sh
 2 sink(s) available.
   * index: 0
@@ -175,3 +152,28 @@ pacmd << EOF
 set-default-sink 0
 EOF
 ```
+
+# Set Default
+
+```sh
+hochob@server:~$ pacmd list-sources | grep -e device.string -e 'name:'
+	name: <alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1.monitor>
+		device.string = "0"
+	name: <alsa_input.usb-Microsoft_Microsoft___LifeCam_Studio_TM_-02.analog-mono>
+		device.string = "hw:1"
+	name: <alsa_output.pci-0000_00_1b.0.analog-stereo.monitor>
+		device.string = "2"
+	name: <alsa_input.pci-0000_00_1b.0.analog-stereo>
+		device.string = "front:2"
+hochob@server:~$ 
+```
+
+```sh
+hochob@server:~$ sudo nano /etc/pulse/default.pa
+set-default-sink alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1.monitor
+```
+
+```sh
+hochob@server:~$ pacmd "set-default-sink alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1.monitor"
+```
+
