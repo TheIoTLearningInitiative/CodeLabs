@@ -24,10 +24,10 @@ hochob@server:~$
 
 ```sh
 hochob@server:~$ sudo nano /etc/pulse/default.pa
-set-default-source alsa_output.pci-0000_04_01.0.analog-stereo.monitor
+set-default-source alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1.monitor
 ```
 ```sh
-hochob@server:~$ pacmd "set-default-source alsa_output.pci-0000_04_01.0.analog-stereo.monitor"
+hochob@server:~$ pacmd "set-default-source alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1.monitor"
 ```
 
 ```sh
