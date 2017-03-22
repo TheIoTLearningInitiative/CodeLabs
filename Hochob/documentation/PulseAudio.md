@@ -10,7 +10,8 @@ Welcome to PulseAudio 9.0! Use "help" for usage information.
 # Set Default
 
 ```sh
-hochob@server:~$ pacmd list-sources | grep -e device.string -e 'name:'	name: <alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1.monitor>
+hochob@server:~$ pacmd list-sources | grep -e device.string -e 'name:'
+	name: <alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1.monitor>
 		device.string = "0"
 	name: <alsa_input.usb-Microsoft_Microsoft___LifeCam_Studio_TM_-02.analog-mono>
 		device.string = "hw:1"
