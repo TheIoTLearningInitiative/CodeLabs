@@ -51,6 +51,8 @@ Successfully installed SpeechRecognition-3.6.3
 hochob@server:~/CodeLabs/ChichenItza/stt$ 
 ```
 
+http://stackoverflow.com/questions/29615235/pyttsx-no-module-named-engine
+
 ```sh
 hochob@server:~$ sudo nano /usr/local/lib/python3.5/dist-packages/pyttsx/__init__.py
 from engine import Engine
