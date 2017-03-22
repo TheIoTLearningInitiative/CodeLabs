@@ -6,7 +6,7 @@
 
 ## Configuration
 
-- Tools > Preferences > Playlist and Instance
+- Tools > Preferences > Playlist and Instances > Allow only one instance
 
 
 ## Install
