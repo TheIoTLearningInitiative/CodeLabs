@@ -36,7 +36,8 @@ hochob@server:~$
 
 
 ```sh
-hochob@server:~$ cvlc --no-video-title-show --start-time 1 --stop-time 5 /home/hochob/Videos/BigBuckBunny.mp4 vlc://quit
+cvlc --no-video-title-show --start-time 1 --stop-time 5 /home/hochob/Videos/BigBuckBunny.mp4 vlc://pause
+echo "hola mundo" | espeak -ves-la
 ```
 
 ### Development
