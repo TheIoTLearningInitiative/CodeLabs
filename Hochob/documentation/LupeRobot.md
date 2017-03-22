@@ -10,6 +10,7 @@ User Input
 - https://github.com/PyUserInput/PyUserInput#dependencies
 - https://home-assistant.io/components/keyboard/
 - Sliders?
+- https://github.com/PyUserInput/PyUserInput#dependencies
 
 
 ### Development
