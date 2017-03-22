@@ -8,6 +8,14 @@ Welcome to PulseAudio 9.0! Use "help" for usage information.
 ```
 
 ```sh
+hochob@server:~$ sudo nano /etc/pulse/default.pa
+set-default-source alsa_output.pci-0000_04_01.0.analog-stereo.monitor
+```
+```sh
+hochob@server:~$ pacmd "set-default-source alsa_output.pci-0000_04_01.0.analog-stereo.monitor"
+```
+
+```sh
 2 sink(s) available.
   * index: 0
 	name: <alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1>
