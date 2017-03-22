@@ -14,7 +14,6 @@ User Input
 - Sliders?
 - https://github.com/PyUserInput/PyUserInput#dependencies
 
-
 ```sh
 hochob@server:~$ sudo pip3 install pyuserinput
 The directory '/home/hochob/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
@@ -30,6 +29,10 @@ Installing collected packages: python-xlib, pyuserinput
 Successfully installed python-xlib-0.19 pyuserinput-0.1.11
 hochob@server:~$ 
 ```
+
+# Sync
+
+- https://ubuntuforums.org/showthread.php?t=1371622
 
 
 ### Development
