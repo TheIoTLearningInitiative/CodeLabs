@@ -51,6 +51,10 @@ Successfully installed SpeechRecognition-3.6.3
 hochob@server:~/CodeLabs/ChichenItza/stt$ 
 ```
 
+```sh
+hochob@server:~$ sudo nano /usr/local/lib/python3.5/dist-packages/pyttsx/__init__.py
+```
+
 # Sync
 
 - https://ubuntuforums.org/showthread.php?t=1371622
