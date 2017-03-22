@@ -146,3 +146,9 @@ Welcome to PulseAudio 9.0! Use "help" for usage information.
 >>> set-default-sink 0
 >>> 
 ```
+
+```sh
+pacmd << EOF
+set-default-sink 0
+EOF
+```
