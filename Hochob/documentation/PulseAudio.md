@@ -4,9 +4,13 @@
 
 - Latency when playing through HDMI
 
+```
 apt-get install vorbis-tools
 apt-get install mpg123
 apt-get install sox
+hochob@server:~/CodeLabs/Hochob/LupeRobot$ pacmd set-default-sink 0
+hochob@server:~/CodeLabs/Hochob/LupeRobot$ espeak "hello world" --stdout | sox - -t vorbis - | ogg123 - 
+```
 
 # Espeak
 
