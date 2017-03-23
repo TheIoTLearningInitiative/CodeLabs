@@ -111,7 +111,7 @@
         * [Automatic Startup](Hochob/documentation/HomeAssistantAutomaticStartup.md)
       * [Pulse Audio](Hochob/documentation/PulseAudio.md)
     * [Lupe Robot](Hochob/documentation/LupeRobot.md)
-  * Kodi
+  * [Kodi](Hochob/documentation/kodi.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
   * [WRI Workshop](Kaminaljuyu/documentation/WriWorkshop.md)
