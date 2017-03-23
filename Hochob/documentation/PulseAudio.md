@@ -4,6 +4,10 @@
 
 - Latency when playing through HDMI
 
+apt-get install vorbis-tools
+apt-get install mpg123
+apt-get install sox
+
 # Espeak
 
 ```sh
