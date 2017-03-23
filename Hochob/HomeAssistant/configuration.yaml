@@ -50,8 +50,6 @@ homeassistant:
     hidden: yes
    automation.lupe_robot_telegram:
     hidden: yes
-   automation.help_telegram:
-    hidden: yes
 
 # Show links to resources in log and frontend
 #introduction:
@@ -135,8 +133,8 @@ switch:
   switches:
     lupe:
       #command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/Videos/BigBuckBunny.mp4 vlc://quit &"
-      command_on: "sh /home/hochob/CodeLabs/Hochob/LupeRobot/sync.sh &"
-      command_off: "pkill vlc"
+      command_on: "sync.sh &"
+      command_off: "kill.sh"
     preview:
       command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0"
       command_off: "pkill vlc"
@@ -164,7 +162,8 @@ notify:
     chat_id: 166426424
 
 automation:
-how  - alias: Lupe Robot Text To Speech
+  - alias: Lupe Robot Text To Speech
+    hide_entity: True
     trigger:
       platform: state
       entity_id: switch.lupe
@@ -175,6 +174,7 @@ how  - alias: Lupe Robot Text To Speech
         message: "Bienvenido Robot Lupe"
         language: 'es'
   - alias: Lupe Robot Telegram
+    hide_entity: True
     trigger:
       platform: state
       entity_id: switch.lupe
@@ -186,19 +186,19 @@ how  - alias: Lupe Robot Text To Speech
 
 group:
   entrance:
-    name: Your Entrance Corner
+    name: Welcome Center
     entities:
     - script.welcome
     - script.selfie
     - switch.lupe
   selfies:
-    name: Your Selfies Corner
+    name: Selfies Center
     entities:
     - switch.preview
     - switch.latest
     - switch.loop
   technical:
-    name: Your Technical Corner
+    name: Technical Center
     entities:
     - script.help
 
