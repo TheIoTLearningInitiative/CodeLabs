@@ -1,5 +1,13 @@
 # Home Assistant: Automatic Startup: systemd
 
+# Issue
+
+```
+hochob@server:~$ nano ~/.profile
+# nohup hass -c /home/hochob/.homeassistant/ &
+# sudo systemctl restart home-assistant.service
+```
+
 ## Links
 
 - [ArchLinux SystemD](https://wiki.archlinux.org/index.php/Systemd#Service_types)
