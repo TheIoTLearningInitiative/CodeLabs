@@ -1,7 +1,8 @@
 # Pulse Audio
 
-- Issues
+# Issues
 
+- Latency when playing through HDMI
 
 # Espeak
 
