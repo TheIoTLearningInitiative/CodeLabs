@@ -2,6 +2,8 @@
 
 import speech_recognition as sr
 import pyttsx
+import time
+import os
 
 r = sr.Recognizer()
 m = sr.Microphone()
@@ -20,13 +22,13 @@ try:
         value = r.recognize_google(audio)
 
         if str is bytes:
-            output = (u"You said {}".format(value).encode("utf-8"))
+            output = (u"Creo que dijiste {}".format(value).encode("utf-8"))
             print(output)
         else:
-            output = ("You said {}".format(value))
+            output = ("Creo que dijiste {}".format(value))
             print(output)
-        e.say("hi hi hi")
-        e.say("........." + output)
+        #os.system("echo \"" + output + "\" | espeak -v es-la -a 200")
+        e.say(output)
         e.runAndWait()
     except sr.UnknownValueError:
         print("Oops! Didn't catch that")
