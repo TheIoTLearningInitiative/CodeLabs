@@ -4,6 +4,12 @@
 
 - Latency when playing through HDMI
 
+```sh
+hochob@server:~/CodeLabs/Hochob/LupeRobot$ pacmd set-sink-volume 0 65537
+hochob@server:~/CodeLabs/Hochob/LupeRobot$ pacmd set-sink-mute 0 0
+```
+
+
 ```
 apt-get install vorbis-tools
 apt-get install mpg123
