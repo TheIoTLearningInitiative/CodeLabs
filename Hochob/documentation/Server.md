@@ -73,6 +73,11 @@ hochob@server:~$
 
 - Export directories into path to allow killing processes easily
 
+```sh
+hochob@server:~$ nano ~/.profile
+export PATH=$PATH:/home/hochob/CodeLabs/Hochob/LupeRobot
+```
+
 # Power Management
 
 - Preferences
