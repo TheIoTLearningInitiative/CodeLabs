@@ -5,6 +5,7 @@
 
 ```sh
 sudo apt-get install automake
+sudo apt-get install libtool
 ```
 
 # Pulse Audio
