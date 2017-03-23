@@ -185,7 +185,6 @@ Recording WAVE 'hola' : Unsigned 8 bit, Rate 8000 Hz, Mono
 hochob@server:~$ aplay hola 
 ```
 
-
 ```sh
 ...
 .ifexists module-udev-detect.so
