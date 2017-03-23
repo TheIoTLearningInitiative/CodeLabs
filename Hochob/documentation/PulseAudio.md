@@ -8,6 +8,9 @@ sudo apt-get install automake
 sudo apt-get install libtool
 ```
 
+apt-get install festival festvox-ellpc11k
+apt-get install festival
+
 # Pulse Audio
 
 
