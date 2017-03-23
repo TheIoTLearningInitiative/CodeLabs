@@ -1,6 +1,15 @@
 # Pulse Audio
 
 
+# Espeak
+
+```sh
+sudo apt-get install automake
+```
+
+# Pulse Audio
+
+
 ```sh
 hochob@server:~$ pacmd
 Welcome to PulseAudio 9.0! Use "help" for usage information.
