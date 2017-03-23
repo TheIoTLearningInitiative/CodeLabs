@@ -184,3 +184,14 @@ Recording WAVE 'hola' : Unsigned 8 bit, Rate 8000 Hz, Mono
 ^CAborted by signal Interrupt...
 hochob@server:~$ aplay hola 
 ```
+
+
+```sh
+...
+.ifexists module-udev-detect.so
+load-module module-udev-detect tsched=0
+.else
+...
+set-default-sink 0
+set-default-source 3
+``
