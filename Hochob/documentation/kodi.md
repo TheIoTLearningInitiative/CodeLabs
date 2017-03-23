@@ -9,4 +9,5 @@ hochob    2134  0.0  0.2 437752  7892 ?        Sl   22:10   0:00 espeak -v es-la
 ```
 
 - new created script
-- chmod +x
+- chmod +x new creates script
+- put into path

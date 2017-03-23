@@ -69,6 +69,10 @@ wlp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 hochob@server:~$ 
 ```
 
+# PATH
+
+- Export directories into path to allow killing processes easily
+
 # Power Management
 
 - Preferences
