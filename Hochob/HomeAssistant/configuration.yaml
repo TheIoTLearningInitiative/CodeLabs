@@ -26,6 +26,9 @@ homeassistant:
 
    # Lupe Center
 
+   script.recognize:
+    friendly_name: Recognize Speech
+    icon: mdi:microphone
 
    # Selfie Center
 
@@ -104,11 +107,6 @@ script:
   welcome:
     alias: Welcome
     sequence:
-      - alias: Warm Up
-        service: tts.google_say
-        data:
-          message: "..."
-          language: 'es'
       - alias: Welcome To Intel Visitor Center
         service: tts.google_say
         data:
@@ -119,11 +117,6 @@ script:
     sequence:
       - alias: Selfie Record
         service: shell_command.selfie
-  recognize:
-    alias: Recognize
-    sequence:
-      - alias: Recognize
-        service: shell_command.recognize
   help:
     alias: Help Needed
     sequence:
@@ -132,10 +125,48 @@ script:
         data:
           message: "Visitor Center needs technical help!"
 
+  # Lupe Center
+
+  presentation:
+    alias: Presentation
+    sequence:
+      - alias: Presentation
+        service: shell_command.presentation
+  recognize:
+    alias: Recognize
+    sequence:
+      - alias: Recognize Speech
+        service: shell_command.recognize
+  lupe_arm_left:
+    alias: Lupe Arm Left
+    sequence:
+      - alias: Lupe Arm Up
+        service: tts.google_say
+        data:
+          message: "Lupe Moviendo Brazo Izquierdo"
+          language: 'es'
+  lupe_arm_right:
+    alias: Lupe Arm Right
+    sequence:
+      - alias: Lupe Arm Right
+        service: tts.google_say
+        data:
+          message: "Lupe Moviendo Brazo Derecho"
+          language: 'es'
+  lupe_dance:
+    alias: Lupe Dance
+    sequence:
+      - alias: Lupe Dance
+        service: tts.google_say
+        data:
+          message: "Lupe Bailando"
+          language: 'es'
+
 shell_command:
   restart_ha: sudo systemctl restart home-assistant.service &
   selfie: python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
-  recognize: python3 /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Recognize/SrGoogleEs.py &
+  presentation: sh /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Presentation/Presentation.sh &
+  recognize: sh /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Recognize/Recognize.sh &
 
 switch:
   platform: command_line
@@ -193,17 +224,41 @@ automation:
         message: "Lupe Robot Station has been activated"
 
 group:
+  default_view:
+    view: yes
+    entities:
+      - group.entrance
+      - group.selfies
+      - group.technical
+  # Views
+  lupeview:
+    view: yes
+    name: Lupe Robot
+    entities:
+      - group.lupelearning
+      - group.lupeactions
+      - group.lupeactivities
+  # Groups
   entrance:
     name: Welcome Center
     entities:
     - script.welcome
     - script.selfie
     - switch.lupe
-  lupe:
-    name: Lupe Robot Center
+  lupelearning:
+    name: Learning
     entities:
-    - switch.hi
-    - switch.translator
+    - script.presentation
+    - script.recognize
+  lupeactions:
+    name: Actions
+    entities:
+    - script.lupe_arm_left
+    - script.lupe_arm_right
+  lupeactivities:
+    name: Activities
+    entities:
+    - script.lupe_dance
   selfies:
     name: Selfies Center
     entities:

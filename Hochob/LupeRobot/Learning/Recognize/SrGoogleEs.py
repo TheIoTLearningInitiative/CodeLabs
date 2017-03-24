@@ -10,8 +10,6 @@ from PyAudioPlay import play
 r = sr.Recognizer()
 m = sr.Microphone()
 
-os.system("pacmd set-default-source 2")
-
 try:
     output = "Un momento de silencio por favor!"
     os.system("echo \"" + output + "\" | espeak -v es-la -a 200")
