@@ -18,16 +18,14 @@ try:
     with m as source: audio = r.listen(source)
     print("Got it! Now to recognize it...")
     try:
-        # recognize speech using Google Speech Recognition
         value = r.recognize_google(audio)
 
         if str is bytes:
-            output = (u"Creo que dijiste {}".format(value).encode("utf-8"))
+            output = (u"I think you said: {}".format(value).encode("utf-8"))
             print(output)
         else:
-            output = ("Creo que dijiste {}".format(value))
+            output = ("I think you said: {}".format(value))
             print(output)
-        #os.system("echo \"" + output + "\" | espeak -v es-la -a 200")
         e.say(output)
         e.runAndWait()
     except sr.UnknownValueError:
