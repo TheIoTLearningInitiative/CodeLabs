@@ -1,5 +1,11 @@
 # Pulse Audio
 
+
+```sh
+pacmd set-card-profile 0 output:hdmi-stereo-extra1
+pacmd set-card-profile 0 output:hdmi-stereo-extra2
+```
+
 # Issues
 
 - Latency when playing through HDMI
