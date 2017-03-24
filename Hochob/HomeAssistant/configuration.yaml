@@ -109,7 +109,7 @@ script:
       - alias: Welcome To Intel Visitor Center
         service: tts.google_say
         data:
-          message: "Bienvenidos a Intel Guadalajara, este Centro de Visitantes es..."
+          message: "Bienvenidos a Intel Guadalajara! Buscaremos que Jesus Palomino les de la Bienvenida por medio de un Video"
           language: 'es'
   selfie:
     alias: Selfie
@@ -133,8 +133,8 @@ switch:
   switches:
     lupe:
       #command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/Videos/BigBuckBunny.mp4 vlc://quit &"
-      command_on: "sync.sh &"
-      command_off: "kill.sh"
+      command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot720p.sh &"
+      command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
     preview:
       command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0"
       command_off: "pkill vlc"
@@ -162,17 +162,17 @@ notify:
     chat_id: 166426424
 
 automation:
-  - alias: Lupe Robot Text To Speech
-    hide_entity: True
-    trigger:
-      platform: state
-      entity_id: switch.lupe
-      state: 'on'
-    action:
-      service: tts.google_say
-      data:
-        message: "Bienvenido Robot Lupe"
-        language: 'es'
+#  - alias: Lupe Robot Text To Speech
+#    hide_entity: True
+#    trigger:
+#      platform: state
+#      entity_id: switch.lupe
+#      state: 'on'
+#    action:
+#      service: tts.google_say
+#      data:
+#        message: "Bienvenido Robot Lupe"
+#        language: 'es'
   - alias: Lupe Robot Telegram
     hide_entity: True
     trigger:
