@@ -12,7 +12,7 @@ homeassistant:
   time_zone: America/Mexico_City
   customize:
 
-   # Entrance
+   # Welcome Center
 
    script.welcome:
     friendly_name: Welcome to Intel Visitor Center
@@ -24,7 +24,10 @@ homeassistant:
     friendly_name: Lupe Robot Show
     icon: mdi:video
 
-   # Idle
+   # Lupe Center
+
+
+   # Selfie Center
 
    switch.preview:
     friendly_name: Selfie Preview
@@ -36,7 +39,7 @@ homeassistant:
     friendly_name: Selfie Play All In A Loop
     icon: mdi:video
 
-   # Your Technical Corner
+   # Technical Center
 
    script.help:
     friendly_name: Visitor Center Needs Technical Help
@@ -116,6 +119,11 @@ script:
     sequence:
       - alias: Selfie Record
         service: shell_command.selfie
+  recognize:
+    alias: Recognize
+    sequence:
+      - alias: Recognize
+        service: shell_command.recognize
   help:
     alias: Help Needed
     sequence:
@@ -127,12 +135,12 @@ script:
 shell_command:
   restart_ha: sudo systemctl restart home-assistant.service &
   selfie: python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
+  recognize: python3 /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Recognize/SrGoogleEs.py &
 
 switch:
   platform: command_line
   switches:
     lupe:
-      #command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/Videos/BigBuckBunny.mp4 vlc://quit &"
       command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot720p.sh &"
       command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
     preview:
@@ -191,6 +199,11 @@ group:
     - script.welcome
     - script.selfie
     - switch.lupe
+  lupe:
+    name: Lupe Robot Center
+    entities:
+    - switch.hi
+    - switch.translator
   selfies:
     name: Selfies Center
     entities:
