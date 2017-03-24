@@ -1,5 +1,9 @@
 # Lupe Robot
 
+# Speech To Text
+
+- No debes tardarte mas de dos segundos
+
 Shell Command
 
 - https://community.home-assistant.io/t/passing-dynamic-info-to-shell-command/4212/2
