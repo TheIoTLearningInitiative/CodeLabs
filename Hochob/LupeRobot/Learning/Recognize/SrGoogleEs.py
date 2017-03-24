@@ -5,18 +5,30 @@ import pyttsx
 import time
 import os
 
+from PyAudioPlay import play
+
 r = sr.Recognizer()
 m = sr.Microphone()
 
+os.system("pacmd set-default-source 2")
+
 try:
-    print("A moment of silence, please...")
+    output = "Un momento de silencio por favor!"
+    os.system("echo \"" + output + "\" | espeak -v es-la -a 200")
+    time.sleep(2)
+    output = "Estoy configurando mi sistema para poder reconocer las palabras que me digas"
+    os.system("echo \"" + output + "\" | espeak -v es-la -a 200")
     with m as source: r.adjust_for_ambient_noise(source)
     print("Set minimum energy threshold to {}".format(r.energy_threshold))
-    print("Say something!")
+    output = "Di algo en los proximos 5 segundos, despues de sonar dos pitidos"
+    os.system("echo \"" + output + "\" | espeak -v es-la -a 200")
+    play('beep.wav')
+    play('beep.wav')
     with m as source: audio = r.listen(source)
-    print("Got it! Now to recognize it...")
+    output = "Lo tengo! Enviando a la nube para su reconocimiento"
+    os.system("echo \"" + output + "\" | espeak -v es-la -a 200")
     try:
-        value = r.recognize_google(audio)
+        value = r.recognize_google(audio, language="es-MX")
 
         if str is bytes:
             output = (u"Creo que dijiste: {}".format(value).encode("utf-8"))
