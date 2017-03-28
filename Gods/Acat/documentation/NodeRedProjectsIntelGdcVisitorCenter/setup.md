@@ -40,8 +40,6 @@ Initiating connection to IOT-Lab. Please wait...
 Attempting to enable network access, please check 'wpa_cli status' after a minute to confirm.
 Done. Please connect your laptop or PC to the same network as this device and go to http://192.168.1.148 or http://edison.local in your browser.
 Warning: SSH is not yet enabled on the wireless interface. To enable SSH access to this device via wireless run configure_edison --password first.
-root@edison:~#
-
-
+root@edison:~# 
 ```
 
