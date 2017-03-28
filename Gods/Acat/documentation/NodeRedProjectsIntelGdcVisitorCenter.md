@@ -70,6 +70,11 @@ Switched to a new branch 'visitorcenter'
 root@edison:~/.node-red/node_modules/node-red-contrib-upm# 
 ```
 
+```sh
+root@edison:~/.node-red/node_modules/node-red-contrib-upm# npm install
+root@edison:~/.node-red/node_modules/node-red-contrib-upm#
+```
+
 # Big Changes
 
 - Use node-red-dashboard instead of node-red-contrib-ui
