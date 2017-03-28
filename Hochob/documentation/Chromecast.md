@@ -1,5 +1,9 @@
 # Chromecast
 
+# Issues
+
+- Make package to start
+
 # Audio
 
 ```sh
