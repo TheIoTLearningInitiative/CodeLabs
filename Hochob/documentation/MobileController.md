@@ -1,8 +1,8 @@
 # Mobile Controller
 
-# Google Play
+# Plex
 
-- Install from [Plex for Android](https://play.google.com/store/apps/details?id=com.plexapp.android)
+- Install from Google  Play [Plex for Android](https://play.google.com/store/apps/details?id=com.plexapp.android)
 
 # Chrome Browser
 
