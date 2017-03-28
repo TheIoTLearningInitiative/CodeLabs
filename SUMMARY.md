@@ -207,9 +207,8 @@
       * [Npm Packages](Gods/Acat/documentation/NodeRedInstallationNpmPackages.md)
       * [Node-RED Packages](Gods/Acat/documentation/NodeRedInstallationNodeRedPackages.md)
   * [Projects](Gods/Acat/documentation/projects.md)
-    * [Intel GDC Visitor Center](Gods/Acat/documentation/NodeRedProjectsIntelGdcVisitorCenter.md)
-      * [Setup](Gods/Acat/documentation/NodeRedProjectsIntelGdcVisitorCenter/Setup.md)
     * [GPIO](Gods/Acat/documentation/NodeRedProjectsGpio.md)
     * [MQTT](Gods/Acat/documentation/NodeRedProjectsMqtt.md)
+    * [Intel GDC Visitor Center](Gods/Acat/documentation/NodeRedProjectsIntelGdcVisitorCenter.md)
   * [Sandbox](Gods/Acat/documentation/Sandbox.md)
 
