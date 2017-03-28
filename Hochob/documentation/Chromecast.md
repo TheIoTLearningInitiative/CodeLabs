@@ -81,10 +81,13 @@ hochob@server:~/CodeLabs/Hochob/Audio$
 ```
 
 ```sh
-hochob@server:~$ cd stream2chromecast/
-hochob@server:~/stream2chromecast$ ls
-cc_device_finder.py   cc_media_controller.py   cc_message.py   LICENSE    stream2chromecast.py
-cc_device_finder.pyc  cc_media_controller.pyc  cc_message.pyc  README.md
+hochob@server:~/CodeLabs/Hochob/Audio$ cd stream2chromecast/
+hochob@server:~/CodeLabs/Hochob/Audio/stream2chromecast$ ls
+cc_device_finder.py  cc_media_controller.py  cc_message.py  LICENSE  README.md  stream2chromecast.py
+hochob@server:~/CodeLabs/Hochob/Audio/stream2chromecast$ 
+```
+
+```sh
 hochob@server:~/stream2chromecast$ python stream2chromecast.py ~/Audio/SectionOne.mp3 
 
 -----------------------------------------
@@ -99,14 +102,14 @@ https://www.gnu.org/licenses/gpl-3.0.html
 
 searching the network for a Chromecast device
 device name: Hochob
-source is file: /home/hochob/SectionOne.mp3
+source is file: /home/hochob/Audio/SectionOne.mp3
 local ip address: 192.168.1.109
 OS identifies the mimetype as : audio/mpeg
-URL & content-type:  http://192.168.1.109:35149?/home/hochob/SectionOne.mp3 audio/mpeg
+URL & content-type:  http://192.168.1.109:38801?/home/hochob/Audio/SectionOne.mp3 audio/mpeg
 loading media...
-192.168.1.101 - - [27/Mar/2017 21:07:20] "GET /?/home/hochob/SectionOne.mp3 HTTP/1.1" 200 -
+192.168.1.101 - - [28/Mar/2017 11:53:15] "GET /?/home/hochob/Audio/SectionOne.mp3 HTTP/1.1" 200 -
 sending data
 waiting for player to finish - press ctrl-c to stop...
 done
-hochob@server:~/stream2chromecast$ 
+hochob@server:~/CodeLabs/Hochob/Audio/stream2chromecast$ 
 ```
