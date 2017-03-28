@@ -66,7 +66,40 @@ hochob@server:~$ pacmd move-sink-input 1 2
 
 # stream2chromecast
 
-https://github.com/Pat-Carter/stream2chromecast
+```sh
+hochob@server:~$ git clone https://github.com/Pat-Carter/stream2chromecast
+```
+
+```sh
+hochob@server:~$ cd stream2chromecast/
+hochob@server:~/stream2chromecast$ ls
+cc_device_finder.py   cc_media_controller.py   cc_message.py   LICENSE    stream2chromecast.py
+cc_device_finder.pyc  cc_media_controller.pyc  cc_message.pyc  README.md
+hochob@server:~/stream2chromecast$ python stream2chromecast.py ~/SectionOne.mp3 
+
+-----------------------------------------
+
+Stream2Chromecast version:0.6.3
+
+Copyright (C) 2014-2016 Pat Carter
+GNU General Public License v3.0
+https://www.gnu.org/licenses/gpl-3.0.html
+
+-----------------------------------------
+
+searching the network for a Chromecast device
+device name: Hochob
+source is file: /home/hochob/SectionOne.mp3
+local ip address: 192.168.1.109
+OS identifies the mimetype as : audio/mpeg
+URL & content-type:  http://192.168.1.109:35149?/home/hochob/SectionOne.mp3 audio/mpeg
+loading media...
+192.168.1.101 - - [27/Mar/2017 21:07:20] "GET /?/home/hochob/SectionOne.mp3 HTTP/1.1" 200 -
+sending data
+waiting for player to finish - press ctrl-c to stop...
+done
+hochob@server:~/stream2chromecast$ 
+```
 
 # Others
 
