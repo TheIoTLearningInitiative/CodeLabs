@@ -64,7 +64,7 @@ hochob@server:~$ pacmd list-sink-inputs
 hochob@server:~$ pacmd move-sink-input 1 2
 ```
 
-# 
+# stream2chromecast
 
 https://github.com/Pat-Carter/stream2chromecast
 
