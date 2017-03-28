@@ -52,8 +52,3 @@ Go to Menu -> Manage Palette -> Nodes and keep enabled only the following items
   - upm-grove-sound
   - UPM-Grove-Speaker
   - upm-grove-temperature
-
-
-```sh
-
-```
