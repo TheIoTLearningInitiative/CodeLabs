@@ -12,7 +12,25 @@ root@edison:~/CodeLabs# sh scripts/setup.sh Acat
 
 ```sh
 root@edison:~# /usr/bin/node-red --max-old-space-size=256
+28 Mar 16:12:56 - [info]
 
+Welcome to Node-RED
+===================
+
+28 Mar 16:12:56 - [info] Node-RED version: v0.16.2
+28 Mar 16:12:56 - [info] Node.js  version: v4.4.3
+28 Mar 16:12:56 - [info] Linux 3.10.98-poky-edison+ ia32 LE
+28 Mar 16:12:58 - [info] Loading palette nodes
+28 Mar 16:13:09 - [warn] ------------------------------------------------------
+28 Mar 16:13:09 - [warn] [rpi-gpio] Info : Ignoring Raspberry Pi specific node
+28 Mar 16:13:09 - [warn] ------------------------------------------------------
+28 Mar 16:13:09 - [info] Settings file  : /home/root/.node-red/settings.js
+28 Mar 16:13:09 - [info] User directory : /home/root/.node-red
+28 Mar 16:13:09 - [info] Flows file     : /home/root/.node-red/flows_edison.json
+28 Mar 16:13:09 - [info] Creating new flow file
+28 Mar 16:13:09 - [info] Starting flows
+28 Mar 16:13:09 - [info] Started flows
+28 Mar 16:13:09 - [info] Server now running at http://127.0.0.1:1880/
 ```
 
 # Big Changes
