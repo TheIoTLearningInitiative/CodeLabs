@@ -45,6 +45,23 @@ node-red-contrib-upm  node-red-dashboard
 root@edison:~/.node-red/node_modules#
 ```
 
+```sh
+gInitiative/node-red-contrib-upm.git# git clone https://github.com/TheIoTLearnin
+Cloning into 'node-red-contrib-upm'...
+remote: Counting objects: 169, done.
+remote: Compressing objects: 100% (33/33), done.
+remote: Total 169 (delta 23), reused 0 (delta 0), pack-reused 136
+Receiving objects: 100% (169/169), 218.92 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (104/104), done.
+Checking connectivity... done.
+root@edison:~/.node-red/node_modules# cd node-red-contrib-upm
+root@edison:~/.node-red/node_modules/node-red-contrib-upm# git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+  remotes/origin/visitorcenter
+root@edison:~/.node-red/node_modules/node-red-contrib-upm#
+```
 # Big Changes
 
 - Use node-red-dashboard instead of node-red-contrib-ui
