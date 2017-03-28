@@ -95,5 +95,6 @@ Removing package mraa-dev from root...
 Removing package mraa-doc from root...
 Removing obsolete file /usr/lib/libmraa.so.1.0.0.
 Configuring mraa.
-
+Upgrading upm from 0.7.0-r0 to 1.1.0 on root.
+Downloading http://iotdk.intel.com/repos/3.5/intelgalactic/opkg/i586//upm_1.1.0_i586.ipk.
 ```
