@@ -14,7 +14,7 @@ hochob@server:~$ sudo apt-get install pulseaudio-dlna
 hochob@server:~$ pulseaudio-dlna -e ogg
 ```
 
-```
+```sh
 hochob@server:~$ pacmd list-sinks | grep -e 'name:' -e 'index'
   * index: 0
 	name: <alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1>
@@ -25,11 +25,7 @@ hochob@server:~$ pacmd list-sinks | grep -e 'name:' -e 'index'
 hochob@server:~$ 
 ```
 
-```
-hochob@server:~$ pacmd list-sinks | grep -e 'name:' -e 'index'
-```
-
-```
+```sh
 hochob@server:~$ pacmd list-sink-inputs
 1 sink input(s) available.
     index: 1
@@ -62,6 +58,9 @@ hochob@server:~$ pacmd list-sink-inputs
 		application.process.machine_id = "113ccc1687214a70ae6c3ecee5fd153f"
 		application.process.session_id = "c1"
 		module-stream-restore.id = "sink-input-by-application-name:Firefox"
+```
+
+```sh
 hochob@server:~$ pacmd move-sink-input 1 2
 hochob@server:~$ 
 ```
