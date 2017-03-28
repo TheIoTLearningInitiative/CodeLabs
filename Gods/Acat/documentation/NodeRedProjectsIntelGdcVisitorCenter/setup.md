@@ -60,3 +60,16 @@ Resolving deltas: 100% (8474/8474), done.
 Checking connectivity... done.
 root@edison:~#
 ```
+
+```sh
+root@edison:~# cd CodeLabs/
+root@edison:~/CodeLabs# ls
+Caracol        Dzibilchaltun  Kanki         Muyil       Tabasqueno  Xunantunich
+Chacmultun     Edzna          KinichKaKMoo  Palenque    Tikal       scripts
+Chicanna       EkBalam        Kohunlich     Qumarkaj    Tools
+ChichenItza    Gods           LICENSE       README.md   Tulum
+Coba           Hochob         LaRutaPuuc    SUMMARY.md  Uxmal
+Documentation  Hormiguero     Mayapan       Sandbox     Xcambo
+DosPilas       Kaminaljuyu    MixcoViejo    Seibal      Xpuhil
+root@edison:~/CodeLabs# 
+```
