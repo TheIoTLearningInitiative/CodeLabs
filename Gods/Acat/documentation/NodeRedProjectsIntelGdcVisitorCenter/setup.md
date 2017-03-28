@@ -25,13 +25,7 @@ Scanning: 1 seconds left
 1 :     Exit WiFi Setup
 2 :     Manually input a hidden SSID
 3 :     Guest
-4 :     TP-LINK_2A2C7A
-5 :     LinksysSMB5G
-6 :     TSNOfficeWLAN
-7 :     EmployeeHotspot
-8 :     LabWLAN
-9 :     RSN2OfficeWLAN
-10 :    HP-Print-45-Officejet Pro 8600
+..
 11 :    IOT-Lab
 
 
