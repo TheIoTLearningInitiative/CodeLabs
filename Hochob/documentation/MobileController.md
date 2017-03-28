@@ -3,4 +3,5 @@
 # Chrome Browser
 
 - Add Chrome to Main Window
-- Add HomeAssistant IP Address to Chrome
+- Add Hochob HomeAssistant IP Address to Bookmarks
+- Add Hochob Plex Server IP Address to Bookmarks
