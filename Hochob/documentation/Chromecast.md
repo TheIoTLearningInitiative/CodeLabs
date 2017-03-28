@@ -15,16 +15,18 @@ hochob@server:~$ pulseaudio-dlna -e ogg
 ```
 
 ```
-hochob@server:~$ pacmd list-sources | grep -e device.string -e 'name:'
-	name: <alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1.monitor>
-		device.string = "0"
-	name: <alsa_input.usb-Microsoft_Microsoft___LifeCam_Studio_TM_-02.analog-mono>
-		device.string = "hw:2"
-	name: <alsa_input.pci-0000_00_1b.0.analog-stereo>
-		device.string = "front:1"
-	name: <hochob_chromecast.2.monitor>
-	name: <mkchromecast.monitor>
-	name: <mkchromecast.2.monitor>
+hochob@server:~$ pacmd list-sinks | grep -e 'name:' -e 'index'
+  * index: 0
+	name: <alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1>
+    index: 1
+	name: <alsa_output.pci-0000_00_1b.0.analog-stereo>
+    index: 2
+	name: <hochob_chromecast>
+hochob@server:~$ 
+```
+
+```
+hochob@server:~$ pacmd list-sinks | grep -e 'name:' -e 'index'
 ```
 
 ```
