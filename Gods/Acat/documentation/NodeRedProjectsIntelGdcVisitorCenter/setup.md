@@ -82,6 +82,18 @@ Welcome to The IoT Learning Initiative CodeLabs Playground
 Welcome to Acat Playground
 
 Downloading http://iotdk.intel.com/repos/3.5/intelgalactic/opkg/i586//Packages.
-...
+Updated list of available packages in /var/lib/opkg/iotkit.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/all/Packages.
+Updated list of available packages in /var/lib/opkg/iotdk-all.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/core2-32/Packages.
+Updated list of available packages in /var/lib/opkg/iotdk-core2-32.
+Downloading http://iotdk.intel.com/repos/3.5/iotdk/edison/edison/Packages.
+Updated list of available packages in /var/lib/opkg/iotdk-edison.
+Upgrading mraa from 1.0.0-r0 to 1.5.1 on root.
+Downloading http://iotdk.intel.com/repos/3.5/intelgalactic/opkg/i586//mraa_1.5.1_i586.ipk.
+Removing package mraa-dev from root...
+Removing package mraa-doc from root...
+Removing obsolete file /usr/lib/libmraa.so.1.0.0.
+Configuring mraa.
 
 ```
