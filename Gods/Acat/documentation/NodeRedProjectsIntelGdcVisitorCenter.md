@@ -46,7 +46,7 @@ root@edison:~/.node-red/node_modules#
 ```
 
 ```sh
-gInitiative/node-red-contrib-upm.git# git clone https://github.com/TheIoTLearnin
+root@edison:~/.node-red/node_modules# git clone https://github.com/TheIoTLearningInitiative/node-red-contrib-upm.git
 Cloning into 'node-red-contrib-upm'...
 remote: Counting objects: 169, done.
 remote: Compressing objects: 100% (33/33), done.
@@ -64,7 +64,7 @@ root@edison:~/.node-red/node_modules/node-red-contrib-upm#
 ```
 
 ```sh
-root@edison:~/.node-red/node_modules/node-red-contrib-upm# git checkout visitorcenter origin/visitorcenter
+root@edison:~/.node-red/node_modules/node-red-contrib-upm# git checkout -b visitorcenter origin/visitorcenter
 Branch visitorcenter set up to track remote branch visitorcenter from origin.
 Switched to a new branch 'visitorcenter'
 root@edison:~/.node-red/node_modules/node-red-contrib-upm# 
