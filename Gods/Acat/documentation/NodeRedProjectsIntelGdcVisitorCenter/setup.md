@@ -73,3 +73,15 @@ Documentation  Hormiguero     Mayapan       Sandbox     Xcambo
 DosPilas       Kaminaljuyu    MixcoViejo    Seibal      Xpuhil
 root@edison:~/CodeLabs# 
 ```
+
+```sh
+root@edison:~/CodeLabs# sh scripts/setup.sh Acat
+
+Welcome to The IoT Learning Initiative CodeLabs Playground
+
+Welcome to Acat Playground
+
+Downloading http://iotdk.intel.com/repos/3.5/intelgalactic/opkg/i586//Packages.
+...
+
+```
