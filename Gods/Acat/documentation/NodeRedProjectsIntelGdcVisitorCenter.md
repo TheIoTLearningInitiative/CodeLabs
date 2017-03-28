@@ -64,7 +64,6 @@ root@edison:~/.node-red/node_modules/node-red-contrib-upm#
 ```
 
 ```sh
-# git checkout visitorce
 root@edison:~/.node-red/node_modules/node-red-contrib-upm# git checkout visitorcenter origin/visitorcenter
 Branch visitorcenter set up to track remote branch visitorcenter from origin.
 Switched to a new branch 'visitorcenter'
