@@ -20,6 +20,9 @@ homeassistant:
    script.selfie:
     friendly_name: Selfie Record
     icon: mdi:camera
+   switch.lupecomplete:
+    friendly_name: Lupe Robot Show Complete
+    icon: mdi:video
    switch.lupe:
     friendly_name: Lupe Robot Show
     icon: mdi:video
@@ -47,6 +50,18 @@ homeassistant:
    script.help:
     friendly_name: Visitor Center Needs Technical Help
     icon: mdi:block-helper
+
+   # Audio
+
+   script.audiosectionone:
+    friendly_name: Audio Cast Section One
+    icon: audiobook
+   script.audiosectiontwo:
+    friendly_name: Audio Cast Section Two
+    icon: audiobook
+   script.audiosectionthree:
+    friendly_name: Audio Cast Section Three
+    icon: audiobook
 
    # Hidden
 
@@ -125,6 +140,24 @@ script:
         data:
           message: "Visitor Center needs technical help!"
 
+  # Audio
+
+  audiosectionone:
+    alias: Audio Section One
+    sequence:
+      - alias: Audio Section One
+        service: shell_command.audiosectionone
+  audiosectiontwo:
+    alias: Audio Section Two
+    sequence:
+      - alias: Audio Section Two
+        service: shell_command.audiosectiontwo
+  audiosectionthree:
+    alias: Audio Section Three
+    sequence:
+      - alias: Audio Section Three
+        service: shell_command.audiosectionthree
+
   # Lupe Center
 
   presentation:
@@ -167,10 +200,16 @@ shell_command:
   selfie: python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
   presentation: sh /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Presentation/Presentation.sh &
   recognize: sh /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Recognize/Recognize.sh &
+  audiosectionone: sh /home/hochob/CodeLabs/Hochob/Audio/SectionOne.sh &
+  audiosectiontwo: sh /home/hochob/CodeLabs/Hochob/Audio/SectionTwo.sh &
+  audiosectionthree: sh /home/hochob/CodeLabs/Hochob/Audio/SectionThree.sh &
 
 switch:
   platform: command_line
   switches:
+    lupecomplete:
+      command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot.sh &"
+      command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
     lupe:
       command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot720p.sh &"
       command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
@@ -187,6 +226,9 @@ switch:
 media_player:
   - platform: vlc
     name: main
+#  - platform: cast
+#    host: Hochob
+#    name: Nursery
 #  - platform: plex
 #  - platform: cast
 #  - platform: kodi
@@ -213,7 +255,7 @@ automation:
 #        message: "Bienvenido Robot Lupe"
 #        language: 'es'
   - alias: Lupe Robot Telegram
-    hide_entity: True
+    #hide_entity: True
     trigger:
       platform: state
       entity_id: switch.lupe
@@ -238,13 +280,28 @@ group:
       - group.lupelearning
       - group.lupeactions
       - group.lupeactivities
+  audioview:
+    view: yes
+    name: Audio
+    entities: group.audio
   # Groups
+  technical:
+    name: Technical Center
+    entities:
+    - script.help
   entrance:
     name: Welcome Center
     entities:
     - script.welcome
-    - script.selfie
     - switch.lupe
+    - switch.lupecomplete
+  selfies:
+    name: Selfies Center
+    entities:
+    - script.selfie
+    - switch.preview
+    - switch.latest
+    - switch.loop
   lupelearning:
     name: Learning
     entities:
@@ -259,16 +316,12 @@ group:
     name: Activities
     entities:
     - script.lupe_dance
-  selfies:
-    name: Selfies Center
+  audio:
+    name: Audio
     entities:
-    - switch.preview
-    - switch.latest
-    - switch.loop
-  technical:
-    name: Technical Center
-    entities:
-    - script.help
+    - script.audiosectionone
+    - script.audiosectiontwo
+    - script.audiosectionthree
 
 
 
