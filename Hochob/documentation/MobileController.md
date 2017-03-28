@@ -1,5 +1,9 @@
 # Mobile Controller
 
+# Google Play
+
+- Install 
+
 # Chrome Browser
 
 - Add Chrome to Main Window
