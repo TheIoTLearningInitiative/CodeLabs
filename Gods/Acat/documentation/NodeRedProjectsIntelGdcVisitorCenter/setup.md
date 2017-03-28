@@ -49,3 +49,14 @@ root@edison:~#
 
 ## CodeLabs Cloning
 
+```sh
+root@edison:~# git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
+Cloning into 'CodeLabs'...
+remote: Counting objects: 14772, done.
+remote: Compressing objects: 100% (82/82), done.
+remote: Total 14772 (delta 49), reused 0 (delta 0), pack-reused 14682
+Receiving objects: 100% (14772/14772), 10.14 MiB | 1.58 MiB/s, done.
+Resolving deltas: 100% (8474/8474), done.
+Checking connectivity... done.
+root@edison:~#
+```
