@@ -3,4 +3,4 @@
 # Chrome Browser
 
 - Add Chrome to Main Window
-- 
+- Add HomeAssistant
