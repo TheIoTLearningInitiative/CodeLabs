@@ -1,5 +1,7 @@
 # Setup
 
+## Startup
+
 ```sh
 [  OK  ] Reached target Multi-User System.
          Starting Redis Server...
@@ -10,6 +12,8 @@ Poky (Yocto Project Reference Distro) 1.7.3 edison ttyMFD2
 edison login: root
 root@edison:~# 
 ```
+
+## Wifi Configuration
 
 ```sh
 root@edison:~# configure_edison --wifi
@@ -42,4 +46,6 @@ Done. Please connect your laptop or PC to the same network as this device and go
 Warning: SSH is not yet enabled on the wireless interface. To enable SSH access to this device via wireless run configure_edison --password first.
 root@edison:~# 
 ```
+
+## CodeLabs Cloning
 
