@@ -113,3 +113,29 @@ waiting for player to finish - press ctrl-c to stop...
 done
 hochob@server:~/CodeLabs/Hochob/Audio/stream2chromecast$ 
 ```
+
+## Create MP3 Files
+
+```sh
+ChichenItza/tts/mainvrss.py
+```
+
+```sh
+hochob@server:~/CodeLabs$ git diff
+diff --git a/ChichenItza/tts/mainvrss.py b/ChichenItza/tts/mainvrss.py
+index b36f687..2a7d105 100644
+--- a/ChichenItza/tts/mainvrss.py
++++ b/ChichenItza/tts/mainvrss.py
+@@ -3,8 +3,8 @@ import subprocess
+ 
+ voice = voicerssurllib.speech({
+        'key': '9fbff2d35eb54b62998515ccbc656a07',
+-       'hl': 'en-us',
+-       'src': 'Hello World! Now we are talking!',
++       'hl': 'es-mx',
++       'src': 'Bienvenidos a la seccion tress, disfruta de una serie de demos',
+        'r': '0',
+        'c': 'wav',
+        'f': '44khz_16bit_stereo',
+hochob@server:~/CodeLabs$ 
+```
