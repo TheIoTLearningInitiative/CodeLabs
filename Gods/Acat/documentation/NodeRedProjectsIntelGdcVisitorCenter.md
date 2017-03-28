@@ -103,6 +103,10 @@ root@edison:~/.node-red/node_modules/node-red-contrib-upm#
 - [Grove - Relay](https://www.seeedstudio.com/Grove-Relay-p-769.html)
 - [Grove - Buzzer](https://www.seeedstudio.com/Grove-Buzzer-p-768.html)
 
+## Node-Red UI
+
+- Change name "Flow 1" to "Workspace"
+
 # Node Management
 
 Go to Menu -> Manage Palette -> Nodes and keep enabled only the following items
