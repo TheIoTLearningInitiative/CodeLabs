@@ -2,6 +2,14 @@
 
 > ...
 
+# Setup
+
+```sh
+root@edison:~# git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
+root@edison:~# cd CodeLabs
+root@edison:~/CodeLabs# sh scripts/setup.sh Acat
+```
+
 # Big Changes
 
 - Use node-red-dashboard instead of node-red-contrib-ui
