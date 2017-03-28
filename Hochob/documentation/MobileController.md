@@ -2,7 +2,7 @@
 
 # Google Play
 
-- Install 
+- Install "Plex for Android"
 
 # Chrome Browser
 
