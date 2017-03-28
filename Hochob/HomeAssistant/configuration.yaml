@@ -211,7 +211,7 @@ switch:
       command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot.sh &"
       command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
     lupe:
-      command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot720p.sh &"
+      command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot1080p.sh &"
       command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
     preview:
       command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0"
@@ -239,7 +239,7 @@ media_player:
 notify:
   - platform: telegram
     name: telegram
-    api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_co
+    api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_CO
     chat_id: 166426424
 
 automation:

@@ -1,2 +1,2 @@
-cd /home/hochob/stream2chromecast
-python stream2chromecast.py ~/SectionTwo.mp3
+cd /home/hochob/CodeLabs/Hochob/Audio/stream2chromecast
+python stream2chromecast.py /home/hochob/Audio/SectionTwo.mp3
