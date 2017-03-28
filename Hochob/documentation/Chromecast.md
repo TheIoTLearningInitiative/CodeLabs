@@ -139,3 +139,9 @@ index b36f687..2a7d105 100644
         'f': '44khz_16bit_stereo',
 hochob@server:~/CodeLabs$ 
 ```
+
+```sh
+hochob@server:~/CodeLabs/ChichenItza/tts$ ls
+audio.mp3  audio.wav  mainpyttsx.py  mainvrss.py  voicerssurllib.py  voicerssurllib.pyc
+hochob@server:~/CodeLabs/ChichenItza/tts$ 
+```
