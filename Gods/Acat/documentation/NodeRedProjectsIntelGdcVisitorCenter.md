@@ -62,6 +62,15 @@ root@edison:~/.node-red/node_modules/node-red-contrib-upm# git branch -a
   remotes/origin/visitorcenter
 root@edison:~/.node-red/node_modules/node-red-contrib-upm#
 ```
+
+```sh
+# git checkout visitorce
+root@edison:~/.node-red/node_modules/node-red-contrib-upm# git checkout visitorcenter origin/visitorcenter
+Branch visitorcenter set up to track remote branch visitorcenter from origin.
+Switched to a new branch 'visitorcenter'
+root@edison:~/.node-red/node_modules/node-red-contrib-upm# 
+```
+
 # Big Changes
 
 - Use node-red-dashboard instead of node-red-contrib-ui
