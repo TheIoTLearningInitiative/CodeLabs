@@ -62,7 +62,6 @@ hochob@server:~$ pacmd list-sink-inputs
 
 ```sh
 hochob@server:~$ pacmd move-sink-input 1 2
-hochob@server:~$ 
 ```
 
 # Others
