@@ -67,7 +67,17 @@ hochob@server:~$ pacmd move-sink-input 1 2
 # stream2chromecast
 
 ```sh
-hochob@server:~$ git clone https://github.com/Pat-Carter/stream2chromecast
+hochob@server:~$ cd CodeLabs/Hochob/Audio/
+hochob@server:~/CodeLabs/Hochob/Audio$ ls
+SectionOne.sh  SectionThree.sh  SectionTwo.sh
+hochob@server:~/CodeLabs/Hochob/Audio$ git clone https://github.com/Pat-Carter/stream2chromecast
+Cloning into 'stream2chromecast'...
+remote: Counting objects: 317, done.
+remote: Total 317 (delta 0), reused 0 (delta 0), pack-reused 317
+Receiving objects: 100% (317/317), 129.82 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (172/172), done.
+Checking connectivity... done.
+hochob@server:~/CodeLabs/Hochob/Audio$ 
 ```
 
 ```sh
@@ -75,7 +85,7 @@ hochob@server:~$ cd stream2chromecast/
 hochob@server:~/stream2chromecast$ ls
 cc_device_finder.py   cc_media_controller.py   cc_message.py   LICENSE    stream2chromecast.py
 cc_device_finder.pyc  cc_media_controller.pyc  cc_message.pyc  README.md
-hochob@server:~/stream2chromecast$ python stream2chromecast.py ~/SectionOne.mp3 
+hochob@server:~/stream2chromecast$ python stream2chromecast.py ~/Audio/SectionOne.mp3 
 
 -----------------------------------------
 
