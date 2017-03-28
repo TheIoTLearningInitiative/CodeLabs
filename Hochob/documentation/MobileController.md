@@ -2,7 +2,7 @@
 
 # Google Play
 
-- Install "Plex for Android"
+- Install [Plex for Android](https://play.google.com/store/apps/details?id=com.plexapp.android)
 
 # Chrome Browser
 
