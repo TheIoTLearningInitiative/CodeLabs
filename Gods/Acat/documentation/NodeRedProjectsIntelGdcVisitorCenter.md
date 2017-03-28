@@ -33,6 +33,18 @@ Welcome to Node-RED
 28 Mar 16:13:09 - [info] Server now running at http://127.0.0.1:1880/
 ```
 
+```sh
+root@edison:~# ls
+CodeLabs
+root@edison:~# cd ~/.node-red/
+root@edison:~/.node-red# ls
+flows_edison.json  lib  node_modules  settings.js
+root@edison:~/.node-red# cd node_modules/
+root@edison:~/.node-red/node_modules# ls
+node-red-contrib-upm  node-red-dashboard
+root@edison:~/.node-red/node_modules#
+```
+
 # Big Changes
 
 - Use node-red-dashboard instead of node-red-contrib-ui
