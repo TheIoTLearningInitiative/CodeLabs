@@ -50,7 +50,7 @@
 
 # Robot
 
-- Lupe Robot
+- __Codename__:  Lupe
 - Hardware
   - Intel Edison
   - Yocto v2.5 Based
