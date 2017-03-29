@@ -113,7 +113,7 @@
       * [Chromecast](Hochob/documentation/Chromecast.md)
     * [Lupe Robot](Hochob/documentation/LupeRobot.md)
   * [Kodi](Hochob/documentation/kodi.md)
-  * [Mobile Controller](Hochob/documentation/MobileController.md)
+  * [Muuk’](Hochob/documentation/Muuk’.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
   * [WRI Workshop](Kaminaljuyu/documentation/WriWorkshop.md)
