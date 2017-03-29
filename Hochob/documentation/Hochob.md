@@ -21,7 +21,7 @@
 - Hardware
   - NUC based
   - Linux Lubuntu Based
-- Software
+- Components
   - Python
   - VLC Media Player
   - Plex
@@ -32,9 +32,6 @@
   - Pulse Audio
   - Chromecast
   - Kodi
-- Features
-  - Talk
-  - Photography
 
 ## Lupe Robot
 
