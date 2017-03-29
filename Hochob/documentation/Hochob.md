@@ -4,6 +4,7 @@
 
 # Architecture
 
+- Accounts
 - Server (Hochob)
 - Mobile Device (Muuk’, Poder, Buddy)
 - Chromecast (Eek', Estrella, Space)
