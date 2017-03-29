@@ -38,7 +38,11 @@
 
 ## Lupe Robot
 
-
+- Hardware
+  - Intel Edison
+  - Yocto v2.5 Based
+- Software
+  - C++, NodeJS
 
 ## Home Assistant
 
