@@ -21,7 +21,6 @@
 - Hardware
   - NUC based
   - Linux Lubuntu Based
-  - Lupe Robot
 - Software
   - Plex
   - VLC Media Player
@@ -30,6 +29,10 @@
 - Features
   - Talk
   - Photography
+
+## Lupe Robot
+
+
 
 ## Home Assistant
 
