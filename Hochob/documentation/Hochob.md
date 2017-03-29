@@ -12,7 +12,7 @@
 
 # Devices
 
-- NUC 5i5MYHE (Hochob)
+
 
 
 # Accounts
@@ -22,9 +22,8 @@
 
 # Server
 
-- Hardware
-  - NUC based
-  - Linux Lubuntu Based
+- NUC 5i5MYHE (Hochob)
+- Linux Lubuntu Based
 - Components
   - Python
   - VLC Media Player
