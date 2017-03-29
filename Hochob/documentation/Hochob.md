@@ -11,8 +11,8 @@
 
 # Devices
 
-- NUC (Hochob)
-- (Muuk’, Poder, Buddy)
+- NUC 5i5MYHE (Hochob)
+- Samsung SM-A500M (Muuk’, Poder, Buddy)
 - Chromecast (Eek', Estrella)
 - Chromecast Audio (Mixba’al, Zero)
 
