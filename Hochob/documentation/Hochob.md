@@ -39,21 +39,11 @@
   - Chromecast
   - Kodi
 
-# Lupe Robot
+# Robot
 
+- Lupe Robot
 - Hardware
   - Intel Edison
   - Yocto v2.5 Based
 - Software
   - C++, NodeJS
-
-## Home Assistant
-
-- Features
-  - Command Line
-    - VLC
-  - Telegram
-  - Conversation
-  - Device Tracker
-  - [Greeting](http://philhawthorne.com/j-a-r-v-i-s-inspired-announcementgreeting-for-home-assistant/)
-

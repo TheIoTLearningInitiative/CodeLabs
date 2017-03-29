@@ -2,6 +2,14 @@
 
 - [1](http://ratonland.org/tag/yaml/)
 
+- Features
+  - Command Line
+    - VLC
+  - Telegram
+  - Conversation
+  - Device Tracker
+  - [Greeting](http://philhawthorne.com/j-a-r-v-i-s-inspired-announcementgreeting-for-home-assistant/)
+
 # Modules
 
 - [Conversation](https://home-assistant.io/components/conversation/)
