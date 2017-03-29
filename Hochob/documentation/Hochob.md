@@ -22,6 +22,7 @@
   - NUC based
   - Linux Lubuntu Based
 - Software
+  - Python
   - VLC Media Player
   - Plex
   - Telegram
