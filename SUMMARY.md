@@ -107,6 +107,7 @@
       * [Plex](Hochob/documentation/Plex.md)
       * [Telegram](Hochob/documentation/Telegram.md)
       * [Photography](Hochob/documentation/Photography.md)
+      * [Video](Hochob/documentation/Video.md)
       * [HomeAssistant](Hochob/documentation/HomeAssistant.md)
         * [Automatic Startup](Hochob/documentation/HomeAssistantAutomaticStartup.md)
       * [Pulse Audio](Hochob/documentation/PulseAudio.md)
