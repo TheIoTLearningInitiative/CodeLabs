@@ -101,7 +101,7 @@
   * [Google Cloud Speech](EkBalam/documentation/GoogleCloudSpeech.md)
 * [Hochob](Hochob/documentation/Hochob.md)
   * [Accounts](Hochob/documentation/Accounts.md)
-  * Hardware
+  * [Hardware](Hochob/documentation/hardware.md)
     * [Server](Hochob/documentation/Server.md)
       * [VLC Media Player](Hochob/documentation/VlcMediaPlayer.md)
       * [Plex](Hochob/documentation/Plex.md)
