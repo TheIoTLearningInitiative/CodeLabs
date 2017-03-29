@@ -20,7 +20,7 @@
 
 - Hardware
   - NUC based
-  - Linux based
+  - Linux Lubuntu Based
   - Lupe Robot
 - Software
   - Plex
