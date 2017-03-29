@@ -22,10 +22,15 @@
   - NUC based
   - Linux Lubuntu Based
 - Software
-  - Plex
   - VLC Media Player
+  - Plex
+  - Telegram
+  - Photography
+  - Video
   - Home Assistant
-  - Python
+  - Pulse Audio
+  - Chromecast
+  - Kodi
 - Features
   - Talk
   - Photography
