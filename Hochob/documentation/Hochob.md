@@ -10,11 +10,6 @@
 - Digital Media Players
 - Robot
 
-# Devices
-
-
-
-
 # Accounts
 
 - Gmail
