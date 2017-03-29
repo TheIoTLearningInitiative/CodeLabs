@@ -21,6 +21,7 @@ if __name__ == "__main__":
     for i in range(1,240):
         name = "%02d" % i + ".jpg"
         picture = mediapath + name
+        call(["cp", picture, "/home/hochob/Pictures/"])
         takePhoto(picture)
 
     takePhoto(picturename)
@@ -28,8 +29,7 @@ if __name__ == "__main__":
     pictures = mediapath + "%02d.jpg"
     #call(["ffmpeg", "-framerate", "30", "-i", pictures, "-vf", "fps=30", "-pix_fmt", "yuv420p", videopath])
     call(["ffmpeg", "-framerate", "10", "-i", pictures, "-vf", "fps=10", "-pix_fmt", "yuv420p", videopath])
-    call(["cp", videopath, "/home/hochob/Selfies/"])
-    call(["mv", videopath, "/home/hochob/Selfies/latest.mp4"])
-    call(["mv", picturename, "/home/hochob/Pictures/"])
+    call(["cp", videopath, "/home/hochob/VideosSelfies/"])
+    call(["mv", videopath, "/home/hochob/VideosSelfies/latest.mp4"])
 
 # End of File
