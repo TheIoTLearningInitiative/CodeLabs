@@ -13,9 +13,7 @@
 # Devices
 
 - NUC 5i5MYHE (Hochob)
-- Samsung SM-A500M (Muuk’, Poder, Buddy)
-- Chromecast (Eek', Estrella)
-- Chromecast Audio (Mixba’al, Zero)
+
 
 # Accounts
 
@@ -38,6 +36,15 @@
   - Pulse Audio
   - Chromecast
   - Kodi
+
+# Mobile Device
+
+- Samsung SM-A500M (Muuk’, Poder, Buddy)
+
+# Digital Media Players
+
+- Chromecast (Eek', Estrella)
+- Chromecast Audio (Mixba’al, Zero)
 
 # Robot
 
