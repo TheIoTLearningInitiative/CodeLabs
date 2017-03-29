@@ -5,8 +5,8 @@
 # Architecture
 
 - Server (Hochob)
-- Mobile Device (Muuk’, Buddy)
-- Chromecast (Eek', Space)
+- Mobile Device (Muuk’, Poder, Buddy)
+- Chromecast (Eek', Estrella, Space)
 - Chromecast Audio (Mixba’al, Zero)
 
 ## Server
