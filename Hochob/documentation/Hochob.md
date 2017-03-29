@@ -4,8 +4,10 @@
 
 # Architecture
 
-- Server
-- Tablet
+- Server (Hochob)
+- Mobile Device (Muuk, Buddy)
+- Chromecast (Space)
+- Chromecast (Audio)
 
 ## Server
 
