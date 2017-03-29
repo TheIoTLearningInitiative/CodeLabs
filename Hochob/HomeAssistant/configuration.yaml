@@ -217,10 +217,10 @@ switch:
       command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0"
       command_off: "pkill vlc"
     latest:
-      command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/Selfies/latest.mp4"
+      command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/VideosSelfies/latest.mp4"
       command_off: "pkill vlc"
     loop:
-      command_on: "cvlc --no-video-title-show --fullscreen --loop /home/hochob/Selfies/*.mp4"
+      command_on: "cvlc --no-video-title-show --fullscreen --loop /home/hochob/VideosSelfies/*.mp4"
       command_off: "pkill vlc"
 
 media_player:
@@ -239,7 +239,7 @@ media_player:
 notify:
   - platform: telegram
     name: telegram
-    api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_CO
+    api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_co
     chat_id: 166426424
 
 automation:
