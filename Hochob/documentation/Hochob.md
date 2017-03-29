@@ -17,7 +17,8 @@
 
 # Server
 
-- NUC 5i5MYHE (Hochob)
+- __Codename__: Hochob
+- NUC 5i5MYHE 
 - Linux Lubuntu Based
 - Components
   - Python
@@ -33,12 +34,19 @@
 
 # Mobile Device
 
-- Samsung SM-A500M (Muuk’, Poder, Buddy)
+- __Codename__:  Muuk’, Poder, Buddy
+- Samsung SM-A500M
 
 # Digital Media Players
 
-- Chromecast (Eek', Estrella)
-- Chromecast Audio (Mixba’al, Zero)
+## Audio
+- __Codename__: Eek', Estrella
+- Chromecast
+
+## Video
+
+- __Codename__:  Mixba’al, Zero
+- Chromecast Audio
 
 # Robot
 
