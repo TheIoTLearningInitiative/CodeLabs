@@ -8,6 +8,7 @@
 - Server
 - Mobile Device
 - Digital Media Players
+- Robot
 
 # Devices
 
@@ -16,12 +17,12 @@
 - Chromecast (Eek', Estrella)
 - Chromecast Audio (Mixba’al, Zero)
 
-## Accounts
+# Accounts
 
 - Gmail
 - Plex
 
-## Server
+# Server
 
 - Hardware
   - NUC based
@@ -38,7 +39,7 @@
   - Chromecast
   - Kodi
 
-## Lupe Robot
+# Lupe Robot
 
 - Hardware
   - Intel Edison
