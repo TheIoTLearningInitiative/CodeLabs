@@ -16,6 +16,11 @@
 - Chromecast (Eek', Estrella)
 - Chromecast Audio (Mixba’al, Zero)
 
+## Accounts
+
+- Gmail
+- Plex
+
 ## Server
 
 - Hardware
