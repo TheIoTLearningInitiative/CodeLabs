@@ -33,3 +33,8 @@ hochob@server:~/Downloads$ service vernemq start
 hochob@server:~/Downloads$ 
 ```
 
+```sh
+hochob@server:~/Downloads$ whereis vernemq
+vernemq: /usr/sbin/vernemq /usr/lib/vernemq /etc/vernemq /usr/share/vernemq
+hochob@server:~/Downloads$ 
+```
