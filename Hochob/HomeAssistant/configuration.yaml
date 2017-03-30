@@ -16,7 +16,7 @@ homeassistant:
 
    script.welcome:
     friendly_name: Welcome to Intel Visitor Center
-    icon: mdi:human-child
+    icon: mdi:human-greeting
    script.selfie:
     friendly_name: Selfie Record
     icon: mdi:camera
@@ -44,6 +44,50 @@ homeassistant:
    switch.loop:
     friendly_name: Selfie Play All In A Loop
     icon: mdi:video
+
+   # Lupe
+
+   switch.leftupdown:
+     friendly_name: Left Up Down
+     icon: mdi:human-handsup
+   switch.leftfoldunfold:
+     friendly_name: Left Fold Unfold
+     icon: mdi:gesture-swipe-up
+   switch.rightupdown:
+     friendly_name: Right Up Down
+     icon: mdi:human-handsup
+   switch.rightfoldunfold:
+     friendly_name: Right Fold Unfold
+     icon: mdi:gesture-swipe-up
+
+   switch.moveleft:
+     friendly_name: Move Left
+     icon: mdi:arrow-left-thick
+   switch.moveright:
+     friendly_name: Move Right
+     icon: mdi:arrow-right-thick
+   switch.moveforward:
+     friendly_name: Move Forward
+     icon: mdi:arrow-up-thick
+   switch.movebackward:
+     friendly_name: Move Backward
+     icon: mdi:arrow-down-thick
+
+   switch.bienvenida:
+     friendly_name: Welcome
+     icon: mdi:human-greeting
+   switch.agradece:
+     friendly_name: Dance
+     icon: mdi:music
+   switch.dance:
+     friendly_name: Thanks
+     icon: mdi:heart
+   switch.creador:
+     friendly_name: Creator
+     icon: mdi:face
+   switch.norte:
+     friendly_name: North
+     icon: mdi:function
 
    # Technical Center
 
@@ -117,6 +161,12 @@ tts:
 #sensor:
 #  - platform: plex
 #  - platform: yr
+
+mqtt:
+  broker: iot.eclipse.org
+  port: 1883
+  client_id: hochob
+  keepalive: 60
 
 script:
   welcome:
@@ -205,23 +255,121 @@ shell_command:
   audiosectionthree: sh /home/hochob/CodeLabs/Hochob/Audio/SectionThree.sh &
 
 switch:
-  platform: command_line
-  switches:
-    lupecomplete:
-      command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot.sh &"
-      command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
-    lupe:
-      command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot1080p.sh &"
-      command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
-    preview:
-      command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0"
-      command_off: "pkill vlc"
-    latest:
-      command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/VideosSelfies/latest.mp4"
-      command_off: "pkill vlc"
-    loop:
-      command_on: "cvlc --no-video-title-show --fullscreen --loop /home/hochob/VideosSelfies/*.mp4"
-      command_off: "pkill vlc"
+  - platform: command_line
+    switches:
+      lupecomplete:
+        command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot.sh &"
+        command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
+      lupe:
+        command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot1080p.sh &"
+        command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
+      preview:
+        command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0"
+        command_off: "pkill vlc"
+      latest:
+        command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/VideosSelfies/latest.mp4"
+        command_off: "pkill vlc"
+      loop:
+        command_on: "cvlc --no-video-title-show --fullscreen --loop /home/hochob/VideosSelfies/*.mp4"
+        command_off: "pkill vlc"
+
+# Lupe Switches
+
+switch 00:
+  - platform: mqtt
+    name: rightupdown
+    command_topic: "lupe/rightupdown"
+    state_topic: "lupe/rightupdown/state"
+
+switch 01:
+  - platform: mqtt
+    name: rightfoldunfold
+    command_topic: "lupe/rightfoldunfold"
+    state_topic: "lupe/rightfoldunfold/state"
+
+switch 02:
+  - platform: mqtt
+    name: moveright
+    command_topic: "lupe/moveright"
+    state_topic: "lupe/moveright/state"
+
+switch 03:
+  - platform: mqtt
+    name: resetall
+    command_topic: "lupe/resetall"
+    state_topic: "lupe/resetall/state"
+
+switch 04:
+  - platform: mqtt
+    name: bienvenida
+    command_topic: "lupe/bienvenida"
+    state_topic: "lupe/bienvenida/state"
+
+switch 05:
+  - platform: mqtt
+    name: agradece
+    command_topic: "lupe/agradece"
+    state_topic: "lupe/agradece/state"
+
+switch 06:
+  - platform: mqtt
+    name: dance
+    command_topic: "lupe/dance"
+    state_topic: "lupe/dance/state"
+
+switch 07:
+  - platform: mqtt
+    name: creador
+    command_topic: "lupe/creador"
+    state_topic: "lupe/creador/state"
+
+switch 08:
+  - platform: mqtt
+    name: norte
+    command_topic: "lupe/norte"
+    state_topic: "lupe/norte/state"
+
+switch 09:
+  - platform: mqtt
+    name: leftupdown
+    command_topic: "lupe/leftupdown"
+    state_topic: "lupe/leftupdown/state"
+
+switch 10:
+  - platform: mqtt
+    name: leftfoldunfold
+    command_topic: "lupe/leftfoldunfold"
+    state_topic: "lupe/leftfoldunfold/state"
+
+switch 11:
+  - platform: mqtt
+    name: moveleft
+    command_topic: "lupe/moveleft"
+    state_topic: "lupe/moveleft/state"
+
+switch 12:
+  - platform: mqtt
+    name: headleftright
+    command_topic: "lupe/headleftright"
+    state_topic: "lupe/headleftright/state"
+
+switch 13:
+  - platform: mqtt
+    name: moveforward
+    command_topic: "lupe/moveforward"
+    state_topic: "lupe/moveforward/state"
+
+switch 14:
+  - platform: mqtt
+    name: movestop
+    command_topic: "lupe/movestop"
+    state_topic: "lupe/movestop/state"
+
+switch 15:
+  - platform: mqtt
+    name: movebackward
+    command_topic: "lupe/movebackward"
+    state_topic: "lupe/movebackward/state"
 
 media_player:
   - platform: vlc
@@ -269,22 +417,28 @@ group:
   default_view:
     view: yes
     entities:
+      - group.technical
       - group.entrance
       - group.selfies
-      - group.technical
+
   # Views
+
   lupeview:
     view: yes
     name: Lupe Robot
     entities:
-      - group.lupelearning
-      - group.lupeactions
+      - group.lupeactionsarms
+      - group.lupeactionslegs
       - group.lupeactivities
+      - group.lupelearning
+
   audioview:
     view: yes
     name: Audio
     entities: group.audio
+
   # Groups
+
   technical:
     name: Technical Center
     entities:
@@ -302,20 +456,38 @@ group:
     - switch.preview
     - switch.latest
     - switch.loop
+
+  lupeactionsarms:
+    name: Actions Arms
+    entities:
+    #- script.lupe_arm_left
+    #- script.lupe_arm_right
+    - switch.leftupdown
+    - switch.leftfoldunfold
+    - switch.rightupdown
+    - switch.rightfoldunfold
+  lupeactionslegs:
+    name: Actions Legs
+    entities:
+    - switch.moveleft
+    - switch.moveright
+    - switch.moveforward
+    - switch.movebackward
+  lupeactivities:
+    name: Activities
+    entities:
+    #- script.lupe_dance
+    - switch.bienvenida
+    - switch.agradece
+    - switch.dance
+    - switch.creador
+    - switch.norte
   lupelearning:
     name: Learning
     entities:
     - script.presentation
     - script.recognize
-  lupeactions:
-    name: Actions
-    entities:
-    - script.lupe_arm_left
-    - script.lupe_arm_right
-  lupeactivities:
-    name: Activities
-    entities:
-    - script.lupe_dance
+
   audio:
     name: Audio
     entities:
