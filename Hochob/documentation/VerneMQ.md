@@ -78,3 +78,14 @@ Setting up mosquitto-clients (1.4.8-1build2) ...
 Processing triggers for libc-bin (2.24-3ubuntu2) ...
 hochob@server:~$ 
 ```
+
+```sh
+hochob@server:~$ mosquitto_sub -h 127.0.0.1 -p 1883 -t IoT101/#
+Hello All Operators!
+
+```
+
+```sh
+hochob@server:~$ mosquitto_pub -h 127.0.0.1 -p 1883 -t IoT101/all -m "Hello All Operators!"
+hochob@server:~$ 
+```
