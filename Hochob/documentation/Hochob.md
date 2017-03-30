@@ -45,7 +45,7 @@
 
 ## Audio
 
-- __Codename__:  Mixba’al, Zero
+- __Codename__: Juum, Sonido | Mixba’al, Zero
 - Chromecast Audio
 
 # Robot
