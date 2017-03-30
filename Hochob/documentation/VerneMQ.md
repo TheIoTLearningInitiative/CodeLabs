@@ -27,3 +27,9 @@ hochob@server:~/Downloads$ dpkg -s vernemq | grep Status
 Status: install ok installed
 hochob@server:~/Downloads$ 
 ```
+
+```sh
+hochob@server:~/Downloads$ service vernemq start
+hochob@server:~/Downloads$ 
+```
+
