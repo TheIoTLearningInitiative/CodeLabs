@@ -112,7 +112,6 @@
       * [Automatic Startup](Hochob/documentation/HomeAssistantAutomaticStartup.md)
     * [Pulse Audio](Hochob/documentation/PulseAudio.md)
     * [Chromecast](Hochob/documentation/Chromecast.md)
-    * [Cametra](Hochob/documentation/cametra.md)
   * [Mobile Device](Hochob/documentation/MobileDevice.md)
   * [Lupe Robot](Hochob/documentation/LupeRobot.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
