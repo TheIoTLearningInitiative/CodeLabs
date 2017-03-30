@@ -44,3 +44,28 @@ hochob@server:~/Downloads$
 ```sh
 hochob@server:~$ sudo nano /etc/vernemq/vernemq.conf
 ```
+
+```sh
+## Allow anonymous users to connect, default is 'off'
+##
+## Default: off
+##
+## Acceptable values:
+##   - on or off
+allow_anonymous = on
+```
+
+# Clients
+
+hochob@server:~$ sudo apt-get install mosquitto-clients
+Reading package lists... Done
+...
+The following NEW packages will be installed:
+  libc-ares2 libmosquitto1 mosquitto-clients
+...
+Setting up libc-ares2:amd64 (1.11.0-1ubuntu0.1) ...
+Setting up libmosquitto1:amd64 (1.4.8-1build2) ...
+Setting up mosquitto-clients (1.4.8-1build2) ...
+Processing triggers for libc-bin (2.24-3ubuntu2) ...
+hochob@server:~$ 
+```
