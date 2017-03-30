@@ -40,12 +40,13 @@
 # Digital Media Players
 
 ## Video
+
 - __Codename__: Eek', Estrella
 - Chromecast
 
 ## Audio
 
-- __Codename__: Juum, Sonido | Mixba’al, Zero
+- __Codename__: Juum, Sonido
 - Chromecast Audio
 
 # Robot
