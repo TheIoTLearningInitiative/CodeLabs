@@ -55,6 +55,15 @@ hochob@server:~$ sudo nano /etc/vernemq/vernemq.conf
 allow_anonymous = on
 ```
 
+```sh
+hochob@server:~$ sudo vernemq restart
+ok
+!!!!
+!!!! WARNING: ulimit -n is 1024; 65536 is the recommended minimum.
+!!!!
+hochob@server:~$ 
+```
+
 # Clients
 
 hochob@server:~$ sudo apt-get install mosquitto-clients
