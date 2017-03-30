@@ -39,6 +39,8 @@ vernemq: /usr/sbin/vernemq /usr/lib/vernemq /etc/vernemq /usr/share/vernemq
 hochob@server:~/Downloads$ 
 ```
 
+# Configuration
+
 ```sh
 hochob@server:~$ sudo nano /etc/vernemq/vernemq.conf
 ```
