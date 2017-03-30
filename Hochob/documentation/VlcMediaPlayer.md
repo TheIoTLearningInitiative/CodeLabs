@@ -14,8 +14,6 @@
 - Tools > Preferences > Playlist and Instances > Allow only one instance (Unchecked)
 - Tools > Preferences > Playlist and Instances > Pause on last frame of a video (Checked)
 
-
-
 ## Install
 
 ```sh
