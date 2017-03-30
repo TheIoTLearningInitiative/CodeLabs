@@ -39,11 +39,11 @@
 
 # Digital Media Players
 
-## Audio
+## Video
 - __Codename__: Eek', Estrella
 - Chromecast
 
-## Video
+## Audio
 
 - __Codename__:  Mixba’al, Zero
 - Chromecast Audio
