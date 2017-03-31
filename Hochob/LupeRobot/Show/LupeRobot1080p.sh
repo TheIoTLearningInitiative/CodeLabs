@@ -1,10 +1,10 @@
 #!/bin/sh
 
-pacmd "set-default-sink 1"
+#pacmd "set-default-sink 1"
 
 sleep 1
 
-echo hola a todos | espeak -v es-la -a 200
+echo "hola a todos" | espeak -v es-la -a 200
 cvlc --no-video-title-show --fullscreen /home/hochob/LupeRobot/1080p/Parte1_v3.mp4 &
 (sleep 7.5) && echo "Perdon! Lo se!, Es que me emociono" | espeak -v es-la -a 200
 cvlc --no-video-title-show --fullscreen /home/hochob/LupeRobot/1080p/Parte2_v2.mp4 &
