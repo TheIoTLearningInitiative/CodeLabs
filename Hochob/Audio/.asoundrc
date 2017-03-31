@@ -1,0 +1,43 @@
+pcm.!default {
+        type asym
+        playback.pcm {
+                type plug
+                slave.pcm "hw:1,0"
+        }
+        capture.pcm {
+                type plug
+                slave.pcm "hw:2,0"
+        }
+}
+
+#pcm.pulse {
+#    type pulse
+#}
+
+#ctl.pulse {
+#    type pulse
+#}
+
+#pcm.!default {
+#    type pulse
+#}
+
+#ctl.!default {
+#    type pulse 
+#}
+
+#pcm.pulse_monitor {
+#  type pulse
+#  device alsa_card.usb-Microsoft_Microsoft___LifeCam_Studio_TM_-02
+#}
+
+#ctl.pulse_monitor {
+#  type pulse
+#  device alsa_card.usb-Microsoft_Microsoft___LifeCam_Studio_TM_-02
+#}
+
+#pcm.dsp {
+#   type plug
+#   slave.pcm "dmix"
+#}
+
