@@ -1,7 +1,7 @@
 # Audio
 
-- [](https://github.com/xe1gyq/pychromecast)
-- [](https://github.com/xe1gyq/stream2chromecast)
+- [Library for Python 2 and 3 to communicate with the Google Chromecast](https://github.com/xe1gyq/pychromecast)
+- [Chromecast media streamer for Linux](https://github.com/xe1gyq/stream2chromecast)
 
 # Lame
 
