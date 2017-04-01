@@ -117,6 +117,7 @@
     * [Amikoo](Hochob/documentation/Amikoo.md)
       * [Setup](Hochob/documentation/AmikooSetup.md)
       * [Git Repositories](Hochob/documentation/AmikooGitRepositories.md)
+      * [Main x86](Hochob/documentation/AmikooMainx86.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
   * [WRI Workshop](Kaminaljuyu/documentation/WriWorkshop.md)

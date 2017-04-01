@@ -1,4 +1,4 @@
-# Git Repositories
+e# Git Repositories
 
 ```sh
 root@edison:~# git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
@@ -22,7 +22,7 @@ root@edison:~# cd CodeLabs/
 > Audio as a Service
 
 ```sh
-root@edison:~/CodeLabs# sh scripts/setup.sh ChichenItza
+root@edison:~/CodeLabars# sh scripts/setup.sh ChichenItza
 ```
 
 # Acat Project
