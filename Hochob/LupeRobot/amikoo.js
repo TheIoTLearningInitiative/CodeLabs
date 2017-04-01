@@ -6,6 +6,7 @@ var state = 'closed'
 client.on('connect', function () {  
   client.subscribe('lupe/open')
   client.subscribe('lupe/close')
+  client.subscribe('lupe/bienvenida')
 
   client.publish('garage/connected', 'true')
   sendStateUpdate()
@@ -15,9 +16,11 @@ client.on('message', function (topic, message) {
   console.log('Received message %s %s', topic, message)
   switch (topic) {
     case 'lupe/open':
-      return handleOpenRequest(message)
+      return handleRequestOpen(message)
     case 'lupe/close':
-      return handleCloseRequest(message)
+      return handleRequestClose(message)
+    case 'lupe/bienvenida':
+      return handleRequestBienvenida(message)
   }
 })
 
@@ -26,7 +29,7 @@ function sendStateUpdate () {
   client.publish('lupe/state', state)
 }
 
-function handleOpenRequest (message) {  
+function handleRequestOpen (message) {  
   if (state !== 'open' && state !== 'opening') {
     console.log('Opening Lupe')
     state = 'opening'
@@ -39,7 +42,7 @@ function handleOpenRequest (message) {
   }
 }
 
-function handleCloseRequest (message) {  
+function handleRequestClose (message) {  
   if (state !== 'closed' && state !== 'closing') {
     state = 'closing'
     sendStateUpdate()
