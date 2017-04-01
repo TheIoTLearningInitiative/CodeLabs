@@ -120,6 +120,7 @@
       * [Audio](Hochob/documentation/AmikooAudio.md)
       * [Main Intel Edison](Hochob/documentation/AmikooMainxIntelEdison.md)
       * [Main x86](Hochob/documentation/AmikooMainx86.md)
+    * [Sandbox](Hochob/documentation/LupeRobotSandbox.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
   * [WRI Workshop](Kaminaljuyu/documentation/WriWorkshop.md)
