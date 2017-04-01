@@ -25,8 +25,21 @@ CodeLabs  node_modules
 root@edison:~# cd CodeLabs/Hochob/LupeRobot/
 root@edison:~/CodeLabs/Hochob/LupeRobot# ls
 Learning  Sandbox  Show  amikoo.js  command.js  ispeak.js
+```
+
+```sh
 root@edison:~/CodeLabs/Hochob/LupeRobot# node amikoo.js 
 (node) sys is deprecated. Use util instead.
 Sending state closed
+Received message lupe/say yes it is
+<Buffer 79 65 73 20 69 74 20 69 73>
+(node) util.puts is deprecated. Use console.log instead.
 
+Received message lupe/leftup yes it is
+Left Up
+Left Up
+
+Received message lupe/leftdown yes it is
+Left Down
+Left Down
 ```
