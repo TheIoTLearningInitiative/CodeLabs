@@ -118,6 +118,7 @@
       * [Setup](Hochob/documentation/AmikooSetup.md)
       * [Git Repositories](Hochob/documentation/AmikooGitRepositories.md)
       * [Main x86](Hochob/documentation/AmikooMainx86.md)
+      * [Main Intel Edison](Hochob/documentation/AmikooMainxIntelEdison.md)
       * [Audio](Hochob/documentation/AmikooAudio.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
