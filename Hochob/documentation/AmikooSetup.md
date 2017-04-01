@@ -1,6 +1,12 @@
 # Setup
 
+```sh
+[  OK  ] Started Redis Server.
 
+Poky (Yocto Project Reference Distro) 1.7.3 edison ttyMFD2
+
+edison login: 
+```
 
 # Password
 
