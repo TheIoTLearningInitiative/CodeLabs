@@ -16,8 +16,11 @@ var state = 'closed'
 client.on('connect', function () {  
   client.subscribe('lupe/open')
   client.subscribe('lupe/close')
+  client.subscribe('lupe/say')
   client.subscribe('lupe/bienvenida')
-
+  client.subscribe('lupe/leftup')
+  client.subscribe('lupe/leftdown')
+  
   client.publish('garage/connected', 'true')
   sendStateUpdate()
 })
@@ -29,8 +32,14 @@ client.on('message', function (topic, message) {
       return handleRequestOpen(message)
     case 'lupe/close':
       return handleRequestClose(message)
+    case 'lupe/say':
+      return handleRequestSay(message)
     case 'lupe/bienvenida':
-      return handleRequestBienvenida(message)
+      return handleRequestBienvenida('Welcome')
+    case 'lupe/leftup':
+      return handleLupe('Left Up')
+    case 'lupe/leftdown':
+      return handleLupe('Left Down')
   }
 })
 
@@ -65,6 +74,17 @@ function handleRequestClose (message) {
       sendStateUpdate()
     }, 5000)
   }
+}
+
+function handleRequestSay (message) {  
+    espeak(message)
+}
+
+function handleLupe (message) {  
+
+  console.log(message)
+  espeak(message)
+
 }
 
 function handleAppExit (options, err) {  
