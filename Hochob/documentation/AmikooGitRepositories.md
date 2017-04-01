@@ -25,6 +25,14 @@ root@edison:~# cd CodeLabs/
 root@edison:~/CodeLabars# sh scripts/setup.sh ChichenItza
 ```
 
+# Chicanna
+
+> Camera as a Service
+
+```sh
+root@edison:~/CodeLabs# sh scripts/setup.sh Chicanna
+```
+
 # Acat Project
 
 > IBM Node-Red
@@ -32,3 +40,4 @@ root@edison:~/CodeLabars# sh scripts/setup.sh ChichenItza
 ```sh
 root@edison:~/CodeLabs# sh scripts/setup.sh ChichenItza
 ```
+
