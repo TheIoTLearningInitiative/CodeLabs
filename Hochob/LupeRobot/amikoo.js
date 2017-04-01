@@ -7,7 +7,6 @@ var exec = require('child_process').exec;
 function puts(error, stdout, stderr) { sys.puts(stdout) }
 
 function espeak(phrase) {
-  console.log(phrase)
   exec("echo " + phrase + " | espeak", puts);
 }
 
@@ -17,11 +16,34 @@ client.on('connect', function () {
   client.subscribe('lupe/open')
   client.subscribe('lupe/close')
   client.subscribe('lupe/say')
-  client.subscribe('lupe/bienvenida')
+
+  client.subscribe('lupe/resetall')
+  client.subscribe('lupe/headleft')
+  client.subscribe('lupe/headright')
+
   client.subscribe('lupe/leftup')
   client.subscribe('lupe/leftdown')
+  client.subscribe('lupe/leftfold')
+  client.subscribe('lupe/leftunfold')
+
+  client.subscribe('lupe/rightup')
+  client.subscribe('lupe/rightdown')
+  client.subscribe('lupe/rightfold')
+  client.subscribe('lupe/rightunfold')
+
+  client.subscribe('lupe/moveleft')
+  client.subscribe('lupe/moveright')
+  client.subscribe('lupe/moveforward')
+  client.subscribe('lupe/movebackward')
+  client.subscribe('lupe/movestop')
+
+  client.subscribe('lupe/bienvenida')
+  client.subscribe('lupe/agradece')
+  client.subscribe('lupe/dance')
+  client.subscribe('lupe/creador')
+  client.subscribe('lupe/norte')
   
-  client.publish('garage/connected', 'true')
+  client.publish('lupe/connected', 'true')
   sendStateUpdate()
 })
 
@@ -34,12 +56,54 @@ client.on('message', function (topic, message) {
       return handleRequestClose(message)
     case 'lupe/say':
       return handleRequestSay(message)
-    case 'lupe/bienvenida':
-      return handleRequestBienvenida('Welcome')
+
+    case 'lupe/resetall':
+      return handleLupe('Resetting Lupe Robot')
+    case 'lupe/headleft':
+      return handleLupe('Head Left')
+    case 'lupe/headright':
+      return handleLupe('Head Right')
+
     case 'lupe/leftup':
       return handleLupe('Left Up')
     case 'lupe/leftdown':
       return handleLupe('Left Down')
+    case 'lupe/leftfold':
+      return handleLupe('Left Fold')
+    case 'lupe/leftunfold':
+      return handleLupe('Left Unfold')
+
+    case 'lupe/rightup':
+      return handleLupe('Right Up')
+    case 'lupe/rightdown':
+      return handleLupe('Right Down')
+    case 'lupe/rightfold':
+      return handleLupe('Right Fold')
+    case 'lupe/rightunfold':
+      return handleLupe('Right Unfold')
+
+    case 'lupe/moveleft':
+      return handleLupe('Move Left')
+    case 'lupe/moveright':
+      return handleLupe('Move Right')
+    case 'lupe/moveforward':
+      return handleLupe('Move Forward')
+    case 'lupe/movebackward':
+      return handleLupe('Move Backward')
+    case 'lupe/movestop':
+      return handleLupe('Move Stop')
+
+    case 'lupe/bienvenida':
+      return handleLupe('Welcome')
+    case 'lupe/agradece':
+      return handleLupe('Thanks')
+    case 'lupe/dance':
+      return handleLupe('Dance')
+    case 'lupe/creador':
+      return handleLupe('Creator')
+    case 'lupe/norte':
+      return handleLupe('North')
+
   }
 })
 
@@ -81,8 +145,6 @@ function handleRequestSay (message) {
 }
 
 function handleLupe (message) {  
-
-  console.log(message)
   espeak(message)
 
 }
