@@ -4,7 +4,57 @@
 
 - Make package to start automatically?
 
-# Audio
+# stream2chromecast
+
+```sh
+hochob@server:~$ cd CodeLabs/Hochob/Audio/
+hochob@server:~/CodeLabs/Hochob/Audio$ ls
+SectionOne.sh  SectionThree.sh  SectionTwo.sh
+hochob@server:~/CodeLabs/Hochob/Audio$ git clone https://github.com/Pat-Carter/stream2chromecast
+Cloning into 'stream2chromecast'...
+remote: Counting objects: 317, done.
+remote: Total 317 (delta 0), reused 0 (delta 0), pack-reused 317
+Receiving objects: 100% (317/317), 129.82 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (172/172), done.
+Checking connectivity... done.
+hochob@server:~/CodeLabs/Hochob/Audio$ 
+```
+
+```sh
+hochob@server:~/CodeLabs/Hochob/Audio$ cd stream2chromecast/
+hochob@server:~/CodeLabs/Hochob/Audio/stream2chromecast$ ls
+cc_device_finder.py  cc_media_controller.py  cc_message.py  LICENSE  README.md  stream2chromecast.py
+hochob@server:~/CodeLabs/Hochob/Audio/stream2chromecast$ 
+```
+
+```sh
+hochob@server:~/stream2chromecast$ python stream2chromecast.py ~/Audio/SectionOne.mp3 
+
+-----------------------------------------
+
+Stream2Chromecast version:0.6.3
+
+Copyright (C) 2014-2016 Pat Carter
+GNU General Public License v3.0
+https://www.gnu.org/licenses/gpl-3.0.html
+
+-----------------------------------------
+
+searching the network for a Chromecast device
+device name: Hochob
+source is file: /home/hochob/Audio/SectionOne.mp3
+local ip address: 192.168.1.109
+OS identifies the mimetype as : audio/mpeg
+URL & content-type:  http://192.168.1.109:38801?/home/hochob/Audio/SectionOne.mp3 audio/mpeg
+loading media...
+192.168.1.101 - - [28/Mar/2017 11:53:15] "GET /?/home/hochob/Audio/SectionOne.mp3 HTTP/1.1" 200 -
+sending data
+waiting for player to finish - press ctrl-c to stop...
+done
+hochob@server:~/CodeLabs/Hochob/Audio/stream2chromecast$ 
+```
+
+# Pulseaudio
 
 ```sh
 hochob@server:~$ sudo apt-get install pulseaudio-dlna
@@ -62,56 +112,6 @@ hochob@server:~$ pacmd list-sink-inputs
 
 ```sh
 hochob@server:~$ pacmd move-sink-input 1 2
-```
-
-# stream2chromecast
-
-```sh
-hochob@server:~$ cd CodeLabs/Hochob/Audio/
-hochob@server:~/CodeLabs/Hochob/Audio$ ls
-SectionOne.sh  SectionThree.sh  SectionTwo.sh
-hochob@server:~/CodeLabs/Hochob/Audio$ git clone https://github.com/Pat-Carter/stream2chromecast
-Cloning into 'stream2chromecast'...
-remote: Counting objects: 317, done.
-remote: Total 317 (delta 0), reused 0 (delta 0), pack-reused 317
-Receiving objects: 100% (317/317), 129.82 KiB | 0 bytes/s, done.
-Resolving deltas: 100% (172/172), done.
-Checking connectivity... done.
-hochob@server:~/CodeLabs/Hochob/Audio$ 
-```
-
-```sh
-hochob@server:~/CodeLabs/Hochob/Audio$ cd stream2chromecast/
-hochob@server:~/CodeLabs/Hochob/Audio/stream2chromecast$ ls
-cc_device_finder.py  cc_media_controller.py  cc_message.py  LICENSE  README.md  stream2chromecast.py
-hochob@server:~/CodeLabs/Hochob/Audio/stream2chromecast$ 
-```
-
-```sh
-hochob@server:~/stream2chromecast$ python stream2chromecast.py ~/Audio/SectionOne.mp3 
-
------------------------------------------
-
-Stream2Chromecast version:0.6.3
-
-Copyright (C) 2014-2016 Pat Carter
-GNU General Public License v3.0
-https://www.gnu.org/licenses/gpl-3.0.html
-
------------------------------------------
-
-searching the network for a Chromecast device
-device name: Hochob
-source is file: /home/hochob/Audio/SectionOne.mp3
-local ip address: 192.168.1.109
-OS identifies the mimetype as : audio/mpeg
-URL & content-type:  http://192.168.1.109:38801?/home/hochob/Audio/SectionOne.mp3 audio/mpeg
-loading media...
-192.168.1.101 - - [28/Mar/2017 11:53:15] "GET /?/home/hochob/Audio/SectionOne.mp3 HTTP/1.1" 200 -
-sending data
-waiting for player to finish - press ctrl-c to stop...
-done
-hochob@server:~/CodeLabs/Hochob/Audio/stream2chromecast$ 
 ```
 
 ## Create MP3 Files
