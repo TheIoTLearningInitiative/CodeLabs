@@ -3,7 +3,7 @@
 # Lame
 
 ```sh
-hochob@server:~# sudo apt-get install lame
+hochob@server:~$ sudo apt-get install lame
 ```
 
 # Text To Speech
