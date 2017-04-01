@@ -9,7 +9,7 @@ hochob@server:~$ sudo apt-get install lame
 # Text To Speech
 
 ```sh
-root@kali:~/CodeLabs/ChichenItza/tts# nano mainvrss.py
+hochob@server:~/CodeLabs/ChichenItza/tts# nano mainvrss.py
 ```
 
 ```python
@@ -42,4 +42,36 @@ player = subprocess.Popen(["aplay", file])
 root@kali:~/CodeLabs/ChichenItza/tts# python mainvrss.py
 Playing WAVE 'audio.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
 root@kali:~/CodeLabs/ChichenItza/tts# 
+```
+
+# Wav to Mp3
+
+```sh
+hochob@server:~/CodeLabs/ChichenItza/tts# lame -V2 audio.wav audio.mp3
+LAME 3.99.5 64bits (http://lame.sf.net)
+Using polyphase lowpass filter, transition band: 18671 Hz - 19205 Hz
+Encoding audio.wav to audio.mp3
+Encoding as 44.1 kHz j-stereo MPEG-1 Layer III VBR(q=2)
+    Frame          |  CPU time/estim | REAL time/estim | play/CPU |    ETA 
+   859/859   (100%)|    0:00/    0:00|    0:00/    0:00|   68.263x|    0:00 
+ 32 [100] *********************************************
+ 40 [  0] 
+ 48 [  0] 
+ 56 [ 21] **********
+ 64 [152] ********************************************************************
+ 80 [321] **********************************************************************************************************************************************
+ 96 [167] **************************************************************************
+112 [ 59] ***************************
+128 [ 27] ************
+160 [ 10] *****
+192 [  1] *
+224 [  1] *
+256 [  0] 
+320 [  0] 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+   kbps        MS  %     long switch short %
+   79.0      100.0        85.2   8.0   6.8
+Writing LAME Tag...done
+ReplayGain: -1.5dB
+hochob@server:~/CodeLabs/ChichenItza/tts# 
 ```
