@@ -8,7 +8,6 @@ user@workstation:~$ sudo npm install espeak --save
 ```
 
 ```sh
-```sh
 user@workstation:~# git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
 Cloning into 'CodeLabs'...
 remote: Counting objects: 14879, done.
@@ -21,11 +20,22 @@ user@workstation:~#
 ```
 
 ```sh
-pymelab@workstation:~/CodeLabs/Hochob/LupeRobot$ ls
+user@workstation:~/CodeLabs/Hochob/LupeRobot$ ls
 amikoo.js  command.js  ispeak.js  Learning  Sandbox  Show
-pymelab@workstation:~/CodeLabs/Hochob/LupeRobot$ 
+user@workstation:~/CodeLabs/Hochob/LupeRobot$ 
 ```
 
 ```sh
+user@workstation:~/CodeLabs/Hochob/LupeRobot$ nodejs amikoo.js 
+Sending state closed
+Received message lupe/say yes it is
+<Buffer 79 65 73 20 69 74 20 69 73>
 
+Received message lupe/leftup yes it is
+Left Up
+Left Up
+
+Received message lupe/leftdown yes it is
+Left Down
+Left Down
 ```
