@@ -114,6 +114,7 @@
     * [VerneMQ](Hochob/documentation/VerneMQ.md)
   * [Mobile Device](Hochob/documentation/MobileDevice.md)
   * [Lupe Robot](Hochob/documentation/LupeRobot.md)
+    * [Architecture](Hochob/documentation/Architecture.md)
     * [Amikoo](Hochob/documentation/Amikoo.md)
       * [Setup](Hochob/documentation/AmikooSetup.md)
       * [Git Repositories](Hochob/documentation/AmikooGitRepositories.md)
