@@ -2,7 +2,7 @@
 
 # Issues
 
-- Make package to start
+- Make package to start automatically?
 
 # Audio
 

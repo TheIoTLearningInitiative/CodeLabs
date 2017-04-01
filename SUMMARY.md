@@ -101,6 +101,8 @@
   * [Google Cloud Speech](EkBalam/documentation/GoogleCloudSpeech.md)
 * [Hochob](Hochob/documentation/Hochob.md)
   * [Accounts](Hochob/documentation/Accounts.md)
+  * Digital Media Players
+    * [Chromecast](Hochob/documentation/Chromecast.md)
   * [Server](Hochob/documentation/Server.md)
     * [Pulse Audio](Hochob/documentation/PulseAudio.md)
     * [Audio](Hochob/documentation/Audio.md)
