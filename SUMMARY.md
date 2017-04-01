@@ -109,11 +109,11 @@
     * [VLC Media Player](Hochob/documentation/VlcMediaPlayer.md)
     * [Plex](Hochob/documentation/Plex.md)
     * [Telegram](Hochob/documentation/Telegram.md)
+    * [USB](Hochob/documentation/USB.md)
     * [Camera](Hochob/documentation/Camera.md)
     * [Photography](Hochob/documentation/Photography.md)
     * [Video](Hochob/documentation/Video.md)
-    * [HomeAssistant](Hochob/documentation/HomeAssistant.md)
-      * [Automatic Startup](Hochob/documentation/HomeAssistantAutomaticStartup.md)
+    * USB
   * [Mobile Device](Hochob/documentation/MobileDevice.md)
   * [Lupe Robot](Hochob/documentation/LupeRobot.md)
     * [Architecture](Hochob/documentation/LupeRobotArchitecture.md)
