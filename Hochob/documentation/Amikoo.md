@@ -5,6 +5,6 @@
 
 Components
 
-- [Intel Edison]()
+- [Intel® Edison Compute Module](https://www.sparkfun.com/products/13024)
 - [Sparkfun Base Block](https://www.sparkfun.com/products/13045)
 - Intel® Edison Module Firmware Software Release 3.5
