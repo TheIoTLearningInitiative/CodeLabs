@@ -16,4 +16,5 @@ Software
 
 - [Intel® Edison Module Firmware Software Release 3.5](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 - [Project Chichen Itza .. Audio as a Service](https://theiotlearninginitiative.gitbooks.io/codelabs/content/ChichenItza/documentation/ChichenItza.html)
+- [Project Chicanna .. Camera as a Service](https://theiotlearninginitiative.gitbooks.io/codelabs/content/Chicanna/documentation/Chicanna.html)
 - [Project Acat .. IBM Node-Red](https://theiotlearninginitiative.gitbooks.io/codelabs/content/Gods/Acat/documentation/Acat.html)
