@@ -19,3 +19,13 @@ Resolving deltas: 100% (8539/8539), done.
 Checking connectivity... done.
 user@workstation:~# 
 ```
+
+```sh
+pymelab@workstation:~/CodeLabs/Hochob/LupeRobot$ ls
+amikoo.js  command.js  ispeak.js  Learning  Sandbox  Show
+pymelab@workstation:~/CodeLabs/Hochob/LupeRobot$ 
+```
+
+```sh
+
+```
