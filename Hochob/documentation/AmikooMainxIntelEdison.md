@@ -27,6 +27,8 @@ root@edison:~/CodeLabs/Hochob/LupeRobot# ls
 Learning  Sandbox  Show  amikoo.js  command.js  ispeak.js
 ```
 
+# Testing
+
 ```sh
 user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t lupe/say -m "yes it is"
 user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t lupe/leftup -m "yes it is"
