@@ -1,10 +1,18 @@
+set -x
+
 killall -9 stream2chromecast.py
 
-cd /home/hochob/CodeLabs/Hochob/Audio/stream2chromecast
+IAM=`whoami`
 
-./stream2chromecast.py -devicename "Juum" /home/hochob/Audio/SectionThree.mp3
-./stream2chromecast.py -devicename "Juum" -stop
+if [ "$IAM" == "root" ]; then
+        IPATH="/"$IAM"/"
+	cd $IPATH/CodeLabs/Hochob/Audio/stream2chromecast
+        DEVICE="Juum"
+else
+        IPATH="/home/"$IAM"/"
+	cd $IPATH/CodeLabs/Hochob/Audio/stream2chromecast
+        DEVICE="Juum"
+fi
 
-#python stream2chromecast.py -devicename "Juum" /home/hochob/Audio/SectionThree01.mp3
-#python stream2chromecast.py -devicename "Juum" /home/hochob/Audio/SectionThree02.mp3
-#python stream2chromecast.py -devicename "Juum" /home/hochob/Audio/SectionThree03.mp3
+./stream2chromecast.py -devicename $DEVICE $IPATH/Audio/SectionThree.mp3
+./stream2chromecast.py -devicename $DEVICE -stop

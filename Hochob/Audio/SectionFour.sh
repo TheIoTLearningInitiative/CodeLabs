@@ -14,5 +14,5 @@ else
         DEVICE="Juum"
 fi
 
-./stream2chromecast.py -devicename $DEVICE $IPATH/Audio/SectionTwo.mp3
+./stream2chromecast.py -devicename $DEVICE $IPATH/Audio/SectionFour.mp3
 ./stream2chromecast.py -devicename $DEVICE -stop
