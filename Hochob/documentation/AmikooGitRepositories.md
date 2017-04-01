@@ -11,3 +11,20 @@ Resolving deltas: 100% (8539/8539), done.
 Checking connectivity... done.
 root@edison:~# 
 ```
+
+```sh
+root@edison:~# 
+root@edison:~# cd CodeLabs/
+```
+
+# Chichen Itza Project
+
+```sh
+root@edison:~/CodeLabs# sh scripts/setup.sh ChichenItza
+```
+
+# Acat Project
+
+```sh
+root@edison:~/CodeLabs# sh scripts/setup.sh ChichenItza
+```
