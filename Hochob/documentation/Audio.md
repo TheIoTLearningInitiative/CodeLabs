@@ -1,5 +1,11 @@
 # Audio
 
+# Lame
+
+```sh
+hochob@server:~# sudo apt-get install lame
+```
+
 # Text To Speech
 
 ```sh
