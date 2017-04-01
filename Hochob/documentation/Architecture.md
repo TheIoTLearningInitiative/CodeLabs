@@ -12,4 +12,5 @@
 > 16-channel, 12-bit PWM Fm+ I2C-bus LED controller
 
 - [](https://learn.adafruit.com/adafruit-16-channel-servo-driver-with-raspberry-pi/hooking-it-up?view=all)
+- [](https://www.adafruit.com/product/815)
 - [PCA9685 Product Data Sheet](https://cdn-shop.adafruit.com/datasheets/PCA9685.pdf)
