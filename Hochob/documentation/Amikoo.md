@@ -1,5 +1,7 @@
 # Amikoo
 
+- ToDo Optimization in shutting down unrequired services
+
 # Components
 
 Hardware
