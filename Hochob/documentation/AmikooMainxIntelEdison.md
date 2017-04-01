@@ -19,3 +19,14 @@ root@edison:~# npm install mqtt --save
 root@edison:~# 
 ```
 
+```sh
+root@edison:~# ls
+CodeLabs  node_modules
+root@edison:~# cd CodeLabs/Hochob/LupeRobot/
+root@edison:~/CodeLabs/Hochob/LupeRobot# ls
+Learning  Sandbox  Show  amikoo.js  command.js  ispeak.js
+root@edison:~/CodeLabs/Hochob/LupeRobot# node amikoo.js 
+(node) sys is deprecated. Use util instead.
+Sending state closed
+
+```
