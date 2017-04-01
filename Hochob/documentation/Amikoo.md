@@ -16,3 +16,4 @@ Hardware
 Software
 
 - [Intel® Edison Module Firmware Software Release 3.5](https://software.intel.com/en-us/iot/hardware/edison/downloads)
+

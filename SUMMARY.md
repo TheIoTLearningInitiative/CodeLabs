@@ -115,6 +115,7 @@
   * [Mobile Device](Hochob/documentation/MobileDevice.md)
   * [Lupe Robot](Hochob/documentation/LupeRobot.md)
     * [Amikoo](Hochob/documentation/Amikoo.md)
+      * [Setup](Hochob/documentation/AmikooSetup.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
   * [WRI Workshop](Kaminaljuyu/documentation/WriWorkshop.md)
