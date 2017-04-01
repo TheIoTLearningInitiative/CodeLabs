@@ -7,6 +7,5 @@
 
 # Chrome Browser
 
-- Add Hochob HomeAssistant link to Main Window
+- Add Hochob HomeAssistant Bookmark link to Main Window
 - Add Hochob Plex Server link to Main Window
-- Add Chrome to Main Window
