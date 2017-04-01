@@ -1,5 +1,9 @@
 # Audio
 
+- ToDo Implement Pause and Continue
+
+# Software Components
+
 - [Library for Python 2 and 3 to communicate with the Google Chromecast](https://github.com/xe1gyq/pychromecast)
 - [Chromecast media streamer for Linux](https://github.com/xe1gyq/stream2chromecast)
 
