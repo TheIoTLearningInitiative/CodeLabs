@@ -31,6 +31,8 @@ user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t lupe/leftup -m "
 user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t lupe/leftdown -m "yes it is"
 ```
 
+# Testing
+
 ```sh
 user@workstation:~/CodeLabs/Hochob/LupeRobot$ nodejs amikoo.js 
 Sending state closed
