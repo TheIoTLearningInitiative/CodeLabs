@@ -19,11 +19,15 @@ root@edison:~# cd CodeLabs/
 
 # Chichen Itza Project
 
+> Audio as a Service
+
 ```sh
 root@edison:~/CodeLabs# sh scripts/setup.sh ChichenItza
 ```
 
 # Acat Project
+
+> IBM Node-Red
 
 ```sh
 root@edison:~/CodeLabs# sh scripts/setup.sh ChichenItza
