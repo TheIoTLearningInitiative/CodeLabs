@@ -110,10 +110,10 @@ homeassistant:
     friendly_name: Audio Cast Section Four
     icon: audiobook
    script.audiopause:
-    friendly_name: Audio Cast Pause
+    friendly_name: Pause
     icon: pause
    script.audioplay:
-    friendly_name: Audio Cast Play
+    friendly_name: Play
     icon: play
 
    # Hidden
@@ -272,14 +272,14 @@ script:
 shell_command:
   restart_ha: sudo systemctl restart home-assistant.service &
   selfie: python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
-  presentation: sh /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Presentation/Presentation.sh &
-  recognize: sh /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Recognize/Recognize.sh &
-  audiosectionone: sh /home/hochob/CodeLabs/Hochob/Audio/SectionOne.sh &
-  audiosectiontwo: sh /home/hochob/CodeLabs/Hochob/Audio/SectionTwo.sh &
-  audiosectionthree: sh /home/hochob/CodeLabs/Hochob/Audio/SectionThree.sh &
-  audiosectionfour: sh /home/hochob/CodeLabs/Hochob/Audio/SectionFour.sh &
-  audiopause: sh /home/hochob/CodeLabs/Hochob/Audio/Pause.sh &
-  audioplay: sh /home/hochob/CodeLabs/Hochob/Audio/Play.sh &
+  presentation: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Presentation/Presentation.sh &
+  recognize: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Recognize/Recognize.sh &
+  audiosectionone: /home/hochob/CodeLabs/Hochob/Audio/SectionOne.sh &
+  audiosectiontwo: bash /home/hochob/CodeLabs/Hochob/Audio/SectionTwo.sh &
+  audiosectionthree: bash /home/hochob/CodeLabs/Hochob/Audio/SectionThree.sh &
+  audiosectionfour: bash /home/hochob/CodeLabs/Hochob/Audio/SectionFour.sh &
+  audiopause: bash /home/hochob/CodeLabs/Hochob/Audio/Pause.sh &
+  audioplay: bash /home/hochob/CodeLabs/Hochob/Audio/Play.sh &
 
 switch:
   - platform: command_line
@@ -414,8 +414,8 @@ media_player:
 notify:
   - platform: telegram
     name: telegram
-    api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_co
-    chat_id: 166426424
+    api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_oc
+    chat_id: 166426442
 
 automation:
 #  - alias: Lupe Robot Text To Speech
@@ -441,12 +441,13 @@ automation:
         message: "Lupe Robot Station has been activated"
 
 group:
-  default_view:
-    view: yes
-    entities:
-      - group.technical
-      - group.entrance
-      - group.selfies
+
+  #default_view:
+  #  view: yes
+  #  entities:
+  #    - group.technical
+  #    - group.entrance
+  #    - group.selfies
 
   # Views
 
@@ -462,7 +463,9 @@ group:
   audioview:
     view: yes
     name: Audio
-    entities: group.audio
+    entities: 
+      - group.audioexhibits
+      - group.audiocontrols
 
   # Groups
 
@@ -470,12 +473,14 @@ group:
     name: Technical Center
     entities:
     - script.help
+
   entrance:
     name: Welcome Center
     entities:
     - script.welcome
     - switch.lupe
     - switch.lupecomplete
+
   selfies:
     name: Selfies Center
     entities:
@@ -493,6 +498,7 @@ group:
     - switch.leftfoldunfold
     - switch.rightupdown
     - switch.rightfoldunfold
+
   lupeactionslegs:
     name: Actions Legs
     entities:
@@ -500,6 +506,7 @@ group:
     - switch.moveright
     - switch.moveforward
     - switch.movebackward
+
   lupeactivities:
     name: Activities
     entities:
@@ -509,21 +516,23 @@ group:
     - switch.dance
     - switch.creador
     - switch.norte
+
   lupelearning:
     name: Learning
     entities:
     - script.presentation
     - script.recognize
 
-  audio:
-    name: Audio
+  audioexhibits:
+    name: Exhibits
     entities:
     - script.audiosectionone
     - script.audiosectiontwo
     - script.audiosectionthree
     - script.audiosectionfour
+
+  audiocontrols:
+    name: Controls
+    entities:
     - script.audiopause
     - script.audioplay
-
-
-
