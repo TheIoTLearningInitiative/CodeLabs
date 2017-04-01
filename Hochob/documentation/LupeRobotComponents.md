@@ -1,5 +1,3 @@
-# Architecture
-
 # Components
 
 ## TB6612
