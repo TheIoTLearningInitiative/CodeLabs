@@ -5,7 +5,7 @@ function puts(error, stdout, stderr) { sys.puts(stdout) }
 
 function espeak(phrase) {
   console.log(phrase)
+  exec("echo " + phrase + " | espeak", puts);
 }
 
-exec("echo hi | espeak", puts);
-espeak('hello')
+espeak('hi')
