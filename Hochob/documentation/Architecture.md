@@ -4,7 +4,7 @@
 
 ## TB6612
 
-- [TB6612 Product Data Sheet](https://www.sparkfun.com/datasheets/Robotics/TB6612FNG.pdf)
+- [TB6612 Product Data Sheet](http://toshiba.semicon-storage.com/ap-en/product/linear/motordriver/detail.TB6612FNG.html)
 - [Adafruit TB6612 1.2A DC/Stepper Motor Driver Breakout Board](https://learn.adafruit.com/adafruit-tb6612-h-bridge-dc-stepper-motor-driver-breakout/overview)
 - [SparkFun Motor Driver - Dual TB6612FNG (1A)](https://www.sparkfun.com/products/9457)
 
