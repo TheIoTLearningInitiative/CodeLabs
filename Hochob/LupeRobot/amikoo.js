@@ -1,6 +1,16 @@
 const mqtt = require('mqtt')  
 const client = mqtt.connect('mqtt://iot.eclipse.org')
 
+var sys = require('sys')
+var exec = require('child_process').exec;
+
+function puts(error, stdout, stderr) { sys.puts(stdout) }
+
+function espeak(phrase) {
+  console.log(phrase)
+  exec("echo " + phrase + " | espeak", puts);
+}
+
 var state = 'closed'
 
 client.on('connect', function () {  
@@ -33,6 +43,7 @@ function handleRequestOpen (message) {
   if (state !== 'open' && state !== 'opening') {
     console.log('Opening Lupe')
     state = 'opening'
+    espeak('Opening')
     sendStateUpdate()
 
     setTimeout(function (){
@@ -45,6 +56,8 @@ function handleRequestOpen (message) {
 function handleRequestClose (message) {  
   if (state !== 'closed' && state !== 'closing') {
     state = 'closing'
+
+    espeak('Closing')
     sendStateUpdate()
 
     setTimeout(function () {
