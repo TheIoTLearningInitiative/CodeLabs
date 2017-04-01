@@ -58,7 +58,7 @@ client.on('message', function (topic, message) {
       return handleRequestSay(message)
 
     case 'lupe/resetall':
-      return handleLupe('Resetting Lupe Robot')
+      return handleLupe('Reset All')
     case 'lupe/headleft':
       return handleLupe('Head Left')
     case 'lupe/headright':
