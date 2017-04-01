@@ -4,10 +4,12 @@
 
 # Software Components
 
+## Python Libraries
+
 - [Library for Python 2 and 3 to communicate with the Google Chromecast](https://github.com/xe1gyq/pychromecast)
 - [Chromecast media streamer for Linux](https://github.com/xe1gyq/stream2chromecast)
 
-# Lame
+## Lame
 
 ```sh
 hochob@server:~$ sudo apt-get install lame
