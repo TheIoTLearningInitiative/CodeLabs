@@ -6,5 +6,5 @@
 Components
 
 - Intel Edison
-- 
+- [Sparkfun Base Block](https://www.sparkfun.com/products/13045)
 - Intel® Edison Module Firmware Software Release 3.5
