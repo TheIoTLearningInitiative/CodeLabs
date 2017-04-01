@@ -56,5 +56,10 @@ Enter 0 to rescan for networks.
 Enter 1 to exit.
 Enter 2 to input a hidden network SSID.
 Enter a number between 3 to 11 to choose one of the listed network SSIDs: 
-
+Is IOT-Lab correct? [Y or N]: Y
+Password must be between 8 and 63 characters.
+What is the network password?: *****************
+Initiating connection to IOT-Lab. Please wait...
+Attempting to enable network access, please check 'wpa_cli status' after a minute to confirm.
+Done. Please connect your laptop or PC to the same network as this device and go to http://192.168.1.130 or http://edison.local in your browser.
 ```
