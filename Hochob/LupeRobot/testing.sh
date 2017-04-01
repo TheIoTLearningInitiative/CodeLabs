@@ -29,7 +29,7 @@ array[19]="dance"
 array[20]="creador"
 array[21]="norte"
 
-rand=$[$RANDOM % 4]
+rand=$[$RANDOM % 21]
 action=`echo ${array[$rand]}`
 device="lupe/"
 
