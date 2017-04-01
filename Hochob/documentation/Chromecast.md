@@ -9,15 +9,7 @@
 ```sh
 hochob@server:~$ cd CodeLabs/Hochob/Audio/
 hochob@server:~/CodeLabs/Hochob/Audio$ ls
-SectionOne.sh  SectionThree.sh  SectionTwo.sh
-hochob@server:~/CodeLabs/Hochob/Audio$ git clone https://github.com/Pat-Carter/stream2chromecast
-Cloning into 'stream2chromecast'...
-remote: Counting objects: 317, done.
-remote: Total 317 (delta 0), reused 0 (delta 0), pack-reused 317
-Receiving objects: 100% (317/317), 129.82 KiB | 0 bytes/s, done.
-Resolving deltas: 100% (172/172), done.
-Checking connectivity... done.
-hochob@server:~/CodeLabs/Hochob/Audio$ 
+default.pa  Pause.sh  Play.sh  SectionFour.sh  SectionOne.sh  SectionThree.sh  SectionTwo.sh  stream2chromecast
 ```
 
 ```sh
@@ -114,55 +106,4 @@ hochob@server:~$ pacmd list-sink-inputs
 
 ```sh
 hochob@server:~$ pacmd move-sink-input 1 2
-```
-
-## Create MP3 Files
-
-```sh
-ChichenItza/tts/mainvrss.py
-```
-
-```sh
-hochob@server:~/CodeLabs$ git diff
-diff --git a/ChichenItza/tts/mainvrss.py b/ChichenItza/tts/mainvrss.py
-index b36f687..2a7d105 100644
---- a/ChichenItza/tts/mainvrss.py
-+++ b/ChichenItza/tts/mainvrss.py
-@@ -3,8 +3,8 @@ import subprocess
- 
- voice = voicerssurllib.speech({
-        'key': '9fbff2d35eb54b62998515ccbc656a07',
--       'hl': 'en-us',
--       'src': 'Hello World! Now we are talking!',
-+       'hl': 'es-mx',
-+       'src': 'Bienvenidos a la seccion tress, disfruta de una serie de demos',
-        'r': '0',
-        'c': 'wav',
-        'f': '44khz_16bit_stereo',
-hochob@server:~/CodeLabs$ 
-```
-
-```sh
-hochob@server:~/CodeLabs/ChichenItza/tts$ ls
-audio.mp3  audio.wav  mainpyttsx.py  mainvrss.py  voicerssurllib.py  voicerssurllib.pyc
-hochob@server:~/CodeLabs/ChichenItza/tts$ 
-```
-
-```
-hochob@server:~/CodeLabs/ChichenItza/tts$ python mainvrss.py 
-hochob@server:~/CodeLabs/ChichenItza/tts$ Playing WAVE 'audio.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
-
-hochob@server:~/CodeLabs/ChichenItza/tts$ lame audio.wav audio.mp3
-LAME 3.99.5 64bits (http://lame.sf.net)
-Using polyphase lowpass filter, transition band: 16538 Hz - 17071 Hz
-Encoding audio.wav to audio.mp3
-Encoding as 44.1 kHz j-stereo MPEG-1 Layer III (11x) 128 kbps qval=3
-    Frame          |  CPU time/estim | REAL time/estim | play/CPU |    ETA 
-   202/202   (100%)|    0:00/    0:00|    0:00/    0:00|   66.776x|    0:00 
--------------------------------------------------------------------------------------------------------------------------------------------------
-   kbps        MS  %     long switch short %
-  128.0      100.0        96.3   2.0   1.7
-Writing LAME Tag...done
-ReplayGain: -1.8dB
-hochob@server:~/CodeLabs/ChichenItza/tts$ 
 ```
