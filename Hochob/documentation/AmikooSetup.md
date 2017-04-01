@@ -1,5 +1,11 @@
 # Setup
 
+
+
+# Password
+
+Set "inteledison" as password
+
 ```sh
 root@edison:~# configure_edison --password
 
