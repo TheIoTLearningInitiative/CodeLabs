@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -x
-
 array[0]="resetall"
 array[1]="headleft"
 array[2]="headright"
@@ -29,10 +27,15 @@ array[19]="dance"
 array[20]="creador"
 array[21]="norte"
 
-rand=$[$RANDOM % 21]
-action=`echo ${array[$rand]}`
-device="lupe/"
+while true
+do
 
-topic=$device$action
+  rand=$[$RANDOM % 21]
+  action=`echo ${array[$rand]}`
+  device="lupe/"
 
-mosquitto_pub --qos 2 -h iot.eclipse.org -p 1883 -t $topic -m 1
+  topic=$device$action
+
+  mosquitto_pub --qos 2 -h iot.eclipse.org -p 1883 -t $topic -m 1
+  sleep 1
+done
