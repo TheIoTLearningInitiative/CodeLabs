@@ -1,5 +1,9 @@
 # Lupe Robot
 
+# Architecture
+
+- 
+
 # Speech To Text
 
 - No debes tardarte mas de dos segundos
@@ -74,7 +78,6 @@ hochob@server:~/CodeLabs/ChichenItza/stt/pyttsx$ sudo python3 setup.py install
 
 - https://ubuntuforums.org/showthread.php?t=1371622
 
-
 ```sh
 cvlc --no-video-title-show --start-time 1 --stop-time 5 /home/hochob/Videos/BigBuckBunny.mp4 vlc://pause &
 echo "hola mundo" | espeak -ves-la
@@ -122,7 +125,7 @@ Same as Wrist Band
 ## Intel IoT SDK
 
 - [Installing the Intel® System Studio IoT Edition on Linux*](https://software.intel.com/en-us/node/705841)
-   
+
 ```sh
 pymelab@workstation:~/Descargas/l_iss_iot_p_2016.4.008$ export PATH=$PATH:/home/pymelab/Descargas/jdk1.8.0_121/bin/
 pymelab@workstation:~/Descargas/l_iss_iot_p_2016.4.008$ /opt/intel/ISS/iss-iot-launcher
