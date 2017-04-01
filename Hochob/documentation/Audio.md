@@ -47,10 +47,6 @@ player = subprocess.Popen(["aplay", file])
 
 ```sh
 root@kali:~/CodeLabs/ChichenItza/tts# python mainvrss.py
-```
-
-```sh
-root@kali:~/CodeLabs/ChichenItza/tts# 
 Playing WAVE 'audio.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
 root@kali:~/CodeLabs/ChichenItza/tts# 
 ```
