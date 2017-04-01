@@ -1,0 +1,529 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 20.6208618
+  longitude: -103.4254426
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 1579
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: America/Mexico_City
+  customize:
+
+   # Welcome Center
+
+   script.welcome:
+    friendly_name: Welcome to Intel Visitor Center
+    icon: mdi:human-greeting
+   script.selfie:
+    friendly_name: Selfie Record
+    icon: mdi:camera
+   switch.lupecomplete:
+    friendly_name: Lupe Robot Show Complete
+    icon: mdi:video
+   switch.lupe:
+    friendly_name: Lupe Robot Show
+    icon: mdi:video
+
+   # Lupe Center
+
+   script.recognize:
+    friendly_name: Recognize Speech
+    icon: mdi:microphone
+
+   # Selfie Center
+
+   switch.preview:
+    friendly_name: Selfie Preview
+    icon: mdi:video
+   switch.latest:
+    friendly_name: Selfie Play Latest
+    icon: mdi:video
+   switch.loop:
+    friendly_name: Selfie Play All In A Loop
+    icon: mdi:video
+
+   # Lupe
+
+   switch.leftupdown:
+     friendly_name: Left Up Down
+     icon: mdi:human-handsup
+   switch.leftfoldunfold:
+     friendly_name: Left Fold Unfold
+     icon: mdi:gesture-swipe-up
+   switch.rightupdown:
+     friendly_name: Right Up Down
+     icon: mdi:human-handsup
+   switch.rightfoldunfold:
+     friendly_name: Right Fold Unfold
+     icon: mdi:gesture-swipe-up
+
+   switch.moveleft:
+     friendly_name: Move Left
+     icon: mdi:arrow-left-thick
+   switch.moveright:
+     friendly_name: Move Right
+     icon: mdi:arrow-right-thick
+   switch.moveforward:
+     friendly_name: Move Forward
+     icon: mdi:arrow-up-thick
+   switch.movebackward:
+     friendly_name: Move Backward
+     icon: mdi:arrow-down-thick
+
+   switch.bienvenida:
+     friendly_name: Welcome
+     icon: mdi:human-greeting
+   switch.agradece:
+     friendly_name: Dance
+     icon: mdi:music
+   switch.dance:
+     friendly_name: Thanks
+     icon: mdi:heart
+   switch.creador:
+     friendly_name: Creator
+     icon: mdi:face
+   switch.norte:
+     friendly_name: North
+     icon: mdi:function
+
+   # Technical Center
+
+   script.help:
+    friendly_name: Visitor Center Needs Technical Help
+    icon: mdi:block-helper
+
+   # Audio
+
+   script.audiosectionone:
+    friendly_name: Audio Cast Section One
+    icon: audiobook
+   script.audiosectiontwo:
+    friendly_name: Audio Cast Section Two
+    icon: audiobook
+   script.audiosectionthree:
+    friendly_name: Audio Cast Section Three
+    icon: audiobook
+   script.audiosectionfour:
+    friendly_name: Audio Cast Section Four
+    icon: audiobook
+   script.audiopause:
+    friendly_name: Audio Cast Pause
+    icon: pause
+   script.audioplay:
+    friendly_name: Audio Cast Play
+    icon: play
+
+   # Hidden
+
+   media_player.main:
+    hidden: yes
+   automation.lupe_robot_text_to_speech:
+    hidden: yes
+   automation.lupe_robot_telegram:
+    hidden: yes
+
+# Show links to resources in log and frontend
+#introduction:
+
+# Enables the frontend
+frontend:
+
+# Enables configuration UI
+config:
+
+http:
+  # Uncomment this to add a password (recommended!)
+  # api_password: PASSWORD
+  # Uncomment this if you are using SSL or running in Docker etc
+  # base_url: example.duckdns.org:8123
+
+# Checks for available updates
+updater:
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time.
+history:
+
+# View all events in a logbook
+logbook:
+
+# Track the sun
+#sun:
+
+#group: !include groups.yaml
+
+# Text to speech
+tts:
+  platform: google
+  #cache: true
+  #cache_dir: /tmp/tts
+  #time_memory: 300
+
+#sensor:
+#  - platform: plex
+#  - platform: yr
+
+mqtt:
+  broker: iot.eclipse.org
+  port: 1883
+  client_id: hochob
+  keepalive: 60
+
+script:
+  welcome:
+    alias: Welcome
+    sequence:
+      - alias: Welcome To Intel Visitor Center
+        service: tts.google_say
+        data:
+          message: "Bienvenidos a Intel Guadalajara! Buscaremos que Jesus Palomino les de la Bienvenida por medio de un Video"
+          language: 'es'
+  selfie:
+    alias: Selfie
+    sequence:
+      - alias: Selfie Record
+        service: shell_command.selfie
+  help:
+    alias: Help Needed
+    sequence:
+      - alias: Hocho Bot Notification
+        service: notify.telegram
+        data:
+          message: "Visitor Center needs technical help!"
+
+  # Audio
+
+  audiosectionone:
+    alias: Audio Section One
+    sequence:
+      - alias: Audio Section One
+        service: shell_command.audiosectionone
+  audiosectiontwo:
+    alias: Audio Section Two
+    sequence:
+      - alias: Audio Section Two
+        service: shell_command.audiosectiontwo
+  audiosectionthree:
+    alias: Audio Section Three
+    sequence:
+      - alias: Audio Section Three
+        service: shell_command.audiosectionthree
+  audiosectionfour:
+    alias: Audio Section Four
+    sequence:
+      - alias: Audio Section Four
+        service: shell_command.audiosectionfour
+  audiopause:
+    alias: Audio Pause
+    sequence:
+      - alias: Audio Pause
+        service: shell_command.audiopause
+  audioplay:
+    alias: Audio Play
+    sequence:
+      - alias: Audio Play
+        service: shell_command.audioplay
+
+  # Lupe Center
+
+  presentation:
+    alias: Presentation
+    sequence:
+      - alias: Presentation
+        service: shell_command.presentation
+  recognize:
+    alias: Recognize
+    sequence:
+      - alias: Recognize Speech
+        service: shell_command.recognize
+  lupe_arm_left:
+    alias: Lupe Arm Left
+    sequence:
+      - alias: Lupe Arm Up
+        service: tts.google_say
+        data:
+          message: "Lupe Moviendo Brazo Izquierdo"
+          language: 'es'
+  lupe_arm_right:
+    alias: Lupe Arm Right
+    sequence:
+      - alias: Lupe Arm Right
+        service: tts.google_say
+        data:
+          message: "Lupe Moviendo Brazo Derecho"
+          language: 'es'
+  lupe_dance:
+    alias: Lupe Dance
+    sequence:
+      - alias: Lupe Dance
+        service: tts.google_say
+        data:
+          message: "Lupe Bailando"
+          language: 'es'
+
+shell_command:
+  restart_ha: sudo systemctl restart home-assistant.service &
+  selfie: python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
+  presentation: sh /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Presentation/Presentation.sh &
+  recognize: sh /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Recognize/Recognize.sh &
+  audiosectionone: sh /home/hochob/CodeLabs/Hochob/Audio/SectionOne.sh &
+  audiosectiontwo: sh /home/hochob/CodeLabs/Hochob/Audio/SectionTwo.sh &
+  audiosectionthree: sh /home/hochob/CodeLabs/Hochob/Audio/SectionThree.sh &
+  audiosectionfour: sh /home/hochob/CodeLabs/Hochob/Audio/SectionFour.sh &
+  audiopause: sh /home/hochob/CodeLabs/Hochob/Audio/Pause.sh &
+  audioplay: sh /home/hochob/CodeLabs/Hochob/Audio/Play.sh &
+
+switch:
+  - platform: command_line
+    switches:
+      lupecomplete:
+        command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot.sh &"
+        command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
+      lupe:
+        command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot1080p.sh &"
+        command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
+      preview:
+        command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0"
+        command_off: "pkill vlc"
+      latest:
+        command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/VideosSelfies/latest.mp4"
+        command_off: "pkill vlc"
+      loop:
+        command_on: "cvlc --no-video-title-show --fullscreen --loop /home/hochob/VideosSelfies/*.mp4"
+        command_off: "pkill vlc"
+
+# Lupe Switches
+
+switch 00:
+  - platform: mqtt
+    name: rightupdown
+    command_topic: "lupe/rightupdown"
+    state_topic: "lupe/rightupdown/state"
+
+switch 01:
+  - platform: mqtt
+    name: rightfoldunfold
+    command_topic: "lupe/rightfoldunfold"
+    state_topic: "lupe/rightfoldunfold/state"
+
+switch 02:
+  - platform: mqtt
+    name: moveright
+    command_topic: "lupe/moveright"
+    state_topic: "lupe/moveright/state"
+
+switch 03:
+  - platform: mqtt
+    name: resetall
+    command_topic: "lupe/resetall"
+    state_topic: "lupe/resetall/state"
+
+switch 04:
+  - platform: mqtt
+    name: bienvenida
+    command_topic: "lupe/bienvenida"
+    state_topic: "lupe/bienvenida/state"
+
+switch 05:
+  - platform: mqtt
+    name: agradece
+    command_topic: "lupe/agradece"
+    state_topic: "lupe/agradece/state"
+
+switch 06:
+  - platform: mqtt
+    name: dance
+    command_topic: "lupe/dance"
+    state_topic: "lupe/dance/state"
+
+switch 07:
+  - platform: mqtt
+    name: creador
+    command_topic: "lupe/creador"
+    state_topic: "lupe/creador/state"
+
+switch 08:
+  - platform: mqtt
+    name: norte
+    command_topic: "lupe/norte"
+    state_topic: "lupe/norte/state"
+
+switch 09:
+  - platform: mqtt
+    name: leftupdown
+    command_topic: "lupe/leftupdown"
+    state_topic: "lupe/leftupdown/state"
+
+switch 10:
+  - platform: mqtt
+    name: leftfoldunfold
+    command_topic: "lupe/leftfoldunfold"
+    state_topic: "lupe/leftfoldunfold/state"
+
+switch 11:
+  - platform: mqtt
+    name: moveleft
+    command_topic: "lupe/moveleft"
+    state_topic: "lupe/moveleft/state"
+
+switch 12:
+  - platform: mqtt
+    name: headleftright
+    command_topic: "lupe/headleftright"
+    state_topic: "lupe/headleftright/state"
+
+switch 13:
+  - platform: mqtt
+    name: moveforward
+    command_topic: "lupe/moveforward"
+    state_topic: "lupe/moveforward/state"
+
+switch 14:
+  - platform: mqtt
+    name: movestop
+    command_topic: "lupe/movestop"
+    state_topic: "lupe/movestop/state"
+
+switch 15:
+  - platform: mqtt
+    name: movebackward
+    command_topic: "lupe/movebackward"
+    state_topic: "lupe/movebackward/state"
+
+media_player:
+  - platform: vlc
+    name: main
+#  - platform: cast
+#    host: Hochob
+#    name: Nursery
+#  - platform: plex
+#  - platform: cast
+#  - platform: kodi
+#    host: 127.0.0.1
+#    user: kodi
+#    password: kodi
+
+notify:
+  - platform: telegram
+    name: telegram
+    api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_co
+    chat_id: 166426424
+
+automation:
+#  - alias: Lupe Robot Text To Speech
+#    hide_entity: True
+#    trigger:
+#      platform: state
+#      entity_id: switch.lupe
+#      state: 'on'
+#    action:
+#      service: tts.google_say
+#      data:
+#        message: "Bienvenido Robot Lupe"
+#        language: 'es'
+  - alias: Lupe Robot Telegram
+    #hide_entity: True
+    trigger:
+      platform: state
+      entity_id: switch.lupe
+      state: 'on'
+    action:
+      service: notify.telegram
+      data:
+        message: "Lupe Robot Station has been activated"
+
+group:
+  default_view:
+    view: yes
+    entities:
+      - group.technical
+      - group.entrance
+      - group.selfies
+
+  # Views
+
+  lupeview:
+    view: yes
+    name: Lupe Robot
+    entities:
+      - group.lupeactionsarms
+      - group.lupeactionslegs
+      - group.lupeactivities
+      - group.lupelearning
+
+  audioview:
+    view: yes
+    name: Audio
+    entities: group.audio
+
+  # Groups
+
+  technical:
+    name: Technical Center
+    entities:
+    - script.help
+  entrance:
+    name: Welcome Center
+    entities:
+    - script.welcome
+    - switch.lupe
+    - switch.lupecomplete
+  selfies:
+    name: Selfies Center
+    entities:
+    - script.selfie
+    - switch.preview
+    - switch.latest
+    - switch.loop
+
+  lupeactionsarms:
+    name: Actions Arms
+    entities:
+    #- script.lupe_arm_left
+    #- script.lupe_arm_right
+    - switch.leftupdown
+    - switch.leftfoldunfold
+    - switch.rightupdown
+    - switch.rightfoldunfold
+  lupeactionslegs:
+    name: Actions Legs
+    entities:
+    - switch.moveleft
+    - switch.moveright
+    - switch.moveforward
+    - switch.movebackward
+  lupeactivities:
+    name: Activities
+    entities:
+    #- script.lupe_dance
+    - switch.bienvenida
+    - switch.agradece
+    - switch.dance
+    - switch.creador
+    - switch.norte
+  lupelearning:
+    name: Learning
+    entities:
+    - script.presentation
+    - script.recognize
+
+  audio:
+    name: Audio
+    entities:
+    - script.audiosectionone
+    - script.audiosectiontwo
+    - script.audiosectionthree
+    - script.audiosectionfour
+    - script.audiopause
+    - script.audioplay
+
+
+
