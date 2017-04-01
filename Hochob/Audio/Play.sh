@@ -15,3 +15,6 @@ else
 fi
 
 ./stream2chromecast.py -devicename $DEVICE -continue
+
+./stream2chromecast.py -devicename $DEVICE -setvol 1.0
+
