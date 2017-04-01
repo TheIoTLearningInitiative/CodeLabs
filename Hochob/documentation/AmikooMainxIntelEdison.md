@@ -28,6 +28,12 @@ Learning  Sandbox  Show  amikoo.js  command.js  ispeak.js
 ```
 
 ```sh
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t lupe/say -m "yes it is"
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t lupe/leftup -m "yes it is"
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t lupe/leftdown -m "yes it is"
+```
+
+```sh
 root@edison:~/CodeLabs/Hochob/LupeRobot# node amikoo.js 
 (node) sys is deprecated. Use util instead.
 Sending state closed

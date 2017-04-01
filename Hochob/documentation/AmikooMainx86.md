@@ -26,6 +26,12 @@ user@workstation:~/CodeLabs/Hochob/LupeRobot$
 ```
 
 ```sh
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t lupe/say -m "yes it is"
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t lupe/leftup -m "yes it is"
+user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t lupe/leftdown -m "yes it is"
+```
+
+```sh
 user@workstation:~/CodeLabs/Hochob/LupeRobot$ nodejs amikoo.js 
 Sending state closed
 Received message lupe/say yes it is
