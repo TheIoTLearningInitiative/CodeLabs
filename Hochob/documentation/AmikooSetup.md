@@ -34,3 +34,10 @@ The device password has been changed.
 root@edison:~# 
 ```
 
+# WiFi
+
+```sh
+root@edison:~# configure_edison --wifi
+
+
+```
