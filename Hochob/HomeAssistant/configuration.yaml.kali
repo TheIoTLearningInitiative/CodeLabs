@@ -188,10 +188,17 @@ logbook:
 
 # Text to speech
 tts:
-  platform: google
-  #cache: true
-  #cache_dir: /tmp/tts
-  #time_memory: 300
+  - platform: google
+    #cache: true
+    #cache_dir: /tmp/tts
+    #time_memory: 300
+  #- platform: voicerss
+  #  api_key: 'XXXXXXXX'
+  #- platform: amazon_polly
+  #  aws_access_key_id: AWS_ACCESS_KEY_ID
+  #  aws_secret_access_key: AWS_SECRET_ACCESS_KEY
+  #  profile_name: AWS_PROFILE
+  #  region_name: 'us-east-1'
 
 #sensor:
 #  - platform: plex
@@ -300,7 +307,7 @@ shell_command:
   selfie: python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
   presentation: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Presentation/Presentation.sh &
   recognize: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Recognize/Recognize.sh &
-  audiosectionone: /home/hochob/CodeLabs/Hochob/Audio/SectionOne.sh &
+  audiosectionone: bash /home/hochob/CodeLabs/Hochob/Audio/SectionOne.sh &
   audiosectiontwo: bash /home/hochob/CodeLabs/Hochob/Audio/SectionTwo.sh &
   audiosectionthree: bash /home/hochob/CodeLabs/Hochob/Audio/SectionThree.sh &
   audiosectionfour: bash /home/hochob/CodeLabs/Hochob/Audio/SectionFour.sh &
@@ -535,6 +542,9 @@ notify:
     name: telegram
     api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_co
     chat_id: 166426424
+
+light:
+  platform: hue
 
 automation:
 #  - alias: Lupe Robot Text To Speech
