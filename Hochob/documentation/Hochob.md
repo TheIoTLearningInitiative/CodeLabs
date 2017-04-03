@@ -9,6 +9,7 @@
 - Mobile Device
 - Digital Media Players
 - Robot
+- http://electronics.stackexchange.com/questions/255922/esp8266-driving-relay-and-reading-button
 
 ## Accounts
 
