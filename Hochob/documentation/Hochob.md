@@ -61,3 +61,4 @@
 # Nice To Have
 
 - [Google Calendar Command Line Interface](https://github.com/insanum/gcalcli)
+- HaDashBoard
