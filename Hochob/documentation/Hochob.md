@@ -60,4 +60,4 @@
 
 # Nice To Have
 
-- [](https://github.com/insanum/gcalcli)
+- [Google Calendar Command Line Interface](https://github.com/insanum/gcalcli)
