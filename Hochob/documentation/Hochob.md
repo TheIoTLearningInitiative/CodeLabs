@@ -10,12 +10,12 @@
 - Digital Media Players
 - Robot
 
-# Accounts
+## Accounts
 
 - Gmail
 - Plex
 
-# Server
+## Server
 
 - __Codename__: Hochob
 - NUC 5i5MYHE 
@@ -32,24 +32,24 @@
   - Chromecast
   - Kodi
 
-# Mobile Device
+## Mobile Device
 
 - __Codename__:  Muuk’, Poder, Buddy
 - Samsung SM-A500M
 
-# Digital Media Players
+## Digital Media Players
 
-## Video
+### Video
 
 - __Codename__: Eek', Estrella
 - Chromecast
 
-## Audio
+### Audio
 
 - __Codename__: Juum, Sonido
 - Chromecast Audio
 
-# Robot
+## Robot
 
 - __Codename__:  Lupe
 - Hardware
@@ -57,3 +57,7 @@
   - Yocto v2.5 Based
 - Software
   - C++, NodeJS
+
+# Nice To Have
+
+- [](https://github.com/insanum/gcalcli)
