@@ -114,15 +114,15 @@ client.on('message', function (topic, message) {
       return handleLupe('Norte')
 
     case 'lupe/inicial':
-      return handleLupe('Hi Everyone!')
+      return handleLupe('Hola a todos!')
     case 'lupe/emocion':
-      return handleLupe('Sorry! I know!, I got excited!')
+      return handleLupe('Perdon! Lo se!, Es que me emociono!')
     case 'lupe/porsupuesto':
-      return handleLupe('Of course')
+      return handleLupe('Por supuesto')
     case 'lupe/cerebro':
-      return handleLupe('For me, my brain is here')
+      return handleLupe('En mi caso, mi cerebro esta aqui!')
     case 'lupe/inteledison':
-      return handleLupe('I am alive thanks to Intel Edison Platform')
+      return handleLupe('Yo funciono con la plataforma Intel Edison')
 
   }
 })
