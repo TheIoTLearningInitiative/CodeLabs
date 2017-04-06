@@ -74,14 +74,9 @@ Done.
 root@server:~# 
 ```
 
-# PATH
-
-* Export directories into path to allow killing processes easily
-
 ```sh
-hochob@server:~$ nano ~/.profile
-export PATH=$PATH:/home/hochob/CodeLabs/Hochob/LupeRobot
-```
+hochob@server:~$ sudo usermod -a -G sudo hochob
+````
 
 # Power Management
 
@@ -105,5 +100,12 @@ hochob ALL=(ALL) NOPASSWD:ALL
 
 * Cheese, not able to interact through command line
 
+# PATH
 
+* Export directories into path to allow killing processes easily
+
+```sh
+hochob@server:~$ nano ~/.profile
+export PATH=$PATH:/home/hochob/CodeLabs/Hochob/LupeRobot
+```
 
