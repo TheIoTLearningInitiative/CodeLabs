@@ -64,6 +64,8 @@ lo        Link encap:Local Loopback
 hochob@server:~$ 
 ```
 
+# Add User to Sudo
+
 ```sh
 root@server:~# adduser hochob sudo
 Adding user `hochob' to group `sudo' ...
