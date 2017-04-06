@@ -18,7 +18,10 @@ hochob@server:~$ sudo apt-get install lame
 # Text To Speech
 
 ```sh
-ChichenItza/tts/mainvrss.py
+hochob@server:~$ ls
+CodeLabs  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+hochob@server:~$ cd CodeLabs/ChichenItza/tts/
+hochob@server:~/CodeLabs/ChichenItza/tts$ 
 ```
 
 ```sh
