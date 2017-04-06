@@ -103,10 +103,10 @@ homeassistant:
      friendly_name: Welcome Everyone!
      icon: mdi:human-greeting
    switch.agradece:
-     friendly_name: Let's Dance
+     friendly_name: Thanks Everyone!
      icon: mdi:music
    switch.dance:
-     friendly_name: Thanks Everyone!
+     friendly_name: Let's Dance
      icon: mdi:heart
    switch.creador:
      friendly_name: My Creator Speech
