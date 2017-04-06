@@ -9,7 +9,7 @@ function puts(error, stdout, stderr) { sys.puts(stdout) }
 function espeak(phrase) {
   var sleep = require('sleep')
   exec("echo " + phrase + " | espeak -w audio.wav", puts);
-  sleep.sleep(.5);
+  sleep.msleep(500);
   exec("aplay audio.wav", puts);  
 }
 
