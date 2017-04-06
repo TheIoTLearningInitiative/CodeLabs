@@ -70,6 +70,8 @@ Welcome to PulseAudio 5.0! Use "help" for usage information.
 >>> 
 ```
 
+# Sandbox
+
 ```sh
 pacmd set-card-profile 0 output:hdmi-stereo-extra1
 pacmd set-card-profile 0 output:hdmi-stereo-extra2
