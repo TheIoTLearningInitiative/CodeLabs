@@ -2,7 +2,7 @@
 
 set -x
 
-mosquitto_pub -h iot.eclipse.org -p 1883 -t lupe/resetall -m 1
+mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/resetall -m 1
 
 cvlc --no-video-title-show --fullscreen /home/hochob/LupeRobot/1080p/Silencio.mp4 &
 #(sleep 1) && echo "hola a todos" | espeak -v es-la -a 200
