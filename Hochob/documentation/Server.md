@@ -78,6 +78,23 @@ root@server:~#
 hochob@server:~$ sudo usermod -a -G sudo hochob
 ````
 
+# Debian Backports
+
+```sh
+hochob@server:~$ sudo nano /etc/apt/sources.list
+deb http://ftp.us.debian.org/debian/ jessie main
+deb-src http://ftp.us.debian.org/debian/ jessie main
+
+deb http://security.debian.org/ jessie/updates main
+deb-src http://security.debian.org/ jessie/updates main
+
+# jessie-updates, previously known as 'volatile'
+deb http://ftp.us.debian.org/debian/ jessie-updates main
+deb-src http://ftp.us.debian.org/debian/ jessie-updates main
+
+deb http://ftp.debian.org/debian jessie-backports main
+```
+
 # Power Management
 
 * Preferences
