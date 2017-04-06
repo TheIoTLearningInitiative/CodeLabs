@@ -28,7 +28,7 @@ cvlc --no-video-title-show --fullscreen /home/hochob/LupeRobot/1080p/Parte4_v2.m
 ##(sleep 26.5) && echo "Yo funciono con la plataforma Intel Edison" | espeak -v es-la -a 200
 sleep 25.5 && mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/inteledison -m 1
 mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/rightunfold -m 1
-mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -q 1 -t lupe/leftunfold -m 1
+mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/leftunfold -m 1
 mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/rightdown -m 1
 mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/leftdown -m 1 && sleep 4
 
