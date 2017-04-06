@@ -113,7 +113,8 @@
     * [Camera](Hochob/documentation/Camera.md)
     * [Photography](Hochob/documentation/Photography.md)
     * [Video](Hochob/documentation/Video.md)
-    * USB
+    * [Home Assistant](Hochob/documentation/HomeAssistant.md)
+      * [Automatic Startup](Hochob/documentation/HomeAssistantAutomaticStartup.md)
   * [Mobile Device](Hochob/documentation/MobileDevice.md)
   * [Lupe Robot](Hochob/documentation/LupeRobot.md)
     * [Architecture](Hochob/documentation/LupeRobotArchitecture.md)
