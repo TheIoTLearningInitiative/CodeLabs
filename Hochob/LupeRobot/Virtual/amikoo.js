@@ -42,7 +42,13 @@ client.on('connect', function () {
   client.subscribe('lupe/dance')
   client.subscribe('lupe/creador')
   client.subscribe('lupe/norte')
-  
+
+  client.subscribe('lupe/inicial')
+  client.subscribe('lupe/emocion')
+  client.subscribe('lupe/porsupuesto')
+  client.subscribe('lupe/cerebro')
+  client.subscribe('lupe/inteledison')
+
   client.publish('lupe/connected', 'true')
   sendStateUpdate()
 })
@@ -103,6 +109,17 @@ client.on('message', function (topic, message) {
       return handleLupe('Creator')
     case 'lupe/norte':
       return handleLupe('North')
+
+    case 'lupe/inicial':
+      return handleLupe('Hi Everyone!')
+    case 'lupe/emocion':
+      return handleLupe('Sorry! I know!, I got excited!')
+    case 'lupe/porsupuesto':
+      return handleLupe('Of course')
+    case 'lupe/cerebro':
+      return handleLupe('For me, my brain is here')
+    case 'lupe/inteledison':
+      return handleLupe('I am alive thanks to Intel Edison Platform')
 
   }
 })
