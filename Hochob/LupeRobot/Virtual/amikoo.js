@@ -8,7 +8,7 @@ function puts(error, stdout, stderr) { sys.puts(stdout) }
 
 function espeak(phrase) {
   var sleep = require('sleep')
-  exec("echo " + phrase + " | espeak -w audio.wav", puts);
+  exec("echo " + phrase + " | espeak -ves -w audio.wav", puts);
   sleep.msleep(500);
   exec("aplay audio.wav", puts);  
 }
@@ -67,20 +67,20 @@ client.on('message', function (topic, message) {
       return handleRequestSay(message)
 
     case 'lupe/resetall':
-      return handleLupe('Reset All')
+      return handleLupe('Inicializacion')
     case 'lupe/headleft':
-      return handleLupe('Head Left')
+      return handleLupe('Cabeza Izquierda')
     case 'lupe/headright':
-      return handleLupe('Head Right')
+      return handleLupe('Cabeza Derecha')
 
     case 'lupe/leftup':
-      return handleLupe('Left Up')
+      return handleLupe('Mano Izquierda Arriba')
     case 'lupe/leftdown':
-      return handleLupe('Left Down')
+      return handleLupe('Mano Izquierda Abajo')
     case 'lupe/leftfold':
-      return handleLupe('Left Fold')
+      return handleLupe('Codo Izquierdo Doblar')
     case 'lupe/leftunfold':
-      return handleLupe('Left Unfold')
+      return handleLupe('Codo Izquierdo Desdoblar')
 
     case 'lupe/rightup':
       return handleLupe('Right Up')
