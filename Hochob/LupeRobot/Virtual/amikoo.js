@@ -7,7 +7,10 @@ var exec = require('child_process').exec;
 function puts(error, stdout, stderr) { sys.puts(stdout) }
 
 function espeak(phrase) {
-  exec("echo " + phrase + " | espeak", puts);
+  var sleep = require('sleep')
+  exec("echo " + phrase + " | espeak -w audio.wav", puts);
+  sleep.sleep(.5);
+  exec("aplay audio.wav", puts);  
 }
 
 var state = 'closed'
@@ -163,7 +166,6 @@ function handleRequestSay (message) {
 
 function handleLupe (message) {  
   espeak(message)
-
 }
 
 function handleAppExit (options, err) {  
