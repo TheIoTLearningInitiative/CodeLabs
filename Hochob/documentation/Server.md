@@ -2,7 +2,7 @@
 
 # Issues
 
-- Make server not ask for password with sudo
+* Make server not ask for password with sudo
 
 # Operating System: Lubuntu
 
@@ -36,12 +36,37 @@ wlp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         TX packets 52986  bytes 7347203 (7.3 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
+hochob@server:~$
+```
+
+# Operating System: Debian
+
+```sh
+hochob@server:~$ /sbin/ifconfig
+eth0      Link encap:Ethernet  HWaddr f4:4d:30:67:a3:bf  
+          inet addr:192.168.1.147  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet6 addr: fe80::f64d:30ff:fe67:a3bf/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7159 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3372 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7209784 (6.8 MiB)  TX bytes:416585 (406.8 KiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:8 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:8 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:480 (480.0 B)  TX bytes:480 (480.0 B)
+
 hochob@server:~$ 
 ```
 
 # PATH
 
-- Export directories into path to allow killing processes easily
+* Export directories into path to allow killing processes easily
 
 ```sh
 hochob@server:~$ nano ~/.profile
@@ -50,12 +75,12 @@ export PATH=$PATH:/home/hochob/CodeLabs/Hochob/LupeRobot
 
 # Power Management
 
-- Preferences
-  - Power Manager
-    - Display
-      - Handle Display Power Management
-    - Security
-      - Automatically Lock The Session Never
+* Preferences
+  * Power Manager
+    * Display
+      * Handle Display Power Management
+    * Security
+      * Automatically Lock The Session Never
 
 # Sudo Privileges
 
@@ -68,4 +93,7 @@ hochob ALL=(ALL) NOPASSWD:ALL
 
 # Extras
 
-- Cheese, not able to interact through command line
+* Cheese, not able to interact through command line
+
+
+
