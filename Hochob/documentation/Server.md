@@ -64,6 +64,14 @@ lo        Link encap:Local Loopback
 hochob@server:~$ 
 ```
 
+```sh
+root@server:~# adduser hochob sudo
+Adding user `hochob' to group `sudo' ...
+Adding user hochob to group sudo
+Done.
+root@server:~# 
+```
+
 # PATH
 
 * Export directories into path to allow killing processes easily
