@@ -95,6 +95,33 @@ deb-src http://ftp.us.debian.org/debian/ jessie-updates main
 deb http://ftp.debian.org/debian jessie-backports main
 ```
 
+```sh
+hochob@server:~$ apt-cache search linux-image
+linux-headers-3.16.0-4-amd64 - Header files for Linux 3.16.0-4-amd64
+linux-image-3.16.0-4-amd64 - Linux 3.16 for 64-bit PCs
+linux-image-3.16.0-4-amd64-dbg - Debugging symbols for Linux 3.16.0-4-amd64
+linux-image-amd64 - Linux for 64-bit PCs (meta-package)
+linux-image-amd64-dbg - Debugging symbols for Linux amd64 configuration (meta-package)
+linux-headers-4.9.0-0.bpo.2-amd64 - Header files for Linux 4.9.0-0.bpo.2-amd64
+linux-headers-4.9.0-0.bpo.2-rt-amd64 - Header files for Linux 4.9.0-0.bpo.2-rt-amd64
+linux-image-4.9.0-0.bpo.2-amd64-dbg - Debugging symbols for Linux 4.9.0-0.bpo.2-amd64
+linux-image-4.9.0-0.bpo.2-amd64-unsigned - Linux 4.9 for 64-bit PCs
+linux-image-4.9.0-0.bpo.2-rt-amd64-dbg - Debugging symbols for Linux 4.9.0-0.bpo.2-rt-amd64
+linux-image-4.9.0-0.bpo.2-rt-amd64-unsigned - Linux 4.9 for 64-bit PCs, PREEMPT_RT
+linux-headers-4.9.0-2-grsec-amd64 - Header files for Linux 4.9.0-2-grsec-amd64
+linux-image-4.9.0-2-grsec-amd64 - Linux 4.9 for 64-bit PCs, Grsecurity protection
+linux-image-grsec-amd64 - Linux image meta-package, grsec featureset
+linux-image-rt-amd64 - Linux for 64-bit PCs (meta-package), PREEMPT_RT
+linux-image-rt-amd64-dbg - Debugging symbols for Linux rt-amd64 configuration (meta-package)
+linux-image-4.9.0-0.bpo.2-amd64 - Linux 4.9 for 64-bit PCs (signed)
+linux-image-4.9.0-0.bpo.2-rt-amd64 - Linux 4.9 for 64-bit PCs, PREEMPT_RT (signed)
+hochob@server:~$ 
+```
+
+```sh
+hochob@server:~$ sudo apt-get install -t jessie-backports linux-image-4.9.0-0.bpo.2-amd64
+```
+
 # Power Management
 
 * Preferences
