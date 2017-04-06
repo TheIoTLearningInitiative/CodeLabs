@@ -83,35 +83,35 @@ client.on('message', function (topic, message) {
       return handleLupe('Codo Izquierdo Desdoblar')
 
     case 'lupe/rightup':
-      return handleLupe('Right Up')
+      return handleLupe('Mano Derecha Arriba')
     case 'lupe/rightdown':
-      return handleLupe('Right Down')
+      return handleLupe('Mano Derecha Abajo')
     case 'lupe/rightfold':
-      return handleLupe('Right Fold')
+      return handleLupe('Codo Derecho Doblar')
     case 'lupe/rightunfold':
-      return handleLupe('Right Unfold')
+      return handleLupe('Code Derecho Desdoblar')
 
     case 'lupe/moveleft':
-      return handleLupe('Move Left')
+      return handleLupe('Mover Izquierda')
     case 'lupe/moveright':
-      return handleLupe('Move Right')
+      return handleLupe('Mover Derecha')
     case 'lupe/moveforward':
-      return handleLupe('Move Forward')
+      return handleLupe('Mover Adelante')
     case 'lupe/movebackward':
-      return handleLupe('Move Backward')
+      return handleLupe('Mover Atras')
     case 'lupe/movestop':
-      return handleLupe('Move Stop')
+      return handleLupe('Mover Alto')
 
     case 'lupe/bienvenida':
-      return handleLupe('Welcome')
+      return handleLupe('Bienvenido')
     case 'lupe/agradece':
-      return handleLupe('Thanks')
+      return handleLupe('Gracias')
     case 'lupe/dance':
-      return handleLupe('Dance')
+      return handleLupe('Bailar')
     case 'lupe/creador':
-      return handleLupe('Creator')
+      return handleLupe('Creador')
     case 'lupe/norte':
-      return handleLupe('North')
+      return handleLupe('Norte')
 
     case 'lupe/inicial':
       return handleLupe('Hi Everyone!')
