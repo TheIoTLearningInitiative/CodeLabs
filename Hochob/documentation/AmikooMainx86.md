@@ -5,6 +5,7 @@ user@workstation:~$ sudo apt-get install nodejs-legacy
 user@workstation:~$ sudo apt-get install npm
 user@workstation:~$ sudo npm install mqtt --save
 user@workstation:~$ sudo npm install espeak --save
+user@workstation:~$ sudo npm install sleep --save
 ```
 
 ```sh
