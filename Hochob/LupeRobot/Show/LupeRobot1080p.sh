@@ -22,7 +22,8 @@ sleep 37.5 && mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/cerebro -m 1
 #mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/rightup -m 1
 #mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/leftup -m 1
 #mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/rightfold -m 1
-#mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/leftfold -m 1 && sleep 3
+#mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/leftfold -m 1
+sleep 3
 
 cvlc --no-video-title-show --fullscreen /home/hochob/LupeRobot/1080p/Parte4_v2.mp4 &
 ##(sleep 26.5) && echo "Yo funciono con la plataforma Intel Edison" | espeak -v es-la -a 200
@@ -30,7 +31,8 @@ sleep 25.5 && mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/inteledison 
 #mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/rightunfold -m 1
 #mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/leftunfold -m 1
 #mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/rightdown -m 1
-#mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/leftdown -m 1 && sleep 4
+#mosquitto_pub -h iot.eclipse.org -p 1883 -q 1 -t lupe/leftdown -m 1
+sleep 4
 
 cvlc --no-video-title-show --fullscreen /home/hochob/LupeRobot/1080p/Parte5_v2.mp4 &
 
