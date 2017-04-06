@@ -87,6 +87,67 @@ hochob@server:~$ sudo usermod -a -G sudo hochob
     * Security
       * Automatically Lock The Session Never
 
+# Git
+
+```sh
+hochob@server:~$ sudo apt-get install git
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  git-man liberror-perl rsync
+Suggested packages:
+  git-daemon-run git-daemon-sysvinit git-doc git-el git-email git-gui gitk gitweb git-arch git-cvs git-mediawiki git-svn
+The following NEW packages will be installed:
+  git git-man liberror-perl rsync
+0 upgraded, 4 newly installed, 0 to remove and 0 not upgraded.
+Need to get 4,942 kB of archives.
+After this operation, 24.3 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://ftp.us.debian.org/debian/ jessie/main liberror-perl all 0.17-1.1 [22.4 kB]
+Get:2 http://ftp.us.debian.org/debian/ jessie/main git-man all 1:2.1.4-2.1+deb8u2 [1,267 kB]
+Get:3 http://ftp.us.debian.org/debian/ jessie/main git amd64 1:2.1.4-2.1+deb8u2 [3,262 kB]
+Get:4 http://ftp.us.debian.org/debian/ jessie/main rsync amd64 3.1.1-3 [390 kB]
+Fetched 4,942 kB in 2s (2,204 kB/s)
+Selecting previously unselected package liberror-perl.
+(Reading database ... 96565 files and directories currently installed.)
+Preparing to unpack .../liberror-perl_0.17-1.1_all.deb ...
+Unpacking liberror-perl (0.17-1.1) ...
+Selecting previously unselected package git-man.
+Preparing to unpack .../git-man_1%3a2.1.4-2.1+deb8u2_all.deb ...
+Unpacking git-man (1:2.1.4-2.1+deb8u2) ...
+Selecting previously unselected package git.
+Preparing to unpack .../git_1%3a2.1.4-2.1+deb8u2_amd64.deb ...
+Unpacking git (1:2.1.4-2.1+deb8u2) ...
+Selecting previously unselected package rsync.
+Preparing to unpack .../rsync_3.1.1-3_amd64.deb ...
+Unpacking rsync (3.1.1-3) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Processing triggers for systemd (215-17+deb8u6) ...
+Setting up liberror-perl (0.17-1.1) ...
+Setting up git-man (1:2.1.4-2.1+deb8u2) ...
+Setting up git (1:2.1.4-2.1+deb8u2) ...
+Setting up rsync (3.1.1-3) ...
+Processing triggers for systemd (215-17+deb8u6) ...
+hochob@server:~$ 
+```
+
+# CodeLabs Git Repository
+
+```sh
+hochob@server:~$ git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
+Cloning into 'CodeLabs'...
+remote: Counting objects: 14999, done.
+remote: Compressing objects: 100% (306/306), done.
+remote: Total 14999 (delta 193), reused 0 (delta 0), pack-reused 14682
+Receiving objects: 100% (14999/14999), 10.20 MiB | 5.15 MiB/s, done.
+Resolving deltas: 100% (8618/8618), done.
+Checking connectivity... done.
+hochob@server:~$ 
+```
+
+# Sandbox
+
 # Sudo Privileges
 
 Not Working!
