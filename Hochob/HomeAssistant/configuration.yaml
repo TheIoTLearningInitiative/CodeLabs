@@ -124,23 +124,26 @@ homeassistant:
    # Audio
 
    script.audiosectionone:
-    friendly_name: Audio Cast Section One
-    icon: audiobook
+    friendly_name: Mayas
+    icon: mdi:audiobook
    script.audiosectiontwo:
-    friendly_name: Audio Cast Section Two
-    icon: audiobook
+    friendly_name: Intel
+    icon: mdi:audiobook
    script.audiosectionthree:
-    friendly_name: Audio Cast Section Three
-    icon: audiobook
+    friendly_name: Intel GDC
+    icon: mdi:audiobook
    script.audiosectionfour:
-    friendly_name: Audio Cast Section Four
-    icon: audiobook
+    friendly_name: To Be Defined
+    icon: mdi:audiobook
+   script.audiostop:
+    friendly_name: Stop
+    icon: mdi:stop
    script.audiopause:
     friendly_name: Pause
-    icon: pause
+    icon: mdi:pause
    script.audioplay:
     friendly_name: Play
-    icon: play
+    icon: mdi:play
 
    # Hidden
 
@@ -254,6 +257,11 @@ script:
     sequence:
       - alias: Audio Section Four
         service: shell_command.audiosectionfour
+  audiostop:
+    alias: Audio Stop
+    sequence:
+      - alias: Audio Stop
+        service: shell_command.audiostop
   audiopause:
     alias: Audio Pause
     sequence:
@@ -313,6 +321,7 @@ shell_command:
   audiosectionfour: bash /home/hochob/CodeLabs/Hochob/Audio/SectionFour.sh &
   audiopause: bash /home/hochob/CodeLabs/Hochob/Audio/Pause.sh &
   audioplay: bash /home/hochob/CodeLabs/Hochob/Audio/Play.sh &
+  audiostop: bash /home/hochob/CodeLabs/Hochob/Audio/Stop.sh &
 
 switch:
   - platform: command_line
@@ -681,10 +690,11 @@ group:
     - script.audiosectionone
     - script.audiosectiontwo
     - script.audiosectionthree
-    - script.audiosectionfour
+    #- script.audiosectionfour
 
   audiocontrols:
     name: Controls
     entities:
+    - script.audiostop
     - script.audiopause
     - script.audioplay
