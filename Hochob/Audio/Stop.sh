@@ -1,6 +1,6 @@
 set -x
 
-killall -9 stream2chromecast.py
+#killall -9 stream2chromecast.py
 
 IAM=`whoami`
 
@@ -16,7 +16,4 @@ else
         DEVICE="Eek'"
 fi
 
-./stream2chromecast.py -devicename $DEVICE -setvol 1.0
-
-./stream2chromecast.py -devicename $DEVICE $IPATH/Audio/SectionTwo.mp3
 ./stream2chromecast.py -devicename $DEVICE -stop

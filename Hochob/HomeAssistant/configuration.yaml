@@ -47,17 +47,30 @@ homeassistant:
 
    # Lupe
 
-   switch.leftupdown:
-     friendly_name: Left Up Down
+   switch.leftup:
+     friendly_name: Up
      icon: mdi:human-handsup
-   switch.leftfoldunfold:
-     friendly_name: Left Fold Unfold
+   switch.leftdown:
+     friendly_name: Down
+     icon: mdi:human-handsup
+   switch.leftfold:
+     friendly_name: Fold
      icon: mdi:gesture-swipe-up
-   switch.rightupdown:
-     friendly_name: Right Up Down
+   switch.leftunfold:
+     friendly_name: Unfold
+     icon: mdi:gesture-swipe-up
+
+   switch.rightup:
+     friendly_name: Up
      icon: mdi:human-handsup
-   switch.rightfoldunfold:
-     friendly_name: Right Fold Unfold
+   switch.rightdown:
+     friendly_name: Down
+     icon: mdi:human-handsup
+   switch.rightfold:
+     friendly_name: Fold
+     icon: mdi:gesture-swipe-up
+   switch.rightunfold:
+     friendly_name: Unfold
      icon: mdi:gesture-swipe-up
 
    switch.moveleft:
@@ -72,21 +85,34 @@ homeassistant:
    switch.movebackward:
      friendly_name: Move Backward
      icon: mdi:arrow-down-thick
+   switch.movestop:
+     friendly_name: Move Stop
+     icon: mdi:stop
+
+   switch.headleft:
+     friendly_name: Head Left
+     icon: mdi:arrow-left-thick
+   switch.headright:
+     friendly_name: Head Right
+     icon: mdi:arrow-right-thick
+   switch.resetall:
+     friendly_name: Reset
+     icon: mdi:lock-reset
 
    switch.bienvenida:
-     friendly_name: Welcome
+     friendly_name: Welcome Everyone!
      icon: mdi:human-greeting
    switch.agradece:
-     friendly_name: Dance
+     friendly_name: Thanks Everyone!
      icon: mdi:music
    switch.dance:
-     friendly_name: Thanks
+     friendly_name: Let's Dance
      icon: mdi:heart
    switch.creador:
-     friendly_name: Creator
+     friendly_name: My Creator Speech
      icon: mdi:face
    switch.norte:
-     friendly_name: North
+     friendly_name: Mexican Northern
      icon: mdi:function
 
    # Technical Center
@@ -106,6 +132,15 @@ homeassistant:
    script.audiosectionthree:
     friendly_name: Audio Cast Section Three
     icon: audiobook
+   script.audiosectionfour:
+    friendly_name: Audio Cast Section Four
+    icon: audiobook
+   script.audiopause:
+    friendly_name: Pause
+    icon: pause
+   script.audioplay:
+    friendly_name: Play
+    icon: play
 
    # Hidden
 
@@ -135,7 +170,7 @@ http:
 updater:
 
 # Discover some devices automatically
-#discovery:
+# discovery:
 
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
@@ -153,10 +188,17 @@ logbook:
 
 # Text to speech
 tts:
-  platform: google
-  #cache: true
-  #cache_dir: /tmp/tts
-  #time_memory: 300
+  - platform: google
+    #cache: true
+    #cache_dir: /tmp/tts
+    #time_memory: 300
+  #- platform: voicerss
+  #  api_key: 'XXXXXXXX'
+  #- platform: amazon_polly
+  #  aws_access_key_id: AWS_ACCESS_KEY_ID
+  #  aws_secret_access_key: AWS_SECRET_ACCESS_KEY
+  #  profile_name: AWS_PROFILE
+  #  region_name: 'us-east-1'
 
 #sensor:
 #  - platform: plex
@@ -207,6 +249,21 @@ script:
     sequence:
       - alias: Audio Section Three
         service: shell_command.audiosectionthree
+  audiosectionfour:
+    alias: Audio Section Four
+    sequence:
+      - alias: Audio Section Four
+        service: shell_command.audiosectionfour
+  audiopause:
+    alias: Audio Pause
+    sequence:
+      - alias: Audio Pause
+        service: shell_command.audiopause
+  audioplay:
+    alias: Audio Play
+    sequence:
+      - alias: Audio Play
+        service: shell_command.audioplay
 
   # Lupe Center
 
@@ -248,11 +305,14 @@ script:
 shell_command:
   restart_ha: sudo systemctl restart home-assistant.service &
   selfie: python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
-  presentation: sh /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Presentation/Presentation.sh &
-  recognize: sh /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Recognize/Recognize.sh &
-  audiosectionone: sh /home/hochob/CodeLabs/Hochob/Audio/SectionOne.sh &
-  audiosectiontwo: sh /home/hochob/CodeLabs/Hochob/Audio/SectionTwo.sh &
-  audiosectionthree: sh /home/hochob/CodeLabs/Hochob/Audio/SectionThree.sh &
+  presentation: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Presentation/Presentation.sh &
+  recognize: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Recognize/Recognize.sh &
+  audiosectionone: bash /home/hochob/CodeLabs/Hochob/Audio/SectionOne.sh &
+  audiosectiontwo: bash /home/hochob/CodeLabs/Hochob/Audio/SectionTwo.sh &
+  audiosectionthree: bash /home/hochob/CodeLabs/Hochob/Audio/SectionThree.sh &
+  audiosectionfour: bash /home/hochob/CodeLabs/Hochob/Audio/SectionFour.sh &
+  audiopause: bash /home/hochob/CodeLabs/Hochob/Audio/Pause.sh &
+  audioplay: bash /home/hochob/CodeLabs/Hochob/Audio/Play.sh &
 
 switch:
   - platform: command_line
@@ -277,99 +337,192 @@ switch:
 
 switch 00:
   - platform: mqtt
-    name: rightupdown
-    command_topic: "lupe/rightupdown"
-    state_topic: "lupe/rightupdown/state"
+    name: leftup
+    command_topic: "lupe/leftup"
+    state_topic: "lupe/leftup/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
 
 switch 01:
   - platform: mqtt
-    name: rightfoldunfold
-    command_topic: "lupe/rightfoldunfold"
-    state_topic: "lupe/rightfoldunfold/state"
+    name: leftdown
+    command_topic: "lupe/leftdown"
+    state_topic: "lupe/leftdown/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
 
 switch 02:
   - platform: mqtt
-    name: moveright
-    command_topic: "lupe/moveright"
-    state_topic: "lupe/moveright/state"
+    name: leftfold
+    command_topic: "lupe/leftfold"
+    state_topic: "lupe/leftfold/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
 
 switch 03:
   - platform: mqtt
-    name: resetall
-    command_topic: "lupe/resetall"
-    state_topic: "lupe/resetall/state"
+    name: leftunfold
+    command_topic: "lupe/leftunfold"
+    state_topic: "lupe/leftunfold/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
 
 switch 04:
   - platform: mqtt
-    name: bienvenida
-    command_topic: "lupe/bienvenida"
-    state_topic: "lupe/bienvenida/state"
+    name: rightup
+    command_topic: "lupe/rightup"
+    state_topic: "lupe/rightup/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
 
 switch 05:
   - platform: mqtt
-    name: agradece
-    command_topic: "lupe/agradece"
-    state_topic: "lupe/agradece/state"
+    name: rightdown
+    command_topic: "lupe/rightdown"
+    state_topic: "lupe/rightdown/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
 
 switch 06:
   - platform: mqtt
-    name: dance
-    command_topic: "lupe/dance"
-    state_topic: "lupe/dance/state"
+    name: rightfold
+    command_topic: "lupe/rightfold"
+    state_topic: "lupe/rightfold/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
 
 switch 07:
   - platform: mqtt
-    name: creador
-    command_topic: "lupe/creador"
-    state_topic: "lupe/creador/state"
+    name: rightunfold
+    command_topic: "lupe/rightunfold"
+    state_topic: "lupe/rightunfold/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
 
 switch 08:
-  - platform: mqtt
-    name: norte
-    command_topic: "lupe/norte"
-    state_topic: "lupe/norte/state"
-
-switch 09:
-  - platform: mqtt
-    name: leftupdown
-    command_topic: "lupe/leftupdown"
-    state_topic: "lupe/leftupdown/state"
-
-switch 10:
-  - platform: mqtt
-    name: leftfoldunfold
-    command_topic: "lupe/leftfoldunfold"
-    state_topic: "lupe/leftfoldunfold/state"
-
-switch 11:
   - platform: mqtt
     name: moveleft
     command_topic: "lupe/moveleft"
     state_topic: "lupe/moveleft/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
 
-switch 12:
+switch 09:
   - platform: mqtt
-    name: headleftright
-    command_topic: "lupe/headleftright"
-    state_topic: "lupe/headleftright/state"
+    name: moveright
+    command_topic: "lupe/moveright"
+    state_topic: "lupe/moveright/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
 
-switch 13:
+switch 10:
   - platform: mqtt
     name: moveforward
     command_topic: "lupe/moveforward"
     state_topic: "lupe/moveforward/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
 
-switch 14:
-  - platform: mqtt
-    name: movestop
-    command_topic: "lupe/movestop"
-    state_topic: "lupe/movestop/state"
-
-switch 15:
+switch 11:
   - platform: mqtt
     name: movebackward
     command_topic: "lupe/movebackward"
     state_topic: "lupe/movebackward/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
+
+switch 12:
+  - platform: mqtt
+    name: movestop
+    command_topic: "lupe/movestop"
+    state_topic: "lupe/movestop/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
+
+switch 13:
+  - platform: mqtt
+    name: headleft
+    command_topic: "lupe/headleft"
+    state_topic: "lupe/headleft/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
+
+switch 14:
+  - platform: mqtt
+    name: headright
+    command_topic: "lupe/headright"
+    state_topic: "lupe/headright/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
+
+switch 15:
+  - platform: mqtt
+    name: resetall
+    command_topic: "lupe/resetall"
+    state_topic: "lupe/resetall/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
+
+switch 16:
+  - platform: mqtt
+    name: bienvenida
+    command_topic: "lupe/bienvenida"
+    state_topic: "lupe/bienvenida/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
+
+switch 17:
+  - platform: mqtt
+    name: agradece
+    command_topic: "lupe/agradece"
+    state_topic: "lupe/agradece/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
+
+switch 18:
+  - platform: mqtt
+    name: dance
+    command_topic: "lupe/dance"
+    state_topic: "lupe/dance/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
+
+switch 19:
+  - platform: mqtt
+    name: creador
+    command_topic: "lupe/creador"
+    state_topic: "lupe/creador/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
+
+switch 20:
+  - platform: mqtt
+    name: norte
+    command_topic: "lupe/norte"
+    state_topic: "lupe/norte/state"
+    payload_on: 1
+    payload_off: 0
+    qos: 1
 
 media_player:
   - platform: vlc
@@ -389,6 +542,9 @@ notify:
     name: telegram
     api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_co
     chat_id: 166426424
+
+light:
+  platform: hue
 
 automation:
 #  - alias: Lupe Robot Text To Speech
@@ -414,12 +570,13 @@ automation:
         message: "Lupe Robot Station has been activated"
 
 group:
+
   default_view:
     view: yes
     entities:
-      - group.technical
       - group.entrance
       - group.selfies
+      - group.technical
 
   # Views
 
@@ -427,52 +584,76 @@ group:
     view: yes
     name: Lupe Robot
     entities:
-      - group.lupeactionsarms
-      - group.lupeactionslegs
+      - group.lupearmleft
+      - group.lupearmright
+      - group.lupelegs
+      - group.lupehead
       - group.lupeactivities
-      - group.lupelearning
+      - group.lupediagnostics
+      #- group.lupeskills
 
   audioview:
     view: yes
     name: Audio
-    entities: group.audio
+    entities: 
+      - group.audioexhibits
+      - group.audiocontrols
 
   # Groups
+
+  entrance:
+    name: Welcome Center
+    entities:
+    #- script.welcome
+    - switch.lupe
+    #- switch.lupecomplete
+
+  selfies:
+    name: Selfies Center
+    entities:
+    - script.selfie
+    #- switch.preview
+    #- switch.latest
+    #- switch.loop
 
   technical:
     name: Technical Center
     entities:
     - script.help
-  entrance:
-    name: Welcome Center
-    entities:
-    - script.welcome
-    - switch.lupe
-    - switch.lupecomplete
-  selfies:
-    name: Selfies Center
-    entities:
-    - script.selfie
-    - switch.preview
-    - switch.latest
-    - switch.loop
 
-  lupeactionsarms:
-    name: Actions Arms
+  # Lupe
+
+  lupearmleft:
+    name: Arm Left
     entities:
-    #- script.lupe_arm_left
-    #- script.lupe_arm_right
-    - switch.leftupdown
-    - switch.leftfoldunfold
-    - switch.rightupdown
-    - switch.rightfoldunfold
-  lupeactionslegs:
-    name: Actions Legs
+    - switch.leftup
+    - switch.leftdown
+    - switch.leftfold
+    - switch.leftunfold
+
+  lupearmright:
+    name: Arm Right
+    entities:
+    - switch.rightup
+    - switch.rightdown
+    - switch.rightfold
+    - switch.rightunfold
+
+  lupelegs:
+    name: Legs
     entities:
     - switch.moveleft
     - switch.moveright
     - switch.moveforward
     - switch.movebackward
+    - switch.movestop
+
+  lupehead:
+    name: Head
+    entities:
+    - switch.headleft
+    - switch.headright
+
   lupeactivities:
     name: Activities
     entities:
@@ -482,18 +663,28 @@ group:
     - switch.dance
     - switch.creador
     - switch.norte
-  lupelearning:
-    name: Learning
+
+  lupeskills:
+    name: Skills
     entities:
     - script.presentation
     - script.recognize
 
-  audio:
-    name: Audio
+  lupediagnostics:
+    name: Diagnostics
+    entities:
+    - switch.resetall
+
+  audioexhibits:
+    name: Exhibits
     entities:
     - script.audiosectionone
     - script.audiosectiontwo
     - script.audiosectionthree
+    - script.audiosectionfour
 
-
-
+  audiocontrols:
+    name: Controls
+    entities:
+    - script.audiopause
+    - script.audioplay
