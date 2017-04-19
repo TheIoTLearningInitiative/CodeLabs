@@ -1,7 +1,5 @@
 set -x
 
-#killall -9 stream2chromecast.py
-
 IAM=`whoami`
 
 if [ "$IAM" == "root" ]; then
@@ -17,3 +15,6 @@ else
 fi
 
 ./stream2chromecast.py -devicename $DEVICE -stop
+
+killall -9 stream2chromecast.py
+
