@@ -16,7 +16,8 @@ else
         #DEVICE="Eek'"
 fi
 
-./stream2chromecast.py -devicename $DEVICE -setvol 1.0
+mpg123 $IPATH/Audio/02AntesDelVideo.mp3
 
-./stream2chromecast.py -devicename $DEVICE $IPATH/Audio/Intel.mp3
-./stream2chromecast.py -devicename $DEVICE -stop
+#./stream2chromecast.py -devicename $DEVICE -setvol 1.0
+#./stream2chromecast.py -devicename $DEVICE $IPATH/Audio/Intel.mp3
+#./stream2chromecast.py -devicename $DEVICE -stop

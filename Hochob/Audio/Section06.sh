@@ -18,5 +18,5 @@ fi
 
 ./stream2chromecast.py -devicename $DEVICE -setvol 1.0
 
-./stream2chromecast.py -devicename $DEVICE $IPATH/Audio/SectionFour.mp3
+./stream2chromecast.py -devicename $DEVICE $IPATH/Audio/06IntelGDC.mp3
 ./stream2chromecast.py -devicename $DEVICE -stop
