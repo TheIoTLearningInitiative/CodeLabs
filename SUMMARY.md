@@ -115,6 +115,7 @@
     * [Video](Hochob/documentation/Video.md)
     * [Home Assistant](Hochob/documentation/HomeAssistant.md)
       * [Automatic Startup](Hochob/documentation/HomeAssistantAutomaticStartup.md)
+      * [Dashboard](Hochob/documentation/HomeAssistantDashboard.md)
   * [Mobile Device](Hochob/documentation/MobileDevice.md)
   * [Lupe Robot](Hochob/documentation/LupeRobot.md)
     * [Architecture](Hochob/documentation/LupeRobotArchitecture.md)
