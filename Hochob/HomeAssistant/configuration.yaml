@@ -148,10 +148,10 @@ homeassistant:
     friendly_name: Labs y Fabs
     icon: mdi:audiobook
    script.audiosectionnine:
-    friendly_name: Binario
+    friendly_name: Amazon Echo
     icon: mdi:audiobook
    script.audiosectionten:
-    friendly_name: Amazon Echo
+    friendly_name: Binario
     icon: mdi:audiobook
    script.audiosectioneleven:
     friendly_name: Piano Cosmico Parte I
