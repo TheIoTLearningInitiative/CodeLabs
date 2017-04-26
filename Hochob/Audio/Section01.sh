@@ -8,17 +8,17 @@ if [ "$IAM" == "root" ]; then
         IPATH="/"$IAM"/"
 	cd $IPATH/CodeLabs/Hochob/Audio/stream2chromecast
         DEVICE="Juum"
-        DEVICE="Eek'"
+        #DEVICE="Eek'"
 else
         IPATH="/home/"$IAM"/"
 	cd $IPATH/CodeLabs/Hochob/Audio/stream2chromecast
         DEVICE="Juum"
-        DEVICE="Eek'"
+        #DEVICE="Eek'"
 fi
 
 ./stream2chromecast.py -devicename $DEVICE -setvol 1.0
 
-./stream2chromecast.py -devicename $DEVICE $IPATH/Audio/SectionOne.mp3
+./stream2chromecast.py -devicename $DEVICE $IPATH/Audio/Mayas.mp3
 ./stream2chromecast.py -devicename $DEVICE -stop
 
 #./stream2chromecast.py -devicename $DEVICE $IPATH/Audio/SectionOne01.mp3
