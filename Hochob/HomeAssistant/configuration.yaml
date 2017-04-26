@@ -124,16 +124,40 @@ homeassistant:
    # Audio
 
    script.audiosectionone:
-    friendly_name: Mayas
+    friendly_name: Bienvenida y Protocolo de Seguridad
     icon: mdi:audiobook
    script.audiosectiontwo:
-    friendly_name: Intel
+    friendly_name: Antes del Video
     icon: mdi:audiobook
    script.audiosectionthree:
-    friendly_name: Intel GDC
+    friendly_name: Despues del Video
     icon: mdi:audiobook
    script.audiosectionfour:
-    friendly_name: To Be Defined
+    friendly_name: Mayas
+    icon: mdi:audiobook
+   script.audiosectionfive:
+    friendly_name: Intel
+    icon: mdi:audiobook
+   script.audiosectionsix:
+    friendly_name: Intel GDC
+    icon: mdi:audiobook
+   script.audiosectionseven:
+    friendly_name: Microprocesador
+    icon: mdi:audiobook
+   script.audiosectioneight:
+    friendly_name: Labs y Fabs
+    icon: mdi:audiobook
+   script.audiosectionnine:
+    friendly_name: Binario
+    icon: mdi:audiobook
+   script.audiosectionten:
+    friendly_name: Amazon Echo
+    icon: mdi:audiobook
+   script.audiosectioneleven:
+    friendly_name: Piano Cosmico Parte I
+    icon: mdi:audiobook
+   script.audiosectiontwelve:
+    friendly_name: Piano Cosmico Parte II
     icon: mdi:audiobook
    script.audiostop:
     friendly_name: Stop
@@ -257,6 +281,46 @@ script:
     sequence:
       - alias: Audio Section Four
         service: shell_command.audiosectionfour
+  audiosectionfive:
+    alias: Audio Section Five
+    sequence:
+      - alias: Audio Section Five
+        service: shell_command.audiosectionfive
+  audiosectionsix:
+    alias: Audio Section Six
+    sequence:
+      - alias: Audio Section Six
+        service: shell_command.audiosectionsix
+  audiosectionseven:
+    alias: Audio Section Seven
+    sequence:
+      - alias: Audio Section Seven
+        service: shell_command.audiosectionseven
+  audiosectioneight:
+    alias: Audio Section Eight
+    sequence:
+      - alias: Audio Section Eight
+        service: shell_command.audiosectioneight
+  audiosectionnine:
+    alias: Audio Section Nine
+    sequence:
+      - alias: Audio Section Nine
+        service: shell_command.audiosectionnine
+  audiosectionten:
+    alias: Audio Section Ten
+    sequence:
+      - alias: Audio Section Ten 
+        service: shell_command.audiosectionten
+  audiosectioneleven:
+    alias: Audio Section Eleven
+    sequence:
+      - alias: Audio Section Eleven
+        service: shell_command.audiosectioneleven
+  audiosectiontwelve:
+    alias: Audio Section Twelve
+    sequence:
+      - alias: Audio Section Twelve
+        service: shell_command.audiosectiontwelve
   audiostop:
     alias: Audio Stop
     sequence:
@@ -274,6 +338,17 @@ script:
         service: shell_command.audioplay
 
   # Lupe Center
+
+  lupevirtualstart:
+    alias: Lupe Virtual Start
+    sequence:
+      - alias: Lupe Virtual Start
+        service: shell_command.lupevirtualstart
+  lupevirtualstop:
+    alias: Lupe Virtual Stop
+    sequence:
+      - alias: Lupe Virtual Stop
+        service: shell_command.lupevirtualstop
 
   presentation:
     alias: Presentation
@@ -315,13 +390,23 @@ shell_command:
   selfie: python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
   presentation: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Presentation/Presentation.sh &
   recognize: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Recognize/Recognize.sh &
-  audiosectionone: bash /home/hochob/CodeLabs/Hochob/Audio/SectionOne.sh &
-  audiosectiontwo: bash /home/hochob/CodeLabs/Hochob/Audio/SectionTwo.sh &
-  audiosectionthree: bash /home/hochob/CodeLabs/Hochob/Audio/SectionThree.sh &
-  audiosectionfour: bash /home/hochob/CodeLabs/Hochob/Audio/SectionFour.sh &
+  audiosectionone: bash /home/hochob/CodeLabs/Hochob/Audio/Section01.sh &
+  audiosectiontwo: bash /home/hochob/CodeLabs/Hochob/Audio/Section02.sh &
+  audiosectionthree: bash /home/hochob/CodeLabs/Hochob/Audio/Section03.sh &
+  audiosectionfour: bash /home/hochob/CodeLabs/Hochob/Audio/Section04.sh &
+  audiosectionfive: bash /home/hochob/CodeLabs/Hochob/Audio/Section05.sh &
+  audiosectionsix: bash /home/hochob/CodeLabs/Hochob/Audio/Section06.sh &
+  audiosectionseven: bash /home/hochob/CodeLabs/Hochob/Audio/Section07.sh &
+  audiosectioneight: bash /home/hochob/CodeLabs/Hochob/Audio/Section08.sh &
+  audiosectionnine: bash /home/hochob/CodeLabs/Hochob/Audio/Section09.sh &
+  audiosectionten: bash /home/hochob/CodeLabs/Hochob/Audio/Section10.sh &
+  audiosectioneleven: bash /home/hochob/CodeLabs/Hochob/Audio/Section11.sh &
+  audiosectiontwelve: bash /home/hochob/CodeLabs/Hochob/Audio/Section12.sh &
+  audiostop: bash /home/hochob/CodeLabs/Hochob/Audio/Stop.sh &
   audiopause: bash /home/hochob/CodeLabs/Hochob/Audio/Pause.sh &
   audioplay: bash /home/hochob/CodeLabs/Hochob/Audio/Play.sh &
-  audiostop: bash /home/hochob/CodeLabs/Hochob/Audio/Stop.sh &
+  lupevirtualstart: bash /home/hochob/CodeLabs/Hochob/LupeRobot/Virtual/amikoo.sh &
+  lupevirtualstop: pkill node &
 
 switch:
   - platform: command_line
@@ -608,6 +693,13 @@ group:
       - group.audioexhibits
       - group.audiocontrols
 
+  supportview:
+    view: yes
+    name: Support
+    entities:
+      - group.lupevirtual
+      - group.selfiessupport
+
   # Groups
 
   entrance:
@@ -621,8 +713,6 @@ group:
     name: Selfies Center
     entities:
     - script.selfie
-    #- switch.preview
-    #- switch.latest
     #- switch.loop
 
   technical:
@@ -690,7 +780,15 @@ group:
     - script.audiosectionone
     - script.audiosectiontwo
     - script.audiosectionthree
-    #- script.audiosectionfour
+    - script.audiosectionfour
+    - script.audiosectionfive
+    - script.audiosectionsix
+    - script.audiosectionseven
+    - script.audiosectioneight
+    - script.audiosectionnine
+    - script.audiosectionten
+    - script.audiosectioneleven
+    - script.audiosectiontwelve
 
   audiocontrols:
     name: Controls
@@ -698,3 +796,15 @@ group:
     - script.audiostop
     - script.audiopause
     - script.audioplay
+
+  lupevirtual:
+    name: Lupe Virtual
+    entities:
+    - script.lupevirtualstart
+    - script.lupevirtualstop
+
+  selfiessupport:
+    name: Selfies Center Support
+    entities:
+    - switch.preview
+    - switch.latest
