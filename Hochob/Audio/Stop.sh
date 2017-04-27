@@ -13,6 +13,3 @@ else
 fi
 
 ./stream2chromecast.py -devicename $DEVICE -stop
-
-killall -9 python
-
