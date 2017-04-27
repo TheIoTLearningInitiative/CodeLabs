@@ -12,40 +12,41 @@ homeassistant:
   time_zone: America/Mexico_City
   customize:
 
-   # Welcome Center
+   # Home : 1 Introduccion
 
-   script.welcome:
-    friendly_name: Welcome to Intel Visitor Center
+   script.audiosectionone:
+    friendly_name: 1.1 Bienvenida y Protocolo de Seguridad
+    icon: mdi:audiobook
+
+
+   # Home : 2 Video
+
+   script.audiosectiontwo:
+    friendly_name: 2.1 Antes del video
+    icon: mdi:audiobook
+   switch.luperobot:
+    friendly_name: 2.2 Video
+    icon: mdi:video
+   script.luperobot:
+    friendly_name: 2.3 Lupe robot
     icon: mdi:human-greeting
-   script.selfie:
-    friendly_name: Selfie Record
+   script.audiosectionthree:
+    friendly_name: 2.4 Despues del video
+    icon: mdi:audiobook
+
+   # Home : 3 Photography
+
+   script.photography:
+    friendly_name: Photography Record
     icon: mdi:camera
-   switch.lupecomplete:
-    friendly_name: Lupe Robot Show Complete
-    icon: mdi:video
-   switch.lupe:
-    friendly_name: Lupe Robot Show
-    icon: mdi:video
 
-   # Lupe Center
+   # Home : 4 Technical Center
 
-   script.recognize:
-    friendly_name: Recognize Speech
-    icon: mdi:microphone
+   script.help:
+    friendly_name: Visitor Center Needs Technical Help
+    icon: mdi:block-helper
 
-   # Selfie Center
-
-   switch.preview:
-    friendly_name: Selfie Preview
-    icon: mdi:video
-   switch.latest:
-    friendly_name: Selfie Play Latest
-    icon: mdi:video
-   switch.loop:
-    friendly_name: Selfie Play All In A Loop
-    icon: mdi:video
-
-   # Lupe
+   # Lupe Robot
 
    switch.leftup:
      friendly_name: Up
@@ -115,59 +116,76 @@ homeassistant:
      friendly_name: Mexican Northern
      icon: mdi:function
 
-   # Technical Center
+   # Beginning
 
-   script.help:
-    friendly_name: Visitor Center Needs Technical Help
-    icon: mdi:block-helper
-
-   # Audio
-
-   script.audiosectionone:
-    friendly_name: Bienvenida y Protocolo de Seguridad
-    icon: mdi:audiobook
-   script.audiosectiontwo:
-    friendly_name: Antes del Video
-    icon: mdi:audiobook
-   script.audiosectionthree:
-    friendly_name: Despues del Video
-    icon: mdi:audiobook
    script.audiosectionfour:
-    friendly_name: Mayas
+    friendly_name: 1. Antes del inicio
     icon: mdi:audiobook
    script.audiosectionfive:
-    friendly_name: Intel
+    friendly_name: 2. Intel
     icon: mdi:audiobook
    script.audiosectionsix:
-    friendly_name: Intel GDC
+    friendly_name: 3. Intel GDC
     icon: mdi:audiobook
    script.audiosectionseven:
-    friendly_name: Microprocesador
+    friendly_name: 4. El microprocesador
     icon: mdi:audiobook
    script.audiosectioneight:
-    friendly_name: Labs y Fabs
+    friendly_name: 5. Labs y Fabs
     icon: mdi:audiobook
+
+   script.audiostopjuum:
+    friendly_name: Stop Juum
+    icon: mdi:stop
+   script.audiopausejuum:
+    friendly_name: Pause Juum
+    icon: mdi:pause
+   script.audioplayjuum:
+    friendly_name: Play Juum
+    icon: mdi:play
+
+   # Experience
+
    script.audiosectionnine:
-    friendly_name: Amazon Echo
+    friendly_name: 1. Amazon Echo
     icon: mdi:audiobook
    script.audiosectionten:
-    friendly_name: Binario
+    friendly_name: 2. Binario
     icon: mdi:audiobook
    script.audiosectioneleven:
-    friendly_name: Piano Cosmico Parte I
+    friendly_name: 3. Piano Cosmico I
     icon: mdi:audiobook
    script.audiosectiontwelve:
-    friendly_name: Piano Cosmico Parte II
+    friendly_name: 4. Piano Cosmico II
     icon: mdi:audiobook
-   script.audiostop:
-    friendly_name: Stop
+
+   script.audiostopeek:
+    friendly_name: Stop Eek'
     icon: mdi:stop
-   script.audiopause:
-    friendly_name: Pause
+   script.audiopauseeek:
+    friendly_name: Pause Eek'
     icon: mdi:pause
-   script.audioplay:
-    friendly_name: Play
+   script.audioplayeek:
+    friendly_name: Play Eek'
     icon: mdi:play
+
+   # Support : Lupe
+
+   script.recognize:
+    friendly_name: Recognize Speech
+    icon: mdi:microphone
+
+   # Support : Camera
+
+   switch.camerapreview:
+    friendly_name: Camera Preview
+    icon: mdi:video
+   switch.cameravideolatest:
+    friendly_name: Camera Play Latest
+    icon: mdi:video
+   switch.cameravideoloop:
+    friendly_name: Camera Play All In A Loop
+    icon: mdi:video
 
    # Hidden
 
@@ -238,19 +256,19 @@ mqtt:
   keepalive: 60
 
 script:
-  welcome:
-    alias: Welcome
+  luperobot:
+    alias: Lupe Robot
     sequence:
-      - alias: Welcome To Intel Visitor Center
+      - alias: Bienvenidos a Intel Guadalajara
         service: tts.google_say
         data:
-          message: "Bienvenidos a Intel Guadalajara! Buscaremos que Jesus Palomino les de la Bienvenida por medio de un Video"
+          message: "Bienvenidos a Intel Guadalajara!"
           language: 'es'
-  selfie:
-    alias: Selfie
+  photography:
+    alias: Photography
     sequence:
-      - alias: Selfie Record
-        service: shell_command.selfie
+      - alias: Photography Record
+        service: shell_command.photography
   help:
     alias: Help Needed
     sequence:
@@ -321,21 +339,38 @@ script:
     sequence:
       - alias: Audio Section Twelve
         service: shell_command.audiosectiontwelve
-  audiostop:
-    alias: Audio Stop
+
+  audiostopjuum:
+    alias: Audio Stop Juum
     sequence:
-      - alias: Audio Stop
-        service: shell_command.audiostop
-  audiopause:
-    alias: Audio Pause
+      - alias: Audio Stop Juum
+        service: shell_command.audiostopjuum
+  audiopausejuum:
+    alias: Audio Pause Juum
     sequence:
-      - alias: Audio Pause
-        service: shell_command.audiopause
-  audioplay:
-    alias: Audio Play
+      - alias: Audio Pause Juum
+        service: shell_command.audiopausejuum
+  audioplayjuum:
+    alias: Audio Play Juum
     sequence:
-      - alias: Audio Play
-        service: shell_command.audioplay
+      - alias: Audio Play Juum
+        service: shell_command.audioplayjuum
+
+  audiostopeek:
+    alias: Audio Stop Eek'
+    sequence:
+      - alias: Audio Stop Eek'
+        service: shell_command.audiostopeek
+  audiopauseeek:
+    alias: Audio Pause Eek'
+    sequence:
+      - alias: Audio Pause Eek'
+        service: shell_command.audiopauseeek
+  audioplayeek:
+    alias: Audio Play Eek'
+    sequence:
+      - alias: Audio Play Eek'
+        service: shell_command.audioplayeek
 
   # Lupe Center
 
@@ -350,16 +385,17 @@ script:
       - alias: Lupe Virtual Stop
         service: shell_command.lupevirtualstop
 
-  presentation:
-    alias: Presentation
+  lupepresentation:
+    alias: Lupe Presentation
     sequence:
       - alias: Presentation
-        service: shell_command.presentation
-  recognize:
-    alias: Recognize
+        service: shell_command.lupepresentation
+  luperecognize:
+    alias: Lupe Recognize
     sequence:
       - alias: Recognize Speech
-        service: shell_command.recognize
+        service: shell_command.luperecognize
+
   lupe_arm_left:
     alias: Lupe Arm Left
     sequence:
@@ -387,9 +423,9 @@ script:
 
 shell_command:
   restart_ha: sudo systemctl restart home-assistant.service &
-  selfie: python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
-  presentation: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Presentation/Presentation.sh &
-  recognize: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Recognize/Recognize.sh &
+  photography: python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
+  lupepresentation: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Presentation/Presentation.sh &
+  luperecognition: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Recognize/Recognize.sh &
   audiosectionone: bash /home/hochob/CodeLabs/Hochob/Audio/Section01.sh &
   audiosectiontwo: bash /home/hochob/CodeLabs/Hochob/Audio/Section02.sh &
   audiosectionthree: bash /home/hochob/CodeLabs/Hochob/Audio/Section03.sh &
@@ -402,28 +438,31 @@ shell_command:
   audiosectionten: bash /home/hochob/CodeLabs/Hochob/Audio/Section10.sh &
   audiosectioneleven: bash /home/hochob/CodeLabs/Hochob/Audio/Section11.sh &
   audiosectiontwelve: bash /home/hochob/CodeLabs/Hochob/Audio/Section12.sh &
-  audiostop: bash /home/hochob/CodeLabs/Hochob/Audio/Stop.sh &
-  audiopause: bash /home/hochob/CodeLabs/Hochob/Audio/Pause.sh &
-  audioplay: bash /home/hochob/CodeLabs/Hochob/Audio/Play.sh &
+  audiostopjuum: bash /home/hochob/CodeLabs/Hochob/Audio/Stop.sh "Juum" &
+  audiopausejuum: bash /home/hochob/CodeLabs/Hochob/Audio/Pause.sh "Juum" &
+  audioplayjuum: bash /home/hochob/CodeLabs/Hochob/Audio/Play.sh "Juum" &
+  audiostopeek: bash /home/hochob/CodeLabs/Hochob/Audio/Stop.sh "Eek'" &
+  audiopauseeek: bash /home/hochob/CodeLabs/Hochob/Audio/Pause.sh "Eek'" &
+  audioplayeek: bash /home/hochob/CodeLabs/Hochob/Audio/Play.sh "Eek'" &
   lupevirtualstart: bash /home/hochob/CodeLabs/Hochob/LupeRobot/Virtual/amikoo.sh &
   lupevirtualstop: pkill node &
 
 switch:
   - platform: command_line
     switches:
+      luperobot:
+        command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot1080p.sh &"
+        command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
       lupecomplete:
         command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot.sh &"
         command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
-      lupe:
-        command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot1080p.sh &"
-        command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
-      preview:
+      camerapreview:
         command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0"
         command_off: "pkill vlc"
-      latest:
+      cameravideolatest:
         command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/VideosSelfies/latest.mp4"
         command_off: "pkill vlc"
-      loop:
+      cameravideoloop:
         command_on: "cvlc --no-video-title-show --fullscreen --loop /home/hochob/VideosSelfies/*.mp4"
         command_off: "pkill vlc"
 
@@ -668,8 +707,9 @@ group:
   default_view:
     view: yes
     entities:
-      - group.entrance
-      - group.selfies
+      - group.introduction
+      - group.video
+      - group.photography
       - group.technical
 
   # Views
@@ -684,43 +724,65 @@ group:
       - group.lupehead
       - group.lupeactivities
       - group.lupediagnostics
-      #- group.lupeskills
 
-  audioview:
+  exhibitsview:
     view: yes
-    name: Audio
+    name: Beginning
     entities: 
-      - group.audioexhibits
-      - group.audiocontrols
+      - group.audiosectionexhibits
+      - group.audiocontrolsexhibits
+
+  laboratoriesview:
+    view: yes
+    name: Experience
+    entities: 
+      - group.audiosectionlaboratories
+      - group.audiocontrolslaboratories
 
   supportview:
     view: yes
     name: Support
     entities:
       - group.lupevirtual
-      - group.selfiessupport
+      - group.lupeskills
+      - group.camera
 
-  # Groups
+  # Groups : Default
 
-  entrance:
-    name: Welcome Center
+  introduction:
+    name: 1 Introduccion
     entities:
-    #- script.welcome
-    - switch.lupe
+    - script.audiosectionone
+
+  video:
+    name: 2 Video
+    entities:
+    - script.audiosectiontwo
+    - switch.luperobot
+    - script.luperobot
+    - script.audiosectionthree
     #- switch.lupecomplete
 
-  selfies:
-    name: Selfies Center
+  photography:
+    name: Photography
     entities:
-    - script.selfie
-    #- switch.loop
+    - script.photography
 
   technical:
     name: Technical Center
     entities:
     - script.help
 
-  # Lupe
+  # Groups : Lupe Robot
+
+  lupeactivities:
+    name: Activities
+    entities:
+    - switch.bienvenida
+    - switch.agradece
+    - switch.dance
+    - switch.creador
+    - switch.norte
 
   lupearmleft:
     name: Arm Left
@@ -753,49 +815,47 @@ group:
     - switch.headleft
     - switch.headright
 
-  lupeactivities:
-    name: Activities
-    entities:
-    #- script.lupe_dance
-    - switch.bienvenida
-    - switch.agradece
-    - switch.dance
-    - switch.creador
-    - switch.norte
-
-  lupeskills:
-    name: Skills
-    entities:
-    - script.presentation
-    - script.recognize
-
   lupediagnostics:
     name: Diagnostics
     entities:
     - switch.resetall
 
-  audioexhibits:
-    name: Exhibits
+  # Groups : Exhibits
+
+  audiosectionexhibits:
+    name: Stations
     entities:
-    - script.audiosectionone
-    - script.audiosectiontwo
-    - script.audiosectionthree
     - script.audiosectionfour
     - script.audiosectionfive
     - script.audiosectionsix
     - script.audiosectionseven
     - script.audiosectioneight
-    - script.audiosectionnine
+
+  audiocontrolsexhibits:
+    name: Controls
+    entities:
+    - script.audiostopjuum
+    - script.audiopausejuum
+    - script.audioplayjuum
+
+  # Groups : Laboratories
+
+  audiosectionlaboratories:
+    name: Stations
+    entities:
     - script.audiosectionten
+    - script.audiosectionnine
     - script.audiosectioneleven
     - script.audiosectiontwelve
 
-  audiocontrols:
+  audiocontrolslaboratories:
     name: Controls
     entities:
-    - script.audiostop
-    - script.audiopause
-    - script.audioplay
+    - script.audiostopeek
+    - script.audiopauseeek
+    - script.audioplayeek
+
+  # Groups : Support
 
   lupevirtual:
     name: Lupe Virtual
@@ -803,8 +863,14 @@ group:
     - script.lupevirtualstart
     - script.lupevirtualstop
 
-  selfiessupport:
-    name: Selfies Center Support
+  lupeskills:
+    name: Lupe Skills
     entities:
-    - switch.preview
-    - switch.latest
+    - script.luperecognize
+
+  camera:
+    name: Camera
+    entities:
+    - switch.camerapreview
+    - switch.cameravideolatest
+    - switch.cameravideoloop
