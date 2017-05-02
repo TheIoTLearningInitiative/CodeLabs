@@ -250,7 +250,8 @@ tts:
 #  - platform: yr
 
 mqtt:
-  broker: iot.eclipse.org
+#  broker: iot.eclipse.org
+  broker: localhost
   port: 1883
   client_id: hochob
   keepalive: 60
@@ -262,7 +263,7 @@ script:
       - alias: Bienvenidos a Intel Guadalajara
         service: tts.google_say
         data:
-          message: "Bienvenidos a Intel Guadalajara!"
+          message: "Hola! Soy Lupe el Robot"
           language: 'es'
   photography:
     alias: Photography
@@ -725,19 +726,19 @@ group:
       - group.lupeactivities
       - group.lupediagnostics
 
-  exhibitsview:
+  beginningview:
     view: yes
     name: Beginning
     entities: 
-      - group.audiosectionexhibits
-      - group.audiocontrolsexhibits
+      - group.audiosectionbeginning
+      - group.audiocontrolsbeginning
 
-  laboratoriesview:
+  experienceview:
     view: yes
     name: Experience
     entities: 
-      - group.audiosectionlaboratories
-      - group.audiocontrolslaboratories
+      - group.audiosectionexperience
+      - group.audiocontrolsexperience
 
   supportview:
     view: yes
@@ -820,9 +821,9 @@ group:
     entities:
     - switch.resetall
 
-  # Groups : Exhibits
+  # Groups : Beginning
 
-  audiosectionexhibits:
+  audiosectionbeginning:
     name: Stations
     entities:
     - script.audiosectionfour
@@ -831,16 +832,16 @@ group:
     - script.audiosectionseven
     - script.audiosectioneight
 
-  audiocontrolsexhibits:
+  audiocontrolsbeginning:
     name: Controls
     entities:
     - script.audiostopjuum
     - script.audiopausejuum
     - script.audioplayjuum
 
-  # Groups : Laboratories
+  # Groups : Experience
 
-  audiosectionlaboratories:
+  audiosectionexperience:
     name: Stations
     entities:
     - script.audiosectionten
@@ -848,7 +849,7 @@ group:
     - script.audiosectioneleven
     - script.audiosectiontwelve
 
-  audiocontrolslaboratories:
+  audiocontrolsexperience:
     name: Controls
     entities:
     - script.audiostopeek
