@@ -1,5 +1,6 @@
 const mqtt = require('mqtt')  
-const client = mqtt.connect('mqtt://iot.eclipse.org')
+//const client = mqtt.connect('mqtt://iot.eclipse.org')
+const client = mqtt.connect('mqtt://localhost')
 
 var sys = require('sys')
 var exec = require('child_process').exec;
@@ -114,15 +115,15 @@ client.on('message', function (topic, message) {
       return handleLupe('Norte')
 
     case 'lupe/inicial':
-      return handleLupe('Hola a todos!')
+      return handleSpeakLupe('Hola a todos!')
     case 'lupe/emocion':
-      return handleLupe('Perdon! Lo se!, Es que me emociono!')
+      return handleSpeakLupe('Perdon! Lo se!, Es que me emociono!')
     case 'lupe/porsupuesto':
-      return handleLupe('Por supuesto')
+      return handleSpeakLupe('Por supuesto')
     case 'lupe/cerebro':
-      return handleLupe('En mi caso, mi cerebro esta aqui!')
+      return handleSpeakLupe('En mi caso, mi cerebro esta aqui!')
     case 'lupe/inteledison':
-      return handleLupe('Yo funciono con la plataforma Intel Edison')
+      return handleSpeakLupe('Yo funciono con la plataforma Intel Edison')
 
   }
 })
@@ -160,15 +161,19 @@ function handleRequestClose (message) {
   }
 }
 
-function handleRequestSay (message) {  
+function handleRequestSay (message) {
     espeak(message)
 }
 
-function handleLupe (message) {  
+function handleLupe (message) {
+  console.log('Action %s', message)
+}
+
+function handleSpeakLupe (message) {
   espeak(message)
 }
 
-function handleAppExit (options, err) {  
+function handleAppExit (options, err) {
   if (err) {
     console.log(err.stack)
   }
