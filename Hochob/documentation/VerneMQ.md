@@ -67,6 +67,7 @@ hochob@server:~$
 
 # Clients
 
+```sh
 hochob@server:~$ sudo apt-get install mosquitto-clients
 Reading package lists... Done
 ...
@@ -83,7 +84,6 @@ hochob@server:~$
 ```sh
 hochob@server:~$ mosquitto_sub -h 127.0.0.1 -p 1883 -t IoT101/#
 Hello All Operators!
-
 ```
 
 ```sh

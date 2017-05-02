@@ -116,6 +116,7 @@
     * [Home Assistant](Hochob/documentation/HomeAssistant.md)
       * [Automatic Startup](Hochob/documentation/HomeAssistantAutomaticStartup.md)
       * [Dashboard](Hochob/documentation/HomeAssistantDashboard.md)
+    * [VerneMQ](Hochob/documentation/VerneMQ.md)
   * [Mobile Device](Hochob/documentation/MobileDevice.md)
   * [Lupe Robot](Hochob/documentation/LupeRobot.md)
     * [Architecture](Hochob/documentation/LupeRobotArchitecture.md)
