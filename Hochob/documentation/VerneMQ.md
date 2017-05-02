@@ -69,6 +69,12 @@ hochob@server:~$
 hochob@server:~$ sudo update-rc.d vernemq enable
 ```
 
+```sh
+hochob@server:~$ ls -l /etc/rc2.d | grep vernemq
+lrwxrwxrwx 1 root root 17 mar 29 18:28 S01vernemq -> ../init.d/vernemq
+hochob@server:~$ 
+```
+
 # Clients
 
 ```sh
