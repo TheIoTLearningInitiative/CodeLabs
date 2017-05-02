@@ -251,7 +251,7 @@ tts:
 
 mqtt:
 #  broker: iot.eclipse.org
-  broker: localhost
+  broker: 127.0.0.1
   port: 1883
   client_id: hochob
   keepalive: 60
@@ -263,7 +263,7 @@ script:
       - alias: Bienvenidos a Intel Guadalajara
         service: tts.google_say
         data:
-          message: "Hola! Soy Lupe el Robot"
+          message: "Hola! Estan listos para jugar con Lupe?"
           language: 'es'
   photography:
     alias: Photography
@@ -674,8 +674,8 @@ media_player:
 notify:
   - platform: telegram
     name: telegram
-    api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_co
-    chat_id: 166426424
+    api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_oc
+    chat_id: 166426442
 
 light:
   platform: hue
