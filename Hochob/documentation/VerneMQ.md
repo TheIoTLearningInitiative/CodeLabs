@@ -65,6 +65,10 @@ ok
 hochob@server:~$ 
 ```
 
+```sh
+hochob@server:~$ sudo update-rc.d vernemq enable
+```
+
 # Clients
 
 ```sh
