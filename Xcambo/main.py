@@ -65,7 +65,7 @@ if __name__ == '__main__':
     while True:
         print "Hello Xcambo"
         print "Data Sensor: %s " % functionDataSensor()
-        print "API Weather: %s " % functionApiWeather()
+        #print "API Weather: %s " % functionApiWeather()
         time.sleep(5)
 
 # End of File
