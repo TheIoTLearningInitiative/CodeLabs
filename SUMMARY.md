@@ -79,6 +79,7 @@
     * [Intel Edison](Edzna/documentation/IntelEdison.md)
   * [Server](Edzna/documentation/Server.md)
     * [Home Assistant](Edzna/documentation/home-assistant.md)
+      * [Default Configuration](Edzna/documentation/DefaultConfiguration.md)
       * [Hello](Edzna/documentation/Hello.md)
       * [MQTT](Edzna/documentation/Mqtt.md)
         * [Light](Edzna/documentation/MqttLight.md)
