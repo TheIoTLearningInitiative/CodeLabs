@@ -40,20 +40,20 @@ import pyupm_grove as grove
 
 light = grove.GroveLight(0)
 
-datafreeboard = {}
-datadweet = "Xpuhil"
+dweetiodatasource = {}
+dweetiothingname = "Xpuhil"
 
 def SIGINTHandler(signum, frame):
-    raise SystemExit
+	raise SystemExit
 
 def exitHandler():
-    print "Exiting"
+	print "Exiting"
         time.sleep(2)
-        datafreeboard['alive'] = "0"
-        datafreeboard['luxes'] =  0
-        datafreeboard['message'] = "None"
-        dweepy.dweet_for(datadweet, datafreeboard)
-    sys.exit(0)
+        dweetiodatasource['alive'] = "0"
+        dweetiodatasource['luxes'] =  0
+        dweetiodatasource['message'] = "None"
+        dweepy.dweet_for(dweetiothingname, dweetiodatasource)
+	sys.exit(0)
 
 atexit.register(exitHandler)
 signal.signal(signal.SIGINT, SIGINTHandler)
@@ -66,10 +66,10 @@ if __name__ == '__main__':
 
         luxes = light.value()
 
-        datafreeboard['alive'] = "1"
-        datafreeboard['luxes'] =  luxes
-        datafreeboard['message'] = message
-        dweepy.dweet_for(datadweet, datafreeboard)
+        dweetiodatasource['alive'] = "1"
+        dweetiodatasource['luxes'] =  luxes
+        dweetiodatasource['message'] = message
+        dweepy.dweet_for(dweetiothingname, dweetiodatasource)
 
         time.sleep(2)
 ```
