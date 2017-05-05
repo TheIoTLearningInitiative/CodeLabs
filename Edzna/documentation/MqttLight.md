@@ -2,7 +2,7 @@
 
 Based on [MQTT Light](https://home-assistant.io/components/light.mqtt/)
 
-- [Open Home Automation Github](https://github.com/mertenats/open-home-automation/tree/master/openhome)
+* [Open Home Automation Github](https://github.com/mertenats/open-home-automation/tree/master/openhome)
 
 ```sh
 user@server:~$ nano ~/.homeassistant/configuration.yaml
@@ -37,3 +37,6 @@ user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/principal/
 user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/kitchen/light/rgb/status -m "255,0,0"
 user@workstation:~$ mosquitto_pub -h iot.eclipse.org -p 1883 -t edzna/principal/light/rgb/status -m "255,0,0"
 ```
+
+
+
