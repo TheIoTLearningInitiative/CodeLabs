@@ -16,7 +16,10 @@ else
         #DEVICE="Eek'"
 fi
 
+eog -sf $IPATH/Images/* &
 mpg123 $IPATH/Audio/02AntesDelVideo.mp3
+killall -9 eog
+
 
 #./stream2chromecast.py -devicename $DEVICE -setvol 1.0
 #./stream2chromecast.py -devicename $DEVICE $IPATH/Audio/Intel.mp3
