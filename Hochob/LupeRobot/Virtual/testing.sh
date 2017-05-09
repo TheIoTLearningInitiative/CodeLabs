@@ -36,6 +36,6 @@ do
 
   topic=$device$action
 
-  mosquitto_pub --qos 2 -h iot.eclipse.org -p 1883 -t $topic -m 1
-  sleep 1
+  mosquitto_pub --qos 1 -h iot.eclipse.org -p 1883 -t $topic -m 1
+  sleep 2
 done
