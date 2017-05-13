@@ -21,7 +21,6 @@
 - __Kinich KaK Moo__ Python: Virtual, Grove While, Grove Threads
 - __Kohunlich__ Product Development
 
-
 ## Full List
 
 Belice
