@@ -1,0 +1,8 @@
+com.intel.core.connection.selection=edison
+com.intel.core.platform.selected.id=com.intel.iotdevkit.platform.edison
+com.intel.core.project.description=Edison
+com.intel.core.project.name=Hochob
+com.intel.core.project.type.id=com.intel.iotdevkit.cdt.iotCDTNature
+com.intel.core.project.version=4.5.0
+eclipse.preferences.version=1
+platform/os=yocto

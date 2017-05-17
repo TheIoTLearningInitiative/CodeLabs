@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.intel.iotdevkit.poky.i586.toolchain.1541420103">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.intel.iotdevkit.poky.i586.toolchain.1541420103" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="com.intel.iotdevkit.poky.i586.toolchain.1541420103" name="Debug" parent="com.intel.iotdevkit.poky.i586.config.gnu.cross.exe.debug">
+					<folderInfo id="com.intel.iotdevkit.poky.i586.toolchain.1541420103." name="/" resourcePath="">
+						<toolChain id="com.intel.iotdevkit.poky.i586.toolchain.gnu.cross.exe.debug.783073781" name="IoT Poky 32-Bit GCC" superClass="com.intel.iotdevkit.poky.i586.toolchain">
+							<targetPlatform id="com.intel.iotdevkit.poky.i586.toolchain.gnu.cross.exe.debug.783073781.654331927" name=""/>
+							<builder buildPath="${workspace_loc:/Hochob}/Debug" id="com.intel.iotdevkit.poky.i586.builder.367651854" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="IoT internal builder" superClass="com.intel.iotdevkit.poky.i586.builder"/>
+							<tool id="com.intel.iotdevkit.poky.i586.tool.gnu.cross.c.compiler.1625425384" name="IoT Poky 32-Bit GCC Compiler" superClass="com.intel.iotdevkit.poky.i586.tool.gnu.cross.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.401528154" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.215115983" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.153180962" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.intel.iotdevkit.poky.i586.tool.gnu.cross.cpp.compiler.1901900402" name="IoT Poky 32-Bit G++ Compiler" superClass="com.intel.iotdevkit.poky.i586.tool.gnu.cross.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.1206120904" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1639505221" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1697957548" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.intel.iotdevkit.poky.i586.tool.gnu.c.linker.1021725593" name="IoT Poky 32-Bit GCC Linker" superClass="com.intel.iotdevkit.poky.i586.tool.gnu.c.linker"/>
+							<tool id="com.intel.iotdevkit.poky.i586.tool.gnu.cpp.linker.393574920" name="IoT Poky 32-Bit G++ Linker" superClass="com.intel.iotdevkit.poky.i586.tool.gnu.cpp.linker">
+								<option id="com.intel.iotdevkit.poky.i586.gnu.cpp.option.link.libs.1218192270" name="Libraries" superClass="com.intel.iotdevkit.poky.i586.gnu.cpp.option.link.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="mraa"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1962229251" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.intel.iotdevkit.poky.i586.gnu.generic.tool.archiver.528128108" name="IoT Poky 32-Bit GCC Archiver" superClass="com.intel.iotdevkit.poky.i586.gnu.generic.tool.archiver"/>
+							<tool id="com.intel.iotdevkit.poky.i586.gnu.generic.tool.assembler.1388344425" name="IoT Poky 32-Bit GCC Assembler" superClass="com.intel.iotdevkit.poky.i586.gnu.generic.tool.assembler">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1987107446" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.intel.iotdevkit.poky.i586.toolchain.1342755399">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.intel.iotdevkit.poky.i586.toolchain.1342755399" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="com.intel.iotdevkit.poky.i586.toolchain.1342755399" name="Release" parent="com.intel.iotdevkit.poky.i586.config.cross.exe.release">
+					<folderInfo id="com.intel.iotdevkit.poky.i586.toolchain.1342755399." name="/" resourcePath="">
+						<toolChain id="com.intel.iotdevkit.poky.i586.toolchain.gnu.cross.exe.release.1742419144" name="IoT Poky 32-Bit GCC" superClass="com.intel.iotdevkit.poky.i586.toolchain">
+							<targetPlatform id="com.intel.iotdevkit.poky.i586.toolchain.gnu.cross.exe.release.1742419144.1065296852" name=""/>
+							<builder buildPath="${workspace_loc:/Hochob}/Release" id="com.intel.iotdevkit.poky.i586.builder.372998788" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="IoT internal builder" superClass="com.intel.iotdevkit.poky.i586.builder"/>
+							<tool id="com.intel.iotdevkit.poky.i586.tool.gnu.cross.c.compiler.1374039105" name="IoT Poky 32-Bit GCC Compiler" superClass="com.intel.iotdevkit.poky.i586.tool.gnu.cross.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.729472734" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1622218468" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2099913622" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.intel.iotdevkit.poky.i586.tool.gnu.cross.cpp.compiler.131429745" name="IoT Poky 32-Bit G++ Compiler" superClass="com.intel.iotdevkit.poky.i586.tool.gnu.cross.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.900885751" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1640257005" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1356966048" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.intel.iotdevkit.poky.i586.tool.gnu.c.linker.1201314467" name="IoT Poky 32-Bit GCC Linker" superClass="com.intel.iotdevkit.poky.i586.tool.gnu.c.linker"/>
+							<tool id="com.intel.iotdevkit.poky.i586.tool.gnu.cpp.linker.1537817876" name="IoT Poky 32-Bit G++ Linker" superClass="com.intel.iotdevkit.poky.i586.tool.gnu.cpp.linker">
+								<option id="com.intel.iotdevkit.poky.i586.gnu.cpp.option.link.libs.1385113954" name="Libraries" superClass="com.intel.iotdevkit.poky.i586.gnu.cpp.option.link.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="mraa"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1635180321" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.intel.iotdevkit.poky.i586.gnu.generic.tool.archiver.1285929348" name="IoT Poky 32-Bit GCC Archiver" superClass="com.intel.iotdevkit.poky.i586.gnu.generic.tool.archiver"/>
+							<tool id="com.intel.iotdevkit.poky.i586.gnu.generic.tool.assembler.1250895483" name="IoT Poky 32-Bit GCC Assembler" superClass="com.intel.iotdevkit.poky.i586.gnu.generic.tool.assembler">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1354497352" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Hochob.null.1325709934" name="Hochob"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.intel.iotdevkit.poky.i586.toolchain.1541420103;com.intel.iotdevkit.poky.i586.toolchain.1541420103.;com.intel.iotdevkit.poky.i586.tool.gnu.cross.cpp.compiler.1901900402;cdt.managedbuild.tool.gnu.cpp.compiler.input.1697957548">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.intel.iotdevkit.poky.i586.toolchain.1342755399;com.intel.iotdevkit.poky.i586.toolchain.1342755399.;com.intel.iotdevkit.poky.i586.tool.gnu.cross.cpp.compiler.131429745;cdt.managedbuild.tool.gnu.cpp.compiler.input.1356966048">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.intel.iotdevkit.poky.i586.toolchain.1541420103;com.intel.iotdevkit.poky.i586.toolchain.1541420103.;com.intel.iotdevkit.poky.i586.tool.gnu.cross.c.compiler.1625425384;cdt.managedbuild.tool.gnu.c.compiler.input.153180962">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.intel.iotdevkit.poky.i586.toolchain.1342755399;com.intel.iotdevkit.poky.i586.toolchain.1342755399.;com.intel.iotdevkit.poky.i586.tool.gnu.cross.c.compiler.1374039105;cdt.managedbuild.tool.gnu.c.compiler.input.2099913622">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>

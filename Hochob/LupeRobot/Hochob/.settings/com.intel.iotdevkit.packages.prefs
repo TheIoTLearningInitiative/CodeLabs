@@ -1,0 +1,4 @@
+com.intel.iotdevkit.packages=com.intel.iotdevkit.packages
+eclipse.preferences.version=1
+mraa=mraa\:mraa
+upm=upm\:upm
