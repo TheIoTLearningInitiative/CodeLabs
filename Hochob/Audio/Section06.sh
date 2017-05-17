@@ -7,12 +7,12 @@ IAM=`whoami`
 if [ "$IAM" == "root" ]; then
         IPATH="/"$IAM"/"
 	cd $IPATH/CodeLabs/Hochob/Audio/stream2chromecast
-        DEVICE="Juum"
+        DEVICE="Triki"
         #DEVICE="Eek'"
 else
         IPATH="/home/"$IAM"/"
 	cd $IPATH/CodeLabs/Hochob/Audio/stream2chromecast
-        DEVICE="Juum"
+        DEVICE="Triki"
         #DEVICE="Eek'"
 fi
 

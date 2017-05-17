@@ -16,7 +16,7 @@ else
         #DEVICE="Eek'"
 fi
 
-eog -sf $IPATH/Images/* &
+eog -sf $IPATH/Images/Corporate* &
 mpg123 $IPATH/Audio/01BienvenidaYProtocoloDeSeguridad.mp3
 killall -9 eog
 

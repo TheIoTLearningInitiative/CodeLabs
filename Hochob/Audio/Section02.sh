@@ -16,9 +16,12 @@ else
         #DEVICE="Eek'"
 fi
 
-eog -sf $IPATH/Images/* &
-mpg123 $IPATH/Audio/02AntesDelVideo.mp3
-killall -9 eog
+feh --fullscreen --slideshow-delay 1 --cycle-once $IPATH/Images/VisitorCenter/01/*.jpg
+mpg123 $IPATH/Audio/02AntesDelVideo.mp3 &
+feh --fullscreen --slideshow-delay 3 --cycle-once $IPATH/Images/VisitorCenter/02/*.jpg
+feh --fullscreen $IPATH/Images/VisitorCenter/lupe.jpg &
+sleep 9
+killall -9 feh
 
 
 #./stream2chromecast.py -devicename $DEVICE -setvol 1.0
