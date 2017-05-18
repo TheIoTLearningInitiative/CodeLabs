@@ -1,20 +1,20 @@
 #!/bin/sh
 
-systemctl disable bluetooth-rfkill-event.service
-systemctl disable bluetooth.service
-systemctl disable clloader.service
-systemctl disable dbus-org.bluez.service
-systemctl disable mcu_fw_loader.service
-systemctl disable mdns.service
-systemctl disable mosquitto.service
-systemctl disable ofono.service
-#systemctl disable pulseaudio.service
-systemctl disable pwr-button-handler.service
-systemctl disable redis.service
-systemctl disable sketch-check.service
-systemctl disable sketch_reset.service
-systemctl disable wyliodrin-hypervisor.service
-systemctl disable wyliodrin-server.service
-systemctl disable xdk-daemon.service
+systemctl enable bluetooth-rfkill-event.service
+systemctl enable bluetooth.service
+systemctl enable clloader.service
+systemctl enable dbus-org.bluez.service
+systemctl enable mcu_fw_loader.service
+systemctl enable mdns.service
+systemctl enable mosquitto.service
+systemctl enable ofono.service
+systemctl enable pulseaudio.service
+systemctl enable pwr-button-handler.service
+systemctl enable redis.service
+systemctl enable sketch-check.service
+systemctl enable sketch_reset.service
+systemctl enable wyliodrin-hypervisor.service
+systemctl enable wyliodrin-server.service
+systemctl enable xdk-daemon.service
 
 # End Of File
