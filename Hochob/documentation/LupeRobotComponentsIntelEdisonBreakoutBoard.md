@@ -13,6 +13,7 @@
   - Ground
 
 # Pinout, GPIO, LEDs
+
 - J18 Pin 13
   - GP130
   - UART1_RX
