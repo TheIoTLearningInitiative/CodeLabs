@@ -2,8 +2,8 @@
 
 set -x
 
-pacmd set-default-sink 2
-pacmd set-default-source 3
+#pacmd set-default-sink 2
+#pacmd set-default-source 3
 
 IAM=`whoami`
 IPATH="/home/$IAM/"
