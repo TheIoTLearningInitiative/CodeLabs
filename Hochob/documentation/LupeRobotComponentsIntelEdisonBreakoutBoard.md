@@ -13,6 +13,7 @@
   - Ground
 
 # Pinout, GPIO, LEDs
+
 - J17 Pin 5
   - GP135 
   - UART2_TX  
