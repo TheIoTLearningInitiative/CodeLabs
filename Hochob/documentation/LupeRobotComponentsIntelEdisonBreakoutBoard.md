@@ -6,4 +6,4 @@
   - GP130 UART1_RX GPIO, UART1 receive data input
 - J19 Pin 6
   - GP48 GYRO_DRDY GPIO, gyro data ready input
-  - 
+- 
