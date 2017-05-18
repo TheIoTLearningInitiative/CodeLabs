@@ -379,7 +379,7 @@ void simon(){
 }
 
 void cerebro(){
-	system("espeak -v es-la -a 200 'En mi caso, mi cerebro esta aqui!'");
+	system("espeak -v es-la -a 200 'En mi caso, mi cerebro esta aqui, en la caja azul!'");
 }
 
 void edison(){

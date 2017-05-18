@@ -1,4 +1,4 @@
-set -x
+#!/bin/bash
 
 killall -9 stream2chromecast.py
 
@@ -8,14 +8,10 @@ if [ "$IAM" == "root" ]; then
         IPATH="/"$IAM"/"
 	cd $IPATH/CodeLabs/Hochob/Audio/stream2chromecast
         DEVICE="Triki"
-        #DEVICE="Juum"
-        #DEVICE="Eek'"
 else
         IPATH="/home/"$IAM"/"
 	cd $IPATH/CodeLabs/Hochob/Audio/stream2chromecast
         DEVICE="Triki"
-        #DEVICE="Juum"
-        #DEVICE="Eek'"
 fi
 
 ./stream2chromecast.py -devicename $DEVICE -setvol 1.0
