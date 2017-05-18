@@ -1,12 +1,10 @@
-#!/bin/sh
+#!/bin/bash
+
+pacmd set-default-sink 2
+pacmd set-default-source 3
 
 IAM=`whoami`
-
-if [ "$IAM" == "root" ]; then
-        IPATH="/"$IAM"/"
-else
-        IPATH="/home/"$IAM"/"
-fi
+IPATH="/home/$IAM/"
 
 eog -sf $IPATH/Images/Corporate* &
 mpg123 $IPATH/Audio/01BienvenidaYProtocoloDeSeguridad.mp3

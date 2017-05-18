@@ -1,14 +1,14 @@
-#!/bin/sh
+#!/bin/bash
+
+set -x
+
+pacmd set-default-sink 2
+pacmd set-default-source 3
 
 IAM=`whoami`
+IPATH="/home/$IAM/"
 MQTTSERVER=localhost
 MQTTPORT=1883
-
-if [ "$IAM" == "root" ]; then
-        IPATH="/"$IAM"/"
-else
-        IPATH="/home/"$IAM"/"
-fi
 
 #feh --fullscreen $IPATH/Images/VisitorsCenter/01/*.jpg &
 #sleep 2
@@ -37,7 +37,7 @@ mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headleft -m 1
 sleep .6
 mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headright -m 1
 sleep .6
-mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headkeft -m 1
+mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headleft -m 1
 sleep .6
 mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headright -m 1
 sleep 10

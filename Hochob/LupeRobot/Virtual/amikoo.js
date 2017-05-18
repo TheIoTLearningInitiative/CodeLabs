@@ -121,7 +121,7 @@ client.on('message', function (topic, message) {
     case 'lupe/porsupuesto':
       return handleSpeakLupe('Por supuesto')
     case 'lupe/cerebro':
-      return handleSpeakLupe('En mi caso, mi cerebro esta aqui!')
+      return handleSpeakLupe('En mi caso, mi cerebro esta aqui, en la caja azul!')
     case 'lupe/inteledison':
       return handleSpeakLupe('Yo funciono con la plataforma Intel Edison')
 

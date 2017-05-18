@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 killall -9 stream2chromecast.py
 
