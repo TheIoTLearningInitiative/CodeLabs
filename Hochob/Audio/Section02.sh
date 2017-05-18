@@ -1,29 +1,46 @@
-set -x
-
-killall -9 stream2chromecast.py
+#!/bin/sh
 
 IAM=`whoami`
+MQTTSERVER=localhost
+MQTTPORT=1883
 
 if [ "$IAM" == "root" ]; then
         IPATH="/"$IAM"/"
-	cd $IPATH/CodeLabs/Hochob/Audio/stream2chromecast
-        DEVICE="Juum"
-        #DEVICE="Eek'"
 else
         IPATH="/home/"$IAM"/"
-	cd $IPATH/CodeLabs/Hochob/Audio/stream2chromecast
-        DEVICE="Juum"
-        #DEVICE="Eek'"
 fi
 
-feh --fullscreen --slideshow-delay 1 --cycle-once $IPATH/Images/VisitorCenter/01/*.jpg
+#feh --fullscreen $IPATH/Images/VisitorsCenter/01/*.jpg &
+#sleep 2
 mpg123 $IPATH/Audio/02AntesDelVideo.mp3 &
-feh --fullscreen --slideshow-delay 3 --cycle-once $IPATH/Images/VisitorCenter/02/*.jpg
-feh --fullscreen $IPATH/Images/VisitorCenter/lupe.jpg &
-sleep 9
+#feh --fullscreen --slideshow-delay 2 --cycle-once $IPATH/Images/VisitorsCenter/02/*.jpg
+#feh --fullscreen --cycle-once --slideshow-delay 2 -Sname $IPATH/Images/VisitorsCenter/02/*.jpg
+feh --fullscreen $IPATH/Images/VisitorsCenter/02/02.jpg &
+sleep 2
+feh --fullscreen $IPATH/Images/VisitorsCenter/02/03.jpg &
+sleep 2
+feh --fullscreen $IPATH/Images/VisitorsCenter/02/04.jpg &
+sleep 2
+feh --fullscreen $IPATH/Images/VisitorsCenter/02/06.jpg &
+sleep 2
+feh --fullscreen $IPATH/Images/VisitorsCenter/02/07.jpg &
+sleep 2
+feh --fullscreen $IPATH/Images/VisitorsCenter/02/08.jpg &
+sleep 2
+feh --fullscreen $IPATH/Images/VisitorsCenter/02/09.jpg &
+sleep 2
+feh --fullscreen $IPATH/Images/VisitorsCenter/lupe.jpg &
+sleep 4
+mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headright -m 1
+sleep .6
+mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headleft -m 1
+sleep .6
+mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headright -m 1
+sleep .6
+mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headkeft -m 1
+sleep .6
+mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headright -m 1
+sleep 10
 killall -9 feh
 
-
-#./stream2chromecast.py -devicename $DEVICE -setvol 1.0
-#./stream2chromecast.py -devicename $DEVICE $IPATH/Audio/Intel.mp3
-#./stream2chromecast.py -devicename $DEVICE -stop
+# End Of File

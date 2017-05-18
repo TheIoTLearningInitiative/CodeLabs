@@ -39,6 +39,12 @@ homeassistant:
    script.photography:
     friendly_name: Photography Record
     icon: mdi:camera
+   switch.imagescorporate:
+    friendly_name: Corporate Images
+    icon: mdi:camera
+   switch.imagesvisitorscenter:
+    friendly_name: Visitors Center Images
+    icon: mdi:camera
 
    # Home : 4 Technical Center
 
@@ -171,7 +177,7 @@ homeassistant:
 
    # Support : Lupe
 
-   script.recognize:
+   script.luperecognize:
     friendly_name: Recognize Speech
     icon: mdi:microphone
 
@@ -426,7 +432,7 @@ shell_command:
   restart_ha: sudo systemctl restart home-assistant.service &
   photography: python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
   lupepresentation: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Presentation/Presentation.sh &
-  luperecognition: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Recognize/Recognize.sh &
+  luperecognize: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Recognize/Recognize.sh &
   audiosectionone: bash /home/hochob/CodeLabs/Hochob/Audio/Section01.sh &
   audiosectiontwo: bash /home/hochob/CodeLabs/Hochob/Audio/Section02.sh &
   audiosectionthree: bash /home/hochob/CodeLabs/Hochob/Audio/Section03.sh &
@@ -458,14 +464,20 @@ switch:
         command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot.sh &"
         command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
       camerapreview:
-        command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0"
-        command_off: "pkill vlc"
+        command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0 &"
+        command_off: "pkill -9 vlc"
       cameravideolatest:
-        command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/VideosSelfies/latest.mp4"
-        command_off: "pkill vlc"
+        command_on: "cvlc --no-video-title-show --fullscreen /home/hochob/VideosSelfies/latest.mp4 &"
+        command_off: "pkill -9 vlc"
       cameravideoloop:
-        command_on: "cvlc --no-video-title-show --fullscreen --loop /home/hochob/VideosSelfies/*.mp4"
-        command_off: "pkill vlc"
+        command_on: "cvlc --no-video-title-show --fullscreen --loop /home/hochob/VideosSelfies/*.mp4 &"
+        command_off: "pkill -9 vlc"
+      imagescorporate:
+        command_on: "eog -sf /home/hochob/Images/Corporate/* &"
+        command_off: "pkill -9 eog"
+      imagesvisitorscenter:
+        command_on: "eog -sf /home/hochob/Images/VisitorsCenter/* &"
+        command_off: "pkill -9 eog"
 
 # Lupe Switches
 
@@ -674,8 +686,8 @@ media_player:
 notify:
   - platform: telegram
     name: telegram
-    api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_oc
-    chat_id: 166426442
+    api_key: 301796470:AAHTZ7pYgjqVwOAzBDIIHfGziMvCrIFc_co
+    chat_id: 166426424
 
 light:
   platform: hue
@@ -768,6 +780,8 @@ group:
     name: Photography
     entities:
     - script.photography
+    - switch.imagescorporate
+    - switch.imagesvisitorscenter
 
   technical:
     name: Technical Center
