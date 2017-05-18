@@ -105,7 +105,7 @@
   * Digital Media Players
     * [Chromecast](Hochob/documentation/Chromecast.md)
   * [Server](Hochob/documentation/Server.md)
-    * [Pulse Audio](Hochob/documentation/PulseAudio.md)
+    * [PulseAudio](Hochob/documentation/PulseAudio.md)
     * [Audio](Hochob/documentation/Audio.md)
     * [VLC Media Player](Hochob/documentation/VlcMediaPlayer.md)
     * [Plex](Hochob/documentation/Plex.md)
