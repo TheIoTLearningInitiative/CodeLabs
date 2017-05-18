@@ -2,6 +2,8 @@
 
 [Hardware Guide for the Intel® Edison Breakout Board](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005574.html)
 
+# Used Pinout
+
 - J18 Pin 13
   - GP130
   - UART1_RX
