@@ -122,6 +122,7 @@
   * [Lupe Robot](Hochob/documentation/LupeRobot.md)
     * [Architecture](Hochob/documentation/LupeRobotArchitecture.md)
     * [Components](Hochob/documentation/LupeRobotComponents.md)
+      * [Intel®  Edison  Breakout Board](Hochob/documentation/LupeRobotComponentsIntelEdisonBreakoutBoard.md)
     * [Amikoo](Hochob/documentation/Amikoo.md)
       * [Setup](Hochob/documentation/AmikooSetup.md)
       * [Git Repositories](Hochob/documentation/AmikooGitRepositories.md)
