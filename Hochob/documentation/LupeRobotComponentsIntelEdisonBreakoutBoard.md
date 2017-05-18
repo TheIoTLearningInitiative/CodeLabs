@@ -13,7 +13,10 @@
   - Ground
 
 # Pinout, GPIO, LEDs
-
+- J17 Pin 5
+  - GP135 
+  - UART2_TX  
+  - GPIO, UART2 transmit output. 
 - J18 Pin 13
   - GP130
   - UART1_RX
