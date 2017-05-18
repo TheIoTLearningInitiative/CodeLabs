@@ -8,7 +8,7 @@ systemctl disable mcu_fw_loader.service
 systemctl disable mdns.service
 systemctl disable mosquitto.service
 systemctl disable ofono.service
-systemctl disable pulseaudio.service
+#systemctl disable pulseaudio.service
 systemctl disable pwr-button-handler.service
 systemctl disable redis.service
 systemctl disable sketch-check.service
