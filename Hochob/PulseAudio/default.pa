@@ -30,12 +30,12 @@ load-module module-card-restore
 load-module module-augment-properties
 
 ### Should be after module-*-restore but before module-*-detect
-load-module module-switch-on-port-available
+#load-module module-switch-on-port-available
 
 ### Load audio drivers statically
 ### (it's probably better to not load these drivers manually, but instead
 ### use module-udev-detect -- see below -- for doing this automatically)
-#load-module module-alsa-sink
+load-module module-alsa-sink
 #load-module module-alsa-source device=hw:1,0
 #load-module module-oss device="/dev/dsp" sink_name=output source_name=input
 #load-module module-oss-mmap device="/dev/dsp" sink_name=output source_name=input
@@ -44,7 +44,8 @@ load-module module-switch-on-port-available
 
 ### Automatically load driver modules depending on the hardware available
 .ifexists module-udev-detect.so
-load-module module-udev-detect tsched=0
+#load-module module-udev-detect tsched=0
+load-module module-udev-detect
 .else
 ### Use the static hardware detection module (for systems that lack udev support)
 load-module module-detect
@@ -138,5 +139,10 @@ load-module module-filter-apply
 ### Make some devices default
 #set-default-sink output
 #set-default-source input
-set-default-sink 0
+set-default-sink 2
 set-default-source 3
+
+#set-default-source alsa_input.usb-Microsoft_Microsoft___LifeCam_Studio_TM_-02.analog-mono
+#set-default-sink alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1
+#set-default-sink alsa_output.default
+#set-default-sink alsa_output.pci-0000_00_1b.0.analog-stereo
