@@ -4,7 +4,6 @@
 
 ```sh
 hochob@server:~$ sudo nano /etc/pulse/default.pa
-set-default-sink alsa_output.pci-0000_00_03.0.hdmi-stereo-extra1.monitor
 ```
 
 # PulseAudio Sound Server Reconfigure
