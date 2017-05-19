@@ -4,7 +4,7 @@
 
 - Make package to start automatically?
 
-# stream2chromecast
+# Stream2Chromecast
 
 ```sh
 hochob@server:~$ cd CodeLabs/Hochob/Audio/
@@ -46,7 +46,7 @@ done
 hochob@server:~/CodeLabs/Hochob/Audio/stream2chromecast$ 
 ```
 
-# Pulseaudio
+# Pulseaudio-Dlna
 
 > We were able to use it however it is not required now. We will be using stream2chromecast
 
