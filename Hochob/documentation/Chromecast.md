@@ -4,7 +4,7 @@
 
 - Make package to start automatically?
 
-# Stream2Chromecast
+# Stream2Chromecast Chromecast Media Streamer
 
 ```sh
 hochob@server:~$ cd CodeLabs/Hochob/Audio/
@@ -46,7 +46,7 @@ done
 hochob@server:~/CodeLabs/Hochob/Audio/stream2chromecast$ 
 ```
 
-# Pulseaudio-Dlna
+# Pulseaudio-Dlna Lightweight Streaming Server
 
 > We were able to use it however it is not required now. We will be using stream2chromecast
 
