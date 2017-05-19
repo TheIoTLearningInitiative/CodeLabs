@@ -66,3 +66,5 @@
 
 - [Google Calendar Command Line Interface](https://github.com/insanum/gcalcli)
 - HaDashBoard
+- Google Assistant
+- Amazon Alexa
