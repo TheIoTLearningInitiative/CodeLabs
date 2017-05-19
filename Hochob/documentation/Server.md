@@ -1,5 +1,7 @@
 # Server
 
+> - __Codename__: Hochob
+
 # Issues
 
 * Make server not ask for password with sudo
