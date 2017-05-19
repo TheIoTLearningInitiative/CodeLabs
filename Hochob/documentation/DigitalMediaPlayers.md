@@ -7,6 +7,8 @@
 
 # Chromecast Audio
 
-
 > __Codename__: Juum, Sonido
+> __Codename__: Triki, Alma Gemela
+
+
 
