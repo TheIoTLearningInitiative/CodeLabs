@@ -28,3 +28,4 @@
     - Corporate
     - Photography
     - VisitorsCenter
+    - Visits
