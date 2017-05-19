@@ -18,9 +18,9 @@
 # Media
 
 - HochobMedia
-  - Audios
+  - Audio
     - VisitorsCenter
-  - Images
+  - Image
     - Corporate
     - VisitorsCenter
   - Videos
