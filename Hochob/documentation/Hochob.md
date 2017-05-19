@@ -9,7 +9,7 @@
 - Server
 - Mobile Device
 - Lupe Robot
-- [Remote Botton](http://electronics.stackexchange.com/questions/255922/esp8266-driving-relay-and-reading-button)
+- [Remote Button](http://electronics.stackexchange.com/questions/255922/esp8266-driving-relay-and-reading-button)
 
 ## Accounts
 
