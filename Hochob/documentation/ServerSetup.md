@@ -64,6 +64,12 @@ lo        Link encap:Local Loopback
 hochob@server:~$ 
 ```
 
+# Packages
+
+```
+hochob@server:~$ sudo apt-get install git
+```
+
 # Add User to Sudo
 
 ```sh

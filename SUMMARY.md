@@ -112,7 +112,7 @@
       * [PulseAudio](Hochob/documentation/PulseAudio.md)
       * [Telegram](Hochob/documentation/Telegram.md)
       * [VerneMQ](Hochob/documentation/VerneMQ.md)
-    * Applications
+    * [Applications](Hochob/documentation/applications.md)
       * [Audio](Hochob/documentation/Audio.md)
       * [Camera](Hochob/documentation/Camera.md)
       * [Photography](Hochob/documentation/Photography.md)
