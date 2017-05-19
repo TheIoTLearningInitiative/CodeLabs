@@ -105,8 +105,8 @@
   * Digital Media Players
     * [Chromecast](Hochob/documentation/Chromecast.md)
   * [Server](Hochob/documentation/Server.md)
+    * [Architecture](Hochob/documentation/ServerArchitecture.md)
     * [PulseAudio](Hochob/documentation/PulseAudio.md)
-    * [VerneMQ](Hochob/documentation/VerneMQ.md)
     * [VerneMQ](Hochob/documentation/VerneMQ.md)
     * [Audio](Hochob/documentation/Audio.md)
     * [VLC Media Player](Hochob/documentation/VlcMediaPlayer.md)
@@ -115,8 +115,6 @@
     * [USB](Hochob/documentation/USB.md)
     * [Camera](Hochob/documentation/Camera.md)
     * [Photography](Hochob/documentation/Photography.md)
-    * [VerneMQ](Hochob/documentation/VerneMQ.md)
-    * [Tbd](Hochob/documentation/tbd.md)
   * [Mobile Device](Hochob/documentation/MobileDevice.md)
   * [Lupe Robot](Hochob/documentation/LupeRobot.md)
     * [Architecture](Hochob/documentation/LupeRobotArchitecture.md)
