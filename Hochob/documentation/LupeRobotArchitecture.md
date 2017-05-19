@@ -2,8 +2,8 @@
 
 # Hardware
 
+- Robot
 - Intel® Edison
-- Robot Structure
 
 # Software
 
