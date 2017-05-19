@@ -28,7 +28,7 @@
 - __Codename__: Juum, Sonido
   - Chromecast Audio
 
-- __Codename__: Triki, Sonido
+- __Codename__: Triki, Alma Gemela
   - Chromecast Audio
 
 ## Server
