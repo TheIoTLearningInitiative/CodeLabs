@@ -15,4 +15,11 @@
 
 # Services
 
-- 
+- Plex Media Server
+- PulseAudio
+- Telegram
+- VerneMQ
+
+# Applications
+
+- VLC Media Player
