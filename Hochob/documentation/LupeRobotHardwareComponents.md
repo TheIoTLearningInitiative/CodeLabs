@@ -1,6 +1,6 @@
 # Components
 
-# Intel® Edison Breakout Board.
+# Intel® Edison Breakout Board
 
 > The Intel® Edison Breakout Board is designed to expose the native 1.8 V I/O of the Intel® Edison module. The board consists of power supply, battery recharger, USB OTG power switch, UART to USB bridge, USB OTG port, and I/O header
 
