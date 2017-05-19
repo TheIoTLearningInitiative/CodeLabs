@@ -1,4 +1,6 @@
-# Mobile Controller
+# Mobile Device
+
+> aka Mobile Controller
 
 # Plex
 
