@@ -1,18 +1,5 @@
 # Architecture
 
-# Media
-
-- VisitorsCenterMedia
-  - Audios
-    - VisitorsCenter
-  - Images
-    - Corporate
-    - VisitorsCenter
-  - Videos
-    - Corporate
-    - VisitorsCenter
-    - Photography
-
 # Services
 
 - Plex Media Server
@@ -27,3 +14,16 @@
 - Photography
 - USB
 - VLC Media Player
+
+# Media
+
+- VisitorsCenterMedia
+  - Audios
+    - VisitorsCenter
+  - Images
+    - Corporate
+    - VisitorsCenter
+  - Videos
+    - Corporate
+    - VisitorsCenter
+    - Photography
