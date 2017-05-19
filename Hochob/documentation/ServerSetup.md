@@ -64,12 +64,6 @@ lo        Link encap:Local Loopback
 hochob@server:~$ 
 ```
 
-# Packages
-
-```
-hochob@server:~$ sudo apt-get install git
-```
-
 # Add User to Sudo
 
 ```sh
@@ -122,6 +116,12 @@ linux-image-rt-amd64-dbg - Debugging symbols for Linux rt-amd64 configuration (m
 linux-image-4.9.0-0.bpo.2-amd64 - Linux 4.9 for 64-bit PCs (signed)
 linux-image-4.9.0-0.bpo.2-rt-amd64 - Linux 4.9 for 64-bit PCs, PREEMPT_RT (signed)
 hochob@server:~$ 
+```
+
+# Packages
+
+```
+hochob@server:~$ sudo apt-get install git
 ```
 
 ```sh
