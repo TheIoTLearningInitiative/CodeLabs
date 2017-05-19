@@ -23,6 +23,7 @@
   - Image
     - Corporate
     - VisitorsCenter
+    - Visits
   - Video
     - Corporate
     - Photography
