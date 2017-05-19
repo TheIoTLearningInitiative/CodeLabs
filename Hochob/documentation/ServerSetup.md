@@ -118,12 +118,6 @@ linux-image-4.9.0-0.bpo.2-rt-amd64 - Linux 4.9 for 64-bit PCs, PREEMPT_RT (signe
 hochob@server:~$ 
 ```
 
-# Packages
-
-```
-hochob@server:~$ sudo apt-get install git
-```
-
 ```sh
 hochob@server:~$ sudo apt-get install -t jessie-backports linux-image-4.9.0-0.bpo.2-amd64
 ```
