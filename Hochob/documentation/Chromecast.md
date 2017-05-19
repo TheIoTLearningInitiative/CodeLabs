@@ -6,6 +6,8 @@
 
 # Stream2Chromecast Chromecast Media Streamer
 
+> Chromecast media streamer for Linux [Github](https://github.com/Pat-Carter/stream2chromecast)
+
 ```sh
 hochob@server:~$ cd CodeLabs/Hochob/Audio/
 hochob@server:~/CodeLabs/Hochob/Audio$ ls
