@@ -17,7 +17,7 @@
 
 # Media
 
-- VisitorsCenterMedia
+- HochobMedia
   - Audios
     - VisitorsCenter
   - Images
@@ -25,5 +25,5 @@
     - VisitorsCenter
   - Videos
     - Corporate
-    - VisitorsCenter
     - Photography
+    - VisitorsCenter
