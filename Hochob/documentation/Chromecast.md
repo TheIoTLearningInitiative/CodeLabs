@@ -50,7 +50,7 @@ hochob@server:~/CodeLabs/Hochob/Audio/stream2chromecast$
 
 > A lightweight streaming server which brings DLNA / UPNP and Chromecast support to PulseAudio and Linux [Github](https://github.com/masmu/pulseaudio-dlna)
 
-> We were able to use it however it is not required now. We will be using stream2chromecast
+Note. We were able to use it however it is not required now. We will be using stream2chromecast
 
 ```sh
 hochob@server:~$ sudo apt-get install pulseaudio-dlna
