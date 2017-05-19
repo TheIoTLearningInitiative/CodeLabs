@@ -16,6 +16,18 @@
 - Gmail
 - Plex
 
+## Digital Media Players
+
+### Video
+
+- __Codename__: Eek', Estrella
+- Chromecast
+
+### Audio
+
+- __Codename__: Juum, Sonido
+- Chromecast Audio
+
 ## Server
 
 - __Codename__: Hochob
@@ -37,18 +49,6 @@
 
 - __Codename__:  Muuk’, Poder, Buddy
 - Samsung SM-A500M
-
-## Digital Media Players
-
-### Video
-
-- __Codename__: Eek', Estrella
-- Chromecast
-
-### Audio
-
-- __Codename__: Juum, Sonido
-- Chromecast Audio
 
 ## Robot
 
