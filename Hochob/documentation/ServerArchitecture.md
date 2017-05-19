@@ -4,7 +4,7 @@
 
 - VisitorsCenterMedia
   - Audios
-    - VisitorCenter
+    - VisitorsCenter
   - Images
     - Corporate
     - VisitorsCenter
