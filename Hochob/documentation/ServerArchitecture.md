@@ -22,4 +22,8 @@
 
 # Applications
 
+- Audio
+- Camera
+- Photography
+- USB
 - VLC Media Player
