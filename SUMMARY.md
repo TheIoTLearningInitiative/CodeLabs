@@ -102,7 +102,7 @@
   * [Google Cloud Speech](EkBalam/documentation/GoogleCloudSpeech.md)
 * [Hochob](Hochob/documentation/Hochob.md)
   * [Accounts](Hochob/documentation/Accounts.md)
-  * Digital Media Players
+  * [Digital Media Players](Hochob/documentation/DigitalMediaPlayers.md)
     * [Chromecast](Hochob/documentation/Chromecast.md)
   * [Server](Hochob/documentation/Server.md)
     * [Architecture](Hochob/documentation/ServerArchitecture.md)
