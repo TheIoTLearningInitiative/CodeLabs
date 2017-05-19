@@ -15,7 +15,7 @@
 - USB
 - VLC Media Player
 
-# Media
+# Media Repository
 
 - HochobMedia
   - Audio
