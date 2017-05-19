@@ -8,4 +8,5 @@
 # Chrome Browser
 
 - Add Hochob HomeAssistant Bookmark link to Main Window
+  - hochob.server.ip.address:8123
 - Add Hochob Plex Server link to Main Window
