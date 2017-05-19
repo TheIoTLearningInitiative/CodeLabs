@@ -1,1 +1,4 @@
 # Architecture
+
+- Amikoo
+- 
