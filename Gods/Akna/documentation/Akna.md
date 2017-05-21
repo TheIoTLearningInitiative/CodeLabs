@@ -1,13 +1,10 @@
-# cylon.js Sphero
+# Cylon.js Sphero
 
 - [Cylon.Js Sphero](https://cylonjs.com/documentation/platforms/sphero/)
 
 ```sh
 root@edison:~# npm install cylon cylon-intel-iot cylon-gpio cylon-i2c
 ```
-
-
-
 
 # Cylon.js Intel Edison Sphero Pair
 
@@ -57,8 +54,6 @@ Please switch to using the #log or #debug Logger methods
 2017-05-21T16:52:45.340Z : [Robot 1] - Working.
 Setting up Collision Detection...
 ```
-
-
 
 ```sh
 root@edison:~# nano cylonjs03.js
