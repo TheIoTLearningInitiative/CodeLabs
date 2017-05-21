@@ -1,6 +1,5 @@
 # Sphero
 
-- [Cylon.Js adaptors for the Intel Edison & Galileo](https://github.com/hybridgroup/cylon-intel-iot)
 - [Cylon.Js Sphero](https://cylonjs.com/documentation/platforms/sphero/)
 
 # Cylon.js Intel Edison
