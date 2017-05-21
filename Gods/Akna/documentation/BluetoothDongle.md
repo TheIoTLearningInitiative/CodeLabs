@@ -1,6 +1,7 @@
 # Bluetooth Dongle
 
 ```sh
+root@workstation:~# dmesg
 [48896.348474] usb 2-2.3: new full-speed USB device number 81 using xhci_hcd
 [48896.516916] usb 2-2.3: New USB device found, idVendor=0a12, idProduct=0001
 [48896.516919] usb 2-2.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
