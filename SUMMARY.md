@@ -234,6 +234,7 @@
   * Hardware
     * [Intel Edison](Gods/Akna/documentation/IntelEdison.md)
     * [Sphero](Gods/Akna/documentation/Sphero.md)
+    * [Bluetooth Dongle](Gods/Akna/documentation/BluetoothDongle.md)
   * [Software](Gods/Akna/documentation/Software.md)
     * [Javascript](Gods/Akna/documentation/Javascript.md)
     * [Cylon.js](Gods/Akna/documentation/CylonJs.md)
