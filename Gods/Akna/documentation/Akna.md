@@ -16,3 +16,7 @@ root@edison:~# npm install cylon cylon-intel-iot cylon-gpio cylon-i2c
 # Sphero NodeSDK
 
 > Some examples of using Node to control Sphero and an SDK. [Github](https://github.com/sphero-atx/Sphero-NodeSDK)
+
+# Others
+
+- [1](https://medium.com/@Charlie__Gerard/control-the-sphero-with-the-leap-motion-using-node-js-ee6979c0fdcb)
