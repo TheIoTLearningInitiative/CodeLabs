@@ -1,4 +1,4 @@
-# Cylon.js
+# Cylon.js Intel Edison
 
 - [Cylon.Js Intel Edison](https://cylonjs.com/documentation/platforms/edison/)
 - [Cylon.js For Intel IoT](https://github.com/hybridgroup/cylon-intel-iot)
