@@ -3,16 +3,14 @@
 - [Cylon.Js adaptors for the Intel Edison & Galileo](https://github.com/hybridgroup/cylon-intel-iot)
 - [Cylon.Js Sphero](https://cylonjs.com/documentation/platforms/sphero/)
 
-# CylonJs Intel Edison
+# Cylon.js Intel Edison
 
- - [Cylon.Js Intel Edison](https://cylonjs.com/documentation/platforms/edison/)
+- [Cylon.Js Intel Edison](https://cylonjs.com/documentation/platforms/edison/)
+- [Cylon.js For Intel IoT](https://github.com/hybridgroup/cylon-intel-iot)
 
 ```sh
 root@edison:~# npm install cylon cylon-intel-iot cylon-gpio cylon-i2c
 ```
-
-
-
 
 ```sh
 root@edison:~# npm install cylon cylon-intel-iot cylon-sphero
