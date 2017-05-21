@@ -234,7 +234,7 @@
   * Hardware
     * [Intel Edison](Gods/Akna/documentation/IntelEdison.md)
     * [Sphero](Gods/Akna/documentation/Sphero.md)
-  * Software
+  * [Software](Gods/Akna/documentation/Akna/software.md)
     * [Javascript](Gods/Akna/documentation/Javascript.md)
     * [Cylon.js](Gods/Akna/documentation/CylonJs.md)
       * [Cylon.js Intel Edison](Gods/Akna/documentation/CylonJsIntelEdison.md)
