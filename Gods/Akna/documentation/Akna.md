@@ -80,7 +80,7 @@ Attempting to pair with 68:86:E7:08:9C:BB
 [CHG] Device 68:86:E7:08:9C:BB Paired: yes                                      
 Pairing successful                                                              
 [CHG] Device 68:86:E7:08:9C:BB Connected: no                                    
-[bluetooth]# 
+[bluetooth]# exit
 ```
 
 ```sh
@@ -96,4 +96,8 @@ Device 68:86:E7:08:9C:BB
         UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)  
         UUID: Vendor specific           (ffcacade-afde-cade-defa-cade00000000)  
 [bluetooth]# 
+```
+
+```sh
+rfcomm bind 0 68:86:E7:08:9C:BB 1
 ```
