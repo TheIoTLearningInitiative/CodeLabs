@@ -1,7 +1,5 @@
 # Akna
 
-
-
 # Cylon.js
 
 - [Cylon.Js Sphero](https://cylonjs.com/documentation/platforms/sphero/)
