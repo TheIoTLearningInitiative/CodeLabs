@@ -234,10 +234,11 @@
   * Hardware
     * [Intel Edison](Gods/Akna/documentation/IntelEdison.md)
     * [Sphero](Gods/Akna/documentation/Sphero.md)
-  * [Software](Gods/Akna/documentation/Akna/software.md)
+  * [Software](Gods/Akna/documentation/Software.md)
     * [Javascript](Gods/Akna/documentation/Javascript.md)
     * [Cylon.js](Gods/Akna/documentation/CylonJs.md)
       * [Cylon.js Intel Edison](Gods/Akna/documentation/CylonJsIntelEdison.md)
       * [Cylon.js Intel Edison Sphero](Gods/Akna/documentation/CylonJsIntelEdisonSphero.md)
         * [Examples](Gods/Akna/documentation/CylonJsIntelEdisonSpheroExamples.md)
+    * [Sphero Linux API](Gods/Akna/documentation/SpheroLinuxApi.md)
 
