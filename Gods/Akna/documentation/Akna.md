@@ -1,12 +1,15 @@
 # Sphero
 
-- [Cylon adaptors for the Intel Edison & Galileo](https://github.com/hybridgroup/cylon-intel-iot)
-- [Cylon Sphero](https://cylonjs.com/documentation/platforms/sphero/)
+- [Cylon.Js adaptors for the Intel Edison & Galileo](https://github.com/hybridgroup/cylon-intel-iot)
+- [Cylon.Js Sphero](https://cylonjs.com/documentation/platforms/sphero/)
+
+# CylonJs Intel Edison
+
+ - [Cylon.Js Intel Edison](https://cylonjs.com/documentation/platforms/edison/)
 
 ```sh
 root@edison:~# npm install cylon cylon-intel-iot cylon-sphero
 ```
-
 
 ```sh
 root@edison:~# rfkill unblock bluetooth                                         
