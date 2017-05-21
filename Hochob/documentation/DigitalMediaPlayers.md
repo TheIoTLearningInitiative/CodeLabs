@@ -10,5 +10,3 @@
 > __Codename__: Juum, Sonido
 > __Codename__: Triki, Alma Gemela
 
-
-
