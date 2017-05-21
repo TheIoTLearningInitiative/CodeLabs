@@ -11,4 +11,9 @@ root@edison:~# npm install cylon cylon-intel-iot cylon-gpio cylon-i2c
 
 # Sphero Linux API
 
-- [](https://github.com/slock83/sphero-linux-api)
+> Simple API for sphero 1&2.0 written in c++ for bluez stack [Github](https://github.com/slock83/sphero-linux-api)
+
+
+# Sphero NodeSDK
+
+- [](https://github.com/sphero-atx/Sphero-NodeSDK)
