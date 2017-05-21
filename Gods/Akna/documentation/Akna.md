@@ -81,6 +81,7 @@ Attempting to pair with 68:86:E7:08:9C:BB
 Pairing successful                                                              
 [CHG] Device 68:86:E7:08:9C:BB Connected: no                                    
 [bluetooth]# exit
+[DEL] Controller 98:4F:EE:04:1A:8C edison [default]
 ```
 
 ```sh
@@ -97,6 +98,16 @@ Device 68:86:E7:08:9C:BB
         UUID: Vendor specific           (ffcacade-afde-cade-defa-cade00000000)  
 [bluetooth]# 
 ```
+
+```sh
+root@edison:~# rfkill unblock bluetooth                                         
+root@edison:~# bluetoothctl                                                     
+[NEW] Controller 98:4F:EE:04:1A:8C edison [default]                             
+[NEW] Device 68:86:E7:08:9C:BB Sphero-RWB                                       
+[bluetooth]# exit
+[DEL] Controller 98:4F:EE:04:1A:8C edison [default]
+```
+
 
 ```sh
 root@edison:~# rfcomm bind 0 68:86:E7:08:9C:BB 1
