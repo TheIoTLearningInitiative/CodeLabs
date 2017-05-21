@@ -11,5 +11,4 @@ root@edison:~# npm install cylon cylon-intel-iot cylon-gpio cylon-i2c
 
 # Sphero Linux API
 
-
-https://github.com/slock83/sphero-linux-api
+- [](https://github.com/slock83/sphero-linux-api)
