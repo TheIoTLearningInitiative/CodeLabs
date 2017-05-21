@@ -112,5 +112,6 @@ root@edison:~#
 
 
 ```sh
-root@edison:~# rfcomm bind 0 68:86:E7:08:9C:BB 1
+root@edison:~# rfcomm bind 0 68:86:E7:08:9C:BB 1                                
+root@edison:~# 
 ```
