@@ -152,3 +152,20 @@ Cylon.robot({
   }
 }).start();
 ```
+
+```
+root@edison:~# node cylonjs02.js 
+2017-05-21T16:52:45.104Z : [Robot 1] - Starting connections.
+2017-05-21T16:52:45.129Z : [Robot 1] - Starting connection 'edison'.
+2017-05-21T16:52:45.245Z : [Robot 1] - Starting connection 'sphero' on port /de.
+The method Logger#info has been deprecated.
+It will be removed in Cylon 2.0.0.
+Please switch to using the #log or #debug Logger methods
+2017-05-21T16:52:45.249Z : Connecting to Sphero 'sphero'...
+2017-05-21T16:52:45.305Z : [Robot 1] - Starting devices.
+2017-05-21T16:52:45.307Z : [Robot 1] - Starting device 'led' on pin 13.
+2017-05-21T16:52:45.308Z : [Robot 1] - Starting device 'sphero'.
+2017-05-21T16:52:45.340Z : [Robot 1] - Working.
+Setting up Collision Detection...
+
+```
