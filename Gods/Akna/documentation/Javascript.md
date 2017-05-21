@@ -31,7 +31,6 @@ orb.connect(function() {
 ```
 
 ```sh
-root@edison:~# node sphero01.js
 root@edison:~# node sphero01.js                                                 
 collision detected                                                              
   data: { desc: 'Collision detected',                                           
