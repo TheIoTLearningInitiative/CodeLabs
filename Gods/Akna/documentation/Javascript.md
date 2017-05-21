@@ -53,5 +53,4 @@ collision detected
   axis: 1,                                                                      
   xMagnitude: 91,                                                               
   yMagnitude: 24,                                                               
-
 ```
