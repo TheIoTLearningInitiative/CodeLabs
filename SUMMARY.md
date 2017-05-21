@@ -236,7 +236,7 @@
     * [Sphero](Gods/Akna/documentation/Sphero.md)
   * Software
     * [Javascript](Gods/Akna/documentation/Javascript.md)
-    * [Cylon.js](Gods/Akna/documentation/cylonjs.md)
+    * [Cylon.js](Gods/Akna/documentation/CylonJs.md)
       * [Cylon.js Intel Edison](Gods/Akna/documentation/CylonJsIntelEdison.md)
       * [Cylon.js Intel Edison Sphero](Gods/Akna/documentation/CylonJsIntelEdisonSphero.md)
         * [Examples](Gods/Akna/documentation/CylonJsIntelEdisonSpheroExamples.md)
