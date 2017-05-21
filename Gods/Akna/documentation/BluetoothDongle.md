@@ -1,6 +1,6 @@
 # Bluetooth Dongle
 
-- [](https://bbs.archlinux.org/viewtopic.php?id=166678&p=2)
+- [1](https://bbs.archlinux.org/viewtopic.php?id=166678&p=2)
 
 ```sh
 root@workstation:~# dmesg
