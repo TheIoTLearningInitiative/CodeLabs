@@ -231,6 +231,7 @@
     * [Intel GDC Visitor Center](Gods/Acat/documentation/NodeRedProjectsIntelGdcVisitorCenter.md)
   * [Sandbox](Gods/Acat/documentation/Sandbox.md)
 * [Akna](Gods/Akna/documentation/Akna.md)
+  * [Javascript](Gods/Akna/documentation/Javascript.md)
   * [Cylon.js Intel Edison](Gods/Akna/documentation/CylonJsIntelEdison.md)
   * [Cylon.js Intel Edison Sphero](Gods/Akna/documentation/CylonJsIntelEdisonSphero.md)
     * [Examples](Gods/Akna/documentation/CylonJsIntelEdisonSpheroExamples.md)
