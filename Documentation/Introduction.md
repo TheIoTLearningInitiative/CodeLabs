@@ -27,9 +27,9 @@
 
 Belice
 
-* **Altun Ha** Chat Telegram **Under Construction**
-* **Caracol** Digital Door
-* **Xunantunich** Stamply Kik Ciscospark Com **Under Construction**
+- __Altun Ha__ Chat Telegram **Under Construction**
+- __Caracol__ Digital Door
+- __Xunantunich__ Stamply Kik Ciscospark Com **Under Construction**
 
 Campeche
 
