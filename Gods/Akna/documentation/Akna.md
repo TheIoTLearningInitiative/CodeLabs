@@ -8,7 +8,7 @@
  - [Cylon.Js Intel Edison](https://cylonjs.com/documentation/platforms/edison/)
 
 ```sh
-root@edison:~# npm install cylon cylon-intel-iot cylon-gpio
+root@edison:~# npm install cylon cylon-intel-iot cylon-gpio cylon-i2c
 ```
 
 
