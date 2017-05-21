@@ -14,3 +14,9 @@ Receiving objects: 100% (2201/2201), 907.22 KiB | 568.00 KiB/s, done.
 Resolving deltas: 100% (1636/1636), done.
 user@workstation:~/Sphero$ 
 ```
+
+```sh
+user@workstation:~/Sphero$ cd sphero-linux-api/
+user@workstation:~/Sphero/sphero-linux-api$ ls
+example-app  idees.md  LICENSE  makefile  quickTest.sh  README.md  src
+```
