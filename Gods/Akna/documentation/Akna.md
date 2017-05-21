@@ -82,6 +82,7 @@ Pairing successful
 [CHG] Device 68:86:E7:08:9C:BB Connected: no                                    
 [bluetooth]# exit
 [DEL] Controller 98:4F:EE:04:1A:8C edison [default]
+root@edison:~# 
 ```
 
 ```sh
@@ -106,6 +107,7 @@ root@edison:~# bluetoothctl
 [NEW] Device 68:86:E7:08:9C:BB Sphero-RWB                                       
 [bluetooth]# exit
 [DEL] Controller 98:4F:EE:04:1A:8C edison [default]
+root@edison:~# 
 ```
 
 
