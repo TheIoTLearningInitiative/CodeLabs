@@ -12,7 +12,9 @@
 root@edison:~# npm install cylon cylon-intel-iot cylon-gpio cylon-i2c
 ```
 
+```js
 
+```
 
 ```sh
 root@edison:~# node cylonjs01.js                                                
