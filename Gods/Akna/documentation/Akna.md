@@ -1,4 +1,4 @@
-# Sphero
+# cylon.js Sphero
 
 
 
