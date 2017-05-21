@@ -3,6 +3,10 @@
 - [Cylon.Js Sphero](https://cylonjs.com/documentation/platforms/sphero/)
 
 
+```sh
+root@edison:~# npm install cylon cylon-intel-iot cylon-gpio cylon-i2c
+```
+
 # Cylon.js Intel Edison Sphero Pair
 
 ```sh
@@ -79,6 +83,9 @@ root@edison:~#
 root@edison:~# rfcomm bind 0 68:86:E7:08:9C:BB 1                                
 root@edison:~# 
 ```
+
+
+
 
 # Cylon.js Intel Edison Sphero Pair
 
