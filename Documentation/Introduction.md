@@ -91,9 +91,9 @@ Yucatán
 * **Ajbit** Blockchain
 * **Ajtzak** Microsoft Cognitive Services
 * **Akhushtal** Briko
-* **** 
-* **** 
-* **** 
+* **Akna** 
+* **Alom** 
+* **Awilix** 
 * **** 
 
 
