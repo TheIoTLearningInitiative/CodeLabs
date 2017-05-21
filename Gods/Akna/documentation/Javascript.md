@@ -32,4 +32,27 @@ orb.connect(function() {
 
 ```sh
 root@edison:~# node sphero01.js
+root@edison:~# node sphero01.js                                                 
+collision detected                                                              
+  data: { desc: 'Collision detected',                                           
+  idCode: 7,                                                                    
+  event: 'collision',                                                           
+  did: 2,                                                                       
+  cid: 18,                                                                      
+  packet:                                                                       
+   { sop1: 255,                                                                 
+     sop2: 254,                                                                 
+     idCode: 7,                                                                 
+     dlenMsb: 0,                                                                
+     dlenLsb: 17,                                                               
+     dlen: 17,                                                                  
+     data: <Buffer 0a 1d fd 38 00 00 01 00 5b 00 18 4c 00 07 e6 a1>,            
+     checksum: 61 },                                                            
+  x: 2589,                                                                      
+  y: 64824,                                                                     
+  z: 0,                                                                         
+  axis: 1,                                                                      
+  xMagnitude: 91,                                                               
+  yMagnitude: 24,                                                               
+
 ```
