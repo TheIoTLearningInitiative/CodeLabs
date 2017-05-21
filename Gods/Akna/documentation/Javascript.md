@@ -6,7 +6,7 @@
 
 
 ```sh
-
+root@edison:~# nano sphero01.js
 ```
 
 ```js
