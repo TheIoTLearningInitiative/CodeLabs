@@ -172,6 +172,10 @@ Setting up Collision Detection...
 
 
 
+```sh
+root@edison:~# nano cylonjs03.js
+```
+
 ```js
 var Cylon = require('cylon');
 
