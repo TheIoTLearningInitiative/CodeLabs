@@ -29,3 +29,7 @@ orb.connect(function() {
   });
 });                                                                             
 ```
+
+```sh
+root@edison:~# node sphero01.js
+```
