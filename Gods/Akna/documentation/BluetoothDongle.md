@@ -1,5 +1,7 @@
 # Bluetooth Dongle
 
+- [](https://bbs.archlinux.org/viewtopic.php?id=166678&p=2)
+
 ```sh
 root@workstation:~# dmesg
 [48896.348474] usb 2-2.3: new full-speed USB device number 81 using xhci_hcd
