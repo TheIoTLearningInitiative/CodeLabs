@@ -117,3 +117,30 @@ root@edison:~#
 root@edison:~# rfcomm bind 0 68:86:E7:08:9C:BB 1                                
 root@edison:~# 
 ```
+
+```js
+var Cylon = require('cylon');
+
+Cylon.robot({
+  connections: {
+    edison: { adaptor: 'intel-iot'},
+    sphero: { adaptor: 'sphero', port: '/dev/rfcomm0' }
+  },
+
+  devices: {
+    led: { driver: 'led', pin: 13, connection: 'edison' },
+    sphero: { driver: 'sphero', connection: 'sphero' }
+  },
+
+  work: function(my) {
+    console.log("Setting up Collision Detection...");
+    my.sphero.stop();
+    my.sphero.detectCollisions();
+
+    my.sphero.on('collision', function() {
+      console.log("Collision");
+      my.led.toggle();
+    });
+  }
+}).start();
+```
