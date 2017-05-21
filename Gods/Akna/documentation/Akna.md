@@ -12,6 +12,19 @@
 root@edison:~# npm install cylon cylon-intel-iot cylon-gpio cylon-i2c
 ```
 
+
+
+```sh
+root@edison:~# node cylonjs01.js                                                
+2017-05-21T16:41:25.486Z : [Robot 1] - Starting connections.                    
+2017-05-21T16:41:25.612Z : [Robot 1] - Starting connection 'edison'.            
+2017-05-21T16:41:25.705Z : [Robot 1] - Starting devices.                        
+2017-05-21T16:41:25.707Z : [Robot 1] - Starting device 'led' on pin 13.         
+2017-05-21T16:41:25.708Z : [Robot 1] - Working.                                 
+^CTerminated                                                                    
+root@edison:~# 
+```
+
 ```sh
 root@edison:~# npm install cylon cylon-intel-iot cylon-sphero
 ```
