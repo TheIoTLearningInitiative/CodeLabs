@@ -1,4 +1,4 @@
-# Cylon.js Intel Edison Sphero Pair
+# Cylon.js Intel Edison Sphero
 
 ```sh
 root@edison:~# npm install cylon cylon-intel-iot cylon-sphero
@@ -69,12 +69,7 @@ root@edison:~# bluetoothctl
 root@edison:~# 
 ```
 
-
 ```sh
 root@edison:~# rfcomm bind 0 68:86:E7:08:9C:BB 1                                
 root@edison:~# 
 ```
-
-
-
-
