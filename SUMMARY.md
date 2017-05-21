@@ -233,4 +233,5 @@
 * [Akna](Gods/Akna/documentation/Akna.md)
   * [Cylon.js Intel Edison](Gods/Akna/documentation/CylonJsIntelEdison.md)
   * [Cylon.js Intel Edison Sphero](Gods/Akna/documentation/CylonJsIntelEdisonSphero.md)
+    * [Examples](Gods/Akna/documentation/CylonJsIntelEdisonSpheroExamples.md)
 
