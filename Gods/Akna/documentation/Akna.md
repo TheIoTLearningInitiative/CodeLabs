@@ -4,7 +4,7 @@
 - [Cylon Sphero](https://cylonjs.com/documentation/platforms/sphero/)
 
 ```sh
-
+root@edison:~# npm install cylon cylon-intel-iot cylon-sphero
 ```
 
 
