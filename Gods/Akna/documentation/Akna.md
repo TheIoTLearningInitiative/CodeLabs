@@ -167,5 +167,24 @@ Please switch to using the #log or #debug Logger methods
 2017-05-21T16:52:45.308Z : [Robot 1] - Starting device 'sphero'.
 2017-05-21T16:52:45.340Z : [Robot 1] - Working.
 Setting up Collision Detection...
+```
 
+```sh
+root@edison:~# node cylonjs03.js 
+2017-05-21T16:56:02.018Z : [Robot 1] - Starting connections.                    
+2017-05-21T16:56:02.044Z : [Robot 1] - Starting connection 'edison'.            
+2017-05-21T16:56:02.138Z : [Robot 1] - Starting connection 'sphero' on port /de.
+The method Logger#info has been deprecated.                                     
+It will be removed in Cylon 2.0.0.                                              
+Please switch to using the #log or #debug Logger methods                        
+2017-05-21T16:56:02.143Z : Connecting to Sphero 'sphero'...                     
+2017-05-21T16:56:02.199Z : [Robot 1] - Starting devices.                        
+2017-05-21T16:56:02.202Z : [Robot 1] - Starting device 'led' on pin 13.         
+2017-05-21T16:56:02.204Z : [Robot 1] - Starting device 'sphero'.                
+2017-05-21T16:56:02.236Z : [Robot 1] - Working.                                 
+[  788.805660] BUG: sleeping function called from invalid context at /export/us5
+[  788.805783] in_atomic(): 1, irqs_disabled(): 0, pid: 79, name: krfcommd      
+^C2017-05-21T16:56:32.112Z : Disconnecting from Sphero 'sphero'...              
+Terminated                                                                      
+root@edison:~# 
 ```
