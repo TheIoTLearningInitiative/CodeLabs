@@ -1,5 +1,8 @@
 # Cylon.js Intel Edison
 
+> Cylon module for Intel-IoT platforms
+> > This repository contains the Cylon adaptor for the Intel Edison and Intel Galileo IoT platforms. It uses the MRAA node module (https://github.com/intel-iot-devkit/mraa)
+
 - [Cylon.Js Intel Edison](https://cylonjs.com/documentation/platforms/edison/)
 - [Cylon.js For Intel IoT](https://github.com/hybridgroup/cylon-intel-iot)
 
