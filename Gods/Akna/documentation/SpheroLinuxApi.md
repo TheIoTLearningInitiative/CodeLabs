@@ -24,3 +24,12 @@ example-app  idees.md  LICENSE  makefile  quickTest.sh  README.md  src
 user@workstation:~/Sphero$ make
 user@workstation:~/Sphero$ sudo make install
 ```
+
+# Examples
+
+```sh
+user@workstation:~/Sphero/sphero-linux-api$ cd example-app/
+user@workstation:~/Sphero/sphero-linux-api/example-app$ make
+make: Nothing to be done for 'ALL'.
+user@workstation:~/Sphero/sphero-linux-api/example-app$ 
+```
