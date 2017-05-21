@@ -60,8 +60,21 @@ root@edison:~# rfkill unblock bluetooth
 root@edison:~# bluetoothctl                                                     
 [NEW] Controller 98:4F:EE:04:1A:8C edison [default]                             
 [NEW] Device 68:86:E7:08:9C:BB Sphero-RWB                                       
-[bluetooth]# exit
-[DEL] Controller 98:4F:EE:04:1A:8C edison [default]
+[bluetooth]# info 68:86:E7:08:9C:BB                                             
+Device 68:86:E7:08:9C:BB                                                        
+        Name: Sphero-RWB                                                        
+        Alias: Sphero-RWB                                                       
+        Class: 0x240448                                                         
+        Icon: audio-card                                                        
+        Paired: yes                                                             
+        Trusted: yes                                                            
+        Blocked: no                                                             
+        Connected: no                                                           
+        LegacyPairing: no                                                       
+        UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)  
+        UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)  
+[bluetooth]# exit                                                               
+[DEL] Controller 98:4F:EE:04:1A:8C edison [default]                             
 root@edison:~# 
 ```
 
