@@ -1,6 +1,7 @@
 # Sphero
 
 - [Cylon adaptors for the Intel Edison & Galileo](https://github.com/hybridgroup/cylon-intel-iot)
+- [Cylon Sphero](https://cylonjs.com/documentation/platforms/sphero/)
 
 ```sh
 root@edison:~# rfkill unblock bluetooth                                         
