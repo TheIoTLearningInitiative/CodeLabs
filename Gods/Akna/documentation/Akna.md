@@ -16,4 +16,4 @@ root@edison:~# npm install cylon cylon-intel-iot cylon-gpio cylon-i2c
 
 # Sphero NodeSDK
 
-- [Github](https://github.com/sphero-atx/Sphero-NodeSDK)
+> Some examples of using Node to control Sphero and an SDK. [Github](https://github.com/sphero-atx/Sphero-NodeSDK)
