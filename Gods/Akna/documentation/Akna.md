@@ -12,6 +12,10 @@
 root@edison:~# npm install cylon cylon-intel-iot cylon-gpio cylon-i2c
 ```
 
+```sh
+root@edison:~# nano cylonjs01.js
+```
+
 ```js
 var Cylon = require('cylon');
 
@@ -116,6 +120,10 @@ root@edison:~#
 ```sh
 root@edison:~# rfcomm bind 0 68:86:E7:08:9C:BB 1                                
 root@edison:~# 
+```
+
+```sh
+root@edison:~# nano cylonjs02.js
 ```
 
 ```js
