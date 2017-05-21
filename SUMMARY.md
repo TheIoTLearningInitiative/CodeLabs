@@ -158,10 +158,10 @@
       * [Training: Alexa - A Free Introduction](Qumarkaj/documentation/AlexaAFreeIntroduction.md)
       * Projects
         * [Intel GDC Visitor Center](Qumarkaj/documentation/AlexaSkillProjectIntelGdcVisitorCenter.md)
+          * [Cloudy](Qumarkaj/documentation/AlexaSkillProjectIntelGdcVisitorCenterCloudy.md)
           * [Geek](Qumarkaj/documentation/AlexaSkillProjectIntelGdcVisitorCenterGeek.md)
           * [Trivia](Qumarkaj/documentation/AlexaSkillProjectIntelGdcVisitorCenterTrivia.md)
           * [Kit](Qumarkaj/documentation/AlexaSkillProjectIntelGdcVisitorCenterKit.md)
-          * [Cloudy](Qumarkaj/documentation/AlexaSkillProjectIntelGdcVisitorCenterCloudy.md)
         * [Voice Control Intel Edison](Qumarkaj/documentation/AlexaSkillProjectVoiceControlIntelEdison.md)
     * [Alexa Voice Service](Qumarkaj/documentation/AlexaVoiceService.md)
       * [Intel Edison](Qumarkaj/documentation/IntelEdison.md)
