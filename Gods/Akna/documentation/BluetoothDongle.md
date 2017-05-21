@@ -19,3 +19,5 @@ user@workstation:~$ /etc/init.d/bluetooth start
 [ ok ] Starting bluetooth (via systemctl): bluetooth.service.
 user@workstation:~$ 
 ```
+
+# Pair and Connect
