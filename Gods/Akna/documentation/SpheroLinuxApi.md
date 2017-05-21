@@ -16,7 +16,11 @@ user@workstation:~/Sphero$
 ```
 
 ```sh
-user@workstation:~/Sphero$ cd sphero-linux-api/
-user@workstation:~/Sphero/sphero-linux-api$ ls
+user@workstation:~/Sphero$ ls
 example-app  idees.md  LICENSE  makefile  quickTest.sh  README.md  src
+```
+
+```sh
+user@workstation:~/Sphero$ make
+user@workstation:~/Sphero$ sudo make install
 ```
