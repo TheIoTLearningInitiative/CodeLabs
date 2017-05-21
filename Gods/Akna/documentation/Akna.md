@@ -1,7 +1,5 @@
 # cylon.js Sphero
 
-
-
 - [Cylon.Js Sphero](https://cylonjs.com/documentation/platforms/sphero/)
 
 # Cylon.js Intel Edison
@@ -46,7 +44,7 @@ root@edison:~# node cylonjs01.js
 root@edison:~# 
 ```
 
-# Cylon.js Intel Edison Sphero
+# Cylon.js Intel Edison Sphero Pair
 
 ```sh
 root@edison:~# npm install cylon cylon-intel-iot cylon-sphero
@@ -122,6 +120,8 @@ root@edison:~#
 root@edison:~# rfcomm bind 0 68:86:E7:08:9C:BB 1                                
 root@edison:~# 
 ```
+
+# Cylon.js Intel Edison Sphero Pair
 
 ```sh
 root@edison:~# nano cylonjs02.js
