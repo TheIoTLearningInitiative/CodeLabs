@@ -86,11 +86,21 @@ Yucatán
 * **Ah Peku** API Slack Bot Users
 * **Ah Puch** Recon Instruments
 * **Ah Tabai** Bosch IoT Suite
-* **Tbd** Neural Networks Curie
-* **Tbd** Emoncms
-* **Tbd** Blockchain
-* **Tbd** Microsoft Cognitive Services
-* **Tbd** Briko
+* **Ah Uuc Ticab** Neural Networks Curie
+* **Ahau Chamahez** Emoncms
+* **Ajbit** Blockchain
+* **Ajtzak** Microsoft Cognitive Services
+* **Akhushtal** Briko
+* **** 
+* **** 
+* **** 
+* **** 
+
+
+
+
+
+
 
 
 
