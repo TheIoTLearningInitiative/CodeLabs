@@ -1,6 +1,6 @@
 # Akna
 
-> [](https://en.wikipedia.org/wiki/Akna)
+> Goddess of motherhood and birthing [Wikipedia](https://en.wikipedia.org/wiki/Akna)
 
 # Cylon.js
 
