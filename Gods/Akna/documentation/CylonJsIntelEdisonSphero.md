@@ -77,7 +77,7 @@ root@edison:~#
 # Cylon.js 02
 
 ```sh
-root@edison:~# nano cylonjs03.js
+root@edison:~# nano cylonjs02.js
 ```
 
 ```js
@@ -101,7 +101,7 @@ Cylon.robot({
 ```
 
 ```sh
-root@edison:~# node cylonjs03.js 
+root@edison:~# node cylonjs02.js 
 2017-05-21T16:56:02.018Z : [Robot 1] - Starting connections.                    
 2017-05-21T16:56:02.044Z : [Robot 1] - Starting connection 'edison'.            
 2017-05-21T16:56:02.138Z : [Robot 1] - Starting connection 'sphero' on port /de.
