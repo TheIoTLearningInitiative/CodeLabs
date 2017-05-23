@@ -75,7 +75,7 @@
 * [Edzna](Edzna/documentation/Edzna.md)
   * [MQ Telemetry Transport](Edzna/documentation/mq-telemetry-transport.md)
   * [MQTT Broker](Edzna/documentation/MqttBroker.md)
-  * Home Automation
+  * [Home Automation](Edzna/documentation/home-automation.md)
     * [Device](Edzna/documentation/device.md)
       * [Light ESP8266](Edzna/documentation/Esp8266.md)
       * [Intel Edison](Edzna/documentation/IntelEdison.md)
