@@ -96,6 +96,7 @@
       * [Camera](Edzna/documentation/HomeAssistantCamera.md)
       * [Automation](Edzna/documentation/Automation.md)
   * [Shack Automation](Edzna/documentation/ShackAutomation.md)
+    * [Configuration Yaml](Edzna/documentation/ShackAutomationConfigurationYaml.md)
 * [Ek Balam](EkBalam/documentation/EkBalam.md)
   * [Google Cloud Platform](EkBalam/documentation/GoogleCloudPlatform.md)
     * [Google API Keys](EkBalam/documentation/GoogleApiKeys.md)
