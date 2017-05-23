@@ -1,8 +1,6 @@
 # Home Automation
 
 ```sh
-
-
 mqtt:
   broker: iot.eclipse.org
   port: 1883
