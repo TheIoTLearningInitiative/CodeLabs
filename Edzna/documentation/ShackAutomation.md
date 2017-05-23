@@ -4,7 +4,7 @@
 mqtt:
   broker: iot.eclipse.org
   port: 1883
-  client_id: edznahomeassistant
+  client_id: edznashackautomation
   keepalive: 60
 
 light:
