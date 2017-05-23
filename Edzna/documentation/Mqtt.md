@@ -19,7 +19,7 @@ mqtt:
 
 ## Custom Component Hello MQTT
 
-> MQTT example componen
+> MQTT example component
 
 ```sh
 user@server:~$ nano ~/.homeassistant/custom_components/hello_mqtt.py
