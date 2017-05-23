@@ -189,5 +189,4 @@ group:
     - binary_sensor.occupancy
     - binary_sensor.power
     - binary_sensor.sound
-
 ```
