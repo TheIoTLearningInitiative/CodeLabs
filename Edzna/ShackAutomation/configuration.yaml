@@ -114,7 +114,7 @@ binary_sensor:
     payload_off: 0
   - platform: mqtt
     name: Occupancy
-    state_topic: "edzna/sa/movement/occupancy"
+    state_topic: "edzna/sa/station/occupancy"
     sensor_class: occupancy
     payload_on: 1
     payload_off: 0
