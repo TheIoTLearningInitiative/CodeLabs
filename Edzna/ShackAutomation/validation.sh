@@ -5,7 +5,7 @@ mosquitto_sub -h test.mosquitto.org -p 1883 -t edzna/sa/room/light/rgb/set
 
 mosquitto_pub -h test.mosquitto.org -p 1883 -t edzna/sa/table/light/status -m ON
 mosquitto_sub -h test.mosquitto.org -p 1883 -t edzna/sa/table/light/switch
-mosquitto_pub -h test.mosquitto.org -p 1883 -t edzna/sa/table/light/rgb/status -m 255,0,0
+mosquitto_pub -h test.mosquitto.org -p 1883 -t edzna/sa/table/light/rgb/status -m 0,255,0
 mosquitto_sub -h test.mosquitto.org -p 1883 -t edzna/sa/table/light/rgb/set
 
 mosquitto_pub -h test.mosquitto.org -p 1883 -t edzna/sa/room/60 -m 15
