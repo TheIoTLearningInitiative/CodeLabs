@@ -136,8 +136,8 @@ lock:
     name: Door
     state_topic: "edzna/sa/door"
     command_topic: "edzna/sa/door/set"
-    payload_lock: "LOCK"
-    payload_unlock: "UNLOCK"
+    payload_lock: "lock"
+    payload_unlock: "unlock"
     optimistic: false
     qos: 1
     retain: true
