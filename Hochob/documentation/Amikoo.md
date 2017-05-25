@@ -23,6 +23,9 @@ Software
 
 - Intel IoT SDK
 - Amikoo Github Repo Creation
+  - Same place as IoT SDK workspace
+- Hochob > Amikoo Content Migration
+- 
 
 ## Intel IoT SDK
 
