@@ -34,7 +34,7 @@
 ## Server
 
 - __Codename__: Hochob
-- NUC 5i5MYHE 
+- NUC 5i5MYHE
 - Linux Lubuntu Based
 - Components
   - Python
