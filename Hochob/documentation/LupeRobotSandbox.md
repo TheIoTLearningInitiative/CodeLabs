@@ -301,7 +301,7 @@ root@edison:~# ./btup.sh
 [NEW] Controller 98:4F:EE:03:78:89 edison [default]
 [NEW] Device 40:78:6A:26:4A:C2 XT1008
 [NEW] Device F8:CF:C5:D4:CB:BC Nexus 6
-[NEW] Device 00:16:D4:FA:F6:20 Project Tango Tablet Developmen
+[NEW] Device 00:16:D4:FA:F6:20 Project Tango Tablet Development
 [bluetooth]# discoverable on
 [bluetooth]# quit
 [DEL] Controller 98:4F:EE:03:78:89 edison [default]
