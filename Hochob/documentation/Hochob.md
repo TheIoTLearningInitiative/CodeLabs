@@ -71,6 +71,6 @@
 - Amazon Alexa
 - Lupe Robot Architecture
   - Text To Speech
-  - Take Picture
+  - Take Picture and Display on the Screen
 - Makeblock Printer
 - Cartoon Feedback to Museum from Kids then Send to Cloud
