@@ -20,3 +20,13 @@ Software
 - [Project Acat .. IBM Node-Red](https://theiotlearninginitiative.gitbooks.io/codelabs/content/Gods/Acat/documentation/Acat.html)
 
 # Alfredo's Documentation
+
+## Intel IoT SDK
+
+- [Installing the Intel® System Studio IoT Edition on Linux*](https://software.intel.com/en-us/node/705841)
+
+```sh
+pymelab@workstation:~/Descargas/l_iss_iot_p_2016.4.008$ export PATH=$PATH:/home/pymelab/Descargas/jdk1.8.0_121/bin/
+pymelab@workstation:~/Descargas/l_iss_iot_p_2016.4.008$ /opt/intel/ISS/iss-iot-launcher
+```
+
