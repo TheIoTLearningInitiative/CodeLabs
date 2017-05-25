@@ -4,7 +4,7 @@
 
 - Robot
 - Intel® Edison
-- Speaker
+- Speakers
 
 # Software
 
