@@ -21,6 +21,8 @@ Software
 
 # Alfredo's Documentation
 
+# WW21
+
 - Intel IoT SDK
 - Amikoo Github Repo Creation
   - Same place as IoT SDK workspace
@@ -31,6 +33,10 @@ Software
   - Calendar Entries Reading
     - Python
     - Javascript
+
+## WW22
+
+- 
 
 ## Intel IoT SDK
 
