@@ -21,6 +21,9 @@ Software
 
 # Alfredo's Documentation
 
+- Intel IoT SDK
+- Amikoo Repo Creation
+
 ## Intel IoT SDK
 
 - [Installing the Intel® System Studio IoT Edition on Linux*](https://software.intel.com/en-us/node/705841)
