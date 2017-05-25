@@ -22,7 +22,7 @@ Software
 # Alfredo's Documentation
 
 - Intel IoT SDK
-- Amikoo Repo Creation
+- Amikoo Github Repo Creation
 
 ## Intel IoT SDK
 
