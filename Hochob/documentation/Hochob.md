@@ -69,3 +69,6 @@
 - HaDashBoard
 - Google Assistant
 - Amazon Alexa
+- Lupe Robot Architecture
+  - Text To Speech
+  -  
