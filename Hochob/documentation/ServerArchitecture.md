@@ -24,6 +24,8 @@
     - Corporate
     - VisitorsCenter
     - Visits
+      - Selfie
+      - Lupe
   - Video
     - Corporate
     - Photography
