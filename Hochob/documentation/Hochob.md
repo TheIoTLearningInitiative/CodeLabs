@@ -72,3 +72,5 @@
 - Lupe Robot Architecture
   - Text To Speech
   - Take Picture
+- Makeblock Printer
+- Feedback to Museum
