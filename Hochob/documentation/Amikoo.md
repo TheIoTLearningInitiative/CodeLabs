@@ -29,6 +29,8 @@ Software
   - String Rx so Lupe can speak it
 - Hochob Server
   - Calendar Entries Reading
+    - Python
+    - Javascript
 
 ## Intel IoT SDK
 
