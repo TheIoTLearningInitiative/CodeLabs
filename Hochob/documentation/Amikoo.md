@@ -34,10 +34,6 @@ Software
     - Python
     - Javascript
 
-## WW22
-
-- 
-
 ## Intel IoT SDK
 
 - [Installing the Intel® System Studio IoT Edition on Linux*](https://software.intel.com/en-us/node/705841)
