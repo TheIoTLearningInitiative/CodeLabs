@@ -71,4 +71,4 @@
 - Amazon Alexa
 - Lupe Robot Architecture
   - Text To Speech
-  - Picture
+  - Take Picture
