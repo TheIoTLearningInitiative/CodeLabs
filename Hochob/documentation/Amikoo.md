@@ -25,7 +25,10 @@ Software
 - Amikoo Github Repo Creation
   - Same place as IoT SDK workspace
 - Hochob > Amikoo Content Migration
-- 
+- Amikoo
+  - String Rx so Lupe can speak it
+- Hochob Server
+  - Calendar Entries Reading
 
 ## Intel IoT SDK
 
