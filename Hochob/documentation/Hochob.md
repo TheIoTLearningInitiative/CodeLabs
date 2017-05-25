@@ -51,7 +51,7 @@
 ## Mobile Device
 
 - __Codename__:  Muuk’, Poder, Buddy
-- Samsung SM-A500M
+  - Samsung SM-A500M
 
 ## Robot
 
