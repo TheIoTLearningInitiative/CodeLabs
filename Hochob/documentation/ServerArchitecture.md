@@ -54,6 +54,7 @@
     - VLC Media Player
     - LupeRobot
     - Drawing
+    - Video
 - Mobile Device
 - LupeRobot
   - Scripts
