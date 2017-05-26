@@ -18,6 +18,7 @@
 # Media Repository
 
 - HochobMedia
+  - Music
   - Audio
     - VisitorsCenter
   - Image
@@ -39,6 +40,7 @@
 - Server
   - Services
     - Automation
+      - HomeAssistant
     - Audio
     - Image
     - Video
@@ -50,6 +52,8 @@
     - VLC Media Player
 - Mobile Device
 - LupeRobot
+  - Skills
+  - 
 - HomeAssistant
 - Photography
 - PulseAudio
