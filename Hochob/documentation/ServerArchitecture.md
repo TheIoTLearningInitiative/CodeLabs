@@ -36,8 +36,6 @@
 
 # Directory Structure
 
-- Accounts
-- DigitalMediaPlayers
 - Server
   - Services
     - Automation
