@@ -52,8 +52,10 @@
     - VLC Media Player
 - Mobile Device
 - LupeRobot
+  - Scripts
+  - Show
   - Skills
-  - 
+  - Virtual
 - HomeAssistant
 - Photography
 - PulseAudio
