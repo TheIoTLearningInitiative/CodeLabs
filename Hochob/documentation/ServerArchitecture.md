@@ -44,6 +44,7 @@
     - Audio
     - Image
     - Video
+    - Calendar
   - Applications
     - Audio
     - Camera
