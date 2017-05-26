@@ -42,8 +42,8 @@
   - Services
     - Automation
       - HomeAssistant
-    - Audio
-    - Image
+    - Sound
+    - Camara
     - Video
     - Calendar
   - Applications
