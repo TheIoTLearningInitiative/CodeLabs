@@ -53,6 +53,7 @@
     - Usb
     - VLC Media Player
     - LupeRobot
+    - Drawing
 - Mobile Device
 - LupeRobot
   - Scripts

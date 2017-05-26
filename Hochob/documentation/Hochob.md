@@ -76,3 +76,5 @@
 - Cartoon Feedback to Museum from Kids then Send to Cloud
 - Eyes blink
 - Lupe talking in Chromecast "Hope you are enjoying your visit"
+- Espanol / Ingles Audios
+- Audios Corto y Largo
