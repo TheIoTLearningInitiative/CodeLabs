@@ -45,10 +45,11 @@
     - Sound
     - Camera
     - Calendar
+    - Usb
   - Applications
     - Audio
     - Photography
-    - Usb
+    - Gift Usb
     - VLC Media Player
     - LupeRobot
     - Drawing
