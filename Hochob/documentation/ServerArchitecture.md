@@ -64,3 +64,6 @@
 - Photography
 - PulseAudio
 - Usb
+
+Planteamiento
+Solucion
