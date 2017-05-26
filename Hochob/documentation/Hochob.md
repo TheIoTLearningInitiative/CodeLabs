@@ -74,3 +74,5 @@
   - Take Picture and Display on the Screen
 - Makeblock Printer
 - Cartoon Feedback to Museum from Kids then Send to Cloud
+- Eyes blink
+- Lupe talking in Chromecast "Hope you are enjoying your visit"
