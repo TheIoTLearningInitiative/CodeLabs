@@ -27,7 +27,7 @@
     - VisitorsCenter
     - Visits
       - Selfie
-      - Lupe
+      - LupeRobot
   - Video
     - Corporate
     - Photography
