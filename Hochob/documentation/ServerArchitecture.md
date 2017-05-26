@@ -42,9 +42,10 @@
   - Services
     - Automation
       - HomeAssistant
-    - Sound
     - Camera
     - Calendar
+    - Drawing
+    - Sound
     - Usb
     - Video
       - Vlc Media Player
@@ -53,7 +54,7 @@
     - Photography
     - Goodie
     - LupeRobot
-    - Drawing
+    - Feedback
     - Video
 - LupeRobot
   - Scripts
