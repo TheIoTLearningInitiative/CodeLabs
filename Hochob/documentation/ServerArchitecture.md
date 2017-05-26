@@ -36,7 +36,7 @@
 
 # Directory Structure
 
-- Server
+- Hochob
   - Services
     - Automation
       - HomeAssistant
