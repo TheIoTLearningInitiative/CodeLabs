@@ -34,8 +34,23 @@
 
 # Directory Structure
 
-- Services
-  - Audio
-  - Image
-  - Video
-- 
+- Accounts
+- DigitalMediaPlayers
+- Server
+  - Services
+    - Automation
+    - Audio
+    - Image
+    - Video
+  - Applications
+    - Audio
+    - Camera
+    - Photography
+    - Usb
+    - VLC Media Player
+- Mobile Device
+- LupeRobot
+- HomeAssistant
+- Photography
+- PulseAudio
+- Usb
