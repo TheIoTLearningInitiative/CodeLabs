@@ -46,6 +46,7 @@
     - Calendar
     - Drawing
     - Sound
+      - PulseAudio
     - Usb
     - Video
       - Vlc Media Player
@@ -54,17 +55,9 @@
     - Photography
     - Goodie
     - LupeRobot
+      - Scripts
+      - Show
+      - Skills
+      - Virtual
     - Feedback
     - Video
-- LupeRobot
-  - Scripts
-  - Show
-  - Skills
-  - Virtual
-- HomeAssistant
-- Photography
-- PulseAudio
-- Usb
-
-Planteamiento
-Solucion
