@@ -48,7 +48,7 @@
     - Calendar
   - Applications
     - Audio
-    - Camera
+    - Video
     - Photography
     - Usb
     - VLC Media Player
