@@ -46,11 +46,12 @@
     - Camera
     - Calendar
     - Usb
+    - Video
+      - Vlc Media Player
   - Applications
     - Audio
     - Photography
     - Gift Usb
-    - VLC Media Player
     - LupeRobot
     - Drawing
     - Video
