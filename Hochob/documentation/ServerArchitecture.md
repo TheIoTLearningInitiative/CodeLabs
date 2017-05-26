@@ -43,7 +43,7 @@
     - Automation
       - HomeAssistant
     - Sound
-    - Camara
+    - Camera
     - Video
     - Calendar
   - Applications
