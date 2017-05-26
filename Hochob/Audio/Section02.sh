@@ -40,6 +40,8 @@ sleep .6
 mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headleft -m 1
 sleep .6
 mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headright -m 1
+sleep .6
+mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/resetall -m 1
 sleep 10
 killall -9 feh
 
