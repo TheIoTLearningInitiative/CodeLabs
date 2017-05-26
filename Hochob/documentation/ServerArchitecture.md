@@ -54,7 +54,6 @@
     - LupeRobot
     - Drawing
     - Video
-- Mobile Device
 - LupeRobot
   - Scripts
   - Show
