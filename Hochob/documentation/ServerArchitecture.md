@@ -51,7 +51,7 @@
   - Applications
     - Audio
     - Photography
-    - Gift Usb
+    - Goodie
     - LupeRobot
     - Drawing
     - Video
