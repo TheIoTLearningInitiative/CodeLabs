@@ -20,6 +20,7 @@
 - HochobMedia
   - Music
   - Audio
+    - LupeRobot
     - VisitorsCenter
   - Image
     - Corporate
