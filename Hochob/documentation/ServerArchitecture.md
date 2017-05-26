@@ -51,6 +51,7 @@
     - Photography
     - Usb
     - VLC Media Player
+    - LupeRobot
 - Mobile Device
 - LupeRobot
   - Scripts
