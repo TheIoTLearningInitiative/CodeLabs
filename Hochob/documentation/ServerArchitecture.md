@@ -44,7 +44,6 @@
       - HomeAssistant
     - Sound
     - Camera
-    - Video
     - Calendar
   - Applications
     - Audio
