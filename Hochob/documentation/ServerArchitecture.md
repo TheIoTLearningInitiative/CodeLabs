@@ -43,10 +43,10 @@
         - configuration.yaml
     - Camera
       - FS Webcam
-        - hbsFswMain.sh
+        - hbsCameraFswMain.sh
     - Calendar
       - Google Calendar API
-        - hbsGcaMain.py
+        - hbsCalendarGcaMain.py
     - Communications
       - MQTT
         - VerneMQ 
