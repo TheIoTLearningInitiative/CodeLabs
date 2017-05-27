@@ -40,6 +40,9 @@
   - Services
     - Automation
       - HomeAssistant
+        - Home
+        - LupeRobot
+        - 
     - Camera
     - Calendar
     - Drawing
@@ -61,4 +64,3 @@
       - Virtual
     - Photography
     - Video
-
