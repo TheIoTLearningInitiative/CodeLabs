@@ -42,6 +42,8 @@
       - HomeAssistant
         - Home
         - LupeRobot
+          - Activities
+          - 
         - Beginning
           - Stations
           - Controls
@@ -52,7 +54,6 @@
           - Lupe Virtual
           - Lupe Skills
           - Camera
-          
     - Camera
     - Calendar
     - Drawing
