@@ -44,6 +44,7 @@
     - Calendar
     - Communications
       - MQTT
+        - VerneMQ 
     - Drawing
     - Lupe Robot
       - Virtual
