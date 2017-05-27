@@ -122,6 +122,8 @@
       * Automation
         * [Home Assistant](Hochob/documentation/HomeAssistant.md)
           * [Setup](Hochob/documentation/HomeAssistantSetup.md)
+      * Sound
+        * [Speech Synthetizer](Hochob/documentation/SpeechSynthetizer.md)
     * [Applications](Hochob/documentation/applications.md)
       * [Audio](Hochob/documentation/Audio.md)
       * [Camera](Hochob/documentation/Camera.md)
