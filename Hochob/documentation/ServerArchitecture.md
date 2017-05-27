@@ -59,7 +59,7 @@
         - Movement
         - Sound
           - Speaker
-    - Picture
+    - Image
     - Sound
       - PulseAudio
       - Chromecast
