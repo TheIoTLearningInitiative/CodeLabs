@@ -73,6 +73,8 @@
         - Camera
         - Movement
         - Sound
+          - Microphone
+          - Speaker
     - Sound
       - PulseAudio
     - Usb
