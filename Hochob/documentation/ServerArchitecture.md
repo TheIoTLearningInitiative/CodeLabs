@@ -18,7 +18,7 @@
 # Media Repository
 
 - HochobMedia
-  - Music - LupeRobot Show
+  - Music
   - Audio
     - LupeRobot
     - VisitorsCenter
