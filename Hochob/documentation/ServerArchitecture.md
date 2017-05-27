@@ -48,7 +48,7 @@
       - Google Calendar API
         - hbsCalendarGcaMain.py
     - Communications
-      - MQTT
+      - Mqtt
         - VerneMQ
     - Drawing
     - Lupe Robot
