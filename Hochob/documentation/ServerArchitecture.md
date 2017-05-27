@@ -52,7 +52,7 @@
         - VerneMQ
           - vernemq.conf
     - Drawing
-    - Lupe Robot
+    - LupeRobot
       - Virtual
         - Sound
       - Remote
