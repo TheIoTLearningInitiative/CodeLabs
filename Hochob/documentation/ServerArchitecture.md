@@ -67,7 +67,7 @@
       - SpeechSynthesizer
     - Usb
     - Video
-      - Vlc Media Player
+      - VlcMediaPlayer
       - Chromecast
   - Applications
     - Audio
