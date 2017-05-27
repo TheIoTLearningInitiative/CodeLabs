@@ -26,8 +26,7 @@
     - Corporate
     - Drawing
     - VisitorsCenter
-    - Visits
-      - Server
+    - Visitors
       - LupeRobot
   - Video
     - Corporate
