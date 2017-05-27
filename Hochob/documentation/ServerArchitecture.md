@@ -22,7 +22,7 @@
   - Audio
     - LupeRobot
     - VisitorsCenter
-  - Image
+  - Photography
     - Corporate
     - VisitorsCenter
     - Visits
@@ -50,12 +50,14 @@
       - Vlc Media Player
   - Applications
     - Audio
-    - Photography
+      - LupeRobot
+      - VisitorsCenter
+    - Feedback
     - Goodie
     - LupeRobot
       - Scripts
       - Show
       - Skills
       - Virtual
-    - Feedback
+    - Photography
     - Video
