@@ -20,6 +20,7 @@
 - HochobMedia
   - Music
   - Sound
+    - Espeak
     - LupeRobot
     - VisitorsCenter
   - Image
