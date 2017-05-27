@@ -66,6 +66,8 @@
     - Camera
     - Calendar
     - Drawing
+    - Lupe Robot
+      - 
     - Sound
       - PulseAudio
     - Usb
