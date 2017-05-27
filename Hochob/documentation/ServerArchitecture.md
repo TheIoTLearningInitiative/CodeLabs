@@ -49,7 +49,7 @@
         - hbsCalendarGcaMain.py
     - Communications
       - MQTT
-        - VerneMQ 
+        - VerneMQ
     - Drawing
     - Lupe Robot
       - Virtual
