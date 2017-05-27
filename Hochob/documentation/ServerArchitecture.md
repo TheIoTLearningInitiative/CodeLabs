@@ -19,7 +19,7 @@
 
 - HochobMedia
   - Music
-  - Audio
+  - Sound
     - LupeRobot
     - VisitorsCenter
   - Image
