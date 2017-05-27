@@ -41,6 +41,8 @@
     - Automation
       - HomeAssistant
         - Home
+          - 
+          - Diagnostics
         - LupeRobot
           - Activities
           - Arm Left
