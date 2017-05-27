@@ -69,7 +69,6 @@
     - Lupe Robot
       - Virtual
         - Sound
-        - Camera
       - Remote
         - Sound
         - Camera
