@@ -49,6 +49,10 @@
           - Stations
           - Controls
         - Support
+          - Lupe Virtual
+          - Lupe Skills
+          - Camera
+          
     - Camera
     - Calendar
     - Drawing
