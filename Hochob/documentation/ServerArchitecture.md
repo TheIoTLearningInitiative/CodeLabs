@@ -37,7 +37,6 @@
 # Directory Structure
 
 - Hochob
-  - Core
   - Services
     - Automation
       - HomeAssistant
