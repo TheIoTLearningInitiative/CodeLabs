@@ -66,6 +66,8 @@
       - Chromecast
       - PulseAudio
       - SpeechSynthesizer
+        - Record and Play
+        - Record Only
     - Usb
     - Video
       - VlcMediaPlayer
