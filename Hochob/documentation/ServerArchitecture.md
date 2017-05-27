@@ -22,7 +22,7 @@
   - Audio
     - LupeRobot
     - VisitorsCenter
-  - Photography
+  - Image
     - Corporate
     - Drawing
     - VisitorsCenter
