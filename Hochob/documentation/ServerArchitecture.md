@@ -52,7 +52,6 @@
         - Camera
         - Movement
         - Sound
-          - Microphone
           - Speaker
     - Picture
     - Sound
