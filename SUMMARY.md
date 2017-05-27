@@ -111,6 +111,7 @@
   * [Server](Hochob/documentation/Server.md)
     * [Architecture](Hochob/documentation/ServerArchitecture.md)
     * [Setup](Hochob/documentation/ServerSetup.md)
+    * [Main](Hochob/documentation/ServerMain.md)
     * [Services](Hochob/documentation/services.md)
       * [Plex Media Server](Hochob/documentation/Plex.md)
       * [PulseAudio](Hochob/documentation/PulseAudio.md)
