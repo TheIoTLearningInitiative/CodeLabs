@@ -73,7 +73,7 @@
       - Remote
         - Sound
         - Camera
-        - Body
+        - Movement
     - Sound
       - PulseAudio
     - Usb
