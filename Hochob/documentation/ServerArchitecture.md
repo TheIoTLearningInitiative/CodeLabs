@@ -67,8 +67,13 @@
     - Calendar
     - Drawing
     - Lupe Robot
-      - Sound
-      - Camera
+      - Virtual
+        - Sound
+        - Camera
+      - Remote
+        - Sound
+        - Camera
+        - Body
     - Sound
       - PulseAudio
     - Usb
