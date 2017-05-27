@@ -43,7 +43,8 @@
         - Home
         - LupeRobot
         - Begginning
-        - 
+        - Experience
+        - Support
     - Camera
     - Calendar
     - Drawing
