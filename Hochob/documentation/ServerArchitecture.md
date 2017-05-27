@@ -77,9 +77,11 @@
           - Speaker
     - Sound
       - PulseAudio
+      - Chromevcast
     - Usb
     - Video
       - Vlc Media Player
+      - Chromecast
   - Applications
     - Audio
     - Photography
