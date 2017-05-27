@@ -115,6 +115,7 @@
       * [Institution Identification](Hochob/documentation/ServerMainInstitutionIdentification.md)
     * [Services](Hochob/documentation/services.md)
       * [Plex Media Server](Hochob/documentation/Plex.md)
+      * [Calendar](Hochob/documentation/Calendar.md)
       * [PulseAudio](Hochob/documentation/PulseAudio.md)
       * [Telegram](Hochob/documentation/Telegram.md)
       * [VerneMQ](Hochob/documentation/VerneMQ.md)
