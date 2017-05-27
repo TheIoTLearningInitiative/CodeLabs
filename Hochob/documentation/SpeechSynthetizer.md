@@ -13,5 +13,5 @@ hochob@server:~$ espeak --stdout "hello world" | tee -a hello.wav | aplay -
 2. Record Only
 
 ```sh
-hochob@server:~$ espeak --stdout "hello world" | tee -a hello.wav
+hochob@server:~$ espeak -w temp.wav "hello world"
 ```
