@@ -43,7 +43,11 @@
         - Home
         - LupeRobot
         - Beginning
+          - Stations
+          - Controls
         - Experience
+          - Stations
+          - Controls
         - Support
     - Camera
     - Calendar
