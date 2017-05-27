@@ -80,6 +80,8 @@
       - Vlc Media Player
   - Applications
     - Audio
+    - Photography
+    - Video
       - LupeRobot
       - VisitorsCenter
     - Feedback
@@ -89,5 +91,3 @@
       - Show
       - Skills
       - Virtual
-    - Photography
-    - Video
