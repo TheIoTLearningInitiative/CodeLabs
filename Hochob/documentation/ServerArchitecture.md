@@ -42,6 +42,7 @@
       - HomeAssistant
         - Home
         - LupeRobot
+        - Begginning
         - 
     - Camera
     - Calendar
