@@ -24,9 +24,10 @@
     - VisitorsCenter
   - Photography
     - Corporate
+    - Drawing
     - VisitorsCenter
     - Visits
-      - Selfie
+      - Server
       - LupeRobot
   - Video
     - Corporate
@@ -42,9 +43,11 @@
       - HomeAssistant
         - configuration.yaml
     - Camera
-      - hbsCamera.sh
+      - FS Webcam
+        - hbsFswMain.sh
     - Calendar
-      - 
+      - Google Calendar API
+        - hbsGcaMain.py
     - Communications
       - MQTT
         - VerneMQ 
