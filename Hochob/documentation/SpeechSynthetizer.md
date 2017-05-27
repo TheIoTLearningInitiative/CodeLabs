@@ -1,13 +1,17 @@
 # Speech Synthetizer
 
+```sh
+hochob@server:~# apt install espeak tee
+```
+
 1. Record and Play
 
 ```sh
-espeak --stdout "hello world" | tee -a hello.wav | aplay -
+hochob@server:~$ espeak --stdout "hello world" | tee -a hello.wav | aplay -
 ```
 
 2. Record Only
 
 ```sh
-espeak --stdout "hello world" | tee -a hello.wav
+hochob@server:~$ espeak --stdout "hello world" | tee -a hello.wav
 ```
