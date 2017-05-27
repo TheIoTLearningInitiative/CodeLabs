@@ -67,7 +67,7 @@
     - Calendar
     - Drawing
     - Lupe Robot
-      - Voice
+      - Sound
       - 
     - Sound
       - PulseAudio
