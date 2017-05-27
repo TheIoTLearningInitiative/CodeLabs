@@ -41,6 +41,7 @@
     - Automation
       - HomeAssistant
     - Camera
+      - hbsCamera.sh
     - Calendar
     - Communications
       - MQTT
