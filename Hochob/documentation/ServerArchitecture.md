@@ -40,6 +40,7 @@
   - Services
     - Automation
       - HomeAssistant
+        - configuration.yaml
     - Camera
       - hbsCamera.sh
     - Calendar
