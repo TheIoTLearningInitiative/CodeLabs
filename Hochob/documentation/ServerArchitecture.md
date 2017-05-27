@@ -62,8 +62,9 @@
           - Speaker
     - Image
     - Sound
-      - PulseAudio
       - Chromecast
+      - PulseAudio
+      - SpeechSynthesizer
     - Usb
     - Video
       - Vlc Media Player
