@@ -30,7 +30,6 @@
       - zZz
   - Video
     - Corporate
-    - Photography
     - VisitorsCenter
     - Visitors
       - zZz
