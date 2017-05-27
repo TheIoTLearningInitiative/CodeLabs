@@ -70,9 +70,9 @@
       - Virtual
         - Sound
       - Remote
-        - Sound
         - Camera
         - Movement
+        - Sound
     - Sound
       - PulseAudio
     - Usb
