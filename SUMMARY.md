@@ -116,6 +116,9 @@
       * [PulseAudio](Hochob/documentation/PulseAudio.md)
       * [Telegram](Hochob/documentation/Telegram.md)
       * [VerneMQ](Hochob/documentation/VerneMQ.md)
+      * Automation
+        * [Home Assistant](Hochob/documentation/HomeAssistant.md)
+          * [Setup](Hochob/documentation/HomeAssistantSetup.md)
     * [Applications](Hochob/documentation/applications.md)
       * [Audio](Hochob/documentation/Audio.md)
       * [Camera](Hochob/documentation/Camera.md)
