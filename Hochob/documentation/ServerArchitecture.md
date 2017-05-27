@@ -50,6 +50,7 @@
     - Communications
       - Mqtt
         - VerneMQ
+          - vernemq.conf
     - Drawing
     - Lupe Robot
       - Virtual
