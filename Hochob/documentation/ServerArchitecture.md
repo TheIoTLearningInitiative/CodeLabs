@@ -44,6 +44,7 @@
     - Camera
       - hbsCamera.sh
     - Calendar
+      - 
     - Communications
       - MQTT
         - VerneMQ 
