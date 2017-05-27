@@ -65,6 +65,8 @@
           - Camera
     - Camera
     - Calendar
+    - Communications
+      - MQTT
     - Drawing
     - Lupe Robot
       - Virtual
