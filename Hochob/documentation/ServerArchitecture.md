@@ -68,7 +68,7 @@
     - Drawing
     - Lupe Robot
       - Sound
-      - 
+      - Camera
     - Sound
       - PulseAudio
     - Usb
