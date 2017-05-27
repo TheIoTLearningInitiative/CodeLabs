@@ -43,7 +43,11 @@
         - Home
         - LupeRobot
           - Activities
-          - 
+          - Arm Left
+          - Arm Right
+          - Legs
+          - Head
+          - Diagnostics
         - Beginning
           - Stations
           - Controls
