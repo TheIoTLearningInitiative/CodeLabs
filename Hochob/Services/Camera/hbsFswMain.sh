@@ -1,11 +1,13 @@
 #!/bin/sh
 
-
 # =============================================================================
 # Variables
 # =============================================================================
 
-export HOCHOB_ROOT=`pwd`
+export HBS_CAMERA=`pwd`
+export HBS_CAMERA_BINARY=`fswebcam`
+export HBS_CAMERA_ARGUMENTS=" -r 1280x720 -s brightness=65% -s Contrast=50% -s Gamma=100% --jpeg 100 --no-banner "
+export HBS_CAMERA_DIRECTORY=
 
 # =============================================================================
 # Functions
@@ -17,29 +19,5 @@ export HOCHOB_ROOT=`pwd`
 # Main
 # =============================================================================
 
-handlerError.sh "test"
-if [ $? -eq 1 ]; then
-  exit 1
-fi
-
-if [ "$LOCAL_OPERATION" = "create" ]; then
-
-  LOCAL_TMPFS_SIZE=$2
-  LOCAL_TMPFS_MOUNTPOINT=$3
-
-  test -d $LOCAL_TMPFS_MOUNTPOINT || mkdir -p $LOCAL_TMPFS_MOUNTPOINT
-
-  mount -t tmpfs tmpfs $LOCAL_TMPFS_MOUNTPOINT -o size=${LOCAL_TMPFS_SIZE}M
-  mount
-
-elif [ "$LOCAL_OPERATION" = "remove" ]; then
-
-  LOCAL_TMPFS_MOUNTPOINT=$2
-  sync && wait
-  umount $LOCAL_TMPFS_MOUNTPOINT
-  rm -rf $LOCAL_TMPFS_MOUNTPOINT
-  mount
-
-fi
 
 # End of File
