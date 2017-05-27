@@ -26,3 +26,6 @@ hochob@server:~$ dmesg
 hochob@server:~$ 
 ```
 
+```sh
+hochob@server:~$ sudo apt install fswebcam
+```
