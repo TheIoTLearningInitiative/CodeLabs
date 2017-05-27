@@ -77,6 +77,7 @@
         - Sound
           - Microphone
           - Speaker
+    - Picture
     - Sound
       - PulseAudio
       - Chromecast
