@@ -41,7 +41,10 @@
     - Automation
       - HomeAssistant
         - Home
-          - 
+          - Introduction
+          - Video
+          - Photography
+          - Technical Center
           - Diagnostics
         - LupeRobot
           - Activities
