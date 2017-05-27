@@ -27,8 +27,7 @@
     - Drawing
     - VisitorsCenter
     - Visitors
-      - LupeRobot
-        - zZz
+      - zZz
   - Video
     - Corporate
     - Photography
