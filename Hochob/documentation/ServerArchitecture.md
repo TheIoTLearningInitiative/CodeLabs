@@ -42,7 +42,7 @@
       - HomeAssistant
         - Home
         - LupeRobot
-        - Begginning
+        - Beginning
         - Experience
         - Support
     - Camera
