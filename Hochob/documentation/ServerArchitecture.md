@@ -63,12 +63,12 @@
           - Speaker
     - Image
     - Sound
-      - Chromecast
       - PulseAudio
       - SpeechSynthesizer
         - Record and Play
         - Record Only
     - Stream
+      - Chromecast
     - Usb
     - Video
       - VlcMediaPlayer
