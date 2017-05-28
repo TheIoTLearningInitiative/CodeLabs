@@ -65,7 +65,7 @@
     - Sound
       - PulseAudio
       - SpeechSynthesizer
-        - hbsSoundSsEspeakMain.sh
+        - hbsSoundSsEspeakMain.sh [on/off] [english/spanish] [input]
           - Record and Play
           - Record Only
     - Stream
