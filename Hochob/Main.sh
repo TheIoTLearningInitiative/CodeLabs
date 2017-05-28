@@ -4,12 +4,19 @@
 # Variables
 # =============================================================================
 
+# Hochob Root Directory
+
 cd ~/CodeLabs/Hochob/
 export HOCHOB_ROOT=`pwd`
 
 # Hochob Paths
 
-export HOCHOB_SERVICES_STREAM_S2C=$HOCHOB_ROOT/Services/Stream/Stream2Chromecast/
+export HOCHOB_SERVICES=$HOCHOB_ROOT/Services/
+export HOCHOB_SERVICES_CAMERA=$HOCHOB_SERVICES/Camera/
+export HOCHOB_SERVICES_SOUND=$HOCHOB_SERVICES/Sound/
+export HOCHOB_SERVICES_SOUND_SS=$HOCHOB_SERVICES_SOUND/SpeechSynthetizer/
+export HOCHOB_SERVICES_STREAM=$HOCHOB_SERVICES/Stream/
+export HOCHOB_SERVICES_STREAM_S2C=$HOCHOB_SERVICES_STREAM/Stream2Chromecast/
 
 # Hochob Media
 
