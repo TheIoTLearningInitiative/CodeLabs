@@ -26,6 +26,10 @@ hochob@server:~$ dmesg
 hochob@server:~$ 
 ```
 
+# Fswebcam
+
+> A neat and simple webcam app [Homepage](http://www.sanslogic.co.uk/fswebcam/)
+
 ```sh
 hochob@server:~$ sudo apt install fswebcam
 ```
