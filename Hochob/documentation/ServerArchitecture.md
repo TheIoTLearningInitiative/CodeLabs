@@ -2,6 +2,8 @@
 
 # Services
 
+> Software functionality
+
 - Plex Media Server
 - PulseAudio
 - Telegram
@@ -9,7 +11,7 @@
 
 # Applications
 
-> 
+> Set of software functionalities
 
 - Audio
 - Camera
