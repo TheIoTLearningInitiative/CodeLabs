@@ -104,4 +104,5 @@
   
 # ToDo
 
-- Check arguments
+- Check Arguments
+- Kill Daemon
