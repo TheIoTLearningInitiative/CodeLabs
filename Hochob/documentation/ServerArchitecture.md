@@ -68,6 +68,7 @@
       - SpeechSynthesizer
         - Record and Play
         - Record Only
+    - Stream
     - Usb
     - Video
       - VlcMediaPlayer
