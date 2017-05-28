@@ -20,12 +20,13 @@
 - USB
 - VLC Media Player
 
-# Media Repository: Official / Mirror
+# Media Repository: Official & Mirror
 
 - HochobMedia
   - Music
   - Sound
-    - Espeak
+    - SpeechSynthesizer
+      - Espeak
     - LupeRobot
     - VisitorsCenter
   - Image
