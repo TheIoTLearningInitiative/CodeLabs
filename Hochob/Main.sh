@@ -5,8 +5,13 @@
 # =============================================================================
 
 cd ~/CodeLabs/Hochob/
-
 export HOCHOB_ROOT=`pwd`
+
+# Hochob Paths
+
+export HOCHOB_SERVICES_STREAM_S2C=$HOCHOB_ROOT/Services/Stream/Stream2Chromecast/
+
+# Hochob Media
 
 export HOCHOB_MEDIA=/tmp/HochobMedia/
 
