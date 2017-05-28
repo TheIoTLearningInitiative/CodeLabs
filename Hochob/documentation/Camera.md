@@ -30,6 +30,8 @@ hochob@server:~$
 
 > A neat and simple webcam app [Homepage](http://www.sanslogic.co.uk/fswebcam/)
 
+- [Github Fswebcam](https://github.com/fsphil/fswebcam)
+
 ```sh
 hochob@server:~$ sudo apt install fswebcam
 ```
