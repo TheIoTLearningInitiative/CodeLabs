@@ -15,7 +15,7 @@
 - USB
 - VLC Media Player
 
-# Media Repository
+# Media Repository: Official / Mirror
 
 - HochobMedia
   - Music
@@ -70,6 +70,7 @@
           - Record Only [off]
     - Stream
       - Chromecast
+        - hbsStreamS2cMain.sh [device] [volume] [file]
     - Usb
     - Video
       - VlcMediaPlayer
@@ -80,6 +81,8 @@
       - LupeRobot
       - VisitorsCenter
     - Feedback
+    - Google Calendar
+      - Image Welcome
     - Goodie
     - LupeRobot
       - Scripts
