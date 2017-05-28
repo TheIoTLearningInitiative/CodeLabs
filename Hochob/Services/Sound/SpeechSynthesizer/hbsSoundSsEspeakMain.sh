@@ -8,6 +8,7 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
+export HBS_SOUND_SS_ESPEAK_PID=$$
 export HBS_SOUND_SS_ESPEAK_ROOT=$HOCHOB_SERVICES_SOUND_SS
 export HBS_SOUND_SS_ESPEAK_BINARY=espeak
 export HBS_SOUND_SS_ESPEAK_ARGUMENTS="--stdout"

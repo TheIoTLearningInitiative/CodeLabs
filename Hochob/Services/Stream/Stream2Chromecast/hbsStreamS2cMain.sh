@@ -8,6 +8,7 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
+export HBS_STREAM_S2C_PID=$$
 export HBS_STREAM_S2C_ROOT=$HOCHOB_SERVICES_STREAM_S2C
 export HBS_STREAM_S2C_BINARY=stream2chromecast.py
 

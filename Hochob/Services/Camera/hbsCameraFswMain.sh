@@ -8,6 +8,7 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
+export HBS_CAMERA_FSW_PID=$$
 export HBS_CAMERA_FSW_ROOT=$HOCHOB_SERVICES_CAMERA
 export HBS_CAMERA_FSW_BINARY=fswebcam
 export HBS_CAMERA_FSW_ARGUMENTS="-r 1280x720 -s brightness=65% -s Contrast=50% -s Gamma=100% --jpeg 100 --no-banner"
