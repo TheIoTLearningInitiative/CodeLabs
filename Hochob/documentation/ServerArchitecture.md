@@ -65,9 +65,9 @@
     - Sound
       - PulseAudio
       - SpeechSynthesizer
-        - hbsSoundSsEspeakMain.sh [on/off] [english/spanish] [input]
-          - Record and Play
-          - Record Only
+        - hbsSoundSsEspeakMain.sh [play] [language] [input]
+          - Record and Play [on]
+          - Record Only [off]
     - Stream
       - Chromecast
     - Usb
