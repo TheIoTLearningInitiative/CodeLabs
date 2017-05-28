@@ -23,18 +23,18 @@
 # Media Repository: Official & Mirror
 
 - HochobMedia
-  - Music
-  - Sound
-    - SpeechSynthesizer
-      - Espeak
-    - LupeRobot
-    - VisitorsCenter
   - Image
     - Corporate
     - Drawing
     - VisitorsCenter
     - Visitors
       - zZz
+  - Music
+  - Sound
+    - SpeechSynthesizer
+    - Espeak
+    - LupeRobot
+    - VisitorsCenter
   - Video
     - Corporate
     - VisitorsCenter
