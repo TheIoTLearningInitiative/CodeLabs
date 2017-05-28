@@ -72,7 +72,6 @@
     - Usb
     - Video
       - VlcMediaPlayer
-      - Chromecast
   - Applications
     - Audio
     - Photography
