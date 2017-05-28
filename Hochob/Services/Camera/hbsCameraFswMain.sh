@@ -24,6 +24,8 @@ export HBS_CAMERA_FSW_IMAGE=$HOCHOB_MEDIA_IMAGE_VISITORS_FSWEBCAM_IMAGE
 # Main
 # =============================================================================
 
+export PATH=$PATH:$HOCHOB_SERVICES_CAMERA
+
 $HBS_CAMERA_FSW_BINARY $HBS_CAMERA_FSW_ARGUMENTS $HBS_CAMERA_FSW_IMAGE
 
 # End of File
