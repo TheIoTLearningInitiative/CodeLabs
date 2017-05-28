@@ -113,7 +113,7 @@
     * [Setup](Hochob/documentation/ServerSetup.md)
     * [Main](Hochob/documentation/ServerMain.md)
       * [Institution Identification](Hochob/documentation/ServerMainInstitutionIdentification.md)
-    * [Services](Hochob/documentation/services.md)
+    * [Services](Hochob/documentation/Services.md)
       * [Plex Media Server](Hochob/documentation/Plex.md)
       * [Calendar](Hochob/documentation/Calendar.md)
       * [PulseAudio](Hochob/documentation/PulseAudio.md)
