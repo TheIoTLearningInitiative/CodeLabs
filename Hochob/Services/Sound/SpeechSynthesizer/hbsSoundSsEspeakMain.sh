@@ -16,6 +16,12 @@ export HBS_SOUND_SS_ESPEAK_INPUT="No input has been provided"
 export HBS_SOUND_SS_ESPEAK_DIRECTORY=$HOCHOB_MEDIA_SOUND_ESPEAK
 export HBS_SOUND_SS_ESPEAK_OUTPUT=$HOCHOB_MEDIA_SOUND_ESPEAK_OUTPUT
 
+LOCAL_PLAY="$1"
+LOCAL_LANGUAGE="$2"
+LOCAL_TEXT="$3"
+
+export PATH=$PATH:$HBS_SOUND_SS_ESPEAK_ROOT
+
 # =============================================================================
 # Functions
 # =============================================================================
@@ -25,12 +31,6 @@ export HBS_SOUND_SS_ESPEAK_OUTPUT=$HOCHOB_MEDIA_SOUND_ESPEAK_OUTPUT
 # =============================================================================
 # Main
 # =============================================================================
-
-LOCAL_PLAY="$1"
-LOCAL_LANGUAGE="$2"
-LOCAL_TEXT="$3"
-
-export PATH=$PATH:$HBS_SOUND_SS_ESPEAK_ROOT
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     export HBS_SOUND_SS_ESPEAK_LANGUAGE="-ven+m5"
