@@ -62,6 +62,7 @@
         - Sound
           - Speaker
     - Image
+    - Motion
     - Sound
       - PulseAudio
       - SpeechSynthesizer
