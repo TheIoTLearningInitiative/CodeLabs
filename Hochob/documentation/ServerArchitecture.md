@@ -65,8 +65,9 @@
     - Sound
       - PulseAudio
       - SpeechSynthesizer
-        - Record and Play
-        - Record Only
+        - 
+          - Record and Play
+          - Record Only
     - Stream
       - Chromecast
     - Usb
