@@ -14,6 +14,8 @@ export HBS_CAMERA_FSW_ARGUMENTS="-r 1280x720 -s brightness=65% -s Contrast=50% -
 export HBS_CAMERA_FSW_REPOSITORY=$HOCHOB_MEDIA_IMAGE_VISITORS_FSWEBCAM
 export HBS_CAMERA_FSW_IMAGE=$HOCHOB_MEDIA_IMAGE_VISITORS_FSWEBCAM_IMAGE
 
+export PATH=$PATH:$HOCHOB_SERVICES_CAMERA
+
 # =============================================================================
 # Functions
 # =============================================================================
@@ -23,8 +25,6 @@ export HBS_CAMERA_FSW_IMAGE=$HOCHOB_MEDIA_IMAGE_VISITORS_FSWEBCAM_IMAGE
 # =============================================================================
 # Main
 # =============================================================================
-
-export PATH=$PATH:$HOCHOB_SERVICES_CAMERA
 
 $HBS_CAMERA_FSW_BINARY $HBS_CAMERA_FSW_ARGUMENTS $HBS_CAMERA_FSW_IMAGE
 
