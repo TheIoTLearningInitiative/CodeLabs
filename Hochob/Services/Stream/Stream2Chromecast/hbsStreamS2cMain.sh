@@ -11,6 +11,12 @@ set -x
 export HBS_STREAM_S2C_ROOT=$HOCHOB_SERVICES_STREAM_S2C
 export HBS_STREAM_S2C_BINARY=stream2chromecast.py
 
+LOCAL_DEVICE="$1"
+LOCAL_VOLUME="$2"
+LOCAL_FILE="$3"
+
+export PATH=$PATH:$HBS_STREAM_S2C_ROOT
+
 # =============================================================================
 # Functions
 # =============================================================================
@@ -21,13 +27,7 @@ export HBS_STREAM_S2C_BINARY=stream2chromecast.py
 # Main
 # =============================================================================
 
-LOCAL_DEVICE="$1"
-LOCAL_VOLUME="$2"
-LOCAL_FILE="$3"
-
 killall -9 $HBS_STREAM_S2C_BINARY
-
-export PATH=$PATH:$HBS_STREAM_S2C_ROOT
 
 $HBS_STREAM_S2C_BINARY -devicename $LOCAL_DEVICE -setvol $LOCAL_VOLUME
 $HBS_STREAM_S2C_BINARY -devicename $LOCAL_DEVICE $LOCAL_FILE
