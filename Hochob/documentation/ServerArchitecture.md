@@ -91,7 +91,7 @@
       - Skills
       - Virtual
     - Lupe Picture 
-      - Lupe Robot Moving
+      - Lupe Robot Moving through Mqtt
 - Amikoo
   - Services
   - Camera
