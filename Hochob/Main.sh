@@ -9,7 +9,7 @@
 cd ~/CodeLabs/Hochob/
 export HOCHOB_ROOT=`pwd`
 
-# Hochob Paths
+# Hochob Services
 
 export HOCHOB_SERVICES=$HOCHOB_ROOT/Services/
 export HOCHOB_SERVICES_CAMERA=$HOCHOB_SERVICES/Camera/
@@ -18,7 +18,7 @@ export HOCHOB_SERVICES_SOUND_SS=$HOCHOB_SERVICES_SOUND/SpeechSynthetizer/
 export HOCHOB_SERVICES_STREAM=$HOCHOB_SERVICES/Stream/
 export HOCHOB_SERVICES_STREAM_S2C=$HOCHOB_SERVICES_STREAM/Stream2Chromecast/
 
-# Hochob Media
+# Hochob Media Mirror
 
 export HOCHOB_MEDIA=/tmp/HochobMedia/
 
