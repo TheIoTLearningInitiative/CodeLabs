@@ -41,8 +41,8 @@
   - Visitors
     - xYz
       - Image
-      - Video
       - Drawing
+      - Video
 
 # Media Repository: Mirror
 
