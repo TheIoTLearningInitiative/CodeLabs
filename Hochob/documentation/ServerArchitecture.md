@@ -164,9 +164,9 @@
 - Corporate
   - Image
   - Video
-- LupeRobot
 - VisitorsCenter
   - Image
+  - LupeRobot
   - Music
   - Sound
     - Stations
