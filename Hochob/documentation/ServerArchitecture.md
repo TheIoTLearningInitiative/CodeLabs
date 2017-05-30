@@ -24,6 +24,8 @@
 # Media Repository: Official
 
 - HochobMedia
+  - Camera
+    - Visitors
   - Image
     - Corporate
     - Drawing
