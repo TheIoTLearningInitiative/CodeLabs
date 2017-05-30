@@ -43,7 +43,7 @@
     - VisitorsCenter
   - Video
     - Corporate
-    - VisitorsCenter
+    - Visitors
   - Visitors
     - xYz
       - Camera
