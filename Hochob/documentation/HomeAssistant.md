@@ -4,12 +4,21 @@
 
 - Home
   - Introduction
-    - Image, Eog
-    - Sound, Mpg123
+    - script.audiosectionone
+      - Image, Eog
+      - Sound, Mpg123
   - Video
-    - Image, Feh
-    - Sound, Mpg123
-    - Comms, Mqtt
+    - script.audiosectiontwo
+      - Image, Feh
+      - Sound, Mpg123
+      - Comms, Mqtt
+    - switch.luperobot
+      - /home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot1080p.sh &
+      - /home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh
+    - script.luperobot
+      - hass
+    - script.audiosectionthree
+      - Sound, Mpg123
   - Photography
   - Technical Center
   - Diagnostics
