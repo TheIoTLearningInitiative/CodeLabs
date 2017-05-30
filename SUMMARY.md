@@ -121,11 +121,12 @@
       * [Camera](Hochob/documentation/Camera.md)
       * [Image](Hochob/documentation/Image.md)
       * [Stream](Hochob/documentation/Stream.md)
+      * [Play](Hochob/documentation/Play.md)
       * Sound
         * [Speech Synthetizer](Hochob/documentation/SpeechSynthetizer.md)
       * [PulseAudio](Hochob/documentation/PulseAudio.md)
       * [Telegram](Hochob/documentation/Telegram.md)
-      * [Plex Media Server](Hochob/documentation/Plex.md)
+      * [Play](Hochob/documentation/Play.md)
     * [Applications](Hochob/documentation/applications.md)
       * [Audio](Hochob/documentation/Audio.md)
       * [Photography](Hochob/documentation/Photography.md)
