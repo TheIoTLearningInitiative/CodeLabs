@@ -57,9 +57,6 @@
     - Eog
     - Drawing
   - Sound
-    - Player
-      - Mpg123
-      - Aplay
     - SpeechSynthesizer
       - Espeak
   - Video
