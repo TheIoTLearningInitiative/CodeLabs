@@ -27,3 +27,21 @@
   - Lupe Virtual
   - Lupe Skills
   - Camera
+
+- Applications
+  - Audio
+  - Photography
+  - Video
+  - LupeRobot
+  - VisitorsCenter
+  - Feedback
+  - Google Calendar
+  - Image Welcome
+  - Goodie
+  - LupeRobot
+  - Scripts
+  - Show
+  - Skills
+  - Virtual
+  - Lupe Picture
+  - Lupe Robot Moving through Mqtt
