@@ -62,7 +62,7 @@
     - Image
     - Music
     - Sound
-      - 
+      - Stations
       - LupeRobot
   - Visitors
     - [Name of Institution]
