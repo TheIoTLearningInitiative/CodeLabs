@@ -28,7 +28,6 @@
 - USB
 - VLC Media Player
 
-
 # Media Repository: Official
 
 - HochobMedia
