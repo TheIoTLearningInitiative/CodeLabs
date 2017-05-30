@@ -28,10 +28,15 @@ export PATH=$PATH:$HBS_STREAM_S2C_ROOT
 # Main
 # =============================================================================
 
-killall -9 $HBS_STREAM_S2C_BINARY
-
-$HBS_STREAM_S2C_BINARY -devicename $LOCAL_DEVICE -setvol $LOCAL_VOLUME
-$HBS_STREAM_S2C_BINARY -devicename $LOCAL_DEVICE $LOCAL_FILE
-$HBS_STREAM_S2C_BINARY -devicename $LOCAL_DEVICE -stop
+if [ $# -eq 3 ] 
+then
+    killall -9 $HBS_STREAM_S2C_BINARY
+    $HBS_STREAM_S2C_BINARY -devicename $LOCAL_DEVICE -setvol $LOCAL_VOLUME
+    $HBS_STREAM_S2C_BINARY -devicename $LOCAL_DEVICE $LOCAL_FILE
+    $HBS_STREAM_S2C_BINARY -devicename $LOCAL_DEVICE -stop
+else
+    echo "Invalid number of arguments, see Documentation"
+    exit 1
+fi
 
 # End of File
