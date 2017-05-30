@@ -30,6 +30,8 @@
 
 # Media Repository: Official
 
+# Option 1
+
 - HochobMedia
   - Camera
     - Visitors
@@ -44,6 +46,23 @@
   - Video
     - Corporate
     - Visitors
+  - Visitors
+    - [Name of Institution]
+      - Camera
+      - Drawing
+      - Video
+
+# Option 2
+
+- HochobMedia
+  - Corporate
+    - Image
+    - Video
+  - VisitorsCenter
+    - Image
+    - Sound
+      - LupeRobot
+    - Music
   - Visitors
     - [Name of Institution]
       - Camera
