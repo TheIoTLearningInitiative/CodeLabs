@@ -31,6 +31,9 @@
       - zZz
   - Music
   - Sound
+    - Player
+      - Mpg123
+      - Aplay
     - SpeechSynthesizer
     - Espeak
     - LupeRobot
