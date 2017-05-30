@@ -58,11 +58,11 @@ export HOCHOB_MEDIA_VIDEO_VISITORS=$HOCHOB_MEDIA_VIDEO/Visitors/
 # If not, naming convention is
 # YYYYMMDD-HHMMSS
 
-institutionIdentification () { 
+institutionIdentification () {
   # If Institution Identification
-    # 
+    #
   # else
-    # 
+    #
   echo "Tbd"
 }
 
