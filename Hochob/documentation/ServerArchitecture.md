@@ -58,10 +58,10 @@
   - Video
 - VisitorsCenter
   - Image
+  - LupeRobot
   - Music
   - Sound
     - Stations
-  - LupeRobot
 - Visitors
   - [Name of Institution]
     - Camera
