@@ -28,6 +28,7 @@
     - Corporate
     - Drawing
     - VisitorsCenter
+    - Visitors
   - Music
   - Sound
     - Player
@@ -63,9 +64,6 @@
       - Aplay
     - SpeechSynthesizer
       - Espeak
-    - LupeRobot
-    - Corporate
-    - VisitorsCenter
   - Video
     - Corporate
     - VisitorsCenter
