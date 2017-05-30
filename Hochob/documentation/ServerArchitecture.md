@@ -28,8 +28,6 @@
     - Corporate
     - Drawing
     - VisitorsCenter
-    - Visitors
-      - xYz
   - Music
   - Sound
     - Player
@@ -43,12 +41,19 @@
   - Video
     - Corporate
     - VisitorsCenter
-    - Visitors
-      - yYz
+  - VisitorsCenter
+    - xYz
+      - Image
+      - Video
+      - Drawing
 
 # Media Repository: Mirror
 
 - HochobMediaSource
+  - Camera
+    - Fswebcam
+  - Drawing
+  
   - Image
     - Drawing
     - VisitorsCenter
