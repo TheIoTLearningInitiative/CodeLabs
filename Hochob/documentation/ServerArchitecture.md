@@ -84,6 +84,9 @@
     - /home/hochob/CodeLabs/Hochob/Photography/selfie.py
   - Visitors
     - [Name of Institution]
+      - Camera
+      - Drawing
+      - Video
 
 # Directory Structure
 
