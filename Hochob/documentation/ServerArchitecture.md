@@ -90,7 +90,6 @@
 
 # Hochob: Services
 
-Services
 - Automation
   - HomeAssistant
     - configuration.yaml
@@ -140,7 +139,8 @@ Services
   - VlcMediaPlayer
     - hbsVideoVlcMain.sh [loop] [file]
 
-Applications
+# Hochob: Services
+
 - Audio
 - Photography
 - Video
