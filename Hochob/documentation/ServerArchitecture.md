@@ -30,7 +30,7 @@
 
 # Media Repository: Official
 
-# Option 1
+## Option 1
 
 - HochobMedia
   - Camera
@@ -52,7 +52,7 @@
       - Drawing
       - Video
 
-# Option 2
+## Option 2
 
 - HochobMedia
   - Corporate
