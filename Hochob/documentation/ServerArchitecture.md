@@ -37,7 +37,6 @@
     - Corporate
     - Drawing
     - VisitorsCenter
-    - Visitors
   - Music
   - Sound
     - LupeRobot
@@ -47,7 +46,7 @@
     - VisitorsCenter
   - Visitors
     - xYz
-      - Image
+      - Camera
       - Drawing
       - Video
 
