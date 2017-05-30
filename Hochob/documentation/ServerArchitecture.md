@@ -118,3 +118,5 @@
 
 - Check Arguments
 - Kill Daemon
+- Pulse Audio Interfaces Init? Where
+- How to abstract runing of Apps? Should we export Services under Main.sh instead?
