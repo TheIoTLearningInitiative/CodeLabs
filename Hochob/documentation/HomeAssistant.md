@@ -4,8 +4,8 @@
 
 - Home
   - Introduction
-    - Audio, Server
-    - Pictures
+    - Sound, Pulse Audio
+    - Image
   - Video
   - Photography
   - Technical Center
