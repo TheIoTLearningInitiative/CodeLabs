@@ -69,7 +69,7 @@
       - Drawing
       - Video
 
-# Media Repository: Mirror
+# Media Repository: Source
 
 - HochobMediaSource
   - Camera
@@ -82,7 +82,7 @@
   - Video
     - /home/hochob/CodeLabs/Hochob/Photography/selfie.py
   - Visitors
-    - xYz
+    - [Name of Institution]
 
 # Directory Structure
 
