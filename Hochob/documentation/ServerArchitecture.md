@@ -113,6 +113,7 @@
         - Camera
         - Movement
         - Sound
+          - Microphone
           - Speaker
     - Image
       - Eog
