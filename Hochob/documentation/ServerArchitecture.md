@@ -55,9 +55,6 @@
     - Fswebcam
   - Image
     - Drawing
-    - VisitorsCenter
-    - Visitors
-      - zZz
   - Sound
     - Player
       - Mpg123
@@ -65,10 +62,7 @@
     - SpeechSynthesizer
       - Espeak
   - Video
-    - Corporate
-    - VisitorsCenter
-    - Visitors
-      - zZz
+    - Tbd
 
 # Directory Structure
 
