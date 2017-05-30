@@ -63,7 +63,7 @@
     - Music
     - Sound
       - Stations
-      - LupeRobot
+    - LupeRobot
   - Visitors
     - [Name of Institution]
       - Camera
