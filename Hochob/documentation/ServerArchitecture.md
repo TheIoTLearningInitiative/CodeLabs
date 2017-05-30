@@ -36,6 +36,9 @@
       - Aplay
     - SpeechSynthesizer
       - Espeak
+    - LupeRobot
+    - Corporate
+    - VisitorsCenter
   - Video
     - Corporate
     - VisitorsCenter
