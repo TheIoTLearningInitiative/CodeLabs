@@ -74,9 +74,13 @@
         - hbsImageEogMain.sh [files]
     - Motion
     - Sound
-      - Mpg123
-        - hbsSoundPxMpgMain.sh [file]
-      - PulseAudio
+      - Player
+        - Mpg123
+          - hbsSoundPxMpgMain.sh [file]
+        - Aplay
+          - hbsSoundPxAplMain.sh [file]
+      - Server
+        - PulseAudio
       - SpeechSynthesizer
         - hbsSoundSsEspeakMain.sh [play] [language] [input]
           - Record and Play [on]
