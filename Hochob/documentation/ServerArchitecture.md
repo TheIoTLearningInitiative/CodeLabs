@@ -60,9 +60,9 @@
     - Video
   - VisitorsCenter
     - Image
+    - Music
     - Sound
       - LupeRobot
-    - Music
   - Visitors
     - [Name of Institution]
       - Camera
