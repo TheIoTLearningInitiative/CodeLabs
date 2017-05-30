@@ -20,6 +20,32 @@
 - USB
 - VLC Media Player
 
+
+# Media Repository: Official
+
+- HochobMedia
+  - Image
+    - Corporate
+    - Drawing
+    - VisitorsCenter
+    - Visitors
+      - xYz
+  - Music
+  - Sound
+    - Player
+      - Mpg123
+      - Aplay
+    - SpeechSynthesizer
+      - Espeak
+    - LupeRobot
+    - Corporate
+    - VisitorsCenter
+  - Video
+    - Corporate
+    - VisitorsCenter
+    - Visitors
+      - yYz
+
 # Media Repository: Mirror
 
 - HochobMediaSource
