@@ -58,7 +58,7 @@
       - MqttServer
         - VerneMQ
           - vernemq.conf
-      - Mqttclient
+      - MqttClient
         - Mosquitto
     - Drawing
     - LupeRobot
