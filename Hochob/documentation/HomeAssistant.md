@@ -20,6 +20,14 @@
     - script.audiosectionthree
       - Sound, Mpg123
   - Photography
+    - script.photography
+      - python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
+    - switch.imagescorporate
+      - eog -sf /home/hochob/Images/Corporate/* &"
+      - pkill -9 eog
+    - switch.imagesvisitorscenter
+      - eog -sf /home/hochob/Images/VisitorsCenter/* &
+      - pkill -9 eog
   - Technical Center
   - Diagnostics
 - LupeRobot
