@@ -109,7 +109,6 @@
         - Mosquitto
     - LupeRobot
       - Virtual
-        - Sound
       - Remote
         - Camera
         - Movement
