@@ -50,12 +50,10 @@
 
 - HochobMediaSource
   - Image
-    - Corporate
     - Drawing
     - VisitorsCenter
     - Visitors
       - zZz
-  - Music
   - Sound
     - Player
       - Mpg123
