@@ -52,8 +52,6 @@
 - HochobMediaSource
   - Camera
     - Fswebcam
-  - Drawing
-  
   - Image
     - Drawing
     - VisitorsCenter
@@ -93,7 +91,6 @@
           - vernemq.conf
       - MqttClient
         - Mosquitto
-    - Drawing
     - LupeRobot
       - Virtual
         - Sound
@@ -105,6 +102,7 @@
     - Image
       - Eog
         - hbsImageEogMain.sh [files]
+      - Drawing
     - Motion
     - Sound
       - Player
