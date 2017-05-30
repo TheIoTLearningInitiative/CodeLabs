@@ -41,7 +41,7 @@
   - Video
     - Corporate
     - VisitorsCenter
-  - VisitorsCenter
+  - Visitors
     - xYz
       - Image
       - Video
