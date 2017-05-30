@@ -6,8 +6,12 @@
 
 - Automation
 - Camera
+- Calender
 - Communications
-- 
+- LupeRobot
+- Image
+- Motion
+- Sound
 - Plex Media Server
 - PulseAudio
 - Telegram
