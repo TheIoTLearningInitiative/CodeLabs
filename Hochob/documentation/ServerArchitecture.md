@@ -12,10 +12,10 @@
 - Image
 - Motion
 - Sound
-- 
-- PulseAudio
+- Stream
+- Usb
+- Video
 - Telegram
-- VerneMQ
 
 # Applications
 
