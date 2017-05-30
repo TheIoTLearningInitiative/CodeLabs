@@ -54,21 +54,20 @@
 
 ## Option 2, Best!
 
-- HochobMedia
-  - Corporate
-    - Image
+- Corporate
+  - Image
+  - Video
+- VisitorsCenter
+  - Image
+  - Music
+  - Sound
+    - Stations
+  - LupeRobot
+- Visitors
+  - [Name of Institution]
+    - Camera
+    - Drawing
     - Video
-  - VisitorsCenter
-    - Image
-    - Music
-    - Sound
-      - Stations
-    - LupeRobot
-  - Visitors
-    - [Name of Institution]
-      - Camera
-      - Drawing
-      - Video
 
 # Hochob Media: Source
 
