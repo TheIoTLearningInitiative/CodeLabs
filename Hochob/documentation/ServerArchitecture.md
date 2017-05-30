@@ -28,7 +28,7 @@
 - USB
 - VLC Media Player
 
-# Hochob Media Repository: Official
+# Hochob Media: Official
 
 ## Option 1
 
@@ -70,7 +70,7 @@
       - Drawing
       - Video
 
-# Hochob Media Repository: Source
+# Hochob Media: Source
 
 - HochobMediaSource
   - Camera
