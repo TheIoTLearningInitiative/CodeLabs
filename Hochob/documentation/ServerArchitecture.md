@@ -12,7 +12,7 @@
 - Image
 - Motion
 - Sound
-- Plex Media Server
+- 
 - PulseAudio
 - Telegram
 - VerneMQ
@@ -114,6 +114,7 @@
     - Stream
       - Chromecast
         - hbsStreamS2cMain.sh [device] [volume] [file]
+      - Plex Media Server
     - Usb
     - Video
       - VlcMediaPlayer
