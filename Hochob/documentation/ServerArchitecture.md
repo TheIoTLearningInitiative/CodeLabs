@@ -70,21 +70,20 @@
 
 # Hochob Media: Source
 
-- HochobMediaSource
-  - Camera
-    - Fswebcam
-  - Image
+- Camera
+  - Fswebcam
+- Image
+  - Drawing
+- Sound
+  - SpeechSynthesizer
+    - Espeak
+- Video
+  - /home/hochob/CodeLabs/Hochob/Photography/selfie.py
+- Visitors
+  - [Name of Institution]
+    - Camera
     - Drawing
-  - Sound
-    - SpeechSynthesizer
-      - Espeak
-  - Video
-    - /home/hochob/CodeLabs/Hochob/Photography/selfie.py
-  - Visitors
-    - [Name of Institution]
-      - Camera
-      - Drawing
-      - Video
+    - Video
 
 # Hochob: Services
 
@@ -161,7 +160,22 @@
   - Sound
     - Speaker
     - Microphone
-  
+
+- Corporate
+  - Image
+  - Video
+- LupeRobot
+- VisitorsCenter
+  - Image
+  - Music
+  - Sound
+    - Stations
+- Visitors
+  - [Name of Institution]
+    - Camera
+    - Drawing
+    - Video
+
 # Code 
 
 - Hochob
