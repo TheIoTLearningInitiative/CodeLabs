@@ -106,39 +106,39 @@ Services
       - vernemq.conf
   - MqttClient
     - Mosquitto
-  - LupeRobot
-    - Virtual
-    - Remote
-     - Camera
-     - Movement
-     - Sound
-       - Microphone
-       - Speaker
- - Image
-   - Eog
-     - hbsImageEogMain.sh [files]
-   - Drawing
- - Motion
- - Sound
-   - Player
-     - Mpg123
-       - hbsSoundPxMpgMain.sh [file]
-     - Aplay
-       - hbsSoundPxAplMain.sh [file]
-   - Server
-     - PulseAudio
-   - SpeechSynthesizer
-     - hbsSoundSsEspeakMain.sh [play] [language] [input]
-       - Record and Play [on]
-       - Record Only [off]
- - Stream
-   - Chromecast
-     - hbsStreamS2cMain.sh [device] [volume] [file]
-   - Plex Media Server
-   - Usb
-   - Video
-     - VlcMediaPlayer
-       - hbsVideoVlcMain.sh [loop] [file]
+- LupeRobot
+  - Virtual
+  - Remote
+    - Camera
+    - Movement
+    - Sound
+      - Microphone
+      - Speaker
+- Image
+  - Eog
+    - hbsImageEogMain.sh [files]
+  - Drawing
+- Motion
+- Sound
+  - Player
+    - Mpg123
+      - hbsSoundPxMpgMain.sh [file]
+    - Aplay
+      - hbsSoundPxAplMain.sh [file]
+  - Server
+    - PulseAudio
+  - SpeechSynthesizer
+    - hbsSoundSsEspeakMain.sh [play] [language] [input]
+      - Record and Play [on]
+      - Record Only [off]
+- Stream
+  - Chromecast
+    - hbsStreamS2cMain.sh [device] [volume] [file]
+  - Plex Media Server
+- Usb
+- Video
+  - VlcMediaPlayer
+    - hbsVideoVlcMain.sh [loop] [file]
 
 Applications
 - Audio
