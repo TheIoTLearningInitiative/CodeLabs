@@ -4,6 +4,8 @@
 
 - Home
   - Introduction
+    - Audio, Server
+    - Pictures
   - Video
   - Photography
   - Technical Center
