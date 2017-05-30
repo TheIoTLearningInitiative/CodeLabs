@@ -20,9 +20,9 @@
 - USB
 - VLC Media Player
 
-# Media Repository: Official & Mirror
+# Media Repository: Mirror
 
-- HochobMedia
+- HochobMediaSource
   - Image
     - Corporate
     - Drawing
