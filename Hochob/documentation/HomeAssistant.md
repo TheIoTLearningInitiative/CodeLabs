@@ -4,9 +4,12 @@
 
 - Home
   - Introduction
-    - Image
+    - Image, Eog
     - Sound, Mpg123
   - Video
+    - Image, Feh
+    - Sound, Mpg123
+    - Comms, Mqtt
   - Photography
   - Technical Center
   - Diagnostics
