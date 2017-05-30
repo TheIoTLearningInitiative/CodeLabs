@@ -69,7 +69,7 @@
           - Speaker
     - Image
       - Eog
-        - hbsImageEogMain.sh
+        - hbsImageEogMain.sh [files]
     - Motion
     - Sound
       - PulseAudio
