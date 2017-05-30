@@ -83,7 +83,7 @@
     - Usb
     - Video
       - VlcMediaPlayer
-        - 
+        - hbsVideoVlcMain.sh [loop] [file]
   - Applications
     - Audio
     - Photography
