@@ -8,16 +8,13 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export HBS_VIDEO_VLC_PID=$$
-export HBS_VIDEO_VLC_ROOT=$HOCHOB_SERVICES_VIDEO
-export HBS_VIDEO_VLC_BINARY=cvlc
-export HBS_VIDEO_VLC_ARGUMENTS="--no-video-title-show --fullscreen"
-export HBS_VIDEO_VLC_LOOP="--loop"
+export HBS_SOUND_PX_MPG123_PID=$$
+export HBS_SOUND_PX_MPG123_ROOT=$HOCHOB_SERVICES_SOUND_PX
+export HBS_SOUND_PX_MPG123_BINARY=mpg123
 
-LOCAL_LOOP="$1"
-LOCAL_FILE="$2"
+LOCAL_FILE="$1"
 
-export PATH=$PATH:$HBS_VIDEO_VLC_ROOT
+export PATH=$PATH:$HBS_STREAM_S2C_ROOT
 
 # =============================================================================
 # Functions
@@ -29,15 +26,10 @@ export PATH=$PATH:$HBS_VIDEO_VLC_ROOT
 # Main
 # =============================================================================
 
-if [ $# -eq 2 ]
+if [ $# -eq 1 ] 
 then
-    killall -9 $HBS_VIDEO_VLC_BINARY
-
-    if [ "$LOCAL_LOOP" = "on" ]; then
-        $HBS_VIDEO_VLC_BINARY $HBS_VIDEO_VLC_ARGUMENTS $HBS_VIDEO_VLC_LOOP $LOCAL_FILE &
-    elif [ "$LOCAL_LOOP" = "off" ]; then
-        $HBS_VIDEO_VLC_BINARY $HBS_VIDEO_VLC_ARGUMENTS $LOCAL_FILE &
-    fi
+    killall -9 $HBS_SOUND_PX_MPG123_BINARY
+    $HBS_SOUND_PX_MPG123_BINARY $LOCAL_FILE
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
