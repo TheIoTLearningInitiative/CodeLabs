@@ -126,7 +126,6 @@
         * [Speech Synthetizer](Hochob/documentation/SpeechSynthetizer.md)
       * [PulseAudio](Hochob/documentation/PulseAudio.md)
       * [Telegram](Hochob/documentation/Telegram.md)
-      * [Play](Hochob/documentation/Play.md)
     * [Applications](Hochob/documentation/applications.md)
       * [Audio](Hochob/documentation/Audio.md)
       * [Photography](Hochob/documentation/Photography.md)
