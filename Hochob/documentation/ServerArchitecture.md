@@ -139,7 +139,7 @@
   - VlcMediaPlayer
     - hbsVideoVlcMain.sh [loop] [file]
 
-# Hochob: Services
+# Hochob: Applications
 
 - Audio
 - Photography
