@@ -5,16 +5,16 @@
 > Software functionality
 
 - Automation
-- Camera
+- __Camera__
 - Calender
 - Communications
 - LupeRobot
-- Image
+- __Image__
 - Motion
-- Sound
+- __Sound__
 - Stream
 - Usb
-- Video
+- __Video__
 - Telegram
 
 # Applications
