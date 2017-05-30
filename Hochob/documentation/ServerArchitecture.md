@@ -32,25 +32,24 @@
 
 ## Option 1
 
-- HochobMedia
-  - Camera
-    - Visitors
-  - Image
-    - Corporate
-    - Drawing
-    - VisitorsCenter
-  - Music
-  - Sound
-    - LupeRobot
-    - VisitorsCenter
-  - Video
-    - Corporate
-    - Visitors
+- Camera
   - Visitors
-    - [Name of Institution]
-      - Camera
-      - Drawing
-      - Video
+- Image
+  - Corporate
+  - Drawing
+  - VisitorsCenter
+- Music
+- Sound
+  - LupeRobot
+  - VisitorsCenter
+- Video
+  - Corporate
+  - Visitors
+- Visitors
+  - [Name of Institution]
+    - Camera
+    - Drawing
+    - Video
 
 ## Option 2, Best!
 
