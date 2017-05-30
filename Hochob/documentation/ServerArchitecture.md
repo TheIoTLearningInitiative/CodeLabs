@@ -1,6 +1,6 @@
 # Server Architecture
 
-# Services
+## Services
 
 > Software functionality
 
@@ -17,7 +17,7 @@
 - __Video__
 - Telegram
 
-# Applications
+## Applications
 
 > Set of software functionalities.
 
@@ -28,7 +28,7 @@
 - USB
 - VLC Media Player
 
-# Media Repository: Official
+# Hochob Media Repository: Official
 
 ## Option 1
 
@@ -70,7 +70,7 @@
       - Drawing
       - Video
 
-# Media Repository: Source
+# Hochob Media Repository: Source
 
 - HochobMediaSource
   - Camera
@@ -88,7 +88,7 @@
       - Drawing
       - Video
 
-# Directory Structure
+# Hochob: Services
 
 - Hochob
   - Services
