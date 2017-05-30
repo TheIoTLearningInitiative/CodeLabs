@@ -20,6 +20,10 @@
     - script.audiosectionthree
       - Sound, Mpg123
   - Photography
+    - script.photography
+      - python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
+    - switch.imagescorporate
+    - switch.imagesvisitorscenter
   - Technical Center
   - Diagnostics
 - LupeRobot
