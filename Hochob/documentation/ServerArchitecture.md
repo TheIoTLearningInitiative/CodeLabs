@@ -52,7 +52,7 @@
       - Drawing
       - Video
 
-## Option 2
+## Option 2, Best!
 
 - HochobMedia
   - Corporate
