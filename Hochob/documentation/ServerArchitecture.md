@@ -85,6 +85,15 @@
     - Drawing
     - Video
 
+
+# Hochob: Amikoo
+
+- Services
+- Camera
+- Sound
+  - Speaker
+  - Microphone
+
 # Hochob: Services
 
 - Automation
@@ -154,13 +163,6 @@
       - Virtual
     - Lupe Picture 
       - Lupe Robot Moving through Mqtt
-- Amikoo
-  - Services
-  - Camera
-  - Sound
-    - Speaker
-    - Microphone
-
 - Corporate
   - Image
   - Video
