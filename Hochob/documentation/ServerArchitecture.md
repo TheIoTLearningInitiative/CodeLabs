@@ -54,6 +54,7 @@
   - Camera
     - Fswebcam
   - Image
+    - Eog
     - Drawing
   - Sound
     - Player
