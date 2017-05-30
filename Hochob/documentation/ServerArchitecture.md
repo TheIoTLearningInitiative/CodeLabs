@@ -45,7 +45,7 @@
     - Corporate
     - Visitors
   - Visitors
-    - xYz
+    - [Name of Institution]
       - Camera
       - Drawing
       - Video
