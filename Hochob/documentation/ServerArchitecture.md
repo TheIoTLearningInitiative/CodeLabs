@@ -121,3 +121,4 @@
 - Pulse Audio Interfaces Init? Where
 - How to abstract running of Apps? Should we export Services under Main.sh instead? under .profile?
   - source ~/CodeLabs/Hochob/Main.sh
+- Remove ". ~/CodeLabs/Hochob/Main.sh" from the scripts?
