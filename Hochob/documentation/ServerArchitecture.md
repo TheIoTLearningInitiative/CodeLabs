@@ -55,9 +55,11 @@
       - Google Calendar API
         - hbsCalendarGcaMain.py
     - Communications
-      - Mqtt
+      - MqttServer
         - VerneMQ
           - vernemq.conf
+      - Mqttclient
+        - Mosquitto
     - Drawing
     - LupeRobot
       - Virtual
