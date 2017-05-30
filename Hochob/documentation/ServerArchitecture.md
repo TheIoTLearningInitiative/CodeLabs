@@ -6,7 +6,7 @@
 
 - Automation
 - __Camera__
-- Calender
+- Calendar
 - Communications
 - LupeRobot
 - __Image__
