@@ -127,3 +127,4 @@
   - source ~/CodeLabs/Hochob/Main.sh
   - Remove ". ~/CodeLabs/Hochob/Main.sh" from the scripts?
 - HochobMedia automatic creation of estructure
+  - under Main.sh test $DIR
