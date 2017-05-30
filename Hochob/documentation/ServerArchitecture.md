@@ -4,6 +4,10 @@
 
 > Software functionality
 
+- Automation
+- Camera
+- Communications
+- 
 - Plex Media Server
 - PulseAudio
 - Telegram
