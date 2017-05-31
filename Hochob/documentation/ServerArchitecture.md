@@ -4,9 +4,12 @@
 
 - [Maya Animals](http://www.native-languages.org/maya_animals.htm)
 
-- Peek'
+- Peek' Perro
+- Keeh Venado
 - Chakmool Jaguar
 - Chuwen Chango
+- Ch'o' Raton
+- Sootz' 
 - Kaab
 - Am
 
