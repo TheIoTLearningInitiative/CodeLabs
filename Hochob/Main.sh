@@ -24,7 +24,7 @@ export HOCHOB_SERVICES_VIDEO=$HOCHOB_SERVICES/Video/
 
 # Hochob Media Mirror
 
-export HOCHOB_MEDIA=/tmp/HochobMedia/
+export HOCHOB_MEDIA=/tmp/HochobMediaSource/
 
 export HOCHOB_MEDIA_MUSIC=$HOCHOB_MEDIA/Music/
 
