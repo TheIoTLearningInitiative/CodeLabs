@@ -68,6 +68,7 @@
   - Eog
     - hbsImageEogMain.sh [files]
   - Drawing
+  - Scale
 - Motion
 - Sound
   - Player
