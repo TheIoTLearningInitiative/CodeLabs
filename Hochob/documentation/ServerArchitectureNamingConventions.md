@@ -1,6 +1,6 @@
 # Naming Conventions
 
-# Stations Naming Convention
+# Stations
 
 - [Maya Animals](http://www.native-languages.org/maya_animals.htm)
 
