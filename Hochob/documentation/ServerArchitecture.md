@@ -135,12 +135,6 @@
     - Drawing
     - Video
 
-# Code 
-
-- Hochob
-  - hbs
-  - hba
-
 # ToDo
 
 - Check Arguments
