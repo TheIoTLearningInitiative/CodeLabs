@@ -6,7 +6,7 @@
 
 - Peek' Perro
 - Keeh Venado
-- Chakmool Jaguar
+- __Chakmool__ Jaguar
 - Chuwen Chango
 - Ch'o' Raton
 - Sootz' Murcielago
