@@ -7,6 +7,7 @@
 - Peek' Perro
 - Keeh Venado
 - __Chakmool__ Jaguar
+  - Home
 - Chuwen Chango
 - Ch'o' Raton
 - Sootz' Murcielago
