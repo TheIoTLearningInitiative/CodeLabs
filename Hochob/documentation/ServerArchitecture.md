@@ -1,15 +1,23 @@
 # Server Architecture
 
-# Services
+## Services
 
 > Software functionality
 
-- Plex Media Server
-- PulseAudio
+- Automation
+- __Camera__
+- Calendar
+- Communications
+- LupeRobot
+- __Image__
+- Motion
+- __Sound__
+- Stream
+- Usb
+- __Video__
 - Telegram
-- VerneMQ
 
-# Applications
+## Applications
 
 > Set of software functionalities.
 
@@ -20,118 +28,131 @@
 - USB
 - VLC Media Player
 
-# Media Repository: Official
+# Hochob Media: Official
 
-- HochobMedia
-  - Image
-    - Corporate
+## Option 1
+
+- Camera
+  - Visitors
+- Image
+  - Corporate
+  - Drawing
+  - VisitorsCenter
+- Music
+- Sound
+  - LupeRobot
+  - VisitorsCenter
+- Video
+  - Corporate
+  - Visitors
+- Visitors
+  - [Name of Institution]
+    - Camera
     - Drawing
-    - VisitorsCenter
+    - Video
+
+## Option 2, Best!
+
+- Corporate
+  - Image
+  - Video
+- VisitorsCenter
+  - Image
+  - LupeRobot
   - Music
   - Sound
-    - Player
-      - Mpg123
-      - Aplay
-    - SpeechSynthesizer
-      - Espeak
-    - LupeRobot
-    - Corporate
-    - VisitorsCenter
-  - Video
-    - Corporate
-    - VisitorsCenter
-  - VisitorsCenter
-    - xYz
-      - Image
-      - Video
-      - Drawing
-
-# Media Repository: Mirror
-
-- HochobMediaSource
-  - Camera
-    - Fswebcam
-  - Drawing
-  
-  - Image
-    - Drawing
-    - VisitorsCenter
-    - Visitors
-      - zZz
-  - Sound
-    - Player
-      - Mpg123
-      - Aplay
-    - SpeechSynthesizer
-      - Espeak
-    - LupeRobot
-    - Corporate
-    - VisitorsCenter
-  - Video
-    - Corporate
-    - VisitorsCenter
-    - Visitors
-      - zZz
-
-# Directory Structure
-
-- Hochob
-  - Services
-    - Automation
-      - HomeAssistant
-        - configuration.yaml
+    - Stations
+- Visitors
+  - [Name of Institution]
     - Camera
-      - FS Webcam
-        - hbsCameraFswMain.sh
-    - Calendar
-      - Google Calendar API
-        - hbsCalendarGcaMain.py
-    - Communications
-      - MqttServer
-        - VerneMQ
-          - vernemq.conf
-      - MqttClient
-        - Mosquitto
     - Drawing
-    - LupeRobot
-      - Virtual
-        - Sound
-      - Remote
-        - Camera
-        - Movement
-        - Sound
-          - Speaker
-    - Image
-      - Eog
-        - hbsImageEogMain.sh [files]
-    - Motion
+    - Video
+
+# Hochob Media: Source
+
+- Camera
+  - Fswebcam
+- Image
+  - Drawing
+- Sound
+  - SpeechSynthesizer
+    - Espeak
+- Video
+  - /home/hochob/CodeLabs/Hochob/Photography/selfie.py
+- Visitors
+  - [Name of Institution]
+    - Camera
+    - Drawing
+    - Video
+
+# Hochob: Amikoo
+
+- Services
+- Camera
+- Sound
+  - Speaker
+  - Microphone
+
+# Hochob: Services
+
+- Automation
+  - HomeAssistant
+    - configuration.yaml
+- Camera
+  - FS Webcam
+    - hbsCameraFswMain.sh
+- Calendar
+  - Google Calendar API
+    - hbsCalendarGcaMain.py
+- Communications
+  - MqttServer
+    - VerneMQ
+      - vernemq.conf
+  - MqttClient
+    - Mosquitto
+- LupeRobot
+  - Virtual
+  - Remote
+    - Camera
+    - Movement
     - Sound
-      - Player
-        - Mpg123
-          - hbsSoundPxMpgMain.sh [file]
-        - Aplay
-          - hbsSoundPxAplMain.sh [file]
-      - Server
-        - PulseAudio
-      - SpeechSynthesizer
-        - hbsSoundSsEspeakMain.sh [play] [language] [input]
-          - Record and Play [on]
-          - Record Only [off]
-    - Stream
-      - Chromecast
-        - hbsStreamS2cMain.sh [device] [volume] [file]
-    - Usb
-    - Video
-      - VlcMediaPlayer
-        - hbsVideoVlcMain.sh [loop] [file]
-  - Applications
-    - Audio
-    - Photography
-    - Video
-      - LupeRobot
-      - VisitorsCenter
-    - Feedback
-    - Google Calendar
+      - Microphone
+      - Speaker
+- Image
+  - Eog
+    - hbsImageEogMain.sh [files]
+  - Drawing
+- Motion
+- Sound
+  - Player
+    - Mpg123
+      - hbsSoundPxMpgMain.sh [file]
+    - Aplay
+      - hbsSoundPxAplMain.sh [file]
+  - Server
+    - PulseAudio
+  - SpeechSynthesizer
+    - hbsSoundSsEspeakMain.sh [play] [language] [input]
+      - Record and Play [on]
+      - Record Only [off]
+- Stream
+  - Chromecast
+    - hbsStreamS2cMain.sh [device] [volume] [file]
+  - Plex Media Server
+- Usb
+- Video
+  - VlcMediaPlayer
+    - hbsVideoVlcMain.sh [loop] [file]
+
+# Hochob: Applications
+
+- Audio
+- Photography
+- Video
+  - LupeRobot
+  - VisitorsCenter
+- Feedback
+  - Google Calendar
       - Image Welcome
     - Goodie
     - LupeRobot
@@ -141,13 +162,22 @@
       - Virtual
     - Lupe Picture 
       - Lupe Robot Moving through Mqtt
-- Amikoo
-  - Services
-  - Camera
+
+- Corporate
+  - Image
+  - Video
+- VisitorsCenter
+  - Image
+  - LupeRobot
+  - Music
   - Sound
-    - Speaker
-    - Microphone
-  
+    - Stations
+- Visitors
+  - [Name of Institution]
+    - Camera
+    - Drawing
+    - Video
+
 # Code 
 
 - Hochob
