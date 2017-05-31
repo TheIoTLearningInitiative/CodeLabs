@@ -31,7 +31,7 @@
 - USB
 - VLC Media Player
 
-# Stations NAming Convention
+# Stations Naming Convention
 
 - [Maya Animals](http://www.native-languages.org/maya_animals.htm)
 

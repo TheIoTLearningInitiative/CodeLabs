@@ -111,6 +111,7 @@
   * [Server](Hochob/documentation/Server.md)
     * [Architecture](Hochob/documentation/ServerArchitecture.md)
       * [Media](Hochob/documentation/ServerArchitectureMedia.md)
+      * [Naming Conventions](Hochob/documentation/ServerArchitectureMedia.md)
     * [Setup](Hochob/documentation/ServerSetup.md)
     * [Main](Hochob/documentation/ServerMain.md)
       * [Institution Identification](Hochob/documentation/ServerMainInstitutionIdentification.md)
