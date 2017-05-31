@@ -1,6 +1,35 @@
 # Server Architecture
 
+- Services
+- Applications
 
+# Services
+
+> Software functionality
+
+- Automation
+- __Camera__
+- Calendar
+- Communications
+- LupeRobot
+- __Image__
+- Motion
+- __Sound__
+- Stream
+- Usb
+- __Video__
+- Telegram
+
+# Applications
+
+> Set of software functionalities.
+
+- Lupe Robot Memories
+- Audio
+- Camera
+- Photography
+- USB
+- VLC Media Player
 
 # Stations NAming Convention
 
@@ -23,34 +52,6 @@
 - Kan Culebra
 - Aak Tortuga
 - Aayin Cocodrilo
-
-## Services
-
-> Software functionality
-
-- Automation
-- __Camera__
-- Calendar
-- Communications
-- LupeRobot
-- __Image__
-- Motion
-- __Sound__
-- Stream
-- Usb
-- __Video__
-- Telegram
-
-## Applications
-
-> Set of software functionalities.
-
-- Lupe Robot Memories
-- Audio
-- Camera
-- Photography
-- USB
-- VLC Media Player
 
 # Hochob: Amikoo
 
