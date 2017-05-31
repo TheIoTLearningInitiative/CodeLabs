@@ -1,5 +1,7 @@
 # Server Architecture
 
+
+
 # Stations NAming Convention
 
 - [Maya Animals](http://www.native-languages.org/maya_animals.htm)
