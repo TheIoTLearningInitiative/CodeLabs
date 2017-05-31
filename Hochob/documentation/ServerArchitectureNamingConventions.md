@@ -15,7 +15,7 @@
 - Am Arana
 - Ch'iich' Pajaro
 - T'uut' Guacamaya
-- Tunkuruchu Lechuza
+- Tunkuruchu Lechuza  
 - Tz'unu'un Colibri
 - Kay Pescado
 - Kan Culebra
