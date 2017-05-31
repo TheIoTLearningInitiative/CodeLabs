@@ -148,8 +148,9 @@
 
 - Corporate
   - Image
-    - 
+    - Main
   - Video
+    - 
 - VisitorsCenter
   - Image
   - LupeRobot
