@@ -4,6 +4,7 @@
 
 - [Maya Animals](http://www.native-languages.org/maya_animals.htm)
 
+- Peek'
 - Chakmool Jaguar
 - Chuwen Chango
 - Kaab
