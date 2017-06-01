@@ -27,6 +27,10 @@
   - Station: Chakmool
   - Services Image, Eog
 
+- Name: Home Corporate Image Showcase
+  - Station: Chakmool
+  - Services Image, Eog
+
 - Name: Home Corporate Video Showcase
   - Station: Chakmool
   - Services Image, Eog
