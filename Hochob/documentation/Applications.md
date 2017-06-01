@@ -21,6 +21,7 @@
   - Hochob Media: Official
   - Services Image, Feh
   - Services Sound, Mpg123
+  - Services Video, VlcMediaPlayer
   - Services Comms, Mqtt
 
 - Name: Home Corporate Image Showcase
