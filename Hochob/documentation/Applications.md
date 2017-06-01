@@ -7,6 +7,11 @@
   - Services Image, Eog
   - Services Sound, Mpg123
 
+- Name: Corporate Video Showcase
+  - Station: Chakmool
+  - Services Image, Eog
+  - Services Sound, Mpg123
+
 - Name: Main
   - Station: Chakmool
   - Services Image, Feh
