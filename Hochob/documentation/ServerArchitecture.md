@@ -36,10 +36,9 @@
   - Sound
     - Stations
 - Visitors
-  - [Name of Institution]
-    - Camera
-    - Drawing
-    - Video
+  - Camera
+  - Drawing
+  - Video
 
 - Audio
 - Photography
