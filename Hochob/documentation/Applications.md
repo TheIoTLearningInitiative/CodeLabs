@@ -26,7 +26,6 @@
 - Name: Home Corporate Image Showcase
   - Station: Chakmool
   - Services Image, Eog
-  - Services Sound, Mpg123
 
 - Name: Home Corporate Video Showcase
   - Station: Chakmool
