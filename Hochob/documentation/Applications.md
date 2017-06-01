@@ -31,6 +31,7 @@
   - Station: Chakmool
   - Hochob Media: Official
     - VisitorsCenter Image Visitors
+      - ??? Assuming the record of images is performed but what if not?
     - VisitorsCenter Sound Station
   - Services Image, Eog
   - Services Sound, Mpg123
