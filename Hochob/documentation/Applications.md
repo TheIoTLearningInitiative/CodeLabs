@@ -2,21 +2,30 @@
 
 > Set of software functionalities.
 
-- Name: Corporate Image Showcase
+- Name: Home Welcome
   - Station: Chakmool
   - Services Image, Eog
   - Services Sound, Mpg123
 
-- Name: Corporate Video Showcase
+- Name: Home Security Protocol
   - Station: Chakmool
   - Services Image, Eog
   - Services Sound, Mpg123
 
-- Name: Main
+- Name: Home Lupe Robot Show
   - Station: Chakmool
   - Services Image, Feh
   - Services Sound, Mpg123
   - Services Comms, Mqtt
+
+- Name: Home Corporate Image Showcase
+  - Station: Chakmool
+  - Services Image, Eog
+  - Services Sound, Mpg123
+
+- Name: Home Corporate Video Showcase
+  - Station: Chakmool
+  - Services Image, Eog
 
 - Name: Introduction
 - Station: Chakmool
