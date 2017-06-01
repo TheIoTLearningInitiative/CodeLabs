@@ -49,7 +49,7 @@
   - Services Image, Eog
   - Services Sound, Mpg123
 
-- Name: Home Visitors Welcome Memory
+- Name: Home Visitors Welcome Memories
   - HomeAssistant:
   - Station: Chakmool
   - Hochob Media: Source
