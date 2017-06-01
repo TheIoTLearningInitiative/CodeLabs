@@ -5,14 +5,18 @@
 - Corporate
   - Image
     - Name: Display
-    - Station: Chakmool
+      - Station: Chakmool
+      - Services Image, Eog
+      - Services Sound, Mpg123
   - Video
     - Name: Main
-    - Station: Chakmool
+      - Station: Chakmool
+      - Services Image, Eog
+      - Services Sound, Mpg123
 - VisitorsCenter
   - Image
     - Name: Introduction
-    - Station: Chakmool
+      - Station: Chakmool
   - LupeRobot
   - Music
   - Sound
