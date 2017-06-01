@@ -11,8 +11,9 @@
   - Video
     - Name: Main
       - Station: Chakmool
-      - Services Image, Eog
+      - Services Image, Feh
       - Services Sound, Mpg123
+      - Services Comms, Mqtt
 - VisitorsCenter
   - Image
     - Name: Introduction
