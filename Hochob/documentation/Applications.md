@@ -8,7 +8,7 @@
   - HomeAssistant: Introduccion Bienvenida
   - Station: Chakmool
   - Hochob Media: Official
-    - VisitorsCenter Image Place
+    - Corporate Image
     - VisitorsCenter Sound Station
   - Services Image, Eog
   - Services Sound, Mpg123
