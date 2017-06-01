@@ -43,6 +43,7 @@ pip install pyaudio
 
 # Text To Speech: eSpeak
 
+opkg update
 opkg install espeak
 pip install pyttsx
 
