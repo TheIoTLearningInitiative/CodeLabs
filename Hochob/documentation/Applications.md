@@ -23,15 +23,15 @@
 - Name: Home Lupe Robot Show
   - Station: Chakmool
   - Hochob Media: Official
-    - VisitorsCenter Video Lupe
+    - VisitorsCenter Video LupeRobot
   - Services Video, VlcMediaPlayer
   - Services Comms, Mqtt
 
 - Name: Home Welcome Visitors Center
   - Station: Chakmool
   - Hochob Media: Official
-    - VisitorsCenter Image
-    - VisitorsCenter Sound
+    - VisitorsCenter Image Place
+    - VisitorsCenter Sound Station
   - Services Image, Eog
   - Services Sound, Mpg123
 
