@@ -50,13 +50,13 @@
 - Name: Home Visitors Center Image Showcase
   - Station: Chakmool
   - Hochob Media: Official
-    - VisitorsCenter Image
+    - VisitorsCenter Image Visitors
   - Services Image, Eog
 
 - Name: Home Visitors Center Video Showcase
   - Station: Chakmool
   - Hochob Media: Official
-    - VisitorsCenter Video
+    - VisitorsCenter Video Visitors
   - Services Video, VlcMediaPlayer
 
 
