@@ -1,12 +1,14 @@
 # Server Architecture
 
-- Linux Based Operating System
+- Server
 - Main
 - Services
 - Applications
 - Amikoo
 
-# Linux Based Operating System
+# Server 
+
+> Linux Based Operating System
 
 > Lubuntu is a fast, energy saving and lightweight variant of Ubuntu using LXDE. It is popular with PC and laptop users running on low-spec hardware. [Homepage](http://lubuntu.me/)
 
