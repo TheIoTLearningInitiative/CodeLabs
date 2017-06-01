@@ -29,14 +29,8 @@
 
 - Name: Home Corporate Image Showcase
   - Station: Chakmool
-  - Services Image, Eog
-
-- Name: Home Corporate Image Showcase
-  - Station: Chakmool
-  - Services Image, Eog
-
-- Name: Home Corporate Video Showcase
-  - Station: Chakmool
+  - Hochob Media: Official
+    - Corporate Image
   - Services Image, Eog
 
 # Media Source 

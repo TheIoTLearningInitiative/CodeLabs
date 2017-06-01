@@ -82,7 +82,10 @@
 
 # Hardware Stations
 
-Tbd
+A set of devices:
+
+- Display Device
+- Streaming Device
 
 # ToDo
 
