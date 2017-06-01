@@ -28,7 +28,7 @@
   - Image
     - Main
   - Video
-    - 
+    - Main
 - VisitorsCenter
   - Image
   - LupeRobot
