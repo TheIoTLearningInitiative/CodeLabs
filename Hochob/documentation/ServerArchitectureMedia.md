@@ -7,11 +7,11 @@
   - Image
     - Place
     - Visitors
-  - LupeRobot
   - Music
   - Sound
     - Stations
   - Video
+    - LupeRobot
     - Place
     - Visitors
 - Visitors
