@@ -7,23 +7,23 @@
 - Name: Home Welcome Guadalajara Design Center
   - Station: Chakmool
   - Hochob Media: Official
-    - VisitorsCenter Image
-    - VisitorsCenter Sound
+    - VisitorsCenter Image Place
+    - VisitorsCenter Sound Station
   - Services Image, Eog
   - Services Sound, Mpg123
 
 - Name: Home Security Protocol
   - Station: Chakmool
   - Hochob Media: Official
-    - VisitorsCenter Image
-    - VisitorsCenter Sound
+    - VisitorsCenter Image Place
+    - VisitorsCenter Sound Station
   - Services Image, Eog
   - Services Sound, Mpg123
 
 - Name: Home Lupe Robot Show
   - Station: Chakmool
   - Hochob Media: Official
-    - VisitorsCenter Video
+    - VisitorsCenter Video Lupe
   - Services Video, VlcMediaPlayer
   - Services Comms, Mqtt
 
