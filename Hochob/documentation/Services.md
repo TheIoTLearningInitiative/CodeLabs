@@ -1,0 +1,54 @@
+# Services
+
+# Hochob: Services
+
+- Automation
+  - HomeAssistant
+    - configuration.yaml
+- Camera
+  - FS Webcam
+    - hbsCameraFswMain.sh
+- Calendar
+  - Google Calendar API
+    - hbsCalendarGcaMain.py
+- Communications
+  - MqttServer
+    - VerneMQ
+      - vernemq.conf
+  - MqttClient
+    - Mosquitto
+- LupeRobot
+  - Virtual
+  - Remote
+    - Camera
+    - Movement
+    - Sound
+      - Microphone
+      - Speaker
+- Image
+  - Eog
+    - hbsImageEogMain.sh [files]
+  - Drawing
+  - Scale
+- Motion
+- Sound
+  - Player
+    - Mpg123
+      - hbsSoundPxMpgMain.sh [file]
+    - Aplay
+      - hbsSoundPxAplMain.sh [file]
+  - Server
+    - PulseAudio
+  - SpeechSynthesizer
+    - hbsSoundSsEspeakMain.sh [play] [language] [input]
+      - Record and Play [on]
+      - Record Only [off]
+- Stream
+  - Chromecast
+    - hbsStreamS2cMain.sh [device] [volume] [file]
+  - Plex Media Server
+- Usb
+- Video
+  - VlcMediaPlayer
+    - hbsVideoVlcMain.sh [loop] [file]
+
