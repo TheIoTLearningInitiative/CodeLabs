@@ -5,9 +5,12 @@
   - Video
 - VisitorsCenter
   - Image
+    - Place
+    - Visitors
   - LupeRobot
   - Music
   - Sound
+    - Place
     - Stations
   - Video
     - 
