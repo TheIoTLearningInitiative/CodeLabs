@@ -116,7 +116,7 @@
     * [Main](Hochob/documentation/ServerMain.md)
       * [Institution Identification](Hochob/documentation/ServerMainInstitutionIdentification.md)
     * [Services](Hochob/documentation/Services.md)
-      * Automation
+      * [Automation](Hochob/documentation/automation.md)
         * [Home Assistant](Hochob/documentation/HomeAssistant.md)
           * [Setup](Hochob/documentation/HomeAssistantSetup.md)
       * [Calendar](Hochob/documentation/Calendar.md)
