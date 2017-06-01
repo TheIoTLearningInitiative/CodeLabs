@@ -7,20 +7,23 @@
 - Name: Home Welcome
   - Station: Chakmool
   - Hochob Media: Official
-    - 
+    - VisitorsCenter Image
+    - VisitorsCenter Sound
   - Services Image, Eog
   - Services Sound, Mpg123
 
 - Name: Home Security Protocol
   - Station: Chakmool
   - Hochob Media: Official
+    - VisitorsCenter Image
+    - VisitorsCenter Sound
   - Services Image, Eog
   - Services Sound, Mpg123
 
 - Name: Home Lupe Robot Show
   - Station: Chakmool
   - Hochob Media: Official
-  - Services Sound, Mpg123
+    - VisitorsCenter Video
   - Services Video, VlcMediaPlayer
   - Services Comms, Mqtt
 
