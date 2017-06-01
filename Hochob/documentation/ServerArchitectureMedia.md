@@ -10,10 +10,10 @@
   - LupeRobot
   - Music
   - Sound
-    - Place
     - Stations
   - Video
-    - 
+    - Place
+    - Visitors
 - Visitors
   - [Name of Institution]
     - Camera
