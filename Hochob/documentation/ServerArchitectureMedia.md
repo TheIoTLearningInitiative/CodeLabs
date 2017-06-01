@@ -9,7 +9,8 @@
     - Visitors
   - Music
   - Sound
-    - Stations
+    - LupeRobot
+    - Station
   - Video
     - LupeRobot
     - Place
