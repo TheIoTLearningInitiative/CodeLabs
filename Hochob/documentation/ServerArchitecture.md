@@ -1,6 +1,7 @@
 # Server Architecture
 
 - Linux Based Operating System
+- Main
 - Services
 - Applications
 - Amikoo
