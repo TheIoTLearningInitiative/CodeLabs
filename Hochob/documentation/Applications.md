@@ -2,27 +2,31 @@
 
 > Set of software functionalities.
 
+- Name: Corporate Image Showcase
+  - Station: Chakmool
+  - Services Image, Eog
+  - Services Sound, Mpg123
+
+- Name: Main
+  - Station: Chakmool
+  - Services Image, Feh
+  - Services Sound, Mpg123
+  - Services Comms, Mqtt
+
+- Name: Introduction
+- Station: Chakmool
+
+- Name: Welcome
+- Station: Chakmool
+
 - Corporate
   - Image
-    - Name: Display
-      - Station: Chakmool
-      - Services Image, Eog
-      - Services Sound, Mpg123
   - Video
-    - Name: Main
-      - Station: Chakmool
-      - Services Image, Feh
-      - Services Sound, Mpg123
-      - Services Comms, Mqtt
 - VisitorsCenter
   - Image
-    - Name: Introduction
-      - Station: Chakmool
   - LupeRobot
   - Music
   - Sound
-    - Name: Welcome
-    - Station: Chakmool
 - Visitors
   - Camera
   - Drawing
