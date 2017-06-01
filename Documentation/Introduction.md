@@ -21,7 +21,7 @@
 - __Kinich KaK Moo__ Python: Virtual, Grove While, Grove Threads
 - __Kohunlich__ Product Development
 - __Akna__ Sphero
-
+- __Alom__ Briko
 
 ## Full List
 
@@ -94,7 +94,7 @@ Yucatán
 * **Ajtzak** Microsoft Cognitive Services
 * **Akhushtal** Briko
 * **Akna** Sphero
-* **Alom** 
+* **Alom** Briko
 * **Awilix** 
 * **** 
 
