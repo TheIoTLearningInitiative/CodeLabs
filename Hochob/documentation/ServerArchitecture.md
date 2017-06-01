@@ -34,6 +34,12 @@
   - LupeRobot
   - Music
   - Sound
+    - Stations
+- Visitors
+  - [Name of Institution]
+    - Camera
+    - Drawing
+    - Video
 
 - Audio
 - Photography
