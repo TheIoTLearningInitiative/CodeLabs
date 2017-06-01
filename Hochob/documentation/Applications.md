@@ -54,6 +54,9 @@
   - Station: Chakmool
   - Hochob Media: Source
     - Camera Fswebcam
+  - Hochob Media: Official
+    - VisitorsCenter Image Visitors
+  - Services Camera, Fswebcam
 
 - Name: Home Corporate Image Showcase
   - HomeAssistant: 
