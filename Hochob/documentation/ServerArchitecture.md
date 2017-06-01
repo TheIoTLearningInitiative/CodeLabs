@@ -5,7 +5,7 @@
 - Hardware Amikoo
 - Hardware Stations
 
-# Services
+# Software Services
 
 > Software functionality
 
@@ -22,15 +22,7 @@
 - __Video__
 - Telegram
 
-# Hochob: Amikoo
-
-- Services
-- Camera
-- Sound
-  - Speaker
-  - Microphone
-
-# Hochob: Applications
+# Software Applications
 
 - Corporate
   - Image
@@ -74,6 +66,18 @@
     - Camera
     - Drawing
     - Video
+
+# Hardware Amikoo
+
+- Services
+- Camera
+- Sound
+  - Speaker
+  - Microphone
+
+# Hardware Stations
+
+Tbd
 
 # ToDo
 
