@@ -13,6 +13,7 @@
   - LupeRobot
   - Music
   - Sound
+    - Welcome: Chakmool
     - 
 - Visitors
   - Camera
