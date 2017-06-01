@@ -4,10 +4,6 @@
 
 * Make server not ask for password with sudo
 
-# Operating System: Lubuntu
-
-> Lubuntu is a fast, energy saving and lightweight variant of Ubuntu using LXDE. It is popular with PC and laptop users running on low-spec hardware. [Homepage](http://lubuntu.me/)
-
 ```sh
 hochob@server:~$ /sbin/ifconfig
 enp0s25: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
