@@ -22,8 +22,6 @@
 - Aak Tortuga
 - Aayin Cocodrilo
 
-# Code
+# Filenames
 
-- Hochob
-  - hbs
-  - hba
+hbsCameraFswMain.sh

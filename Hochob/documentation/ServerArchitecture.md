@@ -1,8 +1,9 @@
 # Server Architecture
 
-- Services
-- Applications
-- Amikoo
+- Software Services
+- Software Applications
+- Hardware Amikoo
+- Hardware Stations
 
 # Services
 
