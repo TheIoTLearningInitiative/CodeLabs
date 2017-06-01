@@ -4,7 +4,7 @@
 
 # Home
 
-- Name: Home Welcome
+- Name: Home Welcome Guadalajara Design Center
   - Station: Chakmool
   - Hochob Media: Official
     - VisitorsCenter Image
@@ -26,6 +26,14 @@
     - VisitorsCenter Video
   - Services Video, VlcMediaPlayer
   - Services Comms, Mqtt
+
+- Name: Home Welcome Visitors Center
+  - Station: Chakmool
+  - Hochob Media: Official
+    - VisitorsCenter Image
+    - VisitorsCenter Sound
+  - Services Image, Eog
+  - Services Sound, Mpg123
 
 - Name: Home Corporate Image Showcase
   - Station: Chakmool
