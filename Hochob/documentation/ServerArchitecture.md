@@ -3,6 +3,7 @@
 - Linux Based Operating System
 - Services
 - Applications
+- Amikoo
 
 # Linux Based Operating System
 
