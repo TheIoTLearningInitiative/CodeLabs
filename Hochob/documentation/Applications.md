@@ -4,17 +4,20 @@
 
 - Corporate
   - Image
-    - Display: Chakmool
+    - Name: Display
+    - Station: Chakmool
   - Video
-    - Main: Chakmool
+    - Name: Main
+    - Station: Chakmool
 - VisitorsCenter
   - Image
-    - Introduction: Chakmool
+    - Name: Introduction
+    - Station: Chakmool
   - LupeRobot
   - Music
   - Sound
-    - Welcome: Chakmool
-    - 
+    - Name: Welcome
+    - Station: Chakmool
 - Visitors
   - Camera
   - Drawing
