@@ -52,4 +52,3 @@
     - Camera
     - Drawing
     - Video
-
