@@ -1,5 +1,6 @@
 # Server Architecture
 
+- Linux Based Operating System
 - Services
 - Applications
 
