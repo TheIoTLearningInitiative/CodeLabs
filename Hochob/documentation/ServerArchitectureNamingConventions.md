@@ -3,7 +3,7 @@
 # Stations
 
 - [Maya Animals](http://www.native-languages.org/maya_animals.htm)
- 
+
 - Peek' Perro
 - Keeh Venado
 - __Chakmool__ Jaguar
@@ -15,7 +15,7 @@
 - Am Arana
 - Ch'iich' Pajaro
 - T'uut' Guacamaya
-- Tunkuruchu Lechuza  
+- Tunkuruchu Lechuza
 - Tz'unu'un Colibri
 - Kay Pescado
 - Kan Culebra
