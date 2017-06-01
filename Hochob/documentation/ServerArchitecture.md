@@ -1,6 +1,5 @@
 # Server Architecture
 
-- Main
 - Services
 - Applications
 - Amikoo
