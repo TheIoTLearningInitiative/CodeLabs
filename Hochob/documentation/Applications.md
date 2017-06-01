@@ -19,7 +19,6 @@
 - Name: Home Lupe Robot Show
   - Station: Chakmool
   - Hochob Media: Official
-  - Services Image, Feh
   - Services Sound, Mpg123
   - Services Video, VlcMediaPlayer
   - Services Comms, Mqtt

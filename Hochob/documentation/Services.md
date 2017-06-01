@@ -28,6 +28,7 @@
 - Image
   - Eog
     - hbsImageEogMain.sh [files]
+  - Feh
   - Drawing
   - Scale
 - Motion
