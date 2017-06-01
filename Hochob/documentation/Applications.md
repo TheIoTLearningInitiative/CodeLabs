@@ -50,7 +50,7 @@
   - Services Sound, Mpg123
 
 - Name: Record
-  - HomeAssistant: 
+  - HomeAssistant:
   - Station: Chakmool
   - Hochob Media: Source
     - Camera Fswebcam
