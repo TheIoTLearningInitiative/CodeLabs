@@ -4,7 +4,7 @@
 
 # Home
 
-- Name: Home Welcome Guadalajara Design Center
+- Name: (States) Home Welcome Guadalajara Design Center
   - HomeAssistant: Introduccion Bienvenida y Protocolo de Seguridad
   - Station: Chakmool
   - Hochob Media: Official
