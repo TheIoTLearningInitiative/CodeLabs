@@ -5,18 +5,10 @@
 # Home
 
 - Name: Home Welcome Guadalajara Design Center
-  - HomeAssistant: Introduccion Bienvenida
+  - HomeAssistant: Introduccion Bienvenida y Protocolo de Seguridad
   - Station: Chakmool
   - Hochob Media: Official
     - Corporate Image
-    - VisitorsCenter Sound Station
-  - Services Image, Eog
-  - Services Sound, Mpg123
-- Name: Home Security Protocol
-  - HomeAssistant: Introduccion Protocolo de Seguridad
-  - Station: Chakmool
-  - Hochob Media: Official
-    - VisitorsCenter Image Place
     - VisitorsCenter Sound Station
   - Services Image, Eog
   - Services Sound, Mpg123
