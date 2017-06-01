@@ -40,6 +40,7 @@
   - Services Comms, Mqtt
 
 - Name: Home Welcome Visitors Center
+  - HomeAssistant: Video Despues del Video
   - Station: Chakmool
   - Hochob Media: Official
     - VisitorsCenter Image Visitors
@@ -48,25 +49,35 @@
   - Services Image, Eog
   - Services Sound, Mpg123
 
+- Name: Record
+  - HomeAssistant: 
+  - Station: Chakmool
+  - Hochob Media: Source
+    - Camera Fswebcam
+
 - Name: Home Corporate Image Showcase
+  - HomeAssistant: 
   - Station: Chakmool
   - Hochob Media: Official
     - Corporate Image
   - Services Image, Eog
 
 - Name: Home Corporate Video Showcase
+  - HomeAssistant: 
   - Station: Chakmool
   - Hochob Media: Official
     - Corporate Video
   - Services Video, VlcMediaPlayer
 
 - Name: Home Visitors Center Image Showcase
+  - HomeAssistant: 
   - Station: Chakmool
   - Hochob Media: Official
     - VisitorsCenter Image Visitors
   - Services Image, Eog
 
 - Name: Home Visitors Center Video Showcase
+  - HomeAssistant: 
   - Station: Chakmool
   - Hochob Media: Official
     - VisitorsCenter Video Visitors
