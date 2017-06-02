@@ -71,7 +71,11 @@ root@server:~#
 ```
 
 ```sh
-hochob@server:~$ sudo usermod -a -G sudo hochob
+hochob@server:~# usermod -a -G sudo hochob
+````
+
+```sh
+hochob@server:~# nano /etc/sudoers
 ````
 
 # Debian Backports
