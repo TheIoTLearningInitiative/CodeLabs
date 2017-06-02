@@ -34,16 +34,16 @@ homeassistant:
     friendly_name: 2.4 Despues del video
     icon: mdi:audiobook
 
-   # Home : 3 Photography
+   # Home : 3 Fotografia
 
    script.photography:
-    friendly_name: Photography Record
+    friendly_name: Grabacion de fotografia
     icon: mdi:camera
    switch.imagescorporate:
-    friendly_name: Corporate Images
+    friendly_name: Imagenes corporativas
     icon: mdi:camera
    switch.imagesvisitorscenter:
-    friendly_name: Visitors Center Images
+    friendly_name: Imagenes centro visitantes
     icon: mdi:camera
 
    # Home : 4 Technical Center
@@ -777,7 +777,7 @@ group:
     #- switch.lupecomplete
 
   photography:
-    name: Photography
+    name: Fotografia
     entities:
     - script.photography
     - switch.imagescorporate
