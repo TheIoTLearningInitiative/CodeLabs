@@ -8,11 +8,11 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export HBS_VIDEO_VLC_PID=$$
-export HBS_VIDEO_VLC_ROOT=$HOCHOB_SERVER_SERVICES_VIDEO
-export HBS_VIDEO_VLC_BINARY=cvlc
-export HBS_VIDEO_VLC_ARGUMENTS="--no-video-title-show --fullscreen"
-export HBS_VIDEO_VLC_LOOP="--loop"
+export VLC_PID=$$
+export VLC_ROOT=$HOCHOB_SERVER_SERVICES_VIDEO
+export VLC_BINARY=cvlc
+export VLC_ARGUMENTS="--no-video-title-show --fullscreen"
+export VLC_LOOP="--loop"
 
 LOCAL_LOOP="$1"
 LOCAL_FILE="$2"
@@ -31,12 +31,12 @@ export PATH=$PATH:$HBS_VIDEO_VLC_ROOT
 
 if [ $# -eq 2 ]
 then
-    killall -9 $HBS_VIDEO_VLC_BINARY
+    killall -9 $VLC_BINARY
 
     if [ "$LOCAL_LOOP" = "on" ]; then
-        $HBS_VIDEO_VLC_BINARY $HBS_VIDEO_VLC_ARGUMENTS $HBS_VIDEO_VLC_LOOP $LOCAL_FILE &
+        $VLC_BINARY $VLC_ARGUMENTS $VLC_LOOP $LOCAL_FILE &
     elif [ "$LOCAL_LOOP" = "off" ]; then
-        $HBS_VIDEO_VLC_BINARY $HBS_VIDEO_VLC_ARGUMENTS $LOCAL_FILE &
+        $VLC_BINARY $VLC_ARGUMENTS $LOCAL_FILE &
     fi
 else
     echo "Invalid number of arguments, see Documentation"
