@@ -24,8 +24,10 @@ export PATH=$PATH:$AGUASCALIENTES_DIRECTORY
 # Main
 # =============================================================================
 
-#Eog.sh "$HOCHOB_SERVER_MEDIA_CORPORATE_IMAGE/*" &
+Eog.sh "$HOCHOB_SERVER_MEDIA_CORPORATE_IMAGE/*" &
 Mpg123.sh "$HOCHOB_SERVER_MEDIA_VISITORSCENTER_SOUND/a1.mp3"
+
+# How to Kill
 
 killall -9 eog
 kill -9 $AGUASCALIENTES_PID
