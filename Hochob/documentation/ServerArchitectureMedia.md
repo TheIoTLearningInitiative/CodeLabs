@@ -1,4 +1,4 @@
-# Hochob Media: Official
+# Hochob Media
 
 - Corporate
   - Image
