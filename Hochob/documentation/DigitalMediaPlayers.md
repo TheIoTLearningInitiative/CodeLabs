@@ -1,11 +1,11 @@
 # Digital Media Players
 
-## Video
+# Video
 
 - __Codename__: Eek', Estrella
   - Chromecast
 
-## Audio
+# Audio
 
 - __Codename__: Juum, Sonido
   - Chromecast Audio
