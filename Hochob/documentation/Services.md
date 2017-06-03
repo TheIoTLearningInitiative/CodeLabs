@@ -15,7 +15,7 @@
       - vernemq.conf
   - MqttClient
     - Mosquitto
-- LupeRobot
+- Robot
   - Virtual
   - Remote
     - Camera
