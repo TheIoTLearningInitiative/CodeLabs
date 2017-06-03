@@ -49,47 +49,47 @@
 # Name: Baja California Norte
 
 - __Alias__: Are you ready for the show?
-- __HomeAssistant__: Video Antes del Video
 - __Station__: Chakmool
 - __Hochob Media__:
   - VisitorsCenter Image Place
   - VisitorsCenter Sound Station
 - __Services__:
+  - __Automation HomeAssistant__: Video Antes del Video
   - __Image__ Eog
   - __Sound__ Mpg123
 
 # Name: Baja California Sur
 
 - __Alias__: Let the show begin!
-- __HomeAssistant__: 
 - __Station__: Chakmool
 - __Hochob Media__:
   - VisitorsCenter Video LupeRobot
 - __Services__:
+  - __Automation HomeAssistant__: 
   - __Video__ VlcMediaPlayer
   - __Communications__ Mqtt ?? Robot
 
 # Name: Campeche
 
 - __Alias__: Welcome to our Visitors Center
-- __HomeAssistant__: Video Despues del Video
 - __Station__: Chakmool
 - __Hochob Media__:
   - VisitorsCenter Image Visitors
     - ??? Assuming the record of images is performed but what if not?
   - VisitorsCenter Sound Station
 - __Services__:
+  - __Automation HomeAssistant__: Video Despues del Video
   - __Image__ Eog
   - __Sound__ Mpg123
 
 # Name: Guanajuato
 
 - __Alias__: Corporate Image Showcase
-- __HomeAssistant__: 
 - __Station__: Chakmool
 - __Hochob Media__:
   - Corporate Image
 - __Services__:
+  - __Automation HomeAssistant__: 
   - __Image__ Eog
 
 # Name: Guerrero
