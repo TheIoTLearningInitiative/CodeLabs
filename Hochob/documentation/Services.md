@@ -1,6 +1,4 @@
-# Services
-
-# Hochob: Services
+# Hochob Server Services
 
 - Automation
   - HomeAssistant

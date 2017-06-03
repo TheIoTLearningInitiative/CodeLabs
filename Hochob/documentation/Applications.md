@@ -1,4 +1,4 @@
-# Applications
+# Hochob Server Applications
 
 > Set of software functionalities.
 
