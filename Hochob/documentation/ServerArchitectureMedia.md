@@ -4,18 +4,16 @@
   - Image
   - Video
 - VisitorsCenter
-  - Image
+  - Memories
+    - Camera
     - Drawing
-    - Place
-    - Visitors
-  - Music
-  - Sound
-    - LupeRobot
-    - Station
-  - Video
-    - LupeRobot
-    - Place
-    - Visitors
+    - Video
+  - Official
+    - Image
+    - Music
+    - Sound
+    - Video
+  - Robot
 - Visitors
   - [Name of Institution]
     - Camera
