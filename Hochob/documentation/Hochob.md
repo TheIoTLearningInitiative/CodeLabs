@@ -5,12 +5,12 @@
 # Architecture
 
 - Accounts
-- Areas
 - Digital Media Players
 - Mobile Device
 - Robot
 - Server
 - Stations
+- Zones
 
 # Accounts
 
