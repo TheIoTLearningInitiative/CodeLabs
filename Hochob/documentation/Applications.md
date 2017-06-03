@@ -5,7 +5,7 @@
 - Northern Maya Lowlands
 - Central Maya Lowlands
 - Southern Maya Highlands
-- Virtual Maya
+- Virtual Maya Lands
 
 # Architecture
 
