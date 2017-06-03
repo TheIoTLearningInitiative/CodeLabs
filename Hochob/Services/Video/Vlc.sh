@@ -17,7 +17,7 @@ export VLC_LOOP="--loop"
 LOCAL_LOOP="$1"
 LOCAL_FILE="$2"
 
-export PATH=$PATH:$HBS_VIDEO_VLC_ROOT
+export PATH=$PATH:$VLC_ROOT
 
 # =============================================================================
 # Functions
