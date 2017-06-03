@@ -6,9 +6,9 @@
 
 - Accounts
 - Digital Media Players
-- Server
 - Mobile Device
 - Robot
+- Server
 - Stations
 
 # Accounts
