@@ -21,7 +21,7 @@
     - Drawing
     - Video
 
-# Hochob Media: Source
+# Hochob Media Source
 
 - Camera
   - Fswebcam
