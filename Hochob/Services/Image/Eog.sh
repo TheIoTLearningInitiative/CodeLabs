@@ -8,14 +8,14 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export HBS_IMAGE_EOG_PID=$$
-export HBS_IMAGE_EOG_ROOT=$HOCHOB_SERVER_SERVICES_IMAGE
-export HBS_IMAGE_EOG_BINARY=eog
-export HBS_IMAGE_EOG_ARGUMENTS="-sf"
+export EOG_PID=$$
+export EOG_ROOT=$HOCHOB_SERVER_SERVICES_IMAGE
+export EOG_BINARY=eog
+export EOG_ARGUMENTS="-sf"
 
 LOCAL_FILES="$1"
 
-export PATH=$PATH:$HBS_IMAGE_EOG_ROOT
+export PATH=$PATH:$EOG_ROOT
 
 # =============================================================================
 # Functions
@@ -29,8 +29,8 @@ export PATH=$PATH:$HBS_IMAGE_EOG_ROOT
 
 if [ $# -eq 1 ]
 then
-    killall -9 $HBS_IMAGE_EOG_BINARY
-    $HBS_IMAGE_EOG_BINARY  $HBS_IMAGE_EOG_ARGUMENTS $LOCAL_FILES &
+    killall -9 $EOG_BINARY
+    $EOG_BINARY  $EOG_ARGUMENTS $LOCAL_FILES &
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
