@@ -5,12 +5,12 @@
 - Automation
   - HomeAssistant
     - configuration.yaml
-- Camera
-  - FS Webcam
-    - hbsCameraFswMain.sh
 - Calendar
   - Google Calendar API
     - hbsCalendarGcaMain.py
+- Camera
+  - FS Webcam
+    - hbsCameraFswMain.sh
 - Communications
   - MqttServer
     - VerneMQ
@@ -31,6 +31,8 @@
   - Feh
   - Drawing
   - Scale
+- Messaging
+  - Telegram
 - Motion
 - Sound
   - Player
