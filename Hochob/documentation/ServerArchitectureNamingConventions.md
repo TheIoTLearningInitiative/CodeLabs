@@ -24,4 +24,11 @@
 
 # Filenames
 
-hbsCameraFswMain.sh
+- Services/Camera/hbsCameraFswMain.sh
+- Services/Image/hbsImageEogMain.sh
+- Services/Sound/Play/hbsSoundPxAplMain.sh
+- Services/Sound/Play/hbsSoundPxMpgMain.sh
+- Services/Sound/SpeechSynthesizer/hbsSoundSsEspeakMain.sh
+- Services/Stream/Stream2Chromecast/hbsStreamS2cMain.sh
+- Services/Video/hbsVideoVlcMain.sh
+
