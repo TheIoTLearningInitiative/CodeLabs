@@ -117,7 +117,7 @@
 - Services Video, VlcMediaPlayer
 
 # Name: Chiapas
-- Alias: Visitors Cheers
+- Alias: Visitors Center Cheers
 - HomeAssistant:
 - Station: Chakmool
 - Hochob Media: Source
