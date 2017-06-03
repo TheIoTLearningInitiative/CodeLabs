@@ -9,12 +9,11 @@
 
 # Architecture
 
-Name: <>
+Name:
 
-- __Alias__: <>
-- __Station__: <>
+- __Alias__:
+- __Station__:
 - __Hochob Media__:
-  - <>
+  - 
 - __Services__:
-  - <>
-
+  - 
