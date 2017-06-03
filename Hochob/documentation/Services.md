@@ -7,7 +7,7 @@
   - Google Calendar API
     - hbsCalendarGcaMain.py
 - Camera
-  - FS Webcam
+  - FSWebcam
     - hbsCameraFswMain.sh
 - Communications
   - MqttServer
