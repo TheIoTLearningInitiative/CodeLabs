@@ -37,13 +37,14 @@
 # Name: Aguascalientes
 
 - __Alias__: Welcome to Guadalajara Design Center
-- __HomeAssistant__: Introduccion Bienvenida y Protocolo de Seguridad
 - __Station__: Chakmool
 - __Hochob Media__:
   - Corporate Image
   - VisitorsCenter Sound Station
-- Services Image, Eog
-- Services Sound, Mpg123
+- __Services__:
+  - __Automation HomeAssistant__: Introduccion Bienvenida y Protocolo de Seguridad
+  - __Image__ Eog
+  - __Sound__ Mpg123
 
 # Name: Baja California Norte
 
@@ -53,8 +54,9 @@
 - __Hochob Media__:
   - VisitorsCenter Image Place
   - VisitorsCenter Sound Station
-- Services Image, Eog
-- Services Sound, Mpg123
+- __Services__:
+  - __Image__ Eog
+  - __Sound__ Mpg123
 
 # Name: Baja California Sur
 
@@ -63,8 +65,9 @@
 - __Station__: Chakmool
 - __Hochob Media__:
   - VisitorsCenter Video LupeRobot
-- Services Video, VlcMediaPlayer
-- Services Comms, Mqtt ?? Robot
+- __Services__:
+  - __Video__ VlcMediaPlayer
+  - __Communications__ Mqtt ?? Robot
 
 # Name: Campeche
 
@@ -75,8 +78,9 @@
   - VisitorsCenter Image Visitors
     - ??? Assuming the record of images is performed but what if not?
   - VisitorsCenter Sound Station
-- Services Image, Eog
-- Services Sound, Mpg123
+- __Services__:
+  - __Image__ Eog
+  - __Sound__ Mpg123
 
 # Name: Guanajuato
 
@@ -85,7 +89,8 @@
 - __Station__: Chakmool
 - __Hochob Media__:
   - Corporate Image
-- Services Image, Eog
+- __Services__:
+  - __Image__ Eog
 
 # Name: Guerrero
 
@@ -94,7 +99,8 @@
 - __Station__: Chakmool
 - __Hochob Media__:
   - Corporate Video
-- Services Video, VlcMediaPlayer
+- __Services__:
+  - __Video__ VlcMediaPlayer
 
 # Name: Mexico
 
@@ -105,7 +111,8 @@
   - Camera Fswebcam
 - __Hochob Media__:
   - VisitorsCenter Image Visitors
-- Services Camera, Fswebcam
+- __Services__:
+  - __Camera__ Fswebcam
 
 # Name: Michoacan
 
@@ -116,8 +123,9 @@
   - Camera Fswebcam
 - __Hochob Media__:
   - VisitorsCenter Image Visitors
-- Services Camera, Fswebcam
-- Services Comms, Mqtt ?? Robot
+- __Services__:
+  - __Camera__ Fswebcam
+  - __Communications__ Mqtt ?? Robot
 
 # Name: Queretaro
 
@@ -126,7 +134,8 @@
 - __Station__: Chakmool
 - __Hochob Media__:
   - VisitorsCenter Image Visitors
-- Services Image, Eog
+- __Services__:
+  - __Image__ Eog
 
 # Name: Quintana Roo
 
@@ -135,4 +144,5 @@
 - __Station__: Chakmool
 - __Hochob Media__:
   - VisitorsCenter Video Visitors
-- Services Video, VlcMediaPlayer
+- __Services__:
+  - __Video__ VlcMediaPlayer
