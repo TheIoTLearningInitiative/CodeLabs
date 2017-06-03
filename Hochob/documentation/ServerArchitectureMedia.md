@@ -1,4 +1,4 @@
-# Hochob Media
+# Hochob Server Media
 
 - Corporate
   - Image
@@ -21,7 +21,7 @@
     - Drawing
     - Video
 
-# Hochob Media Source
+# Hochob Server Media Source
 
 - Camera
   - Fswebcam
