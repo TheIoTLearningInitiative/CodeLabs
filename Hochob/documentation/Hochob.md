@@ -18,8 +18,11 @@
 
 # Digital Media Players
 
-- Chromecast
-- Chromecast Audio
+- __Codename__: Eek', Estrella
+  - Chromecast
+- __Codename__: Juum, Sonido
+- __Codename__: Triki, Alma Gemela
+  - Chromecast Audio
 
 # Server
 
