@@ -35,7 +35,7 @@
 - Zacatecas
 
 # Name: Aguascalientes
-- Alias: Welcome Guadalajara Design Center
+- Alias: Welcome to Guadalajara Design Center
 - HomeAssistant: Introduccion Bienvenida y Protocolo de Seguridad
 - Station: Chakmool
 - Hochob Media:
@@ -45,7 +45,7 @@
 - Services Sound, Mpg123
 
 # Name: Baja California Norte
-- Alias: Before Video
+- Alias: Are you ready for the show?
 - HomeAssistant: Video Antes del Video
 - Station: Chakmool
 - Hochob Media:
