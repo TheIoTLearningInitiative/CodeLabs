@@ -2,8 +2,6 @@
 
 - Software Services
 - Software Applications
-- Hardware Amikoo
-- Hardware Stations
 
 # Software Services
 
