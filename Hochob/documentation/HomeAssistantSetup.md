@@ -26,8 +26,8 @@
 # Installation
 
 ```sh
-hochob@server:~$ sudo apt-get install python3-setuptools
-hochob@server:~$ sudo apt-get install python3-pip
+hochob@server:~$ sudo apt install python3-setuptools
+hochob@server:~$ sudo apt install python3-pip
 ```
 
 ```sh
