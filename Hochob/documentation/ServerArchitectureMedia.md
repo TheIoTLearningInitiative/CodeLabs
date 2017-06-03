@@ -5,6 +5,7 @@
   - Video
 - VisitorsCenter
   - Image
+    - Drawing
     - Place
     - Visitors
   - Music
