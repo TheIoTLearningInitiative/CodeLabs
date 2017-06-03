@@ -10,8 +10,8 @@
 > Software functionality
 
 - Automation
-- __Camera__
 - Calendar
+- __Camera__
 - Communications
 - LupeRobot
 - __Image__
