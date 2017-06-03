@@ -119,7 +119,7 @@
           * [Setup](Hochob/documentation/HomeAssistantSetup.md)
       * [Calendar](Hochob/documentation/Calendar.md)
       * [Camera](Hochob/documentation/Camera.md)
-      * [Institution Identification](Hochob/documentation/ServerMainInstitutionIdentification.md)
+      * [Institution](Hochob/documentation/ServerMainInstitutionIdentification.md)
       * [Image](Hochob/documentation/Image.md)
       * [Stream](Hochob/documentation/Stream.md)
       * [Play](Hochob/documentation/Play.md)
