@@ -5,6 +5,7 @@
 - Northern Maya Lowlands
 - Central Maya Lowlands
 - Southern Maya Highlands
+- Maya World
 
 # Architecture
 
