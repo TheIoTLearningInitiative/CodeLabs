@@ -4,6 +4,10 @@
 
 Areas
 
+- Southern Maya Highlands: Home
+- Central Maya Lowlands: Beggining
+- Northern Maya Lowlands: Experience
+
 - Home
 - Beginning
 - Experience
