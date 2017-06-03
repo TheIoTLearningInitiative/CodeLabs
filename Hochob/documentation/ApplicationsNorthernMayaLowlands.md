@@ -58,7 +58,7 @@
 
 # Name: Baja California Sur
 
-- Alias: Let our Robot begin!
+- Alias: Let our the show begin!
 - HomeAssistant: 
 - Station: Chakmool
 - Hochob Media:
