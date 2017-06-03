@@ -1,48 +1,56 @@
 #!/bin/sh
 
-# Server Setup
+# Hochob Setup
 sudo apt install git
 
-# Server Services Automation Home Assistant
+# Hochob Services Automation Home Assistant
 sudo apt install python3-setuptools
 sudo apt install python3-pip
 sudo pip3 install --upgrade pip
 sudo pip3 install homeassistant
 
-# Server Services Calendar
+# Hochob Services Calendar
 # None
 
-# Server Services Camera
+# Hochob Services Camera
 sudo apt install fswebcam
 
-# Server Services Communications
+# Hochob Services Communications
 # None
 
-# Server Services Lupe Robot
+# Hochob Services Lupe Robot
 # None
 
-# Server Services Institution
+# Hochob Services Institution
 # None
 
-# Server Services Image
+# Hochob Services Image
 sudo apt install eog
 
-# Server Services Motion
+# Hochob Services Messaging
+# None
 
-# Server Services Sound Speech Synthetizer
+# Hochob Services Motion
+# None
+
+# Hochob Services Sound Speech Synthetizer
 sudo apt install espeak tee
 
-# Server Services Stream
+# Hochob Services Stream
 sudo apt install ffmpeg
 sudo apt install libav-tools
 
-# Server Services Usb
+# Hochob Services Usb
 # None
 
-# Server Services Video
+# Hochob Services Video
 # None
 
-# Server Services Telegram
+# Hochob Services Telegram
 # None
+
+
+test -d /tmp/HochobMediaSource/ && echo "Directory exists" || mkdir /tmp/HochobMediaSource/
+test -d /tmp/HochobMediaSource/ && echo "Directory exists" || mkdir /tmp/HochobMediaSource/
 
 # End of File
