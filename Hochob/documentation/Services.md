@@ -31,6 +31,7 @@
   - Feh
   - Drawing
   - Scale
+- Institution
 - Messaging
   - Telegram
 - Motion
