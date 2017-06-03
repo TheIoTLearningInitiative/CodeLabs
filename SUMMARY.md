@@ -145,7 +145,7 @@
       * [Photography](Hochob/documentation/Photography.md)
       * [USB](Hochob/documentation/USB.md)
       * [VLC Media Player](Hochob/documentation/VlcMediaPlayer.md)
-  * [Stations](Hochob/documentation/Stations.md)
+  * [Stations](Hochob/documentation/Station.md)
   * [Sandbox](Hochob/documentation/Sandbox.md)
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
