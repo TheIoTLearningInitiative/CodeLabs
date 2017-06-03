@@ -1,11 +1,15 @@
 # Digital Media Players
 
-# Chromecast Video
+## Video
 
-> __Codename__: Eek', Estrella
-- Chromecast
+- __Codename__: Eek', Estrella
+  - Chromecast
 
-# Chromecast Audio
+## Audio
 
-> __Codename__: Juum, Sonido
-> __Codename__: Triki, Alma Gemela
+- __Codename__: Juum, Sonido
+  - Chromecast Audio
+
+- __Codename__: Triki, Alma Gemela
+  - Chromecast Audio
+
