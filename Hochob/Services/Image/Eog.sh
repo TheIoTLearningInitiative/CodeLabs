@@ -6,15 +6,11 @@ set -x
 # Variables
 # =============================================================================
 
-#. ~/CodeLabs/Hochob/Main.sh
-
 export EOG_PID=$$
 export EOG_BINARY=eog
 export EOG_ARGUMENTS="-sf"
 
 LOCAL_FILES="$1"
-
-#export PATH=$PATH:$EOG_ROOT
 
 # =============================================================================
 # Functions
