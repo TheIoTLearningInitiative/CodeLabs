@@ -6,7 +6,6 @@
 - Central Maya Lowlands: Beginning
 - Southern Maya Highlands: Experience
 
-
 # Architecture
 
 Name:
