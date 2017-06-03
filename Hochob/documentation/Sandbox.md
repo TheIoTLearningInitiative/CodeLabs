@@ -2,6 +2,7 @@
 
 # Nice To Have
 
+- Do we need to kill processes form Services or Applications?
 - [Google Calendar Command Line Interface](https://github.com/insanum/gcalcli)
 - HaDashBoard
 - Google Assistant
