@@ -55,8 +55,8 @@
 - Services Sound, Mpg123
 
 # Name: Baja California Sur
-- Alias: Lupe Robot Show
-- HomeAssistant: Video Video
+- Alias: Let our Robot begin!
+- HomeAssistant: 
 - Station: Chakmool
 - Hochob Media:
   - VisitorsCenter Video LupeRobot
