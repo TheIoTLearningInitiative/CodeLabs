@@ -1,9 +1,5 @@
 # Server Setup
 
-# Issues
-
-* Make server not ask for password with sudo
-
 ```sh
 hochob@server:~$ /sbin/ifconfig
 enp0s25: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500

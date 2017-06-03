@@ -11,6 +11,10 @@
 - HochobMedia automatic creation of estructure
   - under Main.sh test $DIR
 
+# Issues
+
+* Make server not ask for password with sudo
+
 # Applications
 
 - Corporate
