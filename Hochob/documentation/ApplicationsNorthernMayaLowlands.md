@@ -58,7 +58,7 @@
 
 # Name: Baja California Sur
 
-- Alias: Let our the show begin!
+- Alias: Let the show begin!
 - HomeAssistant: 
 - Station: Chakmool
 - Hochob Media:
@@ -68,7 +68,7 @@
 
 # Name: Campeche
 
-- Alias: Welcome Visitors Center
+- Alias: Welcome to our Visitors Center
 - HomeAssistant: Video Despues del Video
 - Station: Chakmool
 - Hochob Media:
