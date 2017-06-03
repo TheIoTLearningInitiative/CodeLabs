@@ -22,7 +22,17 @@
 - Nuevo Leon
 - Oaxaca
 - Puebla
-- 
+- Queretaro
+- Quintana Roo
+- San Luis Potosi
+- Sinaloa
+- Sonora
+- Tabasco
+- Tamaulipas
+- Tlaxcala
+- Veracruz
+- Yucatan
+- Zacatecas
 
 - Name: Aguascalientes
   - Alias: Home Welcome Guadalajara Design Center
