@@ -1,6 +1,6 @@
 # Mobile Device
 
-- __Codename__:  Muuk’, Poder, Buddy
+- __Codename__: Muuk’, Poder, Buddy
   - Samsung SM-A500M
   - Personal Device
   - aka Mobile Controller
