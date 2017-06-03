@@ -5,10 +5,10 @@
     - configuration.yaml
 - Calendar
   - Google Calendar API
-    - hbsCalendarGcaMain.py
+    - Google.py
 - Camera
   - FSWebcam
-    - hbsCameraFswMain.sh
+    - Fswebcam.sh
 - Communications
   - MqttServer
     - VerneMQ
@@ -25,7 +25,7 @@
       - Speaker
 - Image
   - Eog
-    - hbsImageEogMain.sh [files]
+    - Eog.sh [files]
   - Feh
   - Drawing
   - Scale
@@ -36,21 +36,21 @@
 - Sound
   - Player
     - Mpg123
-      - hbsSoundPxMpgMain.sh [file]
+      - Mpg123.sh [file]
     - Aplay
-      - hbsSoundPxAplMain.sh [file]
+      - Aplay.sh [file]
   - Server
     - PulseAudio
   - SpeechSynthesizer
-    - hbsSoundSsEspeakMain.sh [play] [language] [input]
+    - Espeak.sh [play] [language] [input]
       - Record and Play [on]
       - Record Only [off]
 - Stream
   - Chromecast
-    - hbsStreamS2cMain.sh [device] [volume] [file]
+    - Stream2Chromecast.sh [device] [volume] [file]
   - Plex Media Server
 - Usb
 - Video
   - VlcMediaPlayer
-    - hbsVideoVlcMain.sh [loop] [file]
+    - Vlc.sh [loop] [file]
 
