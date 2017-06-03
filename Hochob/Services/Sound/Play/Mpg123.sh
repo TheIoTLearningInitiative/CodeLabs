@@ -7,7 +7,6 @@ set -x
 # =============================================================================
 
 export MPG123_PID=$$
-export MPG123_ROOT=$HOCHOB_SERVER_SERVICES_SOUND_PLAY
 export MPG123_BINARY=mpg123
 
 LOCAL_FILE="$1"
