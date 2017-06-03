@@ -15,8 +15,8 @@
 - __Guerrero__
 - Hidalgo
 - Jalisco
-- Mexico
-- Michoacan
+- __Mexico__
+- __Michoacan__
 - Morelos
 - Nayarit
 - Nuevo Leon
@@ -78,17 +78,6 @@
 - Services Image, Eog
 - Services Sound, Mpg123
 
-# Name: Chiapas
-
-- Alias: Visitors Center Welcome Memories
-- HomeAssistant:
-- Station: Chakmool
-- Hochob Media: Source
-  - Camera Fswebcam
-- Hochob Media:
-  - VisitorsCenter Image Visitors
-- Services Camera, Fswebcam
-
 # Name: Guanajuato
 
 - Alias: Corporate Image Showcase
@@ -125,7 +114,18 @@
   - VisitorsCenter Video Visitors
 - Services Video, VlcMediaPlayer
 
-# Name: Chiapas
+# Name: Mexico
+
+- Alias: Welcome Memories
+- HomeAssistant:
+- Station: Chakmool
+- Hochob Media: Source
+  - Camera Fswebcam
+- Hochob Media:
+  - VisitorsCenter Image Visitors
+- Services Camera, Fswebcam
+
+# Name: Michoacan
 
 - Alias: Visitors Center Cheers
 - HomeAssistant:
