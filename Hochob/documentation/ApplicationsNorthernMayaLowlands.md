@@ -95,54 +95,54 @@
 # Name: Guerrero
 
 - __Alias__: Corporate Video Showcase
-- __HomeAssistant__: 
 - __Station__: Chakmool
 - __Hochob Media__:
   - Corporate Video
 - __Services__:
+  - __Automation HomeAssistant__: 
   - __Video__ VlcMediaPlayer
 
 # Name: Mexico
 
 - __Alias__: Welcome Memories
-- __HomeAssistant__:
 - __Station__: Chakmool
 - __Hochob Media Source__:
   - Camera Fswebcam
 - __Hochob Media__:
   - VisitorsCenter Image Visitors
 - __Services__:
+  - __Automation HomeAssistant__:
   - __Camera__ Fswebcam
 
 # Name: Michoacan
 
 - __Alias__: Say cheese!
-- __HomeAssistant__:
 - __Station__: Chakmool
 - __Hochob Media Source__:
   - Camera Fswebcam
 - __Hochob Media__:
   - VisitorsCenter Image Visitors
 - __Services__:
+  - __Automation HomeAssistant__:
   - __Camera__ Fswebcam
   - __Communications__ Mqtt ?? Robot
 
 # Name: Queretaro
 
 - __Alias__: Visitors Center Image Showcase
-- __HomeAssistant__: 
 - __Station__: Chakmool
 - __Hochob Media__:
   - VisitorsCenter Image Visitors
 - __Services__:
+  - __Automation HomeAssistant__: 
   - __Image__ Eog
 
 # Name: Quintana Roo
 
 - __Alias__: Visitors Center Video Showcase
-- __HomeAssistant__: 
 - __Station__: Chakmool
 - __Hochob Media__:
   - VisitorsCenter Video Visitors
 - __Services__:
+  - __Automation HomeAssistant__: 
   - __Video__ VlcMediaPlayer
