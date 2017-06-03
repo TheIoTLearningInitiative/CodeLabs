@@ -75,6 +75,8 @@
 A set of devices:
 
 - Display Device
+  - With Touchscreen
+  - without Touchscreen
 
 # Nice To Have
 
