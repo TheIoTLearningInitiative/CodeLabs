@@ -1,11 +1,11 @@
 #!/bin/sh
 
 # Server Setup
-sudo apt-get install git
+sudo apt install git
 
 # Server Services Automation Home Assistant
-sudo apt-get install python3-setuptools
-sudo apt-get install python3-pip
+sudo apt install python3-setuptools
+sudo apt install python3-pip
 sudo pip3 install --upgrade pip
 sudo pip3 install homeassistant
 
@@ -22,7 +22,10 @@ sudo apt install fswebcam
 sudo apt install eog
 
 # Server Services Stream
-sudo apt-get install ffmpeg
-sudo apt-get install libav-tools
+sudo apt install ffmpeg
+sudo apt install libav-tools
+
+# Server Services Sound Speech Synthetizer
+sudo apt install espeak tee
 
 # End of File
