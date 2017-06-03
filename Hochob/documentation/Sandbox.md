@@ -2,6 +2,7 @@
 
 # Nice To Have
 
+- Institutuion Identification? A swith on and off, on script puts the name under a file, off the script remove that file
 - Do we need to kill processes form Services or Applications?
 - [Google Calendar Command Line Interface](https://github.com/insanum/gcalcli)
 - HaDashBoard
