@@ -9,21 +9,22 @@
 - Server
 - Mobile Device
 - Robot
+- Stations
 - [Remote Button](http://electronics.stackexchange.com/questions/255922/esp8266-driving-relay-and-reading-button)
 
-## Accounts
+# Accounts
 
 - Gmail
 - Plex
 
-## Digital Media Players
+# Digital Media Players
 
-### Video
+## Video
 
 - __Codename__: Eek', Estrella
   - Chromecast
 
-### Audio
+## Audio
 
 - __Codename__: Juum, Sonido
   - Chromecast Audio
@@ -31,7 +32,7 @@
 - __Codename__: Triki, Alma Gemela
   - Chromecast Audio
 
-## Server
+# Server
 
 - __Codename__: Hochob
 - NUC 5i5MYHE
@@ -48,20 +49,32 @@
   - Chromecast
   - Kodi
 
-## Mobile Device
+# Mobile Device
 
 - __Codename__:  Muuk’, Poder, Buddy
   - Samsung SM-A500M
   - Personal Device
 
-## Robot
+# Robot
 
-- __Codename__:  Lupe
+- __Codename__:  Amikoo
 - Hardware
   - Intel Edison
   - Yocto v2.5 Based
 - Software
   - C++, NodeJS
+- Architecture
+  - Services
+  - Camera
+  - Sound
+    - Speaker
+    - Microphone
+
+# Stations
+
+A set of devices:
+
+- Display Device
 
 # Nice To Have
 
@@ -80,19 +93,3 @@
 - Audios Corto y Largo
 - Drawing 
 - Motion http://lavrsen.dk/foswiki/bin/view/Motion/WebHome
-
-# Hardware Amikoo
-
-- Services
-- Camera
-- Sound
-  - Speaker
-  - Microphone
-
-# Hardware Stations
-
-A set of devices:
-
-- Display Device
-- Streaming Device
-
