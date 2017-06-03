@@ -6,16 +6,12 @@ set -x
 # Variables
 # =============================================================================
 
-. ~/CodeLabs/Hochob/Main.sh
-
 export STREAM2CHROMECAST_PID=$$
 export STREAM2CHROMECAST_BINARY=stream2chromecast.py
 
 LOCAL_DEVICE="$1"
 LOCAL_VOLUME="$2"
 LOCAL_FILE="$3"
-
-export PATH=$PATH:$STREAM2CHROMECAST_ROOT
 
 # =============================================================================
 # Functions
