@@ -27,7 +27,7 @@
   - Hochob Media:
     - VisitorsCenter Video LupeRobot
   - Services Video, VlcMediaPlayer
-  - Services Comms, Mqtt
+  - Services Comms, Mqtt ?? Robot
 - Name: Campeche
   - Alias: Home Welcome Visitors Center
   - HomeAssistant: Video Despues del Video
