@@ -15,13 +15,13 @@
 - Communications
 - LupeRobot
 - __Image__
+- Messaging
+  - Telegram
 - Motion
 - __Sound__
 - Stream
 - Usb
 - __Video__
-- Messaging
-  - Telegram
 
 # Software Applications
 
