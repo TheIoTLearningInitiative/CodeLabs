@@ -96,24 +96,6 @@
   - Corporate Video
 - Services Video, VlcMediaPlayer
 
-# Name: Queretaro
-
-- Alias: Visitors Center Image Showcase
-- HomeAssistant: 
-- Station: Chakmool
-- Hochob Media:
-  - VisitorsCenter Image Visitors
-- Services Image, Eog
-
-# Name: Quintana Roo
-
-- Alias: Visitors Center Video Showcase
-- HomeAssistant: 
-- Station: Chakmool
-- Hochob Media:
-  - VisitorsCenter Video Visitors
-- Services Video, VlcMediaPlayer
-
 # Name: Mexico
 
 - Alias: Welcome Memories
@@ -137,5 +119,20 @@
 - Services Camera, Fswebcam
 - Services Comms, Mqtt ?? Robot
 
+# Name: Queretaro
 
+- Alias: Visitors Center Image Showcase
+- HomeAssistant: 
+- Station: Chakmool
+- Hochob Media:
+  - VisitorsCenter Image Visitors
+- Services Image, Eog
 
+# Name: Quintana Roo
+
+- Alias: Visitors Center Video Showcase
+- HomeAssistant: 
+- Station: Chakmool
+- Hochob Media:
+  - VisitorsCenter Video Visitors
+- Services Video, VlcMediaPlayer
