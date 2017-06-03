@@ -27,7 +27,7 @@
   - Eog
     - Eog.sh [files]
   - Feh
-  - Drawing
+  - Draw
   - Scale
 - Institution
 - Messaging
