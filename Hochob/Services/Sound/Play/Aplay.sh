@@ -7,7 +7,6 @@ set -x
 # =============================================================================
 
 export APLAY_PID=$$
-export APLAY_ROOT=$HOCHOB_SERVER_SERVICES_SOUND_PLAY
 export APLAY_BINARY=aplay
 
 LOCAL_FILE="$1"
