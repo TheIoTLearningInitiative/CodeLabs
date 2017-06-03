@@ -35,7 +35,7 @@
 - Zacatecas
 
 # Name: Aguascalientes
-- Alias: Home Welcome Guadalajara Design Center
+- Alias: Welcome Guadalajara Design Center
 - HomeAssistant: Introduccion Bienvenida y Protocolo de Seguridad
 - Station: Chakmool
 - Hochob Media:
@@ -45,7 +45,7 @@
 - Services Sound, Mpg123
 
 # Name: Baja California Norte
-- Alias: Home Before Video
+- Alias: Before Video
 - HomeAssistant: Video Antes del Video
 - Station: Chakmool
 - Hochob Media:
@@ -55,7 +55,7 @@
 - Services Sound, Mpg123
 
 # Name: Baja California Sur
-- Alias: Home Lupe Robot Show
+- Alias: Lupe Robot Show
 - HomeAssistant: Video Video
 - Station: Chakmool
 - Hochob Media:
@@ -64,7 +64,7 @@
 - Services Comms, Mqtt ?? Robot
 
 # Name: Campeche
-- Alias: Home Welcome Visitors Center
+- Alias: Welcome Visitors Center
 - HomeAssistant: Video Despues del Video
 - Station: Chakmool
 - Hochob Media:
@@ -75,7 +75,7 @@
 - Services Sound, Mpg123
 
 # Name: Chiapas
-- Alias: Home Visitors Welcome Memories
+- Alias: Visitors Welcome Memories
 - HomeAssistant:
 - Station: Chakmool
 - Hochob Media: Source
@@ -85,7 +85,7 @@
 - Services Camera, Fswebcam
 
 # Name: Chihuahua
-- Alias: Home Corporate Image Showcase
+- Alias: Corporate Image Showcase
 - HomeAssistant: 
 - Station: Chakmool
 - Hochob Media:
@@ -93,7 +93,7 @@
 - Services Image, Eog
 
 # Name: Coahuila
-- Alias: Home Corporate Video Showcase
+- Alias: Corporate Video Showcase
 - HomeAssistant: 
 - Station: Chakmool
 - Hochob Media:
@@ -101,7 +101,7 @@
 - Services Video, VlcMediaPlayer
 
 # Name: Colima
-- Alias: Home Visitors Center Image Showcase
+- Alias: Visitors Center Image Showcase
 - HomeAssistant: 
 - Station: Chakmool
 - Hochob Media:
@@ -109,7 +109,7 @@
 - Services Image, Eog
 
 # Name: Durango
-- Alias: Home Visitors Center Video Showcase
+- Alias: Visitors Center Video Showcase
 - HomeAssistant: 
 - Station: Chakmool
 - Hochob Media:
@@ -117,7 +117,7 @@
 - Services Video, VlcMediaPlayer
 
 # Name: Chiapas
-- Alias: Home Visitors Cheers
+- Alias: Visitors Cheers
 - HomeAssistant:
 - Station: Chakmool
 - Hochob Media: Source
