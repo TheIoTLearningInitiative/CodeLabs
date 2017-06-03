@@ -8,7 +8,7 @@
     - Camera
     - Drawing
     - Video
-  - Official
+  - Applications
     - Image
     - Music
     - Sound
