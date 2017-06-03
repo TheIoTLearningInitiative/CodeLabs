@@ -6,18 +6,13 @@ set -x
 # Variables
 # =============================================================================
 
-. ~/CodeLabs/Hochob/Main.sh
-
 export VLC_PID=$$
-export VLC_ROOT=$HOCHOB_SERVER_SERVICES_VIDEO
 export VLC_BINARY=cvlc
 export VLC_ARGUMENTS="--no-video-title-show --fullscreen"
 export VLC_LOOP="--loop"
 
 LOCAL_LOOP="$1"
 LOCAL_FILE="$2"
-
-export PATH=$PATH:$VLC_ROOT
 
 # =============================================================================
 # Functions
