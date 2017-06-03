@@ -1,6 +1,9 @@
 # Mobile Device
 
-> aka Mobile Controller
+- __Codename__:  Muuk’, Poder, Buddy
+  - Samsung SM-A500M
+  - Personal Device
+  - aka Mobile Controller
 
 # Applications: Plex
 

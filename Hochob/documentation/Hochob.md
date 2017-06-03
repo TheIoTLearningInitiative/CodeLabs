@@ -23,20 +23,7 @@
 
 # Server
 
-- __Codename__: Hochob
-- NUC 5i5MYHE
-- Linux Lubuntu Based
-- Components
-  - Python
-  - VLC Media Player
-  - Plex
-  - Telegram
-  - Photography
-  - Video
-  - Home Assistant
-  - Pulse Audio
-  - Chromecast
-  - Kodi
+- NUC 5i5MYHE Linux Lubuntu Based
 
 # Mobile Device
 
