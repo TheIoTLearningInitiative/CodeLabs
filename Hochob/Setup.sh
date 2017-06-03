@@ -21,11 +21,11 @@ sudo apt install fswebcam
 # Hochob Services Lupe Robot
 # None
 
-# Hochob Services Institution
-# None
-
 # Hochob Services Image
 sudo apt install eog
+
+# Hochob Services Institution
+# None
 
 # Hochob Services Messaging
 # None
@@ -44,9 +44,6 @@ sudo apt install libav-tools
 # None
 
 # Hochob Services Video
-# None
-
-# Hochob Services Telegram
 # None
 
 test -d /tmp/HochobMediaSource/ && echo "Directory exists" || mkdir /tmp/HochobMediaSource/
