@@ -23,7 +23,7 @@ export MICHOACAN_DIRECTORY=$(dirname "$AGUASCALIENTES_PATH")
 # =============================================================================
 
 Fswebcam.sh
-cp $FSWEBCAM_IMAGE $MEMORIES_CAMERA
+cp "$FSWEBCAM_IMAGE" "$MEMORIES_CAMERA"
 
 kill -- -$(ps -o pgid=$MICHOACAN_PID | grep -o '[0-9]*')
 
