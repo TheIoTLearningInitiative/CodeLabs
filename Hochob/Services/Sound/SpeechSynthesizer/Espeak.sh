@@ -9,7 +9,6 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export ESPEAK_PID=$$
-export ESPEAK_ROOT=$HOCHOB_SERVER_SERVICES_SOUND_SPEECHSYNTHETIZER
 export ESPEAK_BINARY=espeak
 export ESPEAK_ARGUMENTS="--stdout"
 export ESPEAK_PLAY="-w"
@@ -21,8 +20,6 @@ export ESPEAK_OUTPUT=$HOCHOB_SERVER_MEDIA_SOURCE_SOUND_SPEECHSYNTHETIZER_ESPEAK_
 LOCAL_PLAY="$1"
 LOCAL_LANGUAGE="$2"
 LOCAL_TEXT="$3"
-
-export PATH=$PATH:$ESPEAK_ROOT
 
 # =============================================================================
 # Functions
