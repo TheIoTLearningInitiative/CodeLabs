@@ -127,7 +127,7 @@
 
 # Name: Michoacan
 
-- Alias: Cheers!
+- Alias: Say cheese!
 - HomeAssistant:
 - Station: Chakmool
 - Hochob Media: Source
