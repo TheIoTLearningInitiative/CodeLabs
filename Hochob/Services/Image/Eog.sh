@@ -9,7 +9,6 @@ set -x
 #. ~/CodeLabs/Hochob/Main.sh
 
 export EOG_PID=$$
-export EOG_ROOT=$HOCHOB_SERVER_SERVICES_IMAGE
 export EOG_BINARY=eog
 export EOG_ARGUMENTS="-sf"
 
