@@ -4,7 +4,8 @@
 
 # Home
 
-- Name: (States) Home Welcome Guadalajara Design Center
+- Name: Aguascalientes
+  - Alias: Home Welcome Guadalajara Design Center
   - HomeAssistant: Introduccion Bienvenida y Protocolo de Seguridad
   - Station: Chakmool
   - Hochob Media: Official
@@ -12,7 +13,8 @@
     - VisitorsCenter Sound Station
   - Services Image, Eog
   - Services Sound, Mpg123
-- Name: Home Before Video
+- Name: Baja California Norte
+  - Alias: Home Before Video
   - HomeAssistant: Video Antes del Video
   - Station: Chakmool
   - Hochob Media: Official
@@ -20,14 +22,16 @@
     - VisitorsCenter Sound Station
   - Services Image, Eog
   - Services Sound, Mpg123
-- Name: Home Lupe Robot Show
+- Name: Baja California Sur
+  - Alias: Home Lupe Robot Show
   - HomeAssistant: Video Video
   - Station: Chakmool
   - Hochob Media: Official
     - VisitorsCenter Video LupeRobot
   - Services Video, VlcMediaPlayer
   - Services Comms, Mqtt
-- Name: Home Welcome Visitors Center
+- Name: Campeche
+  - Alias: Home Welcome Visitors Center
   - HomeAssistant: Video Despues del Video
   - Station: Chakmool
   - Hochob Media: Official
@@ -36,7 +40,8 @@
     - VisitorsCenter Sound Station
   - Services Image, Eog
   - Services Sound, Mpg123
-- Name: Home Visitors Welcome Memories
+- Name: Chiapas
+  - Alias: Home Visitors Welcome Memories
   - HomeAssistant:
   - Station: Chakmool
   - Hochob Media: Source
@@ -44,25 +49,29 @@
   - Hochob Media: Official
     - VisitorsCenter Image Visitors
   - Services Camera, Fswebcam
-- Name: Home Corporate Image Showcase
+- Name: Chihuahua
+  - Alias: Home Corporate Image Showcase
   - HomeAssistant: 
   - Station: Chakmool
   - Hochob Media: Official
     - Corporate Image
   - Services Image, Eog
-- Name: Home Corporate Video Showcase
+- Name: Coahuila
+  - Alias: Home Corporate Video Showcase
   - HomeAssistant: 
   - Station: Chakmool
   - Hochob Media: Official
     - Corporate Video
   - Services Video, VlcMediaPlayer
-- Name: Home Visitors Center Image Showcase
+- Name: Colima
+  - Alias: Home Visitors Center Image Showcase
   - HomeAssistant: 
   - Station: Chakmool
   - Hochob Media: Official
     - VisitorsCenter Image Visitors
   - Services Image, Eog
-- Name: Home Visitors Center Video Showcase
+- Name: Durango
+  - Alias: Home Visitors Center Video Showcase
   - HomeAssistant: 
   - Station: Chakmool
   - Hochob Media: Official
