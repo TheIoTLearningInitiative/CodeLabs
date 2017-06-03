@@ -80,3 +80,19 @@
 - Audios Corto y Largo
 - Drawing 
 - Motion http://lavrsen.dk/foswiki/bin/view/Motion/WebHome
+
+# Hardware Amikoo
+
+- Services
+- Camera
+- Sound
+  - Speaker
+  - Microphone
+
+# Hardware Stations
+
+A set of devices:
+
+- Display Device
+- Streaming Device
+

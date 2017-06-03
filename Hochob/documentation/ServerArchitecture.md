@@ -74,21 +74,6 @@
     - Drawing
     - Video
 
-# Hardware Amikoo
-
-- Services
-- Camera
-- Sound
-  - Speaker
-  - Microphone
-
-# Hardware Stations
-
-A set of devices:
-
-- Display Device
-- Streaming Device
-
 # ToDo
 
 - Check Arguments
