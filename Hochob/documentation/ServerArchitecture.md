@@ -20,7 +20,8 @@
 - Stream
 - Usb
 - __Video__
-- Telegram
+- Messaging
+  - Telegram
 
 # Software Applications
 
