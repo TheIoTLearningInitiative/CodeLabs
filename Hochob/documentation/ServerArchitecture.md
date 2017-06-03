@@ -15,6 +15,7 @@
 - Communications
 - LupeRobot
 - __Image__
+- Institution
 - Messaging
   - Telegram
 - Motion
