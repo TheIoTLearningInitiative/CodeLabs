@@ -46,7 +46,4 @@ sudo apt install libav-tools
 # Hochob Server Services Video
 # None
 
-test -d /tmp/HochobMediaSource/ && echo "Directory exists" || mkdir /tmp/HochobMediaSource/
-test -d /tmp/HochobMediaSource/ && echo "Directory exists" || mkdir /tmp/HochobMediaSource/
-
 # End of File
