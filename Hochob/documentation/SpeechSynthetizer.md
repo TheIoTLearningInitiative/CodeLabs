@@ -1,7 +1,7 @@
 # Speech Synthetizer
 
 ```sh
-hochob@server:~# apt install espeak tee
+hochob@server:~$ sudo apt install espeak tee
 ```
 
 1. Record and Play

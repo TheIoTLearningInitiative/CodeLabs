@@ -1,5 +1,5 @@
 # Image
 
 ```sh
-hochob@server:~$ apt install eog
+hochob@server:~$ sudo apt install eog
 ```

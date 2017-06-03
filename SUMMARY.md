@@ -123,7 +123,7 @@
       * [Image](Hochob/documentation/Image.md)
       * [Stream](Hochob/documentation/Stream.md)
       * [Play](Hochob/documentation/Play.md)
-      * Sound
+      * [Sound](Hochob/documentation/sound.md)
         * [Speech Synthetizer](Hochob/documentation/SpeechSynthetizer.md)
       * [PulseAudio](Hochob/documentation/PulseAudio.md)
       * [Telegram](Hochob/documentation/Telegram.md)
