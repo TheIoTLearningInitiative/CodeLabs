@@ -2,9 +2,9 @@
 
 > Set of software functionalities.
 
-- Northern Maya Lowlands: Home
-- Central Maya Lowlands: Beginning
-- Southern Maya Highlands: Experience
+- Northern Maya Lowlands
+- Central Maya Lowlands
+- Southern Maya Highlands
 
 # Architecture
 
