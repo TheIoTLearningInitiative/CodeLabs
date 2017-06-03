@@ -6,7 +6,7 @@ set -x
 # Variables
 # =============================================================================
 
-. ~/CodeLabs/Hochob/Main.sh
+#. ~/CodeLabs/Hochob/Main.sh
 
 export EOG_PID=$$
 export EOG_ROOT=$HOCHOB_SERVER_SERVICES_IMAGE
@@ -15,7 +15,7 @@ export EOG_ARGUMENTS="-sf"
 
 LOCAL_FILES="$1"
 
-export PATH=$PATH:$EOG_ROOT
+#export PATH=$PATH:$EOG_ROOT
 
 # =============================================================================
 # Functions
