@@ -36,7 +36,7 @@
 
 # Name: Aguascalientes
 
-- __Alias__: Welcome to Guadalajara Design Center
+- __Alias__: Welcome to Guadalajara Design Center!
 - __Station__: Chakmool
 - __Hochob Media__:
   - Corporate Image
