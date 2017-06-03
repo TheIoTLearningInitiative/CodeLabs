@@ -26,7 +26,7 @@ export PATH=$PATH:$MPG123_ROOT
 # Main
 # =============================================================================
 
-if [ $# -eq 1 ] 
+if [ $# -eq 1 ]
 then
     killall -9 $MPG123_BINARY
     $MPG123_BINARY $LOCAL_FILE
