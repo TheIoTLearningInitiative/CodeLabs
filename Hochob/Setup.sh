@@ -15,17 +15,34 @@ sudo pip3 install homeassistant
 # Server Services Camera
 sudo apt install fswebcam
 
+# Server Services Communications
+# None
+
+# Server Services Lupe Robot
+# None
+
 # Server Services Institution
 # None
 
 # Server Services Image
 sudo apt install eog
 
+# Server Services Motion
+
+# Server Services Sound Speech Synthetizer
+sudo apt install espeak tee
+
 # Server Services Stream
 sudo apt install ffmpeg
 sudo apt install libav-tools
 
-# Server Services Sound Speech Synthetizer
-sudo apt install espeak tee
+# Server Services Usb
+# None
+
+# Server Services Video
+# None
+
+# Server Services Telegram
+# None
 
 # End of File
