@@ -12,6 +12,10 @@
 - Colima
 - Durango
 - Guanajuato
+- Guerrero
+- Hidalgo
+- Jalisco
+
 
 - Name: Aguascalientes
   - Alias: Home Welcome Guadalajara Design Center
