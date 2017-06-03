@@ -133,7 +133,7 @@
       * [USB](Hochob/documentation/USB.md)
       * [VLC Media Player](Hochob/documentation/VlcMediaPlayer.md)
   * [Mobile Device](Hochob/documentation/MobileDevice.md)
-  * [Lupe Robot](Hochob/documentation/LupeRobot.md)
+  * [Robot](Hochob/documentation/LupeRobot.md)
     * [Architecture](Hochob/documentation/LupeRobotArchitecture.md)
       * [Hardware Components](Hochob/documentation/LupeRobotHardwareComponents.md)
         * [Intel®  Edison  Breakout Board](Hochob/documentation/LupeRobotHardwareComponentsIntelEdisonBreakoutBoard.md)
