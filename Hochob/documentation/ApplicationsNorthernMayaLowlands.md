@@ -2,28 +2,28 @@
 
 > The states of Mexico are first-level administrative territorial entities of the country of Mexico, which officially is named United Mexican States. There are 31 states in Mexico.[1] Mexico City is a federal entity with a level of autonomy comparable to that of a state, but is not a state itself. [Wikipedia](https://en.wikipedia.org/wiki/States_of_Mexico)
 
-- Aguascalientes
-- Baja California
-- Baja California Sur
-- Campeche
+- __Aguascalientes__
+- __Baja California__
+- __Baja California Sur__
+- __Campeche__
 - Chiapas
 - Chihuahua
 - Coahuila
 - Colima
 - Durango
-- Guanajuato
-- Guerrero
+- __Guanajuato__
+- __Guerrero__
 - Hidalgo
 - Jalisco
 - Mexico
 - Michoacan
-- Moreles
+- Morelos
 - Nayarit
 - Nuevo Leon
 - Oaxaca
 - Puebla
-- Queretaro
-- Quintana Roo
+- __Queretaro__
+- __Quintana Roo__
 - San Luis Potosi
 - Sinaloa
 - Sonora
@@ -89,7 +89,7 @@
   - VisitorsCenter Image Visitors
 - Services Camera, Fswebcam
 
-# Name: Chihuahua
+# Name: Guanajuato
 
 - Alias: Corporate Image Showcase
 - HomeAssistant: 
@@ -98,7 +98,7 @@
   - Corporate Image
 - Services Image, Eog
 
-# Name: Coahuila
+# Name: Guerrero
 
 - Alias: Corporate Video Showcase
 - HomeAssistant: 
@@ -107,7 +107,7 @@
   - Corporate Video
 - Services Video, VlcMediaPlayer
 
-# Name: Colima
+# Name: Queretaro
 
 - Alias: Visitors Center Image Showcase
 - HomeAssistant: 
@@ -116,7 +116,7 @@
   - VisitorsCenter Image Visitors
 - Services Image, Eog
 
-# Name: Durango
+# Name: Quintana Roo
 
 - Alias: Visitors Center Video Showcase
 - HomeAssistant: 
