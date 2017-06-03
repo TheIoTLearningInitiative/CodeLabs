@@ -8,13 +8,13 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export HBS_SOUND_PX_APLAY_PID=$$
-export HBS_SOUND_PX_APLAY_ROOT=$HOCHOB_SERVER_SERVICES_SOUND_PLAY
-export HBS_SOUND_PX_APLAY_BINARY=aplay
+export APLAY_PID=$$
+export APLAY_ROOT=$HOCHOB_SERVER_SERVICES_SOUND_PLAY
+export APLAY_BINARY=aplay
 
 LOCAL_FILE="$1"
 
-export PATH=$PATH:$HBS_SOUND_PX_APLAY_ROOT
+export PATH=$PATH:$APLAY_ROOT
 
 # =============================================================================
 # Functions
@@ -28,8 +28,8 @@ export PATH=$PATH:$HBS_SOUND_PX_APLAY_ROOT
 
 if [ $# -eq 1 ] 
 then
-    killall -9 $HBS_SOUND_PX_APLAY_BINARY
-    $HBS_SOUND_PX_APLAY_BINARY $LOCAL_FILE
+    killall -9 $APLAY_BINARY
+    $APLAY_BINARY $LOCAL_FILE
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
