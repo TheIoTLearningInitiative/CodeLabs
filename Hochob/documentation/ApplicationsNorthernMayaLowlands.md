@@ -5,7 +5,13 @@
 - Aguascalientes
 - Baja California
 - Baja California Sur
-
+- Campeche
+- Chiapas
+- Chihuahua
+- Coahuila
+- Colima
+- Durango
+- Guanajuato
 
 - Name: Aguascalientes
   - Alias: Home Welcome Guadalajara Design Center
