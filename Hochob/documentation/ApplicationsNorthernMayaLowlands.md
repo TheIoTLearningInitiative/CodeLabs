@@ -35,6 +35,7 @@
 - Zacatecas
 
 # Name: Aguascalientes
+
 - Alias: Welcome to Guadalajara Design Center
 - HomeAssistant: Introduccion Bienvenida y Protocolo de Seguridad
 - Station: Chakmool
@@ -45,6 +46,7 @@
 - Services Sound, Mpg123
 
 # Name: Baja California Norte
+
 - Alias: Are you ready for the show?
 - HomeAssistant: Video Antes del Video
 - Station: Chakmool
@@ -55,6 +57,7 @@
 - Services Sound, Mpg123
 
 # Name: Baja California Sur
+
 - Alias: Let our Robot begin!
 - HomeAssistant: 
 - Station: Chakmool
@@ -64,6 +67,7 @@
 - Services Comms, Mqtt ?? Robot
 
 # Name: Campeche
+
 - Alias: Welcome Visitors Center
 - HomeAssistant: Video Despues del Video
 - Station: Chakmool
@@ -75,6 +79,7 @@
 - Services Sound, Mpg123
 
 # Name: Chiapas
+
 - Alias: Visitors Center Welcome Memories
 - HomeAssistant:
 - Station: Chakmool
@@ -85,6 +90,7 @@
 - Services Camera, Fswebcam
 
 # Name: Chihuahua
+
 - Alias: Corporate Image Showcase
 - HomeAssistant: 
 - Station: Chakmool
@@ -93,6 +99,7 @@
 - Services Image, Eog
 
 # Name: Coahuila
+
 - Alias: Corporate Video Showcase
 - HomeAssistant: 
 - Station: Chakmool
@@ -101,6 +108,7 @@
 - Services Video, VlcMediaPlayer
 
 # Name: Colima
+
 - Alias: Visitors Center Image Showcase
 - HomeAssistant: 
 - Station: Chakmool
@@ -109,6 +117,7 @@
 - Services Image, Eog
 
 # Name: Durango
+
 - Alias: Visitors Center Video Showcase
 - HomeAssistant: 
 - Station: Chakmool
@@ -117,6 +126,7 @@
 - Services Video, VlcMediaPlayer
 
 # Name: Chiapas
+
 - Alias: Visitors Center Cheers
 - HomeAssistant:
 - Station: Chakmool
