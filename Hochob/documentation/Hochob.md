@@ -23,16 +23,18 @@
 
 # Server
 
-- NUC 5i5MYHE Linux Lubuntu Based
+- __Codename__: Hochob
+  - NUC 5i5MYHE Linux Lubuntu Based
 
 # Mobile Device
 
 - __Codename__: Muuk’, Poder, Buddy
-
+  - Cellphone  
 
 # Robot
 
 - __Codename__: Amikoo
+  - Lego Robot
 
 # Stations
 
