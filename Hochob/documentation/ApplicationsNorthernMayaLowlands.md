@@ -36,10 +36,10 @@
 
 # Name: Aguascalientes
 
-- Alias: Welcome to Guadalajara Design Center
-- HomeAssistant: Introduccion Bienvenida y Protocolo de Seguridad
-- Station: Chakmool
-- Hochob Media:
+- __Alias__: Welcome to Guadalajara Design Center
+- __HomeAssistant__: Introduccion Bienvenida y Protocolo de Seguridad
+- __Station__: Chakmool
+- __Hochob Media__:
   - Corporate Image
   - VisitorsCenter Sound Station
 - Services Image, Eog
@@ -47,10 +47,10 @@
 
 # Name: Baja California Norte
 
-- Alias: Are you ready for the show?
-- HomeAssistant: Video Antes del Video
-- Station: Chakmool
-- Hochob Media:
+- __Alias__: Are you ready for the show?
+- __HomeAssistant__: Video Antes del Video
+- __Station__: Chakmool
+- __Hochob Media__:
   - VisitorsCenter Image Place
   - VisitorsCenter Sound Station
 - Services Image, Eog
@@ -58,20 +58,20 @@
 
 # Name: Baja California Sur
 
-- Alias: Let the show begin!
-- HomeAssistant: 
-- Station: Chakmool
-- Hochob Media:
+- __Alias__: Let the show begin!
+- __HomeAssistant__: 
+- __Station__: Chakmool
+- __Hochob Media__:
   - VisitorsCenter Video LupeRobot
 - Services Video, VlcMediaPlayer
 - Services Comms, Mqtt ?? Robot
 
 # Name: Campeche
 
-- Alias: Welcome to our Visitors Center
-- HomeAssistant: Video Despues del Video
-- Station: Chakmool
-- Hochob Media:
+- __Alias__: Welcome to our Visitors Center
+- __HomeAssistant__: Video Despues del Video
+- __Station__: Chakmool
+- __Hochob Media__:
   - VisitorsCenter Image Visitors
     - ??? Assuming the record of images is performed but what if not?
   - VisitorsCenter Sound Station
@@ -80,59 +80,59 @@
 
 # Name: Guanajuato
 
-- Alias: Corporate Image Showcase
-- HomeAssistant: 
-- Station: Chakmool
-- Hochob Media:
+- __Alias__: Corporate Image Showcase
+- __HomeAssistant__: 
+- __Station__: Chakmool
+- __Hochob Media__:
   - Corporate Image
 - Services Image, Eog
 
 # Name: Guerrero
 
-- Alias: Corporate Video Showcase
-- HomeAssistant: 
-- Station: Chakmool
-- Hochob Media:
+- __Alias__: Corporate Video Showcase
+- __HomeAssistant__: 
+- __Station__: Chakmool
+- __Hochob Media__:
   - Corporate Video
 - Services Video, VlcMediaPlayer
 
 # Name: Mexico
 
-- Alias: Welcome Memories
-- HomeAssistant:
-- Station: Chakmool
-- Hochob Media: Source
+- __Alias__: Welcome Memories
+- __HomeAssistant__:
+- __Station__: Chakmool
+- __Hochob Media Source__:
   - Camera Fswebcam
-- Hochob Media:
+- __Hochob Media__:
   - VisitorsCenter Image Visitors
 - Services Camera, Fswebcam
 
 # Name: Michoacan
 
-- Alias: Say cheese!
-- HomeAssistant:
-- Station: Chakmool
-- Hochob Media: Source
+- __Alias__: Say cheese!
+- __HomeAssistant__:
+- __Station__: Chakmool
+- __Hochob Media Source__:
   - Camera Fswebcam
-- Hochob Media:
+- __Hochob Media__:
   - VisitorsCenter Image Visitors
 - Services Camera, Fswebcam
 - Services Comms, Mqtt ?? Robot
 
 # Name: Queretaro
 
-- Alias: Visitors Center Image Showcase
-- HomeAssistant: 
-- Station: Chakmool
-- Hochob Media:
+- __Alias__: Visitors Center Image Showcase
+- __HomeAssistant__: 
+- __Station__: Chakmool
+- __Hochob Media__:
   - VisitorsCenter Image Visitors
 - Services Image, Eog
 
 # Name: Quintana Roo
 
-- Alias: Visitors Center Video Showcase
-- HomeAssistant: 
-- Station: Chakmool
-- Hochob Media:
+- __Alias__: Visitors Center Video Showcase
+- __HomeAssistant__: 
+- __Station__: Chakmool
+- __Hochob Media__:
   - VisitorsCenter Video Visitors
 - Services Video, VlcMediaPlayer
