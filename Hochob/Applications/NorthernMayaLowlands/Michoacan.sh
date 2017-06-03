@@ -10,7 +10,7 @@ set -x
 
 export MICHOACAN_PID=$$
 export MICHOACAN_PATH=$(readlink -f "$0")
-export MICHOACAN_DIRECTORY=$(dirname "$AGUASCALIENTES_PATH")
+export MICHOACAN_DIRECTORY=$(dirname "$MICHOACAN_PATH")
 
 # =============================================================================
 # Functions
