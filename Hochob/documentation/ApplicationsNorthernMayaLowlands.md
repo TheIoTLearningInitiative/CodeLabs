@@ -75,7 +75,7 @@
 - Services Sound, Mpg123
 
 # Name: Chiapas
-- Alias: Visitors Welcome Memories
+- Alias: Visitors Center Welcome Memories
 - HomeAssistant:
 - Station: Chakmool
 - Hochob Media: Source
