@@ -22,7 +22,7 @@ export HOCHOB_SERVICES_STREAM=$HOCHOB_SERVICES/Stream/
 export HOCHOB_SERVICES_STREAM_S2C=$HOCHOB_SERVICES_STREAM/Stream2Chromecast/
 export HOCHOB_SERVICES_VIDEO=$HOCHOB_SERVICES/Video/
 
-# Hochob Media Mirror
+# Hochob Media Source
 
 export HOCHOB_MEDIA=/tmp/HochobMediaSource/
 
