@@ -8,13 +8,15 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export HBS_SOUND_PX_MPG123_PID=$$
-export HBS_SOUND_PX_MPG123_ROOT=$HOCHOB_SERVICES_SOUND_PX
-export HBS_SOUND_PX_MPG123_BINARY=mpg123
+export HBS_STREAM_S2C_PID=$$
+export HBS_STREAM_S2C_ROOT=$HOCHOB_SERVER_SERVICES_STREAM_S2C
+export HBS_STREAM_S2C_BINARY=stream2chromecast.py
 
-LOCAL_FILE="$1"
+LOCAL_DEVICE="$1"
+LOCAL_VOLUME="$2"
+LOCAL_FILE="$3"
 
-export PATH=$PATH:$HBS_SOUND_PX_MPG123_ROOT
+export PATH=$PATH:$HBS_STREAM_S2C_ROOT
 
 # =============================================================================
 # Functions
@@ -26,10 +28,12 @@ export PATH=$PATH:$HBS_SOUND_PX_MPG123_ROOT
 # Main
 # =============================================================================
 
-if [ $# -eq 1 ] 
+if [ $# -eq 3 ] 
 then
-    killall -9 $HBS_SOUND_PX_MPG123_BINARY
-    $HBS_SOUND_PX_MPG123_BINARY $LOCAL_FILE
+    killall -9 $HBS_STREAM_S2C_BINARY
+    $HBS_STREAM_S2C_BINARY -devicename $LOCAL_DEVICE -setvol $LOCAL_VOLUME
+    $HBS_STREAM_S2C_BINARY -devicename $LOCAL_DEVICE $LOCAL_FILE
+    $HBS_STREAM_S2C_BINARY -devicename $LOCAL_DEVICE -stop
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1

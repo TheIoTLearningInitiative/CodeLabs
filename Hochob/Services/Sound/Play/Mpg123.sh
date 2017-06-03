@@ -8,14 +8,13 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export HBS_CAMERA_FSW_PID=$$
-export HBS_CAMERA_FSW_ROOT=$HOCHOB_SERVICES_CAMERA
-export HBS_CAMERA_FSW_BINARY=fswebcam
-export HBS_CAMERA_FSW_ARGUMENTS="-r 1280x720 -s brightness=65% -s Contrast=50% -s Gamma=100% --jpeg 100 --no-banner"
-export HBS_CAMERA_FSW_REPOSITORY=$HOCHOB_MEDIA_CAMERA_FSWEBCAM
-export HBS_CAMERA_FSW_IMAGE=$HOCHOB_MEDIA_CAMERA_FSWEBCAM_IMAGE
+export HBS_SOUND_PX_MPG123_PID=$$
+export HBS_SOUND_PX_MPG123_ROOT=$HOCHOB_SERVER_SERVICES_SOUND_PX
+export HBS_SOUND_PX_MPG123_BINARY=mpg123
 
-export PATH=$PATH:$HOCHOB_SERVICES_CAMERA
+LOCAL_FILE="$1"
+
+export PATH=$PATH:$HBS_SOUND_PX_MPG123_ROOT
 
 # =============================================================================
 # Functions
@@ -27,6 +26,13 @@ export PATH=$PATH:$HOCHOB_SERVICES_CAMERA
 # Main
 # =============================================================================
 
-$HBS_CAMERA_FSW_BINARY $HBS_CAMERA_FSW_ARGUMENTS $HBS_CAMERA_FSW_IMAGE
+if [ $# -eq 1 ] 
+then
+    killall -9 $HBS_SOUND_PX_MPG123_BINARY
+    $HBS_SOUND_PX_MPG123_BINARY $LOCAL_FILE
+else
+    echo "Invalid number of arguments, see Documentation"
+    exit 1
+fi
 
 # End of File

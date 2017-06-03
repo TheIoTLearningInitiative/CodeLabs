@@ -8,15 +8,14 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export HBS_STREAM_S2C_PID=$$
-export HBS_STREAM_S2C_ROOT=$HOCHOB_SERVICES_STREAM_S2C
-export HBS_STREAM_S2C_BINARY=stream2chromecast.py
+export HBS_IMAGE_EOG_PID=$$
+export HBS_IMAGE_EOG_ROOT=$HOCHOB_SERVER_SERVICES_IMAGE
+export HBS_IMAGE_EOG_BINARY=eog
+export HBS_IMAGE_EOG_ARGUMENTS="-sf"
 
-LOCAL_DEVICE="$1"
-LOCAL_VOLUME="$2"
-LOCAL_FILE="$3"
+LOCAL_FILES="$1"
 
-export PATH=$PATH:$HBS_STREAM_S2C_ROOT
+export PATH=$PATH:$HBS_IMAGE_EOG_ROOT
 
 # =============================================================================
 # Functions
@@ -28,12 +27,10 @@ export PATH=$PATH:$HBS_STREAM_S2C_ROOT
 # Main
 # =============================================================================
 
-if [ $# -eq 3 ] 
+if [ $# -eq 1 ]
 then
-    killall -9 $HBS_STREAM_S2C_BINARY
-    $HBS_STREAM_S2C_BINARY -devicename $LOCAL_DEVICE -setvol $LOCAL_VOLUME
-    $HBS_STREAM_S2C_BINARY -devicename $LOCAL_DEVICE $LOCAL_FILE
-    $HBS_STREAM_S2C_BINARY -devicename $LOCAL_DEVICE -stop
+    killall -9 $HBS_IMAGE_EOG_BINARY
+    $HBS_IMAGE_EOG_BINARY  $HBS_IMAGE_EOG_ARGUMENTS $LOCAL_FILES &
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1

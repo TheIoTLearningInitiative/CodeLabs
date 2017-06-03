@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export HBS_VIDEO_VLC_PID=$$
-export HBS_VIDEO_VLC_ROOT=$HOCHOB_SERVICES_VIDEO
+export HBS_VIDEO_VLC_ROOT=$HOCHOB_SERVER_SERVICES_VIDEO
 export HBS_VIDEO_VLC_BINARY=cvlc
 export HBS_VIDEO_VLC_ARGUMENTS="--no-video-title-show --fullscreen"
 export HBS_VIDEO_VLC_LOOP="--loop"
