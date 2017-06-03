@@ -1,9 +1,8 @@
 # Server Architecture
 
-- Media
-- Media Source
-- Services
-- Applications
+# Media
+
+# Media Source
 
 # Services
 

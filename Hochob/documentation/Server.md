@@ -4,16 +4,10 @@
 - NUC 5i5MYHE
 - Linux Lubuntu Based
 - Components
-  - Python
-  - VLC Media Player
-  - Plex
-  - Telegram
-  - Photography
-  - Video
-  - Home Assistant
-  - Pulse Audio
-  - Chromecast
-  - Kodi
+  - Media
+  - Media Source
+  - Services
+  - Applications
 
 # Linux Based Operating System
 
