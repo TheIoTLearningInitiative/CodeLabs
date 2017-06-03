@@ -75,7 +75,16 @@
   - Hochob Media:
     - VisitorsCenter Video Visitors
   - Services Video, VlcMediaPlayer
-
+- Name: Chiapas
+  - Alias: Home Visitors Cheers
+  - HomeAssistant:
+  - Station: Chakmool
+  - Hochob Media: Source
+    - Camera Fswebcam
+  - Hochob Media:
+    - VisitorsCenter Image Visitors
+  - Services Camera, Fswebcam
+  - Services Comms, Mqtt
 
 
 
