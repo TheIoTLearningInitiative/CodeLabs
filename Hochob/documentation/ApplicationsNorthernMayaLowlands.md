@@ -127,7 +127,7 @@
 
 # Name: Michoacan
 
-- Alias: Visitors Center Cheers
+- Alias: Cheers!
 - HomeAssistant:
 - Station: Chakmool
 - Hochob Media: Source
