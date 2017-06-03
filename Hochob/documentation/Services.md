@@ -24,6 +24,8 @@
       - Microphone
       - Speaker
 - Image
+  - Diplay
+    - Eog
   - Eog
     - Eog.sh [files]
   - Feh
