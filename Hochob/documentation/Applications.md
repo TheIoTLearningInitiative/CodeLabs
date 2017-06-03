@@ -2,10 +2,8 @@
 
 > Set of software functionalities.
 
-Areas
-
 - Northern Maya Lowlands: Home
-- Central Maya Lowlands: Beggining
+- Central Maya Lowlands: Beginning
 - Southern Maya Highlands: Experience
 
 # Hochob Server Applications Home
