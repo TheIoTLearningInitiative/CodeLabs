@@ -15,7 +15,14 @@
 - Guerrero
 - Hidalgo
 - Jalisco
-
+- Mexico
+- Michoacan
+- Moreles
+- Nayarit
+- Nuevo Leon
+- Oaxaca
+- Puebla
+- 
 
 - Name: Aguascalientes
   - Alias: Home Welcome Guadalajara Design Center
