@@ -23,7 +23,7 @@ LOCAL_MESSAGE="$2"
 # Main
 # =============================================================================
 
-if [ $# -eq 1 ]
+if [ $# -eq 2 ]
 then
     Mosquitto.sh $LOCAL_COMMAND $LOCAL_MESSAGE
 else
