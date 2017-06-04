@@ -75,7 +75,7 @@
 - __Alias__: Welcome to our Visitors Center
 - __Station__: Chakmool
 - __Hochob Media__:
-  - VisitorsCenter Applications Image
+  - Area SouthernMayaHighlands
   - VisitorsCenter Sound Station
 - __Services__:
   - __Automation HomeAssistant__: Video Despues del Video
@@ -101,6 +101,17 @@
 - __Services__:
   - __Automation HomeAssistant__: 
   - __Video__ VlcMediaPlayer
+
+# Name: Hidalgo
+
+- __Alias__: Visitors Center Image Showcase
+- __Station__: Chakmool
+- __Hochob Media__:
+  - VisitorsCenter Image
+- __Services__:
+  - __Automation HomeAssistant__: 
+  - __Image__ Eog
+
 
 # Name: Mexico
 
