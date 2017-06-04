@@ -28,7 +28,7 @@ Robot.sh lupe/headleft 1
 sleep .6
 
 Fswebcam.sh 5
-cp $FSWEBCAM_IMAGE $MEMORIES_CAMERA
+cp $FSWEBCAM_DIRECTORY/* $MEMORIES_CAMERA
 
 kill -- -$(ps -o pgid=$MICHOACAN_PID | grep -o '[0-9]*')
 
