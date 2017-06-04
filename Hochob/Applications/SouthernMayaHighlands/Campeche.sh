@@ -22,7 +22,7 @@ export CAMPECHE_DIRECTORY=$(dirname "$CAMPECHE_PATH")
 # Main
 # =============================================================================
 
-Eog.sh "$CORPORATE_IMAGE/*" &
+Eog.sh "$MEMORIES_CAMERA/*" &
 sleep 1
 Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Campeche.mp3"
 
