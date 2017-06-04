@@ -24,7 +24,7 @@ export ZACATECAS_DIRECTORY=$(dirname "$ZACATECAS_PATH")
 
 Memories.sh "10" "on" "${BAJACALIFORNIASUR_NAME}"
 Espeak.sh off spanish "Hola Mundo"
-#MemoriesAudio.sh $ESPEAK_SPEECH_MP3 $FSWEBCAM_DIRECTORY
+MemoriesAudio.sh "${BAJACALIFORNIASUR_NAME}"
 
 #kill -- -$(ps -o pgid=$ZACATECAS_PID | grep -o '[0-9]*')
 
