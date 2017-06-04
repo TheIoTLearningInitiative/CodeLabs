@@ -3,22 +3,21 @@
 - Corporate
   - Image
   - Video
+- Memories
+  - Camera
+  - Drawing
+  - Video
+- Area
+  - SouthernMayaHighlands
+  - CentralMayaLowlands
+  - NorthernMayaLowlands
 - VisitorsCenter
-  - Memories
-    - Camera
-    - Drawing
-    - Video
-  - Applications
-    - Area
-      - SouthernMayaHighlands
-      - CentralMayaLowlands
-      - NorthernMayaLowlands
-    - Image
-      - Infraestructure
-    - Music
-    - Sound
-    - Video
-  - Robot
+  - Image
+    - Infraestructure
+  - Music
+  - Sound
+  - Video
+- Robot
 - Visitors
   - [Name of Institution]
     - Camera
