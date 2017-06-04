@@ -9,9 +9,12 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export MOSQUITTO_PID=$$
-export FSWEBCAM_BINARY=fswebcam
-export FSWEBCAM_ARGUMENTS="-r 1280x720 -s brightness=65% -s Contrast=50% -s Gamma=100% --jpeg 100 --no-banner"
-export FSWEBCAM_IMAGE=$HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM_IMAGE
+export MOSQUITTO_BINARY=fswebcam
+export MQTT_SERVER_ADDRESS=iot.eclipse.org
+export MQTT_SERVER_PORT=1883
+
+LOCAL_TOPIC="$1"
+LOCAL_MESSAGE="$2"
 
 # =============================================================================
 # Functions
@@ -23,6 +26,6 @@ export FSWEBCAM_IMAGE=$HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM_IMAGE
 # Main
 # =============================================================================
 
-$FSWEBCAM_BINARY $FSWEBCAM_ARGUMENTS $FSWEBCAM_IMAGE
+$MOSQUITTO_BINARY -h $MQTT_SERVER_ADDRESS -p $MQTT_SERVER_PORT -q 1 -t $LOCAL_TOPIC -m $LOCAL_MESSAGE
 
 # End of File
