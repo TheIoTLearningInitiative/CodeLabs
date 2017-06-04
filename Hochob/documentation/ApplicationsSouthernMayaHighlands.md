@@ -112,7 +112,6 @@
   - __Automation HomeAssistant__: 
   - __Image__ Eog
 
-
 # Name: Mexico
 
 - __Alias__: Welcome Memories
