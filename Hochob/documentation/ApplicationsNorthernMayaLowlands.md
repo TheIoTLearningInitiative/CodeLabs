@@ -147,3 +147,14 @@
 - __Services__:
   - __Automation HomeAssistant__: 
   - __Video__ VlcMediaPlayer
+
+# Name: Zacatecas
+
+- __Alias__: Thank you Very Much Visitors
+- __Station__: Chakmool
+- __Hochob Media__:
+  - VisitorsCenter Memories Video
+- __Services__:
+  - __Automation HomeAssistant__: 
+  - __Video__ VlcMediaPlayer
+  - http://hamelot.io/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video/
