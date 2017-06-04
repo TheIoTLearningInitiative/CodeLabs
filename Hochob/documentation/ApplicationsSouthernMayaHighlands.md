@@ -38,24 +38,34 @@
 
 - __Alias__: Welcome to Guadalajara Design Center!
 - __Station__: Chakmool
+- __Hochob Media Source__:
+  - Camera Fswebcam
+  - Visitors
 - __Hochob Media__:
   - Area SouthernMayaHighlands
   - Corporate Image
+  - VisitorsCenter Sound
 - __Services__:
   - __Automation HomeAssistant__: Introduccion Bienvenida y Protocolo de Seguridad
   - __Image__ Eog
+  - __Memories__ Memories
   - __Sound__ Mpg123
 
 # Name: Baja California Norte
 
 - __Alias__: Are you ready for the show?
 - __Station__: Chakmool
+- __Hochob Media Source__:
+  - Camera Fswebcam
+  - Visitors
 - __Hochob Media__:
   - Area SouthernMayaHighlands
   - VisitorsCenter Image
+  - VisitorsCenter Sound
 - __Services__:
   - __Automation HomeAssistant__: Video Antes del Video
   - __Image__ Eog
+  - __Memories__ Memories
   - __Robot__ Robot
   - __Sound__ Mpg123
 
@@ -63,10 +73,14 @@
 
 - __Alias__: Let the show begin!
 - __Station__: Chakmool
+- __Hochob Media Source__:
+  - Camera Fswebcam
+  - Visitors
 - __Hochob Media__:
   - Area SouthernMayaHighlands
 - __Services__:
   - __Automation HomeAssistant__: 
+  - __Memories__ Memories
   - __Video__ VlcMediaPlayer
   - __Robot__ Robot
 
@@ -76,7 +90,7 @@
 - __Station__: Chakmool
 - __Hochob Media__:
   - Area SouthernMayaHighlands
-  - VisitorsCenter Sound Station
+  - VisitorsCenter Sound
 - __Services__:
   - __Automation HomeAssistant__: Video Despues del Video
   - __Image__ Eog
