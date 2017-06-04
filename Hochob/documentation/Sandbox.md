@@ -2,6 +2,7 @@
 
 # Nice To Have
 
+- Applications can be killable
 - https://stackoverflow.com/questions/392022/best-way-to-kill-all-child-processes
 - Institutuion Identification? A swith on and off, on script puts the name under a file, off the script remove that file
 - Do we need to kill processes form Services or Applications?
