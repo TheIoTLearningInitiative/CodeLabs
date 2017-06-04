@@ -26,7 +26,7 @@ rm -f $FSWEBCAM_DIRECTORY/*
 
 Espeak.sh off spanish "Bienvenidos Futuros Ingenieros"
 Fswebcam.sh 10
-Ffmpeg.sh $FSWEBCAM_DIRECTORY
+FfmpegAudio.sh $ESPEAK_SPEECH_MP3 $FSWEBCAM_DIRECTORY
 
 #kill -- -$(ps -o pgid=$ZACATECAS_PID | grep -o '[0-9]*')
 
