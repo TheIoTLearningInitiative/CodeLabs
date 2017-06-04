@@ -8,10 +8,9 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export MOVEMENT_PID=$$
+export ROBOTVIRTUAL_PID=$$
 
-LOCAL_COMMAND="$1"
-LOCAL_MESSAGE="$2"
+LOCAL_MESSAGE="$1"
 
 # =============================================================================
 # Functions
@@ -23,9 +22,9 @@ LOCAL_MESSAGE="$2"
 # Main
 # =============================================================================
 
-if [ $# -eq 2 ]
+if [ $# -eq 1 ]
 then
-    Mosquitto.sh $LOCAL_COMMAND $LOCAL_MESSAGE
+    Espeak.sh on spanish $LOCAL_MESSAGE
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
