@@ -26,6 +26,8 @@
   - Drawing
   - Scale
   - Name
+- Memories
+  - Memories.sh
 - Messaging
   - Telegram
 - Motion
@@ -62,3 +64,4 @@
     - Vlc.sh [loop] [file]
 - Visitors
   - Name
+    - Name.sh
