@@ -20,6 +20,6 @@ export NAME_PID=$$
 # Main
 # =============================================================================
 
-return "Hi"
+echo "Instituto Dummy"
 
 # End of File
