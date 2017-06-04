@@ -9,6 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export BAJACALIFORNIASUR_PID=$$
+export BAJACALIFORNIASUR_NAME="Baja California Sur Application"
 export BAJACALIFORNIASUR_PATH=$(readlink -f "$0")
 export BAJACALIFORNIASUR_DIRECTORY=$(dirname "$BAJACALIFORNIASUR_PATH")
 
