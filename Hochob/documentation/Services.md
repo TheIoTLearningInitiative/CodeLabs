@@ -7,6 +7,7 @@
   - Google Calendar API
     - Google.py
 - Camera
+  - Picture.sh ...
   - FSWebcam
     - Fswebcam.sh [images]
 - Communications
@@ -25,6 +26,7 @@
       - Microphone
       - Speaker
 - Image
+  - Display.sh ... [device] [file(s)]
   - Display
     - Eog
       - Eog.sh [files]
@@ -37,6 +39,7 @@
   - Telegram
 - Motion
 - Sound
+  - Play.sh ... [device] [file(s)]
   - Player
     - Mpg123
       - Mpg123.sh [file]
