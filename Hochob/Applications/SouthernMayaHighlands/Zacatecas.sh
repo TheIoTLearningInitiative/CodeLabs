@@ -26,7 +26,7 @@ rm -f $FSWEBCAM_DIRECTORY/*
 
 Espeak.sh off spanish \
 "Muchas gracias Futuros Ingenieros!.
-A nombre del Equipo de Intel, deseamos que hayan tenido un gan visita!
+A nombre del Equipo de Intel, deseamos que hayan tenido una gan visita!
 Los esperamos muy pronto!"
 
 Fswebcam.sh 100
