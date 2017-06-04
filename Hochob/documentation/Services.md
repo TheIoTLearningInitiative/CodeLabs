@@ -32,6 +32,7 @@
   - Drawing
   - Scale
 - Institution
+  - Name
 - Messaging
   - Telegram
 - Motion
