@@ -143,8 +143,6 @@
 
 - __Alias__: Say cheese!
 - __Station__: Chakmool
-- __Hochob Media__:
-  - VisitorsCenter Image
 - __Hochob Media Source__:
   - Camera Fswebcam
 - __Services__:
@@ -157,7 +155,7 @@
 - __Alias__: Visitors Center Memories Image Showcase
 - __Station__: Chakmool
 - __Hochob Media__:
-  - VisitorsCenter Applications Image
+  - Memories Image
 - __Services__:
   - __Automation HomeAssistant__: 
   - __Image__ Eog
@@ -167,7 +165,7 @@
 - __Alias__: Visitors Center Memories Video Showcase
 - __Station__: Chakmool
 - __Hochob Media__:
-  - VisitorsCenter Memories Video
+  - Memories Video
 - __Services__:
   - __Automation HomeAssistant__: 
   - __Video__ VlcMediaPlayer
