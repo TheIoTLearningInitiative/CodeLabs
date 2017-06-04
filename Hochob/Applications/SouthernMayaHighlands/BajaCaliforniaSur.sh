@@ -70,6 +70,8 @@ Los esperamos muy pronto!"
 
 FfmpegAudio.sh $ESPEAK_SPEECH_MP3 $FSWEBCAM_DIRECTORY
 
+wait
+
 kill -- -$(ps -o pgid=$BAJACALIFORNIASUR_PID | grep -o '[0-9]*')
 
 # End of File
