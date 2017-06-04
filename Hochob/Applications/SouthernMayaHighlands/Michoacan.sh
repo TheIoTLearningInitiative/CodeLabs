@@ -28,8 +28,10 @@ sleep .6
 Robot.sh lupe/headleft 1
 sleep .6
 
-Fswebcam.sh 5
-cp $FSWEBCAM_DIRECTORY/* $MEMORIES_CAMERA
+RobotVirtual.sh "Tomaremos algunas fotos! Estan listos?"
+sleep 1
+RobotVirtual.sh "3, 2, 1, Sonrian!"
+Memories.sh "10" "off" "${MICHOACAN_NAME}" &
 
 kill -- -$(ps -o pgid=$MICHOACAN_PID | grep -o '[0-9]*')
 
