@@ -11,6 +11,7 @@ set -x
 export ROBOT_MOVEMENT_PID=$$
 
 LOCAL_COMMAND="$1"
+LOCAL_MESSAGE="$2"
 
 # =============================================================================
 # Functions
@@ -24,7 +25,7 @@ LOCAL_COMMAND="$1"
 
 if [ $# -eq 1 ]
 then
-    Mosquitto.sh "lupe/resetal" "1"
+    Mosquitto.sh $LOCAL_COMMAND $LOCAL_MESSAGE
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
