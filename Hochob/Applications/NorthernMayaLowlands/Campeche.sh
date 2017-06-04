@@ -10,7 +10,7 @@ set -x
 
 export CAMPECHE_PID=$$
 export CAMPECHE_PATH=$(readlink -f "$0")
-export CAMPECHE_DIRECTORY=$(dirname "$AGUASCALIENTES_PATH")
+export CAMPECHE_DIRECTORY=$(dirname "$CAMPECHE_PATH")
 
 # =============================================================================
 # Functions
