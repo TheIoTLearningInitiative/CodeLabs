@@ -143,6 +143,9 @@
       * Sound
         * [Player](Hochob/documentation/Player.md)
         * [Speech Synthetizer](Hochob/documentation/SpeechSynthetizer.md)
+      * [Stream](Hochob/documentation/Stream.md)
+      * [USB](Hochob/documentation/Usb.md)
+      * [Video](Hochob/documentation/Video.md)
     * [Applications](Hochob/documentation/Applications.md)
       * [Northern Maya Lowlands](Hochob/documentation/ApplicationsNorthernMayaLowlands.md)
       * [Central Maya Lowlands](Hochob/documentation/ApplicationsCentralMayaLowlands.md)
