@@ -18,9 +18,6 @@ sudo apt install fswebcam
 # Hochob Server Services Communications
 # None
 
-# Hochob Server Services Robot
-# None
-
 # Hochob Server Services Image
 sudo apt install eog
 
@@ -32,6 +29,12 @@ sudo apt install eog
 
 # Hochob Server Services Motion
 # None
+
+# Hochob Server Services Robot
+# None
+
+# Hochob Server Services Sound Play
+sudo apt install mpg123
 
 # Hochob Server Services Sound Speech Synthetizer
 sudo apt install espeak tee
