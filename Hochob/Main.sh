@@ -89,6 +89,11 @@ export APPLICATIONS_MUSIC=$HOCHOB_SERVER_MEDIA_VISITORSCENTER_APPLICATIONS_MUSIC
 export APPLICATIONS_SOUND=$HOCHOB_SERVER_MEDIA_VISITORSCENTER_APPLICATIONS_SOUND
 export APPLICATIONS_VIDEO=$HOCHOB_SERVER_MEDIA_VISITORSCENTER_APPLICATIONS_VIDEO
 
+# MQ Telemetry Transport 
+
+MQTT_SERVER_ADDRESS=iot.eclipse.org
+MQTT_SERVER_PORT=1883
+
 # =============================================================================
 # Functions
 # =============================================================================
