@@ -2,10 +2,10 @@
 
 > Las reservas de la biosfera son áreas representativas de uno o más ecosistemas no alterados por la acción del ser humano o que requieran ser preservados y restaurados, en las cuales habitan especies representativas de la biodiversidad nacional, incluyendo a las consideradas endémicas, amenazadas o en peligro de extinción. Originalmente, el concepto surgió a partir del Programa MaB de la Unesco puesto en marcha en 1971, pero la denominación «Reserva de la biosfera» ha sido afortunada y ha sido usada como una de las figuras de protección medioambiental en muchos países —como ha sucedido en México— sin que tenga ya relación con el programa de la Unesco. [Wikipedia](https://es.wikipedia.org/wiki/Reservas_de_la_biosfera_de_M%C3%A9xico)
 
-- Ojo de Liebre
-- Montes Azules
-- La Michilía
-- El Cielo
+- __Ojo de Liebre__
+- __Montes Azules__
+- __La Michilía__
+- __El Cielo__
 - Sian Ka'an
 - Sierra de Manantlán
 - El Vizcaíno
@@ -48,4 +48,48 @@
 - Tiburón Ballena
 - Janos
 - Marismas Nacionales
+
+# Name: Ojo de Liebre
+
+- __Alias__: 
+- __Station__: 
+- __Hochob Media__:
+  - VisitorsCenter Applications Sound
+- __Services__:
+  - __Automation HomeAssistant__:
+  - __Stream__ Chromecast
+- __Digital Media Player__: Eek'
+
+# Name: Montes Azules
+
+- __Alias__: 
+- __Station__: 
+- __Hochob Media__:
+  - VisitorsCenter Applications Sound
+- __Services__:
+  - __Automation HomeAssistant__:
+  - __Stream__ Chromecast
+- __Digital Media Player__: Eek'
+
+# Name: La Michilia
+
+- __Alias__: 
+- __Station__: 
+- __Hochob Media__:
+  - VisitorsCenter Applications Sound
+- __Services__:
+  - __Automation HomeAssistant__:
+  - __Stream__ Chromecast
+- __Digital Media Player__: Eek'
+
+# Name: El Cielo
+
+- __Alias__: 
+- __Station__: 
+- __Hochob Media__:
+  - VisitorsCenter Applications Sound
+- __Services__:
+  - __Automation HomeAssistant__:
+  - __Stream__ Chromecast
+- __Digital Media Player__: Eek'
 
