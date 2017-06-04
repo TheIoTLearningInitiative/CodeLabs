@@ -63,6 +63,13 @@ sleep 75
 
 wait
 
+Espeak.sh off spanish \
+"Muchas gracias Futuros Ingenieros!.
+A nombre del Equipo de Intel, deseamos que hayan tenido una gan visita!
+Los esperamos muy pronto!"
+
+FfmpegAudio.sh $ESPEAK_SPEECH_MP3 $FSWEBCAM_DIRECTORY
+
 kill -- -$(ps -o pgid=$BAJACALIFORNIASUR_PID | grep -o '[0-9]*')
 
 # End of File
