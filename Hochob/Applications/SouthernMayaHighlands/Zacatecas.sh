@@ -24,7 +24,11 @@ export ZACATECAS_DIRECTORY=$(dirname "$ZACATECAS_PATH")
 
 rm -f $FSWEBCAM_DIRECTORY/*
 
-Espeak.sh off spanish "Bienvenidos Futuros Ingenieros"
+Espeak.sh off spanish \
+"Muchas gracias Futuros Ingenieros!.
+A nombre del Equipo de Intel, deseamos que hayan tenido un gan visita!
+Los esperamos muy pronto!"
+
 Fswebcam.sh 100
 FfmpegAudio.sh $ESPEAK_SPEECH_MP3 $FSWEBCAM_DIRECTORY
 
