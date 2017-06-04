@@ -31,7 +31,9 @@ sleep .6
 RobotVirtual.sh "Tomaremos algunas fotos! Estan listos?"
 sleep 1
 RobotVirtual.sh "3, 2, 1, Sonrian!"
-Memories.sh "10" "off" "${MICHOACAN_NAME}" &
+Memories.sh "10" "on" "${MICHOACAN_NAME}" &
+
+wait
 
 kill -- -$(ps -o pgid=$MICHOACAN_PID | grep -o '[0-9]*')
 

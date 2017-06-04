@@ -21,6 +21,6 @@ export NAME_PID=$$
 # =============================================================================
 
 #echo `date +"%Y%m%d%H%M%S"`
-echo "Instituto Balam"
+echo "Instituto Triki"
 
 # End of File
