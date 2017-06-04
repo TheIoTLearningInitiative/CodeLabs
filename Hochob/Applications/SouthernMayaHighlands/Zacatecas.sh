@@ -22,7 +22,7 @@ export ZACATECAS_DIRECTORY=$(dirname "$ZACATECAS_PATH")
 # Main
 # =============================================================================
 
-Memories.sh "10" "on" "${BAJACALIFORNIASUR_NAME}" &
+Memories.sh "10" "on" "${BAJACALIFORNIASUR_NAME}"
 Espeak.sh off spanish "Hola Mundo"
 #MemoriesAudio.sh $ESPEAK_SPEECH_MP3 $FSWEBCAM_DIRECTORY
 
