@@ -22,7 +22,7 @@ export OJODELIEBRE_DIRECTORY=$(dirname "$OJODELIEBRE_PATH")
 # Main
 # =============================================================================
 
-Stream2Chromecast.sh "Triki" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/OjoDeLiebre.mp3"
+Stream2Chromecast.sh "Eek'" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/OjoDeLiebre.mp3"
 
 kill -- -$(ps -o pgid=$OJODELIEBRE_PID | grep -o '[0-9]*')
 
