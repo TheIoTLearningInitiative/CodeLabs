@@ -29,6 +29,8 @@
 - Memories
   - Memories.sh [images] [video] [identification]
     - video [on/off]
+  - MemoriesAudio.sh [images] [identification]
+    - video [on/off]
 - Messaging
   - Telegram
 - Motion
