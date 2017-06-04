@@ -24,7 +24,7 @@ export BAJACALIFORNIANORTE_DIRECTORY=$(dirname "$BAJACALIFORNIANORTE_PATH")
 
 Eog.sh "$APPLICATIONS_IMAGE/*" &
 sleep 5
-Mpg123.sh "$SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaNorte.mp3"
+Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaNorte.mp3"
 Robot.sh lupe/headright 1
 sleep .6
 Robot.sh lupe/headleft 1
