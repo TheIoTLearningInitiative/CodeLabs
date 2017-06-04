@@ -2,6 +2,7 @@
 
 # Nice To Have
 
+- Vlc might need to get implement --play-and-exit
 - Applications can be killable
 - https://stackoverflow.com/questions/392022/best-way-to-kill-all-child-processes
 - Institutuion Identification? A swith on and off, on script puts the name under a file, off the script remove that file
