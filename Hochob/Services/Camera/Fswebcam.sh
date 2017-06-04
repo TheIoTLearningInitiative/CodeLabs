@@ -36,7 +36,6 @@ then
         NAME=`printf %04d $IMAGE`
         $FSWEBCAM_BINARY $FSWEBCAM_ARGUMENTS $FSWEBCAM_DIRECTORY/$NAME.jpg
         IMAGE=$(($IMAGE+1))
-        sleep 1
     done
 
 else
