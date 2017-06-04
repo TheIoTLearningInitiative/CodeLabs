@@ -9,6 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export ZACATECAS_PID=$$
+export ZACATECAS_NAME="Zacatecas Application"
 export ZACATECAS_PATH=$(readlink -f "$0")
 export ZACATECAS_DIRECTORY=$(dirname "$ZACATECAS_PATH")
 
