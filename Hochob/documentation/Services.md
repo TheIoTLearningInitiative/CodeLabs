@@ -24,7 +24,7 @@
       - Microphone
       - Speaker
 - Image
-  - Diplay
+  - Display
     - Eog
   - Eog
     - Eog.sh [files]
