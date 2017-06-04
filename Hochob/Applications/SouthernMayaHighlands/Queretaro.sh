@@ -9,6 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export QUERETARO_PID=$$
+export QUERETARO_NAME="Queretaro Name"
 export QUERETARO_PATH=$(readlink -f "$0")
 export QUERETARO_DIRECTORY=$(dirname "$QUERETARO_PATH")
 
