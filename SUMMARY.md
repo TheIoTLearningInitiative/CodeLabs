@@ -140,6 +140,7 @@
       * [Sound](Hochob/documentation/sound.md)
         * [Speech Synthetizer](Hochob/documentation/SpeechSynthetizer.md)
       * [PulseAudio](Hochob/documentation/PulseAudio.md)
+      * [Robot](Hochob/documentation/ServicesRobot.md)
       * [Telegram](Hochob/documentation/Telegram.md)
     * [Applications](Hochob/documentation/Applications.md)
       * [Northern Maya Lowlands](Hochob/documentation/ApplicationsNorthernMayaLowlands.md)
