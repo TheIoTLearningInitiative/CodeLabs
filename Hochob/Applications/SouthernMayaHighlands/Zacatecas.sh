@@ -22,7 +22,8 @@ export ZACATECAS_DIRECTORY=$(dirname "$ZACATECAS_PATH")
 # Main
 # =============================================================================
 
-Fswebcam.sh 100
+Espeak.sh off spanish "hola mundo"
+Fswebcam.sh 10
 Ffmpeg.sh $FSWEBCAM_DIRECTORY
 
 kill -- -$(ps -o pgid=$ZACATECAS_PID | grep -o '[0-9]*')
