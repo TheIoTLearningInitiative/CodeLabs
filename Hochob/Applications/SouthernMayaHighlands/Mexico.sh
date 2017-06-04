@@ -23,6 +23,7 @@ export MEXICO_DIRECTORY=$(dirname "$MEXICO_PATH")
 # =============================================================================
 
 Fswebcam.sh 360
+# find dirname -type f | shuf -n 5
 
 kill -- -$(ps -o pgid=$MEXICO_PID | grep -o '[0-9]*')
 
