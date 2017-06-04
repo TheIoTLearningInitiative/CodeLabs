@@ -150,8 +150,10 @@
 
 # Name: Zacatecas
 
-- __Alias__: Thank you Very Much Visitors
+- __Alias__: Thank You Very Much Visitors
 - __Station__: Chakmool
+- __Hochob Media Source__:
+  - Camera Slide
 - __Hochob Media__:
   - VisitorsCenter Memories Video
 - __Services__:
