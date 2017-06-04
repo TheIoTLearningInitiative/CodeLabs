@@ -10,9 +10,16 @@
     - Video
   - Applications
     - Image
+      - Infraestructure
     - Music
     - Sound
+      - SouthernMayaHighlands
+      - CentralMayaLowlands
+      - NorthernMayaLowlands
     - Video
+      - SouthernMayaHighlands
+      - CentralMayaLowlands
+      - NorthernMayaLowlands
   - Robot
 - Visitors
   - [Name of Institution]
