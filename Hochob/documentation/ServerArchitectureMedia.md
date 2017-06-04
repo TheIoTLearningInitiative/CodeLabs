@@ -1,5 +1,9 @@
 # Hochob Server Media
 
+- Area
+  - SouthernMayaHighlands
+  - CentralMayaLowlands
+  - NorthernMayaLowlands
 - Corporate
   - Image
   - Video
@@ -7,17 +11,13 @@
   - Camera
   - Drawing
   - Video
-- Area
-  - SouthernMayaHighlands
-  - CentralMayaLowlands
-  - NorthernMayaLowlands
+- Robot
 - VisitorsCenter
   - Image
     - Infraestructure
   - Music
   - Sound
   - Video
-- Robot
 - Visitors
   - [Name of Institution]
     - Camera

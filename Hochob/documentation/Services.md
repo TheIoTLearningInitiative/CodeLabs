@@ -51,6 +51,8 @@
   - Plex Media Server
 - Usb
 - Video
+  - Ffmpeg
+    - Ffmpeg.sh [directory]
   - VlcMediaPlayer
     - Vlc.sh [loop] [file]
 
