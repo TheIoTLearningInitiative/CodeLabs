@@ -24,7 +24,7 @@ export CAMPECHE_DIRECTORY=$(dirname "$AGUASCALIENTES_PATH")
 
 Eog.sh "$CORPORATE_IMAGE/*" &
 sleep 1
-Mpg123.sh "$APPLICATIONS_SOUND/Aguascalientes.mp3"
+Mpg123.sh "$APPLICATIONS_SOUND/Campeche.mp3"
 
 kill -- -$(ps -o pgid=$CAMPECHE_PID | grep -o '[0-9]*')
 
