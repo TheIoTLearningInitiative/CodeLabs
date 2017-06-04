@@ -23,7 +23,7 @@ export BAJACALIFORNIASUR_DIRECTORY=$(dirname "$BAJACALIFORNIASUR_PATH")
 # Main
 # =============================================================================
 
-Memories.sh "270" "on" "${BAJACALIFORNIASUR_NAME}" &
+Memories.sh "360" "on" "${BAJACALIFORNIASUR_NAME}" &
 
 Vlc.sh "off" "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaSur01.mp4" &
 (Robot.sh lupe/inicial 1) && sleep 1.25
