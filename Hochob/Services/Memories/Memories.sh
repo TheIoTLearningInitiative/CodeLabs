@@ -16,7 +16,7 @@ LOCAL_IDENTIFICATION="$(echo "${2}" | tr -d '[:space:]')"
 LOCAL_INSTITUTION_NAME=`Name.sh`
 LOCAL_INSTITUTION_NAME="$(echo "${LOCAL_INSTITUTION_NAME}" | tr -d '[:space:]')"
 
-LOCAL_MEMORY_PATH=$MEMORIES_CAMERA/$LOCAL_INSTITUTION_NAME/$LOCAL_IDENTIFICATION
+LOCAL_MEMORIES_CAMERA=$MEMORIES_CAMERA/$LOCAL_INSTITUTION_NAME/$LOCAL_IDENTIFICATION
 
 # =============================================================================
 # Functions
@@ -30,9 +30,9 @@ LOCAL_MEMORY_PATH=$MEMORIES_CAMERA/$LOCAL_INSTITUTION_NAME/$LOCAL_IDENTIFICATION
 
 if [ $# -eq 2 ]
 then
-    mkdir -p $LOCAL_MEMORY_PATH
+    mkdir -p $LOCAL_MEMORIES_CAMERA
     Fswebcam.sh $LOCAL_NUMBER
-    cp -r $FSWEBCAM_ALLFILES $LOCAL_MEMORY_PATH
+    cp -r $FSWEBCAM_ALLFILES $LOCAL_MEMORIES_CAMERA
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
