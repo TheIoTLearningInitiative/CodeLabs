@@ -22,7 +22,7 @@ export MONTESAZULES_DIRECTORY=$(dirname "$MONTESAZULES_PATH")
 # Main
 # =============================================================================
 
-Stream2Chromecast.sh "Triki" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/MontesAzules.mp3"
+Stream2Chromecast.sh "Eek'" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/MontesAzules.mp3"
 
 kill -- -$(ps -o pgid=$MONTESAZULES_PID | grep -o '[0-9]*')
 
