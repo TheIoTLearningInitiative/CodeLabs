@@ -9,6 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export BAJACALIFORNIANORTE_PID=$$
+export BAJACALIFORNIANORTE_NAME="Baja California Norte Application"
 export BAJACALIFORNIANORTE_PATH=$(readlink -f "$0")
 export BAJACALIFORNIANORTE_DIRECTORY=$(dirname "$BAJACALIFORNIANORTE_PATH")
 
@@ -21,6 +22,8 @@ export BAJACALIFORNIANORTE_DIRECTORY=$(dirname "$BAJACALIFORNIANORTE_PATH")
 # =============================================================================
 # Main
 # =============================================================================
+
+Memories.sh "5" "on" "${BAJACALIFORNIANORTE_NAME}" &
 
 Eog.sh "$VISITORSCENTER_IMAGE/*" &
 sleep 5
