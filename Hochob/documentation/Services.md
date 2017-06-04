@@ -61,3 +61,4 @@
   - VlcMediaPlayer
     - Vlc.sh [loop] [file]
 - Visitors
+  - Name
