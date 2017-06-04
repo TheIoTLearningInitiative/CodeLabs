@@ -9,6 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export QUINTANAROO_PID=$$
+export QUINTANAROO_NAME="QuintanaRoo Name"
 export QUINTANAROO_PATH=$(readlink -f "$0")
 export QUINTANAROO_DIRECTORY=$(dirname "$QUINTANAROO_PATH")
 
