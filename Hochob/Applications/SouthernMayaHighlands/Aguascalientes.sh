@@ -24,10 +24,9 @@ export AGUASCALIENTES_DIRECTORY=$(dirname "$AGUASCALIENTES_PATH")
 # =============================================================================
 
 Memories.sh "5" "${AGUASCALIENTES_NAME}" &
-Eog.sh "$CORPORATE_IMAGE/*" &
-Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Aguascalientes.mp3"
+#Eog.sh "$CORPORATE_IMAGE/*" &
+#Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Aguascalientes.mp3"
 
-
-kill -- -$(ps -o pgid=$AGUASCALIENTES_PID | grep -o '[0-9]*')
+#kill -- -$(ps -o pgid=$AGUASCALIENTES_PID | grep -o '[0-9]*')
 
 # End of File
