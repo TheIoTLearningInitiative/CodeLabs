@@ -140,10 +140,10 @@
 
 # Name: Quintana Roo
 
-- __Alias__: Visitors Center Video Showcase
+- __Alias__: Visitors Center Memories Video Showcase
 - __Station__: Chakmool
 - __Hochob Media__:
-  - VisitorsCenter Applications Video
+  - VisitorsCenter Memories Video
 - __Services__:
   - __Automation HomeAssistant__: 
   - __Video__ VlcMediaPlayer
