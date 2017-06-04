@@ -12,7 +12,6 @@
   - Drawing
   - Robot
   - Video
-- Robot
 - VisitorsCenter
   - Image
     - Infraestructure
