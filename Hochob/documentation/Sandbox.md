@@ -2,6 +2,7 @@
 
 # Nice To Have
 
+- if we pass a directory then all, if not then one, how about loop?
 - Vlc might need to get implement --play-and-exit
 - Applications can be killable
 - https://stackoverflow.com/questions/392022/best-way-to-kill-all-child-processes
