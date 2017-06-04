@@ -109,7 +109,7 @@
 - __Hochob Media Source__:
   - Camera Fswebcam
 - __Hochob Media__:
-  - VisitorsCenter Image Visitors
+  - VisitorsCenter Applications Image
 - __Services__:
   - __Automation HomeAssistant__:
   - __Camera__ Fswebcam
@@ -121,7 +121,7 @@
 - __Hochob Media Source__:
   - Camera Fswebcam
 - __Hochob Media__:
-  - VisitorsCenter Image Visitors
+  - VisitorsCenter Applications Image
 - __Services__:
   - __Automation HomeAssistant__:
   - __Camera__ Fswebcam
@@ -132,7 +132,7 @@
 - __Alias__: Visitors Center Image Showcase
 - __Station__: Chakmool
 - __Hochob Media__:
-  - VisitorsCenter Image Visitors
+  - VisitorsCenter Applications Image
 - __Services__:
   - __Automation HomeAssistant__: 
   - __Image__ Eog
@@ -142,7 +142,7 @@
 - __Alias__: Visitors Center Video Showcase
 - __Station__: Chakmool
 - __Hochob Media__:
-  - VisitorsCenter Video Visitors
+  - VisitorsCenter Applications Video
 - __Services__:
   - __Automation HomeAssistant__: 
   - __Video__ VlcMediaPlayer
