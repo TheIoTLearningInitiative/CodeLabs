@@ -22,9 +22,9 @@ export ZACATECAS_DIRECTORY=$(dirname "$ZACATECAS_PATH")
 # Main
 # =============================================================================
 
-Memories.sh "20" "on" "${BAJACALIFORNIASUR_NAME}"
+Memories.sh "20" "on" "${ZACATECAS_NAME}"
 Espeak.sh off spanish "Nel Pastel"
-MemoriesAudio.sh "${BAJACALIFORNIASUR_NAME}"
+MemoriesAudio.sh "${ZACATECAS_NAME}"
 
 #kill -- -$(ps -o pgid=$ZACATECAS_PID | grep -o '[0-9]*')
 
