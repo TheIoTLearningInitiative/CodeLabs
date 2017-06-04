@@ -137,9 +137,10 @@
       * [Communications](Hochob/documentation/Communications.md)
       * [Image](Hochob/documentation/Image.md)
       * [Institution](Hochob/documentation/ServerMainInstitutionIdentification.md)
-      * [Play](Hochob/documentation/Play.md)
+      * [Messaging](Hochob/documentation/ServicesMessaging.md)
+      * [Motion](Hochob/documentation/ServicesMotion.md)
       * [Robot](Hochob/documentation/ServicesRobot.md)
-      * [Sound](Hochob/documentation/sound.md)
+      * Sound
         * [Player](Hochob/documentation/Player.md)
         * [Speech Synthetizer](Hochob/documentation/SpeechSynthetizer.md)
     * [Applications](Hochob/documentation/Applications.md)
