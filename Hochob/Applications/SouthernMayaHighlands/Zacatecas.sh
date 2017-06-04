@@ -25,7 +25,7 @@ export ZACATECAS_DIRECTORY=$(dirname "$ZACATECAS_PATH")
 rm -f $FSWEBCAM_DIRECTORY/*
 
 Espeak.sh off spanish "Bienvenidos Futuros Ingenieros"
-Fswebcam.sh 10
+Fswebcam.sh 100
 FfmpegAudio.sh $ESPEAK_SPEECH_MP3 $FSWEBCAM_DIRECTORY
 
 #kill -- -$(ps -o pgid=$ZACATECAS_PID | grep -o '[0-9]*')
