@@ -26,6 +26,12 @@ LOCAL_MESSAGE="$2"
 # Main
 # =============================================================================
 
-$MOSQUITTO_BINARY -h $MQTT_SERVER_ADDRESS -p $MQTT_SERVER_PORT -q 1 -t $LOCAL_TOPIC -m $LOCAL_MESSAGE
+if [ $# -eq 2 ]
+then
+    $MOSQUITTO_BINARY -h $MQTT_SERVER_ADDRESS -p $MQTT_SERVER_PORT -q 1 -t $LOCAL_TOPIC -m $LOCAL_MESSAGE
+else
+    echo "Invalid number of arguments, see Documentation"
+    exit 1
+fi
 
 # End of File
