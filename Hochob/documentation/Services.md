@@ -17,14 +17,6 @@
   - MqttClient
     - Mosquitto
       - Mosquitto.sh
-- Robot
-  - Virtual
-  - Remote
-    - Camera
-    - Movement
-    - Sound
-      - Microphone
-      - Speaker
 - Image
   - Display.sh ... [device] [file(s)]
   - Display
@@ -33,11 +25,18 @@
     - Feh
   - Drawing
   - Scale
-- Institution
   - Name
 - Messaging
   - Telegram
 - Motion
+- Robot
+  - Virtual
+  - Remote
+    - Camera
+    - Movement
+    - Sound
+      - Microphone
+      - Speaker
 - Sound
   - Play.sh ... [device] [file(s)]
   - Player
@@ -61,4 +60,4 @@
     - FfmpegAudio.sh [audio] [directory]
   - VlcMediaPlayer
     - Vlc.sh [loop] [file]
-
+- Visit
