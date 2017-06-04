@@ -26,9 +26,8 @@
 - Image
   - Display
     - Eog
-  - Eog
-    - Eog.sh [files]
-  - Feh
+      - Eog.sh [files]
+    - Feh
   - Draw
   - Scale
 - Institution
