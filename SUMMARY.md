@@ -141,7 +141,7 @@
       * [Motion](Hochob/documentation/ServicesMotion.md)
       * [Robot](Hochob/documentation/ServicesRobot.md)
       * Sound
-        * [Player](Hochob/documentation/Player.md)
+        * [Play](Hochob/documentation/ServicesPlay.md)
         * [Speech Synthetizer](Hochob/documentation/SpeechSynthetizer.md)
       * [Stream](Hochob/documentation/Stream.md)
       * [USB](Hochob/documentation/Usb.md)
