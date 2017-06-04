@@ -13,7 +13,7 @@ export GIFTUSB_PID=$$
 LOCAL_INSTITUTION_NAME=`Name.sh`
 LOCAL_INSTITUTION_NAME="$(echo "${LOCAL_INSTITUTION_NAME}" | tr -d '[:space:]')"
 
-LOCAL_MEMORIES_CAMERA=$MEMORIES_CAMERA/$LOCAL_INSTITUTION_NAME/
+LOCAL_MEMORIES_CAMERA=$MEMORIES_CAMERA/$LOCAL_INSTITUTION_NAME/*
 
 # =============================================================================
 # Functions
