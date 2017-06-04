@@ -33,6 +33,7 @@ if [ $# -eq 1 ]
 then
 
     ffmpeg -y -i $FFMPEG_VIDEO -i $ESPEAK_SPEECH_MP3 -codec copy -shortest $FFMPEG_VIDEO_AUDIO
+    cp -r $FFMPEG_ALLFILES $LOCAL_VISITORS_INSTITUTION_NAME
 
 else
     echo "Invalid number of arguments, see Documentation"
