@@ -22,6 +22,6 @@ export QUERETARO_DIRECTORY=$(dirname "$QUERETARO_PATH")
 # Main
 # =============================================================================
 
-Eog.sh "$APPLICATIONS_IMAGE/*" &
+Eog.sh "$VISITORSCENTER_IMAGE/*" &
 
 # End of File
