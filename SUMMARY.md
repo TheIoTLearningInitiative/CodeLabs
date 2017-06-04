@@ -140,8 +140,8 @@
       * [Play](Hochob/documentation/Play.md)
       * [Robot](Hochob/documentation/ServicesRobot.md)
       * [Sound](Hochob/documentation/sound.md)
+        * [Player](Hochob/documentation/Player.md)
         * [Speech Synthetizer](Hochob/documentation/SpeechSynthetizer.md)
-        * tbd
     * [Applications](Hochob/documentation/Applications.md)
       * [Northern Maya Lowlands](Hochob/documentation/ApplicationsNorthernMayaLowlands.md)
       * [Central Maya Lowlands](Hochob/documentation/ApplicationsCentralMayaLowlands.md)
