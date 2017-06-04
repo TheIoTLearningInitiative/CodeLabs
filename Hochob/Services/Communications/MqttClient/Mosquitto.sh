@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export MOSQUITTO_PID=$$
-export MOSQUITTO_BINARY=fswebcam
+export MOSQUITTO_PUB_BINARY=mosquitto_pub
 export MQTT_SERVER_ADDRESS=iot.eclipse.org
 export MQTT_SERVER_PORT=1883
 
