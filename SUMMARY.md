@@ -124,7 +124,6 @@
       * [Tbd](Hochob/documentation/LupeRobotSandbox/tbd.md)
   * [Server](Hochob/documentation/Server.md)
     * [Setup](Hochob/documentation/ServerSetup.md)
-      * tbd
       * [PulseAudio](Hochob/documentation/PulseAudio.md)
     * [Architecture](Hochob/documentation/ServerArchitecture.md)
       * [Naming Conventions](Hochob/documentation/ServerArchitectureNamingConventions.md)

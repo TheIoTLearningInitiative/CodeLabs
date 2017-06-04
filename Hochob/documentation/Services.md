@@ -41,8 +41,6 @@
       - Mpg123.sh [file]
     - Aplay
       - Aplay.sh [file]
-  - Server
-    - PulseAudio
   - SpeechSynthesizer
     - Espeak.sh [play] [language] [input]
       - Record and Play [on]
