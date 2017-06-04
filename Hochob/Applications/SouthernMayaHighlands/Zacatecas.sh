@@ -8,11 +8,9 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export FFMPEG_PID=$$
-export FFMPEG_BINARY=ffmpeg
-export FFMPEG_ARGUMENTS="-y -framerate 10 -vf fps=10 -pix_fmt yuv420p"
-
-LOCAL_DIRECTORY="$1"
+export MICHOACAN_PID=$$
+export MICHOACAN_PATH=$(readlink -f "$0")
+export MICHOACAN_DIRECTORY=$(dirname "$MICHOACAN_PATH")
 
 # =============================================================================
 # Functions
@@ -24,12 +22,14 @@ LOCAL_DIRECTORY="$1"
 # Main
 # =============================================================================
 
-if [ $# -eq 1 ]
-then
-    $FFMPEG_BINARY -i "$LOCAL_DIRECTORY/"%04d.jpg $FFMPEG_ARGUMENTS $FFMPEG_VIDEO
-else
-    echo "Invalid number of arguments, see Documentation"
-    exit 1
-fi
+Robot.sh lupe/headright 1
+sleep .6
+Robot.sh lupe/headleft 1
+sleep .6
+
+Fswebcam.sh 5
+cp $FSWEBCAM_DIRECTORY/* $MEMORIES_CAMERA
+
+kill -- -$(ps -o pgid=$MICHOACAN_PID | grep -o '[0-9]*')
 
 # End of File
