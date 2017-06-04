@@ -6,6 +6,8 @@ set -x
 # Variables
 # =============================================================================
 
+. ~/CodeLabs/Hochob/Main.sh
+
 export ROBOT_MOVEMENT_PID=$$
 
 LOCAL_COMMAND="$1"
