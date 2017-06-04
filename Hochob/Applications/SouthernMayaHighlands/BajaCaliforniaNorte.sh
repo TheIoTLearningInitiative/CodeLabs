@@ -23,7 +23,7 @@ export BAJACALIFORNIANORTE_DIRECTORY=$(dirname "$BAJACALIFORNIANORTE_PATH")
 # Main
 # =============================================================================
 
-Memories.sh "60" "on" "${BAJACALIFORNIANORTE_NAME}" &
+Memories.sh "5" "off" "${BAJACALIFORNIANORTE_NAME}" &
 
 Eog.sh "$VISITORSCENTER_IMAGE/*" &
 sleep 5
