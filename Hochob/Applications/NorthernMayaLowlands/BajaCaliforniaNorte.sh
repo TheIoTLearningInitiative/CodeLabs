@@ -8,9 +8,9 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export AGUASCALIENTES_PID=$$
-export AGUASCALIENTES_PATH=$(readlink -f "$0")
-export AGUASCALIENTES_DIRECTORY=$(dirname "$AGUASCALIENTES_PATH")
+export BAJACALIFORNIANORTE_PID=$$
+export BAJACALIFORNIANORTE_PATH=$(readlink -f "$0")
+export BAJACALIFORNIANORTE_DIRECTORY=$(dirname "$BAJACALIFORNIANORTE_PATH")
 
 # =============================================================================
 # Functions
@@ -22,10 +22,10 @@ export AGUASCALIENTES_DIRECTORY=$(dirname "$AGUASCALIENTES_PATH")
 # Main
 # =============================================================================
 
-Eog.sh "$CORPORATE_IMAGE/*" &
+Eog.sh "$VISITORSCENTER_IMAGE/*" &
 sleep 1
-Mpg123.sh "$APPLICATIONS_SOUND/Aguascalientes.mp3"
+Mpg123.sh "$APPLICATIONS_SOUND/BajaCaliforniaNorte.mp3"
 
-kill -- -$(ps -o pgid=$AGUASCALIENTES_PID | grep -o '[0-9]*')
+kill -- -$(ps -o pgid=$BAJACALIFORNIANORTE_PID | grep -o '[0-9]*')
 
 # End of File
