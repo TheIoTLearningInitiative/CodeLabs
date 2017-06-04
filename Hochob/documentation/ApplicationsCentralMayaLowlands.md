@@ -32,6 +32,7 @@
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
+- __Digital Media Player__: Triki
 
 # Name: Cancún
 
@@ -42,6 +43,7 @@
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
+- __Digital Media Player__: Triki
 
 # Name: Huatulco
 
@@ -52,4 +54,6 @@
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
+- __Digital Media Player__: Triki
+
 
