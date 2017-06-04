@@ -9,6 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export GUERRERO_PID=$$
+export GUERRERO_NAME="Guerrero Application"
 export GUERRERO_PATH=$(readlink -f "$0")
 export GUERRERO_DIRECTORY=$(dirname "$GUERRERO_PATH")
 
