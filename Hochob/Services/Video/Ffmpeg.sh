@@ -22,7 +22,7 @@ LOCAL_DIRECTORY="$1"
 # Main
 # =============================================================================
 
-if [ $# -eq 2 ]
+if [ $# -eq 1 ]
 then
     $FFMPEG_BINARY -i $LOCAL_DIRECTORY/%04d.jpg $FFMPEG_ARGUMENTS $FFMPEG_VIDEO
 else
