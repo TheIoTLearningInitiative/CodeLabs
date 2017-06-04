@@ -12,6 +12,9 @@
     - Image
       - Infraestructure
     - Music
+      - SouthernMayaHighlands
+      - CentralMayaLowlands
+      - NorthernMayaLowlands    
     - Sound
       - SouthernMayaHighlands
       - CentralMayaLowlands
