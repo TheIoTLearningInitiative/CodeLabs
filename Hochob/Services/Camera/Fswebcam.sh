@@ -33,11 +33,9 @@ then
     while [ $IMAGE -le "$LOCAL_IMAGES" ]
     do
         DATE=`date +"%Y%m%d%H%M%S"`
+        NAME=`printf %04d $IMAGE`
+        $FSWEBCAM_BINARY $FSWEBCAM_ARGUMENTS $FSWEBCAM_DIRECTORY/$NAME.jpg
         IMAGE=$(($IMAGE+1))
-        NAME=%04d$IMAGE
-        echo $NAME
-        #$FSWEBCAM_BINARY $FSWEBCAM_ARGUMENTS $FSWEBCAM_DIRECTORY/$NAME.jpg
-        sleep 1
     done
 
 else
