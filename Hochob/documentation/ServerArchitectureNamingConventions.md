@@ -16,7 +16,7 @@
 - __Ch'iich'__ Pajaro
 - T'uut' Guacamaya
 - Tunkuruchu Lechuza
-- Tz'unu'un Colibri
+- __Tz'unu'un__ Colibri
 - Kay Pescado
 - Kan Culebra
 - Aak Tortuga

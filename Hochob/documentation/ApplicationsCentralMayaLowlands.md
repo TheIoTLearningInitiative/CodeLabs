@@ -12,12 +12,12 @@
 - Loreto
 - __Los Cabos__
 - Melaque
-- Mazatlán
+- __Mazatlán__
 - Manzanillo
 - Nuevo Vallarta
 - Rosarito
 - Puerto Escondido
-- Puerto Vallarta
+- __Puerto Vallarta__
 - Riviera Maya
 - San Felipe
 - Tonalá Puerto Arista
@@ -55,5 +55,29 @@
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
 - __Digital Media Player__: Triki
+
+
+# Name: Mazatlán
+
+- __Alias__: The Microprocessor
+- __Station__: Tz'unu'un
+- __Hochob Media__:
+  - VisitorsCenter Applications Sound
+- __Services__:
+  - __Automation HomeAssistant__:
+  - __Stream__ Chromecast
+- __Digital Media Player__: Juum
+
+
+# Name: Puerto Vallarta
+
+- __Alias__: Labs and Fabs
+- __Station__: Tz'unu'un
+- __Hochob Media__:
+  - VisitorsCenter Applications Sound
+- __Services__:
+  - __Automation HomeAssistant__:
+  - __Stream__ Chromecast
+- __Digital Media Player__: Juum
 
 
