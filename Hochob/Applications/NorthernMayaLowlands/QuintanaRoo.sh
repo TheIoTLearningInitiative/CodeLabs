@@ -8,9 +8,9 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export GUERRERO_PID=$$
-export GUERRERO_PATH=$(readlink -f "$0")
-export GUERRERO_DIRECTORY=$(dirname "$GUERRERO_PATH")
+export QUINTANAROO_PID=$$
+export QUINTANAROO_PATH=$(readlink -f "$0")
+export QUINTANAROO_DIRECTORY=$(dirname "$QUINTANAROO_PATH")
 
 # =============================================================================
 # Functions
@@ -22,6 +22,6 @@ export GUERRERO_DIRECTORY=$(dirname "$GUERRERO_PATH")
 # Main
 # =============================================================================
 
-Vlc.sh "on" "$CORPORATE_VIDEO/*"
+Vlc.sh "on" "$MEMORIES_VIDEO/*"
 
 # End of File
