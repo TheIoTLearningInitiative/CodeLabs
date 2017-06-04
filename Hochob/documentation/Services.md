@@ -53,6 +53,8 @@
 - Video
   - Ffmpeg
     - Ffmpeg.sh [directory]
+  - FfmpegAudio
+    - FfmpegAudio.sh [audio] [directory]
   - VlcMediaPlayer
     - Vlc.sh [loop] [file]
 
