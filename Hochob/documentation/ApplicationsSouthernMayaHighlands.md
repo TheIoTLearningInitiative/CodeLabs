@@ -154,6 +154,7 @@
 - __Station__: Chakmool
 - __Hochob Media Source__:
   - Camera / Video Slideshow
+  - Camera Live Transmission
 - __Hochob Media__:
   - VisitorsCenter Memories Video
 - __Services__:
