@@ -44,7 +44,7 @@ then
     fi
     
     LOCAL_SELECTED_FILE=`find $LOCAL_VISITORS_INSTITUTION_NAME -type f | shuf -n 1`
-    cp $LOCAL_SELECTED_FILE $HOCHOB_SERVER_MEDIA_MEMORIES_CAMERA
+    cp $LOCAL_SELECTED_FILE $HOCHOB_SERVER_MEDIA_MEMORIES_CAMERA/$LOCAL_INSTITUTION_NAME.jpg
     
 else
     echo "Invalid number of arguments, see Documentation"
