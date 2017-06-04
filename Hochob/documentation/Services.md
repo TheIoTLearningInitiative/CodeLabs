@@ -60,4 +60,4 @@
     - FfmpegAudio.sh [audio] [directory]
   - VlcMediaPlayer
     - Vlc.sh [loop] [file]
-- Visit
+- Visitor
