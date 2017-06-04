@@ -24,7 +24,7 @@ LOCAL_MESSAGE="$1"
 
 if [ $# -eq 1 ]
 then
-    Espeak.sh on spanish $LOCAL_MESSAGE
+    Espeak.sh "on" "spanish" "$LOCAL_MESSAGE"
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
