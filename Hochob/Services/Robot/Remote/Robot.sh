@@ -8,7 +8,7 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export MOVEMENT_PID=$$
+export ROBOTREMOTE_PID=$$
 
 LOCAL_COMMAND="$1"
 LOCAL_MESSAGE="$2"
