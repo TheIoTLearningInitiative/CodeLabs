@@ -8,9 +8,9 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export ACAPULCO_PID=$$
-export ACAPULCO_PATH=$(readlink -f "$0")
-export ACAPULCO_DIRECTORY=$(dirname "$ACAPULCO_PATH")
+export LAMICHILIA_PID=$$
+export LAMICHILIA_PATH=$(readlink -f "$0")
+export LAMICHILIA_DIRECTORY=$(dirname "$LAMICHILIA_PATH")
 
 # =============================================================================
 # Functions
@@ -22,8 +22,8 @@ export ACAPULCO_DIRECTORY=$(dirname "$ACAPULCO_PATH")
 # Main
 # =============================================================================
 
-Stream2Chromecast.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/Acapulco.mp3"
+Stream2Chromecast.sh "Eek'" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/LaMichilia.mp3"
 
-kill -- -$(ps -o pgid=$ACAPULCO_PID | grep -o '[0-9]*')
+kill -- -$(ps -o pgid=$LAMICHILIA_PID | grep -o '[0-9]*')
 
 # End of File
