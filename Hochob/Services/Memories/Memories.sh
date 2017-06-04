@@ -37,7 +37,7 @@ then
     cp -r $FSWEBCAM_ALLFILES $LOCAL_MEMORIES_CAMERA
 
     if [ "$LOCAL_VIDEO" = "on" ]; then
-        Ffmpeg.sh $FSWEBCAM_ALLFILES
+        Ffmpeg.sh $FSWEBCAM_DIRECTORY
         cp -r $FFMPEG_ALLFILES $LOCAL_MEMORIES_VIDEO
     fi
 
