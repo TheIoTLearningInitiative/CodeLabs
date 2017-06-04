@@ -8,9 +8,9 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export GUANAJUATO_PID=$$
-export GUANAJUATO_PATH=$(readlink -f "$0")
-export GUANAJUATO_DIRECTORY=$(dirname "$GUANAJUATO_PATH")
+export QUERETARO_PID=$$
+export QUERETARO_PATH=$(readlink -f "$0")
+export QUERETARO_DIRECTORY=$(dirname "$QUERETARO_PATH")
 
 # =============================================================================
 # Functions
@@ -22,6 +22,6 @@ export GUANAJUATO_DIRECTORY=$(dirname "$GUANAJUATO_PATH")
 # Main
 # =============================================================================
 
-Eog.sh "$CORPORATE_IMAGE/*" &
+Eog.sh "$APPLICATIONS_IMAGE/*" &
 
 # End of File

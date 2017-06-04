@@ -22,6 +22,11 @@ export MICHOACAN_DIRECTORY=$(dirname "$MICHOACAN_PATH")
 # Main
 # =============================================================================
 
+Robot.sh lupe/headright 1
+sleep .6
+Robot.sh lupe/headleft 1
+sleep .6
+
 Fswebcam.sh
 cp $FSWEBCAM_IMAGE $MEMORIES_CAMERA
 
