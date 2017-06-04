@@ -8,9 +8,9 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export CAMPECHE_PID=$$
-export CAMPECHE_PATH=$(readlink -f "$0")
-export CAMPECHE_DIRECTORY=$(dirname "$CAMPECHE_PATH")
+export CANCUN_PID=$$
+export CANCUN_PATH=$(readlink -f "$0")
+export CANCUN_DIRECTORY=$(dirname "$CANCUN_PATH")
 
 # =============================================================================
 # Functions
@@ -22,10 +22,8 @@ export CAMPECHE_DIRECTORY=$(dirname "$CAMPECHE_PATH")
 # Main
 # =============================================================================
 
-Eog.sh "$CORPORATE_IMAGE/*" &
-sleep 1
-Mpg123.sh "$APPLICATIONS_SOUND/Campeche.mp3"
+Mpg123.sh "$AREA_CENTRAL_MAYA_LOWLANDS/Cancun.mp3"
 
-kill -- -$(ps -o pgid=$CAMPECHE_PID | grep -o '[0-9]*')
+kill -- -$(ps -o pgid=$CANCUN_PID | grep -o '[0-9]*')
 
 # End of File
