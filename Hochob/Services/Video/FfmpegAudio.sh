@@ -27,7 +27,7 @@ LOCAL_DIRECTORY="$2"
 
 if [ $# -eq 2 ]
 then
-    $FFMPEG_BINARY -i "$LOCAL_DIRECTORY/"%04d.jpg -i $LOCAL_AUDIO $FFMPEG_ARGUMENTS $FFMPEG_VIDEO
+    $FFMPEG_BINARY -i "$LOCAL_DIRECTORY/"%04d.jpg -i $LOCAL_AUDIO $FFMPEG_ARGUMENTS $FFMPEG_VIDEO_AUDIO
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
