@@ -23,7 +23,7 @@ export BAJACALIFORNIANORTE_DIRECTORY=$(dirname "$BAJACALIFORNIANORTE_PATH")
 # =============================================================================
 
 Eog.sh "$APPLICATIONS_IMAGE/*" &
-sleep 1
+sleep 5
 Mpg123.sh "$APPLICATIONS_SOUND/BajaCaliforniaNorte.mp3"
 
 kill -- -$(ps -o pgid=$BAJACALIFORNIANORTE_PID | grep -o '[0-9]*')
