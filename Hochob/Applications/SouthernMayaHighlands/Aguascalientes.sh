@@ -23,13 +23,10 @@ export AGUASCALIENTES_DIRECTORY=$(dirname "$AGUASCALIENTES_PATH")
 # Main
 # =============================================================================
 
-Fswebcam.sh 5 &
+Memories.sh "camera" "5" "${AGUASCALIENTES_NAME}" &
 Eog.sh "$CORPORATE_IMAGE/*" &
-sleep 1
 Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Aguascalientes.mp3"
 
-Institution=`Name.sh`
-Memories.sh "camera" "${Institution}" "${AGUASCALIENTES_NAME}"
 
 kill -- -$(ps -o pgid=$AGUASCALIENTES_PID | grep -o '[0-9]*')
 
