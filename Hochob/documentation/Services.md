@@ -15,6 +15,7 @@
       - vernemq.conf
   - MqttClient
     - Mosquitto
+      - Mosquitto.sh
 - Robot
   - Virtual
   - Remote
