@@ -23,6 +23,7 @@
   - [Name of Institution]
     - Camera
     - Drawing
+    - Robot
     - Video
 
 # Hochob Server Media Source
