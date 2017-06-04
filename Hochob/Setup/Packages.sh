@@ -18,9 +18,6 @@ sudo apt install fswebcam
 # Hochob Server Services Communications
 # None
 
-# Hochob Server Services Robot
-# None
-
 # Hochob Server Services Image
 sudo apt install eog
 
