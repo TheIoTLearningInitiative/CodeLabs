@@ -34,7 +34,9 @@ then
     do
         DATE=`date +"%Y%m%d%H%M%S"`
         IMAGE=$(($IMAGE+1))
-        $FSWEBCAM_BINARY $FSWEBCAM_ARGUMENTS $FSWEBCAM_DIRECTORY/$DATE.jpg
+        NAME=%04d$IMAGE
+        echo $NAME
+        #$FSWEBCAM_BINARY $FSWEBCAM_ARGUMENTS $FSWEBCAM_DIRECTORY/$NAME.jpg
         sleep 1
     done
 
