@@ -8,9 +8,9 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export PUERTOVALLARTA_PID=$$
-export PUERTOVALLARTA_PATH=$(readlink -f "$0")
-export PUERTOVALLARTA_DIRECTORY=$(dirname "$CAMPECHE_PATH")
+export VERACRUZ_PID=$$
+export VERACRUZ_PATH=$(readlink -f "$0")
+export VERACRUZ_DIRECTORY=$(dirname "$VERACRUZ_PATH")
 
 # =============================================================================
 # Functions
@@ -22,8 +22,9 @@ export PUERTOVALLARTA_DIRECTORY=$(dirname "$CAMPECHE_PATH")
 # Main
 # =============================================================================
 
-Stream2Chromecast.sh "Juum" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/PuertoVallarta.mp3"
+Espeak.sh off spanish "1 2 3 4 5 6 7 8 9"
+Stream2Chromecast.sh "Juum" "1.0" "$ESPEAK_SPEECH_MP3"
 
-kill -- -$(ps -o pgid=$PUERTOVALLARTA_PID | grep -o '[0-9]*')
+kill -- -$(ps -o pgid=$VERACRUZ_PID | grep -o '[0-9]*')
 
 # End of File
