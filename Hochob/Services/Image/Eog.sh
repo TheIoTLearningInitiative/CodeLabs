@@ -25,7 +25,7 @@ LOCAL_FILES="$1"
 if [ $# -eq 1 ]
 then
     killall -9 $EOG_BINARY
-    $EOG_BINARY  $EOG_ARGUMENTS $LOCAL_FILES &
+    $EOG_BINARY $EOG_ARGUMENTS $LOCAL_FILES &
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
