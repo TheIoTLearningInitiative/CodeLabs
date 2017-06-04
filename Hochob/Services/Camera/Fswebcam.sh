@@ -35,6 +35,7 @@ then
         DATE=`date +"%Y%m%d%H%M%S"`
         IMAGE=$(($IMAGE+1))
         $FSWEBCAM_BINARY $FSWEBCAM_ARGUMENTS $FSWEBCAM_DIRECTORY/$DATE.jpg
+        sleep 1
     done
 
 else
