@@ -63,6 +63,7 @@
     - Ffmpeg.sh [directory]
   - FfmpegAudio
     - FfmpegAudio.sh [audio] [directory]
+      - Why not only to accept audio and video? this will reduce latency to convert again all pictures
   - VlcMediaPlayer
     - Vlc.sh [loop] [file]
 - Visitors
