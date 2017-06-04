@@ -150,7 +150,7 @@
 
 # Name: Zacatecas
 
-- __Alias__: Thank You Very Much Visitors
+- __Alias__: Thank You Very Much Future Engineers
 - __Station__: Chakmool
 - __Hochob Media Source__:
   - Camera Slide
