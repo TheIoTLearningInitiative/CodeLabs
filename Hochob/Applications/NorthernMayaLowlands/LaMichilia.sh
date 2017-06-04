@@ -22,7 +22,7 @@ export LAMICHILIA_DIRECTORY=$(dirname "$LAMICHILIA_PATH")
 # Main
 # =============================================================================
 
-Stream2Chromecast.sh "Eek'" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/LaMichilia.mp3"
+Stream2Chromecast.sh "Eek'" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/LaMichilia.mp3"
 
 kill -- -$(ps -o pgid=$LAMICHILIA_PID | grep -o '[0-9]*')
 
