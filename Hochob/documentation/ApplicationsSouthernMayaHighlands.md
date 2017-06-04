@@ -140,7 +140,7 @@
 
 # Name: Queretaro
 
-- __Alias__: Visitors Center Image Showcase
+- __Alias__: Visitors Center Memories Image Showcase
 - __Station__: Chakmool
 - __Hochob Media__:
   - VisitorsCenter Applications Image
