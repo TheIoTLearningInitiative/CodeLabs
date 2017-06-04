@@ -62,6 +62,7 @@ Vlc.sh "off" "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaSur06.mp4" &
 sleep 75
 
 wait
-# kill -- -$(ps -o pgid=$BAJACALIFORNIASUR_PID | grep -o '[0-9]*')
+
+kill -- -$(ps -o pgid=$BAJACALIFORNIASUR_PID | grep -o '[0-9]*')
 
 # End of File
