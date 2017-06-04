@@ -46,6 +46,7 @@ then
        $ESPEAK_BINARY $ESPEAK_LANGUAGE $ESPEAK_ARGUMENTS "$ESPEAK_INPUT" | tee $ESPEAK_SPEECH | aplay -
     elif [ "$LOCAL_PLAY" = "off" ]; then
        $ESPEAK_BINARY $ESPEAK_PLAY $ESPEAK_SPEECH $ESPEAK_LANGUAGE "$ESPEAK_INPUT"
+       ffmpeg -i $ESPEAK_SPEECH $ESPEAK_SPEECH_MP3
     fi
 else
     echo "Invalid number of arguments, see Documentation"
