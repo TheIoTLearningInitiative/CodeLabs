@@ -13,7 +13,7 @@
 - Sootz' Murcielago
 - Kaab Abeja
 - Am Arana
-- Ch'iich' Pajaro
+- __Ch'iich'__ Pajaro
 - T'uut' Guacamaya
 - Tunkuruchu Lechuza
 - Tz'unu'un Colibri
