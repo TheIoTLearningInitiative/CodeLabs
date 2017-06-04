@@ -22,6 +22,6 @@ export QUERETARO_DIRECTORY=$(dirname "$QUERETARO_PATH")
 # Main
 # =============================================================================
 
-Eog.sh "$MEMORIES_IMAGE/*" &
+Eog.sh "$MEMORIES_CAMERA/*" &
 
 # End of File
