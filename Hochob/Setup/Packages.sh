@@ -33,6 +33,9 @@ sudo apt install eog
 # Hochob Server Services Motion
 # None
 
+# Hochob Server Services Robot
+# None
+
 # Hochob Server Services Sound Speech Synthetizer
 sudo apt install espeak tee
 
