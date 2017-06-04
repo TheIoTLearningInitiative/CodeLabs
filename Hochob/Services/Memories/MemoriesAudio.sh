@@ -32,7 +32,7 @@ mkdir -p $LOCAL_VISITORS_INSTITUTION_NAME
 if [ $# -eq 1 ]
 then
 
-    ffmpeg -i $FFMPEG_VIDEO -i $ESPEAK_SPEECH_MP3 -codec copy -shortest $FFMPEG_VIDEO_AUDIO
+    ffmpeg -y -i $FFMPEG_VIDEO -i $ESPEAK_SPEECH_MP3 -codec copy -shortest $FFMPEG_VIDEO_AUDIO
 
 else
     echo "Invalid number of arguments, see Documentation"
