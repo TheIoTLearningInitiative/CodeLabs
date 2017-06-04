@@ -13,6 +13,8 @@ export GIFTUSB_PID=$$
 LOCAL_INSTITUTION_NAME=`Name.sh`
 LOCAL_INSTITUTION_NAME="$(echo "${LOCAL_INSTITUTION_NAME}" | tr -d '[:space:]')"
 
+LOCAL_MEMORIES_CAMERA=$MEMORIES_CAMERA/$LOCAL_INSTITUTION_NAME/
+
 # =============================================================================
 # Functions
 # =============================================================================
@@ -23,10 +25,11 @@ LOCAL_INSTITUTION_NAME="$(echo "${LOCAL_INSTITUTION_NAME}" | tr -d '[:space:]')"
 # Main
 # =============================================================================
 
-DIRECTORY=$VISITORS/$LOCAL_INSTITUTION_NAME
-mkdir -p $DIRECTORY
+LOCAL_VISITORS=$VISITORS/$LOCAL_INSTITUTION_NAME
+mkdir -p $LOCAL_VISITORS
 
-cp -r $HOCHOB_SERVER_MEDIA_MEMORIES_CAMERA $DIRECTORY
+cp -r $LOCAL_MEMORIES_CAMERA $LOCAL_VISITORS
+
 #cp -r $DRAWING_ALLFILES $DIRECTORY
 #cp -r $ESPEAK_ALLFILES $DIRECTORY
 #cp -r $FFMPEG_ALLFILES $DIRECTORY
