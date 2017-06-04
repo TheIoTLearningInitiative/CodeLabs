@@ -9,20 +9,15 @@
     - Drawing
     - Video
   - Applications
+    - Area
+      - SouthernMayaHighlands
+      - CentralMayaLowlands
+      - NorthernMayaLowlands
     - Image
       - Infraestructure
     - Music
-      - SouthernMayaHighlands
-      - CentralMayaLowlands
-      - NorthernMayaLowlands    
     - Sound
-      - SouthernMayaHighlands
-      - CentralMayaLowlands
-      - NorthernMayaLowlands
     - Video
-      - SouthernMayaHighlands
-      - CentralMayaLowlands
-      - NorthernMayaLowlands
   - Robot
 - Visitors
   - [Name of Institution]
