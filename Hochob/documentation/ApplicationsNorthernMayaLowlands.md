@@ -32,7 +32,7 @@
 - Tlaxcala
 - Veracruz
 - Yucatan
-- Zacatecas
+- __Zacatecas__
 
 # Name: Aguascalientes
 
