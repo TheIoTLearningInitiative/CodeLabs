@@ -10,6 +10,7 @@
 - Memories
   - Camera
   - Drawing
+  - Robot
   - Video
 - Robot
 - VisitorsCenter
