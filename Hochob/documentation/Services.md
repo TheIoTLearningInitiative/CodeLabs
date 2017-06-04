@@ -27,7 +27,8 @@
   - Scale
   - Name
 - Memories
-  - Memories.sh
+  - Memories.sh [images] [video] [identification]
+    - video [on/off]
 - Messaging
   - Telegram
 - Motion
@@ -48,8 +49,7 @@
       - Aplay.sh [file]
   - SpeechSynthesizer
     - Espeak.sh [play] [language] [input]
-      - Record and Play [on]
-      - Record Only [off]
+      - Play [on/off]
 - Stream
   - Chromecast
     - Stream2Chromecast.sh [device] [volume] [file]
