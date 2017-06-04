@@ -23,7 +23,8 @@ export CAMPECHE_DIRECTORY=$(dirname "$CAMPECHE_PATH")
 # Main
 # =============================================================================
 
-Vlc.sh on "$HOCHOB_SERVER_MEDIA_SOURCE_VIDEO_FFMPEG_VIDEO"
+#Vlc.sh on "$HOCHOB_SERVER_MEDIA_SOURCE_VIDEO_FFMPEG_VIDEO"
+Eog.sh "$FSWEBCAM_ALLFILES/*" &
 sleep 1
 Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Campeche.mp3"
 
