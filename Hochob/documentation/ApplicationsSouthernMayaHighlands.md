@@ -39,8 +39,8 @@
 - __Alias__: Welcome to Guadalajara Design Center!
 - __Station__: Chakmool
 - __Hochob Media__:
+  - Area SouthernMayaHighlands
   - Corporate Image
-  - VisitorsCenter Applications Sound
 - __Services__:
   - __Automation HomeAssistant__: Introduccion Bienvenida y Protocolo de Seguridad
   - __Image__ Eog
@@ -51,8 +51,8 @@
 - __Alias__: Are you ready for the show?
 - __Station__: Chakmool
 - __Hochob Media__:
-  - VisitorsCenter Applications Image
-  - VisitorsCenter Applications Sound
+  - Area SouthernMayaHighlands
+  - VisitorsCenter Image
 - __Services__:
   - __Automation HomeAssistant__: Video Antes del Video
   - __Image__ Eog
@@ -76,7 +76,6 @@
 - __Station__: Chakmool
 - __Hochob Media__:
   - VisitorsCenter Applications Image
-    - ??? Assuming the record of images is performed but what if not?
   - VisitorsCenter Sound Station
 - __Services__:
   - __Automation HomeAssistant__: Video Despues del Video
