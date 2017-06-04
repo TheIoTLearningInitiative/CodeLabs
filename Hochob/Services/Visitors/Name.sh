@@ -20,6 +20,6 @@ export NAME_PID=$$
 # Main
 # =============================================================================
 
-echo "Instituto Dummy"
+echo `date +"%Y%m%d%H%M%S"`
 
 # End of File
