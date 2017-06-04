@@ -153,7 +153,7 @@
 - __Alias__: Thank You Very Much Future Engineers
 - __Station__: Chakmool
 - __Hochob Media Source__:
-  - Camera Slide
+  - Camera / Video Slideshow
 - __Hochob Media__:
   - VisitorsCenter Memories Video
 - __Services__:
