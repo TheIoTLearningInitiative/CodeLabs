@@ -22,7 +22,7 @@ export ACAPULCO_DIRECTORY=$(dirname "$ACAPULCO_PATH")
 # Main
 # =============================================================================
 
-Stream2Chromecast.sh "Triki" "1.0" "$APPLICATIONS_SOUND/Acapulco.mp3"
+Stream2Chromecast.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/Acapulco.mp3"
 
 kill -- -$(ps -o pgid=$ACAPULCO_PID | grep -o '[0-9]*')
 
