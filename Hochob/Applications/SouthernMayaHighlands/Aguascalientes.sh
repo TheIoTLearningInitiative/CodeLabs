@@ -23,7 +23,7 @@ export AGUASCALIENTES_DIRECTORY=$(dirname "$AGUASCALIENTES_PATH")
 # Main
 # =============================================================================
 
-Memories.sh "120" "on" "${AGUASCALIENTES_NAME}" &
+Memories.sh "60" "on" "${AGUASCALIENTES_NAME}" &
 
 Eog.sh "$CORPORATE_IMAGE/*" &
 Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Aguascalientes.mp3"
