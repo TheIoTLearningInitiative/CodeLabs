@@ -40,7 +40,7 @@
 - __Station__: Chakmool
 - __Hochob Media__:
   - Corporate Image
-  - VisitorsCenter Sound Station
+  - VisitorsCenter Applications Sound
 - __Services__:
   - __Automation HomeAssistant__: Introduccion Bienvenida y Protocolo de Seguridad
   - __Image__ Eog
@@ -51,8 +51,8 @@
 - __Alias__: Are you ready for the show?
 - __Station__: Chakmool
 - __Hochob Media__:
-  - VisitorsCenter Image Place
-  - VisitorsCenter Sound Station
+  - VisitorsCenter Applications Image
+  - VisitorsCenter Applications Sound
 - __Services__:
   - __Automation HomeAssistant__: Video Antes del Video
   - __Image__ Eog
@@ -63,7 +63,7 @@
 - __Alias__: Let the show begin!
 - __Station__: Chakmool
 - __Hochob Media__:
-  - VisitorsCenter Video LupeRobot
+  - VisitorsCenter Applications Video
 - __Services__:
   - __Automation HomeAssistant__: 
   - __Video__ VlcMediaPlayer
