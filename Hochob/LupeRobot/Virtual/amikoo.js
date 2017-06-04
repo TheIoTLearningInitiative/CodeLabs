@@ -1,6 +1,6 @@
-const mqtt = require('mqtt')  
-//const client = mqtt.connect('mqtt://iot.eclipse.org')
-const client = mqtt.connect('mqtt://localhost')
+const mqtt = require('mqtt')
+const client = mqtt.connect('mqtt://iot.eclipse.org')
+//const client = mqtt.connect('mqtt://localhost')
 
 var sys = require('sys')
 var exec = require('child_process').exec;
