@@ -24,6 +24,11 @@ export BAJACALIFORNIASUR_DIRECTORY=$(dirname "$BAJACALIFORNIASUR_PATH")
 # =============================================================================
 
 Memories.sh "280" "on" "${BAJACALIFORNIASUR_NAME}" &
+Espeak.sh off spanish \
+"Muchas gracias Futuros Ingenieros!.
+A nombre del Equipo de Intel, deseamos que hayan tenido una gan visita!
+Los esperamos muy pronto!"
+
 
 Vlc.sh "off" "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaSur01.mp4" &
 (Robot.sh lupe/inicial 1) && sleep 1.25
@@ -63,14 +68,14 @@ sleep 75
 
 wait
 
-Espeak.sh off spanish \
-"Muchas gracias Futuros Ingenieros!.
-A nombre del Equipo de Intel, deseamos que hayan tenido una gan visita!
-Los esperamos muy pronto!"
+#Espeak.sh off spanish \
+#"Muchas gracias Futuros Ingenieros!.
+#A nombre del Equipo de Intel, deseamos que hayan tenido una gan visita!
+#Los esperamos muy pronto!"
 
-FfmpegAudio.sh $ESPEAK_SPEECH_MP3 $FSWEBCAM_DIRECTORY
+#FfmpegAudio.sh $ESPEAK_SPEECH_MP3 $FSWEBCAM_DIRECTORY
 
-wait
+#wait
 
 kill -- -$(ps -o pgid=$BAJACALIFORNIASUR_PID | grep -o '[0-9]*')
 
