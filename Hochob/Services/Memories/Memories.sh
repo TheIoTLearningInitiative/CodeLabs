@@ -11,8 +11,11 @@ set -x
 export MEMORIES_PID=$$
 
 LOCAL_TYPE="$1"
-LOCAL_INSTITUTION_NAME="$(echo "${2}" | tr -d '[:space:]')"
+LOCAL_NUMBER="$2"
 LOCAL_IDENTIFICATION="$(echo "${3}" | tr -d '[:space:]')"
+
+LOCAL_INSTITUTION_NAME=`Name.sh`
+LOCAL_INSTITUTION_NAME="$(echo "${LOCAL_INSTITUTION_NAME}" | tr -d '[:space:]')"
 
 LOCAL_PATH=$LOCAL_INSTITUTION_NAME/$LOCAL_IDENTIFICATION
 
@@ -28,8 +31,8 @@ LOCAL_PATH=$LOCAL_INSTITUTION_NAME/$LOCAL_IDENTIFICATION
 
 if [ $# -eq 3 ]
 then
-
     if [ "$LOCAL_TYPE" = "camera" ]; then
+        Fswebcam.sh $LOCAL_NUMBER &
         DIRECTORY=$MEMORIES_CAMERA/$LOCAL_PATH
         mkdir -p $DIRECTORY
         cp -r $FSWEBCAM_ALLFILES $DIRECTORY
