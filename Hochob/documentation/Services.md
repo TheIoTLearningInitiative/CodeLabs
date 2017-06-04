@@ -34,6 +34,8 @@
 - Motion
 - Robot
   - Virtual
+    - Sound
+      - Speaker
   - Remote
     - Camera
     - Movement
