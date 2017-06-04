@@ -9,6 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export MICHOACAN_PID=$$
+export MICHOACAN_NAME="Michoacan Application"
 export MICHOACAN_PATH=$(readlink -f "$0")
 export MICHOACAN_DIRECTORY=$(dirname "$MICHOACAN_PATH")
 
