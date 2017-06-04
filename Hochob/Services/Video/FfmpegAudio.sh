@@ -10,7 +10,7 @@ set -x
 
 export FFMPEG_PID=$$
 export FFMPEG_BINARY=ffmpeg
-export FFMPEG_ARGUMENTS="-y -s 1920x1080 -framerate 10 -vf fps=10 -pix_fmt yuv420p -acodec copy"
+export FFMPEG_ARGUMENTS="-y -s 4096x2304 -framerate 10 -vf fps=10 -pix_fmt yuv420p -acodec copy"
 
 LOCAL_AUDIO=$1
 LOCAL_DIRECTORY="$2"
