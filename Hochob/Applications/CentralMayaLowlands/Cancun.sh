@@ -22,7 +22,7 @@ export CANCUN_DIRECTORY=$(dirname "$CANCUN_PATH")
 # Main
 # =============================================================================
 
-Mpg123.sh "$AREA_CENTRAL_MAYA_LOWLANDS/Cancun.mp3"
+Stream2Chromecast.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/Cancun.mp3"
 
 kill -- -$(ps -o pgid=$CANCUN_PID | grep -o '[0-9]*')
 
