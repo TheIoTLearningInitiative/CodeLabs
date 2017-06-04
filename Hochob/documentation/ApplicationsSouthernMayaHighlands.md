@@ -92,7 +92,6 @@
   - Camera Fswebcam
 - __Hochob Media__:
   - Area SouthernMayaHighlands
-  - VisitorsCenter Sound
 - __Services__:
   - __Automation HomeAssistant__: Video Despues del Video
   - __Image__ Eog
