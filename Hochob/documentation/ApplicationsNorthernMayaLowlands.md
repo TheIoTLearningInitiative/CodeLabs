@@ -56,7 +56,7 @@
 - __Services__:
   - __Automation HomeAssistant__: Video Antes del Video
   - __Image__ Eog
-  - __Robot__ Movement
+  - __Robot__ Robot
   - __Sound__ Mpg123
 
 # Name: Baja California Sur
@@ -68,7 +68,7 @@
 - __Services__:
   - __Automation HomeAssistant__: 
   - __Video__ VlcMediaPlayer
-  - __Robot__ Movement
+  - __Robot__ Robot
 
 # Name: Campeche
 
@@ -126,7 +126,7 @@
 - __Services__:
   - __Automation HomeAssistant__:
   - __Camera__ Fswebcam
-  - __Communications__ Mqtt ?? Robot
+  - __Robot__ Movement
 
 # Name: Queretaro
 
