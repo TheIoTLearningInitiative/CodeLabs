@@ -74,7 +74,7 @@
 - __Alias__: Welcome to our Visitors Center
 - __Station__: Chakmool
 - __Hochob Media__:
-  - VisitorsCenter Image Visitors
+  - VisitorsCenter Applications Image
     - ??? Assuming the record of images is performed but what if not?
   - VisitorsCenter Sound Station
 - __Services__:
