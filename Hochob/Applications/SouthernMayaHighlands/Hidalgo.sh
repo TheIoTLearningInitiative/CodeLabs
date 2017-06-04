@@ -8,9 +8,9 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export QUERETARO_PID=$$
-export QUERETARO_PATH=$(readlink -f "$0")
-export QUERETARO_DIRECTORY=$(dirname "$QUERETARO_PATH")
+export HIDALGO_PID=$$
+export HIDALGO_PATH=$(readlink -f "$0")
+export HIDALGO_DIRECTORY=$(dirname "$HIDALGO_PATH")
 
 # =============================================================================
 # Functions
@@ -22,6 +22,6 @@ export QUERETARO_DIRECTORY=$(dirname "$QUERETARO_PATH")
 # Main
 # =============================================================================
 
-Eog.sh "$MEMORIES_VIDEO/*" &
+Eog.sh "$VISITORSCENTER_IMAGE/*" &
 
 # End of File
