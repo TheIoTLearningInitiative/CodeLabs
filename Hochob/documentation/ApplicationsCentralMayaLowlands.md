@@ -28,7 +28,7 @@
 - __Alias__: Before the Beginning
 - __Station__: Ch'iich'
 - __Hochob Media__:
-  - VisitorsCenter Applications Sound
+  - Area CentralMayaLowlands
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
@@ -39,7 +39,7 @@
 - __Alias__: The Beginning of Intel
 - __Station__: Ch'iich'
 - __Hochob Media__:
-  - VisitorsCenter Applications Sound
+  - Area CentralMayaLowlands
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
@@ -50,7 +50,7 @@
 - __Alias__: Intel Guadalajara Design Center
 - __Station__: Ch'iich'
 - __Hochob Media__:
-  - VisitorsCenter Applications Sound
+  - Area CentralMayaLowlands
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
@@ -62,7 +62,7 @@
 - __Alias__: The Microprocessor
 - __Station__: Tz'unu'un
 - __Hochob Media__:
-  - VisitorsCenter Applications Sound
+  - Area CentralMayaLowlands
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
@@ -74,10 +74,19 @@
 - __Alias__: Labs and Fabs
 - __Station__: Tz'unu'un
 - __Hochob Media__:
-  - VisitorsCenter Applications Sound
+  - Area CentralMayaLowlands
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
 - __Digital Media Player__: Juum
 
+# Name: Zacatecas
 
+- __Alias__: 
+- __Station__: Ch'iich'
+- __Hochob Media__:
+
+- __Services__:
+  - __Automation HomeAssistant__:
+  - __Stream__ Chromecast
+- __Digital Media Player__: Triki
