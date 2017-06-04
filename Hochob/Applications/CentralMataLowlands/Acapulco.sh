@@ -8,9 +8,9 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export CAMPECHE_PID=$$
-export CAMPECHE_PATH=$(readlink -f "$0")
-export CAMPECHE_DIRECTORY=$(dirname "$CAMPECHE_PATH")
+export ACAPULCO_PID=$$
+export ACAPULCO_PATH=$(readlink -f "$0")
+export ACAPULCO_DIRECTORY=$(dirname "$ACAPULCO_PATH")
 
 # =============================================================================
 # Functions
@@ -22,10 +22,8 @@ export CAMPECHE_DIRECTORY=$(dirname "$CAMPECHE_PATH")
 # Main
 # =============================================================================
 
-Eog.sh "$CORPORATE_IMAGE/*" &
-sleep 1
-Mpg123.sh "$APPLICATIONS_SOUND/Campeche.mp3"
+Stream2Chromecast.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/Acapulco.mp3"
 
-kill -- -$(ps -o pgid=$CAMPECHE_PID | grep -o '[0-9]*')
+kill -- -$(ps -o pgid=$ACAPULCO_PID | grep -o '[0-9]*')
 
 # End of File
