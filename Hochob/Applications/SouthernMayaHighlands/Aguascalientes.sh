@@ -22,6 +22,7 @@ export AGUASCALIENTES_DIRECTORY=$(dirname "$AGUASCALIENTES_PATH")
 # Main
 # =============================================================================
 
+Fswebcam.sh 5 &
 Eog.sh "$CORPORATE_IMAGE/*" &
 sleep 1
 Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Aguascalientes.mp3"
