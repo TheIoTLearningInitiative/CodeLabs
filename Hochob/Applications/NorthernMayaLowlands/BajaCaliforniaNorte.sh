@@ -22,7 +22,7 @@ export BAJACALIFORNIANORTE_DIRECTORY=$(dirname "$BAJACALIFORNIANORTE_PATH")
 # Main
 # =============================================================================
 
-Eog.sh "$VISITORSCENTER_IMAGE/*" &
+Eog.sh "$APPLICATIONS_IMAGE/*" &
 sleep 1
 Mpg123.sh "$APPLICATIONS_SOUND/BajaCaliforniaNorte.mp3"
 
