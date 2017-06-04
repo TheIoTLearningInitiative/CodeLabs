@@ -131,10 +131,10 @@
 
 - __Alias__: Welcome Memories
 - __Station__: Chakmool
+- __Hochob Media__:
+  - VisitorsCenter Image
 - __Hochob Media Source__:
   - Camera Fswebcam
-- __Hochob Media__:
-  - VisitorsCenter Applications Image
 - __Services__:
   - __Automation HomeAssistant__:
   - __Camera__ Fswebcam
@@ -143,14 +143,14 @@
 
 - __Alias__: Say cheese!
 - __Station__: Chakmool
+- __Hochob Media__:
+  - VisitorsCenter Image
 - __Hochob Media Source__:
   - Camera Fswebcam
-- __Hochob Media__:
-  - VisitorsCenter Applications Image
 - __Services__:
   - __Automation HomeAssistant__:
   - __Camera__ Fswebcam
-  - __Robot__ Movement
+  - __Robot__ RobotVirtual
 
 # Name: Queretaro
 
