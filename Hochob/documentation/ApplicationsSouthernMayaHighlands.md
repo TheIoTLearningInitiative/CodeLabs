@@ -38,13 +38,13 @@
 
 - __Alias__: Welcome to Guadalajara Design Center!
 - __Station__: Chakmool
-- __Hochob Media Source__:
-  - Camera Fswebcam
-  - Visitors
 - __Hochob Media__:
   - Area SouthernMayaHighlands
   - Corporate Image
   - VisitorsCenter Sound
+- __Hochob Media Source__:
+  - Camera Fswebcam
+  - Visitors
 - __Services__:
   - __Automation HomeAssistant__: Introduccion Bienvenida y Protocolo de Seguridad
   - __Image__ Eog
@@ -55,13 +55,13 @@
 
 - __Alias__: Are you ready for the show?
 - __Station__: Chakmool
-- __Hochob Media Source__:
-  - Camera Fswebcam
-  - Visitors
 - __Hochob Media__:
   - Area SouthernMayaHighlands
   - VisitorsCenter Image
   - VisitorsCenter Sound
+- __Hochob Media Source__:
+  - Camera Fswebcam
+  - Visitors
 - __Services__:
   - __Automation HomeAssistant__: Video Antes del Video
   - __Image__ Eog
@@ -73,11 +73,11 @@
 
 - __Alias__: Let the show begin!
 - __Station__: Chakmool
+- __Hochob Media__:
+  - Area SouthernMayaHighlands
 - __Hochob Media Source__:
   - Camera Fswebcam
   - Visitors
-- __Hochob Media__:
-  - Area SouthernMayaHighlands
 - __Services__:
   - __Automation HomeAssistant__: 
   - __Memories__ Memories
@@ -88,6 +88,8 @@
 
 - __Alias__: Welcome to our Visitors Center
 - __Station__: Chakmool
+- __Hochob Media Source__:
+  - Camera Fswebcam
 - __Hochob Media__:
   - Area SouthernMayaHighlands
   - VisitorsCenter Sound
