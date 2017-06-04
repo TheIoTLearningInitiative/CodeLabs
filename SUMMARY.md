@@ -124,6 +124,8 @@
       * [Tbd](Hochob/documentation/LupeRobotSandbox/tbd.md)
   * [Server](Hochob/documentation/Server.md)
     * [Setup](Hochob/documentation/ServerSetup.md)
+      * tbd
+      * [PulseAudio](Hochob/documentation/PulseAudio.md)
     * [Architecture](Hochob/documentation/ServerArchitecture.md)
       * [Naming Conventions](Hochob/documentation/ServerArchitectureNamingConventions.md)
     * [Media](Hochob/documentation/ServerArchitectureMedia.md)
@@ -137,11 +139,10 @@
       * [Image](Hochob/documentation/Image.md)
       * [Institution](Hochob/documentation/ServerMainInstitutionIdentification.md)
       * [Play](Hochob/documentation/Play.md)
-      * [PulseAudio](Hochob/documentation/PulseAudio.md)
       * [Robot](Hochob/documentation/ServicesRobot.md)
       * [Sound](Hochob/documentation/sound.md)
         * [Speech Synthetizer](Hochob/documentation/SpeechSynthetizer.md)
-      * Communications
+        * tbd
     * [Applications](Hochob/documentation/Applications.md)
       * [Northern Maya Lowlands](Hochob/documentation/ApplicationsNorthernMayaLowlands.md)
       * [Central Maya Lowlands](Hochob/documentation/ApplicationsCentralMayaLowlands.md)
