@@ -6,11 +6,9 @@ set -x
 # Variables
 # =============================================================================
 
-export EOG_PID=$$
-export EOG_BINARY=eog
-export EOG_ARGUMENTS="-sf"
+export ROBOT_MOVEMENT_PID=$$
 
-LOCAL_FILES="$1"
+LOCAL_COMMAND="$1"
 
 # =============================================================================
 # Functions
@@ -24,8 +22,7 @@ LOCAL_FILES="$1"
 
 if [ $# -eq 1 ]
 then
-    killall -9 $EOG_BINARY
-    $EOG_BINARY  $EOG_ARGUMENTS $LOCAL_FILES &
+    Mosquitto.sh "lupe/resetal" "1"
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
