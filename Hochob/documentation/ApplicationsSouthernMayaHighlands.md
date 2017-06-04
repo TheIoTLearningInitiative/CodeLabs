@@ -64,7 +64,7 @@
 - __Alias__: Let the show begin!
 - __Station__: Chakmool
 - __Hochob Media__:
-  - VisitorsCenter Applications Video
+  - Area SouthernMayaHighlands
 - __Services__:
   - __Automation HomeAssistant__: 
   - __Video__ VlcMediaPlayer

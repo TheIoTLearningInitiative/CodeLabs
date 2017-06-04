@@ -37,7 +37,8 @@
 - Video
   - /home/hochob/CodeLabs/Hochob/Photography/selfie.py
 - Visitors
-  - [Name of Institution]
+  - [Institution Name]
     - Camera
     - Drawing
+    - Robot
     - Video
