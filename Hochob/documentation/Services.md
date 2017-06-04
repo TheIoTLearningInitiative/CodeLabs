@@ -8,7 +8,7 @@
     - Google.py
 - Camera
   - FSWebcam
-    - Fswebcam.sh
+    - Fswebcam.sh [photos]
 - Communications
   - MqttServer
     - VerneMQ
