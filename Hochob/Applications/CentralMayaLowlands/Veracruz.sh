@@ -24,7 +24,7 @@ export VERACRUZ_DIRECTORY=$(dirname "$VERACRUZ_PATH")
 
 LOCAL_LANGUAGE=`Language.sh`
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Espeak.sh off spanish \
+    Espeak.sh off english \
     "Future Engineers! Welcome to this first hall! We called it: The Beginning. \
     Here we will remember the Mayans, the history of Intel y this Design Center. \
     Enjoy your tour!"
