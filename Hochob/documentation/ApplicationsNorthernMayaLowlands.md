@@ -93,3 +93,14 @@
   - __Stream__ Chromecast
 - __Digital Media Player__: Eek'
 
+# Name: Mapimi
+
+- __Alias__: 
+- __Station__: 
+- __Hochob Media__:
+  - Area NorthernMayaLowlands
+- __Services__:
+  - __Automation HomeAssistant__:
+  - __Stream__ Chromecast
+- __Digital Media Player__: Eek'
+
