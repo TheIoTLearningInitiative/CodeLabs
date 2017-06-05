@@ -24,8 +24,8 @@ export VERACRUZ_DIRECTORY=$(dirname "$VERACRUZ_PATH")
 
 Espeak.sh off spanish \
 "Futuros Ingenieros! Bienvenidos a esta primer sala, le llamamos: El Inicio. \
-Aqui recordaras a los Mayas, la historia de Intel e Intel Centro de Disenio en Guadalajara \
-Que las disfrutes"
+Aqui recordaras a los Mayas, la historia de Intel y de este Centro de Disenio. \
+Que disfrutes tu recorrido!"
 
 Stream2Chromecast.sh "Juum" "1.0" "$ESPEAK_SPEECH_MP3"
 
