@@ -80,7 +80,7 @@
   - __Stream__ Chromecast
 - __Digital Media Player__: Juum
 
-# Name: Zacatecas
+# Name: Veracruz
 
 - __Alias__: 
 - __Station__: Ch'iich'
