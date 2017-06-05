@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export ZACATECAS_PID=$$
-export ZACATECAS_NAME="Zacatecas Application"
-export ZACATECAS_PATH=$(readlink -f "$0")
-export ZACATECAS_DIRECTORY=$(dirname "$ZACATECAS_PATH")
+export MAPIMI_PID=$$
+export MAPIMI_NAME="Mapimi Application"
+export MAPIMI_PATH=$(readlink -f "$0")
+export MAPIMI_DIRECTORY=$(dirname "$ZACATECAS_PATH")
 
 # =============================================================================
 # Functions
@@ -23,10 +23,10 @@ export ZACATECAS_DIRECTORY=$(dirname "$ZACATECAS_PATH")
 # Main
 # =============================================================================
 
-Memories.sh "20" "on" "${ZACATECAS_NAME}"
-Espeak.sh off spanish "Nel Pastel"
-MemoriesAudio.sh "${ZACATECAS_NAME}"
+Memories.sh "40" "on" "${MAPIMI_NAME}"
+Espeak.sh off spanish "Nel Pastel Simona La Mona"
+MemoriesAudio.sh "${MAPIMI_NAME}"
 
-#kill -- -$(ps -o pgid=$ZACATECAS_PID | grep -o '[0-9]*')
+kill -- -$(ps -o pgid=$MAPIMI_PID | grep -o '[0-9]*')
 
 # End of File
