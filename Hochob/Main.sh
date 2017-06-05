@@ -9,6 +9,10 @@
 cd ~/CodeLabs/Hochob/
 export HOCHOB_ROOT=`pwd`
 
+export HOCHOB_SERVER_CONFIGURATION=/tmp/hochob/
+test -d $HOCHOB_SERVER_CONFIGURATION || mkdir -p $HOCHOB_SERVER_CONFIGURATION
+export HOCHOB_SERVER_CONFIGURATION=$HOCHOB_SERVER_CONFIGURATION/language
+
 # Hochob Server Services
 
 export HOCHOB_SERVER_SERVICES=$HOCHOB_ROOT/Services/
@@ -160,24 +164,22 @@ MQTT_SERVER_PORT=1883
 # YYYYMMDD-HHMMSS
 
 institutionIdentification () {
-  # If Institution Identification
-    #
-  # else
-    #
-  echo "Tbd"
+    # If Institution Identification
+      #
+    # else
+      #
+    echo "Tbd"
 }
 
 
 # Language Identification
 
 languageIdentification () {
-  export 
+    test -f $HOCHOB_SERVER_CONFIGURATION || touch $HOCHOB_SERVER_CONFIGURATION
 }
 
 # =============================================================================
 # Main
 # =============================================================================
-
-languageIdentification
 
 # End of File
