@@ -25,7 +25,7 @@ export ACAPULCO_DIRECTORY=$(dirname "$ACAPULCO_PATH")
 LOCAL_LANGUAGE=`Language.sh`
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Stream2Chromecast.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/AcapulcoEnglish.mp3"
-elif [ "$LOCAL_LANGUAGE" = "spanish" ]; then
+else:
     Stream2Chromecast.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/Acapulco.mp3"
 fi
 
