@@ -167,8 +167,17 @@ institutionIdentification () {
   echo "Tbd"
 }
 
+
+# Language Identification
+
+languageIdentification () {
+  export 
+}
+
 # =============================================================================
 # Main
 # =============================================================================
+
+languageIdentification
 
 # End of File
