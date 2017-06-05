@@ -10,6 +10,8 @@ set -x
 
 export LANGUAGE_PID=$$
 
+LOCAL_COMMAND="$1"
+
 # =============================================================================
 # Functions
 # =============================================================================
@@ -20,5 +22,11 @@ export LANGUAGE_PID=$$
 # Main
 # =============================================================================
 
+if [ -z "$1" ]
+then
+    cat $HOCHOB_SERVER_CONFIGURATION_LANGUAGE
+else
+    echo $LOCAL_COMMAND > $HOCHOB_SERVER_CONFIGURATION_LANGUAGE
+fi
 
 # End of File
