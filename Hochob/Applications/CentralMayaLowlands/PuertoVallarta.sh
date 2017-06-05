@@ -22,7 +22,12 @@ export PUERTOVALLARTA_DIRECTORY=$(dirname "$CAMPECHE_PATH")
 # Main
 # =============================================================================
 
-Stream2Chromecast.sh "Juum" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/PuertoVallarta.mp3"
+LOCAL_LANGUAGE=`Language.sh`
+if [ "$LOCAL_LANGUAGE" = "english" ]; then
+    Stream2Chromecast.sh "Juum" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/PuertoVallartaEnglish.mp3"
+else:
+    Stream2Chromecast.sh "Juum" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/PuertoVallarta.mp3"
+fi
 
 kill -- -$(ps -o pgid=$PUERTOVALLARTA_PID | grep -o '[0-9]*')
 
