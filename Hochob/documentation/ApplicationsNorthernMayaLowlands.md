@@ -54,7 +54,7 @@
 - __Alias__: 
 - __Station__: 
 - __Hochob Media__:
-  - VisitorsCenter Applications Sound
+  - Area NorthernMayaLowlands
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
@@ -65,7 +65,7 @@
 - __Alias__: 
 - __Station__: 
 - __Hochob Media__:
-  - VisitorsCenter Applications Sound
+  - Area NorthernMayaLowlands
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
@@ -76,7 +76,7 @@
 - __Alias__: 
 - __Station__: 
 - __Hochob Media__:
-  - VisitorsCenter Applications Sound
+  - Area NorthernMayaLowlands
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
@@ -87,7 +87,7 @@
 - __Alias__: 
 - __Station__: 
 - __Hochob Media__:
-  - VisitorsCenter Applications Sound
+  - Area NorthernMayaLowlands
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
