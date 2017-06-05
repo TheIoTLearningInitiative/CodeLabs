@@ -182,4 +182,6 @@ languageIdentification () {
 # Main
 # =============================================================================
 
+languageIdentification
+
 # End of File
