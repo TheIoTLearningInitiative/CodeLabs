@@ -26,6 +26,8 @@
   - Drawing
   - Scale
   - Name
+- Language
+  - Language.sh [language]
 - Memories
   - Memories.sh [images] [video] [identification]
     - video [on/off]
