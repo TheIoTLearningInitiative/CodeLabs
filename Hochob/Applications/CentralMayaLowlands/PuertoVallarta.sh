@@ -25,7 +25,7 @@ export PUERTOVALLARTA_DIRECTORY=$(dirname "$CAMPECHE_PATH")
 LOCAL_LANGUAGE=`Language.sh`
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Stream2Chromecast.sh "Juum" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/PuertoVallartaEnglish.mp3"
-else:
+else
     Stream2Chromecast.sh "Juum" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/PuertoVallarta.mp3"
 fi
 
