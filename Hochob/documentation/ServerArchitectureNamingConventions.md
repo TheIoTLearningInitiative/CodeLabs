@@ -86,4 +86,51 @@
 - Tonalá Puerto Arista
 - Veracruz
 
+# Reserves
 
+- Ojo de Liebre
+- Montes Azules
+- La Michilía
+- El Cielo
+- Sian Ka'an
+- Sierra de Manantlán
+- El Vizcaíno
+- Calakmul 
+- El Triunfo
+- Pantanos de Centla
+- Lacan-Tun
+- Alto golfo de California
+- Delta del río Colorado
+- El Pinacate
+- Gran Desierto de Altar
+- Chamela-Cuixmala
+- Sierra del Abra-Tanchipa
+- Archipiélago de Revillagigedo
+- Sierra de la Laguna
+- La Encrucijada
+- La Sepultura
+- Banco Chinchorro
+- Sierra Gorda
+- Arrecifes de Sian Ka'an
+- Tehuacán-Cuicatlán
+- Los Tuxtlas
+- Ría Lagartos
+- Los Petenes
+- Sierra de Huautla
+- Mariposa Monarca
+- Selva El Ocote
+- Mapimí
+- Barranca de Metztitlán
+- Islas Marías
+- Ría Celestún
+- Isla San Pedro Mártir
+- Volcán Tacaná
+- Isla Guadalupe
+- Sierra Gorda de Guanajuato
+- Bahía de los Ángeles
+- Canales de Ballenas
+- Salsipuedes
+- Zicuirán Infiernillo
+- Tiburón Ballena
+- Janos
+- Marismas Nacionales
