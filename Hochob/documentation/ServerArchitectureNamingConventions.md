@@ -29,3 +29,37 @@
 - Aak Tortuga
 - Aayin Cocodrilo
 
+# States of Mexico
+
+- Aguascalientes
+- Baja California Norte
+- Baja California Sur
+- Campeche
+- Chiapas
+- Chihuahua
+- Coahuila
+- Colima
+- Durango
+- Guanajuato
+- Guerrero
+- Hidalgo
+- Jalisco
+- Mexico
+- Michoacan
+- Morelos
+- Nayarit
+- Nuevo Leon
+- Oaxaca
+- Puebla
+- Queretaro
+- Quintana Roo
+- San Luis Potosi
+- Sinaloa
+- Sonora
+- Tabasco
+- Tamaulipas
+- Tlaxcala
+- Veracruz
+- Yucatan
+- Zacatecas
+
