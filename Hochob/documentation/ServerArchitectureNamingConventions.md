@@ -1,6 +1,13 @@
 # Naming Conventions
 
-# Stations
+# Geography
+
+- Northern Maya Lowlands
+- Central Maya Lowlands
+- Southern Maya Highlands
+- Virtual Maya Lands
+
+# Animal Names in Maya
 
 - [Maya Animals](http://www.native-languages.org/maya_animals.htm)
 
@@ -21,14 +28,4 @@
 - Kan Culebra
 - Aak Tortuga
 - Aayin Cocodrilo
-
-# Filenames
-
-- Services/Camera/hbsCameraFswMain.sh
-- Services/Image/hbsImageEogMain.sh
-- Services/Sound/Play/hbsSoundPxAplMain.sh
-- Services/Sound/Play/hbsSoundPxMpgMain.sh
-- Services/Sound/SpeechSynthesizer/hbsSoundSsEspeakMain.sh
-- Services/Stream/Stream2Chromecast/hbsStreamS2cMain.sh
-- Services/Video/hbsVideoVlcMain.sh
 
