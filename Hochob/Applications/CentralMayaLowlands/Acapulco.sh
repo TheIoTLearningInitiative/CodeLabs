@@ -46,18 +46,6 @@ else
     Stream.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/Acapulco.mp3"
 fi
 
-if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Espeak.sh off english \
-    "Future Engineers. Welcome to this first hall! We called it: The Beginning. \
-    Here we will remember the Mayans, the history of Intel y this Intel Guadalajara Design Center. \
-    Enjoy your tour."
-else
-    Espeak.sh off spanish \
-    "Futuros Ingenieros. "
-fi
-
-wait
-
 kill -- -$(ps -o pgid=$ACAPULCO_PID | grep -o '[0-9]*')
 
 # End of File
