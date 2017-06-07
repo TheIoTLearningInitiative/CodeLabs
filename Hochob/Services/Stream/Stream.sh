@@ -6,8 +6,7 @@ set -x
 # Variables
 # =============================================================================
 
-export STREAM2CHROMECAST_PID=$$
-export STREAM2CHROMECAST_BINARY=stream2chromecast.py
+export STREAM_PID=$$
 
 LOCAL_DEVICE="$1"
 LOCAL_VOLUME="$2"
@@ -25,10 +24,12 @@ LOCAL_FILE="$3"
 
 if [ $# -eq 3 ] 
 then
-    killall -9 $STREAM2CHROMECAST_BINARY
-    $STREAM2CHROMECAST_BINARY -devicename $LOCAL_DEVICE -setvol $LOCAL_VOLUME
-    $STREAM2CHROMECAST_BINARY -devicename $LOCAL_DEVICE $LOCAL_FILE
-    $STREAM2CHROMECAST_BINARY -devicename $LOCAL_DEVICE -stop
+    if [ "$1" != "" ]; then
+    then
+        echo "Hi"
+    else
+        Stream2Chromecast.sh "Juum" "1.0" "$ESPEAK_SPEECH_MP3"
+    fi
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
