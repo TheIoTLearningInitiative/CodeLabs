@@ -27,7 +27,7 @@ Memories.sh "40" "on" "${MAPIMI_NAME}"
 Espeak.sh off spanish "Nel Pastel Simona La Mona"
 MemoriesAudio.sh "${MAPIMI_NAME}"
 
-Stream2Chromecast.sh "Eek'" "1.0" "$FFMPEG_VIDEO_AUDIO"
+Stream.sh "Eek'" "1.0" "$FFMPEG_VIDEO_AUDIO"
 
 kill -- -$(ps -o pgid=$MAPIMI_PID | grep -o '[0-9]*')
 
