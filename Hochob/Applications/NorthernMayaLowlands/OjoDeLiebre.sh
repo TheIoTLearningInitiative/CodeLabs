@@ -26,7 +26,7 @@ Espeak.sh off spanish \
     "Ya vimos la importancia de nuestra Fabricas y Laboratorios. Ahora entraremos a una seccion \
     que nos permite jugar y conocer de cerca la tecnologia. Siganme."
     
-Stream.sh "Juum" "1.0" "$ESPEAK_SPEECH_MP3"
+Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
 
 Stream.sh "Eek'" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/OjoDeLiebre.mp3"
 
