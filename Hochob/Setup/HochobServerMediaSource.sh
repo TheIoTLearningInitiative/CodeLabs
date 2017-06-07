@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -x
+
 export HOCHOB_SERVER_MEDIA_SOURCE=/tmp/HochobServerMediaSource/
 
 export HOCHOB_SERVER_MEDIA_SOURCE_CAMERA=$HOCHOB_SERVER_MEDIA_SOURCE/Camera/
