@@ -1,5 +1,5 @@
 const mqtt = require('mqtt')
-const client = mqtt.connect('mqtt://iot.eclipse.org')
+const client = mqtt.connect('mqtt://127.0.0.1')
 //const client = mqtt.connect('mqtt://localhost')
 
 var sys = require('sys')
