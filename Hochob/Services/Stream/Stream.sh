@@ -26,9 +26,9 @@ if [ $# -eq 3 ]
 then
     if [ "$HOCHOBDEMO" != "1" ]
     then
-        Stream2Chromecast.sh "Juum" "1.0" "$ESPEAK_SPEECH_MP3"
+        Stream2Chromecast.sh "Juum" "1.0" "$LOCAL_FILE"
     else
-        Mpg123.sh "$ESPEAK_SPEECH_MP3"
+        Mpg123.sh "$LOCAL_FILE"
     fi
 else
     echo "Invalid number of arguments, see Documentation"
