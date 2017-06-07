@@ -35,7 +35,7 @@ else
     Que disfruten tu recorrido!"
 fi
 
-Stream2Chromecast.sh "Juum" "1.0" "$ESPEAK_SPEECH_MP3"
+Stream.sh "Juum" "1.0" "$ESPEAK_SPEECH_MP3"
 
 kill -- -$(ps -o pgid=$PCOCHUC_PID | grep -o '[0-9]*')
 
