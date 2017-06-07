@@ -28,7 +28,7 @@ sleep .6
 Robot.sh lupe/headleft 1
 sleep .6
 
-RobotVirtual.sh "Tomaremos algunas fotos! Estan listos?"
+RobotVirtual.sh "Tomaremos algunas fotos. Estan listos?"
 sleep 1
 RobotVirtual.sh "3, 2, 1, Sonrian!"
 Memories.sh "10" "on" "${MICHOACAN_NAME}" &
