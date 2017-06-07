@@ -8,6 +8,10 @@
 - Virtual Maya Lands
 - Robot Maya Lands
 
+# Food
+
+> [NetGeo Maya Foods](http://www.nationalgeographic.com/travel/top-10/maya-foods/)
+
 # Animal Names in Maya
 
 - [Maya Animals](http://www.native-languages.org/maya_animals.htm)
