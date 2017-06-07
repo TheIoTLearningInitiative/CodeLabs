@@ -5,5 +5,3 @@
 - Northern Maya Lowlands: Experience
 - Virtual Maya Highlands: Support
 - Robot Maya Highlands: Robot
-
-
