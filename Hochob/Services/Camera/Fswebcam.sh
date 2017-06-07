@@ -10,7 +10,8 @@ set -x
 
 export FSWEBCAM_PID=$$
 export FSWEBCAM_BINARY=fswebcam
-export FSWEBCAM_ARGUMENTS="-r 1280x720 -s brightness=65% -s Contrast=50% -s Gamma=100% --jpeg 100 --no-banner"
+#export FSWEBCAM_ARGUMENTS="-r 1280x720 -s brightness=65% -s Contrast=50% -s Gamma=100% --jpeg 100 --no-banner"
+export FSWEBCAM_ARGUMENTS="-r 1280x720 --jpeg 100 --no-banner"
 export FSWEBCAM_IMAGE=$HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM_IMAGE
 
 LOCAL_IMAGES="$1"
@@ -35,6 +36,7 @@ then
         DATE=`date +"%Y%m%d%H%M%S"`
         NAME=`printf %04d $IMAGE`
         $FSWEBCAM_BINARY $FSWEBCAM_ARGUMENTS $FSWEBCAM_DIRECTORY/$NAME.jpg
+        cp $FSWEBCAM_DIRECTORY/$NAME.jpg $FSWEBCAM_IMAGE
         IMAGE=$(($IMAGE+1))
     done
 
