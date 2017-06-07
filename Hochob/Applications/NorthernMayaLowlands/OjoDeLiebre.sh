@@ -24,7 +24,7 @@ export OJODELIEBRE_DIRECTORY=$(dirname "$OJODELIEBRE_PATH")
 
 Espeak.sh off spanish \
     "Ya vimos la importancia de nuestra Fabricas y Laboratorios. Ahora entraremos a una seccion \
-    que nos permite jugar y conocer de cerca la tecnologia. Siganme."
+    que nos permite jugar y conocer de cerca la tecnología. Siganme."
     
 Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
 
