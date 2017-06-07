@@ -1,5 +1,5 @@
 const mqtt = require('mqtt')
-const client = mqtt.connect('mqtt://127.0.0.1')
+const client = mqtt.connect('mqtt://iot.eclipse.org')
 //const client = mqtt.connect('mqtt://localhost')
 
 var sys = require('sys')
@@ -9,7 +9,7 @@ function puts(error, stdout, stderr) { sys.puts(stdout) }
 
 function espeak(phrase) {
   var sleep = require('sleep')
-  exec("echo " + phrase + " | espeak -ves -w audio.wav", puts);
+  exec("echo " + phrase + " | espeak -v es-la -a 200 -w audio.wav", puts);
   sleep.msleep(500);
   exec("aplay audio.wav", puts);  
 }
