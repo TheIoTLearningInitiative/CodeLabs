@@ -36,7 +36,7 @@ Memories.sh "10" "on" "${MICHOACAN_NAME}" &
 wait
 
 Eog.sh "$HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM_IMAGE" &
-RobotVirtual.sh "Listo! Tenemos nuestra foto del recuerdo! Gracias Futuros Ingenieros!"
+RobotVirtual.sh "Listo! Tenemos nuestra foto del recuerdo. Gracias Futuros Ingenieros."
 
 sleep 2
 
