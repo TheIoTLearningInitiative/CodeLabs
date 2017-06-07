@@ -28,7 +28,7 @@ Memories.sh "5" "off" "${BAJACALIFORNIANORTE_NAME}" &
 Eog.sh "$VISITORSCENTER_IMAGE/*" &
 sleep 5
 Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaNorte.mp3" &
-sleep 19.5
+sleep 19.2
 Espeak.sh on spanish "Nel"
 Robot.sh lupe/headright 1
 sleep .6
