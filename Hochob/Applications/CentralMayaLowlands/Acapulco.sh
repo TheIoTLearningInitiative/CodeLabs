@@ -22,7 +22,7 @@ export ACAPULCO_DIRECTORY=$(dirname "$ACAPULCO_PATH")
 # Main
 # =============================================================================
 
-$Eog.sh $VISITORSCENTER_IMAGE/RP/RPP-May052017-4536.jpg
+Eog.sh $VISITORSCENTER_IMAGE/RP/RPP-May052017-4536.jpg &
 
 LOCAL_LANGUAGE=`Language.sh`
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
