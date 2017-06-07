@@ -6,6 +6,7 @@
 - Central Maya Lowlands
 - Southern Maya Highlands
 - Virtual Maya Lands
+- Robot Maya Lands
 
 # Animal Names in Maya
 
