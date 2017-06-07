@@ -24,6 +24,8 @@ export ELCIELO_DIRECTORY=$(dirname "$ELCIELO_PATH")
 
 #Stream.sh "Eek'" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/ElCielo.mp3"
 
+Eog.sh $HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM &
+
 LOCAL_LANGUAGE=`Language.sh`
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Espeak.sh off english \
