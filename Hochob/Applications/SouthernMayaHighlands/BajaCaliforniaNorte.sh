@@ -29,7 +29,7 @@ Eog.sh "$VISITORSCENTER_IMAGE/*" &
 sleep 5
 Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaNorte.mp3" &
 sleep 19.5
-Espeak.sh on spanish "ah ah"
+Espeak.sh on spanish "Nel"
 Robot.sh lupe/headright 1
 sleep .6
 Robot.sh lupe/headleft 1
