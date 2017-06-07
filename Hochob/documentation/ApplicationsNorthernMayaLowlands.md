@@ -95,7 +95,7 @@
 
 # Name: Mapimi
 
-- __Alias__: 
+- __Alias__: Closure
 - __Station__: 
 - __Hochob Media__:
   - Area NorthernMayaLowlands
@@ -103,4 +103,3 @@
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
 - __Digital Media Player__: Eek'
-
