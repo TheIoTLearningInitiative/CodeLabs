@@ -24,7 +24,7 @@ LOCAL_FILE="$3"
 
 if [ $# -eq 3 ] 
 then
-    if [ "$HOCHOBDEMO" != "1" ]; then
+    if [ "$HOCHOBDEMO" != "1" ]
     then
         Stream2Chromecast.sh "Juum" "1.0" "$ESPEAK_SPEECH_MP3"
     else
