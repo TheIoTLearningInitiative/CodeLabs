@@ -24,11 +24,11 @@ LOCAL_FILE="$3"
 
 if [ $# -eq 3 ] 
 then
-    if [ "$HOCHOBDEMO" != "" ]; then
+    if [ "$HOCHOBDEMO" != "1" ]; then
     then
-        echo "Hi"
-    else
         Stream2Chromecast.sh "Juum" "1.0" "$ESPEAK_SPEECH_MP3"
+    else
+        Mpg123.sh "$ESPEAK_SPEECH_MP3"
     fi
 else
     echo "Invalid number of arguments, see Documentation"
