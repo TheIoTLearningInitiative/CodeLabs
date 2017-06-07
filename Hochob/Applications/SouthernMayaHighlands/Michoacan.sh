@@ -35,6 +35,11 @@ Memories.sh "10" "on" "${MICHOACAN_NAME}" &
 
 wait
 
+Eog.sh "$HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM_IMAGE" &
+RobotVirtual.sh "Listo! Tenemos nuestra foto del recuerdo! Gracias Futuros Ingenieros!"
+
+sleep 2
+
 kill -- -$(ps -o pgid=$MICHOACAN_PID | grep -o '[0-9]*')
 
 # End of File
