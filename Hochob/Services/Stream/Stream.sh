@@ -24,7 +24,7 @@ LOCAL_FILE="$3"
 
 if [ $# -eq 3 ] 
 then
-    if [ "$1" != "" ]; then
+    if [ "$HOCHOBDEMO" != "" ]; then
     then
         echo "Hi"
     else
