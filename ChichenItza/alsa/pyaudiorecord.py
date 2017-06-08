@@ -1,6 +1,7 @@
 #!/usr/bin/python  
 
 import pyaudio
+import subprocess
 import wave
 
 CHUNK = 1024
@@ -38,3 +39,6 @@ wf.setsampwidth(p.get_sample_size(FORMAT))
 wf.setframerate(RATE)
 wf.writeframes(b''.join(frames))
 wf.close()
+
+player = subprocess.Popen(["aplay", WAVE_OUTPUT_FILENAME])
+
