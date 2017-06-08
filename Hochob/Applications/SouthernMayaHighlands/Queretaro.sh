@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export QUERETARO_PID=$$
-export QUERETARO_NAME="Queretaro Name"
+export QUERETARO_NAME="Queretaro"
 export QUERETARO_PATH=$(readlink -f "$0")
 export QUERETARO_DIRECTORY=$(dirname "$QUERETARO_PATH")
 
@@ -22,6 +22,8 @@ export QUERETARO_DIRECTORY=$(dirname "$QUERETARO_PATH")
 # =============================================================================
 # Main
 # =============================================================================
+
+LogPid.sh $QUERETARO_PID $QUERETARO_NAME
 
 Eog.sh "$MEMORIES_CAMERA/*" &
 

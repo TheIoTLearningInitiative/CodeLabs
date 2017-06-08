@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export QUINTANAROO_PID=$$
-export QUINTANAROO_NAME="QuintanaRoo Name"
+export QUINTANAROO_NAME="QuintanaRoo"
 export QUINTANAROO_PATH=$(readlink -f "$0")
 export QUINTANAROO_DIRECTORY=$(dirname "$QUINTANAROO_PATH")
 
@@ -22,6 +22,8 @@ export QUINTANAROO_DIRECTORY=$(dirname "$QUINTANAROO_PATH")
 # =============================================================================
 # Main
 # =============================================================================
+
+LogPid.sh $QUINTANAROO_PID $QUINTANAROO_NAME
 
 Vlc.sh "on" "$MEMORIES_VIDEO/*"
 

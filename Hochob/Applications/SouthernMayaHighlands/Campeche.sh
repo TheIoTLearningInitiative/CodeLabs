@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export CAMPECHE_PID=$$
-export CAMPECHE_NAME="Campeche Application"
+export CAMPECHE_NAME="Campeche"
 export CAMPECHE_PATH=$(readlink -f "$0")
 export CAMPECHE_DIRECTORY=$(dirname "$CAMPECHE_PATH")
 
@@ -22,6 +22,8 @@ export CAMPECHE_DIRECTORY=$(dirname "$CAMPECHE_PATH")
 # =============================================================================
 # Main
 # =============================================================================
+
+LogPid.sh $CAMPECHE_PID $CAMPECHE_NAME
 
 #Vlc.sh on "$HOCHOB_SERVER_MEDIA_SOURCE_VIDEO_FFMPEG_VIDEO"
 Eog.sh "$FSWEBCAM_ALLFILES" &

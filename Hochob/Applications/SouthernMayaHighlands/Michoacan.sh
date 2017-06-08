@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export MICHOACAN_PID=$$
-export MICHOACAN_NAME="Michoacan Application"
+export MICHOACAN_NAME="Michoacan"
 export MICHOACAN_PATH=$(readlink -f "$0")
 export MICHOACAN_DIRECTORY=$(dirname "$MICHOACAN_PATH")
 
@@ -22,6 +22,8 @@ export MICHOACAN_DIRECTORY=$(dirname "$MICHOACAN_PATH")
 # =============================================================================
 # Main
 # =============================================================================
+
+LogPid.sh $MICHOACAN_PID $MICHOACAN_NAME
 
 Robot.sh lupe/headright 1
 sleep .6

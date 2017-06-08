@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export BAJACALIFORNIASUR_PID=$$
-export BAJACALIFORNIASUR_NAME="Baja California Sur Application"
+export BAJACALIFORNIASUR_NAME="BajaCaliforniaSur"
 export BAJACALIFORNIASUR_PATH=$(readlink -f "$0")
 export BAJACALIFORNIASUR_DIRECTORY=$(dirname "$BAJACALIFORNIASUR_PATH")
 
@@ -22,6 +22,8 @@ export BAJACALIFORNIASUR_DIRECTORY=$(dirname "$BAJACALIFORNIASUR_PATH")
 # =============================================================================
 # Main
 # =============================================================================
+
+LogPid.sh $BAJACALIFORNIASUR_PID $BAJACALIFORNIASUR_NAME
 
 Memories.sh "280" "on" "${BAJACALIFORNIASUR_NAME}" &
 

@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export HIDALGO_PID=$$
-export HIDALGO_NAME="Hidalgo Application"
+export HIDALGO_NAME="Hidalgo"
 export HIDALGO_PATH=$(readlink -f "$0")
 export HIDALGO_DIRECTORY=$(dirname "$HIDALGO_PATH")
 
@@ -22,6 +22,8 @@ export HIDALGO_DIRECTORY=$(dirname "$HIDALGO_PATH")
 # =============================================================================
 # Main
 # =============================================================================
+
+LogPid.sh $HIDALGO_PID $HIDALGO_NAME
 
 Eog.sh "$VISITORSCENTER_IMAGE/*" &
 

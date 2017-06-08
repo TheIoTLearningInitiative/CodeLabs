@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export AGUASCALIENTES_PID=$$
-export AGUASCALIENTES_NAME="Aguascalientes Application"
+export AGUASCALIENTES_NAME="Aguascalientes"
 export AGUASCALIENTES_PATH=$(readlink -f "$0")
 export AGUASCALIENTES_DIRECTORY=$(dirname "$AGUASCALIENTES_PATH")
 
@@ -22,6 +22,8 @@ export AGUASCALIENTES_DIRECTORY=$(dirname "$AGUASCALIENTES_PATH")
 # =============================================================================
 # Main
 # =============================================================================
+
+LogPid.sh $AGUASCALIENTES_PID $AGUASCALIENTES_NAME
 
 Memories.sh "5" "off" "${AGUASCALIENTES_NAME}" &
 

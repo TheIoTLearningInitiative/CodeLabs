@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export GUANAJUATO_PID=$$
-export GUANAJUATO_NAME="Guanajuato Application"
+export GUANAJUATO_NAME="Guanajuato"
 export GUANAJUATO_PATH=$(readlink -f "$0")
 export GUANAJUATO_DIRECTORY=$(dirname "$GUANAJUATO_PATH")
 
@@ -22,6 +22,8 @@ export GUANAJUATO_DIRECTORY=$(dirname "$GUANAJUATO_PATH")
 # =============================================================================
 # Main
 # =============================================================================
+
+LogPid.sh $GUANAJUATO_PID $GUANAJUATO_NAME
 
 Eog.sh "$CORPORATE_IMAGE/*" &
 

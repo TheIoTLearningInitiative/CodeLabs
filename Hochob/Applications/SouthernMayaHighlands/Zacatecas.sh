@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export ZACATECAS_PID=$$
-export ZACATECAS_NAME="Zacatecas Application"
+export ZACATECAS_NAME="Zacatecas"
 export ZACATECAS_PATH=$(readlink -f "$0")
 export ZACATECAS_DIRECTORY=$(dirname "$ZACATECAS_PATH")
 
@@ -23,12 +23,16 @@ export ZACATECAS_DIRECTORY=$(dirname "$ZACATECAS_PATH")
 # Main
 # =============================================================================
 
+LogPid.sh $ZACATECAS_PID $ZACATECAS_NAME
+
 Memories.sh "20" "on" "${ZACATECAS_NAME}"
 Espeak.sh off spanish \
     "Me da mucho gusto conocerlos y que hayan venido a Intel. \
     Regresen pronto"
 MemoriesAudio.sh "${ZACATECAS_NAME}"
 
-#kill -- -$(ps -o pgid=$ZACATECAS_PID | grep -o '[0-9]*')
+sync
+
+kill -- -$(ps -o pgid=$ZACATECAS_PID | grep -o '[0-9]*')
 
 # End of File
