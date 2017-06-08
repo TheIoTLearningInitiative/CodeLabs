@@ -4,6 +4,7 @@ echo
 
 # Audio: Advanced Linux Sound Architecture
 
+opkg update
 opkg install alsa-utils libportaudio2 libasound2 bison alsa-lib-dev alsa-utils-dev alsa-dev
 
 echo > /home/root/.asoundrc
@@ -16,7 +17,7 @@ pcm.!default {
         }
         capture.pcm {
                 type plug
-                slave.pcm "hw:2,0"
+                slave.pcm "hw:3,0"
         }
 }
 EOT
