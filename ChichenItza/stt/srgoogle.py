@@ -1,6 +1,9 @@
 #!/usr/bin/python
 
+import pyttsx
 import speech_recognition as sr
+
+engine = pyttsx.init()
 
 r = sr.Recognizer()
 m = sr.Microphone()
@@ -18,8 +21,11 @@ try:
 
         if str is bytes:
             print(u"You said {}".format(value).encode("utf-8"))
+            engine.say(format(value).encode("utf-8"))
         else:
             print("You said {}".format(value))
+            engine.say(format(value))
+        engine.runAndWait()
     except sr.UnknownValueError:
         print("Oops! Didn't catch that")
     except sr.RequestError as e:
