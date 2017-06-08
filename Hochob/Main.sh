@@ -4,14 +4,16 @@
 # Variables
 # =============================================================================
 
-# Hochob Server Root Directory
-
-cd ~/CodeLabs/Hochob/
-export HOCHOB_ROOT=`pwd`
+# Hochob Server Configuration
 
 export HOCHOB_SERVER_CONFIGURATION=/tmp/hochob/
 test -d $HOCHOB_SERVER_CONFIGURATION || mkdir -p $HOCHOB_SERVER_CONFIGURATION
 export HOCHOB_SERVER_CONFIGURATION_LANGUAGE=$HOCHOB_SERVER_CONFIGURATION/language
+
+# Hochob Server Root
+
+cd ~/CodeLabs/Hochob/
+export HOCHOB_ROOT=`pwd`
 
 # Hochob Server Services
 
@@ -101,7 +103,7 @@ export VISITORSCENTER_VIDEO=$HOCHOB_SERVER_MEDIA_VISITORSCENTER_VIDEO
 
 # Hochob Server Media Source Raw
 
-export HOCHOB_SERVER_MEDIA_SOURCE=/tmp/HochobServerMediaSource/
+export HOCHOB_SERVER_MEDIA_SOURCE=$HOME/HochobServerMediaSource/
 
 export HOCHOB_SERVER_MEDIA_SOURCE_CAMERA=$HOCHOB_SERVER_MEDIA_SOURCE/Camera/
 export HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM=$HOCHOB_SERVER_MEDIA_SOURCE_CAMERA/Fswebcam/
@@ -150,7 +152,7 @@ export VISITORS_SOURCE=$HOCHOB_SERVER_MEDIA_SOURCE_VISITORS
 
 # MQ Telemetry Transport 
 
-MQTT_SERVER_ADDRESS=iot.eclipse.org
+MQTT_SERVER_ADDRESS=127.0.0.1
 MQTT_SERVER_PORT=1883
 
 # =============================================================================
