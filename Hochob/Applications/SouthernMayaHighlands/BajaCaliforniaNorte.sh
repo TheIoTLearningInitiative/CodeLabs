@@ -29,7 +29,7 @@ Eog.sh "$VISITORSCENTER_IMAGE/*" &
 sleep 5
 Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaNorte.mp3" &
 sleep 19.2
-Espeak.sh on spanish "Nel"
+Robot.sh lupe/say "Nel"
 Robot.sh lupe/headright 1
 sleep .6
 Robot.sh lupe/headleft 1
@@ -41,7 +41,7 @@ sleep .6
 Robot.sh lupe/headright 1
 sleep .6
 Robot.sh lupe/resetall 1
-sleep 10
+sleep 5
 
 kill -- -$(ps -o pgid=$BAJACALIFORNIANORTE_PID | grep -o '[0-9]*')
 

@@ -25,7 +25,17 @@ LOCAL_MESSAGE="$2"
 
 if [ $# -eq 2 ]
 then
-    Mosquitto.sh $LOCAL_COMMAND $LOCAL_MESSAGE
+    if [ "$HOCHOBDEMO" != "1" ]
+    then
+        echo "Here"
+        #Mosquitto.sh $LOCAL_COMMAND $LOCAL_MESSAGE
+    else
+        echo "There"
+        if [ "$LOCAL_MESSAGE" != "1" ]
+        then
+            Espeak.sh on spanish "$LOCAL_MESSAGE"
+        fi
+    fi
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
