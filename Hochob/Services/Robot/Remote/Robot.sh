@@ -27,10 +27,8 @@ if [ $# -eq 2 ]
 then
     if [ "$HOCHOBDEMO" != "1" ]
     then
-        echo "Here"
-        #Mosquitto.sh $LOCAL_COMMAND $LOCAL_MESSAGE
+        Mosquitto.sh $LOCAL_COMMAND $LOCAL_MESSAGE
     else
-        echo "There"
         if [ "$LOCAL_MESSAGE" != "1" ]
         then
             Espeak.sh on spanish "$LOCAL_MESSAGE"
