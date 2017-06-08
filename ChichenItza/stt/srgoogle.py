@@ -21,10 +21,10 @@ try:
 
         if str is bytes:
             print(u"You said {}".format(value).encode("utf-8"))
-            engine.say(format(value).encode("utf-8"))
+            engine.say(u"You said {}".format(value).encode("utf-8"))
         else:
             print("You said {}".format(value))
-            engine.say(format(value))
+            engine.say("You said {}".format(value))
         engine.runAndWait()
     except sr.UnknownValueError:
         print("Oops! Didn't catch that")
