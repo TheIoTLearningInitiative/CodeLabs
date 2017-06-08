@@ -43,3 +43,5 @@ waveFile.setsampwidth(audio.get_sample_size(FORMAT))
 waveFile.setframerate(RATE)
 waveFile.writeframes(b''.join(frames))
 waveFile.close()
+
+player = subprocess.Popen(["aplay", WAVE_OUTPUT_FILENAME])
