@@ -15,7 +15,7 @@ function espeakDecir(phrase) {
 
 function espeakSay(phrase) {
   var sleep = require('sleep')
-  exec("echo " + phrase + " | espeak -v es-us -a 200 -w audio.wav", puts);
+  exec("echo " + phrase + " | espeak -v en-us -a 200 -w audio.wav", puts);
   sleep.msleep(500);
   exec("aplay audio.wav", puts);  
 }
