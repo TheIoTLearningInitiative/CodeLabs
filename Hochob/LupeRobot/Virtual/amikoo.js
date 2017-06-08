@@ -1,15 +1,21 @@
 const mqtt = require('mqtt')
 const client = mqtt.connect('mqtt://iot.eclipse.org')
-//const client = mqtt.connect('mqtt://localhost')
 
 var sys = require('sys')
 var exec = require('child_process').exec;
 
 function puts(error, stdout, stderr) { sys.puts(stdout) }
 
-function espeak(phrase) {
+function espeakDecir(phrase) {
   var sleep = require('sleep')
   exec("echo " + phrase + " | espeak -v es-la -a 200 -w audio.wav", puts);
+  sleep.msleep(500);
+  exec("aplay audio.wav", puts);  
+}
+
+function espeakSay(phrase) {
+  var sleep = require('sleep')
+  exec("echo " + phrase + " | espeak -v es-us -a 200 -w audio.wav", puts);
   sleep.msleep(500);
   exec("aplay audio.wav", puts);  
 }
@@ -19,6 +25,7 @@ var state = 'closed'
 client.on('connect', function () {  
   client.subscribe('lupe/open')
   client.subscribe('lupe/close')
+  client.subscribe('lupe/decir')
   client.subscribe('lupe/say')
 
   client.subscribe('lupe/resetall')
@@ -64,6 +71,8 @@ client.on('message', function (topic, message) {
       return handleRequestOpen(message)
     case 'lupe/close':
       return handleRequestClose(message)
+    case 'lupe/decir':
+      return handleRequestDecir(message)
     case 'lupe/say':
       return handleRequestSay(message)
 
@@ -161,8 +170,12 @@ function handleRequestClose (message) {
   }
 }
 
+function handleRequestDecir (message) {
+    espeakDecir(message)
+}
+
 function handleRequestSay (message) {
-    espeak(message)
+    espeakSay(message)
 }
 
 function handleLupe (message) {
