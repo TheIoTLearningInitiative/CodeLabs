@@ -25,6 +25,7 @@ export ACAPULCO_DIRECTORY=$(dirname "$ACAPULCO_PATH")
 Eog.sh $VISITORSCENTER_IMAGE/RP/RPP-May052017-4536.jpg &
 
 LOCAL_LANGUAGE=`Language.sh`
+
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Espeak.sh off english \
     "Future Engineers. Welcome to this first hall! We called it: The Beginning. \
@@ -40,12 +41,11 @@ fi
 Stream.sh "Juum" "1.0" "$ESPEAK_SPEECH_MP3"
 
 LOCAL_LANGUAGE=`Language.sh`
+
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Stream.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/AcapulcoEnglish.mp3"
 else
     Stream.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/Acapulco.mp3"
 fi
-
-kill -- -$(ps -o pgid=$ACAPULCO_PID | grep -o '[0-9]*')
 
 # End of File

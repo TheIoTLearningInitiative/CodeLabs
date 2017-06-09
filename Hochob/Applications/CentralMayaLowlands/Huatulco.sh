@@ -23,12 +23,11 @@ export HUATULCO_DIRECTORY=$(dirname "$HUATULCO_PATH")
 # =============================================================================
 
 LOCAL_LANGUAGE=`Language.sh`
+
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Stream.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/HuatulcoEnglish.mp3"
 else
     Stream.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/Huatulco.mp3"
 fi
-
-kill -- -$(ps -o pgid=$HUATULCO_PID | grep -o '[0-9]*')
 
 # End of File

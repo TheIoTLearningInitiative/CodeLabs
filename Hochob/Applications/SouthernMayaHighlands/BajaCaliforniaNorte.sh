@@ -28,10 +28,11 @@ LogPid.sh $BAJACALIFORNIANORTE_PID $BAJACALIFORNIANORTE_NAME
 Memories.sh "5" "off" "${BAJACALIFORNIANORTE_NAME}" &
 
 Eog.sh "$VISITORSCENTER_IMAGE/*" &
-sleep 5
+sleep 2
 Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaNorte.mp3" &
 sleep 19.2
 Robot.sh lupe/say "Nel"
+sleep .6
 Robot.sh lupe/headright 1
 sleep .6
 Robot.sh lupe/headleft 1

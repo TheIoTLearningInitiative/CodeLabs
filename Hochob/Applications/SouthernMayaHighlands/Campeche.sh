@@ -30,6 +30,7 @@ Eog.sh "$FSWEBCAM_ALLFILES" &
 sleep 1
 Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Campeche.mp3"
 
-kill -- -$(ps -o pgid=$CAMPECHE_PID | grep -o '[0-9]*')
+KillApp.sh "eog"
+KillApp.sh "mpg123"
 
 # End of File

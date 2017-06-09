@@ -43,6 +43,4 @@ else
     Stream.sh "Juum" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/Mazatlan.mp3"
 fi
 
-kill -- -$(ps -o pgid=$MAZATLAN_PID | grep -o '[0-9]*')
-
 # End of File

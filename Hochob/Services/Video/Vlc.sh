@@ -26,7 +26,6 @@ LOCAL_FILE="$2"
 
 if [ $# -eq 2 ]
 then
-    killall -9 $VLC_BINARY
     if [ "$LOCAL_LOOP" = "on" ]; then
         $VLC_BINARY $VLC_ARGUMENTS $VLC_LOOP $LOCAL_FILE &
     elif [ "$LOCAL_LOOP" = "off" ]; then
