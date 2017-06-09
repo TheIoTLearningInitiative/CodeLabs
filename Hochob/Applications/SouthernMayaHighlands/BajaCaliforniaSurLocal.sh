@@ -48,8 +48,7 @@ wait
 
 Espeak.sh off spanish \
 "Muchas gracias Futuros Ingenieros!.
-A nombre del Equipo de Intel, deseamos que hayan tenido una gan visita!
-Los esperamos muy pronto!"
+A nombre del Equipo de Intel, deseamos que hayan tenido una gan visita."
 
 MemoriesAudio.sh "${BAJACALIFORNIASUR_NAME}"
 
