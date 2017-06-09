@@ -45,6 +45,7 @@ sleep .6
 Robot.sh lupe/resetall 1
 sleep 5
 
-kill -- -$(ps -o pgid=$BAJACALIFORNIANORTE_PID | grep -o '[0-9]*')
+KillApp.sh "eog"
+KillApp.sh "mpg123"
 
 # End of File
