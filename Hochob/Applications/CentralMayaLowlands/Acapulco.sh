@@ -24,6 +24,7 @@ export ACAPULCO_DIRECTORY=$(dirname "$ACAPULCO_PATH")
 
 #Eog.sh $VISITORSCENTER_IMAGE/RP/RPP-May052017-4536.jpg &
 
+LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
@@ -33,12 +34,12 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Enjoy your tour."
 else
     Espeak.sh off spanish \
-    "Futuros Ingenieros. Bienvenidos a esta primer sala, le llamamos: El Inicio. \
+    "Futuros Ingenieros de ${LOCAL_INSTITUTION}. Bienvenidos a esta primer sala, le llamamos: El Inicio. \
     Aqui recordaras a los Mayas, la historia de Intel y de este Centro de Disenio de Intel en Guadalajara. \
     Que disfruten tu recorrido."
 fi
 
-Stream.sh "Juum" "1.0" "$ESPEAK_SPEECH_MP3"
+#Stream.sh "Juum" "1.0" "$ESPEAK_SPEECH_MP3"
 
 LOCAL_LANGUAGE=`Language.sh`
 
