@@ -15,19 +15,19 @@ homeassistant:
     # Southern Maya Highlands : 1 Introduccion
 
     script.aguascalientes:
-      friendly_name: 1.1 Bienvenida y Protocolo de Seguridad
+      friendly_name: 1.1 Bienvenida Intel, Protocolo de Seguridad
       icon: mdi:audiobook
 
     # Southern Maya Highlands : 2 Video
 
     script.bajacalifornianorte:
-      friendly_name: 2.1 Antes del video
+      friendly_name: 2.1 Bienvenida Guadalajara Design Center
       icon: mdi:audiobook
     script.bajacaliforniasur:
-      friendly_name: 2.2 Video
+      friendly_name: 2.2 Lupe Robot Show
       icon: mdi:video
     script.michoacan:
-      friendly_name: 2.3 Digan "Whiskey"
+      friendly_name: 2.3 Lupe Robot Group Picture
       icon: mdi:video      
     script.campeche:
       friendly_name: 2.4 Despues del video
@@ -36,25 +36,25 @@ homeassistant:
     # Southern Maya Highlands : Corporate : 
 
     switch.guanajuato:
-      friendly_name: Corporate Image Showcase
+      friendly_name: Image Showcase
       icon: mdi:camera
     switch.guerrero:
-      friendly_name: Corporate Video Showcase
+      friendly_name: Video Showcase
       icon: mdi:camera
 
     # Southern Maya Highlands : Visitors Center
 
     switch.hidalgo:
-      friendly_name: Visitors Center Image Showcase
+      friendly_name: Image Showcase
       icon: mdi:camera
 
     # Southern Maya Highlands : Memories
 
     switch.queretaro:
-      friendly_name: Memories Image Showcase
+      friendly_name: Image Showcase
       icon: mdi:camera
     switch.quintanaroo:
-      friendly_name: Memories Video Showcase
+      friendly_name: Video Showcase
       icon: mdi:camera
 
     # Central Maya Lowlands
@@ -222,18 +222,18 @@ group:
       - script.campeche
 
   corporate:
-    name: 3 Corporate
+    name: Corporate
     entities:
       - switch.guanajuato
       - switch.guerrero
 
   visitorscenter:
-    name: 4 Visitors Center
+    name: Visitors Center
     entities:
       - switch.hidalgo
 
   memories:
-    name: 5 Memories
+    name: Memories
     entities:
       - switch.queretaro
       - switch.quintanaroo
@@ -246,3 +246,4 @@ group:
       - script.huatulco
       - script.mazatlan
       - script.puertovallarta
+

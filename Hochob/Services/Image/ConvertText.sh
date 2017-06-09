@@ -8,7 +8,11 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export NAME_PID=$$
+export CONVERTTEXT_PID=$$
+export CONVERTTEXT_BINARY=convert
+export CONVERTTEXT_ARGUMENTS="-pointsize 75 -fill yellow -draw"
+
+LOCAL_TEXT="$1"
 
 # =============================================================================
 # Functions
@@ -20,8 +24,12 @@ export NAME_PID=$$
 # Main
 # =============================================================================
 
-#echo `date +"%Y%m%d%H%M%S"`
-#echo "Consejo Zacatecano de Ciencia y Tecnología"
-echo "Instituto Balam"
+if [ $# -eq 1 ]
+then
+    $CONVERTTEXT_BINARY $CONVERTTEXT_ARGUMENTS "text 20,700 \"$LOCAL_TEXT\"" $FSWEBCAM_IMAGE $FSWEBCAM_IMAGE_TEXT
+else
+    echo "Invalid number of arguments, see Documentation"
+    exit 1
+fi
 
 # End of File
