@@ -40,6 +40,8 @@ wait
 Eog.sh "$HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM_IMAGE" &
 Robot.sh lupe/say "Listo! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuros ingenieros."
 
-sleep 2
+sleep 5
+
+KillApp.sh "eog"
 
 # End of File
