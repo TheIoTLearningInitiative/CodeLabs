@@ -42,17 +42,18 @@ sleep 37.5 && Robot.sh lupe/say "En mi caso, mi cerebro esta aqui, en la caja az
 Vlc.sh "off" "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaSur05.mp4" &
 sleep 25.5 && Robot.sh lupe/say "Yo funciono con la plataforma Intel Edison"
 
-Vlc.sh "off" "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaSur06.mp4"
+Vlc.sh "off" "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaSur06.mp4" &
 
-wait
-
+LOCAL_INSTITUTION=`Name.sh`
 Espeak.sh off spanish \
-"Muchas gracias Futuros Ingenieros!.
+"Muchas gracias Futuros Ingenieros del ${LOCAL_INSTITUTION}.
 A nombre del Equipo de Intel, deseamos que hayan tenido una gan visita."
 
 MemoriesAudio.sh "${BAJACALIFORNIASUR_NAME}"
 
 wait
+
+sleep 15
 
 KillApp.sh "cvlc"
 KillApp.sh "vlc"
