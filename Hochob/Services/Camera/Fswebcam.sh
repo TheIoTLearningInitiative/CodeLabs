@@ -10,7 +10,7 @@ set -x
 
 export FSWEBCAM_PID=$$
 export FSWEBCAM_BINARY=fswebcam
-export FSWEBCAM_ARGUMENTS="-r 4096x2304 -s brightness=65% -s Contrast=50% -s Gamma=100% --jpeg 100 --no-banner"
+export FSWEBCAM_ARGUMENTS="-r 4096x2304 -s brightness=50% -s Contrast=50% -s Gamma=50% --jpeg 100 --no-banner"
 export FSWEBCAM_IMAGE=$HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM_IMAGE
 
 LOCAL_IMAGES="$1"
