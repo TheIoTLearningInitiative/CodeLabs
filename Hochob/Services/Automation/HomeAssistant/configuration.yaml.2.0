@@ -1,0 +1,248 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 20.35
+  longitude: -102
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 1674
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: America/Mexico_City
+  customize:
+
+    # Southern Maya Highlands : 1 Introduccion
+
+    script.aguascalientes:
+      friendly_name: 1.1 Bienvenida y Protocolo de Seguridad
+      icon: mdi:audiobook
+
+    # Southern Maya Highlands : 2 Video
+
+    script.bajacalifornianorte:
+      friendly_name: 2.1 Antes del video
+      icon: mdi:audiobook
+    script.bajacaliforniasur:
+      friendly_name: 2.2 Video
+      icon: mdi:video
+    script.michoacan:
+      friendly_name: 2.3 Digan "Whiskey"
+      icon: mdi:video      
+    script.campeche:
+      friendly_name: 2.4 Despues del video
+      icon: mdi:audiobook
+
+    # Southern Maya Highlands : Corporate : 
+
+    switch.guanajuato:
+      friendly_name: Corporate Image Showcase
+      icon: mdi:camera
+    switch.guerrero:
+      friendly_name: Corporate Video Showcase
+      icon: mdi:camera
+
+    # Southern Maya Highlands : Visitors Center
+
+    switch.hidalgo:
+      friendly_name: Visitors Center Image Showcase
+      icon: mdi:camera
+
+    # Southern Maya Highlands : Memories
+
+    switch.queretaro:
+      friendly_name: Memories Image Showcase
+      icon: mdi:camera
+    switch.quintanaroo:
+      friendly_name: Memories Video Showcase
+      icon: mdi:camera
+
+    # Central Maya Lowlands
+
+    script.acapulco:
+      friendly_name: 1 Antes del inicio
+      icon: mdi:audiobook
+    script.cancun:
+      friendly_name: 2 Intel
+      icon: mdi:audiobook
+    script.huatulco:
+      friendly_name: 3. Intel GDC
+      icon: mdi:audiobook
+    script.mazatlan:
+      friendly_name: 4. El microprocesador
+      icon: mdi:audiobook
+    script.puertovallarta:
+      friendly_name: 5. Labs y Fabs
+      icon: mdi:audiobook
+
+# Enables the frontend
+frontend:
+
+http:
+  # Uncomment this to add a password (recommended!)
+  # api_password: PASSWORD
+  # Uncomment this if you are using SSL or running in Docker etc
+  # base_url: example.duckdns.org:8123
+
+# Checks for available updates
+updater:
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time.
+history:
+
+# View all events in a logbook
+logbook:
+
+script:
+
+  # Southern Maya Highlands
+
+  aguascalientes:
+    sequence:
+      - service: shell_command.aguascalientes
+
+  bajacalifornianorte:
+    sequence:
+      - service: shell_command.bajacalifornianorte
+
+  bajacaliforniasur:
+    sequence:
+      - service: shell_command.bajacaliforniasur
+
+  campeche:
+    sequence:
+      - service: shell_command.campeche
+
+  michoacan:
+    sequence:
+      - service: shell_command.michoacan
+
+  # Central Maya Lowlands
+
+  acapulco:
+    sequence:
+      - service: shell_command.acapulco
+
+  cancun:
+    sequence:
+      - service: shell_command.cancun
+
+  huatulco:
+    sequence:
+      - service: shell_command.huatulco
+
+  mazatlan:
+    sequence:
+      - service: shell_command.mazatlan
+
+  puertovallarta:
+    sequence:
+      - service: shell_command.puertovallarta
+
+shell_command:
+
+  # Southern Maya Highlands
+
+  aguascalientes: /home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Aguascalientes.sh &
+  bajacalifornianorte: /home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/BajaCaliforniaNorte.sh &
+  bajacaliforniasur: /home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/BajaCaliforniaSurLocal.sh &
+  campeche: /home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Campeche.sh &
+  michoacan: /home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Michoacan.sh &
+
+  # Central Maya Lowlands
+
+  acapulco: /home/hochob/CodeLabs/Hochob/Applications/CentralMayaLowlands/Acapulco.sh &
+  cancun: /home/hochob/CodeLabs/Hochob/Applications/CentralMayaLowlands/Cancun.sh &
+  huatulco: /home/hochob/CodeLabs/Hochob/Applications/CentralMayaLowlands/Huatulco.sh &
+  mazatlan: /home/hochob/CodeLabs/Hochob/Applications/CentralMayaLowlands/Mazatlan.sh &
+  puertovallarta: /home/hochob/CodeLabs/Hochob/Applications/CentralMayaLowlands/PuertoVallarta.sh &
+
+switch:
+  - platform: command_line
+    switches:
+
+      # Southern Maya Highlands: Corporate
+
+      guanajuato:
+        command_on: "/home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Guanajuato.sh &"
+        command_off: "/home/hochob/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
+      guerrero:
+        command_on: "/home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Guerrero.sh &"
+        command_off: "/home/hochob/CodeLabs/Hochob/Services/Kill/KillApp.sh vlc"
+
+      # Southern Maya Highlands: Visitors Center
+
+      hidalgo:
+        command_on: "/home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Hidalgo.sh &"
+        command_off: "/home/hochob/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
+
+      # Southern Maya Highlands: Memories
+
+      queretaro:
+        command_on: "/home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Queretaro.sh &"
+        command_off: "/home/hochob/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
+      quintanaroo:
+        command_on: "/home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/QuintanaRoo.sh &"
+        command_off: "/home/hochob/CodeLabs/Hochob/Services/Kill/KillApp.sh vlc"
+
+group:
+
+  default_view:
+    view: yes
+    entities:
+      - group.introduction
+      - group.video
+      - group.corporate
+      - group.visitorscenter
+      - group.memories
+
+  centralmayalowlands:
+    view: yes
+    name: The Beginning
+    entities:
+      - group.centralmayalowlandsstations
+
+  introduction:
+    name: 1 Introduccion
+    entities:
+      - script.aguascalientes
+
+  video:
+    name: 2 Video
+    entities:
+      - script.bajacalifornianorte
+      - script.bajacaliforniasur
+      - script.michoacan
+      - script.campeche
+
+  corporate:
+    name: 3 Corporate
+    entities:
+      - switch.guanajuato
+      - switch.guerrero
+
+  visitorscenter:
+    name: 4 Visitors Center
+    entities:
+      - switch.hidalgo
+
+  memories:
+    name: 5 Memories
+    entities:
+      - switch.queretaro
+      - switch.quintanaroo
+
+  centralmayalowlandsstations:
+    name: Stations
+    entities:
+      - script.acapulco
+      - script.cancun
+      - script.huatulco
+      - script.mazatlan
+      - script.puertovallarta
