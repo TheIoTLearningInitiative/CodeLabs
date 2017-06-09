@@ -42,6 +42,4 @@ Robot.sh lupe/say "Listo! Tenemos nuestra foto del recuerdo. A iniciar con el re
 
 sleep 2
 
-kill -- -$(ps -o pgid=$MICHOACAN_PID | grep -o '[0-9]*')
-
 # End of File
