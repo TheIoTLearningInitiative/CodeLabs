@@ -21,6 +21,6 @@ export NAME_PID=$$
 # =============================================================================
 
 #echo `date +"%Y%m%d%H%M%S"`
-echo "Instituto Triki"
+echo "Consejo Zacatecano de Ciencia y Tecnología"
 
 # End of File
