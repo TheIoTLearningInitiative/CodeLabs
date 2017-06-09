@@ -6,6 +6,8 @@ set -x
 # Variables
 # =============================================================================
 
+. ~/CodeLabs/Hochob/Main.sh
+
 export STREAM_PID=$$
 
 LOCAL_DEVICE="$1"
@@ -24,11 +26,12 @@ LOCAL_FILE="$3"
 
 if [ $# -eq 3 ]
 then
-    if [ "$HOCHOBDEMO" != "1" ]
+    LOCAL_DEMO=`Demo.sh`
+    if [ "$LOCAL_DEMO" -eq "1" ]
     then
-        Stream2Chromecast.sh "Juum" "1.0" "$LOCAL_FILE"
-    else
         Mpg123.sh "$LOCAL_FILE"
+    else
+        Stream2Chromecast.sh "Juum" "1.0" "$LOCAL_FILE"
     fi
 else
     echo "Invalid number of arguments, see Documentation"
