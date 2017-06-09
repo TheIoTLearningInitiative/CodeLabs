@@ -30,15 +30,15 @@ sleep .6
 Robot.sh lupe/headleft 1
 sleep .6
 
-RobotVirtual.sh "Tomaremos algunas fotos. Estan listos?"
+Robot.sh lupe/say "Tomaremos algunas fotos. Estan listos?"
 sleep 1
-RobotVirtual.sh "3, 2, 1, Sonrian!"
+Robot.sh lupe/say "3, 2, 1, Sonrian!"
 Memories.sh "10" "on" "${MICHOACAN_NAME}" &
 
 wait
 
 Eog.sh "$HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM_IMAGE" &
-RobotVirtual.sh "Listo! Tenemos nuestra foto del recuerdo. Gracias Futuros Ingenieros."
+Robot.sh lupe/say "Listo! Tenemos nuestra foto del recuerdo. Gracias Futuros Ingenieros."
 
 sleep 2
 
