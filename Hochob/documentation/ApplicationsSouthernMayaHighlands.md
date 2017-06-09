@@ -152,7 +152,7 @@
 
 # Name: Queretaro
 
-- __Alias__: Visitors Center Memories Image Showcase
+- __Alias__: Memories Image Showcase
 - __Station__: Chakmool
 - __Hochob Media__:
   - Memories Image
@@ -162,7 +162,7 @@
 
 # Name: Quintana Roo
 
-- __Alias__: Visitors Center Memories Video Showcase
+- __Alias__: Memories Video Showcase
 - __Station__: Chakmool
 - __Hochob Media__:
   - Memories Video
