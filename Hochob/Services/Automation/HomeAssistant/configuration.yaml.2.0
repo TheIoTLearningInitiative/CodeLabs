@@ -15,22 +15,22 @@ homeassistant:
     # Southern Maya Highlands : 1 Introduccion
 
     script.aguascalientes:
-      friendly_name: 1.1 Bienvenida Intel, Protocolo de Seguridad
+      friendly_name: 1.1 Bienvenidos Intel, Protocolo de Seguridad
       icon: mdi:audiobook
 
     # Southern Maya Highlands : 2 Video
 
     script.bajacalifornianorte:
-      friendly_name: 2.1 Bienvenida Guadalajara Design Center
+      friendly_name: 2.1 Bienvenidos Guadalajara Design Center
       icon: mdi:audiobook
     script.bajacaliforniasur:
       friendly_name: 2.2 Lupe Robot Show
       icon: mdi:video
     script.michoacan:
-      friendly_name: 2.3 Lupe Robot Group Picture
+      friendly_name: 2.3 Lupe Robot Foto Grupal
       icon: mdi:video      
     script.campeche:
-      friendly_name: 2.4 Despues del video
+      friendly_name: 2.4 Bienvenidos Recorrido
       icon: mdi:audiobook
 
     # Southern Maya Highlands : Corporate : 
