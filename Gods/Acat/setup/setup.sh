@@ -3,6 +3,7 @@ echo "Welcome to Acat Playground"
 echo
 
 # General
+cd
 
 opkg update
 opkg install mraa
