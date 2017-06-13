@@ -42,7 +42,7 @@ npm install galileo-io
 # Node-RED Contributions
 
 npm install node-red-contrib-gpio
-npm install -g node-red-contrib-grove-edison
+npm install node-red-contrib-grove-edison
 npm install node-red-contrib-upm
 #npm install node-red-contrib-play-audio
 #npm install node-red-contrib-voicerss-tts
