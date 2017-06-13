@@ -6,7 +6,7 @@ import signal
 import sys
 import time
 
-import pyupm_grove as grove
+from upm import pyupm_grove as grove
 
 light = grove.GroveLight(0)
 
