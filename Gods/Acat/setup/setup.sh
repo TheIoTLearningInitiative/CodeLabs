@@ -36,7 +36,7 @@ npm install galileo-io
 
 # Node-RED Official
 
-#npm install node-red-node-intel-gpio
+npm install node-red-node-intel-gpio
 #npm install node-red-node-watson
 #npm install node-red-bluemix-nodes
 
