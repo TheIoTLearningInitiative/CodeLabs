@@ -9,11 +9,17 @@ from threading import Thread
 from upm import pyupm_grove as grove
 
 light = grove.GroveLight(0)
+relay = grove.GroveRelay(2)
+
 mqttserver = "iot.eclipse.org"
 mqttport = 1883
 
 def functionSubscribeLightLampData(status):
     print "Light Lamp Data %s" % status
+    if msg.payload == "ON":
+        relay.on()
+    elif msg.payload == "OFF":
+        relay.off()    
 
 def functionSubscribeLightLampOn(mosq, obj, msg):
     print "Subscribe Light Lamp Data!"
@@ -57,7 +63,7 @@ if __name__ == '__main__':
     threadmqttpublish = Thread(target=functionPublishSensorLuxes)
     threadmqttpublish.start()
 
-    print "Hello Xcambo"
+    print "Hello Edzna"
 
     while True:
         time.sleep(5)
