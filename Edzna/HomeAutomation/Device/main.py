@@ -30,9 +30,9 @@ def functionPublishSensorLuxesData():
 def functionPublishSensorLuxesOn(mosq, obj, msg):
     print "Published Sensor Luxes Data!"
 
-def functionDataSensorMqttPublish():
+def functionPublishSensorLuxes():
     mqttclient = paho.Client()
-    mqttclient.on_publish = functionDataSensorMqttOnPublish
+    mqttclient.on_publish = functionPublishSensorLuxesOn
     mqttclient.connect("test.mosquitto.org", 1883, 60)
     while True:
         data = functionPublishSensorLuxesData()
