@@ -37,7 +37,7 @@ mqtt:
 
 light:
   - platform: mqtt
-    name: Principal
+    name: Light
     state_topic: 'edzna/8123/light/status'
     command_topic: 'edzna/8123/light/switch'
     rgb_state_topic: "edzna/8123/light/rgb/status"
@@ -46,6 +46,6 @@ light:
 
 sensor:
   - platform: mqtt
-    name: Principal Luxes
+    name: Luxes
     state_topic: "edzna/8123/luxes"
     sensor_class: light
