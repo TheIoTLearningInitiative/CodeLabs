@@ -37,11 +37,11 @@ mqtt:
 
 light:
   - platform: mqtt
-    name: Light
-    state_topic: 'edzna/8123/light/status'
-    command_topic: 'edzna/8123/light/switch'
-    rgb_state_topic: "edzna/8123/light/rgb/status"
-    rgb_command_topic: "edzna/8123/light/rgb/set"
+    name: Lamp
+    state_topic: 'edzna/8123/lamp/status'
+    command_topic: 'edzna/8123/lamp/switch'
+    rgb_state_topic: "edzna/8123/lamp/rgb/status"
+    rgb_command_topic: "edzna/8123/lamp/rgb/set"
     optimistic: true
 
 sensor:
