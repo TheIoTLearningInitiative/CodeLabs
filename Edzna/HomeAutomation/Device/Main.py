@@ -7,16 +7,16 @@ import time
 
 from threading import Thread
 
-def functionDataActuator(status):
-    print "Data Actuator Status %s" % status
+def functionSubscribeLightLampData(status):
+    print "Light Lamp Data %s" % status
 
-def functionDataActuatorMqttOnMessage(mosq, obj, msg):
-    print "Data Sensor Mqtt Subscribe Message!"
-    functionDataActuator(msg.payload)
+def functionSubscribeLightLampOn(mosq, obj, msg):
+    print "Subscribe Light Lamp Data!"
+    functionSubscribeLightLampData(msg.payload)
 
-def functionDataActuatorMqttSubscribe():
+def functionSubscribeLightLamp():
     mqttclient = paho.Client()
-    mqttclient.on_message = functionDataActuatorMqttOnMessage
+    mqttclient.on_message = functionSubscribeLightLampOn
     mqttclient.connect("test.mosquitto.org", 1883, 60)
     mqttclient.subscribe("edzna/8123/lamp/switch", 0)
     while mqttclient.loop() == 0:
@@ -28,7 +28,7 @@ def functionPublishSensorLuxesData():
     return data
 
 def functionPublishSensorLuxesOn(mosq, obj, msg):
-    print "Data Sensor Mqtt Published!"
+    print "Published Sensor Luxes Data!"
 
 def functionDataSensorMqttPublish():
     mqttclient = paho.Client()
@@ -47,16 +47,15 @@ if __name__ == '__main__':
 
     signal.signal(signal.SIGINT, functionSignalHandler)
 
-    threadmqttsubscribe = Thread(target=functionSubscribe)
+    threadmqttsubscribe = Thread(target=functionSubscribeLightLamp)
     threadmqttsubscribe.start()
 
     threadmqttpublish = Thread(target=functionPublishSensorLuxes)
     threadmqttpublish.start()
 
+    print "Hello Xcambo"
+
     while True:
-        print "Hello Xcambo"
-        print "Data Sensor: %s " % functionDataSensor()
-        #print "API Weather: %s " % functionApiWeather()
         time.sleep(5)
 
 # End of File
