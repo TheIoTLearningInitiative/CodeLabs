@@ -16,13 +16,13 @@ mqttport = 1883
 
 def functionSubscribeLightLampData(status):
     print "Light Lamp Data %s" % status
+
+def functionSubscribeLightLampOn(mosq, obj, msg):
+    print "Subscribe Light Lamp Data!"
     if msg.payload == "ON":
         relay.on()
     elif msg.payload == "OFF":
         relay.off()    
-
-def functionSubscribeLightLampOn(mosq, obj, msg):
-    print "Subscribe Light Lamp Data!"
     functionSubscribeLightLampData(msg.payload)
 
 def functionSubscribeLightLamp():
@@ -35,10 +35,11 @@ def functionSubscribeLightLamp():
 
 def functionPublishSensorLuxesData():
     luxes = light.value()
+    print "Sensor Luxes Data %s" % luxes
     return luxes
 
 def functionPublishSensorLuxesOn(mosq, obj, msg):
-    print "Published Sensor Luxes Data!"
+    print "Publish Sensor Luxes Data!"
 
 def functionPublishSensorLuxes():
     mqttclient = paho.Client()
