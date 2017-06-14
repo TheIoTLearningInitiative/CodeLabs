@@ -9,6 +9,8 @@ from threading import Thread
 from upm import pyupm_grove as grove
 
 light = grove.GroveLight(0)
+mqttserver = "iot.eclipse.org"
+mqttport = 1883
 
 def functionSubscribeLightLampData(status):
     print "Light Lamp Data %s" % status
@@ -20,7 +22,7 @@ def functionSubscribeLightLampOn(mosq, obj, msg):
 def functionSubscribeLightLamp():
     mqttclient = paho.Client()
     mqttclient.on_message = functionSubscribeLightLampOn
-    mqttclient.connect("iot.eclipse.org", 1883, 60)
+    mqttclient.connect(mqttserver, mqttport, 60)
     mqttclient.subscribe("edzna/8123/lamp/switch", 0)
     while mqttclient.loop() == 0:
         pass
@@ -35,7 +37,7 @@ def functionPublishSensorLuxesOn(mosq, obj, msg):
 def functionPublishSensorLuxes():
     mqttclient = paho.Client()
     mqttclient.on_publish = functionPublishSensorLuxesOn
-    mqttclient.connect("iot.eclipse.org", 1883, 60)
+    mqttclient.connect(mqttserver, mqttport, 60)
     while True:
         data = functionPublishSensorLuxesData()
         topic = "edzna/8123/luxes"
