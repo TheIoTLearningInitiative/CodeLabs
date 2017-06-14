@@ -6,6 +6,7 @@ import sys
 import time
 
 from threading import Thread
+from upm import pyupm_grove as grove
 
 light = grove.GroveLight(0)
 
