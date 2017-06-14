@@ -20,7 +20,7 @@ def functionSubscribeLightLampOn(mosq, obj, msg):
 def functionSubscribeLightLamp():
     mqttclient = paho.Client()
     mqttclient.on_message = functionSubscribeLightLampOn
-    mqttclient.connect("test.mosquitto.org", 1883, 60)
+    mqttclient.connect("iot.eclipse.org", 1883, 60)
     mqttclient.subscribe("edzna/8123/lamp/switch", 0)
     while mqttclient.loop() == 0:
         pass
@@ -35,7 +35,7 @@ def functionPublishSensorLuxesOn(mosq, obj, msg):
 def functionPublishSensorLuxes():
     mqttclient = paho.Client()
     mqttclient.on_publish = functionPublishSensorLuxesOn
-    mqttclient.connect("test.mosquitto.org", 1883, 60)
+    mqttclient.connect("iot.eclipse.org", 1883, 60)
     while True:
         data = functionPublishSensorLuxesData()
         topic = "edzna/8123/luxes"
