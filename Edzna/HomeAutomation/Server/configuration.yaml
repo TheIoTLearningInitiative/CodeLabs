@@ -1,0 +1,51 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 22.65
+  longitude: -103
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 0
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: America/Mexico_City
+
+# Show links to resources in log and frontend
+#introduction:
+
+# Enables the frontend
+frontend:
+
+# Enables configuration UI
+config:
+
+http:
+  # Uncomment this to add a password (recommended!)
+  # api_password: PASSWORD
+  # Uncomment this if you are using SSL or running in Docker etc
+  # base_url: example.duckdns.org:8123
+  server_port: 8123
+
+history:
+
+mqtt:
+  broker: iot.eclipse.org
+  port: 1883
+  client_id: edzna8123
+  keepalive: 60
+
+light:
+  - platform: mqtt
+    name: Principal
+    state_topic: 'edzna/8123/light/status'
+    command_topic: 'edzna/8123/light/switch'
+    rgb_state_topic: "edzna/8123/light/rgb/status"
+    rgb_command_topic: "edzna/8123/light/rgb/set"
+    optimistic: true
+
+sensor:
+  - platform: mqtt
+    name: Principal Luxes
+    state_topic: "edzna/8123/luxes"
+    sensor_class: light
