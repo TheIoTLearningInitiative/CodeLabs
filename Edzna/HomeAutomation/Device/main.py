@@ -7,6 +7,8 @@ import time
 
 from threading import Thread
 
+light = grove.GroveLight(0)
+
 def functionSubscribeLightLampData(status):
     print "Light Lamp Data %s" % status
 
@@ -23,9 +25,8 @@ def functionSubscribeLightLamp():
         pass
 
 def functionPublishSensorLuxesData():
-    netdata = psutil.net_io_counters()
-    data = netdata.packets_sent + netdata.packets_recv
-    return data
+    luxes = light.value()
+    return luxes
 
 def functionPublishSensorLuxesOn(mosq, obj, msg):
     print "Published Sensor Luxes Data!"
