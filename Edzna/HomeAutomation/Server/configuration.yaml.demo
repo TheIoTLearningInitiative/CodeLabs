@@ -11,6 +11,27 @@ homeassistant:
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: America/Mexico_City
 
+  customize:
+
+  # Bedroom
+
+    light.bedroom_lamp:
+      friendly_name: Lamp
+      icon: mdi:lightbulb
+    sensor.bedroom_luxes:
+      friendly_name: Luxes
+      icon: mdi:lightbulb-on-outline
+    binary_sensor.bedroom_motion:
+      friendly_name: Motion
+
+  # Kitchen
+
+    light.kitchen_bulb:
+      friendly_name: Bulb
+      icon: mdi:lightbulb
+    binary_sensor.kitchen_opening:
+      friendly_name: Window
+
 # Show links to resources in log and frontend
 #introduction:
 
@@ -44,11 +65,11 @@ light:
     rgb_command_topic: "edzna/bedroom/lamp/rgb/set"
     optimistic: true
   - platform: mqtt
-    name: kitchen lamp
-    state_topic: 'edzna/kitchen/lamp/status'
-    command_topic: 'edzna/kitchen/lamp/switch'
-    rgb_state_topic: "edzna/kitchen/lamp/rgb/status"
-    rgb_command_topic: "edzna/kitchen/lamp/rgb/set"
+    name: kitchen bulb
+    state_topic: 'edzna/kitchen/bulb/status'
+    command_topic: 'edzna/kitchen/bulb/switch'
+    rgb_state_topic: "edzna/kitchen/bulb/rgb/status"
+    rgb_command_topic: "edzna/kitchen/bulb/rgb/set"
     optimistic: true
 
 sensor:
@@ -56,3 +77,59 @@ sensor:
     name: bedroom luxes
     state_topic: "edzna/bedroom/luxes"
     sensor_class: light
+
+binary_sensor:
+  - platform: mqtt
+    name: bedroom motion
+    state_topic: "edzna/bedroom/motion"
+    sensor_class: motion
+    payload_on: True
+    payload_off: False
+  - platform: mqtt
+    name: kitchen opening
+    state_topic: "edzna/bedroom/opening"
+    sensor_class: opening
+    payload_on: 1
+    payload_off: 0
+
+automation:
+  - alias: Turn on light
+    trigger:
+      platform: mqtt
+      topic: edzna/bedroom/opening
+      payload: 1
+    action:
+      entity_id:
+      - light.bedroom_lamp
+      service: light.turn_on
+  - alias: Turn off light
+    trigger:
+      platform: mqtt
+      topic: edzna/bedroom/opening
+      payload: 0
+    action:
+      entity_id:
+      - light.bedroom_lamp
+      service: light.turn_off
+
+group:
+
+  default_view:
+    view: yes
+    entities:
+      - group.kitchen
+      - group.bedroom
+
+  kitchen:
+    name: Kitchen
+    entities:
+      - light.kitchen_bulb
+
+  bedroom:
+    name: Bedroom
+    entities:
+      - light.bedroom_lamp
+      - sensor.bedroom_luxes
+      - binary_sensor.bedroom_motion
+      - binary_sensor.bedroom_opening
+
