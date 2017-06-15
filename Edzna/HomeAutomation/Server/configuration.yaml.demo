@@ -43,6 +43,13 @@ light:
     rgb_state_topic: "edzna/bedroom/lamp/rgb/status"
     rgb_command_topic: "edzna/bedroom/lamp/rgb/set"
     optimistic: true
+  - platform: mqtt
+    name: kitchen lamp
+    state_topic: 'edzna/kitchen/lamp/status'
+    command_topic: 'edzna/kitchen/lamp/switch'
+    rgb_state_topic: "edzna/kitchen/lamp/rgb/status"
+    rgb_command_topic: "edzna/kitchen/lamp/rgb/set"
+    optimistic: true
 
 sensor:
   - platform: mqtt
