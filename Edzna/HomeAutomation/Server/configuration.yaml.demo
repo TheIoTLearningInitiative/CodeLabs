@@ -26,6 +26,12 @@ homeassistant:
     binary_sensor.bedroom_opening:
       friendly_name: Window
 
+  # Restroom
+
+    light.restroom_bulb:
+      friendly_name: Bulb
+      icon: mdi:lightbulb
+
   # Kitchen
 
     light.kitchen_bulb:
@@ -71,6 +77,13 @@ light:
     rgb_state_topic: "edzna/kitchen/bulb/rgb/status"
     rgb_command_topic: "edzna/kitchen/bulb/rgb/set"
     optimistic: true
+  - platform: mqtt
+    name: restroom bulb
+    state_topic: 'edzna/restroom/bulb/status'
+    command_topic: 'edzna/restroom/bulb/switch'
+    rgb_state_topic: "edzna/restroom/bulb/rgb/status"
+    rgb_command_topic: "edzna/restroom/bulb/rgb/set"
+    optimistic: true
 
 sensor:
   - platform: mqtt
@@ -105,7 +118,7 @@ automation:
       payload: True
     action:
       entity_id:
-      - light.bedroom_lamp
+      - light.restroom_bulb
       service: light.turn_on
   - alias: Turn off light
     trigger:
@@ -114,7 +127,7 @@ automation:
       payload: False
     action:
       entity_id:
-      - light.bedroom_lamp
+      - light.restroom_bulb
       service: light.turn_off
 
 group:
@@ -123,6 +136,7 @@ group:
     view: yes
     entities:
       - group.bedroom
+      - group.restroom
       - group.kitchen
 
   bedroom:
@@ -132,6 +146,11 @@ group:
       - sensor.bedroom_luxes
       - binary_sensor.bedroom_motion
       - binary_sensor.bedroom_opening
+
+  restroom:
+    name: Restroom
+    entities:
+      - light.restroom_bulb
 
   kitchen:
     name: Kitchen
