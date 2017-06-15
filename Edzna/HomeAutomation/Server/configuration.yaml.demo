@@ -97,7 +97,7 @@ automation:
     trigger:
       platform: mqtt
       topic: edzna/bedroom/motion
-      payload: 1
+      payload: True
     action:
       entity_id:
       - light.bedroom_lamp
@@ -106,7 +106,7 @@ automation:
     trigger:
       platform: mqtt
       topic: edzna/bedroom/motion
-      payload: 0
+      payload: False
     action:
       entity_id:
       - light.bedroom_lamp
