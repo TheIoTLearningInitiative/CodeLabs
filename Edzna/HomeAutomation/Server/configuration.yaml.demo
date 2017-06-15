@@ -79,8 +79,8 @@ light:
     rgb_state_topic: "edzna/kitchen/bulb/rgb/status"
     rgb_command_topic: "edzna/kitchen/bulb/rgb/set"
     optimistic: true
-    payload_on: 1
-    payload_off: 0
+    payload_on: On
+    payload_off: Off
   - platform: mqtt
     name: restroom bulb
     state_topic: 'edzna/restroom/bulb/status'
