@@ -1,2 +1,2 @@
-# Home Automation
+# Shack Automation
 
