@@ -23,14 +23,14 @@ homeassistant:
       icon: mdi:lightbulb-on-outline
     binary_sensor.bedroom_motion:
       friendly_name: Motion
+    binary_sensor.bedroom_opening:
+      friendly_name: Window
 
   # Kitchen
 
     light.kitchen_bulb:
       friendly_name: Bulb
       icon: mdi:lightbulb
-    binary_sensor.kitchen_opening:
-      friendly_name: Window
 
 # Show links to resources in log and frontend
 #introduction:
@@ -86,7 +86,7 @@ binary_sensor:
     payload_on: True
     payload_off: False
   - platform: mqtt
-    name: kitchen opening
+    name: bedroom opening
     state_topic: "edzna/bedroom/opening"
     sensor_class: opening
     payload_on: 1
