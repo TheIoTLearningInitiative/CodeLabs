@@ -54,9 +54,9 @@ def functionPublishSensorLuxes():
         time.sleep(1)
 
 def functionPublishSensorBinaryMotionData():
-    motion = motion.value()
-    print "Sensor Motion Data %s" % motion
-    return motion
+    value = motion.value()
+    print "Sensor Motion Data %s" % value
+    return value
 
 def functionPublishSensorBinaryMotionOn(mosq, obj, msg):
     print "Publish Sensor Luxes Data!"
