@@ -94,7 +94,7 @@ binary_sensor:
 
 camera:
   - platform: mqtt
-    name: Main
+    name: kitchen
     #topic: zanzito/shared_locations/edzna
     topic: zanzito/edzna/picture
 
@@ -130,6 +130,7 @@ group:
     name: Kitchen
     entities:
       - light.kitchen_bulb
+      - camera.kitchen
 
   bedroom:
     name: Bedroom
