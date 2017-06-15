@@ -70,6 +70,8 @@ light:
     rgb_state_topic: "edzna/bedroom/lamp/rgb/status"
     rgb_command_topic: "edzna/bedroom/lamp/rgb/set"
     optimistic: true
+    payload_on: 1
+    payload_off: 0
   - platform: mqtt
     name: kitchen bulb
     state_topic: 'edzna/kitchen/bulb/status'
@@ -77,6 +79,8 @@ light:
     rgb_state_topic: "edzna/kitchen/bulb/rgb/status"
     rgb_command_topic: "edzna/kitchen/bulb/rgb/set"
     optimistic: true
+    payload_on: 1
+    payload_off: 0
   - platform: mqtt
     name: restroom bulb
     state_topic: 'edzna/restroom/bulb/status'
@@ -84,6 +88,8 @@ light:
     rgb_state_topic: "edzna/restroom/bulb/rgb/status"
     rgb_command_topic: "edzna/restroom/bulb/rgb/set"
     optimistic: true
+    payload_on: 1
+    payload_off: 0
 
 sensor:
   - platform: mqtt
@@ -96,8 +102,8 @@ binary_sensor:
     name: bedroom motion
     state_topic: "edzna/bedroom/motion"
     sensor_class: motion
-    payload_on: True
-    payload_off: False
+    payload_on: 1
+    payload_off: 0
   - platform: mqtt
     name: bedroom opening
     state_topic: "edzna/bedroom/opening"
