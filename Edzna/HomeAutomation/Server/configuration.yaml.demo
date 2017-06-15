@@ -123,8 +123,8 @@ group:
   default_view:
     view: yes
     entities:
-      - group.kitchen
       - group.bedroom
+      - group.kitchen
 
   kitchen:
     name: Kitchen
