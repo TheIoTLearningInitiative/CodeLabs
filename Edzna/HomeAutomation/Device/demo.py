@@ -22,9 +22,9 @@ def functionSubscribeLightLampData(status):
 
 def functionSubscribeLightLampOn(mosq, obj, msg):
     print "Subscribe Light Lamp Data!"
-    if msg.payload == "ON":
+    if msg.payload == "1":
         relay.on()
-    elif msg.payload == "OFF":
+    elif msg.payload == "0":
         relay.off()    
     functionSubscribeLightLampData(msg.payload)
 
