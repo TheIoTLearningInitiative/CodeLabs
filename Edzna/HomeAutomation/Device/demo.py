@@ -12,6 +12,7 @@ from upm import pyupm_biss0001 as grovemotion
 light = grove.GroveLight(0)
 relay = grove.GroveRelay(2)
 motion = grovemotion.BISS0001(6)
+button = grove.GroveButton(8)
 
 mqttserver = "iot.eclipse.org"
 mqttport = 1883
@@ -59,7 +60,7 @@ def functionPublishSensorBinaryMotionData():
     return value
 
 def functionPublishSensorBinaryMotionOn(mosq, obj, msg):
-    print "Publish Sensor Luxes Data!"
+    print "Publish Sensor Motion Data!"
 
 def functionPublishSensorBinaryMotion():
     mqttclient = paho.Client()
@@ -68,6 +69,24 @@ def functionPublishSensorBinaryMotion():
     while True:
         data = functionPublishSensorBinaryMotionData()
         topic = "edzna/bedroom/motion"
+        mqttclient.publish(topic, data)
+        time.sleep(1)
+
+def functionPublishSensorBinaryOpeningData():
+    value = button.value()
+    print "Sensor Opening Data %s" % value
+    return value
+
+def functionPublishSensorBinaryOpeningOn(mosq, obj, msg):
+    print "Publish Sensor Opening Data!"
+
+def functionPublishSensorBinaryOpening():
+    mqttclient = paho.Client()
+    mqttclient.on_publish = functionPublishSensorBinaryOpeningOn
+    mqttclient.connect(mqttserver, mqttport, 60)
+    while True:
+        data = functionPublishSensorBinaryOpeningData()
+        topic = "edzna/bedroom/opening"
         mqttclient.publish(topic, data)
         time.sleep(1)
 
@@ -86,6 +105,9 @@ if __name__ == '__main__':
 
     threadmqttpublishsensorbinarymotion = Thread(target=functionPublishSensorBinaryMotion)
     threadmqttpublishsensorbinarymotion.start()
+
+    threadmqttpublishsensorbinaryopening = Thread(target=functionPublishSensorBinaryOpening)
+    threadmqttpublishsensorbinaryopening.start()
 
     print "Hello Edzna"
 
