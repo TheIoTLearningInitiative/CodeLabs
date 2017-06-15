@@ -12,7 +12,7 @@ from upm import pyupm_biss0001 as grovemotion
 light = grove.GroveLight(0)
 relay = grove.GroveRelay(2)
 motion = grovemotion.BISS0001(6)
-button = grove.GroveButton(8)
+button = grove.GroveButton(4)
 
 mqttserver = "iot.eclipse.org"
 mqttport = 1883
