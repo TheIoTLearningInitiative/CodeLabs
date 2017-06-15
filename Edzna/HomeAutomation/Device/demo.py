@@ -7,9 +7,11 @@ import time
 
 from threading import Thread
 from upm import pyupm_grove as grove
+from upm import pyupm_biss0001 as grovemotion
 
 light = grove.GroveLight(0)
 relay = grove.GroveRelay(2)
+motion = grovemotion.BISS0001(6)
 
 mqttserver = "iot.eclipse.org"
 mqttport = 1883
@@ -51,6 +53,24 @@ def functionPublishSensorLuxes():
         mqttclient.publish(topic, data)
         time.sleep(1)
 
+def functionPublishSensorBinaryMotionData():
+    luxes = light.value()
+    print "Sensor Luxes Data %s" % luxes
+    return luxes
+
+def functionPublishSensorBinaryMotionOn(mosq, obj, msg):
+    print "Publish Sensor Luxes Data!"
+
+def functionPublishSensorBinaryMotion():
+    mqttclient = paho.Client()
+    mqttclient.on_publish = functionPublishSensorBinaryMotionOn
+    mqttclient.connect(mqttserver, mqttport, 60)
+    while True:
+        data = functionPublishSensorBinaryMotionData()
+        topic = "edzna/bedroom/luxes"
+        mqttclient.publish(topic, data)
+        time.sleep(1)
+
 def functionSignalHandler(signal, frame):
     sys.exit(0)
 
@@ -58,11 +78,14 @@ if __name__ == '__main__':
 
     signal.signal(signal.SIGINT, functionSignalHandler)
 
-    threadmqttsubscribe = Thread(target=functionSubscribeLightLamp)
-    threadmqttsubscribe.start()
+    threadmqttsubscribelightlamp = Thread(target=functionSubscribeLightLamp)
+    threadmqttsubscribelightlamp.start()
 
-    threadmqttpublish = Thread(target=functionPublishSensorLuxes)
-    threadmqttpublish.start()
+    threadmqttpublishsensorluxes = Thread(target=functionPublishSensorLuxes)
+    threadmqttpublishsensorluxes.start()
+
+    threadmqttpublishsensorbinarymotion = Thread(target=functionPublishSensorBinaryMotion)
+    threadmqttpublishsensorbinarymotion.start()
 
     print "Hello Edzna"
 
