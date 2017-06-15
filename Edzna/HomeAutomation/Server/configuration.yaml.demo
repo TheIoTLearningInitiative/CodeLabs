@@ -73,15 +73,6 @@ light:
     payload_on: 1
     payload_off: 0
   - platform: mqtt
-    name: kitchen bulb
-    state_topic: 'edzna/kitchen/bulb/status'
-    command_topic: 'edzna/kitchen/bulb/switch'
-    rgb_state_topic: "edzna/kitchen/bulb/rgb/status"
-    rgb_command_topic: "edzna/kitchen/bulb/rgb/set"
-    optimistic: true
-    payload_on: On
-    payload_off: Off
-  - platform: mqtt
     name: restroom bulb
     state_topic: 'edzna/restroom/bulb/status'
     command_topic: 'edzna/restroom/bulb/switch'
@@ -90,6 +81,13 @@ light:
     optimistic: true
     payload_on: 1
     payload_off: 0
+  - platform: mqtt
+    name: kitchen bulb
+    state_topic: 'edzna/kitchen/bulb/status'
+    command_topic: 'edzna/kitchen/bulb/switch'
+    rgb_state_topic: "edzna/kitchen/bulb/rgb/status"
+    rgb_command_topic: "edzna/kitchen/bulb/rgb/set"
+    optimistic: true
 
 sensor:
   - platform: mqtt
