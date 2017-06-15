@@ -42,8 +42,8 @@ const PROGMEM uint16_t MQTT_SERVER_PORT = 1883;
 const PROGMEM char* MQTT_USER = "";
 const PROGMEM char* MQTT_PASSWORD = "";
 
-const char* MQTT_LIGHT_STATE_TOPIC = "edzna/kitchen/light/status";
-const char* MQTT_LIGHT_COMMAND_TOPIC = "edzna/kitchen/light/switch";
+const char* MQTT_LIGHT_STATE_TOPIC = "edzna/kitchen/bulb/status";
+const char* MQTT_LIGHT_COMMAND_TOPIC = "edzna/kitchen/bulb/switch";
 
 const char* LIGHT_ON = "ON";
 const char* LIGHT_OFF = "OFF";
