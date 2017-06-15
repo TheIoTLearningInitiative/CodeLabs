@@ -54,9 +54,9 @@ def functionPublishSensorLuxes():
         time.sleep(1)
 
 def functionPublishSensorBinaryMotionData():
-    luxes = light.value()
-    print "Sensor Luxes Data %s" % luxes
-    return luxes
+    motion = motion.value()
+    print "Sensor Motion Data %s" % motion
+    return motion
 
 def functionPublishSensorBinaryMotionOn(mosq, obj, msg):
     print "Publish Sensor Luxes Data!"
@@ -67,7 +67,7 @@ def functionPublishSensorBinaryMotion():
     mqttclient.connect(mqttserver, mqttport, 60)
     while True:
         data = functionPublishSensorBinaryMotionData()
-        topic = "edzna/bedroom/luxes"
+        topic = "edzna/bedroom/motion"
         mqttclient.publish(topic, data)
         time.sleep(1)
 
