@@ -96,7 +96,7 @@ automation:
   - alias: Turn on light
     trigger:
       platform: mqtt
-      topic: edzna/bedroom/opening
+      topic: edzna/bedroom/motion
       payload: 1
     action:
       entity_id:
@@ -105,7 +105,7 @@ automation:
   - alias: Turn off light
     trigger:
       platform: mqtt
-      topic: edzna/bedroom/opening
+      topic: edzna/bedroom/motion
       payload: 0
     action:
       entity_id:
