@@ -125,12 +125,6 @@ group:
       - group.bedroom
       - group.kitchen
 
-  kitchen:
-    name: Kitchen
-    entities:
-      - light.kitchen_bulb
-      - camera.kitchen
-
   bedroom:
     name: Bedroom
     entities:
@@ -139,3 +133,8 @@ group:
       - binary_sensor.bedroom_motion
       - binary_sensor.bedroom_opening
 
+  kitchen:
+    name: Kitchen
+    entities:
+      - light.kitchen_bulb
+      - camera.kitchen
