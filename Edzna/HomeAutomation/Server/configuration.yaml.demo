@@ -119,7 +119,7 @@ automation:
     trigger:
       platform: mqtt
       topic: edzna/bedroom/motion
-      payload: True
+      payload: 1
     action:
       entity_id:
       - light.restroom_bulb
@@ -128,7 +128,7 @@ automation:
     trigger:
       platform: mqtt
       topic: edzna/bedroom/motion
-      payload: False
+      payload: 0
     action:
       entity_id:
       - light.restroom_bulb
