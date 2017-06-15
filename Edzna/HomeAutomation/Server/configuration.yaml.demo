@@ -95,8 +95,7 @@ binary_sensor:
 camera:
   - platform: mqtt
     name: kitchen
-    #topic: zanzito/shared_locations/edzna
-    topic: zanzito/edzna/picture
+    topic: zanzito/shared_locations/edzna
 
 automation:
   - alias: Turn on light
