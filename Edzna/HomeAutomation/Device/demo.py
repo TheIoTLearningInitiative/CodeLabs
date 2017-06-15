@@ -86,7 +86,7 @@ def functionPublishSensorBinaryOpening():
     mqttclient.connect(mqttserver, mqttport, 60)
     while True:
         data = functionPublishSensorBinaryOpeningData()
-        topic = "edzna/kitchen/opening"
+        topic = "edzna/bedroom/opening"
         mqttclient.publish(topic, data)
         time.sleep(1)
 
