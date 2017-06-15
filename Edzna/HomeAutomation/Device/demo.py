@@ -56,6 +56,10 @@ def functionPublishSensorLuxes():
 
 def functionPublishSensorBinaryMotionData():
     value = motion.value()
+    if value:
+        value = 1
+    else:
+        value = 0
     print "Sensor Motion Data %s" % value
     return value
 
