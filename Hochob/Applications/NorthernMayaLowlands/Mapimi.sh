@@ -31,14 +31,16 @@ export MAPIMI_DIRECTORY=$(dirname "$ZACATECAS_PATH")
 
 Eog.sh $HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM &
 
+LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
+
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Espeak.sh off english \
     "To be written"
 else
     Espeak.sh off spanish \
     "Me da mucho gusto conocerlos y que hayan venido a Intel. \
-    Regresen pronto!"
+    Regresen pronto futuros Ingenieros de  ${LOCAL_INSTITUTION}"
 fi
 
 Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
