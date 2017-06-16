@@ -97,6 +97,62 @@ homeassistant:
       friendly_name: 5. Hasta Pronto
       icon: mdi:audiobook
 
+    # Robot Maya Lands
+
+    script.resetall:
+      friendly_name: Reset
+      icon: mdi:lock-reset
+
+    script.headright:
+      friendly_name: Head Right
+      icon: mdi:arrow-right-thick
+    script.headleft:
+      friendly_name: Head Left
+      icon: mdi:arrow-left-thick
+
+    script.rightup:
+      friendly_name: Up
+      icon: mdi:human-handsup
+    script.rightdown:
+      friendly_name: Down
+      icon: mdi:human-handsup
+    script.rightfold:
+      friendly_name: Fold
+      icon: mdi:gesture-swipe-up
+    script.rightunfold:
+      friendly_name: Unfold
+      icon: mdi:gesture-swipe-up
+
+    script.leftup:
+      friendly_name: Up
+      icon: mdi:human-handsup
+    script.leftdown:
+      friendly_name: Down
+      icon: mdi:human-handsup
+    script.leftfold:
+      friendly_name: Fold
+      icon: mdi:gesture-swipe-up
+    script.leftunfold:
+      friendly_name: Unfold
+      icon: mdi:gesture-swipe-up
+
+
+    script.moveright:
+      friendly_name: Move Right
+      icon: mdi:arrow-right-thick
+    script.moveleft:
+      friendly_name: Move Left
+      icon: mdi:arrow-left-thick
+    script.moveforward:
+      friendly_name: Move Forward
+      icon: mdi:arrow-up-thick
+    script.movebackward:
+      friendly_name: Move Backward
+      icon: mdi:arrow-down-thick
+    script.movestop:
+      friendly_name: Move Stop
+      icon: mdi:stop
+
 # Enables the frontend
 frontend:
 
@@ -191,13 +247,17 @@ script:
       
   # Robot Maya Lands
 
-  headleft:
+  resetall:
     sequence:
-      - service: shell_command.headleft
+      - service: shell_command.resetall
 
   headright:
     sequence:
       - service: shell_command.headright
+
+  headleft:
+    sequence:
+      - service: shell_command.headleft
 
   rightup:
     sequence:
@@ -231,6 +291,14 @@ script:
     sequence:
       - service: shell_command.leftunfold
 
+  moveright:
+    sequence:
+      - service: shell_command.moveright
+
+  moveleft:
+    sequence:
+      - service: shell_command.moveleft
+
   moveforward:
     sequence:
       - service: shell_command.moveforward
@@ -238,14 +306,6 @@ script:
   movebackward:
     sequence:
       - service: shell_command.movebackward
-
-  moveleft:
-    sequence:
-      - service: shell_command.moveleft
-
-  moveright:
-    sequence:
-      - service: shell_command.moveright
 
   movestop:
     sequence:
@@ -279,9 +339,27 @@ shell_command:
   
   # Robot Maya Lands
   
+  resetall: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/resetall 1
+  
   headleft: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headleft 1
   headright: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headright 1
 
+  rightup: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightup
+  rightdown: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightdown
+  rightfold: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightfold
+  rightunfold: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightunfold
+
+  leftup: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftup
+  lefttdown: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftdown
+  leftfold: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftfold
+  leftunfold: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftunfold
+      
+  moveright: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/moveright
+  moveleft: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/moveleft
+  moveforward: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/moveforward
+  movebackward: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/movebackward
+  movestop: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/movestop
+ 
 switch:
   - platform: command_line
     switches:
@@ -320,6 +398,12 @@ group:
       - group.corporate
       - group.visitorscenter
       - group.memories
+
+  robotmayalands:
+    view: yes
+    name: The Robot
+    entities:
+      group.
 
   centralmayalowlands:
     view: yes
@@ -381,7 +465,39 @@ group:
       - script.elcielo
       - script.mapimi
 
-  robotmayalandscommands:
-    name: Commands
+  robotmayalandsreset:
+    name: Reset
     entities:
-      - 
+      - script.resetall
+
+  robotmayalandshead:
+    name: Head
+    entities:
+      - script.headright
+      - script.headleft
+
+  robotmayalandsarmright:
+    name: Arm Right
+    entities:
+      - script.rightup
+      - script.rightdown
+      - script.rightfold
+      - script.rightunfold
+
+  robotmayalandsarmleft:
+    name: Arm Left
+    entities:
+      - script.leftup
+      - script.lefttdown
+      - script.leftfold
+      - script.leftunfold
+      
+  robotmayalandslegs:
+    name: Legs
+    entities:
+      - script.moveright
+      - script.moveleft
+      - script.moveforward
+      - script.movebackward
+      - script.movestop
+ 
