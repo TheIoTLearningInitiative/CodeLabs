@@ -15,7 +15,7 @@ homeassistant:
     # Language
     
     switch.language:
-      friendly_name: Idioma Espanol / English
+      friendly_name: Idioma English / Espanol
       icon: mdi:audiobook
 
     # Southern Maya Highlands : 1 Introduccion
