@@ -15,7 +15,7 @@ homeassistant:
     # Language
     
     switch.language:
-      friendly_name: Lenguaje Espanol / English
+      friendly_name: Idioma Espanol / English
       icon: mdi:audiobook
 
     # Southern Maya Highlands : 1 Introduccion
@@ -431,6 +431,11 @@ group:
     name: The Experience
     entities:
       - group.northernmayalowlandsstations
+
+  language:
+    name: Idioma
+    entities:
+      - switch.language
 
   introduction:
     name: 1 Introduccion
