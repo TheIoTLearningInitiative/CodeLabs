@@ -82,19 +82,19 @@ homeassistant:
       icon: mdi:audiobook
 
     script.montesazules:
-      friendly_name: 1 Parte
+      friendly_name: 1 Segunda Parte
       icon: mdi:audiobook
 
     script.lamichilia:
-      friendly_name: 1 Parte
+      friendly_name: 1 Tercera Parte
       icon: mdi:audiobook
 
     script.elcielo:
-      friendly_name: 1 Parte
+      friendly_name: 1 Cuarta Parte
       icon: mdi:audiobook
 
     script.mapimi:
-      friendly_name: 1 Parte
+      friendly_name: 1 Cierre
       icon: mdi:audiobook
 
 # Enables the frontend
@@ -167,6 +167,28 @@ script:
     sequence:
       - service: shell_command.puertovallarta
 
+  # Northern Maya Lowlands
+
+  ojodeliebre:
+    sequence:
+      - service: shell_command.ojodeliebre
+
+  montesazules:
+    sequence:
+      - service: shell_command.montesazules
+
+  lamichilia:
+    sequence:
+      - service: shell_command.lamichilia
+
+  elcielo:
+    sequence:
+      - service: shell_command.elcielo
+
+  mapimi:
+    sequence:
+      - service: shell_command.mapimi
+
 shell_command:
 
   # Southern Maya Highlands
@@ -184,6 +206,14 @@ shell_command:
   huatulco: /home/hochob/CodeLabs/Hochob/Applications/CentralMayaLowlands/Huatulco.sh &
   mazatlan: /home/hochob/CodeLabs/Hochob/Applications/CentralMayaLowlands/Mazatlan.sh &
   puertovallarta: /home/hochob/CodeLabs/Hochob/Applications/CentralMayaLowlands/PuertoVallarta.sh &
+
+  # Northern Maya Lowlands
+  
+  ojodeliebre: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/OjoDeLiebre.sh &
+  montesazules: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/MontesAzules.sh &
+  lamichilia: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/LaMichilia.sh &
+  elcielo: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/ElCielo.sh &
+  mapimi: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Mapimi.sh &
 
 switch:
   - platform: command_line
@@ -268,4 +298,10 @@ group:
       - script.huatulco
       - script.mazatlan
       - script.puertovallarta
+  
+   northernmayalowlandsstations:
+     name: Stations
+     entities:
+       - script.ojodeliebre
+       - script.
 
