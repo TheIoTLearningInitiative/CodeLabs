@@ -1,4 +1,4 @@
-const mqtt = require('mqtt')  
+\const mqtt = require('mqtt')  
 //const client = mqtt.connect('mqtt://iot.eclipse.org')
 const client = mqtt.connect('mqtt://localhost')
 
@@ -15,12 +15,10 @@ function espeak(phrase) {
 }
 
 function talk(phrase,languaje){
-  var sleep = require('sleep')
   if(languaje==1){
     exec("echo " + phrase + " | espeak -ves -w audio.wav", puts);}
   else{
     exec("echo " + phrase + " | espeak -ven -w audio.wav", puts);}
-  sleep.msleep(500);
   exec("aplay audio.wav", puts);  
 }
 
@@ -134,8 +132,7 @@ client.on('message', function (topic, message) {
     case 'lupe/porsupuesto':
       return handleSpeakLupe('Por supuesto')
     case 'lupe/cerebro':
-      return handleSpeakLupe('En mi caso, mi cerebro esta aqui, en la 
-caja azul!')
+      return handleSpeakLupe('En mi caso, mi cerebro esta aqui, en la caja azul!')
     case 'lupe/inteledison':
       return handleSpeakLupe('Yo funciono con la plataforma Intel Edison')
 
