@@ -22,8 +22,10 @@ export MONTESAZULES_DIRECTORY=$(dirname "$MONTESAZULES_PATH")
 # Main
 # =============================================================================
 
+LOCAL_INSTITUTION=`Name.sh`
+
 Espeak.sh off spanish \
-    "Futuros Ingenieros. Ya vimos la importancia de nuestras Fabricas y Laboratorios. Ahora entraremos a una seccion \
+    "Futuros Ingenieros de ${LOCAL_INSTITUTION}. Ya vimos la importancia de nuestras Fabricas y Laboratorios. Ahora entraremos a una seccion \
     que nos permite jugar y conocer de cerca la tecnología. Siganme."
 
 Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
