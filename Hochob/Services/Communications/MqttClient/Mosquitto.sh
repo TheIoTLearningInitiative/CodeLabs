@@ -26,6 +26,20 @@ LOCAL_MESSAGE="$2"
 # Main
 # =============================================================================
 
+i=0
+for var in "$@"
+do
+    if [ "$i" -gt 1 ]; then
+      LOCAL_MESSAGE=$LOCAL_MESSAGE" $var "
+      echo $LOCAL_MESSAGE
+    fi
+    i=`expr $i + 1`
+done
+
+$MOSQUITTO_PUB_BINARY -h $MQTT_SERVER_ADDRESS -p $MQTT_SERVER_PORT -q 1 -t $LOCAL_TOPIC -m "\"${LOCAL_MESSAGE}\""
+
+exit 0
+
 if [ $# -eq 2 ]
 then
     $MOSQUITTO_PUB_BINARY -h $MQTT_SERVER_ADDRESS -p $MQTT_SERVER_PORT -q 1 -t $LOCAL_TOPIC -m $LOCAL_MESSAGE

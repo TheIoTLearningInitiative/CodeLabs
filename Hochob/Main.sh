@@ -166,7 +166,7 @@ export VISITORS_SOURCE=$HOCHOB_SERVER_MEDIA_SOURCE_VISITORS
 
 # MQ Telemetry Transport 
 
-MQTT_SERVER_ADDRESS=localhost
+MQTT_SERVER_ADDRESS=10.215.56.158
 MQTT_SERVER_PORT=1883
 
 # =============================================================================

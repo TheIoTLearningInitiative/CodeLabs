@@ -31,7 +31,7 @@ Eog.sh "$VISITORSCENTER_IMAGE/*" &
 sleep 2
 Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaNorte.mp3" &
 sleep 18.8
-Robot.sh lupe/say "Nel"
+Robot.sh lupe/message "Nel"
 sleep .6
 Robot.sh lupe/headright 1
 sleep .6
