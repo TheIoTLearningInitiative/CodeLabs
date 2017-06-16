@@ -30,6 +30,20 @@ sleep .6
 Robot.sh lupe/headleft 1
 sleep .6
 
+Robot.sh lupe/moveleft 1
+sleep 1.6
+Robot.sh lupe/movestop 1
+sleep .6
+Robot.sh lupe/moveforward 1
+sleep 4.5
+Robot.sh lupe/movestop 1
+sleep .6
+Robot.sh lupe/moveleft 1
+sleep 3.6
+Robot.sh lupe/movestop 1
+sleep .6
+
+
 Robot.sh lupe/message "Tomaremos algunas fotos. Estan listos?"
 
 sleep 1
