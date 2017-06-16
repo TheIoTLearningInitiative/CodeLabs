@@ -26,12 +26,12 @@ LOCAL_LANGUAGE=`Language.sh`
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Espeak.sh off english \
-    "Future Engineers. You know more about Intel, now let's get into the next hall\
+    "${LOCAL_INSTITUTION}, you know more about Intel, now let's get into the next hall\
     where we will find information about our Microproccesors, our Fabs and Laboratories. \
     Enjoy your tour."
 else
     Espeak.sh off spanish \
-    "Futuros Ingenieros. Ahora que saben mas acerca de Intel podemos pasar a la siguiente seccion \
+    "${LOCAL_INSTITUTION}, ahora que saben mas acerca de Intel podemos pasar a la siguiente seccion \
     en la que encontraremos informacion acerca del Microprocesador, nuestras Fabricas y nuestros Laboratorios. Acompanienme."
 fi
 
