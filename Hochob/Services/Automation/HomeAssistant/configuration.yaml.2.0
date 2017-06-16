@@ -260,6 +260,12 @@ group:
     entities:
       - group.centralmayalowlandsstations
 
+  northernmayalowlands:
+    view: yes
+    name: The Experience
+    entities:
+      - group.northernmayalowlandsstations
+
   introduction:
     name: 1 Introduccion
     entities:
@@ -299,12 +305,12 @@ group:
       - script.mazatlan
       - script.puertovallarta
   
-   northernmayalowlandsstations:
-     name: Stations
-     entities:
-       - script.ojodeliebre
-       - script.montesazules
-       - script.lamichilia
-       - script.elcielo
-       - script.mapimi
+  northernmayalowlandsstations:
+    name: Stations
+    entities:
+      - script.ojodeliebre
+      - script.montesazules
+      - script.lamichilia
+      - script.elcielo
+      - script.mapimi
   
