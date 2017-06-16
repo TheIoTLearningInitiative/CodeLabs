@@ -404,6 +404,7 @@ group:
   default_view:
     view: yes
     entities:
+      - group.language
       - group.introduction
       - group.video
       - group.corporate
