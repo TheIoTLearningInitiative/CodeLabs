@@ -31,7 +31,7 @@ then
     then
         Mpg123.sh "$LOCAL_FILE"
     else
-        Stream2Chromecast.sh "Juum" "1.0" "$LOCAL_FILE"
+        Stream2Chromecast.sh $LOCAL_DEVICE "1.0" "$LOCAL_FILE"
     fi
 else
     echo "Invalid number of arguments, see Documentation"
