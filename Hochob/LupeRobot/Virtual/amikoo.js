@@ -14,12 +14,23 @@ function espeak(phrase) {
   exec("aplay audio.wav", puts);  
 }
 
+function talk(phrase,languaje){
+  var sleep = require('sleep')
+  if(languaje==1){
+    exec("echo " + phrase + " | espeak -ves -w audio.wav", puts);}
+  else{
+    exec("echo " + phrase + " | espeak -ven -w audio.wav", puts);}
+  sleep.msleep(500);
+  exec("aplay audio.wav", puts);  
+}
+
 var state = 'closed'
 
 client.on('connect', function () {  
   client.subscribe('lupe/open')
   client.subscribe('lupe/close')
   client.subscribe('lupe/say')
+  client.subscribe('lupe/decir')
 
   client.subscribe('lupe/resetall')
   client.subscribe('lupe/headleft')
@@ -65,7 +76,9 @@ client.on('message', function (topic, message) {
     case 'lupe/close':
       return handleRequestClose(message)
     case 'lupe/say':
-      return handleRequestSay(message)
+      return handleRequestSay(message,0)
+    case 'lupe/decir':
+      return handleRequestSay(message,1)
 
     case 'lupe/resetall':
       return handleLupe('Inicializacion')
@@ -161,8 +174,8 @@ function handleRequestClose (message) {
   }
 }
 
-function handleRequestSay (message) {
-    espeak(message)
+function handleRequestSay (message,languaje) {
+    talk(message,languaje)
 }
 
 function handleLupe (message) {
