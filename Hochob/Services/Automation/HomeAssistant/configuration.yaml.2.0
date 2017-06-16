@@ -75,6 +75,28 @@ homeassistant:
       friendly_name: 5. Labs y Fabs
       icon: mdi:audiobook
 
+    # Northern Maya Lowlands
+
+    script.ojodeliebre:
+      friendly_name: 1 Primera Parte
+      icon: mdi:audiobook
+
+    script.montesazules:
+      friendly_name: 1 Parte
+      icon: mdi:audiobook
+
+    script.lamichilia:
+      friendly_name: 1 Parte
+      icon: mdi:audiobook
+
+    script.elcielo:
+      friendly_name: 1 Parte
+      icon: mdi:audiobook
+
+    script.mapimi:
+      friendly_name: 1 Parte
+      icon: mdi:audiobook
+
 # Enables the frontend
 frontend:
 
