@@ -60,10 +60,10 @@ homeassistant:
     # Central Maya Lowlands
 
     script.acapulco:
-      friendly_name: 1 Antes del inicio
+      friendly_name: 1. Antes del inicio
       icon: mdi:audiobook
     script.cancun:
-      friendly_name: 2 Intel
+      friendly_name: 2. Intel
       icon: mdi:audiobook
     script.huatulco:
       friendly_name: 3. Intel GDC
@@ -77,24 +77,24 @@ homeassistant:
 
     # Northern Maya Lowlands
 
-    script.ojodeliebre:
-      friendly_name: 1 Primera Parte
+    script.montesazules:
+      friendly_name: 1. Bienvenida Experiencia Intel
       icon: mdi:audiobook
 
-    script.montesazules:
-      friendly_name: 1 Segunda Parte
+    script.ojodeliebre:
+      friendly_name: 2. Juego Binario
       icon: mdi:audiobook
 
     script.lamichilia:
-      friendly_name: 1 Tercera Parte
+      friendly_name: 3. Intel en el Espacio
       icon: mdi:audiobook
 
     script.elcielo:
-      friendly_name: 1 Cuarta Parte
+      friendly_name: 4. Los Muones
       icon: mdi:audiobook
 
     script.mapimi:
-      friendly_name: 1 Cierre
+      friendly_name: 5. Hasta Pronto
       icon: mdi:audiobook
 
 # Enables the frontend
@@ -209,8 +209,8 @@ shell_command:
 
   # Northern Maya Lowlands
   
-  ojodeliebre: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/OjoDeLiebre.sh &
   montesazules: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/MontesAzules.sh &
+  ojodeliebre: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/OjoDeLiebre.sh &
   lamichilia: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/LaMichilia.sh &
   elcielo: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/ElCielo.sh &
   mapimi: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Mapimi.sh &
@@ -308,9 +308,8 @@ group:
   northernmayalowlandsstations:
     name: Stations
     entities:
-      - script.ojodeliebre
       - script.montesazules
+      - script.ojodeliebre
       - script.lamichilia
       - script.elcielo
       - script.mapimi
-  
