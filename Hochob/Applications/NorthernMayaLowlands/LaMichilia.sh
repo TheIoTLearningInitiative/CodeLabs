@@ -32,7 +32,7 @@ else
     Espeak.sh off spanish \
     "Intel no solo se queda en la tierra, es tal el alcance del Microprocesador que puede \
      estar en el universo, por ejemplo, ha trabajado con la NASA para crear cohetes y vehiculos \
-     no tripulados. Mira el siguiente video."
+     no tripulados. Veamos el siguiente video."
 fi
 
 Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
