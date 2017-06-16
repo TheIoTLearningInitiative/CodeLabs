@@ -188,6 +188,68 @@ script:
   mapimi:
     sequence:
       - service: shell_command.mapimi
+      
+  # Robot Maya Lands
+
+  headleft:
+    sequence:
+      - service: shell_command.headleft
+
+  headright:
+    sequence:
+      - service: shell_command.headright
+
+  rightup:
+    sequence:
+      - service: shell_command.rightup
+
+  rightdown:
+    sequence:
+      - service: shell_command.rightdown
+
+  rightfold:
+    sequence:
+      - service: shell_command.rightfold
+
+  rightunfold:
+    sequence:
+      - service: shell_command.rightunfold
+
+  leftup:
+    sequence:
+      - service: shell_command.leftup
+
+  leftdown:
+    sequence:
+      - service: shell_command.leftdown
+
+  leftfold:
+    sequence:
+      - service: shell_command.leftfold
+
+  leftunfold:
+    sequence:
+      - service: shell_command.leftunfold
+
+  moveforward:
+    sequence:
+      - service: shell_command.moveforward
+
+  movebackward:
+    sequence:
+      - service: shell_command.movebackward
+
+  moveleft:
+    sequence:
+      - service: shell_command.moveleft
+
+  moveright:
+    sequence:
+      - service: shell_command.moveright
+
+  movestop:
+    sequence:
+      - service: shell_command.movestop
 
 shell_command:
 
@@ -214,6 +276,11 @@ shell_command:
   lamichilia: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/LaMichilia.sh &
   elcielo: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/ElCielo.sh &
   mapimi: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Mapimi.sh &
+  
+  # Robot Maya Lands
+  
+  headleft: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headleft 1
+  headright: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headright 1
 
 switch:
   - platform: command_line
@@ -313,3 +380,8 @@ group:
       - script.lamichilia
       - script.elcielo
       - script.mapimi
+
+  robotmayalandscommands:
+    name: Commands
+    entities:
+      - 
