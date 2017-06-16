@@ -303,5 +303,8 @@ group:
      name: Stations
      entities:
        - script.ojodeliebre
-       - script.
-
+       - script.montesazules
+       - script.lamichilia
+       - script.elcielo
+       - script.mapimi
+  
