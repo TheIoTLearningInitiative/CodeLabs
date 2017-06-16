@@ -12,6 +12,12 @@ homeassistant:
   time_zone: America/Mexico_City
   customize:
 
+    # Language
+    
+    switch.language:
+      friendly_name: Lenguaje Espanol / English
+      icon: mdi:audiobook
+
     # Southern Maya Highlands : 1 Introduccion
 
     script.aguascalientes:
@@ -363,6 +369,12 @@ switch:
   - platform: command_line
     switches:
 
+      # Language
+      
+      language:
+        command_on: "/home/hochob/CodeLabs/Hochob/Services/Language/Language.sh spanish &"
+        command_off: "/home/hochob/CodeLabs/Hochob/Services/Language/Language.sh english"
+ 
       # Southern Maya Highlands: Corporate
 
       guanajuato:
