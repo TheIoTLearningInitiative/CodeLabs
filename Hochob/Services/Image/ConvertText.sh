@@ -26,7 +26,7 @@ LOCAL_TEXT="$1"
 
 if [ $# -eq 1 ]
 then
-    $CONVERTTEXT_BINARY $CONVERTTEXT_ARGUMENTS "text 20,700 \"$LOCAL_TEXT\"" $FSWEBCAM_IMAGE $FSWEBCAM_IMAGE_TEXT
+    $CONVERTTEXT_BINARY $CONVERTTEXT_ARGUMENTS "text 100,1000 \"$LOCAL_TEXT\"" $FSWEBCAM_IMAGE $FSWEBCAM_IMAGE_TEXT
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
