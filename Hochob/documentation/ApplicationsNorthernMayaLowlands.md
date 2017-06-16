@@ -33,7 +33,7 @@
 - Sierra de Huautla
 - Mariposa Monarca
 - Selva El Ocote
-- Mapimí
+- __Mapimí__
 - Barranca de Metztitlán
 - Islas Marías
 - Ría Celestún
@@ -49,7 +49,7 @@
 - Janos
 - Marismas Nacionales
 
-# Name: Ojo de Liebre
+# Name: Montes Azules
 
 - __Alias__: 
 - __Station__: 
@@ -60,7 +60,7 @@
   - __Stream__ Chromecast
 - __Digital Media Player__: Eek'
 
-# Name: Montes Azules
+# Name: Ojo de Liebre
 
 - __Alias__: 
 - __Station__: 
