@@ -94,6 +94,8 @@ Use --update-env to update environment variables
 ### node-red Autostart, Working
 
 
+http://askubuntu.com/questions/676007/how-do-i-make-my-systemd-service-run-via-specific-user-and-start-on-boot
+
 ```sh
 
 ```
@@ -184,7 +186,6 @@ Loook at the installed __UI Nodes__
 - Storage
 - Analysis
 - Advanced
-
 
 # node-red Configuration
 
@@ -371,7 +372,6 @@ root@edison:/etc/init.d#
 root@edison:/etc/init.d# cd
 root@edison:~# 
 ```
-
 
 # Crontab
 

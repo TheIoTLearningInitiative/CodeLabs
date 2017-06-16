@@ -17,21 +17,26 @@
 - __Chacmultun__ Optimization Through Device Drivers Layers
 - __Coba__ Your First Linux Kernel Module
 - __Ah Puch__ Recon Instruments
+- __Hochob__ Visitor Center
+- __Kinich KaK Moo__ Python: Virtual, Grove While, Grove Threads
+- __Kohunlich__ Product Development
+- __Akna__ Sphero
+- __Alom__ Briko
 
 ## Full List
 
 Belice
 
-* **Altun Ha** Chat Telegram **Under Construction**
-* **Caracol** Digital Door
-* **Xunantunich** Stamply Kik Ciscospark Com **Under Construction**
+- __Altun Ha__ Chat Telegram **Under Construction**
+- __Caracol__ Digital Door
+- __Xunantunich__ Stamply Kik Ciscospark Com **Under Construction**
 
 Campeche
 
 * **Chicanna** Camara as a Service
 * **Edzna** Home Assistant
 * **Hormiguero** MQTT Alarm ! **Under Construction**
-* **Hochob** Mario Robot
+* **Hochob** Visitor Center
 * **Kanki** ESP8266 ! **Under Construction**
 * **Tabasqueno** NodeJS, Socket.io, Johnny Five ! **Under Construction**
 * **Xcalumkin** Python Cross Platform \(PC/Embedded\) **Under Construction**
@@ -58,7 +63,7 @@ Guatemala
 Quintana Roo
 
 * **Coba** Your First Linux Kernel Module
-* **Kohunlich** 
+* **Kohunlich** Product Development
 * **Muyil** Python Wrapper API **Under Construction**
 * **Tulum** Openstack Sensor Dashboard
 
@@ -68,7 +73,7 @@ Yucatán
 * **Chichen Itza** Audio as a Service
 * **Dzibilchaltun** Telegram Bot
 * **Ek Balam** Google APIs **Under Construction**
-* **Kinich KaK Moo** 
+* **Kinich KaK Moo** Python: Virtual, Grove While, Grove Threads
 * **La Ruta Puuc** NodeJS, Socket.io, Johnny Five, AngularJS  ! 
 * **Mayapan** Domotics
 * **Uxmal** OpenCV Camera Picture Web Streaming
@@ -82,11 +87,22 @@ Yucatán
 * **Ah Muzen Cab** Web Camera **Under Construction**
 * **Ah Peku** API Slack Bot Users
 * **Ah Puch** Recon Instruments
-* **Tbd** Bosch IoT Suite
-* **Tbd** Neural Networks Curie
-* **Tbd** Emoncms
-* **Tbd** Blockchain
-* **Tbd** Microsoft Cognitive Services
+* **Ah Tabai** Bosch IoT Suite
+* **Ah Uuc Ticab** Neural Networks Curie
+* **Ahau Chamahez** Emoncms
+* **Ajbit** Blockchain
+* **Ajtzak** Microsoft Cognitive Services
+* **Akhushtal** Briko
+* **Akna** Sphero
+* **Alom** Briko
+* **Awilix** 
+* **** 
+
+
+
+
+
+
 
 
 

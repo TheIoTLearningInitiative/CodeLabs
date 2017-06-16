@@ -2,6 +2,9 @@
 
 > MQTT (aka MQ Telemetry Transport) is a machine-to-machine or “Internet of Things” connectivity protocol on top of TCP/IP. It allows extremely lightweight publish/subscribe messaging transport. To integrate MQTT into Home Assistant... [MQTT](https://home-assistant.io/components/mqtt/)
 
+- https://github.com/KmanOz/Sonoff-HomeAssistant
+- http://groundp.in/2016/10/18/step-by-step-guide-to-setting-up-esp-easy-with-home-assistant/
+
 ```sh
 user@server:~$ nano ~/.homeassistant/configuration.yaml
 ```
@@ -16,7 +19,7 @@ mqtt:
 
 ## Custom Component Hello MQTT
 
-> MQTT example componen
+> MQTT example component
 
 ```sh
 user@server:~$ nano ~/.homeassistant/custom_components/hello_mqtt.py

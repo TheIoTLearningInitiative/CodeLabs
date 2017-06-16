@@ -1,0 +1,73 @@
+# Hochob Server Services
+
+- Automation
+  - HomeAssistant
+    - configuration.yaml
+- Calendar
+  - Google Calendar API
+    - Google.py
+- Camera
+  - Picture.sh ...
+  - FSWebcam
+    - Fswebcam.sh [images]
+- Communications
+  - MqttServer
+    - VerneMQ
+      - vernemq.conf
+  - MqttClient
+    - Mosquitto
+      - Mosquitto.sh
+- Image
+  - Display.sh ... [device] [file(s)]
+  - Display
+    - Eog
+      - Eog.sh [files]
+    - Feh
+  - Drawing
+  - Scale
+  - Name
+- Language
+  - Language.sh [language]
+- Memories
+  - Memories.sh [images] [video] [identification]
+    - video [on/off]
+  - MemoriesAudio.sh [identification]
+- Messaging
+  - Telegram
+- Motion
+- Robot
+  - Virtual
+    - Sound
+      - Speaker
+  - Remote
+    - Camera
+    - Movement
+    - Sound
+      - Microphone
+      - Speaker
+- Sound
+  - Play.sh ... [device] [file(s)]
+  - Player
+    - Mpg123
+      - Mpg123.sh [file]
+    - Aplay
+      - Aplay.sh [file]
+  - SpeechSynthesizer
+    - Espeak.sh [play] [language] [input]
+      - Play [on/off]
+- Stream
+  - Chromecast
+    - Stream2Chromecast.sh [device] [volume] [file]
+  - Plex Media Server
+- Usb
+- Video
+  - Ffmpeg
+    - Ffmpeg.sh [directory]
+  - FfmpegAudio
+    - FfmpegAudio.sh [audio] [directory]
+      - Why not only to accept audio and video? this will reduce latency to convert again all pictures
+  - VlcMediaPlayer
+    - Vlc.sh [loop] [file]
+- Visitors
+  - Name
+    - Name.sh

@@ -1,0 +1,67 @@
+# Home Assistant
+
+# Architecture
+
+- Home
+  - Introduction
+    - script.audiosectionone
+      - Image, Eog
+      - Sound, Mpg123
+  - Video
+    - script.audiosectiontwo
+      - Image, Feh
+      - Sound, Mpg123
+      - Comms, Mqtt
+    - switch.luperobot
+      - /home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot1080p.sh &
+      - /home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh
+    - script.luperobot
+      - hass
+    - script.audiosectionthree
+      - Sound, Mpg123
+  - Photography
+    - script.photography
+      - python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
+    - switch.imagescorporate
+      - eog -sf /home/hochob/Images/Corporate/* &"
+      - pkill -9 eog
+    - switch.imagesvisitorscenter
+      - eog -sf /home/hochob/Images/VisitorsCenter/* &
+      - pkill -9 eog
+  - Technical Center
+  - Diagnostics
+- LupeRobot
+  - Activities
+  - Arm Left
+  - Arm Right
+  - Legs
+  - Head
+  - Diagnostics
+- Beginning
+  - Stations
+  - Controls
+- Experience
+  - Stations
+  - Controls
+- Support
+  - Lupe Virtual
+  - Lupe Skills
+  - Camera
+
+- Applications
+  - Audio
+  - Photography
+  - Video
+  - LupeRobot
+  - VisitorsCenter
+  - Feedback
+  - Google Calendar
+  - Image Welcome
+  - Goodie
+  - LupeRobot
+  - Scripts
+  - Show
+  - Skills
+  - Virtual
+  - Lupe Picture
+  - Lupe Robot Moving through Mqtt
