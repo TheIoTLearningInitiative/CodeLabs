@@ -136,7 +136,6 @@ homeassistant:
       friendly_name: Unfold
       icon: mdi:gesture-swipe-up
 
-
     script.moveright:
       friendly_name: Move Right
       icon: mdi:arrow-right-thick
@@ -166,7 +165,7 @@ http:
 updater:
 
 # Discover some devices automatically
-discovery:
+#discovery:
 
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
@@ -403,7 +402,11 @@ group:
     view: yes
     name: The Robot
     entities:
-      group.
+      - group.robotmayalandsreset
+      - group.robotmayalandshead
+      - group.robotmayalandsarmright
+      - group.robotmayalandsarmleft
+      - group.robotmayalandslegs
 
   centralmayalowlands:
     view: yes
