@@ -29,7 +29,7 @@ LOCAL_LANGUAGE=`Language.sh`
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Espeak.sh off english \
-    "Future Engineers. Welcome to this first hall! We called it: The Beginning. \
+    "Future Engineers from ${LOCAL_INSTITUTION}. Welcome to this first hall! We called it: The Beginning. \
     Here we will remember the Mayans, the history of Intel y this Intel Guadalajara Design Center. \
     Enjoy your tour."
 else
