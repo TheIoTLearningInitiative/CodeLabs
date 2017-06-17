@@ -25,7 +25,7 @@ LOCAL_FILE="$1"
 
 if [ $# -eq 1 ]
 then
-    $MPG123_BINARY $MPG123_ARGUMENTS $LOCAL_FILE
+    $MPG123_BINARY $MPG123_ARGUMENTS $LOCAL_FILE &
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
