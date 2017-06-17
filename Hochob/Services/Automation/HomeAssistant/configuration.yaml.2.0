@@ -320,50 +320,50 @@ shell_command:
 
   # Southern Maya Highlands
 
-  aguascalientes: /home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Aguascalientes.sh &
-  bajacalifornianorte: /home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/BajaCaliforniaNorte.sh &
-  bajacaliforniasur: /home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/BajaCaliforniaSur.sh &
-  campeche: /home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Campeche.sh &
-  michoacan: /home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Michoacan.sh &
+  aguascalientes: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Aguascalientes.sh &
+  bajacalifornianorte: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/BajaCaliforniaNorte.sh &
+  bajacaliforniasur: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/BajaCaliforniaSur.sh &
+  campeche: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Campeche.sh &
+  michoacan: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Michoacan.sh &
 
   # Central Maya Lowlands
 
-  acapulco: /home/hochob/CodeLabs/Hochob/Applications/CentralMayaLowlands/Acapulco.sh &
-  cancun: /home/hochob/CodeLabs/Hochob/Applications/CentralMayaLowlands/Cancun.sh &
-  huatulco: /home/hochob/CodeLabs/Hochob/Applications/CentralMayaLowlands/Huatulco.sh &
-  mazatlan: /home/hochob/CodeLabs/Hochob/Applications/CentralMayaLowlands/Mazatlan.sh &
-  puertovallarta: /home/hochob/CodeLabs/Hochob/Applications/CentralMayaLowlands/PuertoVallarta.sh &
+  acapulco: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Acapulco.sh &
+  cancun: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Cancun.sh &
+  huatulco: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Huatulco.sh &
+  mazatlan: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Mazatlan.sh &
+  puertovallarta: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/PuertoVallarta.sh &
 
   # Northern Maya Lowlands
   
-  montesazules: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/MontesAzules.sh &
-  ojodeliebre: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/OjoDeLiebre.sh &
-  lamichilia: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/LaMichilia.sh &
-  elcielo: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/ElCielo.sh &
-  mapimi: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Mapimi.sh &
+  montesazules: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/MontesAzules.sh &
+  ojodeliebre: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/OjoDeLiebre.sh &
+  lamichilia: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/LaMichilia.sh &
+  elcielo: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/ElCielo.sh &
+  mapimi: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Mapimi.sh &
   
   # Robot Maya Techlands
   
-  resetall: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/resetall 1
+  resetall: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/resetall 1
   
-  headleft: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headleft 1
-  headright: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headright 1
+  headleft: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headleft 1
+  headright: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headright 1
 
-  rightup: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightup
-  rightdown: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightdown
-  rightfold: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightfold
-  rightunfold: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightunfold
+  rightup: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightup
+  rightdown: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightdown
+  rightfold: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightfold
+  rightunfold: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightunfold
 
-  leftup: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftup
-  lefttdown: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftdown
-  leftfold: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftfold
-  leftunfold: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftunfold
+  leftup: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftup
+  lefttdown: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftdown
+  leftfold: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftfold
+  leftunfold: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftunfold
       
-  moveright: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/moveright
-  moveleft: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/moveleft
-  moveforward: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/moveforward
-  movebackward: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/movebackward
-  movestop: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/movestop
+  moveright: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/moveright
+  moveleft: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/moveleft
+  moveforward: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/moveforward
+  movebackward: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/movebackward
+  movestop: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/movestop
  
 switch:
   - platform: command_line
@@ -372,32 +372,32 @@ switch:
       # Language
       
       language:
-        command_on: "/home/hochob/CodeLabs/Hochob/Services/Language/Language.sh spanish &"
-        command_off: "/home/hochob/CodeLabs/Hochob/Services/Language/Language.sh english"
+        command_on: "~/CodeLabs/Hochob/Services/Language/Language.sh spanish &"
+        command_off: "~/CodeLabs/Hochob/Services/Language/Language.sh english"
  
       # Southern Maya Highlands: Corporate
 
       guanajuato:
-        command_on: "/home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Guanajuato.sh &"
+        command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Guanajuato.sh &"
         command_off: "/home/hochob/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
       guerrero:
-        command_on: "/home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Guerrero.sh &"
-        command_off: "/home/hochob/CodeLabs/Hochob/Services/Kill/KillApp.sh vlc"
+        command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Guerrero.sh &"
+        command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh vlc"
 
       # Southern Maya Highlands: Visitors Center
 
       hidalgo:
-        command_on: "/home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Hidalgo.sh &"
-        command_off: "/home/hochob/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
+        command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Hidalgo.sh &"
+        command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
 
       # Southern Maya Highlands: Memories
 
       queretaro:
-        command_on: "/home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Queretaro.sh &"
-        command_off: "/home/hochob/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
+        command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Queretaro.sh &"
+        command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
       quintanaroo:
-        command_on: "/home/hochob/CodeLabs/Hochob/Applications/SouthernMayaHighlands/QuintanaRoo.sh &"
-        command_off: "/home/hochob/CodeLabs/Hochob/Services/Kill/KillApp.sh vlc"
+        command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/QuintanaRoo.sh &"
+        command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh vlc"
 
 group:
 
