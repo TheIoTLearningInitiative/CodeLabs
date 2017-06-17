@@ -10,7 +10,7 @@ set -x
 
 export CONVERTTEXT_PID=$$
 export CONVERTTEXT_BINARY=convert
-export CONVERTTEXT_ARGUMENTS="-pointsize 120 -fill darkred -stroke yellow -draw"
+export CONVERTTEXT_ARGUMENTS="-pointsize 80 -fill darkred -stroke yellow -draw"
 
 LOCAL_TEXT="$1"
 
