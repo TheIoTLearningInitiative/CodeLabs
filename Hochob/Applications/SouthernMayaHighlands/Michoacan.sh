@@ -30,26 +30,22 @@ LOCAL_INSTITUTION=`Name.sh`
 #Robot.sh lupe/message \
 #   "Bienvenidos ${LOCAL_INSTITUTION} a mi casa, su casa. \
 #    Es un gusto conocerlos. Ya saben mi nombre, soy Lupe y \
-#    hace rato estaba un poco chiviado pero ya estoy listo para mostrarles \
+#    hace rato estaba un poco chiveado pero ya estoy listo para mostrarles \
 #    lo interesante que es el mundo de las Ciencias, la Tecnología, \
 #    las Ingenierías y las Matemáticas. A nombre de cada uno de los Ingenieros \
 #    que aquí trabajamos les deseamos la mejor de las experiencias. \
 #    Muchas gracias por haber venido."
-
 Espeak.sh on spanish \
     "Bienvenidos ${LOCAL_INSTITUTION} a mi casa, su casa. \
     Es un gusto conocerlos. Ya saben mi nombre, soy Lupe y \
-    hace rato estaba un poco chiviado pero ya estoy listo para mostrarles \
+    hace rato estaba un poco chiveado pero ya estoy listo para mostrarles \
     lo interesante que es el mundo de las Ciencias, la Tecnología, \
     las Ingenierías y las Matemáticas. A nombre de cada uno de los Ingenieros \
     que aquí trabajamos les deseamos la mejor de las experiencias. \
     Muchas gracias por haber venido."
 
-exit 0
-
 #Robot.sh lupe/message \
 #    "Ahora tomaremos una foto para el recuerdo. Acomodense mientras yo me voy a mi lugar preferido."
-    
 Espeak.sh on spanish \
     "Ahora tomaremos una foto para el recuerdo. Acomodense mientras yo me voy a mi lugar preferido."
 
