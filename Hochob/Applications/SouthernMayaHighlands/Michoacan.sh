@@ -25,6 +25,8 @@ export MICHOACAN_DIRECTORY=$(dirname "$MICHOACAN_PATH")
 
 LogPid.sh $MICHOACAN_PID $MICHOACAN_NAME
 
+LOCAL_INSTITUTION=`Name.sh`
+
 #Robot.sh lupe/message "Tomaremos algunas fotos. Acomodense mientras yo me voy a mi lugar preferido"
 Espeak.sh on spanish \
     "Tomaremos algunas fotos. Acomodense mientras yo me voy a mi lugar preferido"
@@ -66,7 +68,7 @@ wait
 Eog.sh "$HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM_IMAGE" &
 #Robot.sh lupe/message "Listo! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuros ingenieros."
 Espeak.sh on spanish \
-    "Listo! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuros ingenieros."
+    "Listo! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido ${LOCAL_INSTITUTION}"
 
 sleep 5
 
