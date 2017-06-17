@@ -11,7 +11,7 @@ set -x
 export CONVERTTEXT_PID=$$
 export CONVERTTEXT_BINARY=convert
 export CONVERTTEXT_ARGUMENTS="-font Robot -pointsize 80 \
-                              -fill darkblue -stroke yellow -draw"
+                              -fill "rgb(0,174,239)" -stroke yellow -draw"
 
 LOCAL_TEXT="$1"
 
