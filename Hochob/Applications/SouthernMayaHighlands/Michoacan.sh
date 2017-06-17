@@ -33,7 +33,7 @@ LOCAL_INSTITUTION=`Name.sh`
 #    hace rato estaba un poco chiviado pero ya estoy listo para mostrarles \
 #    lo interesante que es el mundo de las Ciencias, la Tecnología, \
 #    las Ingenierías y las Matemáticas. A nombre de cada uno de los Ingenieros \
-#    que aquí trabajamos les deseamos las mejor de las experiencias. \
+#    que aquí trabajamos les deseamos la mejor de las experiencias. \
 #    Muchas gracias por haber venido."
 
 Espeak.sh on spanish \
@@ -42,7 +42,7 @@ Espeak.sh on spanish \
     hace rato estaba un poco chiviado pero ya estoy listo para mostrarles \
     lo interesante que es el mundo de las Ciencias, la Tecnología, \
     las Ingenierías y las Matemáticas. A nombre de cada uno de los Ingenieros \
-    que aquí trabajamos les deseamos las mejor de las experiencias. \
+    que aquí trabajamos les deseamos la mejor de las experiencias. \
     Muchas gracias por haber venido."
 
 exit 0
