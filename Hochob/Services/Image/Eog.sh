@@ -8,7 +8,7 @@ set -x
 
 export EOG_PID=$$
 export EOG_BINARY=eog
-export EOG_ARGUMENTS="-sf"
+export EOG_ARGUMENTS="-f"
 
 LOCAL_FILES="$1"
 
