@@ -82,8 +82,9 @@ Espeak.sh on spanish \
     "3, 2, 1, Sonrian!"
 
 Memories.sh "5" "on" "${MICHOACAN_NAME}" &
+ConvertText.sh "Bienvenidos ${LOCAL_INSTITUTION}"
 wait
-Eog.sh "$HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM_IMAGE" &
+Eog.sh "$FSWEBCAM_IMAGE" &
 
 #Robot.sh lupe/message \
 #    "Listo! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuros ingenieros."
