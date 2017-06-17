@@ -47,9 +47,11 @@ Espeak.sh on spanish \
 sleep 1
 
 #Robot.sh lupe/message \
-#    "Ahora tomaremos una foto para el recuerdo. Acomodense mientras yo me voy a mi lugar preferido."
+#    "Ahora tomaremos una foto para el recuerdo. \
+#     Primero, me iré a mi lugar preferido, denme unos segundos."
 Espeak.sh on spanish \
-    "Ahora tomaremos una foto para el recuerdo. Acomodense mientras yo me voy a mi lugar preferido."
+    "Ahora tomaremos una foto para el recuerdo. \
+     Primero, me iré a mi lugar preferido, denme unos segundos."
 
 Robot.sh lupe/headright 1
 sleep .6
@@ -69,12 +71,21 @@ sleep 3.6
 Robot.sh lupe/movestop 1
 sleep .6
 
-sleep 5
+#Robot.sh lupe/message \
+#    "Estoy listo! Ahora les toca a ustedes acomodarse. \
+#     Con mucho cuidado ponganse a ambos lados de mi, \
+#     viendo hacia la pantalla y sonrían."
+Espeak.sh on spanish \
+    "Estoy listo! Ahora les toca a ustedes acomodarse. \
+     Con mucho cuidado ponganse a ambos lados de mi, \
+     viendo hacia la pantalla y sonrían."
+
+sleep 10
 
 #Robot.sh lupe/message \
-#    "Estan listos?"
+#    "Como van? Ya la tomamos?"
 Espeak.sh on spanish \
-    "Estan listos?"
+    "Como van? Ya la tomamos?"
 
 sleep 5
 
