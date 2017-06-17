@@ -103,7 +103,7 @@ homeassistant:
       friendly_name: 5. Hasta Pronto
       icon: mdi:audiobook
 
-    # Robot Maya Lands
+    # Robot Maya Techlands
 
     script.resetall:
       friendly_name: Reset
@@ -250,7 +250,7 @@ script:
     sequence:
       - service: shell_command.mapimi
       
-  # Robot Maya Lands
+  # Robot Maya Techlands
 
   resetall:
     sequence:
@@ -342,7 +342,7 @@ shell_command:
   elcielo: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/ElCielo.sh &
   mapimi: /home/hochob/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Mapimi.sh &
   
-  # Robot Maya Lands
+  # Robot Maya Techlands
   
   resetall: /home/hochob/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/resetall 1
   
@@ -403,6 +403,7 @@ group:
 
   default_view:
     view: yes
+    name: The Home
     entities:
       - group.language
       - group.introduction
