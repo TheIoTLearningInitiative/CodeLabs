@@ -1,185 +1,188 @@
 # Southern Maya Highlands
 
-> The states of Mexico are first-level administrative territorial entities of the country of Mexico, which officially is named United Mexican States. There are 31 states in Mexico.[1] Mexico City is a federal entity with a level of autonomy comparable to that of a state, but is not a state itself. [Wikipedia](https://en.wikipedia.org/wiki/States_of_Mexico)
+> The states of Mexico are first-level administrative territorial entities of the country of Mexico, which officially is named United Mexican States. There are 31 states in Mexico.\[1\] Mexico City is a federal entity with a level of autonomy comparable to that of a state, but is not a state itself. [Wikipedia](https://en.wikipedia.org/wiki/States_of_Mexico)
 
-- __Aguascalientes__
-- __Baja California Norte__
-- __Baja California Sur__
-- __Campeche__
-- Chiapas
-- Chihuahua
-- Coahuila
-- Colima
-- Durango
-- __Guanajuato__
-- __Guerrero__
-- Hidalgo
-- Jalisco
-- __Mexico__
-- __Michoacan__
-- Morelos
-- Nayarit
-- Nuevo Leon
-- Oaxaca
-- Puebla
-- __Queretaro__
-- __Quintana Roo__
-- San Luis Potosi
-- Sinaloa
-- Sonora
-- Tabasco
-- Tamaulipas
-- Tlaxcala
-- Veracruz
-- Yucatan
-- __Zacatecas__
+* **Aguascalientes**
+* **Baja California Norte**
+* **Baja California Sur**
+* **Campeche**
+* Chiapas
+* Chihuahua
+* Coahuila
+* Colima
+* Durango
+* **Guanajuato**
+* **Guerrero**
+* Hidalgo
+* Jalisco
+* **Mexico**
+* **Michoacan**
+* Morelos
+* Nayarit
+* Nuevo Leon
+* Oaxaca
+* Puebla
+* **Queretaro**
+* **Quintana Roo**
+* San Luis Potosi
+* Sinaloa
+* Sonora
+* Tabasco
+* Tamaulipas
+* Tlaxcala
+* Veracruz
+* Yucatan
+* **Zacatecas**
 
 # Name: Aguascalientes
 
-- __Alias__: Welcome to Guadalajara Design Center!
-- __Station__: Chakmool
-- __Hochob Media__:
-  - Area SouthernMayaHighlands
-  - Corporate Image
-  - VisitorsCenter Sound
-- __Hochob Media Source__:
-  - Camera Fswebcam
-  - Visitors
-- __Services__:
-  - __Automation HomeAssistant__: Introduccion Bienvenida y Protocolo de Seguridad
-  - __Image__ Eog
-  - __Memories__ Memories
-  - __Sound__ Mpg123
+* **Alias**: Welcome to Guadalajara Design Center!
+* **Station**: Chakmool
+* **Hochob Media**:
+  * Area SouthernMayaHighlands
+  * Corporate Image
+  * VisitorsCenter Sound
+* **Hochob Media Source**:
+  * Camera Fswebcam
+  * Visitors
+* **Services**:
+  * **Automation HomeAssistant**: Introduccion Bienvenida y Protocolo de Seguridad
+  * **Image** Eog
+  * **Memories** Memories
+  * **Sound** Mpg123
 
 # Name: Baja California Norte
 
-- __Alias__: Are you ready for the show?
-- __Station__: Chakmool
-- __Hochob Media__:
-  - Area SouthernMayaHighlands
-  - VisitorsCenter Image
-  - VisitorsCenter Sound
-- __Hochob Media Source__:
-  - Camera Fswebcam
-  - Visitors
-- __Services__:
-  - __Automation HomeAssistant__: Video Antes del Video
-  - __Image__ Eog
-  - __Memories__ Memories
-  - __Robot__ Robot
-  - __Sound__ Mpg123
+* **Alias**: Are you ready for the show?
+* **Station**: Chakmool
+* **Hochob Media**:
+  * Area SouthernMayaHighlands
+  * VisitorsCenter Image
+  * VisitorsCenter Sound
+* **Hochob Media Source**:
+  * Camera Fswebcam
+  * Visitors
+* **Services**:
+  * **Automation HomeAssistant**: Video Antes del Video
+  * **Image** Eog
+  * **Memories** Memories
+  * **Robot** Robot
+  * **Sound** Mpg123
 
 # Name: Baja California Sur
 
-- __Alias__: Let the show begin!
-- __Station__: Chakmool
-- __Hochob Media__:
-  - Area SouthernMayaHighlands
-- __Hochob Media Source__:
-  - Camera Fswebcam
-  - Visitors
-- __Services__:
-  - __Automation HomeAssistant__: 
-  - __Memories__ Memories
-  - __Video__ VlcMediaPlayer
-  - __Robot__ Robot
+* **Alias**: Let the show begin!
+* **Station**: Chakmool
+* **Hochob Media**:
+  * Area SouthernMayaHighlands
+* **Hochob Media Source**:
+  * Camera Fswebcam
+  * Visitors
+* **Services**:
+  * **Automation HomeAssistant**: 
+  * **Memories** Memories
+  * **Video** VlcMediaPlayer
+  * **Robot** Robot
 
 # Name: Campeche
 
-- __Alias__: Welcome to our Visitors Center
-- __Station__: Chakmool
-- __Hochob Media Source__:
-  - Camera Fswebcam
-- __Hochob Media__:
-  - Area SouthernMayaHighlands
-- __Services__:
-  - __Automation HomeAssistant__: Video Despues del Video
-  - __Image__ Eog
-  - __Sound__ Mpg123
+* **Alias**: Welcome to our Visitors Center
+* **Station**: Chakmool
+* **Hochob Media Source**:
+  * Camera Fswebcam
+* **Hochob Media**:
+  * Area SouthernMayaHighlands
+* **Services**:
+  * **Automation HomeAssistant**: Video Despues del Video
+  * **Image** Eog
+  * **Sound** Mpg123
 
 # Name: Guanajuato
 
-- __Alias__: Corporate Image Showcase
-- __Station__: Chakmool
-- __Hochob Media__:
-  - Corporate Image
-- __Services__:
-  - __Automation HomeAssistant__: 
-  - __Image__ Eog
+* **Alias**: Corporate Image Showcase
+* **Station**: Chakmool
+* **Hochob Media**:
+  * Corporate Image
+* **Services**:
+  * **Automation HomeAssistant**: 
+  * **Image** Eog
 
 # Name: Guerrero
 
-- __Alias__: Corporate Video Showcase
-- __Station__: Chakmool
-- __Hochob Media__:
-  - Corporate Video
-- __Services__:
-  - __Automation HomeAssistant__: 
-  - __Video__ VlcMediaPlayer
+* **Alias**: Corporate Video Showcase
+* **Station**: Chakmool
+* **Hochob Media**:
+  * Corporate Video
+* **Services**:
+  * **Automation HomeAssistant**: 
+  * **Video** VlcMediaPlayer
 
 # Name: Hidalgo
 
-- __Alias__: Visitors Center Image Showcase
-- __Station__: Chakmool
-- __Hochob Media__:
-  - VisitorsCenter Image
-- __Services__:
-  - __Automation HomeAssistant__: 
-  - __Image__ Eog
+* **Alias**: Visitors Center Image Showcase
+* **Station**: Chakmool
+* **Hochob Media**:
+  * VisitorsCenter Image
+* **Services**:
+  * **Automation HomeAssistant**: 
+  * **Image** Eog
 
 # Name: Mexico
 
-- __Alias__: Welcome Memories
-- __Station__: Chakmool
-- __Hochob Media__:
-  - VisitorsCenter Image
-- __Hochob Media Source__:
-  - Camera Fswebcam
-- __Services__:
-  - __Automation HomeAssistant__:
-  - __Camera__ Fswebcam
+* **Alias**: Welcome Memories
+* **Station**: Chakmool
+* **Hochob Media**:
+  * VisitorsCenter Image
+* **Hochob Media Source**:
+  * Camera Fswebcam
+* **Services**:
+  * **Automation HomeAssistant**:
+  * **Camera** Fswebcam
 
 # Name: Michoacan
 
-- __Alias__: Say cheese!
-- __Station__: Chakmool
-- __Hochob Media Source__:
-  - Camera Fswebcam
-- __Services__:
-  - __Automation HomeAssistant__:
-  - __Camera__ Fswebcam
-  - __Robot__ RobotVirtual
+* **Alias**: Say cheese!
+* **Station**: Chakmool
+* **Hochob Media Source**:
+  * Camera Fswebcam
+* **Services**:
+  * **Automation HomeAssistant**:
+  * **Camera** Fswebcam
+  * **Robot** RobotVirtual
 
 # Name: Queretaro
 
-- __Alias__: Memories Image Showcase
-- __Station__: Chakmool
-- __Hochob Media__:
-  - Memories Image
-- __Services__:
-  - __Automation HomeAssistant__: 
-  - __Image__ Eog
+* **Alias**: Memories Image Showcase
+* **Station**: Chakmool
+* **Hochob Media**:
+  * Memories Image
+* **Services**:
+  * **Automation HomeAssistant**: 
+  * **Image** Eog
 
 # Name: Quintana Roo
 
-- __Alias__: Memories Video Showcase
-- __Station__: Chakmool
-- __Hochob Media__:
-  - Memories Video
-- __Services__:
-  - __Automation HomeAssistant__: 
-  - __Video__ VlcMediaPlayer
+* **Alias**: Memories Video Showcase
+* **Station**: Chakmool
+* **Hochob Media**:
+  * Memories Video
+* **Services**:
+  * **Automation HomeAssistant**: 
+  * **Video** VlcMediaPlayer
 
 # Name: Zacatecas
 
-- __Alias__: Thank You Very Much Future Engineers
-- __Station__: Chakmool
-- __Hochob Media Source__:
-  - Camera / Video Slideshow
-  - Camera Live Transmission
-- __Hochob Media__:
-  - VisitorsCenter Memories Video
-- __Services__:
-  - __Automation HomeAssistant__: 
-  - __Video__ VlcMediaPlayer
-  - http://hamelot.io/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video/
+* **Alias**: Thank You Very Much Future Engineers
+* **Station**: Chakmool
+* **Hochob Media Source**:
+  * Camera / Video Slideshow
+  * Camera Live Transmission
+* **Hochob Media**:
+  * VisitorsCenter Memories Video
+* **Services**:
+  * **Automation HomeAssistant**: 
+  * **Video** VlcMediaPlayer
+  * [http://hamelot.io/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video/](http://hamelot.io/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video/)
+
+
+
