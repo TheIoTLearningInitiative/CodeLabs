@@ -44,6 +44,8 @@ Espeak.sh on spanish \
     que aquí trabajamos les deseamos la mejor de las experiencias. \
     Muchas gracias por haber venido."
 
+sleep 1
+
 #Robot.sh lupe/message \
 #    "Ahora tomaremos una foto para el recuerdo. Acomodense mientras yo me voy a mi lugar preferido."
 Espeak.sh on spanish \
