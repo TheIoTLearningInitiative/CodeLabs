@@ -29,7 +29,7 @@ LOCAL_INSTITUTION=`Name.sh`
 
 #Robot.sh lupe/message ""
 Espeak.sh on spanish \
-    "Bienvenidos {LOCAL_INSTITUTION} a mi casa, su casa."
+    "Bienvenidos ${LOCAL_INSTITUTION} a mi casa, su casa."
 
 exit 0
 
