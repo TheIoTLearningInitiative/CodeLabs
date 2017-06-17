@@ -34,7 +34,7 @@ Eog.sh $FSWEBCAM_IMAGE_TEXT &
 sleep 1
 Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Campeche.mp3"
 
-KillApp.sh "eog"
 KillApp.sh "mpg123"
+KillApp.sh "eog"
 
 # End of File
