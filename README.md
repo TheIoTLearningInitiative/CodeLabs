@@ -5,6 +5,6 @@
 
 <center><b>Internet of Things Training by The IoT Learning Initiative</b></center>
 
-<center><h2>Promoting an Integrated STEM Open Source Collaboration Model to enable a strong talent pool of “Internet of Everything” players. Innovation through Education.</h2></center>
+<center>Promoting an Integrated STEM Open Source Collaboration Model to enable a strong talent pool of “Internet of Everything” players. Innovation through Education.</center>
 
 <center><h1><b>Experiment, Make, Innovate</b></h1></center>
