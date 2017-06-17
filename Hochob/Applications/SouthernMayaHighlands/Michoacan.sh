@@ -27,9 +27,15 @@ LogPid.sh $MICHOACAN_PID $MICHOACAN_NAME
 
 LOCAL_INSTITUTION=`Name.sh`
 
-#Robot.sh lupe/message ""
+#Robot.sh lupe/message "Bienvenidos ${LOCAL_INSTITUTION} a mi casa, su casa. \
+                        Es un gusto conocerlos. Hace rato estaba un poco chiviado \
+                        pero ya estoy listo para mostrarles lo interesante que es el mundo \
+                        de las Ciencias, la Tecnología, las Ingenierías y las Matemáticas."
 Espeak.sh on spanish \
-    "Bienvenidos ${LOCAL_INSTITUTION} a mi casa, su casa."
+    "Bienvenidos ${LOCAL_INSTITUTION} a mi casa, su casa. \
+    Es un gusto conocerlos. Hace rato estaba un poco chiviado \
+    pero ya estoy listo para mostrarles lo interesante que es el mundo \
+    de las Ciencias, la Tecnología, las Ingenierías y las Matemáticas."
 
 exit 0
 
