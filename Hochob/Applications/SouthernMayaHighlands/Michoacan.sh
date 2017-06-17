@@ -29,7 +29,7 @@ LOCAL_INSTITUTION=`Name.sh`
 
 #Robot.sh lupe/message "Tomaremos algunas fotos. Acomodense mientras yo me voy a mi lugar preferido"
 Espeak.sh on spanish \
-    "Tomaremos algunas fotos. Acomodense mientras yo me voy a mi lugar preferido"
+    "Tomaremos algunas fotos. Acomódense mientras yo me voy a mi lugar preferido"
 
 Robot.sh lupe/headright 1
 sleep .6
