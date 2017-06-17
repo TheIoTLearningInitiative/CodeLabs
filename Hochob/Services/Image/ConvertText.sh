@@ -10,8 +10,8 @@ set -x
 
 export CONVERTTEXT_PID=$$
 export CONVERTTEXT_BINARY=convert
-export CONVERTTEXT_ARGUMENTS="-font Bookman-DemiItalic -pointsize 80 \
-                              -fill darkred -stroke yellow -draw"
+export CONVERTTEXT_ARGUMENTS="-font Robot -pointsize 80 \
+                              -fill darkblue -stroke yellow -draw"
 
 LOCAL_TEXT="$1"
 
