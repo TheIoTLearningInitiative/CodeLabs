@@ -35,8 +35,11 @@ homeassistant:
     script.michoacan:
       friendly_name: 2.3 Lupe Robot Foto Grupal
       icon: mdi:video      
+
+    # Southern Maya Highlands : 3 Tour
+
     script.campeche:
-      friendly_name: 2.4 Bienvenidos Recorrido
+      friendly_name: 3.1 Bienvenidos Recorrido
       icon: mdi:audiobook
 
     # Southern Maya Highlands : Corporate : 
@@ -407,7 +410,8 @@ group:
     entities:
       - group.language
       - group.introduction
-      - group.video
+      - group.robot
+      - group.tour
       - group.corporate
       - group.visitorscenter
       - group.memories
@@ -444,12 +448,17 @@ group:
     entities:
       - script.aguascalientes
 
-  video:
-    name: 2 Video
+  robot:
+    name: 2 Robot
     entities:
       - script.bajacalifornianorte
       - script.bajacaliforniasur
       - script.michoacan
+      - script.campeche
+
+  tour:
+    name: 3 Tour
+    entities:
       - script.campeche
 
   corporate:
