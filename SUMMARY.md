@@ -150,7 +150,8 @@
       * [Southern Maya Highlands](Hochob/documentation/ApplicationsSouthernMayaHighlands.md)
       * [Central Maya Lowlands](Hochob/documentation/ApplicationsCentralMayaLowlands.md)
       * [Northern Maya Lowlands](Hochob/documentation/ApplicationsNorthernMayaLowlands.md)
-      * Robot Maya Techlands
+      * [Robot Maya Techlands](Hochob/documentation/ApplicationsRobotMayaTechlands.md)
+      * [Techie Maya Lands](Hochob/documentation/ApplicationsTechieMayaLands.md)
   * [Sandbox](Hochob/documentation/Sandbox.md)
     * [Photography](Hochob/documentation/Photography.md)
     * [USB](Hochob/documentation/USB.md)
