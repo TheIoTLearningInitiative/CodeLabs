@@ -90,9 +90,16 @@ Espeak.sh on spanish \
 sleep 5
 
 #Robot.sh lupe/message \
-#    "Ya listos! Tomemos la foto! A la cuenta de 3. 1, 2 y 3, Sonrian!"
+#    "Ya listos? Tomemos la foto, a la cuenta de 3."
 Espeak.sh on spanish \
-    "Ya listos! Tomemos la foto! A la cuenta de 3. 1, 2 y 3, Sonrían!"
+    "Ya listos? Tomemos la foto, a la cuenta de 3."
+
+sleep 1
+
+#Robot.sh lupe/message \
+#    "1, 2 y 3, Sonrian."
+Espeak.sh on spanish \
+    "1, 2 y 3, Sonrían."
 
 Memories.sh "5" "on" "${MICHOACAN_NAME}" &
 ConvertText.sh "Bienvenidos ${LOCAL_INSTITUTION}"
