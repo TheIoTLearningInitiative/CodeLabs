@@ -27,7 +27,7 @@ LogPid.sh $AGUASCALIENTES_PID $AGUASCALIENTES_NAME
 
 Memories.sh "5" "off" "${AGUASCALIENTES_NAME}" &
 
-Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Aguascalientes.mp3"
+Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Aguascalientes.mp3" &
 Eog.sh $CORPORATE_IMAGE &
 
 KillApp.sh "eog"
