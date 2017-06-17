@@ -83,16 +83,16 @@ Espeak.sh on spanish \
 sleep 10
 
 #Robot.sh lupe/message \
-#    "Como van? Ya la tomamos?"
+#    "Están listos ${LOCAL_INSTITUTION}?"
 Espeak.sh on spanish \
-    "Como van? Ya la tomamos?"
+    "Están listos ${LOCAL_INSTITUTION}?"
 
 sleep 5
 
 #Robot.sh lupe/message \
-#    "3, 2, 1, Sonrian!"
+#    "Ya listos! Tomemos la foto! A la cuenta de 3. 1, 2 y 3, Sonrian!"
 Espeak.sh on spanish \
-    "3, 2, 1, Sonrian!"
+    "Ya listos! Tomemos la foto! A la cuenta de 3. 1, 2 y 3, Sonrían!"
 
 Memories.sh "5" "on" "${MICHOACAN_NAME}" &
 ConvertText.sh "Bienvenidos ${LOCAL_INSTITUTION}"
@@ -102,7 +102,7 @@ Eog.sh "$FSWEBCAM_IMAGE" &
 #Robot.sh lupe/message \
 #    "Listo! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuros ingenieros."
 Espeak.sh on spanish \
-    "Listo! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuros ingenieros."
+    "Orale! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuros ingenieros."
 
 sleep 5
 
