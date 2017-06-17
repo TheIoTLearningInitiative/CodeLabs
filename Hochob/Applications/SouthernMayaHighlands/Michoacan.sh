@@ -71,12 +71,14 @@ sleep 3.6
 Robot.sh lupe/movestop 1
 sleep .6
 
+sleep 5
+
 #Robot.sh lupe/message \
 #    "Estan listos?"
 Espeak.sh on spanish \
     "Estan listos?"
 
-sleep 3
+sleep 5
 
 #Robot.sh lupe/message \
 #    "3, 2, 1, Sonrian!"
