@@ -11,7 +11,7 @@ set -x
 export MAPIMI_PID=$$
 export MAPIMI_NAME="Mapimi Application"
 export MAPIMI_PATH=$(readlink -f "$0")
-export MAPIMI_DIRECTORY=$(dirname "$ZACATECAS_PATH")
+export MAPIMI_DIRECTORY=$(dirname "$MAPIMI_PATH")
 
 # =============================================================================
 # Functions
