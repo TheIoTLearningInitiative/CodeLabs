@@ -38,7 +38,7 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
 else
     Espeak.sh off spanish \
     "${LOCAL_INSTITUTION}, ahora que saben más acerca de los Mayas, \
-    Intel e Intel Guadalajara Centro de Diseño podemos pasar a la siguiente seccion \
+    de Intel y del Centro de Diseño de Intel en Guadalajara, podemos pasar a la siguiente seccion \
     en la que encontraremos informacion acerca del Microprocesador, nuestras Fabricas \
     y nuestros Laboratorios. Vamos."
 fi
