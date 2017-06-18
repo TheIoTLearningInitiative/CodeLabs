@@ -24,6 +24,8 @@ export MAZATLAN_DIRECTORY=$(dirname "$CAMPECHE_PATH")
 
 LOCAL_LANGUAGE=`Language.sh`
 
+LOCAL_LANGUAGE=`Language.sh`
+
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Espeak.sh off english \
     "${LOCAL_INSTITUTION}, you know more about Intel, now let's get into the next hall\
@@ -36,7 +38,6 @@ else
 fi
 
 Stream.sh "Juum" "1.0" "$ESPEAK_SPEECH_MP3"
-
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Stream.sh "Juum" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/MazatlanEnglish.mp3"
 else
