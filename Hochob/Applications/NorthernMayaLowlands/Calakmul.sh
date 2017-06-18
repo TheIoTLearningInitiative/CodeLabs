@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export SIANKAAN_PID=$$
-export SIANKAAN_NAME="Mapimi Application"
-export SIANKAAN_PATH=$(readlink -f "$0")
-export SIANKAAN_DIRECTORY=$(dirname "$SIANKAAN_PATH")
+export CALAKMUL_PID=$$
+export CALAKMUL_NAME="Mapimi Application"
+export CALAKMUL_PATH=$(readlink -f "$0")
+export CALAKMUL_DIRECTORY=$(dirname "$CALAKMUL_PATH")
 
 # =============================================================================
 # Functions
@@ -31,18 +31,18 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
     "To be written"
 else
     Espeak.sh off spanish \
-    "Por escribirse, ${LOCAL_INSTITUTION}"
+    "La ciencia es muy divertida, es la curiosidad sobre el mundo y cómo se comporta. \
+    Te gustaria entender porque la Tierra gira alrededor del Sol? \
+    O porque las cosas caen hacia el suelo? \
+    El cientifico es una persona que se dedica a entender el mundo y saber como se comporta. \
+    Cualquiera puede pensar como un científico. Cuando seas grande, te gustaria ser Cientifico? \
+    "
 fi
+
+#Los que aplican los descubrimientos de la ciencia para hacer cosas útiles se llaman Ingenieros.
 
 Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
 
-Stream.sh "Eek'" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/SianKaan.mp3" &
-
-Robot.sh lupe/headright 1
-sleep .6
-Robot.sh lupe/headleft 1
-sleep .6
-
-kill -- -$(ps -o pgid=$SIANKAAN_PID | grep -o '[0-9]*')
+kill -- -$(ps -o pgid=$CALAKMUL_PID | grep -o '[0-9]*')
 
 # End of File
