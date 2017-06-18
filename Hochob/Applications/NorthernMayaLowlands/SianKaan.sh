@@ -34,7 +34,14 @@ else
     "Por escribirse, ${LOCAL_INSTITUTION}"
 fi
 
-Stream.sh "Eek'" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/SianKaan.mp3"
+Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
+
+Stream.sh "Eek'" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/SianKaan.mp3" &
+
+Robot.sh lupe/headright 1
+sleep .6
+Robot.sh lupe/headleft 1
+sleep .6
 
 kill -- -$(ps -o pgid=$SIANKAAN_PID | grep -o '[0-9]*')
 
