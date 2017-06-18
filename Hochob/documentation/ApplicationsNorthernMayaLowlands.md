@@ -9,7 +9,7 @@
 * **Sian Ka'an**
 * Sierra de Manantlán
 * El Vizcaíno
-* Calakmul 
+* **Calakmul** 
 * El Triunfo
 * Pantanos de Centla
 * Lacan-Tun
@@ -96,6 +96,17 @@
 # Name: Sian Ka'an
 
 * **Alias**: Robot Dance
+* **Station**: 
+* **Hochob Media**:
+  * Area NorthernMayaLowlands
+* **Services**:
+  * **Automation HomeAssistant**:
+  * **Stream** Chromecast
+* **Digital Media Player**: Eek'
+
+# Name: Calakmul
+
+* **Alias**: 
 * **Station**: 
 * **Hochob Media**:
   * Area NorthernMayaLowlands
