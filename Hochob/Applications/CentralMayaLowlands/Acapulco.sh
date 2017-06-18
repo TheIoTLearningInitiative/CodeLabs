@@ -39,7 +39,7 @@ else
     Que disfruten tu recorrido."
 fi
 
-Stream.sh "Juum" "1.0" "$ESPEAK_SPEECH_MP3"
+Stream.sh "Triki" "1.0" "$ESPEAK_SPEECH_MP3"
 
 LOCAL_LANGUAGE=`Language.sh`
 
