@@ -33,8 +33,8 @@ else
     Espeak.sh off spanish \
     "La ciencia es muy divertida, es la curiosidad sobre el mundo y cómo se comporta. \
     La ciencia es observar el mundo, escuchar y registrar lo que se aprende. \
-    Te gustaría entender porque la Tierra gira alrededor del Sol? \
-    Porque las cosas caen hacia el suelo? \
+    Te gustaría entender porqué la Tierra gira alrededor del Sol? \
+    Porqué las cosas caen hacia el suelo? \
     Que hace a los pájaros volar? \
     El científico es una persona que se dedica a entender el mundo y saber como se comporta. \
     Cualquiera puede pensar como un científico, y a ti, te gustaría ser científico? \
