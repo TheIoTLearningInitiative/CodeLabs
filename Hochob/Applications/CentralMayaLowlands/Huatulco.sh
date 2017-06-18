@@ -30,8 +30,6 @@ else
     Stream.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/Huatulco.mp3"
 fi
 
-LOCAL_LANGUAGE=`Language.sh`
-
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Espeak.sh off english \
     "${LOCAL_INSTITUTION}, you know more about the Mayans, Intel and Intel Guadalajara Design Center, \
