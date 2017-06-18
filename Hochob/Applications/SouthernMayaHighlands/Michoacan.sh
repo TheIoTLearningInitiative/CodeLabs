@@ -85,7 +85,7 @@ Espeak.sh on spanish \
      Con mucho cuidado ponganse a ambos lados de mi, \
      viendo hacia la pantalla y sonrían."
 
-sleep 10
+sleep 15
 
 #Robot.sh lupe/message \
 #    "Están listos ${LOCAL_INSTITUTION}?"
