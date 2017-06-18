@@ -30,8 +30,8 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
     ""
 else
     Espeak.sh off spanish \
-    "Futuros Ingenieros de ${LOCAL_INSTITUTION}. Ya vimos la importancia de nuestras Fabricas y Laboratorios. \
-    Ahora entraremos a una seccion que nos permite jugar y conocer de cerca la tecnología. Siganme."
+    "Futuros Matemáticos de ${LOCAL_INSTITUTION}. Ya vimos la importancia de nuestras Fábricas y Laboratorios. \
+    Ahora entraremos a una sección que nos permite jugar y conocer de cerca la tecnología. Siganme."
 fi
 
 Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
