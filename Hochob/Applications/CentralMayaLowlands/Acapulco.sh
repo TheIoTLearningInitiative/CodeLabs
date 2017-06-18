@@ -36,7 +36,7 @@ else
     Espeak.sh off spanish \
     "Futuros Ingenieros de ${LOCAL_INSTITUTION}. Bienvenidos a esta primer sala, le llamamos: El Inicio. \
     Aquí  recordaras a los Mayas, la historia de Intel y de este Centro de Diseño de Intel en Guadalajara. \
-    Que disfruten tu recorrido."
+    Que disfruten su recorrido."
 fi
 
 Stream.sh "Triki" "1.0" "$ESPEAK_SPEECH_MP3"
