@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -x
+set -x0
 
 # =============================================================================
 # Variables
@@ -35,7 +35,7 @@ else
     La ciencia es observar el mundo, escuchar y registrar lo que se aprende. \
     Te gustaría entender porque la Tierra gira alrededor del Sol? \
     Porque las cosas caen hacia el suelo? \
-    Que hace a los pajaros volar? \
+    Que hace a los pájaros volar? \
     El científico es una persona que se dedica a entender el mundo y saber como se comporta. \
     Cualquiera puede pensar como un científico, y a ti, te gustaría ser científico? \
     "
