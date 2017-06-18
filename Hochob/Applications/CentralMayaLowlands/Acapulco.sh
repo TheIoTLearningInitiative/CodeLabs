@@ -35,7 +35,7 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
 else
     Espeak.sh off spanish \
     "Futuros Ingenieros de ${LOCAL_INSTITUTION}. Bienvenidos a esta primer sala, le llamamos: El Inicio. \
-    Aqui recordaras a los Mayas, la historia de Intel y de este Centro de Disenio de Intel en Guadalajara. \
+    Aquí  recordaras a los Mayas, la historia de Intel y de este Centro de Diseño de Intel en Guadalajara. \
     Que disfruten tu recorrido."
 fi
 
