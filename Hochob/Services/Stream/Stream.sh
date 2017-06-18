@@ -38,4 +38,17 @@ else
     exit 1
 fi
 
+exit 0
+
+# =============================================================================
+# Sandbox
+# =============================================================================
+
+LOCAL_ROBOTAVAILABLE=`RobotAvailable.sh`
+if [ "$LOCAL_ROBOTAVAILABLE" -eq "0" ]; then
+    Espeak.sh on spanish "Nel"
+else
+    Robot.sh lupe/say "Nel"
+fi
+
 # End of File
