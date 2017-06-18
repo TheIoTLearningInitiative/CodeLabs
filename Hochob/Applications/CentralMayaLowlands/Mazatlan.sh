@@ -24,8 +24,6 @@ export MAZATLAN_DIRECTORY=$(dirname "$CAMPECHE_PATH")
 
 LOCAL_LANGUAGE=`Language.sh`
 
-LOCAL_LANGUAGE=`Language.sh`
-
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Espeak.sh off english \
     ""
