@@ -30,4 +30,21 @@ else
     Stream.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/Huatulco.mp3"
 fi
 
+LOCAL_LANGUAGE=`Language.sh`
+
+if [ "$LOCAL_LANGUAGE" = "english" ]; then
+    Espeak.sh off english \
+    "${LOCAL_INSTITUTION}, you know more about the Mayans, Intel and Intel Guadalajara Design Center, \
+    now let's get into the next hall where we will find information about our Microproccesors, \
+    our Fabs and Laboratories. Follow me."
+else
+    Espeak.sh off spanish \
+    "${LOCAL_INSTITUTION}, ahora que saben más acerca de los Mayas, \
+    Intel e Intel Guadalajara Centro de Diseño podemos pasar a la siguiente seccion \
+    en la que encontraremos informacion acerca del Microprocesador, nuestras Fabricas \
+    y nuestros Laboratorios. Acompañenme."
+fi
+
+Stream.sh "Triki" "1.0" "$ESPEAK_SPEECH_MP3"
+
 # End of File
