@@ -6,7 +6,7 @@
 * **Ojo de Liebre**
 * **La Michilía**
 * **El Cielo**
-* Sian Ka'an
+* **Sian Ka'an**
 * Sierra de Manantlán
 * El Vizcaíno
 * Calakmul 
@@ -85,6 +85,17 @@
 # Name: El Cielo
 
 * **Alias**: 
+* **Station**: 
+* **Hochob Media**:
+  * Area NorthernMayaLowlands
+* **Services**:
+  * **Automation HomeAssistant**:
+  * **Stream** Chromecast
+* **Digital Media Player**: Eek'
+
+# Name: Sian Ka'an
+
+* **Alias**: Robot Dance
 * **Station**: 
 * **Hochob Media**:
   * Area NorthernMayaLowlands
