@@ -30,4 +30,15 @@ else
     Stream.sh "Juum" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/PuertoVallarta.mp3"
 fi
 
+LOCAL_LANGUAGE=`Language.sh`
+
+if [ "$LOCAL_LANGUAGE" = "english" ]; then
+    Espeak.sh off english \
+    ""
+else
+    Espeak.sh off spanish \
+    ""
+fi
+
+
 # End of File
