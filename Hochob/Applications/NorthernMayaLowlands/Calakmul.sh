@@ -32,9 +32,11 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
 else
     Espeak.sh off spanish \
     "La ciencia es muy divertida, es la curiosidad sobre el mundo y cómo se comporta. \
+    La ciencia es observar el mundo, escuchar y registrar lo que se aprender. \
     Te gustaria entender porque la Tierra gira alrededor del Sol? \
-    O porque las cosas caen hacia el suelo? \
-    El cientifico es una persona que se dedica a entender el mundo y saber como se comporta. \
+    Porque las cosas caen hacia el suelo? \
+    Que hace a los pajaros volar? \
+    El cientifico es una persona que se dedica a entender el mundo y el universor y saber como se comportan. \
     Cualquiera puede pensar como un científico. Cuando seas grande, te gustaria ser Cientifico? \
     "
 fi
