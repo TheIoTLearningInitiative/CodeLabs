@@ -10,10 +10,11 @@ set -x
 
 export CONVERTTEXT_PID=$$
 export CONVERTTEXT_BINARY=convert
-export CONVERTTEXT_ARGUMENTS="-font Roboto-Bold -pointsize 80 \
+export CONVERTTEXT_ARGUMENTS="-font Times-Bold -pointsize 80 \
                               -fill DeepSkyBlue -stroke yellow -draw"
 
-LOCAL_TEXT="$1"
+LOCAL_IMAGE="$1"
+LOCAL_TEXT="$2"
 
 # =============================================================================
 # Functions
@@ -25,9 +26,9 @@ LOCAL_TEXT="$1"
 # Main
 # =============================================================================
 
-if [ $# -eq 1 ]
+if [ $# -eq 2 ]
 then
-    $CONVERTTEXT_BINARY $CONVERTTEXT_ARGUMENTS "text 100,1000 \"$LOCAL_TEXT\"" $FSWEBCAM_IMAGE $FSWEBCAM_IMAGE_TEXT
+    $CONVERTTEXT_BINARY $CONVERTTEXT_ARGUMENTS "text 100,1000 \"$LOCAL_TEXT\"" $LOCAL_IMAGE $FSWEBCAM_IMAGE_TEXT
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1

@@ -107,7 +107,8 @@ Espeak.sh on spanish \
     "1, 2 y 3, Sonrían."
 
 Memories.sh "5" "on" "${MICHOACAN_NAME}" &
-ConvertText.sh "Bienvenidos ${LOCAL_INSTITUTION}"
+sleep 2
+ConvertText.sh "$FSWEBCAM_IMAGE" "Bienvenidos ${LOCAL_INSTITUTION}"
 wait
 Eog.sh "$FSWEBCAM_IMAGE" &
 
