@@ -73,6 +73,6 @@ MemoriesAudio.sh "${BAJACALIFORNIASUR_NAME}"
 
 wait
 
-kill -- -$(ps -o pgid=$BAJACALIFORNIASUR_PID | grep -o '[0-9]*')
+#kill -- -$(ps -o pgid=$BAJACALIFORNIASUR_PID | grep -o '[0-9]*')
 
 # End of File

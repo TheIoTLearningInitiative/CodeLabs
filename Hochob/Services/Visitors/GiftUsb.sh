@@ -6,7 +6,7 @@ set -x
 # Variables
 # =============================================================================
 
-. ~/CodeLabs/Hochob/Main.sh
+#. ~/CodeLabs/Hochob/Main.sh
 
 export GIFTUSB_PID=$$
 

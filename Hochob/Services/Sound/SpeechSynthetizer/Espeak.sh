@@ -6,7 +6,7 @@ set -x
 # Variables
 # =============================================================================
 
-. ~/CodeLabs/Hochob/Main.sh
+#. ~/CodeLabs/Hochob/Main.sh
 
 export ESPEAK_PID=$$
 export ESPEAK_BINARY=espeak
