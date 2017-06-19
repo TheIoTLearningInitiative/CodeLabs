@@ -25,14 +25,11 @@ export CAMPECHE_DIRECTORY=$(dirname "$CAMPECHE_PATH")
 
 LogPid.sh $CAMPECHE_PID $CAMPECHE_NAME
 
-#Memories.sh "1" "off" "${BAJACALIFORNIANORTE_NAME}"
-#Vlc.sh on "$HOCHOB_SERVER_MEDIA_SOURCE_VIDEO_FFMPEG_VIDEO"
-#LOCAL_INSTITUTION=`Name.sh`
-#ConvertText.sh "Bienvenidos ${LOCAL_INSTITUTION}"
-#eog -f $FSWEBCAM_IMAGE_TEXT &
 Eog.sh $FSWEBCAM_IMAGE_TEXT &
 sleep 1
-Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Campeche.mp3"
+Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Campeche.mp3" &
+
+sleep 28
 
 KillApp.sh "mpg123"
 KillApp.sh "eog"
