@@ -30,7 +30,7 @@ i=0
 for var in "$@"
 do
     if [ "$i" -gt 1 ]; then
-      LOCAL_MESSAGE=$LOCAL_MESSAGE" $var "
+      LOCAL_MESSAGE=$LOCAL_MESSAGE" $var"
       echo $LOCAL_MESSAGE
     fi
     i=`expr $i + 1`

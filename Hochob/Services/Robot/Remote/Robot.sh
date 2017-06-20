@@ -6,7 +6,7 @@ set -x
 # Variables
 # =============================================================================
 
-#. ~/CodeLabs/Hochob/Main.sh
+. ~/CodeLabs/Hochob/Main.sh
 
 export ROBOTREMOTE_PID=$$
 
@@ -55,7 +55,7 @@ if [ "$LOCAL_DEMO" -eq "1" ]; then
         Espeak.sh on spanish "$LOCAL_MESSAGE"
     fi
 else
-    Mosquitto.sh $LOCAL_COMMAND $LOCAL_MESSAGE
+    Mosquitto.sh $LOCAL_COMMAND "$LOCAL_MESSAGE"
 fi
 
 # End of File
