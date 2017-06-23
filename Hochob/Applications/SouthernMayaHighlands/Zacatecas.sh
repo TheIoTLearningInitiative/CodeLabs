@@ -33,6 +33,4 @@ MemoriesAudio.sh "${ZACATECAS_NAME}"
 
 sync
 
-kill -- -$(ps -o pgid=$ZACATECAS_PID | grep -o '[0-9]*')
-
 # End of File
