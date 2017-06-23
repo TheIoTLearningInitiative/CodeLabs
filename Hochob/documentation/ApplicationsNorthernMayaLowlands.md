@@ -51,7 +51,7 @@
 
 # Name: Montes Azules
 
-* **Alias**: 
+* **Alias**: Bienvenida Experiencia Intel
 * **Station**: 
 * **Hochob Media**:
   * Area NorthernMayaLowlands
@@ -62,7 +62,7 @@
 
 # Name: Ojo de Liebre
 
-* **Alias**: 
+* **Alias**: Juego Binario
 * **Station**: 
 * **Hochob Media**:
   * Area NorthernMayaLowlands
@@ -73,7 +73,7 @@
 
 # Name: La Michilía
 
-* **Alias**: 
+* **Alias**: Intel en el Espacio
 * **Station**: 
 * **Hochob Media**:
   * Area NorthernMayaLowlands
@@ -84,7 +84,7 @@
 
 # Name: El Cielo
 
-* **Alias**: 
+* **Alias**: Los Muones
 * **Station**: 
 * **Hochob Media**:
   * Area NorthernMayaLowlands
@@ -104,6 +104,19 @@
   * **Stream** Chromecast
 * **Digital Media Player**: Eek'
 
+# Name: Mapimi
+
+* **Alias**: Hasta Pronto
+* **Station**: 
+* **Hochob Media**:
+  * Area NorthernMayaLowlands
+* **Services**:
+  * **Automation HomeAssistant**:
+  * **Stream** Chromecast
+* **Digital Media Player**: Eek'
+
+# 
+
 # Name: Calakmul
 
 * **Alias**: 
@@ -114,17 +127,4 @@
   * **Automation HomeAssistant**:
   * **Stream** Chromecast
 * **Digital Media Player**: Eek'
-
-# Name: Mapimi
-
-* **Alias**: Closure
-* **Station**: 
-* **Hochob Media**:
-  * Area NorthernMayaLowlands
-* **Services**:
-  * **Automation HomeAssistant**:
-  * **Stream** Chromecast
-* **Digital Media Player**: Eek'
-
-
 
