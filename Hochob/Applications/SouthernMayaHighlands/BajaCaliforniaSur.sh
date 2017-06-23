@@ -74,6 +74,5 @@ MemoriesAudio.sh "${BAJACALIFORNIASUR_NAME}"
 wait
 
 KillApp.sh "vlc"
-#kill -- -$(ps -o pgid=$BAJACALIFORNIASUR_PID | grep -o '[0-9]*')
 
 # End of File
