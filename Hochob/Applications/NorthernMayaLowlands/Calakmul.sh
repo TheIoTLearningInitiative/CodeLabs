@@ -45,6 +45,4 @@ fi
 
 Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
 
-#kill -- -$(ps -o pgid=$CALAKMUL_PID | grep -o '[0-9]*')
-
 # End of File
