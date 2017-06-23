@@ -1,3 +1,4 @@
+
 #!/bin/sh
 
 set -x
@@ -27,7 +28,7 @@ LogPid.sh $MICHOACAN_PID $MICHOACAN_NAME
 
 LOCAL_INSTITUTION=`Name.sh`
 
-#Robot.sh lupe/message \
+#Robot.sh lupe/decir \
 #   "Bienvenidos ${LOCAL_INSTITUTION} a mi casa, su casa. \
 #    Es un gusto conocerlos. Ya saben mi nombre, soy Lupe y \
 #    hace rato estaba un poco chiveado pero ya estoy listo para mostrarles \
@@ -36,7 +37,7 @@ LOCAL_INSTITUTION=`Name.sh`
 #    que aquí trabajamos les deseamos la mejor de las experiencias. \
 #    Muchas gracias por haber venido."
 Espeak.sh on spanish \
-    "Bienvenidas ${LOCAL_INSTITUTION} a mi casa, su casa. \
+    "Bienvenidos ${LOCAL_INSTITUTION} a mi casa, su casa. \
     Es un gusto conocerlas. Ya saben mi nombre, soy Lupe, \
     tengo  2 años robot y estudio el primer año de primaria robot. \
     Mis pasatiempos favoritos son compartir tiempo con mi familia, jugar al aire libre, \
@@ -88,9 +89,9 @@ Espeak.sh on spanish \
 sleep 15
 
 #Robot.sh lupe/message \
-#    "Están listas ${LOCAL_INSTITUTION}?"
+#    "Están listos ${LOCAL_INSTITUTION}?"
 Espeak.sh on spanish \
-    "Están listas ${LOCAL_INSTITUTION}?"
+    "Están listos ${LOCAL_INSTITUTION}?"
 
 sleep 5
 
@@ -113,9 +114,9 @@ wait
 Eog.sh "$FSWEBCAM_IMAGE" &
 
 #Robot.sh lupe/message \
-#    "Listo! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuras ingenieras."
+#    "Listo! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuras y futuros ingenieros."
 Espeak.sh on spanish \
-    "Orale! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuras ingenieras."
+    "Orale! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuras y futuros ingenieros."
 
 sleep 5
 
