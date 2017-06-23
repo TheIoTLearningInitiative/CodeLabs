@@ -32,7 +32,7 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
 else
     Espeak.sh off spanish \
     "La ciencia es muy divertida, es la curiosidad sobre el mundo y cómo se comporta. \
-    La ciencia es observar el mundo, escuchar y registrar lo que se aprende. \
+    Es observarlo, escucharlo y registrar lo que se aprende. \
     Te gustaría entender porqué la Tierra gira alrededor del Sol? \
     Porqué las cosas caen hacia el suelo? \
     Que hace a los pájaros volar? \
@@ -45,6 +45,6 @@ fi
 
 Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
 
-kill -- -$(ps -o pgid=$CALAKMUL_PID | grep -o '[0-9]*')
+#kill -- -$(ps -o pgid=$CALAKMUL_PID | grep -o '[0-9]*')
 
 # End of File
