@@ -30,8 +30,8 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
     ""
 else
     Espeak.sh off spanish \
-    "Futuras Matemáticas. Ya vimos la importancia de nuestras Fábricas y Laboratorios. \
-    Ahora entraremos a una sección que nos permite jugar y conocer de cerca la tecnología. Siganme."
+    "Futuras y futuros Matemáticos. Ya vimos la importancia de nuestras Fábricas y Laboratorios. \
+    Ahora entraremos a una sección que nos permite jugar y conocer de cerca la tecnología."
 fi
 
 Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
@@ -42,6 +42,6 @@ else
     Stream.sh "Eek'" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/MontesAzules.mp3"
 fi
 
-kill -- -$(ps -o pgid=$MONTESAZULES_PID | grep -o '[0-9]*')
+#kill -- -$(ps -o pgid=$MONTESAZULES_PID | grep -o '[0-9]*')
 
 # End of File
