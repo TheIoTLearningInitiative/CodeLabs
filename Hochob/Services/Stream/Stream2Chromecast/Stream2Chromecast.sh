@@ -10,7 +10,7 @@ export STREAM2CHROMECAST_PID=$$
 export STREAM2CHROMECAST_BINARY=stream2chromecast.py
 
 LOCAL_DEVICE="$1"
-LOCAL_VOLUME=0.75
+LOCAL_VOLUME=0.50
 LOCAL_FILE="$3"
 
 # =============================================================================
