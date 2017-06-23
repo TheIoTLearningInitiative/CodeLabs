@@ -40,7 +40,7 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
 else
     Espeak.sh off spanish \
     "Me da mucho gusto conocerlos y que hayan venido a Intel. \
-    Regresen pronto futuros Ingenieros"
+    Regresen pronto futuras y futuros ingenieros"
 fi
 
 Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
