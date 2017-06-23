@@ -106,7 +106,7 @@
   * **Stream** Chromecast
 * **Digital Media Player**: Eek'
 
-# 
+# Fun
 
 ## Name: Sian Ka'an
 
@@ -120,7 +120,7 @@
 * **Digital Media Player**: Eek'
 
 
-# Science Topics
+# Topics
 
 ## Name: Calakmul
 
