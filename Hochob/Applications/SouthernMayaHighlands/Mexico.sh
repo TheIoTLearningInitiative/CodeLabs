@@ -28,6 +28,4 @@ LogPid.sh $MEXICO_PID $MEXICO_NAME
 Fswebcam.sh 360
 # find dirname -type f | shuf -n 5
 
-kill -- -$(ps -o pgid=$MEXICO_PID | grep -o '[0-9]*')
-
 # End of File
