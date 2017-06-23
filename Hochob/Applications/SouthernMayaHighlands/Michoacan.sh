@@ -91,14 +91,14 @@ sleep 15
 #Robot.sh lupe/message \
 #    "Están listos ${LOCAL_INSTITUTION}?"
 Espeak.sh on spanish \
-    "Están listos ${LOCAL_INSTITUTION}?"
+    "Están listas? listos? ${LOCAL_INSTITUTION}?"
 
 sleep 5
 
 #Robot.sh lupe/message \
-#    "Ya listas? Tomemos la foto, a la cuenta de 3."
+#    "Tomemos la foto, a la cuenta de 3."
 Espeak.sh on spanish \
-    "Ya listas? Tomemos la foto, a la cuenta de 3."
+    "Tomemos la foto, a la cuenta de 3."
 
 sleep 1
 
