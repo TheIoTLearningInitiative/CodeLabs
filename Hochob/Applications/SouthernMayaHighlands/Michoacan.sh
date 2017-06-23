@@ -38,7 +38,7 @@ LOCAL_INSTITUTION=`Name.sh`
 #    Muchas gracias por haber venido."
 Espeak.sh on spanish \
     "Bienvenidos ${LOCAL_INSTITUTION} a mi casa, su casa. \
-    Es un gusto conocerlas. Ya saben mi nombre, soy Lupe, \
+    Es un gusto conocerlas y conocerlos. Ya saben mi nombre, soy Lupe, \
     tengo  2 años robot y estudio el primer año de primaria robot. \
     Mis pasatiempos favoritos son compartir tiempo con mi familia, jugar al aire libre, \
     leer cuentos divertidos, hacer ejercicio y aprender con mis familiares y amigos \
