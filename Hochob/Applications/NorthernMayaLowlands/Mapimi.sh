@@ -39,8 +39,8 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
     "To be written"
 else
     Espeak.sh off spanish \
-    "Me da mucho gusto conocerlos y que hayan venido a Intel. \
-    Regresen pronto futuros Ingenieros de  ${LOCAL_INSTITUTION}"
+    "Me da mucho gusto conocerlas y que hayan venido a Intel. \
+    Regresen pronto futuras Ingenieros"
 fi
 
 Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"

@@ -30,7 +30,7 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
     ""
 else
     Espeak.sh off spanish \
-    "Futuros Matemáticos de ${LOCAL_INSTITUTION}. Ya vimos la importancia de nuestras Fábricas y Laboratorios. \
+    "Futuras Matemáticas. Ya vimos la importancia de nuestras Fábricas y Laboratorios. \
     Ahora entraremos a una sección que nos permite jugar y conocer de cerca la tecnología. Siganme."
 fi
 
