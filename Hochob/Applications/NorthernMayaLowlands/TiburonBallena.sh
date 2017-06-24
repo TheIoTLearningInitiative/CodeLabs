@@ -30,12 +30,12 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Espeak.sh off english \
     "To be written"
 else
-    VoiceRss.sh on spanish \
+    VoiceRss.sh off spanish \
     "Hola Lupe muy buenos dias"
-    #Stream.sh "Eek'" "1.0" "$VOICERSS_SPEECH_MP3"
-    Espeak.sh on spanish \
+    Stream.sh "Eek'" "1.0" "$VOICERSS_SPEECH_MP3"
+    Espeak.sh off spanish \
     "Buenos dias! Estoy listo para platicar sobre el espacio"
-    #Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
+    Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
 fi
 
 # End of File
