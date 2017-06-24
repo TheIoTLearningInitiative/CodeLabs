@@ -57,7 +57,7 @@
   * **Robot** Robot
   * **Sound** Mpg123
 
-## Name: Baja California Sur
+# Name: Baja California Sur
 
 * **Area** The Home
 * **Group** Robot
@@ -90,80 +90,67 @@
 
 # Name: Guanajuato
 
-* **Alias**: Corporate Image Showcase
-* **Station**: Chakmool
-* **Hochob Media**:
-  * Corporate Image
+* **Area** The Home
+* **Group** Corporate
+* **Friendly Name**: Image Showcase
 * **Services**:
   * **Automation HomeAssistant**: 
   * **Image** Eog
 
 # Name: Guerrero
 
-* **Alias**: Corporate Video Showcase
-* **Station**: Chakmool
-* **Hochob Media**:
-  * Corporate Video
+* **Area** The Home
+* **Group** Corporate
+* **Friendly Name**: Video Showcase
 * **Services**:
   * **Automation HomeAssistant**: 
   * **Video** VlcMediaPlayer
 
 # Name: Hidalgo
 
-* **Alias**: Visitors Center Image Showcase
-* **Station**: Chakmool
-* **Hochob Media**:
-  * VisitorsCenter Image
+* **Area** The Home
+* **Group** Visitors Center
+* **Friendly Name**: Image Showcase
 * **Services**:
   * **Automation HomeAssistant**: 
   * **Image** Eog
 
-# Name: Mexico
-
-* **Alias**: Welcome Memories
-* **Station**: Chakmool
-* **Hochob Media**:
-  * VisitorsCenter Image
-* **Hochob Media Source**:
-  * Camera Fswebcam
-* **Services**:
-  * **Automation HomeAssistant**:
-  * **Camera** Fswebcam
-
-
 # Name: Queretaro
 
-* **Alias**: Memories Image Showcase
-* **Station**: Chakmool
-* **Hochob Media**:
-  * Memories Image
+* **Area** The Home
+* **Group** Memories
+* **Friendly Name**: Image Showcase
 * **Services**:
   * **Automation HomeAssistant**: 
   * **Image** Eog
 
 # Name: Quintana Roo
 
-* **Alias**: Memories Video Showcase
-* **Station**: Chakmool
-* **Hochob Media**:
-  * Memories Video
+* **Area** The Home
+* **Group** Memories
+* **Friendly Name**: Videos Showcase
 * **Services**:
   * **Automation HomeAssistant**: 
   * **Video** VlcMediaPlayer
 
-# Name: Zacatecas
+# Under Development
 
-* **Alias**: Thank You Very Much Future Engineers
-* **Station**: Chakmool
-* **Hochob Media Source**:
-  * Camera / Video Slideshow
-  * Camera Live Transmission
-* **Hochob Media**:
-  * VisitorsCenter Memories Video
+## Name: Mexico
+
+* **Area** The Home
+* **Group** Robot
+* **Friendly Name**: Bienvenidos Recorrido
+* **Services**:
+  * **Automation HomeAssistant**:
+  * **Camera** Fswebcam
+
+## Name: Zacatecas
+
+* **Area** The Home
+* **Group** Robot
+* **Friendly Name**: Bienvenidos Recorrido
 * **Services**:
   * **Automation HomeAssistant**: 
   * **Video** VlcMediaPlayer
   * [http://hamelot.io/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video/](http://hamelot.io/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video/)
-
-
 
