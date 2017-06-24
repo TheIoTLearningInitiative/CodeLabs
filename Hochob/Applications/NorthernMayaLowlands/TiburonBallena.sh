@@ -32,6 +32,7 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
 else
     Espeak.sh off spanish \
     "
+    Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
 fi
 
 Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
