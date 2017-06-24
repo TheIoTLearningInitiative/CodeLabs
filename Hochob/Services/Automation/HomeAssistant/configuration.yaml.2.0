@@ -376,7 +376,7 @@ switch:
       
       language:
         command_on: "~/CodeLabs/Hochob/Services/Language/Language.sh spanish &"
-        command_off: "~/CodeLabs/Hochob/Services/Language/Language.sh english"
+        command_off: "~/CodeLabs/Hochob/Services/Language/Language.sh english &"
  
       # Southern Maya Highlands: Corporate
 
