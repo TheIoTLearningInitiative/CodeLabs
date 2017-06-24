@@ -29,7 +29,7 @@ Memories.sh "5" "off" "${BAJACALIFORNIANORTE_NAME}" &
 
 Eog.sh "$VISITORSCENTER_IMAGE/*" &
 sleep 5
-Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaNorte.mp3" &
+Vlc.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaNorte.mp3" &
 sleep 19.2
 
 LOCAL_ROBOTAVAILABLE=`RobotAvailable.sh`
