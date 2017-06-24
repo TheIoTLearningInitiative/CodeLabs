@@ -14,8 +14,13 @@ file = str(sys.argv[2])
 
 voice = VoiceRssLib.speech({
 	'key': '9fbff2d35eb54b62998515ccbc656a07',
+<<<<<<< HEAD
 	'hl': language,
         'src': text,
+=======
+	'hl': 'en-us',
+        'src': 'Hello World Python Text To Speech X Platform',
+>>>>>>> a16d1bed6021bca0262e50d40f0d807e1b02a2b7
 	'r': '0',
 	'c': 'wav',
 	'f': '44khz_16bit_stereo',
