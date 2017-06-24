@@ -79,7 +79,6 @@
   - __Stream__: Chromecast
 - __Digital Media Player__: Eek'
 
-
 # Name: El Cielo
 
 - __Area__: The Experience
