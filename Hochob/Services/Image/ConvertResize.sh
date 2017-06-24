@@ -8,13 +8,11 @@ set -x
 
 #. ~/CodeLabs/Hochob/Main.sh
 
-export CONVERTTEXT_PID=$$
-export CONVERTTEXT_BINARY=convert
-export CONVERTTEXT_ARGUMENTS="-font Times-Bold -pointsize 80 \
-                              -fill DeepSkyBlue -stroke yellow -draw"
+export CONVERTRESIZE_PID=$$
+export CONVERTRESIZE_BINARY=convert
+export CONVERTRESIZE_ARGUMENTS="-resize 4096x2304\!"
 
 LOCAL_IMAGE="$1"
-LOCAL_TEXT="$2"
 
 # =============================================================================
 # Functions
@@ -26,9 +24,9 @@ LOCAL_TEXT="$2"
 # Main
 # =============================================================================
 
-if [ $# -eq 2 ]
+if [ $# -eq 1 ]
 then
-    $CONVERTTEXT_BINARY $CONVERTTEXT_ARGUMENTS "text 100,1000 \"$LOCAL_TEXT\"" $LOCAL_IMAGE $FSWEBCAM_IMAGE_TEXT
+    $CONVERTRESIZE_BINARY $LOCAL_IMAGE $CONVERTRESIZE_ARGUMENTS $LOCAL_IMAGE
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
