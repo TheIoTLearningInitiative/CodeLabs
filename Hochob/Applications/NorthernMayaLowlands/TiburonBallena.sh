@@ -27,15 +27,9 @@ LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Espeak.sh off english \
-    "To be written"
+    Northern.sh english robot "Hi there"
 else
-    VoiceRss.sh off spanish \
-    "Hola Lupe muy buenos dias"
-    Stream.sh "Eek'" "1.0" "$VOICERSS_SPEECH"
-    Espeak.sh off spanish \
-    "Buenos dias! Estoy listo para platicar sobre el espacio"
-    Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
+    Northern.sh spanish tt "Hola Lupe muy buenos dias"
 fi
 
 # End of File
