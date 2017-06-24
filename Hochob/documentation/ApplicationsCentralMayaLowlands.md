@@ -25,10 +25,9 @@
 
 # Name: Acapulco
 
-- __Alias__: Before the Beginning
-- __Station__: Ch'iich'
-- __Hochob Media__:
-  - Area CentralMayaLowlands
+- __Area__: The Beginning
+- __Group__: 
+- __Friendly Name__: 
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
@@ -36,10 +35,9 @@
 
 # Name: Cancún
 
-- __Alias__: The Beginning of Intel
-- __Station__: Ch'iich'
-- __Hochob Media__:
-  - Area CentralMayaLowlands
+- __Area__: The Beginning
+- __Group__: 
+- __Friendly Name__: 
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
@@ -47,10 +45,9 @@
 
 # Name: Huatulco
 
-- __Alias__: Intel Guadalajara Design Center
-- __Station__: Ch'iich'
-- __Hochob Media__:
-  - Area CentralMayaLowlands
+- __Area__: The Beginning
+- __Group__: 
+- __Friendly Name__: 
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
@@ -59,10 +56,9 @@
 
 # Name: Mazatlán
 
-- __Alias__: The Microprocessor
-- __Station__: Tz'unu'un
-- __Hochob Media__:
-  - Area CentralMayaLowlands
+- __Area__: The Beginning
+- __Group__: 
+- __Friendly Name__: 
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
@@ -71,10 +67,9 @@
 
 # Name: Puerto Vallarta
 
-- __Alias__: Labs and Fabs
-- __Station__: Tz'unu'un
-- __Hochob Media__:
-  - Area CentralMayaLowlands
+- __Area__: The Beginning
+- __Group__: 
+- __Friendly Name__: 
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
@@ -82,10 +77,9 @@
 
 # Name: Veracruz
 
-- __Alias__: 
-- __Station__: Ch'iich'
-- __Hochob Media__:
-
+- __Area__: The Beginning
+- __Group__: 
+- __Friendly Name__: 
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
