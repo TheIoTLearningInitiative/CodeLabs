@@ -40,7 +40,6 @@
 * **Group** Introduccion
 * **Friendly Name**: Bienvenidos Intel, Protocolo de Seguridad
 * **Services**:
-  * **Automation HomeAssistant**: Introduccion Bienvenida y Protocolo de Seguridad
   * **Memories** Memories
   * **Image** Eog
   * **Sound** Vlc
@@ -51,11 +50,10 @@
 * **Group** Robot
 * **Friendly Name**: Bienvenidos Guadalajara Design Center
 * **Services**:
-  * **Automation HomeAssistant**: Video Antes del Video
   * **Image** Eog
   * **Memories** Memories
   * **Robot** Robot
-  * **Sound** Mpg123
+  * **Sound** Vlc
 
 # Name: Baja California Sur
 
@@ -63,7 +61,6 @@
 * **Group** Robot
 * **Friendly Name**: Lupe Robot Show
 * **Services**:
-  * **Automation HomeAssistant**: 
   * **Memories** Memories
   * **Video** VlcMediaPlayer
   * **Robot** Robot
@@ -74,7 +71,6 @@
 * **Group** Robot
 * **Friendly Name**: Lupe Robot Foto Grupal
 * **Services**:
-  * **Automation HomeAssistant**:
   * **Camera** Fswebcam
   * **Robot** Robot
 
@@ -84,9 +80,8 @@
 * **Group** Robot
 * **Friendly Name**: Bienvenidos Recorrido
 * **Services**:
-  * **Automation HomeAssistant**: Video Despues del Video
   * **Image** Eog
-  * **Sound** Mpg123
+  * **Sound** Vlc
 
 # Name: Guanajuato
 
@@ -94,7 +89,6 @@
 * **Group** Corporate
 * **Friendly Name**: Image Showcase
 * **Services**:
-  * **Automation HomeAssistant**: 
   * **Image** Eog
 
 # Name: Guerrero
@@ -103,7 +97,6 @@
 * **Group** Corporate
 * **Friendly Name**: Video Showcase
 * **Services**:
-  * **Automation HomeAssistant**: 
   * **Video** VlcMediaPlayer
 
 # Name: Hidalgo
@@ -112,7 +105,6 @@
 * **Group** Visitors Center
 * **Friendly Name**: Image Showcase
 * **Services**:
-  * **Automation HomeAssistant**: 
   * **Image** Eog
 
 # Name: Queretaro
@@ -121,7 +113,6 @@
 * **Group** Memories
 * **Friendly Name**: Image Showcase
 * **Services**:
-  * **Automation HomeAssistant**: 
   * **Image** Eog
 
 # Name: Quintana Roo
@@ -130,19 +121,9 @@
 * **Group** Memories
 * **Friendly Name**: Videos Showcase
 * **Services**:
-  * **Automation HomeAssistant**: 
   * **Video** VlcMediaPlayer
 
 # Under Development
-
-## Name: Mexico
-
-* **Area** The Home
-* **Group** Robot
-* **Friendly Name**: Bienvenidos Recorrido
-* **Services**:
-  * **Automation HomeAssistant**:
-  * **Camera** Fswebcam
 
 ## Name: Zacatecas
 
@@ -150,7 +131,8 @@
 * **Group** Robot
 * **Friendly Name**: Bienvenidos Recorrido
 * **Services**:
-  * **Automation HomeAssistant**: 
-  * **Video** VlcMediaPlayer
+  * **Memories** Memories
+  * **Sound** Espeak
+  * **MemoriesAudio** MemoriesAudio
   * [http://hamelot.io/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video/](http://hamelot.io/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video/)
 
