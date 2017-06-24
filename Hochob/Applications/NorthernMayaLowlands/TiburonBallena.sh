@@ -29,9 +29,10 @@ LOCAL_LANGUAGE=`Language.sh`
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Northern.sh english robot "Hi there"
 else
-    #Northern.sh english robot "Hi there"
-    Northern.sh english tt "Hi there"
-    #Northern.sh spanish robot "Hola Lupe muy buenos dias"
+    Northern.sh english robot "Hi Lupe, good morning"
+    Northern.sh english tt "Hi Lupe, good morning"
+    Northern.sh spanish robot "Hola Lupe, muy buenos dias"
+    Northern.sh spanish tt "Hola Lupe, muy buenos dias"
 fi
 
 # End of File
