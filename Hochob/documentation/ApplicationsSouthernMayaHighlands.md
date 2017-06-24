@@ -34,21 +34,22 @@
 * Yucatan
 * **Zacatecas**
 
-## Name: Aguascalientes
+# Name: Aguascalientes
 
-* **Section** The Home
-* **Alias**: Welcome to Guadalajara Design Center!
+* **Area** The Home
+* **Group** Introduccion
+* **Friendly Name**: Bienvenidos Intel, Protocolo de Seguridad
 * **Services**:
   * **Automation HomeAssistant**: Introduccion Bienvenida y Protocolo de Seguridad
   * **Memories** Memories
   * **Image** Eog
   * **Sound** Vlc
 
-## Name: Baja California Norte
+# Name: Baja California Norte
 
 * **Area** The Home
-* **** 
-* **Friendly Name**: Are you ready for the show?
+* **Group** Robot
+* **Friendly Name**: Bienvenidos Guadalajara Design Center
 * **Services**:
   * **Automation HomeAssistant**: Video Antes del Video
   * **Image** Eog
@@ -58,27 +59,30 @@
 
 ## Name: Baja California Sur
 
-* **Alias**: Let the show begin!
-* **Station**: Chakmool
-* **Hochob Media**:
-  * Area SouthernMayaHighlands
-* **Hochob Media Source**:
-  * Camera Fswebcam
-  * Visitors
+* **Area** The Home
+* **Group** Robot
+* **Friendly Name**: Lupe Robot Show
 * **Services**:
   * **Automation HomeAssistant**: 
   * **Memories** Memories
   * **Video** VlcMediaPlayer
   * **Robot** Robot
 
+# Name: Michoacan
+
+* **Area** The Home
+* **Group** Robot
+* **Friendly Name**: Lupe Robot Foto Grupal
+* **Services**:
+  * **Automation HomeAssistant**:
+  * **Camera** Fswebcam
+  * **Robot** Robot
+
 # Name: Campeche
 
-* **Alias**: Welcome to our Visitors Center
-* **Station**: Chakmool
-* **Hochob Media Source**:
-  * Camera Fswebcam
-* **Hochob Media**:
-  * Area SouthernMayaHighlands
+* **Area** The Home
+* **Group** Robot
+* **Friendly Name**: Bienvenidos Recorrido
 * **Services**:
   * **Automation HomeAssistant**: Video Despues del Video
   * **Image** Eog
@@ -126,16 +130,6 @@
   * **Automation HomeAssistant**:
   * **Camera** Fswebcam
 
-# Name: Michoacan
-
-* **Alias**: Say cheese!
-* **Station**: Chakmool
-* **Hochob Media Source**:
-  * Camera Fswebcam
-* **Services**:
-  * **Automation HomeAssistant**:
-  * **Camera** Fswebcam
-  * **Robot** RobotVirtual
 
 # Name: Queretaro
 
