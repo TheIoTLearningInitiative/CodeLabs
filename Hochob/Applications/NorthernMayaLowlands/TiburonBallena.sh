@@ -34,7 +34,7 @@ else
     "Hola Lupe, como estas?"
     #Stream.sh "Eek'" "1.0" "$VOICERSS_SPEECH_MP3"
     Espeak.sh off spanish \
-    "Super bien, y tu?
+    "Super bien, y tu?"
     #Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
 fi
 
