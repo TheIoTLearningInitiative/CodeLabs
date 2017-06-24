@@ -6,7 +6,7 @@ set -x
 # Variables
 # =============================================================================
 
-#. ~/CodeLabs/Hochob/Main.sh
+. ~/CodeLabs/Hochob/Main.sh
 
 export ESPEAK_PID=$$
 export ESPEAK_BINARY=espeak
@@ -47,7 +47,7 @@ then
        $ESPEAK_BINARY $ESPEAK_PLAY $ESPEAK_SPEECH $ESPEAK_LANGUAGE "$ESPEAK_INPUT"
        ffmpeg -y -i $ESPEAK_SPEECH $ESPEAK_SPEECH_MP3
     fi
-    
+
     cp $ESPEAK_SPEECH $SPEECH
     cp $ESPEAK_SPEECH_MP3 $SPEECH_MP3
 
