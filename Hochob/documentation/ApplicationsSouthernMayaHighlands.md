@@ -76,8 +76,8 @@
   * **Sound** Espeak
   * **Robot** Robot
   * **Memories** Memories
-  * **Image** Eog
   * **Image** ConvertText
+  * **Image** Eog
 
 # Name: Campeche
 
