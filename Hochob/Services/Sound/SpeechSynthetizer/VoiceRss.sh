@@ -44,6 +44,12 @@ then
     if [ "$LOCAL_PLAY" = "on" ]; then
        aplay $VOICERSS_SPEECH
     fi
+    
+    ffmpeg -y -i $VOICERSS_SPEECH $VOICERSS_SPEECH_MP3
+    
+    cp $VOICERSS_SPEECH $SPEECH
+    cp $VOICERSS_SPEECH_MP3 $SPEECH_MP3
+    
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
