@@ -47,6 +47,10 @@ then
        $ESPEAK_BINARY $ESPEAK_PLAY $ESPEAK_SPEECH $ESPEAK_LANGUAGE "$ESPEAK_INPUT"
        ffmpeg -y -i $ESPEAK_SPEECH $ESPEAK_SPEECH_MP3
     fi
+    
+    cp $ESPEAK_SPEECH $SPEECH
+    cp $ESPEAK_SPEECH_MP3 $SPEECH_MP3
+
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
