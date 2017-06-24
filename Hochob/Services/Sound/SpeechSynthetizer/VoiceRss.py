@@ -3,7 +3,7 @@
 import subprocess
 import VoiceRssLib
 
-voice = voicerssurllib.speech({
+voice = VoiceRssLib.speech({
 	'key': '9fbff2d35eb54b62998515ccbc656a07',
 	'hl': 'en-us',
         'src': 'Hello World Python Text To Speech X Platform',
