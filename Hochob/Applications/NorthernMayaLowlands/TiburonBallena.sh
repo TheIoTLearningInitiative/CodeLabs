@@ -31,7 +31,7 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
     "To be written"
 else
     VoiceRss.sh on spanish \
-    "Hola Lupe, muy buenos dias!"
+    "Hola Lupe muy buenos dias"
     #Stream.sh "Eek'" "1.0" "$VOICERSS_SPEECH_MP3"
     Espeak.sh on spanish \
     "Buenos dias! Estoy listo para platicar sobre el espacio"
