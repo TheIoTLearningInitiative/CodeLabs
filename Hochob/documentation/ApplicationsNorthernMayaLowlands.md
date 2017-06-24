@@ -55,7 +55,6 @@
 - __Group__: Stations
 - __Friendly Name__: Bienvenida Experiencia Intel
 - __Services__:
-  - __Automation HomeAssistant__:
   - __Stream__: Chromecast
 - __Digital Media Player__: Eek'
 
@@ -65,7 +64,6 @@
 - __Group__: Stations
 - __Friendly Name__: Juego Binario
 - __Services__:
-  - __Automation HomeAssistant__:
   - __Stream__: Chromecast
 - __Digital Media Player__: Eek'
 
@@ -75,7 +73,6 @@
 - __Group__: Stations
 - __Friendly Name__: Intel en el espacio
 - __Services__:
-  - __Automation HomeAssistant__:
   - __Stream__: Chromecast
 - __Digital Media Player__: Eek'
 
@@ -85,7 +82,6 @@
 - __Group__: Stations
 - __Friendly Name__: Los muones
 - __Services__:
-  - __Automation HomeAssistant__:
   - __Stream__: Chromecast
 - __Digital Media Player__: Eek'
 
@@ -95,7 +91,6 @@
 - __Group__: Stations
 - __Friendly Name__: Hasta pronto
 - __Services__:
-  - __Automation HomeAssistant__:
   - __Stream__: Chromecast
 - __Digital Media Player__: Eek'
 
@@ -105,7 +100,6 @@
 - __Group__: Fun
 - __Friendly Name__: Robot Dance
 - __Services__:
-  - __Automation HomeAssistant__:
   - __Stream__: Chromecast
 - __Digital Media Player__: Eek'
 
@@ -113,8 +107,17 @@
 
 - __Area__: The Experience
 - __Group__: Topics
-- __Friendly Name__: 
+- __Friendly Name__: La Ciencia
 - __Services__:
-- __Automation HomeAssistant__:
-- __Stream__: Chromecast
+  - __Stream__: Chromecast
 - __Digital Media Player__: Eek'
+
+# Tiburón Ballena
+
+- __Area__: The Experience
+- __Group__: Topics
+- __Friendly Name__: Planeta Marte
+- __Services__:
+  - __Stream__: Chromecast
+- __Digital Media Player__: Eek'
+
