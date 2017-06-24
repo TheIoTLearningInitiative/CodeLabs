@@ -34,34 +34,21 @@
 * Yucatan
 * **Zacatecas**
 
-# Name: Aguascalientes
+## Name: Aguascalientes
 
+* **Section** The Home
 * **Alias**: Welcome to Guadalajara Design Center!
-* **Station**: Chakmool
-* **Hochob Media**:
-  * Area SouthernMayaHighlands
-  * Corporate Image
-  * VisitorsCenter Sound
-* **Hochob Media Source**:
-  * Camera Fswebcam
-  * Visitors
 * **Services**:
   * **Automation HomeAssistant**: Introduccion Bienvenida y Protocolo de Seguridad
-  * **Image** Eog
   * **Memories** Memories
-  * **Sound** Mpg123
+  * **Image** Eog
+  * **Sound** Vlc
 
-# Name: Baja California Norte
+## Name: Baja California Norte
 
-* **Alias**: Are you ready for the show?
-* **Station**: Chakmool
-* **Hochob Media**:
-  * Area SouthernMayaHighlands
-  * VisitorsCenter Image
-  * VisitorsCenter Sound
-* **Hochob Media Source**:
-  * Camera Fswebcam
-  * Visitors
+* **Area** The Home
+* **** 
+* **Friendly Name**: Are you ready for the show?
 * **Services**:
   * **Automation HomeAssistant**: Video Antes del Video
   * **Image** Eog
@@ -69,7 +56,7 @@
   * **Robot** Robot
   * **Sound** Mpg123
 
-# Name: Baja California Sur
+## Name: Baja California Sur
 
 * **Alias**: Let the show begin!
 * **Station**: Chakmool
