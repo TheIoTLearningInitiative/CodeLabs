@@ -26,7 +26,8 @@ LOCAL_IMAGE="$1"
 
 if [ $# -eq 1 ]
 then
-    $CONVERTRESIZE_BINARY $LOCAL_IMAGE $CONVERTRESIZE_ARGUMENTS $LOCAL_IMAGE
+    $CONVERTRESIZE_BINARY $LOCAL_IMAGE $CONVERTRESIZE_ARGUMENTS $LOCAL_IMAGE.temp
+    mv $LOCAL_IMAGE.temp mv $LOCAL_IMAGE
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
