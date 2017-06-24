@@ -50,10 +50,10 @@
 * **Group** Robot
 * **Friendly Name**: Bienvenidos Guadalajara Design Center
 * **Services**:
-  * **Image** Eog
   * **Memories** Memories
-  * **Robot** Robot
+  * **Image** Eog
   * **Sound** Vlc
+  * **Robot** Robot
 
 # Name: Baja California Sur
 
