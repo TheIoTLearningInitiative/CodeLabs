@@ -27,7 +27,7 @@ LogPid.sh $CAMPECHE_PID $CAMPECHE_NAME
 
 Eog.sh $FSWEBCAM_IMAGE_TEXT &
 sleep 1
-Mpg123.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Campeche.mp3" &
+Vlc.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Campeche.mp3" &
 
 sleep 28
 
