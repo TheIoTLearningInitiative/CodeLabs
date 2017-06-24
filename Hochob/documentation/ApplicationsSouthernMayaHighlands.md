@@ -73,8 +73,11 @@
 * **Group** Robot
 * **Friendly Name**: Lupe Robot Foto Grupal
 * **Services**:
-  * **Camera** Fswebcam
+  * **Sound** Espeak
   * **Robot** Robot
+  * **Memories** Memories
+  * **Image** Eog
+  * **Image** ConvertText
 
 # Name: Campeche
 
