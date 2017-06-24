@@ -64,6 +64,8 @@
   * **Memories** Memories
   * **Video** VlcMediaPlayer
   * **Robot** Robot
+  * **Sound** Espeak
+  * **MemoriesAudio** MemoriesAudio
 
 # Name: Michoacan
 
