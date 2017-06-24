@@ -53,7 +53,6 @@
   - __Stream__ Chromecast
 - __Digital Media Player__: Triki
 
-
 # Name: Mazatlán
 
 - __Area__: The Beginning
@@ -63,7 +62,6 @@
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
 - __Digital Media Player__: Juum
-
 
 # Name: Puerto Vallarta
 
