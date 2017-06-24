@@ -26,8 +26,8 @@
 # Name: Acapulco
 
 - __Area__: The Beginning
-- __Group__: 
-- __Friendly Name__: 
+- __Group__: Stations
+- __Friendly Name__: Antes del inicio
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
@@ -36,8 +36,8 @@
 # Name: Cancún
 
 - __Area__: The Beginning
-- __Group__: 
-- __Friendly Name__: 
+- __Group__: Stations
+- __Friendly Name__: Intel
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
@@ -46,8 +46,8 @@
 # Name: Huatulco
 
 - __Area__: The Beginning
-- __Group__: 
-- __Friendly Name__: 
+- __Group__: Stations
+- __Friendly Name__: Intel GDC
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
@@ -57,8 +57,8 @@
 # Name: Mazatlán
 
 - __Area__: The Beginning
-- __Group__: 
-- __Friendly Name__: 
+- __Group__: Stations
+- __Friendly Name__: El microprocesador
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
@@ -68,19 +68,9 @@
 # Name: Puerto Vallarta
 
 - __Area__: The Beginning
-- __Group__: 
-- __Friendly Name__: 
+- __Group__: Stations
+- __Friendly Name__: Labs y Fabs
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
 - __Digital Media Player__: Juum
-
-# Name: Veracruz
-
-- __Area__: The Beginning
-- __Group__: 
-- __Friendly Name__: 
-- __Services__:
-  - __Automation HomeAssistant__:
-  - __Stream__ Chromecast
-- __Digital Media Player__: Triki
