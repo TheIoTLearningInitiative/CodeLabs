@@ -29,7 +29,9 @@ if [ $# -eq 3 ]
 then
     killall -9 $STREAM2CHROMECAST_BINARY
     $STREAM2CHROMECAST_BINARY -devicename $LOCAL_DEVICE -setvol $LOCAL_VOLUME
-    $STREAM2CHROMECAST_BINARY -devicename $LOCAL_DEVICE $STREAM2CHROMECAST_ARGUMENTS $STREAM2CHROMECAST_TRANSCODER $LOCAL_FILE
+    $STREAM2CHROMECAST_BINARY -devicename $LOCAL_DEVICE $STREAM2CHROMECAST_ARGUMENTS \
+                              -transcodeopts '-b:v 1000k -b:a 128k' \
+                              $STREAM2CHROMECAST_TRANSCODER $LOCAL_FILE
     $STREAM2CHROMECAST_BINARY -devicename $LOCAL_DEVICE -stop
 else
     echo "Invalid number of arguments, see Documentation"
