@@ -49,87 +49,73 @@
 * Janos
 * Marismas Nacionales
 
-# The Experience
+# Name: Montes Azules
 
-## Name: Montes Azules
+- __Area__: The Experience
+- __Group__: Stations
+- __Friendly Name__: Bienvenida Experiencia Intel
+- __Services__:
+  - __Automation HomeAssistant__:
+  - __Stream__: Chromecast
+- __Digital Media Player__: Eek'
 
-* **Alias**: Bienvenida Experiencia Intel
-* **Station**: 
-* **Hochob Media**:
-  * Area NorthernMayaLowlands
-* **Services**:
-  * **Automation HomeAssistant**:
-  * **Stream** Chromecast
-* **Digital Media Player**: Eek'
+# Name: Ojo de Liebre
 
-## Name: Ojo de Liebre
+- __Area__: The Experience
+- __Group__: Stations
+- __Friendly Name__: Juego Binario
+- __Services__:
+  - __Automation HomeAssistant__:
+  - __Stream__: Chromecast
+- __Digital Media Player__: Eek'
 
-* **Alias**: Juego Binario
-* **Station**: 
-* **Hochob Media**:
-  * Area NorthernMayaLowlands
-* **Services**:
-  * **Automation HomeAssistant**:
-  * **Stream** Chromecast
-* **Digital Media Player**: Eek'
+# Name: La Michilía
 
-## Name: La Michilía
-
-* **Alias**: Intel en el Espacio
-* **Station**: 
-* **Hochob Media**:
-  * Area NorthernMayaLowlands
-* **Services**:
-  * **Automation HomeAssistant**:
-  * **Stream** Chromecast
-* **Digital Media Player**: Eek'
-
-## Name: El Cielo
-
-* **Alias**: Los Muones
-* **Station**: 
-* **Hochob Media**:
-  * Area NorthernMayaLowlands
-* **Services**:
-  * **Automation HomeAssistant**:
-  * **Stream** Chromecast
-* **Digital Media Player**: Eek'
-
-## Name: Mapimi
-
-* **Alias**: Hasta Pronto
-* **Station**: 
-* **Hochob Media**:
-  * Area NorthernMayaLowlands
-* **Services**:
-  * **Automation HomeAssistant**:
-  * **Stream** Chromecast
-* **Digital Media Player**: Eek'
-
-# Fun
-
-## Name: Sian Ka'an
-
-* **Alias**: Robot Dance
-* **Station**: 
-* **Hochob Media**:
-  * Area NorthernMayaLowlands
-* **Services**:
-  * **Automation HomeAssistant**:
-  * **Stream** Chromecast
-* **Digital Media Player**: Eek'
+- __Area__: The Experience
+- __Group__: Stations
+- __Friendly Name__: Intel en el espacio
+- __Services__:
+  - __Automation HomeAssistant__:
+  - __Stream__: Chromecast
+- __Digital Media Player__: Eek'
 
 
-# Topics
+# Name: El Cielo
 
-## Name: Calakmul
+- __Area__: The Experience
+- __Group__: Stations
+- __Friendly Name__: Los muones
+- __Services__:
+  - __Automation HomeAssistant__:
+  - __Stream__: Chromecast
+- __Digital Media Player__: Eek'
 
-* **Alias**: 
-* **Station**: 
-* **Hochob Media**:
-  * Area NorthernMayaLowlands
-* **Services**:
-  * **Automation HomeAssistant**:
-  * **Stream** Chromecast
-* **Digital Media Player**: Eek'
+# Name: Mapimi
 
+- __Area__: The Experience
+- __Group__: Stations
+- __Friendly Name__: Hasta pronto
+- __Services__:
+  - __Automation HomeAssistant__:
+  - __Stream__: Chromecast
+- __Digital Media Player__: Eek'
+
+# Name: Sian Ka'an
+
+- __Area__: The Experience
+- __Group__: Fun
+- __Friendly Name__: Robot Dance
+- __Services__:
+  - __Automation HomeAssistant__:
+  - __Stream__: Chromecast
+- __Digital Media Player__: Eek'
+
+# Name: Calakmul
+
+- __Area__: The Experience
+- __Group__: Topics
+- __Friendly Name__: 
+- __Services__:
+- __Automation HomeAssistant__:
+- __Stream__: Chromecast
+- __Digital Media Player__: Eek'
