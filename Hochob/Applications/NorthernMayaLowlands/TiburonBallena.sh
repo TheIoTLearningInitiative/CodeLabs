@@ -32,6 +32,7 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
 else
     Northern.sh spanish robot "Hola Lupe, muy buenos dias"
     Northern.sh spanish tt "Hola Lupe, muy buenos dias"
+    Stream.sh "Eek'" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/TiburonBallena/LiftoffSpaceXFalcon9CRS10Mission.mp4"
 fi
 
 # End of File
