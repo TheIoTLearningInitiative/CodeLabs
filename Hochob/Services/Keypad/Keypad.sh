@@ -8,9 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export LANGUAGE_PID=$$
+export KEYPAD_PID=$$
 
-LOCAL_COMMAND="$1"
+LOCAL_IDENTIFICATION="$1"
+LOCAL_BUTTON="$2"
 
 # =============================================================================
 # Functions
@@ -22,13 +23,12 @@ LOCAL_COMMAND="$1"
 # Main
 # =============================================================================
 
-if [ -z "$1" ]
+if [ -z "$2" ]
 then
-    cat $HOCHOB_SERVER_CONFIGURATION_LANGUAGE
+    
 else
-
-    test -d $HOCHOB_SERVER_MEDIA_SOURCE || mkdir $HOCHOB_SERVER_MEDIA_SOURCE
-    echo $LOCAL_COMMAND > $HOCHOB_SERVER_CONFIGURATION_LANGUAGE
+    echo "Invalid number of arguments, see Documentation"
+    exit 1
 fi
 
 # End of File
