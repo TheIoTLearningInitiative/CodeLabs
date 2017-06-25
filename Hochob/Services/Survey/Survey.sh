@@ -15,11 +15,33 @@ LOCAL_LANGUAGE="$2"
 LOCAL_CHARACTER="$3"
 LOCAL_CORRECT="$4"
 
+LOCAL_CORRECT_ANSWER[0]="Zara"
+LOCAL_CORRECT_ANSWER[1]="Qadir"
+LOCAL_CORRECT_ANSWER[2]="Mahnaz"
+LOCAL_CORRECT_ANSWER[3]="Ayan"
+LOCAL_CORRECT_ANSWER[4]="Daisy"
+
+LOCAL_WRONG_ANSWER[0]="Zara"
+LOCAL_WRONG_ANSWER[1]="Qadir"
+LOCAL_WRONG_ANSWER[2]="Mahnaz"
+LOCAL_WRONG_ANSWER[3]="Ayan"
+LOCAL_WRONG_ANSWER[4]="Daisy"
+
 # =============================================================================
 # Functions
 # =============================================================================
 
-# None
+chooseAnswerCorrect()
+{
+    rand=$[ $RANDOM % 5 ]
+    echo ${LOCAL_CORRECT_ANSWER[$rand]}
+}
+
+chooseWrongCorrect()
+{
+    rand=$[ $RANDOM % 5 ]
+    echo ${LOCAL_WRONG_ANSWER[$rand]}
+}
 
 # =============================================================================
 # Main
