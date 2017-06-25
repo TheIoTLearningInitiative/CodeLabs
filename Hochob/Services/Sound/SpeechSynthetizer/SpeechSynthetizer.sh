@@ -34,7 +34,7 @@ if [ $# -eq 4 ]; then
     fi
 
     if [ "$LOCAL_PLAY" = "on" ]; then
-        mpg123 $VOICERSS_SPEECH
+        mpg123 $SPEECH_MP3
     fi
 
 else
