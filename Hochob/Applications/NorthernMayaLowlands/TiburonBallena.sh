@@ -27,8 +27,16 @@ LOCAL_DEVICE="Eek'"
 LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
-StreamAudio.sh $LOCAL_DEVICE spanish robot "Hola"
-Survey.sh $LOCAL_DEVICE spanish robot 1
+# StreamAudio.sh $LOCAL_DEVICE spanish robot "Hola"
+# Survey.sh $LOCAL_DEVICE spanish robot 1
+
+StreamAudio.sh $LOCAL_DEVICE english robot \
+               "Which spacecraft took the first photos of Mars?"
+               "One, Curiosity"
+               "Two, Spirit"
+               "Three, Sojourner"
+               "Four, Mariner 4"
+Survey.sh $LOCAL_DEVICE english robot 4
 
 exit 0
 
