@@ -28,7 +28,6 @@ LOCAL_OPTION=`KeypadOption.sh`
 
 if [ "$LOCAL_OPTION" = "$LOCAL_CORRECT" ]; then
 
-    Northern.sh $LOCAL_LANGUAGE $LOCAL_CHARACTER "Excelente"
     if [ "$LOCAL_LANGUAGE" = "english" ]; then
         Northern.sh $LOCAL_LANGUAGE $LOCAL_CHARACTER "Awesome"
     else
