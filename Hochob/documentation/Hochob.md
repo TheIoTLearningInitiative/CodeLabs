@@ -10,7 +10,8 @@
 - Mobile Device
 - Robot
 - Server
-- Remote Controls
+- Stations
+- Keypads
 
 # Accounts
 
@@ -27,16 +28,12 @@
 
 # Digital Media Players
 
-- __Codename__: Eek', Estrella
-  - Chromecast
-- __Codename__: Juum, Sonido
-- __Codename__: Triki, Alma Gemela
-  - Chromecast Audio
-
-# Server
-
-- __Codename__: Hochob
-  - NUC 5i5MYHE Linux Lubuntu Based
+- Chromecast Audio
+  - __Codename__: Juum, Sonido
+  - __Codename__: Triki, Alma
+- Chromecast
+  - __Codename__: Eek', Estrella
+  - __Codename__: Tran', Gemela
 
 # Mobile Device
 
@@ -47,6 +44,11 @@
 
 - __Codename__: Amikoo
   - Lego Robot
+
+# Server
+
+- __Codename__: Hochob
+  - NUC 5i5MYHE Linux Lubuntu Based
 
 # Stations
 
