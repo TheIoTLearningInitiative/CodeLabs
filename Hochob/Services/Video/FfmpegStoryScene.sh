@@ -10,10 +10,12 @@ set -x
 
 export FFMPEG_PID=$$
 export FFMPEG_BINARY=ffmpeg
-export FFMPEG_ARGUMENTS="-y -s 4096x2304 -framerate 10 -vf fps=10 -pix_fmt yuv420p -acodec copy"
+#export FFMPEG_ARGUMENTS="-y -s 4096x2304 -framerate 10 -vf fps=10 -pix_fmt yuv420p -acodec copy"
+export FFMPEG_ARGUMENTS="-c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest"
 
-LOCAL_AUDIO=$1
-LOCAL_DIRECTORY="$2"
+LOCAL_IMAGE=$1
+LOCAL_AUDIO=$2
+LOCAL_VIDEO=$3
 
 # =============================================================================
 # Functions
@@ -27,7 +29,7 @@ LOCAL_DIRECTORY="$2"
 
 if [ $# -eq 2 ]
 then
-    $FFMPEG_BINARY -i "$LOCAL_DIRECTORY/"%04d.jpg -i $LOCAL_AUDIO $FFMPEG_ARGUMENTS $FFMPEG_VIDEO_AUDIO
+    $FFMPEG_BINARY -loop 1 -i $LOCAL_IMAGE -i $LOCAL_AUDIO $FFMPEG_ARGUMENTS $LOCAL_VIDEO
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
