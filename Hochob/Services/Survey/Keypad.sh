@@ -11,7 +11,6 @@ set -x
 export KEYPAD_PID=$$
 
 LOCAL_IDENTIFICATION="$1"
-LOCAL_BUTTON="$2"
 
 # =============================================================================
 # Functions
@@ -23,9 +22,9 @@ LOCAL_BUTTON="$2"
 # Main
 # =============================================================================
 
-if [ $# -eq 2 ]
+if [ $# -eq 1 ]
 then
-    Mosquitto.sh hochob/keypad/$LOCAL_IDENTIFICATION $LOCAL_BUTTON
+    echo "Tbd"
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
