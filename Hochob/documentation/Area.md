@@ -1,4 +1,4 @@
-# Area
+# Areas
 
 - Southern Maya Highlands: Home
 - Central Maya Lowlands: Beginning

@@ -105,9 +105,10 @@
   * [Google Cloud Vision API](EkBalam/documentation/GoogleCloudVisionApi.md)
   * [Google Cloud Speech](EkBalam/documentation/GoogleCloudSpeech.md)
 * [Hochob](Hochob/documentation/Hochob.md)
-  * [Naming Conventions](Hochob/documentation/ServerArchitectureNamingConventions.md)
+  * Introduction
+    * [Naming Conventions](Hochob/documentation/ServerArchitectureNamingConventions.md)
   * [Accounts](Hochob/documentation/Accounts.md)
-  * [Area](Hochob/documentation/Area.md)
+  * [Areas](Hochob/documentation/Area.md)
   * [Digital Media Players](Hochob/documentation/DigitalMediaPlayers.md)
     * [Chromecast](Hochob/documentation/Chromecast.md)
   * [Mobile Device](Hochob/documentation/MobileDevice.md)
