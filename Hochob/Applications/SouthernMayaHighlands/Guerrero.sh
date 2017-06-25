@@ -25,6 +25,6 @@ export GUERRERO_DIRECTORY=$(dirname "$GUERRERO_PATH")
 
 LogPid.sh $GUERRERO_PID $GUERRERO_NAME
 
-Vlc.sh "on" "$CORPORATE_VIDEO/"
+VlcVideo.sh "on" "$CORPORATE_VIDEO/"
 
 # End of File
