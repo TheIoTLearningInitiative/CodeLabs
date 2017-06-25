@@ -13,13 +13,14 @@ export MEMORIES_PID=$$
 LOCAL_NUMBER="$1"
 LOCAL_VIDEO="$2"
 LOCAL_IDENTIFICATION="$(echo "${3}" | tr -d '[:space:]')"
-echo $LOCAL_IDENTIFICATION
-exit 0
 
 LOCAL_INSTITUTION_NAME=`Name.sh`
 LOCAL_INSTITUTION_NAME="$(echo "${LOCAL_INSTITUTION_NAME}" | tr -d '[:space:]')"
 
 LOCAL_VISITORS_INSTITUTION_NAME=$VISITORS_SOURCE/$LOCAL_INSTITUTION_NAME/$LOCAL_IDENTIFICATION
+
+echo $LOCAL_VISITORS_INSTITUTION_NAME
+exit 0
 
 # =============================================================================
 # Functions
