@@ -19,9 +19,6 @@ LOCAL_INSTITUTION_NAME="$(echo "${LOCAL_INSTITUTION_NAME}" | tr -d '[:space:]')"
 
 LOCAL_VISITORS_INSTITUTION_NAME=$VISITORS_SOURCE/$LOCAL_INSTITUTION_NAME/$LOCAL_IDENTIFICATION
 
-echo $LOCAL_VISITORS_INSTITUTION_NAME
-exit 0
-
 # =============================================================================
 # Functions
 # =============================================================================
@@ -38,11 +35,17 @@ if [ $# -eq 3 ]
 then
     rm -f $FSWEBCAM_ALLFILES
     Fswebcam.sh $LOCAL_NUMBER
-    cp -r $FSWEBCAM_ALLFILES $LOCAL_VISITORS_INSTITUTION_NAME
+    cp -r $FSWEBCAM_DIRECTORY $LOCAL_VISITORS_INSTITUTION_NAME
 
     LOCAL_SELECTED_FILE=`find $FSWEBCAM_DIRECTORY -type f | shuf -n 1`
     cp $LOCAL_SELECTED_FILE $MEMORIES_CAMERA/$LOCAL_INSTITUTION_NAME$LOCAL_IDENTIFICATION.jpg
     cp $LOCAL_SELECTED_FILE $FSWEBCAM_IMAGE
+    
+    echo $LOCAL_SELECTED_FILE
+    echo $MEMORIES_CAMERA/$LOCAL_INSTITUTION_NAME$LOCAL_IDENTIFICATION.jpg
+    echo $FSWEBCAM_IMAGE
+    
+    exit 0
 
     if [ "$LOCAL_VIDEO" = "on" ]; then
         FfmpegImage.sh $FSWEBCAM_DIRECTORY
