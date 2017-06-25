@@ -8,7 +8,7 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export NORTHERN_PID=$$
+export EEK_PID=$$
 
 LOCAL_LANGUAGE="$1"
 LOCAL_CHARACTER="$2"
@@ -35,15 +35,5 @@ elif [ "$LOCAL_LANGUAGE" = "spanish" ] && [ "$LOCAL_CHARACTER" = "tt" ]; then
 fi
 
 Stream.sh "Eek'" "1.0" "$SPEECH_MP3"
-
-exit 0
-
-if [ $# -eq 1 ]
-then
-    echo "Tbd"
-else
-    echo "Invalid number of arguments, see Documentation"
-    exit 1
-fi
 
 # End of File
