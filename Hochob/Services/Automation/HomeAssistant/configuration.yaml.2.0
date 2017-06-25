@@ -459,6 +459,12 @@ group:
     name: The Experience
     entities:
       - group.northernmayalowlandsstations
+      
+  techiemayalands:
+    view: yes
+    name: The Techie
+    entities:
+      - group.techiemayalandskeypad
 
   language:
     name: Idioma
