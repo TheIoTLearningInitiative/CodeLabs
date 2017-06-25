@@ -10,11 +10,16 @@
 - Mobile Device
 - Robot
 - Server
+- Remote Controls
 
 # Accounts
 
 - Gmail
 - Plex
+
+# Areas
+
+- 
 
 # Digital Media Players
 
