@@ -160,6 +160,24 @@ homeassistant:
     script.movestop:
       friendly_name: Move Stop
       icon: mdi:stop
+      
+    # Techie Maya Lands
+    
+    script.keypadone:
+      friendly_name: 1
+      icon: mdi:numeric-1-box
+
+    script.keypadtwo:
+      friendly_name: 2
+      icon: mdi:numeric-2-box
+
+    script.keypadthree:
+      friendly_name: 3
+      icon: mdi:numeric-3-box
+
+    script.keypadfour:
+      friendly_name: 4
+      icon: mdi:numeric-4-box
 
 # Enables the frontend
 frontend:
@@ -321,18 +339,18 @@ script:
   
   # Techie Maya Lands
   
-  keypada:
+  keypadone:
     sequence:
-      - service: shell_command.keypada
-  keypadb:
+      - service: shell_command.keypadone
+  keypadtwo:
     sequence:
-      - service: shell_command.keypadb
-  keypadc:
+      - service: shell_command.keypadtwo
+  keypadthree:
     sequence:
-      - service: shell_command.keypadc
-  keypadd:
+      - service: shell_command.keypadthree
+  keypadfour:
     sequence:
-      - service: shell_command.keypadd
+      - service: shell_command.keypadfour
 
 shell_command:
 
@@ -385,10 +403,10 @@ shell_command:
   
   # Techie Maya Lands
   
-  keypada: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual a
-  keypadb: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual b
-  keypadc: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual c
-  keypadd: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual d
+  keypadone: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 1
+  keypadtwo: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 2
+  keypadthree: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 3
+  keypadfour: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 4
  
 switch:
   - platform: command_line
@@ -563,8 +581,8 @@ group:
   techiemayalandskeypad:
     name: Keypad
     entities:
-      - script.keypada
-      - script.keypadb
-      - script.keypadc
-      - script.keypadd
+      - script.keypadone
+      - script.keypadtwo
+      - script.keypadthree
+      - script.keypadfour
  
