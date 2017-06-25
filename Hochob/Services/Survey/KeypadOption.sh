@@ -22,9 +22,9 @@ LOCAL_IDENTIFICATION="$1"
 # Main
 # =============================================================================
 
-if [ $# -eq 1 ]
+if [ $# -eq 0 ]
 then
-    echo "Tbd"
+    answer=`$HOCHOB_SERVER_SERVICES_SURVEY/Keypad.py`
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
