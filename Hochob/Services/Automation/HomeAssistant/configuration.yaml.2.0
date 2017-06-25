@@ -403,10 +403,10 @@ shell_command:
   
   # Techie Maya Lands
   
-  keypadone: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 1
-  keypadtwo: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 2
-  keypadthree: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 3
-  keypadfour: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 4
+  keypadone: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 1 &
+  keypadtwo: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 2 &
+  keypadthree: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 3 &
+  keypadfour: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 4 &
  
 switch:
   - platform: command_line
