@@ -31,7 +31,7 @@ mkdir -p $LOCAL_VISITORS_INSTITUTION_NAME
 
 if [ $# -eq 1 ]
 then
-
+    # Substitute with FfmpegAudio.sh?
     ffmpeg -y -i $FFMPEG_VIDEO -i $ESPEAK_SPEECH_MP3 -codec copy -shortest $FFMPEG_VIDEO_AUDIO
     cp -r $FFMPEG_ALLFILES $LOCAL_VISITORS_INSTITUTION_NAME
 
