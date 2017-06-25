@@ -25,13 +25,13 @@ LOCAL_TEXT="$3"
 # =============================================================================
 
 if [ "$LOCAL_LANGUAGE" = "english" ] && [ "$LOCAL_CHARACTER" = "robot" ]; then
-    Espeak.sh off english "${LOCAL_TEXT}"
+    SpeechSynthetizer.sh off espeak english "${LOCAL_TEXT}"
 elif [ "$LOCAL_LANGUAGE" = "english" ] && [ "$LOCAL_CHARACTER" = "tt" ]; then
-    VoiceRss.sh off english "${LOCAL_TEXT}"
+    SpeechSynthetizer.sh off voicerss english "${LOCAL_TEXT}"
 elif [ "$LOCAL_LANGUAGE" = "spanish" ] && [ "$LOCAL_CHARACTER" = "robot" ]; then
-    Espeak.sh off spanish "${LOCAL_TEXT}"
+    SpeechSynthetizer.sh off espeak spanish "${LOCAL_TEXT}"
 elif [ "$LOCAL_LANGUAGE" = "spanish" ] && [ "$LOCAL_CHARACTER" = "tt" ]; then
-    VoiceRss.sh off spanish "${LOCAL_TEXT}"
+    SpeechSynthetizer.sh off voicerss spanish "${LOCAL_TEXT}"
 fi
 
 Stream.sh "Triki" "1.0" "$SPEECH_MP3"
