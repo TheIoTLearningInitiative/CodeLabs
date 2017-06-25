@@ -24,7 +24,7 @@ LOCAL_FILE="$2"
 # Main
 # =============================================================================
 
-if [ $# -eq 1 ]
+if [ $# -eq 2 ]
 then
     if [ "$LOCAL_LOOP" = "on" ]; then
         $VLC_BINARY $VLC_ARGUMENTS $VLC_LOOP $LOCAL_FILE &
