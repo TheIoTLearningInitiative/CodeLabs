@@ -23,7 +23,7 @@ LOCAL_BUTTON="$2"
 # Main
 # =============================================================================
 
-if [ -z 2 ]
+if [ $# -eq 2 ]
 then
     Mosquitto.sh hochob/keypad/$LOCAL_IDENTIFICATION $LOCAL_BUTTON
 else
