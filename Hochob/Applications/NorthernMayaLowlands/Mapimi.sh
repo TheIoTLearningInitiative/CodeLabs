@@ -27,7 +27,7 @@ export MAPIMI_DIRECTORY=$(dirname "$MAPIMI_PATH")
 #Espeak.sh off spanish "Nel Pastel Simona La Mona"
 #MemoriesAudio.sh "${MAPIMI_NAME}"
 
-#Stream.sh "Eek'" "1.0" "$FFMPEG_VIDEO_AUDIO"
+#Stream.sh "Eek'" "1.0" "$FFMPEG_IMAGE_AUDIO"
 
 Eog.sh $HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM &
 
