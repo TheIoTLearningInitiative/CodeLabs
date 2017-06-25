@@ -29,7 +29,7 @@ if [ $# -eq 4 ]; then
 
     if [ "$LOCAL_ENGINE" = "espeak" ]; then
         Espeak.sh $LOCAL_LANGUAGE $LOCAL_TEXT
-    elif [ "$LOCAL_LANGUAGE" = "voicerss" ]; then
+    elif [ "$LOCAL_ENGINE" = "voicerss" ]; then
         VoiceRss.sh $LOCAL_LANGUAGE $LOCAL_TEXT
     fi
 
