@@ -23,9 +23,9 @@ LOCAL_BUTTON="$2"
 # Main
 # =============================================================================
 
-if [ -z "$2" ]
+if [ -z 2 ]
 then
-    Mosquitto.sh Hochob/Keypad/$LOCAL_IDENTIFICATION $LOCAL_BUTTON
+    Mosquitto.sh hochob/keypad/$LOCAL_IDENTIFICATION $LOCAL_BUTTON
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
