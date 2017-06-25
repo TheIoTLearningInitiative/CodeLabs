@@ -27,15 +27,7 @@ LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
 Northern.sh spanish robot "Que numero es el segundo de la lista?"
-LOCAL_OPTION=`KeypadOption.sh`
-echo $LOCAL_OPTION
-if [ "$LOCAL_OPTION" = "1" ]; then
-    Northern.sh spanish robot "Excelente"
-else
-    Northern.sh spanish robot "Suerte para la proxima"
-fi
-
-
+Survey.sh spanish robot 1
 
 exit 0
 
