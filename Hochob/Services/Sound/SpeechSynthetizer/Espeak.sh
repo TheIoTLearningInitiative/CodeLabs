@@ -30,7 +30,7 @@ LOCAL_TEXT="$2"
 # Main
 # =============================================================================
 
-if [ $# -eq 3 ]
+if [ $# -eq 2 ]
 then
     if [ "$LOCAL_LANGUAGE" = "english" ]; then
         export ESPEAK_LANGUAGE="-v en-us -a 200"
