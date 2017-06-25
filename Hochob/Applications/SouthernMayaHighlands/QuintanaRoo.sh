@@ -25,6 +25,6 @@ export QUINTANAROO_DIRECTORY=$(dirname "$QUINTANAROO_PATH")
 
 LogPid.sh $QUINTANAROO_PID $QUINTANAROO_NAME
 
-Vlc.sh "on" "$MEMORIES_VIDEO/*"
+VlcVideo.sh "on" "$MEMORIES_VIDEO/*"
 
 # End of File
