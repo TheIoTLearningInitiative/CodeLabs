@@ -26,8 +26,8 @@ export TIBURONBALLENA_DIRECTORY=$(dirname "$TIBURONBALLENA_PATH")
 LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
-Eek.sh spanish robot "Hola"
-Survey.sh spanish robot 1
+StreamAudio.sh "Eek'" spanish robot "Hola"
+Survey.sh "Eek'" spanish robot 1
 
 exit 0
 
