@@ -59,9 +59,9 @@ chooseWrongCorrect()
     LANGUAGE=$1
     rand=$[ $RANDOM % 5 ]
     if [ "$LANGUAGE" = "english" ]; then
-        LOCAL_CORRECT_ANSWER=${LOCAL_WRONG_ANSWER_ENGLISH[$rand]}
+        LOCAL_WRONG_ANSWER=${LOCAL_WRONG_ANSWER_ENGLISH[$rand]}
     else
-        LOCAL_CORRECT_ANSWER=${LOCAL_WRONG_ANSWER_SPANISH[$rand]}
+        LOCAL_WRONG_ANSWER=${LOCAL_WRONG_ANSWER_SPANISH[$rand]}
     fi
 }
 
@@ -77,10 +77,10 @@ if [ "$LOCAL_OPTION" = "$LOCAL_CORRECT" ]; then
     chooseAnswerCorrect "english"
     if [ "$LOCAL_LANGUAGE" = "english" ]; then
         StreamAudio.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_CHARACTER \
-                    "Awesome"
+                    "${LOCAL_CORRECT_ANSWER}"
     else
         StreamAudio.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_CHARACTER \
-                    "Super"
+                    "${LOCAL_CORRECT_ANSWER}"
     fi
 
 else
@@ -88,10 +88,10 @@ else
     chooseAnswerCorrect "english"
     if [ "$LOCAL_LANGUAGE" = "english" ]; then
         StreamAudio.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_CHARACTER \
-                    "Keep up the great work, the correct answer is ${LOCAL_CORRECT}"
+                    "${LOCAL_WRONG_ANSWER}. the correct answer is ${LOCAL_CORRECT}"
     else
         StreamAudio.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_CHARACTER \
-                    "Sigue participando, la respuesta correcta es ${LOCAL_CORRECT}"
+                    "${LOCAL_WRONG_ANSWER}. La respuesta correcta es ${LOCAL_CORRECT}"
     fi
 
 fi
