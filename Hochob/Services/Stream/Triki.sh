@@ -8,7 +8,7 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export NORTHERN_PID=$$
+export TRIKI_PID=$$
 
 LOCAL_LANGUAGE="$1"
 LOCAL_CHARACTER="$2"
@@ -34,16 +34,6 @@ elif [ "$LOCAL_LANGUAGE" = "spanish" ] && [ "$LOCAL_CHARACTER" = "tt" ]; then
     VoiceRss.sh off spanish "${LOCAL_TEXT}"
 fi
 
-Stream.sh "Eek'" "1.0" "$SPEECH_MP3"
-
-exit 0
-
-if [ $# -eq 1 ]
-then
-    echo "Tbd"
-else
-    echo "Invalid number of arguments, see Documentation"
-    exit 1
-fi
+Stream.sh "Triki" "1.0" "$SPEECH_MP3"
 
 # End of File
