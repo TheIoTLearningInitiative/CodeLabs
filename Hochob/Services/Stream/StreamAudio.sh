@@ -8,11 +8,12 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export EEK_PID=$$
+export STREAMAUDIO_PID=$$
 
-LOCAL_LANGUAGE="$1"
-LOCAL_CHARACTER="$2"
-LOCAL_TEXT="$3"
+LOCAL_DEVICE="$2"
+LOCAL_LANGUAGE="$2"
+LOCAL_CHARACTER="$3"
+LOCAL_TEXT="$4"
 
 # =============================================================================
 # Functions
@@ -34,6 +35,6 @@ elif [ "$LOCAL_LANGUAGE" = "spanish" ] && [ "$LOCAL_CHARACTER" = "tt" ]; then
     VoiceRss.sh off spanish "${LOCAL_TEXT}"
 fi
 
-Stream.sh "Eek'" "1.0" "$SPEECH_MP3"
+Stream.sh $LOCAL_DEVICE 1.0 $SPEECH_MP3
 
 # End of File
