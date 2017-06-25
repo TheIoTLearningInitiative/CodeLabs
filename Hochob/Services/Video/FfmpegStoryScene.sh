@@ -27,7 +27,7 @@ LOCAL_VIDEO=$3
 # Main
 # =============================================================================
 
-if [ $# -eq 2 ]
+if [ $# -eq 3 ]
 then
     $FFMPEG_BINARY -loop 1 -y -i $LOCAL_IMAGE -i $LOCAL_AUDIO $FFMPEG_ARGUMENTS $LOCAL_VIDEO
 else
