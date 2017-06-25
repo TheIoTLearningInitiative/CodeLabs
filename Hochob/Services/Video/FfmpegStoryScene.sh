@@ -29,7 +29,7 @@ LOCAL_VIDEO=$3
 
 if [ $# -eq 2 ]
 then
-    $FFMPEG_BINARY -loop 1 -i $LOCAL_IMAGE -i $LOCAL_AUDIO $FFMPEG_ARGUMENTS $LOCAL_VIDEO
+    $FFMPEG_BINARY -loop 1 -y -i $LOCAL_IMAGE -i $LOCAL_AUDIO $FFMPEG_ARGUMENTS $LOCAL_VIDEO
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
