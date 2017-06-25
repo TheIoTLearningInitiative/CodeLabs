@@ -8,7 +8,7 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export KEYPAD_PID=$$
+export KEYPADOPTION_PID=$$
 
 LOCAL_IDENTIFICATION="$1"
 
