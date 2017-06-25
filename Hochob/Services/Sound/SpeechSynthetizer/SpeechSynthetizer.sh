@@ -28,9 +28,9 @@ LOCAL_TEXT="$4"
 if [ $# -eq 4 ]; then
 
     if [ "$LOCAL_ENGINE" = "espeak" ]; then
-        Espeak.sh $LOCAL_LANGUAGE $LOCAL_TEXT
+        Espeak.sh $LOCAL_LANGUAGE "${LOCAL_TEXT}"
     elif [ "$LOCAL_ENGINE" = "voicerss" ]; then
-        VoiceRss.sh $LOCAL_LANGUAGE $LOCAL_TEXT
+        VoiceRss.sh $LOCAL_LANGUAGE "${LOCAL_TEXT}"
     fi
 
     if [ "$LOCAL_PLAY" = "on" ]; then
