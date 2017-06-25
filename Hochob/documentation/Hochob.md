@@ -19,7 +19,11 @@
 
 # Areas
 
-- 
+- Southern Maya Highlands
+- Central Maya Lowlands
+- Northern Maya Lowlands
+- Robot Maya Techlands
+- Techie Maya Lands
 
 # Digital Media Players
 
