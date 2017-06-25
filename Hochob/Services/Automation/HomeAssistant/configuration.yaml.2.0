@@ -560,11 +560,11 @@ group:
       - script.movebackward
       - script.movestop
    
-   techiemayalandskeypad:
-     name: Keypad
-     entities:
-       - script.keypada
-       - script.keypadb
-       - script.keypadc
-       - script.keypadd
+  techiemayalandskeypad:
+    name: Keypad
+    entities:
+      - script.keypada
+      - script.keypadb
+      - script.keypadc
+      - script.keypadd
  
