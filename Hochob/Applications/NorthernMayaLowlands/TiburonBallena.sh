@@ -30,7 +30,7 @@ LOCAL_LANGUAGE=`Language.sh`
 # StreamAudio.sh $LOCAL_DEVICE spanish robot "Hola"
 # Survey.sh $LOCAL_DEVICE spanish robot 1
 
-StreamAudio.sh $LOCAL_DEVICE english tt \
+StreamAudio.sh $LOCAL_DEVICE spanish tt \
       "
       Imagina esto, cielo rosa, atardeceres naranjas, mucho desierto y acantilados. \
       Pero donde puedes ver esto y mas? En marte!
