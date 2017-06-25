@@ -11,7 +11,7 @@ def KeypadOptionMessage(mosq, obj, msg):
 def KeypadOption():
     mqttclient = paho.Client()
     mqttclient.connect("iot.eclipse.org", 1883, 60)
-    mqttclient.subscribe("hochob/keypad", 0)
+    mqttclient.subscribe("hochob/keypad/virtual", 0)
     mqttclient.on_message = KeypadOptionMessage
     while mqttclient.loop() == 0:
         pass
@@ -21,7 +21,7 @@ if __name__ == '__main__':
     threadmqttsubscribe = Thread(target=KeypadOption)
     threadmqttsubscribe.start()
 
-    print "Hello Edzna @ Light"
+    print "Hochob Keypad"
 
     while True:
         time.sleep(5)
