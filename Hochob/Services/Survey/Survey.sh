@@ -23,8 +23,8 @@ LOCAL_CORRECT_ANSWER_ENGLISH[4]="You are correct."
 
 LOCAL_WRONG_ANSWER_ENGLISH[0]="I’m afraid that’s not quite right."
 LOCAL_WRONG_ANSWER_ENGLISH[1]="I’m afraid you’re mistaken."
-LOCAL_WRONG_ANSWER_ENGLISH[2]="In my humble opinion, there is another answer"
-LOCAL_WRONG_ANSWER_ENGLISH[3]="Not this time."
+LOCAL_WRONG_ANSWER_ENGLISH[2]="In my humble opinion, there is something bad."
+LOCAL_WRONG_ANSWER_ENGLISH[3]="Oh oh, not this time."
 LOCAL_WRONG_ANSWER_ENGLISH[4]="No, no, no."
 
 LOCAL_CORRECT_ANSWER_SPANISH[0]="Zara"
