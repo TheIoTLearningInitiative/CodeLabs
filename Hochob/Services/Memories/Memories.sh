@@ -17,6 +17,8 @@ LOCAL_IDENTIFICATION="$(echo "${3}" | tr -d '[:space:]')"
 LOCAL_INSTITUTION_NAME=`Name.sh`
 LOCAL_INSTITUTION_NAME="$(echo "${LOCAL_INSTITUTION_NAME}" | tr -d '[:space:]')"
 
+exit 0
+
 LOCAL_VISITORS_INSTITUTION_NAME=$VISITORS_SOURCE/$LOCAL_INSTITUTION_NAME/$LOCAL_IDENTIFICATION
 
 # =============================================================================
