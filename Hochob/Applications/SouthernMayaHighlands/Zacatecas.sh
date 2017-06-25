@@ -25,6 +25,14 @@ export ZACATECAS_DIRECTORY=$(dirname "$ZACATECAS_PATH")
 
 LogPid.sh $ZACATECAS_PID $ZACATECAS_NAME
 
+Memories.sh "5" "on" "${ZACATECAS_NAME}" &
+sleep 2
+ConvertText.sh "$FSWEBCAM_IMAGE" "Bienvenidos"
+wait
+Eog.sh "$FSWEBCAM_IMAGE" &
+
+exit 0
+
 Memories.sh "20" "on" "${ZACATECAS_NAME}"
 SpeechSynthetizer.sh off espeak spanish \
     "Me da mucho gusto conocerlos y que hayan venido a Intel. \
