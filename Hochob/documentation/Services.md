@@ -26,6 +26,7 @@
   - Drawing
   - Scale
   - Name
+- Keypad
 - Language
   - Language.sh [language]
 - Memories
