@@ -43,9 +43,10 @@ then
     if [ "$LOCAL_VIDEO" = "on" ]; then
         FfmpegImage.sh $FSWEBCAM_DIRECTORY
         cp -r $FFMPEG_ALLFILES $LOCAL_VISITORS_INSTITUTION_NAME
-        cp $FFMPEG_VIDEO $MEMORIES_VIDEO/$LOCAL_INSTITUTION_NAME$LOCAL_IDENTIFICATION.mp4
+        cp $FFMPEG_IMAGE $LOCAL_VISITORS_INSTITUTION_NAME
+        cp $FFMPEG_IMAGE $MEMORIES_VIDEO/$LOCAL_INSTITUTION_NAME$LOCAL_IDENTIFICATION.mp4
     fi
-    
+
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1

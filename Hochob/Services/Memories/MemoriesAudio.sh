@@ -8,7 +8,7 @@ set -x
 
 #. ~/CodeLabs/Hochob/Main.sh
 
-export MEMORIES_PID=$$
+export MEMORIESAUDIO_PID=$$
 
 LOCAL_IDENTIFICATION="$(echo "${1}" | tr -d '[:space:]')"
 
@@ -31,11 +31,10 @@ mkdir -p $LOCAL_VISITORS_INSTITUTION_NAME
 
 if [ $# -eq 1 ]
 then
-    # Substitute with FfmpegAudio.sh?
-    ffmpeg -y -i $FFMPEG_VIDEO -i $ESPEAK_SPEECH_MP3 -codec copy -shortest $FFMPEG_VIDEO_AUDIO
-    cp $FFMPEG_VIDEO_AUDIO $FFMPEG_VIDEO
+    FfmpegVideoAudio.sh $SPEECH_MP3
     cp -r $FFMPEG_ALLFILES $LOCAL_VISITORS_INSTITUTION_NAME
-
+    cp $FFMPEG_VIDEO_AUDIO $LOCAL_VISITORS_INSTITUTION_NAME
+    cp $FFMPEG_VIDEO_AUDIO $MEMORIES_VIDEO/$LOCAL_INSTITUTION_NAME$LOCAL_IDENTIFICATION.mp4
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
