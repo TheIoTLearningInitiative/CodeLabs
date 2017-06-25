@@ -318,6 +318,21 @@ script:
   movestop:
     sequence:
       - service: shell_command.movestop
+  
+  # Techie Maya Lands
+  
+  keypada:
+    sequence:
+      - service: shell_command.keypada
+  keypadb:
+    sequence:
+      - service: shell_command.keypadb
+  keypadc:
+    sequence:
+      - service: shell_command.keypadc
+  keypadd:
+    sequence:
+      - service: shell_command.keypadd
 
 shell_command:
 
@@ -367,6 +382,13 @@ shell_command:
   moveforward: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/moveforward
   movebackward: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/movebackward
   movestop: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/movestop
+  
+  # Techie Maya Lands
+  
+  keypada: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual a
+  keypadb: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual b
+  keypadc: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual c
+  keypadd: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual d
  
 switch:
   - platform: command_line
@@ -531,4 +553,12 @@ group:
       - script.moveforward
       - script.movebackward
       - script.movestop
+   
+   techiemayalandskeypad:
+     name: Keypad
+     entities:
+       - script.keypada
+       - script.keypadb
+       - script.keypadc
+       - script.keypadd
  
