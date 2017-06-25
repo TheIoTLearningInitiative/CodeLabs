@@ -59,3 +59,5 @@ A set of devices:
   - without Touchscreen
 
 # Keypads
+
+- __Codename__: Láak’inah
