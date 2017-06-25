@@ -34,7 +34,7 @@ else
     Ahora entraremos a una sección que nos permite jugar y conocer de cerca la tecnología."
 fi
 
-Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
+Stream.sh "Eek'" "1.0" "$SPEECH_MP3"
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     echo "Tbd"

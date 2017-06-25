@@ -44,6 +44,6 @@ else
     Regresen pronto futuras y futuros ingenieros"
 fi
 
-Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
+Stream.sh "Eek'" "1.0" "$SPEECH_MP3"
 
 # End of File

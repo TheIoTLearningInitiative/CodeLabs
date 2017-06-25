@@ -43,6 +43,6 @@ fi
 
 #Los que aplican los descubrimientos de la ciencia para hacer cosas útiles se llaman Ingenieros.
 
-Stream.sh "Eek'" "1.0" "$ESPEAK_SPEECH_MP3"
+Stream.sh "Eek'" "1.0" "$SPEECH_MP3"
 
 # End of File
