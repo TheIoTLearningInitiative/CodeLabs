@@ -26,10 +26,10 @@ export LAMICHILIA_DIRECTORY=$(dirname "$LAMICHILIA_PATH")
 
 LOCAL_LANGUAGE=`Language.sh`
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Espeak.sh off english \
+    SpeechSynthetizer.sh off espeak english \
     "To be written"
 else
-    Espeak.sh off spanish \
+    SpeechSynthetizer.sh off espeak spanish \
     "Intel no solo se queda en la tierra, es tal el alcance del Microprocesador que puede \
      estar en el universo, por ejemplo, ha trabajado con la NASA para crear cohetes y vehiculos \
      no tripulados. Veamos el siguiente video."

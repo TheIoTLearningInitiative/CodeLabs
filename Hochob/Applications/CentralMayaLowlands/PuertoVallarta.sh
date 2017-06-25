@@ -31,10 +31,10 @@ else
 fi
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Espeak.sh off english \
+    SpeechSynthetizer.sh off espeak english \
     ""
 else
-    Espeak.sh off spanish \
+    SpeechSynthetizer.sh off espeak spanish \
     ""
 fi
 

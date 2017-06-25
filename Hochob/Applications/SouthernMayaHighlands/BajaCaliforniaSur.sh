@@ -65,7 +65,7 @@ sleep 75
 
 wait
 
-Espeak.sh off spanish \
+SpeechSynthetizer.sh off espeak spanish \
 "Muchas gracias futuras y futuros ingenieros!.
 A nombre del equipo de Intel, deseamos que hayan tenido una gran visita."
 

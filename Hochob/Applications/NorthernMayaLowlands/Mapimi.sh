@@ -24,7 +24,8 @@ export MAPIMI_DIRECTORY=$(dirname "$MAPIMI_PATH")
 # =============================================================================
 
 #Memories.sh "40" "on" "${MAPIMI_NAME}"
-#Espeak.sh off spanish "Nel Pastel Simona La Mona"
+#SpeechSynthetizer.sh on espeak english \
+#    "Nel Pastel Simona La Mona"
 #MemoriesAudio.sh "${MAPIMI_NAME}"
 
 #Stream.sh "Eek'" "1.0" "$FFMPEG_IMAGE_AUDIO"
@@ -35,10 +36,10 @@ LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Espeak.sh off english \
+    SpeechSynthetizer.sh off espeak english \
     "To be written"
 else
-    Espeak.sh off spanish \
+    SpeechSynthetizer.sh off espeak spanish \
     "Me da mucho gusto conocerlos y que hayan venido a Intel. \
     Regresen pronto futuras y futuros ingenieros"
 fi

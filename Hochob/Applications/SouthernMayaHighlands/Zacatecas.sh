@@ -26,7 +26,7 @@ export ZACATECAS_DIRECTORY=$(dirname "$ZACATECAS_PATH")
 LogPid.sh $ZACATECAS_PID $ZACATECAS_NAME
 
 Memories.sh "20" "on" "${ZACATECAS_NAME}"
-Espeak.sh off spanish \
+SpeechSynthetizer.sh off espeak spanish \
     "Me da mucho gusto conocerlos y que hayan venido a Intel. \
     Regresen pronto"
 MemoriesAudio.sh "${ZACATECAS_NAME}"

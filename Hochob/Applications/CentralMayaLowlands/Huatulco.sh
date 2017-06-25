@@ -31,12 +31,12 @@ else
 fi
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Espeak.sh off english \
+    SpeechSynthetizer.sh off espeak english \
     "${LOCAL_INSTITUTION}, you know more about the Mayans, Intel and Intel Guadalajara Design Center, \
     now let's get into the next hall where we will find information about our Microproccesors, \
     our Fabs and Laboratories. Let's go."
 else
-    Espeak.sh off spanish \
+    SpeechSynthetizer.sh off espeak spanish \
     "${LOCAL_INSTITUTION}, ahora que saben más acerca de los Mayas, \
     de Intel y del Centro de Diseño de Intel en Guadalajara, podemos pasar a la siguiente seccion \
     en la que encontraremos informacion acerca del Microprocesador, nuestras Fabricas \

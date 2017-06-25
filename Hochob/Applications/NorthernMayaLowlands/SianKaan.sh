@@ -27,10 +27,10 @@ LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Espeak.sh off english \
+    SpeechSynthetizer.sh off espeak english \
     "To be written"
 else
-    Espeak.sh off spanish \
+    SpeechSynthetizer.sh off espeak spanish \
     "Por escribirse, ${LOCAL_INSTITUTION}"
 fi
 

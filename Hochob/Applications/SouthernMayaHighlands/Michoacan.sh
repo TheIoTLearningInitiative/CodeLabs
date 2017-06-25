@@ -36,7 +36,7 @@ LOCAL_INSTITUTION=`Name.sh`
 #    las Ingenierías y las Matemáticas. A nombre de cada uno de los Ingenieros \
 #    que aquí trabajamos les deseamos la mejor de las experiencias. \
 #    Muchas gracias por haber venido."
-Espeak.sh on spanish \
+SpeechSynthetizer.sh on espeak spanish \
     "Bienvenidos ${LOCAL_INSTITUTION} a mi casa, su casa. \
     Es un gusto conocerlas y conocerlos. Ya saben mi nombre, soy Lupe, \
     tengo  2 años robot y estudio el primer año de primaria robot. \
@@ -55,7 +55,7 @@ sleep 1
 #Robot.sh lupe/message \
 #    "Ahora tomaremos una foto para el recuerdo. \
 #     Primero, me iré a mi lugar preferido, denme unos segundos."
-Espeak.sh on spanish \
+SpeechSynthetizer.sh on espeak spanish \
     "Ahora tomaremos una foto para el recuerdo. \
      Primero, me iré a mi lugar preferido, denme unos segundos."
 
@@ -81,7 +81,7 @@ sleep .6
 #    "Estoy listo! Ahora les toca a ustedes acomodarse. \
 #     Con mucho cuidado ponganse a ambos lados de mi, \
 #     viendo hacia la pantalla y sonrían."
-Espeak.sh on spanish \
+SpeechSynthetizer.sh on espeak spanish \
     "Estoy listo! Ahora les toca a ustedes acomodarse. \
      Con mucho cuidado ponganse a ambos lados de mi, \
      viendo hacia la pantalla y sonrían."
@@ -90,21 +90,21 @@ sleep 15
 
 #Robot.sh lupe/message \
 #    "Están listos ${LOCAL_INSTITUTION}?"
-Espeak.sh on spanish \
+SpeechSynthetizer.sh on espeak spanish \
     "Están listas? listos? ${LOCAL_INSTITUTION}?"
 
 sleep 5
 
 #Robot.sh lupe/message \
 #    "Tomemos la foto, a la cuenta de 3."
-Espeak.sh on spanish \
+SpeechSynthetizer.sh on espeak spanish \
     "Tomemos la foto, a la cuenta de 3."
 
 sleep 1
 
 #Robot.sh lupe/message \
 #    "1, 2 y 3, Sonrian."
-Espeak.sh on spanish \
+SpeechSynthetizer.sh on espeak spanish \
     "1, 2 y 3, Sonrían."
 
 Memories.sh "5" "on" "${MICHOACAN_NAME}" &
@@ -115,7 +115,7 @@ Eog.sh "$FSWEBCAM_IMAGE" &
 
 #Robot.sh lupe/message \
 #    "Listo! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuras y futuros ingenieros."
-Espeak.sh on spanish \
+SpeechSynthetizer.sh on espeak spanish \
     "Orale! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuras y futuros ingenieros."
 
 sleep 5

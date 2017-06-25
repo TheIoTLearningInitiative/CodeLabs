@@ -24,10 +24,10 @@ export VERACRUZ_DIRECTORY=$(dirname "$VERACRUZ_PATH")
 
 LOCAL_LANGUAGE=`Language.sh`
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Espeak.sh off english \
+    SpeechSynthetizer.sh off espeak english \
     "Hi There"
 else
-    Espeak.sh off spanish \
+    SpeechSynthetizer.sh off espeak spanish \
     "Hola a todos"
 fi
 

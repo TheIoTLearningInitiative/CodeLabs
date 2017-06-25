@@ -26,10 +26,10 @@ LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Espeak.sh off english \
+    SpeechSynthetizer.sh off espeak english \
     ""
 else
-    Espeak.sh off spanish \
+    SpeechSynthetizer.sh off espeak spanish \
     "Futuras y futuros Matemáticos. Ya vimos la importancia de nuestras Fábricas y Laboratorios. \
     Ahora entraremos a una sección que nos permite jugar y conocer de cerca la tecnología."
 fi

@@ -34,7 +34,8 @@ sleep 19.2
 
 LOCAL_ROBOTAVAILABLE=`RobotAvailable.sh`
 if [ "$LOCAL_ROBOTAVAILABLE" -eq "0" ]; then
-    Espeak.sh on spanish "Nel"
+    SpeechSynthetizer.sh off espeak english \
+        "Nel"
 else
     Robot.sh lupe/say "Nel"
 fi

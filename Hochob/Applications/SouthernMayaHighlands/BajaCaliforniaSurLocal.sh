@@ -45,7 +45,7 @@ sleep 25.5 && Robot.sh lupe/say "Yo funciono con la plataforma Intel Edison"
 Vlc.sh "off" "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaSur06.mp4" &
 
 LOCAL_INSTITUTION=`Name.sh`
-Espeak.sh off spanish \
+SpeechSynthetizer.sh off espeak spanish \
 "Muchas gracias Futuros Ingenieros del ${LOCAL_INSTITUTION}.
 A nombre del Equipo de Intel, deseamos que hayan tenido una gan visita."
 

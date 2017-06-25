@@ -28,12 +28,12 @@ LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Espeak.sh off english \
+    SpeechSynthetizer.sh off espeak english \
     "Future Engineers from ${LOCAL_INSTITUTION}. Welcome to this first hall! We called it: The Beginning. \
     Here we will remember the Mayans, the history of Intel y this Intel Guadalajara Design Center. \
     Enjoy your tour."
 else
-    Espeak.sh off spanish \
+    SpeechSynthetizer.sh off espeak spanish \
     "Futuros Ingenieros de ${LOCAL_INSTITUTION}. Bienvenidos a esta primer sala, le llamamos: El Inicio. \
     Aquí  recordaras a los Mayas, la historia de Intel y de este Centro de Diseño de Intel en Guadalajara. \
     Que disfruten su recorrido."
