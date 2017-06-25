@@ -17,7 +17,7 @@ LOCAL_CORRECT="$4"
 
 LOCAL_CORRECT_ANSWER_ENGLISH[0]="That’s right."
 LOCAL_CORRECT_ANSWER_ENGLISH[1]="That’s spot on."
-LOCAL_CORRECT_ANSWER_ENGLISH[2]="You’ve hit the nail on the head. "
+LOCAL_CORRECT_ANSWER_ENGLISH[2]="You’ve hit the nail on the head."
 LOCAL_CORRECT_ANSWER_ENGLISH[3]="I’m afraid you’re right."
 LOCAL_CORRECT_ANSWER_ENGLISH[4]="You are correct."
 
