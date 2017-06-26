@@ -134,7 +134,7 @@
 
 * **Area** The Home
 * **Group** Robot
-* **Friendly Name**: Bienvenidos Recorrido
+* **Friendly Name**: Sandbox
 * **Services**:
   * **Memories** Memories
   * **Sound** Espeak

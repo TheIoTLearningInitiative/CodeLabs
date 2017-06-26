@@ -8,6 +8,10 @@ hochob@server:~$ avconv -f alsa -i plughw:2,0 -f video4linux2 -i /dev/video0 out
 hochob@server:~$ avconv -f video4linux2 -r 25 -i /dev/video0 -f alsa -i plughw:2,0 -ar 22050 -ab 64k -strict experimental -acodec aac -vcodec mpeg4 -y webcam.mp4
 ```
 
+```sh
+http://hamelot.io/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video/
+```
+
 - Output
   - Image
     - FFMPEG_IMAGE
