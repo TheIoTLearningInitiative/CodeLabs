@@ -13,8 +13,6 @@ export FFMPEG_BINARY=ffmpeg
 export FFMPEG_INPUT=/dev/video0
 export FFMPEG_ARGUMENTS="-codec:v libx264 -qp 0"
 
-LOCAL_DIRECTORY="$1"
-
 # =============================================================================
 # Functions
 # =============================================================================
@@ -25,7 +23,7 @@ LOCAL_DIRECTORY="$1"
 # Main
 # =============================================================================
 
-if [ $# -eq 1 ]
+if [ $# -eq 0 ]
 then
     ffmpeg -i $FFMPEG_INPUT $FFMPEG_CAMERA
 else
