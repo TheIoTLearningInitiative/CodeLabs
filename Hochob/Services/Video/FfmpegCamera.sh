@@ -12,6 +12,7 @@ export FFMPEG_PID=$$
 export FFMPEG_BINARY=ffmpeg
 export FFMPEG_INPUT=/dev/video0
 export FFMPEG_ARGUMENTS="-y -t 00:00:05 -codec:v libx264 -qp 0"
+export FFMPEG_ARGUMENTS="-y -t 00:00:05"
 
 # =============================================================================
 # Functions
