@@ -118,6 +118,18 @@ homeassistant:
       friendly_name: 5. Hasta Pronto
       icon: mdi:audiobook
 
+    script.siankaan:
+      friendly_name: El Baile del Robot
+      icon: mdi:test-tube
+
+    script.calakmul:
+      friendly_name: La Ciencia
+      icon: mdi:test-tube
+
+    script.tiburonballena:
+      friendly_name: Planeta Marte
+      icon: mdi:test-tube
+
     # Robot Maya Techlands
 
     script.resetall:
@@ -323,7 +335,19 @@ script:
   mapimi:
     sequence:
       - service: shell_command.mapimi
-      
+
+  siankaan:
+    sequence:
+      - service: shell_command.siankaan
+
+  calakmul:
+    sequence:
+      - service: shell_command.calakmul
+
+  tiburonballena:
+    sequence:
+      - service: shell_command.tiburonballena
+
   # Robot Maya Techlands
 
   resetall:
@@ -436,6 +460,9 @@ shell_command:
   lamichilia: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/LaMichilia.sh &
   elcielo: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/ElCielo.sh &
   mapimi: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Mapimi.sh &
+  siankaan: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Siankaan.sh &
+  calakmul: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Calakmul.sh &
+  tiburonballena: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Tiburonballena.sh &
   
   # Robot Maya Techlands
   
@@ -542,7 +569,9 @@ group:
     entities:
       - group.northernmayalowlandsstations
       - group.techiemayalandskeypad
-      
+      - group.northernmayalowlandsstories
+      - group.northernmayalowlandsrobot
+
   techiemayalands:
     view: yes
     name: The Techie
@@ -618,6 +647,17 @@ group:
       - script.lamichilia
       - script.elcielo
       - script.mapimi
+
+  northernmayalowlandsrobot:
+    name: Robot
+    entities:
+      - script.siankaan
+
+  northernmayalowlandsstories:
+    name: Stories
+    entities:
+      - script.calakmul
+      - script.tiburonballena
 
   robotmayalandsreset:
     name: Reset
