@@ -30,13 +30,11 @@ LOCAL_LANGUAGE=`Language.sh`
 # StreamAudio.sh $LOCAL_DEVICE spanish robot "Hola"
 # Survey.sh $LOCAL_DEVICE spanish robot 1
 
-StreamAudio.sh $LOCAL_DEVICE spanish tt \
-      "
-      Imagina esto, cielo rosa, atardeceres naranjas, mucho desierto y acantilados. \
-      Pero donde puedes ver esto y mas? En marte!
-      "
-
-exit 0
+#StreamAudio.sh $LOCAL_DEVICE spanish tt \
+#      "
+#      Imagina esto, cielo rosa, atardeceres naranjas, mucho desierto y acantilados. \
+#      Pero donde puedes ver esto y mas? En marte!
+#      "
 
 StreamAudio.sh $LOCAL_DEVICE english tt \
       "
@@ -47,6 +45,8 @@ StreamAudio.sh $LOCAL_DEVICE english tt \
       Four, Mariner 4.
       "
 Survey.sh $LOCAL_DEVICE english tt 4
+
+exit 0
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Eek.sh english robot "Hi Lupe, good morning"
