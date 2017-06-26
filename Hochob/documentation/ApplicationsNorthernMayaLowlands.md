@@ -98,7 +98,7 @@
 
 - __Area__: The Experience
 - __Group__: Fun
-- __Friendly Name__: Robot Dance
+- __Friendly Name__: El Baile del Robot
 - __Services__:
   - __Stream__: Chromecast
 - __Digital Media Player__: Eek'
