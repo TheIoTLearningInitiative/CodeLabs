@@ -460,9 +460,9 @@ shell_command:
   lamichilia: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/LaMichilia.sh &
   elcielo: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/ElCielo.sh &
   mapimi: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Mapimi.sh &
-  siankaan: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Siankaan.sh &
+  siankaan: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/SianKaan.sh &
   calakmul: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Calakmul.sh &
-  tiburonballena: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Tiburonballena.sh &
+  tiburonballena: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/TiburonBallena.sh &
   
   # Robot Maya Techlands
   
