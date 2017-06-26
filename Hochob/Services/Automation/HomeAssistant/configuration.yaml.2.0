@@ -203,13 +203,19 @@ history:
 # View all events in a logbook
 logbook:
 
+camera:
+  - platform: ffmpeg
+    input: /dev/video0
+
 sensor:
 
   - platform: systemmonitor
+    name: System Monitor
     resources:
+      - type: processor_use
+      - type: memory_free
       - type: disk_use_percent
         arg: /home/
-      - type: memory_free
 
 script:
 
@@ -480,18 +486,20 @@ group:
     name: The Beginning
     entities:
       - group.centralmayalowlandsstations
+      - group.techiemayalandskeypad
 
   northernmayalowlands:
     view: yes
     name: The Experience
     entities:
       - group.northernmayalowlandsstations
+      - group.techiemayalandskeypad
       
   techiemayalands:
     view: yes
     name: The Techie
     entities:
-      - group.techiemayalandskeypad
+      - group.techiemayalandssystemmonitor
 
   language:
     name: Idioma
@@ -594,4 +602,12 @@ group:
       - script.keypadtwo
       - script.keypadthree
       - script.keypadfour
+
+  techiemayalandssystemmonitor:
+    name: System Monitor
+    entities:
+      - sensor.cpu_use
+      - sensor.ram_free
+      - sensor.disk_use_home
+      - camera.ffmpeg
  
