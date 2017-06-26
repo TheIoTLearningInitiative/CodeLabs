@@ -224,7 +224,8 @@ sensor:
 device_tracker:
   - platform: ping
     hosts:
-      hostone: 192.168.1.80
+      eclipse: iot.eclipse.org
+      hochob: 10.215.56.158
 
 script:
 
@@ -515,6 +516,7 @@ group:
     entities:
       - group.techiemayalandssystemmonitor
       - group.techiemayalandspoc
+      - group.techiemayalandsinfrastructure
 
   language:
     name: Idioma
@@ -630,4 +632,9 @@ group:
     name: Proof of Concept
     entities:
       - script.visitorsusb
-      - device_tracker.hostone
+
+  techiemayalandsinfrastructure:
+    name: Infrastructure
+    entities:
+      - device_tracker.eclipse
+      - device_tracker.hochob
