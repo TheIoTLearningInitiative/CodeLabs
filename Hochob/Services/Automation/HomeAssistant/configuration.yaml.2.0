@@ -629,5 +629,6 @@ group:
     name: Proof of Concept
     entities:
       - script.visitorsusb
+      - group.all_devices
   
 
