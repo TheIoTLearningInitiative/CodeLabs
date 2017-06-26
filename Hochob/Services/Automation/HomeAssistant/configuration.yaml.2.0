@@ -203,6 +203,14 @@ history:
 # View all events in a logbook
 logbook:
 
+sensor:
+
+  - platform: systemmonitor
+    resources:
+      - type: disk_use_percent
+        arg: /home/
+      - type: memory_free
+
 script:
 
   # Southern Maya Highlands
@@ -409,6 +417,7 @@ shell_command:
   keypadfour: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 4 &
  
 switch:
+
   - platform: command_line
     switches:
 
