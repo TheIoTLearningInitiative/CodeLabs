@@ -65,6 +65,12 @@ homeassistant:
     switch.quintanaroo:
       friendly_name: Video Showcase
       icon: mdi:camera
+      
+    # Southern Maya Highlands : Sandbox
+    
+    script.zacatecas:
+      friendly_name: Sandbox
+      icon: mdi:test-tube
 
     # Central Maya Lowlands
 
@@ -83,6 +89,12 @@ homeassistant:
     script.puertovallarta:
       friendly_name: 5. Labs y Fabs
       icon: mdi:audiobook
+
+    # Central Maya Lowlands
+    
+    script.veracruz:
+      friendly_name: Sandbox
+      icon: mdi:test-tube
 
     # Northern Maya Lowlands
 
@@ -260,6 +272,10 @@ script:
     sequence:
       - service: shell_command.michoacan
 
+  zacatecas:
+    sequence:
+      - service: shell_command.zacatecas
+
   # Central Maya Lowlands
 
   acapulco:
@@ -281,6 +297,10 @@ script:
   puertovallarta:
     sequence:
       - service: shell_command.puertovallarta
+
+  veracruz:
+    sequence:
+      - service: shell_command.veracruz
 
   # Northern Maya Lowlands
 
@@ -398,6 +418,7 @@ shell_command:
   bajacaliforniasur: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/BajaCaliforniaSur.sh &
   campeche: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Campeche.sh &
   michoacan: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Michoacan.sh &
+  zacatecas: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Zacatecas.sh &
 
   # Central Maya Lowlands
 
@@ -406,6 +427,7 @@ shell_command:
   huatulco: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Huatulco.sh &
   mazatlan: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Mazatlan.sh &
   puertovallarta: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/PuertoVallarta.sh &
+  veracruz: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Veracruz.sh &
 
   # Northern Maya Lowlands
   
@@ -487,13 +509,14 @@ group:
     view: yes
     name: The Home
     entities:
-      - group.language
-      - group.introduction
-      - group.robot
-      - group.tour
-      - group.corporate
-      - group.visitorscenter
-      - group.memories
+      - group.southernmayahighlandslanguage
+      - group.southernmayahighlandsintroduction
+      - group.southernmayahighlandsrobot
+      - group.southernmayahighlandstour
+      - group.southernmayahighlandscorporate
+      - group.southernmayahighlandsvisitorscenter
+      - group.southernmayahighlandsmemories
+      - group.southernmayahighlandssandbox
 
   robotmayalands:
     view: yes
@@ -511,6 +534,7 @@ group:
     entities:
       - group.centralmayalowlandsstations
       - group.techiemayalandskeypad
+      - group.centralmayalowlandssandbox
 
   northernmayalowlands:
     view: yes
@@ -524,20 +548,20 @@ group:
     name: The Techie
     entities:
       - group.techiemayalandssystemmonitor
-      - group.techiemayalandspoc
       - group.techiemayalandsinfrastructure
+      - group.techiemayalandssandbox
 
-  language:
+  southernmayahighlandslanguage:
     name: Idioma
     entities:
       - switch.language
 
-  introduction:
+  southernmayahighlandsintroduction:
     name: 1 Introduccion
     entities:
       - script.aguascalientes
 
-  robot:
+  southernmayahighlandsrobot:
     name: 2 Robot
     entities:
       - script.bajacalifornianorte
@@ -545,27 +569,32 @@ group:
       - script.michoacan
       - script.campeche
 
-  tour:
+  southernmayahighlandstour:
     name: 3 Tour
     entities:
       - script.campeche
 
-  corporate:
+  southernmayahighlandscorporate:
     name: Corporate
     entities:
       - switch.guanajuato
       - switch.guerrero
 
-  visitorscenter:
+  southernmayahighlandsvisitorscenter:
     name: Visitors Center
     entities:
       - switch.hidalgo
 
-  memories:
+  southernmayahighlandsmemories:
     name: Memories
     entities:
       - switch.queretaro
       - switch.quintanaroo
+
+  southernmayahighlandssandbox:
+    name: Sandbox
+    entities:
+      - script.zacatecas
 
   centralmayalowlandsstations:
     name: Stations
@@ -575,7 +604,12 @@ group:
       - script.huatulco
       - script.mazatlan
       - script.puertovallarta
-  
+
+  centralmayalowlandssandbox:
+    name: Sandbox
+    entities:
+      - script.veracruz
+
   northernmayalowlandsstations:
     name: Stations
     entities:
@@ -636,14 +670,15 @@ group:
       - sensor.ram_free
       - sensor.disk_use_home
       - camera.ffmpeg
-  
-  techiemayalandspoc:
-    name: Proof of Concept
-    entities:
-      - script.visitorsusb
 
   techiemayalandsinfrastructure:
     name: Infrastructure
     entities:
       - device_tracker.eclipse
       - device_tracker.hochob
+
+  techiemayalandssandbox:
+    name: Sandbox
+    entities:
+      - script.visitorsusb
+
