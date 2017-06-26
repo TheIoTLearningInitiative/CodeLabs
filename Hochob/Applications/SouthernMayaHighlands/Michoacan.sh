@@ -86,7 +86,7 @@ SpeechSynthetizer.sh on espeak spanish \
      Con mucho cuidado ponganse a ambos lados de mi, \
      viendo hacia la pantalla y sonrían."
 
-FfmpegCamera.sh 20
+FfmpegCamera.sh 20 &
 
 sleep 15
 
