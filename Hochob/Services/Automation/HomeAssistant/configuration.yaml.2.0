@@ -514,7 +514,6 @@ group:
     entities:
       - group.techiemayalandssystemmonitor
       - group.techiemayalandspoc
-      - group.all_devices
 
   language:
     name: Idioma
@@ -630,3 +629,5 @@ group:
     name: Proof of Concept
     entities:
       - script.visitorsusb
+      - device_tracker.001788464752
+      - zone.home
