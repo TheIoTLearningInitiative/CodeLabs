@@ -222,8 +222,9 @@ sensor:
         arg: /home/
 
 device_tracker:
-  - platform: nmap_tracker
-    hosts: 192.168.1.80
+  - platform: ping
+    hosts:
+      hostone: 192.168.1.80
 
 script:
 
@@ -629,5 +630,3 @@ group:
     name: Proof of Concept
     entities:
       - script.visitorsusb
-      - device_tracker.001788464752
-      - zone.home
