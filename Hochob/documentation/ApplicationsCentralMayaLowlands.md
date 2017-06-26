@@ -10,9 +10,9 @@
 - Ixtapa
 - La Paz
 - Loreto
-- __Los Cabos__
+- Los Cabos
 - Melaque
-- __Mazatlán__
+- Mazatlán
 - Manzanillo
 - Nuevo Vallarta
 - Rosarito
@@ -21,7 +21,7 @@
 - Riviera Maya
 - San Felipe
 - Tonalá Puerto Arista
-- Veracruz
+- __Veracruz__
 
 # Name: Acapulco
 
@@ -72,3 +72,13 @@
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
 - __Digital Media Player__: Juum
+
+# Under Development
+
+## Name: Veracruz
+
+- __Area__ The Home
+- __Group__ Robot
+- __Friendly Name__: Sandbox
+- __Services__: 
+
