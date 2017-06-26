@@ -179,6 +179,10 @@ homeassistant:
       friendly_name: Botón Cuatro
       icon: mdi:numeric-4-box
 
+    script.visitorsusb:
+      friendly_name: Visitantes USB
+      icon: mdi:usb
+
 # Enables the frontend
 frontend:
 
@@ -366,6 +370,10 @@ script:
     sequence:
       - service: shell_command.keypadfour
 
+  visitorsusb:
+    sequence:
+      - service: shell_command.visitorsusb
+
 shell_command:
 
   # Southern Maya Highlands
@@ -421,6 +429,7 @@ shell_command:
   keypadtwo: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 2 &
   keypadthree: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 3 &
   keypadfour: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 4 &
+  visitorsusb: ~/CodeLabs/Hochob/Services/Visitors/Usb.sh &
  
 switch:
 
@@ -500,6 +509,7 @@ group:
     name: The Techie
     entities:
       - group.techiemayalandssystemmonitor
+      - group.techiemayalandspoc
 
   language:
     name: Idioma
@@ -610,4 +620,10 @@ group:
       - sensor.ram_free
       - sensor.disk_use_home
       - camera.ffmpeg
- 
+  
+  techiemayalandspoc:
+    name: Proof of Concept
+    entities:
+      - script.visitorsusb
+  
+
