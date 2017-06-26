@@ -6,11 +6,12 @@ set -x
 # Variables
 # =============================================================================
 
-#. ~/CodeLabs/Hochob/Main.sh
+. ~/CodeLabs/Hochob/Main.sh
 
 export FFMPEG_PID=$$
 export FFMPEG_BINARY=ffmpeg
-export FFMPEG_ARGUMENTS="-y -s 4096x2304 -framerate 10 -vf fps=10 -pix_fmt yuv420p"
+export FFMPEG_INPUT=/dev/video0
+export FFMPEG_ARGUMENTS="-codec:v libx264 -qp 0"
 
 LOCAL_DIRECTORY="$1"
 
@@ -26,8 +27,7 @@ LOCAL_DIRECTORY="$1"
 
 if [ $# -eq 1 ]
 then
-    $FFMPEG_BINARY -i "$LOCAL_DIRECTORY/"%04d.jpg $FFMPEG_ARGUMENTS $FFMPEG_IMAGE
-    cp $FFMPEG_IMAGE $FFMPEG_VIDEO
+    ffmpeg -i $FFMPEG_INPUT $FFMPEG_CAMERA
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
