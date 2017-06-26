@@ -30,7 +30,7 @@ export FFMPEG_TIME="${FFMPEG_TIME}${LOCAL_SECONDS}"
 
 if [ $# -eq 1 ]
 then
-    ffmpeg -i $FFMPEG_INPUT $FFMPEG_TIME $FFMPEG_ARGUMENTS $FFMPEG_CAMERA
+    ffmpeg -f alsa -i default -i $FFMPEG_INPUT $FFMPEG_TIME $FFMPEG_ARGUMENTS $FFMPEG_CAMERA
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
