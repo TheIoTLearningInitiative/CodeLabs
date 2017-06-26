@@ -183,6 +183,15 @@ homeassistant:
       friendly_name: Visitantes USB
       icon: mdi:usb
 
+    device_tracker.eclipse:
+      friendly_name: IoT Eclipse Org
+      icon: mdi:server
+
+    device_tracker.hochob:
+      friendly_name: Hochob Server
+      icon: mdi:server-network
+
+
 # Enables the frontend
 frontend:
 
