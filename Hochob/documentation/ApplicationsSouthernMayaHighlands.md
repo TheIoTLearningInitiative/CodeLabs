@@ -133,11 +133,7 @@
 ## Name: Zacatecas
 
 * **Area** The Home
-* **Group** Robot
+* **Group** Sandbox
 * **Friendly Name**: Sandbox
 * **Services**:
-  * **Memories** Memories
-  * **Sound** Espeak
-  * **MemoriesAudio** MemoriesAudio
-  * [http://hamelot.io/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video/](http://hamelot.io/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video/)
 
