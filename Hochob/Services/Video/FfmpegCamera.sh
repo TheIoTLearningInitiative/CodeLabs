@@ -25,7 +25,7 @@ export FFMPEG_ARGUMENTS="-y -t 00:00:05 -codec:v libx264 -qp 0"
 
 if [ $# -eq 0 ]
 then
-    ffmpeg -i $FFMPEG_INPUT $FFMPEG_CAMERA
+    ffmpeg -i $FFMPEG_INPUT $FFMPEG_ARGUMENTS $FFMPEG_CAMERA
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
