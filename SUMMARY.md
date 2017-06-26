@@ -145,6 +145,7 @@
         * [Play](Hochob/documentation/ServicesPlay.md)
         * [Speech Synthetizer](Hochob/documentation/SpeechSynthetizer.md)
       * [Stream](Hochob/documentation/Stream.md)
+      * [Survey](Hochob/documentation/Survey.md)
       * [USB](Hochob/documentation/Usb.md)
       * [Video](Hochob/documentation/Video.md)
     * [Applications](Hochob/documentation/Applications.md)
