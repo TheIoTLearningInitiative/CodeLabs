@@ -15,7 +15,7 @@
 * **Guerrero**
 * Hidalgo
 * Jalisco
-* **Mexico**
+* Mexico
 * **Michoacan**
 * Morelos
 * Nayarit
