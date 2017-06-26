@@ -39,11 +39,13 @@ StreamAudio.sh $LOCAL_DEVICE spanish tt \
 exit 0
 
 StreamAudio.sh $LOCAL_DEVICE english tt \
-               "Which spacecraft took the first photos of Mars? \
-                One, Curiosity. \
-                Two, Spirit. \
-                Three, Sojourner. \
-                Four, Mariner 4."
+      "
+      Which spacecraft took the first photos of Mars? \
+      One, Curiosity. \
+      Two, Spirit. \
+      Three, Sojourner. \
+      Four, Mariner 4.
+      "
 Survey.sh $LOCAL_DEVICE english tt 4
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
