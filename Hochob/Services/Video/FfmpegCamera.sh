@@ -11,7 +11,7 @@ set -x
 export FFMPEG_PID=$$
 export FFMPEG_BINARY=ffmpeg
 export FFMPEG_INPUT=/dev/video0
-export FFMPEG_ARGUMENTS="-codec:v libx264 -qp 0"
+export FFMPEG_ARGUMENTS="-segment_time 10 -codec:v libx264 -qp 0"
 
 # =============================================================================
 # Functions
