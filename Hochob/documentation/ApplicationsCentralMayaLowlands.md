@@ -77,8 +77,7 @@
 
 ## Name: Veracruz
 
-- __Area__ The Home
-- __Group__ Robot
+- __Area__ The Beginning
+- __Group__ Stations
 - __Friendly Name__: Sandbox
 - __Services__: 
-
