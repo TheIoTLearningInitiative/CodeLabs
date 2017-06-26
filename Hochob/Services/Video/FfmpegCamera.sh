@@ -28,7 +28,7 @@ export FFMPEG_TIME="${FFMPEG_TIME}${LOCAL_SECONDS}"
 # Main
 # =============================================================================
 
-if [ $# -eq 0 ]
+if [ $# -eq 1 ]
 then
     ffmpeg -i $FFMPEG_INPUT $FFMPEG_TIME $FFMPEG_ARGUMENTS $FFMPEG_CAMERA
 else
