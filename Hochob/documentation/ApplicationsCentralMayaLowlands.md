@@ -78,6 +78,6 @@
 ## Name: Veracruz
 
 - __Area__ The Beginning
-- __Group__ Stations
+- __Group__ Sandbox
 - __Friendly Name__: Sandbox
 - __Services__: 
