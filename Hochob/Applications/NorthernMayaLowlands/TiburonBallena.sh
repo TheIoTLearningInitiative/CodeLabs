@@ -36,7 +36,7 @@ LOCAL_LANGUAGE=`Language.sh`
 #      Pero donde puedes ver esto y mas? En marte!
 #      "
 
-StreamAudio.sh $LOCAL_DEVICE spanish tt \
+StreamAudio.sh $LOCAL_DEVICE spanish robot \
       "
       Cual fue la primer mision que tomo las primeras fotos de Marte? \
       Uno, Curiosity. \
