@@ -39,12 +39,12 @@ then
     export VOICERSS_INPUT="${LOCAL_TEXT}"
 
     $VOICERSS_BINARY $VOICERSS_LANGUAGE $VOICERSS_SPEECH "\"$VOICERSS_INPUT\""
- 
+
     ffmpeg -y -i $VOICERSS_SPEECH $VOICERSS_SPEECH_MP3
-    
+
     cp $VOICERSS_SPEECH $SPEECH
     cp $VOICERSS_SPEECH_MP3 $SPEECH_MP3
-    
+
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
