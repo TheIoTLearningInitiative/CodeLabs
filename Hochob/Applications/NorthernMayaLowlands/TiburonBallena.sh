@@ -36,6 +36,18 @@ LOCAL_LANGUAGE=`Language.sh`
 #      Pero donde puedes ver esto y mas? En marte!
 #      "
 
+StreamAudio.sh $LOCAL_DEVICE spanish tt \
+      "
+      Cual fue la primer mision que tomo las primeras fotos de Marte? \
+      Uno, Curiosity. \
+      Dos, Spirit. \
+      Tres, Sojourner. \
+      Cuatro, Mariner 4.
+      "
+Survey.sh $LOCAL_DEVICE spanish tt 4
+
+exit 0
+
 StreamAudio.sh $LOCAL_DEVICE english tt \
       "
       Which spacecraft took the first photos of Mars? \
@@ -45,8 +57,6 @@ StreamAudio.sh $LOCAL_DEVICE english tt \
       Four, Mariner 4.
       "
 Survey.sh $LOCAL_DEVICE english tt 4
-
-exit 0
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Eek.sh english robot "Hi Lupe, good morning"
