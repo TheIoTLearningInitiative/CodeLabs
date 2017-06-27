@@ -74,7 +74,7 @@ LOCAL_OPTION=`KeypadOption.sh`
 
 if [ "$LOCAL_OPTION" = "$LOCAL_CORRECT" ]; then
 
-    chooseAnswerCorrect "english"
+    chooseAnswerCorrect $LOCAL_LANGUAGE
     if [ "$LOCAL_LANGUAGE" = "english" ]; then
         StreamAudio.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_CHARACTER \
                     "${LOCAL_CORRECT_ANSWER}"
@@ -85,7 +85,7 @@ if [ "$LOCAL_OPTION" = "$LOCAL_CORRECT" ]; then
 
 else
 
-    chooseWrongCorrect "english"
+    chooseWrongCorrect "$LOCAL_LANGUAGE"
     if [ "$LOCAL_LANGUAGE" = "english" ]; then
         StreamAudio.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_CHARACTER \
                     "${LOCAL_WRONG_ANSWER}. the correct answer is ${LOCAL_CORRECT}"
