@@ -148,7 +148,6 @@
       * [Stream](Hochob/documentation/Stream.md)
       * [Survey](Hochob/documentation/Survey.md)
       * [USB](Hochob/documentation/Usb.md)
-      * Keypad
     * [Applications](Hochob/documentation/Applications.md)
       * [Southern Maya Highlands](Hochob/documentation/ApplicationsSouthernMayaHighlands.md)
       * [Central Maya Lowlands](Hochob/documentation/ApplicationsCentralMayaLowlands.md)
