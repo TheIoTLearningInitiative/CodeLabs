@@ -9,6 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export KEYPAD_PID=$$
+export KEYPAD_MQTT_TOPIC=hochob/keypad/
 
 LOCAL_IDENTIFICATION="$1"
 LOCAL_BUTTON="$2"
@@ -25,7 +26,7 @@ LOCAL_BUTTON="$2"
 
 if [ $# -eq 2 ]
 then
-    Mosquitto.sh hochob/keypad/$LOCAL_IDENTIFICATION $LOCAL_BUTTON
+    Mosquitto.sh $KEYPAD_MQTT_TOPIC$LOCAL_IDENTIFICATION $LOCAL_BUTTON
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
