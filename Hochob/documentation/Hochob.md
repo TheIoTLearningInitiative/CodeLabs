@@ -2,7 +2,7 @@
 
 > Hochob es un sitio arqueológico maya ubicado en el estado mexicano de Campeche, en la región denominada Los Chenes. Las primeras noticias sobre la existencia de este sitio arqueológico se debieron al investigador y explorador Teobert Maler, quien en 1887 visitó el lugar y publicó algunas fotografías en la revista Globus, en 1895. [Wikipedia](https://es.wikipedia.org/wiki/Hochob)
 
-> Hochob project is ... Android
+> Hochob Project is an open source, Linux based mainly written in shell scripting created from a wide array of ideas from a wide array of volunteers to orchestrate a wide range of commercial and non commercial devices into one single device to tell a story telling type of guided visit.
 
 # Architecture
 
