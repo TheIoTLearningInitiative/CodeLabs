@@ -10,4 +10,4 @@ Institution Identification through Google Calendar API. If Google Calendar entry
 - YYYYMMDD-HHMMSS-InstitutionName
 
 If not, naming convention is
-- YYYYMMDD-HHMMSS   
+- YYYYMMDD-HHMMSS
