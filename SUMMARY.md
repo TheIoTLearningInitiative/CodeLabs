@@ -138,7 +138,6 @@
       * [Camera](Hochob/documentation/Camera.md)
       * [Communications](Hochob/documentation/Communications.md)
       * [Image](Hochob/documentation/Image.md)
-      * [Institution](Hochob/documentation/ServerMainInstitutionIdentification.md)
       * [Messaging](Hochob/documentation/ServicesMessaging.md)
       * [Motion](Hochob/documentation/ServicesMotion.md)
       * [Robot](Hochob/documentation/ServicesRobot.md)
