@@ -138,6 +138,7 @@
       * [Camera](Hochob/documentation/Camera.md)
       * [Communications](Hochob/documentation/Communications.md)
       * [Image](Hochob/documentation/Image.md)
+      * [Keypad](Hochob/documentation/ServicesKeypad.md)
       * [Messaging](Hochob/documentation/ServicesMessaging.md)
       * [Motion](Hochob/documentation/ServicesMotion.md)
       * [Robot](Hochob/documentation/ServicesRobot.md)
@@ -147,7 +148,7 @@
       * [Stream](Hochob/documentation/Stream.md)
       * [Survey](Hochob/documentation/Survey.md)
       * [USB](Hochob/documentation/Usb.md)
-      * [Video](Hochob/documentation/Video.md)
+      * Keypad
     * [Applications](Hochob/documentation/Applications.md)
       * [Southern Maya Highlands](Hochob/documentation/ApplicationsSouthernMayaHighlands.md)
       * [Central Maya Lowlands](Hochob/documentation/ApplicationsCentralMayaLowlands.md)
