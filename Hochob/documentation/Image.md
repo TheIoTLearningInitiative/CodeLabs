@@ -1,5 +1,11 @@
 # Image
 
+# Resize
+
+# Text
+
+# Eog
+
 ```sh
 hochob@server:~$ sudo apt install eog
 ```
