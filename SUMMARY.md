@@ -111,6 +111,7 @@
   * [Areas](Hochob/documentation/Area.md)
   * [Digital Media Players](Hochob/documentation/DigitalMediaPlayers.md)
     * [Chromecast](Hochob/documentation/Chromecast.md)
+  * [Keypads](Hochob/documentation/Keypad.md)
   * [Mobile Device](Hochob/documentation/MobileDevice.md)
   * [Robot](Hochob/documentation/LupeRobot.md)
     * [Architecture](Hochob/documentation/RobotArchitecture.md)
@@ -154,12 +155,8 @@
       * [Northern Maya Lowlands](Hochob/documentation/ApplicationsNorthernMayaLowlands.md)
       * [Robot Maya Techlands](Hochob/documentation/ApplicationsRobotMayaTechlands.md)
       * [Techie Maya Lands](Hochob/documentation/ApplicationsTechieMayaLands.md)
-  * [Keypad](Hochob/documentation/Keypad.md)
-  * [Sandbox](Hochob/documentation/Sandbox.md)
-    * [Photography](Hochob/documentation/Photography.md)
-    * [USB](Hochob/documentation/USB.md)
-    * [VLC Media Player](Hochob/documentation/VlcMediaPlayer.md)
-    * [Audio](Hochob/documentation/Audio.md)
+  * Stations
+  * Stations
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
   * [WRI Workshop](Kaminaljuyu/documentation/WriWorkshop.md)

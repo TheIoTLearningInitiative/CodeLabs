@@ -7,11 +7,11 @@
 - Accounts
 - Areas
 - Digital Media Players
+- Keypads
 - Mobile Device
 - Robot
 - Server
 - Stations
-- Keypads
 
 # Accounts
 
