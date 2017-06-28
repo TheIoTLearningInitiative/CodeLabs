@@ -1,6 +1,6 @@
 # Hochob Server Applications
 
-> Set of software functionalities.
+> Applications lets you create rich and innovative ways to interact using Services.
 
 - Northern Maya Lowlands
 - Central Maya Lowlands

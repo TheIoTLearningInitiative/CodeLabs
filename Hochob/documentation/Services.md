@@ -1,5 +1,7 @@
 # Hochob Server Services
 
+> A Service is an application component to perform a specific operation, and it does not provide a user interface. 
+
 - Automation
   - HomeAssistant
     - configuration.yaml
