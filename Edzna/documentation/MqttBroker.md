@@ -52,7 +52,11 @@ tcp        0      0 *:1883                  *:*                     ESCUCHAR
 tcp        0      0 *:8123                  *:*                     ESCUCHAR   
 ```
 
-## Testing
+# MQTT Broker, VerneMQ
+
+Please refer to [VerneMQ Installing on Debian and Ubuntu](https://vernemq.com/docs/installation/debian_and_ubuntu.html)
+
+# Testing
 
 ```sh
 user@server:~$ sudo apt-get install mosquitto-clients
