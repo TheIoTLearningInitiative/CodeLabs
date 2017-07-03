@@ -5,6 +5,7 @@ import signal
 import sys
 import time
 
+from random import randint
 from threading import Thread
 
 def functionDataActuator(status):
@@ -23,7 +24,7 @@ def functionDataActuatorMqttSubscribe():
         pass
 
 def functionDataSensor():
-    netdata = psutil.net_io_counters()
+    netdata = randint(0, 65535)
     data = netdata.packets_sent + netdata.packets_recv
     return data
 
