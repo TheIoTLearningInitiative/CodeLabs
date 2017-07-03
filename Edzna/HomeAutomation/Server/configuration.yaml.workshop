@@ -25,27 +25,27 @@ http:
   # api_password: PASSWORD
   # Uncomment this if you are using SSL or running in Docker etc
   # base_url: example.duckdns.org:8123
-  server_port: 8123
+  server_port: 8000
 
 history:
 
 mqtt:
   broker: iot.eclipse.org
   port: 1883
-  client_id: edzna8123
+  client_id: edzna8000
   keepalive: 60
 
 light:
   - platform: mqtt
     name: Lamp
-    state_topic: 'edzna/8123/lamp/status'
-    command_topic: 'edzna/8123/lamp/switch'
-    rgb_state_topic: "edzna/8123/lamp/rgb/status"
-    rgb_command_topic: "edzna/8123/lamp/rgb/set"
+    state_topic: 'edzna/8000/lamp/status'
+    command_topic: 'edzna/8000/lamp/switch'
+    rgb_state_topic: "edzna/8000/lamp/rgb/status"
+    rgb_command_topic: "edzna/8000/lamp/rgb/set"
     optimistic: true
 
 sensor:
   - platform: mqtt
     name: Luxes
-    state_topic: "edzna/8123/luxes"
+    state_topic: "edzna/8000/luxes"
     sensor_class: light
