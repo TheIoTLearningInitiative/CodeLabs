@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 import paho.mqtt.client as paho
-import pywapi
 import signal
 import sys
 import time
