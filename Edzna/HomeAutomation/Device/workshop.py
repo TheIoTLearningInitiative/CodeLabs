@@ -29,7 +29,7 @@ def functionSubscribeLightLamp():
     mqttclient = paho.Client()
     mqttclient.on_message = functionSubscribeLightLampOn
     mqttclient.connect(mqttserver, mqttport, 60)
-    mqttclient.subscribe("edzna/8123/lamp/switch", 0)
+    mqttclient.subscribe("edzna/8000/lamp/switch", 0)
     while mqttclient.loop() == 0:
         pass
 
@@ -47,7 +47,7 @@ def functionPublishSensorLuxes():
     mqttclient.connect(mqttserver, mqttport, 60)
     while True:
         data = functionPublishSensorLuxesData()
-        topic = "edzna/8123/luxes"
+        topic = "edzna/8000/luxes"
         mqttclient.publish(topic, data)
         time.sleep(1)
 
