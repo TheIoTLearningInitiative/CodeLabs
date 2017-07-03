@@ -30,6 +30,7 @@ npm install -g --unsafe-perm node-red
 
 # Npm Contributions
 
+cd
 cd .node-red/
 npm install mraa
 npm install galileo-io
