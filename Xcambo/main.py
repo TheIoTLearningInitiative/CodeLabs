@@ -24,8 +24,7 @@ def functionDataActuatorMqttSubscribe():
         pass
 
 def functionDataSensor():
-    netdata = randint(0, 65535)
-    data = netdata.packets_sent + netdata.packets_recv
+    data = randint(0, 65535)
     return data
 
 def functionDataSensorMqttOnPublish(mosq, obj, msg):
