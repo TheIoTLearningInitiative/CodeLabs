@@ -1,3 +1,5 @@
+nano /etc/wpa_supplicant/wpa_supplicant.conf
+
 cd
 cd CodeLabs
 git reset --hard
