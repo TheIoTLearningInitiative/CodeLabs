@@ -186,7 +186,11 @@ homeassistant:
       icon: mdi:stop
       
     # Techie Maya Lands
-    
+
+    script.toyota:
+      friendly_name: System Health
+      icon: mdi:approval
+
     script.keypadone:
       friendly_name: Botón Uno
       icon: mdi:numeric-1-box
@@ -416,6 +420,9 @@ script:
   
   # Techie Maya Lands
   
+  toyota:
+    sequence:
+      - service: shell_command.toyota
   keypadone:
     sequence:
       - service: shell_command.keypadone
@@ -488,6 +495,8 @@ shell_command:
   movestop: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/movestop
   
   # Techie Maya Lands
+  
+  toyota: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Toyota.sh &
   
   keypadone: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 1 &
   keypadtwo: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 2 &
@@ -576,6 +585,7 @@ group:
     view: yes
     name: The Techie
     entities:
+      - group.techiemayalandssystemhealth
       - group.techiemayalandssystemmonitor
       - group.techiemayalandsinfrastructure
       - group.techiemayalandssandbox
@@ -694,7 +704,12 @@ group:
       - script.moveforward
       - script.movebackward
       - script.movestop
-   
+
+  techiemayalandssystemhealth:
+    name: System Health
+    entities:
+      - script.toyota
+
   techiemayalandskeypad:
     name: Keypad
     entities:
