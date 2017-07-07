@@ -6,4 +6,4 @@
 
 - __Area__: The Techie
 - __Group__: Diagnostics
-- __Friendly Name__: 
+- __Friendly Name__: Diagnostics
