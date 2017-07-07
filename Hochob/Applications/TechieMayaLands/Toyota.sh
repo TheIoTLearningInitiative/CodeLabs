@@ -26,7 +26,7 @@ export TOYOTA_DIRECTORY=$(dirname "$TOYOTA_PATH")
 LogPid.sh $TOYOTA_PID $TOYOTA_NAME
 
 SpeechSynthetizer.sh on espeak spanish \
-    "Hola Mundo Uno Dos Tres Probando"
+    "Hola Mundo! Uno, Dos, Tres, Probando!"
 
 Stream.sh "Triki" "1.0" "$SPEECH_MP3"
 Stream.sh "Tran" "1.0" "$SPEECH_MP3"
