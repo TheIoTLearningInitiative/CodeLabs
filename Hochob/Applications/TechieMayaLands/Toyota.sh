@@ -30,6 +30,13 @@ SpeechSynthetizer.sh on espeak spanish \
 
 Stream.sh "Triki" "1.0" "$SPEECH_MP3"
 echo $?
+
+Robot.sh lupe/inicial 1
+Robot.sh lupe/emocion 1
+Robot.sh lupe/porsupuesto 1
+Robot.sh lupe/cerebro 1
+Robot.sh lupe/inteledison 1
+
 Stream.sh "Tran" "1.0" "$SPEECH_MP3"
 echo $?
 Stream.sh "Juum" "1.0" "$SPEECH_MP3"
