@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export ZACATECAS_PID=$$
-export ZACATECAS_NAME="Zacatecas"
-export ZACATECAS_PATH=$(readlink -f "$0")
-export ZACATECAS_DIRECTORY=$(dirname "$ZACATECAS_PATH")
+export TOYOTA_PID=$$
+export TOYOTA_NAME="Zacatecas"
+export TOYOTA_PATH=$(readlink -f "$0")
+export TOYOTA_DIRECTORY=$(dirname "$TOYOTA_PATH")
 
 # =============================================================================
 # Functions
@@ -23,22 +23,24 @@ export ZACATECAS_DIRECTORY=$(dirname "$ZACATECAS_PATH")
 # Main
 # =============================================================================
 
-LogPid.sh $ZACATECAS_PID $ZACATECAS_NAME
+LogPid.sh $TOYOTA_PID $TOYOTA_NAME
+
+SpeechSynthetizer.sh on espeak spanish \
+    "Hola Mundo"
+
+Stream.sh "Triki" "1.0" "$SPEECH_MP3"
+Stream.sh "Tran" "1.0" "$SPEECH_MP3"
+Stream.sh "Juum" "1.0" "$SPEECH_MP3"
+Stream.sh "Eek'" "1.0" "$SPEECH_MP3"
 
 Memories.sh "5" "on" "${ZACATECAS_NAME}" &
 sleep 2
-ConvertText.sh "$FSWEBCAM_IMAGE" "Bienvenidos"
+ConvertText.sh "$FSWEBCAM_IMAGE" "System Health"
 wait
 Eog.sh "$FSWEBCAM_IMAGE" &
 
-exit 0
-
-Memories.sh "20" "on" "${ZACATECAS_NAME}"
-SpeechSynthetizer.sh off espeak spanish \
-    "Me da mucho gusto conocerlos y que hayan venido a Intel. \
-    Regresen pronto"
-MemoriesAudio.sh "${ZACATECAS_NAME}"
-
 sync
+
+KillApp.sh "eog"
 
 # End of File
