@@ -135,6 +135,9 @@ homeassistant:
     script.resetall:
       friendly_name: Reset
       icon: mdi:lock-reset
+    script.coji:
+      friendly_name: Speak
+      icon: mdi:speaker
 
     script.headright:
       friendly_name: Head Right
@@ -358,6 +361,10 @@ script:
     sequence:
       - service: shell_command.resetall
 
+  coji:
+    sequence:
+      - service: shell_command.coji
+
   headright:
     sequence:
       - service: shell_command.headright
@@ -474,6 +481,7 @@ shell_command:
   # Robot Maya Techlands
   
   resetall: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/resetall 1
+  coji: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Coji.sh &
   
   headleft: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headleft 1
   headright: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headright 1
@@ -570,16 +578,16 @@ group:
     entities:
       - group.centralmayalowlandsstations
       - group.techiemayalandskeypad
-      - group.centralmayalowlandssandbox
+      #- group.centralmayalowlandssandbox
 
   northernmayalowlands:
     view: yes
     name: The Experience
     entities:
       - group.northernmayalowlandsstations
-      - group.techiemayalandskeypad
       - group.northernmayalowlandsstories
       - group.northernmayalowlandsrobot
+      - group.techiemayalandskeypad
 
   techiemayalands:
     view: yes
@@ -673,6 +681,7 @@ group:
     name: Reset
     entities:
       - script.resetall
+      - script.coji
 
   robotmayalandshead:
     name: Head
