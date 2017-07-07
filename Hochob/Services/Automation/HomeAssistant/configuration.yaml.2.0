@@ -240,9 +240,9 @@ history:
 # View all events in a logbook
 logbook:
 
-camera:
-  - platform: ffmpeg
-    input: /dev/video0
+#camera:
+#  - platform: ffmpeg
+#    input: /dev/video0
 
 sensor:
 
@@ -709,7 +709,7 @@ group:
       - sensor.cpu_use
       - sensor.ram_free
       - sensor.disk_use_home
-      - camera.ffmpeg
+      #- camera.ffmpeg
 
   techiemayalandsinfrastructure:
     name: Infrastructure
