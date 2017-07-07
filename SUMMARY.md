@@ -152,7 +152,7 @@
       * [Southern Maya Highlands](Hochob/documentation/ApplicationsSouthernMayaHighlands.md)
       * [Central Maya Lowlands](Hochob/documentation/ApplicationsCentralMayaLowlands.md)
       * [Northern Maya Lowlands](Hochob/documentation/ApplicationsNorthernMayaLowlands.md)
-      * [Robot Maya Techlands](Hochob/documentation/ApplicationsRobotMayaTechlands.md)
+      * [Robot Maya Lands](Hochob/documentation/ApplicationsRobotMayaTechlands.md)
       * [Techie Maya Lands](Hochob/documentation/ApplicationsTechieMayaLands.md)
   * Stations
   * Stations
