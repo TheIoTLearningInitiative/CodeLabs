@@ -29,9 +29,13 @@ SpeechSynthetizer.sh on espeak spanish \
     "Hola Mundo! Uno, Dos, Tres, Probando!"
 
 Stream.sh "Triki" "1.0" "$SPEECH_MP3"
+echo $?
 Stream.sh "Tran" "1.0" "$SPEECH_MP3"
+echo $?
 Stream.sh "Juum" "1.0" "$SPEECH_MP3"
+echo $?
 Stream.sh "Eek'" "1.0" "$SPEECH_MP3"
+echo $?
 
 Memories.sh "5" "on" "${ZACATECAS_NAME}" &
 sleep 2
