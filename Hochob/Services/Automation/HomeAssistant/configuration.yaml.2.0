@@ -560,7 +560,7 @@ group:
       - group.southernmayahighlandscorporate
       - group.southernmayahighlandsvisitorscenter
       - group.southernmayahighlandsmemories
-      - group.southernmayahighlandssandbox
+      #- group.southernmayahighlandssandbox
 
   robotmayalands:
     view: yes
