@@ -21,6 +21,6 @@ export NAME_PID=$$
 # =============================================================================
 
 #echo "Instituto Triki Tran"
-python GoogleCalendar.py
+python $HOCHOB_SERVER_SERVICES_CALENDAR/GoogleCalendar.py
 
 # End of File

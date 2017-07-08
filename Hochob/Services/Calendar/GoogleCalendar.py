@@ -73,7 +73,7 @@ def main():
        """ print('No upcoming events found.')"""
     for event in events:
         start = event['start'].get('dateTime', event['start'].get('date'))
-        print(start, event['summary'])
+        print(event['summary'])
 	#titulo=" Bienvenidos \n"+event['summary']
 	#instruccion="convert -pointsize 90 -fill white -draw \'text 50,100 \" "+str(titulo)+" \" \' intel.jpg intel2.jpg"
 	#os.system(instruccion)
