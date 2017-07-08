@@ -38,7 +38,7 @@ LogPid.sh $WINDRIVER_PID $WINDRIVER_NAME
 
 chooseLanguage
 
-if [ "$LANGUAGE" = "english" ]; then
+if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Host.sh $LOCAL_LANGUAGE "${LOCAL_INSTITUTION_NAME}" "${LOCAL_EVENT_NAME_ENGLISH}"
 else
     Host.sh $LOCAL_LANGUAGE "${LOCAL_INSTITUTION_NAME}" "${LOCAL_EVENT_NAME_SPANISH}"
