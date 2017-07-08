@@ -16,5 +16,6 @@ If not, naming convention is
 
 ```sh
 pip install httplib2
+python -m pip install --upgrade google-api-python-client
 ```
 
