@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 from __future__ import print_function
 import httplib2
@@ -73,7 +75,8 @@ def main():
        """ print('No upcoming events found.')"""
     for event in events:
         start = event['start'].get('dateTime', event['start'].get('date'))
-        print(event['summary'])
+        name = event['summary'].encode('utf-8')
+        print(name)
 	#titulo=" Bienvenidos \n"+event['summary']
 	#instruccion="convert -pointsize 90 -fill white -draw \'text 50,100 \" "+str(titulo)+" \" \' intel.jpg intel2.jpg"
 	#os.system(instruccion)

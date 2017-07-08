@@ -35,6 +35,6 @@ chooseLanguage()
 LogPid.sh $WINDRIVER_PID $WINDRIVER_NAME
 
 chooseLanguage
-Host.sh $LOCAL_LANGUAGE $LOCAL_INSTITUTION_NAME
+Host.sh $LOCAL_LANGUAGE "${LOCAL_INSTITUTION_NAME}"
 
 # End of File
