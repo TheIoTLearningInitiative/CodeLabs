@@ -60,7 +60,7 @@ chooseGreeting
 
 LOCAL_MESSAGE=$LOCAL_GREETING
 
-Robot.sh lupe/message $LOCAL_MESSAGE
+Robot.sh lupe/say $LOCAL_MESSAGE
 
 Robot.sh lupe/armfold 1
 sleep 2
