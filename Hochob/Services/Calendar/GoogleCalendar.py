@@ -74,10 +74,10 @@ def main():
     for event in events:
         start = event['start'].get('dateTime', event['start'].get('date'))
         print(start, event['summary'])
-	titulo=" Bienvenidos \n"+event['summary']
-	instruccion="convert -pointsize 90 -fill white -draw \'text 50,100 \" "+str(titulo)+" \" \' intel.jpg intel2.jpg"
-	os.system(instruccion)
-	os.system("feh --fullscreen intel2.jpg")
+	#titulo=" Bienvenidos \n"+event['summary']
+	#instruccion="convert -pointsize 90 -fill white -draw \'text 50,100 \" "+str(titulo)+" \" \' intel.jpg intel2.jpg"
+	#os.system(instruccion)
+	#os.system("feh --fullscreen intel2.jpg")
 	
 
 if __name__ == '__main__':

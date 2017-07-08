@@ -20,6 +20,7 @@ export NAME_PID=$$
 # Main
 # =============================================================================
 
-echo "Instituto Triki Tran"
+#echo "Instituto Triki Tran"
+python GoogleCalendar.py
 
 # End of File
