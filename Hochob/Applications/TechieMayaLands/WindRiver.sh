@@ -25,6 +25,10 @@ export WINDRIVER_DIRECTORY=$(dirname "$WINDRIVER_PATH")
 
 LogPid.sh $WINDRIVER_PID $WINDRIVER_NAME
 
-Robot.sh lupe/inicial 1
+
+
+Robot.sh lupe/armfold 1
+sleep 2
+Robot.sh lupe/armunfold 1
 
 # End of File
