@@ -13,6 +13,9 @@ export WINDRIVER_NAME="WindRiver"
 export WINDRIVER_PATH=$(readlink -f "$0")
 export WINDRIVER_DIRECTORY=$(dirname "$WINDRIVER_PATH")
 
+LOCAL_LANGUAGE[0]="english"
+LOCAL_LANGUAGE[1]="spanish"
+
 LOCAL_GREETING_ENGLISH[0]="Hi There."
 LOCAL_GREETING_ENGLISH[1]="Good morning."
 LOCAL_GREETING_ENGLISH[2]="Hi Friend."
@@ -20,14 +23,20 @@ LOCAL_GREETING_ENGLISH[3]="Hey."
 LOCAL_GREETING_ENGLISH[4]="Hello There."
 
 LOCAL_GREETING_SPANISH[0]="Hola."
-LOCAL_GREETING_SPANISH[0]="Buenos dias."
-LOCAL_GREETING_SPANISH[0]="Hola Cacerola."
-LOCAL_GREETING_SPANISH[0]="Que onda."
-LOCAL_GREETING_SPANISH[0]="Espera."
+LOCAL_GREETING_SPANISH[1]="Buenos dias."
+LOCAL_GREETING_SPANISH[2]="Hola Cacerola."
+LOCAL_GREETING_SPANISH[3]="Que onda."
+LOCAL_GREETING_SPANISH[4]="Espera."
 
 # =============================================================================
 # Functions
 # =============================================================================
+
+chooseLanguage()
+{
+    rand=$[ $RANDOM % 2 ]
+    LOCAL_LANGUAGE=${LOCAL_LANGUAGE[$rand]}
+}
 
 chooseGreeting()
 {
@@ -45,6 +54,9 @@ chooseGreeting()
 # =============================================================================
 
 LogPid.sh $WINDRIVER_PID $WINDRIVER_NAME
+
+chooseLanguage
+chooseGreeting
 
 LOCAL_MESSAGE=$LOCAL_GREETING
 
