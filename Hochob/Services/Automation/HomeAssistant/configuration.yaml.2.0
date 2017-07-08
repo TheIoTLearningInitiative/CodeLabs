@@ -46,32 +46,38 @@ homeassistant:
 
     switch.guanajuato:
       friendly_name: Image Showcase
-      icon: mdi:camera
+      icon: mdi:folder-multiple-image
     switch.guerrero:
       friendly_name: Video Showcase
-      icon: mdi:camera
+      icon: mdi:file-video
 
     # Southern Maya Highlands : Intel Guadalajara
 
     switch.jalisco:
       friendly_name: Image Showcase
-      icon: mdi:camera
+      icon: mdi:folder-multiple-image
 
     # Southern Maya Highlands : Visitors Center
 
     switch.hidalgo:
       friendly_name: Image Showcase
-      icon: mdi:camera
+      icon: mdi:folder-multiple-image
 
     # Southern Maya Highlands : Memories
 
     switch.queretaro:
       friendly_name: Image Showcase
-      icon: mdi:camera
+      icon: mdi:folder-multiple-image
     switch.quintanaroo:
       friendly_name: Video Showcase
+      icon: mdi:file-video
+
+    # Southern Maya Highlands : Camera
+
+    switch.yucatan:
+      friendly_name: Camera Preview
       icon: mdi:camera
-      
+
     # Southern Maya Highlands : Sandbox
     
     script.zacatecas:
@@ -611,6 +617,12 @@ switch:
         command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/QuintanaRoo.sh &"
         command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh vlc"
 
+      # Southern Maya Highlands: Camera
+
+      yucatan:
+        command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0 &"
+        command_off: "pkill -9 vlc"
+
 automation:
 
   - alias: Services Sound PulseAudio Change
@@ -666,6 +678,7 @@ group:
       - group.southernmayahighlandsintelguadalajara
       - group.southernmayahighlandsvisitorscenter
       - group.southernmayahighlandsmemories
+      - gropu.southernmayahighlandscamera
       #- group.southernmayahighlandssandbox
 
   robotmayalands:
@@ -757,6 +770,11 @@ group:
     entities:
       - switch.queretaro
       - switch.quintanaroo
+
+  southernmayahighlandscamera:
+    name: Camera
+    entities:
+      - switch.yucatan
 
   southernmayahighlandssandbox:
     name: Sandbox
