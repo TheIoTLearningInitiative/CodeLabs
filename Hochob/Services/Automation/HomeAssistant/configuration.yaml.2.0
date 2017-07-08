@@ -208,11 +208,11 @@ homeassistant:
 
     input_slider.qualcomm:
       friendly_name: Server Volume Set %
-      icon: mdi:approval
+      icon: mdi:volume-high
 
     sensor.qualcomm:
       friendly_name: Server Volume %
-      icon: mdi:approval
+      icon: mdi:volume-high
 
     script.toyota:
       friendly_name: System Health
