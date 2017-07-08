@@ -13,8 +13,8 @@
 * Durango
 * **Guanajuato**
 * **Guerrero**
-* Hidalgo
-* Jalisco
+* __Hidalgo__
+* __Jalisco__
 * Mexico
 * **Michoacan**
 * Morelos
@@ -108,6 +108,14 @@
 
 * **Area** The Home
 * **Group** Visitors Center
+* **Friendly Name**: Image Showcase
+* **Services**:
+  * **Image** Eog
+
+# Name: Jalisco
+
+* **Area** The Home
+* **Group** Intel Guadalajara
 * **Friendly Name**: Image Showcase
 * **Services**:
   * **Image** Eog
