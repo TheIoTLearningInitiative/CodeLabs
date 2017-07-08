@@ -251,7 +251,27 @@ logbook:
 #  - platform: ffmpeg
 #    input: /dev/video0
 
+google:
+  client_id: !secret google_calendar_client_id
+  client_secret: !secret google_calendar_client_secret
+
+input_slider:
+
+  server_volume:
+    name: Server Volume
+    initial: 50
+    min: 0
+    max: 100
+    step: 5
+    icon: mdi:volume-medium
+
 sensor:
+
+  - platform: command_line
+    name: Server Volume Read
+    command: amixer sget Master | grep -Eo '\[(\w+)\%\]' | grep -Eo '\w+'
+    unit_of_measurement: "%"
+    value_template: '{{ value | int }}'
 
   - platform: systemmonitor
     name: System Monitor
@@ -260,6 +280,18 @@ sensor:
       - type: memory_free
       - type: disk_use_percent
         arg: /home/
+
+  - platform: template
+    sensors:
+      calendarmessage:
+        friendly_name: Who is coming?
+        value_template: '{{ states.calendar.hochobvcgmailcom.attributes.message }}'
+
+  - platform: template
+    sensors:
+      calendarstarttime:
+        friendly_name: When?
+        value_template: '{{ states.calendar.hochobvcgmailcom.attributes.start_time }}'
 
 device_tracker:
   - platform: ping
@@ -449,6 +481,8 @@ script:
 
 shell_command:
 
+  server_volume_set: amixer sset Master '{{ volume_level }}%'
+
   # Southern Maya Highlands
 
   aguascalientes: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Aguascalientes.sh &
@@ -511,7 +545,7 @@ shell_command:
   keypadthree: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 3 &
   keypadfour: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 4 &
   visitorsusb: ~/CodeLabs/Hochob/Services/Visitors/Usb.sh &
- 
+
 switch:
 
   - platform: command_line
@@ -547,12 +581,35 @@ switch:
         command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/QuintanaRoo.sh &"
         command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh vlc"
 
+automation:
+
+  # Server Volume Automation
+  - alias: Server Volume Change
+    trigger:
+      - platform: state
+        entity_id: input_slider.server_volume
+    action:
+      - service: shell_command.server_volume_set
+        data_template:
+          volume_level: "{{ states.input_slider.server_volume.state }}"
+
+  - alias: Server Volume Change Read
+    trigger:
+      - platform: state
+        entity_id: sensor.server_volume_read
+    action:
+      - service: input_slider.select_value
+        data_template:
+          entity_id: input_slider.server_volume
+          value: "{{ states.sensor.server_volume_read.state | int }}"
+
 group:
 
   default_view:
     view: yes
     name: The Home
     entities:
+      - group.southernmayahighlandscalendar
       - group.southernmayahighlandslanguage
       - group.southernmayahighlandsintroduction
       - group.southernmayahighlandsrobot
@@ -593,10 +650,18 @@ group:
     view: yes
     name: The Techie
     entities:
+      - group.techiemayalandssystemcalendar
+      - group.techiemayalandssystemaudio
       - group.techiemayalandssystemhealth
       - group.techiemayalandssystemmonitor
       - group.techiemayalandsinfrastructure
       - group.techiemayalandssandbox
+
+  southernmayahighlandscalendar:
+    name: Next Visit
+    entities:
+      - sensor.calendarmessage
+      - sensor.calendarstarttime
 
   southernmayahighlandslanguage:
     name: Idioma
@@ -714,18 +779,25 @@ group:
       - script.movebackward
       - script.movestop
 
+  techiemayalandssystemcalendar:
+    name: System Calendar
+    entities:
+      - sensor.calendarmessage
+      - sensor.calendarstarttime
+
+  techiemayalandssystemaudio:
+    name: System Audio
+    entities:
+      - input_slider.server_volume
+      - sensor.server_volume_read
+      - shell_command.server_volume_set
+      - automation.server_volume_change
+      - automation.server_volume_change_read      
+
   techiemayalandssystemhealth:
     name: System Health
     entities:
       - script.toyota
-
-  techiemayalandskeypad:
-    name: Keypad
-    entities:
-      - script.keypadone
-      - script.keypadtwo
-      - script.keypadthree
-      - script.keypadfour
 
   techiemayalandssystemmonitor:
     name: System Monitor
@@ -741,8 +813,16 @@ group:
       - device_tracker.eclipse
       - device_tracker.hochob
 
+  techiemayalandskeypad:
+    name: Keypad
+    entities:
+      - script.keypadone
+      - script.keypadtwo
+      - script.keypadthree
+      - script.keypadfour
+
   techiemayalandssandbox:
     name: Sandbox
     entities:
       - script.visitorsusb
-
+      - calendar.hochobvcgmailcom
