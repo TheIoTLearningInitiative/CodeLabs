@@ -42,14 +42,14 @@ LOCAL_REMINDER_ENGLISH[6]="Let's not say anything else, the great event,"
 
 LOCAL_REMINDER_SPANISH[0]="Recuerda hoy tenemos nuestro evento,"
 LOCAL_REMINDER_SPANISH[1]="No olvides acerca de"
-LOCAL_REMINDER_SPANISH[2]="Hoy es el gran dia!,"
-LOCAL_REMINDER_SPANISH[3]="Finalmente aqui!,"
+LOCAL_REMINDER_SPANISH[2]="Hoy es el gran día!,"
+LOCAL_REMINDER_SPANISH[3]="Finalmente aquí!,"
 LOCAL_REMINDER_SPANISH[4]="Finalmente con nosotros!,"
-LOCAL_REMINDER_SPANISH[5]="El gran dia ha llegado!,"
+LOCAL_REMINDER_SPANISH[5]="El gran día ha llegado!,"
 LOCAL_REMINDER_SPANISH[6]="No se diga mas, el gran evento,"
 
 LOCAL_CLOSURE_ENGLISH="Check you email for more information."
-LOCAL_CLOSURE_SPANISH="Verifica tu correo electronico para mas informacion."
+LOCAL_CLOSURE_SPANISH="Verifica tu correo electrónico para mas información."
 
 # =============================================================================
 # Functions
