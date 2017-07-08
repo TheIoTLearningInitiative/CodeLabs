@@ -1,6 +1,7 @@
 # Techie Maya Lands
 
 - __Apple__
+- __Bosch__
 - __Qualcomm__
 - __Toyota__
 - __WindRiver__
@@ -10,6 +11,12 @@
 - __Area__: The Techie
 - __Group__: System Calendar
 - __Friendly Name__: System Calendar
+
+# Name: Bosch
+
+- __Area__: The Techie
+- __Group__: System Quote
+- __Friendly Name__: System Quote
 
 # Name: Qualcomm
 
