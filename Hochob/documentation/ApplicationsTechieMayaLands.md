@@ -4,7 +4,7 @@
 - Toyota
 - WindRiver
 
-# Name: Qualcomm
+# Name: Apple
 
 - __Area__: The Techie
 - __Group__: System Calendar
