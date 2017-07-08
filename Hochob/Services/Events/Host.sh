@@ -49,8 +49,7 @@ LOCAL_REMINDER_SPANISH[5]="El gran dia ha llegado!,"
 LOCAL_REMINDER_SPANISH[6]="No se diga mas, el gran evento,"
 
 LOCAL_CLOSURE_ENGLISH="Check you email for more information."
-LOCAL_CLOSURE_SPANSIH="Verifica tu correo electronico para mas informacion."
-
+LOCAL_CLOSURE_SPANISH="Verifica tu correo electronico para mas informacion."
 
 # =============================================================================
 # Functions
@@ -81,6 +80,8 @@ chooseReminder()
 chooseClosure()
 {
     LANGUAGE=$1
+    rand=$[ $RANDOM % 2 ]
+    echo $rand
     if [ "$LANGUAGE" = "english" ]; then
         LOCAL_CLOSURE=${LOCAL_CLOSURE_ENGLISH}
     else
@@ -95,6 +96,8 @@ chooseClosure()
 chooseGreeting $LOCAL_LANGUAGE
 chooseReminder $LOCAL_LANGUAGE
 chooseClosure $LOCAL_LANGUAGE
+
+exit 0
 
 LOCAL_MESSAGE="${LOCAL_GREETING} ${LOCAL_INSTITUTION_NAME}. \
                ${LOCAL_REMINDER} ${LOCAL_EVENT_NAME}. \
