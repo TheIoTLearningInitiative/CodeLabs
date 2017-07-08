@@ -99,8 +99,6 @@ chooseGreeting $LOCAL_LANGUAGE
 chooseReminder $LOCAL_LANGUAGE
 chooseClosure $LOCAL_LANGUAGE
 
-exit 0
-
 LOCAL_MESSAGE="${LOCAL_GREETING} ${LOCAL_INSTITUTION_NAME}. \
                ${LOCAL_REMINDER} ${LOCAL_EVENT_NAME}. \
                ${LOCAL_CLOSURE}"
