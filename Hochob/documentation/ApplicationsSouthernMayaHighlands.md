@@ -20,7 +20,7 @@
 * Morelos
 * Nayarit
 * Nuevo Leon
-* Oaxaca
+* __Oaxaca__
 * Puebla
 * **Queretaro**
 * **Quintana Roo**
@@ -135,6 +135,13 @@
 * **Friendly Name**: Videos Showcase
 * **Services**:
   * **Video** VlcMediaPlayer
+
+# Name: Yucatan
+* **Area** The Home
+* **Group** Camera
+* **Friendly Name**: Camera Showcase
+* **Services**:
+  * **Camera** Vlc
 
 # Under Development
 
