@@ -857,6 +857,11 @@ group:
       - script.movebackward
       - script.movestop
 
+  techiemayalandssystemhealth:
+    name: System Health
+    entities:
+      - script.toyota
+
   techiemayalandssystemapple:
     name: System Calendar
     entities:
@@ -873,11 +878,6 @@ group:
       - shell_command.qualcomm
       - automation.services_sound_pulseaudio_change
       - automation.services_sound_pulseaudio_read
-
-  techiemayalandssystemhealth:
-    name: System Health
-    entities:
-      - script.toyota
 
   techiemayalandssystemmonitor:
     name: System Monitor
