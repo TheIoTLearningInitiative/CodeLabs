@@ -14,6 +14,7 @@ export WINDRIVER_PATH=$(readlink -f "$0")
 export WINDRIVER_DIRECTORY=$(dirname "$WINDRIVER_PATH")
 
 LOCAL_INSTITUTION_NAME=`Name.sh`
+LOCAL_EVENT_NAME="Innovation Week 2017"
 
 LOCAL_LANGUAGE[0]="english"
 LOCAL_LANGUAGE[1]="spanish"
@@ -35,6 +36,6 @@ chooseLanguage()
 LogPid.sh $WINDRIVER_PID $WINDRIVER_NAME
 
 chooseLanguage
-Host.sh $LOCAL_LANGUAGE "${LOCAL_INSTITUTION_NAME}"
+Host.sh $LOCAL_LANGUAGE "${LOCAL_INSTITUTION_NAME}" "${LOCAL_EVENT_NAME}"
 
 # End of File
