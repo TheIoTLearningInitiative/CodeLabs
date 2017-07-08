@@ -755,29 +755,29 @@ group:
       - script.campeche
 
   southernmayahighlandscorporate:
-    name: Media Corporate
+    name: Corporate
     entities:
       - switch.guanajuato
       - switch.guerrero
 
   southernmayahighlandsintelguadalajara:
-    name: Media Intel Guadalajara
+    name: Intel Guadalajara
     entities:
       - switch.jalisco
 
   southernmayahighlandsvisitorscenter:
-    name: Media Visitors Center
+    name: Visitors Center
     entities:
       - switch.hidalgo
 
   southernmayahighlandsmemories:
-    name: Media Memories
+    name: Memories
     entities:
       - switch.queretaro
       - switch.quintanaroo
 
   southernmayahighlandscamera:
-    name: Media Camera
+    name: Camera
     entities:
       - switch.yucatan
 
