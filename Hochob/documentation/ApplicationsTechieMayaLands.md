@@ -1,8 +1,9 @@
 # Techie Maya Lands
 
-- Qualcomm
-- Toyota
-- WindRiver
+- __Apple__
+- __Qualcomm__
+- __Toyota__
+- __WindRiver__
 
 # Name: Apple
 
