@@ -674,11 +674,6 @@ group:
       - group.southernmayahighlandsintroduction
       - group.southernmayahighlandsrobot
       - group.southernmayahighlandstour
-      - group.southernmayahighlandscorporate
-      - group.southernmayahighlandsintelguadalajara
-      - group.southernmayahighlandsvisitorscenter
-      - group.southernmayahighlandsmemories
-      - group.southernmayahighlandscamera
       #- group.southernmayahighlandssandbox
 
   robotmayalands:
@@ -719,6 +714,16 @@ group:
       - group.techiemayalandssystemevent
       - group.techiemayalandsinfrastructure
       - group.techiemayalandssandbox
+
+  mediamayalands:
+    view: yes
+    name: The Media
+    entities:
+      - group.southernmayahighlandscorporate
+      - group.southernmayahighlandsintelguadalajara
+      - group.southernmayahighlandsvisitorscenter
+      - group.southernmayahighlandsmemories
+      - group.southernmayahighlandscamera
 
   southernmayahighlandsapple:
     name: Next Visit
