@@ -76,11 +76,10 @@ chooseReminder $LOCAL_LANGUAGE
 LOCAL_MESSAGE="${LOCAL_GREETING} ${LOCAL_INSTITUTION_NAME}. \
                ${LOCAL_REMINDER} ${LOCAL_EVENT_NAME}"
 
-Robot.sh lupe/decir \
-    "${LOCAL_MESSAGE}"
-
-Robot.sh lupe/armfold 1
-sleep 2
-Robot.sh lupe/armunfold 1
+if [ "$LANGUAGE" = "english" ]; then
+    Robot.sh lupe/say "${LOCAL_MESSAGE}"
+else
+    Robot.sh lupe/decir "${LOCAL_MESSAGE}"
+fi
 
 # End of File
