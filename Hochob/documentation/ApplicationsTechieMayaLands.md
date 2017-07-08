@@ -7,6 +7,12 @@
 # Name: Qualcomm
 
 - __Area__: The Techie
+- __Group__: System Calendar
+- __Friendly Name__: System Calendar
+
+# Name: Qualcomm
+
+- __Area__: The Techie
 - __Group__: System Audio
 - __Friendly Name__: System Audio
 
