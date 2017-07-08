@@ -190,6 +190,10 @@ homeassistant:
       
     # Techie Maya Lands
 
+    sensor.bosch:
+      friendly_name: Cita
+      icon: mdi:approval
+
     input_slider.qualcomm:
       friendly_name: Server Volume Set %
       icon: mdi:approval
