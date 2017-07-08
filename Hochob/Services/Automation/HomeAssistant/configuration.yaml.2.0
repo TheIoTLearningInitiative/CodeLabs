@@ -142,7 +142,7 @@ homeassistant:
       friendly_name: Planeta Marte
       icon: mdi:test-tube
 
-    # Robot Maya Techlands
+    # Robot Maya Lands
 
     script.resetall:
       friendly_name: Reset
@@ -416,7 +416,7 @@ script:
     sequence:
       - service: shell_command.tiburonballena
 
-  # Robot Maya Techlands
+  # Robot Maya Lands
 
   resetall:
     sequence:
@@ -539,10 +539,11 @@ shell_command:
   calakmul: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Calakmul.sh &
   tiburonballena: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/TiburonBallena.sh &
   
-  # Robot Maya Techlands
+  # Robot Maya Lands
   
   resetall: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/resetall 1
   coji: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Coji.sh &
+  sphero: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Sphero.sh &
   
   headleft: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headleft 1
   headright: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headright 1
@@ -625,6 +626,27 @@ switch:
 
 automation:
 
+  # Robot Maya Lands
+
+  - alias: Services Event Host Robot
+    initial_state: 'off'
+    trigger:
+      platform: time
+      seconds: '/30'
+    action:
+      - service: shell_command.sphero
+
+  # Techie Maya Lands
+
+  - alias: Services Calendar Name
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/30'
+      seconds: 00
+    action:
+      - service: shell_command.apple
+
   - alias: Services Sound PulseAudio Change
     initial_state: 'on'
     trigger:
@@ -646,22 +668,13 @@ automation:
           entity_id: input_slider.qualcomm
           value: "{{ states.sensor.qualcomm.state | int }}"
 
-  - alias: Services Event Host
+  - alias: Services Event Host Server
     initial_state: 'off'
     trigger:
       platform: time
       seconds: '/30'
     action:
       - service: shell_command.windriver
-
-  - alias: Services Calendar Name
-    initial_state: 'off'
-    trigger:
-      platform: time
-      minutes: '/30'
-      seconds: 00
-    action:
-      - service: shell_command.apple
 
 group:
 
@@ -820,10 +833,14 @@ group:
       - script.calakmul
       - script.tiburonballena
 
-  robotmayalandsreset:
-    name: Reset
+  robotmayalandsevent:
+    name: Event
     entities:
-      - script.resetall
+      - automation.services_event_host_robot
+
+  robotmayalandslanguage:
+    name: Language
+    entities:
       - script.coji
 
   robotmayalandshead:
@@ -856,6 +873,11 @@ group:
       - script.moveforward
       - script.movebackward
       - script.movestop
+
+  robotmayalandsreset:
+    name: Reset
+    entities:
+      - script.resetall
 
   techiemayalandssystemhealth:
     name: System Health
@@ -890,7 +912,7 @@ group:
   techiemayalandssystemevent:
     name: System Event
     entities:
-      - automation.services_event_host
+      - automation.services_event_host_server
 
   techiemayalandsinfrastructure:
     name: Infrastructure
