@@ -74,7 +74,7 @@ chooseGreeting $LOCAL_LANGUAGE
 chooseReminder $LOCAL_LANGUAGE
 
 LOCAL_MESSAGE="${LOCAL_GREETING} ${LOCAL_INSTITUTION_NAME}. \
-               ${LOCAL_GREETING} ${LOCAL_EVENT_NAME}"
+               ${LOCAL_REMINDER} ${LOCAL_EVENT_NAME}"
 
 Robot.sh lupe/decir \
     "${LOCAL_MESSAGE}"
