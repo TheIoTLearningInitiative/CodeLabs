@@ -190,6 +190,14 @@ homeassistant:
       
     # Techie Maya Lands
 
+    input_slider.qualcomm:
+      friendly_name: Server Volume Set %
+      icon: mdi:approval
+
+    sensor.qualcomm:
+      friendly_name: Server Volume %
+      icon: mdi:approval
+
     script.toyota:
       friendly_name: System Health
       icon: mdi:approval
@@ -257,7 +265,7 @@ google:
 
 input_slider:
 
-  server_volume:
+  qualcomm:
     name: Server Volume
     initial: 50
     min: 0
@@ -268,7 +276,7 @@ input_slider:
 sensor:
 
   - platform: command_line
-    name: Server Volume Read
+    name: Qualcomm
     command: amixer sget Master | grep -Eo '\[(\w+)\%\]' | grep -Eo '\w+'
     unit_of_measurement: "%"
     value_template: '{{ value | int }}'
@@ -283,13 +291,13 @@ sensor:
 
   - platform: template
     sensors:
-      calendarmessage:
+      appleimac:
         friendly_name: Who is coming?
         value_template: '{{ states.calendar.hochobvcgmailcom.attributes.message }}'
 
   - platform: template
     sensors:
-      calendarstarttime:
+      appleipod:
         friendly_name: When?
         value_template: '{{ states.calendar.hochobvcgmailcom.attributes.start_time }}'
 
@@ -481,8 +489,6 @@ script:
 
 shell_command:
 
-  server_volume_set: amixer sset Master '{{ volume_level }}%'
-
   # Southern Maya Highlands
 
   aguascalientes: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Aguascalientes.sh &
@@ -538,7 +544,9 @@ shell_command:
   
   # Techie Maya Lands
   
+  qualcomm: amixer sset Master '{{ volume_level }}%'
   toyota: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Toyota.sh &
+  windriver: ~/CodeLabs/Hochob/Applications/TechieMayaLands/WindRiver.sh &
   
   keypadone: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 1 &
   keypadtwo: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 2 &
@@ -583,25 +591,36 @@ switch:
 
 automation:
 
-  # Server Volume Automation
-  - alias: Server Volume Change
+  - alias: Services Sound PulseAudio Change
+    initial_state: 'on'
     trigger:
       - platform: state
-        entity_id: input_slider.server_volume
+        entity_id: input_slider.qualcomm
     action:
-      - service: shell_command.server_volume_set
+      - service: shell_command.qualcomm
         data_template:
-          volume_level: "{{ states.input_slider.server_volume.state }}"
+          volume_level: "{{ states.input_slider.qualcomm.state }}"
 
-  - alias: Server Volume Change Read
+  - alias: Services Sound PulseAudio Read
+    initial_state: 'on'
     trigger:
       - platform: state
-        entity_id: sensor.server_volume_read
+        entity_id: sensor.qualcomm
     action:
       - service: input_slider.select_value
         data_template:
-          entity_id: input_slider.server_volume
-          value: "{{ states.sensor.server_volume_read.state | int }}"
+          entity_id: input_slider.qualcomm
+          value: "{{ states.sensor.qualcomm.state | int }}"
+
+  - alias: Services Event Host
+    initial_state: 'off'
+    trigger:
+      platform: time
+      #minutes: '/5'
+      #seconds: 00
+      seconds: '/5'
+    action:
+      - service: shell_command.windriver
 
 group:
 
@@ -609,7 +628,7 @@ group:
     view: yes
     name: The Home
     entities:
-      - group.southernmayahighlandscalendar
+      - group.southernmayahighlandsapple
       - group.southernmayahighlandslanguage
       - group.southernmayahighlandsintroduction
       - group.southernmayahighlandsrobot
@@ -650,18 +669,19 @@ group:
     view: yes
     name: The Techie
     entities:
-      - group.techiemayalandssystemcalendar
+      - group.techiemayalandssystemapple
       - group.techiemayalandssystemaudio
       - group.techiemayalandssystemhealth
       - group.techiemayalandssystemmonitor
+      - group.techiemayalandssystemevent
       - group.techiemayalandsinfrastructure
       - group.techiemayalandssandbox
 
-  southernmayahighlandscalendar:
+  southernmayahighlandsapple:
     name: Next Visit
     entities:
-      - sensor.calendarmessage
-      - sensor.calendarstarttime
+      - sensor.appleimac
+      - sensor.appleipod
 
   southernmayahighlandslanguage:
     name: Idioma
@@ -779,20 +799,21 @@ group:
       - script.movebackward
       - script.movestop
 
-  techiemayalandssystemcalendar:
+  techiemayalandssystemapple:
     name: System Calendar
     entities:
-      - sensor.calendarmessage
-      - sensor.calendarstarttime
+      - sensor.appleimac
+      - sensor.appleipod
+      - calendar.hochobvcgmailcom
 
   techiemayalandssystemaudio:
     name: System Audio
     entities:
-      - input_slider.server_volume
-      - sensor.server_volume_read
-      - shell_command.server_volume_set
-      - automation.server_volume_change
-      - automation.server_volume_change_read      
+      - input_slider.qualcomm
+      - sensor.qualcomm
+      - shell_command.qualcomm
+      - automation.services_sound_pulseaudio_change
+      - automation.services_sound_pulseaudio_read
 
   techiemayalandssystemhealth:
     name: System Health
@@ -806,6 +827,11 @@ group:
       - sensor.ram_free
       - sensor.disk_use_home
       #- camera.ffmpeg
+
+  techiemayalandssystemevent:
+    name: System Event
+    entities:
+      - automation.services_event_host
 
   techiemayalandsinfrastructure:
     name: Infrastructure
@@ -825,4 +851,3 @@ group:
     name: Sandbox
     entities:
       - script.visitorsusb
-      - calendar.hochobvcgmailcom
