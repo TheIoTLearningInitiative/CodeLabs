@@ -276,13 +276,18 @@ input_slider:
 sensor:
 
   - platform: command_line
+    name: Bosch
+    command: fortune
+    scan_interval: 600
+    
+  - platform: command_line
     name: Qualcomm
     command: amixer sget Master | grep -Eo '\[(\w+)\%\]' | grep -Eo '\w+'
     unit_of_measurement: "%"
     value_template: '{{ value | int }}'
 
   - platform: systemmonitor
-    name: System Monitor
+    name: Toyota
     resources:
       - type: processor_use
       - type: memory_free
@@ -860,3 +865,4 @@ group:
     name: Sandbox
     entities:
       - script.visitorsusb
+      - sensor.bosch
