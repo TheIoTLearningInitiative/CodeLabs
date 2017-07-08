@@ -203,7 +203,7 @@ homeassistant:
     # Techie Maya Lands
 
     sensor.bosch:
-      friendly_name: Cita
+      friendly_name: Quote
       icon: mdi:approval
 
     input_slider.qualcomm:
@@ -678,7 +678,7 @@ group:
       - group.southernmayahighlandsintelguadalajara
       - group.southernmayahighlandsvisitorscenter
       - group.southernmayahighlandsmemories
-      - gropu.southernmayahighlandscamera
+      - group.southernmayahighlandscamera
       #- group.southernmayahighlandssandbox
 
   robotmayalands:
