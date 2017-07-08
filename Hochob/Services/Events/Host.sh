@@ -46,11 +46,13 @@ chooseGreeting()
 # =============================================================================
 
 chooseGreeting $LOCAL_LANGUAGE
+echo $LOCAL_GREETING
 
-LOCAL_MESSAGE=${LOCAL_GREETING}
+#LOCAL_MESSAGE=${LOCAL_GREETING}
 
 Robot.sh lupe/decir \
-    ${LOCAL_GREETING}
+    "${LOCAL_GREETING}"
+exit 0
 Robot.sh lupe/decir \
     "Hola Mundo! Uno, Dos, Tres!"
 
