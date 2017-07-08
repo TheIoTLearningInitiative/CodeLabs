@@ -2,7 +2,7 @@
 
 - Coji
 
-# Name: Toyota
+# Name: Coji
 
 - __Area__: The Robot
 - __Group__: Language
