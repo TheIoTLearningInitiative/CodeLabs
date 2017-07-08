@@ -15,7 +15,7 @@ If not, naming convention is
 # Setup
 
 ```sh
-pip install httplib2
-python -m pip install --upgrade google-api-python-client
+hochob@server:~$ sudo pip install httplib2
+hochob@server:~$ sudo python -m pip install --upgrade google-api-python-client
 ```
 
