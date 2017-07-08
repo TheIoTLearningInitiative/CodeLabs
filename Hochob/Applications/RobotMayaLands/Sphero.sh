@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export WINDRIVER_PID=$$
-export WINDRIVER_NAME="WindRiver"
-export WINDRIVER_PATH=$(readlink -f "$0")
-export WINDRIVER_DIRECTORY=$(dirname "$WINDRIVER_PATH")
+export SPHERO_PID=$$
+export SPHERO_NAME="WindRiver"
+export SPHERO_PATH=$(readlink -f "$0")
+export SPHERO_DIRECTORY=$(dirname "$SPHERO_PATH")
 
 LOCAL_INSTITUTION_NAME=`Name.sh`
 LOCAL_EVENT_NAME_ENGLISH="Innovation Week 2017"
@@ -34,7 +34,7 @@ chooseLanguage()
 # Main
 # =============================================================================
 
-LogPid.sh $WINDRIVER_PID $WINDRIVER_NAME
+LogPid.sh $SPHERO_PID $SPHERO_NAME
 
 chooseLanguage
 
