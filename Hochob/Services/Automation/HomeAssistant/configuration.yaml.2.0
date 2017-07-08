@@ -707,9 +707,9 @@ group:
     view: yes
     name: The Techie
     entities:
+      - group.techiemayalandssystemhealth
       - group.techiemayalandssystemapple
       - group.techiemayalandssystemaudio
-      - group.techiemayalandssystemhealth
       - group.techiemayalandssystemmonitor
       - group.techiemayalandssystemevent
       - group.techiemayalandsinfrastructure
