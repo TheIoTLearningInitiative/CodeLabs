@@ -51,6 +51,12 @@ homeassistant:
       friendly_name: Video Showcase
       icon: mdi:camera
 
+    # Southern Maya Highlands : Intel Guadalajara
+
+    switch.jalisco:
+      friendly_name: Image Showcase
+      icon: mdi:camera
+
     # Southern Maya Highlands : Visitors Center
 
     switch.hidalgo:
@@ -584,6 +590,12 @@ switch:
         command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Guerrero.sh &"
         command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh vlc"
 
+      # Southern Maya Highlands: Intel Guadalajara
+
+      jalisco:
+        command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Jalisco.sh &"
+        command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
+
       # Southern Maya Highlands: Visitors Center
 
       hidalgo:
@@ -728,6 +740,11 @@ group:
     entities:
       - switch.guanajuato
       - switch.guerrero
+
+  southernmayahighlandsintelguadalajara:
+    name: Intel Guadalajara
+    entities:
+      - switch.jalisco
 
   southernmayahighlandsvisitorscenter:
     name: Visitors Center
