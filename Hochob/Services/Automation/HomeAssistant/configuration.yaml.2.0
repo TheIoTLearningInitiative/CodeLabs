@@ -544,6 +544,7 @@ shell_command:
   
   # Techie Maya Lands
   
+  apple: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Apple.sh &
   qualcomm: amixer sset Master '{{ volume_level }}%'
   toyota: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Toyota.sh &
   windriver: ~/CodeLabs/Hochob/Applications/TechieMayaLands/WindRiver.sh &
@@ -616,11 +617,18 @@ automation:
     initial_state: 'off'
     trigger:
       platform: time
-      #minutes: '/5'
-      #seconds: 00
-      seconds: '/5'
+      seconds: '/30'
     action:
       - service: shell_command.windriver
+
+  - alias: Services Calendar Name
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/30'
+      seconds: 00
+    action:
+      - service: shell_command.apple
 
 group:
 
@@ -805,6 +813,7 @@ group:
       - sensor.appleimac
       - sensor.appleipod
       - calendar.hochobvcgmailcom
+      - automation.services_calendar_name
 
   techiemayalandssystemaudio:
     name: System Audio
