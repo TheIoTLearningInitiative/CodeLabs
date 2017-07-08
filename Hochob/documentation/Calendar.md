@@ -11,3 +11,10 @@ Institution Identification through Google Calendar API. If Google Calendar entry
 
 If not, naming convention is
 - YYYYMMDD-HHMMSS
+
+# Setup
+
+```sh
+pip install httplib2
+```
+
