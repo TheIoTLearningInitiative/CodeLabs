@@ -56,7 +56,7 @@ chooseGreeting()
 LogPid.sh $WINDRIVER_PID $WINDRIVER_NAME
 
 chooseLanguage
-chooseGreeting
+chooseGreeting $LOCAL_LANGUAGE
 
 LOCAL_MESSAGE=$LOCAL_GREETING
 
