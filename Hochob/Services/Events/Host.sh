@@ -48,7 +48,7 @@ LOCAL_REMINDER_SPANISH[4]="Finalmente con nosotros!,"
 LOCAL_REMINDER_SPANISH[5]="El gran día ha llegado!,"
 LOCAL_REMINDER_SPANISH[6]="No se diga mas, el gran evento,"
 
-LOCAL_CLOSURE_ENGLISH="Check you email for more information."
+LOCAL_CLOSURE_ENGLISH="Check your email for more information."
 LOCAL_CLOSURE_SPANISH="Verifica tu correo electrónico para mas información."
 
 # =============================================================================
