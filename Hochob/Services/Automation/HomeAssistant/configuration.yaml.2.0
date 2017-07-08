@@ -282,7 +282,7 @@ sensor:
   - platform: command_line
     name: Bosch
     command: fortune
-    scan_interval: 600
+    scan_interval: 300
     
   - platform: command_line
     name: Qualcomm
