@@ -8,49 +8,45 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export TOYOTA_PID=$$
-export TOYOTA_NAME="Zacatecas"
-export TOYOTA_PATH=$(readlink -f "$0")
-export TOYOTA_DIRECTORY=$(dirname "$TOYOTA_PATH")
+export APPLE_PID=$$
+export APPLE_NAME="Zacatecas"
+export APPLE_PATH=$(readlink -f "$0")
+export APPLE_DIRECTORY=$(dirname "$APPLE_PATH")
+
+LOCAL_INSTITUTION_NAME=`Name.sh`
+
+LOCAL_LANGUAGE[0]="english"
+LOCAL_LANGUAGE[1]="spanish"
 
 # =============================================================================
 # Functions
 # =============================================================================
 
-# None
+chooseLanguage()
+{
+    rand=$[ $RANDOM % 2 ]
+    LOCAL_LANGUAGE=${LOCAL_LANGUAGE[$rand]}
+}
 
 # =============================================================================
 # Main
 # =============================================================================
 
-LogPid.sh $TOYOTA_PID $TOYOTA_NAME
+LogPid.sh $APPLE_PID $APPLE_NAME
 
-SpeechSynthetizer.sh on espeak spanish \
-    "Hola Mundo! Uno, Dos, Tres, Probando!"
+chooseLanguage
 
-Stream.sh "Triki" "1.0" "$SPEECH_MP3"
-echo $?
+if [ "$LANGUAGE" = "english" ]; then
+    SpeechSynthetizer.sh on voicerss english \
+        "Next Visit, ${LOCAL_INSTITUTION_NAME}"
+else
+    SpeechSynthetizer.sh on voicerss spanish \
+        "Proxima Visita, ${LOCAL_INSTITUTION_NAME}"
+fi
 
-Robot.sh lupe/inicial 1
-Robot.sh lupe/emocion 1
-Robot.sh lupe/porsupuesto 1
-Robot.sh lupe/cerebro 1
-Robot.sh lupe/inteledison 1
-
-Stream.sh "Tran" "1.0" "$SPEECH_MP3"
-echo $?
-Stream.sh "Juum" "1.0" "$SPEECH_MP3"
-echo $?
-Stream.sh "Eek'" "1.0" "$SPEECH_MP3"
-echo $?
-
-Memories.sh "5" "on" "${ZACATECAS_NAME}" &
-sleep 2
-ConvertText.sh "$FSWEBCAM_IMAGE" "System Health"
-wait
-Eog.sh "$FSWEBCAM_IMAGE" &
-sleep 2
-
-KillApp.sh "eog"
+#Stream.sh "Triki" "1.0" "$SPEECH_MP3"
+#Stream.sh "Tran" "1.0" "$SPEECH_MP3"
+#Stream.sh "Juum" "1.0" "$SPEECH_MP3"
+#Stream.sh "Eek'" "1.0" "$SPEECH_MP3"
 
 # End of File
