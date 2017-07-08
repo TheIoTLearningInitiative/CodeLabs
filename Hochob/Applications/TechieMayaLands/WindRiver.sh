@@ -60,7 +60,8 @@ chooseGreeting $LOCAL_LANGUAGE
 
 LOCAL_MESSAGE=$LOCAL_GREETING
 
-Robot.sh lupe/say $LOCAL_MESSAGE
+Robot.sh lupe/decir \
+    $LOCAL_MESSAGE
 Robot.sh lupe/decir \
     "Hola Mundo! Uno, Dos, Tres!"
 
