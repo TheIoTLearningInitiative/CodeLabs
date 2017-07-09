@@ -206,7 +206,7 @@ homeassistant:
       friendly_name: Quote
       icon: mdi:approval
 
-   script.toyota:
+    script.toyota:
       friendly_name: Check Infrastructure
       icon: mdi:approval
 
