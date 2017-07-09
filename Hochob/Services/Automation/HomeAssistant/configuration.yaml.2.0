@@ -693,11 +693,13 @@ group:
     view: yes
     name: The Robot
     entities:
-      - group.robotmayalandsreset
+      - group.robotmayalandslanguage
+      - group.robotmayalandsevent
       - group.robotmayalandshead
       - group.robotmayalandsarmright
       - group.robotmayalandsarmleft
       - group.robotmayalandslegs
+      - group.robotmayalandsreset
 
   centralmayalowlands:
     view: yes
@@ -833,15 +835,15 @@ group:
       - script.calakmul
       - script.tiburonballena
 
-  robotmayalandsevent:
-    name: Event
-    entities:
-      - automation.services_event_host_robot
-
   robotmayalandslanguage:
     name: Language
     entities:
       - script.coji
+
+  robotmayalandsevent:
+    name: Event
+    entities:
+      - automation.services_event_host_robot
 
   robotmayalandshead:
     name: Head
