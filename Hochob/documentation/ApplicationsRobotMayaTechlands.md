@@ -1,6 +1,7 @@
 # Robot Maya Techlands
 
-- Coji
+- __Coji__
+- __Sphero__
 
 # Name: Coji
 
