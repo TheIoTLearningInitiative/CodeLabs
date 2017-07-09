@@ -10,9 +10,10 @@ set -x
 
 export HOST_PID=$$
 
-LOCAL_LANGUAGE="$1"
-LOCAL_INSTITUTION_NAME="$2"
-LOCAL_EVENT_NAME="$3"
+LOCAL_HOST="$1"
+LOCAL_LANGUAGE="$2"
+LOCAL_INSTITUTION_NAME="$3"
+LOCAL_EVENT_NAME="$4"
 
 LOCAL_GREETING_ENGLISH[0]="Hi There,"
 LOCAL_GREETING_ENGLISH[1]="Good morning,"
@@ -103,10 +104,15 @@ LOCAL_MESSAGE="${LOCAL_GREETING} ${LOCAL_INSTITUTION_NAME}. \
                ${LOCAL_REMINDER} ${LOCAL_EVENT_NAME}. \
                ${LOCAL_CLOSURE}"
 
-if [ "$LANGUAGE" = "english" ]; then
-    Robot.sh lupe/say "${LOCAL_MESSAGE}"
+if [ "$LOCAL_HOST" = "server" ]; then
+    SpeechSynthetizer.sh on voicerss $LANGUAGE "${LOCAL_MESSAGE}"
 else
-    Robot.sh lupe/decir "${LOCAL_MESSAGE}"
+    if [ "$LANGUAGE" = "english" ]; then
+        Robot.sh lupe/say "${LOCAL_MESSAGE}"
+    else
+        Robot.sh lupe/decir "${LOCAL_MESSAGE}"
+    fi
 fi
+
 
 # End of File
