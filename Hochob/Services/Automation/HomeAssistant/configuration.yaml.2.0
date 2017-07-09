@@ -202,17 +202,17 @@ homeassistant:
       
     # Techie Maya Lands
 
-    script.toyota:
+    sensor.bosch:
+      friendly_name: Quote
+      icon: mdi:approval
+
+   script.toyota:
       friendly_name: Check Infrastructure
       icon: mdi:approval
 
     script.kodak:
       friendly_name: Reboot
       icon: mdi:restart
-
-    sensor.bosch:
-      friendly_name: Quote
-      icon: mdi:approval
 
     input_slider.qualcomm:
       friendly_name: Server Volume Set %
@@ -573,10 +573,10 @@ shell_command:
   
   # Techie Maya Lands
   
-  apple: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Apple.sh &
-  qualcomm: amixer sset Master '{{ volume_level }}%'
   toyota: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Toyota.sh &
   kodak: ssh root@127.0.0.1 sudo reboot
+  apple: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Apple.sh &
+  qualcomm: amixer sset Master '{{ volume_level }}%'
   windriver: ~/CodeLabs/Hochob/Applications/TechieMayaLands/WindRiver.sh &
   
   keypadone: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 1 &
@@ -892,6 +892,7 @@ group:
   techiemayalandssystemhealth:
     name: System Health
     entities:
+      - sensor.bosch
       - script.toyota
       - script.kodak
 
@@ -943,4 +944,3 @@ group:
     name: Sandbox
     entities:
       - script.visitorsusb
-      - sensor.bosch
