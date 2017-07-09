@@ -128,6 +128,7 @@
   * [Server](Hochob/documentation/Server.md)
     * [Setup](Hochob/documentation/ServerSetup.md)
       * [PulseAudio](Hochob/documentation/PulseAudio.md)
+      * [Root](Hochob/documentation/ServerSetupRoot.md)
     * [Architecture](Hochob/documentation/ServerArchitecture.md)
     * [Media](Hochob/documentation/ServerArchitectureMedia.md)
     * [Services](Hochob/documentation/Services.md)
