@@ -9,12 +9,6 @@
 - __WindRiver__
 - __SpaceX__
 
-# Name: Bosch
-
-- __Area__: The Techie
-- __Group__: System Health
-- __Friendly Name__: Quote
-
 # Name: Toyota
 
 - __Area__: The Techie
@@ -50,3 +44,10 @@
 - __Area__: The Techie
 - __Group__: Host
 - __Friendly Name__: Host
+
+# Name: Bosch
+
+- __Area__: The Techie
+- __Group__: System Quote
+- __Friendly Name__: Quote
+
