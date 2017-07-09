@@ -690,6 +690,7 @@ group:
     view: yes
     name: The Home
     entities:
+      - group.techiemayalandssystemhealth
       - group.southernmayahighlandsapple
       - group.southernmayahighlandslanguage
       - group.southernmayahighlandsintroduction
@@ -736,6 +737,7 @@ group:
       - group.techiemayalandssystemmonitor
       - group.techiemayalandssystemevent
       - group.techiemayalandsinfrastructure
+      - group.techiemayalandsquote
       - group.techiemayalandssandbox
 
   mediamayalands:
@@ -892,7 +894,6 @@ group:
   techiemayalandssystemhealth:
     name: System Health
     entities:
-      - sensor.bosch
       - script.toyota
       - script.kodak
 
@@ -939,6 +940,11 @@ group:
       - script.keypadtwo
       - script.keypadthree
       - script.keypadfour
+
+  techiemayalandsquote:
+    name: Quote
+    entities:
+      - sensor.bosch
 
   techiemayalandssandbox:
     name: Sandbox
