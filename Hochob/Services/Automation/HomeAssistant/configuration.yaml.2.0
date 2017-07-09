@@ -202,6 +202,14 @@ homeassistant:
       
     # Techie Maya Lands
 
+    script.toyota:
+      friendly_name: Check Infrastructure
+      icon: mdi:approval
+
+    script.kodak:
+      friendly_name: Reboot
+      icon: mdi:restart
+
     sensor.bosch:
       friendly_name: Quote
       icon: mdi:approval
@@ -213,10 +221,6 @@ homeassistant:
     sensor.qualcomm:
       friendly_name: Server Volume %
       icon: mdi:volume-high
-
-    script.toyota:
-      friendly_name: System Health
-      icon: mdi:approval
 
     script.keypadone:
       friendly_name: Botón Uno
@@ -303,7 +307,7 @@ sensor:
     value_template: '{{ value | int }}'
 
   - platform: systemmonitor
-    name: Toyota
+    name: SpaceX
     resources:
       - type: processor_use
       - type: memory_free
@@ -491,6 +495,9 @@ script:
   toyota:
     sequence:
       - service: shell_command.toyota
+  kodak:
+    sequence:
+      - service: shell_command.kodak
   keypadone:
     sequence:
       - service: shell_command.keypadone
@@ -569,6 +576,7 @@ shell_command:
   apple: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Apple.sh &
   qualcomm: amixer sset Master '{{ volume_level }}%'
   toyota: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Toyota.sh &
+  kodak: ssh root@127.0.0.1 sudo reboot
   windriver: ~/CodeLabs/Hochob/Applications/TechieMayaLands/WindRiver.sh &
   
   keypadone: ~/CodeLabs/Hochob/Services/Keypad/Keypad.sh virtual 1 &
@@ -885,6 +893,7 @@ group:
     name: System Health
     entities:
       - script.toyota
+      - script.kodak
 
   techiemayalandssystemapple:
     name: System Calendar
