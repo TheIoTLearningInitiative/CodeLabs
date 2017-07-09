@@ -732,7 +732,7 @@ group:
     name: The Techie
     entities:
       - group.techiemayalandssystemhealth
-      - group.techiemayalandssystemapple
+      - group.techiemayalandssystemcalendar
       - group.techiemayalandssystemaudio
       - group.techiemayalandssystemmonitor
       - group.techiemayalandssystemevent
@@ -897,7 +897,7 @@ group:
       - script.toyota
       - script.kodak
 
-  techiemayalandssystemapple:
+  techiemayalandssystemcalendar:
     name: System Calendar
     entities:
       - sensor.appleimac
