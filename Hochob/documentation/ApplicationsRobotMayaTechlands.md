@@ -12,5 +12,5 @@
 # Name: Sphero
 
 - __Area__: The Robot
-- __Group__: Host
-- __Friendly Name__: Host
+- __Group__: Event
+- __Friendly Name__: Services Event Host Robot

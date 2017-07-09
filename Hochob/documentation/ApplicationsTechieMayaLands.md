@@ -42,8 +42,8 @@
 # Name: WindRiver
 
 - __Area__: The Techie
-- __Group__: Host
-- __Friendly Name__: Host
+- __Group__: System Event
+- __Friendly Name__: Services Event Host Server
 
 # Name: Bosch
 
