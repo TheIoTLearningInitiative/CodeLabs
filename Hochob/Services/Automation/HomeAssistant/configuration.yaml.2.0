@@ -203,7 +203,7 @@ homeassistant:
     # Techie Maya Lands
 
     sensor.bosch:
-      friendly_name: Quote
+      friendly_name: System Quote
       icon: mdi:approval
 
     script.toyota:
@@ -691,7 +691,7 @@ group:
     name: The Home
     entities:
       - group.techiemayalandssystemhealth
-      - group.southernmayahighlandsapple
+      - group.southernmayahighlandscalendar
       - group.southernmayahighlandslanguage
       - group.southernmayahighlandsintroduction
       - group.southernmayahighlandsrobot
@@ -736,8 +736,8 @@ group:
       - group.techiemayalandssystemaudio
       - group.techiemayalandssystemmonitor
       - group.techiemayalandssystemevent
-      - group.techiemayalandsinfrastructure
-      - group.techiemayalandsquote
+      - group.techiemayalandssystemquote
+      - group.techiemayalandsserverinfrastructure
       - group.techiemayalandssandbox
 
   mediamayalands:
@@ -750,7 +750,7 @@ group:
       - group.southernmayahighlandsmemories
       - group.southernmayahighlandscamera
 
-  southernmayahighlandsapple:
+  southernmayahighlandscalendar:
     name: Next Visit
     entities:
       - sensor.appleimac
@@ -927,8 +927,13 @@ group:
     entities:
       - automation.services_event_host_server
 
-  techiemayalandsinfrastructure:
-    name: Infrastructure
+  techiemayalandssystemquote:
+    name: System Quote
+    entities:
+      - sensor.bosch
+
+  techiemayalandsserverinfrastructure:
+    name: Server Infrastructure
     entities:
       - device_tracker.eclipse
       - device_tracker.hochob
@@ -940,11 +945,6 @@ group:
       - script.keypadtwo
       - script.keypadthree
       - script.keypadfour
-
-  techiemayalandsquote:
-    name: Quote
-    entities:
-      - sensor.bosch
 
   techiemayalandssandbox:
     name: Sandbox
