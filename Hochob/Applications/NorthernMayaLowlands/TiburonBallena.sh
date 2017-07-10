@@ -40,7 +40,7 @@ StreamAudio.sh $LOCAL_DEVICE spanish robot \
       "
       Los mayas fueron quienes inventaron el numero 0? \
       "
-SurveyMultipleOption.sh $LOCAL_DEVICE spanish tt yes
+SurveyYesNo.sh $LOCAL_DEVICE spanish tt yes
 
 exit 0
 
@@ -64,7 +64,7 @@ StreamAudio.sh $LOCAL_DEVICE english tt \
       Three, Sojourner. \
       Four, Mariner 4.
       "
-SurveyOption.sh $LOCAL_DEVICE english tt 4
+SurveyMultipleOption.sh $LOCAL_DEVICE english tt 4
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Eek.sh english robot "Hi Lupe, good morning"
