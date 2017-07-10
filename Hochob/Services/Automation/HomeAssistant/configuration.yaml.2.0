@@ -742,6 +742,7 @@ group:
 
   mediamayalands:
     view: yes
+    icon: mdi:filmstrip
     name: The Media
     entities:
       - group.southernmayahighlandscorporate
