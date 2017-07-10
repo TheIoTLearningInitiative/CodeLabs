@@ -36,10 +36,10 @@ LOCAL_LANGUAGE=`Language.sh`
 #      Pero donde puedes ver esto y mas? En marte!
 #      "
 
-StreamAudio.sh $LOCAL_DEVICE spanish robot \
-      "
-      Los mayas fueron quienes inventaron el numero 0? \
-      "
+#StreamAudio.sh $LOCAL_DEVICE spanish robot \
+#      "
+#      Los mayas fueron quienes inventaron el numero 0? \
+#      "
 SurveyYesNo.sh $LOCAL_DEVICE spanish tt yes
 
 exit 0
