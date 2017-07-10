@@ -1,5 +1,4 @@
 # Keypad
 
-# Yes No
-
-# Multiple
+- Yes No
+- Multiple
