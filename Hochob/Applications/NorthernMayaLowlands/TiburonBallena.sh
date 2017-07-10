@@ -28,7 +28,7 @@ LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
 # StreamAudio.sh $LOCAL_DEVICE spanish robot "Hola"
-# Survey.sh $LOCAL_DEVICE spanish robot 1
+# SurveyOption.sh $LOCAL_DEVICE spanish robot 1
 
 #StreamAudio.sh $LOCAL_DEVICE spanish tt \
 #      "
