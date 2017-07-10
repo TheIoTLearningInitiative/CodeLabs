@@ -12,7 +12,7 @@ export KEYPAD_PID=$$
 export KEYPAD_MQTT_TOPIC=hochob/keypad/
 
 LOCAL_IDENTIFICATION="$1"
-LOCAL_BUTTON="$2"
+LOCAL_ANSWER="$2"
 
 # =============================================================================
 # Functions
@@ -26,7 +26,7 @@ LOCAL_BUTTON="$2"
 
 if [ $# -eq 2 ]
 then
-    Mosquitto.sh $KEYPAD_MQTT_TOPIC$LOCAL_IDENTIFICATION $LOCAL_BUTTON
+    Mosquitto.sh $KEYPAD_MQTT_TOPIC$LOCAL_IDENTIFICATION $LOCAL_ANSWER
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
