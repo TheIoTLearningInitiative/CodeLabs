@@ -27,17 +27,17 @@ LOCAL_WRONG_ANSWER_ENGLISH[2]="In my humble opinion, there is something bad."
 LOCAL_WRONG_ANSWER_ENGLISH[3]="Oh oh, not this time."
 LOCAL_WRONG_ANSWER_ENGLISH[4]="No, no, no."
 
-LOCAL_CORRECT_ANSWER_SPANISH[0]="Zara"
-LOCAL_CORRECT_ANSWER_SPANISH[1]="Qadir"
-LOCAL_CORRECT_ANSWER_SPANISH[2]="Mahnaz"
-LOCAL_CORRECT_ANSWER_SPANISH[3]="Ayan"
-LOCAL_CORRECT_ANSWER_SPANISH[4]="Daisy"
+LOCAL_CORRECT_ANSWER_SPANISH[0]="Es correcto"
+LOCAL_CORRECT_ANSWER_SPANISH[1]="Sí, claro"
+LOCAL_CORRECT_ANSWER_SPANISH[2]="Es justo la respuesta"
+LOCAL_CORRECT_ANSWER_SPANISH[3]="Creo que estás en lo correcto"
+LOCAL_CORRECT_ANSWER_SPANISH[4]="Totalmente de acuerdo"
 
-LOCAL_WRONG_ANSWER_SPANISH[0]="Zara"
-LOCAL_WRONG_ANSWER_SPANISH[1]="Qadir"
-LOCAL_WRONG_ANSWER_SPANISH[2]="Mahnaz"
-LOCAL_WRONG_ANSWER_SPANISH[3]="Ayan"
-LOCAL_WRONG_ANSWER_SPANISH[4]="Daisy"
+LOCAL_WRONG_ANSWER_SPANISH[0]="Me temo que no es del todo correcto"
+LOCAL_WRONG_ANSWER_SPANISH[1]="Me temo que estás equivocado"
+LOCAL_WRONG_ANSWER_SPANISH[2]="En mi humilde opinión, hay algo mal"
+LOCAL_WRONG_ANSWER_SPANISH[3]="Oh oh, no por esta ocasión"
+LOCAL_WRONG_ANSWER_SPANISH[4]="No, no, no"
 
 # =============================================================================
 # Functions
