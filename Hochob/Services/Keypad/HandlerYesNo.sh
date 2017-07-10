@@ -24,7 +24,7 @@ LOCAL_IDENTIFICATION="$1"
 
 if [ $# -eq 0 ]
 then
-    answer=`$HOCHOB_SERVER_SERVICES_SURVEY/KeypadOption.py`
+    answer=`$HOCHOB_SERVER_SERVICES_KEYPAD/HandlerYesNo.py`
     echo $answer
 else
     echo "Invalid number of arguments, see Documentation"
