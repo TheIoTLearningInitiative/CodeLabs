@@ -8,7 +8,7 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export KEYPADOPTION_PID=$$
+export HANDLERMULTIPLECHOICE_PID=$$
 
 LOCAL_IDENTIFICATION="$1"
 
