@@ -27,26 +27,21 @@ LOCAL_DEVICE="Eek'"
 LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
-# StreamAudio.sh $LOCAL_DEVICE spanish robot "Hola"
-# SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 1
-
-#StreamAudio.sh $LOCAL_DEVICE spanish tt \
-#      "
-#      Imagina esto, cielo rosa, atardeceres naranjas, mucho desierto y acantilados. \
-#      Pero donde puedes ver esto y mas? En marte!
-#      "
-
-#StreamAudio.sh $LOCAL_DEVICE spanish robot \
-#      "
-#      Los mayas fueron quienes inventaron el numero 0? \
-#      "
-SurveyYesNo.sh $LOCAL_DEVICE spanish tt yes
-
-exit 0
+StreamAudio.sh $LOCAL_DEVICE spanish tt \
+      "
+      Imagina esto, cielo rosa, atardeceres naranjas, mucho desierto y acantilados. \
+      Pero donde puedes ver esto y mas? En marte! Veamos si puedes responder un par de preguntas?
+      "
 
 StreamAudio.sh $LOCAL_DEVICE spanish robot \
       "
-      Cual fue la primer mision que tomo las primeras fotos de Marte? \
+      A Marte se le conoce también como el planeta rojo? que opinas?\
+      "
+SurveyYesNo.sh $LOCAL_DEVICE spanish robot yes
+
+StreamAudio.sh $LOCAL_DEVICE spanish robot \
+      "
+      Cual fue la primer misión que tomó por primera vez fotos de Marte? \
       Uno, Curiosity. \
       Dos, Spirit. \
       Tres, Sojourner. \
