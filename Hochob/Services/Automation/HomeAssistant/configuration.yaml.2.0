@@ -731,7 +731,8 @@ group:
     name: The Beginning
     entities:
       - group.centralmayalowlandsstations
-      - group.techiemayalandskeypad
+      - group.techiemayalandskeypadmultiplechoice
+      - group.techiemayalandskeypadyesno
       #- group.centralmayalowlandssandbox
 
   northernmayalowlands:
@@ -741,7 +742,8 @@ group:
       - group.northernmayalowlandsstations
       - group.northernmayalowlandsstories
       - group.northernmayalowlandsrobot
-      - group.techiemayalandskeypad
+      - group.techiemayalandskeypadmultiplechoice
+      - group.techiemayalandskeypadyesno
 
   techiemayalands:
     view: yes
@@ -955,13 +957,19 @@ group:
       - device_tracker.eclipse
       - device_tracker.hochob
 
-  techiemayalandskeypad:
+  techiemayalandskeypadmultiplechoice:
     name: Keypad Multiple Choice
     entities:
       - script.keypadone
       - script.keypadtwo
       - script.keypadthree
       - script.keypadfour
+
+  techiemayalandskeypadyesno:
+    name: Keypad Yes No
+    entities:
+      - script.keypadyes
+      - script.keypadno
 
   techiemayalandssandbox:
     name: Sandbox
