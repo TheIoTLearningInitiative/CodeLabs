@@ -222,6 +222,14 @@ homeassistant:
       friendly_name: Server Volume %
       icon: mdi:volume-high
 
+    script.keypadyes:
+      friendly_name: Botón Sí
+      icon: mdi:check-circle
+
+    script.keypadno:
+      friendly_name: Botón No
+      icon: mdi:checkbox-blank-circle
+
     script.keypadone:
       friendly_name: Botón Uno
       icon: mdi:numeric-1-box
@@ -237,14 +245,6 @@ homeassistant:
     script.keypadfour:
       friendly_name: Botón Cuatro
       icon: mdi:numeric-4-box
-
-    script.keypadyes:
-      friendly_name: Botón Sí
-      icon: mdi:check-circle
-
-    script.keypadno:
-      friendly_name: Botón No
-      icon: mdi:checkbox-blank-circle
 
     script.visitorsusb:
       friendly_name: Visitantes USB
@@ -506,6 +506,12 @@ script:
   kodak:
     sequence:
       - service: shell_command.kodak
+  keypadyes:
+    sequence:
+      - service: shell_command.keypadyes
+  keypadno:
+    sequence:
+      - service: shell_command.keypadno
   keypadone:
     sequence:
       - service: shell_command.keypadone
@@ -518,12 +524,6 @@ script:
   keypadfour:
     sequence:
       - service: shell_command.keypadfour
-  keypadyes:
-    sequence:
-      - service: shell_command.keypadyes
-  keypadno:
-    sequence:
-      - service: shell_command.keypadno
 
   visitorsusb:
     sequence:
@@ -593,12 +593,12 @@ shell_command:
   qualcomm: amixer sset Master '{{ volume_level }}%'
   windriver: ~/CodeLabs/Hochob/Applications/TechieMayaLands/WindRiver.sh &
   
+  keypadyes: ~/CodeLabs/Hochob/Services/Keypad/KeypadYesNo.sh virtual yes &
+  keypadno: ~/CodeLabs/Hochob/Services/Keypad/KeypadYesNo.sh virtual no &
   keypadone: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 1 &
   keypadtwo: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 2 &
   keypadthree: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 3 &
   keypadfour: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 4 &
-  keypadyes: ~/CodeLabs/Hochob/Services/Keypad/KeypadYesNo.sh virtual yes &
-  keypadno: ~/CodeLabs/Hochob/Services/Keypad/KeypadYesNo.sh virtual no &
   visitorsusb: ~/CodeLabs/Hochob/Services/Visitors/Usb.sh &
 
 switch:
@@ -957,6 +957,12 @@ group:
       - device_tracker.eclipse
       - device_tracker.hochob
 
+  techiemayalandskeypadyesno:
+    name: Keypad Yes No
+    entities:
+      - script.keypadyes
+      - script.keypadno
+
   techiemayalandskeypadmultiplechoice:
     name: Keypad Multiple Choice
     entities:
@@ -964,12 +970,6 @@ group:
       - script.keypadtwo
       - script.keypadthree
       - script.keypadfour
-
-  techiemayalandskeypadyesno:
-    name: Keypad Yes No
-    entities:
-      - script.keypadyes
-      - script.keypadno
 
   techiemayalandssandbox:
     name: Sandbox
