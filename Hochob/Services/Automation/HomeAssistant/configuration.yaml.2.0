@@ -244,7 +244,7 @@ homeassistant:
 
     script.keypadno:
       friendly_name: Botón No
-      icon: mdi:check-circle-outline
+      icon: mdi:checkbox-blank-circle
 
     script.visitorsusb:
       friendly_name: Visitantes USB
