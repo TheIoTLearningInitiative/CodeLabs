@@ -35,7 +35,7 @@ StreamAudio.sh $LOCAL_DEVICE spanish tt \
 
 StreamAudio.sh $LOCAL_DEVICE spanish robot \
       "
-      A Marte se le conoce también como el planeta rojo? que opinas?\
+      A Marte se le conoce también como el planeta rojo? que opinas, sí o no?\
       "
 SurveyYesNo.sh $LOCAL_DEVICE spanish robot yes
 
