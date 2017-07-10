@@ -70,9 +70,9 @@ chooseWrongCorrect()
 # Main
 # =============================================================================
 
-LOCAL_OPTION=`KeypadOption.sh`
+LOCAL_CHOICE=`HandlerMultipleChoice.sh`
 
-if [ "$LOCAL_OPTION" = "$LOCAL_CORRECT" ]; then
+if [ "$LOCAL_CHOICE" = "$LOCAL_CORRECT" ]; then
 
     chooseAnswerCorrect $LOCAL_LANGUAGE
     if [ "$LOCAL_LANGUAGE" = "english" ]; then
