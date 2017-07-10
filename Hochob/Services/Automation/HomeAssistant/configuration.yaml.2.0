@@ -731,8 +731,8 @@ group:
     name: The Beginning
     entities:
       - group.centralmayalowlandsstations
-      - group.techiemayalandskeypadmultiplechoice
       - group.techiemayalandskeypadyesno
+      - group.techiemayalandskeypadmultiplechoice
       #- group.centralmayalowlandssandbox
 
   northernmayalowlands:
@@ -742,8 +742,8 @@ group:
       - group.northernmayalowlandsstations
       - group.northernmayalowlandsstories
       - group.northernmayalowlandsrobot
-      - group.techiemayalandskeypadmultiplechoice
       - group.techiemayalandskeypadyesno
+      - group.techiemayalandskeypadmultiplechoice
 
   techiemayalands:
     view: yes
