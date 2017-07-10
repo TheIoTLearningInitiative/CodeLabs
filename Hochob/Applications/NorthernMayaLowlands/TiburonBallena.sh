@@ -28,7 +28,7 @@ LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
 # StreamAudio.sh $LOCAL_DEVICE spanish robot "Hola"
-# SurveyOption.sh $LOCAL_DEVICE spanish robot 1
+# SurveyMultipleOption.sh $LOCAL_DEVICE spanish robot 1
 
 #StreamAudio.sh $LOCAL_DEVICE spanish tt \
 #      "
@@ -38,13 +38,21 @@ LOCAL_LANGUAGE=`Language.sh`
 
 StreamAudio.sh $LOCAL_DEVICE spanish robot \
       "
+      Los mayas fueron quienes inventaron el numero 0? \
+      "
+SurveyMultipleOption.sh $LOCAL_DEVICE spanish tt yes
+
+exit 0
+
+StreamAudio.sh $LOCAL_DEVICE spanish robot \
+      "
       Cual fue la primer mision que tomo las primeras fotos de Marte? \
       Uno, Curiosity. \
       Dos, Spirit. \
       Tres, Sojourner. \
       Cuatro, Mariner 4.
       "
-SurveyOption.sh $LOCAL_DEVICE spanish tt 4
+SurveyMultipleOption.sh $LOCAL_DEVICE spanish tt 4
 
 exit 0
 
