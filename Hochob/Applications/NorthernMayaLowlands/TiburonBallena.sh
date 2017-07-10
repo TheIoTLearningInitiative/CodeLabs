@@ -28,7 +28,7 @@ LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
 # StreamAudio.sh $LOCAL_DEVICE spanish robot "Hola"
-# SurveyMultipleOption.sh $LOCAL_DEVICE spanish robot 1
+# SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 1
 
 #StreamAudio.sh $LOCAL_DEVICE spanish tt \
 #      "
@@ -52,7 +52,7 @@ StreamAudio.sh $LOCAL_DEVICE spanish robot \
       Tres, Sojourner. \
       Cuatro, Mariner 4.
       "
-SurveyMultipleOption.sh $LOCAL_DEVICE spanish tt 4
+SurveyMultipleChoice.sh $LOCAL_DEVICE spanish tt 4
 
 exit 0
 
@@ -64,7 +64,7 @@ StreamAudio.sh $LOCAL_DEVICE english tt \
       Three, Sojourner. \
       Four, Mariner 4.
       "
-SurveyMultipleOption.sh $LOCAL_DEVICE english tt 4
+SurveyMultipleChoice.sh $LOCAL_DEVICE english tt 4
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Eek.sh english robot "Hi Lupe, good morning"
