@@ -44,7 +44,7 @@ StreamAudio.sh $LOCAL_DEVICE spanish robot \
       Tres, Sojourner. \
       Cuatro, Mariner 4.
       "
-Survey.sh $LOCAL_DEVICE spanish tt 4
+SurveyOption.sh $LOCAL_DEVICE spanish tt 4
 
 exit 0
 
@@ -56,7 +56,7 @@ StreamAudio.sh $LOCAL_DEVICE english tt \
       Three, Sojourner. \
       Four, Mariner 4.
       "
-Survey.sh $LOCAL_DEVICE english tt 4
+SurveyOption.sh $LOCAL_DEVICE english tt 4
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Eek.sh english robot "Hi Lupe, good morning"
