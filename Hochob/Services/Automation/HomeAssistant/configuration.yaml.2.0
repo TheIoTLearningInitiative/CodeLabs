@@ -316,7 +316,7 @@ sensor:
     
   - platform: command_line
     name: Qualcomm
-    command: amixer sget Master | grep -Eo '\[(\w+)\%\]' | grep -Eo '\w+'
+    command: amixer -D pulse sget Master | grep Left | grep -Eo '\[(\w+)\%\]' | grep -Eo '\w+'
     unit_of_measurement: "%"
     value_template: '{{ value | int }}'
 
@@ -610,7 +610,7 @@ shell_command:
   toyota: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Toyota.sh &
   kodak: ssh root@127.0.0.1 sudo reboot
   apple: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Apple.sh &
-  qualcomm: amixer sset Master '{{ volume_level }}%'
+  qualcomm: amixer -D pulse sset Master '{{ volume_level }}%'
   windriver: ~/CodeLabs/Hochob/Applications/TechieMayaLands/WindRiver.sh &
   
   keypadyes: ~/CodeLabs/Hochob/Services/Keypad/KeypadYesNo.sh virtual yes &
