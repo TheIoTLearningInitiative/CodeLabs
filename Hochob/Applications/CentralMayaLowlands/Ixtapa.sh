@@ -29,8 +29,8 @@ LOCAL_LANGUAGE=`Language.sh`
 
 StreamAudio.sh $LOCAL_DEVICE spanish robot \
       "
-      Que aportaron los Mayas a la tecnologia? \
-      Uno, Las piramides. \
+      Que aportaron los Mayas a la tecnología? \
+      Uno, Las pirámides. \
       Dos, El cero. \
       Tres, El calendario. \
       Cuatro, El chocolate. \
@@ -39,9 +39,9 @@ SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 2
 
 StreamAudio.sh $LOCAL_DEVICE spanish robot \
       "
-      Quienes son los fundadores de Intel? \
+      Quiénes son los fundadores de Intel? \
       "
-StreamAudio.sh $LOCAL_DEVICE spanish robot \
+StreamAudio.sh $LOCAL_DEVICE english robot \
       "
       Uno, Robert Noyce, Gordon Moore. \
       Dos, Steve Allen. \
@@ -52,7 +52,7 @@ SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 1
 
 StreamAudio.sh $LOCAL_DEVICE spanish robot \
       "
-      Cuantos ingenieros eran cuando empeze Intel Guadalajara?
+      Cuántos ingenieros erán cuando empezo Intel Guadalajara?
       Uno, 60. \
       Dos, 34. \
       Tres, 1200. \
@@ -68,7 +68,7 @@ SurveyYesNo.sh $LOCAL_DEVICE spanish robot yes
 
 StreamAudio.sh $LOCAL_DEVICE spanish robot \
       "
-      Las fabricas de Intel son 200 veces mas limpias que un quirofano??
+      Las fábricas de Intel son 200 veces mas limpias que un quirófano??
       "
 SurveyYesNo.sh $LOCAL_DEVICE spanish robot no
 
