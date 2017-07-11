@@ -34,7 +34,7 @@ if [ $# -eq 4 ]; then
     fi
 
     if [ "$LOCAL_PLAY" = "on" ]; then
-        mpg123 $SPEECH_MP3
+        Aplay.sh $SPEECH
     fi
 
 else
