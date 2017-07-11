@@ -84,7 +84,7 @@ homeassistant:
       friendly_name: Sandbox
       icon: mdi:test-tube
 
-    # Central Maya Lowlands
+    # Central Maya Lowlands, Stations
 
     script.acapulco:
       friendly_name: 1. Antes del inicio
@@ -102,7 +102,13 @@ homeassistant:
       friendly_name: 5. Labs y Fabs
       icon: mdi:audiobook
 
-    # Central Maya Lowlands
+    # Central Maya Lowlands, Stations
+ 
+    script.ixtapa:
+      friendly_name: Preguntas
+      icon: mdi:audiobook
+
+    # Central Maya Lowlands, Sandbox
     
     script.veracruz:
       friendly_name: Sandbox
@@ -368,7 +374,7 @@ script:
     sequence:
       - service: shell_command.zacatecas
 
-  # Central Maya Lowlands
+  # Central Maya Lowlands, Stations
 
   acapulco:
     sequence:
@@ -389,6 +395,14 @@ script:
   puertovallarta:
     sequence:
       - service: shell_command.puertovallarta
+
+  # Central Maya Lowlands, Questions
+
+  ixtapa:
+    sequence:
+      - service: shell_command.ixtapa
+
+  # Central Maya Lowlands, Sandbox
 
   veracruz:
     sequence:
@@ -540,13 +554,19 @@ shell_command:
   michoacan: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Michoacan.sh &
   zacatecas: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Zacatecas.sh &
 
-  # Central Maya Lowlands
+  # Central Maya Lowlands, Stations
 
   acapulco: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Acapulco.sh &
   cancun: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Cancun.sh &
   huatulco: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Huatulco.sh &
   mazatlan: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Mazatlan.sh &
   puertovallarta: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/PuertoVallarta.sh &
+
+  # Central Maya Lowlands, Questions
+  puertovallarta: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Ixtapa.sh &
+
+  # Central Maya Lowlands, Sandbox
+
   veracruz: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Veracruz.sh &
 
   # Northern Maya Lowlands
@@ -731,6 +751,7 @@ group:
     name: The Beginning
     entities:
       - group.centralmayalowlandsstations
+      - group.centralmayalowlandsquestions
       - group.techiemayalandskeypadyesno
       - group.techiemayalandskeypadmultiplechoice
       #- group.centralmayalowlandssandbox
@@ -838,6 +859,11 @@ group:
       - script.huatulco
       - script.mazatlan
       - script.puertovallarta
+
+  centralmayalowlandsquestions:
+    name: Questions
+    entities:
+      - script.ixtapa
 
   centralmayalowlandssandbox:
     name: Sandbox
