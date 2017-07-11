@@ -23,25 +23,21 @@ export MAPIMI_DIRECTORY=$(dirname "$MAPIMI_PATH")
 # Main
 # =============================================================================
 
-#Memories.sh "40" "on" "${MAPIMI_NAME}"
-#SpeechSynthetizer.sh on espeak english \
-#    "Nel Pastel Simona La Mona"
-#MemoriesAudio.sh "${MAPIMI_NAME}"
-
-#Stream.sh "Eek'" "1.0" "$FFMPEG_IMAGE_AUDIO"
-
-Eog.sh $HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM &
-
 LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     SpeechSynthetizer.sh off espeak english \
-    "To be written"
+    "
+    It was a great pleasure to meet you and have you here at Intel Guadalajara. \
+    Come back soon future Engineers.
+    "
 else
     SpeechSynthetizer.sh off espeak spanish \
-    "Me da mucho gusto conocerlos y que hayan venido a Intel. \
-    Regresen pronto futuras y futuros ingenieros"
+    "
+    Me da mucho gusto conocerlos y que hayan venido a Intel Guadalajara. \
+    Regresen pronto futuras y futuros Ingenieros
+    "
 fi
 
 Stream.sh "Eek'" "1.0" "$SPEECH_MP3"
