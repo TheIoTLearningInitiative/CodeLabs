@@ -22,7 +22,7 @@ LOCAL_IDENTIFICATION="$1"
 # Main
 # =============================================================================
 
-if [ $# -eq 0 ]
+if [ $# -eq 1 ]
 then
     answer=`$HOCHOB_SERVER_SERVICES_KEYPAD/HandlerMultipleChoice.py`
     echo $answer

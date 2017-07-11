@@ -70,7 +70,7 @@ chooseWrongCorrect()
 # Main
 # =============================================================================
 
-LOCAL_CHOICE=`HandlerMultipleChoice.sh`
+LOCAL_CHOICE=`$HOCHOB_SERVER_SERVICES_KEYPAD/HandlerMultipleChoice.sh virtual`
 
 if [ "$LOCAL_CHOICE" = "$LOCAL_CORRECT" ]; then
 

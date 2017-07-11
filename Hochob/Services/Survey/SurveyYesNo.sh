@@ -70,7 +70,7 @@ chooseWrongCorrect()
 # Main
 # =============================================================================
 
-LOCAL_OPTION=`HandlerYesNo.sh`
+LOCAL_OPTION=`$HOCHOB_SERVER_SERVICES_KEYPAD/HandlerYesNo.sh virtual`
 
 if [ "$LOCAL_OPTION" = "$LOCAL_CORRECT" ]; then
 

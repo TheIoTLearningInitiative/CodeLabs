@@ -17,7 +17,7 @@ def KeypadOptionMessage(mosq, obj, msg):
 if __name__ == '__main__':
 
     mqttclient = paho.Client()
-    mqttclient.connect("iot.eclipse.org", 1883, 60)
+    mqttclient.connect("10.215.56.158", 1883, 60)
     mqttclient.subscribe("hochob/keypad/virtual", 0)
     mqttclient.on_message = KeypadOptionMessage
     mqttclient.loop_start()

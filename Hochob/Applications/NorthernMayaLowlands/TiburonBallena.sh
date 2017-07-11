@@ -27,7 +27,7 @@ LOCAL_DEVICE="Eek'"
 LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
-StreamAudio.sh $LOCAL_DEVICE spanish tt \
+StreamAudio.sh $LOCAL_DEVICE spanish robot \
       "
       Imagina esto, cielo rosa, atardeceres naranjas, mucho desierto y acantilados. \
       Pero donde puedes ver esto y mas? En el planeta marte! Veamos si puedes responder un par de preguntas.
@@ -47,7 +47,7 @@ StreamAudio.sh $LOCAL_DEVICE spanish robot \
       Tres, Sojourner. \
       Cuatro, Mariner 4.
       "
-SurveyMultipleChoice.sh $LOCAL_DEVICE spanish tt 4
+SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 4
 
 exit 0
 
