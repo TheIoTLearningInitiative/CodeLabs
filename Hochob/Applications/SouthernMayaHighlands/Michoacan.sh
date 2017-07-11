@@ -50,7 +50,6 @@ SpeechSynthetizer.sh on espeak spanish \
     que aquí trabajamos les deseamos la mejor de las experiencias. \
     Muchas gracias por haber venido."
 
-wait
 sleep 1
 
 #Robot.sh lupe/message \
