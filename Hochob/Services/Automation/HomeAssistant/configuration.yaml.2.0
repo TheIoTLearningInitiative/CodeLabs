@@ -563,7 +563,7 @@ shell_command:
   puertovallarta: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/PuertoVallarta.sh &
 
   # Central Maya Lowlands, Questions
-  puertovallarta: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Ixtapa.sh &
+  ixtapa: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Ixtapa.sh &
 
   # Central Maya Lowlands, Sandbox
 
