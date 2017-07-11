@@ -52,7 +52,7 @@ SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 1
 
 StreamAudio.sh $LOCAL_DEVICE spanish robot \
       "
-      Cuántos ingenieros erán cuando empezo Intel Guadalajara?
+      Cuántos ingenieros erán cuando empezó Intel Guadalajara?
       Uno, 60. \
       Dos, 34. \
       Tres, 1200. \
@@ -62,13 +62,13 @@ SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 2
 
 StreamAudio.sh $LOCAL_DEVICE spanish robot \
       "
-      El microprocesador es el cerebro de la computadora?
+      El microprocesador es el cerebro de la computadora? Sí o no?
       "
 SurveyYesNo.sh $LOCAL_DEVICE spanish robot yes
 
 StreamAudio.sh $LOCAL_DEVICE spanish robot \
       "
-      Las fábricas de Intel son 200 veces mas limpias que un quirófano??
+      Las fábricas de Intel son 200 veces mas limpias que un quirófano? Sí o no?
       "
 SurveyYesNo.sh $LOCAL_DEVICE spanish robot no
 
@@ -90,6 +90,6 @@ StreamAudio.sh $LOCAL_DEVICE spanish robot \
       Tres, Nada. \
       Cuatro, Todo.
       "
-SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 1
+SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 2
 
 # End of File
