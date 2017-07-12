@@ -1,0 +1,114 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>Intel</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src='sketch.js'></script>
+    <link href='http://fonts.googleapis.com/css?family=Yellowtail|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'/>
+
+<style type='text/css'>
+      body { font-family: "Open Sans", sans-serif; color: #444; }
+      h1, h2, h3, h4 { font-family: Yellowtail; font-weight: normal; color: #06a; }
+
+      #wrapper { width: 95%; margin: 0 auto; }
+
+      header { text-align: center; }
+      header h1 { font-size: 96px; text-align: center; margin: 15px 10px; }
+
+      article h1 { font-size: 26px; margin: 0 0 15px; }
+
+      article canvas {
+        width: 80%;
+        height: 100%;
+        border: 1px solid #ccc;
+      }
+
+      pre.source {
+        background: #e5eeee;
+        padding: 10px 20px;
+        width: 760px;
+        overflow-x: auto;
+        border: 1px solid #acc;
+      }
+
+      code { background: #cff; }
+
+      .tools { margin-bottom: 10px; }
+      .tools a {
+        border: 1px solid black; height: 30px; line-height: 30px; padding: 0 10px; vertical-align: middle; text-align: center; text-decoration: none; display: inline-block; color: black; font-weight: bold;
+      }
+	  .tools button {
+        border: 1px solid black; height: 30px; line-height: 30px; padding: 0 10px; vertical-align: middle; text-align: center; text-decoration: none; display: inline-block; color: black; font-weight: bold;
+      }
+	  
+
+	#colorback {
+    background-color: lightblue;
+	}
+    </style>
+
+  </head>
+  <body>
+    <div id='wrapper'>
+      <header>
+        <center><h1>Visitor Center</h1></center>
+      </header>
+
+<div class='demo' id='colors_demo'>
+          <div class='tools'>
+            <input style='float: right; width: 100px; height: 100px; margin-right: 30px; margin-left: 70px' type="image" src="recursos/saveok.png"  onclick="javascript:UploadPic();return false;"></input>
+			<input id='myClearButton' href='#colors_sketch' style='float: right; width: 100px;' type="image" src="recursos/eraser.png"></input>
+          </div>
+		  <br>
+          <canvas id='colors_sketch' height="600" style="width: 100%; height: 100%; border: 10px solid #000;"></canvas>
+          <script type='text/javascript'>
+            $(function() {
+			 x=0;
+			$.each(['#ED5564', '#FC6E51', '#FFCE54', '#A0D468', '#48CFAD', '#4FC2E9', '#5D9CEC', '#AC92EB'], function() {
+                $('#colors_demo .tools').append("<a href='#colors_sketch' data-color='" + this + "' style='border: 0px;width: 80px; height: 80px; background: " + this + ";'></a> ");
+				if(x==3){
+				$('#colors_demo .tools').append("<br><br>");}
+				x++;
+              });
+			  $('#colors_demo .tools').append("<a href='#colors_sketch' data-size='3' style=' border-radius: 50%; background: #000; width: 20px; height: 40px; margin-left: 9cm;' ></a> ");
+              $('#colors_demo .tools').append("<a href='#colors_sketch' data-size='5' style='border-radius: 50%; background: #000; width: 40px; height: 60px;margin-left: 2cm;' ></a> ");
+              $('#colors_demo .tools').append("<a href='#colors_sketch' data-size='10' style='border-radius: 50%; background: #000; width: 60px; height: 80px; margin-left: 2cm;' ></a> ");
+              $('#colors_demo .tools').append("<a href='#colors_sketch' data-size='15' style='border-radius: 50%; background: #000; width: 80px; height: 100px; margin-left:2cm; ' ></a> ");
+              $('#colors_sketch').sketch();
+            });
+          </script>
+		  
+		<script type='text/javascript'>
+            $("#myClearButton").click(function(){
+			 var canvas = document.getElementById('colors_sketch');  
+			 canvas.getContext('2d').clearRect(0,0,1920,2000);
+			 $('#colors_sketch').sketch('actions',[]);
+			});
+         </script>
+		  
+		<script type='text/javascript'>
+         function UploadPic() {
+			var canvasData = document.getElementById('colors_sketch').toDataURL("image/png");
+			$.ajax({
+				url:'dibujos/guardar.php', 
+				type:'POST', 
+				data:{
+					data:canvasData
+				},
+				success:function(data) {
+				var canvas = document.getElementById('colors_sketch');  
+			 canvas.getContext('2d').clearRect(0,0,1920,2000);
+			 $('#colors_sketch').sketch('actions',[]);
+				alert("Gracias por tus comentarios");
+				}
+			});
+			}
+          </script>
+
+	  </div>
+</script>
+        
+  </body>
+</html>
+
