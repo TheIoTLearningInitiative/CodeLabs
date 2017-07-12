@@ -752,8 +752,6 @@ group:
     entities:
       - group.centralmayalowlandsstations
       - group.centralmayalowlandsquestions
-      - group.techiemayalandskeypadyesno
-      - group.techiemayalandskeypadmultiplechoice
       #- group.centralmayalowlandssandbox
 
   northernmayalowlands:
@@ -763,8 +761,6 @@ group:
       - group.northernmayalowlandsstations
       - group.northernmayalowlandsstories
       - group.northernmayalowlandsrobot
-      - group.techiemayalandskeypadyesno
-      - group.techiemayalandskeypadmultiplechoice
 
   techiemayalands:
     view: yes
@@ -778,6 +774,14 @@ group:
       - group.techiemayalandssystemquote
       - group.techiemayalandsserverinfrastructure
       - group.techiemayalandssandbox
+
+  consolemayalands:
+    view: yes
+    icon: mdi:keyboard
+    name: The Console
+    entities:
+      - group.consolemayalandskeypadyesno
+      - group.consolemayalandskeypadmultiplechoice
 
   mediamayalands:
     view: yes
@@ -977,19 +981,19 @@ group:
     entities:
       - sensor.bosch
 
-  techiemayalandsserverinfrastructure:
+  mayalandsserverinfrastructure:
     name: Server Infrastructure
     entities:
       - device_tracker.eclipse
       - device_tracker.hochob
 
-  techiemayalandskeypadyesno:
+  consolemayalandskeypadyesno:
     name: Keypad Yes No
     entities:
       - script.keypadyes
       - script.keypadno
 
-  techiemayalandskeypadmultiplechoice:
+  consolemayalandskeypadmultiplechoice:
     name: Keypad Multiple Choice
     entities:
       - script.keypadone
