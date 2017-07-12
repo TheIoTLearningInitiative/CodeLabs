@@ -10,6 +10,7 @@ export STREAM2CHROMECAST_PID=$$
 export STREAM2CHROMECAST_BINARY=stream2chromecast.py
 export STREAM2CHROMECAST_ARGUMENTS="-transcodebufsize 5242880"
 export STREAM2CHROMECAST_TRANSCODER="-transcoder avconv -transcode"
+export STREAM2CHROMECAST_TRANSCODER="-transcode"
 
 LOCAL_DEVICE="$1"
 LOCAL_VOLUME=0.75
