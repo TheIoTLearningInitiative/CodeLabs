@@ -228,6 +228,20 @@ homeassistant:
       friendly_name: Server Volume %
       icon: mdi:volume-high
 
+    script.visitorsusb:
+      friendly_name: Visitantes USB
+      icon: mdi:usb
+
+    device_tracker.eclipse:
+      friendly_name: IoT Eclipse Org
+      icon: mdi:server
+
+    device_tracker.hochob:
+      friendly_name: Hochob Server
+      icon: mdi:server-network
+
+    # Console Maya Lands
+
     script.keypadyes:
       friendly_name: Botón Sí
       icon: mdi:check-circle
@@ -251,19 +265,6 @@ homeassistant:
     script.keypadfour:
       friendly_name: Botón Cuatro
       icon: mdi:numeric-4-box
-
-    script.visitorsusb:
-      friendly_name: Visitantes USB
-      icon: mdi:usb
-
-    device_tracker.eclipse:
-      friendly_name: IoT Eclipse Org
-      icon: mdi:server
-
-    device_tracker.hochob:
-      friendly_name: Hochob Server
-      icon: mdi:server-network
-
 
 # Enables the frontend
 frontend:
@@ -520,6 +521,13 @@ script:
   kodak:
     sequence:
       - service: shell_command.kodak
+
+  visitorsusb:
+    sequence:
+      - service: shell_command.visitorsusb
+
+  # Console Maya Lands
+
   keypadyes:
     sequence:
       - service: shell_command.keypadyes
@@ -538,10 +546,6 @@ script:
   keypadfour:
     sequence:
       - service: shell_command.keypadfour
-
-  visitorsusb:
-    sequence:
-      - service: shell_command.visitorsusb
 
 shell_command:
 
@@ -612,14 +616,16 @@ shell_command:
   apple: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Apple.sh &
   qualcomm: amixer -D pulse sset Master '{{ volume_level }}%'
   windriver: ~/CodeLabs/Hochob/Applications/TechieMayaLands/WindRiver.sh &
-  
+  visitorsusb: ~/CodeLabs/Hochob/Services/Visitors/Usb.sh &
+
+  # Console Maya Lands
+
   keypadyes: ~/CodeLabs/Hochob/Services/Keypad/KeypadYesNo.sh virtual yes &
   keypadno: ~/CodeLabs/Hochob/Services/Keypad/KeypadYesNo.sh virtual no &
   keypadone: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 1 &
   keypadtwo: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 2 &
   keypadthree: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 3 &
   keypadfour: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 4 &
-  visitorsusb: ~/CodeLabs/Hochob/Services/Visitors/Usb.sh &
 
 switch:
 
