@@ -267,6 +267,12 @@ homeassistant:
       friendly_name: Imágenes Centro de Visitantes
       icon: mdi:folder-multiple-image
 
+    # Media Maya Lands : Drawing
+
+    switch.puebla:
+      friendly_name: Imágenes de Dibujos
+      icon: mdi:folder-multiple-image
+
     # Media Maya Lands : Memories
 
     switch.queretaro:
@@ -655,7 +661,7 @@ switch:
         command_on: "~/CodeLabs/Hochob/Services/Language/Language.sh spanish &"
         command_off: "~/CodeLabs/Hochob/Services/Language/Language.sh english &"
  
-      # Southern Maya Highlands: Corporate
+      # Media Maya Lands: Corporate
 
       guanajuato:
         command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Guanajuato.sh &"
@@ -664,19 +670,25 @@ switch:
         command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Guerrero.sh &"
         command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh vlc"
 
-      # Southern Maya Highlands: Intel Guadalajara
+      # Media Maya Lands: Intel Guadalajara
 
       jalisco:
         command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Jalisco.sh &"
         command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
 
-      # Southern Maya Highlands: Visitors Center
+      # Media Maya Lands: Visitors Center
 
       hidalgo:
         command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Hidalgo.sh &"
         command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
 
-      # Southern Maya Highlands: Memories
+      # Media Maya Lands: Drawing
+
+      puebla:
+        command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Puebla.sh &"
+        command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
+
+      # Media Maya Lands: Memories
 
       queretaro:
         command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Queretaro.sh &"
@@ -685,7 +697,7 @@ switch:
         command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/QuintanaRoo.sh &"
         command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh vlc"
 
-      # Southern Maya Highlands: Camera
+      # Media Maya Lands: Camera
 
       yucatan:
         command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0 &"
@@ -818,6 +830,7 @@ group:
       - group.southernmayahighlandscorporate
       - group.southernmayahighlandsintelguadalajara
       - group.southernmayahighlandsvisitorscenter
+      - group.southernmayahighlandsdrawing
       - group.southernmayahighlandsmemories
       - group.southernmayahighlandscamera
 
@@ -862,18 +875,23 @@ group:
       - switch.jalisco
 
   southernmayahighlandsvisitorscenter:
-    name: Visitors Center
+    name: Centro de Visitantes
     entities:
       - switch.hidalgo
 
+  southernmayahighlandsdrawing:
+    name: Dibujos
+    entities:
+      - switch.puebla
+
   southernmayahighlandsmemories:
-    name: Memories
+    name: Visitas
     entities:
       - switch.queretaro
       - switch.quintanaroo
 
   southernmayahighlandscamera:
-    name: Camera
+    name: Cámara
     entities:
       - switch.yucatan
 
