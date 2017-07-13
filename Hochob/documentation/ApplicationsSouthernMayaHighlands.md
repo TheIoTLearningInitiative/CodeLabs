@@ -139,12 +139,13 @@
 # Name: Puebla
 
 * **Area** The Media
-* **Group** Memories
-* **Friendly Name**: Image Showcase
+* **Group** Drawing
+* **Friendly Name**: Drawing Showcase
 * **Services**:
   * **Image** Eog
 
 # Name: Yucatan
+
 * **Area** The Home
 * **Group** Camera
 * **Friendly Name**: Camera Showcase
