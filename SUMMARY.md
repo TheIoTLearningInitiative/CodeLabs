@@ -105,7 +105,7 @@
   * [Google Cloud Vision API](EkBalam/documentation/GoogleCloudVisionApi.md)
   * [Google Cloud Speech](EkBalam/documentation/GoogleCloudSpeech.md)
 * [Hochob](Hochob/documentation/Hochob.md)
-  * Introduction
+  * [Introduction](Hochob/documentation/introduction.md)
     * [Naming Conventions](Hochob/documentation/ServerArchitectureNamingConventions.md)
   * [Accounts](Hochob/documentation/Accounts.md)
   * [Areas](Hochob/documentation/Area.md)
