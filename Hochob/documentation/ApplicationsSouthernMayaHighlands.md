@@ -90,7 +90,7 @@
 
 # Name: Guanajuato
 
-* **Area** The Home
+* **Area** The Media
 * **Group** Corporate
 * **Friendly Name**: Image Showcase
 * **Services**:
@@ -98,7 +98,7 @@
 
 # Name: Guerrero
 
-* **Area** The Home
+* **Area** The Media
 * **Group** Corporate
 * **Friendly Name**: Video Showcase
 * **Services**:
@@ -106,7 +106,7 @@
 
 # Name: Hidalgo
 
-* **Area** The Home
+* **Area** The Media
 * **Group** Visitors Center
 * **Friendly Name**: Image Showcase
 * **Services**:
@@ -114,7 +114,7 @@
 
 # Name: Jalisco
 
-* **Area** The Home
+* **Area** The Media
 * **Group** Intel Guadalajara
 * **Friendly Name**: Image Showcase
 * **Services**:
@@ -122,7 +122,7 @@
 
 # Name: Queretaro
 
-* **Area** The Home
+* **Area** The Media
 * **Group** Memories
 * **Friendly Name**: Image Showcase
 * **Services**:
@@ -135,6 +135,14 @@
 * **Friendly Name**: Videos Showcase
 * **Services**:
   * **Video** VlcMediaPlayer
+
+# Name: Puebla
+
+* **Area** The Media
+* **Group** Memories
+* **Friendly Name**: Image Showcase
+* **Services**:
+  * **Image** Eog
 
 # Name: Yucatan
 * **Area** The Home
