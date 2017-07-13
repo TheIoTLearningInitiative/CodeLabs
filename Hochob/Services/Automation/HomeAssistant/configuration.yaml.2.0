@@ -733,9 +733,8 @@ group:
     name: The Captain
     entities:
       - group.techiemayalandssystemhealth
-      - group.southernmayahighlandscalendar
-      - group.southernmayahighlandslanguage
-      #- group.southernmayahighlandssandbox
+      - group.captainmayalandscalendar
+      - group.captainmayalandslanguage
 
   southernmayalands:
     view: yes
@@ -744,6 +743,7 @@ group:
       - group.southernmayahighlandsintroduction
       - group.southernmayahighlandsrobot
       - group.southernmayahighlandstour
+      #- group.southernmayahighlandssandbox
     
   robotmayalands:
     view: yes
@@ -805,13 +805,13 @@ group:
       - group.southernmayahighlandsmemories
       - group.southernmayahighlandscamera
 
-  southernmayahighlandscalendar:
-    name: Next Visit
+  captainmayalandscalendar:
+    name: Próxima Visita
     entities:
       - sensor.appleimac
       - sensor.appleipod
 
-  southernmayahighlandslanguage:
+  captainmayalandslanguage:
     name: Idioma
     entities:
       - switch.language
