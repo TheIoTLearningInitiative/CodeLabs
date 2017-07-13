@@ -130,7 +130,7 @@
 
 # Name: Quintana Roo
 
-* **Area** The Home
+* **Area** The Media
 * **Group** Memories
 * **Friendly Name**: Videos Showcase
 * **Services**:
@@ -146,7 +146,7 @@
 
 # Name: Yucatan
 
-* **Area** The Home
+* **Area** The Media
 * **Group** Camera
 * **Friendly Name**: Camera Showcase
 * **Services**:
