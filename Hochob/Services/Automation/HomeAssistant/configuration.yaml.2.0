@@ -15,10 +15,12 @@ homeassistant:
     # Language
     
     switch.language:
-      friendly_name: Idioma English / Espanol
+      friendly_name: Idioma English / Español
       icon: mdi:audiobook
 
-    # Southern Maya Highlands : 1 Introduccion
+    # Southern Maya Highlands
+
+    # Southern Maya Highlands : 1 Introducción
 
     script.aguascalientes:
       friendly_name: 1.1 Bienvenidos Intel, Protocolo de Seguridad
@@ -41,42 +43,6 @@ homeassistant:
     script.campeche:
       friendly_name: 3.1 Bienvenidos Recorrido
       icon: mdi:audiobook
-
-    # Southern Maya Highlands : Corporate : 
-
-    switch.guanajuato:
-      friendly_name: Image Showcase
-      icon: mdi:folder-multiple-image
-    switch.guerrero:
-      friendly_name: Video Showcase
-      icon: mdi:file-video
-
-    # Southern Maya Highlands : Intel Guadalajara
-
-    switch.jalisco:
-      friendly_name: Image Showcase
-      icon: mdi:folder-multiple-image
-
-    # Southern Maya Highlands : Visitors Center
-
-    switch.hidalgo:
-      friendly_name: Image Showcase
-      icon: mdi:folder-multiple-image
-
-    # Southern Maya Highlands : Memories
-
-    switch.queretaro:
-      friendly_name: Image Showcase
-      icon: mdi:folder-multiple-image
-    switch.quintanaroo:
-      friendly_name: Video Showcase
-      icon: mdi:file-video
-
-    # Southern Maya Highlands : Camera
-
-    switch.yucatan:
-      friendly_name: Camera Preview
-      icon: mdi:camera
 
     # Southern Maya Highlands : Sandbox
     
@@ -208,29 +174,31 @@ homeassistant:
       
     # Techie Maya Lands
 
-    sensor.bosch:
-      friendly_name: System Quote
-      icon: mdi:approval
+    # Techie Maya Lands : System Health
 
     script.toyota:
-      friendly_name: Check Infrastructure
+      friendly_name: Verificar Infraestructura
       icon: mdi:approval
 
     script.kodak:
-      friendly_name: Reboot
+      friendly_name: Reiniciar Servidor
       icon: mdi:restart
+    
+    # Techie Maya Lands : System Audio
 
     input_slider.qualcomm:
-      friendly_name: Server Volume Set %
+      friendly_name: Servidor Ajustar Volumén %
       icon: mdi:volume-high
 
     sensor.qualcomm:
-      friendly_name: Server Volume %
+      friendly_name: Servidor Nivel de Volumén %
       icon: mdi:volume-high
 
     script.visitorsusb:
       friendly_name: Visitantes USB
       icon: mdi:usb
+
+    # Techie Maya Lands : System Infrastructure
 
     device_tracker.eclipse:
       friendly_name: IoT Eclipse Org
@@ -240,7 +208,15 @@ homeassistant:
       friendly_name: Hochob Server
       icon: mdi:server-network
 
+    # Techie Maya Lands : System Quote
+
+    sensor.bosch:
+      friendly_name: System Quote
+      icon: mdi:approval
+
     # Console Maya Lands
+
+    # Console Maya Lands : Keypad Yes No
 
     script.keypadyes:
       friendly_name: Botón Sí
@@ -249,6 +225,8 @@ homeassistant:
     script.keypadno:
       friendly_name: Botón No
       icon: mdi:checkbox-blank-circle
+
+    # Console Maya Lands : Keypad Multiple Choice
 
     script.keypadone:
       friendly_name: Botón Uno
@@ -265,6 +243,45 @@ homeassistant:
     script.keypadfour:
       friendly_name: Botón Cuatro
       icon: mdi:numeric-4-box
+
+    # Media Maya Lands
+
+    # Media Maya Lands : Corporate
+
+    switch.guanajuato:
+      friendly_name: Imágenes Corporativas
+      icon: mdi:folder-multiple-image
+    switch.guerrero:
+      friendly_name: Videos Corporativos
+      icon: mdi:file-video
+
+    # Media Maya Lands : Intel Guadalajara
+
+    switch.jalisco:
+      friendly_name: Imágenes Intel Guadalajara
+      icon: mdi:folder-multiple-image
+
+    # Media Maya Lands : Visitors Center
+
+    switch.hidalgo:
+      friendly_name: Imágenes Centro de Visitantes
+      icon: mdi:folder-multiple-image
+
+    # Media Maya Lands : Memories
+
+    switch.queretaro:
+      friendly_name: Imágenes de Visitas
+      icon: mdi:folder-multiple-image
+    switch.quintanaroo:
+      friendly_name: Videos de Visitas
+      icon: mdi:file-video
+
+    # Media Maya Lands : Camera
+
+    switch.yucatan:
+      friendly_name: Vista Previa Cámara
+      icon: mdi:camera
+
 
 # Enables the frontend
 frontend:
@@ -599,7 +616,7 @@ shell_command:
   rightunfold: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightunfold
 
   leftup: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftup
-  lefttdown: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftdown
+  leftdown: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftdown
   leftfold: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftfold
   leftunfold: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftunfold
       
@@ -777,7 +794,6 @@ group:
     view: yes
     name: The Techie
     entities:
-      - group.techiemayalandssystemhealth
       - group.techiemayalandssystemcalendar
       - group.techiemayalandssystemaudio
       - group.techiemayalandssystemmonitor
@@ -952,7 +968,7 @@ group:
       - script.resetall
 
   techiemayalandssystemhealth:
-    name: System Health
+    name: Verificación del Sistema
     entities:
       - script.toyota
       - script.kodak
