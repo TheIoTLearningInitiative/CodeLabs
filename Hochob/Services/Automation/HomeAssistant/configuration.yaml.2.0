@@ -730,16 +730,21 @@ group:
 
   default_view:
     view: yes
-    name: The Home
+    name: The Captain
     entities:
       - group.techiemayalandssystemhealth
       - group.southernmayahighlandscalendar
       - group.southernmayahighlandslanguage
+      #- group.southernmayahighlandssandbox
+
+  southernmayalands:
+    view: yes
+    name: The Show
+    entities:
       - group.southernmayahighlandsintroduction
       - group.southernmayahighlandsrobot
       - group.southernmayahighlandstour
-      #- group.southernmayahighlandssandbox
-
+    
   robotmayalands:
     view: yes
     name: The Robot
@@ -783,7 +788,7 @@ group:
 
   consolemayalands:
     view: yes
-    icon: mdi:keyboard
+    #icon: mdi:keyboard
     name: The Console
     entities:
       - group.consolemayalandskeypadyesno
@@ -791,7 +796,7 @@ group:
 
   mediamayalands:
     view: yes
-    icon: mdi:filmstrip
+    #icon: mdi:filmstrip
     name: The Media
     entities:
       - group.southernmayahighlandscorporate
