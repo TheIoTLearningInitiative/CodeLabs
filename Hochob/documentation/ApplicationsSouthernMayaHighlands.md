@@ -120,6 +120,14 @@
 * **Services**:
   * **Image** Eog
 
+# Name: Puebla
+
+* **Area** The Media
+* **Group** Drawing
+* **Friendly Name**: Drawing Showcase
+* **Services**:
+  * **Image** Eog
+
 # Name: Queretaro
 
 * **Area** The Media
@@ -135,14 +143,6 @@
 * **Friendly Name**: Videos Showcase
 * **Services**:
   * **Video** VlcMediaPlayer
-
-# Name: Puebla
-
-* **Area** The Media
-* **Group** Drawing
-* **Friendly Name**: Drawing Showcase
-* **Services**:
-  * **Image** Eog
 
 # Name: Yucatan
 
