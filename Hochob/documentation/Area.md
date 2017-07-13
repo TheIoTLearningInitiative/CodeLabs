@@ -5,6 +5,6 @@
 - Robot Maya Lands: The Robot
 - Central Maya Lowlands: The Beginning
 - Northern Maya Lowlands: The Experience
-- Virtual Maya Lands: The Techie
-- Keypad Maya Lands: The Keypad
+- Techie Maya Lands: The Techie
+- Console Maya Lands: The Keypad
 - Media Maya Lands: The Media
