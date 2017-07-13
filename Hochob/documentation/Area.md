@@ -1,8 +1,8 @@
 # Areas
 
 - Captain Maya Lands: Home
+- Southern Maya Highlands: The Show
 - Robot Maya Lands: The Robot
-- Southern Maya Highlands: The Opening
 - Central Maya Lowlands: The Beginning
 - Northern Maya Lowlands: The Experience
 - Virtual Maya Lands: The Techie
