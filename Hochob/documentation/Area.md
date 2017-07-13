@@ -1,7 +1,12 @@
 # Areas
 
-- Southern Maya Highlands: Home
-- Central Maya Lowlands: Beginning
-- Northern Maya Lowlands: Experience
-- Virtual Maya Lands: Support
-- Robot Maya Lands: Robot
+- Captain Maya Lands: Home
+- Robot Maya Lands: The Robot
+- Southern Maya Highlands: The Opening
+- Central Maya Lowlands: The Beginning
+- Northern Maya Lowlands: The Experience
+- Virtual Maya Lands: The Techie
+- The Keypad
+- The Media
+
+
