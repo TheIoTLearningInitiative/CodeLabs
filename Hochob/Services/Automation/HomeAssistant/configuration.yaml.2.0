@@ -187,11 +187,11 @@ homeassistant:
     # Techie Maya Lands : System Audio
 
     input_slider.qualcomm:
-      friendly_name: Servidor Ajustar Volumén %
+      friendly_name: Ajustar Volumén %
       icon: mdi:volume-high
 
     sensor.qualcomm:
-      friendly_name: Servidor Nivel de Volumén %
+      friendly_name: Nivel de Volumén %
       icon: mdi:volume-high
 
     script.visitorsusb:
@@ -211,7 +211,7 @@ homeassistant:
     # Techie Maya Lands : System Quote
 
     sensor.bosch:
-      friendly_name: System Quote
+      friendly_name: Hoy digo...
       icon: mdi:approval
 
     # Console Maya Lands
