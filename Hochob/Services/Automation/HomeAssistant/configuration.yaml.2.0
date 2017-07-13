@@ -901,7 +901,7 @@ group:
       - script.zacatecas
 
   centralmayalowlandsstations:
-    name: Stations
+    name: Estaciones
     entities:
       - script.acapulco
       - script.cancun
@@ -910,7 +910,7 @@ group:
       - script.puertovallarta
 
   centralmayalowlandsquestions:
-    name: Questions
+    name: Conocimiento
     entities:
       - script.ixtapa
 
@@ -920,7 +920,7 @@ group:
       - script.veracruz
 
   northernmayalowlandsstations:
-    name: Stations
+    name: Estaciones
     entities:
       - script.montesazules
       - script.ojodeliebre
@@ -934,29 +934,29 @@ group:
       - script.siankaan
 
   northernmayalowlandsstories:
-    name: Stories
+    name: Historias
     entities:
       - script.calakmul
       - script.tiburonballena
 
   robotmayalandslanguage:
-    name: Language
+    name: Idioma
     entities:
       - script.coji
 
   robotmayalandsevent:
-    name: Event
+    name: Evento
     entities:
       - automation.services_event_host_robot
 
   robotmayalandshead:
-    name: Head
+    name: Cabeza
     entities:
       - script.headright
       - script.headleft
 
   robotmayalandsarmright:
-    name: Arm Right
+    name: Brazo Derecho
     entities:
       - script.rightup
       - script.rightdown
@@ -964,7 +964,7 @@ group:
       - script.rightunfold
 
   robotmayalandsarmleft:
-    name: Arm Left
+    name: Brazo Izquierdo
     entities:
       - script.leftup
       - script.lefttdown
@@ -972,7 +972,7 @@ group:
       - script.leftunfold
       
   robotmayalandslegs:
-    name: Legs
+    name: Piernas
     entities:
       - script.moveright
       - script.moveleft
@@ -981,7 +981,7 @@ group:
       - script.movestop
 
   robotmayalandsreset:
-    name: Reset
+    name: Reiniciar
     entities:
       - script.resetall
 
@@ -992,7 +992,7 @@ group:
       - script.kodak
 
   techiemayalandssystemcalendar:
-    name: System Calendar
+    name: Calendario de Visitas
     entities:
       - sensor.appleimac
       - sensor.appleipod
@@ -1000,7 +1000,7 @@ group:
       - automation.services_calendar_name
 
   techiemayalandssystemaudio:
-    name: System Audio
+    name: Audio del Servidor
     entities:
       - input_slider.qualcomm
       - sensor.qualcomm
@@ -1009,7 +1009,7 @@ group:
       - automation.services_sound_pulseaudio_read
 
   techiemayalandssystemmonitor:
-    name: System Monitor
+    name: Monitor del Servidor
     entities:
       - sensor.cpu_use
       - sensor.ram_free
@@ -1017,29 +1017,29 @@ group:
       #- camera.ffmpeg
 
   techiemayalandssystemevent:
-    name: System Event
+    name: Evento
     entities:
       - automation.services_event_host_server
 
   techiemayalandssystemquote:
-    name: System Quote
+    name: Citas del Servidor
     entities:
       - sensor.bosch
 
   mayalandsserverinfrastructure:
-    name: Server Infrastructure
+    name: Disponibilidad de Servidores
     entities:
       - device_tracker.eclipse
       - device_tracker.hochob
 
   consolemayalandskeypadyesno:
-    name: Keypad Yes No
+    name: Teclado Sí No
     entities:
       - script.keypadyes
       - script.keypadno
 
   consolemayalandskeypadmultiplechoice:
-    name: Keypad Multiple Choice
+    name: Teclado Opción Multiple
     entities:
       - script.keypadone
       - script.keypadtwo
