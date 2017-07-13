@@ -6,7 +6,7 @@
 - Central Maya Lowlands: The Beginning
 - Northern Maya Lowlands: The Experience
 - Virtual Maya Lands: The Techie
-- The Keypad
+- Keypad Maya Lands: The Keypad
 - The Media
 
 
