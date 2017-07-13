@@ -7,6 +7,4 @@
 - Northern Maya Lowlands: The Experience
 - Virtual Maya Lands: The Techie
 - Keypad Maya Lands: The Keypad
-- The Media
-
-
+- Media Maya Lands: The Media
