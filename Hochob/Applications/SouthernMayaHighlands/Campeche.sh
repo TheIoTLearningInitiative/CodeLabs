@@ -25,7 +25,7 @@ export CAMPECHE_DIRECTORY=$(dirname "$CAMPECHE_PATH")
 
 LogPid.sh $CAMPECHE_PID $CAMPECHE_NAME
 
-Eog.sh $FSWEBCAM_IMAGE_TEXT &
+Eog.sh "$FSWEBCAM_IMAGE" &
 sleep 1
 Vlc.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Campeche.mp3" &
 
