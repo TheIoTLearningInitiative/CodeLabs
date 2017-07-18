@@ -576,7 +576,7 @@ shell_command:
 
   aguascalientes: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Aguascalientes.sh &
   bajacalifornianorte: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/BajaCaliforniaNorte.sh &
-  bajacaliforniasur: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/BajaCaliforniaSur.sh &
+  bajacaliforniasur: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/BajaCaliforniaSurLocal.sh &
   campeche: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Campeche.sh &
   michoacan: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Michoacan.sh &
   zacatecas: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Zacatecas.sh &
