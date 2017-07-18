@@ -29,7 +29,7 @@ LOCAL_LANGUAGE=`Language.sh`
 
 StreamAudio.sh $LOCAL_DEVICE spanish robot \
       "
-      Que aportaron los Mayas a la tecnología? \
+      Puedes decirme que aportaron los Mayas a la tecnología? \
       Uno, Las pirámides. \
       Dos, El cero. \
       Tres, El calendario. \
