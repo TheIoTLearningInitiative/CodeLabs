@@ -28,19 +28,19 @@ LogPid.sh $BAJACALIFORNIASUR_PID $BAJACALIFORNIASUR_NAME
 Memories.sh "280" "on" "${BAJACALIFORNIASUR_NAME}" &
 
 VlcVideo.sh off "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaSur01.mp4" &
-Robot.sh lupe/say "Hola a todos"
+SpeechSynthetizer.sh on espeak spanish "Hola a todos"
 
 VlcVideo.sh off "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaSur02.mp4" &
-sleep 6.35 && Robot.sh lupe/say "Perdon! Lo se!, Es que me emociono!"
+sleep 6.35 && SpeechSynthetizer.sh on espeak spanish "Perdon! Lo se!, Es que me emociono!"
 
 VlcVideo.sh off "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaSur03.mp4" &
-sleep 2.7 && Robot.sh lupe/say "Por supuesto"
+sleep 2.7 && SpeechSynthetizer.sh on espeak spanish "Por supuesto"
 
 VlcVideo.sh off "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaSur04.mp4" &
-sleep 37.5 && Robot.sh lupe/say "En mi caso, mi cerebro esta aqui, en la caja azul!"
+sleep 37.5 && SpeechSynthetizer.sh on espeak spanish "En mi caso, mi cerebro esta aqui, en la caja azul!"
 
 VlcVideo.sh off "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaSur05.mp4" &
-sleep 25.5 && Robot.sh lupe/say "Yo funciono con la plataforma Intel Edison"
+sleep 25.5 && SpeechSynthetizer.sh on espeak spanish "Yo funciono con la plataforma Intel Edison"
 
 VlcVideo.sh off "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaSur06.mp4" &
 
