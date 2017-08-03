@@ -7,8 +7,8 @@
 ## Priority
 
 - __Caracol__ Digital Door
-- __Kaminaljuyu__ Air Quality
-- __Tikal__ Emergency Medical Monitoring System
+- __Kaminaljuyu__ Air Quality __On Hold__!
+- __Tikal__ Emergency Medical Monitoring System __On Hold__!
 - __Edzna__ Smart Home / Home Assistant
 - __Q'umarkaj__ Amazon Echo / Alexa Voice Service
 - __Chichen Itza__ Audio as a Service
