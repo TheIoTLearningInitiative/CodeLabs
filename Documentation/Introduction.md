@@ -2,7 +2,7 @@
 
 > The Maya civilization was a Mesoamerican civilization developed by the Maya peoples, and noted for its hieroglyphic script—the only known fully developed writing system of the pre-Columbian Americas—as well as for its art, architecture, mathematics, calendar, and astronomical system. The Maya civilization developed in an area that encompasses southeastern Mexico, all of Guatemala and Belize, and the western portions of Honduras and El Salvador. [Wikipedia Maya Civilization](https://en.wikipedia.org/wiki/Maya_civilization)
 
-# Completed
+# Priority - Completed
 
 - __Caracol__ Digital Door
 - __Kaminaljuyu__ Air Quality
@@ -17,7 +17,7 @@
 - __Ah Puch__ Recon Instruments
 - __Hochob__ Visitors Office
 
-# In Process
+# Priority - In Process
 
 - __Kinich KaK Moo__ Python: Virtual, Grove While, Grove Threads
 - __Kohunlich__ Product Development
