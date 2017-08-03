@@ -9,8 +9,8 @@
 - __Caracol__ Digital Door
 - __Kaminaljuyu__ Air Quality
 - __Tikal__ Emergency Medical Monitoring System
-- __Edzna__ Home Assistant
-- __Q'umarkaj__ Amazon Echo / Alexa
+- __Edzna__ Smart Home / Home Assistant
+- __Q'umarkaj__ Amazon Echo / Alexa Voice Service
 - __Chichen Itza__ Audio as a Service
 - __Acat__ IBM Node-Red
 - __Chicanna__ Camara as a Service
