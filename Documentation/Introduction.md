@@ -12,12 +12,12 @@
 - __Edzna__ Smart Home / Home Assistant
 - __Q'umarkaj__ Amazon Echo / Alexa Voice Service
 - __Chichen Itza__ Audio as a Service
-- __Acat__ IBM Node-Red
 - __Chicanna__ Camara as a Service
+- __Acat__ IBM Node-Red
 - __Chacmultun__ Optimization Through Device Drivers Layers
 - __Coba__ Your First Linux Kernel Module
 - __Ah Puch__ Recon Instruments
-- __Hochob__ Visitor Center
+- __Hochob__ Visitors Office
 - __Kinich KaK Moo__ Python: Virtual, Grove While, Grove Threads
 - __Kohunlich__ Product Development
 - __Akna__ Sphero
