@@ -16,13 +16,13 @@
 - __Coba__ Your First Linux Kernel Module
 - __Ah Puch__ Recon Instruments __On Hold__!
 - __Hochob__ Visitors Office
+- __Alom__ Briko
 
 # Priority - In Process
 
 - __Kinich KaK Moo__ Python: Virtual, Grove While, Grove Threads
 - __Kohunlich__ Product Development
 - __Akna__ Sphero
-- __Alom__ Briko
 
 # Full List
 
