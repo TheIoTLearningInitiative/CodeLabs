@@ -6,7 +6,7 @@
 
 - 01 __Caracol__ Digital Door
 - 02 __Kaminaljuyu__ Air Quality
-- 03 __Tikal__ Emergency Medical Monitoring System __On Hold__!
+- 03 __Tikal__ Emergency Medical Monitoring System __On Hold!__
 - 04 __Edzna__ Smart Home / Home Assistant
 - 05 __Q'umarkaj__ Amazon Echo / Alexa Voice Service
 - 06 __Chichen Itza__ Audio as a Service
@@ -14,7 +14,7 @@
 - 08 __Acat__ IBM Node-Red
 - 09 __Chacmultun__ Optimization Through Device Drivers Layers
 - 10 __Coba__ Your First Linux Kernel Module
-- 11 __Ah Puch__ Recon Instruments __On Hold__!
+- 11 __Ah Puch__ Recon Instruments __On Hold!__
 - 12 __Hochob__ Visitors Office
 - 13 __Awilix__ The IoT Learning Initiative
 - 14 __Alom__ Briko
