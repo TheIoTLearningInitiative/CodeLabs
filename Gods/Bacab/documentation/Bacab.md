@@ -9,4 +9,4 @@
 
 ### Phillips Hue
 
-- [Philips Hue Go Personal Wireless Lighting](https://www.amazon.com.mx/gp/product/B00UVHAC1O)
+- 1 [Philips Hue Go Personal Wireless Lighting](https://www.amazon.com.mx/gp/product/B00UVHAC1O)
