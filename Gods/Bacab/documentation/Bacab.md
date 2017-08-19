@@ -14,7 +14,7 @@
 - 2 [Philips Hue Dimmer Switch US](https://www.amazon.com.mx/Philips-Hue-Dimmer-Switch-US/dp/B0167Z0P3I)
 - 1 [Philips Lámpara LED Tap Control](https://www.amazon.com.mx/Philips-Lámpara-LED-Tap-Control/dp/B018Z28KQA/)
 - X [Philips 464487 Bombillas Hue 10W A19 E26, NAM v4, Multicolor](https://www.amazon.com.mx/Philips-464487-Bombillas-Hue-Multicolor/dp/B01M9AU8MB)
-- []()
+- [Philips Hue Ambiance 10.5W A19 E26](https://www.amazon.com.mx/Philips-Hue-Ambiance-10-5W-A19/dp/B01F6T4R0S)
 - []()
 - []()
 - []()
