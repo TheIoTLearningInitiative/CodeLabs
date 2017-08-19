@@ -19,8 +19,13 @@
 
 ## Applications
 
-- Twitter
-- Netflix
+- Shopping
+  - Amazon
+- Video
+  - Amazon Video
+  - Netflix
+- Social Media
+  - Twitter
 
 ## Equipment
 
