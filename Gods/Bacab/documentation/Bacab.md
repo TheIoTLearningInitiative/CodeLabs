@@ -31,6 +31,7 @@
     - Alexa
   - Lighthing
     - Phillips Hue
+    - [Hue Widget](https://play.google.com/store/apps/details?id=com.apekoppen.huewidget&hl=en) __Under Review__
   - Automation
     - Stringify
 
