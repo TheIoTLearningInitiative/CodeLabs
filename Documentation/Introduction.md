@@ -7,7 +7,7 @@
 - 01 __Caracol__ Digital Door
 - 02 __Kaminaljuyu__ Air Quality
 - 03 __Tikal__ Emergency Medical Monitoring System __On Hold!__
-- 04 __Edzna__ Smart Home / Home Assistant
+- 04 __Edzna__ Smart Home
 - 05 __Q'umarkaj__ Amazon Echo / Alexa Voice Service
 - 06 __Chichen Itza__ Audio as a Service
 - 07 __Chicanna__ Camara as a Service
