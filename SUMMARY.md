@@ -271,4 +271,5 @@
       * [Cylon.js Intel Edison Sphero](Gods/Akna/documentation/CylonJsIntelEdisonSphero.md)
         * [Examples](Gods/Akna/documentation/CylonJsIntelEdisonSpheroExamples.md)
     * [Sphero Linux API](Gods/Akna/documentation/SpheroLinuxApi.md)
+* [Bacab](Gods/Bacab/documentation/Bacab.md)
 
