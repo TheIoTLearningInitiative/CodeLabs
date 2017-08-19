@@ -4,11 +4,14 @@
 # Applications
 
 - Google
-  - Name
-  - Last Name
+  - Name: Bacab
+  - Last Name: Home
   - Email
   - Password
-- 
+- Twitter
+  - Name
+  - Email
+  - Username: BacabHome
 
 ## Equipment
 
