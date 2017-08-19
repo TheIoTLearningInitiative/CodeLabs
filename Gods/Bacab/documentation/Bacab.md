@@ -1,7 +1,13 @@
 # Bacab
 
+- Email Account
+- 
 
 ## Equipment
+
+### Tablet
+
+- Some Tablet
 
 ### Phillips Hue
 

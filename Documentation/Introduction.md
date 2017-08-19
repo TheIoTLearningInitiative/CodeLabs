@@ -98,7 +98,7 @@ Yucatán
 * **Akna** Sphero
 * **Alom** Briko
 * **Awilix** 
-* **Bacab** Family Smart Home
+* **Bacab**  Smart Home
 * **Bahlam**
 * **Bitol**
 * **Bolon**
