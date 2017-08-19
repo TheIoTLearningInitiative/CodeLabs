@@ -26,6 +26,13 @@
   - Netflix
 - Social Media
   - Twitter
+- Smart Home
+  - Assistants
+    - Alexa
+  - Lighthing
+    - Phillips Hue
+  - Automation
+    - Stringify
 
 ## Equipment
 
@@ -33,6 +40,10 @@
 
 - 1 [Google Chromecast](http://www.bestbuy.com.mx/p/google-chromecast-video-negro/1000198185)
 - 1 [Google Chromecast Audio](http://www.bestbuy.com.mx/p/google-chromecast-audio-negro/1000198189)
+
+### Amazon
+
+- 1 [Echo Dot (2nd Generation) - Black(Versión EE.UU., importado)](https://www.amazon.com.mx/Echo-Dot-2nd-Generation-importado/dp/B01DFKC2SO)
 
 ### Tablet
 
