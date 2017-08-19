@@ -1,6 +1,13 @@
 # Bacab
 
-- Email Account
+
+# Applications
+
+- Google
+  - Name
+  - Last Name
+  - Email
+  - Password
 - 
 
 ## Equipment
