@@ -37,6 +37,10 @@
 
 ## Equipment
 
+### Tablet
+
+- Some Tablet
+
 ### Google
 
 - 1 [Google Chromecast](http://www.bestbuy.com.mx/p/google-chromecast-video-negro/1000198185)
@@ -45,10 +49,6 @@
 ### Amazon
 
 - 1 [Echo Dot (2nd Generation) - Black(Versión EE.UU., importado)](https://www.amazon.com.mx/Echo-Dot-2nd-Generation-importado/dp/B01DFKC2SO)
-
-### Tablet
-
-- Some Tablet
 
 ### Phillips Hue
 
