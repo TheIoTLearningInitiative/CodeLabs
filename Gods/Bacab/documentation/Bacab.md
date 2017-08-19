@@ -13,7 +13,8 @@
   - Email
   - Username: BacabHome
   - Activities
-    - Upload Photo
+    - Upload Photo taking Home icon from [Material Design Icon](https://materialdesignicons.com/)
+      
 
 ## Equipment
 
