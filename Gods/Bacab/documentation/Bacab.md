@@ -12,6 +12,8 @@
   - Name
   - Email
   - Username: BacabHome
+  - Activities
+    - Upload Photo
 
 ## Equipment
 
