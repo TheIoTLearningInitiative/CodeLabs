@@ -1,7 +1,7 @@
 # Bacab
 
 
-# Applications
+## Accounts
 
 - Google
   - Name: Bacab
@@ -16,9 +16,18 @@
   - Username: BacabHome
   - Activities
     - Upload Photo taking Home icon from [Material Design Icon](https://materialdesignicons.com/)
-      
+
+## Applications
+
+- Twitter
+- Netflix
 
 ## Equipment
+
+### Google
+
+- 1 [Google Chromecast](http://www.bestbuy.com.mx/p/google-chromecast-video-negro/1000198185)
+- 1 [Google Chromecast Audio](http://www.bestbuy.com.mx/p/google-chromecast-audio-negro/1000198189)
 
 ### Tablet
 
