@@ -8,6 +8,8 @@
   - Last Name: Home
   - Email
   - Password
+  - Activities
+    - Upload Photo taking Home icon from [Material Design Icon](https://materialdesignicons.com/)  
 - Twitter
   - Name
   - Email
