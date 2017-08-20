@@ -41,6 +41,7 @@
         - Stringify
         - Tuya Smart
         - Wemo
+        - Smart Life
     - Google Home
   - Lighthing
     - Phillips Hue
