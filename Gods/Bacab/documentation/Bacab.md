@@ -46,7 +46,7 @@
         - Changed Android App Installations settings
     - Home
   - Light
-    - Phillips Hue
+    - Hue
     - [Hue Widget](https://play.google.com/store/apps/details?id=com.apekoppen.huewidget&hl=en) __Under Review__
 - Social Media
   - Twitter
