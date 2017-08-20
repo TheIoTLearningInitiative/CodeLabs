@@ -26,11 +26,12 @@
 
 - Shopping
   - Amazon
-- Video
+- Movie Time
   - Amazon Prime Video
   - Netflix
 - Social Media
   - Twitter
+  - Pinterest
 - Smart Home
   - Assistants
     - Alexa
@@ -39,6 +40,7 @@
     - [Hue Widget](https://play.google.com/store/apps/details?id=com.apekoppen.huewidget&hl=en) __Under Review__
   - Automation
     - Stringify
+    - If This The That
 
 ## Equipment
 
