@@ -81,9 +81,9 @@
 - 1 Tap Switch [Philips Lámpara LED Tap Control](https://www.amazon.com.mx/Philips-Lámpara-LED-Tap-Control/dp/B018Z28KQA/)
 - 1 White and Color Ambience [Philips 464487 Bombillas Hue 10W A19 E26, NAM v4, Multicolor](https://www.amazon.com.mx/Philips-464487-Bombillas-Hue-Multicolor/dp/B01M9AU8MB)
 - 3 White Ambience [Philips Hue Ambiance 10.5W A19 E26](https://www.amazon.com.mx/Philips-Hue-Ambiance-10-5W-A19/dp/B01F6T4R0S)
-- X [Philips 468058 Hue White A19 LED Bulb](https://www.amazon.com.mx/Philips-468058-Hue-White-Bulb/dp/B01M1S6I1Y)
-- X [Philips Hue Foco Blanco Individual A19 9.5W E26 US](https://www.amazon.com.mx/Philips-Foco-Blanco-Individual-9-5W/dp/B016AEHUQ6)
+- 3 [Philips 468058 Hue White A19 LED Bulb](https://www.amazon.com.mx/Philips-468058-Hue-White-Bulb/dp/B01M1S6I1Y)
 - 2 Motion Sensor [Philips 464602 Hue Motion Sensor](https://www.amazon.com.mx/Philips-464602-Hue-Motion-Sensor/dp/B01KJYSOGI)
+- 1 [Philips Hue Bloom-Single Iluminación Personalizada de Tono Inalámbrica](https://www.amazon.com.mx/gp/product/B00I811PG6)
 
 ### Belkin
 
