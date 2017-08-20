@@ -24,12 +24,10 @@
 
 ## Applications
 
+- Games
+  - Several
 - Shop
   - Amazon
-- Video
-  - Amazon Prime Video
-  - Netflix
-  - YT Kids
 - Smart Home
   - Automation
     - Stringify
@@ -50,6 +48,10 @@
 - Social Media
   - Twitter
   - Pinterest
+- Video
+  - Amazon Prime Video
+  - Netflix
+  - YT Kids
 
 ### Under Review
 
