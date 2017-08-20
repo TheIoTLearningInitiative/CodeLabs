@@ -3,6 +3,11 @@
 
 ## Accounts
 
+- Amazon
+  - Country Mexico
+    - Amazon Prime
+  - Country United Stated
+    - Amazon Prime
 - Google
   - Name: Bacab
   - Last Name: Home
@@ -22,7 +27,7 @@
 - Shopping
   - Amazon
 - Video
-  - Amazon Video
+  - Amazon Prime Video
   - Netflix
 - Social Media
   - Twitter
