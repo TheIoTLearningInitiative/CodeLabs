@@ -83,6 +83,7 @@
 - 3 White Ambience [Philips Hue Ambiance 10.5W A19 E26](https://www.amazon.com.mx/Philips-Hue-Ambiance-10-5W-A19/dp/B01F6T4R0S)
 - X [Philips 468058 Hue White A19 LED Bulb](https://www.amazon.com.mx/Philips-468058-Hue-White-Bulb/dp/B01M1S6I1Y)
 - X [Philips Hue Foco Blanco Individual A19 9.5W E26 US](https://www.amazon.com.mx/Philips-Foco-Blanco-Individual-9-5W/dp/B016AEHUQ6)
+- 2 [Philips 464602 Hue Motion Sensor](https://www.amazon.com.mx/Philips-464602-Hue-Motion-Sensor/dp/B01KJYSOGI/ref=sr_1_2?s=tools&ie=UTF8&qid=1503260274&sr=1-2&keywords=motion+sensor)
 
 ### Belkin
 
