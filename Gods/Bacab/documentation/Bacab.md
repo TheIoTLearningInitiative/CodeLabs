@@ -35,6 +35,13 @@
 - Smart Home
   - Assistants
     - Alexa
+      - Changed Android App Installations settings
+      - Smart Home Skills
+        - Hue
+        - Stringify
+        - Tuya Smart
+        - Wemo
+    - Google Home
   - Lighthing
     - Phillips Hue
     - [Hue Widget](https://play.google.com/store/apps/details?id=com.apekoppen.huewidget&hl=en) __Under Review__
