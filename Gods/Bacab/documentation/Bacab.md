@@ -24,20 +24,17 @@
 
 ## Applications
 
-- Shopping
+- Shop
   - Amazon
-- Movie Time
+- Video
   - Amazon Prime Video
   - Netflix
-  - Youtube Kids
-- Social Media
-  - Twitter
-  - Pinterest
+  - YT Kids
 - Smart Home
   - Automation
     - Stringify
     - If This The That
-  - Assistants
+  - Assistant
     - Alexa
       - Smart Home Skills
         - Hue
@@ -51,6 +48,9 @@
   - Light
     - Phillips Hue
     - [Hue Widget](https://play.google.com/store/apps/details?id=com.apekoppen.huewidget&hl=en) __Under Review__
+- Social Media
+  - Twitter
+  - Pinterest
 
 ## Equipment
 
