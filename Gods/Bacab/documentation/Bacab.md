@@ -33,22 +33,23 @@
   - Twitter
   - Pinterest
 - Smart Home
+  - Automation
+    - Stringify
+    - If This The That
   - Assistants
     - Alexa
-      - Changed Android App Installations settings
       - Smart Home Skills
         - Hue
         - Stringify
         - Tuya Smart
         - Wemo
         - Smart Life
+      - Steps
+        - Changed Android App Installations settings
     - Google Home
   - Lighthing
     - Phillips Hue
     - [Hue Widget](https://play.google.com/store/apps/details?id=com.apekoppen.huewidget&hl=en) __Under Review__
-  - Automation
-    - Stringify
-    - If This The That
 
 ## Equipment
 
