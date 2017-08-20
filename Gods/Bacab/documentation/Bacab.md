@@ -45,6 +45,7 @@
     - Home
   - Light
     - Hue
+    - Huey - Ambient Light Effects
 - Social Media
   - Twitter
   - Pinterest
