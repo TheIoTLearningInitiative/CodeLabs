@@ -21,7 +21,7 @@
 
 ## What we see
 
-- Digital Door
+- Outdoor Video Conference System
 - Mobile System
 
 ## What we want
