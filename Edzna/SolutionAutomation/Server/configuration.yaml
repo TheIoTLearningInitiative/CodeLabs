@@ -1,0 +1,163 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 22.65
+  longitude: -103
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 0
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: America/Mexico_City
+
+  customize:
+
+  # Bedroom
+
+    light.bedroom_lamp:
+      friendly_name: Lamp
+      icon: mdi:lightbulb
+    sensor.bedroom_luxes:
+      friendly_name: Luxes
+      icon: mdi:lightbulb-on-outline
+    binary_sensor.bedroom_motion:
+      friendly_name: Motion
+    binary_sensor.bedroom_opening:
+      friendly_name: Window
+
+  # Restroom
+
+    light.restroom_bulb:
+      friendly_name: Bulb
+      icon: mdi:lightbulb
+
+  # Kitchen
+
+    light.kitchen_bulb:
+      friendly_name: Bulb
+      icon: mdi:lightbulb
+
+# Show links to resources in log and frontend
+#introduction:
+
+# Enables the frontend
+frontend:
+
+# Enables configuration UI
+config:
+
+http:
+  # Uncomment this to add a password (recommended!)
+  # api_password: PASSWORD
+  # Uncomment this if you are using SSL or running in Docker etc
+  # base_url: example.duckdns.org:8123
+  server_port: 8123
+
+history:
+
+mqtt:
+  broker: iot.eclipse.org
+  port: 1883
+  client_id: edznahomeautomationdemo
+  keepalive: 60
+
+light:
+  - platform: mqtt
+    name: bedroom lamp
+    state_topic: 'edzna/bedroom/lamp/status'
+    command_topic: 'edzna/bedroom/lamp/switch'
+    rgb_state_topic: "edzna/bedroom/lamp/rgb/status"
+    rgb_command_topic: "edzna/bedroom/lamp/rgb/set"
+    optimistic: true
+    payload_on: 1
+    payload_off: 0
+  - platform: mqtt
+    name: restroom bulb
+    state_topic: 'edzna/restroom/bulb/status'
+    command_topic: 'edzna/restroom/bulb/switch'
+    rgb_state_topic: "edzna/restroom/bulb/rgb/status"
+    rgb_command_topic: "edzna/restroom/bulb/rgb/set"
+    optimistic: true
+    payload_on: 1
+    payload_off: 0
+  - platform: mqtt
+    name: kitchen bulb
+    state_topic: 'edzna/kitchen/bulb/status'
+    command_topic: 'edzna/kitchen/bulb/switch'
+    rgb_state_topic: "edzna/kitchen/bulb/rgb/status"
+    rgb_command_topic: "edzna/kitchen/bulb/rgb/set"
+    optimistic: true
+
+sensor:
+  - platform: mqtt
+    name: bedroom luxes
+    state_topic: "edzna/bedroom/luxes"
+    sensor_class: light
+
+binary_sensor:
+  - platform: mqtt
+    name: bedroom motion
+    state_topic: "edzna/bedroom/motion"
+    sensor_class: motion
+    payload_on: 1
+    payload_off: 0
+  - platform: mqtt
+    name: bedroom opening
+    state_topic: "edzna/bedroom/opening"
+    sensor_class: opening
+    payload_on: 1
+    payload_off: 0
+
+camera:
+  - platform: mqtt
+    name: kitchen
+    topic: zanzito/shared_locations/edzna
+
+automation:
+  - alias: Turn on light
+    trigger:
+      platform: mqtt
+      topic: edzna/bedroom/motion
+      payload: 1
+    action:
+      entity_id:
+      - light.restroom_bulb
+      service: light.turn_on
+  - alias: Turn off light
+    trigger:
+      platform: mqtt
+      topic: edzna/bedroom/motion
+      payload: 0
+    action:
+      entity_id:
+      - light.restroom_bulb
+      service: light.turn_off
+
+group:
+
+  default_view:
+    view: yes
+    entities:
+      - group.bedroom
+      - group.restroom
+      - group.kitchen
+
+  bedroom:
+    name: Bedroom
+    entities:
+      - light.bedroom_lamp
+      - sensor.bedroom_luxes
+      - binary_sensor.bedroom_motion
+      - binary_sensor.bedroom_opening
+
+  restroom:
+    name: Restroom
+    entities:
+      - light.restroom_bulb
+
+  kitchen:
+    name: Kitchen
+    entities:
+      - light.kitchen_bulb
+      - camera.kitchen
