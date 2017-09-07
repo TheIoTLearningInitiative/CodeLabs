@@ -30,8 +30,10 @@
 
 # Mobile System
 
+3 Options:
+
 1. Commercial
-2. Windows 10 Cellphone
+2. Windows 10 Cellphone (Preferred)
 3. Custom Made
    - Computer  Up Board powered by Ubilinux
    - Battery 5V @ 3340 mAh
