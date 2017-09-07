@@ -5,7 +5,7 @@
 - PuertaDigitalGdl Outlook
 - PuertaDigitalGdc Outlook
 
-# Stationary Video Conference Station
+# Official: Stationary Video Conference Station
 
 - Intel® NUC Kit NUC6i3SYH powered by Windows 10
 - Television Hisense 50H7GB 50-Inch Smart LED TV
@@ -14,7 +14,7 @@
 - Camera Logitech C930e USB Desktop or Laptop Webcam, HD 1080p Camera
 - Microphone Blue Snowball iCE Condenser Microphone, Cardioid - White
 
-# Stationary Video Conference Station, Entertainment System
+# Proof Of Concept: Stationary Video Conference Station, Entertainment System
 
 - Computer  Up Board powered by Ubilinux
 - Accesory DC Power Adapter 5V @ 3 A
@@ -28,7 +28,7 @@
 - Gaming  USB Bluetooth
 - Gaming Gamepads
 
-# Mobile System
+# Proof Of Concept: Mobile System
 
 3 Options:
 
