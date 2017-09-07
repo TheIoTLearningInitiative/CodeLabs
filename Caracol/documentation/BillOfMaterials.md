@@ -5,7 +5,7 @@
 - PuertaDigitalGdl Outlook
 - PuertaDigitalGdc Outlook
 
-# Stationary Video Conference Station, Digital Door
+# Stationary Video Conference Station
 
 - Intel® NUC Kit NUC6i3SYH powered by Windows 10
 - Television Hisense 50H7GB 50-Inch Smart LED TV

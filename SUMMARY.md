@@ -15,7 +15,7 @@
     * [Software Development](Caracol/documentation/SoftwareDevelopment.md)
     * [Video Conference Station](Caracol/documentation/video-conference-station.md)
       * [Applications](Caracol/documentation/VideoConferenceApplications.md)
-      * [Software Services](Caracol/documentation/VideoConferenceSoftwareServices.md)
+      * [Entertainment System](Caracol/documentation/VideoConferenceSoftwareServices.md)
         * [Services](Caracol/documentation/Services.md)
           * [Graphics](Caracol/documentation/Graphics.md)
           * [Video](Caracol/documentation/Video.md)
