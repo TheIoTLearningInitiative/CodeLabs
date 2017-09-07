@@ -2,7 +2,7 @@
 
 # Accounts
 
-- PuertaDigitalGdl Outlook 408702
+- PuertaDigitalGdl Outlook
 - PuertaDigitalGdc Outlook
 
 # Stationary Video Conference Station, Digital Door
