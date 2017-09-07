@@ -7,7 +7,7 @@
 
 # Stationary Video Conference Station, Digital Door
 
-- Computer Intel® Compute Stick powered by Windows 10
+- Intel® NUC Kit NUC6i3SYH powered by Windows 10
 - Television Hisense 50H7GB 50-Inch Smart LED TV
 - HUB Powered USB Hub
 - Keyboard Mini Keyboard Wireless Rii i8 RT-MWK-08
