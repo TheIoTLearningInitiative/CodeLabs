@@ -104,7 +104,7 @@ Yucatán
 * **Bolon**
 * **Bolontiku**
 * **Bolon Yokte'**
-* **Buluc Chabtan**
+* **Buluc Chabtan** 
 
 
 
