@@ -76,6 +76,8 @@ Welcome to Node-RED
 4 Mar 04:10:48 - [info] Started flows
 ```
 
+Ctrl-C
+
 # node-red Configuration
 
 ```sh
