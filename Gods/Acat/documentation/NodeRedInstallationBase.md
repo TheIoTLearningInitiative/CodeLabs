@@ -67,9 +67,6 @@ Welcome to Node-RED
 4 Mar 04:10:34 - [info] Node.js  version: v4.4.3
 4 Mar 04:10:34 - [info] Linux 3.10.98-poky-edison+ ia32 LE
 4 Mar 04:10:37 - [info] Loading palette nodes
-4 Mar 04:10:47 - [warn] ------------------------------------------------------
-4 Mar 04:10:47 - [warn] [rpi-gpio] Info : Ignoring Raspberry Pi specific node
-4 Mar 04:10:47 - [warn] ------------------------------------------------------
 4 Mar 04:10:47 - [info] Settings file  : /home/root/.node-red/settings.js
 4 Mar 04:10:47 - [info] User directory : /home/root/.node-red
 4 Mar 04:10:47 - [info] Flows file     : /home/root/.node-red/flows_edison.json
