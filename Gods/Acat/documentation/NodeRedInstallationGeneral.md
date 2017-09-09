@@ -73,16 +73,16 @@ npm@4.4.1 /usr/lib/node_modules/npm
 ### Npm Installation Flags
 
 ```sh
-root@edison:~# npm install mraa
+root@edison:~# npm install mraa -g
 
-> mraa@1.5.1 install /home/root/node_modules/mraa
+> mraa@1.5.1 install /usr/lib/node_modules/mraa
 > node-gyp rebuild
 ```
 
 ```sh
-root@edison:~# npm install mraa -g
+root@edison:~# npm install mraa
 
-> mraa@1.5.1 install /usr/lib/node_modules/mraa
+> mraa@1.5.1 install /home/root/node_modules/mraa
 > node-gyp rebuild
 ```
 
