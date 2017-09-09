@@ -76,20 +76,6 @@ Welcome to Node-RED
 4 Mar 04:10:48 - [info] Started flows
 ```
 
-# node-red Dashboard
-
-Go to http://board.ip.adress:1880/#
-
-Loook at the installed __UI Nodes__
-
-- Input
-- Output
-- Function
-- social
-- Storage
-- Analysis
-- Advanced
-
 # node-red Configuration
 
 ```sh
