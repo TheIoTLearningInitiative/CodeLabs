@@ -54,7 +54,7 @@ node-red@0.14.6 /usr/lib/node_modules/node-red
 ## Node-RED Execution
 
 ```sh
-root@edison:~# node-red
+root@edison:~# --node-args="--max-old-space-size=256"
 ```
 
 ```sh
