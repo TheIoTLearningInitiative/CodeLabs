@@ -1,69 +1,69 @@
 # Achiote
 
 sensor.achiotesensorluxes:
-  friendly_name: Luxes
+  friendly_name: Achiote Luxes
   icon: mdi:lightbulb-on-outline
 
 switch.achioteswitch:
-  friendly_name: Switch
+  friendly_name: Achiote Switch
   icon: mdi:toggle-switch
 
 # Comino
 
 sensor.cominosensorluxes:
-  friendly_name: Luxes
+  friendly_name: Comino Luxes
   icon: mdi:lightbulb-on-outline
 
 switch.cominoswitch:
-  friendly_name: Switch
+  friendly_name: Comino Switch
   icon: mdi:toggle-switch
 
 # Lomo
 
 sensor.lomosensorluxes:
-  friendly_name: Luxes
+  friendly_name: Lomo Luxes
   icon: mdi:lightbulb-on-outline
 
 switch.lomoswitch:
-  friendly_name: Switch
+  friendly_name: Lomo Switch
   icon: mdi:toggle-switch
 
 # Naranja
 
 sensor.naranjasensorluxes:
-  friendly_name: Luxes
+  friendly_name: Naranja Luxes
   icon: mdi:lightbulb-on-outline
 
 switch.naranjaswitch:
-  friendly_name: Switch
+  friendly_name: Naranja Switch
   icon: mdi:toggle-switch
 
 # Oregano
 
 sensor.oreganosensorluxes:
-  friendly_name: Luxes
+  friendly_name: Oregano Luxes
   icon: mdi:lightbulb-on-outline
 
 switch.oreganoswitch:
-  friendly_name: Switch
+  friendly_name: Oregano Switch
   icon: mdi:toggle-switch
 
 # Pierna
 
 sensor.piernasensorluxes:
-  friendly_name: Luxes
+  friendly_name: Pierna Luxes
   icon: mdi:lightbulb-on-outline
 
 switch.piernaswitch:
-  friendly_name: Switch
+  friendly_name: Pierna Switch
   icon: mdi:toggle-switch
 
 # Vinagre
 
 sensor.vinagresensorluxes:
-  friendly_name: Luxes
+  friendly_name: Vinagre Luxes
   icon: mdi:lightbulb-on-outline
 
 switch.vinagreswitch:
-  friendly_name: Switch
+  friendly_name: Vinagre Switch
   icon: mdi:toggle-switch
