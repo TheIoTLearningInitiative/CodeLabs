@@ -4,8 +4,38 @@
   name: AchioteSensorLuxes
   state_topic: "cochinitapibil/achiote/sensor/luxes"
 
+# Comino
+
+- platform: mqtt
+  name: CominoSensorLuxes
+  state_topic: "cochinitapibil/comino/sensor/luxes"
+
+# Lomo
+
+- platform: mqtt
+  name: LomoSensorLuxes
+  state_topic: "cochinitapibil/lomo/sensor/luxes"
+
+# Naranja
+
+- platform: mqtt
+  name: NaranjaSensorLuxes
+  state_topic: "cochinitapibil/naranja/sensor/luxes"
+
+# Oregano
+
+- platform: mqtt
+  name: OreganoSensorLuxes
+  state_topic: "cochinitapibil/oregano/sensor/luxes"
+
 # Pierna
 
 - platform: mqtt
   name: PiernaSensorLuxes
   state_topic: "cochinitapibil/pierna/sensor/luxes"
+
+# Vinagre
+
+- platform: mqtt
+  name: VinagreSensorLuxes
+  state_topic: "cochinitapibil/vinagre/sensor/luxes"
