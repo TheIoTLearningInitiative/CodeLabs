@@ -4,8 +4,38 @@
   name: AchioteSwitch
   command_topic: cochinitapibil/achiote/switch
 
+# Comino
+
+- platform: mqtt
+  name: CominoSwitch
+  command_topic: cochinitapibil/comino/switch
+
+# Lomo
+
+- platform: mqtt
+  name: LomoSwitch
+  command_topic: cochinitapibil/lomo/switch
+
+# Naranja
+
+- platform: mqtt
+  name: NaranjaSwitch
+  command_topic: cochinitapibil/naranja/switch
+
+# Oregano
+
+- platform: mqtt
+  name: OreganoSwitch
+  command_topic: cochinitapibil/oregano/switch
+
 # Pierna
 
 - platform: mqtt
   name: PiernaSwitch
   command_topic: cochinitapibil/pierna/switch
+
+# Vinagre
+
+- platform: mqtt
+  name: VinagreSwitch
+  command_topic: cochinitapibil/vinagre/switch
