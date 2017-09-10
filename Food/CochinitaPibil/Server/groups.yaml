@@ -49,63 +49,63 @@ achiote:
   name: Achiote
   entities:
     - sensor.achiotesensorluxes
-    - switch.achioteswitch
     - binary_sensor.achiotebinarysensormotion
     - binary_sensor.achiotebinarysensoropening
+    - switch.achioteswitch
     - binary_sensor.achiotebinarysensorconnectivity
 
 comino:
   name: Comino
   entities:
     - sensor.cominosensorluxes
-    - switch.cominoswitch
     - binary_sensor.cominobinarysensormotion
     - binary_sensor.cominobinarysensoropening
+    - switch.cominoswitch
     - binary_sensor.cominobinarysensorconnectivity
 
 lomo:
   name: Lomo
   entities:
     - sensor.lomosensorluxes
-    - switch.lomoswitch
     - binary_sensor.lomobinarysensormotion
     - binary_sensor.lomobinarysensoropening
+    - switch.lomoswitch
     - binary_sensor.lomobinarysensorconnectivity
 
 naranja:
   name: Naranja
   entities:
     - sensor.naranjasensorluxes
-    - switch.naranjaswitch
     - binary_sensor.naranjabinarysensormotion
     - binary_sensor.naranjabinarysensoropening
+    - switch.naranjaswitch
     - binary_sensor.naranjabinarysensorconnectivity
 
 oregano:
   name: Oregano
   entities:
     - sensor.oreganosensorluxes
-    - switch.oreganoswitch
     - binary_sensor.oreganobinarysensormotion
     - binary_sensor.oreganobinarysensoropening
+    - switch.oreganoswitch
     - binary_sensor.oreganobinarysensorconnectivity
 
 pierna:
   name: Pierna
   entities:
     - sensor.piernasensorluxes
-    - switch.piernaswitch
     - binary_sensor.piernabinarysensormotion
     - binary_sensor.piernabinarysensoropening
+    - switch.piernaswitch
     - binary_sensor.piernabinarysensorconnectivity
 
 vinagre:
   name: Vinagre
   entities:
     - sensor.vinagresensorluxes
-    - switch.vinagreswitch
     - binary_sensor.vinagrebinarysensormotion
     - binary_sensor.vinagrebinarysensoropening
+    - switch.vinagreswitch
     - binary_sensor.vinagrebinarysensorconnectivity
 
 luxes:
@@ -118,17 +118,6 @@ luxes:
     - sensor.oreganosensorluxes
     - sensor.piernasensorluxes
     - sensor.vinagresensorluxes
-
-switches:
-  name: Group Switches
-  entities:
-    - switch.achioteswitch
-    - switch.cominoswitch
-    - switch.lomoswitch
-    - switch.naranjaswitch
-    - switch.oreganoswitch
-    - switch.piernaswitch
-    - switch.vinagreswitch
 
 motion:
   name: Group Motion
@@ -151,6 +140,17 @@ opening:
     - binary_sensor.oreganobinarysensoropening
     - binary_sensor.piernabinarysensoropening
     - binary_sensor.vinagrebinarysensoropening
+
+switches:
+  name: Group Switches
+  entities:
+    - switch.achioteswitch
+    - switch.cominoswitch
+    - switch.lomoswitch
+    - switch.naranjaswitch
+    - switch.oreganoswitch
+    - switch.piernaswitch
+    - switch.vinagreswitch
 
 connectivity:
   name: Group Connectivity
