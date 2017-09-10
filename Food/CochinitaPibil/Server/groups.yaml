@@ -1,6 +1,7 @@
 default_view:
   view: yes
   entities:
+    - alarm_control_panel.cochinitapibilalarm
     - group.achiote
 
 achiotezone:
