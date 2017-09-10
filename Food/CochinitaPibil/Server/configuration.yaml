@@ -37,5 +37,6 @@ switch: !include switches.yaml
 
 alarm_control_panel:
   - platform: mqtt
-    state_topic: "home/alarm"
-    command_topic: "home/alarm/set"
+    name: CochinitaPibilAlarm
+    state_topic: "cochinitapibil/alarm"
+    command_topic: "cochinitapibil/alarm/set"
