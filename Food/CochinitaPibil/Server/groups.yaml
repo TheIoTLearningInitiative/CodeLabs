@@ -1,13 +1,7 @@
 default_view:
   view: yes
   entities:
-    - group.achiote
-    - group.comino
-    - group.lomo
-    - group.naranja
-    - group.oregano
-    - group.pierna
-    - group.vinagre
+    - group.luxes
 
 achiotezone:
   view: yes
@@ -87,8 +81,19 @@ pierna:
     - sensor.piernasensorluxes
     - switch.piernaswitch
 
-Vinagre:
+vinagre:
   name: Vinagre
   entities:
     - sensor.vinagresensorluxes
     - switch.vinagreswitch
+
+luxes:
+  name: Luxes
+  entities:
+    - sensor.achiotesensorluxes
+    - sensor.cominosensorluxes
+    - sensor.lomosensorluxes
+    - sensor.naranjasensorluxes
+    - sensor.oreganosensorluxes
+    - sensor.piernasensorluxes
+    - sensor.vinagresensorluxes
