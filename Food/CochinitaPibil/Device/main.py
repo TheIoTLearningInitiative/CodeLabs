@@ -26,7 +26,7 @@ def functionSubscribeSwitchData(mosq, obj, msg):
 
 def functionSubscribeSwitch():
     mqttclient = paho.Client()
-    mqttclient.on_message = functionSubscribeActuatorData
+    mqttclient.on_message = functionSubscribeSwitchData
     mqttclient.connect(mqttserver, mqttport, 60)
     mqttclient.subscribe("cochinitapibil/achiote/switch", 0)
     while mqttclient.loop() == 0:
@@ -42,39 +42,39 @@ def functionPublishSensorLuxes():
     mqttclient.connect(mqttserver, mqttport, 60)
     while True:
         data = functionPublishSensorLuxesData()
-        topic = "cochinitapibil/achiote/luxes"
+        topic = "cochinitapibil/achiote/sensor/luxes"
         mqttclient.publish(topic, data)
         time.sleep(1)
 
-def functionPublishSensorBinaryMotionData():
+def functionPublishBinarySensorMotionData():
     value = motion.value()
     if value:
         value = 1
     else:
         value = 0
-    print "Publish Sensor Binary Motion Data: We got %s!" % value
+    print "Publish Binary Sensor Motion Data: We got %s!" % value
     return value
 
-def functionPublishSensorBinaryMotion():
+def functionPublishBinarySensorMotion():
     mqttclient = paho.Client()
     mqttclient.connect(mqttserver, mqttport, 60)
     while True:
-        data = functionPublishSensorBinaryMotionData()
-        topic = "cochinitapibil/achiote/motion"
+        data = functionPublishBinarySensorMotionData()
+        topic = "cochinitapibil/achiote/binarysensor/motion"
         mqttclient.publish(topic, data)
         time.sleep(1)
 
-def functionPublishSensorBinaryOpeningData():
+def functionPublishBinarySensorOpeningData():
     value = button.value()
-    print "Publish Sensor Binary Opening Data: We got %s!" % value
+    print "Publish Binary Sensor Opening Data: We got %s!" % value
     return value
 
-def functionPublishSensorBinaryOpening():
+def functionPublishBinarySensorOpening():
     mqttclient = paho.Client()
     mqttclient.connect(mqttserver, mqttport, 60)
     while True:
-        data = functionPublishSensorBinaryOpeningData()
-        topic = "cochinitapibil/achiote/opening"
+        data = functionPublishBinarySensorOpeningData()
+        topic = "cochinitapibil/achiote/binarysensor/opening"
         mqttclient.publish(topic, data)
         time.sleep(1)
 
@@ -91,11 +91,11 @@ if __name__ == '__main__':
     threadmqttpublishsensorluxes = Thread(target=functionPublishSensorLuxes)
     threadmqttpublishsensorluxes.start()
 
-    threadmqttpublishsensorbinarymotion = Thread(target=functionPublishSensorBinaryMotion)
-    threadmqttpublishsensorbinarymotion.start()
+    threadmqttpublishbinarysensormotion = Thread(target=functionPublishBinarySensorMotion)
+    threadmqttpublishbinarysensormotion.start()
 
-    threadmqttpublishsensorbinaryopening = Thread(target=functionPublishSensorBinaryOpening)
-    threadmqttpublishsensorbinaryopening.start()
+    threadmqttpublishbinarysensoropening = Thread(target=functionPublishBinarySensorOpening)
+    threadmqttpublishbinarysensoropening.start()
 
     print "IoT Solution Architect: From The Device To A Cloud Platform"
 
