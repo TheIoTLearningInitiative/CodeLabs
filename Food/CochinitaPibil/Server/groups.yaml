@@ -1,0 +1,10 @@
+default_view:
+  view: yes
+  entities:
+    - group.achiote
+
+achiote:
+  name: Achiote
+  entities:
+    - sensor.achiotesensorluxes
+    - switch.achioteswitch

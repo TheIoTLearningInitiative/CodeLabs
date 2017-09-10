@@ -1,0 +1,3 @@
+- platform: mqtt
+  name: AchioteSwitch
+  command_topic: cochinitapibil/achiote/switch

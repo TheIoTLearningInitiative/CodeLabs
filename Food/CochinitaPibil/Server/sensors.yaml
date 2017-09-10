@@ -1,0 +1,3 @@
+- platform: mqtt
+  name: AchioteSensorLuxes
+  state_topic: "cochinitapibil/achiote/sensor/luxes"
