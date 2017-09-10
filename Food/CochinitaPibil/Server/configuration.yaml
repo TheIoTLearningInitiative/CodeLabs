@@ -34,9 +34,3 @@ binary_sensor: !include binarysensors.yaml
 group: !include groups.yaml
 sensor: !include sensors.yaml
 switch: !include switches.yaml
-
-alarm_control_panel:
-  - platform: mqtt
-    name: CochinitaPibilAlarm
-    state_topic: "cochinitapibil/alarm"
-    command_topic: "cochinitapibil/alarm/set"
