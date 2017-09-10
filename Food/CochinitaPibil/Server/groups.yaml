@@ -51,6 +51,8 @@ achiote:
   entities:
     - sensor.achiotesensorluxes
     - switch.achioteswitch
+    - binary_sensor.achiotebinarysensormotion
+    - binary_sensor.achiotebinarysensoropening
 
 comino:
   name: Comino
