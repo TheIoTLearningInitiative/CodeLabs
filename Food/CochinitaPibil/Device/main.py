@@ -28,7 +28,7 @@ def functionSubscribeActuator():
     mqttclient = paho.Client()
     mqttclient.on_message = functionSubscribeActuatorData
     mqttclient.connect(mqttserver, mqttport, 60)
-    mqttclient.subscribe("cochinitapibil/one/actuator/switch", 0)
+    mqttclient.subscribe("cochinitapibil/achiote/actuator/switch", 0)
     while mqttclient.loop() == 0:
         pass
 
@@ -42,7 +42,7 @@ def functionPublishSensorLuxes():
     mqttclient.connect(mqttserver, mqttport, 60)
     while True:
         data = functionPublishSensorLuxesData()
-        topic = "cochinitapibil/one/luxes"
+        topic = "cochinitapibil/achiote/luxes"
         mqttclient.publish(topic, data)
         time.sleep(1)
 
@@ -60,7 +60,7 @@ def functionPublishSensorBinaryMotion():
     mqttclient.connect(mqttserver, mqttport, 60)
     while True:
         data = functionPublishSensorBinaryMotionData()
-        topic = "cochinitapibil/one/motion"
+        topic = "cochinitapibil/achiote/motion"
         mqttclient.publish(topic, data)
         time.sleep(1)
 
@@ -74,7 +74,7 @@ def functionPublishSensorBinaryOpening():
     mqttclient.connect(mqttserver, mqttport, 60)
     while True:
         data = functionPublishSensorBinaryOpeningData()
-        topic = "cochinitapibil/one/opening"
+        topic = "cochinitapibil/achiote/opening"
         mqttclient.publish(topic, data)
         time.sleep(1)
 
