@@ -7,105 +7,140 @@ achiotezone:
   view: yes
   name: Achiote Zone
   entities:
-    - group.achiote
+    - group.achiotedefault
+    - group.achiotechallenge
 
 cominozone:
   view: yes
   name: Comino Zone
   entities:
-    - group.comino
+    - group.cominodefault
+    - group.cominochallenge
 
 lomozone:
   view: yes
   name: Lomo Zone
   entities:
-    - group.lomo
+    - group.lomodefault
+    - group.lomochallenge
 
 naranjazone:
   view: yes
   name: Naranja Zone
   entities:
-    - group.naranja
+    - group.naranjadefault
+    - group.naranjachallenge
 
 oreganozone:
   view: yes
   name: Oregano Zone 
   entities:
-    - group.oregano
+    - group.oreganodefault
+    - group.oreganochallenge
 
 piernazone:
   view: yes
   name: Pierna Zone
   entities:
-    - group.pierna
+    - group.piernadefault
+    - group.piernachallenge
 
 vinagrezone:
   view: yes
   name: Vinagre Zone 
   entities:
-    - group.vinagre
+    - group.vinagredefault
+    - group.vinagrechallenge
 
-achiote:
-  name: Achiote
+achiotedefault:
+  name: Default
   entities:
     - sensor.achiotesensorluxes
     - binary_sensor.achiotebinarysensormotion
     - binary_sensor.achiotebinarysensoropening
     - switch.achioteswitch
+
+achiotechallenge:
+  name: Challenge
+  entities:
     - binary_sensor.achiotebinarysensorconnectivity
 
-comino:
-  name: Comino
+cominodefault:
+  name: Default
   entities:
     - sensor.cominosensorluxes
     - binary_sensor.cominobinarysensormotion
     - binary_sensor.cominobinarysensoropening
     - switch.cominoswitch
+
+cominochallenge:
+  name: Challenge
+  entities:
     - binary_sensor.cominobinarysensorconnectivity
 
-lomo:
-  name: Lomo
+lomodefault:
+  name: Default
   entities:
     - sensor.lomosensorluxes
     - binary_sensor.lomobinarysensormotion
     - binary_sensor.lomobinarysensoropening
     - switch.lomoswitch
+
+lomochallenge:
+  name: Challenge
+  entities:
     - binary_sensor.lomobinarysensorconnectivity
 
-naranja:
-  name: Naranja
+naranjadefault:
+  name: Default
   entities:
     - sensor.naranjasensorluxes
     - binary_sensor.naranjabinarysensormotion
     - binary_sensor.naranjabinarysensoropening
     - switch.naranjaswitch
+
+naranjachallenge:
+  name: Challenge
+  entities:
     - binary_sensor.naranjabinarysensorconnectivity
 
-oregano:
-  name: Oregano
+oreganodefault:
+  name: Default
   entities:
     - sensor.oreganosensorluxes
     - binary_sensor.oreganobinarysensormotion
     - binary_sensor.oreganobinarysensoropening
     - switch.oreganoswitch
+
+oreganochallenge:
+  name: Challenge
+  entities:
     - binary_sensor.oreganobinarysensorconnectivity
 
-pierna:
-  name: Pierna
+piernadefault:
+  name: Default
   entities:
     - sensor.piernasensorluxes
     - binary_sensor.piernabinarysensormotion
     - binary_sensor.piernabinarysensoropening
     - switch.piernaswitch
+
+piernachallenge:
+  name: Challenge
+  entities:
     - binary_sensor.piernabinarysensorconnectivity
 
-vinagre:
-  name: Vinagre
+vinagredefault:
+  name: Default
   entities:
     - sensor.vinagresensorluxes
     - binary_sensor.vinagrebinarysensormotion
     - binary_sensor.vinagrebinarysensoropening
     - switch.vinagreswitch
+
+vinagrechallenge:
+  name: Challenge
+  entities:
     - binary_sensor.vinagrebinarysensorconnectivity
 
 luxes:
