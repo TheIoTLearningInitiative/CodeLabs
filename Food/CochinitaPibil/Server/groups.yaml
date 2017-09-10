@@ -2,7 +2,12 @@ default_view:
   view: yes
   entities:
     - group.achiote
+    - group.comino
+    - group.lomo
+    - group.naranja
+    - group.oregano
     - group.pierna
+    - group.vinagre
 
 achiotezone:
   view: yes
@@ -10,11 +15,41 @@ achiotezone:
   entities:
     - group.achiote
 
+cominozone:
+  view: yes
+  name: Comino
+  entities:
+    - group.comino
+
+lomozone:
+  view: yes
+  name: Lomo
+  entities:
+    - group.lomo
+
+naranjazone:
+  view: yes
+  name: Naranja
+  entities:
+    - group.naranja
+
+oreganozone:
+  view: yes
+  name: Oregano 
+  entities:
+    - group.oregano
+
 piernazone:
   view: yes
   name: Pierna
   entities:
     - group.pierna
+
+vinagrezone:
+  view: yes
+  name: Vinagre 
+  entities:
+    - group.vinagre
 
 achiote:
   name: Achiote
@@ -22,8 +57,38 @@ achiote:
     - sensor.achiotesensorluxes
     - switch.achioteswitch
 
+comino:
+  name: Comino
+  entities:
+    - sensor.cominosensorluxes
+    - switch.cominoswitch
+
+lomo:
+  name: Lomo
+  entities:
+    - sensor.lomosensorluxes
+    - switch.lomoswitch
+
+naranja:
+  name: Naranja
+  entities:
+    - sensor.naranjasensorluxes
+    - switch.naranjaswitch
+
+oregano:
+  name: Oregano
+  entities:
+    - sensor.oreganosensorluxes
+    - switch.oreganoswitch
+
 pierna:
   name: Pierna
   entities:
     - sensor.piernasensorluxes
     - switch.piernaswitch
+
+Vinagre:
+  name: Vinagre
+  entities:
+    - sensor.vinagresensorluxes
+    - switch.vinagreswitch
