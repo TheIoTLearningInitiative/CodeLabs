@@ -8,6 +8,46 @@ switch.achioteswitch:
   friendly_name: Switch
   icon: mdi:toggle-switch
 
+# Comino
+
+sensor.cominosensorluxes:
+  friendly_name: Luxes
+  icon: mdi:lightbulb-on-outline
+
+switch.cominoswitch:
+  friendly_name: Switch
+  icon: mdi:toggle-switch
+
+# Lomo
+
+sensor.lomosensorluxes:
+  friendly_name: Luxes
+  icon: mdi:lightbulb-on-outline
+
+switch.lomoswitch:
+  friendly_name: Switch
+  icon: mdi:toggle-switch
+
+# Naranja
+
+sensor.naranjasensorluxes:
+  friendly_name: Luxes
+  icon: mdi:lightbulb-on-outline
+
+switch.naranjaswitch:
+  friendly_name: Switch
+  icon: mdi:toggle-switch
+
+# Oregano
+
+sensor.oreganosensorluxes:
+  friendly_name: Luxes
+  icon: mdi:lightbulb-on-outline
+
+switch.oreganoswitch:
+  friendly_name: Switch
+  icon: mdi:toggle-switch
+
 # Pierna
 
 sensor.piernasensorluxes:
@@ -15,5 +55,15 @@ sensor.piernasensorluxes:
   icon: mdi:lightbulb-on-outline
 
 switch.piernaswitch:
+  friendly_name: Switch
+  icon: mdi:toggle-switch
+
+# Vinagre
+
+sensor.vinagresensorluxes:
+  friendly_name: Luxes
+  icon: mdi:lightbulb-on-outline
+
+switch.vinagreswitch:
   friendly_name: Switch
   icon: mdi:toggle-switch
