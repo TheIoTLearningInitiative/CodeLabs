@@ -30,6 +30,7 @@ mqtt:
   client_id: CochinitaPibil
   keepalive: 60
 
+binary_sensor: !include binarysensors.yaml
 group: !include groups.yaml
 sensor: !include sensors.yaml
 switch: !include switches.yaml
