@@ -112,3 +112,36 @@ switches:
     - switch.oreganoswitch
     - switch.piernaswitch
     - switch.vinagreswitch
+
+motion:
+  name: Group Motion
+  entities:
+    - binary_sensor.achiotebinarysensormotion
+    - binary_sensor.cominobinarysensormotion
+    - binary_sensor.lomobinarysensormotion
+    - binary_sensor.naranjabinarysensormotion
+    - binary_sensor.oreganobinarysensormotion
+    - binary_sensor.piernabinarysensormotion
+    - binary_sensor.vinagrebinarysensormotion
+
+opening:
+  name: Group Opening
+  entities:
+    - binary_sensor.achiotebinarysensoropening
+    - binary_sensor.cominobinarysensoropening
+    - binary_sensor.lomobinarysensoropening
+    - binary_sensor.naranjabinarysensoropening
+    - binary_sensor.oreganobinarysensoropening
+    - binary_sensor.piernabinarysensoropening
+    - binary_sensor.vinagrebinarysensoropening
+
+connectivity:
+  name: Group Connectivity
+  entities:
+    - binary_sensor.achiotebinarysensorconnectivity
+    - binary_sensor.cominobinarysensorconnectivity
+    - binary_sensor.lomobinarysensorconnectivity
+    - binary_sensor.naranjabinarysensorconnectivity
+    - binary_sensor.oreganobinarysensorconnectivity
+    - binary_sensor.piernabinarysensorconnectivity
+    - binary_sensor.vinagrebinarysensorconnectivity
