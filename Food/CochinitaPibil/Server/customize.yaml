@@ -8,6 +8,12 @@ switch.achioteswitch:
   friendly_name: Achiote Switch
   icon: mdi:toggle-switch
 
+binary_sensor.achiotebinarysensormotion:
+  friendly_name: Achiote Binary Sensor Motion
+
+binary_sensor.achiotebinarysensoropening:
+  friendly_name: Achiote Binary Sensor Opening
+
 # Comino
 
 sensor.cominosensorluxes:
