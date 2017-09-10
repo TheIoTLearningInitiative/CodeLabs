@@ -27,6 +27,15 @@ switch.cominoswitch:
   friendly_name: Comino Switch
   icon: mdi:toggle-switch
 
+binary_sensor.cominobinarysensormotion:
+  friendly_name: Comino Binary Sensor Motion
+
+binary_sensor.cominobinarysensoropening:
+  friendly_name: Comino Binary Sensor Opening
+
+binary_sensor.cominobinarysensorconnectivity:
+  friendly_name: Comino Binary Sensor Connectivity
+
 # Lomo
 
 sensor.lomosensorluxes:
@@ -36,6 +45,15 @@ sensor.lomosensorluxes:
 switch.lomoswitch:
   friendly_name: Lomo Switch
   icon: mdi:toggle-switch
+
+binary_sensor.lomobinarysensormotion:
+  friendly_name: Lomo Binary Sensor Motion
+
+binary_sensor.lomobinarysensoropening:
+  friendly_name: Lomo Binary Sensor Opening
+
+binary_sensor.lomobinarysensorconnectivity:
+  friendly_name: Lomo Binary Sensor Connectivity
 
 # Naranja
 
@@ -47,6 +65,15 @@ switch.naranjaswitch:
   friendly_name: Naranja Switch
   icon: mdi:toggle-switch
 
+binary_sensor.naranjabinarysensormotion:
+  friendly_name: Naranja Binary Sensor Motion
+
+binary_sensor.naranjabinarysensoropening:
+  friendly_name: Naranja Binary Sensor Opening
+
+binary_sensor.naranjabinarysensorconnectivity:
+  friendly_name: Naranja Binary Sensor Connectivity
+
 # Oregano
 
 sensor.oreganosensorluxes:
@@ -56,6 +83,15 @@ sensor.oreganosensorluxes:
 switch.oreganoswitch:
   friendly_name: Oregano Switch
   icon: mdi:toggle-switch
+
+binary_sensor.oreganobinarysensormotion:
+  friendly_name: Oregano Binary Sensor Motion
+
+binary_sensor.oreganobinarysensoropening:
+  friendly_name: Oregano Binary Sensor Opening
+
+binary_sensor.oreganobinarysensorconnectivity:
+  friendly_name: Oregano Binary Sensor Connectivity
 
 # Pierna
 
@@ -67,6 +103,15 @@ switch.piernaswitch:
   friendly_name: Pierna Switch
   icon: mdi:toggle-switch
 
+binary_sensor.piernabinarysensormotion:
+  friendly_name: Pierna Binary Sensor Motion
+
+binary_sensor.piernabinarysensoropening:
+  friendly_name: Pierna Binary Sensor Opening
+
+binary_sensor.piernabinarysensorconnectivity:
+  friendly_name: Pierna Binary Sensor Connectivity
+
 # Vinagre
 
 sensor.vinagresensorluxes:
@@ -76,3 +121,12 @@ sensor.vinagresensorluxes:
 switch.vinagreswitch:
   friendly_name: Vinagre Switch
   icon: mdi:toggle-switch
+
+binary_sensor.vinagrebinarysensormotion:
+  friendly_name: Vinagre Binary Sensor Motion
+
+binary_sensor.vinagrebinarysensoropening:
+  friendly_name: Vinagre Binary Sensor Opening
+
+binary_sensor.vinagrebinarysensorconnectivity:
+  friendly_name: Vinagre Binary Sensor Connectivity
