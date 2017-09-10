@@ -78,19 +78,3 @@ Welcome to Node-RED
 
 Ctrl-C
 
-# node-red Configuration
-
-```sh
-root@edison:~# ls .node-red/
-flows_edison.json  flows_edison_cred.json  lib  node_modules  settings.js
-```
-
-```sh
-root@edison:~# ls .node-red/node_modules/
-node-red-contrib-socialogix4edison
-```
-
-```sh
-root@edison:~# cd .node-red
-root@edison:~/.node-red# 
-```
