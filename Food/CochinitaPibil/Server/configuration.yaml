@@ -31,6 +31,11 @@ mqtt:
   keepalive: 60
 
 binary_sensor: !include binarysensors.yaml
-group: !include groups.yaml
+#group: !include groups.yaml
 sensor: !include sensors.yaml
 switch: !include switches.yaml
+
+alarm_control_panel:
+  - platform: mqtt
+    state_topic: "home/alarm"
+    command_topic: "home/alarm/set"
