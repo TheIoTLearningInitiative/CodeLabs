@@ -14,3 +14,105 @@
   name: AchioteBinarySensorConnectivity
   state_topic: cochinitapibil/achiote/binarysensor/connectivity
   device_class: connectivity
+
+# Comino
+
+- platform: mqtt
+  name: CominoBinarySensorMotion
+  state_topic: cochinitapibil/comino/binarysensor/motion
+  device_class: motion
+
+- platform: mqtt
+  name: CominoBinarySensorOpening
+  state_topic: cochinitapibil/comino/binarysensor/opening
+  device_class: opening
+
+- platform: mqtt
+  name: CominoBinarySensorConnectivity
+  state_topic: cochinitapibil/comino/binarysensor/connectivity
+  device_class: connectivity
+
+# Lomo
+
+- platform: mqtt
+  name: LomoBinarySensorMotion
+  state_topic: cochinitapibil/lomo/binarysensor/motion
+  device_class: motion
+
+- platform: mqtt
+  name: LomoBinarySensorOpening
+  state_topic: cochinitapibil/lomo/binarysensor/opening
+  device_class: opening
+
+- platform: mqtt
+  name: LomoBinarySensorConnectivity
+  state_topic: cochinitapibil/lomo/binarysensor/connectivity
+  device_class: connectivity
+
+# Naranja
+
+- platform: mqtt
+  name: NaranjaBinarySensorMotion
+  state_topic: cochinitapibil/naranja/binarysensor/motion
+  device_class: motion
+
+- platform: mqtt
+  name: NaranjaBinarySensorOpening
+  state_topic: cochinitapibil/naranja/binarysensor/opening
+  device_class: opening
+
+- platform: mqtt
+  name: NaranjaBinarySensorConnectivity
+  state_topic: cochinitapibil/naranja/binarysensor/connectivity
+  device_class: connectivity
+
+# Oregano
+
+- platform: mqtt
+  name: OreganoBinarySensorMotion
+  state_topic: cochinitapibil/oregano/binarysensor/motion
+  device_class: motion
+
+- platform: mqtt
+  name: OreganoBinarySensorOpening
+  state_topic: cochinitapibil/oregano/binarysensor/opening
+  device_class: opening
+
+- platform: mqtt
+  name: OreganoBinarySensorConnectivity
+  state_topic: cochinitapibil/oregano/binarysensor/connectivity
+  device_class: connectivity
+
+# Pierna
+
+- platform: mqtt
+  name: PiernaBinarySensorMotion
+  state_topic: cochinitapibil/pierna/binarysensor/motion
+  device_class: motion
+
+- platform: mqtt
+  name: PiernaBinarySensorOpening
+  state_topic: cochinitapibil/pierna/binarysensor/opening
+  device_class: opening
+
+- platform: mqtt
+  name: PiernaBinarySensorConnectivity
+  state_topic: cochinitapibil/pierna/binarysensor/connectivity
+  device_class: connectivity
+
+# Vinagre
+
+- platform: mqtt
+  name: VinagreBinarySensorMotion
+  state_topic: cochinitapibil/vinagre/binarysensor/motion
+  device_class: motion
+
+- platform: mqtt
+  name: VinagreBinarySensorOpening
+  state_topic: cochinitapibil/vinagre/binarysensor/opening
+  device_class: opening
+
+- platform: mqtt
+  name: VinagreBinarySensorConnectivity
+  state_topic: cochinitapibil/vinagre/binarysensor/connectivity
+  device_class: connectivity
