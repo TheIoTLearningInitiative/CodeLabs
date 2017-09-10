@@ -1,3 +1,9 @@
+# Cochinita Pibil
+
+alarm_control_panel.cochinitapibilalarm:
+  friendly_name: Main Alarm
+  #icon: mdi:lightbulb-on-outline
+
 # Achiote
 
 sensor.achiotesensorluxes:
