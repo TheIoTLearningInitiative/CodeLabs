@@ -9,10 +9,10 @@ from threading import Thread
 from upm import pyupm_grove as grove
 from upm import pyupm_biss0001 as grovemotion
 
-light = grove.GroveLight(0)
 switch = grove.GroveRelay(2)
+luxes = grove.GroveLight(0)
 motion = grovemotion.BISS0001(6)
-button = grove.GroveButton(4)
+opening = grove.GroveButton(4)
 
 mqttserver = "iot.eclipse.org"
 mqttport = 1883
@@ -33,9 +33,9 @@ def functionSubscribeSwitch():
         pass
 
 def functionPublishSensorLuxesData():
-    luxes = light.value()
-    print "Publish Sensor Luxes Data: We got %s!" % luxes
-    return luxes
+    value = luxes.value()
+    print "Publish Sensor Luxes Data: We got %s!" % value
+    return value
 
 def functionPublishSensorLuxes():
     mqttclient = paho.Client()
@@ -65,7 +65,7 @@ def functionPublishBinarySensorMotion():
         time.sleep(1)
 
 def functionPublishBinarySensorOpeningData():
-    value = button.value()
+    value = opening.value()
     print "Publish Binary Sensor Opening Data: We got %s!" % value
     return value
 
