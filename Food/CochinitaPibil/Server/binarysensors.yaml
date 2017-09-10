@@ -1,14 +1,16 @@
 # Achiote
 
 - platform: mqtt
-  name: AchioteBinarySensorConnectivity
-  state_topic: cochinitapibil/achiote/binarysensor/connectivity
-  device_class: connectivity
-- platform: mqtt
   name: AchioteBinarySensorMotion
   state_topic: cochinitapibil/achiote/binarysensor/motion
   device_class: motion
+
 - platform: mqtt
   name: AchioteBinarySensorOpening
   state_topic: cochinitapibil/achiote/binarysensor/opening
   device_class: opening
+
+- platform: mqtt
+  name: AchioteBinarySensorConnectivity
+  state_topic: cochinitapibil/achiote/binarysensor/connectivity
+  device_class: connectivity
