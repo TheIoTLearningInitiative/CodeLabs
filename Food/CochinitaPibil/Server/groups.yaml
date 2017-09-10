@@ -89,7 +89,7 @@ vinagre:
     - switch.vinagreswitch
 
 luxes:
-  name: Luxes
+  name: Group Luxes
   entities:
     - sensor.achiotesensorluxes
     - sensor.cominosensorluxes
@@ -100,12 +100,12 @@ luxes:
     - sensor.vinagresensorluxes
 
 switches:
-  name: Switches
+  name: Group Switches
   entities:
-    - sensor.achioteswitch
-    - sensor.cominoswitch
-    - sensor.lomoswitch
-    - sensor.naranjaswitch
-    - sensor.oreganoswitch
-    - sensor.piernaswitch
-    - sensor.vinagreswitch
+    - switch.achioteswitch
+    - switch.cominoswitch
+    - switch.lomoswitch
+    - switch.naranjaswitch
+    - switch.oreganoswitch
+    - switch.piernaswitch
+    - switch.vinagreswitch
