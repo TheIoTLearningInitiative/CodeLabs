@@ -1,4 +1,9 @@
-light.achiotesensorluxes:
+# Achiote
+
+sensor.achiotesensorluxes:
   friendly_name: Luxes
   icon: mdi:lightbulb-on-outline
 
+switch.achioteswitch:
+  friendly_name: Switch
+  icon: mdi:toggle-switch
