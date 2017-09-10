@@ -5,43 +5,43 @@ default_view:
 
 achiotezone:
   view: yes
-  name: Achiote
+  name: Achiote Zone
   entities:
     - group.achiote
 
 cominozone:
   view: yes
-  name: Comino
+  name: Comino Zone
   entities:
     - group.comino
 
 lomozone:
   view: yes
-  name: Lomo
+  name: Lomo Zone
   entities:
     - group.lomo
 
 naranjazone:
   view: yes
-  name: Naranja
+  name: Naranja Zone
   entities:
     - group.naranja
 
 oreganozone:
   view: yes
-  name: Oregano 
+  name: Oregano Zone 
   entities:
     - group.oregano
 
 piernazone:
   view: yes
-  name: Pierna
+  name: Pierna Zone
   entities:
     - group.pierna
 
 vinagrezone:
   view: yes
-  name: Vinagre 
+  name: Vinagre Zone 
   entities:
     - group.vinagre
 
@@ -97,3 +97,14 @@ luxes:
     - sensor.oreganosensorluxes
     - sensor.piernasensorluxes
     - sensor.vinagresensorluxes
+
+switches:
+  name: Switches
+  entities:
+    - sensor.achioteswitch
+    - sensor.cominoswitch
+    - sensor.lomoswitch
+    - sensor.naranjaswitch
+    - sensor.oreganoswitch
+    - sensor.piernaswitch
+    - sensor.vinagreswitch
