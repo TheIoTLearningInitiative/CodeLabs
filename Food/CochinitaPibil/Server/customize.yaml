@@ -14,6 +14,9 @@ binary_sensor.achiotebinarysensormotion:
 binary_sensor.achiotebinarysensoropening:
   friendly_name: Achiote Binary Sensor Opening
 
+binary_sensor.achiotebinarysensorconnectivity:
+  friendly_name: Achiote Binary Sensor Connectivity
+
 # Comino
 
 sensor.cominosensorluxes:
