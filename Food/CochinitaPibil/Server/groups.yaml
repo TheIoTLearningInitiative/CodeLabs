@@ -59,36 +59,54 @@ comino:
   entities:
     - sensor.cominosensorluxes
     - switch.cominoswitch
+    - binary_sensor.cominobinarysensormotion
+    - binary_sensor.cominobinarysensoropening
+    - binary_sensor.cominobinarysensorconnectivity
 
 lomo:
   name: Lomo
   entities:
     - sensor.lomosensorluxes
     - switch.lomoswitch
+    - binary_sensor.lomobinarysensormotion
+    - binary_sensor.lomobinarysensoropening
+    - binary_sensor.lomobinarysensorconnectivity
 
 naranja:
   name: Naranja
   entities:
     - sensor.naranjasensorluxes
     - switch.naranjaswitch
+    - binary_sensor.naranjabinarysensormotion
+    - binary_sensor.naranjabinarysensoropening
+    - binary_sensor.naranjabinarysensorconnectivity
 
 oregano:
   name: Oregano
   entities:
     - sensor.oreganosensorluxes
     - switch.oreganoswitch
+    - binary_sensor.oreganobinarysensormotion
+    - binary_sensor.oreganobinarysensoropening
+    - binary_sensor.oreganobinarysensorconnectivity
 
 pierna:
   name: Pierna
   entities:
     - sensor.piernasensorluxes
     - switch.piernaswitch
+    - binary_sensor.piernabinarysensormotion
+    - binary_sensor.piernabinarysensoropening
+    - binary_sensor.piernabinarysensorconnectivity
 
 vinagre:
   name: Vinagre
   entities:
     - sensor.vinagresensorluxes
     - switch.vinagreswitch
+    - binary_sensor.vinagrebinarysensormotion
+    - binary_sensor.vinagrebinarysensoropening
+    - binary_sensor.vinagrebinarysensorconnectivity
 
 luxes:
   name: Group Luxes
