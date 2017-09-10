@@ -53,6 +53,7 @@ achiote:
     - switch.achioteswitch
     - binary_sensor.achiotebinarysensormotion
     - binary_sensor.achiotebinarysensoropening
+    - binary_sensor.achiotebinarysensorconnectivity
 
 comino:
   name: Comino
