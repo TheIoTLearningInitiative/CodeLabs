@@ -17,21 +17,21 @@ switch = grove.GroveRelay(2)
 mqttserver = "iot.eclipse.org"
 mqttport = 1883
 
-def functionPublishSensorLuxesData():
+def functionSensorLuxesData():
     value = luxes.value()
     print "Publish Sensor Luxes Data: We got %s!" % value
     return value
 
-def functionPublishSensorLuxes():
+def functionSensorLuxes():
     mqttclient = paho.Client()
     mqttclient.connect(mqttserver, mqttport, 60)
     while True:
-        data = functionPublishSensorLuxesData()
+        data = functionSensorLuxesData()
         topic = "cochinitapibil/achiote/sensor/luxes"
         mqttclient.publish(topic, data)
         time.sleep(1)
 
-def functionPublishBinarySensorMotionData():
+def functionBinarySensorMotionData():
     value = motion.value()
     if value:
         value = 1
@@ -40,39 +40,39 @@ def functionPublishBinarySensorMotionData():
     print "Publish Binary Sensor Motion Data: We got %s!" % value
     return value
 
-def functionPublishBinarySensorMotion():
+def functionBinarySensorMotion():
     mqttclient = paho.Client()
     mqttclient.connect(mqttserver, mqttport, 60)
     while True:
-        data = functionPublishBinarySensorMotionData()
+        data = functionBinarySensorMotionData()
         topic = "cochinitapibil/achiote/binarysensor/motion"
         mqttclient.publish(topic, data)
         time.sleep(1)
 
-def functionPublishBinarySensorOpeningData():
+def functionBinarySensorOpeningData():
     value = opening.value()
     print "Publish Binary Sensor Opening Data: We got %s!" % value
     return value
 
-def functionPublishBinarySensorOpening():
+def functionBinarySensorOpening():
     mqttclient = paho.Client()
     mqttclient.connect(mqttserver, mqttport, 60)
     while True:
-        data = functionPublishBinarySensorOpeningData()
+        data = functionBinarySensorOpeningData()
         topic = "cochinitapibil/achiote/binarysensor/opening"
         mqttclient.publish(topic, data)
         time.sleep(1)
 
-def functionSubscribeSwitchData(mosq, obj, msg):
+def functionSwitchData(mosq, obj, msg):
     print "Subscribe Actuator Data: We received %s!" % msg.payload
     if msg.payload == "1":
         switch.on()
     elif msg.payload == "0":
         switch.off()
 
-def functionSubscribeSwitch():
+def functionSwitch():
     mqttclient = paho.Client()
-    mqttclient.on_message = functionSubscribeSwitchData
+    mqttclient.on_message = functionSwitchData
     mqttclient.connect(mqttserver, mqttport, 60)
     mqttclient.subscribe("cochinitapibil/achiote/switch", 0)
     while mqttclient.loop() == 0:
@@ -85,17 +85,17 @@ if __name__ == '__main__':
 
     signal.signal(signal.SIGINT, functionSignalHandler)
 
-    threadmqttpublishsensorluxes = Thread(target=functionPublishSensorLuxes)
-    threadmqttpublishsensorluxes.start()
+    sensorluxes = Thread(target=functionSensorLuxes)
+    sensorluxes.start()
 
-    threadmqttpublishbinarysensormotion = Thread(target=functionPublishBinarySensorMotion)
-    threadmqttpublishbinarysensormotion.start()
+    binarysensormotion = Thread(target=functionBinarySensorMotion)
+    binarysensormotion.start()
 
-    threadmqttpublishbinarysensoropening = Thread(target=functionPublishBinarySensorOpening)
-    threadmqttpublishbinarysensoropening.start()
+    binarysensoropening = Thread(target=functionBinarySensorOpening)
+    binarysensoropening.start()
 
-    threadmqttsubscribeswitch = Thread(target=functionSubscribeSwitch)
-    threadmqttsubscribeswitch.start()
+    switch = Thread(target=functionSwitch)
+    switch.start()
 
     print "IoT Solution Architect: From The Device To A Cloud Platform"
 
