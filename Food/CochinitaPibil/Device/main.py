@@ -17,6 +17,8 @@ switch = grove.GroveRelay(2)
 mqttserver = "iot.eclipse.org"
 mqttport = 1883
 
+# Sensor Luxes
+
 def functionSensorLuxesData():
     value = luxes.value()
     print "Publish Sensor Luxes Data: We got %s!" % value
@@ -31,6 +33,8 @@ def functionSensorLuxes():
         mqttclient.publish(topic, data)
         time.sleep(1)
 
+# Binary Sensor Motion
+        
 def functionBinarySensorMotionData():
     value = motion.value()
     if value:
@@ -49,6 +53,8 @@ def functionBinarySensorMotion():
         mqttclient.publish(topic, data)
         time.sleep(1)
 
+# Binary Sensor Opening
+
 def functionBinarySensorOpeningData():
     value = opening.value()
     print "Publish Binary Sensor Opening Data: We got %s!" % value
@@ -62,6 +68,8 @@ def functionBinarySensorOpening():
         topic = "cochinitapibil/achiote/binarysensor/opening"
         mqttclient.publish(topic, data)
         time.sleep(1)
+
+# Switch
 
 def functionSwitchData(mosq, obj, msg):
     print "Subscribe Actuator Data: We received %s!" % msg.payload
