@@ -10,25 +10,25 @@ from upm import pyupm_grove as grove
 from upm import pyupm_biss0001 as grovemotion
 
 light = grove.GroveLight(0)
-relay = grove.GroveRelay(2)
+switch = grove.GroveRelay(2)
 motion = grovemotion.BISS0001(6)
 button = grove.GroveButton(4)
 
 mqttserver = "iot.eclipse.org"
 mqttport = 1883
 
-def functionSubscribeActuatorData(mosq, obj, msg):
+def functionSubscribeSwitchData(mosq, obj, msg):
     print "Subscribe Actuator Data: We received %s!" % msg.payload
     if msg.payload == "1":
-        relay.on()
+        switch.on()
     elif msg.payload == "0":
-        relay.off()
+        switch.off()
 
-def functionSubscribeActuator():
+def functionSubscribeSwitch():
     mqttclient = paho.Client()
     mqttclient.on_message = functionSubscribeActuatorData
     mqttclient.connect(mqttserver, mqttport, 60)
-    mqttclient.subscribe("cochinitapibil/achiote/actuator/switch", 0)
+    mqttclient.subscribe("cochinitapibil/achiote/switch", 0)
     while mqttclient.loop() == 0:
         pass
 
@@ -85,8 +85,8 @@ if __name__ == '__main__':
 
     signal.signal(signal.SIGINT, functionSignalHandler)
 
-    threadmqttsubscribeactuator = Thread(target=functionSubscribeActuator)
-    threadmqttsubscribeactuator.start()
+    threadmqttsubscribeswitch = Thread(target=functionSubscribeSwitch)
+    threadmqttsubscribeswitch.start()
 
     threadmqttpublishsensorluxes = Thread(target=functionPublishSensorLuxes)
     threadmqttpublishsensorluxes.start()
