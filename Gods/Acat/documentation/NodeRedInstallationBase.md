@@ -78,3 +78,10 @@ Welcome to Node-RED
 
 Ctrl-C
 
+# node-red Configuration
+
+```sh
+root@edison:~# ls .node-red/
+flows_edison.json  flows_edison_cred.json  lib  node_modules  settings.js
+```
+
