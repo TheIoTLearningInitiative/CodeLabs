@@ -9,28 +9,13 @@ from threading import Thread
 from upm import pyupm_grove as grove
 from upm import pyupm_biss0001 as grovemotion
 
-switch = grove.GroveRelay(2)
 luxes = grove.GroveLight(0)
 motion = grovemotion.BISS0001(6)
 opening = grove.GroveButton(4)
+switch = grove.GroveRelay(2)
 
 mqttserver = "iot.eclipse.org"
 mqttport = 1883
-
-def functionSubscribeSwitchData(mosq, obj, msg):
-    print "Subscribe Actuator Data: We received %s!" % msg.payload
-    if msg.payload == "1":
-        switch.on()
-    elif msg.payload == "0":
-        switch.off()
-
-def functionSubscribeSwitch():
-    mqttclient = paho.Client()
-    mqttclient.on_message = functionSubscribeSwitchData
-    mqttclient.connect(mqttserver, mqttport, 60)
-    mqttclient.subscribe("cochinitapibil/achiote/switch", 0)
-    while mqttclient.loop() == 0:
-        pass
 
 def functionPublishSensorLuxesData():
     value = luxes.value()
@@ -78,15 +63,27 @@ def functionPublishBinarySensorOpening():
         mqttclient.publish(topic, data)
         time.sleep(1)
 
+def functionSubscribeSwitchData(mosq, obj, msg):
+    print "Subscribe Actuator Data: We received %s!" % msg.payload
+    if msg.payload == "1":
+        switch.on()
+    elif msg.payload == "0":
+        switch.off()
+
+def functionSubscribeSwitch():
+    mqttclient = paho.Client()
+    mqttclient.on_message = functionSubscribeSwitchData
+    mqttclient.connect(mqttserver, mqttport, 60)
+    mqttclient.subscribe("cochinitapibil/achiote/switch", 0)
+    while mqttclient.loop() == 0:
+        pass
+        
 def functionSignalHandler(signal, frame):
     sys.exit(0)
 
 if __name__ == '__main__':
 
     signal.signal(signal.SIGINT, functionSignalHandler)
-
-    threadmqttsubscribeswitch = Thread(target=functionSubscribeSwitch)
-    threadmqttsubscribeswitch.start()
 
     threadmqttpublishsensorluxes = Thread(target=functionPublishSensorLuxes)
     threadmqttpublishsensorluxes.start()
@@ -96,6 +93,9 @@ if __name__ == '__main__':
 
     threadmqttpublishbinarysensoropening = Thread(target=functionPublishBinarySensorOpening)
     threadmqttpublishbinarysensoropening.start()
+
+    threadmqttsubscribeswitch = Thread(target=functionSubscribeSwitch)
+    threadmqttsubscribeswitch.start()
 
     print "IoT Solution Architect: From The Device To A Cloud Platform"
 
