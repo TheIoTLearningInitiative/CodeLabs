@@ -1,8 +1,7 @@
 default_view:
   view: yes
   entities:
-    - group.luxes
-    - group.switches
+    - group.connectivity
 
 achiotezone:
   view: yes
