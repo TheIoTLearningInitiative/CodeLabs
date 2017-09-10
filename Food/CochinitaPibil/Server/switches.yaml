@@ -1,3 +1,11 @@
+# Achiote
+
 - platform: mqtt
   name: AchioteSwitch
   command_topic: cochinitapibil/achiote/switch
+
+# Pierna
+
+- platform: mqtt
+  name: PiernaSwitch
+  command_topic: cochinitapibil/pierna/switch

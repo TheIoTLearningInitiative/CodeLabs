@@ -1,3 +1,11 @@
+# Achiote
+
 - platform: mqtt
   name: AchioteSensorLuxes
   state_topic: "cochinitapibil/achiote/sensor/luxes"
+
+# Pierna
+
+- platform: mqtt
+  name: PiernaSensorLuxes
+  state_topic: "cochinitapibil/pierna/sensor/luxes"

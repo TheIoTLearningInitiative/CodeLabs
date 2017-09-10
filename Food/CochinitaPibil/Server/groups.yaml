@@ -2,9 +2,28 @@ default_view:
   view: yes
   entities:
     - group.achiote
+    - group.pierna
+
+achiotezone:
+  view: yes
+  name: Achiote
+  entities:
+    - group.achiote
+
+piernazone:
+  view: yes
+  name: Pierna
+  entities:
+    - group.pierna
 
 achiote:
   name: Achiote
   entities:
     - sensor.achiotesensorluxes
     - switch.achioteswitch
+
+pierna:
+  name: Pierna
+  entities:
+    - sensor.piernasensorluxes
+    - switch.piernaswitch

@@ -7,3 +7,13 @@ sensor.achiotesensorluxes:
 switch.achioteswitch:
   friendly_name: Switch
   icon: mdi:toggle-switch
+
+# Pierna
+
+sensor.piernasensorluxes:
+  friendly_name: Luxes
+  icon: mdi:lightbulb-on-outline
+
+switch.piernaswitch:
+  friendly_name: Switch
+  icon: mdi:toggle-switch
