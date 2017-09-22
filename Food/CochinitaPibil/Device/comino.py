@@ -73,9 +73,9 @@ def functionBinarySensorOpening():
 
 def functionSwitchData(mosq, obj, msg):
     print "Subscribe Actuator Data: We received %s!" % msg.payload
-    if msg.payload == "1":
+    if msg.payload == "ON":
         switch.on()
-    elif msg.payload == "0":
+    elif msg.payload == "OFF":
         switch.off()
 
 def functionSwitch():
