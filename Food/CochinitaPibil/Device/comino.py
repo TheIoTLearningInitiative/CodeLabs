@@ -12,7 +12,7 @@ from upm import pyupm_biss0001 as grovemotion
 luxes = grove.GroveLight(0)
 motion = grovemotion.BISS0001(6)
 opening = grove.GroveButton(4)
-switch = grove.GroveRelay(2)
+dswitch = grove.GroveRelay(2)
 
 mqttserver = "iot.eclipse.org"
 mqttport = 1883
@@ -38,9 +38,9 @@ def functionSensorLuxes():
 def functionBinarySensorMotionData():
     value = motion.value()
     if value:
-        value = 1
+        value = "ON"
     else:
-        value = 0
+        value = "OFF"
     print "Publish Binary Sensor Motion Data: We got %s!" % value
     return value
 
@@ -57,6 +57,10 @@ def functionBinarySensorMotion():
 
 def functionBinarySensorOpeningData():
     value = opening.value()
+    if value:
+        value = "ON"
+    else:
+        value = "OFF"
     print "Publish Binary Sensor Opening Data: We got %s!" % value
     return value
 
@@ -74,9 +78,9 @@ def functionBinarySensorOpening():
 def functionSwitchData(mosq, obj, msg):
     print "Subscribe Actuator Data: We received %s!" % msg.payload
     if msg.payload == "ON":
-        switch.on()
+        dswitch.on()
     elif msg.payload == "OFF":
-        switch.off()
+        dswitch.off()
 
 def functionSwitch():
     mqttclient = paho.Client()
