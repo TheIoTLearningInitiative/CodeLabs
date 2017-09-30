@@ -26,7 +26,6 @@
 - __Akna__ Sphero
 - __Bacab__ Smart Home
 
-
 # Full List
 
 Belice
