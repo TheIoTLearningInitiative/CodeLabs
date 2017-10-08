@@ -42,6 +42,7 @@
 ### Linux
 
 1. Install Docker
+2. Install QGC
 
 ### cloud
 
