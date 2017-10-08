@@ -16,6 +16,6 @@
 - Set Up a Simulation Environment with the Intel® Aero Compute Board Developer Guide
 - [What is the Intel® Aero Platform for UAVs](https://software.intel.com/en-us/articles/what-is-the-intel-aero-platform-for-uavs)
 
-# DroneCode
+# Dronecode
 
-- [Drone Code](https://www.dronecode.org/)
+- [Dronecode](https://www.dronecode.org/)
