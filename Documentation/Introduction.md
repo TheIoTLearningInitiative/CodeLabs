@@ -20,7 +20,6 @@
 - 14 __Alom__ Briko
 - 15 __Bitol__ Drones
 
-
 # Priority - In Process
 
 - __Kinich KaK Moo__ Python: Virtual, Grove While, Grove Threads
