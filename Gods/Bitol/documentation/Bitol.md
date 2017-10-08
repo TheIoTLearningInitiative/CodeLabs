@@ -45,6 +45,7 @@
 
 ```sh
 xe1gyq@kali:~/Drones/Px4/Firmware$ make posix gazebo_typhoon_h480
+xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 ```
 
 ## ToInstall Gazebo
