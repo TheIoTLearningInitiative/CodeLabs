@@ -28,6 +28,10 @@
 
 - [Dronecode](https://www.dronecode.org/)
 
+## QGroundControl
+
+- 
+
 ## Drone Smith
 
 - http://dronesmith.io/
