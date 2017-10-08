@@ -8,3 +8,5 @@
 - [Intel® RealSense™ Technology](https://software.intel.com/en-us/forums/realsense)
 - [Video Preview of the Aero Ready to Fly Drone](https://software.intel.com/en-us/videos/preview-of-the-intel-aero-ready-to-fly-drone)
 - [Video Introduction to the Aero Compute Board and Vision Accessory Kit](https://software.intel.com/en-us/videos/introduction-to-the-intel-aero-compute-board-and-vision-accessory-kit-for-uavs)
+
+- Set Up a Simulation Environment with the Intel® Aero Compute Board Developer Guide
