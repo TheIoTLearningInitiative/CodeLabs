@@ -38,13 +38,13 @@
 - https://www.hackster.io/dronesmith/drone-app-radiation-detection-04feb7
 - https://www.facebook.com/dronesmithtech/videos/1727505054244547/
 
-## ToInstall Simulation
+## ToInstall Px4
 
 - https://404warehouse.net/2016/07/11/px4-software-in-the-loopsitl-simulation-on-gazebo/
 - https://dev.px4.io/en/simulation/gazebo.html
 
 ```sh
-
+xe1gyq@kali:~/Drones/Px4/Firmware$ make posix gazebo_typhoon_h480
 ```
 
 ## ToInstall Gazebo
