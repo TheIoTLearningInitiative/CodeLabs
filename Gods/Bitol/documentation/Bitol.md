@@ -7,6 +7,15 @@
 - [Intel® Aero Ready to Fly Drone](https://click.intel.com/intel-aero-ready-to-fly-drone.html)
 - [Aero Wiki](https://GitHub.com/intel-aero)
 - [Aero Wiki](https://github.com/intel-aero/meta-intel-aero/wiki)
+  - About Intel Aero
+  - Initial setup
+  - First flight
+  - Autonomous drone programming in Python
+  - Autonomous drone programming with ROS
+  - Computer Vision, 3D, Artificial Intelligence
+  - Network and System Administration
+  - Intel Aero Ecosystem
+  - 
 - [Aero Source Code](https://github.com/intel-aero/meta-intel-aero)
 - [Aero Technical Support](https://communities.intel.com/community/tech/intel-aero)
 - [Intel® RealSense™ Technology](https://software.intel.com/en-us/forums/realsense)
