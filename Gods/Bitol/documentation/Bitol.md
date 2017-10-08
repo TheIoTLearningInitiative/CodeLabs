@@ -30,7 +30,7 @@
 
 ## QGroundControl
 
-- 
+- https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html#ubuntu-linux
 
 ## Drone Smith
 
