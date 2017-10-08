@@ -38,6 +38,9 @@
 
 - flytbase.com
 
+1. Install Docker
+
+
 # Microsoft
 
 - [AirSim](https://github.com/Microsoft/AirSim/blob/master/docs/build_linux.md)
