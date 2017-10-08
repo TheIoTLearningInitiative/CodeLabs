@@ -33,3 +33,7 @@
 
 - http://dronesmith.io/
 - https://www.hackster.io/dronesmith/drone-app-radiation-detection-04feb7
+
+# Microsoft
+
+- [AirSim](https://github.com/Microsoft/AirSim/blob/master/docs/build_linux.md)
