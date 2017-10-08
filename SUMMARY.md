@@ -274,4 +274,5 @@
         * [Examples](Gods/Akna/documentation/CylonJsIntelEdisonSpheroExamples.md)
     * [Sphero Linux API](Gods/Akna/documentation/SpheroLinuxApi.md)
 * [Bacab](Gods/Bacab/documentation/Bacab.md)
+* [Bitol](Gods/Bitol/documentation/Bitol.md)
 
