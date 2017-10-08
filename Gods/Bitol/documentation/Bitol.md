@@ -38,8 +38,13 @@
 
 - flytbase.com
 
+### Linux
+
 1. Install Docker
 
+### cloud
+
+1. https://flytbase.com/cloud/
 
 # Microsoft
 
