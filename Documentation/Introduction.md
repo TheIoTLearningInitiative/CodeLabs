@@ -18,6 +18,8 @@
 - 12 __Hochob__ Visitors Office
 - 13 __Awilix__ The IoT Learning Initiative
 - 14 __Alom__ Briko
+- 15 __Bitol__ Drones
+
 
 # Priority - In Process
 
@@ -101,7 +103,7 @@ Yucatán
 * **Awilix** 
 * **Bacab**  Smart Home
 * **Bahlam**
-* **Bitol**
+* **Bitol** Drones
 * **Bolon**
 * **Bolontiku**
 * **Bolon Yokte'**
