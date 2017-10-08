@@ -28,7 +28,6 @@
 
 - [Dronecode](https://www.dronecode.org/)
 
-
 # Drone Smith
 
 - http://dronesmith.io/
