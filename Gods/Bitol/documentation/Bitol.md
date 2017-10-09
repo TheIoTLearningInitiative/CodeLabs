@@ -50,7 +50,7 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 
 ## ToInstall Gazebo
 
-
+- http://diydrones.com/profiles/blogs/idiot-s-guide-to-dronekit-python-a-journey-to-whoz-chillin
 
 ## ToInstall FlyTBase
 
