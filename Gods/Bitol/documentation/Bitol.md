@@ -2,6 +2,13 @@
 
 > A sky god and one of the creator deities who participated in the last two attempts at creating humanity.
 
+# complete UAV solution
+
+1. Flight-controller hardware
+2. Autopilot software
+3. Ground control station
+4. Developer APIs for enhanced/advanced use cases.
+
 # Hardware
 
 ## Intel® Aero Ready to Fly Drone
