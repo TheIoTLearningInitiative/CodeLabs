@@ -160,6 +160,7 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 - Parrot
 - FlytOS
 - DroneKit
+- AirLib
 
 ## Drone Smith
 
