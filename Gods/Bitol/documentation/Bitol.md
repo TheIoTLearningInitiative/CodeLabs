@@ -101,6 +101,7 @@ Links to archived Working Groups (Inactive):
   - ESC firmware
   - Bootloader
   - Operating System
+    -  NuttX OS
 - Flexible
 - World Class Devs
 - Membership++
