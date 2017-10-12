@@ -53,7 +53,7 @@ Complete Autopilot Solution
 - [MAVLink](https://mavlink.io/en/): A highly efficient, lightweight and blazing fast robotics communication toolkit.
 - [QGroundControl](http://qgroundcontrol.com/): Modern, mobile and desktop user interface to configure the system and execute flights.
 
-Architecture
+Built for Aerial Robotics
 
 - Optical Flow and Visual Inertial Odometry
 - Avoidance
