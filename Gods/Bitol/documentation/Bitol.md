@@ -110,6 +110,8 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 
 # NuttX OS
 
+> NuttX is a real-time operating system (RTOS) with an emphasis on standards compliance and small footprint. Scalable from 8-bit to 32-bit microcontroller environments, the primary governing standards in NuttX are Posix and ANSI standards. 
+
 # Dronecode
 
 - [Dronecode](https://www.dronecode.org/)
