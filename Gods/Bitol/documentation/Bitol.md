@@ -72,7 +72,11 @@ Simulation
 
 Hardware
 
-- 
+- Flight Controllers
+  - Pixhawk-compatible flight controllers, including the 3DR Pixhawk and Pixhawk Mini
+  - Qualcomm Snapdragon Flight
+  - Intel® Aero Ready to Fly Drone
+
 
 Links
 
