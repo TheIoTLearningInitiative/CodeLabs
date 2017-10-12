@@ -104,7 +104,9 @@ xe1gyq@kali:~/Drones/Px4/Firmware$ make posix gazebo_typhoon_h480
 xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 ```
 
-# Pixhawk
+# Hardware
+
+## Pixhawk
 
 > Pixhawk is an independent, open-hardware project aiming at providing high-end autopilot hardware to the academic, hobby and industrial communities at low costs and high availability.
 
