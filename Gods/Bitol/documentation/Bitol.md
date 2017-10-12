@@ -54,7 +54,8 @@ Parts
 Architecture
 
 - Optical Flow and Visual Inertial Odometry
-
+- Avoidance
+- Planning
 
 Links
 
