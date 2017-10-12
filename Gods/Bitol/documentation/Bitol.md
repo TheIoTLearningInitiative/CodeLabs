@@ -80,6 +80,8 @@ Hardware
   - HopeRF HM-TRP
   - 3DR radio
   - RFD900 ultra long range radio
+- SAPOG ESC
+- Optical Flow Sensor
 
 Broad Airframe Support
 
