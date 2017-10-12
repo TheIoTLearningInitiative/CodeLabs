@@ -26,6 +26,21 @@
 - [What is the Intel® Aero Platform for UAVs](https://software.intel.com/en-us/articles/what-is-the-intel-aero-platform-for-uavs)
 - https://www.intel.com/content/www/us/en/drones/aero-ready-to-fly-start-guide.html
 
+## Px4
+
+> Pixhawk is an independent, open-hardware project aiming at providing high-end autopilot hardware to the academic, hobby and industrial communities at low costs and high availability.
+
+- [PX4 Pro Drone Autopilot Github](https://github.com/px4)
+- [PX4 Pro Drone Autopilot Wikipedia](https://en.wikipedia.org/wiki/PX4_autopilot)
+-[PX4 Pro Drone Autopilot Homepage](https://pixhawk.org/start) 
+- [PX4 Seminar](https://www.slideshare.net/narnars0/02-px4-seminaroam)
+
+```sh
+xe1gyq@kali:~/Drones/Px4/Firmware$ make posix gazebo_typhoon_h480
+xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
+```
+
+
 # Dronecode
 
 - [Dronecode](https://www.dronecode.org/)
@@ -40,19 +55,6 @@
 - https://www.hackster.io/dronesmith/drone-app-radiation-detection-04feb7
 - https://www.facebook.com/dronesmithtech/videos/1727505054244547/
 
-## Px4
-
-> Pixhawk is an independent, open-hardware project aiming at providing high-end autopilot hardware to the academic, hobby and industrial communities at low costs and high availability.
-
-- [PX4 Pro Drone Autopilot Github](https://github.com/px4)
-- [PX4 Pro Drone Autopilot Wikipedia](https://en.wikipedia.org/wiki/PX4_autopilot)
--[PX4 Pro Drone Autopilot Homepage](https://pixhawk.org/start) 
-- [PX4 Seminar](https://www.slideshare.net/narnars0/02-px4-seminaroam)
-
-```sh
-xe1gyq@kali:~/Drones/Px4/Firmware$ make posix gazebo_typhoon_h480
-xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
-```
 
 - https://404warehouse.net/2016/07/11/px4-software-in-the-loopsitl-simulation-on-gazebo/
 - https://dev.px4.io/en/simulation/gazebo.html
