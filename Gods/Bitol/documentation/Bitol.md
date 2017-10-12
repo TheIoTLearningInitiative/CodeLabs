@@ -60,6 +60,7 @@ Built for Aerial Robotics
 - Planning
 
 
+> QGroundControl is a state of the art ground control station
 
 Links
 
