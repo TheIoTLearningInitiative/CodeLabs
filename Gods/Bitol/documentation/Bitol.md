@@ -9,6 +9,15 @@
 3. Ground control station
 4. Developer APIs for enhanced/advanced use cases.
 
+Applications
+
+- Cargo/delivery
+- Surveying & inspections
+- Fun
+- Aerial photography
+- Search, rescue, law enforcement
+- Scientific research & exploration
+
 # Hardware
 
 ## Intel® Aero Ready to Fly Drone
