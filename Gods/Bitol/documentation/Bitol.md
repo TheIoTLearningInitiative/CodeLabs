@@ -90,7 +90,7 @@ Links to archived Working Groups (Inactive):
 
 ## Paparazzi UAV
 
-- [](http://wiki.paparazziuav.org/wiki/Main_Page)
+- [Paparazzi UAV Homepage](http://wiki.paparazziuav.org/wiki/Main_Page)
 
 ## Ardupilot
 
