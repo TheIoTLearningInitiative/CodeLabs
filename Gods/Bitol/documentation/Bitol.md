@@ -40,7 +40,7 @@
 - https://www.hackster.io/dronesmith/drone-app-radiation-detection-04feb7
 - https://www.facebook.com/dronesmithtech/videos/1727505054244547/
 
-## ToInstall Px4
+## Px4
 
 > Pixhawk is an independent, open-hardware project aiming at providing high-end autopilot hardware to the academic, hobby and industrial communities at low costs and high availability.
 
