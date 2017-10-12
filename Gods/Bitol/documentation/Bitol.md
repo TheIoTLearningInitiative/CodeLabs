@@ -246,6 +246,12 @@ $ dronekit-sitl copter --home=19.3931814,-99.1748997,30,0
 
 # Companies
 
+## AirMap
+
+> The airspace intelligence platform for drones and drone operators.
+
+
+
 ## SitOnAir
 
 > Unlocking connected aircraft value. We empower the air transport industry through tailored ‘nose-to-tail’ connectivity solutions that deliver true value. This is connected aircraft innovation you can trust
