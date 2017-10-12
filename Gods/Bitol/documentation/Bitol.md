@@ -213,7 +213,7 @@ $ dronekit-sitl copter --home=19.3931814,-99.1748997,30,0
 
 
 
-- [QGroundControl Documentation](https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html#ubuntu-linux)
+- [QGroundControl Homepage](http://qgroundcontrol.com/)
 
 ## Camera Streaming Daemon
 
