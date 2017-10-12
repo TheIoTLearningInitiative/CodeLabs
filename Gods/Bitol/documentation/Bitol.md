@@ -23,6 +23,7 @@
 - [Video Introduction to the Aero Compute Board and Vision Accessory Kit](https://software.intel.com/en-us/videos/introduction-to-the-intel-aero-compute-board-and-vision-accessory-kit-for-uavs)
 - Set Up a Simulation Environment with the Intel® Aero Compute Board Developer Guide
 - [What is the Intel® Aero Platform for UAVs](https://software.intel.com/en-us/articles/what-is-the-intel-aero-platform-for-uavs)
+- http://www.mouser.com/ds/2/612/intel-aero-rtf-drone-getting-started-1100825.pdf
 
 # Dronecode
 
