@@ -68,6 +68,7 @@ Simulation
 - AirSim
 - ROS Gazebo Simulator
 - jMAVSim
+- X-Plane
 
 Links
 
