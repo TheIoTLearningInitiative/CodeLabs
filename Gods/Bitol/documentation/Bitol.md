@@ -184,7 +184,7 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 - [DroneKit Homepage](http://python.dronekit.io/about/index.html)
 
 ```sh
-$ dronekit-sitl cter --home=19.3931814,-99.1748997,30,0
+$ dronekit-sitl copter --home=19.3931814,-99.1748997,30,0
 ```
 
 # Software
