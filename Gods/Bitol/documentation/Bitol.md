@@ -59,6 +59,7 @@ Built for Aerial Robotics
 - Avoidance
 - Planning
 
+Great User Experience
 
 > QGroundControl is a state of the art ground control station
 
