@@ -125,8 +125,7 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 - [Dronecode](https://www.dronecode.org/)
 
 ## QGroundControl
-
-- https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html#ubuntu-linux
+- [QGroundControl Documentation](https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html#ubuntu-linux)
 
 ## Drone Smith
 
