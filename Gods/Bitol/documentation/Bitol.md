@@ -30,6 +30,10 @@
 
 > THE PROFESSIONAL AUTOPILOT. PX4 powers any vehicle from racing and cargo drones through to ground vehicles. The powerful and uniquely flexible core of the Dronecode Platform is open-source, and available for you to use and customise as needed.
 
+- Open Source
+- Full stack
+- Flexible
+
 - [PX4 Pro Drone Autopilot Github](https://github.com/px4)
 - [PX4 Pro Drone Autopilot Wikipedia](https://en.wikipedia.org/wiki/PX4_autopilot)
 - [PX4 Pro Drone Autopilot Homepage](http://px4.io/) 
