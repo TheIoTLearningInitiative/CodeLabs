@@ -42,6 +42,7 @@
 
 ## ToInstall Px4
 
+- [PX4 Seminar](https://www.slideshare.net/narnars0/02-px4-seminaroam)
 - https://404warehouse.net/2016/07/11/px4-software-in-the-loopsitl-simulation-on-gazebo/
 - https://dev.px4.io/en/simulation/gazebo.html
 
