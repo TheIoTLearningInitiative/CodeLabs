@@ -156,6 +156,15 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 
 # Companies
 
+## Mobile SDK
+
+- DJI
+- Parrot
+- FlytOS
+- DroneKit
+
+## OnBoard SDK
+
 - DJI
 - Parrot
 - FlytOS
