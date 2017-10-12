@@ -26,6 +26,12 @@
 - [What is the Intel® Aero Platform for UAVs](https://software.intel.com/en-us/articles/what-is-the-intel-aero-platform-for-uavs)
 - https://www.intel.com/content/www/us/en/drones/aero-ready-to-fly-start-guide.html
 
+# Fligth Stacks
+
+## Ardupilot
+
+- [Ardupilot Homepage](http://ardupilot.org/)
+
 ## Px4
 
 > THE PROFESSIONAL AUTOPILOT. PX4 powers any vehicle from racing and cargo drones through to ground vehicles. The powerful and uniquely flexible core of the Dronecode Platform is open-source, and available for you to use and customise as needed.
@@ -51,10 +57,6 @@ Links
 xe1gyq@kali:~/Drones/Px4/Firmware$ make posix gazebo_typhoon_h480
 xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 ```
-
-# Ardupilot
-
-- [Ardupilot Homepage](http://ardupilot.org/)
 
 # Pixhawk
 
