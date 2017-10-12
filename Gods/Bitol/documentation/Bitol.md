@@ -182,6 +182,10 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 
 - [QGroundControl Documentation](https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html#ubuntu-linux)
 
+## Camera Streaming Daemon
+
+- [Camera Streaming Daemon](https://github.com/01org/camera-streaming-daemon)
+
 # Projects
 
 ## Dronecode
