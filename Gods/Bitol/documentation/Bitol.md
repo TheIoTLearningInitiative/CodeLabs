@@ -142,6 +142,10 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 
 > ROS is a partner/complementary project of Dronecode that delivers a set of software libraries and developer tools for building and simulating robot applications.  PX4 can integrate with ROS via two different APIs — either where native PX4 applications are ROS nodes or where ROS nodes communicate with PX4 via MAVLink (using mavros, a MAVLink to ROS gateway, with UDP proxy for Ground Control Station).
 
+## DroneKit
+
+> DroneKit is a set of developer tools for drones. It includes Python and Android APIs that automatically aggregate drone information sent over MAVLink and simplify sending common commands over MAVLink. There is also a separate tool for analysing different types of logs.
+
 # Software
 
 ## NuttX Real-Time Operating System
