@@ -67,6 +67,7 @@ Simulation
 
 - AirSim
 - ROS Gazebo Simulator
+- jMAVSim
 
 Links
 
