@@ -156,6 +156,10 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 
 # Companies
 
+- DJI
+- Parrot
+- 
+
 ## Drone Smith
 
 - http://dronesmith.io/
