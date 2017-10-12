@@ -45,7 +45,9 @@
 - Membership++
 - Community
 
-Parts
+# Technology
+
+Complete Autopilot Solution
 
 - PX4 Flight Stack: The flight control system (autopilot).
 - [MAVLink](https://mavlink.io/en/): A highly efficient, lightweight and blazing fast robotics communication toolkit.
@@ -56,6 +58,8 @@ Architecture
 - Optical Flow and Visual Inertial Odometry
 - Avoidance
 - Planning
+
+
 
 Links
 
