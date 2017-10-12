@@ -1,7 +1,5 @@
 # Bitol
 
-
-
 # Hardware
 
 ## Intel® Aero Ready to Fly Drone
