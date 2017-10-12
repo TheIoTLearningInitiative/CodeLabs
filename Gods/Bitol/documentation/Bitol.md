@@ -70,6 +70,9 @@ Links to archived Working Groups (Inactive):
 
 ## Dronecore
 
+> DroneCore is the best way to integrate with PX4 over MAVLink! Use the simple core API to access vehicle information and control missions and movement. Extend the library with plugins to integrate with custom hardware or add new features. Run the library on mobile devices, companion computers and even the cloud. The sky's the limit!
+
+
 - [Dronecore](http://dronecore.io/)
 
 ## UAVCAN
