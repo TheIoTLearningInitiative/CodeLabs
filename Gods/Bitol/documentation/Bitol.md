@@ -96,6 +96,11 @@ Links to archived Working Groups (Inactive):
 
 - Open Source
 - Full stack
+  - Flight Stack
+  -  Middleware
+  - ESC firmware
+  - Bootloader
+  - Operating System
 - Flexible
 - World Class Devs
 - Membership++
