@@ -45,8 +45,6 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 
 - [Pixhawk Homepage](https://pixhawk.org/start) 
 
-
-
 # Dronecode
 
 - [Dronecode](https://www.dronecode.org/)
