@@ -187,6 +187,10 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 $ dronekit-sitl copter --home=19.3931814,-99.1748997,30,0
 ```
 
+# DroneCore
+
+- [DroneCore Homepage](https://docs.dronecore.io/en/)
+
 # Software
 
 ## NuttX Real-Time Operating System
