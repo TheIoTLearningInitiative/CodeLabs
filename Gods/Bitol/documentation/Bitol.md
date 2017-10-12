@@ -154,7 +154,7 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 
 - [Dronecode](https://www.dronecode.org/)
 
-# Companies
+# Software Development Kits
 
 ## Mobile SDK
 
@@ -169,7 +169,7 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 - Parrot
 - FlytOS
 - DroneKit
-- AirLib
+- AirLib, Microsoft
 
 ## Drone Smith
 
