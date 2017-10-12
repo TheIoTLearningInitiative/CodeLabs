@@ -28,7 +28,7 @@
 
 ## Px4
 
-> Pixhawk is an independent, open-hardware project aiming at providing high-end autopilot hardware to the academic, hobby and industrial communities at low costs and high availability.
+> THE PROFESSIONAL AUTOPILOT. PX4 powers any vehicle from racing and cargo drones through to ground vehicles. The powerful and uniquely flexible core of the Dronecode Platform is open-source, and available for you to use and customise as needed.
 
 - [PX4 Pro Drone Autopilot Github](https://github.com/px4)
 - [PX4 Pro Drone Autopilot Wikipedia](https://en.wikipedia.org/wiki/PX4_autopilot)
@@ -46,6 +46,8 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 - [Ardupilot Homepage](http://ardupilot.org/)
 
 # Pixhawk
+
+> Pixhawk is an independent, open-hardware project aiming at providing high-end autopilot hardware to the academic, hobby and industrial communities at low costs and high availability.
 
 - [Pixhawk Homepage](https://pixhawk.org/start) 
 
