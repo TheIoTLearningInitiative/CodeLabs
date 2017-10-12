@@ -76,6 +76,10 @@ Hardware
   - Pixhawk-compatible flight controllers, including the 3DR Pixhawk and Pixhawk Mini
   - Qualcomm Snapdragon Flight
   - Intel® Aero Ready to Fly Drone
+- SIK Telemetry Radio
+  - HopeRF HM-TRP
+  - 3DR radio
+  - RFD900 ultra long range radio
 
 Broad Airframe Support
 
