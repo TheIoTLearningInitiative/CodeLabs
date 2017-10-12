@@ -136,7 +136,11 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 
 # Developer APIs
 
-- Robot Operating System (ROS)
+> Developer APIs enable developers to create advanced flight modes outside of the flight stack. The main developer APIs are discussed below.
+
+## Robot Operating System (ROS)
+
+
 
 # Software
 
