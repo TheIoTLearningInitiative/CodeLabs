@@ -215,6 +215,8 @@ $ dronekit-sitl copter --home=19.3931814,-99.1748997,30,0
 
 - [QGroundControl Homepage](http://qgroundcontrol.com/)
 
+Architecture
+
 - Platforms
   - QGroundControl runs on Windows, OS X, Linux, iOS and Android
 - Autopilots
