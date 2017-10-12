@@ -82,6 +82,10 @@ Links to archived Working Groups (Inactive):
 
 # Flight Stacks
 
+## Paparazzi UAV
+
+- [](http://wiki.paparazziuav.org/wiki/Main_Page)
+
 ## Ardupilot
 
 > ArduPilot is a open source autopilot system supporting multi-copters, traditional helicopters, fixed wing aircraft and rovers. The source code is developed by a large community of professionals and enthusiasts. New developers are always welcome! The best way to start is by joining the Developer Team Forum, which is open to all and chock-full of daily development goodness
