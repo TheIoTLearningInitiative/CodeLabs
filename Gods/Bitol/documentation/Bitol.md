@@ -122,6 +122,12 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 
 - [Mavlink](https://mavlink.io/en/)
 
+## UAVCAN
+
+> UAVCAN is a lightweight protocol designed for reliable communication in aerospace and robotic applications via CAN bus. The specification and the reference implementation are open and free to use (MIT License).
+
+- []()
+
 # Software
 
 ## NuttX Real-Time Operating System
