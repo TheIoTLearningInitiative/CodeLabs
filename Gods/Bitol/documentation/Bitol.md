@@ -150,7 +150,11 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 
 - [QGroundControl Documentation](https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html#ubuntu-linux)
 
-# Dronecode
+# Projects
+
+## Dronecode
+
+> The Dronecode project delivers a collaborative and shared Open Source Platform for unmanned aerial vehicles (UAVS). A neutral place where industry and community developers can contribute technology in order to reduce costs and time to market
 
 - [Dronecode](https://www.dronecode.org/)
 
