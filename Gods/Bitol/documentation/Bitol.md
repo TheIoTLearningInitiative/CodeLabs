@@ -181,6 +181,8 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 
 > DroneKit is a set of developer tools for drones. It includes Python and Android APIs that automatically aggregate drone information sent over MAVLink and simplify sending common commands over MAVLink. There is also a separate tool for analysing different types of logs.
 
+- [DroneKit Homepage](http://python.dronekit.io/about/index.html)
+
 # Software
 
 ## NuttX Real-Time Operating System
