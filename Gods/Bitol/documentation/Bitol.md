@@ -70,3 +70,5 @@ xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 # Microsoft
 
 - [AirSim](https://github.com/Microsoft/AirSim/blob/master/docs/build_linux.md)
+
+- skydrone https://www.skydrone.aero/
