@@ -42,6 +42,8 @@
 
 ## ToInstall Px4
 
+> Pixhawk is an independent, open-hardware project aiming at providing high-end autopilot hardware to the academic, hobby and industrial communities at low costs and high availability.
+
 - [PX4 Pro Drone Autopilot Github](https://github.com/px4)
 - [PX4 Pro Drone Autopilot Wikipedia](https://en.wikipedia.org/wiki/PX4_autopilot)
 -[PX4 Pro Drone Autopilot Homepage](https://pixhawk.org/start) 
