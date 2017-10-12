@@ -35,6 +35,9 @@
 - Flexible
 - World Class Devs
 - Membership++
+- Community
+
+Links
 
 - [PX4 Pro Drone Autopilot Github](https://github.com/px4)
 - [PX4 Pro Drone Autopilot Wikipedia](https://en.wikipedia.org/wiki/PX4_autopilot)
