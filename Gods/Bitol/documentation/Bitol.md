@@ -79,6 +79,7 @@ Hardware
 
 Broad Airframe Support
 
+> PX4 supports anything from a multi rotor to a fixed wing, and all mix forms of VTOL planes in-between.
 
 Links
 
