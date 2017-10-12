@@ -131,6 +131,7 @@ Simulation
 - ROS Gazebo Simulator
 - jMAVSim
 - X-Plane
+- DroneKit-SITL
 
 Hardware
 
