@@ -49,7 +49,7 @@ Parts
 
 - PX4 Flight Stack: The flight control system (autopilot).
 - [MAVLink](https://mavlink.io/en/): A highly efficient, lightweight and blazing fast robotics communication toolkit.
-- [QGroundControl](): Modern, mobile and desktop user interface to configure the system and execute flights.
+- [QGroundControl](http://qgroundcontrol.com/): Modern, mobile and desktop user interface to configure the system and execute flights.
 
 Links
 
