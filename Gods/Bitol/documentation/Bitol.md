@@ -48,13 +48,14 @@
 - [PX4 Pro Drone Autopilot Wikipedia](https://en.wikipedia.org/wiki/PX4_autopilot)
 -[PX4 Pro Drone Autopilot Homepage](https://pixhawk.org/start) 
 - [PX4 Seminar](https://www.slideshare.net/narnars0/02-px4-seminaroam)
-- https://404warehouse.net/2016/07/11/px4-software-in-the-loopsitl-simulation-on-gazebo/
-- https://dev.px4.io/en/simulation/gazebo.html
 
 ```sh
 xe1gyq@kali:~/Drones/Px4/Firmware$ make posix gazebo_typhoon_h480
 xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
 ```
+
+- https://404warehouse.net/2016/07/11/px4-software-in-the-loopsitl-simulation-on-gazebo/
+- https://dev.px4.io/en/simulation/gazebo.html
 
 ## ToInstall Gazebo
 
