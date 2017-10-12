@@ -51,6 +51,11 @@ Parts
 - [MAVLink](https://mavlink.io/en/): A highly efficient, lightweight and blazing fast robotics communication toolkit.
 - [QGroundControl](http://qgroundcontrol.com/): Modern, mobile and desktop user interface to configure the system and execute flights.
 
+Architecture
+
+- Optical Flow and Visual Inertial Odometry
+
+
 Links
 
 - [PX4 Pro Drone Autopilot Homepage](http://px4.io/) 
