@@ -216,6 +216,7 @@ $ dronekit-sitl copter --home=19.3931814,-99.1748997,30,0
 - [QGroundControl Homepage](http://qgroundcontrol.com/)
 - [QGroundControl User Guide](https://docs.qgroundcontrol.com/en/)
 - [QGroundControl Developer Guide](https://dev.qgroundcontrol.com/en/)
+- [QGroundControl Github Source Code](https://github.com/mavlink/qgroundcontrol)
 
 Architecture
 
