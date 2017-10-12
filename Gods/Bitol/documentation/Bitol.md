@@ -68,6 +68,10 @@ Links to archived Working Groups (Inactive):
 
 - [Mavlink Homepage](https://mavlink.io/en/)
 
+## Dronecore
+
+- [Dronecore](http://dronecore.io/)
+
 ## UAVCAN
 
 > UAVCAN is a lightweight protocol designed for reliable communication in aerospace and robotic applications via CAN bus. The specification and the reference implementation are open and free to use (MIT License).
