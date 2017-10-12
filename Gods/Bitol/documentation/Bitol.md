@@ -219,7 +219,8 @@ $ dronekit-sitl copter --home=19.3931814,-99.1748997,30,0
   - QGroundControl runs on Windows, OS X, Linux, iOS and Android
 - Autopilots
   - Supports multiple autopilots: PX4 Pro, ArduPilot or any vehicle that communicates using the MAVLink protocol
-- 
+- Vehicles
+  - Works with all vehicle types supported by PX4 Pro and ArduPilot (multi-rotor, fixed-wing, VTOL, etc.)
 
 ## Camera Streaming Daemon
 
