@@ -130,28 +130,28 @@ pyme@pyme-desktop:~/Drones$ sudo apt install python-pip
 ### PX4
 
 ```sh
-pyme@pyme-desktop:~/Drones$ sudo sh ubuntu_sim_nuttx.sh
+user@workstation:~/Drones$ sudo sh ubuntu_sim_nuttx.sh
 ```
 
 ### QGroundControl
 
 ```sh
-pyme@pyme-desktop:~/Drones$ wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage
-pyme@pyme-desktop:~/Drones$ chmod +x QGroundControl.AppImage
-pyme@pyme-desktop:~/Drones$ ./QGroundControl.AppImage
+user@workstation:~/Drones$ wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage
+user@workstation:~/Drones$ chmod +x QGroundControl.AppImage
+user@workstation:~/Drones$ ./QGroundControl.AppImage
 ```
 
 ### Build
 
 ```sh
-pyme@pyme-desktop:~/Drones$ git clone https://github.com/PX4/Firmware.git
-pyme@pyme-desktop:~/Drones$ cd Firmware
-pyme@pyme-desktop:~/Drones/Firmware$ make posix jmavsim
+user@workstation:~/Drones$ git clone https://github.com/PX4/Firmware.git
+user@workstation:~/Drones$ cd Firmware
+user@workstation:~/Drones/Firmware$ make posix jmavsim
 ```
 
 ```sh
-xe1gyq@kali:~/Drones/Px4/Firmware$ make posix gazebo_typhoon_h480
-xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
+user@workstation:~/Drones/Firmware$ make posix gazebo_typhoon_h480
+user@workstation:~/Drones/qgroundcontrol$ sh qgroundcontrol-start.sh
 ```
 
 ## Technology
