@@ -127,13 +127,13 @@ pyme@pyme-desktop:~/Drones$ sudo apt install git
 pyme@pyme-desktop:~/Drones$ sudo apt install python-pip
 ```
 
-### PX4
+### PX4 Source Code
 
 ```sh
 user@workstation:~/Drones$ sudo sh ubuntu_sim_nuttx.sh
 ```
 
-### QGroundControl
+### QGroundControl App Image
 
 ```sh
 user@workstation:~/Drones$ wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage
