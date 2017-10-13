@@ -141,7 +141,11 @@ pyme@pyme-desktop:~/Drones$ wget https://s3-us-west-2.amazonaws.com/qgroundcontr
 
 ### Build
 
-
+```sh
+pyme@pyme-desktop:~/Drones$ git clone https://github.com/PX4/Firmware.git
+pyme@pyme-desktop:~/Drones$ cd Firmware
+pyme@pyme-desktop:~/Drones$ make posix jmavsim
+```
 
 ## Technology
 
