@@ -146,7 +146,7 @@ pyme@pyme-desktop:~/Drones$ ./QGroundControl.AppImage
 ```sh
 pyme@pyme-desktop:~/Drones$ git clone https://github.com/PX4/Firmware.git
 pyme@pyme-desktop:~/Drones$ cd Firmware
-pyme@pyme-desktop:~/Drones$ make posix jmavsim
+pyme@pyme-desktop:~/Drones/Firmware$ make posix jmavsim
 ```
 
 ## Technology
