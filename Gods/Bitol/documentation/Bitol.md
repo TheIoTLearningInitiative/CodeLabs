@@ -230,6 +230,7 @@ Links
 - [DroneKit Homepage](http://python.dronekit.io/about/index.html)
 
 ```sh
+user@workstation:~/Drones$ sudo apt-get install python-pip python-dev
 $ dronekit-sitl copter --home=19.3931814,-99.1748997,30,0
 ```
 
