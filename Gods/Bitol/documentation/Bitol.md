@@ -133,7 +133,7 @@ pyme@pyme-desktop:~/Drones$ sudo apt install python-pip
 pyme@pyme-desktop:~/Drones$ sudo sh ubuntu_sim_nuttx.sh
 ```
 
-### PX4
+### QGroundControl
 
 ```sh
 
