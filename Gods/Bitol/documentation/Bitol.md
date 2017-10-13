@@ -137,6 +137,8 @@ pyme@pyme-desktop:~/Drones$ sudo sh ubuntu_sim_nuttx.sh
 
 ```sh
 pyme@pyme-desktop:~/Drones$ wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage
+pyme@pyme-desktop:~/Drones$ chmod +x QGroundControl.AppImage
+pyme@pyme-desktop:~/Drones$ 
 ```
 
 ### Build
