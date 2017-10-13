@@ -121,6 +121,9 @@ Links to archived Working Groups (Inactive):
 pyme@pyme-desktop:~/Drones$ sudo apt update
 pyme@pyme-desktop:~/Drones$ sudo apt install git
 pyme@pyme-desktop:~/Drones$ sudo apt install python-pip
+```
+
+```sh
 pyme@pyme-desktop:~/Drones$ sudo sh ubuntu_sim_nuttx.sh
 ```
 
