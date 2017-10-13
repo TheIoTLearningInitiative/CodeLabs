@@ -231,7 +231,10 @@ Links
 
 ```sh
 user@workstation:~/Drones$ sudo apt-get install python-pip python-dev
-$ dronekit-sitl copter --home=19.3931814,-99.1748997,30,0
+user@workstation:~/Drones$ pip install dronekit
+user@workstation:~/Drones$ pip install dronekit-sitl
+user@workstation:~/Drones$ pip install dronekit-sitl -UI
+user@workstation:~/Drones$ dronekit-sitl copter --home=19.3931814,-99.1748997,30,0
 ```
 
 # DroneCore
