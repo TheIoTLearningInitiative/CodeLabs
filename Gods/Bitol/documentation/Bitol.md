@@ -281,6 +281,7 @@ Architecture
 
 - https://404warehouse.net/2016/07/11/px4-software-in-the-loopsitl-simulation-on-gazebo/
 - https://dev.px4.io/en/simulation/gazebo.html
+- https://www.skydrone.aero/
 
 ## ToInstall Gazebo
 
