@@ -139,7 +139,11 @@ pyme@pyme-desktop:~/Drones$ sudo sh ubuntu_sim_nuttx.sh
 pyme@pyme-desktop:~/Drones$ wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage
 ```
 
-### Technology
+### Build
+
+
+
+## Technology
 
 Complete Autopilot Solution
 
