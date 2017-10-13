@@ -149,6 +149,11 @@ pyme@pyme-desktop:~/Drones$ cd Firmware
 pyme@pyme-desktop:~/Drones/Firmware$ make posix jmavsim
 ```
 
+```sh
+xe1gyq@kali:~/Drones/Px4/Firmware$ make posix gazebo_typhoon_h480
+xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
+```
+
 ## Technology
 
 Complete Autopilot Solution
@@ -201,11 +206,6 @@ Links
 - [PX4 Pro Drone Autopilot Github Source code](https://github.com/px4)
 
 - [PX4 Seminar](https://www.slideshare.net/narnars0/02-px4-seminaroam)
-
-```sh
-xe1gyq@kali:~/Drones/Px4/Firmware$ make posix gazebo_typhoon_h480
-xe1gyq@kali:~/Downloads/qgroundcontrol$ sh qgroundcontrol-start.sh
-```
 
 ## uaventure
 
