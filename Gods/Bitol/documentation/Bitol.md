@@ -127,10 +127,16 @@ pyme@pyme-desktop:~/Drones$ sudo apt install git
 pyme@pyme-desktop:~/Drones$ sudo apt install python-pip
 ```
 
-##
+### PX4
 
 ```sh
 pyme@pyme-desktop:~/Drones$ sudo sh ubuntu_sim_nuttx.sh
+```
+
+### PX4
+
+```sh
+
 ```
 
 ### Technology
