@@ -141,18 +141,19 @@ user@workstation:~/Drones$ chmod +x QGroundControl.AppImage
 user@workstation:~/Drones$ ./QGroundControl.AppImage
 ```
 
-### Build
+### PX4 Build
 
 ```sh
 user@workstation:~/Drones$ git clone https://github.com/PX4/Firmware.git
 user@workstation:~/Drones$ cd Firmware
 user@workstation:~/Drones/Firmware$ make posix jmavsim
+...
+user@workstation:~/Drones/Firmware$ make posix gazebo_typhoon_h480
 ```
 
-```sh
-user@workstation:~/Drones/Firmware$ make posix gazebo_typhoon_h480
+### Demo
+
 user@workstation:~/Drones$ ./QGroundControl.AppImage
-```
 
 ## Technology
 
