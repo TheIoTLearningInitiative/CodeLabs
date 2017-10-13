@@ -151,7 +151,7 @@ user@workstation:~/Drones/Firmware$ make posix jmavsim
 
 ```sh
 user@workstation:~/Drones/Firmware$ make posix gazebo_typhoon_h480
-user@workstation:~/Drones/qgroundcontrol$ sh qgroundcontrol-start.sh
+user@workstation:~/Drones$ ./QGroundControl.AppImage
 ```
 
 ## Technology
