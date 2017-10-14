@@ -58,6 +58,26 @@ Links to archived Working Groups (Inactive):
 
 - [Meta Intel Aero Wiki](https://github.com/intel-aero/meta-intel-aero/wiki)
 
+#### Network
+
+```sh
+root@intel-aero:~# nmcli c down hotspot
+root@intel-aero:~# nmcli c modify hotspot connection.autoconnect nonmcli dev wifi
+root@intel-aero:~# nmcli dev wifi
+*  SSID               MODE   CHAN  RATE       SIGNAL  BARS  SECURITY  
+   --                 Infra  6     54 Mbit/s  95      ****            
+*  INFINITUMfjph      Infra  6     54 Mbit/s  62      ***   WPA1 WPA2 
+   AXTEL XTREMO-B63C  Infra  2     54 Mbit/s  45      **    WPA1 WPA2 
+   INFINITUM5852_2.4  Infra  11    54 Mbit/s  45      **    WPA2      
+   AXTEL XTREMO-B63C  Infra  2     54 Mbit/s  42      **    WPA1 WPA2 
+   INFINITUM5852_5    Infra  100   54 Mbit/s  35      **    WPA2      
+   INFINITUM1211      Infra  1     54 Mbit/s  32      **    WPA2      
+   INFINITUM5014      Infra  11    54 Mbit/s  30      *     WPA2      
+   INFINITUM09E845    Infra  11    54 Mbit/s  30      *     WPA2      
+   INFINITUM92jc      Infra  8     54 Mbit/s  29      *     WPA1 WPA2 
+root@intel-aero:~# nmcli dev wifi connect INFINITUMfjph password 12345678
+```
+
 ```sh
 user@workstation:~$ ssh root@192.168.1.81
 ```
