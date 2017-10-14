@@ -169,11 +169,33 @@ root@intel-aero:~# gst-launch-1.0 v4l2src device=/dev/video13 ! xvimagesink
 UDP
 
 ```sh
-root@intel-aero:~# gst-launch-1.0 v4l2src device=/dev/video13 ! video/x-h264,width=1920,height=1080,framerate=24/1 ! h264parse ! rtph264pay ! udpsink host=192.168.1.80 port=5000
+root@intel-aero:~# gst-launch-1.0 v4l2src device=/dev/video12 ! video/x-h264,width=1920,height=1080,framerate=24/1 ! h264parse ! rtph264pay ! udpsink host=192.168.1.79 port=5000
 ````
 
 - [06 Computer Vision 3D AI](https://github.com/intel-aero/meta-intel-aero/wiki/06-Computer-Vision-3D-AI)
 - [Code Sample: Broadcast RGB and Depth Data from an Intel® Aero Compute Board](https://software.intel.com/en-us/articles/intel-aero-realsense-streaming-rgb-depth-data)
+
+##### x86
+
+```sh
+user@workstation:~# dmesg
+[15188.037023] usb 3-1: new high-speed USB device number 3 using xhci_hcd
+[15189.275664] usb 3-1: New USB device found, idVendor=046d, idProduct=082d
+[15189.275670] usb 3-1: New USB device strings: Mfr=0, Product=2, SerialNumber=1
+[15189.275674] usb 3-1: Product: HD Pro Webcam C920
+[15189.275677] usb 3-1: SerialNumber: B3F6983F
+[15189.466747] media: Linux media interface: v0.10
+[15189.490663] Linux video capture interface: v2.00
+[15189.668967] usbcore: registered new interface driver snd-usb-audio
+[15189.668970] uvcvideo: Found UVC 1.00 device HD Pro Webcam C920 (046d:082d)
+[15189.673264] input: HD Pro Webcam C920 as /devices/pci0000:00/0000:00:14.0/usb3/3-1/3-1:1.0/input/input12
+[15189.674771] usbcore: registered new interface driver uvcvideo
+[15189.674775] USB Video Class driver (1.1.1)
+```
+
+```sh
+user@workstation:~# sudo apt-get install gstreamer1.0-plugins-bad
+```
 
 #### Input
 
@@ -542,4 +564,5 @@ https://github.com/UAVenture
 - Set Up a Simulation Environment with the Intel® Aero Compute Board Developer Guide
 - [What is the Intel® Aero Platform for UAVs](https://software.intel.com/en-us/articles/what-is-the-intel-aero-platform-for-uavs)
 - https://www.intel.com/content/www/us/en/drones/aero-ready-to-fly-start-guide.html
+
 
