@@ -197,7 +197,7 @@ user@workstation:~$ dmesg
 user@workstation:~$ sudo apt-get install gstreamer1.0-plugins-bad
 user@workstation:~$ sudo apt install gstreamer-tools
 user@workstation:~$ gst-inspect | grep -i "rtsp"
-user@workstation:~$  apt-cache search -n rtsp
+user@workstation:~$ apt-cache search -n rtsp
 gir1.2-gst-rtsp-server-1.0 - GObject introspection data for the GStreamer RTSP Server
 kpartsplugin - Netscape-compatible plugin to embed KDE file-viewers into browser
 libgstrtspserver-1.0-0 - GStreamer RTSP Server (shared library)
@@ -205,7 +205,7 @@ libgstrtspserver-1.0-0-dbg - GStreamer RTSP Server (debug symbols)
 libgstrtspserver-1.0-dev - GStreamer RTSP Server (development files)
 libgstrtspserver-1.0-doc - GStreamer RTSP Server (documentation)
 nat-rtsp-dkms - Connection tracking and NAT support for RTSP
-
+user@workstation:~$ sudo apt install gstreamer1.0-plugins-ugly
 ```
 
 #### Input
