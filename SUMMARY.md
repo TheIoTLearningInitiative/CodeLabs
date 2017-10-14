@@ -275,4 +275,5 @@
     * [Sphero Linux API](Gods/Akna/documentation/SpheroLinuxApi.md)
 * [Bacab](Gods/Bacab/documentation/Bacab.md)
 * [Bitol](Gods/Bitol/documentation/Bitol.md)
+  * [Demo](Gods/Bitol/documentation/Demo.md)
 
