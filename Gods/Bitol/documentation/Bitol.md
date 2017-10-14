@@ -466,6 +466,7 @@ Links
 
 - [DroneKit Homepage](http://python.dronekit.io/about/index.html)
 - [Tower for Web](https://github.com/dronekit/tower-web)
+- [Idiot's Guide to DroneKit-Python](http://diydrones.com/profiles/blogs/idiot-s-guide-to-dronekit-python-a-journey-to-whoz-chillin)
 
 ```sh
 user@workstation:~/Drones$ sudo apt-get install python-pip python-dev
