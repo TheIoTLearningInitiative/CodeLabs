@@ -122,10 +122,48 @@ root@intel-aero:~# dmesg | grep video
 [    5.223015] uvcvideo: Unable to create debugfs 2-3 directory.
 ```
 
+```sh
+root@intel-aero:~# cat /sys/class/video4linux/video0/name 
+Intel RealSense 3D Camera R200
+root@intel-aero:~# cat /sys/class/video4linux/video1/name 
+ATOMISP ISP CAPTURE output
+root@intel-aero:~# cat /sys/class/video4linux/video2/name 
+ATOMISP ISP VIEWFINDER output
+root@intel-aero:~# cat /sys/class/video4linux/video3/name 
+ATOMISP ISP PREVIEW output
+root@intel-aero:~# cat /sys/class/video4linux/video4/name 
+ATOMISP ISP VIDEO output
+root@intel-aero:~# cat /sys/class/video4linux/video5/name 
+ATOMISP ISP ACC
+root@intel-aero:~# cat /sys/class/video4linux/video6/name 
+ATOMISP ISP MEMORY input
+root@intel-aero:~# cat /sys/class/video4linux/video7/name 
+ATOMISP ISP CAPTURE output
+root@intel-aero:~# cat /sys/class/video4linux/video8/name 
+ATOMISP ISP VIEWFINDER output
+root@intel-aero:~# cat /sys/class/video4linux/video9/name 
+ATOMISP ISP PREVIEW output
+root@intel-aero:~# cat /sys/class/video4linux/video10/name 
+ATOMISP ISP VIDEO output
+root@intel-aero:~# cat /sys/class/video4linux/video11/name 
+ATOMISP ISP ACC
+root@intel-aero:~# cat /sys/class/video4linux/video12/name 
+Intel RealSense 3D Camera R200
+root@intel-aero:~# cat /sys/class/video4linux/video13/name 
+Intel RealSense 3D Camera R200
+```
+
+Examples
 
 ```sh
 root@intel-aero:~# /usr/bin/cpp-capture
 ```
+
+UDP
+
+```sh
+root@intel-aero:~# gst-launch-1.0 v4l2src device=/dev/video13 ! video/x-h264,width=1920,height=1080,framerate=24/1 ! h264parse ! rtph264pay ! udpsink host=xxx.xxx.xxx.xxx port=5000
+````
 
 - [06 Computer Vision 3D AI](https://github.com/intel-aero/meta-intel-aero/wiki/06-Computer-Vision-3D-AI)
 - [Code Sample: Broadcast RGB and Depth Data from an Intel® Aero Compute Board](https://software.intel.com/en-us/articles/intel-aero-realsense-streaming-rgb-depth-data)
