@@ -105,6 +105,32 @@ root@intel-aero:~# dmesg | grep video
 [    5.223015] uvcvideo: Unable to create debugfs 2-3 directory.
 ```
 
+#### Input
+
+```sh
+root@intel-aero:~# dmesg | grep input
+[    0.629357] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+[    0.629480] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input1
+[    1.585697] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input2
+[    3.251740] input: gpio-keys as /devices/platform/gpio-keys.2.auto/input/input3
+[    3.646627] input: ov7251 as /devices/virtual/input/input4
+[    4.607009] input: Intel RealSense 3D Camera R200 as /devices/pci0000:00/0000:00:14.0/usb2/2-4/2-4:1.4/input/input5
+[    4.785202] input: HP USB Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.3/1-1.3:1.0/0003:03F0:0D4A.0001/input/input6
+[    4.835549] hid-generic 0003:03F0:0D4A.0001: input: USB HID v1.10 Keyboard [HP USB Keyboard] on usb-0000:00:14.0-1.3/input0
+[    4.840898] input: HP USB Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.3/1-1.3:1.1/0003:03F0:0D4A.0002/input/input7
+[    4.891430] hid-generic 0003:03F0:0D4A.0002: input: USB HID v1.10 Device [HP USB Keyboard] on usb-0000:00:14.0-1.3/input1
+[    5.045466] input: Logitech USB Optical Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.4/1-1.4:1.0/0003:046D:C077.0003/input/input8
+[    5.045612] hid-generic 0003:046D:C077.0003: input: USB HID v1.11 Mouse [Logitech USB Optical Mouse] on usb-0000:00:14.0-1.4/input0
+[    5.223221] input: Intel RealSense 3D Camera R200 as /devices/pci0000:00/0000:00:14.0/usb2/2-4/2-4:1.4/input/input9
+[    5.885133] input: Logitech USB Optical Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.4/1-1.4:1.0/0003:046D:C077.0004/input/input10
+[    5.885456] hid-generic 0003:046D:C077.0004: input: USB HID v1.11 Mouse [Logitech USB Optical Mouse] on usb-0000:00:14.0-1.4/input0
+[    5.891143] input: HP USB Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.3/1-1.3:1.1/0003:03F0:0D4A.0005/input/input11
+[    5.993137] hid-generic 0003:03F0:0D4A.0005: input: USB HID v1.10 Device [HP USB Keyboard] on usb-0000:00:14.0-1.3/input1
+[    6.001700] input: HP USB Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.3/1-1.3:1.0/0003:03F0:0D4A.0006/input/input12
+[    6.053771] hid-generic 0003:03F0:0D4A.0006: input: USB HID v1.10 Keyboard [HP USB Keyboard] on usb-0000:00:14.0-1.3/input0
+
+```
+
 ## Pixhawk
 
 > Pixhawk is an independent, open-hardware project aiming at providing high-end autopilot hardware to the academic, hobby and industrial communities at low costs and high availability.
