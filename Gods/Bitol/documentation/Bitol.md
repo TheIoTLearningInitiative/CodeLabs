@@ -208,6 +208,8 @@ libgstrtspserver-1.0-doc - GStreamer RTSP Server (documentation)
 nat-rtsp-dkms - Connection tracking and NAT support for RTSP
 ```
 
+Good
+
 ```sh
 user@workstation:~$ sudo apt install gstreamer1.0-plugins-ugly
 user@workstation:~$ sudo apt install gstreamer1.0-libav
@@ -218,6 +220,12 @@ user@workstation:~$ gst-launch-1.0 udpsrc port=5600 caps='application/x-rtp, med
 ```sh
 user@workstation:~$ gst-launch-1.0 v4l2src device=/dev/video0 ! x264enc ! rtph264pay ! udpsink host=127.0.0.1 port=5600
 user@workstation:~$ gst-launch-1.0 v4l2src device=/dev/video0 ! x264enc speed-preset=ultrafast tune=zerolatency byte-stream=true ! rtph264pay ! udpsink host=192.168.1.69 port=5600
+```
+
+[Csd](https://github.com/01org/camera-streaming-daemon)
+
+```sh
+user@workstation:~/Drones/camera-streaming-daemon$ ./csd -c config.sample
 ```
 
 #### Input
