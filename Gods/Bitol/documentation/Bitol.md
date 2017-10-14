@@ -87,6 +87,24 @@ user@workstation:~$ ssh root@192.168.1.81
 
 - [04 Autonomous Drone Programming in Python](https://github.com/intel-aero/meta-intel-aero/wiki/04-Autonomous-drone-programming-in-Python)
 
+#### Camera
+
+```sh
+root@intel-aero:~# dmesg | grep video
+[    0.505882] Linux video capture interface: v2.00
+[    4.574750] uvcvideo: Found UVC 1.10 device Intel RealSense 3D Camera R200 (8086:0a80)
+[    4.580628] uvcvideo: Found UVC 1.10 device Intel RealSense 3D Camera R200 (8086:0a80)
+[    4.583550] uvcvideo: Unable to create debugfs 2-2 directory.
+[    4.584039] uvcvideo: Found UVC 1.10 device Intel RealSense 3D Camera R200 (8086:0a80)
+[    4.601469] uvcvideo: Unable to create debugfs 2-2 directory.
+[    4.607479] usbcore: registered new interface driver uvcvideo
+[    5.216691] uvcvideo: Found UVC 1.10 device Intel RealSense 3D Camera R200 (8086:0a80)
+[    5.218887] uvcvideo: Found UVC 1.10 device Intel RealSense 3D Camera R200 (8086:0a80)
+[    5.220737] uvcvideo: Unable to create debugfs 2-3 directory.
+[    5.221291] uvcvideo: Found UVC 1.10 device Intel RealSense 3D Camera R200 (8086:0a80)
+[    5.223015] uvcvideo: Unable to create debugfs 2-3 directory.
+```
+
 ## Pixhawk
 
 > Pixhawk is an independent, open-hardware project aiming at providing high-end autopilot hardware to the academic, hobby and industrial communities at low costs and high availability.
