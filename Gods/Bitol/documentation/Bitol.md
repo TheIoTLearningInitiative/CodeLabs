@@ -105,6 +105,9 @@ root@intel-aero:~# dmesg | grep video
 [    5.223015] uvcvideo: Unable to create debugfs 2-3 directory.
 ```
 
+- [06 Computer Vision 3D AI](https://github.com/intel-aero/meta-intel-aero/wiki/06-Computer-Vision-3D-AI)
+- [Code Sample: Broadcast RGB and Depth Data from an Intel® Aero Compute Board](https://software.intel.com/en-us/articles/intel-aero-realsense-streaming-rgb-depth-data)
+
 #### Input
 
 ```sh
