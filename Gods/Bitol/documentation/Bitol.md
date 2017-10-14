@@ -228,6 +228,23 @@ user@workstation:~$ gst-launch-1.0 v4l2src device=/dev/video0 ! x264enc speed-pr
 user@workstation:~/Drones/camera-streaming-daemon$ ./csd -c config.sample
 ```
 
+```
+[Mavlink]
+Port=14550
+System_ID=42
+Component_ID=100
+Rtsp_Server_Addr=0.0.0.0
+Broadcast_Addr=255.255.255.255
+
+[Gstreamer]
+Muxer=rtpjpegpay
+Converter=videoconvert
+Encoder=jpegenc
+
+[V4L2]
+Default=video100
+```
+
 ```sh
 user@workstation:~$ vlc rtsp://127.0.0.1:8554/video0
 ```
