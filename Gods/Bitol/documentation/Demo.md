@@ -109,7 +109,7 @@ if sitl:
 ```
 
 ```sh
-pyme@pyme-desktop:~/CodeLabs/Gods/Bitol$ dronekit-sitl copter --home=19.393588,-99.1777627,30,0
+pyme@pyme-desktop:~/CodeLabs/Gods/Bitol$ dronekit-sitl copter --home=19.3935595,-99.1766893,30,0
 pyme@pyme-desktop:~/CodeLabs/Gods/Bitol$ /home/pyme/Drones/QGroundControl.AppImage
 ```
 
