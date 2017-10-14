@@ -178,7 +178,7 @@ root@intel-aero:~# gst-launch-1.0 v4l2src device=/dev/video12 ! video/x-h264,wid
 ##### x86
 
 ```sh
-user@workstation:~# dmesg
+user@workstation:~$ dmesg
 [15188.037023] usb 3-1: new high-speed USB device number 3 using xhci_hcd
 [15189.275664] usb 3-1: New USB device found, idVendor=046d, idProduct=082d
 [15189.275670] usb 3-1: New USB device strings: Mfr=0, Product=2, SerialNumber=1
@@ -194,7 +194,18 @@ user@workstation:~# dmesg
 ```
 
 ```sh
-user@workstation:~# sudo apt-get install gstreamer1.0-plugins-bad
+user@workstation:~$ sudo apt-get install gstreamer1.0-plugins-bad
+user@workstation:~$ sudo apt install gstreamer-tools
+user@workstation:~$ gst-inspect | grep -i "rtsp"
+user@workstation:~$  apt-cache search -n rtsp
+gir1.2-gst-rtsp-server-1.0 - GObject introspection data for the GStreamer RTSP Server
+kpartsplugin - Netscape-compatible plugin to embed KDE file-viewers into browser
+libgstrtspserver-1.0-0 - GStreamer RTSP Server (shared library)
+libgstrtspserver-1.0-0-dbg - GStreamer RTSP Server (debug symbols)
+libgstrtspserver-1.0-dev - GStreamer RTSP Server (development files)
+libgstrtspserver-1.0-doc - GStreamer RTSP Server (documentation)
+nat-rtsp-dkms - Connection tracking and NAT support for RTSP
+
 ```
 
 #### Input
