@@ -106,7 +106,7 @@ root@intel-aero:~#
 
 #### Camera
 
-> A platform for implementing gesture-based human-computer interaction techniques. It consists of series of consumer grade 3D cameras together with an easy to use machine perception library that simplifies supporting the cameras for third-party software developers  [Intel® RealSense™](https://github.com/IntelRealSense)
+> __Intel® RealSense™__ A platform for implementing gesture-based human-computer interaction techniques. It consists of series of consumer grade 3D cameras together with an easy to use machine perception library that simplifies supporting the cameras for third-party software developers  [Intel® RealSense™](https://github.com/IntelRealSense)
 
 ```sh
 root@intel-aero:~# dmesg | grep video
