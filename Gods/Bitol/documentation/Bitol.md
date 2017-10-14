@@ -153,10 +153,17 @@ root@intel-aero:~# cat /sys/class/video4linux/video13/name
 Intel RealSense 3D Camera R200
 ```
 
-Examples
+Binary
 
 ```sh
 root@intel-aero:~# /usr/bin/cpp-capture
+```
+
+Gstreamer
+
+```sh
+root@intel-aero:~# export DISPLAY=:0
+root@intel-aero:~# gst-launch-1.0 v4l2src device=/dev/video13 ! xvimagesink
 ```
 
 UDP
