@@ -396,6 +396,7 @@ user@workstation:~/Drones$ sudo pip install dronekit
 user@workstation:~/Drones$ sudo pip install dronekit-sitl
 user@workstation:~/Drones$ sudo pip install dronekit-sitl -UI
 user@workstation:~/Drones$ dronekit-sitl copter --home=19.3931814,-99.1748997,30,0
+user@workstation:~/Drones$ dronekit-sitl copter --home=19.3931814,-99.1748997,30,0 --instance 0
 ```
 
 # DroneCore
