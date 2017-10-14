@@ -106,6 +106,8 @@ root@intel-aero:~#
 
 #### Camera
 
+> [Intel Real Sense](https://github.com/IntelRealSense)
+
 ```sh
 root@intel-aero:~# dmesg | grep video
 [    0.505882] Linux video capture interface: v2.00
