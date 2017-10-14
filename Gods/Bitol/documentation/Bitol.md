@@ -164,7 +164,7 @@ Gstreamer
 ```sh
 root@intel-aero:~# export DISPLAY=:0
 root@intel-aero:~# gst-launch-1.0 v4l2src device=/dev/video13 ! xvimagesink
-  root@intel-aero:~# gst-launch-1.0 v4l2src device=/dev/video13 ! video/x-raw,width=640,height=480,framerate=30/1  ! xvimagesink
+root@intel-aero:~# gst-launch-1.0 v4l2src device=/dev/video13 ! video/x-raw,width=640,height=480,framerate=30/1  ! xvimagesink
 ```
 
 UDP
@@ -217,6 +217,7 @@ user@workstation:~$ gst-launch-1.0 udpsrc port=5600 caps='application/x-rtp, med
 
 ```sh
 user@workstation:~$ gst-launch-1.0 v4l2src device=/dev/video0 ! x264enc ! rtph264pay ! udpsink host=127.0.0.1 port=5600
+user@workstation:~$ gst-launch-1.0 v4l2src device=/dev/video0 ! x264enc speed-preset=ultrafast tune=zerolatency byte-stream=true ! rtph264pay ! udpsink host=192.168.1.69 port=5600
 ```
 
 #### Input
