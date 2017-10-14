@@ -162,7 +162,7 @@ root@intel-aero:~# /usr/bin/cpp-capture
 UDP
 
 ```sh
-root@intel-aero:~# gst-launch-1.0 v4l2src device=/dev/video13 ! video/x-h264,width=1920,height=1080,framerate=24/1 ! h264parse ! rtph264pay ! udpsink host=xxx.xxx.xxx.xxx port=5000
+root@intel-aero:~# gst-launch-1.0 v4l2src device=/dev/video13 ! video/x-h264,width=1920,height=1080,framerate=24/1 ! h264parse ! rtph264pay ! udpsink host=192.168.1.80 port=5000
 ````
 
 - [06 Computer Vision 3D AI](https://github.com/intel-aero/meta-intel-aero/wiki/06-Computer-Vision-3D-AI)
