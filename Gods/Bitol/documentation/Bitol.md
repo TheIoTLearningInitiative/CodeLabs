@@ -87,6 +87,23 @@ user@workstation:~$ ssh root@192.168.1.81
 
 - [04 Autonomous Drone Programming in Python](https://github.com/intel-aero/meta-intel-aero/wiki/04-Autonomous-drone-programming-in-Python)
 
+#### Lspci
+
+```sh
+root@intel-aero:~# lspci
+00:00.0 Host bridge: Intel Corporation Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series SoC Transaction Register (rev 34)
+00:02.0 VGA compatible controller: Intel Corporation Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series PCI Configuration Registers (rev 34)
+00:03.0 Multimedia controller: Intel Corporation Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series Imaging Unit (rev ff)
+00:0b.0 Signal processing controller: Intel Corporation Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series Power Management Controller (rev 34)
+00:14.0 USB controller: Intel Corporation Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series USB xHCI Controller (rev 34)
+00:16.0 USB controller: Intel Corporation Device 22b7 (rev 34)
+00:1a.0 Encryption controller: Intel Corporation Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series Trusted Execution Engine (rev 34)
+00:1c.0 PCI bridge: Intel Corporation Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series PCI Express Port #1 (rev 34)
+00:1f.0 ISA bridge: Intel Corporation Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series PCU (rev 34)
+01:00.0 Network controller: Intel Corporation Wireless 8260 (rev 3a)
+root@intel-aero:~# 
+```
+
 #### Camera
 
 ```sh
