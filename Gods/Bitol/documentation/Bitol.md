@@ -206,6 +206,7 @@ libgstrtspserver-1.0-dev - GStreamer RTSP Server (development files)
 libgstrtspserver-1.0-doc - GStreamer RTSP Server (documentation)
 nat-rtsp-dkms - Connection tracking and NAT support for RTSP
 user@workstation:~$ sudo apt install gstreamer1.0-plugins-ugly
+user@workstation:~$ sudo apt-get install gstreamer1.0-libav
 ```
 
 #### Input
