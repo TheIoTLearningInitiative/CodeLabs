@@ -203,6 +203,9 @@ root@intel-aero:~# rpm --import https://download.01.org/aero/repo/intel-aero-key
 root@intel-aero:~# yum install gstreamer1.0-plugins-good-rtsp
 ```
 
+#### Mavlink
+
+- [01org/mavlink-router](https://github.com/01org/mavlink-router/tree/master/examples)
 
 ## Pixhawk
 
