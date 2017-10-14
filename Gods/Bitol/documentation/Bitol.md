@@ -205,8 +205,13 @@ libgstrtspserver-1.0-0-dbg - GStreamer RTSP Server (debug symbols)
 libgstrtspserver-1.0-dev - GStreamer RTSP Server (development files)
 libgstrtspserver-1.0-doc - GStreamer RTSP Server (documentation)
 nat-rtsp-dkms - Connection tracking and NAT support for RTSP
+```
+
+```sh
 user@workstation:~$ sudo apt install gstreamer1.0-plugins-ugly
 user@workstation:~$ sudo apt-get install gstreamer1.0-libav
+user@workstation:~$ gst-launch-1.0 videotestsrc pattern=ball ! x264enc ! rtph264pay ! udpsink host=127.0.0.1 port=5600
+user@workstation:~$ gst-launch-1.0 udpsrc port=5600 caps='application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264' ! rtph264depay ! avdec_h264 ! autovideosink fps-update-interval=1000 sync=false
 ```
 
 #### Input
