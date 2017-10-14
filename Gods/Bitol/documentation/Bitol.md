@@ -465,6 +465,7 @@ Links
 > DroneKit is a set of developer tools for drones. It includes Python and Android APIs that automatically aggregate drone information sent over MAVLink and simplify sending common commands over MAVLink. There is also a separate tool for analysing different types of logs.
 
 - [DroneKit Homepage](http://python.dronekit.io/about/index.html)
+- [Tower for Web](https://github.com/dronekit/tower-web)
 
 ```sh
 user@workstation:~/Drones$ sudo apt-get install python-pip python-dev
@@ -517,18 +518,18 @@ Architecture
 
 - [Dronecode](https://www.dronecode.org/)
 
-# Drone Application Development SDK
+### Drone Application Development SDK
 
 > This SDK should allow developers to create drone “applications” that can run on mobile devices (tablets, phones) and on-board companion computers, and that can also seamlessly integrate drones with cloud-based services. The SDK should ideally support Python, C++ and Android Developer APIs, including options like ROS, Cloud etc., and also integration with any simulation environment.
 
-## Mobile SDK
+Mobile SDK
 
 - DJI
 - Parrot
 - FlytOS
 - DroneKit
 
-## OnBoard SDK
+OnBoard SDK
 
 - DJI
 - Parrot
@@ -564,9 +565,13 @@ Architecture
 
 - [Sky Drone Homepage](https://www.skydrone.aero/)
 
-## ToInstall Gazebo
+## Gazebo
 
+> Robot simulation made easy
+
+- [Gazebo Homepage](http://gazebosim.org/)
 - http://diydrones.com/profiles/blogs/idiot-s-guide-to-dronekit-python-a-journey-to-whoz-chillin
+- [Technische Universität Darmstadt ROS Packages ](https://github.com/tu-darmstadt-ros-pkg/hector_gazebo)
 
 ## ToInstall FlyTBase
 
