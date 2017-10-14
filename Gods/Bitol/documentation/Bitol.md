@@ -213,6 +213,7 @@ root@intel-aero:~# yum install gstreamer1.0-plugins-good-rtsp
 #### Mavlink
 
 - [01org/mavlink-router](https://github.com/01org/mavlink-router/tree/master/examples)
+- [90 (References) Enabling LTE Modems](https://github.com/intel-aero/meta-intel-aero/wiki/90-(References)-Enabling-LTE-Modems)
 
 ## Pixhawk
 
