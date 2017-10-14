@@ -7,5 +7,4 @@ make posix gazebo_typhoon_h480 &
 
 /home/pyme/Drones/QGroundControl.AppImage &
 
-
 # End of File
