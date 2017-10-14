@@ -228,6 +228,10 @@ user@workstation:~$ gst-launch-1.0 v4l2src device=/dev/video0 ! x264enc speed-pr
 user@workstation:~/Drones/camera-streaming-daemon$ ./csd -c config.sample
 ```
 
+```sh
+user@workstation:~$ vlc rtsp://127.0.0.1:8554/video0
+```
+
 #### Input
 
 ```sh
