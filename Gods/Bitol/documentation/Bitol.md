@@ -54,6 +54,10 @@ Links to archived Working Groups (Inactive):
   - Network and System Administration
   - Intel Aero Ecosystem
 
+```sh
+user@workstation:~$ ssh root@192.168.1.81
+```
+
 ## Pixhawk
 
 > Pixhawk is an independent, open-hardware project aiming at providing high-end autopilot hardware to the academic, hobby and industrial communities at low costs and high availability.
