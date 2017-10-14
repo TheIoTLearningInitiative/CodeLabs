@@ -58,8 +58,7 @@ Links to archived Working Groups (Inactive):
 
 - [Meta Intel Aero Wiki](https://github.com/intel-aero/meta-intel-aero/wiki)
 
-#### Network :: SSH
-
+#### Network
 ```sh
 root@intel-aero:~# nmcli c down hotspot
 root@intel-aero:~# nmcli c modify hotspot connection.autoconnect nonmcli dev wifi
@@ -78,9 +77,15 @@ root@intel-aero:~# nmcli dev wifi
 root@intel-aero:~# nmcli dev wifi connect INFINITUMfjph password 12345678
 ```
 
+#### Network :: SSH
+
 ```sh
 user@workstation:~$ ssh root@192.168.1.81
 ```
+
+#### Python
+
+- [04 Autonomous Drone Programming in Python](https://github.com/intel-aero/meta-intel-aero/wiki/04-Autonomous-drone-programming-in-Python)
 
 ## Pixhawk
 
