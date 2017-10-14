@@ -214,6 +214,10 @@ user@workstation:~$ gst-launch-1.0 videotestsrc pattern=ball ! x264enc ! rtph264
 user@workstation:~$ gst-launch-1.0 udpsrc port=5600 caps='application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264' ! rtph264depay ! avdec_h264 ! autovideosink fps-update-interval=1000 sync=false
 ```
 
+```sh
+user@workstation:~$ gst-launch-1.0 v4l2src device=/dev/video0 ! x264enc ! rtph264pay ! udpsink host=127.0.0.1 port=5600
+```
+
 #### Input
 
 ```sh
