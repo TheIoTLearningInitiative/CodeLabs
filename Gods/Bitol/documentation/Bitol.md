@@ -58,7 +58,7 @@ Links to archived Working Groups (Inactive):
 
 - [Meta Intel Aero Wiki](https://github.com/intel-aero/meta-intel-aero/wiki)
 
-#### Network
+#### Network :: SSH
 
 ```sh
 root@intel-aero:~# nmcli c down hotspot
