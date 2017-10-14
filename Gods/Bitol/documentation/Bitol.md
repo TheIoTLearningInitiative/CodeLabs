@@ -54,6 +54,10 @@ Links to archived Working Groups (Inactive):
   - Network and System Administration
   - Intel Aero Ecosystem
 
+### Meta Intel Aero Wiki
+
+- [Meta Intel Aero Wiki](https://github.com/intel-aero/meta-intel-aero/wiki)
+
 ```sh
 user@workstation:~$ ssh root@192.168.1.81
 ```
