@@ -83,7 +83,7 @@ print("Set default/target airspeed to 3")
 vehicle.airspeed = 3
 
 print("Going towards first point for 30 seconds ...")
-point1 = LocationGlobalRelative(19.4031814, -99.1848997, 20)
+point1 = LocationGlobalRelative(19.3950225, -99.1758533, 20)
 vehicle.simple_goto(point1)
 
 # sleep so we can see the change in map
