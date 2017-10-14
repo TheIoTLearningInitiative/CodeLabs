@@ -156,6 +156,16 @@ root@intel-aero:~# dmesg | grep input
 
 ```
 
+#### Yum Packages
+
+- [Intel Aero package repository](https://download.01.org/aero/repo/1.5/)
+
+```sh
+root@intel-aero:~# rpm --import https://download.01.org/aero/repo/intel-aero-key.pub
+root@intel-aero:~# yum install gstreamer1.0-plugins-good-rtsp
+```
+
+
 ## Pixhawk
 
 > Pixhawk is an independent, open-hardware project aiming at providing high-end autopilot hardware to the academic, hobby and industrial communities at low costs and high availability.
