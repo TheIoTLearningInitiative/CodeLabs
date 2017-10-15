@@ -1,29 +1,33 @@
 # Introduction
 
-## Maya civilization
-
 > The Maya civilization was a Mesoamerican civilization developed by the Maya peoples, and noted for its hieroglyphic script—the only known fully developed writing system of the pre-Columbian Americas—as well as for its art, architecture, mathematics, calendar, and astronomical system. The Maya civilization developed in an area that encompasses southeastern Mexico, all of Guatemala and Belize, and the western portions of Honduras and El Salvador. [Wikipedia Maya Civilization](https://en.wikipedia.org/wiki/Maya_civilization)
 
-## Priority
+# Priority - Completed
 
-- __Caracol__ Digital Door
-- __Kaminaljuyu__ Air Quality
-- __Tikal__ Emergency Medical Monitoring System
-- __Edzna__ Home Assistant
-- __Q'umarkaj__ Amazon Echo / Alexa
-- __Chichen Itza__ Audio as a Service
-- __Acat__ IBM Node-Red
-- __Chicanna__ Camara as a Service
-- __Chacmultun__ Optimization Through Device Drivers Layers
-- __Coba__ Your First Linux Kernel Module
-- __Ah Puch__ Recon Instruments
-- __Hochob__ Visitor Center
+- 01 __Caracol__ Video Conference System
+- 02 __Kaminaljuyu__ Air Quality
+- 03 __Tikal__ Emergency Medical Monitoring System __On Hold!__
+- 04 __Edzna__ Smart Home
+- 05 __Q'umarkaj__ Amazon Echo / Alexa Voice Service
+- 06 __Chichen Itza__ Audio as a Service
+- 07 __Chicanna__ Camara as a Service
+- 08 __Acat__ IBM Node-Red
+- 09 __Chacmultun__ Optimization Through Device Drivers Layers
+- 10 __Coba__ Linux Kernel Development
+- 11 __Ah Puch__ Recon Instruments __On Hold!__
+- 12 __Hochob__ Visitors Office
+- 13 __Awilix__ The IoT Learning Initiative
+- 14 __Alom__ Briko
+- 15 __Bitol__ Drones
+
+# Priority - In Process
+
 - __Kinich KaK Moo__ Python: Virtual, Grove While, Grove Threads
 - __Kohunlich__ Product Development
 - __Akna__ Sphero
-- __Alom__ Briko
+- __Bacab__ Smart Home
 
-## Full List
+# Full List
 
 Belice
 
@@ -96,7 +100,13 @@ Yucatán
 * **Akna** Sphero
 * **Alom** Briko
 * **Awilix** 
-* **** 
+* **Bacab**  Smart Home
+* **Bahlam**
+* **Bitol** Drones
+* **Bolon**
+* **Bolontiku**
+* **Bolon Yokte'**
+* **Buluc Chabtan** 
 
 
 

@@ -11,3 +11,25 @@ Institution Identification through Google Calendar API. If Google Calendar entry
 
 If not, naming convention is
 - YYYYMMDD-HHMMSS
+
+## Setup
+
+```sh
+hochob@server:~$ sudo pip install httplib2
+hochob@server:~$ sudo python -m pip install --upgrade google-api-python-client
+```
+
+## Secrets.Yaml
+
+```sh
+# Google Calendar API
+google_calendar_client_id: 
+google_calendar_client_secret: 
+```
+
+## Google Calendar Setup
+
+```sh
+Google Calendar Setup
+We are all setup now. Check google_calendars.yaml for calendars that have been found 
+```

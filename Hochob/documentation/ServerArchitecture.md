@@ -1,4 +1,4 @@
-# Server Architecture
+r/Hochob/documentation/ServerArchitecture.md?_k=mzstg7# Server Architecture
 
 # Media
 

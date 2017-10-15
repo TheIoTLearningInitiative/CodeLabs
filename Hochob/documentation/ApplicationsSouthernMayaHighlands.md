@@ -2,28 +2,28 @@
 
 > The states of Mexico are first-level administrative territorial entities of the country of Mexico, which officially is named United Mexican States. There are 31 states in Mexico.\[1\] Mexico City is a federal entity with a level of autonomy comparable to that of a state, but is not a state itself. [Wikipedia](https://en.wikipedia.org/wiki/States_of_Mexico)
 
-* **Aguascalientes**
-* **Baja California Norte**
-* **Baja California Sur**
-* **Campeche**
+* __Aguascalientes__
+* __Baja California Norte__
+* __Baja California Sur__
+* __Campeche__
 * Chiapas
 * Chihuahua
 * Coahuila
 * Colima
 * Durango
-* **Guanajuato**
-* **Guerrero**
+* Guanajuato
+* Guerrero
 * Hidalgo
 * Jalisco
 * Mexico
-* **Michoacan**
+* __Michoacan__
 * Morelos
 * Nayarit
 * Nuevo Leon
 * Oaxaca
 * Puebla
-* **Queretaro**
-* **Quintana Roo**
+* Queretaro
+* Quintana Roo
 * San Luis Potosi
 * Sinaloa
 * Sonora
@@ -32,7 +32,7 @@
 * Tlaxcala
 * Veracruz
 * Yucatan
-* **Zacatecas**
+* __Zacatecas__
 
 # Name: Aguascalientes
 
@@ -87,46 +87,6 @@
 * **Services**:
   * **Image** Eog
   * **Sound** Vlc
-
-# Name: Guanajuato
-
-* **Area** The Home
-* **Group** Corporate
-* **Friendly Name**: Image Showcase
-* **Services**:
-  * **Image** Eog
-
-# Name: Guerrero
-
-* **Area** The Home
-* **Group** Corporate
-* **Friendly Name**: Video Showcase
-* **Services**:
-  * **Video** VlcMediaPlayer
-
-# Name: Hidalgo
-
-* **Area** The Home
-* **Group** Visitors Center
-* **Friendly Name**: Image Showcase
-* **Services**:
-  * **Image** Eog
-
-# Name: Queretaro
-
-* **Area** The Home
-* **Group** Memories
-* **Friendly Name**: Image Showcase
-* **Services**:
-  * **Image** Eog
-
-# Name: Quintana Roo
-
-* **Area** The Home
-* **Group** Memories
-* **Friendly Name**: Videos Showcase
-* **Services**:
-  * **Video** VlcMediaPlayer
 
 # Under Development
 

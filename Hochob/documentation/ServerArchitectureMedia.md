@@ -4,33 +4,47 @@
   - SouthernMayaHighlands
   - CentralMayaLowlands
   - NorthernMayaLowlands
-- Corporate
+- Corporate (Old)
   - Image
+  - Sound
   - Video
 - Memories
   - Camera
   - Drawing
-  - Robot
+  - Amikoo
   - Video
+- Tradition
+  - Intel
+    - Image
+    - Sound
+    - Video
+  - Halloween
+    - Image
+    - Sound
+    - Video
+  - Amikoo
+    - Image
+    - Sound
+    - Video
+- Visitors
+  - [Name of Institution]
+    - Camera
+    - Drawing
+    - Amikoo
+    - Video
 - VisitorsCenter
   - Image
     - Infraestructure
   - Music
   - Sound
   - Video
-- Visitors
-  - [Name of Institution]
-    - Camera
-    - Drawing
-    - Robot
-    - Video
 
 # Hochob Server Media Source
 
 - Camera
   - Fswebcam
+- Drawing
 - Image
-  - Drawing
 - Sound
   - SpeechSynthesizer
     - Espeak

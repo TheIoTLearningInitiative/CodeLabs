@@ -2,6 +2,10 @@
 
 > A Service is an application component to perform a specific operation, and it does not provide a user interface. 
 
+```sh
+sudo apt install fortunes
+```
+
 - Automation
   - HomeAssistant
     - configuration.yaml
@@ -74,3 +78,5 @@
 - Visitors
   - Name
     - Name.sh
+
+

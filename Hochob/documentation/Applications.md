@@ -5,7 +5,10 @@
 - Northern Maya Lowlands
 - Central Maya Lowlands
 - Southern Maya Highlands
-- Virtual Maya Lands
+- Robot Maya Lands
+- Techie Maya Lands
+- Console Maya Lands
+- Media Maya lands
 
 # Architecture
 

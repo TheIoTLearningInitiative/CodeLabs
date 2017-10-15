@@ -1,0 +1,33 @@
+# Applications
+
+- Games
+  - As might get requested by Little Girl
+- Shop
+  - Amazon
+  - Aliexpress
+- Smart Home
+  - Automation
+    - Stringify
+    - If This The That
+  - Assistant
+    - Alexa
+      - Smart Home Skills
+        - Hue
+        - Stringify
+        - Tuya Smart
+        - Wemo
+        - Smart Life
+      - Steps
+        - Changed Android App Installations settings
+    - Home
+  - Light
+    - Hue
+    - Huey - Ambient Light Effects
+- Social Media
+  - Twitter
+  - Pinterest
+- Video
+  - Amazon Prime Video
+  - Netflix
+  - YT Kids
+

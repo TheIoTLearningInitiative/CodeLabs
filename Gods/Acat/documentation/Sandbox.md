@@ -2,6 +2,61 @@
 
 - [1](http://www.diyprojects.io/node-red-install-uninstall-easely-modules-palette-manager/)
 
+# node-red Configuration
+
+```sh
+root@edison:~# ls .node-red/
+flows_edison.json  flows_edison_cred.json  lib  node_modules  settings.js
+```
+
+```sh
+root@edison:~# ls .node-red/node_modules/
+node-red-contrib-socialogix4edison
+```
+
+```sh
+root@edison:~# cd .node-red
+root@edison:~/.node-red# 
+```
+
+## Npm Update
+
+> npm is the package manager for JavaScript. Find, share, and reuse packages of code from hundreds of thousands of developers — and assemble them in powerful new ways. [Homepage](https://www.npmjs.com/)
+
+- [Npm Getting Started](https://docs.npmjs.com/getting-started/)
+
+```sh
+root@edison:~# npm install npm@latest -g
+```
+
+```sh
+-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/usr/bin/npm -> /usr/lib/node_modules/npm/bin/npm-clis
+npm@4.4.1 /usr/lib/node_modules/npm
+```
+
+### Npm Installation Flags
+
+```sh
+root@edison:~# npm install mraa -g
+
+> mraa@1.5.1 install /usr/lib/node_modules/mraa
+> node-gyp rebuild
+```
+
+```sh
+root@edison:~# npm install mraa
+
+> mraa@1.5.1 install /home/root/node_modules/mraa
+> node-gyp rebuild
+```
+
+```sh
+root@edison:~/.node-red# npm install mraa
+
+> mraa@1.5.1 install /home/root/.node-red/node_modules/mraa
+> node-gyp rebuild
+```
+
 # Passed
 
 ```

@@ -38,6 +38,13 @@ hochob@server:~$ sudo pip3 install --upgrade pip
 hochob@server:~$ sudo pip3 install homeassistant
 ```
 
+## Ubuntu Server
+
+```sh
+hochob@server:~$ sudo pip install flask_sqlalchemy
+hochob@server:~$ sudo pip install sqlalchemy
+```
+
 # Execution
 
 ```sh
@@ -112,8 +119,4 @@ user@server:~$
 
 ```sh
 hochob@server:~$ nano .homeassistant/configuration.yaml
-```
-
-```sh
-...
 ```

@@ -1,3 +1,11 @@
+# Tranings
+
+Cisco's CCNA Industrial Certification
+https://learningnetwork.cisco.com/community/industrial-iot
+GE Predix Training
+https://www.predix.io/resources/training
+Microsoft IoT Training
+https://www.edx.org/course/developing-iot-solutions-azure-iot-microsoft-dev225x
 
 # Home Clean Up
 

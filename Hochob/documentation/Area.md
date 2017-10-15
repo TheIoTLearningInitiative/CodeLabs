@@ -1,7 +1,12 @@
 # Areas
 
-- Southern Maya Highlands: Home
+- Captain Maya Lands: Captain
+- Southern Maya Highlands: Show
+- Robot Maya Lands: Robotics
 - Central Maya Lowlands: Beginning
 - Northern Maya Lowlands: Experience
-- Virtual Maya Lands: Support
-- Robot Maya Lands: Robot
+- Console Maya Lands: Interaction
+- Media Maya Lands: Memories
+- Calendar Maya Lands: Events
+- Tradition Maya Lands: Celebrations
+- Techie Maya Lands: Techie

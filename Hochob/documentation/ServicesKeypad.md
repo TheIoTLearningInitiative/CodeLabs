@@ -1,5 +1,9 @@
 # Keypad
 
-# Yes No
+- Virtual
+- Physical
 
-# Multiple
+# Options
+
+- Yes No
+- Multiple
