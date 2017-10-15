@@ -2,7 +2,16 @@
 
 > A sky god and one of the creator deities who participated in the last two attempts at creating humanity.
 
-# Complete UAV solution
+##
+
+- Base Frame
+- ESCs
+- Motors
+- Props
+- Receiver
+- Flight Controller
+
+## Complete UAV solution
 
 1. Flight-controller hardware
 2. Autopilot software
