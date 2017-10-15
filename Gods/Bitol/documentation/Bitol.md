@@ -46,6 +46,8 @@ Links to archived Working Groups (Inactive):
 
 # Autopilot / Flight Stacks
 
+> a system used to control the trajectory of an aircraft without constant 'hands-on' control by a human operator being required. Autopilots do not replace human operators but assist them in controlling aircraft, allowing them to focus on broader aspects of operations such as monitoring the trajectory, weather and systems. [Wikipedia](https://en.wikipedia.org/wiki/Autopilot)
+
 > Hardware needs to be controlled properly
 
 - Inputs .. Sensors(IMU, Compass, Barometer, Somar, Cameras)
