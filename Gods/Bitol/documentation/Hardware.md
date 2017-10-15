@@ -4,6 +4,6 @@
 
 ## Flight Controller
 
-> Combination of hardware and software that helps control the UAV flight
+> Combination of hardware and software that helps control the UAV flight [Wikipedia](https://en.wikipedia.org/wiki/Flight_controller_(disambiguation))
 
 ## Companion Computer
