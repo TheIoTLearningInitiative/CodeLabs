@@ -10,3 +10,8 @@
 - [MAVProxy](http://ardupilot.github.io/MAVProxy/html/index.html)
 - [APM Planner 2.0](http://ardupilot.org/planner2/index.html#home)
 - [Mission Planner](http://ardupilot.org/planner/index.html#home)
+
+Types
+
+- Desktop GCS
+- Mobile GCS
