@@ -286,4 +286,7 @@
     * [DroneKit](Gods/Bitol/documentation/DroneKit.md)
   * [Demo](Gods/Bitol/documentation/Demo.md)
   * [Drone Solution Architect](Gods/Bitol/documentation/DroneSolutionArchitect.md)
+    * Demos
+      * [Ka’an](Gods/Bitol/documentation/DroneSolutionArchitectDemosKaan.md)
+      * [Múuyal](Gods/Bitol/documentation/DroneSolutionArchitectDemosMuuyal.md)
 
