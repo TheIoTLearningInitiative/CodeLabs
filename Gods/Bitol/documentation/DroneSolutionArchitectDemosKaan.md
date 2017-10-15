@@ -10,7 +10,7 @@ user@workstation:~/CodeLabs/Gods/Bitol$ dronekit-sitl copter --home=19.3931814,-
 
 ```sh
 user@workstation:~/CodeLabs/Gods/Bitol$ cd /home/pyme/src/Firmware/
-user@workstation:~/CodeLabs/Gods/Bitol$ make posix gazebo_typhoon_h480 &
+user@workstation:~/src/Firmware$ make posix gazebo_typhoon_h480 &
 ```
 
 ```sh
