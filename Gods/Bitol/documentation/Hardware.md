@@ -1,5 +1,9 @@
 # Hardware
 
-## Flight-controller hardware
+- [Flight Stack](https://altax.net/blog/flight-stack/)
 
-## Companion Hardware
+## Flight Controller
+
+
+
+## Companion Computer
