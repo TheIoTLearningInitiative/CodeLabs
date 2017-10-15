@@ -4,6 +4,13 @@
 
 > ___GCS Hardware__ refers to the complete set of ground-based hardware systems used to control the UAV. This typically includes the Human-Machine Interface, computer, telemetry, video capture card and aerials for the control, video and data links to the UAV. [Wikipedia](https://en.wikipedia.org/wiki/Ground_control_station)
 
+Types
+
+- Desktop GCS
+- Mobile GCS
+
+Projects
+
 - [DJI PC Ground Station](http://www.dji.com/es/pc-ground-station/feature)
 - [Universal Ground Control Station UgCS](https://www.ugcs.com/)
 - [QGroundControl](http://www.qgroundcontrol.org/)
@@ -11,7 +18,3 @@
 - [APM Planner 2.0](http://ardupilot.org/planner2/index.html#home)
 - [Mission Planner](http://ardupilot.org/planner/index.html#home)
 
-Types
-
-- Desktop GCS
-- Mobile GCS
