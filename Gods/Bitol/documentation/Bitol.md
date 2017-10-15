@@ -7,7 +7,7 @@
 - Base Frame
 - ESCs (Speed Controllers) 
 - Motors
-- Props
+- Propellers
 - Receiver
 - Flight Controller
 
