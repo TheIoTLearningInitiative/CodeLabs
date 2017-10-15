@@ -5,6 +5,10 @@
 - [Ardupilot Homepage](http://ardupilot.org/)
 - [Copter](http://ardupilot.org/copter/docs/introduction.html)
 
+Components
+
+- APM Copter .. Copter is capable of the full range of flight requirements from fast paced FPV racing to smooth aerial photography, and fully autonomous complex missions which can be programmed through a number of compatible software ground stations. 
+
 Hardware Platforms
 
 - Intel Aero (Linux Base)
