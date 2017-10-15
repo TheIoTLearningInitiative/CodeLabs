@@ -5,7 +5,7 @@
 ##
 
 - Base Frame
-- ESCs
+- ESCs (Speed Controllers) 
 - Motors
 - Props
 - Receiver
