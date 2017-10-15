@@ -9,3 +9,5 @@
 ## Companion Computer
 
 > Advanced navigation requiring more powerful processing
+
+- [APSync](http://ardupilot.org/dev/docs/apsync-intro.html)
