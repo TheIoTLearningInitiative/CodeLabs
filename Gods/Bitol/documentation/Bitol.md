@@ -11,6 +11,8 @@
 - Receiver
 - Flight Controller
 
+- http://www.dronetrest.com/t/beginners-guide-on-how-to-build-a-mini-fpv-250-quadcopter-using-the-silver-blade/1253
+
 ## Complete UAV solution
 
 1. Flight-controller hardware
