@@ -46,44 +46,6 @@ Links to archived Working Groups (Inactive):
 
 
 
-# Developer APIs
-
-> Developer APIs enable developers to create advanced flight modes outside of the flight stack. The main developer APIs are discussed below.
-
-## Robot Operating System (ROS)
-
-> ROS is a partner/complementary project of Dronecode that delivers a set of software libraries and developer tools for building and simulating robot applications.  PX4 can integrate with ROS via two different APIs — either where native PX4 applications are ROS nodes or where ROS nodes communicate with PX4 via MAVLink (using mavros, a MAVLink to ROS gateway, with UDP proxy for Ground Control Station).
-
-## DroneKit
-
-> DroneKit is a set of developer tools for drones. It includes Python and Android APIs that automatically aggregate drone information sent over MAVLink and simplify sending common commands over MAVLink. There is also a separate tool for analysing different types of logs.
-
-- [DroneKit Homepage](http://python.dronekit.io/about/index.html)
-- [Tower for Web](https://github.com/dronekit/tower-web)
-- [Idiot's Guide to DroneKit-Python](http://diydrones.com/profiles/blogs/idiot-s-guide-to-dronekit-python-a-journey-to-whoz-chillin)
-
-DroneKit
-
-```sh
-user@workstation:~/Drones$ sudo apt-get install python-pip python-dev
-user@workstation:~/Drones$ sudo pip install dronekit
-user@workstation:~/Drones$ sudo pip install dronekit-sitl
-user@workstation:~/Drones$ sudo pip install dronekit-sitl -UI
-user@workstation:~/Drones$ dronekit-sitl copter --home=19.3931814,-99.1748997,30,0
-user@workstation:~/Drones$ dronekit-sitl copter --home=19.3931814,-99.1748997,30,0 --instance 0
-```
-
-Tower
-
-```sh
-user@workstation:~/Drones$ sudo -H pip install -UI git+https://github.com/dronekit/tower-web.git
-user@workstation:~/Drones$ tower tcp:127.0.0.1:5760
-```
-
-# DroneCore
-
-- [DroneCore Homepage](https://docs.dronecore.io/en/)
-
 # Software
 
 ## NuttX Real-Time Operating System
