@@ -337,6 +337,23 @@ root@intel-aero:~# yum install gstreamer1.0-plugins-good-rtsp
 
 - [Ardupilot Homepage](http://ardupilot.org/)
 
+
+- Intel Aero (Linux Base)
+- APM 2.X (Atmel Mega Microcontroller Arduino base), designed by Jordi Munoz in 2010.[7] APM, for ArduPilotMega, only runs on older versions of ArduPilot).
+- BeagleBone Blue and PXF Mini (BeagleBone Black cape).
+- The Cube, formerly called Pixhawk 2, (ARM Cortex microcontroller base), designed by ProfiCNC in 2015.
+- Erle-Brain, (Linux base) designed by Erle Robotics.
+- Intel Minnowboard (Linux Base).[8]
+- Navio2, (Raspberry PI 3 Linux base), and Navio+, designed by EMLID.
+- Parrot Bebop, and Parrot C.H.U.C.K., designed by Parrot, S.A.
+- Pixhawk, (ARM Cortex microcontroller base), originally designed by Lorenz Meier and ETH Zurich, improved and launched in 2013 by PX4, 3DRobotics, and the ArduPilot development team.[9]
+- PixRacer, (ARM Cortex microcontroller base) designed by AUAV.
+- Qualcomm SnapDragon (Linux base).
+- Virtual Robotics VRBrain (ARM Cortex microcontroller base).
+- Xilinx SoC Zynq processor (Linux base, ARM and FPGA processor).[10]
+
+
+
 ## Px4
 
 > The Professional Autopilot. PX4 powers any vehicle from racing and cargo drones through to ground vehicles. The powerful and uniquely flexible core of the Dronecode Platform is open-source, and available for you to use and customise as needed.
