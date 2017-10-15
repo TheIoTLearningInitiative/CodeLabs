@@ -275,7 +275,6 @@
     * [Sphero Linux API](Gods/Akna/documentation/SpheroLinuxApi.md)
 * [Bacab](Gods/Bacab/documentation/Bacab.md)
 * [Bitol](Gods/Bitol/documentation/Bitol.md)
-  * [Demo](Gods/Bitol/documentation/Demo.md)
   * [Hardware](Gods/Bitol/documentation/Hardware.md)
     * [Intel® Aero Ready to Fly Drone](Gods/Bitol/documentation/IntelAeroReadyToFlyDrone.md)
   * [Communications](Gods/Bitol/documentation/Communications.md)
@@ -285,4 +284,6 @@
     * QGroundControl
   * [Developer APIs](Gods/Bitol/documentation/DeveloperApis.md)
     * [DroneKit](Gods/Bitol/documentation/DroneKit.md)
+  * [Demo](Gods/Bitol/documentation/Demo.md)
+  * [Drone Solution Architect](Gods/Bitol/documentation/DroneSolutionArchitect.md)
 
