@@ -282,6 +282,7 @@
   * [Autopilot / Flight Stack](Gods/Bitol/documentation/AutopilotFlightStack.md)
     * [Px4](Gods/Bitol/documentation/Px4.md)
   * [Ground Control Station](Gods/Bitol/documentation/GroundControlStation.md)
+    * QGroundControl
   * [Developer APIs](Gods/Bitol/documentation/DeveloperApis.md)
     * [DroneKit](Gods/Bitol/documentation/DroneKit.md)
 
