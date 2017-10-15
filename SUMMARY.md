@@ -276,4 +276,6 @@
 * [Bacab](Gods/Bacab/documentation/Bacab.md)
 * [Bitol](Gods/Bitol/documentation/Bitol.md)
   * [Demo](Gods/Bitol/documentation/Demo.md)
+  * Hardware
+    * [Intel® Aero Ready to Fly Drone](Gods/Bitol/documentation/IntelAeroReadyToFlyDrone.md)
 
