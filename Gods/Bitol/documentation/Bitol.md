@@ -19,7 +19,7 @@
 - [3](https://www.unmannedtechshop.co.uk/dronebuildr-tool-kit/)
 - [4](http://ardupilot.org/copter/docs/build-your-own-multicopter.html)
 
-## Complete UAV solution
+## Complete UAV Solution
 
 1. Flight-controller hardware
 2. Autopilot software
