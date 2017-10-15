@@ -318,6 +318,7 @@ root@intel-aero:~# yum install gstreamer1.0-plugins-good-rtsp
 > UAVCAN is a lightweight protocol designed for reliable communication in aerospace and robotic applications via CAN bus. The specification and the reference implementation are open and free to use (MIT License).
 
 - [UAVCAN Homepage](http://uavcan.org/)
+- [UAVCAN Github Source Code](https://github.com/ArduPilot/uavcan)
 
 ## RTPS
 
