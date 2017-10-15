@@ -171,6 +171,5 @@ https://github.com/UAVenture
 - https://www.intel.com/content/www/us/en/drones/aero-ready-to-fly-start-guide.html
 - https://altax.net
 - https://www.aionrobotics.com
-
-
-https://thenounproject.com
+- https://thenounproject.com
+- http://element.aero
