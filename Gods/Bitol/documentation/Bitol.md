@@ -42,8 +42,6 @@ Links to archived Working Groups (Inactive):
 
 - [Pixhawk Homepage](https://pixhawk.org/start) 
 
-
-
 # Software
 
 ## NuttX Real-Time Operating System
