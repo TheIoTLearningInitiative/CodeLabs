@@ -34,6 +34,7 @@ Applications
 - Aerial photography
 - Search, rescue, law enforcement
 - Scientific research & exploration
+- Humanitarian Services
 
 The active Working Groups are:
 
