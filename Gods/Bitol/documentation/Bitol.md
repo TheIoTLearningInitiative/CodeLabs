@@ -8,7 +8,7 @@
 - ESCs (Speed Controllers) 
 - Motors
 - Propellers
-- Receiver
+- R/C Receiver
 - Flight Controller
 
 - [1](http://www.dronetrest.com/t/beginners-guide-on-how-to-build-a-mini-fpv-250-quadcopter-using-the-silver-blade/1253)
