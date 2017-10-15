@@ -44,7 +44,13 @@ Links to archived Working Groups (Inactive):
 
 - [Pixhawk Homepage](https://pixhawk.org/start) 
 
-# Flight Stacks
+# Autopilot / Flight Stacks
+
+> Hardware needs to be controlled properly
+
+- Inputs .. Sensors(IMU, Compass, Barometer, Somar, Cameras)
+- Inputs .. User Commands
+- Outputs .. Propeller Speeds
 
 ## Paparazzi UAV
 
