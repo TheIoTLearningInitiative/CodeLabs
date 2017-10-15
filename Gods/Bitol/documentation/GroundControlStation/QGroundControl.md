@@ -15,4 +15,3 @@ Architecture
   - Supports multiple autopilots: PX4 Pro, ArduPilot or any vehicle that communicates using the MAVLink protocol
 - Vehicles
   - Works with all vehicle types supported by PX4 Pro and ArduPilot (multi-rotor, fixed-wing, VTOL, etc.)
-
