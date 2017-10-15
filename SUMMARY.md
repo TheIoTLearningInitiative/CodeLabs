@@ -278,4 +278,5 @@
   * [Demo](Gods/Bitol/documentation/Demo.md)
   * [Hardware](Gods/Bitol/documentation/Hardware.md)
     * [Intel® Aero Ready to Fly Drone](Gods/Bitol/documentation/IntelAeroReadyToFlyDrone.md)
+  * [Communications](Gods/Bitol/documentation/Communications.md)
 
