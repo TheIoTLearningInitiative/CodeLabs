@@ -337,6 +337,7 @@ root@intel-aero:~# yum install gstreamer1.0-plugins-good-rtsp
 
 - [Ardupilot Homepage](http://ardupilot.org/)
 
+Hardware Platforms
 
 - Intel Aero (Linux Base)
 - APM 2.X (Atmel Mega Microcontroller Arduino base), designed by Jordi Munoz in 2010.[7] APM, for ArduPilotMega, only runs on older versions of ArduPilot).
