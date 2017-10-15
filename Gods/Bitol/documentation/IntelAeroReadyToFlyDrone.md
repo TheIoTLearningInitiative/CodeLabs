@@ -137,6 +137,7 @@ root@intel-aero:~# gst-launch-1.0 v4l2src device=/dev/video12 ! video/x-h264,wid
 
 - [06 Computer Vision 3D AI](https://github.com/intel-aero/meta-intel-aero/wiki/06-Computer-Vision-3D-AI)
 - [Code Sample: Broadcast RGB and Depth Data from an Intel® Aero Compute Board](https://software.intel.com/en-us/articles/intel-aero-realsense-streaming-rgb-depth-data)
+- [OpenCV + Python tests using raspberry pi, camera module and usb cameras ](https://github.com/alduxvm/rpi-opencv)
 
 #### x86
 
