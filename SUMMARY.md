@@ -289,4 +289,5 @@
     * Demos
       * [Ka’an](Gods/Bitol/documentation/DroneSolutionArchitectDemosKaan.md)
       * [Múuyal](Gods/Bitol/documentation/DroneSolutionArchitectDemosMuuyal.md)
+      * [lik’](Gods/Bitol/documentation/DroneSolutionArchitectDemosLik.md)
 
