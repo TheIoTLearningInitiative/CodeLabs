@@ -284,11 +284,11 @@
     * QGroundControl
   * [Developer APIs](Gods/Bitol/documentation/DeveloperApis.md)
     * [DroneKit](Gods/Bitol/documentation/DroneKit.md)
-  * [Demo](Gods/Bitol/documentation/Demo.md)
-  * [Drone Solution Architect](Gods/Bitol/documentation/DroneSolutionArchitect.md)
-    * Demos
-      * [Ka’an](Gods/Bitol/documentation/DroneSolutionArchitectDemosKaan.md)
-      * [Múuyal](Gods/Bitol/documentation/DroneSolutionArchitectDemosMuuyal.md)
-      * [lik’](Gods/Bitol/documentation/DroneSolutionArchitectDemosLik.md)
-      * [Chak iik’](Gods/Bitol/documentation/DroneSolutionArchitectDemosChakIik.md)
+  * Training
+    * [Drone Solution Architect](Gods/Bitol/documentation/DroneSolutionArchitect.md)
+      * [Demos](Gods/Bitol/documentation/DroneSolutionArchitect/demos.md)
+        * [Ka’an](Gods/Bitol/documentation/DroneSolutionArchitectDemosKaan.md)
+        * [Múuyal](Gods/Bitol/documentation/DroneSolutionArchitectDemosMuuyal.md)
+        * [lik’](Gods/Bitol/documentation/DroneSolutionArchitectDemosLik.md)
+        * [Chak iik’](Gods/Bitol/documentation/DroneSolutionArchitectDemosChakIik.md)
 
