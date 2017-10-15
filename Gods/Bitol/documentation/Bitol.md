@@ -420,6 +420,8 @@ Simulation
 - jMAVSim
 - X-Plane
 - DroneKit-SITL
+- SITL Simulator (Software in the Loop)
+- Hardware In The Loop (HITL) simulation
 
 Hardware
 
