@@ -169,5 +169,6 @@ https://github.com/UAVenture
 - Set Up a Simulation Environment with the Intel® Aero Compute Board Developer Guide
 - [What is the Intel® Aero Platform for UAVs](https://software.intel.com/en-us/articles/what-is-the-intel-aero-platform-for-uavs)
 - https://www.intel.com/content/www/us/en/drones/aero-ready-to-fly-start-guide.html
+- https://altax.net
 
 
