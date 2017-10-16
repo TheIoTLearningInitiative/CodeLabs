@@ -17,45 +17,6 @@
 - Membership++
 - Community
 
-## Setup
-
-### Dependencies
-
-```sh
-pyme@pyme-desktop:~/Drones$ sudo apt update
-pyme@pyme-desktop:~/Drones$ sudo apt install git
-pyme@pyme-desktop:~/Drones$ sudo apt install python-pip
-```
-
-### PX4 Source Code
-
-```sh
-user@workstation:~/Drones$ sudo sh ubuntu_sim_nuttx.sh
-```
-
-### QGroundControl App Image
-
-```sh
-user@workstation:~/Drones$ wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage
-user@workstation:~/Drones$ chmod +x QGroundControl.AppImage
-user@workstation:~/Drones$ ./QGroundControl.AppImage
-```
-
-### PX4 Build
-
-```sh
-user@workstation:~/Drones$ git clone https://github.com/PX4/Firmware.git
-user@workstation:~/Drones$ cd Firmware
-user@workstation:~/Drones/Firmware$ make posix jmavsim
-```
-
-### Demo
-
-```sh
-user@workstation:~/Drones/Firmware$ make posix gazebo_typhoon_h480
-user@workstation:~/Drones$ ./QGroundControl.AppImage
-```
-
 ## Technology
 
 Complete Autopilot Solution
@@ -108,6 +69,46 @@ Links
 - [PX4 Development Guide](https://dev.px4.io/en/)
 - [PX4 Pro Drone Autopilot Wikipedia](https://en.wikipedia.org/wiki/PX4_autopilot)
 - [PX4 Pro Drone Autopilot Github Source code](https://github.com/px4)
-
 - [PX4 Seminar](https://www.slideshare.net/narnars0/02-px4-seminaroam)
+
+## Setup
+
+### Dependencies
+
+```sh
+pyme@pyme-desktop:~/Drones$ sudo apt update
+pyme@pyme-desktop:~/Drones$ sudo apt install git
+pyme@pyme-desktop:~/Drones$ sudo apt install python-pip
+```
+
+### PX4 Source Code
+
+```sh
+user@workstation:~/Drones$ sudo sh ubuntu_sim_nuttx.sh
+```
+
+### QGroundControl App Image
+
+```sh
+user@workstation:~/Drones$ wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage
+user@workstation:~/Drones$ chmod +x QGroundControl.AppImage
+user@workstation:~/Drones$ ./QGroundControl.AppImage
+```
+
+### PX4 Build
+
+```sh
+user@workstation:~/Drones$ git clone https://github.com/PX4/Firmware.git
+user@workstation:~/Drones$ cd Firmware
+user@workstation:~/Drones/Firmware$ make posix jmavsim
+```
+
+### Demo
+
+```sh
+user@workstation:~/Drones/Firmware$ make posix gazebo_typhoon_h480
+user@workstation:~/Drones$ ./QGroundControl.AppImage
+```
+
+
 
