@@ -21,7 +21,9 @@ Components
 
 ## APM:Sub
 
+## APM:AntennaTracker
 
+> The AntennaTracker Project delivers firmware which allows you to use a supported flight controller board (Pixhawk, APM2, etc.) as the controller for an Antenna Tracker.
 
 ## Hardware Platforms
 
