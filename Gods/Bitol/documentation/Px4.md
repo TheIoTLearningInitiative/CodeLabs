@@ -128,3 +128,9 @@ sudo apt-get install docker-ce
 sudo docker run hello-world    
 ```
 
+```sh
+root@workstation:~/Drones# docker run -it --privileged     -v px4-dev-base:/root/Drone/Dfirmware:rw     -v /tmp/.X11-unix:/tmp/.X11-unix:ro     -e DISPLAY=:0     -p 14556:14556/udp     --name=container_name px4io/px4-dev-base bash
+Unable to find image 'px4io/px4-dev-base:latest' locally
+latest: Pulling from px4io/px4-dev-base
+```
+
