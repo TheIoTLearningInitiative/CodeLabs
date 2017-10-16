@@ -72,8 +72,6 @@ Links to archived Working Groups (Inactive):
 
 - [NuttX Homepage](http://nuttx.org/)
 
-
-
 ## Camera Streaming Daemon
 
 - [Camera Streaming Daemon](https://github.com/01org/camera-streaming-daemon)
