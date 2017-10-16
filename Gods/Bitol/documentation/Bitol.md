@@ -18,6 +18,7 @@
 - [2](http://www.dronetrest.com/t/how-to-choose-the-right-motor-for-your-multicopter-drone/568)
 - [3](https://www.unmannedtechshop.co.uk/dronebuildr-tool-kit/)
 - [4](http://ardupilot.org/copter/docs/build-your-own-multicopter.html)
+- [5](https://edu.gaitech.hk/getting_started/get-started.html)
 
 ## Complete UAV Solution
 
