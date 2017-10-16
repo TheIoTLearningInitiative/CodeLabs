@@ -108,6 +108,9 @@
 * [Hochob](Hochob/documentation/Hochob.md)
   * [Introduction](Hochob/documentation/introduction.md)
     * [Naming Conventions](Hochob/documentation/ServerArchitectureNamingConventions.md)
+  * Architecture
+    * Tbd
+    * Tbd
   * [Accounts](Hochob/documentation/Accounts.md)
   * [Areas](Hochob/documentation/Area.md)
   * [Digital Media Players](Hochob/documentation/DigitalMediaPlayers.md)
@@ -159,7 +162,7 @@
       * [Console Maya Lands](Hochob/documentation/ApplicationsConsoleMayaLands.md)
       * Media Maya Lands
   * [Stations](Hochob/documentation/stations.md)
-  * Stations
+  * Architecture
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
   * [WRI Workshop](Kaminaljuyu/documentation/WriWorkshop.md)

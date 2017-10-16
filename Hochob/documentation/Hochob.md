@@ -16,12 +16,12 @@ Engineering and Mathematics.
 - Server
 - Stations
 
-# Accounts
+## Accounts
 
 - Gmail
 - Plex
 
-# Areas
+## Areas
 
 - Southern Maya Highlands
 - Central Maya Lowlands
@@ -29,7 +29,7 @@ Engineering and Mathematics.
 - Robot Maya Techlands
 - Techie Maya Lands
 
-# Digital Media Players
+## Digital Media Players
 
 - Chromecast Audio
   - __Codename__: Juum, Sonido
@@ -38,29 +38,29 @@ Engineering and Mathematics.
   - __Codename__: Eek', Estrella
   - __Codename__: Tran', Gemela
 
-# Mobile Device
+## Keypads
+
+- __Codename__: Láak’inah
+
+## Mobile Device
 
 - __Codename__: Muuk’, Poder, Buddy
   - Cellphone  
 
-# Robot
+## Robot
 
 - __Codename__: Amikoo
   - Lego Robot
 
-# Server
+## Server
 
 - __Codename__: Hochob
   - NUC 5i5MYHE Linux Lubuntu Based
 
-# Stations
+## Stations
 
 A set of devices:
 
 - Display Device
   - With Touchscreen
   - without Touchscreen
-
-# Keypads
-
-- __Codename__: Láak’inah
