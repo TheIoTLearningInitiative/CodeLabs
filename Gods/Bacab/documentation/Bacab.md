@@ -74,6 +74,7 @@
 ### Amazon
 
 - 1 [Echo Dot (2nd Generation) - Black(Versión EE.UU., importado)](https://www.amazon.com.mx/Echo-Dot-2nd-Generation-importado/dp/B01DFKC2SO)
+- 2 [](https://www.amazon.com/All-New-AWS-IoT-Button-Generation/dp/B01KW6YCIM)
 
 ### Phillips Hue
 
