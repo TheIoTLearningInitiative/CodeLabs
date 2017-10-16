@@ -106,7 +106,13 @@
 - [Stream2Chromecast Chromecast media streamer for Linux ](https://github.com/Pat-Carter/stream2chromecast)
 
 ```sh
-user@workstation:~/dasher$ echo "Amazon IoT Button!"
-user@workstation:~/dasher$ python /home/pyme/dasher/stream2chromecast/stream2chromecast.py -devicename Juum -setvol 1.0
-user@workstation:~/dasher$ python /home/pyme/dasher/stream2chromecast/stream2chromecast.py -devicename Juum /home/pyme/dasher/Monster.wav
+user@workstation:~/dasher$ nano doorbell.sh
+```
+
+```sh
+#!/bin/sh
+
+echo "Amazon IoT Button!"
+python /home/pyme/dasher/stream2chromecast/stream2chromecast.py -devicename Juum -setvol 1.0
+python /home/pyme/dasher/stream2chromecast/stream2chromecast.py -devicename Juum /home/pyme/dasher/Monster.wav
 ```
