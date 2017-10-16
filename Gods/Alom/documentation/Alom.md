@@ -4,7 +4,7 @@
 
 ## Briko
 
-> [](https://brikorobotics.com/)
+> Briko es una forma fácil y divertida de aprender programación mientras construyes proyectos de robótica, arte, tecnología y más. [Briko Homepage](https://brikorobotics.com/)
 
 ## Briko Workshop Non Official
 
