@@ -239,15 +239,6 @@
 
 ## Gods
 
-* [Ah Puch](Gods/AhPuch/documentation/AhPuch.md)
-  * [Recon Instruments](Gods/AhPuch/documentation/ReconInstruments.md)
-    * [ReconJet](Gods/AhPuch/documentation/ReconJet.md)
-      * [Get Started](Gods/AhPuch/documentation/ReconJetGetStarted.md)
-    * [ReconEngage](Gods/AhPuch/documentation/ReconEngage.md)
-    * [Uplink](Gods/AhPuch/documentation/Uplink.md)
-    * [Intel Developer Zone](Gods/AhPuch/documentation/IntelDeveloperZone.md)
-      * [Recon Dev Kit for Jet™](Gods/AhPuch/documentation/ReconDevKitforJet.md)
-  * [Bicycles](Gods/AhPuch/documentation/Bicycles.md)
 * [Acat](Gods/Acat/documentation/Acat.md)
   * [Node-RED](Gods/Acat/documentation/NodeRed.md)
     * [Installation](Gods/Acat/documentation/NodeRedInstallation.md)
@@ -261,6 +252,15 @@
     * [MQTT](Gods/Acat/documentation/NodeRedProjectsMqtt.md)
     * [Intel GDC Visitor Center](Gods/Acat/documentation/NodeRedProjectsIntelGdcVisitorCenter.md)
   * [Sandbox](Gods/Acat/documentation/Sandbox.md)
+* [Ah Puch](Gods/AhPuch/documentation/AhPuch.md)
+  * [Recon Instruments](Gods/AhPuch/documentation/ReconInstruments.md)
+    * [ReconJet](Gods/AhPuch/documentation/ReconJet.md)
+      * [Get Started](Gods/AhPuch/documentation/ReconJetGetStarted.md)
+    * [ReconEngage](Gods/AhPuch/documentation/ReconEngage.md)
+    * [Uplink](Gods/AhPuch/documentation/Uplink.md)
+    * [Intel Developer Zone](Gods/AhPuch/documentation/IntelDeveloperZone.md)
+      * [Recon Dev Kit for Jet™](Gods/AhPuch/documentation/ReconDevKitforJet.md)
+  * [Bicycles](Gods/AhPuch/documentation/Bicycles.md)
 * [Akna](Gods/Akna/documentation/Akna.md)
   * Hardware
     * [Intel Edison](Gods/Akna/documentation/IntelEdison.md)
@@ -273,6 +273,7 @@
       * [Cylon.js Intel Edison Sphero](Gods/Akna/documentation/CylonJsIntelEdisonSphero.md)
         * [Examples](Gods/Akna/documentation/CylonJsIntelEdisonSpheroExamples.md)
     * [Sphero Linux API](Gods/Akna/documentation/SpheroLinuxApi.md)
+* [Alom](Gods/Alom/documentation/Alom.md)
 * [Bacab](Gods/Bacab/documentation/Bacab.md)
   * Getting Started
     * [Inventory](Gods/Bacab/documentation/Inventory.md)
