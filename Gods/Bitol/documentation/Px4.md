@@ -134,3 +134,9 @@ Unable to find image 'px4io/px4-dev-base:latest' locally
 latest: Pulling from px4io/px4-dev-base
 ```
 
+Good
+
+```sh
+root@workstation:~/Drones# docker run -it --privileged -v /root/Drones/DockerSimulation:/root/DockerSimulation:rw -v /tmp/.X11-unix:/tmp/.X11-unix:ro -p 14556:14556/udp --name=DockerSimulation px4io/px4-dev bash
+```
+
