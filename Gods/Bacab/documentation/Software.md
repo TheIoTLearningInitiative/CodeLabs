@@ -4,6 +4,7 @@
   - As might get requested by Little Girl
 - Shop
   - Amazon
+  - Aliexpress
 - Smart Home
   - Automation
     - Stringify
