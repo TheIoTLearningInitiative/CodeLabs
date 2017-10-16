@@ -161,6 +161,7 @@
         * Media Maya Lands
     * [Stations](Hochob/documentation/stations.md)
   * Release Notes
+    * v0.1
 * [Hormiguero](Hormiguero/documentation/Hormiguero.md)
 * [Kaminaljuyu](Kaminaljuyu/documentation/Kaminaljuyu.md)
   * [WRI Workshop](Kaminaljuyu/documentation/WriWorkshop.md)
