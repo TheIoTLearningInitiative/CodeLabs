@@ -7,7 +7,19 @@
 
 Components
 
-- APM Copter .. Copter is capable of the full range of flight requirements from fast paced FPV racing to smooth aerial photography, and fully autonomous complex missions which can be programmed through a number of compatible software ground stations. 
+### APM:Copter
+
+> Copter is capable of the full range of flight requirements from fast paced FPV racing to smooth aerial photography, and fully autonomous complex missions which can be programmed through a number of compatible software ground stations.
+
+## APM:Plane
+
+> Plane provides advanced functions such as support for hundreds of three-dimensional waypoints, automatic take-off and landing as well as sophisticated mission planning and camera controls. It works with a variety of Ground Control Station (GCS) software for programming and mission operations and offers a complete UAV solution.
+
+## APM:Rover
+
+> Rover is an advanced open source autopilot for guiding ground vehicles and boats. It can run fully autonomous missions that are defined using mission planning software or pre-recorded by the driver during a manual run.
+
+
 
 Hardware Platforms
 
