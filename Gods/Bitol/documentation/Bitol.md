@@ -154,8 +154,6 @@ OnBoard SDK
 1. https://flytbase.com/cloud/
 https://github.com/UAVenture
 
-
-
 # AirSim
 
 > Open source simulator based on Unreal Engine for autonomous vehicles from Microsoft AI & Research
