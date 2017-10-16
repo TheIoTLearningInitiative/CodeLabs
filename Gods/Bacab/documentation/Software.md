@@ -1,7 +1,7 @@
 # Applications
 
 - Games
-  - Several
+  - As might get requested by Little Girl
 - Shop
   - Amazon
 - Smart Home
