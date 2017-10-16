@@ -19,9 +19,11 @@ Components
 
 > Rover is an advanced open source autopilot for guiding ground vehicles and boats. It can run fully autonomous missions that are defined using mission planning software or pre-recorded by the driver during a manual run.
 
+## APM:Sub
 
 
-Hardware Platforms
+
+## Hardware Platforms
 
 - Intel Aero (Linux Base)
 - APM 2.X (Atmel Mega Microcontroller Arduino base), designed by Jordi Munoz in 2010.[7] APM, for ArduPilotMega, only runs on older versions of ArduPilot).
