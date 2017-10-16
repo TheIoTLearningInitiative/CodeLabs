@@ -140,3 +140,6 @@ Good
 root@workstation:~/Drones# docker run -it --privileged -v /root/Drones/DockerSimulation:/root/DockerSimulation:rw -v /tmp/.X11-unix:/tmp/.X11-unix:ro -p 14556:14556/udp --name=DockerSimulation px4io/px4-dev bash
 ```
 
+```sh
+root@workstation:~/Drones/containers/docker/px4-dev# docker build -t px4io/px4-dev-simulation -f Dockerfile_simulation .
+```
