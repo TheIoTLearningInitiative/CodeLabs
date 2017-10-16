@@ -107,6 +107,10 @@
 - [Dasher A simple way to bridge your Amazon Dash buttons to HTTP services ](https://github.com/maddox/dasher)
 - [Stream2Chromecast Chromecast media streamer for Linux ](https://github.com/Pat-Carter/stream2chromecast)
 
+```sh
+user@workstation:~/dasher$ nano config/config.json
+```
+
 ```json
 {"buttons":[
   {
