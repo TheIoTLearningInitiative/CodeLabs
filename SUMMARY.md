@@ -274,7 +274,7 @@
         * [Examples](Gods/Akna/documentation/CylonJsIntelEdisonSpheroExamples.md)
     * [Sphero Linux API](Gods/Akna/documentation/SpheroLinuxApi.md)
 * [Bacab](Gods/Bacab/documentation/Bacab.md)
-  * DoorBell
+  * [Inventory](Gods/Bacab/documentation/Inventory.md)
 * [Bitol](Gods/Bitol/documentation/Bitol.md)
   * [Hardware](Gods/Bitol/documentation/Hardware.md)
     * [Intel® Aero Ready to Fly Drone](Gods/Bitol/documentation/IntelAeroReadyToFlyDrone.md)
