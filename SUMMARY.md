@@ -275,6 +275,8 @@
     * [Sphero Linux API](Gods/Akna/documentation/SpheroLinuxApi.md)
 * [Bacab](Gods/Bacab/documentation/Bacab.md)
   * [Inventory](Gods/Bacab/documentation/Inventory.md)
+  * Proof Of Concepts
+    * [Doorbell](Gods/Bacab/documentation/Doorbell.md)
 * [Bitol](Gods/Bitol/documentation/Bitol.md)
   * [Hardware](Gods/Bitol/documentation/Hardware.md)
     * [Intel® Aero Ready to Fly Drone](Gods/Bitol/documentation/IntelAeroReadyToFlyDrone.md)
