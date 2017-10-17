@@ -8,6 +8,10 @@
 
 > Hochob Project is an open source storytelling type of automated system for museums, based on the Linux operating system, created by taking a wide array of ideas from a wide array of Volunteers to orchestrate a wide range of commercial and non commercial devices managed by a wide range of software technologies and programming languages, all packed into one single user interface to help volunteers tell our visitors a compelling visual and spoken story of our history, our technology and topics related to Science, Technology, Engineering and Mathematics. [Presentation](https://goo.gl/KuMWxD)
 
+- [Visitors Center Technical Presentation Short Url](https://goo.gl/Q1cCUY)
+- [Visitors Center Technical Presentation Url](https://docs.google.com/presentation/d/1PX6T6owG-0t2q98UQJUVJMPpIROTF814QXgb1-EppY0)
+
+
 ## Architecture
 
 - Accounts
