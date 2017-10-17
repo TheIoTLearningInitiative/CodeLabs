@@ -87,3 +87,23 @@ Mobile device allow our Volunteers to have all control of the Visitors Center in
 - The Media
 
 See Server Applications for more information on the functionality available. Ask Current Maintainers for a deep training on their usage.
+
+### Robot
+
+Also known as Lupe Robot, ported from Bluetooth to MQTT protocol, functionality:
+
+- Head Left
+- Head Right
+- Body Forward
+- Body Backward
+- Body Left
+- Body Right
+- Arm Left Fold
+- Arm Left Unfold
+- Arm Left Up
+- Arm Left Down
+- Arm Right Fold
+- Arm Right Unfold
+- Arm Right Up
+- Arm Right Down
+
