@@ -203,3 +203,42 @@ Applications lets you create rich and innovative ways to interact using Services
 
 - Keypad Yes No .. Allow to answer question based on either yes or no
 - Keypad Multiple Choice .. Allow to answer questions based on multiple choices
+
+## Station
+
+A set of computers with display and optional touchscreen running an operating system, in most cases, Windows.
+
+## Removals
+
+None
+
+## Fixes
+
+### Robot Remote Lupe
+
+Set Sparkfun hardware pack for Intel® Edison to secure, give more stability and increase mechanical strength for stacking blocks
+
+## Issues
+
+### Network
+
+A speedy enough broadband connection is required to avoid network congestion especially in audio and video streaming.
+
+### Robot Remote Lupe
+
+Advanced Linux Sound Architecture instability at the time to initialize, it reflects in unavailability of audio
+
+## Robot Lupe Backup
+
+In order to have a stable robot we need to completely rework the following subsystems:
+
+- Embedded board
+  - Migrate to Minnowboard MAX but able to easily migrate to other boards e.g. Up Board
+- Operating system
+  - Use a Debian based
+- Motor controllers libraries enablement
+  - DC Motors
+  - Servo Motors
+- Wiring
+  - Needs to be modular to remove dependency on the board, complete rework is required
+
