@@ -32,3 +32,12 @@ This release is based on the Architecture version 2.0, which includes the follow
 - Server
 - Station
 
+## Additions
+
+### Accounts
+
+Accounts let you allows take advantage of existing web services. The following accounts have been enabled:
+
+- Hochob Vc at Gmail
+- Hochob Vc at Plex Media Server
+
