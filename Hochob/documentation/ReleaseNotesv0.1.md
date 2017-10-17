@@ -64,3 +64,26 @@ These devices allow us to initiate and control playback of streamed audio/visual
   - Codename: Eek', Estrella
   - Codename: Tran, Alma
 
+### Keypad
+
+These devices allow us to offer an interactive visit asking different type of questions to our Visitors and transform the overall tour experience. 2 virtual keypads are available:
+
+- Yes / No
+- Multiple Choice
+
+Physical keypad will be available in future releases.
+
+### Mobile Device
+
+Mobile device allow our Volunteers to have all control of the Visitors Center in the palm of their hands, the User Interface is divided in the following areas:
+
+- The Captain
+- The Show
+- The Robot
+- The Beginning
+- The Experience
+- The Techie
+- The Console
+- The Media
+
+See Server Applications for more information on the functionality available. Ask Current Maintainers for a deep training on their usage.
