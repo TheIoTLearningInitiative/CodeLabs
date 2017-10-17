@@ -11,7 +11,6 @@
 - [Visitors Center Technical Presentation Short Url](https://goo.gl/Q1cCUY)
 - [Visitors Center Technical Presentation Url](https://docs.google.com/presentation/d/1PX6T6owG-0t2q98UQJUVJMPpIROTF814QXgb1-EppY0)
 
-
 ## Architecture
 
 - Accounts
