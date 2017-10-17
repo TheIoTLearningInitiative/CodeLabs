@@ -10,3 +10,25 @@ Welcome to our Visitors Center, an awesome space built by an awesome team of vol
 
 Hochob Project is an open source storytelling type of automated system for museums, based on the Linux operating system, created by taking a wide array of ideas from a wide array of Volunteers to orchestrate a wide range of commercial and non commercial devices managed by a wide range of software technologies and programming languages, all packed into one single user interface to help volunteers tell our visitors a compelling visual and spoken story of our history, our technology and topics related to Science, Technology, Engineering and Mathematics. [Presentation](https://goo.gl/KuMWxD)
 
+## Roles
+
+The following Volunteer roles are the most important piece for Hochob Project:
+
+- __Captain__: Leads our future engineers around the museum and our labs to fully experience the past, present and future of our technology.
+- __Techie__: Expert on integrating our technology, third party resources and feedback from the rest of the crew to enable out of the world experiences.
+
+Both the Captains and Techies need to ramp up in a 1 hour technical introduction training. 
+
+## Requirements
+
+This release is based on the Architecture version 2.0, which includes the following components:
+
+- Accounts
+- Areas
+- Digital Media Players
+- Keypad
+- Mobile Device
+- Robot
+- Server
+- Station
+
