@@ -53,3 +53,14 @@ Areas lets you divide our space in physical and virtual sections. The following 
 - Console Maya Lands
 - Media Maya Lands
 
+### Digital Media Players
+
+These devices allow us to initiate and control playback of streamed audio/visual content on high-definition television or home audio system. 4 devices are currently available:
+
+- Chromecast Audio
+  - Codename: Juum, Sonido
+  - Codename: Triki, Gemela
+- Chromecast Video
+  - Codename: Eek', Estrella
+  - Codename: Tran, Alma
+
