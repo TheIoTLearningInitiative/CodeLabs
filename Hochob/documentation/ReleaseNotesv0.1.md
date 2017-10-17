@@ -41,3 +41,15 @@ Accounts let you allows take advantage of existing web services. The following a
 - Hochob Vc at Gmail
 - Hochob Vc at Plex Media Server
 
+### Areas
+
+Areas lets you divide our space in physical and virtual sections. The following areas have been identified:
+
+- Southern Maya Highlands
+- Central Maya Lowlands
+- Northern Maya Lowlands
+- Robot Maya Lands
+- Techie Maya Lands
+- Console Maya Lands
+- Media Maya Lands
+
