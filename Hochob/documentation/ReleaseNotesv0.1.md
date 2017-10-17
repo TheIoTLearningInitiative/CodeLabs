@@ -144,3 +144,62 @@ A Service is an application component to perform a specific operation. The follo
 - Video Play Vlc .. Play videos
 - Video Story Scene .. Create a story from a set of text and images Proof of Concept
 
+## Server .. Applications
+
+Applications lets you create rich and innovative ways to interact using Services. The following applications have been enabled: 
+
+### Area: Southern Maya Highlands
+
+- Aguascalientes .. Bienvenidos Intel, Protocolo de Seguridad
+- Baja California Norte .. Bienvenidos Guadalajara Design Center
+- Baja California Sur .. Lupe Robot Show
+- Michoacan .. Lupe Robot Foto Grupal Proof of Concept
+- Campeche .. Bienvenidos Recorrido
+- Guanajuato .. Corporate Image Showcase
+- Guerrero .. Corporate Video Showcase
+- Hidalgo .. Visitors Center Image Showcase
+- Jalisco .. Intel Guadalajara Image Showcase
+- Puebla .. Drawing Showcase
+- Queretaro .. Memories Image Showcase
+- Quintana Roo .. Memories Videos Showcase
+- Yucatan .. Camera Showcase
+
+### Area: Central Maya Lowlands
+
+- Acapulco .. Antes del inicio
+- Cancún .. Intel
+- Huatulco .. Intel GDC
+- Mazatlán .. El microprocesador
+- Puerto Vallarta .. Labs y Fabs
+
+### Area: Northern Maya Lowlands
+
+- Montes Azules .. Bienvenida Experiencia Intel
+- Ojo de Liebre .. Juego Binario
+- La Michilía .. Intel en el espacio
+- El Cielo .. Los muones
+- Mapimi .. Hasta pronto
+- Sian Ka'an .. El Baile del Robot Proof of Concept
+- Calakmul .. La Ciencia Proof of Concept
+- Tiburón Ballena .. Planeta Marte Proof of Concept
+
+### Area: Robot Maya Lands
+
+- Coji .. Language
+- Sphero .. Services Event Host Robot
+- Movements .. Left Arm, Right Arm, Body Move, Head Move
+
+### Area: Techie Maya Lands
+
+- Toyota .. Check Infrastructure
+- Kodak .. Reboot 
+- Apple .. System Calendar
+- Qualcomm .. System Audio
+- SpaceX .. System Monitor
+- WindRiver .. Services Event Host Server
+- Bosch .. Quote of the day
+
+### Area: Console Maya Lands
+
+- Keypad Yes No .. Allow to answer question based on either yes or no
+- Keypad Multiple Choice .. Allow to answer questions based on multiple choices
