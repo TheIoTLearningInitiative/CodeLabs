@@ -107,3 +107,40 @@ Also known as Lupe Robot, ported from Bluetooth to MQTT protocol, functionality:
 - Arm Right Up
 - Arm Right Down
 
+## Server .. Services
+
+A Service is an application component to perform a specific operation. The following services have been enabled:
+
+- Automation Home Assistant .. Home automation platform
+- Camera Fswebcam .. Captures images from a V4L1/V4L2 compatible device or file
+- Calendar Google .. Google Calendar notifications, Institution’s name
+- Communications MQTT .. Lightweight messaging protocol optimized for high-latency or unreliable networks
+- Image Convert Resize .. Resize an image
+- Image Convert Text .. Add text to an image
+- Image Eog .. Image viewer
+- Keypad Yes No .. Yes No buttons to answer live questions Proof of Concept
+- Keypad Multiple Choice .. One Two Three Four buttons to answer live questions Proof of Concept
+- Keypad Handlers .. Handlers of options received from the different keypads: Yes No and Multiple Choice Proof of Concept
+- Kill .. Kill processes based on name or process identification 
+- Language .. Set or get default language
+- Memories Image .. Memories based on images 
+- Memories Audio .. Memories based on images and video
+- Robot Remote .. Control the Robot
+- Robot Virtual .. Simulate the Robot
+- Sound Play Aplay .. Command-line sound player for ALSA soundcard driver
+- Sound Play Mpg123 .. Reads one or more files or standard input or URLs and plays them on the audio device or outputs them to stdout
+- Sound Play Vlc .. Multimedia player and server
+- Sound PulseAudio .. Sound system for POSIX OSes
+- Sound Speech Synthesizer Espeak .. Espeak is a software speech synthesizer for English, and some other languages
+- Sound Speech Synthesizer VoiceRss .. Free text-to-speech (TTS) online service and free TTS API with very fast and simple integration
+- Stream Stream2Chromecast .. Command line Chromecast media streamer for Linux. The tool can transcode unsupported formats in real time and play them on the Chromecast
+- Stream Video .. Video streamer to Chromecast
+- Stream  Audio .. Audio streamer to Chromecast
+- Survey  Question .. Ask questions through media devices Proof of Concept
+- Video Capture Camera .. Output video from Camera
+- Video Convert Image .. Output video from Image
+- Video Convert Audio Image .. Output video from Audio and Image inputs
+- Video Convert Audio Video .. Output video from Audio and Image inputs
+- Video Play Vlc .. Play videos
+- Video Story Scene .. Create a story from a set of text and images Proof of Concept
+
