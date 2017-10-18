@@ -612,6 +612,7 @@ shell_command:
   resetall: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/resetall 1
   coji: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Coji.sh &
   sphero: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Sphero.sh &
+  meccanoid: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Meccanoid.sh &
   
   headleft: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headleft 1
   headright: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headright 1
@@ -707,13 +708,21 @@ automation:
 
   # Robot Maya Lands
 
-  - alias: Services Event Host Robot
+  - alias: Services Internal Event Host Robot
     initial_state: 'off'
     trigger:
       platform: time
       seconds: '/30'
     action:
       - service: shell_command.sphero
+
+  - alias: Services External Event Host Robot
+    initial_state: 'off'
+    trigger:
+      platform: time
+      seconds: '/30'
+    action:
+      - service: shell_command.meccanoid
 
   # Techie Maya Lands
 
@@ -747,7 +756,7 @@ automation:
           entity_id: input_slider.qualcomm
           value: "{{ states.sensor.qualcomm.state | int }}"
 
-  - alias: Services Event Host Server
+  - alias: Services Internal Event Host Server
     initial_state: 'off'
     trigger:
       platform: time
@@ -947,7 +956,8 @@ group:
   robotmayalandsevent:
     name: Evento
     entities:
-      - automation.services_event_host_robot
+      - automation.services_internal_event_host_robot
+      - automation.services_external_event_host_robot
 
   robotmayalandshead:
     name: Cabeza
@@ -1019,7 +1029,7 @@ group:
   techiemayalandssystemevent:
     name: Evento
     entities:
-      - automation.services_event_host_server
+      - automation.services_internal_event_host_server
 
   techiemayalandssystemquote:
     name: Citas del Servidor
