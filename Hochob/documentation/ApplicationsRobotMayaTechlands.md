@@ -14,6 +14,6 @@
 
 - __Area__: The Robot
 - __Group__: System Event Internal
-- __Friendly Name__: Services Event Host Robot
+- __Friendly Name__: Services Internal Event Host Robot
 - __Services__: Events
 
