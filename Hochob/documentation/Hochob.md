@@ -44,3 +44,7 @@
   - With Display Device
     - With Touchscreen
     - without Touchscreen
+
+# ToDo
+
+- Change HomeAssistant Default Configuration for Amikoo -> amikooheadleft
