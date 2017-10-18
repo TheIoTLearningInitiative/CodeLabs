@@ -6,7 +6,7 @@
 # Name: Coji
 
 - __Area__: The Robot
-- __Friendly Name__: Smile
+- __Friendly Name__: Services Event Host Robot
 
 # Name: Sphero
 
