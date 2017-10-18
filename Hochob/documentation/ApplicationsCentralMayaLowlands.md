@@ -7,7 +7,7 @@
 - Cozumel
 - __Huatulco__
 - Isla Mujeres
-- Ixtapa
+- __Ixtapa__
 - La Paz
 - Loreto
 - Los Cabos
@@ -52,6 +52,16 @@
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
 - __Digital Media Player__: Triki
+
+# Name: Ixtapa
+
+- __Area__: The Beginning
+- __Group__: Stations
+- __Friendly Name__: Labs y Fabs
+- __Services__:
+  - __Automation HomeAssistant__:
+  - __Stream__ Chromecast
+- __Digital Media Player__: Juum
 
 # Name: Mazatlán
 
