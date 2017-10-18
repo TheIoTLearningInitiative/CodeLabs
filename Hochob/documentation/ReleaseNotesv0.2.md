@@ -1,6 +1,11 @@
 # Visitors Center Release Notes v0.1
 
 ```sh
+export HOCHOB_SERVER_MEDIA_SOURCE_SOUND_SEASON=$HOCHOB_SERVER_MEDIA_SOURCE_SOUND/Season/
+export SEASON=$HOCHOB_SERVER_MEDIA_SOURCE_SOUND_SEASON
+```
+
+```sh
 root@workstation:~/CodeLabs# git pull
 Updating 9a9d1de..a84461c
 Fast-forward
