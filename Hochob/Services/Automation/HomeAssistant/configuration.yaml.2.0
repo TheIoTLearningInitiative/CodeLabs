@@ -648,6 +648,7 @@ shell_command:
   apple: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Apple.sh &
   qualcomm: amixer -D pulse sset Master '{{ volume_level }}%'
   windriver: ~/CodeLabs/Hochob/Applications/TechieMayaLands/WindRiver.sh &
+  google: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Google.sh &
   visitorsusb: ~/CodeLabs/Hochob/Services/Visitors/Usb.sh &
 
   # Console Maya Lands
@@ -772,6 +773,15 @@ automation:
     action:
       - service: shell_command.windriver
 
+  - alias: Services Season
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/5'
+      seconds: 00
+    action:
+      - service: shell_command.google
+
 group:
 
   default_view:
@@ -828,6 +838,7 @@ group:
       - group.techiemayalandssystemaudio
       - group.techiemayalandssystemmonitor
       - group.techiemayalandssystemevent
+      - group.techiemayalandssystemseason
       - group.techiemayalandssystemquote
       - group.techiemayalandsserverinfrastructure
       - group.techiemayalandssandbox
@@ -1044,6 +1055,11 @@ group:
     name: Evento
     entities:
       - automation.services_internal_event_host_server
+
+  techiemayalandssystemseason:
+    name: Temporada
+    entities:
+      - automation.services_season
 
   techiemayalandssystemquote:
     name: Citas del Servidor
