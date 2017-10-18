@@ -4,12 +4,12 @@
 - __Coji__
 - __Sphero__
 
-# Name: Amikoo One
+# Name: Amikoo .. One
 
 - __Area__: The Robot
 - __Friendly Name__: Lupe
 
-# Name: Amikoo Two
+# Name: Amikoo .. Two
 
 - __Area__: The Robot
 - __Friendly Name__: Norman
