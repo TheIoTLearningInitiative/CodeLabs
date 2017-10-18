@@ -36,7 +36,7 @@ exit 0
 Memories.sh "20" "on" "${ZACATECAS_NAME}"
 SpeechSynthetizer.sh off espeak spanish \
     "Me da mucho gusto conocerlos y que hayan venido a Intel. \
-    Regresen pronto"
+    Saludos!"
 MemoriesAudio.sh "${ZACATECAS_NAME}"
 
 sync
