@@ -153,12 +153,12 @@
         * [USB](Hochob/documentation/Usb.md)
       * [Applications](Hochob/documentation/Applications.md)
         * [Southern Maya Highlands](Hochob/documentation/ApplicationsSouthernMayaHighlands.md)
+        * [Media Maya Lands](Hochob/documentation/MediaMayaTechlands.md)
         * [Central Maya Lowlands](Hochob/documentation/ApplicationsCentralMayaLowlands.md)
         * [Northern Maya Lowlands](Hochob/documentation/ApplicationsNorthernMayaLowlands.md)
         * [Robot Maya Lands](Hochob/documentation/ApplicationsRobotMayaTechlands.md)
         * [Techie Maya Lands](Hochob/documentation/ApplicationsTechieMayaLands.md)
         * [Console Maya Lands](Hochob/documentation/ApplicationsConsoleMayaLands.md)
-        * [Media Maya Lands](Hochob/documentation/MediaMayaTechlands.md)
     * [Stations](Hochob/documentation/stations.md)
   * Release Notes
     * [v0.1](Hochob/documentation/ReleaseNotesv0.1.md)
