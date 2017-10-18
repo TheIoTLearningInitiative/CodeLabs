@@ -6,8 +6,8 @@
 # Name: Coji
 
 - __Area__: The Robot
-- __Group__: System Event
-- __Friendly Name__: 
+- __Group__: 
+- __Friendly Name__: Speak
 - __Services__: Language
 
 # Name: Sphero
