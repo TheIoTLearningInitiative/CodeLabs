@@ -6,11 +6,11 @@
 # Name: Coji
 
 - __Area__: The Robot
-- __Friendly Name__: Services Event Host Robot
-- __Service__: Language
+- __Friendly Name__: 
+- __Servicess__: Language
 
 # Name: Sphero
 
 - __Area__: The Robot
 - __Friendly Name__: Services Event Host Robot
-- __Service__: Event
+- __Servicess__: Event
