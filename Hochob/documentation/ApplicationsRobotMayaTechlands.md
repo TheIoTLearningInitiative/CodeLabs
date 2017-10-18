@@ -13,7 +13,7 @@
 # Name: Sphero
 
 - __Area__: The Robot
-- __Group__: System Event
+- __Group__: System Event Internal
 - __Friendly Name__: Services Event Host Robot
-- __Services__: Event
+- __Services__: Events
 
