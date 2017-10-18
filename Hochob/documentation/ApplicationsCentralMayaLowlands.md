@@ -91,3 +91,4 @@
 - __Group__ Sandbox
 - __Friendly Name__: Sandbox
 - __Services__: 
+- __Digital Media Player__: Juum
