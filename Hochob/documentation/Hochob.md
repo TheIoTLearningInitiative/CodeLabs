@@ -48,3 +48,5 @@
 # ToDo
 
 - Change HomeAssistant Default Configuration for Amikoo -> amikooheadleft
+- Experience Day https://github.com/TheIoTLearningInitiative/CodeLabs/blob/Hochob/Hochob/Services/Stream/StreamAudio.sh
+- Experience Day https://github.com/TheIoTLearningInitiative/CodeLabs/blob/Hochob/Hochob/Applications/RobotMayaLands/Makeblock.sh
