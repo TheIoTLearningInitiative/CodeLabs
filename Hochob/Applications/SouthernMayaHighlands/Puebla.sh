@@ -25,6 +25,6 @@ export PUEBLA_DIRECTORY=$(dirname "$PUEBLA_PATH")
 
 LogPid.sh $PUEBLA_PID $PUEBLA_NAME
 
-Eog.sh "/var/www/html/Drawing/dibujos/*" &
+Eog.sh "/var/www/html/Drawing/dibujos/*.png" &
 
 # End of File
