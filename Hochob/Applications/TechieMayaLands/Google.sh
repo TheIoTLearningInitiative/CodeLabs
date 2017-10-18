@@ -15,10 +15,10 @@ export GOOGLE_DIRECTORY=$(dirname "$GOOGLE_PATH")
 
 LOCAL_SEASON="Halloween"
 
-LOCAL_DEVICE[0]="Triki"
-LOCAL_DEVICE[1]="Tran"
-LOCAL_DEVICE[2]="Juum"
-LOCAL_DEVICE[3]="Eek'"
+LOCAL_DEVICE[0]="Tran"
+LOCAL_DEVICE[1]="Juum"
+LOCAL_DEVICE[2]="Eek'"
+#LOCAL_DEVICE[3]="Triki"
 
 # =============================================================================
 # Functions
