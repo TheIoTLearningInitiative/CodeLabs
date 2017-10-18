@@ -57,7 +57,7 @@
 
 - __Area__: The Beginning
 - __Group__: Stations
-- __Friendly Name__: Labs y Fabs
+- __Friendly Name__: Questions
 - __Services__:
   - __Automation HomeAssistant__:
   - __Stream__ Chromecast
