@@ -12,7 +12,7 @@
 # Name: Amikoo Two
 
 - __Area__: The Robot
-- __Friendly Name__: NormaM
+- __Friendly Name__: Norman
 
 # Name: Coji
 
