@@ -38,8 +38,8 @@
 # Name: WindRiver
 
 - __Area__: The Techie
-- __Group__: System Event
-- __Friendly Name__: Services Event Host Server
+- __Group__: Internal System Event
+- __Friendly Name__: Services Internal Event Host Server
 
 # Name: SpaceX
 
