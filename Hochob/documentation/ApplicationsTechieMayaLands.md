@@ -9,7 +9,6 @@
 - __Qualcomm__
 - __SpaceX__
 - __WindRiver__
-- __SpaceX__
 
 # Name: Toyota
 
