@@ -893,7 +893,7 @@ group:
       - script.campeche
 
   southernmayahighlandscorporate:
-    name: Corporate
+    name: Corporativo
     entities:
       - switch.guanajuato
       - switch.guerrero
