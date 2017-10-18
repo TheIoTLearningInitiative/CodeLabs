@@ -10,4 +10,3 @@
     - friendly_name: When?
 - group.captainmayalandslanguage
   - switch.language
-  
