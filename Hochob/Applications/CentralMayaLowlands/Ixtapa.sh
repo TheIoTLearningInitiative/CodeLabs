@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export IXTAPA_PID=$$
-export IXTAPA_NAME="Mapimi Application"
+export IXTAPA_NAME="Ixtapa"
 export IXTAPA_PATH=$(readlink -f "$0")
 export IXTAPA_DIRECTORY=$(dirname "$IXTAPA_PATH")
 
