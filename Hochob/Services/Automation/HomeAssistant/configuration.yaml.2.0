@@ -122,7 +122,10 @@ homeassistant:
     script.coji:
       friendly_name: Speak
       icon: mdi:speaker
-
+    script.makeblock:
+      friendly_name: Preguntas
+      icon: mdi:audiobook
+      
     script.headright:
       friendly_name: Head Right
       icon: mdi:arrow-right-thick
@@ -476,6 +479,10 @@ script:
     sequence:
       - service: shell_command.coji
 
+  makeblock:
+    sequence:
+      - service: shell_command.makeblock
+
   headright:
     sequence:
       - service: shell_command.headright
@@ -613,7 +620,8 @@ shell_command:
   coji: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Coji.sh &
   sphero: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Sphero.sh &
   meccanoid: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Meccanoid.sh &
-  
+  makeblock: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Makeblock.sh &
+
   headleft: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headleft 1
   headright: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headright 1
 
@@ -789,6 +797,7 @@ group:
     entities:
       - group.robotmayalandslanguage
       - group.robotmayalandsevent
+      - group.robotmayalandsquestions
       - group.robotmayalandshead
       - group.robotmayalandsarmright
       - group.robotmayalandsarmleft
@@ -958,6 +967,11 @@ group:
     entities:
       - automation.services_internal_event_host_robot
       - automation.services_external_event_host_robot
+
+  robotmayalandsquestions:
+    name: Conocimiento
+    entities:
+      - script.makeblock
 
   robotmayalandshead:
     name: Cabeza
