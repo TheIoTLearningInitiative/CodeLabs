@@ -11,23 +11,29 @@
 - __WindRiver__
 - __SpaceX__
 
+# Name: Apple
+
+- __Area__: The Techie
+- __Group__: System Calendar
+- __Friendly Name__: System Calendar
+
 # Name: Toyota
 
 - __Area__: The Techie
 - __Group__: System Health
 - __Friendly Name__: Check Infrastructure
 
+# Name: WindRiver
+
+- __Area__: The Techie
+- __Group__: System Event
+- __Friendly Name__: Services Event Host Server
+
 # Name: Kodak
 
 - __Area__: The Techie
 - __Group__: System Health
 - __Friendly Name__: Reboot
-
-# Name: Apple
-
-- __Area__: The Techie
-- __Group__: System Calendar
-- __Friendly Name__: System Calendar
 
 # Name: Qualcomm
 
@@ -41,11 +47,7 @@
 - __Group__: System Monitor
 - __Friendly Name__: System Monitor
 
-# Name: WindRiver
 
-- __Area__: The Techie
-- __Group__: System Event
-- __Friendly Name__: Services Event Host Server
 
 # Name: Bosch
 
