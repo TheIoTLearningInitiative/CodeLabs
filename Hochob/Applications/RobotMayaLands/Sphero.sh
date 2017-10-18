@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export SPHERO_PID=$$
-export SPHERO_NAME="WindRiver"
+export SPHERO_NAME="Sphero"
 export SPHERO_PATH=$(readlink -f "$0")
 export SPHERO_DIRECTORY=$(dirname "$SPHERO_PATH")
 
