@@ -334,11 +334,6 @@ input_slider:
 sensor:
 
   - platform: command_line
-    name: Bosch
-    command: fortune
-    scan_interval: 300
-    
-  - platform: command_line
     name: Qualcomm
     command: amixer -D pulse sget Master | grep Left | grep -Eo '\[(\w+)\%\]' | grep -Eo '\w+'
     unit_of_measurement: "%"
@@ -351,6 +346,11 @@ sensor:
       - type: memory_free
       - type: disk_use_percent
         arg: /home/
+
+  - platform: command_line
+    name: Bosch
+    command: fortune
+    scan_interval: 300
 
   - platform: template
     sensors:
