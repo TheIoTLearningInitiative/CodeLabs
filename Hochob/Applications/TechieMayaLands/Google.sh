@@ -37,16 +37,16 @@ chooseDevice()
 LogPid.sh $GOOGLE_PID $GOOGLE_NAME
 
 if [ "$LANGUAGE" = "english" ]; then
-    SpeechSynthetizer.sh on espeak english \
+    SpeechSynthetizer.sh off espeak english \
         "Happy Halloween"
 else
-    SpeechSynthetizer.sh on espeak spanish \
+    SpeechSynthetizer.sh off espeak spanish \
         "Feliz dia de muertos"
 fi
 
 LOCAL_SOUND=`find $SEASON/$LOCAL_SEASON/ -type f | shuf -n 1`
-Stream.sh $LOCAL_DEVICE "1.0" "$LOCAL_SOUND"
-Stream.sh $LOCAL_DEVICE "1.0" "$SPEECH_MP3"
+Stream.sh "$LOCAL_DEVICE" "1.0" "$LOCAL_SOUND"
+#Stream.sh "$LOCAL_DEVICE" "1.0" "$SPEECH_MP3"
 
 # See implement WindRiver.sh logic, maybe Season service?
 # Choose Random Audio from Directory
