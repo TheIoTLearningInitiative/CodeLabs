@@ -12,3 +12,4 @@
 
 - __Area__: The Robot
 - __Friendly Name__: Ball
+- __Service__: Event
