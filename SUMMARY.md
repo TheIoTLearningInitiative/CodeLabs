@@ -158,7 +158,7 @@
         * [Robot Maya Lands](Hochob/documentation/ApplicationsRobotMayaTechlands.md)
         * [Techie Maya Lands](Hochob/documentation/ApplicationsTechieMayaLands.md)
         * [Console Maya Lands](Hochob/documentation/ApplicationsConsoleMayaLands.md)
-        * Media Maya Lands
+        * [Media Maya Lands](Hochob/documentation/MediaMayaTechlands.md)
     * [Stations](Hochob/documentation/stations.md)
   * Release Notes
     * [v0.1](Hochob/documentation/ReleaseNotesv0.1.md)
