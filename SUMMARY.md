@@ -277,7 +277,7 @@
     * [Sphero Linux API](Gods/Akna/documentation/SpheroLinuxApi.md)
 * [Alom](Gods/Alom/documentation/Alom.md)
 * [Bacab](Gods/Bacab/documentation/Bacab.md)
-  * Getting Started
+  * [Getting Started](Gods/Bacab/documentation/GettingStarted.md)
     * [Inventory](Gods/Bacab/documentation/Inventory.md)
     * [Accounts](Gods/Bacab/documentation/Accounts.md)
     * [Software](Gods/Bacab/documentation/Software.md)
