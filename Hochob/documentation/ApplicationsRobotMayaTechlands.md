@@ -30,6 +30,5 @@
 
 - __Area__: The Robot
 - __Group__: External System Event
-- __Friendly Name__: 
+- __Friendly Name__: Questions
 - __Services__: Survey
-
