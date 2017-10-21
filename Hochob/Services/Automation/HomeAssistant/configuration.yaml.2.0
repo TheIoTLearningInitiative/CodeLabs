@@ -174,7 +174,13 @@ homeassistant:
     script.movestop:
       friendly_name: Move Stop
       icon: mdi:stop
-      
+    
+    # Tradition Maya Lands
+    
+    automation.imix:
+      friendly_name: Sonidos
+      icon: mdi:speaker
+ 
     # Techie Maya Lands
 
     # Techie Maya Lands : System Health
