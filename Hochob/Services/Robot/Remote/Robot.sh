@@ -38,9 +38,9 @@ echo $LOCAL_MESSAGE
 if [ "$LOCAL_COMMAND" = "lupe/message" ]; then
     LOCAL_LANGUAGE=`Language.sh`
     if [ "$LOCAL_LANGUAGE" = "english" ]; then
-        Mosquitto.sh lupe/say $LOCAL_MESSAGE
+        Mosquitto.sh $AMIKOO_SAY $LOCAL_MESSAGE
     else
-        Mosquitto.sh lupe/decir $LOCAL_MESSAGE
+        Mosquitto.sh $AMIKOO_DECIR $LOCAL_MESSAGE
     fi
 else
     Mosquitto.sh $LOCAL_COMMAND $LOCAL_MESSAGE
