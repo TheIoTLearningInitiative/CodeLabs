@@ -89,4 +89,19 @@
 ```sh
 0de7  USBmicro
 	01a5  U421 interface card
-```	
+```
+
+```sh
+pyme@pyme-desktop:~/CodeLabs$ lsusb
+Bus 002 Device 004: ID 046d:c05a Logitech, Inc. M90/M100 Optical Mouse
+Bus 002 Device 003: ID 046d:c31c Logitech, Inc. Keyboard K120
+Bus 002 Device 002: ID 8087:0024 Intel Corp. Integrated Rate Matching Hub
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 003: ID 8087:07dc Intel Corp. 
+Bus 001 Device 002: ID 8087:0024 Intel Corp. Integrated Rate Matching Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 003: ID 0de7:01a5 USBmicro U421 interface card
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+pyme@pyme-desktop:~/CodeLabs$ 
+```
