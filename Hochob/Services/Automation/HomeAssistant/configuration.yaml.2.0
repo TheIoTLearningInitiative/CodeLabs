@@ -353,6 +353,18 @@ input_slider:
 
 sensor:
 
+  - platform: template
+    sensors:
+      imac:
+        friendly_name: Quien no visita?
+        value_template: '{{ states.calendar.hochobvcgmailcom.attributes.message }}'
+
+  - platform: template
+    sensors:
+      ipod:
+        friendly_name: Cuando?
+        value_template: '{{ states.calendar.hochobvcgmailcom.attributes.start_time }}'
+
   - platform: command_line
     name: Qualcomm
     command: amixer -D pulse sget Master | grep Left | grep -Eo '\[(\w+)\%\]' | grep -Eo '\w+'
@@ -371,18 +383,6 @@ sensor:
     name: Bosch
     command: fortune
     scan_interval: 300
-
-  - platform: template
-    sensors:
-      appleimac:
-        friendly_name: Who is coming?
-        value_template: '{{ states.calendar.hochobvcgmailcom.attributes.message }}'
-
-  - platform: template
-    sensors:
-      appleipod:
-        friendly_name: When?
-        value_template: '{{ states.calendar.hochobvcgmailcom.attributes.start_time }}'
 
 device_tracker:
   - platform: ping
@@ -820,7 +820,7 @@ group:
     name: Sensei
     entities:
       - group.techiemayalandssystemhealth
-      - group.captainmayalandscalendar
+      - group.techiemayalandssystemcalendar
       - group.captainmayalandslanguage
 
   # Southern Maya Highlands
@@ -915,6 +915,7 @@ group:
     view: yes
     name: Techies
     entities:
+      - group.techiemayalandssystemhealth
       - group.techiemayalandssystemcalendar
       - group.techiemayalandssystemaudio
       - group.techiemayalandssystemmonitor
@@ -922,14 +923,6 @@ group:
       - group.techiemayalandssystemquote
       - group.techiemayalandsserverinfrastructure
       - group.techiemayalandssandbox
-
-  # Captain Maya Lands: Calendar
-
-  captainmayalandscalendar:
-    name: Próxima Visita
-    entities:
-      - sensor.appleimac
-      - sensor.appleipod
 
   # Captain Maya Lands: Language
 
@@ -1173,10 +1166,10 @@ group:
   # Techie Maya Lands: System Calendar
 
   techiemayalandssystemcalendar:
-    name: Calendario de Visitas
+    name: Próxima Visita
     entities:
-      - sensor.appleimac
-      - sensor.appleipod
+      - sensor.imac
+      - sensor.ipod
       - calendar.hochobvcgmailcom
       - automation.services_calendar_name
 
