@@ -262,11 +262,11 @@ homeassistant:
     # Tradition Maya Lands
     
     automation.imix:
-      friendly_name: Sonidos Programados
+      friendly_name: Sonidos Chromecast Programados 
       icon: mdi:calendar-clock
 
     script.imix:
-      friendly_name: Sonidos Reproducción
+      friendly_name: Sonidos Chromecast Reproducción
       icon: mdi:speaker
 
     # Techie Maya Lands : System Health
