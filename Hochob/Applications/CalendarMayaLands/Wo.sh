@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export MECCANOID_PID=$$
-export MECCANOID_NAME="Meccanoid"
-export MECCANOID_PATH=$(readlink -f "$0")
-export MECCANOID_DIRECTORY=$(dirname "$SPHERO_PATH")
+export WO_PID=$$
+export WO_NAME="Wo"
+export WO_PATH=$(readlink -f "$0")
+export WO_DIRECTORY=$(dirname "$WO_PATH")
 
 LOCAL_INSTITUTION_NAME="Mexico"
 LOCAL_EVENT_NAME_ENGLISH="Intel Experience Day 2017"
