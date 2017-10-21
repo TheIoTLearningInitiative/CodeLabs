@@ -63,7 +63,7 @@ homeassistant:
     script.amikoogcvisionapi:
       friendly_name: Google Vision API
       icon: mdi:camera
-    script.amikoogctranslateapi:
+    script.amikoogctranslationapi:
       friendly_name: Google Translation API
       icon: mdi:google-translate
 
@@ -455,9 +455,9 @@ script:
     sequence:
       - service: shell_command.amikoogcvisionapi
 
-  amikoogctranslateapi:
+  amikoogctranslationapi:
     sequence:
-      - service: shell_command.amikoogctranslateapi
+      - service: shell_command.amikoogctranslationapi
 
   makeblock:
     sequence:
