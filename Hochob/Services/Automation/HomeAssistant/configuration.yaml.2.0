@@ -1037,7 +1037,7 @@ group:
     name: Brazo Izquierdo
     entities:
       - script.leftup
-      - script.lefttdown
+      - script.leftdown
       - script.leftfold
       - script.leftunfold
 
