@@ -108,9 +108,9 @@ if [ "$LOCAL_HOST" = "server" ]; then
     SpeechSynthetizer.sh on voicerss $LANGUAGE "${LOCAL_MESSAGE}"
 else
     if [ "$LANGUAGE" = "english" ]; then
-        Robot.sh lupe/say "${LOCAL_MESSAGE}"
+        Robot.sh $AMIKOO_SAY "${LOCAL_MESSAGE}"
     else
-        Robot.sh lupe/decir "${LOCAL_MESSAGE}"
+        Robot.sh $AMIKOO_DECIR "${LOCAL_MESSAGE}"
     fi
 fi
 
