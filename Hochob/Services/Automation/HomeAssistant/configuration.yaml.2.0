@@ -665,8 +665,8 @@ shell_command:
   coji: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Coji.sh &
   makeblock: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Makeblock.sh &
 
-  gcvisionapi: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh gcvisionapi 1
-  gctranslationapi: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh gctranslationapi 1
+  amikoogcvisionapi: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh gcvisionapi 1
+  amikoogctranslationapi: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh gctranslationapi 1
 
   headleft: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headleft 1
   headright: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headright 1
@@ -994,8 +994,8 @@ group:
     name: Habilidades
     entities:
       - script.coji
-      - script.gcvisionapi
-      - script.gctranslationapi
+      - script.amikoogcvisionapi
+      - script.amikoogctranslationapi
 
   # Robot Maya Lands: Knowledge
 
