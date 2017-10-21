@@ -31,8 +31,6 @@ Fast-forward
  rename Hochob/Services/Events/{Host.sh => HostInternal.sh} (100%)
 ```
 
-## Second
-
 From Southern Maya Lowlands to Media Maya Lands
 
 # Name: Aak Guanajuato
@@ -43,3 +41,5 @@ From Southern Maya Lowlands to Media Maya Lands
 # Name: Ch'o' Queretaro
 # Name: Chuwen Quintana Roo
 # Name: Kaab Yucatan
+
+renamed:    ../TechieMayaLands/Google.sh -> TraditionMayaLands/Imix.sh
