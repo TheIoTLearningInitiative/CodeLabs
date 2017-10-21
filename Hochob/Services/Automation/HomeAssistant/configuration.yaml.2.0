@@ -59,7 +59,7 @@ homeassistant:
       friendly_name: Hablar
       icon: mdi:speaker
     script.makeblock:
-      friendly_name: Preguntas
+      friendly_name: Preguntas Centro de Visitantes
       icon: mdi:audiobook
       
     script.headright:
