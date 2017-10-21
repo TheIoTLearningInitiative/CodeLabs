@@ -8,12 +8,9 @@
 - None
 - None
 - Tech Companies
+- Mayan Words
 
 ## Others
-
-### Mayan Words
-
-The Mayan languages form a language family spoken in Mesoamerica and northern Central America. Mayan languages are spoken by at least 6 million Maya peoples, primarily in Guatemala, Mexico, Belize and Honduras. In 1996, Guatemala formally recognized 21 Mayan languages by name, and Mexico recognizes eight more within their territory. [Wikipedia](https://en.wikipedia.org/wiki/Mayan_languages)
 
 ### Mayan Animals
 
