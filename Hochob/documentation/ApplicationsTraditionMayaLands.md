@@ -13,5 +13,4 @@
 
 - Imix'
   - __Friendly Name__: Scheduled Sounds
-- Ik'
   - __Friendly Name__: Play Sounds
