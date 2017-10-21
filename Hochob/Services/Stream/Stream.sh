@@ -48,7 +48,7 @@ LOCAL_ROBOTAVAILABLE=`RobotAvailable.sh`
 if [ "$LOCAL_ROBOTAVAILABLE" -eq "0" ]; then
     Espeak.sh on spanish "Nel"
 else
-    Robot.sh lupe/say "Nel"
+    Robot.sh $AMIKOO_SAY "Nel"
 fi
 
 # End of File
