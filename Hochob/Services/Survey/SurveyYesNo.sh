@@ -76,10 +76,10 @@ if [ "$LOCAL_OPTION" = "$LOCAL_CORRECT" ]; then
 
     chooseAnswerCorrect $LOCAL_LANGUAGE
     if [ "$LOCAL_LANGUAGE" = "english" ]; then
-        StreamAudio.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_CHARACTER \
+        StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_CHARACTER \
                     "${LOCAL_CORRECT_ANSWER}"
     else
-        StreamAudio.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_CHARACTER \
+        StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_CHARACTER \
                     "${LOCAL_CORRECT_ANSWER}"
     fi
 
@@ -87,10 +87,10 @@ else
 
     chooseWrongCorrect "$LOCAL_LANGUAGE"
     if [ "$LOCAL_LANGUAGE" = "english" ]; then
-        StreamAudio.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_CHARACTER \
+        StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_CHARACTER \
                     "${LOCAL_WRONG_ANSWER}. the correct answer is ${LOCAL_CORRECT}"
     else
-        StreamAudio.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_CHARACTER \
+        StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_CHARACTER \
                     "${LOCAL_WRONG_ANSWER}. La respuesta correcta es ${LOCAL_CORRECT}"
     fi
 
