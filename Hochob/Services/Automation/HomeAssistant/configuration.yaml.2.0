@@ -251,22 +251,22 @@ homeassistant:
 
     # Media Maya Lands : Corporate
 
-    switch.guanajuato:
+    switch.aak:
       friendly_name: Imágenes Corporativas
       icon: mdi:folder-multiple-image
-    switch.guerrero:
+    switch.aayin:
       friendly_name: Videos Corporativos
       icon: mdi:file-video
 
     # Media Maya Lands : Intel Guadalajara
 
-    switch.jalisco:
+    switch.chakmool:
       friendly_name: Imágenes Intel Guadalajara
       icon: mdi:folder-multiple-image
 
     # Media Maya Lands : Visitors Center
 
-    switch.hidalgo:
+    switch.am:
       friendly_name: Imágenes Centro de Visitantes
       icon: mdi:folder-multiple-image
 
@@ -673,23 +673,23 @@ switch:
  
       # Media Maya Lands: Corporate
 
-      guanajuato:
-        command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Guanajuato.sh &"
+      aak:
+        command_on: "~/CodeLabs/Hochob/Applications/MediaMayaLands/Aak.sh &"
         command_off: "/home/hochob/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
-      guerrero:
-        command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Guerrero.sh &"
+      aayin:
+        command_on: "~/CodeLabs/Hochob/Applications/MediaMayaLands/Aayin.sh &"
         command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh vlc"
 
       # Media Maya Lands: Intel Guadalajara
 
-      jalisco:
-        command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Jalisco.sh &"
+      chakmool:
+        command_on: "~/CodeLabs/Hochob/Applications/MediaMayaLands/Chakmool.sh &"
         command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
 
       # Media Maya Lands: Visitors Center
 
-      hidalgo:
-        command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Hidalgo.sh &"
+      am:
+        command_on: "~/CodeLabs/Hochob/Applications/MediaMayaLands/Am.sh &"
         command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
 
       # Media Maya Lands: Drawing
@@ -895,18 +895,18 @@ group:
   southernmayahighlandscorporate:
     name: Corporativo
     entities:
-      - switch.guanajuato
-      - switch.guerrero
+      - switch.aak
+      - switch.aayin
 
   southernmayahighlandsintelguadalajara:
     name: Intel Guadalajara
     entities:
-      - switch.jalisco
+      - switch.chakmool
 
   southernmayahighlandsvisitorscenter:
     name: Centro de Visitantes
     entities:
-      - switch.hidalgo
+      - switch.am
 
   southernmayahighlandsdrawing:
     name: Dibujos
