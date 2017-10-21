@@ -53,62 +53,62 @@ homeassistant:
     # Robot Maya Lands
 
     script.resetall:
-      friendly_name: Reset
+      friendly_name: Ahora
       icon: mdi:lock-reset
     script.coji:
-      friendly_name: Speak
+      friendly_name: Hablar
       icon: mdi:speaker
     script.makeblock:
       friendly_name: Preguntas
       icon: mdi:audiobook
       
     script.headright:
-      friendly_name: Head Right
+      friendly_name: Derecha
       icon: mdi:arrow-right-thick
     script.headleft:
-      friendly_name: Head Left
+      friendly_name: Izquierda
       icon: mdi:arrow-left-thick
 
     script.rightup:
-      friendly_name: Up
+      friendly_name: Arriba
       icon: mdi:human-handsup
     script.rightdown:
-      friendly_name: Down
+      friendly_name: Abajo
       icon: mdi:human-handsup
     script.rightfold:
-      friendly_name: Fold
+      friendly_name: Doblar
       icon: mdi:gesture-swipe-up
     script.rightunfold:
-      friendly_name: Unfold
+      friendly_name: Desdoblar
       icon: mdi:gesture-swipe-up
 
     script.leftup:
-      friendly_name: Up
+      friendly_name: Arriba
       icon: mdi:human-handsup
     script.leftdown:
-      friendly_name: Down
+      friendly_name: Abajo
       icon: mdi:human-handsup
     script.leftfold:
-      friendly_name: Fold
+      friendly_name: Doblar
       icon: mdi:gesture-swipe-up
     script.leftunfold:
-      friendly_name: Unfold
+      friendly_name: Desdoblar
       icon: mdi:gesture-swipe-up
 
     script.moveright:
-      friendly_name: Move Right
+      friendly_name: Derecha
       icon: mdi:arrow-right-thick
     script.moveleft:
-      friendly_name: Move Left
+      friendly_name: Izquierda
       icon: mdi:arrow-left-thick
     script.moveforward:
-      friendly_name: Move Forward
+      friendly_name: Adelanta
       icon: mdi:arrow-up-thick
     script.movebackward:
-      friendly_name: Move Backward
+      friendly_name: Atras
       icon: mdi:arrow-down-thick
     script.movestop:
-      friendly_name: Move Stop
+      friendly_name: Parar
       icon: mdi:stop
 
     # Central Maya Lowlands, Stations
