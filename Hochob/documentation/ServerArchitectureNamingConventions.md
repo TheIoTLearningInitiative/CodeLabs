@@ -1,11 +1,5 @@
 # Naming Conventions
 
-# Mayan Words
-
-The Mayan languages form a language family spoken in Mesoamerica and northern Central America. Mayan languages are spoken by at least 6 million Maya peoples, primarily in Guatemala, Mexico, Belize and Honduras. In 1996, Guatemala formally recognized 21 Mayan languages by name, and Mexico recognizes eight more within their territory. [Wikipedia](https://en.wikipedia.org/wiki/Mayan_languages)
-
-# Areas
-
 - Captain Maya Lands: The Captain
 - Southern Maya Highlands: The Show
 - Robot Maya Lands: The Robot
@@ -14,6 +8,33 @@ The Mayan languages form a language family spoken in Mesoamerica and northern Ce
 - Techie Maya Lands: The Techie
 - Console Maya Lands: The Console
 - Media Maya Lands: The Media
+
+# Beaches in Mexico
+
+- Acapulco
+- Cancún
+- Cozumel
+- Huatulco
+- Isla Mujeres
+- Ixtapa
+- La Paz
+- Loreto
+- Los Cabos
+- Melaque
+- Mazatlán
+- Manzanillo
+- Nuevo Vallarta
+- Rosarito
+- Puerto Escondido
+- Puerto Vallarta
+- Riviera Maya
+- San Felipe
+- Tonalá Puerto Arista
+- Veracruz
+
+# Mayan Words
+
+The Mayan languages form a language family spoken in Mesoamerica and northern Central America. Mayan languages are spoken by at least 6 million Maya peoples, primarily in Guatemala, Mexico, Belize and Honduras. In 1996, Guatemala formally recognized 21 Mayan languages by name, and Mexico recognizes eight more within their territory. [Wikipedia](https://en.wikipedia.org/wiki/Mayan_languages)
 
 # Yucatan Food
 
@@ -75,28 +96,7 @@ The Mayan languages form a language family spoken in Mesoamerica and northern Ce
 - Yucatan
 - Zacatecas
 
-# Beaches in Mexico
 
-- Acapulco
-- Cancún
-- Cozumel
-- Huatulco
-- Isla Mujeres
-- Ixtapa
-- La Paz
-- Loreto
-- Los Cabos
-- Melaque
-- Mazatlán
-- Manzanillo
-- Nuevo Vallarta
-- Rosarito
-- Puerto Escondido
-- Puerto Vallarta
-- Riviera Maya
-- San Felipe
-- Tonalá Puerto Arista
-- Veracruz
 
 # Reserves
 
