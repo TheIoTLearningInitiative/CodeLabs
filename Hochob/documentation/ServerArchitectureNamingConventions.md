@@ -8,7 +8,7 @@
 - Virtual Maya Lands
 - Robot Maya Lands
 
-# Food
+# Yucatan Food
 
 > [NetGeo Maya Foods](http://www.nationalgeographic.com/travel/top-10/maya-foods/)
 
