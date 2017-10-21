@@ -652,7 +652,7 @@ shell_command:
 
   # Tradition Maya Lands
 
-  diademuertos: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/DiaDeMuertos.sh &
+  imix: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Imix.sh &
 
   # Techie Maya Lands
   
@@ -738,14 +738,14 @@ automation:
 
   # Tradition Maya Lands
 
-  - alias: DiaDeMuertos
+  - alias: Imix
     initial_state: 'off'
     trigger:
       platform: time
       minutes: '/15'
       seconds: 00
     action:
-      - service: shell_command.diademuertos
+      - service: shell_command.imix
 
   # Techie Maya Lands
 
@@ -873,7 +873,7 @@ group:
     view: yes
     name: Tradition
     entities:
-      - group.traditionmayalandsdiademuertos
+      - group.traditionmayalandsimix
   
   # Techie Maya Lands
 
@@ -1117,10 +1117,10 @@ group:
 
   # Tradition Maya Lands: Dia De Muertos
 
-  traditionmayalandsdiademuertos:
+  traditionmayalandsimix:
     name: Dia De Muertos
     entities:
-      - automation.diademuertos
+      - automation.imix
 
   # Techie Maya Lands: System Health
 
