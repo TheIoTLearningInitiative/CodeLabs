@@ -160,8 +160,9 @@
         * [Northern Maya Lowlands](Hochob/documentation/ApplicationsNorthernMayaLowlands.md)
         * [Console Maya Lands](Hochob/documentation/ApplicationsConsoleMayaLands.md)
         * [Media Maya Lands](Hochob/documentation/MediaMayaTechlands.md)
-        * [Techie Maya Lands](Hochob/documentation/ApplicationsTechieMayaLands.md)
-        * [Calendar Maya Lands](Hochob/documentation/CalendarMayaLands.md)
+        * Tradition Maya Lands
+        * Tradition Maya Lands
+        * Tradition Maya Lands
     * [Stations](Hochob/documentation/stations.md)
   * Release Notes
     * [v0.1](Hochob/documentation/ReleaseNotesv0.1.md)
