@@ -10,7 +10,6 @@
 To migrate
 
 - Calendar Application
-- Questions
 
 ## Name: Pop
 
