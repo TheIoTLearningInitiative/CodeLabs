@@ -854,7 +854,7 @@ group:
 
   robotmayalands:
     view: yes
-    name: Robótica
+    name: Robot
     entities:
       - group.robotmayalandslanguage
       - group.robotmayalandsquestions
