@@ -16,6 +16,10 @@
   - None
 - Media Maya Lands: Memories
   - Mayan Animals
+- Calendar Maya Lands: Events
+  - 
+- Tradition Maya Lands: Celebrations
+  - 
 - Techie Maya Lands: Techie
   - Tech Companies
 
