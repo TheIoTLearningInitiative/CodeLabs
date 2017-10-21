@@ -43,3 +43,8 @@ From Southern Maya Lowlands to Media Maya Lands
 # Name: Kaab Yucatan
 
 renamed:    ../TechieMayaLands/Google.sh -> TraditionMayaLands/Imix.sh
+
+[Hochob b612f71] Update
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ rename Hochob/Applications/{RobotMayaLands/Sphero.sh => CalendarMayaLands/Pop.sh} (100%)
+ rename Hochob/Applications/{RobotMayaLands/Meccanoid.sh => CalendarMayaLands/Wo.sh} (100%)

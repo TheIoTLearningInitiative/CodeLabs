@@ -7,8 +7,8 @@ To migrate
 - External Event
 - Questions
 
-- Pop
-- Wo'
+- Pop Sphero
+- Wo' Meccanoid
 - Sip
 - Sotz'
 - Sek
