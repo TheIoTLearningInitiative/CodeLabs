@@ -786,7 +786,7 @@ group:
 
   default_view:
     view: yes
-    name: The Captain
+    name: Sensei
     entities:
       - group.techiemayalandssystemhealth
       - group.captainmayalandscalendar
@@ -794,7 +794,7 @@ group:
 
   southernmayalands:
     view: yes
-    name: The Show
+    name: Home
     entities:
       - group.southernmayahighlandsintroduction
       - group.southernmayahighlandsrobot
@@ -803,7 +803,7 @@ group:
     
   robotmayalands:
     view: yes
-    name: The Robot
+    name: Robotics
     entities:
       - group.robotmayalandslanguage
       - group.robotmayalandsevent
@@ -816,7 +816,7 @@ group:
 
   centralmayalowlands:
     view: yes
-    name: The Beginning
+    name: Beginning
     entities:
       - group.centralmayalowlandsstations
       - group.centralmayalowlandsquestions
@@ -824,7 +824,7 @@ group:
 
   northernmayalowlands:
     view: yes
-    name: The Experience
+    name: Experience
     entities:
       - group.northernmayalowlandsstations
       - group.northernmayalowlandsstories
@@ -832,7 +832,7 @@ group:
 
   techiemayalands:
     view: yes
-    name: The Techie
+    name: Techies
     entities:
       - group.techiemayalandssystemcalendar
       - group.techiemayalandssystemaudio
@@ -846,7 +846,7 @@ group:
   consolemayalands:
     view: yes
     #icon: mdi:keyboard
-    name: The Console
+    name: Interaction
     entities:
       - group.consolemayalandskeypadyesno
       - group.consolemayalandskeypadmultiplechoice
@@ -854,7 +854,7 @@ group:
   mediamayalands:
     view: yes
     #icon: mdi:filmstrip
-    name: The Media
+    name: Memories
     entities:
       - group.southernmayahighlandscorporate
       - group.southernmayahighlandsintelguadalajara
