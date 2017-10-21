@@ -19,7 +19,7 @@
 - Tz'unu'un Colibri
 - Sootz' Murcielago
 
-# Name: Guanajuato
+# Name: Aak Guanajuato
 
 * **Area** The Media
 * **Group** Corporate
@@ -27,7 +27,7 @@
 * **Services**:
   * **Image** Eog
 
-# Name: Guerrero
+# Name: Aayin Guerrero
 
 * **Area** The Media
 * **Group** Corporate
@@ -35,7 +35,7 @@
 * **Services**:
   * **Video** VlcMediaPlayer
 
-# Name: Hidalgo
+# Name: Am Hidalgo
 
 * **Area** The Media
 * **Group** Visitors Center
@@ -43,7 +43,7 @@
 * **Services**:
   * **Image** Eog
 
-# Name: Jalisco
+# Name: Chakmool Jalisco
 
 * **Area** The Media
 * **Group** Intel Guadalajara
@@ -51,7 +51,7 @@
 * **Services**:
   * **Image** Eog
 
-# Name: Puebla
+# Name: Ch'iich' Puebla
 
 * **Area** The Media
 * **Group** Drawing
@@ -59,7 +59,7 @@
 * **Services**:
   * **Image** Eog
 
-# Name: Queretaro
+# Name: Ch'o' Queretaro
 
 * **Area** The Media
 * **Group** Memories
@@ -67,7 +67,7 @@
 * **Services**:
   * **Image** Eog
 
-# Name: Quintana Roo
+# Name: Chuwen Quintana Roo
 
 * **Area** The Media
 * **Group** Memories
@@ -75,7 +75,7 @@
 * **Services**:
   * **Video** VlcMediaPlayer
 
-# Name: Yucatan
+# Name: Kaab Yucatan
 
 * **Area** The Media
 * **Group** Camera
