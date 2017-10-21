@@ -27,19 +27,19 @@ LOCAL_DEVICE="Eek'"
 LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
-StreamAudio.sh $LOCAL_DEVICE spanish robot \
+StreamText.sh $LOCAL_DEVICE spanish robot \
       "
       Imagina esto, cielo rosa, atardeceres naranjas, mucho desierto y acantilados. \
       Pero donde puedes ver esto y mas? En el planeta marte! Veamos si puedes responder un par de preguntas.
       "
 
-StreamAudio.sh $LOCAL_DEVICE spanish robot \
+StreamText.sh $LOCAL_DEVICE spanish robot \
       "
       A Marte se le conoce también como el planeta rojo? que opinas, sí o no?\
       "
 SurveyYesNo.sh $LOCAL_DEVICE spanish robot yes
 
-StreamAudio.sh $LOCAL_DEVICE spanish robot \
+StreamText.sh $LOCAL_DEVICE spanish robot \
       "
       Cual fue la primer misión que tomó por primera vez fotos de Marte? \
       Uno, Curiosity. \
@@ -51,7 +51,7 @@ SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 4
 
 exit 0
 
-StreamAudio.sh $LOCAL_DEVICE english tt \
+StreamText.sh $LOCAL_DEVICE english tt \
       "
       Which spacecraft took the first photos of Mars? \
       One, Curiosity. \
