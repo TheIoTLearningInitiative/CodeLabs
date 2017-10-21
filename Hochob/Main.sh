@@ -209,8 +209,8 @@ MQTT_SERVER_PORT=1883
 AMIKOO="lupe/"
 AMIKOO_SAY=$AMIKOO/say
 AMIKOO_DECIR=$AMIKOO/decir
-AMIKOO_VISION=$AMIKOO/vision
-AMIKOO_TRANSLATE=$AMIKOO/translate
+AMIKOO_GCVISIONAPI=$AMIKOO/vision
+AMIKOO_GCTRANSLATIONAPI=$AMIKOO/translate
 
 # =============================================================================
 # Functions
