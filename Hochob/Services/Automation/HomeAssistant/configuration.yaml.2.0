@@ -50,6 +50,67 @@ homeassistant:
       friendly_name: Sandbox
       icon: mdi:test-tube
 
+    # Robot Maya Lands
+
+    script.resetall:
+      friendly_name: Reset
+      icon: mdi:lock-reset
+    script.coji:
+      friendly_name: Speak
+      icon: mdi:speaker
+    script.makeblock:
+      friendly_name: Preguntas
+      icon: mdi:audiobook
+      
+    script.headright:
+      friendly_name: Head Right
+      icon: mdi:arrow-right-thick
+    script.headleft:
+      friendly_name: Head Left
+      icon: mdi:arrow-left-thick
+
+    script.rightup:
+      friendly_name: Up
+      icon: mdi:human-handsup
+    script.rightdown:
+      friendly_name: Down
+      icon: mdi:human-handsup
+    script.rightfold:
+      friendly_name: Fold
+      icon: mdi:gesture-swipe-up
+    script.rightunfold:
+      friendly_name: Unfold
+      icon: mdi:gesture-swipe-up
+
+    script.leftup:
+      friendly_name: Up
+      icon: mdi:human-handsup
+    script.leftdown:
+      friendly_name: Down
+      icon: mdi:human-handsup
+    script.leftfold:
+      friendly_name: Fold
+      icon: mdi:gesture-swipe-up
+    script.leftunfold:
+      friendly_name: Unfold
+      icon: mdi:gesture-swipe-up
+
+    script.moveright:
+      friendly_name: Move Right
+      icon: mdi:arrow-right-thick
+    script.moveleft:
+      friendly_name: Move Left
+      icon: mdi:arrow-left-thick
+    script.moveforward:
+      friendly_name: Move Forward
+      icon: mdi:arrow-up-thick
+    script.movebackward:
+      friendly_name: Move Backward
+      icon: mdi:arrow-down-thick
+    script.movestop:
+      friendly_name: Move Stop
+      icon: mdi:stop
+
     # Central Maya Lowlands, Stations
 
     script.acapulco:
@@ -114,75 +175,12 @@ homeassistant:
       friendly_name: Planeta Marte
       icon: mdi:test-tube
 
-    # Robot Maya Lands
-
-    script.resetall:
-      friendly_name: Reset
-      icon: mdi:lock-reset
-    script.coji:
-      friendly_name: Speak
-      icon: mdi:speaker
-    script.makeblock:
-      friendly_name: Preguntas
-      icon: mdi:audiobook
-      
-    script.headright:
-      friendly_name: Head Right
-      icon: mdi:arrow-right-thick
-    script.headleft:
-      friendly_name: Head Left
-      icon: mdi:arrow-left-thick
-
-    script.rightup:
-      friendly_name: Up
-      icon: mdi:human-handsup
-    script.rightdown:
-      friendly_name: Down
-      icon: mdi:human-handsup
-    script.rightfold:
-      friendly_name: Fold
-      icon: mdi:gesture-swipe-up
-    script.rightunfold:
-      friendly_name: Unfold
-      icon: mdi:gesture-swipe-up
-
-    script.leftup:
-      friendly_name: Up
-      icon: mdi:human-handsup
-    script.leftdown:
-      friendly_name: Down
-      icon: mdi:human-handsup
-    script.leftfold:
-      friendly_name: Fold
-      icon: mdi:gesture-swipe-up
-    script.leftunfold:
-      friendly_name: Unfold
-      icon: mdi:gesture-swipe-up
-
-    script.moveright:
-      friendly_name: Move Right
-      icon: mdi:arrow-right-thick
-    script.moveleft:
-      friendly_name: Move Left
-      icon: mdi:arrow-left-thick
-    script.moveforward:
-      friendly_name: Move Forward
-      icon: mdi:arrow-up-thick
-    script.movebackward:
-      friendly_name: Move Backward
-      icon: mdi:arrow-down-thick
-    script.movestop:
-      friendly_name: Move Stop
-      icon: mdi:stop
-    
     # Tradition Maya Lands
     
     automation.imix:
-      friendly_name: Sonidos
+      friendly_name: Sonidos Programados
       icon: mdi:speaker
  
-    # Techie Maya Lands
-
     # Techie Maya Lands : System Health
 
     script.toyota:
