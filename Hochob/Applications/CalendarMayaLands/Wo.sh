@@ -34,7 +34,7 @@ chooseLanguage()
 # Main
 # =============================================================================
 
-LogPid.sh $MECCANOID_PID $SPHERO_NAME
+LogPid.sh $WO_PID $WO_NAME
 
 chooseLanguage
 
