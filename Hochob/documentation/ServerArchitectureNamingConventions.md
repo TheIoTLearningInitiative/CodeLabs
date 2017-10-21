@@ -1,5 +1,9 @@
 # Naming Conventions
 
+# Maya Words
+
+
+
 # Geography
 
 - Northern Maya Lowlands
