@@ -48,3 +48,7 @@ renamed:    ../TechieMayaLands/Google.sh -> TraditionMayaLands/Imix.sh
  2 files changed, 0 insertions(+), 0 deletions(-)
  rename Hochob/Applications/{RobotMayaLands/Sphero.sh => CalendarMayaLands/Pop.sh} (100%)
  rename Hochob/Applications/{RobotMayaLands/Meccanoid.sh => CalendarMayaLands/Wo.sh} (100%)
+
+[Hochob 34d32c8] Update
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename Hochob/Applications/{TechieMayaLands/WindRiver.sh => CalendarMayaLands/Pip.sh} (100%)
