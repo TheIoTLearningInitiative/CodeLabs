@@ -27,7 +27,7 @@ LOCAL_DEVICE="Amikoo"
 LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
-StreamAudio.sh $LOCAL_DEVICE spanish robot \
+StreamText.sh $LOCAL_DEVICE spanish robot \
       "
       Puedes decirme que aportaron los Mayas a la tecnología? \
       Uno, Las pirámides. \
@@ -37,11 +37,11 @@ StreamAudio.sh $LOCAL_DEVICE spanish robot \
       "
 SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 2
 
-StreamAudio.sh $LOCAL_DEVICE spanish robot \
+StreamText.sh $LOCAL_DEVICE spanish robot \
       "
       Quiénes son los fundadores de Intel? \
       "
-StreamAudio.sh $LOCAL_DEVICE english robot \
+StreamText.sh $LOCAL_DEVICE english robot \
       "
       Uno, Robert Noyce, Gordon Moore. \
       Dos, Steve Allen. \
@@ -50,7 +50,7 @@ StreamAudio.sh $LOCAL_DEVICE english robot \
       "      
 SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 1
 
-StreamAudio.sh $LOCAL_DEVICE spanish robot \
+StreamText.sh $LOCAL_DEVICE spanish robot \
       "
       Cuántos ingenieros erán cuando empezó Intel Guadalajara?
       Uno, 60. \
@@ -60,19 +60,19 @@ StreamAudio.sh $LOCAL_DEVICE spanish robot \
       " 
 SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 2
 
-StreamAudio.sh $LOCAL_DEVICE spanish robot \
+StreamText.sh $LOCAL_DEVICE spanish robot \
       "
       El microprocesador es el cerebro de la computadora? Sí o no?
       "
 SurveyYesNo.sh $LOCAL_DEVICE spanish robot yes
 
-StreamAudio.sh $LOCAL_DEVICE spanish robot \
+StreamText.sh $LOCAL_DEVICE spanish robot \
       "
       Las fábricas de Intel son 200 veces mas limpias que un quirófano? Sí o no?
       "
 SurveyYesNo.sh $LOCAL_DEVICE spanish robot no
 
-StreamAudio.sh $LOCAL_DEVICE spanish robot \
+StreamText.sh $LOCAL_DEVICE spanish robot \
       "
       Podemos encontrar el microprocesador en?
       Uno, Accesorios para las personas. \
@@ -82,7 +82,7 @@ StreamAudio.sh $LOCAL_DEVICE spanish robot \
       "
 SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 4
 
-StreamAudio.sh $LOCAL_DEVICE spanish robot \
+StreamText.sh $LOCAL_DEVICE spanish robot \
       "
       En el sistema binario, el cero significa?
       Uno, Encendido. \
