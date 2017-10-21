@@ -52,3 +52,5 @@ renamed:    ../TechieMayaLands/Google.sh -> TraditionMayaLands/Imix.sh
 [Hochob 34d32c8] Update
  1 file changed, 0 insertions(+), 0 deletions(-)
  rename Hochob/Applications/{TechieMayaLands/WindRiver.sh => CalendarMayaLands/Sip.sh} (100%)
+
+rename Hochob/Services/Stream/{StreamAudio.sh => StreamText.sh} (100%)
