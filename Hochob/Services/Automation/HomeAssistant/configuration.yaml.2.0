@@ -272,22 +272,22 @@ homeassistant:
 
     # Media Maya Lands : Drawing
 
-    switch.puebla:
+    switch.chiich:
       friendly_name: Imágenes de Dibujos
       icon: mdi:folder-multiple-image
 
     # Media Maya Lands : Memories
 
-    switch.queretaro:
+    switch.cho:
       friendly_name: Imágenes de Visitas
       icon: mdi:folder-multiple-image
-    switch.quintanaroo:
+    switch.chuwen:
       friendly_name: Videos de Visitas
       icon: mdi:file-video
 
     # Media Maya Lands : Camera
 
-    switch.yucatan:
+    switch.kaab:
       friendly_name: Vista Previa Cámara
       icon: mdi:camera
 
@@ -694,22 +694,22 @@ switch:
 
       # Media Maya Lands: Drawing
 
-      puebla:
-        command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Puebla.sh &"
+      chiich:
+        command_on: "~/CodeLabs/Hochob/Applications/MediaMayaLands/Chiich.sh &"
         command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
 
       # Media Maya Lands: Memories
 
-      queretaro:
-        command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Queretaro.sh &"
+      cho:
+        command_on: "~/CodeLabs/Hochob/Applications/MediaMayaLands/Cho.sh &"
         command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
-      quintanaroo:
-        command_on: "~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/QuintanaRoo.sh &"
+      chuwen:
+        command_on: "~/CodeLabs/Hochob/Applications/MediaMayaLands/Chuwen.sh &"
         command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh vlc"
 
       # Media Maya Lands: Camera
 
-      yucatan:
+      kaab:
         command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0 &"
         command_off: "pkill -9 vlc"
 
@@ -792,6 +792,8 @@ group:
       - group.captainmayalandscalendar
       - group.captainmayalandslanguage
 
+  # Southern Maya Highlands
+
   southernmayalands:
     view: yes
     name: Home
@@ -800,7 +802,9 @@ group:
       - group.southernmayahighlandsrobot
       - group.southernmayahighlandstour
       #- group.southernmayahighlandssandbox
-    
+
+  # Robot Maya Lands
+
   robotmayalands:
     view: yes
     name: Robotics
@@ -814,6 +818,8 @@ group:
       - group.robotmayalandslegs
       - group.robotmayalandsreset
 
+  # Central Maya Lowlands
+
   centralmayalowlands:
     view: yes
     name: Beginning
@@ -822,6 +828,8 @@ group:
       - group.centralmayalowlandsquestions
       #- group.centralmayalowlandssandbox
 
+  # Northern Maya Lowlands
+
   northernmayalowlands:
     view: yes
     name: Experience
@@ -829,6 +837,8 @@ group:
       - group.northernmayalowlandsstations
       - group.northernmayalowlandsstories
       - group.northernmayalowlandsrobot
+
+  # Techie Maya Lands
 
   techiemayalands:
     view: yes
@@ -843,25 +853,31 @@ group:
       - group.techiemayalandsserverinfrastructure
       - group.techiemayalandssandbox
 
+  # Console Maya Lands
+
   consolemayalands:
     view: yes
     #icon: mdi:keyboard
-    name: Interaction
+    name: Keyboard
     entities:
       - group.consolemayalandskeypadyesno
       - group.consolemayalandskeypadmultiplechoice
+
+  # Media Maya Lands
 
   mediamayalands:
     view: yes
     #icon: mdi:filmstrip
     name: Memories
     entities:
-      - group.southernmayahighlandscorporate
-      - group.southernmayahighlandsintelguadalajara
-      - group.southernmayahighlandsvisitorscenter
-      - group.southernmayahighlandsdrawing
-      - group.southernmayahighlandsmemories
-      - group.southernmayahighlandscamera
+      - group.mediamayalandscorporate
+      - group.mediamayalandsintelguadalajara
+      - group.mediamayalandsvisitorscenter
+      - group.mediamayalandsdrawing
+      - group.mediamayalandsmemories
+      - group.mediamayalandscamera
+
+  # Captain Maya Lands: Calendar
 
   captainmayalandscalendar:
     name: Próxima Visita
@@ -869,15 +885,21 @@ group:
       - sensor.appleimac
       - sensor.appleipod
 
+  # Captain Maya Lands: Language
+
   captainmayalandslanguage:
     name: Idioma
     entities:
       - switch.language
 
+  # Southern Maya Highlands: Introduction
+
   southernmayahighlandsintroduction:
     name: 1 Introduccion
     entities:
       - script.aguascalientes
+
+  # Southern Maya Highlands: Robot
 
   southernmayahighlandsrobot:
     name: 2 Robot
@@ -885,49 +907,66 @@ group:
       - script.bajacalifornianorte
       - script.bajacaliforniasur
       - script.michoacan
-      - script.campeche
+
+  # Southern Maya Highlands: Tour
 
   southernmayahighlandstour:
     name: 3 Tour
     entities:
       - script.campeche
 
-  southernmayahighlandscorporate:
-    name: Corporativo
-    entities:
-      - switch.aak
-      - switch.aayin
-
-  southernmayahighlandsintelguadalajara:
-    name: Intel Guadalajara
-    entities:
-      - switch.chakmool
-
-  southernmayahighlandsvisitorscenter:
-    name: Centro de Visitantes
-    entities:
-      - switch.am
-
-  southernmayahighlandsdrawing:
-    name: Dibujos
-    entities:
-      - switch.puebla
-
-  southernmayahighlandsmemories:
-    name: Visitas
-    entities:
-      - switch.queretaro
-      - switch.quintanaroo
-
-  southernmayahighlandscamera:
-    name: Cámara
-    entities:
-      - switch.yucatan
+  # Southern Maya Highlands: Sandbox
 
   southernmayahighlandssandbox:
     name: Sandbox
     entities:
       - script.zacatecas
+
+  # Media Maya Lands: Corporate
+
+  mediamayalandscorporate:
+    name: Corporativo
+    entities:
+      - switch.aak
+      - switch.aayin
+
+  # Media Maya Lands: Intel Guadalajara
+
+  mediamayalandsintelguadalajara:
+    name: Intel Guadalajara
+    entities:
+      - switch.chakmool
+
+  # Media Maya Lands: Visitors Center
+
+  mediamayalandsvisitorscenter:
+    name: Centro de Visitantes
+    entities:
+      - switch.am
+
+  # Media Maya Lands: Drawing
+
+  mediamayalandsdrawing:
+    name: Dibujos
+    entities:
+      - switch.chiich
+
+  # Media Maya Lands: Memories
+
+  mediamayalandsmemories:
+    name: Visitas
+    entities:
+      - switch.cho
+      - switch.chuwen
+
+  # Media Maya Lands: Camera
+
+  mediamayalandscamera:
+    name: Cámara
+    entities:
+      - switch.kaab
+
+  # Central Maya Lowlands: Stations
 
   centralmayalowlandsstations:
     name: Estaciones
@@ -938,15 +977,21 @@ group:
       - script.mazatlan
       - script.puertovallarta
 
+  # Central Maya Lowlands: Questions
+
   centralmayalowlandsquestions:
     name: Conocimiento
     entities:
       - script.ixtapa
 
+  # Central Maya Lowlands: Sandbox
+
   centralmayalowlandssandbox:
     name: Sandbox
     entities:
       - script.veracruz
+
+  # Northern Maya Highlands: Stations
 
   northernmayalowlandsstations:
     name: Estaciones
@@ -957,10 +1002,14 @@ group:
       - script.elcielo
       - script.mapimi
 
+  # Northern Maya Highlands: Stations
+
   northernmayalowlandsrobot:
     name: Robot
     entities:
       - script.siankaan
+
+  # Northern Maya Highlands: Stations
 
   northernmayalowlandsstories:
     name: Historias
@@ -968,27 +1017,37 @@ group:
       - script.calakmul
       - script.tiburonballena
 
+  # Robot Maya Lands: Language
+
   robotmayalandslanguage:
     name: Idioma
     entities:
       - script.coji
 
+  # Robot Maya Lands: Events
+  
   robotmayalandsevent:
     name: Evento
     entities:
       - automation.services_internal_event_host_robot
       - automation.services_external_event_host_robot
 
+  # Robot Maya Lands: Questions
+
   robotmayalandsquestions:
     name: Conocimiento
     entities:
       - script.makeblock
 
+  # Robot Maya Lands: Head
+  
   robotmayalandshead:
     name: Cabeza
     entities:
       - script.headright
       - script.headleft
+
+  # Robot Maya Lands: Arm Right
 
   robotmayalandsarmright:
     name: Brazo Derecho
@@ -998,6 +1057,8 @@ group:
       - script.rightfold
       - script.rightunfold
 
+  # Robot Maya Lands: Arm Left
+
   robotmayalandsarmleft:
     name: Brazo Izquierdo
     entities:
@@ -1005,7 +1066,9 @@ group:
       - script.lefttdown
       - script.leftfold
       - script.leftunfold
-      
+
+  # Robot Maya Lands: Legs
+
   robotmayalandslegs:
     name: Piernas
     entities:
@@ -1015,16 +1078,22 @@ group:
       - script.movebackward
       - script.movestop
 
+  # Robot Maya Lands: Reset
+
   robotmayalandsreset:
     name: Reiniciar
     entities:
       - script.resetall
+
+  # Techie Maya Lands: System Health
 
   techiemayalandssystemhealth:
     name: Verificación del Sistema
     entities:
       - script.toyota
       - script.kodak
+
+  # Techie Maya Lands: System Calendar
 
   techiemayalandssystemcalendar:
     name: Calendario de Visitas
@@ -1033,6 +1102,8 @@ group:
       - sensor.appleipod
       - calendar.hochobvcgmailcom
       - automation.services_calendar_name
+
+  # Techie Maya Lands: System Audio
 
   techiemayalandssystemaudio:
     name: Audio del Servidor
@@ -1043,6 +1114,8 @@ group:
       - automation.services_sound_pulseaudio_change
       - automation.services_sound_pulseaudio_read
 
+  # Techie Maya Lands: System Monitor
+
   techiemayalandssystemmonitor:
     name: Monitor del Servidor
     entities:
@@ -1051,20 +1124,28 @@ group:
       - sensor.disk_use_home
       #- camera.ffmpeg
 
+  # Techie Maya Lands: System Event
+
   techiemayalandssystemevent:
     name: Evento
     entities:
       - automation.services_internal_event_host_server
+
+  # Techie Maya Lands: System Season
 
   techiemayalandssystemseason:
     name: Temporada
     entities:
       - automation.services_season
 
+  # Techie Maya Lands: System Quote
+
   techiemayalandssystemquote:
     name: Citas del Servidor
     entities:
       - sensor.bosch
+
+  # Techie Maya Lands: Server Infrastructure
 
   mayalandsserverinfrastructure:
     name: Disponibilidad de Servidores
@@ -1072,11 +1153,22 @@ group:
       - device_tracker.eclipse
       - device_tracker.hochob
 
+  # Techie Maya Lands: Sandbox
+
+  techiemayalandssandbox:
+    name: Sandbox
+    entities:
+      - script.visitorsusb
+
+  # Console Maya Lands: Keypad Yes No 
+
   consolemayalandskeypadyesno:
     name: Teclado Sí No
     entities:
       - script.keypadyes
       - script.keypadno
+
+  # Console Maya Lands: Keypad Multiple Choice
 
   consolemayalandskeypadmultiplechoice:
     name: Teclado Opción Multiple
@@ -1085,8 +1177,3 @@ group:
       - script.keypadtwo
       - script.keypadthree
       - script.keypadfour
-
-  techiemayalandssandbox:
-    name: Sandbox
-    entities:
-      - script.visitorsusb
