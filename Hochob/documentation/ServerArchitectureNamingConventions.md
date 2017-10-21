@@ -19,7 +19,7 @@
 - Calendar Maya Lands: Events
   - 
 - Tradition Maya Lands: Celebrations
-  - 
+  - Dia De Muertos
 - Techie Maya Lands: Techie
   - Tech Companies
 
