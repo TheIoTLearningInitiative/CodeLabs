@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export WINDRIVER_PID=$$
-export WINDRIVER_NAME="WindRiver"
-export WINDRIVER_PATH=$(readlink -f "$0")
-export WINDRIVER_DIRECTORY=$(dirname "$WINDRIVER_PATH")
+export SIP_PID=$$
+export SIP_NAME="Sip"
+export SIP_PATH=$(readlink -f "$0")
+export SIP_DIRECTORY=$(dirname "$SIP_PATH")
 
 LOCAL_INSTITUTION_NAME=`Name.sh`
 LOCAL_EVENT_NAME_ENGLISH="Innovation Week 2017"
