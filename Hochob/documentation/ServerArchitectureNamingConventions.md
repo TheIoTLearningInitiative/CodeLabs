@@ -9,8 +9,6 @@
 - Media Maya Lands: Memories
 - Techie Maya Lands: Techie
 
-
-
 # Beaches in Mexico
 
 - Acapulco
