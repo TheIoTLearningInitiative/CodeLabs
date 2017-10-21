@@ -632,8 +632,6 @@ shell_command:
   
   resetall: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/resetall 1
   coji: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Coji.sh &
-  sphero: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Sphero.sh &
-  meccanoid: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Meccanoid.sh &
   makeblock: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Makeblock.sh &
 
   headleft: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headleft 1
@@ -663,6 +661,11 @@ shell_command:
   keypadtwo: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 2 &
   keypadthree: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 3 &
   keypadfour: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 4 &
+
+  # Calendar Maya Lands
+
+  pop: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Pop.sh &
+  wo: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Wo.sh &
 
   # Tradition Maya Lands
 
@@ -732,23 +735,23 @@ switch:
 
 automation:
 
-  # Robot Maya Lands
+  # Calendar Maya Lands
 
-  - alias: Services Internal Event Host Robot
+  - alias: pop
     initial_state: 'off'
     trigger:
       platform: time
       seconds: '/30'
     action:
-      - service: shell_command.sphero
+      - service: shell_command.pop
 
-  - alias: Services External Event Host Robot
+  - alias: wo
     initial_state: 'off'
     trigger:
       platform: time
       seconds: '/30'
     action:
-      - service: shell_command.meccanoid
+      - service: shell_command.wo
 
   # Tradition Maya Lands
 
@@ -829,7 +832,6 @@ group:
     name: Robotics
     entities:
       - group.robotmayalandslanguage
-      - group.robotmayalandsevent
       - group.robotmayalandsquestions
       - group.robotmayalandshead
       - group.robotmayalandsarmright
@@ -880,6 +882,15 @@ group:
       - group.mediamayalandsdrawing
       - group.mediamayalandsmemories
       - group.mediamayalandscamera
+
+  # Calendar Maya Lands
+  
+  calendarmayalands:
+    view: yes
+    name: Calendario
+    entities:
+      - group.calendarmayalandseventsinternal
+      - group.calendarmayalandseventsexternal
 
   # Tradition Maya Lands
   
@@ -954,14 +965,6 @@ group:
     name: Idioma
     entities:
       - script.coji
-
-  # Robot Maya Lands: Events
-  
-  robotmayalandsevent:
-    name: Evento
-    entities:
-      - automation.services_internal_event_host_robot
-      - automation.services_external_event_host_robot
 
   # Robot Maya Lands: Questions
 
@@ -1128,6 +1131,18 @@ group:
     name: Cámara
     entities:
       - switch.kaab
+
+  # Calendar Maya Lands: Internal Events
+  
+  calendarmayalandseventsinternal:
+    name: Eventos Internos
+    entities:
+      - automation.pop
+
+  calendarmayalandseventsexternal:
+    name: Eventos Externos
+    entities:
+      - automation.wo
 
   # Tradition Maya Lands: Dia De Muertos
 
