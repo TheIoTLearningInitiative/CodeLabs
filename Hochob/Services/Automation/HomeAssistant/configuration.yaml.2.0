@@ -922,101 +922,6 @@ group:
     entities:
       - script.zacatecas
 
-  # Media Maya Lands: Corporate
-
-  mediamayalandscorporate:
-    name: Corporativo
-    entities:
-      - switch.aak
-      - switch.aayin
-
-  # Media Maya Lands: Intel Guadalajara
-
-  mediamayalandsintelguadalajara:
-    name: Intel Guadalajara
-    entities:
-      - switch.chakmool
-
-  # Media Maya Lands: Visitors Center
-
-  mediamayalandsvisitorscenter:
-    name: Centro de Visitantes
-    entities:
-      - switch.am
-
-  # Media Maya Lands: Drawing
-
-  mediamayalandsdrawing:
-    name: Dibujos
-    entities:
-      - switch.chiich
-
-  # Media Maya Lands: Memories
-
-  mediamayalandsmemories:
-    name: Visitas
-    entities:
-      - switch.cho
-      - switch.chuwen
-
-  # Media Maya Lands: Camera
-
-  mediamayalandscamera:
-    name: Cámara
-    entities:
-      - switch.kaab
-
-  # Central Maya Lowlands: Stations
-
-  centralmayalowlandsstations:
-    name: Estaciones
-    entities:
-      - script.acapulco
-      - script.cancun
-      - script.huatulco
-      - script.mazatlan
-      - script.puertovallarta
-
-  # Central Maya Lowlands: Questions
-
-  centralmayalowlandsquestions:
-    name: Conocimiento
-    entities:
-      - script.ixtapa
-
-  # Central Maya Lowlands: Sandbox
-
-  centralmayalowlandssandbox:
-    name: Sandbox
-    entities:
-      - script.veracruz
-
-  # Northern Maya Highlands: Stations
-
-  northernmayalowlandsstations:
-    name: Estaciones
-    entities:
-      - script.montesazules
-      - script.ojodeliebre
-      - script.lamichilia
-      - script.elcielo
-      - script.mapimi
-
-  # Northern Maya Highlands: Stations
-
-  northernmayalowlandsrobot:
-    name: Robot
-    entities:
-      - script.siankaan
-
-  # Northern Maya Highlands: Stations
-
-  northernmayalowlandsstories:
-    name: Historias
-    entities:
-      - script.calakmul
-      - script.tiburonballena
-
   # Robot Maya Lands: Language
 
   robotmayalandslanguage:
@@ -1084,6 +989,119 @@ group:
     name: Reiniciar
     entities:
       - script.resetall
+
+  # Central Maya Lowlands: Stations
+
+  centralmayalowlandsstations:
+    name: Estaciones
+    entities:
+      - script.acapulco
+      - script.cancun
+      - script.huatulco
+      - script.mazatlan
+      - script.puertovallarta
+
+  # Central Maya Lowlands: Questions
+
+  centralmayalowlandsquestions:
+    name: Conocimiento
+    entities:
+      - script.ixtapa
+
+  # Central Maya Lowlands: Sandbox
+
+  centralmayalowlandssandbox:
+    name: Sandbox
+    entities:
+      - script.veracruz
+
+  # Northern Maya Highlands: Stations
+
+  northernmayalowlandsstations:
+    name: Estaciones
+    entities:
+      - script.montesazules
+      - script.ojodeliebre
+      - script.lamichilia
+      - script.elcielo
+      - script.mapimi
+
+  # Northern Maya Highlands: Stations
+
+  northernmayalowlandsrobot:
+    name: Robot
+    entities:
+      - script.siankaan
+
+  # Northern Maya Highlands: Stations
+
+  northernmayalowlandsstories:
+    name: Historias
+    entities:
+      - script.calakmul
+      - script.tiburonballena
+
+  # Console Maya Lands: Keypad Yes No 
+
+  consolemayalandskeypadyesno:
+    name: Teclado Sí No
+    entities:
+      - script.keypadyes
+      - script.keypadno
+
+  # Console Maya Lands: Keypad Multiple Choice
+
+  consolemayalandskeypadmultiplechoice:
+    name: Teclado Opción Multiple
+    entities:
+      - script.keypadone
+      - script.keypadtwo
+      - script.keypadthree
+      - script.keypadfour
+
+  # Media Maya Lands: Corporate
+
+  mediamayalandscorporate:
+    name: Corporativo
+    entities:
+      - switch.aak
+      - switch.aayin
+
+  # Media Maya Lands: Intel Guadalajara
+
+  mediamayalandsintelguadalajara:
+    name: Intel Guadalajara
+    entities:
+      - switch.chakmool
+
+  # Media Maya Lands: Visitors Center
+
+  mediamayalandsvisitorscenter:
+    name: Centro de Visitantes
+    entities:
+      - switch.am
+
+  # Media Maya Lands: Drawing
+
+  mediamayalandsdrawing:
+    name: Dibujos
+    entities:
+      - switch.chiich
+
+  # Media Maya Lands: Memories
+
+  mediamayalandsmemories:
+    name: Visitas
+    entities:
+      - switch.cho
+      - switch.chuwen
+
+  # Media Maya Lands: Camera
+
+  mediamayalandscamera:
+    name: Cámara
+    entities:
+      - switch.kaab
 
   # Techie Maya Lands: System Health
 
@@ -1159,21 +1177,3 @@ group:
     name: Sandbox
     entities:
       - script.visitorsusb
-
-  # Console Maya Lands: Keypad Yes No 
-
-  consolemayalandskeypadyesno:
-    name: Teclado Sí No
-    entities:
-      - script.keypadyes
-      - script.keypadno
-
-  # Console Maya Lands: Keypad Multiple Choice
-
-  consolemayalandskeypadmultiplechoice:
-    name: Teclado Opción Multiple
-    entities:
-      - script.keypadone
-      - script.keypadtwo
-      - script.keypadthree
-      - script.keypadfour
