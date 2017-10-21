@@ -282,18 +282,18 @@ homeassistant:
     # Techie Maya Lands : System Audio
 
     input_slider.qualcomm:
-      friendly_name: Ajustar Volumén %
+      friendly_name: Volumén % Ajustar
       icon: mdi:volume-high
 
     sensor.qualcomm:
-      friendly_name: Nivel de Volumén %
+      friendly_name: Volumén % Nivel
       icon: mdi:volume-high
 
-    automation.snapdragon:
-      friendly_name: Bienvenida Programada Robot
+    #automation.snapdragon:
+    #  friendly_name: Habilitado Ajustar
 
-    automation.csr101x:
-      friendly_name: Bienvenida Programada Servidor
+    #automation.csr101x:
+    #  friendly_name: Habilitado Nivel
 
     # Techie Maya Lands : System Sandbox
 
