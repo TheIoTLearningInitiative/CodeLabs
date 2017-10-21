@@ -20,8 +20,11 @@
   - Southern Maya Highlands
   - Central Maya Lowlands
   - Northern Maya Lowlands
+  - Media Maya Lands
   - Robot Maya Techlands
+  - Console Maya Lands
   - Techie Maya Lands
+  - Captain Maya Lands
 - Digital Media Players
   - Chromecast Audio
     - __Codename__: Juum, Sonido
