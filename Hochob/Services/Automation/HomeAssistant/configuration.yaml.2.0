@@ -838,21 +838,6 @@ group:
       - group.northernmayalowlandsstories
       - group.northernmayalowlandsrobot
 
-  # Techie Maya Lands
-
-  techiemayalands:
-    view: yes
-    name: Techies
-    entities:
-      - group.techiemayalandssystemcalendar
-      - group.techiemayalandssystemaudio
-      - group.techiemayalandssystemmonitor
-      - group.techiemayalandssystemevent
-      - group.techiemayalandssystemseason
-      - group.techiemayalandssystemquote
-      - group.techiemayalandsserverinfrastructure
-      - group.techiemayalandssandbox
-
   # Console Maya Lands
 
   consolemayalands:
@@ -876,6 +861,21 @@ group:
       - group.mediamayalandsdrawing
       - group.mediamayalandsmemories
       - group.mediamayalandscamera
+
+  # Techie Maya Lands
+
+  techiemayalands:
+    view: yes
+    name: Techies
+    entities:
+      - group.techiemayalandssystemcalendar
+      - group.techiemayalandssystemaudio
+      - group.techiemayalandssystemmonitor
+      - group.techiemayalandssystemevent
+      - group.techiemayalandssystemseason
+      - group.techiemayalandssystemquote
+      - group.techiemayalandsserverinfrastructure
+      - group.techiemayalandssandbox
 
   # Captain Maya Lands: Calendar
 
