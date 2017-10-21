@@ -856,8 +856,8 @@ group:
     view: yes
     name: Robot
     entities:
-      - group.robotmayalandslanguage
-      - group.robotmayalandsquestions
+      - group.robotmayalandsskills
+      - group.robotmayalandsknowledge
       - group.robotmayalandshead
       - group.robotmayalandsarmright
       - group.robotmayalandsarmleft
@@ -979,14 +979,14 @@ group:
 
   # Robot Maya Lands: Language
 
-  robotmayalandslanguage:
-    name: Audio
+  robotmayalandsskills:
+    name: Habilidades
     entities:
       - script.coji
 
-  # Robot Maya Lands: Questions
+  # Robot Maya Lands: Knowledge
 
-  robotmayalandsquestions:
+  robotmayalandsknowledge:
     name: Conocimiento
     entities:
       - script.makeblock
