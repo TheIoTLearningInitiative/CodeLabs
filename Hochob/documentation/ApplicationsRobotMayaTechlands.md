@@ -1,9 +1,9 @@
 # Robot Maya Techlands
 
 - __Coji__
-- __Sphero__
-- __Meccanoid__
 - __Makeblock__
+- Meccanoid
+- Sphero
 
 # Name: Coji
 
