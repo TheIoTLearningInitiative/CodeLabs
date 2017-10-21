@@ -4,6 +4,6 @@
 
 # Name: Dia De Muertos
 
-- __Area__: The Techie
+- __Area__: The Season
 - __Group__: Season
 - __Friendly Name__: Season
