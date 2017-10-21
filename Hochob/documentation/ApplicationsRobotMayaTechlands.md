@@ -7,14 +7,17 @@
 
 # Name: Coji
 
-- __Area__: The Robot
-- __Group__: 
-- __Friendly Name__: Speak
-- __Services__: Language
+- __Area__: Robot
+- __Group__: Audio
+- __Friendly Name__: Hablar
+- __Services__: Robot
 
 # Name: Makeblock
 
-- __Area__: The Robot
-- __Group__: External System Event
+- __Area__: Robot
+- __Group__: Knowledge
 - __Friendly Name__: Questions Museum
-- __Services__: Survey
+- __Services__: 
+  - StreamText
+  - SurveyMultipleChoice
+  - SurveyYesNo
