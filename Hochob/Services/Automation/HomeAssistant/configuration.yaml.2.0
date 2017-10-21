@@ -279,6 +279,11 @@ homeassistant:
       friendly_name: Reiniciar Servidor
       icon: mdi:restart
     
+    # Techie Maya Lands : System Calendar
+    
+    automation.apple:
+      friendly_name: Anuncio Servidor Programado
+    
     # Techie Maya Lands : System Audio
 
     input_slider.qualcomm:
