@@ -55,13 +55,21 @@ homeassistant:
     script.resetall:
       friendly_name: Ahora
       icon: mdi:lock-reset
+
     script.coji:
       friendly_name: Hablar
       icon: mdi:speaker
+    script.amikoogcvisionapi:
+      friendly_name: Google Vision API
+      icon: mdi:
+    script.amikoogctranslateapi:
+      friendly_name: Google Translation API
+      icon: mdi:arrow-left-thick
+
     script.makeblock:
       friendly_name: Centro de Visitantes
       icon: mdi:audiobook
-      
+
     script.headright:
       friendly_name: Derecha
       icon: mdi:arrow-right-thick
@@ -657,6 +665,9 @@ shell_command:
   coji: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Coji.sh &
   makeblock: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Makeblock.sh &
 
+  gcvisionapi: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh gcvisionapi 1
+  gctranslationapi: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh gctranslationapi 1
+
   headleft: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headleft 1
   headright: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headright 1
 
@@ -977,12 +988,14 @@ group:
     entities:
       - script.zacatecas
 
-  # Robot Maya Lands: Language
+  # Robot Maya Lands: Skills
 
   robotmayalandsskills:
     name: Habilidades
     entities:
       - script.coji
+      - script.gcvisionapi
+      - script.gctranslationapi
 
   # Robot Maya Lands: Knowledge
 
