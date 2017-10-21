@@ -1,14 +1,23 @@
 # Calendar Maya Lands
 
-To migrate
 
-- Calendar Application
-- Internel Event
-- External Event
-- Questions
-
-- Pop Sphero
-- Wo' Meccanoid
+- __Pop__
+- __Wo'__
 - Sip
 - Sotz'
 - Sek
+
+To migrate
+
+- Calendar Application
+- Questions
+
+## Internal Events
+
+- Pop
+
+## External Events
+
+- Wo'
+
+
