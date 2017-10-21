@@ -289,6 +289,14 @@ homeassistant:
       friendly_name: Nivel de Volumén %
       icon: mdi:volume-high
 
+    automation.snapdragon:
+      friendly_name: Bienvenida Programada Robot
+
+    automation.csr101x:
+      friendly_name: Bienvenida Programada Servidor
+
+    # Techie Maya Lands : System Sandbox
+
     script.visitorsusb:
       friendly_name: Visitantes USB
       icon: mdi:usb
@@ -781,7 +789,7 @@ automation:
     action:
       - service: shell_command.imix
 
-  # Techie Maya Lands
+  # Techie Maya Lands: System Calendar
 
   - alias: Services Calendar Name
     initial_state: 'off'
@@ -792,7 +800,9 @@ automation:
     action:
       - service: shell_command.apple
 
-  - alias: Services Sound PulseAudio Change
+  # Techie Maya Lands: System Audio
+
+  - alias: snapdragon
     initial_state: 'on'
     trigger:
       - platform: state
@@ -802,7 +812,7 @@ automation:
         data_template:
           volume_level: "{{ states.input_slider.qualcomm.state }}"
 
-  - alias: Services Sound PulseAudio Read
+  - alias: csr101x
     initial_state: 'on'
     trigger:
       - platform: state
@@ -1181,8 +1191,8 @@ group:
       - input_slider.qualcomm
       - sensor.qualcomm
       - shell_command.qualcomm
-      - automation.services_sound_pulseaudio_change
-      - automation.services_sound_pulseaudio_read
+      - automation.snapdragon
+      - automation.csr101x
 
   # Techie Maya Lands: System Monitor
 
