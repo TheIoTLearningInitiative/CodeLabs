@@ -29,9 +29,9 @@ LOCAL_DEVICE="Triki"
 LogPid.sh $GOOGLE_PID $GOOGLE_NAME
 
 if [ "$LANGUAGE" = "english" ]; then
-    Robot.sh lupe/say "Happy Halloween"
+    Robot.sh $AMIKOO_SAY "Happy Halloween"
 else
-    Robot.sh lupe/decir "Feliz dia de muertos"
+    Robot.sh $AMIKOO_DECIR "Feliz dia de muertos"
 fi
 
 LOCAL_SOUND=`find $SEASON/$LOCAL_SEASON/ -type f | shuf -n 1`
