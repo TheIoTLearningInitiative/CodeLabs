@@ -17,9 +17,9 @@
 - Media Maya Lands: Memories
   - Mayan Animals
 - Calendar Maya Lands: Events
-  - 
+  - Haab' Calendar
 - Tradition Maya Lands: Celebrations
-  - 
+  - Tzolk'in Calendar
 - Techie Maya Lands: Techie
   - Tech Companies
 
