@@ -60,5 +60,5 @@ rename Hochob/Services/Stream/{StreamAudio.sh => StreamText.sh} (100%)
 AMIKOO="lupe/"
 AMIKOO_SAY=$AMIKOO/say
 AMIKOO_DECIR=$AMIKOO/decir
-AMIKOO_VISION=$AMIKOO/vision
-AMIKOO_TRANSLATE=$AMIKOO/translate
+AMIKOO_GCVISIONAPI=$AMIKOO/vision
+AMIKOO_GCTRANSLATIONAPI=$AMIKOO/translate
