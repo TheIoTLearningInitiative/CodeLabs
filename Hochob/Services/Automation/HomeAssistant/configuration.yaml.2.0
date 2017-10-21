@@ -248,15 +248,15 @@ homeassistant:
     # Calendar Maya Lands
     
     automation.pop:
-      friendly_name: Robot Bienvenida Programada
+      friendly_name: Bienvenida Programada Robot
       icon: mdi:calendar-clock
 
     automation.sip:
-      friendly_name: Servidor Bienvenida Programada
+      friendly_name: Bienvenida Programada Servidor
       icon: mdi:calendar-clock
 
     automation.wo:
-      friendly_name: Robot Bienvenida Programada
+      friendly_name: Bienvenida Programada Robot
       icon: mdi:calendar-clock
 
     # Tradition Maya Lands
