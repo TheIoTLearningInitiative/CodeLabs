@@ -887,7 +887,7 @@ group:
     view: yes
     name: Tradition
     entities:
-      - group.traditionmayalandsimix
+      - group.traditionmayalandsdiademuertos
   
   # Techie Maya Lands
 
@@ -1131,8 +1131,8 @@ group:
 
   # Tradition Maya Lands: Dia De Muertos
 
-  traditionmayalandsimix:
-    name: Dia De Muertos Sonidos
+  traditionmayalandsdiademuertos:
+    name: Dia De Muertos
     entities:
       - automation.imix
       - script.imix
