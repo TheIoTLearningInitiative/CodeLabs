@@ -1,9 +1,9 @@
 # Tradition Maya Lands
 
-- Dia De Muertos
+> The tzolk'in calendar combines twenty day names with the thirteen day numbers to produce 260 unique days. It is used to determine the time of religious and ceremonial events and for divination. [Wikipedia](https://en.wikipedia.org/wiki/Maya_calendar)
+
+- Imix'
 
 # Name: Dia De Muertos
 
-- __Area__: The Season
-- __Group__: Season
-- __Friendly Name__: Dia De Muertos
+- Imix'
