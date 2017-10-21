@@ -16,5 +16,5 @@
 
 - __Area__: The Robot
 - __Group__: External System Event
-- __Friendly Name__: Questions
+- __Friendly Name__: Questions Museum
 - __Services__: Survey
