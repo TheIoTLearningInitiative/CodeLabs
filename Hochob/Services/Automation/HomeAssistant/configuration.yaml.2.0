@@ -175,6 +175,86 @@ homeassistant:
       friendly_name: Planeta Marte
       icon: mdi:test-tube
 
+    # Console Maya Lands : Keypad Yes No
+
+    script.keypadyes:
+      friendly_name: Botón Sí
+      icon: mdi:check-circle
+
+    script.keypadno:
+      friendly_name: Botón No
+      icon: mdi:checkbox-blank-circle
+
+    # Console Maya Lands : Keypad Multiple Choice
+
+    script.keypadone:
+      friendly_name: Botón Uno
+      icon: mdi:numeric-1-box
+
+    script.keypadtwo:
+      friendly_name: Botón Dos
+      icon: mdi:numeric-2-box
+
+    script.keypadthree:
+      friendly_name: Botón Tres
+      icon: mdi:numeric-3-box
+
+    script.keypadfour:
+      friendly_name: Botón Cuatro
+      icon: mdi:numeric-4-box
+
+    # Media Maya Lands : Corporate
+
+    switch.aak:
+      friendly_name: Imágenes Corporativas
+      icon: mdi:folder-multiple-image
+    switch.aayin:
+      friendly_name: Videos Corporativos
+      icon: mdi:file-video
+
+    # Media Maya Lands : Intel Guadalajara
+
+    switch.chakmool:
+      friendly_name: Imágenes Intel Guadalajara
+      icon: mdi:folder-multiple-image
+
+    # Media Maya Lands : Visitors Center
+
+    switch.am:
+      friendly_name: Imágenes Centro de Visitantes
+      icon: mdi:folder-multiple-image
+
+    # Media Maya Lands : Drawing
+
+    switch.chiich:
+      friendly_name: Imágenes de Dibujos
+      icon: mdi:folder-multiple-image
+
+    # Media Maya Lands : Memories
+
+    switch.cho:
+      friendly_name: Imágenes de Visitas
+      icon: mdi:folder-multiple-image
+    switch.chuwen:
+      friendly_name: Videos de Visitas
+      icon: mdi:file-video
+
+    # Media Maya Lands : Camera
+
+    switch.kaab:
+      friendly_name: Vista Previa Cámara
+      icon: mdi:camera
+
+    # Calendar Maya Lands
+    
+    automation.pop:
+      friendly_name: Bienvenida Programada
+      icon: mdi:calendar-clock
+
+    automation.wo:
+      friendly_name: Bienvenida Programada
+      icon: mdi:calendar-clock
+
     # Tradition Maya Lands
     
     automation.imix:
@@ -224,81 +304,6 @@ homeassistant:
     sensor.bosch:
       friendly_name: Hoy digo...
       icon: mdi:approval
-
-    # Console Maya Lands
-
-    # Console Maya Lands : Keypad Yes No
-
-    script.keypadyes:
-      friendly_name: Botón Sí
-      icon: mdi:check-circle
-
-    script.keypadno:
-      friendly_name: Botón No
-      icon: mdi:checkbox-blank-circle
-
-    # Console Maya Lands : Keypad Multiple Choice
-
-    script.keypadone:
-      friendly_name: Botón Uno
-      icon: mdi:numeric-1-box
-
-    script.keypadtwo:
-      friendly_name: Botón Dos
-      icon: mdi:numeric-2-box
-
-    script.keypadthree:
-      friendly_name: Botón Tres
-      icon: mdi:numeric-3-box
-
-    script.keypadfour:
-      friendly_name: Botón Cuatro
-      icon: mdi:numeric-4-box
-
-    # Media Maya Lands
-
-    # Media Maya Lands : Corporate
-
-    switch.aak:
-      friendly_name: Imágenes Corporativas
-      icon: mdi:folder-multiple-image
-    switch.aayin:
-      friendly_name: Videos Corporativos
-      icon: mdi:file-video
-
-    # Media Maya Lands : Intel Guadalajara
-
-    switch.chakmool:
-      friendly_name: Imágenes Intel Guadalajara
-      icon: mdi:folder-multiple-image
-
-    # Media Maya Lands : Visitors Center
-
-    switch.am:
-      friendly_name: Imágenes Centro de Visitantes
-      icon: mdi:folder-multiple-image
-
-    # Media Maya Lands : Drawing
-
-    switch.chiich:
-      friendly_name: Imágenes de Dibujos
-      icon: mdi:folder-multiple-image
-
-    # Media Maya Lands : Memories
-
-    switch.cho:
-      friendly_name: Imágenes de Visitas
-      icon: mdi:folder-multiple-image
-    switch.chuwen:
-      friendly_name: Videos de Visitas
-      icon: mdi:file-video
-
-    # Media Maya Lands : Camera
-
-    switch.kaab:
-      friendly_name: Vista Previa Cámara
-      icon: mdi:camera
-
 
 # Enables the frontend
 frontend:
