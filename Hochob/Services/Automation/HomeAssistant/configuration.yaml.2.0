@@ -102,10 +102,10 @@ homeassistant:
       friendly_name: Izquierda
       icon: mdi:arrow-left-thick
     script.moveforward:
-      friendly_name: Adelanta
+      friendly_name: Adelante
       icon: mdi:arrow-up-thick
     script.movebackward:
-      friendly_name: Atras
+      friendly_name: Atrás
       icon: mdi:arrow-down-thick
     script.movestop:
       friendly_name: Parar
