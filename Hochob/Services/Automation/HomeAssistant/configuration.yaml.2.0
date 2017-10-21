@@ -248,21 +248,21 @@ homeassistant:
     # Calendar Maya Lands
     
     automation.pop:
-      friendly_name: Bienvenida Robot  / 30 Minutos
+      friendly_name: 30 Minutos .. Bienvenida Robot
       icon: mdi:calendar-clock
 
     automation.sip:
-      friendly_name: Bienvenida Servidor / 30 Minutos
+      friendly_name: 30 Minutos .. Bienvenida Servidor
       icon: mdi:calendar-clock
 
     automation.wo:
-      friendly_name: Bienvenida Robot  / 30 Minutos
+      friendly_name: 30 Minutos .. Bienvenida Robot
       icon: mdi:calendar-clock
 
     # Tradition Maya Lands
     
     automation.imix:
-      friendly_name: Sonidos Chromecast / 10 Minutos
+      friendly_name: Sonidos Chromecast .. 10 Minutos
       icon: mdi:calendar-clock
 
     script.imix:
