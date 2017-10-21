@@ -109,7 +109,7 @@
 * [Hochob](Hochob/documentation/Hochob.md)
   * [Introduction](Hochob/documentation/introduction.md)
     * [Naming Conventions](Hochob/documentation/ServerArchitectureNamingConventions.md)
-  * Architecture
+  * [Architecture](Hochob/documentation/architecture.md)
     * [Accounts](Hochob/documentation/Accounts.md)
     * [Areas](Hochob/documentation/Area.md)
     * [Digital Media Players](Hochob/documentation/DigitalMediaPlayers.md)

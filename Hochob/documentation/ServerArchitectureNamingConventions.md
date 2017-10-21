@@ -4,16 +4,16 @@
 
 The Mayan languages form a language family spoken in Mesoamerica and northern Central America. Mayan languages are spoken by at least 6 million Maya peoples, primarily in Guatemala, Mexico, Belize and Honduras. In 1996, Guatemala formally recognized 21 Mayan languages by name, and Mexico recognizes eight more within their territory. [Wikipedia](https://en.wikipedia.org/wiki/Mayan_languages)
 
-# Geography
+# Areas
 
-  - Southern Maya Highlands
-  - Central Maya Lowlands
-  - Northern Maya Lowlands
-  - Media Maya Lands
-  - Robot Maya Techlands
-  - Console Maya Lands
-  - Techie Maya Lands
-  - Captain Maya Lands
+- Captain Maya Lands: The Captain
+- Southern Maya Highlands: The Show
+- Robot Maya Lands: The Robot
+- Central Maya Lowlands: The Beginning
+- Northern Maya Lowlands: The Experience
+- Techie Maya Lands: The Techie
+- Console Maya Lands: The Console
+- Media Maya Lands: The Media
 
 # Yucatan Food
 

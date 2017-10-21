@@ -17,14 +17,14 @@
   - Gmail
   - Plex
 - Areas
-  - Southern Maya Highlands
-  - Central Maya Lowlands
-  - Northern Maya Lowlands
-  - Media Maya Lands
-  - Robot Maya Techlands
-  - Console Maya Lands
-  - Techie Maya Lands
-  - Captain Maya Lands
+  - Captain Maya Lands: The Captain
+  - Southern Maya Highlands: The Show
+  - Robot Maya Lands: The Robot
+  - Central Maya Lowlands: The Beginning
+  - Northern Maya Lowlands: The Experience
+  - Techie Maya Lands: The Techie
+  - Console Maya Lands: The Console
+  - Media Maya Lands: The Media
 - Digital Media Players
   - Chromecast Audio
     - __Codename__: Juum, Sonido
