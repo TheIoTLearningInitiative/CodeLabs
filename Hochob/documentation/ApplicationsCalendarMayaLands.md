@@ -6,3 +6,9 @@ To migrate
 - Internel Event
 - External Event
 - Questions
+
+- Pop
+- Wo'
+- Sip
+- Sotz'
+- Sek
