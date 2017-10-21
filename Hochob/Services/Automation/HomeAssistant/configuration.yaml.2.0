@@ -59,6 +59,7 @@ homeassistant:
     script.coji:
       friendly_name: Hablar
       icon: mdi:speaker
+
     script.amikoogcvisionapi:
       friendly_name: Google Vision API
       icon: mdi:camera
@@ -450,13 +451,13 @@ script:
     sequence:
       - service: shell_command.coji
 
-  amikoovisionapi:
+  amikoogcvisionapi:
     sequence:
-      - service: shell_command.amikoovisionapi
+      - service: shell_command.amikoogcvisionapi
 
-  amikootranslateapi:
+  amikoogctranslateapi:
     sequence:
-      - service: shell_command.amikootranslateapi
+      - service: shell_command.amikoogctranslateapi
 
   makeblock:
     sequence:
