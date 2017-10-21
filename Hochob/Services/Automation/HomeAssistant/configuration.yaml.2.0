@@ -405,74 +405,6 @@ script:
     sequence:
       - service: shell_command.zacatecas
 
-  # Central Maya Lowlands, Stations
-
-  acapulco:
-    sequence:
-      - service: shell_command.acapulco
-
-  cancun:
-    sequence:
-      - service: shell_command.cancun
-
-  huatulco:
-    sequence:
-      - service: shell_command.huatulco
-
-  mazatlan:
-    sequence:
-      - service: shell_command.mazatlan
-
-  puertovallarta:
-    sequence:
-      - service: shell_command.puertovallarta
-
-  # Central Maya Lowlands, Questions
-
-  ixtapa:
-    sequence:
-      - service: shell_command.ixtapa
-
-  # Central Maya Lowlands, Sandbox
-
-  veracruz:
-    sequence:
-      - service: shell_command.veracruz
-
-  # Northern Maya Lowlands
-
-  ojodeliebre:
-    sequence:
-      - service: shell_command.ojodeliebre
-
-  montesazules:
-    sequence:
-      - service: shell_command.montesazules
-
-  lamichilia:
-    sequence:
-      - service: shell_command.lamichilia
-
-  elcielo:
-    sequence:
-      - service: shell_command.elcielo
-
-  mapimi:
-    sequence:
-      - service: shell_command.mapimi
-
-  siankaan:
-    sequence:
-      - service: shell_command.siankaan
-
-  calakmul:
-    sequence:
-      - service: shell_command.calakmul
-
-  tiburonballena:
-    sequence:
-      - service: shell_command.tiburonballena
-
   # Robot Maya Lands
 
   resetall:
@@ -546,7 +478,81 @@ script:
   movestop:
     sequence:
       - service: shell_command.movestop
-  
+
+  # Central Maya Lowlands, Stations
+
+  acapulco:
+    sequence:
+      - service: shell_command.acapulco
+
+  cancun:
+    sequence:
+      - service: shell_command.cancun
+
+  huatulco:
+    sequence:
+      - service: shell_command.huatulco
+
+  mazatlan:
+    sequence:
+      - service: shell_command.mazatlan
+
+  puertovallarta:
+    sequence:
+      - service: shell_command.puertovallarta
+
+  # Central Maya Lowlands, Questions
+
+  ixtapa:
+    sequence:
+      - service: shell_command.ixtapa
+
+  # Central Maya Lowlands, Sandbox
+
+  veracruz:
+    sequence:
+      - service: shell_command.veracruz
+
+  # Northern Maya Lowlands
+
+  ojodeliebre:
+    sequence:
+      - service: shell_command.ojodeliebre
+
+  montesazules:
+    sequence:
+      - service: shell_command.montesazules
+
+  lamichilia:
+    sequence:
+      - service: shell_command.lamichilia
+
+  elcielo:
+    sequence:
+      - service: shell_command.elcielo
+
+  mapimi:
+    sequence:
+      - service: shell_command.mapimi
+
+  siankaan:
+    sequence:
+      - service: shell_command.siankaan
+
+  calakmul:
+    sequence:
+      - service: shell_command.calakmul
+
+  tiburonballena:
+    sequence:
+      - service: shell_command.tiburonballena
+
+  # Tradition Maya Lands
+
+  imix:
+    sequence:
+      - service: shell_command.imix
+
   # Techie Maya Lands
   
   toyota:
@@ -1122,9 +1128,10 @@ group:
   # Tradition Maya Lands: Dia De Muertos
 
   traditionmayalandsimix:
-    name: Dia De Muertos
+    name: Dia De Muertos Sonidos
     entities:
       - automation.imix
+      - script.imix
 
   # Techie Maya Lands: System Health
 
