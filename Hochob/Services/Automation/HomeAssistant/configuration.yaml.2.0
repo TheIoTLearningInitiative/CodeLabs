@@ -248,11 +248,15 @@ homeassistant:
     # Calendar Maya Lands
     
     automation.pop:
-      friendly_name: Bienvenida Programada
+      friendly_name: Robot Bienvenida Programada
+      icon: mdi:calendar-clock
+
+    automation.sip:
+      friendly_name: Servidor Bienvenida Programada
       icon: mdi:calendar-clock
 
     automation.wo:
-      friendly_name: Bienvenida Programada
+      friendly_name: Robot Bienvenida Programada
       icon: mdi:calendar-clock
 
     # Tradition Maya Lands
@@ -671,6 +675,7 @@ shell_command:
 
   pop: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Pop.sh &
   wo: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Wo.sh &
+  sip: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Sip.sh &
 
   # Tradition Maya Lands
 
@@ -682,7 +687,6 @@ shell_command:
   kodak: ssh root@127.0.0.1 sudo reboot
   apple: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Apple.sh &
   qualcomm: amixer -D pulse sset Master '{{ volume_level }}%'
-  windriver: ~/CodeLabs/Hochob/Applications/TechieMayaLands/WindRiver.sh &
   visitorsusb: ~/CodeLabs/Hochob/Services/Visitors/Usb.sh &
 
 switch:
@@ -758,6 +762,14 @@ automation:
     action:
       - service: shell_command.wo
 
+  - alias: sip
+    initial_state: 'off'
+    trigger:
+      platform: time
+      seconds: '/30'
+    action:
+      - service: shell_command.sip
+
   # Tradition Maya Lands
 
   - alias: Imix
@@ -800,14 +812,6 @@ automation:
         data_template:
           entity_id: input_slider.qualcomm
           value: "{{ states.sensor.qualcomm.state | int }}"
-
-  - alias: Services Internal Event Host Server
-    initial_state: 'off'
-    trigger:
-      platform: time
-      seconds: '/30'
-    action:
-      - service: shell_command.windriver
 
 group:
 
@@ -1143,6 +1147,7 @@ group:
     name: Eventos Internos
     entities:
       - automation.pop
+      - automation.sip
 
   calendarmayalandseventsexternal:
     name: Eventos Externos
@@ -1195,13 +1200,6 @@ group:
       - sensor.ram_free
       - sensor.disk_use_home
       #- camera.ffmpeg
-
-  # Techie Maya Lands: System Event
-
-  techiemayalandssystemevent:
-    name: Evento
-    entities:
-      - automation.services_internal_event_host_server
 
   # Techie Maya Lands: System Quote
 
