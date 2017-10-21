@@ -450,6 +450,14 @@ script:
     sequence:
       - service: shell_command.coji
 
+  amikoovisionapi:
+    sequence:
+      - service: shell_command.amikoovisionapi
+
+  amikootranslateapi:
+    sequence:
+      - service: shell_command.amikootranslateapi
+
   makeblock:
     sequence:
       - service: shell_command.makeblock
