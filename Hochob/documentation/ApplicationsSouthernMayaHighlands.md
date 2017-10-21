@@ -20,7 +20,7 @@
 * Morelos
 * Nayarit
 * Nuevo Leon
-* __Oaxaca__
+* Oaxaca
 * Puebla
 * Queretaro
 * Quintana Roo
