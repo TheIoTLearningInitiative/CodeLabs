@@ -179,7 +179,7 @@ homeassistant:
     
     automation.imix:
       friendly_name: Sonidos Programados
-      icon: mdi:speaker
+      icon: mdi:calendar-clock
 
     script.imix:
       friendly_name: Sonidos Reproducción
