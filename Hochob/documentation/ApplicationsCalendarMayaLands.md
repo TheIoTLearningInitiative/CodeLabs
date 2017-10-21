@@ -3,7 +3,7 @@
 
 - __Pop__
 - __Wo'__
-- Sip
+- __Sip__
 - Sotz'
 - Sek
 
