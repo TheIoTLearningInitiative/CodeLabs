@@ -1,0 +1,37 @@
+## Overview
+
+- Accounts
+  - Gmail
+  - Plex
+- Areas
+  - Captain Maya Lands: The Captain
+  - Southern Maya Highlands: The Show
+  - Robot Maya Lands: The Robot
+  - Central Maya Lowlands: The Beginning
+  - Northern Maya Lowlands: The Experience
+  - Techie Maya Lands: The Techie
+  - Console Maya Lands: The Console
+  - Media Maya Lands: The Media
+- Digital Media Players
+  - Chromecast Audio
+    - __Codename__: Juum, Sonido
+    - __Codename__: Triki, Alma
+  - Chromecast
+    - __Codename__: Eek', Estrella
+    - __Codename__: Tran', Gemela
+- Keypads
+  - __Codename__: Láak’inah
+- Mobile Device
+  - __Codename__: Muuk’, Poder, Buddy
+    - Cellphone  
+- Robot
+  - __Codename__: Amikoo
+  - Lego Robot
+- Server
+  - __Codename__: Hochob
+    - NUC 5i5MYHE Linux Lubuntu Based
+- Stations
+  - With Display Device
+    - With Touchscreen
+    - without Touchscreen
+
