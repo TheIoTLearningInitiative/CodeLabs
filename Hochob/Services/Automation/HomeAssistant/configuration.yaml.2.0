@@ -842,7 +842,7 @@ group:
 
   southernmayalands:
     view: yes
-    name: Home
+    name: Casa
     entities:
       - group.southernmayahighlandsintroduction
       - group.southernmayahighlandsrobot
@@ -853,7 +853,7 @@ group:
 
   robotmayalands:
     view: yes
-    name: Robotics
+    name: Robótica
     entities:
       - group.robotmayalandslanguage
       - group.robotmayalandsquestions
@@ -867,7 +867,7 @@ group:
 
   centralmayalowlands:
     view: yes
-    name: Beginning
+    name: Inicios
     entities:
       - group.centralmayalowlandsstations
       - group.centralmayalowlandsquestions
@@ -877,7 +877,7 @@ group:
 
   northernmayalowlands:
     view: yes
-    name: Experience
+    name: Experiencia
     entities:
       - group.northernmayalowlandsstations
       - group.northernmayalowlandsstories
@@ -888,7 +888,7 @@ group:
   consolemayalands:
     view: yes
     #icon: mdi:keyboard
-    name: Keyboard
+    name: Teclado
     entities:
       - group.consolemayalandskeypadyesno
       - group.consolemayalandskeypadmultiplechoice
@@ -898,7 +898,7 @@ group:
   mediamayalands:
     view: yes
     #icon: mdi:filmstrip
-    name: Memories
+    name: Memorias
     entities:
       - group.mediamayalandscorporate
       - group.mediamayalandsintelguadalajara
