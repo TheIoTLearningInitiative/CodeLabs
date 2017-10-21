@@ -1190,9 +1190,9 @@ group:
     entities:
       - input_slider.qualcomm
       - sensor.qualcomm
-      - shell_command.qualcomm
-      - automation.snapdragon
-      - automation.csr101x
+      #- shell_command.qualcomm
+      #- automation.snapdragon
+      #- automation.csr101x
 
   # Techie Maya Lands: System Monitor
 
