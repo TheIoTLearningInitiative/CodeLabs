@@ -12,4 +12,4 @@
 # Name: Dia De Muertos
 
 - Imix'
-  - __Friendly Name__: Sonidos
+  - __Friendly Name__: Scheduled Sounds
