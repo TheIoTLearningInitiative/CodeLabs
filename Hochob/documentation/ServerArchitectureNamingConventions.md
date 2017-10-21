@@ -1,7 +1,5 @@
 # Naming Conventions
 
-# Areas
-
 - Captain Maya Lands: Captain
 - Southern Maya Highlands: Show
 - Robot Maya Lands: Robotics
@@ -13,9 +11,12 @@
 
 - None
 - States
-- Robots Names
+- Robot Names
 - Beaches
 - Reserves
+- None
+- None
+- Tech Companies
 
 # Mayan Words
 
