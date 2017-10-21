@@ -54,3 +54,9 @@ renamed:    ../TechieMayaLands/Google.sh -> TraditionMayaLands/Imix.sh
  rename Hochob/Applications/{TechieMayaLands/WindRiver.sh => CalendarMayaLands/Sip.sh} (100%)
 
 rename Hochob/Services/Stream/{StreamAudio.sh => StreamText.sh} (100%)
+
+# Amikoo
+
+AMIKOO="lupe/"
+AMIKOO_SAY=$AMIKOO/say
+AMIKOO_DECIR=$AMIKOO/decir
