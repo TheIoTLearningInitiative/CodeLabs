@@ -59,7 +59,7 @@ homeassistant:
       friendly_name: Hablar
       icon: mdi:speaker
     script.makeblock:
-      friendly_name: Preguntas Centro de Visitantes
+      friendly_name: Centro de Visitantes
       icon: mdi:audiobook
       
     script.headright:
@@ -980,7 +980,7 @@ group:
   # Robot Maya Lands: Language
 
   robotmayalandslanguage:
-    name: Idioma
+    name: Audio
     entities:
       - script.coji
 
