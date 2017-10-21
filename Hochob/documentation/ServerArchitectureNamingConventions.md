@@ -6,11 +6,14 @@ The Mayan languages form a language family spoken in Mesoamerica and northern Ce
 
 # Geography
 
-- Northern Maya Lowlands
-- Central Maya Lowlands
-- Southern Maya Highlands
-- Virtual Maya Lands
-- Robot Maya Lands
+  - Southern Maya Highlands
+  - Central Maya Lowlands
+  - Northern Maya Lowlands
+  - Media Maya Lands
+  - Robot Maya Techlands
+  - Console Maya Lands
+  - Techie Maya Lands
+  - Captain Maya Lands
 
 # Yucatan Food
 
