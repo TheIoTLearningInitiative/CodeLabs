@@ -24,18 +24,18 @@ export COJI_DIRECTORY=$(dirname "$COJI_PATH")
 
 Robot.sh lupe/inicial 1
 sleep 2
-Robot.sh lupe/say "Hello World! One, Two, Three!"
+Robot.sh lupe/say "Hello World. I can speak English. One, Two, Three."
 sleep 2
-Robot.sh lupe/decir "Hola Mundo! Uno, Dos, Tres!"
+Robot.sh lupe/decir "Hola Mundo. Puedo hablar Español. Uno, Dos, Tres."
 sleep 2
 
 LOCAL_LANGUAGE=`Language.sh`
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Robot.sh lupe/say \
-    "Hello World! One, Two, Three!"
+    "Hello World. I can speak English. One, Two, Three."
 else
     Robot.sh lupe/decir \
-    "Hola Mundo! Uno, Dos, Tres!"
+    "Hola Mundo. Puedo hablar Español. Uno, Dos, Tres."
 fi
 
 # End of File
