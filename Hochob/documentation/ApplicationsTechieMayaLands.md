@@ -47,6 +47,8 @@
 - __Area__: The Techie
 - __Group__: System Audio
 - __Friendly Name__: System Audio
+  - Automation: Snapdragon Change Audio
+  - Automation: Snapdragon Read Audio
 
 # Name: SpaceX
 
