@@ -928,7 +928,7 @@ group:
 
   techiemayalands:
     view: yes
-    name: Techies
+    name: Techie
     entities:
       - group.techiemayalandssystemhealth
       - group.techiemayalandssystemcalendar
