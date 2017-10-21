@@ -12,3 +12,4 @@
 # Name: Dia De Muertos
 
 - Imix'
+  - __Friendly Name__: Sonidos
