@@ -37,9 +37,9 @@ echo $LOCAL_MESSAGE
 
 
 if [ "$LOCAL_COMMAND" = "gcvisionapi" ]; then
-    Mosquitto.sh $AMIKOO_GCVISIONAPI $LOCAL_MESSAGE
+    Mosquitto.sh $AMIKOO_GCVISIONAPI "Google Cloud Vision API"
 elif [ "$LOCAL_COMMAND" = "gctranslationapi" ]; then
-    Mosquitto.sh $AMIKOO_GCTRANSLATIONAPI $LOCAL_MESSAGE
+    Mosquitto.sh $AMIKOO_GCTRANSLATIONAPI "Google Cloud Translation API"
 fi
 
 if [ "$LOCAL_COMMAND" = "lupe/message" ]; then
