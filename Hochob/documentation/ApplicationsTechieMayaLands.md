@@ -41,7 +41,6 @@
 - __Group__: System Calendar When
 - __Friendly Name__: 
 
-
 # Name: Qualcomm
 
 - __Area__: The Techie
