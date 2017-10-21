@@ -2,23 +2,22 @@
 
 - [Maya Animals](http://www.native-languages.org/maya_animals.htm)
 
-- Peek' Perro
-- Keeh Venado
-- __Chakmool__ Jaguar
-  - Home
-- Chuwen Chango
-- Ch'o' Raton
-- Sootz' Murcielago
-- Kaab Abeja
-- Am Arana
-- __Ch'iich'__ Pajaro
-- T'uut' Guacamaya
-- Tunkuruchu Lechuza
-- __Tz'unu'un__ Colibri
-- Kay Pescado
-- Kan Culebra
 - Aak Tortuga
 - Aayin Cocodrilo
+- Am Arana
+- Chakmool Jaguar
+- Ch'iich' Pajaro
+- Ch'o' Raton
+- Chuwen Chango
+- Kaab Abeja
+- Kay Pescado
+- Kan Culebra
+- Keeh Venado
+- Peek' Perro
+- Tunkuruchu Lechuza
+- T'uut' Guacamaya
+- Tz'unu'un Colibri
+- Sootz' Murcielago
 
 # Name: Guanajuato
 
