@@ -2,14 +2,14 @@
 
 - [Maya Animals](http://www.native-languages.org/maya_animals.htm)
 
-- Aak Tortuga
-- Aayin Cocodrilo
-- Am Arana
-- Chakmool Jaguar
-- Ch'iich' Pajaro
-- Ch'o' Raton
-- Chuwen Chango
-- Kaab Abeja
+- __Aak__ Tortuga
+- __Aayin__ Cocodrilo
+- __Am__ Arana
+- __Chakmool__ Jaguar
+- __Ch'iich'__ Pajaro
+- __Ch'o'__ Raton
+- __Chuwen__ Chango
+- __Kaab__ Abeja
 - Kay Pescado
 - Kan Culebra
 - Keeh Venado
