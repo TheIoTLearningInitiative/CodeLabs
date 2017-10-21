@@ -50,6 +50,67 @@ homeassistant:
       friendly_name: Sandbox
       icon: mdi:test-tube
 
+    # Robot Maya Lands
+
+    script.resetall:
+      friendly_name: Reset
+      icon: mdi:lock-reset
+    script.coji:
+      friendly_name: Speak
+      icon: mdi:speaker
+    script.makeblock:
+      friendly_name: Preguntas
+      icon: mdi:audiobook
+      
+    script.headright:
+      friendly_name: Head Right
+      icon: mdi:arrow-right-thick
+    script.headleft:
+      friendly_name: Head Left
+      icon: mdi:arrow-left-thick
+
+    script.rightup:
+      friendly_name: Up
+      icon: mdi:human-handsup
+    script.rightdown:
+      friendly_name: Down
+      icon: mdi:human-handsup
+    script.rightfold:
+      friendly_name: Fold
+      icon: mdi:gesture-swipe-up
+    script.rightunfold:
+      friendly_name: Unfold
+      icon: mdi:gesture-swipe-up
+
+    script.leftup:
+      friendly_name: Up
+      icon: mdi:human-handsup
+    script.leftdown:
+      friendly_name: Down
+      icon: mdi:human-handsup
+    script.leftfold:
+      friendly_name: Fold
+      icon: mdi:gesture-swipe-up
+    script.leftunfold:
+      friendly_name: Unfold
+      icon: mdi:gesture-swipe-up
+
+    script.moveright:
+      friendly_name: Move Right
+      icon: mdi:arrow-right-thick
+    script.moveleft:
+      friendly_name: Move Left
+      icon: mdi:arrow-left-thick
+    script.moveforward:
+      friendly_name: Move Forward
+      icon: mdi:arrow-up-thick
+    script.movebackward:
+      friendly_name: Move Backward
+      icon: mdi:arrow-down-thick
+    script.movestop:
+      friendly_name: Move Stop
+      icon: mdi:stop
+
     # Central Maya Lowlands, Stations
 
     script.acapulco:
@@ -114,69 +175,12 @@ homeassistant:
       friendly_name: Planeta Marte
       icon: mdi:test-tube
 
-    # Robot Maya Lands
-
-    script.resetall:
-      friendly_name: Reset
-      icon: mdi:lock-reset
-    script.coji:
-      friendly_name: Speak
+    # Tradition Maya Lands
+    
+    automation.imix:
+      friendly_name: Sonidos Programados
       icon: mdi:speaker
-    script.makeblock:
-      friendly_name: Preguntas
-      icon: mdi:audiobook
-      
-    script.headright:
-      friendly_name: Head Right
-      icon: mdi:arrow-right-thick
-    script.headleft:
-      friendly_name: Head Left
-      icon: mdi:arrow-left-thick
-
-    script.rightup:
-      friendly_name: Up
-      icon: mdi:human-handsup
-    script.rightdown:
-      friendly_name: Down
-      icon: mdi:human-handsup
-    script.rightfold:
-      friendly_name: Fold
-      icon: mdi:gesture-swipe-up
-    script.rightunfold:
-      friendly_name: Unfold
-      icon: mdi:gesture-swipe-up
-
-    script.leftup:
-      friendly_name: Up
-      icon: mdi:human-handsup
-    script.leftdown:
-      friendly_name: Down
-      icon: mdi:human-handsup
-    script.leftfold:
-      friendly_name: Fold
-      icon: mdi:gesture-swipe-up
-    script.leftunfold:
-      friendly_name: Unfold
-      icon: mdi:gesture-swipe-up
-
-    script.moveright:
-      friendly_name: Move Right
-      icon: mdi:arrow-right-thick
-    script.moveleft:
-      friendly_name: Move Left
-      icon: mdi:arrow-left-thick
-    script.moveforward:
-      friendly_name: Move Forward
-      icon: mdi:arrow-up-thick
-    script.movebackward:
-      friendly_name: Move Backward
-      icon: mdi:arrow-down-thick
-    script.movestop:
-      friendly_name: Move Stop
-      icon: mdi:stop
-      
-    # Techie Maya Lands
-
+ 
     # Techie Maya Lands : System Health
 
     script.toyota:
@@ -401,74 +405,6 @@ script:
     sequence:
       - service: shell_command.zacatecas
 
-  # Central Maya Lowlands, Stations
-
-  acapulco:
-    sequence:
-      - service: shell_command.acapulco
-
-  cancun:
-    sequence:
-      - service: shell_command.cancun
-
-  huatulco:
-    sequence:
-      - service: shell_command.huatulco
-
-  mazatlan:
-    sequence:
-      - service: shell_command.mazatlan
-
-  puertovallarta:
-    sequence:
-      - service: shell_command.puertovallarta
-
-  # Central Maya Lowlands, Questions
-
-  ixtapa:
-    sequence:
-      - service: shell_command.ixtapa
-
-  # Central Maya Lowlands, Sandbox
-
-  veracruz:
-    sequence:
-      - service: shell_command.veracruz
-
-  # Northern Maya Lowlands
-
-  ojodeliebre:
-    sequence:
-      - service: shell_command.ojodeliebre
-
-  montesazules:
-    sequence:
-      - service: shell_command.montesazules
-
-  lamichilia:
-    sequence:
-      - service: shell_command.lamichilia
-
-  elcielo:
-    sequence:
-      - service: shell_command.elcielo
-
-  mapimi:
-    sequence:
-      - service: shell_command.mapimi
-
-  siankaan:
-    sequence:
-      - service: shell_command.siankaan
-
-  calakmul:
-    sequence:
-      - service: shell_command.calakmul
-
-  tiburonballena:
-    sequence:
-      - service: shell_command.tiburonballena
-
   # Robot Maya Lands
 
   resetall:
@@ -542,7 +478,81 @@ script:
   movestop:
     sequence:
       - service: shell_command.movestop
-  
+
+  # Central Maya Lowlands, Stations
+
+  acapulco:
+    sequence:
+      - service: shell_command.acapulco
+
+  cancun:
+    sequence:
+      - service: shell_command.cancun
+
+  huatulco:
+    sequence:
+      - service: shell_command.huatulco
+
+  mazatlan:
+    sequence:
+      - service: shell_command.mazatlan
+
+  puertovallarta:
+    sequence:
+      - service: shell_command.puertovallarta
+
+  # Central Maya Lowlands, Questions
+
+  ixtapa:
+    sequence:
+      - service: shell_command.ixtapa
+
+  # Central Maya Lowlands, Sandbox
+
+  veracruz:
+    sequence:
+      - service: shell_command.veracruz
+
+  # Northern Maya Lowlands
+
+  ojodeliebre:
+    sequence:
+      - service: shell_command.ojodeliebre
+
+  montesazules:
+    sequence:
+      - service: shell_command.montesazules
+
+  lamichilia:
+    sequence:
+      - service: shell_command.lamichilia
+
+  elcielo:
+    sequence:
+      - service: shell_command.elcielo
+
+  mapimi:
+    sequence:
+      - service: shell_command.mapimi
+
+  siankaan:
+    sequence:
+      - service: shell_command.siankaan
+
+  calakmul:
+    sequence:
+      - service: shell_command.calakmul
+
+  tiburonballena:
+    sequence:
+      - service: shell_command.tiburonballena
+
+  # Tradition Maya Lands
+
+  imix:
+    sequence:
+      - service: shell_command.imix
+
   # Techie Maya Lands
   
   toyota:
@@ -641,16 +651,6 @@ shell_command:
   movebackward: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/movebackward
   movestop: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/movestop
   
-  # Techie Maya Lands
-  
-  toyota: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Toyota.sh &
-  kodak: ssh root@127.0.0.1 sudo reboot
-  apple: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Apple.sh &
-  qualcomm: amixer -D pulse sset Master '{{ volume_level }}%'
-  windriver: ~/CodeLabs/Hochob/Applications/TechieMayaLands/WindRiver.sh &
-  google: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Google.sh &
-  visitorsusb: ~/CodeLabs/Hochob/Services/Visitors/Usb.sh &
-
   # Console Maya Lands
 
   keypadyes: ~/CodeLabs/Hochob/Services/Keypad/KeypadYesNo.sh virtual yes &
@@ -659,6 +659,19 @@ shell_command:
   keypadtwo: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 2 &
   keypadthree: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 3 &
   keypadfour: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 4 &
+
+  # Tradition Maya Lands
+
+  imix: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Imix.sh &
+
+  # Techie Maya Lands
+  
+  toyota: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Toyota.sh &
+  kodak: ssh root@127.0.0.1 sudo reboot
+  apple: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Apple.sh &
+  qualcomm: amixer -D pulse sset Master '{{ volume_level }}%'
+  windriver: ~/CodeLabs/Hochob/Applications/TechieMayaLands/WindRiver.sh &
+  visitorsusb: ~/CodeLabs/Hochob/Services/Visitors/Usb.sh &
 
 switch:
 
@@ -733,6 +746,17 @@ automation:
     action:
       - service: shell_command.meccanoid
 
+  # Tradition Maya Lands
+
+  - alias: Imix
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/15'
+      seconds: 00
+    action:
+      - service: shell_command.imix
+
   # Techie Maya Lands
 
   - alias: Services Calendar Name
@@ -772,15 +796,6 @@ automation:
       seconds: '/30'
     action:
       - service: shell_command.windriver
-
-  - alias: Services Season
-    initial_state: 'off'
-    trigger:
-      platform: time
-      minutes: '/15'
-      seconds: 00
-    action:
-      - service: shell_command.google
 
 group:
 
@@ -862,6 +877,14 @@ group:
       - group.mediamayalandsmemories
       - group.mediamayalandscamera
 
+  # Tradition Maya Lands
+  
+  traditionmayalands:
+    view: yes
+    name: Tradition
+    entities:
+      - group.traditionmayalandsimix
+  
   # Techie Maya Lands
 
   techiemayalands:
@@ -872,7 +895,6 @@ group:
       - group.techiemayalandssystemaudio
       - group.techiemayalandssystemmonitor
       - group.techiemayalandssystemevent
-      - group.techiemayalandssystemseason
       - group.techiemayalandssystemquote
       - group.techiemayalandsserverinfrastructure
       - group.techiemayalandssandbox
@@ -1103,6 +1125,14 @@ group:
     entities:
       - switch.kaab
 
+  # Tradition Maya Lands: Dia De Muertos
+
+  traditionmayalandsimix:
+    name: Dia De Muertos Sonidos
+    entities:
+      - automation.imix
+      - script.imix
+
   # Techie Maya Lands: System Health
 
   techiemayalandssystemhealth:
@@ -1148,13 +1178,6 @@ group:
     name: Evento
     entities:
       - automation.services_internal_event_host_server
-
-  # Techie Maya Lands: System Season
-
-  techiemayalandssystemseason:
-    name: Temporada
-    entities:
-      - automation.services_season
 
   # Techie Maya Lands: System Quote
 
