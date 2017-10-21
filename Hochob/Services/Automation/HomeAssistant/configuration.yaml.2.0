@@ -248,21 +248,21 @@ homeassistant:
     # Calendar Maya Lands
     
     automation.pop:
-      friendly_name: Bienvenida Programada Robot
+      friendly_name: Bienvenida Robot  / 30 Minutos
       icon: mdi:calendar-clock
 
     automation.sip:
-      friendly_name: Bienvenida Programada Servidor
+      friendly_name: Bienvenida Servidor / 30 Minutos
       icon: mdi:calendar-clock
 
     automation.wo:
-      friendly_name: Bienvenida Programada Robot
+      friendly_name: Bienvenida Robot  / 30 Minutos
       icon: mdi:calendar-clock
 
     # Tradition Maya Lands
     
     automation.imix:
-      friendly_name: Sonidos Chromecast Programados 
+      friendly_name: Sonidos Chromecast / 10 Minutos
       icon: mdi:calendar-clock
 
     script.imix:
@@ -282,7 +282,7 @@ homeassistant:
     # Techie Maya Lands : System Calendar
     
     automation.apple:
-      friendly_name: Anuncio Servidor Programado
+      friendly_name: Anuncio Servidor / 30 Minutos
     
     # Techie Maya Lands : System Audio
 
@@ -369,7 +369,7 @@ sensor:
   - platform: template
     sensors:
       imac:
-        friendly_name: Quien no visita?
+        friendly_name: Quién?
         value_template: '{{ states.calendar.hochobvcgmailcom.attributes.message }}'
 
   - platform: template
@@ -920,7 +920,7 @@ group:
   
   traditionmayalands:
     view: yes
-    name: Tradition
+    name: Tradición
     entities:
       - group.traditionmayalandsdiademuertos
   
