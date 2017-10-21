@@ -24,10 +24,10 @@ export COJI_DIRECTORY=$(dirname "$COJI_PATH")
 
 LOCAL_LANGUAGE=`Language.sh`
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Robot.sh lupe/say \
+    Robot.sh $AMIKOO_SAY \
     "Hello World. I can speak English. One, Two, Three."
 else
-    Robot.sh lupe/decir \
+    Robot.sh $AMIKOO_DECIR \
     "Hola Mundo. Puedo hablar Español. Uno, Dos, Tres."
 fi
 
