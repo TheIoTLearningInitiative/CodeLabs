@@ -8,12 +8,12 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export SPHERO_PID=$$
-export SPHERO_NAME="Sphero"
-export SPHERO_PATH=$(readlink -f "$0")
-export SPHERO_DIRECTORY=$(dirname "$SPHERO_PATH")
+export POP_PID=$$
+export POP_NAME="Pop"
+export POP_PATH=$(readlink -f "$0")
+export POP_DIRECTORY=$(dirname "$POP_PATH")
 
-LOCAL_INSTITUTION_NAME=`Name.sh`
+LOCAL_INSTITUTION_NAME=`Intel Guadalajara`
 LOCAL_EVENT_NAME_ENGLISH="Innovation Week 2017"
 LOCAL_EVENT_NAME_SPANISH="Semana de Innovación 2017"
 
@@ -34,7 +34,7 @@ chooseLanguage()
 # Main
 # =============================================================================
 
-LogPid.sh $SPHERO_PID $SPHERO_NAME
+LogPid.sh $POP_PID $POP_NAME
 
 chooseLanguage
 
