@@ -12,20 +12,14 @@ To migrate
 - Calendar Application
 - Questions
 
-## Internal Events
-
-- Pop
-
-### Name: Pop
+## Name: Pop
 
 - __Area__: Calendar
 - __Group__: Internal System Event
 - __Friendly Name__: Robot Scheduled Internal Welcome
 - __Services__: Events
 
-## External Events
-
-### Name: Wo'
+## Name: Wo'
 
 - __Area__: Calendar
 - __Group__: External System Event
