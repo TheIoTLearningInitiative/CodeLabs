@@ -105,3 +105,10 @@ Bus 003 Device 003: ID 0de7:01a5 USBmicro U421 interface card
 Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 pyme@pyme-desktop:~/CodeLabs$ 
 ```
+
+```sh
+sudo apt-get install libusb-1.0-0-dev
+```
+http://andrew.daviel.org/usbmicro/
+
+
