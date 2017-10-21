@@ -61,10 +61,10 @@ homeassistant:
       icon: mdi:speaker
     script.amikoogcvisionapi:
       friendly_name: Google Vision API
-      icon: mdi:
+      icon: mdi:camera
     script.amikoogctranslateapi:
       friendly_name: Google Translation API
-      icon: mdi:arrow-left-thick
+      icon: mdi:google-translate
 
     script.makeblock:
       friendly_name: Centro de Visitantes
