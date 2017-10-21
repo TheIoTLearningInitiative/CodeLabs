@@ -180,7 +180,11 @@ homeassistant:
     automation.imix:
       friendly_name: Sonidos Programados
       icon: mdi:speaker
- 
+
+    script.imix:
+      friendly_name: Sonidos Reproducción
+      icon: mdi:speaker
+
     # Techie Maya Lands : System Health
 
     script.toyota:
