@@ -13,7 +13,7 @@ export SIP_NAME="Sip"
 export SIP_PATH=$(readlink -f "$0")
 export SIP_DIRECTORY=$(dirname "$SIP_PATH")
 
-LOCAL_INSTITUTION_NAME=`Name.sh`
+LOCAL_INSTITUTION_NAME="Intel Guadalajara"
 LOCAL_EVENT_NAME_ENGLISH="Innovation Week 2017"
 LOCAL_EVENT_NAME_SPANISH="Semana de Innovación 2017"
 
