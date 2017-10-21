@@ -155,11 +155,11 @@
       * [Applications](Hochob/documentation/Applications.md)
         * [Captain Maya Lands](Hochob/documentation/ApplicationsCaptainMayaLands.md)
         * [Southern Maya Highlands](Hochob/documentation/ApplicationsSouthernMayaHighlands.md)
-          * [Media Maya Lands](Hochob/documentation/MediaMayaTechlands.md)
         * [Robot Maya Lands](Hochob/documentation/ApplicationsRobotMayaTechlands.md)
         * [Central Maya Lowlands](Hochob/documentation/ApplicationsCentralMayaLowlands.md)
         * [Northern Maya Lowlands](Hochob/documentation/ApplicationsNorthernMayaLowlands.md)
         * [Console Maya Lands](Hochob/documentation/ApplicationsConsoleMayaLands.md)
+        * [Media Maya Lands](Hochob/documentation/MediaMayaTechlands.md)
         * [Techie Maya Lands](Hochob/documentation/ApplicationsTechieMayaLands.md)
     * [Stations](Hochob/documentation/stations.md)
   * Release Notes
