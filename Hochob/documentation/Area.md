@@ -8,4 +8,5 @@
 - Console Maya Lands: Interaction
 - Media Maya Lands: Memories
 - Calendar Maya Lands: Events
+- Tradition Maya Lands: Celebrations
 - Techie Maya Lands: Techie
