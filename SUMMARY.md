@@ -162,7 +162,7 @@
         * [Media Maya Lands](Hochob/documentation/MediaMayaTechlands.md)
         * [Calendar Maya Lands](Hochob/documentation/ApplicationsCalendarMayaLands.md)
         * [Tradition Maya Lands](Hochob/documentation/ApplicationsTraditionMayaLands.md)
-        * Calendar Maya Lands
+        * [Techie Maya Lands](Hochob/documentation/ApplicationsTechieMayaLands.md)
     * [Stations](Hochob/documentation/stations.md)
   * Release Notes
     * [v0.1](Hochob/documentation/ReleaseNotesv0.1.md)

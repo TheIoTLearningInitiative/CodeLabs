@@ -29,17 +29,24 @@
 - __Group__: System Calendar
 - __Friendly Name__: System Calendar
 
+## Name: iMac
+
+- __Area__: The Techie
+- __Group__: System Calendar Who
+- __Friendly Name__: 
+
+## Name: iPod
+
+- __Area__: The Techie
+- __Group__: System Calendar When
+- __Friendly Name__: 
+
+
 # Name: Qualcomm
 
 - __Area__: The Techie
 - __Group__: System Audio
 - __Friendly Name__: System Audio
-
-# Name: WindRiver
-
-- __Area__: The Techie
-- __Group__: Internal System Event
-- __Friendly Name__: Services Internal Event Host Server
 
 # Name: SpaceX
 
