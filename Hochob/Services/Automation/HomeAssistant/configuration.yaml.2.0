@@ -791,7 +791,7 @@ automation:
 
   # Techie Maya Lands: System Calendar
 
-  - alias: Services Calendar Name
+  - alias: Apple
     initial_state: 'off'
     trigger:
       platform: time
@@ -1178,10 +1178,10 @@ group:
   techiemayalandssystemcalendar:
     name: Próxima Visita
     entities:
+      - automation.apple
       - sensor.imac
       - sensor.ipod
-      - calendar.hochobvcgmailcom
-      - automation.services_calendar_name
+      #- calendar.hochobvcgmailcom
 
   # Techie Maya Lands: System Audio
 
