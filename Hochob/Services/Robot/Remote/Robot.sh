@@ -35,6 +35,13 @@ done
 
 echo $LOCAL_MESSAGE
 
+
+if [ "$LOCAL_COMMAND" = "gcvisionapi" ]; then
+    Mosquitto.sh $AMIKOO_GCVISIONAPI $LOCAL_MESSAGE
+elif [ "$LOCAL_COMMAND" = "gctranslationapi" ]; then
+    Mosquitto.sh $AMIKOO_GCTRANSLATIONAPI $LOCAL_MESSAGE
+fi
+
 if [ "$LOCAL_COMMAND" = "lupe/message" ]; then
     LOCAL_LANGUAGE=`Language.sh`
     if [ "$LOCAL_LANGUAGE" = "english" ]; then
