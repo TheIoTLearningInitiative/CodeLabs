@@ -641,16 +641,6 @@ shell_command:
   movebackward: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/movebackward
   movestop: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/movestop
   
-  # Techie Maya Lands
-  
-  toyota: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Toyota.sh &
-  kodak: ssh root@127.0.0.1 sudo reboot
-  apple: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Apple.sh &
-  qualcomm: amixer -D pulse sset Master '{{ volume_level }}%'
-  windriver: ~/CodeLabs/Hochob/Applications/TechieMayaLands/WindRiver.sh &
-  google: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Google.sh &
-  visitorsusb: ~/CodeLabs/Hochob/Services/Visitors/Usb.sh &
-
   # Console Maya Lands
 
   keypadyes: ~/CodeLabs/Hochob/Services/Keypad/KeypadYesNo.sh virtual yes &
@@ -659,6 +649,19 @@ shell_command:
   keypadtwo: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 2 &
   keypadthree: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 3 &
   keypadfour: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 4 &
+
+  # Tradition Maya Lands
+
+  diademuertos: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/DiaDeMuertos.sh &
+
+  # Techie Maya Lands
+  
+  toyota: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Toyota.sh &
+  kodak: ssh root@127.0.0.1 sudo reboot
+  apple: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Apple.sh &
+  qualcomm: amixer -D pulse sset Master '{{ volume_level }}%'
+  windriver: ~/CodeLabs/Hochob/Applications/TechieMayaLands/WindRiver.sh &
+  visitorsusb: ~/CodeLabs/Hochob/Services/Visitors/Usb.sh &
 
 switch:
 
@@ -733,6 +736,17 @@ automation:
     action:
       - service: shell_command.meccanoid
 
+  # Tradition Maya Lands
+
+  - alias: DiaDeMuertos
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/15'
+      seconds: 00
+    action:
+      - service: shell_command.diademuertos
+
   # Techie Maya Lands
 
   - alias: Services Calendar Name
@@ -772,15 +786,6 @@ automation:
       seconds: '/30'
     action:
       - service: shell_command.windriver
-
-  - alias: Services Season
-    initial_state: 'off'
-    trigger:
-      platform: time
-      minutes: '/15'
-      seconds: 00
-    action:
-      - service: shell_command.google
 
 group:
 
@@ -862,6 +867,14 @@ group:
       - group.mediamayalandsmemories
       - group.mediamayalandscamera
 
+  # Tradition Maya Lands
+  
+  traditionmayalands:
+    view: yes
+    name: Tradition
+    entities:
+      - group.traditionmayalandsdiademuertos
+  
   # Techie Maya Lands
 
   techiemayalands:
@@ -872,7 +885,6 @@ group:
       - group.techiemayalandssystemaudio
       - group.techiemayalandssystemmonitor
       - group.techiemayalandssystemevent
-      - group.techiemayalandssystemseason
       - group.techiemayalandssystemquote
       - group.techiemayalandsserverinfrastructure
       - group.techiemayalandssandbox
@@ -1103,6 +1115,13 @@ group:
     entities:
       - switch.kaab
 
+  # Tradition Maya Lands: Dia De Muertos
+
+  traditionmayalandsdiademuertos:
+    name: Dia De Muertos
+    entities:
+      - automation.diademuertos
+
   # Techie Maya Lands: System Health
 
   techiemayalandssystemhealth:
@@ -1148,13 +1167,6 @@ group:
     name: Evento
     entities:
       - automation.services_internal_event_host_server
-
-  # Techie Maya Lands: System Season
-
-  techiemayalandssystemseason:
-    name: Temporada
-    entities:
-      - automation.services_season
 
   # Techie Maya Lands: System Quote
 
