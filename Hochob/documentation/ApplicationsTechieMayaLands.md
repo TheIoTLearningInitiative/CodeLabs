@@ -48,7 +48,7 @@
 - __Group__: System Audio
 - __Friendly Name__: System Audio
   - Automation: Snapdragon Change Audio
-  - Automation: Snapdragon Read Audio
+  - Automation: CSR101x Read Audio
 
 # Name: SpaceX
 
