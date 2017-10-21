@@ -3,7 +3,7 @@
 > __Mayan Words__
 
 - Captain Maya Lands: Captain
-  - None
+  - 
 - Southern Maya Highlands: Show
   - States
 - Robot Maya Lands: Robotics
@@ -13,13 +13,13 @@
 - Northern Maya Lowlands: Experience
   - Reserves
 - Console Maya Lands: Interaction
-  - None
+  - 
 - Media Maya Lands: Memories
   - Mayan Animals
 - Calendar Maya Lands: Events
   - 
 - Tradition Maya Lands: Celebrations
-  - Dia De Muertos
+  - 
 - Techie Maya Lands: Techie
   - Tech Companies
 
