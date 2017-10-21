@@ -7,4 +7,5 @@
 - Northern Maya Lowlands: Experience
 - Console Maya Lands: Interaction
 - Media Maya Lands: Memories
+- Calendar Maya Lands: Events
 - Techie Maya Lands: Techie
