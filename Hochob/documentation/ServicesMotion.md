@@ -1,5 +1,11 @@
 # Motion
 
+## Motion
+
+```sh
+sudo apt-get install motion
+```
+
 ## USBMicro Motion
 
     
