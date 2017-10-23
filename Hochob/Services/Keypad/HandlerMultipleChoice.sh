@@ -24,7 +24,7 @@ LOCAL_IDENTIFICATION="$1"
 
 if [ $# -eq 1 ]
 then
-    answer=`$HOCHOB_SERVER_SERVICES_KEYPAD/HandlerMultipleChoice.py`
+    answer=`$HOCHOB_SERVER_SERVICES_KEYPAD/HandlerMultipleChoice.py $MQTT_SERVER_ADDRESS`
     echo $answer
 else
     echo "Invalid number of arguments, see Documentation"
