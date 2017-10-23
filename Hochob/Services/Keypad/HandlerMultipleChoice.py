@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import paho.mqtt.client as paho
+import sys
 import time
 from threading import Thread
 
@@ -16,8 +17,9 @@ def KeypadOptionMessage(mosq, obj, msg):
 
 if __name__ == '__main__':
 
+    mqtt_server_address = sys.argv[1]
     mqttclient = paho.Client()
-    mqttclient.connect("10.215.56.158", 1883, 60)
+    mqttclient.connect(mqtt_server_address, 1883, 60)
     mqttclient.subscribe("hochob/keypad/virtual", 0)
     mqttclient.on_message = KeypadOptionMessage
     mqttclient.loop_start()
