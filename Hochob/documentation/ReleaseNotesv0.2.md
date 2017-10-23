@@ -62,3 +62,14 @@ AMIKOO_SAY=$AMIKOO/say
 AMIKOO_DECIR=$AMIKOO/decir
 AMIKOO_GCVISIONAPI=$AMIKOO/vision
 AMIKOO_GCTRANSLATIONAPI=$AMIKOO/translate
+
+
+MQTT Server
+
+```sh
+ Hochob/Applications/CalendarMayaLands/Sip.sh    | 2 +-
+ Hochob/Services/Keypad/HandlerMultipleChoice.py | 4 +++-
+ Hochob/Services/Keypad/HandlerMultipleChoice.sh | 2 +-
+ Hochob/Services/Keypad/HandlerYesNo.py          | 3 ++-
+ Hochob/Services/Keypad/HandlerYesNo.sh          | 2 +-
+```
