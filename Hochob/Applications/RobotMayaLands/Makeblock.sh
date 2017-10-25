@@ -92,4 +92,9 @@ StreamText.sh $LOCAL_DEVICE spanish robot \
       "
 SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 2
 
+StreamText.sh $LOCAL_DEVICE spanish robot \
+      "
+      Eso es todo. Muchas gracias por tu participacion.
+      "
+
 # End of File
