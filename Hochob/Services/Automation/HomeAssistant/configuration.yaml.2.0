@@ -863,7 +863,7 @@ group:
 
   southernmayalands:
     view: yes
-    name: Casa
+    name: Bienvenida
     entities:
       - group.southernmayahighlandsintroduction
       - group.southernmayahighlandsrobot
