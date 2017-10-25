@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import paho.mqtt.client as paho
+import sys
 import time
 from threading import Thread
 
