@@ -3,6 +3,10 @@
 # Resize
 
 ```sh
+hochob@server:~$ sudo apt-get install imagemagick
+```
+
+```sh
 hochob@server:~$ convert yir2014-curiosity-portrait-crop.jpg -resize 4096x2304\! yir2014-curiosity-portrait-full.jpg
 ``
 

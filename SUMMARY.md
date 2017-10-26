@@ -142,6 +142,7 @@
         * [Camera](Hochob/documentation/Camera.md)
         * [Communications](Hochob/documentation/Communications.md)
         * [Image](Hochob/documentation/Image.md)
+        * Institution
         * [Keypad](Hochob/documentation/ServicesKeypad.md)
         * [Messaging](Hochob/documentation/ServicesMessaging.md)
         * [Motion](Hochob/documentation/ServicesMotion.md)
@@ -150,8 +151,9 @@
           * [Play](Hochob/documentation/ServicesPlay.md)
           * [Speech Synthetizer](Hochob/documentation/SpeechSynthetizer.md)
         * [Stream](Hochob/documentation/Stream.md)
-        * [Survey](Hochob/documentation/Survey.md)
-        * [USB](Hochob/documentation/Usb.md)
+        * Usb
+        * Survey
+        * Video
       * [Applications](Hochob/documentation/Applications.md)
         * [Captain Maya Lands](Hochob/documentation/ApplicationsCaptainMayaLands.md)
         * [Southern Maya Highlands](Hochob/documentation/ApplicationsSouthernMayaHighlands.md)
