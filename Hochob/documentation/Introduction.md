@@ -3,7 +3,10 @@
 1. Cloe CodeLabs Repository
 2. Checkout Hochob branch
 3. Run Setup Scripts
-4. Amikoo Virtual
+4. Populate
+   - HochobServerMedia
+   - HochobServerMediaSource
+5. Amikoo Virtual
 
 ##
 
