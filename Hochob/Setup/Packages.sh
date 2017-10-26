@@ -1,4 +1,4 @@
-#!/bin/sh
+sudo pip install httplib2#!/bin/sh
 
 # Hochob Server Setup
 sudo apt install git mosquitto_clients
@@ -10,7 +10,8 @@ sudo pip3 install --upgrade pip
 sudo pip3 install homeassistant
 
 # Hochob Server Services Calendar
-# None
+sudo pip install httplib2
+sudo python -m pip install --upgrade google-api-python-client
 
 # Hochob Server Services Camera
 sudo apt install fswebcam
