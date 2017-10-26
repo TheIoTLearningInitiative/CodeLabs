@@ -15,3 +15,33 @@ Documents
 
 - Visitors Center Workshop Briko
 - Visitors Center Workshop Briko Teachers Guide
+
+
+```c
+#include <Briko.h>
+
+motorbk motorizq(PORT2);//Se declaran los módulos de briko a utilizar
+motorbk motorder(PORT6);
+ledsbk leds(PORT4);
+distancebk dist(PORT5);              
+
+int distancia;  //Se declara una variable tipo int llamada distancia
+
+code() {
+// Aqui se escribe tu programa
+
+distancia=dist.read();//Se guarda en la variable distancia del valor de la
+//distancia medida por el sensor de distancia
+if(distancia<25){  //Si el valor de la variable distance es menor a 25
+    motorizq.set(LEFT,255); //hace que el motor izquierdo gire a la izquierda
+    motorder.set(RIGHT,255); //hace que el motor derecho gire a la derecha
+    leds.color(GREEN);//Se prenden los leds en color verde
+}
+   else{  //si no se cumple la condicion anterior el robot da vueltas 
+    //y prende los leds de color rojo
+    motorizq.set(RIGHT,255); //hace que el motor izquierdo gire a la derecha
+    motorder.set(RIGHT,255); //hace que el motor derecho gire a la derecha
+    leds.color(RED); //prende los leds de color rojo
+   }  
+}
+```
