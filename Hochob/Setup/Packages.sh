@@ -2,6 +2,7 @@
 
 # Hochob Server General
 sudo apt install git
+sudo apt install fortunes
 
 # Hochob Server Services Automation Home Assistant
 sudo apt install python3-setuptools
