@@ -1,7 +1,7 @@
-sudo pip install httplib2#!/bin/sh
+sudo apt install fswebcamsudo pip install httplib2#!/bin/sh
 
-# Hochob Server Setup
-sudo apt install git mosquitto_clients
+# Hochob Server General
+sudo apt install git
 
 # Hochob Server Services Automation Home Assistant
 sudo apt install python3-setuptools
@@ -17,7 +17,7 @@ sudo python -m pip install --upgrade google-api-python-client
 sudo apt install fswebcam
 
 # Hochob Server Services Communications
-# None
+sudo apt install git mosquitto_clients
 
 # Hochob Server Services Image
 sudo apt install eog
