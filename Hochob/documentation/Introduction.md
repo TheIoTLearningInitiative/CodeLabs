@@ -1,6 +1,11 @@
 # Introduction
 
+1. Cloe CodeLabs Repository
+2. Checkout Hochob branch
+3. Run Setup Scripts
+4. 
 
+##
 
 - Accounts
   - Gmail
