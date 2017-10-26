@@ -1,4 +1,4 @@
-sudo apt install fswebcamsudo pip install httplib2#!/bin/sh
+#!/bin/sh
 
 # Hochob Server General
 sudo apt install git
