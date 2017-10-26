@@ -104,6 +104,14 @@ user@workstation:~/Drones$ cd Firmware
 user@workstation:~/Drones/Firmware$ make posix jmavsim
 ```
 
+#### Ubuntu Server
+
+```sh
+user@workstation:~/Drones$ sudo add-apt-repository ppa:webupd8team/java
+user@workstation:~/Drones$ sudo apt-get update
+user@workstation:~/Drones$ sudo apt-get install oracle-java8-installer
+```
+
 ### Demo
 
 ```sh
