@@ -12,20 +12,18 @@
   - Drawing
   - Robot
   - Video
-- VisitorsCenter
-  - FamiliaDe..
-  - ..
-  - Image
-    - Infraestructure
-  - Music
-  - Sound
-  - Video
 - Visitors
   - [Name of Institution]
     - Camera
     - Drawing
     - Robot
     - Video
+- VisitorsCenter
+  - Image
+    - Infraestructure
+  - Music
+  - Sound
+  - Video
 
 # Hochob Server Media Source
 
