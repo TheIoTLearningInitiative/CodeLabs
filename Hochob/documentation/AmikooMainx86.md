@@ -1,4 +1,4 @@
-# Main x86
+sudo apt-get install nodejs# Main x86
 
 ```sh
 user@workstation:~$ sudo apt-get install espeak
