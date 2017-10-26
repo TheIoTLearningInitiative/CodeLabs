@@ -18,3 +18,11 @@ If not, naming convention is
 hochob@server:~$ sudo pip install httplib2
 hochob@server:~$ sudo python -m pip install --upgrade google-api-python-client
 ```
+
+## Secrets.Yaml
+
+```sh
+# Google Calendar API
+google_calendar_client_id: 
+google_calendar_client_secret: 
+```
