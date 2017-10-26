@@ -147,12 +147,12 @@
         * [Messaging](Hochob/documentation/ServicesMessaging.md)
         * [Motion](Hochob/documentation/ServicesMotion.md)
         * [Robot](Hochob/documentation/ServicesRobot.md)
-        * Sound
+        * [Sound](Hochob/documentation/sound.md)
           * [Play](Hochob/documentation/ServicesPlay.md)
           * [Speech Synthetizer](Hochob/documentation/SpeechSynthetizer.md)
         * [Stream](Hochob/documentation/Stream.md)
         * Usb
-        * Survey
+        * [Survey](Hochob/documentation/Survey.md)
         * Video
       * [Applications](Hochob/documentation/Applications.md)
         * [Captain Maya Lands](Hochob/documentation/ApplicationsCaptainMayaLands.md)
