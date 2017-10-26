@@ -79,6 +79,7 @@ Links
 pyme@pyme-desktop:~/Drones$ sudo apt update
 pyme@pyme-desktop:~/Drones$ sudo apt install git
 pyme@pyme-desktop:~/Drones$ sudo apt install python-pip
+pyme@pyme-desktop:~/Drones$ sudo apt install unzip
 ```
 
 ### PX4 Source Code
