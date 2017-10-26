@@ -257,15 +257,15 @@ homeassistant:
     # Calendar Maya Lands
     
     automation.pop:
-      friendly_name: 30 minutos .. Bienvenida Robot
+      friendly_name: 30 segundos .. Bienvenida Robot
       icon: mdi:calendar-clock
 
     automation.sip:
-      friendly_name: 30 minutos .. Bienvenida Servidor
+      friendly_name: 30 segundos .. Bienvenida Servidor
       icon: mdi:calendar-clock
 
     automation.wo:
-      friendly_name: 30 minutos .. Bienvenida Robot
+      friendly_name: 30 segundos .. Bienvenida Robot
       icon: mdi:calendar-clock
 
     # Tradition Maya Lands
@@ -810,7 +810,7 @@ automation:
     initial_state: 'off'
     trigger:
       platform: time
-      minutes: '/15'
+      minutes: '/10'
       seconds: 00
     action:
       - service: shell_command.imix
