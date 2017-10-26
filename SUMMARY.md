@@ -108,7 +108,7 @@
   * [Google Cloud Speech](EkBalam/documentation/GoogleCloudSpeech.md)
 * [Hochob](Hochob/documentation/Hochob.md)
   * [Introduction](Hochob/documentation/Introduction.md)
-  * [Architecture](Hochob/documentation/architecture.md)
+  * [Architecture](Hochob/documentation/Architecture.md)
     * [Accounts](Hochob/documentation/Accounts.md)
     * [Areas](Hochob/documentation/Area.md)
       * [Naming Conventions](Hochob/documentation/ServerArchitectureNamingConventions.md)
