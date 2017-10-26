@@ -40,7 +40,7 @@ sudo apt-get install motion
 
 # Hochob Server Services Sound Play
 sudo apt install mpg123
-sudo apt install vlc-bin
+sudo apt install vlc
 
 # Hochob Server Services Sound Speech Synthetizer
 sudo apt install espeak tee
