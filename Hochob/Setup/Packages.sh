@@ -20,16 +20,20 @@ sudo apt install fswebcam
 sudo apt install git mosquitto_clients
 
 # Hochob Server Services Image
+sudo apt install imagemagick
 sudo apt install eog
 
 # Hochob Server Services Institution
+# None
+
+# Hochob Server Services Keypad
 # None
 
 # Hochob Server Services Messaging
 # None
 
 # Hochob Server Services Motion
-# None
+sudo apt-get install motion
 
 # Hochob Server Services Robot
 # None
@@ -45,6 +49,9 @@ sudo apt install ffmpeg
 sudo apt install libav-tools
 
 # Hochob Server Services Usb
+# None
+
+# Hochob Server Services Survey
 # None
 
 # Hochob Server Services Video
