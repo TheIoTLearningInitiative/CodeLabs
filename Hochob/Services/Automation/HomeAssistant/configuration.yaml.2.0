@@ -738,7 +738,7 @@ switch:
 
       aak:
         command_on: "~/CodeLabs/Hochob/Applications/MediaMayaLands/Aak.sh &"
-        command_off: "/home/hochob/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
+        command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
       aayin:
         command_on: "~/CodeLabs/Hochob/Applications/MediaMayaLands/Aayin.sh &"
         command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh vlc"
