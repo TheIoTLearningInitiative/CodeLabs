@@ -32,6 +32,13 @@ Applications  Demo.sh  documentation  Main.sh  Sandbox  Services  Setup
 user@server:~/CodeLabs/Hochob$  
 ```
 
+```sh
+user@server:~/CodeLabs/Hochob$ cd Setup/
+user@server:~/CodeLabs/Hochob/Setup$ ls
+HochobServerMedia.sh  HochobServerMediaSource.sh  Packages.sh
+user@server:~/CodeLabs/Hochob/Setup$ 
+```
+
 ## Operating System
 
 ```sh
