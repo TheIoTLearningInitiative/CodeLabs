@@ -52,7 +52,7 @@ sudo apt install libav-tools
 # None
 
 # Hochob Server Services Survey
-# None
+sudo pip install paho-mqtt
 
 # Hochob Server Services Video
 sudo apt install ffmpeg
