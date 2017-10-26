@@ -18,5 +18,3 @@ If not, naming convention is
 hochob@server:~$ sudo pip install httplib2
 hochob@server:~$ sudo python -m pip install --upgrade google-api-python-client
 ```
-
-```
