@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Hochob Server Setup
-sudo apt install git
+sudo apt install git mosquitto_clients
 
 # Hochob Server Services Automation Home Assistant
 sudo apt install python3-setuptools
