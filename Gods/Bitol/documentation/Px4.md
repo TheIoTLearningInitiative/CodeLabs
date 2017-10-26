@@ -85,6 +85,9 @@ pyme@pyme-desktop:~/Drones$ sudo apt install unzip
 ### PX4 Source Code
 
 ```sh
+user@workstation:~/Drones$ wget https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_nuttx.sh
+user@workstation:~/Drones$ sudo apt-get remove modemmanager
+user@workstation:~/Drones$ sudo usermod -a -G dialout $USER
 user@workstation:~/Drones$ sudo sh ubuntu_sim_nuttx.sh
 ```
 
