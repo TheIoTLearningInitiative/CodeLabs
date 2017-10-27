@@ -78,5 +78,5 @@ MQTT Server
 
 ```sh
 mkdir ~/HochobServerMedia/Tradition
-
+Change from AREA_SOUTERN_MAYA_HIGHLANDS to SOUTERN_MAYA_HIGHLANDS
 ```
