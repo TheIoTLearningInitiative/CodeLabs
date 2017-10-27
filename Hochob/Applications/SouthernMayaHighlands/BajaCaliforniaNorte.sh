@@ -27,7 +27,7 @@ LogPid.sh $BAJACALIFORNIANORTE_PID $BAJACALIFORNIANORTE_NAME
 
 Memories.sh "5" "off" "${BAJACALIFORNIANORTE_NAME}" &
 
-Eog.sh "$TRADITION/VisitorsCenter/Image/*" &
+Eog.sh "$TRADITION_VISITORS_CENTER/Image/*" &
 sleep 2
 Vlc.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaNorte.mp3" &
 sleep 18.8
