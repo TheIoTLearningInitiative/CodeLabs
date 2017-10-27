@@ -26,11 +26,11 @@ LOCAL_ARGUMENT="$3"
 # =============================================================================
 
 if [ "$LOCAL_SKILL" = "audio" ]; then
-    LOCAL_SKILL=$AMIKOO_TRADITION_AUDIO
+    LOCAL_SKILL=$AMIKOO_AUDIO
 elif [ "$LOCAL_SKILL" = "image" ]; then
-    LOCAL_SKILL=$AMIKOO_TRADITION_IMAGE
+    LOCAL_SKILL=$AMIKOO_IMAGE
 elif [ "$LOCAL_SKILL" = "video" ]; then
-    LOCAL_SKILL=$AMIKOO_TRADITION_VIDEO
+    LOCAL_SKILL=$AMIKOO_VIDEO
 fi
 
 if [ "$LOCAL_ARGUMENT" = "stop" ]; then
