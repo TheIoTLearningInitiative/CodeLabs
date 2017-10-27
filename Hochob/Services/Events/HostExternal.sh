@@ -81,14 +81,10 @@ chooseReminder()
 chooseClosure()
 {
     LANGUAGE=$1
-    rand=$[ $RANDOM % 3 ]
-    echo $rand
-    if [ "$rand" = "1" ]; then
-        if [ "$LANGUAGE" = "english" ]; then
-            LOCAL_CLOSURE=${LOCAL_CLOSURE_ENGLISH}
-        else
-            LOCAL_CLOSURE=${LOCAL_CLOSURE_SPANISH}
-        fi
+    if [ "$LANGUAGE" = "english" ]; then
+        LOCAL_CLOSURE=${LOCAL_CLOSURE_ENGLISH}
+    else
+        LOCAL_CLOSURE=${LOCAL_CLOSURE_SPANISH}
     fi
 }
 
