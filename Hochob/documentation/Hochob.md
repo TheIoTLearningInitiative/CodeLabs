@@ -28,6 +28,8 @@
 ## Robot
 
 - Acknowledge termination Service Sound Speech Synthetizer by publishing __1__ through topic __amikoo/sound/speechsynthetizer__
-- Implement Service Sound to play sounds by subscribing to topic __amikoo/sound/play__ with message of the sound e.g. IntelBong IntelBongAd
 - Implement Service Traidition to play sounds by subscribing to topic __amikoo/tradition/halloween__
+- Implement Service Event to play random audios by subscribing to topic __ amikoo/events/external/audio__
+- Implement Service Event to play random images by subscribing to topic __ amikoo/events/external/image__
+- Implement Service Event to play random videos by subscribing to topic __ amikoo/events/external/video__
 - Implement Service Camera to take pictures by subscribing to topic __amikoo/camera/picture__
