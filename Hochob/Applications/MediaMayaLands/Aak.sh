@@ -25,6 +25,6 @@ export AAK_DIRECTORY=$(dirname "$AAK_PATH")
 
 LogPid.sh $AAK_PID $AAK_NAME
 
-Eog.sh "$TRADITION/Intel/Image/*" &
+Eog.sh "$TRADITION_INTEL/Image/*" &
 
 # End of File
