@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export IMIX_PID=$$
-export IMIX_NAME="Zacatecas"
+export IMIX_NAME="Imix"
 export IMIX_PATH=$(readlink -f "$0")
 export IMIX_DIRECTORY=$(dirname "$IMIX_PATH")
 
