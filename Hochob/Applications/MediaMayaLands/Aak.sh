@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export GUANAJUATO_PID=$$
-export GUANAJUATO_NAME="Guanajuato"
-export GUANAJUATO_PATH=$(readlink -f "$0")
-export GUANAJUATO_DIRECTORY=$(dirname "$GUANAJUATO_PATH")
+export AAK_PID=$$
+export AAK_NAME="Aak"
+export AAK_PATH=$(readlink -f "$0")
+export AAK_DIRECTORY=$(dirname "$AAK_PATH")
 
 # =============================================================================
 # Functions
@@ -23,8 +23,8 @@ export GUANAJUATO_DIRECTORY=$(dirname "$GUANAJUATO_PATH")
 # Main
 # =============================================================================
 
-LogPid.sh $GUANAJUATO_PID $GUANAJUATO_NAME
+LogPid.sh $AAK_PID $AAK_NAME
 
-Eog.sh "$CORPORATE_IMAGE/*" &
+Eog.sh "$TRADITION/Intel/Image/*" &
 
 # End of File
