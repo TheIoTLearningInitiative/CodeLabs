@@ -15,7 +15,13 @@
   - Video
 - Tradition
   - Intel
+    - Image
+    - Sound
+    - Video
   - Halloween
+    - Image
+    - Sound
+    - Video
 - Visitors
   - [Name of Institution]
     - Camera
