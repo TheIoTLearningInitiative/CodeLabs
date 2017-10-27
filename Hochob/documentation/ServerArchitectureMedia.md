@@ -22,11 +22,11 @@
     - Image
     - Sound
     - Video
-  - Halloween
+  - DiaDeMuertos
     - Image
     - Sound
     - Video
-  - Christmas
+  - Navidad
     - Image
     - Sound
     - Video
