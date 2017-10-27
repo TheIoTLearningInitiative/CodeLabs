@@ -24,6 +24,7 @@
 - Amikoo Tradition Sound
 - Amikoo Camera Picture
 - Intel Bong
+- Make Demo a option under HA UI
 
 ## Robot
 
