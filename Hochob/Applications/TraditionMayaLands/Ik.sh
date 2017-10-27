@@ -28,7 +28,6 @@ LOCAL_DEVICE="Triki"
 
 LogPid.sh $IK_PID $IK_NAME
 
-LOCAL_SOUND=`find $TRADITION_DIADEMUERTOS/Sound/ -type f | shuf -n 1`
-Stream.sh "$LOCAL_DEVICE" "1.0" "$LOCAL_SOUND"
+AmikooTradition.sh "$LOCAL_SEASON" "Audio" "Stop"
 
 # End of File
