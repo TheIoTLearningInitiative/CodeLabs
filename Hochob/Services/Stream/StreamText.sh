@@ -26,10 +26,10 @@ LOCAL_TEXT="$4"
 # =============================================================================
 
 if [ "$LOCAL_DEVICE" = "Amikoo" ] && [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Robot.sh $AMIKOO_SAY \
+    Amikoo.sh $AMIKOO_SAY \
     "${LOCAL_TEXT}"
 elif [ "$LOCAL_DEVICE" = "Amikoo" ] && [ "$LOCAL_LANGUAGE" = "spanish" ]; then
-    Robot.sh $AMIKOO_DECIR \
+    Amikoo.sh $AMIKOO_DECIR \
     "${LOCAL_TEXT}"
 else
     if [ "$LOCAL_LANGUAGE" = "english" ] && [ "$LOCAL_CHARACTER" = "robot" ]; then

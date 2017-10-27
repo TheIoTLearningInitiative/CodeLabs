@@ -36,7 +36,7 @@ sudo apt install eog
 # Hochob Server Services Motion
 sudo apt-get install motion
 
-# Hochob Server Services Robot
+# Hochob Server Services Amikoo
 # None
 
 # Hochob Server Services Sound Play

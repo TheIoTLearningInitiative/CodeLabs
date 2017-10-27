@@ -31,19 +31,19 @@ Eog.sh "$VISITORSCENTER_IMAGE/*" &
 sleep 2
 Vlc.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaNorte.mp3" &
 sleep 18.8
-Robot.sh lupe/decir "Nel Pastel"
+Amikoo.sh lupe/decir "Nel Pastel"
 sleep .6
-Robot.sh lupe/headright 1
+Amikoo.sh lupe/headright 1
 sleep .6
-Robot.sh lupe/headleft 1
+Amikoo.sh lupe/headleft 1
 sleep .6
-Robot.sh lupe/headright 1
+Amikoo.sh lupe/headright 1
 sleep .6
-Robot.sh lupe/headleft 1
+Amikoo.sh lupe/headleft 1
 sleep .6
-Robot.sh lupe/headright 1
+Amikoo.sh lupe/headright 1
 sleep .6
-Robot.sh lupe/resetall 1
+Amikoo.sh lupe/resetall 1
 sleep 5
 
 KillApp.sh "eog"

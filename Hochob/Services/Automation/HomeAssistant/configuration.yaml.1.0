@@ -52,7 +52,7 @@ homeassistant:
     friendly_name: Visitor Center Needs Technical Help
     icon: mdi:block-helper
 
-   # Lupe Robot
+   # Lupe Amikoo
 
    switch.leftup:
      friendly_name: Up
@@ -264,7 +264,7 @@ mqtt:
 
 script:
   luperobot:
-    alias: Lupe Robot
+    alias: Lupe Amikoo
     sequence:
       - alias: Bienvenidos a Intel Guadalajara
         service: tts.google_say
@@ -431,8 +431,8 @@ script:
 shell_command:
   restart_ha: sudo systemctl restart home-assistant.service &
   photography: python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
-  lupepresentation: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Presentation/Presentation.sh &
-  luperecognize: /home/hochob/CodeLabs/Hochob/LupeRobot/Learning/Recognize/Recognize.sh &
+  lupepresentation: /home/hochob/CodeLabs/Hochob/LupeAmikoo/Learning/Presentation/Presentation.sh &
+  luperecognize: /home/hochob/CodeLabs/Hochob/LupeAmikoo/Learning/Recognize/Recognize.sh &
   audiosectionone: bash /home/hochob/CodeLabs/Hochob/Audio/Section01.sh &
   audiosectiontwo: bash /home/hochob/CodeLabs/Hochob/Audio/Section02.sh &
   audiosectionthree: bash /home/hochob/CodeLabs/Hochob/Audio/Section03.sh &
@@ -451,18 +451,18 @@ shell_command:
   audiostopeek: bash /home/hochob/CodeLabs/Hochob/Audio/Stop.sh "Eek'" &
   audiopauseeek: bash /home/hochob/CodeLabs/Hochob/Audio/Pause.sh "Eek'" &
   audioplayeek: bash /home/hochob/CodeLabs/Hochob/Audio/Play.sh "Eek'" &
-  lupevirtualstart: bash /home/hochob/CodeLabs/Hochob/LupeRobot/Virtual/amikoo.sh &
+  lupevirtualstart: bash /home/hochob/CodeLabs/Hochob/LupeAmikoo/Virtual/amikoo.sh &
   lupevirtualstop: pkill node &
 
 switch:
   - platform: command_line
     switches:
       luperobot:
-        command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot1080p.sh &"
-        command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
+        command_on: "/home/hochob/CodeLabs/Hochob/LupeAmikoo/Show/LupeAmikoo1080p.sh &"
+        command_off: "/home/hochob/CodeLabs/Hochob/LupeAmikoo/Show/LupeAmikooKill.sh"
       lupecomplete:
-        command_on: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobot.sh &"
-        command_off: "/home/hochob/CodeLabs/Hochob/LupeRobot/Show/LupeRobotKill.sh"
+        command_on: "/home/hochob/CodeLabs/Hochob/LupeAmikoo/Show/LupeAmikoo.sh &"
+        command_off: "/home/hochob/CodeLabs/Hochob/LupeAmikoo/Show/LupeAmikooKill.sh"
       camerapreview:
         command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0 &"
         command_off: "pkill -9 vlc"
@@ -693,7 +693,7 @@ light:
   platform: hue
 
 automation:
-#  - alias: Lupe Robot Text To Speech
+#  - alias: Lupe Amikoo Text To Speech
 #    hide_entity: True
 #    trigger:
 #      platform: state
@@ -702,9 +702,9 @@ automation:
 #    action:
 #      service: tts.google_say
 #      data:
-#        message: "Bienvenido Robot Lupe"
+#        message: "Bienvenido Amikoo Lupe"
 #        language: 'es'
-  - alias: Lupe Robot Telegram
+  - alias: Lupe Amikoo Telegram
     #hide_entity: True
     trigger:
       platform: state
@@ -713,7 +713,7 @@ automation:
     action:
       service: notify.telegram
       data:
-        message: "Lupe Robot Station has been activated"
+        message: "Lupe Amikoo Station has been activated"
 
 group:
 
@@ -729,7 +729,7 @@ group:
 
   lupeview:
     view: yes
-    name: Lupe Robot
+    name: Lupe Amikoo
     entities:
       - group.lupearmleft
       - group.lupearmright
@@ -788,7 +788,7 @@ group:
     entities:
     - script.help
 
-  # Groups : Lupe Robot
+  # Groups : Lupe Amikoo
 
   lupeactivities:
     name: Activities

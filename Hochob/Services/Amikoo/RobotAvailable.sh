@@ -6,11 +6,11 @@ set -x
 # Variables
 # =============================================================================
 
-. ~/CodeLabs/Hochob/Main.sh
+#. ~/CodeLabs/Hochob/Main.sh
 
-export COJI_PID=$$
-export COJI_PATH=$(readlink -f "$0")
-export COJI_DIRECTORY=$(dirname "$COJI_PATH")
+export ROBOTAVAILABLE_PID=$$
+
+LOCAL_COMMAND="$1"
 
 # =============================================================================
 # Functions
@@ -22,13 +22,11 @@ export COJI_DIRECTORY=$(dirname "$COJI_PATH")
 # Main
 # =============================================================================
 
-LOCAL_LANGUAGE=`Language.sh`
-if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Amikoo.sh $AMIKOO_SAY \
-    "Hello World. I can speak English. One, Two, Three."
+if [ -z "$1" ]
+then
+    cat $HOCHOB_SERVER_CONFIGURATION_ROBOTAVAILABLE
 else
-    Amikoo.sh $AMIKOO_DECIR \
-    "Hola Mundo. Puedo hablar Español. Uno, Dos, Tres."
+    echo $LOCAL_COMMAND > $HOCHOB_SERVER_CONFIGURATION_ROBOTAVAILABLE
 fi
 
 # End of File

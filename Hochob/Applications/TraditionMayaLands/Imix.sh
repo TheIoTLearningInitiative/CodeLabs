@@ -34,9 +34,9 @@ Stream.sh "$LOCAL_DEVICE" "1.0" "$LOCAL_SOUND"
 exit 0
 
 if [ "$LANGUAGE" = "english" ]; then
-    Robot.sh $AMIKOO_SAY "Happy Halloween"
+    Amikoo.sh $AMIKOO_SAY "Happy Halloween"
 else
-    Robot.sh $AMIKOO_DECIR "Feliz dia de muertos"
+    Amikoo.sh $AMIKOO_DECIR "Feliz dia de muertos"
 fi
 
 # See implement WindRiver.sh logic, maybe Season service?

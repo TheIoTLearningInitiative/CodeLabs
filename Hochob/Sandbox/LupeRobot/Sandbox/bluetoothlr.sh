@@ -16,4 +16,4 @@ EOF
 
 sleep 3
 
-python /home/root/CodeLabs/Hochob/LupeRobot/bluetoothspp.py &
+python /home/root/CodeLabs/Hochob/LupeAmikoo/bluetoothspp.py &

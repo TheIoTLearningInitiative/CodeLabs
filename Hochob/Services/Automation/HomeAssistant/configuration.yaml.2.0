@@ -26,16 +26,16 @@ homeassistant:
       friendly_name: 1.1 Bienvenidos Intel, Protocolo de Seguridad
       icon: mdi:audiobook
 
-    # Southern Maya Highlands : 2 Robot
+    # Southern Maya Highlands : 2 Amikoo
 
     script.bajacalifornianorte:
       friendly_name: 2.1 Bienvenidos Guadalajara Design Center
       icon: mdi:audiobook
     script.bajacaliforniasur:
-      friendly_name: 2.2 Lupe Robot Show
+      friendly_name: 2.2 Lupe Amikoo Show
       icon: mdi:video
     script.michoacan:
-      friendly_name: 2.3 Lupe Robot Foto Grupal
+      friendly_name: 2.3 Lupe Amikoo Foto Grupal
       icon: mdi:video      
 
     # Southern Maya Highlands : 3 Tour
@@ -50,7 +50,7 @@ homeassistant:
       friendly_name: Sandbox
       icon: mdi:test-tube
 
-    # Robot Maya Lands
+    # Amikoo Maya Lands
 
     script.resetall:
       friendly_name: Ahora
@@ -173,7 +173,7 @@ homeassistant:
       icon: mdi:audiobook
 
     script.siankaan:
-      friendly_name: El Baile del Robot
+      friendly_name: El Baile del Amikoo
       icon: mdi:test-tube
 
     script.calakmul:
@@ -257,7 +257,7 @@ homeassistant:
     # Calendar Maya Lands
     
     automation.pop:
-      friendly_name: 30 segundos .. Bienvenida Robot
+      friendly_name: 30 segundos .. Bienvenida Amikoo
       icon: mdi:calendar-clock
 
     automation.sip:
@@ -265,7 +265,7 @@ homeassistant:
       icon: mdi:calendar-clock
 
     automation.wo:
-      friendly_name: 30 segundos .. Bienvenida Robot
+      friendly_name: 30 segundos .. Bienvenida Amikoo
       icon: mdi:calendar-clock
 
     # Tradition Maya Lands
@@ -441,7 +441,7 @@ script:
     sequence:
       - service: shell_command.zacatecas
 
-  # Robot Maya Lands
+  # Amikoo Maya Lands
 
   resetall:
     sequence:
@@ -668,33 +668,33 @@ shell_command:
   calakmul: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Calakmul.sh &
   tiburonballena: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/TiburonBallena.sh &
   
-  # Robot Maya Lands
+  # Amikoo Maya Lands
   
-  resetall: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/resetall 1
-  coji: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Coji.sh &
-  makeblock: ~/CodeLabs/Hochob/Applications/RobotMayaLands/Makeblock.sh &
+  resetall: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/resetall 1
+  coji: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Coji.sh &
+  makeblock: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Makeblock.sh &
 
-  amikoogcvisionapi: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh gcvisionapi 1
-  amikoogctranslationapi: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh gctranslationapi 1
+  amikoogcvisionapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gcvisionapi 1
+  amikoogctranslationapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gctranslationapi 1
 
-  headleft: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headleft 1
-  headright: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/headright 1
+  headleft: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/headleft 1
+  headright: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/headright 1
 
-  rightup: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightup
-  rightdown: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightdown
-  rightfold: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightfold
-  rightunfold: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/rightunfold
+  rightup: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/rightup
+  rightdown: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/rightdown
+  rightfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/rightfold
+  rightunfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/rightunfold
 
-  leftup: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftup
-  leftdown: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftdown
-  leftfold: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftfold
-  leftunfold: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/leftunfold
+  leftup: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/leftup
+  leftdown: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/leftdown
+  leftfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/leftfold
+  leftunfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/leftunfold
       
-  moveright: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/moveright
-  moveleft: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/moveleft
-  moveforward: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/moveforward
-  movebackward: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/movebackward
-  movestop: ~/CodeLabs/Hochob/Services/Robot/Remote/Robot.sh lupe/movestop
+  moveright: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/moveright
+  moveleft: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/moveleft
+  moveforward: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/moveforward
+  movebackward: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/movebackward
+  movestop: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/movestop
   
   # Console Maya Lands
 
@@ -870,11 +870,11 @@ group:
       - group.southernmayahighlandstour
       #- group.southernmayahighlandssandbox
 
-  # Robot Maya Lands
+  # Amikoo Maya Lands
 
   robotmayalands:
     view: yes
-    name: Robot
+    name: Amikoo
     entities:
       - group.robotmayalandsskills
       - group.robotmayalandsknowledge
@@ -974,10 +974,10 @@ group:
     entities:
       - script.aguascalientes
 
-  # Southern Maya Highlands: Robot
+  # Southern Maya Highlands: Amikoo
 
   southernmayahighlandsrobot:
-    name: 2 Robot
+    name: 2 Amikoo
     entities:
       - script.bajacalifornianorte
       - script.bajacaliforniasur
@@ -997,7 +997,7 @@ group:
     entities:
       - script.zacatecas
 
-  # Robot Maya Lands: Skills
+  # Amikoo Maya Lands: Skills
 
   robotmayalandsskills:
     name: Habilidades
@@ -1006,14 +1006,14 @@ group:
       - script.amikoogcvisionapi
       - script.amikoogctranslationapi
 
-  # Robot Maya Lands: Knowledge
+  # Amikoo Maya Lands: Knowledge
 
   robotmayalandsknowledge:
     name: Conocimiento
     entities:
       - script.makeblock
 
-  # Robot Maya Lands: Head
+  # Amikoo Maya Lands: Head
   
   robotmayalandshead:
     name: Cabeza
@@ -1021,7 +1021,7 @@ group:
       - script.headright
       - script.headleft
 
-  # Robot Maya Lands: Arm Right
+  # Amikoo Maya Lands: Arm Right
 
   robotmayalandsarmright:
     name: Brazo Derecho
@@ -1031,7 +1031,7 @@ group:
       - script.rightfold
       - script.rightunfold
 
-  # Robot Maya Lands: Arm Left
+  # Amikoo Maya Lands: Arm Left
 
   robotmayalandsarmleft:
     name: Brazo Izquierdo
@@ -1041,7 +1041,7 @@ group:
       - script.leftfold
       - script.leftunfold
 
-  # Robot Maya Lands: Legs
+  # Amikoo Maya Lands: Legs
 
   robotmayalandslegs:
     name: Piernas
@@ -1052,7 +1052,7 @@ group:
       - script.movebackward
       - script.movestop
 
-  # Robot Maya Lands: Reset
+  # Amikoo Maya Lands: Reset
 
   robotmayalandsreset:
     name: Reiniciar
@@ -1098,7 +1098,7 @@ group:
   # Northern Maya Highlands: Stations
 
   northernmayalowlandsrobot:
-    name: Robot
+    name: Amikoo
     entities:
       - script.siankaan
 
