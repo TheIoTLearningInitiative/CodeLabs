@@ -10,7 +10,8 @@ function espeakDecir(phrase) {
   var sleep = require('sleep')
   exec("echo " + phrase + " | espeak -v es-la -a 200 -p 50 -s 170 -w audio.wav", puts);
   sleep.msleep(500);
-  exec("aplay audio.wav", puts);  
+  exec("aplay audio.wav", puts);
+  sendAck()
 }
 
 function espeakSay(phrase) {
@@ -18,6 +19,7 @@ function espeakSay(phrase) {
   exec("echo " + phrase + " | espeak -v en-us -a 200 -p 50 -s 170 -w audio.wav", puts);
   sleep.msleep(500);
   exec("aplay audio.wav", puts);  
+  sendAck()
 }
 
 var state = 'closed'
@@ -140,6 +142,11 @@ client.on('message', function (topic, message) {
 function sendStateUpdate () {  
   console.log('Sending state %s', state)
   client.publish('lupe/state', state)
+}
+
+function sendAck () {  
+  console.log('Sending Ack %s', '1')
+  client.publish('lupe/ack', '1')
 }
 
 function handleRequestOpen (message) {  
