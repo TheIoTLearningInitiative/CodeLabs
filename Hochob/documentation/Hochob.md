@@ -20,7 +20,7 @@
 
 ## Server
 
-- Acknowledge under Survey
+- Survey Acknowledge
 - Amikoo Tradition Sound
 - Amikoo Camera Picture
 
