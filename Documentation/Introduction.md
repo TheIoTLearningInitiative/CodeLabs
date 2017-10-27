@@ -13,7 +13,7 @@
 - 07 __Chicanna__ Camara as a Service
 - 08 __Acat__ IBM Node-Red
 - 09 __Chacmultun__ Optimization Through Device Drivers Layers
-- 10 __Coba__ Your First Linux Kernel Module
+- 10 __Coba__ Linux Kernel Development
 - 11 __Ah Puch__ Recon Instruments __On Hold!__
 - 12 __Hochob__ Visitors Office
 - 13 __Awilix__ The IoT Learning Initiative
