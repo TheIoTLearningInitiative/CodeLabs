@@ -8,13 +8,12 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export IK_PID=$$
-export IK_NAME="Ik"
-export IK_PATH=$(readlink -f "$0")
-export IK_DIRECTORY=$(dirname "$IK_PATH")
+export KAN_PID=$$
+export KAN_NAME="Ik"
+export KAN_PATH=$(readlink -f "$0")
+export KAN_DIRECTORY=$(dirname "$KAN_PATH")
 
-LOCAL_TRADITION="DiaDeMuertos"
-LOCAL_DEVICE="Triki"
+LOCAL_TRADITION="Intel"
 
 # =============================================================================
 # Functions
@@ -26,8 +25,10 @@ LOCAL_DEVICE="Triki"
 # Main
 # =============================================================================
 
-LogPid.sh $IK_PID $IK_NAME
+LogPid.sh $KAN_PID $KAN_NAME
 
+AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "IntelBong.mp3"
+sleep 5
 AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "Random"
 sleep 5
 AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "Stop"
