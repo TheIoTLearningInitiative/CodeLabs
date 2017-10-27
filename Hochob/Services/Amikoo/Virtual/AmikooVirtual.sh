@@ -8,7 +8,7 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export ROBOTVIRTUAL_PID=$$
+export AMIKOOVIRTUAL_PID=$$
 
 LOCAL_MESSAGE="$1"
 
