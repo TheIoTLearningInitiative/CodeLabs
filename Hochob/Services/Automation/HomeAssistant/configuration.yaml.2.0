@@ -278,6 +278,14 @@ homeassistant:
       friendly_name: Sonidos Chromecast Reproducción
       icon: mdi:speaker
 
+    automation.ik:
+      friendly_name:  10 minutos .. Sonidos Robot
+      icon: mdi:calendar-clock
+
+    script.ik:
+      friendly_name: Sonidos Robot Reproducción
+      icon: mdi:speaker
+
     # Techie Maya Lands : System Health
 
     script.toyota:
@@ -597,6 +605,10 @@ script:
     sequence:
       - service: shell_command.imix
 
+  ik:
+    sequence:
+      - service: shell_command.ik
+
   # Techie Maya Lands
   
   toyota:
@@ -721,6 +733,7 @@ shell_command:
   # Tradition Maya Lands
 
   imix: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Imix.sh &
+  ik: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Ik.sh &
 
   # Techie Maya Lands
   
@@ -821,6 +834,16 @@ automation:
       seconds: 00
     action:
       - service: shell_command.imix
+
+
+  - alias: Ik
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    action:
+      - service: shell_command.ik
 
   # Techie Maya Lands: System Calendar
 
@@ -1199,6 +1222,8 @@ group:
     entities:
       - automation.imix
       - script.imix
+      - automation.imk
+      - script.ik
 
   # Techie Maya Lands: System Health
 
