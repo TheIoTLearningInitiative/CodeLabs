@@ -73,3 +73,8 @@ MQTT Server
  Hochob/Services/Keypad/HandlerYesNo.py          | 3 ++-
  Hochob/Services/Keypad/HandlerYesNo.sh          | 2 +-
 ```
+
+# Media
+
+mkdir ~/HochobServerMedia/Tradition
+
