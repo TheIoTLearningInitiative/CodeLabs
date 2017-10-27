@@ -39,8 +39,8 @@
 
 - Camera
   - Fswebcam
+- Drawing
 - Image
-  - Drawing
 - Sound
   - SpeechSynthesizer
     - Espeak
