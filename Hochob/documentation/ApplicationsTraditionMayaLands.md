@@ -16,5 +16,5 @@
   - __Friendly Name__: Chromecast Sounds Play
 
 - Ik'
-  - __Friendly Name__: 10 minutes .. Robot Sounds
+  - __Friendly Name__: 10 seconds .. Robot Sounds
   - __Friendly Name__: Robot Sounds Play
