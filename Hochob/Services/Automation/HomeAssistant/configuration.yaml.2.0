@@ -973,7 +973,8 @@ group:
     view: yes
     name: Tradición
     entities:
-      - group.traditionmayalandsdiademuertos
+      - group.traditionmayalandsdiademuertoschromecast
+      - group.traditionmayalandsdiademuertosrobot
   
   # Techie Maya Lands
 
@@ -1217,11 +1218,15 @@ group:
 
   # Tradition Maya Lands: Dia De Muertos
 
-  traditionmayalandsdiademuertos:
-    name: Dia De Muertos
+  traditionmayalandsdiademuertoschromecast:
+    name: Dia De Muertos :: Chromecast
     entities:
       - automation.imix
       - script.imix
+
+  traditionmayalandsdiademuertosamikoo:
+    name: Dia De Muertos :: Robot
+    entities:
       - automation.ik
       - script.ik
 
