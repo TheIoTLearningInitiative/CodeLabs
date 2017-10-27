@@ -28,7 +28,16 @@
 ## Robot
 
 - Acknowledge termination Service Sound Speech Synthetizer by publishing __1__ through topic __amikoo/sound/speechsynthetizer__
-- Implement Service Event to play random audios by subscribing to topic __amikoo/tradition/audio__ with message __Resource__
-- Implement Service Event to play random images by subscribing to topic __amikoo/tradition/image__ with message __Resource__
-- Implement Service Event to play random videos by subscribing to topic __amikoo/tradition/video__ with message __Resource__
+- Implement Service Event to play random audios by subscribing to topic __amikoo/tradition/audio__ with messages 
+  - __Name/<File>__
+  - __Name/Random__
+  - __Name/Stop__
+- Implement Service Event to play random images by subscribing to topic __amikoo/tradition/image__ with messages __Name/File__
+  - __Name/<File>__
+  - __Name/Random__
+  - __Name/Stop__
+- Implement Service Event to play random videos by subscribing to topic __amikoo/tradition/video__ with messages __Name/File__
+  - __Name/<File>__
+  - __Name/Random__
+  - __Name/Stop__
 - Implement Service Camera to take pictures by subscribing to topic __amikoo/camera/picture__
