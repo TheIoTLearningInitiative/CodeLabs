@@ -8,14 +8,14 @@ function puts(error, stdout, stderr) { sys.puts(stdout) }
 
 function espeakDecir(phrase) {
   var sleep = require('sleep')
-  exec("echo " + phrase + " | espeak -v es-la -a 200 -w audio.wav", puts);
+  exec("echo " + phrase + " | espeak -v es-la -a 200 -p 50 -s 170 -w audio.wav", puts);
   sleep.msleep(500);
   exec("aplay audio.wav", puts);  
 }
 
 function espeakSay(phrase) {
   var sleep = require('sleep')
-  exec("echo " + phrase + " | espeak -v en-us -a 200 -w audio.wav", puts);
+  exec("echo " + phrase + " | espeak -v en-us -a 200 -p 50 -s 170 -w audio.wav", puts);
   sleep.msleep(500);
   exec("aplay audio.wav", puts);  
 }
