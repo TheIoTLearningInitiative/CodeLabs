@@ -29,8 +29,7 @@ LogPid.sh $KAN_PID $KAN_NAME
 
 AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "IntelBong.mp3"
 sleep 5
-AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "Random"
-sleep 5
-AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "Stop"
+AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "IntelBongPeople.mp3"
+
 
 # End of File
