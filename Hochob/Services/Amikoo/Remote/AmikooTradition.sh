@@ -10,8 +10,10 @@ set -x
 
 export AMIKOOTRADITION_PID=$$
 
-LOCAL_COMMAND="$1"
-LOCAL_MESSAGE=""
+LOCAL_TRADITION="$1"
+LOCAL_SKILL="$2"
+LOCAL_ARGUMENT="$3"
+
 
 # =============================================================================
 # Functions
@@ -23,28 +25,20 @@ LOCAL_MESSAGE=""
 # Main
 # =============================================================================
 
-i=0
-for var in "$@"
-do
-    if [ "$i" -ne 0 ]; then
-      LOCAL_MESSAGE=$LOCAL_MESSAGE"$var"
-      echo $LOCAL_MESSAGE
-    fi
-    i=`expr $i + 1`
-done
-
-echo $LOCAL_MESSAGE
-
-# Skills Advanced
-
-if [ "$LOCAL_COMMAND" = "gcvisionapi" ]; then
-    Mosquitto.sh $AMIKOO_GCVISIONAPI "Google Cloud Vision API"
-elif [ "$LOCAL_COMMAND" = "gctranslationapi" ]; then
-    Mosquitto.sh $AMIKOO_GCTRANSLATIONAPI "Google Cloud Translation API"
+if [ "$LOCAL_SKILL" = "audio" ]; then
+    LOCAL_SKILL=$AMIKOO_TRADITION_AUDIO
+elif [ "$LOCAL_SKILL" = "image" ]; then
+    LOCAL_SKILL=$AMIKOO_TRADITION_IMAGE
+elif [ "$LOCAL_SKILL" = "video" ]; then
+    LOCAL_SKILL=$AMIKOO_TRADITION_VIDEO
 fi
 
-# Skills Basic
-
-Mosquitto.sh $LOCAL_COMMAND $LOCAL_MESSAGE
+if [ "$LOCAL_ARGUMENT" = "stop" ]; then
+    Mosquitto.sh $LOCAL_SKILL "$LOCAL_TRADITION/Stop"
+elif [ "$LOCAL_ARGUMENT" = "image" ]; then
+    Mosquitto.sh $LOCAL_SKILL "$LOCAL_TRADITION/Random"
+else
+    Mosquitto.sh $LOCAL_SKILL "$LOCAL_TRADITION/$LOCAL_ARGUMENT"
+fi
 
 # End of File
