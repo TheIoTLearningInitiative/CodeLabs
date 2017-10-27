@@ -27,8 +27,8 @@ var state = 'closed'
 client.on('connect', function () {  
   client.subscribe('lupe/open')
   client.subscribe('lupe/close')
-  client.subscribe('amikoo/decir')
-  client.subscribe('amikoo/say')
+  client.subscribe('amikoo/sound/speechsynthetizer/say')
+  client.subscribe('amikoo/sound/speechsynthetizer/decir')
 
   client.subscribe('lupe/resetall')
   client.subscribe('lupe/headleft')
@@ -73,9 +73,9 @@ client.on('message', function (topic, message) {
       return handleRequestOpen(message)
     case 'lupe/close':
       return handleRequestClose(message)
-    case 'amikoo/decir':
+    case 'amikoo/sound/speechsynthetizer/decir':
       return handleRequestDecir(message)
-    case 'amikoo/say':
+    case 'amikoo/sound/speechsynthetizer/say':
       return handleRequestSay(message)
 
     case 'lupe/resetall':
