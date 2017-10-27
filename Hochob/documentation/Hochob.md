@@ -17,3 +17,8 @@
 - Experience Day https://github.com/TheIoTLearningInitiative/CodeLabs/blob/Hochob/Hochob/Services/Stream/StreamAudio.sh
 - Experience Day https://github.com/TheIoTLearningInitiative/CodeLabs/blob/Hochob/Hochob/Applications/RobotMayaLands/Makeblock.sh
 - Season
+
+## Robot
+
+- Acknowledge termination of speech reproduction by sending __1__ through topic __amikoo/ack__ once a espeak command is completed
+- implement season feature to enable through topic __amikoo/season/halloween__ data __1__
