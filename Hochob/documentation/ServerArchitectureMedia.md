@@ -11,7 +11,7 @@
 - Memories
   - Camera
   - Drawing
-  - Robot
+  - Amikoo
   - Video
 - Tradition
   - Intel
