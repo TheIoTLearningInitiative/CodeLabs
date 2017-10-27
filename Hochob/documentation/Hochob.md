@@ -27,16 +27,17 @@
 
 ## Robot
 
+- Change fro lupe to amikoo
 - Acknowledge termination Service Sound Speech Synthetizer by publishing __1__ through topic __amikoo/sound/speechsynthetizer__
 - Implement Service Event to play random audios by subscribing to topic __amikoo/tradition/audio__ with messages 
   - __Name/<File>__
   - __Name/Random__
   - __Name/Stop__
-- Implement Service Event to play random images by subscribing to topic __amikoo/tradition/image__ with messages __Name/File__
+- Implement Service Event to play random images by subscribing to topic __amikoo/tradition/image__ with messages
   - __Name/<File>__
   - __Name/Random__
   - __Name/Stop__
-- Implement Service Event to play random videos by subscribing to topic __amikoo/tradition/video__ with messages __Name/File__
+- Implement Service Event to play random videos by subscribing to topic __amikoo/tradition/video__ with messages
   - __Name/<File>__
   - __Name/Random__
   - __Name/Stop__
