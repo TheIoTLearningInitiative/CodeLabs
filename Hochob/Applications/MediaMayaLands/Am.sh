@@ -25,6 +25,6 @@ export HIDALGO_DIRECTORY=$(dirname "$HIDALGO_PATH")
 
 LogPid.sh $HIDALGO_PID $HIDALGO_NAME
 
-Eog.sh "$VISITORSCENTER_IMAGE/*" &
+Eog.sh "$TRADITION/VisitorsCenter/Image/*" &
 
 # End of File
