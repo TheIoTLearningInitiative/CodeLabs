@@ -27,7 +27,6 @@
 
 ## Robot
 
-- Change fro lupe to amikoo
 - Acknowledge termination Service Sound Speech Synthetizer by publishing __Completed__ through topic __amikoo/sound/speechsynthetizer__
 - Implement Service Event to play random audios by subscribing to topic __amikoo/tradition/audio__ with messages 
   - __Name/<File>__
