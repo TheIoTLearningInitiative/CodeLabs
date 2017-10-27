@@ -120,7 +120,3 @@ user@server:~$
 ```sh
 hochob@server:~$ nano .homeassistant/configuration.yaml
 ```
-
-```sh
-...
-```
