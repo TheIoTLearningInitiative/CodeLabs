@@ -20,6 +20,6 @@
 
 ## Robot
 
-- Acknowledge termination of speech reproduction by sending __1__ through topic __lupe/ack__
+- Acknowledge termination of espeak speech reproduction by sending __1__ through topic __lupe/ack__
 - Implement season feature to enable through topic __amikoo/season/halloween__ data __1__
 - 
