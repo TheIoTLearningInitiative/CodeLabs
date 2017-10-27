@@ -12,5 +12,9 @@
 # Name: Dia De Muertos
 
 - Imix'
-  - __Friendly Name__: Scheduled Sounds
-  - __Friendly Name__: Play Sounds
+  - __Friendly Name__: 10 minutes .. Chromecast Sounds
+  - __Friendly Name__: Chromecast Sounds Play
+
+- Ik'
+  - __Friendly Name__: 10 minutes .. Robot Sounds
+  - __Friendly Name__: Robot Sounds Play
