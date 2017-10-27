@@ -6,12 +6,16 @@
   - NorthernMayaLowlands
 - Corporate
   - Image
+  - Sound
   - Video
 - Memories
   - Camera
   - Drawing
   - Robot
   - Video
+- Tradition
+  - Intel
+  - Halloween
 - Visitors
   - [Name of Institution]
     - Camera
