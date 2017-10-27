@@ -25,17 +25,17 @@ LOCAL_ARGUMENT="$3"
 # Main
 # =============================================================================
 
-if [ "$LOCAL_SKILL" = "audio" ]; then
+if [ "$LOCAL_SKILL" = "Audio" ]; then
     LOCAL_SKILL=$AMIKOO_AUDIO
-elif [ "$LOCAL_SKILL" = "image" ]; then
+elif [ "$LOCAL_SKILL" = "Image" ]; then
     LOCAL_SKILL=$AMIKOO_IMAGE
-elif [ "$LOCAL_SKILL" = "video" ]; then
+elif [ "$LOCAL_SKILL" = "Video" ]; then
     LOCAL_SKILL=$AMIKOO_VIDEO
 fi
 
-if [ "$LOCAL_ARGUMENT" = "stop" ]; then
+if [ "$LOCAL_ARGUMENT" = "Stop" ]; then
     Mosquitto.sh $LOCAL_SKILL "$LOCAL_TRADITION/Stop"
-elif [ "$LOCAL_ARGUMENT" = "image" ]; then
+elif [ "$LOCAL_ARGUMENT" = "Random" ]; then
     Mosquitto.sh $LOCAL_SKILL "$LOCAL_TRADITION/Random"
 else
     Mosquitto.sh $LOCAL_SKILL "$LOCAL_TRADITION/$LOCAL_ARGUMENT"
