@@ -20,6 +20,6 @@
 
 ## Robot
 
-- Acknowledge termination Service Speech Synthetizer by publishing __1__ through topic __lupe/ack__
-- Implement Service Traidition to play sounds by subscribing to topic __amikoo/season/halloween__
+- Acknowledge termination Service Sound Speech Synthetizer by publishing __1__ through topic __amikoo/sound/spech__
+- Implement Service Traidition to play sounds by subscribing to topic __amikoo/tradition/halloween__
 - Implement Service Camera to take pictures by subscribing to topic __amikoo/camera/
