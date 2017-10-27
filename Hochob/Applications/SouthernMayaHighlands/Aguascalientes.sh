@@ -27,7 +27,7 @@ LogPid.sh $AGUASCALIENTES_PID $AGUASCALIENTES_NAME
 
 Memories.sh "5" "off" "${AGUASCALIENTES_NAME}" &
 
-Eog.sh $CORPORATE_IMAGE &
+Eog.sh "$TRADITION_INTEL/Image/*" &
 Vlc.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Aguascalientes.mp3" &
 
 sleep 75
