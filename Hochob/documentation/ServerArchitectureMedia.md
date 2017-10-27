@@ -30,7 +30,7 @@
   - [Name of Institution]
     - Camera
     - Drawing
-    - Robot
+    - Amikoo
     - Video
 - VisitorsCenter
   - Image
