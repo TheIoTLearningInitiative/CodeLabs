@@ -671,11 +671,18 @@ shell_command:
   # Amikoo Maya Lands
   
   resetall: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/resetall 1
+  
+  # Amikoo Maya Lands: Applications
+
   coji: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Coji.sh &
   makeblock: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Makeblock.sh &
 
+  # Amikoo Maya Lands: Skills Advanced
+
   amikoogcvisionapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gcvisionapi 1
   amikoogctranslationapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gctranslationapi 1
+
+  # Amikoo Maya Lands: Skills Basic
 
   headleft: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/headleft 1
   headright: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/headright 1
