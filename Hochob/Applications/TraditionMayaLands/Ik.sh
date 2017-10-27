@@ -14,7 +14,6 @@ export IK_PATH=$(readlink -f "$0")
 export IK_DIRECTORY=$(dirname "$IK_PATH")
 
 LOCAL_TRADITION="DiaDeMuertos"
-LOCAL_DEVICE="Triki"
 
 # =============================================================================
 # Functions
