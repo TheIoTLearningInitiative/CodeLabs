@@ -974,7 +974,7 @@ group:
     name: Tradición
     entities:
       - group.traditionmayalandsdiademuertoschromecast
-      - group.traditionmayalandsdiademuertosrobot
+      - group.traditionmayalandsdiademuertosamikoo
   
   # Techie Maya Lands
 
