@@ -22,8 +22,6 @@ export ACAPULCO_DIRECTORY=$(dirname "$ACAPULCO_PATH")
 # Main
 # =============================================================================
 
-#Eog.sh $VISITORSCENTER_IMAGE/RP/RPP-May052017-4536.jpg &
-
 LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
