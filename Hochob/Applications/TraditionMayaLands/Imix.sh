@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export GOOGLE_PID=$$
-export GOOGLE_NAME="Zacatecas"
-export GOOGLE_PATH=$(readlink -f "$0")
-export GOOGLE_DIRECTORY=$(dirname "$GOOGLE_PATH")
+export IMIX_PID=$$
+export IMIX_NAME="Zacatecas"
+export IMIX_PATH=$(readlink -f "$0")
+export IMIX_DIRECTORY=$(dirname "$IMIX_PATH")
 
 LOCAL_SEASON="Halloween"
 LOCAL_DEVICE="Triki"
@@ -26,9 +26,9 @@ LOCAL_DEVICE="Triki"
 # Main
 # =============================================================================
 
-LogPid.sh $GOOGLE_PID $GOOGLE_NAME
+LogPid.sh $IMIX_PID $IMIX_NAME
 
-LOCAL_SOUND=`find $SEASON/$LOCAL_SEASON/ -type f | shuf -n 1`
+LOCAL_SOUND=`find $TRADITION/$LOCAL_SEASON/Sound/ -type f | shuf -n 1`
 Stream.sh "$LOCAL_DEVICE" "1.0" "$LOCAL_SOUND"
 
 exit 0
