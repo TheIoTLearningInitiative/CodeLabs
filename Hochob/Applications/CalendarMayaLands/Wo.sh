@@ -13,7 +13,7 @@ export WO_NAME="Wo"
 export WO_PATH=$(readlink -f "$0")
 export WO_DIRECTORY=$(dirname "$WO_PATH")
 
-LOCAL_INSTITUTION_NAME="Mexico"
+LOCAL_INSTITUTION_NAME="México"
 LOCAL_EVENT_NAME_ENGLISH="Intel Experience Day 2017"
 LOCAL_EVENT_NAME_SPANISH="Experiencia Intel 2017"
 
