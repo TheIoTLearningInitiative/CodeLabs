@@ -18,6 +18,12 @@
 - Experience Day https://github.com/TheIoTLearningInitiative/CodeLabs/blob/Hochob/Hochob/Applications/RobotMayaLands/Makeblock.sh
 - Season
 
+## Server
+
+- Acknowledge under Survey
+- Amikoo Tradition Sound
+- Amikoo Camera Picture
+
 ## Robot
 
 - Acknowledge termination Service Sound Speech Synthetizer by publishing __1__ through topic __amikoo/sound/speechsynthetizer__
