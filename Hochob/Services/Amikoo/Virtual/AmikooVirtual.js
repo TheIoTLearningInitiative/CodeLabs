@@ -27,8 +27,8 @@ var state = 'closed'
 client.on('connect', function () {  
   client.subscribe('lupe/open')
   client.subscribe('lupe/close')
-  client.subscribe('lupe/decir')
-  client.subscribe('lupe/say')
+  client.subscribe('amikoo/decir')
+  client.subscribe('amikoo/say')
 
   client.subscribe('lupe/resetall')
   client.subscribe('lupe/headleft')
@@ -73,9 +73,9 @@ client.on('message', function (topic, message) {
       return handleRequestOpen(message)
     case 'lupe/close':
       return handleRequestClose(message)
-    case 'lupe/decir':
+    case 'amikoo/decir':
       return handleRequestDecir(message)
-    case 'lupe/say':
+    case 'amikoo/say':
       return handleRequestSay(message)
 
     case 'lupe/resetall':
