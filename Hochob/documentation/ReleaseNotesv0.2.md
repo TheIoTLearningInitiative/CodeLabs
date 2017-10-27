@@ -76,5 +76,7 @@ MQTT Server
 
 # Media
 
+```sh
 mkdir ~/HochobServerMedia/Tradition
 
+```
