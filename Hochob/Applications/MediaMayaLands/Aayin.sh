@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export GUERRERO_PID=$$
-export GUERRERO_NAME="Guerrero"
-export GUERRERO_PATH=$(readlink -f "$0")
-export GUERRERO_DIRECTORY=$(dirname "$GUERRERO_PATH")
+export AAYIN_PID=$$
+export AAYIN_NAME="Aayin"
+export AAYIN_PATH=$(readlink -f "$0")
+export AAYIN_DIRECTORY=$(dirname "$AAYIN_PATH")
 
 # =============================================================================
 # Functions
@@ -23,8 +23,8 @@ export GUERRERO_DIRECTORY=$(dirname "$GUERRERO_PATH")
 # Main
 # =============================================================================
 
-LogPid.sh $GUERRERO_PID $GUERRERO_NAME
+LogPid.sh $AAYIN_PID $AAYIN_NAME
 
-VlcVideo.sh "on" "$CORPORATE_VIDEO/"
+VlcVideo.sh "on" "$TRADITION/Intel/Video/*"
 
 # End of File
