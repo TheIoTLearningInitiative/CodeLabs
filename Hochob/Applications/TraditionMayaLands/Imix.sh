@@ -28,9 +28,10 @@ LOCAL_DEVICE="Triki"
 
 LogPid.sh $GOOGLE_PID $GOOGLE_NAME
 
-
 LOCAL_SOUND=`find $SEASON/$LOCAL_SEASON/ -type f | shuf -n 1`
 Stream.sh "$LOCAL_DEVICE" "1.0" "$LOCAL_SOUND"
+
+exit 0
 
 if [ "$LANGUAGE" = "english" ]; then
     Robot.sh $AMIKOO_SAY "Happy Halloween"
