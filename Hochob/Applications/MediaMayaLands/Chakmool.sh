@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export JALISCO_PID=$$
-export JALISCO_NAME="Hidalgo"
-export JALISCO_PATH=$(readlink -f "$0")
-export JALISCO_DIRECTORY=$(dirname "$HIDALGO_PATH")
+export CHAKMOOL_PID=$$
+export CHAKMOOL_NAME="Chakmool"
+export CHAKMOOL_PATH=$(readlink -f "$0")
+export CHAKMOOL_DIRECTORY=$(dirname "$CHAKMOOL_PATH")
 
 # =============================================================================
 # Functions
@@ -23,8 +23,8 @@ export JALISCO_DIRECTORY=$(dirname "$HIDALGO_PATH")
 # Main
 # =============================================================================
 
-LogPid.sh $JALISCO_PID $JALISCO_NAME
+LogPid.sh $CHAKMOOL_PID $CHAKMOOL_NAME
 
-Eog.sh "$VISITORSCENTER_IMAGE/*" &
+Eog.sh "$TRADITION/VisitorsCenter/Image/*" &
 
 # End of File
