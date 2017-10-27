@@ -6,6 +6,7 @@
 - __Sip__
 - Sotz'
 - Sek
+- Xul
 
 To migrate
 
