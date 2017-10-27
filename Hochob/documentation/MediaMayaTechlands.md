@@ -35,18 +35,18 @@
 * **Services**:
   * **Video** VlcMediaPlayer
 
-# Name: Am Hidalgo
-
-* **Area** The Media
-* **Group** Visitors Center
-* **Friendly Name**: Image Showcase
-* **Services**:
-  * **Image** Eog
-
 # Name: Chakmool Jalisco
 
 * **Area** The Media
 * **Group** Intel Guadalajara
+* **Friendly Name**: Image Showcase
+* **Services**:
+  * **Image** Eog
+
+# Name: Am Hidalgo
+
+* **Area** The Media
+* **Group** Visitors Center
 * **Friendly Name**: Image Showcase
 * **Services**:
   * **Image** Eog
