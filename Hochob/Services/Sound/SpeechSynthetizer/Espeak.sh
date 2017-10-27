@@ -33,9 +33,9 @@ LOCAL_TEXT="$2"
 if [ $# -eq 2 ]
 then
     if [ "$LOCAL_LANGUAGE" = "english" ]; then
-        export ESPEAK_LANGUAGE="-v en-us -a 200"
+        export ESPEAK_LANGUAGE="-v en-us -a 100 -p 50 -s 170"
     elif [ "$LOCAL_LANGUAGE" = "spanish" ]; then
-        export ESPEAK_LANGUAGE="-v es-la -a 200"
+        export ESPEAK_LANGUAGE="-v es-la -a 100 -p 50 -s 170"
     fi
 
     export ESPEAK_INPUT="$LOCAL_TEXT"
