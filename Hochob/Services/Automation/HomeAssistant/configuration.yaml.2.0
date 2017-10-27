@@ -1222,7 +1222,7 @@ group:
     entities:
       - automation.imix
       - script.imix
-      - automation.imk
+      - automation.ik
       - script.ik
 
   # Techie Maya Lands: System Health
