@@ -28,7 +28,7 @@ LogPid.sh $MICHOACAN_PID $MICHOACAN_NAME
 
 LOCAL_INSTITUTION=`Name.sh`
 
-#Amikoo.sh lupe/decir \
+#Amikoo.sh $AMIKOO_DECIR \
 #   "Bienvenidos ${LOCAL_INSTITUTION} a mi casa, su casa. \
 #    Es un gusto conocerlos. Ya saben mi nombre, soy Lupe y \
 #    hace rato estaba un poco chiveado pero ya estoy listo para mostrarles \
