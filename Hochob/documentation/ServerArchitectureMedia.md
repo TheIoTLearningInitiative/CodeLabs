@@ -4,10 +4,6 @@
   - SouthernMayaHighlands
   - CentralMayaLowlands
   - NorthernMayaLowlands
-- Corporate (Old)
-  - Image
-  - Sound
-  - Video
 - Memories
   - Camera
   - Drawing
@@ -18,11 +14,19 @@
     - Image
     - Sound
     - Video
+  - IntelGuadalajara
+    - Image
+    - Sound
+    - Video
+  - VisitorsCenter
+    - Image
+    - Sound
+    - Video
   - Halloween
     - Image
     - Sound
     - Video
-  - Amikoo
+  - Christmas
     - Image
     - Sound
     - Video
@@ -32,12 +36,7 @@
     - Drawing
     - Amikoo
     - Video
-- VisitorsCenter
-  - Image
-    - Infraestructure
-  - Music
-  - Sound
-  - Video
+
 
 # Hochob Server Media Source
 

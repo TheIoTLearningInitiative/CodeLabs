@@ -22,7 +22,7 @@
 # Name: Aak Guanajuato
 
 * **Area** The Media
-* **Group** Corporate
+* **Group** Intel
 * **Friendly Name**: Image Showcase
 * **Services**:
   * **Image** Eog
@@ -30,7 +30,7 @@
   # Name: Aayin Guerrero
 
 * **Area** The Media
-* **Group** Corporate
+* **Group** Intel
 * **Friendly Name**: Video Showcase
 * **Services**:
   * **Video** VlcMediaPlayer
