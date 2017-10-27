@@ -4,7 +4,7 @@
   - SouthernMayaHighlands
   - CentralMayaLowlands
   - NorthernMayaLowlands
-- Corporate
+- Corporate (Old)
   - Image
   - Sound
   - Video
