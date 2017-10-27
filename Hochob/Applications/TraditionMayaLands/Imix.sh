@@ -13,7 +13,7 @@ export IMIX_NAME="Zacatecas"
 export IMIX_PATH=$(readlink -f "$0")
 export IMIX_DIRECTORY=$(dirname "$IMIX_PATH")
 
-LOCAL_SEASON="Halloween"
+LOCAL_SEASON="DiaDeMuertos"
 LOCAL_DEVICE="Triki"
 
 # =============================================================================
