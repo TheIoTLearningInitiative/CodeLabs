@@ -23,9 +23,11 @@
 - Survey Acknowledge
 - Amikoo Tradition Sound
 - Amikoo Camera Picture
+- Intel Bong
 
 ## Robot
 
 - Acknowledge termination Service Sound Speech Synthetizer by publishing __1__ through topic __amikoo/sound/speechsynthetizer__
+- Implement Service Sound to play sounds by subscribing to topic __amikoo/sound/play__ with message of the sound e.g. IntelBong
 - Implement Service Traidition to play sounds by subscribing to topic __amikoo/tradition/halloween__
 - Implement Service Camera to take pictures by subscribing to topic __amikoo/camera/picture__
