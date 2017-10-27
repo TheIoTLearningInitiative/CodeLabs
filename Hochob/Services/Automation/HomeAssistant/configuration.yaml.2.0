@@ -1219,13 +1219,13 @@ group:
   # Tradition Maya Lands: Dia De Muertos
 
   traditionmayalandsdiademuertoschromecast:
-    name: Dia De Muertos :: Chromecast
+    name: Dia De Muertos Chromecast
     entities:
       - automation.imix
       - script.imix
 
   traditionmayalandsdiademuertosamikoo:
-    name: Dia De Muertos :: Robot
+    name: Dia De Muertos Robot
     entities:
       - automation.ik
       - script.ik
