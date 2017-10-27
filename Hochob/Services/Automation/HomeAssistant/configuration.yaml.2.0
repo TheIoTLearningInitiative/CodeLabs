@@ -670,31 +670,31 @@ shell_command:
   
   # Amikoo Maya Lands
   
-  resetall: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/resetall 1
+  resetall: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/resetall 1
   coji: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Coji.sh &
   makeblock: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Makeblock.sh &
 
   amikoogcvisionapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gcvisionapi 1
   amikoogctranslationapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gctranslationapi 1
 
-  headleft: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/headleft 1
-  headright: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/headright 1
+  headleft: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/headleft 1
+  headright: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/headright 1
 
-  rightup: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/rightup
-  rightdown: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/rightdown
-  rightfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/rightfold
-  rightunfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/rightunfold
+  rightup: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/rightup
+  rightdown: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/rightdown
+  rightfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/rightfold
+  rightunfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/rightunfold
 
-  leftup: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/leftup
-  leftdown: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/leftdown
-  leftfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/leftfold
-  leftunfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/leftunfold
+  leftup: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/leftup
+  leftdown: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/leftdown
+  leftfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/leftfold
+  leftunfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/leftunfold
       
-  moveright: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/moveright
-  moveleft: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/moveleft
-  moveforward: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/moveforward
-  movebackward: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/movebackward
-  movestop: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/movestop
+  moveright: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/moveright
+  moveleft: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/moveleft
+  moveforward: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/moveforward
+  movebackward: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/movebackward
+  movestop: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/movestop
   
   # Console Maya Lands
 
