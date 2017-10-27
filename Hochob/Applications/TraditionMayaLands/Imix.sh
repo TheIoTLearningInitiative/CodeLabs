@@ -28,7 +28,7 @@ LOCAL_DEVICE="Triki"
 
 LogPid.sh $IMIX_PID $IMIX_NAME
 
-LOCAL_SOUND=`find $TRADITION/$LOCAL_SEASON/Sound/ -type f | shuf -n 1`
+LOCAL_SOUND=`find $TRADITION_DIADEMUERTOS/Sound/ -type f | shuf -n 1`
 Stream.sh "$LOCAL_DEVICE" "1.0" "$LOCAL_SOUND"
 
 exit 0
