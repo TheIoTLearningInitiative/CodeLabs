@@ -35,11 +35,30 @@ done
 
 echo $LOCAL_MESSAGE
 
+# Skills Advanced
 
 if [ "$LOCAL_COMMAND" = "gcvisionapi" ]; then
     Mosquitto.sh $AMIKOO_GCVISIONAPI "Google Cloud Vision API"
 elif [ "$LOCAL_COMMAND" = "gctranslationapi" ]; then
     Mosquitto.sh $AMIKOO_GCTRANSLATIONAPI "Google Cloud Translation API"
+fi
+
+# Skills Basic
+
+Mosquitto.sh $LOCAL_COMMAND $LOCAL_MESSAGE
+
+exit 0
+
+# Sandbox
+
+LOCAL_DEMO=`Demo.sh`
+if [ "$LOCAL_DEMO" -eq "1" ]; then
+    if [ "$LOCAL_MESSAGE" != "1" ]
+    then
+        Espeak.sh on spanish "$LOCAL_MESSAGE"
+    fi
+else
+    Mosquitto.sh $LOCAL_COMMAND "$LOCAL_MESSAGE"
 fi
 
 if [ "$LOCAL_COMMAND" = "lupe/message" ]; then
@@ -51,18 +70,6 @@ if [ "$LOCAL_COMMAND" = "lupe/message" ]; then
     fi
 else
     Mosquitto.sh $LOCAL_COMMAND $LOCAL_MESSAGE
-fi
-
-exit 0
-
-LOCAL_DEMO=`Demo.sh`
-if [ "$LOCAL_DEMO" -eq "1" ]; then
-    if [ "$LOCAL_MESSAGE" != "1" ]
-    then
-        Espeak.sh on spanish "$LOCAL_MESSAGE"
-    fi
-else
-    Mosquitto.sh $LOCAL_COMMAND "$LOCAL_MESSAGE"
 fi
 
 # End of File
