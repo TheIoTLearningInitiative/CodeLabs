@@ -25,6 +25,6 @@ export AAYIN_DIRECTORY=$(dirname "$AAYIN_PATH")
 
 LogPid.sh $AAYIN_PID $AAYIN_NAME
 
-VlcVideo.sh "on" "$TRADITION/Intel/Video/*"
+VlcVideo.sh "on" "$TRADITION_INTEL/Video/*"
 
 # End of File
