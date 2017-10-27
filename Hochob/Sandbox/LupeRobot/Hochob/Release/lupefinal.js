@@ -8,37 +8,37 @@ const exec = require('child_process').exec;
 
 client.on('connect', () => {
 
-	client.subscribe('lupe/leftup')
-	client.subscribe('lupe/leftdown')
-	client.subscribe('lupe/leftfold')
-	client.subscribe('lupe/leftunfold')
-	client.subscribe('lupe/moveleft')
-	client.subscribe('lupe/headleft')
-	client.subscribe('lupe/headright')
-	client.subscribe('lupe/moveforward')
-	client.subscribe('lupe/movestop')
-	client.subscribe('lupe/movebackward')
-	client.subscribe('lupe/rightup')
-	client.subscribe('lupe/rightdown')
-	client.subscribe('lupe/rightfold')
-	client.subscribe('lupe/rightunfold')
-	client.subscribe('lupe/moveright')
-	client.subscribe('lupe/resetall')
-	client.subscribe('lupe/bienvenida')
-	client.subscribe('lupe/agradece')
-	client.subscribe('lupe/dance')
-	client.subscribe('lupe/creador')
-	client.subscribe('lupe/norte')
+	client.subscribe('amikoo/leftup')
+	client.subscribe('amikoo/leftdown')
+	client.subscribe('amikoo/leftfold')
+	client.subscribe('amikoo/leftunfold')
+	client.subscribe('amikoo/moveleft')
+	client.subscribe('amikoo/headleft')
+	client.subscribe('amikoo/headright')
+	client.subscribe('amikoo/moveforward')
+	client.subscribe('amikoo/movestop')
+	client.subscribe('amikoo/movebackward')
+	client.subscribe('amikoo/rightup')
+	client.subscribe('amikoo/rightdown')
+	client.subscribe('amikoo/rightfold')
+	client.subscribe('amikoo/rightunfold')
+	client.subscribe('amikoo/moveright')
+	client.subscribe('amikoo/resetall')
+	client.subscribe('amikoo/bienvenida')
+	client.subscribe('amikoo/agradece')
+	client.subscribe('amikoo/dance')
+	client.subscribe('amikoo/creador')
+	client.subscribe('amikoo/norte')
 
 	//Comandos de voz
-	client.subscribe('lupe/inicial')
-	client.subscribe('lupe/emocion')
-	client.subscribe('lupe/porsupuesto')
-	client.subscribe('lupe/cerebro')
-	client.subscribe('lupe/inteledison')
+	client.subscribe('amikoo/inicial')
+	client.subscribe('amikoo/emocion')
+	client.subscribe('amikoo/porsupuesto')
+	client.subscribe('amikoo/cerebro')
+	client.subscribe('amikoo/inteledison')
 
-	//Saber si lupe esta conectada
-	client.publish('lupe/connected', '1')
+	//Saber si amikoo esta conectada
+	client.publish('amikoo/connected', '1')
 
 })
 
@@ -46,82 +46,82 @@ client.on('message', (topic,message) => {
 	console.log('receive message %s %s', topic, message)
 
 	switch(topic){
-		case 'lupe/leftup':
+		case 'amikoo/leftup':
 			command = '00'
 			break;
-		case 'lupe/inicial':
+		case 'amikoo/inicial':
 			command = '40'
 			break;
-		case 'lupe/emocion':
+		case 'amikoo/emocion':
 			command = '41'
 			break;
-		case 'lupe/porsupuesto':
+		case 'amikoo/porsupuesto':
 			command = '42'
 			break;
-		case 'lupe/cerebro':
+		case 'amikoo/cerebro':
 			command = '43'
 			break;
-		case 'lupe/inteledison':
+		case 'amikoo/inteledison':
 			command = '44'
 			break;
-		case 'lupe/leftdown':
+		case 'amikoo/leftdown':
 			command = '20'
 			break;			
-		case 'lupe/leftfold':
+		case 'amikoo/leftfold':
 			command = '01'
 			break;
-		case 'lupe/leftunfold':
+		case 'amikoo/leftunfold':
 			command = '21'
 			break;
-		case 'lupe/moveleft':
+		case 'amikoo/moveleft':
 			command = '02'
 			break;
-		case 'lupe/headleft':	
+		case 'amikoo/headleft':	
 			command = '04'
 			break;
-		case 'lupe/headright':	
+		case 'amikoo/headright':	
 			command = '24'
 			break;
-		case 'lupe/moveforward':
+		case 'amikoo/moveforward':
 			command = '05'
 			break;
-		case 'lupe/movestop':	
+		case 'amikoo/movestop':	
 			command = '06'
 			break;
-		case 'lupe/movebackward':
+		case 'amikoo/movebackward':
 			command = '07'
 			break;
-		case 'lupe/rightup'	:
+		case 'amikoo/rightup'	:
 			command = '08'
 			break;
-		case 'lupe/rightdown':
+		case 'amikoo/rightdown':
 			command = '28'
 			break;
-		case 'lupe/rightfold':
+		case 'amikoo/rightfold':
 			command = '09'
 			break;
-		case 'lupe/rightunfold':
+		case 'amikoo/rightunfold':
 			command = '29'
 			break;
-		case 'lupe/moveright':	
+		case 'amikoo/moveright':	
 			command = '10'
 			break;
-		case 'lupe/resetall':
+		case 'amikoo/resetall':
 			command = '11'
 			break;
-		case 'lupe/bienvenida':	
+		case 'amikoo/bienvenida':	
 			command = '80'
 			break;
-		case 'lupe/agradece':
+		case 'amikoo/agradece':
 			command = '81'
 			break;
-		case 'lupe/dance':	
+		case 'amikoo/dance':	
 			command = '82'
 			break;
-		case 'lupe/creador':
+		case 'amikoo/creador':
 			command = '83'
 			break;
-		case 'lupe/norte':	
+		case 'amikoo/norte':	
 			command = '84'
 			break;
 	}
@@ -148,7 +148,7 @@ function handleAppExit(options, err){
 	}
 
 	if(options.cleanup){
-		client.publish('lupe/connected', '0')
+		client.publish('amikoo/connected', '0')
 	}
 
 	if(options.exit){

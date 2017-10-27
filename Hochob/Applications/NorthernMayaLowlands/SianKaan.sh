@@ -38,9 +38,9 @@ fi
 
 Stream.sh "Eek'" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/SianKaan.mp3" &
 
-Amikoo.sh lupe/headright 1
+Amikoo.sh amikoo/headright 1
 sleep .6
-Amikoo.sh lupe/headleft 1
+Amikoo.sh amikoo/headleft 1
 sleep .6
 
 #kill -- -$(ps -o pgid=$SIANKAAN_PID | grep -o '[0-9]*')

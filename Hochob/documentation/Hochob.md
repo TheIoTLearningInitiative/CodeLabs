@@ -2,7 +2,7 @@
 
 > Hochob es un sitio arqueológico maya ubicado en el estado mexicano de Campeche, en la región denominada Los Chenes. Las primeras noticias sobre la existencia de este sitio arqueológico se debieron al investigador y explorador Teobert Maler, quien en 1887 visitó el lugar y publicó algunas fotografías en la revista Globus, en 1895. [Wikipedia](https://es.wikipedia.org/wiki/Hochob)
 
-# Lupe Robot
+# Lupe Amikoo
 
 Development
 
@@ -26,11 +26,11 @@ Same as Wrist Band
 ## Usability
 
 •	Easy Guide (Pending)
-o	Robot
+o	Amikoo
 
 ### Connection
 1. USB Cable
-2. Mario Robot 192.168.1.102
+2. Mario Amikoo 192.168.1.102
    - Ssh: root, inteledison
 
 3 modes
@@ -39,7 +39,7 @@ o	Robot
 2. Predetermined Movements English
 3. Predetermined Movements Spanish
 
-MoveStop to restart Mario Robot
+MoveStop to restart Mario Amikoo
 
 Files
 1.	MotorsandServos Binary

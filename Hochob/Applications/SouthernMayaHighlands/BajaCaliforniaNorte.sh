@@ -33,17 +33,17 @@ Vlc.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaNorte.mp3" &
 sleep 18.8
 Amikoo.sh $AMIKOO_DECIR "Nel Pastel"
 sleep .6
-Amikoo.sh lupe/headright 1
+Amikoo.sh amikoo/headright 1
 sleep .6
-Amikoo.sh lupe/headleft 1
+Amikoo.sh amikoo/headleft 1
 sleep .6
-Amikoo.sh lupe/headright 1
+Amikoo.sh amikoo/headright 1
 sleep .6
-Amikoo.sh lupe/headleft 1
+Amikoo.sh amikoo/headleft 1
 sleep .6
-Amikoo.sh lupe/headright 1
+Amikoo.sh amikoo/headright 1
 sleep .6
-Amikoo.sh lupe/resetall 1
+Amikoo.sh amikoo/resetall 1
 sleep 5
 
 KillApp.sh "eog"

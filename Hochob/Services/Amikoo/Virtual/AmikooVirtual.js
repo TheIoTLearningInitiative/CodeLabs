@@ -25,115 +25,115 @@ function espeakSay(phrase) {
 var state = 'closed'
 
 client.on('connect', function () {  
-  client.subscribe('lupe/open')
-  client.subscribe('lupe/close')
+  client.subscribe('amikoo/open')
+  client.subscribe('amikoo/close')
   client.subscribe('amikoo/sound/speechsynthetizer/say')
   client.subscribe('amikoo/sound/speechsynthetizer/decir')
 
-  client.subscribe('lupe/resetall')
-  client.subscribe('lupe/headleft')
-  client.subscribe('lupe/headright')
+  client.subscribe('amikoo/resetall')
+  client.subscribe('amikoo/headleft')
+  client.subscribe('amikoo/headright')
 
-  client.subscribe('lupe/leftup')
-  client.subscribe('lupe/leftdown')
-  client.subscribe('lupe/leftfold')
-  client.subscribe('lupe/leftunfold')
+  client.subscribe('amikoo/leftup')
+  client.subscribe('amikoo/leftdown')
+  client.subscribe('amikoo/leftfold')
+  client.subscribe('amikoo/leftunfold')
 
-  client.subscribe('lupe/rightup')
-  client.subscribe('lupe/rightdown')
-  client.subscribe('lupe/rightfold')
-  client.subscribe('lupe/rightunfold')
+  client.subscribe('amikoo/rightup')
+  client.subscribe('amikoo/rightdown')
+  client.subscribe('amikoo/rightfold')
+  client.subscribe('amikoo/rightunfold')
 
-  client.subscribe('lupe/moveleft')
-  client.subscribe('lupe/moveright')
-  client.subscribe('lupe/moveforward')
-  client.subscribe('lupe/movebackward')
-  client.subscribe('lupe/movestop')
+  client.subscribe('amikoo/moveleft')
+  client.subscribe('amikoo/moveright')
+  client.subscribe('amikoo/moveforward')
+  client.subscribe('amikoo/movebackward')
+  client.subscribe('amikoo/movestop')
 
-  client.subscribe('lupe/bienvenida')
-  client.subscribe('lupe/agradece')
-  client.subscribe('lupe/dance')
-  client.subscribe('lupe/creador')
-  client.subscribe('lupe/norte')
+  client.subscribe('amikoo/bienvenida')
+  client.subscribe('amikoo/agradece')
+  client.subscribe('amikoo/dance')
+  client.subscribe('amikoo/creador')
+  client.subscribe('amikoo/norte')
 
-  client.subscribe('lupe/inicial')
-  client.subscribe('lupe/emocion')
-  client.subscribe('lupe/porsupuesto')
-  client.subscribe('lupe/cerebro')
-  client.subscribe('lupe/inteledison')
+  client.subscribe('amikoo/inicial')
+  client.subscribe('amikoo/emocion')
+  client.subscribe('amikoo/porsupuesto')
+  client.subscribe('amikoo/cerebro')
+  client.subscribe('amikoo/inteledison')
 
-  client.publish('lupe/connected', 'true')
+  client.publish('amikoo/connected', 'true')
   sendStateUpdate()
 })
 
 client.on('message', function (topic, message) {  
   console.log('Received message %s %s', topic, message)
   switch (topic) {
-    case 'lupe/open':
+    case 'amikoo/open':
       return handleRequestOpen(message)
-    case 'lupe/close':
+    case 'amikoo/close':
       return handleRequestClose(message)
     case 'amikoo/sound/speechsynthetizer/decir':
       return handleRequestDecir(message)
     case 'amikoo/sound/speechsynthetizer/say':
       return handleRequestSay(message)
 
-    case 'lupe/resetall':
+    case 'amikoo/resetall':
       return handleLupe('Inicializacion')
-    case 'lupe/headleft':
+    case 'amikoo/headleft':
       return handleLupe('Cabeza Izquierda')
-    case 'lupe/headright':
+    case 'amikoo/headright':
       return handleLupe('Cabeza Derecha')
 
-    case 'lupe/leftup':
+    case 'amikoo/leftup':
       return handleLupe('Mano Izquierda Arriba')
-    case 'lupe/leftdown':
+    case 'amikoo/leftdown':
       return handleLupe('Mano Izquierda Abajo')
-    case 'lupe/leftfold':
+    case 'amikoo/leftfold':
       return handleLupe('Codo Izquierdo Doblar')
-    case 'lupe/leftunfold':
+    case 'amikoo/leftunfold':
       return handleLupe('Codo Izquierdo Desdoblar')
 
-    case 'lupe/rightup':
+    case 'amikoo/rightup':
       return handleLupe('Mano Derecha Arriba')
-    case 'lupe/rightdown':
+    case 'amikoo/rightdown':
       return handleLupe('Mano Derecha Abajo')
-    case 'lupe/rightfold':
+    case 'amikoo/rightfold':
       return handleLupe('Codo Derecho Doblar')
-    case 'lupe/rightunfold':
+    case 'amikoo/rightunfold':
       return handleLupe('Code Derecho Desdoblar')
 
-    case 'lupe/moveleft':
+    case 'amikoo/moveleft':
       return handleLupe('Mover Izquierda')
-    case 'lupe/moveright':
+    case 'amikoo/moveright':
       return handleLupe('Mover Derecha')
-    case 'lupe/moveforward':
+    case 'amikoo/moveforward':
       return handleLupe('Mover Adelante')
-    case 'lupe/movebackward':
+    case 'amikoo/movebackward':
       return handleLupe('Mover Atras')
-    case 'lupe/movestop':
+    case 'amikoo/movestop':
       return handleLupe('Mover Alto')
 
-    case 'lupe/bienvenida':
+    case 'amikoo/bienvenida':
       return handleLupe('Bienvenido')
-    case 'lupe/agradece':
+    case 'amikoo/agradece':
       return handleLupe('Gracias')
-    case 'lupe/dance':
+    case 'amikoo/dance':
       return handleLupe('Bailar')
-    case 'lupe/creador':
+    case 'amikoo/creador':
       return handleLupe('Creador')
-    case 'lupe/norte':
+    case 'amikoo/norte':
       return handleLupe('Norte')
 
-    case 'lupe/inicial':
+    case 'amikoo/inicial':
       return handleSpeakLupe('Hola a todos!')
-    case 'lupe/emocion':
+    case 'amikoo/emocion':
       return handleSpeakLupe('Perdon! Lo se!, Es que me emociono!')
-    case 'lupe/porsupuesto':
+    case 'amikoo/porsupuesto':
       return handleSpeakLupe('Por supuesto')
-    case 'lupe/cerebro':
+    case 'amikoo/cerebro':
       return handleSpeakLupe('En mi caso, mi cerebro esta aqui, en la caja azul!')
-    case 'lupe/inteledison':
+    case 'amikoo/inteledison':
       return handleSpeakLupe('Yo funciono con la plataforma Intel Edison')
 
   }
@@ -141,12 +141,12 @@ client.on('message', function (topic, message) {
 
 function sendStateUpdate () {  
   console.log('Sending state %s', state)
-  client.publish('lupe/state', state)
+  client.publish('amikoo/state', state)
 }
 
 function sendAck () {  
   console.log('Sending Ack %s', '1')
-  client.publish('lupe/ack', '1')
+  client.publish('amikoo/ack', '1')
 }
 
 function handleRequestOpen (message) {  
@@ -199,7 +199,7 @@ function handleAppExit (options, err) {
   }
 
   if (options.cleanup) {
-    client.publish('lupe/connected', 'false')
+    client.publish('amikoo/connected', 'false')
   }
 
   if (options.exit) {

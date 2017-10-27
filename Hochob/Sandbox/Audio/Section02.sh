@@ -29,19 +29,19 @@ feh --fullscreen $IPATH/Images/VisitorsCenter/02/08.jpg &
 sleep 2
 feh --fullscreen $IPATH/Images/VisitorsCenter/02/09.jpg &
 sleep 2
-feh --fullscreen $IPATH/Images/VisitorsCenter/lupe.jpg &
+feh --fullscreen $IPATH/Images/VisitorsCenter/amikoo.jpg &
 sleep 4
-mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headright -m 1
+mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t amikoo/headright -m 1
 sleep .6
-mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headleft -m 1
+mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t amikoo/headleft -m 1
 sleep .6
-mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headright -m 1
+mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t amikoo/headright -m 1
 sleep .6
-mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headleft -m 1
+mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t amikoo/headleft -m 1
 sleep .6
-mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/headright -m 1
+mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t amikoo/headright -m 1
 sleep .6
-mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t lupe/resetall -m 1
+mosquitto_pub -h $MQTTSERVER -p $MQTTPORT -q 1 -t amikoo/resetall -m 1
 sleep 10
 killall -9 feh
 

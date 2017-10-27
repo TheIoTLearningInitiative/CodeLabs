@@ -24,10 +24,10 @@ homeassistant:
    script.audiosectiontwo:
     friendly_name: 2.1 Antes del video
     icon: mdi:audiobook
-   switch.luperobot:
+   switch.amikoorobot:
     friendly_name: 2.2 Video
     icon: mdi:video
-   script.luperobot:
+   script.amikoorobot:
     friendly_name: 2.3 Lupe robot
     icon: mdi:human-greeting
    script.audiosectionthree:
@@ -177,7 +177,7 @@ homeassistant:
 
    # Support : Lupe
 
-   script.luperecognize:
+   script.amikoorecognize:
     friendly_name: Recognize Speech
     icon: mdi:microphone
 
@@ -197,9 +197,9 @@ homeassistant:
 
    media_player.main:
     hidden: yes
-   automation.lupe_robot_text_to_speech:
+   automation.amikoo_robot_text_to_speech:
     hidden: yes
-   automation.lupe_robot_telegram:
+   automation.amikoo_robot_telegram:
     hidden: yes
 
 # Show links to resources in log and frontend
@@ -263,7 +263,7 @@ mqtt:
   keepalive: 60
 
 script:
-  luperobot:
+  amikoorobot:
     alias: Lupe Amikoo
     sequence:
       - alias: Bienvenidos a Intel Guadalajara
@@ -381,29 +381,29 @@ script:
 
   # Lupe Center
 
-  lupevirtualstart:
+  amikoovirtualstart:
     alias: Lupe Virtual Start
     sequence:
       - alias: Lupe Virtual Start
-        service: shell_command.lupevirtualstart
-  lupevirtualstop:
+        service: shell_command.amikoovirtualstart
+  amikoovirtualstop:
     alias: Lupe Virtual Stop
     sequence:
       - alias: Lupe Virtual Stop
-        service: shell_command.lupevirtualstop
+        service: shell_command.amikoovirtualstop
 
-  lupepresentation:
+  amikoopresentation:
     alias: Lupe Presentation
     sequence:
       - alias: Presentation
-        service: shell_command.lupepresentation
-  luperecognize:
+        service: shell_command.amikoopresentation
+  amikoorecognize:
     alias: Lupe Recognize
     sequence:
       - alias: Recognize Speech
-        service: shell_command.luperecognize
+        service: shell_command.amikoorecognize
 
-  lupe_arm_left:
+  amikoo_arm_left:
     alias: Lupe Arm Left
     sequence:
       - alias: Lupe Arm Up
@@ -411,7 +411,7 @@ script:
         data:
           message: "Lupe Moviendo Brazo Izquierdo"
           language: 'es'
-  lupe_arm_right:
+  amikoo_arm_right:
     alias: Lupe Arm Right
     sequence:
       - alias: Lupe Arm Right
@@ -419,7 +419,7 @@ script:
         data:
           message: "Lupe Moviendo Brazo Derecho"
           language: 'es'
-  lupe_dance:
+  amikoo_dance:
     alias: Lupe Dance
     sequence:
       - alias: Lupe Dance
@@ -431,8 +431,8 @@ script:
 shell_command:
   restart_ha: sudo systemctl restart home-assistant.service &
   photography: python /home/hochob/CodeLabs/Hochob/Photography/selfie.py &
-  lupepresentation: /home/hochob/CodeLabs/Hochob/LupeAmikoo/Learning/Presentation/Presentation.sh &
-  luperecognize: /home/hochob/CodeLabs/Hochob/LupeAmikoo/Learning/Recognize/Recognize.sh &
+  amikoopresentation: /home/hochob/CodeLabs/Hochob/LupeAmikoo/Learning/Presentation/Presentation.sh &
+  amikoorecognize: /home/hochob/CodeLabs/Hochob/LupeAmikoo/Learning/Recognize/Recognize.sh &
   audiosectionone: bash /home/hochob/CodeLabs/Hochob/Audio/Section01.sh &
   audiosectiontwo: bash /home/hochob/CodeLabs/Hochob/Audio/Section02.sh &
   audiosectionthree: bash /home/hochob/CodeLabs/Hochob/Audio/Section03.sh &
@@ -451,16 +451,16 @@ shell_command:
   audiostopeek: bash /home/hochob/CodeLabs/Hochob/Audio/Stop.sh "Eek'" &
   audiopauseeek: bash /home/hochob/CodeLabs/Hochob/Audio/Pause.sh "Eek'" &
   audioplayeek: bash /home/hochob/CodeLabs/Hochob/Audio/Play.sh "Eek'" &
-  lupevirtualstart: bash /home/hochob/CodeLabs/Hochob/LupeAmikoo/Virtual/amikoo.sh &
-  lupevirtualstop: pkill node &
+  amikoovirtualstart: bash /home/hochob/CodeLabs/Hochob/LupeAmikoo/Virtual/amikoo.sh &
+  amikoovirtualstop: pkill node &
 
 switch:
   - platform: command_line
     switches:
-      luperobot:
+      amikoorobot:
         command_on: "/home/hochob/CodeLabs/Hochob/LupeAmikoo/Show/LupeAmikoo1080p.sh &"
         command_off: "/home/hochob/CodeLabs/Hochob/LupeAmikoo/Show/LupeAmikooKill.sh"
-      lupecomplete:
+      amikoocomplete:
         command_on: "/home/hochob/CodeLabs/Hochob/LupeAmikoo/Show/LupeAmikoo.sh &"
         command_off: "/home/hochob/CodeLabs/Hochob/LupeAmikoo/Show/LupeAmikooKill.sh"
       camerapreview:
@@ -484,8 +484,8 @@ switch:
 switch 00:
   - platform: mqtt
     name: leftup
-    command_topic: "lupe/leftup"
-    state_topic: "lupe/leftup/state"
+    command_topic: "amikoo/leftup"
+    state_topic: "amikoo/leftup/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -493,8 +493,8 @@ switch 00:
 switch 01:
   - platform: mqtt
     name: leftdown
-    command_topic: "lupe/leftdown"
-    state_topic: "lupe/leftdown/state"
+    command_topic: "amikoo/leftdown"
+    state_topic: "amikoo/leftdown/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -502,8 +502,8 @@ switch 01:
 switch 02:
   - platform: mqtt
     name: leftfold
-    command_topic: "lupe/leftfold"
-    state_topic: "lupe/leftfold/state"
+    command_topic: "amikoo/leftfold"
+    state_topic: "amikoo/leftfold/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -511,8 +511,8 @@ switch 02:
 switch 03:
   - platform: mqtt
     name: leftunfold
-    command_topic: "lupe/leftunfold"
-    state_topic: "lupe/leftunfold/state"
+    command_topic: "amikoo/leftunfold"
+    state_topic: "amikoo/leftunfold/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -520,8 +520,8 @@ switch 03:
 switch 04:
   - platform: mqtt
     name: rightup
-    command_topic: "lupe/rightup"
-    state_topic: "lupe/rightup/state"
+    command_topic: "amikoo/rightup"
+    state_topic: "amikoo/rightup/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -529,8 +529,8 @@ switch 04:
 switch 05:
   - platform: mqtt
     name: rightdown
-    command_topic: "lupe/rightdown"
-    state_topic: "lupe/rightdown/state"
+    command_topic: "amikoo/rightdown"
+    state_topic: "amikoo/rightdown/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -538,8 +538,8 @@ switch 05:
 switch 06:
   - platform: mqtt
     name: rightfold
-    command_topic: "lupe/rightfold"
-    state_topic: "lupe/rightfold/state"
+    command_topic: "amikoo/rightfold"
+    state_topic: "amikoo/rightfold/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -547,8 +547,8 @@ switch 06:
 switch 07:
   - platform: mqtt
     name: rightunfold
-    command_topic: "lupe/rightunfold"
-    state_topic: "lupe/rightunfold/state"
+    command_topic: "amikoo/rightunfold"
+    state_topic: "amikoo/rightunfold/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -556,8 +556,8 @@ switch 07:
 switch 08:
   - platform: mqtt
     name: moveleft
-    command_topic: "lupe/moveleft"
-    state_topic: "lupe/moveleft/state"
+    command_topic: "amikoo/moveleft"
+    state_topic: "amikoo/moveleft/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -565,8 +565,8 @@ switch 08:
 switch 09:
   - platform: mqtt
     name: moveright
-    command_topic: "lupe/moveright"
-    state_topic: "lupe/moveright/state"
+    command_topic: "amikoo/moveright"
+    state_topic: "amikoo/moveright/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -574,8 +574,8 @@ switch 09:
 switch 10:
   - platform: mqtt
     name: moveforward
-    command_topic: "lupe/moveforward"
-    state_topic: "lupe/moveforward/state"
+    command_topic: "amikoo/moveforward"
+    state_topic: "amikoo/moveforward/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -583,8 +583,8 @@ switch 10:
 switch 11:
   - platform: mqtt
     name: movebackward
-    command_topic: "lupe/movebackward"
-    state_topic: "lupe/movebackward/state"
+    command_topic: "amikoo/movebackward"
+    state_topic: "amikoo/movebackward/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -592,8 +592,8 @@ switch 11:
 switch 12:
   - platform: mqtt
     name: movestop
-    command_topic: "lupe/movestop"
-    state_topic: "lupe/movestop/state"
+    command_topic: "amikoo/movestop"
+    state_topic: "amikoo/movestop/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -601,8 +601,8 @@ switch 12:
 switch 13:
   - platform: mqtt
     name: headleft
-    command_topic: "lupe/headleft"
-    state_topic: "lupe/headleft/state"
+    command_topic: "amikoo/headleft"
+    state_topic: "amikoo/headleft/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -610,8 +610,8 @@ switch 13:
 switch 14:
   - platform: mqtt
     name: headright
-    command_topic: "lupe/headright"
-    state_topic: "lupe/headright/state"
+    command_topic: "amikoo/headright"
+    state_topic: "amikoo/headright/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -619,8 +619,8 @@ switch 14:
 switch 15:
   - platform: mqtt
     name: resetall
-    command_topic: "lupe/resetall"
-    state_topic: "lupe/resetall/state"
+    command_topic: "amikoo/resetall"
+    state_topic: "amikoo/resetall/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -628,8 +628,8 @@ switch 15:
 switch 16:
   - platform: mqtt
     name: bienvenida
-    command_topic: "lupe/bienvenida"
-    state_topic: "lupe/bienvenida/state"
+    command_topic: "amikoo/bienvenida"
+    state_topic: "amikoo/bienvenida/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -637,8 +637,8 @@ switch 16:
 switch 17:
   - platform: mqtt
     name: agradece
-    command_topic: "lupe/agradece"
-    state_topic: "lupe/agradece/state"
+    command_topic: "amikoo/agradece"
+    state_topic: "amikoo/agradece/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -646,8 +646,8 @@ switch 17:
 switch 18:
   - platform: mqtt
     name: dance
-    command_topic: "lupe/dance"
-    state_topic: "lupe/dance/state"
+    command_topic: "amikoo/dance"
+    state_topic: "amikoo/dance/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -655,8 +655,8 @@ switch 18:
 switch 19:
   - platform: mqtt
     name: creador
-    command_topic: "lupe/creador"
-    state_topic: "lupe/creador/state"
+    command_topic: "amikoo/creador"
+    state_topic: "amikoo/creador/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -664,8 +664,8 @@ switch 19:
 switch 20:
   - platform: mqtt
     name: norte
-    command_topic: "lupe/norte"
-    state_topic: "lupe/norte/state"
+    command_topic: "amikoo/norte"
+    state_topic: "amikoo/norte/state"
     payload_on: 1
     payload_off: 0
     qos: 1
@@ -697,7 +697,7 @@ automation:
 #    hide_entity: True
 #    trigger:
 #      platform: state
-#      entity_id: switch.lupe
+#      entity_id: switch.amikoo
 #      state: 'on'
 #    action:
 #      service: tts.google_say
@@ -708,7 +708,7 @@ automation:
     #hide_entity: True
     trigger:
       platform: state
-      entity_id: switch.lupe
+      entity_id: switch.amikoo
       state: 'on'
     action:
       service: notify.telegram
@@ -727,16 +727,16 @@ group:
 
   # Views
 
-  lupeview:
+  amikooview:
     view: yes
     name: Lupe Amikoo
     entities:
-      - group.lupearmleft
-      - group.lupearmright
-      - group.lupelegs
-      - group.lupehead
-      - group.lupeactivities
-      - group.lupediagnostics
+      - group.amikooarmleft
+      - group.amikooarmright
+      - group.amikoolegs
+      - group.amikoohead
+      - group.amikooactivities
+      - group.amikoodiagnostics
 
   beginningview:
     view: yes
@@ -756,8 +756,8 @@ group:
     view: yes
     name: Support
     entities:
-      - group.lupevirtual
-      - group.lupeskills
+      - group.amikoovirtual
+      - group.amikooskills
       - group.camera
 
   # Groups : Default
@@ -771,10 +771,10 @@ group:
     name: 2 Video
     entities:
     - script.audiosectiontwo
-    - switch.luperobot
-    - script.luperobot
+    - switch.amikoorobot
+    - script.amikoorobot
     - script.audiosectionthree
-    #- switch.lupecomplete
+    #- switch.amikoocomplete
 
   photography:
     name: Photography
@@ -790,7 +790,7 @@ group:
 
   # Groups : Lupe Amikoo
 
-  lupeactivities:
+  amikooactivities:
     name: Activities
     entities:
     - switch.bienvenida
@@ -799,7 +799,7 @@ group:
     - switch.creador
     - switch.norte
 
-  lupearmleft:
+  amikooarmleft:
     name: Arm Left
     entities:
     - switch.leftup
@@ -807,7 +807,7 @@ group:
     - switch.leftfold
     - switch.leftunfold
 
-  lupearmright:
+  amikooarmright:
     name: Arm Right
     entities:
     - switch.rightup
@@ -815,7 +815,7 @@ group:
     - switch.rightfold
     - switch.rightunfold
 
-  lupelegs:
+  amikoolegs:
     name: Legs
     entities:
     - switch.moveleft
@@ -824,13 +824,13 @@ group:
     - switch.movebackward
     - switch.movestop
 
-  lupehead:
+  amikoohead:
     name: Head
     entities:
     - switch.headleft
     - switch.headright
 
-  lupediagnostics:
+  amikoodiagnostics:
     name: Diagnostics
     entities:
     - switch.resetall
@@ -872,16 +872,16 @@ group:
 
   # Groups : Support
 
-  lupevirtual:
+  amikoovirtual:
     name: Lupe Virtual
     entities:
-    - script.lupevirtualstart
-    - script.lupevirtualstop
+    - script.amikoovirtualstart
+    - script.amikoovirtualstop
 
-  lupeskills:
+  amikooskills:
     name: Lupe Skills
     entities:
-    - script.luperecognize
+    - script.amikoorecognize
 
   camera:
     name: Camera

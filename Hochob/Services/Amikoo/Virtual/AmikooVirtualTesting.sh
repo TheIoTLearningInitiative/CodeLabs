@@ -32,7 +32,7 @@ do
 
   rand=$[$RANDOM % 21]
   action=`echo ${array[$rand]}`
-  device="lupe/"
+  device="amikoo/"
 
   topic=$device$action
 
