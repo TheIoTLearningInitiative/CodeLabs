@@ -25,6 +25,6 @@ export CHAKMOOL_DIRECTORY=$(dirname "$CHAKMOOL_PATH")
 
 LogPid.sh $CHAKMOOL_PID $CHAKMOOL_NAME
 
-Eog.sh "$TRADITION/VisitorsCenter/Image/*" &
+Eog.sh "$TRADITION_INTEL_GUADALAJARA/Image/*" &
 
 # End of File
