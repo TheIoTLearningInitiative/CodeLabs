@@ -22,6 +22,10 @@
     - Image
     - Sound
     - Video
+  - Amikoo
+    - Image
+    - Sound
+    - Video
 - Visitors
   - [Name of Institution]
     - Camera
