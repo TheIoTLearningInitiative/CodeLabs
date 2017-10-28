@@ -840,8 +840,8 @@ automation:
       seconds: '/30'
     condition:
       condition: time
-        after: '07:00:00'
-        before: '21:00:00'
+      after: '07:00:00'
+      before: '21:00:00'
     action:
       - service: shell_command.pop
 
@@ -852,8 +852,8 @@ automation:
       seconds: '/30'
     condition:
       condition: time
-        after: '07:00:00'
-        before: '21:00:00'
+      after: '07:00:00'
+      before: '21:00:00'
     action:
       - service: shell_command.wo
 
@@ -875,8 +875,8 @@ automation:
       seconds: 00
     condition:
       condition: time
-        after: '07:00:00'
-        before: '21:00:00'
+      after: '07:00:00'
+      before: '21:00:00'
     action:
       - service: shell_command.imix
 
@@ -899,8 +899,8 @@ automation:
       seconds: 00
     condition:
       condition: time
-        after: '07:00:00'
-        before: '21:00:00'
+      after: '07:00:00'
+      before: '21:00:00'
     action:
       - service: shell_command.akbal
 
