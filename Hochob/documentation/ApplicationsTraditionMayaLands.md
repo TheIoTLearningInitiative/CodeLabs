@@ -33,9 +33,9 @@
 # Name: Intel
 
 - Ak'b'al
-  - __Friendly Name__: 10 minutes .. Chromecast Sounds
-  - __Friendly Name__: Chromecast Sounds Play
+  - __Friendly Name__: 10 minutes .. Sounds
+  - __Friendly Name__: Sounds
 - K'an
-  - __Friendly Name__: 10 minutes .. Robot Sounds
-  - __Friendly Name__: Robot Sounds Play
+  - __Friendly Name__: 10 minutes .. Sounds
+  - __Friendly Name__: Sounds
 
