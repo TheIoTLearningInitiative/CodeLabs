@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export 4004_PID=$$
-export A4004_NAME="Imix"
+export 4004_NAME="4004"
 export 4004_PATH=$(readlink -f "$0")
 export 4004_DIRECTORY=$(dirname "$4004_PATH")
 
