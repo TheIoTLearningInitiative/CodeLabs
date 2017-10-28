@@ -52,10 +52,9 @@
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Video
   - __Friendly Name__: Video
-- 8088
-  - __Group__: Robot
-  - __Friendly Name__: 10 minutes .. Video
-  - __Friendly Name__: Video
+- i486
+  - __Group__: Server
+  - __Friendly Name__: 
 
 - 80286
 - 80386
@@ -64,7 +63,6 @@
 - i486
 - i486DX2
 - i486DX4
-- 486
 - Pentium
 - PentiumPro
 - PentiumII
