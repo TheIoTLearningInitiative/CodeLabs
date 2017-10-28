@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export CHIKCHAN_PID=$$
-export CHIKCHAN_NAME="Chikchan"
-export CHIKCHAN_PATH=$(readlink -f "$0")
-export CHIKCHAN_DIRECTORY=$(dirname "$CHIKCHAN_PATH")
+export MANTEL_PID=$$
+export MANTEL_NAME="Mantel"
+export MANTEL_PATH=$(readlink -f "$0")
+export MANTEL_DIRECTORY=$(dirname "$MANTEL_PATH")
 
 LOCAL_TRADITION="DiaDeMuertos"
 
@@ -25,7 +25,7 @@ LOCAL_TRADITION="DiaDeMuertos"
 # Main
 # =============================================================================
 
-LogPid.sh $CHIKCHAN_PID $CHIKCHAN_NAME
+LogPid.sh $MANTEL_PID $MANTEL_NAME
 
 AmikooTradition.sh "$LOCAL_TRADITION" "Image" "Random"
 sleep 10
