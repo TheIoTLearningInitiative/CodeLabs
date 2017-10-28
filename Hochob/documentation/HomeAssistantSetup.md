@@ -125,9 +125,3 @@ Testing configuration at /root/.homeassistant
 17-03-19 08:03:19 INFO (MainThread) [homeassistant.setup] Setting up logbook
 user@server:~$
 ```
-
-# .homeassistant/configuration.yaml
-
-```sh
-hochob@server:~$ nano .homeassistant/configuration.yaml
-```
