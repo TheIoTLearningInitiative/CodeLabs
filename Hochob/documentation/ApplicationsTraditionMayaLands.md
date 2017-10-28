@@ -52,9 +52,11 @@
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Video
   - __Friendly Name__: Video
+- 80286
 - i486
   - __Group__: Server
-  - __Friendly Name__: 
+  - __Friendly Name__: 10 minutes .. Proud Campaign
+  - __Friendly Name__: Proud Campaign
 
 - 80286
 - 80386
