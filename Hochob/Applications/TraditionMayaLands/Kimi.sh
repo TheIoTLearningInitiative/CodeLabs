@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export KIMI_PID=$$
-export KIMI_NAME="Kimi"
-export KIMI_PATH=$(readlink -f "$0")
-export KIMI_DIRECTORY=$(dirname "$KIMI_PATH")
+export 8080_PID=$$
+export 8080_NAME="8080"
+export 8080_PATH=$(readlink -f "$0")
+export 8080_DIRECTORY=$(dirname "$8080_PATH")
 
 LOCAL_TRADITION="Intel"
 
@@ -25,7 +25,7 @@ LOCAL_TRADITION="Intel"
 # Main
 # =============================================================================
 
-LogPid.sh $CKIMI_PID $KIMI_NAME
+LogPid.sh $8080_PID $8080_NAME
 
 AmikooTradition.sh "$LOCAL_TRADITION" "Image" "Random"
 sleep 10
