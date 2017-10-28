@@ -32,7 +32,7 @@ LOCAL_GREETING_SPANISH[1]="Buenos dias,"
 LOCAL_GREETING_SPANISH[2]="Hola Cacerola,"
 LOCAL_GREETING_SPANISH[3]="Espera,"
 LOCAL_GREETING_SPANISH[4]="Hey,"
-LOCAL_GREETING_SPANISH[5]="Que hongo,"
+LOCAL_GREETING_SPANISH[5]="Que hongo morongo,"
 LOCAL_GREETING_SPANISH[6]="Un minuto por favor,"
 LOCAL_GREETING_SPANISH[7]="Que onda,"
 
@@ -58,6 +58,16 @@ LOCAL_CLOSURE_SPANISH="Que disfrutes el evento."
 # =============================================================================
 # Functions
 # =============================================================================
+
+chooseIntroduction()
+{
+    LANGUAGE=$1
+    if [ "$LANGUAGE" = "english" ]; then
+        LOCAL_INTRODUCTION=${LOCAL_INTRODUCTION_ENGLISH}
+    else
+        LOCAL_INTRODUCTION=${LOCAL_INTRODUCTION_SPANISH}
+    fi
+}
 
 chooseGreeting()
 {
@@ -95,11 +105,13 @@ chooseClosure()
 # Main
 # =============================================================================
 
+chooseIntroduction $LOCAL_LANGUAGE
 chooseGreeting $LOCAL_LANGUAGE
 chooseReminder $LOCAL_LANGUAGE
 chooseClosure $LOCAL_LANGUAGE
 
-LOCAL_MESSAGE="${LOCAL_GREETING} ${LOCAL_INSTITUTION_NAME}. \
+LOCAL_MESSAGE="${LOCAL_INTRODUCTION} \
+               ${LOCAL_GREETING} ${LOCAL_INSTITUTION_NAME}. \
                ${LOCAL_REMINDER} ${LOCAL_EVENT_NAME}. \
                ${LOCAL_CLOSURE}"
 
