@@ -902,7 +902,7 @@ automation:
     action:
       - service: shell_command.ik
 
-  - alias: Chickchan
+  - alias: Chikchan
     initial_state: 'off'
     trigger:
       platform: time
