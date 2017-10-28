@@ -57,12 +57,12 @@
   - __Friendly Name__: Video
 - 80286
   - __Group__: Robot
-  - __Friendly Name__: 10 minutes .. Proud Campaign
-  - __Friendly Name__: Proud Campaign
+  - __Friendly Name__: 10 minutes .. Intel Bong
+  - __Friendly Name__: Intel Bong
 - i486
   - __Group__: Server
-  - __Friendly Name__: 10 minutes .. Proud Campaign
-  - __Friendly Name__: Proud Campaign
+  - __Friendly Name__: 10 minutes .. Intel Bong
+  - __Friendly Name__: Intel Bong
 
 - 80286
 - 80386
