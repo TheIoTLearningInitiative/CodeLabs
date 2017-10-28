@@ -296,27 +296,27 @@ homeassistant:
 
     # Tradition Maya Lands :: Intel
 
-    automation.akbal:
+    automation.4004:
       friendly_name:  10 minutos .. Sonidos
       icon: mdi:calendar-clock
 
-    script.akbal:
+    script.4004:
       friendly_name: Sonidos
       icon: mdi:speaker
 
-    automation.kan:
+    automation.8008:
       friendly_name:  10 minutos .. Sonidos
       icon: mdi:calendar-clock
 
-    script.kan:
+    script.8008:
       friendly_name: Sonidos
       icon: mdi:speaker
 
-    automation.kimi:
+    automation.8080:
       friendly_name:  10 minutos .. Imágenes
       icon: mdi:calendar-clock
 
-    script.kimi:
+    script.8080:
       friendly_name: Imágenes
       icon: mdi:file-image
 
@@ -649,17 +649,17 @@ script:
 
   # Tradition Maya Lands :: Intel
 
-  akbal:
+  4004:
     sequence:
-      - service: shell_command.akbal
+      - service: shell_command.4004
 
-  kan:
+  8008:
     sequence:
-      - service: shell_command.kan
+      - service: shell_command.8008
 
-  kimi:
+  8080:
     sequence:
-      - service: shell_command.kimi
+      - service: shell_command.8080
 
   # Techie Maya Lands
   
@@ -790,9 +790,9 @@ shell_command:
 
   # Tradition Maya Lands :: Intel
 
-  akbal: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Akbal.sh &
-  kan: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Kan.sh &
-  kimi: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Kimi.sh &
+  4004: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/4004.sh &
+  8008: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/8008.sh &
+  8080: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/8080.sh &
   
   # Techie Maya Lands
   
@@ -926,7 +926,7 @@ automation:
 
   # Tradition Maya Lands :: Intel
 
-  - alias: Akbal
+  - alias: 4004
     initial_state: 'off'
     trigger:
       platform: time
@@ -937,25 +937,25 @@ automation:
       after: '07:00:00'
       before: '21:00:00'
     action:
-      - service: shell_command.akbal
+      - service: shell_command.4004
 
-  - alias: Kan
+  - alias: 8008
     initial_state: 'off'
     trigger:
       platform: time
       minutes: '/10'
       seconds: 00
     action:
-      - service: shell_command.kan
+      - service: shell_command.8008
 
-  - alias: Kimi
+  - alias: 8080
     initial_state: 'off'
     trigger:
       platform: time
       minutes: '/10'
       seconds: 00
     action:
-      - service: shell_command.kimi
+      - service: shell_command.8080
 
   # Techie Maya Lands: System Calendar
 
@@ -1351,16 +1351,16 @@ group:
   traditionmayalandsintelchromecast:
     name: Intel <> Chromecast
     entities:
-      - automation.akbal
-      - script.akbal
+      - automation.4004
+      - script.4004
 
   traditionmayalandsintelamikoo:
     name: Intel <> Robot
     entities:
-      - automation.kan
-      - automation.kimi
-      - script.kan
-      - script.kimi
+      - automation.8008
+      - automation.8080
+      - script.8008
+      - script.8080
 
   # Techie Maya Lands: System Health
 
