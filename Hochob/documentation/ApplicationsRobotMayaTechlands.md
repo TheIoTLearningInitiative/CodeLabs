@@ -2,15 +2,32 @@
 
 - __Coji__
 - __Makeblock__
-- Meccanoid
-- Sphero
+- __Meccanoid__
+- __Sphero__
 
 # Name: Coji
 
 - __Area__: Amikoo
-- __Group__: Audio
+- __Group__: Applications
 - __Friendly Name__: Discurso Bilingüe
 - __Services__: Robot
+
+# Meccanoid
+
+- __Area__: Amikoo
+- __Group__: Applications
+- __Friendly Name__: Thriller Dance
+- __Services__:
+  - Amikoo.sh
+  - AmikooTradition.sh
+
+# Sphero
+
+- __Area__: Amikoo
+- __Group__: Applications
+- __Friendly Name__: Mexican Phrases
+- __Services__:
+  - Amikoo.sh
 
 # Name: Makeblock
 
@@ -21,12 +38,3 @@
   - StreamText
   - SurveyMultipleChoice
   - SurveyYesNo
-
-# Meccanoid
-
-- __Area__: Amikoo
-- __Group__: Audio
-- __Friendly Name__: Discurso Bilingüe
-- __Services__:
-  - Amikoo.sh
-  - AmikooTradition.sh
