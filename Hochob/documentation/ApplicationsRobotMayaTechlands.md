@@ -9,7 +9,7 @@
 
 - __Area__: Robot
 - __Group__: Audio
-- __Friendly Name__: Hablar
+- __Friendly Name__: Discurso Bilingüe
 - __Services__: Robot
 
 # Name: Makeblock
