@@ -24,8 +24,8 @@
 # Sphero
 
 - __Area__: Amikoo
-- __Group__: Applications
-- __Friendly Name__: Mexican Phrases
+- __Group__: Knowledge
+- __Friendly Name__: Popular Phrases
 - __Services__:
   - Amikoo.sh
 
