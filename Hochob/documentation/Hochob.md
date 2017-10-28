@@ -30,16 +30,16 @@
 ## Robot
 
 - Acknowledge termination Service Sound Speech Synthetizer by publishing __Completed__ through topic __amikoo/sound/speechsynthetizer__
-- Implement Service Tradition to play random audios by subscribing to topic __amikoo/tradition/audio__ with messages 
+- Implement Tradition Audio to play one random audios by subscribing to topic __amikoo/tradition/audio__ with messages 
   - __Name/<File>__
   - __Name/Random__
   - __Name/Stop__
-- Implement Service Tradition to play random images by subscribing to topic __amikoo/tradition/image__ with messages
+- Implement Tradition Image to display one random images by subscribing to topic __amikoo/tradition/image__ with messages
   - __Name/<File>__
   - __Name/Random__
   - __Name/Stop__
-- Implement Service Tradition to play random videos by subscribing to topic __amikoo/tradition/video__ with messages
+- Implement Tradition video to play one random videos by subscribing to topic __amikoo/tradition/video__ with messages
   - __Name/<File>__
   - __Name/Random__
   - __Name/Stop__
-- Implement Service Camera to take pictures by subscribing to topic __amikoo/camera/picture__
+- Implement Camera Picture to take pictures by subscribing to topic __amikoo/camera/picture__
