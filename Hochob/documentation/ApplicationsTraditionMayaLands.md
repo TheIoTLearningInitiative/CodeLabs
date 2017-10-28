@@ -28,8 +28,11 @@
   - __Friendly Name__: 10 minutes .. Images
   - __Friendly Name__: Images
 - Calaveritas
-
+  - __Group__: Robot
+  - __Friendly Name__: 10 minutes .. Fantasma
+  - __Friendly Name__: Fantasma
 - Fotografia
+  - Witch
 - Fruta
 
 # Name: Intel
