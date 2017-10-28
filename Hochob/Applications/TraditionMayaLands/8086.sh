@@ -27,8 +27,8 @@ LOCAL_TRADITION="Intel"
 
 LogPid.sh $i8086_PID $i8086_NAME
 
-AmikooTradition.sh "$LOCAL_TRADITION" "Image" "Random"
+AmikooTradition.sh "$LOCAL_TRADITION" "Video" "Random"
 sleep 10
-AmikooTradition.sh "$LOCAL_TRADITION" "Image" "Stop"
+AmikooTradition.sh "$LOCAL_TRADITION" "Video" "Stop"
 
 # End of File
