@@ -31,8 +31,11 @@
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Fantasma
   - __Friendly Name__: Fantasma
-- Fotografia
   - Witch
+- Fotógrafia
+  - __Group__: Robot
+  - __Friendly Name__: 10 minutes .. Fotógrafo
+  - __Friendly Name__: Fotógrafo
 - Fruta
 
 # Name: Intel
