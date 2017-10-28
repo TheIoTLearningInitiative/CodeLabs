@@ -257,7 +257,7 @@ homeassistant:
     # Calendar Maya Lands
     
     automation.pop:
-      friendly_name: 30 segundos .. Bienvenida Amikoo
+      friendly_name: 30 segundos .. Bienvenida Robot
       icon: mdi:calendar-clock
 
     automation.sip:
@@ -265,7 +265,7 @@ homeassistant:
       icon: mdi:calendar-clock
 
     automation.wo:
-      friendly_name: 30 segundos .. Bienvenida Amikoo
+      friendly_name: 30 segundos .. Bienvenida Robot
       icon: mdi:calendar-clock
 
     # Tradition Maya Lands
