@@ -313,11 +313,11 @@ homeassistant:
       icon: mdi:speaker
 
     automation.kimi:
-      friendly_name:  10 minutos .. Sonidos
+      friendly_name:  10 minutos .. Imágenes
       icon: mdi:calendar-clock
 
     script.kimi:
-      friendly_name: Sonidos
+      friendly_name: Imágenes
       icon: mdi:file-image
 
     # Techie Maya Lands : System Health
