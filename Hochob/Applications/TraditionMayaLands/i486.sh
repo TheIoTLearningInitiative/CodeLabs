@@ -30,7 +30,8 @@ LogPid.sh $i486_PID $i486_NAME
 
 
 # Image
-Eog.sh "$TRADITION_INTEL/Image/2017-05-08-131711_1920x1080_scrot.png" &
+#Eog.sh "$TRADITION_INTEL/Image/*" &
+Eog.sh "$TRADITION_INTEL/Image/IntelExperienceWhatsInside.png" &
 sleep 1
 
 # Sound
