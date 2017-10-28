@@ -47,6 +47,6 @@ Amikoo.sh amikoo/resetall 1
 sleep 5
 
 KillApp.sh "eog"
-KillApp.sh "mpg123"
+KillApp.sh "cvlc"
 
 # End of File
