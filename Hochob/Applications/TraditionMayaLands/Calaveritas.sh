@@ -27,10 +27,10 @@ LOCAL_TRADITION="DiaDeMuertos"
 
 LogPid.sh $CALAVERITAS_PID $CALAVERITAS_NAME
 
-AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "ghostlymoan.mp3"
+AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "GhostlyMoan.mp3"
 Amikoo.sh amikoo/headright 1 && sleep .6
 Amikoo.sh amikoo/headleft 1 && sleep .6
-AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "haunting.mp3"
+AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "Haunting.mp3"
 Amikoo.sh amikoo/moveforward 1 && sleep .1
 Amikoo.sh amikoo/movestop 1 && sleep .6
 Amikoo.sh amikoo/movebackward 1 && sleep .1
