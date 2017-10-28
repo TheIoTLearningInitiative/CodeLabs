@@ -328,6 +328,14 @@ homeassistant:
       friendly_name: Video
       icon: mdi:file-video
 
+    automation.i486:
+      friendly_name:  10 minutos .. Proud Campaign
+      icon: mdi:calendar-clock
+
+    script.i486:
+      friendly_name: Proud Campagin
+      icon: mdi:file-video
+
     # Techie Maya Lands : System Health
 
     script.toyota:
@@ -673,6 +681,10 @@ script:
     sequence:
       - service: shell_command.8086
 
+  i486:
+    sequence:
+      - service: shell_command.i486
+
   # Techie Maya Lands
   
   toyota:
@@ -806,6 +818,7 @@ shell_command:
   8008: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/8008.sh &
   8080: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/8080.sh &
   8086: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/8086.sh &
+  i486: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/i486.sh &
   
   # Techie Maya Lands
   
@@ -979,6 +992,15 @@ automation:
     action:
       - service: shell_command.8086
 
+  - alias: i486
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    action:
+      - service: shell_command.i486
+
   # Techie Maya Lands: System Calendar
 
   - alias: Apple
@@ -1111,6 +1133,7 @@ group:
       - group.traditionmayalandsdiademuertosamikoo
       - group.traditionmayalandsintelchromecast
       - group.traditionmayalandsintelamikoo
+      - group.traditionmayalandsintelnohochtata
   
   # Techie Maya Lands
 
@@ -1385,6 +1408,12 @@ group:
       - script.8008
       - script.8080
       - script.8086
+
+  traditionmayalandsintelnohochtata:
+    name: Intel <> Server
+    entities:
+      - automation.i486
+      - script.i486
 
   # Techie Maya Lands: System Health
 
