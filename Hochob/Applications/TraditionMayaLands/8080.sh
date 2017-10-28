@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export 8080_PID=$$
-export 8080_NAME="8080"
-export 8080_PATH=$(readlink -f "$0")
-export 8080_DIRECTORY=$(dirname "$8080_PATH")
+export i8080_PID=$$
+export i8080_NAME="i8080"
+export i8080_PATH=$(readlink -f "$0")
+export i8080_DIRECTORY=$(dirname "$i8080_PATH")
 
 LOCAL_TRADITION="Intel"
 
@@ -25,7 +25,7 @@ LOCAL_TRADITION="Intel"
 # Main
 # =============================================================================
 
-LogPid.sh $8080_PID $8080_NAME
+LogPid.sh $i8080_PID $i8080_NAME
 
 AmikooTradition.sh "$LOCAL_TRADITION" "Image" "Random"
 sleep 10
