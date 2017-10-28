@@ -59,7 +59,7 @@ homeassistant:
     # Amikoo Maya Lands :: Applications
 
     script.coji:
-      friendly_name: Hablar
+      friendly_name: Discurso Bilingüe
       icon: mdi:speaker
 
     # Amikoo Maya Lands :: Skills
@@ -1282,7 +1282,7 @@ group:
   # Amikoo Maya Lands: Applications
 
   robotmayalandsapplications:
-    name: Habilidades
+    name: Aplicaciones
     entities:
       - script.coji
 
