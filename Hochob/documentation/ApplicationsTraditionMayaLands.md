@@ -24,6 +24,7 @@
   - __Friendly Name__: Robot Sounds Play
 
 - Chikchan
+  - __Friendly Name__: 10 minutes .. Robot Images
   - __Friendly Name__: Robot Images Display
 
 # Name: Intel
