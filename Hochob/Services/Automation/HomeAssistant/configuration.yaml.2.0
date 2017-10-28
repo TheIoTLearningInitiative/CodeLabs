@@ -286,6 +286,14 @@ homeassistant:
       friendly_name: Sonidos Robot Reproducción
       icon: mdi:speaker
 
+    automation.chikchan:
+      friendly_name:  10 minutos .. Imágenes Robot
+      icon: mdi:calendar-clock
+
+    script.chikchan:
+      friendly_name: Imágenes Robot Mostrar
+      icon: mdi:file-image
+
     # Tradition Maya Lands :: Intel
 
     automation.akbal:
@@ -627,6 +635,10 @@ script:
     sequence:
       - service: shell_command.ik
 
+  chikchan:
+    sequence:
+      - service: shell_command.chikchan
+
   # Tradition Maya Lands :: Intel
 
   akbal:
@@ -762,6 +774,7 @@ shell_command:
 
   imix: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Imix.sh &
   ik: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Ik.sh &
+  chikchan: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Chikchan.sh &
 
   # Tradition Maya Lands :: Intel
 
@@ -888,6 +901,15 @@ automation:
       seconds: 00
     action:
       - service: shell_command.ik
+
+  - alias: Chickchan
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    action:
+      - service: shell_command.chikchan
 
   # Tradition Maya Lands :: Intel
 
@@ -1298,7 +1320,9 @@ group:
     name: Dia De Muertos <> Robot
     entities:
       - automation.ik
+      - automation.chikchan
       - script.ik
+      - script.chikchan
 
   # Tradition Maya Lands :: Intel
 
