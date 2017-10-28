@@ -37,9 +37,6 @@ else
     "Vamos a bailar"
 fi
 
-Amikoo.sh $AMIKOO_DECIR \
-    "Feliz dia de muertos"
-
 AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "MichaelJacksonThirllerShort.mp3"
 
 Amikoo.sh amikoo/headright 1 && sleep .6
