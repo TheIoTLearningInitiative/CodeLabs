@@ -40,6 +40,6 @@ choosePhrase()
 LogPid.sh $SPHERO_PID $SPHERO_NAME
 
 choosePhrase
-Amikoo.sh $AMIKOO_DECIR $LOCAL_PHRASE
+Amikoo.sh $AMIKOO_DECIR "$LOCAL_PHRASE"
 
 # End of File
