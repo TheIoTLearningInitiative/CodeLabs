@@ -28,14 +28,18 @@ LOCAL_DEVICE="Triki"
 
 LogPid.sh $i486_PID $i486_NAME
 
-Eog.sh "$TRADITION_INTEL/Image/*" &
+# Sound
+Eog.sh "$TRADITION_INTEL/Image/2017-05-08-131711_1920x1080_scrot.png" &
+
+# Image
 LOCAL_SOUND=`find $TRADITION_INTEL/Sound/ -type f | shuf -n 1`
-Stream.sh "$LOCAL_DEVICE" "1.0" "$LOCAL_SOUND"
+Vlc.sh "$LOCAL_SOUND"
 
-SpeechSynthetizer.sh on espeak spanish \
-    "Saludos \
-     "
-
+KillApp.sh "cvlc"
 KillApp.sh "eog"
+
+#SpeechSynthetizer.sh on espeak spanish \
+#    "Saludos \
+#     "
 
 # End of File
