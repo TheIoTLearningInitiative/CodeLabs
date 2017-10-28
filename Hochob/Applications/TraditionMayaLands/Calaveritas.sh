@@ -11,7 +11,7 @@ set -x
 export CALAVERITAS_PID=$$
 export CALAVERITAS_NAME="Calaveritas"
 export CALAVERITAS_PATH=$(readlink -f "$0")
-export CALAVERITAS_DIRECTORY=$(dirname "$PCALAVERITAS_PATH")
+export CALAVERITAS_DIRECTORY=$(dirname "$CALAVERITAS_PATH")
 
 LOCAL_TRADITION="DiaDeMuertos"
 
