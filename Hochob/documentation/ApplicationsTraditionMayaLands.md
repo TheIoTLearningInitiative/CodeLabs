@@ -15,7 +15,7 @@
 
 # Name: Dia De Muertos
 
-- Imix'
+- Imix' 
   - __Group__: Chromecast
   - __Friendly Name__: 10 minutes .. Sounds
   - __Friendly Name__: Sounds
@@ -32,15 +32,29 @@
 
 # Name: Intel
 
-- Ak'b'al
+- Ak'b'al 4004
   - __Group__: Chromecast
   - __Friendly Name__: 10 minutes .. Sounds
   - __Friendly Name__: Sounds
-- K'an
+- K'an 8008
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Sounds
   - __Friendly Name__: Sounds
-- Kimi
+- Kimi 8080
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Images
   - __Friendly Name__: Images
+
+- 8086
+- 8088
+- 80286
+- 80386
+- 80386SX
+- 80486DX
+- i486
+- i486DX2
+- i486DX4
+- 486
+- Pentium
+- PentiumPro
+- PentiumII
