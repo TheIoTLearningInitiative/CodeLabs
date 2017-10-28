@@ -27,9 +27,9 @@ LOCAL_TRADITION="DiaDeMuertos"
 
 LogPid.sh $FOTOGRAFIA_PID $FOTOGRAFIA_NAME
 
-# AMIKOO_PICTURE amikoo/camera/picture
+Amikoo.sh "picture"
 AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "Witch.mp3"
+sleep 3
 AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "Stop"
-# AMIKOO_PICTURE stop
 
 # End of File
