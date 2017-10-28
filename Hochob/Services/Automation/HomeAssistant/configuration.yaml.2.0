@@ -755,8 +755,8 @@ shell_command:
   # Calendar Maya Lands
 
   pop: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Pop.sh &
-  wo: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Wo.sh &
   sip: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Sip.sh &
+  wo: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Wo.sh &
 
   # Tradition Maya Lands :: Dia De Muertos
 
@@ -845,7 +845,7 @@ automation:
     action:
       - service: shell_command.pop
 
-  - alias: wo
+  - alias: sip
     initial_state: 'off'
     trigger:
       platform: time
@@ -855,15 +855,15 @@ automation:
       after: '07:00:00'
       before: '21:00:00'
     action:
-      - service: shell_command.wo
+      - service: shell_command.sip
 
-  - alias: sip
+  - alias: wo
     initial_state: 'off'
     trigger:
       platform: time
       seconds: '/30'
     action:
-      - service: shell_command.sip
+      - service: shell_command.wo
 
   # Tradition Maya Lands :: Dia De Muertos
 
