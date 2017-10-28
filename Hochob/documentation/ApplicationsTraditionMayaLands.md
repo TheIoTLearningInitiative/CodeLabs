@@ -15,20 +15,24 @@
 
 # Name: Dia De Muertos
 
-- Imix' 
+- Imix' Veladora
   - __Group__: Chromecast
   - __Friendly Name__: 10 minutes .. Sounds
   - __Friendly Name__: Sounds
 
-- Ik'
+- Ik' PapelPicado
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Sounds
   - __Friendly Name__: Sounds
 
-- Chikchan
+- Chikchan Mantel
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Images
   - __Friendly Name__: Images
+
+- Calaveritas
+- Fotografia
+- Fruta
 
 # Name: Intel
 
@@ -44,8 +48,11 @@
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Images
   - __Friendly Name__: Images
-
 - 8086
+  - __Group__: Robot
+  - __Friendly Name__: 10 minutes .. Video
+  - __Friendly Name__: Video
+
 - 8088
 - 80286
 - 80386
@@ -58,3 +65,15 @@
 - Pentium
 - PentiumPro
 - PentiumII
+- Itanium
+- Pentium4
+- PentiumD
+- Pentium Extreme Edition
+- Pentium M
+- Pentium Dual Core
+- Core
+- Pentium E
+- Centrino
+- Core 2
+- Celeron
+- Xeon 
