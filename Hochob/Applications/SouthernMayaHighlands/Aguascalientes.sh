@@ -32,7 +32,7 @@ Vlc.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/Aguascalientes.mp3" &
 
 sleep 75
 
-KillApp.sh "mpg123"
+KillApp.sh "cvlc"
 KillApp.sh "eog"
 
 # End of File
