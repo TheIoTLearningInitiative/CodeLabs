@@ -271,45 +271,45 @@ homeassistant:
     # Tradition Maya Lands :: Dia De Muertos
     
     automation.imix:
-      friendly_name:  10 minutos .. Sonidos Chromecast
+      friendly_name:  10 minutos .. Sonidos
       icon: mdi:calendar-clock
 
     script.imix:
-      friendly_name: Sonidos Chromecast Reproducción
+      friendly_name: Sonidos
       icon: mdi:speaker
 
     automation.ik:
-      friendly_name:  10 minutos .. Sonidos Robot
+      friendly_name:  10 minutos .. Sonidos
       icon: mdi:calendar-clock
 
     script.ik:
-      friendly_name: Sonidos Robot Reproducción
+      friendly_name: Sonidos
       icon: mdi:speaker
 
     automation.chikchan:
-      friendly_name:  10 minutos .. Imágenes Robot
+      friendly_name:  10 minutos .. Imágenes
       icon: mdi:calendar-clock
 
     script.chikchan:
-      friendly_name: Imágenes Robot Mostrar
+      friendly_name: Imágenes
       icon: mdi:file-image
 
     # Tradition Maya Lands :: Intel
 
     automation.akbal:
-      friendly_name:  10 minutos .. Sonidos Chromecast
+      friendly_name:  10 minutos .. Sonidos
       icon: mdi:calendar-clock
 
     script.akbal:
-      friendly_name: Sonidos Chromecast Reproducción
+      friendly_name: Sonidos
       icon: mdi:speaker
 
     automation.kan:
-      friendly_name:  10 minutos .. Sonidos Robot
+      friendly_name:  10 minutos .. Sonidos
       icon: mdi:calendar-clock
 
     script.kan:
-      friendly_name: Sonidos Robot Reproducción
+      friendly_name: Sonidos
       icon: mdi:speaker
 
     # Techie Maya Lands : System Health
