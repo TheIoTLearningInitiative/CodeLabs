@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export IMIX_PID=$$
-export IMIX_NAME="Imix"
-export IMIX_PATH=$(readlink -f "$0")
-export IMIX_DIRECTORY=$(dirname "$IMIX_PATH")
+export VELADORA_PID=$$
+export VELADORA_NAME="Veladora"
+export VELADORA_PATH=$(readlink -f "$0")
+export VELADORA_DIRECTORY=$(dirname "$VELADORA_PATH")
 
 LOCAL_SEASON="DiaDeMuertos"
 LOCAL_DEVICE="Triki"
@@ -26,7 +26,7 @@ LOCAL_DEVICE="Triki"
 # Main
 # =============================================================================
 
-LogPid.sh $IMIX_PID $IMIX_NAME
+LogPid.sh $VELADORA_PID $VELADORA_NAME
 
 LOCAL_SOUND=`find $TRADITION_DIADEMUERTOS/Sound/ -type f | shuf -n 1`
 Stream.sh "$LOCAL_DEVICE" "1.0" "$LOCAL_SOUND"
