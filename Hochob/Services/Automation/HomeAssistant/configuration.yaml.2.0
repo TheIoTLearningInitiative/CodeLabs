@@ -79,6 +79,10 @@ homeassistant:
 
     # Amikoo Maya Lands :: Knowledge
 
+    script.sphero:
+      friendly_name: Frases Populares
+      icon: mdi:audiobook
+
     script.makeblock:
       friendly_name: Centro de Visitantes
       icon: mdi:audiobook
@@ -567,6 +571,10 @@ script:
 
   # Amikoo Maya Lands :: Knowledge
 
+  sphero:
+    sequence:
+      - service: shell_command.sphero
+
   makeblock:
     sequence:
       - service: shell_command.makeblock
@@ -837,6 +845,7 @@ shell_command:
 
   # Amikoo Maya Lands :: Knowledge
 
+  sphero: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Sphero.sh &
   makeblock: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Makeblock.sh &
 
   # Amikoo Maya Lands: Movement
@@ -1310,6 +1319,7 @@ group:
     name: Conocimiento
     entities:
       - script.makeblock
+      - script.sphero
 
   # Amikoo Maya Lands: Head
   
