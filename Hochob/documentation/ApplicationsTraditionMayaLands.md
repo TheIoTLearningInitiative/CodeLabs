@@ -52,8 +52,11 @@
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Video
   - __Friendly Name__: Video
-
 - 8088
+  - __Group__: Robot
+  - __Friendly Name__: 10 minutes .. Video
+  - __Friendly Name__: Video
+
 - 80286
 - 80386
 - 80386SX
