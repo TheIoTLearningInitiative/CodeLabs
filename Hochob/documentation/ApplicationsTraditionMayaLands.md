@@ -19,18 +19,16 @@
   - __Group__: Chromecast
   - __Friendly Name__: 10 minutes .. Sounds
   - __Friendly Name__: Sounds
-
 - Ik' PapelPicado
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Sounds
   - __Friendly Name__: Sounds
-
 - Chikchan Mantel
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Images
   - __Friendly Name__: Images
-
 - Calaveritas
+
 - Fotografia
 - Fruta
 
