@@ -320,6 +320,14 @@ homeassistant:
       friendly_name: Imágenes
       icon: mdi:file-image
 
+    automation.8086:
+      friendly_name:  10 minutos .. Imágenes
+      icon: mdi:calendar-clock
+
+    script.8086:
+      friendly_name: Imágenes
+      icon: mdi:file-video
+
     # Techie Maya Lands : System Health
 
     script.toyota:
@@ -661,6 +669,10 @@ script:
     sequence:
       - service: shell_command.8080
 
+  8086:
+    sequence:
+      - service: shell_command.8086
+
   # Techie Maya Lands
   
   toyota:
@@ -793,6 +805,7 @@ shell_command:
   4004: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/4004.sh &
   8008: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/8008.sh &
   8080: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/8080.sh &
+  8086: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/8086.sh &
   
   # Techie Maya Lands
   
@@ -956,6 +969,15 @@ automation:
       seconds: 00
     action:
       - service: shell_command.8080
+
+  - alias: 8086
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    action:
+      - service: shell_command.8086
 
   # Techie Maya Lands: System Calendar
 
@@ -1359,8 +1381,10 @@ group:
     entities:
       - automation.8008
       - automation.8080
+      - automation.8086
       - script.8008
       - script.8080
+      - script.8086
 
   # Techie Maya Lands: System Health
 
