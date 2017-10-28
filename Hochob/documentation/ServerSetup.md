@@ -205,9 +205,12 @@ hochob@server:~/CodeLabs/Hochob/Setup$
 
 ```sh
 hochob@server:~/CodeLabs/Hochob/Setup$ sh Amikoo.sh
+hochob@server:~/CodeLabs/Hochob/Setup$ sh HochobServerConfiguration.sh
 hochob@server:~/CodeLabs/Hochob/Setup$ sh HochobServerMedia.sh
 hochob@server:~/CodeLabs/Hochob/Setup$ sh HochobServerMediaSource.sh
 hochob@server:~/CodeLabs/Hochob/Setup$ sh Packages.sh
+hochob@server:~/CodeLabs/Hochob/Setup$ cd
+hochob@server:~$ 
 ```
 
 ```sh
