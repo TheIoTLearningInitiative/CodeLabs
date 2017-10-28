@@ -302,6 +302,14 @@ homeassistant:
       friendly_name: Fantasma
       icon: mdi:face-profile
 
+    automation.fotografia:
+      friendly_name:  10 minutos .. Fotógrafo
+      icon: mdi:calendar-clock
+
+    script.fotografia:
+      friendly_name: Fotógrafo
+      icon: mdi:camera
+
     # Tradition Maya Lands :: Intel
 
     automation.4004:
@@ -683,6 +691,10 @@ script:
     sequence:
       - service: shell_command.calaveritas
 
+  fotografia:
+    sequence:
+      - service: shell_command.fotografia
+
   # Tradition Maya Lands :: Intel
 
   4004:
@@ -836,6 +848,7 @@ shell_command:
   papelpicado: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/PapelPicado.sh &
   mantel: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Mantel.sh &
   calaveritas: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Calaveritas.sh &
+  fotografia: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Fotografia.sh &
 
   # Tradition Maya Lands :: Intel
 
@@ -984,6 +997,15 @@ automation:
       seconds: 00
     action:
       - service: shell_command.calaveritas
+
+  - alias: Fotografia
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    action:
+      - service: shell_command.fotografia
 
   # Tradition Maya Lands :: Intel
 
@@ -1433,9 +1455,11 @@ group:
       - automation.papelpicado
       - automation.mantel
       - automation.calaveritas
+      - automation.fotografia
       - script.papelpicado
       - script.mantel
       - script.calaveritas
+      - script.fotografia
 
   # Tradition Maya Lands :: Intel
 
