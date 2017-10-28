@@ -61,6 +61,9 @@ homeassistant:
     script.coji:
       friendly_name: Discurso Bilingüe
       icon: mdi:speaker
+    script.meccanoid:
+      friendly_name: Baile Thriller
+      icon: mdi:account
 
     # Amikoo Maya Lands :: Skills
 
@@ -544,6 +547,10 @@ script:
     sequence:
       - service: shell_command.coji
 
+  meccanoid:
+    sequence:
+      - service: shell_command.meccanoid
+
   # Amikoo Maya Lands :: Skills
 
   amikoogcvisionapi:
@@ -820,6 +827,7 @@ shell_command:
   # Amikoo Maya Lands: Applications
 
   coji: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Coji.sh &
+  meccanoid: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Meccanoid.sh &
   
   # Amikoo Maya Lands: Skills
 
@@ -1285,6 +1293,7 @@ group:
     name: Aplicaciones
     entities:
       - script.coji
+      - script.meccanoid
 
   # Amikoo Maya Lands: Applications
 
