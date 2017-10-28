@@ -16,16 +16,19 @@
 # Name: Dia De Muertos
 
 - Imix'
-  - __Friendly Name__: 10 minutes .. Chromecast Sounds
-  - __Friendly Name__: Chromecast Sounds Play
+  - __Group__: Chromecast
+  - __Friendly Name__: 10 minutes .. Sounds
+  - __Friendly Name__: Sounds
 
 - Ik'
-  - __Friendly Name__: 10 minutes .. Robot Sounds
-  - __Friendly Name__: Robot Sounds Play
+  - __Group__: Robot
+  - __Friendly Name__: 10 minutes .. Sounds
+  - __Friendly Name__: Sounds
 
 - Chikchan
-  - __Friendly Name__: 10 minutes .. Robot Images
-  - __Friendly Name__: Robot Images Display
+  - __Group__: Robot
+  - __Friendly Name__: 10 minutes .. Images
+  - __Friendly Name__: Images
 
 # Name: Intel
 
