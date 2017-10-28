@@ -6,8 +6,8 @@ sudo apt-get install npm
 
 mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'
-echo "export PATH=~/.npm-global/bin:$PATH" >> ~/.profile
-source ~/.profile
+echo "export PATH=~/.npm-global/bin:$PATH" >> ~/.bashrc
+source ~/.bashrc
 
 npm install -g mqtt --save
 npm install -g espeak --save
