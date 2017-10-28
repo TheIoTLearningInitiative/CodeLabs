@@ -193,6 +193,23 @@ Branch Hochob set up to track remote branch Hochob from origin.
 Switched to a new branch 'Hochob'
 ```
 
+```sh
+hochob@server:~/CodeLabs$ cd Hochob/
+hochob@server:~/CodeLabs/Hochob$ ls
+Applications  Demo.sh  documentation  Main.sh  Sandbox	Services  Setup
+hochob@server:~/CodeLabs/Hochob$ cd Setup/
+hochob@server:~/CodeLabs/Hochob/Setup$ ls
+Amikoo.sh  HochobServerMedia.sh  HochobServerMediaSource.sh  Packages.sh
+hochob@server:~/CodeLabs/Hochob/Setup$ 
+```
+
+```sh
+hochob@server:~/CodeLabs/Hochob/Setup$ sh Amikoo.sh
+hochob@server:~/CodeLabs/Hochob/Setup$ sh HochobServerMedia.sh
+hochob@server:~/CodeLabs/Hochob/Setup$ sh HochobServerMediaSource.sh
+hochob@server:~/CodeLabs/Hochob/Setup$ sh Packages.sh
+```
+
 # Sandbox
 
 # Sudo Privileges
