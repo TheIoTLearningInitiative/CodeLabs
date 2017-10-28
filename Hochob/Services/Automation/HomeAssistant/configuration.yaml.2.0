@@ -840,8 +840,8 @@ automation:
       seconds: '/30'
     condition:
       condition: time
-        after: '15:00:00'
-        before: '23:00:00'      
+        after: '07:00:00'
+        before: '21:00:00'
     action:
       - service: shell_command.pop
 
@@ -850,9 +850,10 @@ automation:
     trigger:
       platform: time
       seconds: '/30'
-    condition: time
-      after: '15:00:00'
-      before: '23:00:00'      
+    condition:
+      condition: time
+        after: '07:00:00'
+        before: '21:00:00'
     action:
       - service: shell_command.wo
 
@@ -861,9 +862,6 @@ automation:
     trigger:
       platform: time
       seconds: '/30'
-    condition: time
-      after: '15:00:00'
-      before: '23:00:00'      
     action:
       - service: shell_command.sip
 
@@ -875,9 +873,12 @@ automation:
       platform: time
       minutes: '/10'
       seconds: 00
+    condition:
+      condition: time
+        after: '07:00:00'
+        before: '21:00:00'
     action:
       - service: shell_command.imix
-
 
   - alias: Ik
     initial_state: 'off'
@@ -896,9 +897,12 @@ automation:
       platform: time
       minutes: '/10'
       seconds: 00
+    condition:
+      condition: time
+        after: '07:00:00'
+        before: '21:00:00'
     action:
       - service: shell_command.akbal
-
 
   - alias: Kan
     initial_state: 'off'
