@@ -31,6 +31,10 @@ hochob@server:~$ sudo apt install python3-pip
 ```
 
 ```sh
+hochob@server:~$ sudo apt install fortunes
+```
+
+```sh
 hochob@server:~$ sudo pip3 install --upgrade pip
 ```
 
@@ -46,6 +50,10 @@ hochob@server:~$ sudo pip install sqlalchemy
 ```
 
 # Execution
+
+```sh
+
+```
 
 ```sh
 hochob@server:~$ hass --open-ui
