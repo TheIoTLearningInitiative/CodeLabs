@@ -334,7 +334,7 @@ homeassistant:
 
     script.80286:
       friendly_name: Intel Bong
-      icon: mdi:file-image
+      icon: mdi:face-profile
 
     automation.i486:
       friendly_name:  10 minutos .. Intel Bong
@@ -342,7 +342,7 @@ homeassistant:
 
     script.i486:
       friendly_name: Intel Bong
-      icon: mdi:file-video
+      icon: mdi:face-profile
 
     # Techie Maya Lands : System Health
 
