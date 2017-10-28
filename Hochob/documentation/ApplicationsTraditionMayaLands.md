@@ -31,7 +31,6 @@
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Fantasma
   - __Friendly Name__: Fantasma
-  - Witch
 - Fotógrafia
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Fotógrafo
