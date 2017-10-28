@@ -7,7 +7,11 @@
 - Ak'b'al
 - K'an
 - Chikchan
-- ...
+- Kimi
+- Manik'
+- Lamat
+- Muluk
+- Ok
 
 # Name: Dia De Muertos
 
@@ -18,6 +22,9 @@
 - Ik'
   - __Friendly Name__: 10 minutes .. Robot Sounds
   - __Friendly Name__: Robot Sounds Play
+
+- Chikchan
+  - __Friendly Name__: Robot Images Display
 
 # Name: Intel
 
