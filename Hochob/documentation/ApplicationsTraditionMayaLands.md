@@ -33,9 +33,14 @@
 # Name: Intel
 
 - Ak'b'al
+  - __Group__: Chromecast
   - __Friendly Name__: 10 minutes .. Sounds
   - __Friendly Name__: Sounds
 - K'an
+  - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Sounds
   - __Friendly Name__: Sounds
-
+- Kimi
+  - __Group__: Robot
+  - __Friendly Name__: 10 minutes .. Images
+  - __Friendly Name__: Images
