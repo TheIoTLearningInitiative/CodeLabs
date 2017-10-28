@@ -32,14 +32,14 @@ LogPid.sh $i486_PID $i486_NAME
 Eog.sh "$TRADITION_INTEL/Image/IntelExperienceWhatsInside.png" &
 sleep 1
 Vlc.sh $TRADITION_INTEL/Sound/IntelBong.mp3
-sleep 1
+sleep 2
 KillApp.sh "cvlc"
 KillApp.sh "eog"
 
-Eog.sh "$TRADITION_INTEL/Image/IntelChorus.jpg
+Eog.sh "$TRADITION_INTEL/Image/IntelChorus.jpg"
 sleep 1
 Vlc.sh $TRADITION_INTEL/Sound/IntelBongChorus.mp3
-sleep 1
+sleep 2
 KillApp.sh "cvlc"
 KillApp.sh "eog"
 
