@@ -14,7 +14,6 @@ export i486_PATH=$(readlink -f "$0")
 export i486_DIRECTORY=$(dirname "$i486_PATH")
 
 LOCAL_SEASON="Intel"
-LOCAL_DEVICE="Triki"
 
 # =============================================================================
 # Functions
