@@ -1275,13 +1275,13 @@ group:
   # Tradition Maya Lands :: Dia De Muertos
 
   traditionmayalandsdiademuertoschromecast:
-    name: Dia De Muertos Chromecast
+    name: Dia De Muertos <> Chromecast
     entities:
       - automation.imix
       - script.imix
 
   traditionmayalandsdiademuertosamikoo:
-    name: Dia De Muertos Robot
+    name: Dia De Muertos <> Robot
     entities:
       - automation.ik
       - script.ik
@@ -1289,13 +1289,13 @@ group:
   # Tradition Maya Lands :: Intel
 
   traditionmayalandsintelchromecast:
-    name: Intel Chromecast
+    name: Intel <> Chromecast
     entities:
       - automation.akbal
       - script.akbal
 
   traditionmayalandsintelamikoo:
-    name: Intel Robot
+    name: Intel <> Robot
     entities:
       - automation.kan
       - script.kan
