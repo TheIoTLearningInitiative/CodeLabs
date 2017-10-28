@@ -8,6 +8,7 @@
      - Clone all Hochob organization repos
    - HochobServerMediaSource
 5. Amikoo Virtual
+   - Setup
 6. Change Mqtt Ip Address
    - Main.sh
    - AmikooVirtual.js
