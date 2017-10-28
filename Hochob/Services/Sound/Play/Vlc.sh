@@ -24,7 +24,7 @@ LOCAL_FILE="$1"
 
 if [ $# -eq 1 ]
 then
-    $VLC_BINARY $VLC_ARGUMENTS $LOCAL_FILE &
+    $VLC_BINARY $VLC_ARGUMENTS $LOCAL_FILE
 else
     echo "Invalid number of arguments, see Documentation"
     exit 1
