@@ -210,6 +210,25 @@ hochob@server:~/CodeLabs/Hochob/Setup$ sh HochobServerMediaSource.sh
 hochob@server:~/CodeLabs/Hochob/Setup$ sh Packages.sh
 ```
 
+```sh
+hochob@server:~$ ls
+CodeLabs   Downloads   HochobServerMedia	Music	  Templates
+Desktop    Drones      HochobServerMediaSource	Pictures  Videos
+Documents  eeprom.bin  logs			Public
+hochob@server:~$ cd HochobServerMedia
+hochob@server:~/HochobServerMedia$ ls
+Area  Memories	Tradition  Visitors
+hochob@server:~/HochobServerMedia$ cd Tradition/
+hochob@server:~/HochobServerMedia/Tradition$ ls
+hochob@server:~/HochobServerMedia/Tradition$ git clone https://github.com/Hochob/DiaDeMuertos.git
+Cloning into 'DiaDeMuertos'...
+remote: Counting objects: 28, done.
+remote: Compressing objects: 100% (26/26), done.
+remote: Total 28 (delta 0), reused 25 (delta 0), pack-reused 0
+Unpacking objects: 100% (28/28), done.
+hochob@server:~/HochobServerMedia/Tradition$ 
+```
+
 # Sandbox
 
 # Sudo Privileges
