@@ -66,6 +66,10 @@ homeassistant:
     script.amikoogctranslationapi:
       friendly_name: Google Translation API
       icon: mdi:google-translate
+    
+    script.amikoopicture:
+      friendly_name: Fotógrafia
+      icon: mdi:camera
 
     script.makeblock:
       friendly_name: Centro de Visitantes
@@ -541,6 +545,10 @@ script:
     sequence:
       - service: shell_command.amikoogctranslationapi
 
+  amikoopicture:
+    sequence:
+      - service: shell_command.amikoopicture
+
   makeblock:
     sequence:
       - service: shell_command.makeblock
@@ -805,6 +813,7 @@ shell_command:
 
   amikoogcvisionapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gcvisionapi 1
   amikoogctranslationapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gctranslationapi 1
+  amikoopicture: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh picture 1
 
   # Amikoo Maya Lands: Skills Basic
 
@@ -1261,6 +1270,7 @@ group:
       - script.coji
       - script.amikoogcvisionapi
       - script.amikoogctranslationapi
+      - script.amikoopicture
 
   # Amikoo Maya Lands: Knowledge
 
