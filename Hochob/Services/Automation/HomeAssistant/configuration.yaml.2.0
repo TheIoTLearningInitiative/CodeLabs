@@ -56,9 +56,13 @@ homeassistant:
       friendly_name: Ahora
       icon: mdi:lock-reset
 
+    # Amikoo Maya Lands :: Applications
+
     script.coji:
       friendly_name: Hablar
       icon: mdi:speaker
+
+    # Amikoo Maya Lands :: Skills
 
     script.amikoogcvisionapi:
       friendly_name: Google Vision API
@@ -66,10 +70,11 @@ homeassistant:
     script.amikoogctranslationapi:
       friendly_name: Google Translation API
       icon: mdi:google-translate
-    
     script.amikoopicture:
       friendly_name: Fotógrafia
       icon: mdi:camera
+
+    # Amikoo Maya Lands :: Knowledge
 
     script.makeblock:
       friendly_name: Centro de Visitantes
@@ -533,9 +538,13 @@ script:
     sequence:
       - service: shell_command.resetall
 
+  # Amikoo Maya Lands :: Applications
+
   coji:
     sequence:
       - service: shell_command.coji
+
+  # Amikoo Maya Lands :: Skills
 
   amikoogcvisionapi:
     sequence:
@@ -549,9 +558,13 @@ script:
     sequence:
       - service: shell_command.amikoopicture
 
+  # Amikoo Maya Lands :: Knowledge
+
   makeblock:
     sequence:
       - service: shell_command.makeblock
+
+  # Amikoo Maya Lands :: Movement
 
   headright:
     sequence:
@@ -807,15 +820,18 @@ shell_command:
   # Amikoo Maya Lands: Applications
 
   coji: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Coji.sh &
-  makeblock: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Makeblock.sh &
-
-  # Amikoo Maya Lands: Skills Advanced
+  
+  # Amikoo Maya Lands: Skills
 
   amikoogcvisionapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gcvisionapi 1
   amikoogctranslationapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gctranslationapi 1
   amikoopicture: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh picture 1
 
-  # Amikoo Maya Lands: Skills Basic
+  # Amikoo Maya Lands :: Knowledge
+
+  makeblock: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Makeblock.sh &
+
+  # Amikoo Maya Lands: Movement
 
   headleft: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/headleft 1
   headright: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/headright 1
@@ -1137,6 +1153,7 @@ group:
     view: yes
     name: Robot
     entities:
+      - group.robotmayalandsapplications
       - group.robotmayalandsskills
       - group.robotmayalandsknowledge
       - group.robotmayalandshead
@@ -1262,12 +1279,18 @@ group:
     entities:
       - script.zacatecas
 
-  # Amikoo Maya Lands: Skills
+  # Amikoo Maya Lands: Applications
+
+  robotmayalandsapplications:
+    name: Habilidades
+    entities:
+      - script.coji
+
+  # Amikoo Maya Lands: Applications
 
   robotmayalandsskills:
     name: Habilidades
     entities:
-      - script.coji
       - script.amikoogcvisionapi
       - script.amikoogctranslationapi
       - script.amikoopicture
