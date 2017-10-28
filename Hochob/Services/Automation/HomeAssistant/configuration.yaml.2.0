@@ -1029,6 +1029,8 @@ group:
     entities:
       - group.traditionmayalandsdiademuertoschromecast
       - group.traditionmayalandsdiademuertosamikoo
+      - group.traditionmayalandsintelchromecast
+      - group.traditionmayalandsintelamikoo
   
   # Techie Maya Lands
 
