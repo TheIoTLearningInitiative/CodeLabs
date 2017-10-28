@@ -25,6 +25,7 @@
 - Amikoo Camera Picture
 - Intel Bong
 - Make Demo a option under HA UI
+- Remove & from Vlc.sh
 
 ## Robot
 
