@@ -321,11 +321,11 @@ homeassistant:
       icon: mdi:file-image
 
     automation.8086:
-      friendly_name:  10 minutos .. Imágenes
+      friendly_name:  10 minutos .. Video
       icon: mdi:calendar-clock
 
     script.8086:
-      friendly_name: Imágenes
+      friendly_name: Video
       icon: mdi:file-video
 
     # Techie Maya Lands : System Health
