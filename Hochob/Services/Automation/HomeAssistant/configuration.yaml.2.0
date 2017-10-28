@@ -270,27 +270,27 @@ homeassistant:
 
     # Tradition Maya Lands :: Dia De Muertos
     
-    automation.imix:
+    automation.veladora:
       friendly_name:  10 minutos .. Sonidos
       icon: mdi:calendar-clock
 
-    script.imix:
+    script.veladora:
       friendly_name: Sonidos
       icon: mdi:speaker
 
-    automation.ik:
+    automation.papelpicado:
       friendly_name:  10 minutos .. Sonidos
       icon: mdi:calendar-clock
 
-    script.ik:
+    script.papelpicado:
       friendly_name: Sonidos
       icon: mdi:speaker
 
-    automation.chikchan:
+    automation.mantel:
       friendly_name:  10 minutos .. Imágenes
       icon: mdi:calendar-clock
 
-    script.chikchan:
+    script.mantel:
       friendly_name: Imágenes
       icon: mdi:file-image
 
@@ -635,17 +635,17 @@ script:
 
   # Tradition Maya Lands :: Dia De Muertos
 
-  imix:
+  veladora:
     sequence:
-      - service: shell_command.imix
+      - service: shell_command.veladora
 
-  ik:
+  papelpicado:
     sequence:
-      - service: shell_command.ik
+      - service: shell_command.papelpicado
 
-  chikchan:
+  mantel:
     sequence:
-      - service: shell_command.chikchan
+      - service: shell_command.mantel
 
   # Tradition Maya Lands :: Intel
 
@@ -784,9 +784,9 @@ shell_command:
 
   # Tradition Maya Lands :: Dia De Muertos
 
-  imix: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Imix.sh &
-  ik: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Ik.sh &
-  chikchan: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Chikchan.sh &
+  veladora: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Veladora.sh &
+  papelpicado: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/PapelPicado.sh &
+  mantel: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Mantel.sh &
 
   # Tradition Maya Lands :: Intel
 
@@ -893,7 +893,7 @@ automation:
 
   # Tradition Maya Lands :: Dia De Muertos
 
-  - alias: Imix
+  - alias: Veladora
     initial_state: 'off'
     trigger:
       platform: time
@@ -904,25 +904,25 @@ automation:
       after: '07:00:00'
       before: '21:00:00'
     action:
-      - service: shell_command.imix
+      - service: shell_command.veladora
 
-  - alias: Ik
+  - alias: PapelPicado
     initial_state: 'off'
     trigger:
       platform: time
       minutes: '/10'
       seconds: 00
     action:
-      - service: shell_command.ik
+      - service: shell_command.papelpicado
 
-  - alias: Chikchan
+  - alias: Mantel
     initial_state: 'off'
     trigger:
       platform: time
       minutes: '/10'
       seconds: 00
     action:
-      - service: shell_command.chikchan
+      - service: shell_command.mantel
 
   # Tradition Maya Lands :: Intel
 
@@ -1335,16 +1335,16 @@ group:
   traditionmayalandsdiademuertoschromecast:
     name: Dia De Muertos <> Chromecast
     entities:
-      - automation.imix
-      - script.imix
+      - automation.veladora
+      - script.veladora
 
   traditionmayalandsdiademuertosamikoo:
     name: Dia De Muertos <> Robot
     entities:
-      - automation.ik
-      - automation.chikchan
-      - script.ik
-      - script.chikchan
+      - automation.papelpicado
+      - automation.mantel
+      - script.papelpicado
+      - script.mantel
 
   # Tradition Maya Lands :: Intel
 
