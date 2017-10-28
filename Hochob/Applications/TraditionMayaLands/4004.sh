@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export AKBAL_PID=$$
-export AKBAL_NAME="Imix"
-export AKBAL_PATH=$(readlink -f "$0")
-export AKBAL_DIRECTORY=$(dirname "$AKBAL_PATH")
+export 4004_PID=$$
+export A4004_NAME="Imix"
+export 4004_PATH=$(readlink -f "$0")
+export 4004_DIRECTORY=$(dirname "$4004_PATH")
 
 LOCAL_SEASON="Intel"
 LOCAL_DEVICE="Triki"
@@ -26,7 +26,7 @@ LOCAL_DEVICE="Triki"
 # Main
 # =============================================================================
 
-LogPid.sh $AKBAL_PID $AKBAL_NAME
+LogPid.sh $4004_PID $4004_NAME
 
 LOCAL_SOUND=`find $TRADITION_INTEL/Sound/ -type f | shuf -n 1`
 Stream.sh "$LOCAL_DEVICE" "1.0" "$LOCAL_SOUND"
