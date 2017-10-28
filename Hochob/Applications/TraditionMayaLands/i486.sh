@@ -29,23 +29,18 @@ LOCAL_DEVICE="Triki"
 LogPid.sh $i486_PID $i486_NAME
 
 
-# Image
-#Eog.sh "$TRADITION_INTEL/Image/*" &
 Eog.sh "$TRADITION_INTEL/Image/IntelExperienceWhatsInside.png" &
 sleep 1
-
-# Sound
 Vlc.sh $TRADITION_INTEL/Sound/IntelBong.mp3
-#LOCAL_SOUND=`find $TRADITION_INTEL/Sound/ -type f | shuf -n 1`
-#Vlc.sh "$LOCAL_SOUND"
-
-sleep 5
-
+sleep 1
 KillApp.sh "cvlc"
 KillApp.sh "eog"
 
-#SpeechSynthetizer.sh on espeak spanish \
-#    "Saludos \
-#     "
+Eog.sh "$TRADITION_INTEL/Image/IntelChorus.png" &
+sleep 1
+Vlc.sh $TRADITION_INTEL/Sound/IntelBongChorus.mp3
+sleep 1
+KillApp.sh "cvlc"
+KillApp.sh "eog"
 
 # End of File
