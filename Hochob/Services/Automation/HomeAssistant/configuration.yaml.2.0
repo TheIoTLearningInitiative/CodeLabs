@@ -312,6 +312,14 @@ homeassistant:
       friendly_name: Sonidos
       icon: mdi:speaker
 
+    automation.kimi:
+      friendly_name:  10 minutos .. Sonidos
+      icon: mdi:calendar-clock
+
+    script.kimi:
+      friendly_name: Sonidos
+      icon: mdi:file-image
+
     # Techie Maya Lands : System Health
 
     script.toyota:
@@ -649,6 +657,10 @@ script:
     sequence:
       - service: shell_command.kan
 
+  kimi:
+    sequence:
+      - service: shell_command.kimi
+
   # Techie Maya Lands
   
   toyota:
@@ -780,7 +792,8 @@ shell_command:
 
   akbal: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Akbal.sh &
   kan: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Kan.sh &
-
+  kimi: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Kimi.sh &
+  
   # Techie Maya Lands
   
   toyota: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Toyota.sh &
@@ -934,6 +947,15 @@ automation:
       seconds: 00
     action:
       - service: shell_command.kan
+
+  - alias: Kimi
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    action:
+      - service: shell_command.kimi
 
   # Techie Maya Lands: System Calendar
 
@@ -1336,7 +1358,9 @@ group:
     name: Intel <> Robot
     entities:
       - automation.kan
+      - automation.kimi
       - script.kan
+      - script.kimi
 
   # Techie Maya Lands: System Health
 
