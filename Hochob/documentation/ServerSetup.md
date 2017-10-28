@@ -186,6 +186,13 @@ Checking connectivity... done.
 hochob@server:~$ 
 ```
 
+```sh
+hochob@server:~$ cd CodeLabs/
+hochob@server:~/CodeLabs$ git checkout -b Hochob origin/Hochob
+Branch Hochob set up to track remote branch Hochob from origin.
+Switched to a new branch 'Hochob'
+```
+
 # Sandbox
 
 # Sudo Privileges

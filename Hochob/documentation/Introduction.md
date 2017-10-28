@@ -5,6 +5,7 @@
 3. Run Setup Scripts
 4. Populate
    - HochobServerMedia
+     - Clone all Hochob organization repos
    - HochobServerMediaSource
 5. Amikoo Virtual
 6. Purpose
