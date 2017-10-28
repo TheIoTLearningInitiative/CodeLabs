@@ -28,12 +28,16 @@ LOCAL_DEVICE="Triki"
 
 LogPid.sh $i486_PID $i486_NAME
 
-# Sound
-Eog.sh "$TRADITION_INTEL/Image/2017-05-08-131711_1920x1080_scrot.png" &
 
 # Image
+Eog.sh "$TRADITION_INTEL/Image/2017-05-08-131711_1920x1080_scrot.png" &
+sleep 1
+
+# Sound
 LOCAL_SOUND=`find $TRADITION_INTEL/Sound/ -type f | shuf -n 1`
 Vlc.sh "$LOCAL_SOUND"
+
+sleep 5
 
 KillApp.sh "cvlc"
 KillApp.sh "eog"
