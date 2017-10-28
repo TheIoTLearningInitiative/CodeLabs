@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export 4004_PID=$$
-export 4004_NAME="4004"
-export 4004_PATH=$(readlink -f "$0")
-export 4004_DIRECTORY=$(dirname "$4004_PATH")
+export i4004_PID=$$
+export i4004_NAME="i4004"
+export i4004_PATH=$(readlink -f "$0")
+export i4004_DIRECTORY=$(dirname "$i4004_PATH")
 
 LOCAL_SEASON="Intel"
 LOCAL_DEVICE="Triki"
@@ -26,7 +26,7 @@ LOCAL_DEVICE="Triki"
 # Main
 # =============================================================================
 
-LogPid.sh $4004_PID $4004_NAME
+LogPid.sh $i4004_PID $i4004_NAME
 
 LOCAL_SOUND=`find $TRADITION_INTEL/Sound/ -type f | shuf -n 1`
 Stream.sh "$LOCAL_DEVICE" "1.0" "$LOCAL_SOUND"
