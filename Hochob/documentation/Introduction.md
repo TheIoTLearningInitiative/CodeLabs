@@ -3,6 +3,10 @@
 1. Clone CodeLabs Repository
 2. Checkout Hochob branch
 3. Run Setup Scripts
+   - HochobServerConfiguration.sh
+   - HochobServerMedia.sh
+   - HochobServerMediaSource.sh
+   - Packages.sh
 4. Populate
    - HochobServerMedia
      - Clone all Hochob organization repos
