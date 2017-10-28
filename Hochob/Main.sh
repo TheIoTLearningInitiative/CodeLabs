@@ -214,8 +214,8 @@ AMIKOO_CAMERA_PICTURE=$AMIKOO_CAMERA/picture
 
 ## Skills Advanced
 
-AMIKOO_GCVISIONAPI=$AMIKOO/gcvisionapi
-AMIKOO_GCTRANSLATIONAPI=$AMIKOO/gctranslationapi
+AMIKOO_GCVISIONAPI=$AMIKOO/gc/visionapi
+AMIKOO_GCTRANSLATIONAPI=$AMIKOO/gc/translationapi
 
 ## Skills Basic
 
