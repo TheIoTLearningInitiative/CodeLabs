@@ -95,7 +95,10 @@ hochob@server:~$ cd .homeassistant/
 hochob@server:~/.homeassistant$ ls
 configuration.yaml  deps  groups.yaml  home-assistant.log  home-assistant_v2.db  tts
 hochob@server:~/.homeassistant$ cp configuration.yaml configuration.yaml.original
-hochob@server:~/.homeassistant$ 
+```
+
+```sh
+hochob@server:~/.homeassistant$ cp ~/CodeLabs/Hochob/Services/Automation/HomeAssistant/configuration.yaml.2.0 configuration.yaml
 ```
 
 ## Check Config
