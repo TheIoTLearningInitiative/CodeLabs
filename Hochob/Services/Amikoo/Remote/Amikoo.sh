@@ -45,7 +45,7 @@ elif [ "$LOCAL_COMMAND" = "picture" ]; then
     Mosquitto.sh $AMIKOO_PICTURE "Camera Picture"
 fi
 
-# Skills Basic
+# Movement & Speak
 
 Mosquitto.sh $LOCAL_COMMAND $LOCAL_MESSAGE
 
