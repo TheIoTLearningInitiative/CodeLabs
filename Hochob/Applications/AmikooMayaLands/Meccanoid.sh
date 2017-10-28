@@ -37,7 +37,16 @@ else
     "Vamos a bailar"
 fi
 
-AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "MichaelJacksonThirllerShort.mp3"
+AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "MichaelJacksonThrillerShort.mp3"
+
+sleep 10
+
+Amikoo.sh amikoo/headright 1 && sleep .6
+Amikoo.sh amikoo/headleft 1 && sleep .6
+Amikoo.sh amikoo/moveforward 1 && sleep .6
+Amikoo.sh amikoo/movewbackward 1 && sleep .6
+
+sleep 14
 
 Amikoo.sh amikoo/headright 1 && sleep .6
 Amikoo.sh amikoo/headleft 1 && sleep .6
@@ -46,9 +55,13 @@ Amikoo.sh amikoo/leftup 1 && sleep .6
 Amikoo.sh amikoo/rightfold 1 && sleep .6
 Amikoo.sh amikoo/leftfold 1 && sleep .6
 Amikoo.sh amikoo/moveright 1 && sleep .6
+Amikoo.sh amikoo/movestop 1 && sleep .6
 Amikoo.sh amikoo/moveleft 1 && sleep .6
+Amikoo.sh amikoo/movestop 1 && sleep .6
 Amikoo.sh amikoo/moveleft 1 && sleep .6
+Amikoo.sh amikoo/movestop 1 && sleep .6
 Amikoo.sh amikoo/moveleft 1 && sleep .6
+Amikoo.sh amikoo/movestop 1 && sleep .6
 Amikoo.sh amikoo/leftfold 1 && sleep .6
 Amikoo.sh amikoo/rightfold 1 && sleep .6
 Amikoo.sh amikoo/leftup 1 && sleep .6
