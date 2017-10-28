@@ -22,6 +22,12 @@ export COJI_DIRECTORY=$(dirname "$COJI_PATH")
 # Main
 # =============================================================================
 
+Amikoo.sh $AMIKOO_SAY \
+    "Hello World. I can speak English. One, Two, Three."
+
+Amikoo.sh $AMIKOO_DECIR \
+    "Hola Mundo. Puedo hablar Español. Uno, Dos, Tres."
+
 LOCAL_LANGUAGE=`Language.sh`
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Amikoo.sh $AMIKOO_SAY \
