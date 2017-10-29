@@ -12,7 +12,7 @@
 - __Friendly Name__: Discurso Bilingüe
 - __Services__: Robot
 
-# Meccanoid
+# Name: Meccanoid
 
 - __Area__: Amikoo
 - __Group__: Applications
@@ -21,7 +21,7 @@
   - Amikoo.sh
   - AmikooTradition.sh
 
-# Sphero
+# Name: Sphero
 
 - __Area__: Amikoo
 - __Group__: Knowledge
