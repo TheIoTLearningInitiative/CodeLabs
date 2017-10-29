@@ -11,7 +11,7 @@ set -x
 export AMIKOOVOICE_PID=$$
 
 LOCAL_LANGUAGE="$1"
-LOCAL_MESSAGE="$2"
+LOCAL_MESSAGE=""
 LOCAL_TOPIC=""
 
 # =============================================================================
