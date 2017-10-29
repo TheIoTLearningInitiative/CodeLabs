@@ -34,7 +34,14 @@ do
     i=`expr $i + 1`
 done
 
-echo $LOCAL_MESSAGE
+LOCAL_DEMO=`Demo.sh`
+if [ "$LOCAL_DEMO" -eq "1" ]; then
+    if [ "$LOCAL_MESSAGE" != "1" ]
+    then
+        Espeak.sh on spanish "$LOCAL_MESSAGE"
+    fi
+    exit 0
+fi
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     LOCAL_TOPIC=$AMIKOO_TALK
