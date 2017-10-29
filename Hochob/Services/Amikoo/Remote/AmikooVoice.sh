@@ -11,7 +11,7 @@ set -x
 export AMIKOOVOICE_PID=$$
 
 LOCAL_LANGUAGE="$1"
-LOCAL_MESSAGE=""
+LOCAL_MESSAGE="$2"
 LOCAL_TOPIC=""
 
 # =============================================================================
@@ -33,6 +33,8 @@ do
     fi
     i=`expr $i + 1`
 done
+
+echo $LOCAL_MESSAGE
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     LOCAL_TOPIC=$AMIKOO_TALK
