@@ -119,7 +119,7 @@ homeassistant:
       friendly_name: Vista
       icon: mdi:camera
 
-    # Amikoo Maya Lands :: Communication ::
+    # Amikoo Maya Lands :: Communication
     
     script.amikoocommunicationaudio:
       friendly_name: Audio
@@ -160,6 +160,9 @@ homeassistant:
     script.meccanoid:
       friendly_name: Baile Thriller
       icon: mdi:account
+    script.chip:
+      friendly_name: Fotógrafo
+      icon: mdi:camera
 
     # Central Maya Lowlands, Stations
 
@@ -688,6 +691,10 @@ script:
     sequence:
       - service: shell_command.meccanoid
 
+  chip:
+    sequence:
+      - service: shell_command.chip
+
   # Central Maya Lowlands, Stations
 
   acapulco:
@@ -928,6 +935,7 @@ shell_command:
 
   coji: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Coji.sh &
   meccanoid: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Meccanoid.sh &
+  chip: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Chip.sh &
 
   # Console Maya Lands
 
@@ -1397,6 +1405,7 @@ group:
     entities:
       - script.coji
       - script.meccanoid
+      - script.chip
 
   # Amikoo Maya Lands: Knowledge
 
