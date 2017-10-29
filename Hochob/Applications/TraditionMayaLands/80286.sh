@@ -27,16 +27,16 @@ LOCAL_TRADITION="Intel"
 
 LogPid.sh $i80286_PID $i80286_NAME
 
-AmikooTradition.sh "$LOCAL_TRADITION" "Image" "IntelExperienceWhatsInside.png"
-AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "IntelBong.mp3"
+AmikooCommunication.sh "$LOCAL_TRADITION" "Image" "IntelExperienceWhatsInside.png"
+AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "IntelBong.mp3"
 sleep 2
-AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "Stop"
-AmikooTradition.sh "$LOCAL_TRADITION" "Image" "Stop"
+AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "Stop"
+AmikooCommunication.sh "$LOCAL_TRADITION" "Image" "Stop"
 
-AmikooTradition.sh "$LOCAL_TRADITION" "Image" "IntelChorus.jpg"
-AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "IntelBongChorus.mp3"
+AmikooCommunication.sh "$LOCAL_TRADITION" "Image" "IntelChorus.jpg"
+AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "IntelBongChorus.mp3"
 sleep 2
-AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "Stop"
-AmikooTradition.sh "$LOCAL_TRADITION" "Image" "Stop"
+AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "Stop"
+AmikooCommunication.sh "$LOCAL_TRADITION" "Image" "Stop"
 
 # End of File

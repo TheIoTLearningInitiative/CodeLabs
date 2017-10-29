@@ -27,10 +27,10 @@ LOCAL_TRADITION="DiaDeMuertos"
 
 LogPid.sh $PAPELPICADO_PID $PAPELPICADO_NAME
 
-AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "demoniclaughter.mp3"
+AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "demoniclaughter.mp3"
 sleep 30
-AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "Random"
+AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "Random"
 sleep 5
-AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "Stop"
+AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "Stop"
 
 # End of File

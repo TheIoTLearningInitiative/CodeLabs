@@ -37,7 +37,7 @@ else
     "Vamos a bailar"
 fi
 
-AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "MichaelJacksonThrillerShort.mp3"
+AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "MichaelJacksonThrillerShort.mp3"
 
 sleep 10
 
@@ -69,6 +69,6 @@ Amikoo.sh amikoo/rightup && sleep .6
 Amikoo.sh amikoo/headleft && sleep .6
 Amikoo.sh amikoo/headright && sleep .6
 
-AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "Stop"
+AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "Stop"
 
 # End of File

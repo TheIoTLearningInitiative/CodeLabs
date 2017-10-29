@@ -27,9 +27,9 @@ LOCAL_TRADITION="Intel"
 
 LogPid.sh $i8008_PID $i8008_NAME
 
-AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "IntelBong.mp3"
+AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "IntelBong.mp3"
 sleep 5
-AmikooTradition.sh "$LOCAL_TRADITION" "Audio" "IntelBongPeople.mp3"
+AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "IntelBongPeople.mp3"
 
 
 # End of File
