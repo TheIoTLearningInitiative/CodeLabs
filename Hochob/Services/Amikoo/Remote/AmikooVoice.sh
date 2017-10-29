@@ -40,13 +40,12 @@ if [ "$LOCAL_DEMO" -eq "1" ]; then
     then
         Espeak.sh on spanish "$LOCAL_MESSAGE"
     fi
-    exit 0
+else
+    if [ "$LOCAL_LANGUAGE" = "english" ]; then
+        LOCAL_TOPIC=$AMIKOO_TALK
+    elif [ "$LOCAL_LANGUAGE" = "spanish" ]; then
+        LOCAL_TOPIC=$AMIKOO_HABLAR
+    fi
+    Mosquitto.sh $LOCAL_TOPIC $LOCAL_MESSAGE
 fi
 
-if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    LOCAL_TOPIC=$AMIKOO_TALK
-elif [ "$LOCAL_LANGUAGE" = "spanish" ]; then
-    LOCAL_TOPIC=$AMIKOO_HABLAR
-fi
-
-Mosquitto.sh $LOCAL_TOPIC $LOCAL_MESSAGE
