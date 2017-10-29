@@ -23,9 +23,9 @@ LOCAL_COMMAND="$2"
 # Main
 # =============================================================================
 
-if [ "$LOCAL_SENSE" = "sight" ]; then
-    if [ "$LOCAL_COMMAND" = "picture" ]; then
-        Mosquitto.sh $AMIKOO_PICTURE "Camera Picture"
+if [ "$LOCAL_SENSE" = "Sight" ]; then
+    if [ "$LOCAL_COMMAND" = "Picture" ]; then
+        Mosquitto.sh $AMIKOO_PICTURE "Sense Sight Picture"
     fi
 fi
 
