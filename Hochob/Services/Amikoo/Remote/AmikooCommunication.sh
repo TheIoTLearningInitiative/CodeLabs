@@ -8,7 +8,7 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export AMIKOOTRADITION_PID=$$
+export AMIKOOCOMMUNICATION_PID=$$
 
 LOCAL_TRADITION="$1"
 LOCAL_SKILL="$2"
