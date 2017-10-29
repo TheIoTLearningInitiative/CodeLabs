@@ -18,7 +18,7 @@
 - Experience Day https://github.com/TheIoTLearningInitiative/CodeLabs/blob/Hochob/Hochob/Applications/RobotMayaLands/Makeblock.sh
 - Season
 
-## Server 
+## Server
 
 - Survey Acknowledge
 - Amikoo Tradition Sound
@@ -29,6 +29,7 @@
 - Create a new service to generate random movements for Amikoo
 - Robot Anatomy Training
   - Major Rework In Robot Anatomy
+  - 
 
 ## Robot
 

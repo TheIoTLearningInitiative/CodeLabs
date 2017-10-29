@@ -116,7 +116,7 @@
       * [Chromecast](Hochob/documentation/Chromecast.md)
     * [Keypads](Hochob/documentation/Keypad.md)
     * [Mobile Device](Hochob/documentation/MobileDevice.md)
-    * [Robot](Hochob/documentation/LupeRobot.md)
+    * [Amikoo](Hochob/documentation/LupeRobot.md)
       * [Architecture](Hochob/documentation/RobotArchitecture.md)
         * [Hardware Components](Hochob/documentation/RobotHardwareComponents.md)
           * [Intel®  Edison  Breakout Board](Hochob/documentation/RobotHardwareComponentsIntelEdisonBreakoutBoard.md)
