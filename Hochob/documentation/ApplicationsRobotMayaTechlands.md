@@ -1,9 +1,27 @@
 # Robot Maya Techlands
 
-- __Coji__
-- __Makeblock__
-- __Meccanoid__
 - __Sphero__
+- __Makeblock__
+- __Coji__
+- __Meccanoid__
+
+# Knowledge :: Sphero
+
+- __Area__: Amikoo
+- __Group__: Knowledge
+- __Friendly Name__: Popular Phrases
+- __Services__:
+  - Amikoo.sh
+
+# Knowledge: Makeblock
+
+- __Area__: Amikoo
+- __Group__: Knowledge
+- __Friendly Name__: Questions Museum
+- __Services__:
+  - StreamText
+  - SurveyMultipleChoice
+  - SurveyYesNo
 
 # Applications :: Coji
 
@@ -18,20 +36,10 @@
   - Amikoo.sh
   - AmikooTradition.sh
 
-# Applications :: Sphero
+# Applications :: CHiP
 
-- __Area__: Amikoo
-- __Group__: Knowledge
-- __Friendly Name__: Popular Phrases
+- __Friendly Name__: Fotógrafo
 - __Services__:
-  - Amikoo.sh
+  - AmikooVoice.sh
+  - AmikooSense.sh
 
-# Name: Makeblock
-
-- __Area__: Amikoo
-- __Group__: Knowledge
-- __Friendly Name__: Questions Museum
-- __Services__:
-  - StreamText
-  - SurveyMultipleChoice
-  - SurveyYesNo
