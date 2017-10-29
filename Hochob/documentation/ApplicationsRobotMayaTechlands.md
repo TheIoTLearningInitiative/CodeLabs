@@ -13,7 +13,6 @@
 
 # Applications :: Meccanoid
 
-- __Area__: Amikoo
 - __Friendly Name__: Thriller Dance
 - __Services__:
   - Amikoo.sh
