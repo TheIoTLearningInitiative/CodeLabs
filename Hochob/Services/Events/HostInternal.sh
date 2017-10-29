@@ -15,6 +15,9 @@ LOCAL_LANGUAGE="$2"
 LOCAL_INSTITUTION_NAME="$3"
 LOCAL_EVENT_NAME="$4"
 
+LOCAL_INTRODUCTION_ENGLISH="Hi, I am Lupe."
+LOCAL_INTRODUCTION_SPANISH="Hola! Soy Lupe."
+
 LOCAL_GREETING_ENGLISH[0]="Hi There,"
 LOCAL_GREETING_ENGLISH[1]="Good morning,"
 LOCAL_GREETING_ENGLISH[2]="Hurray,"
@@ -56,6 +59,16 @@ LOCAL_CLOSURE_SPANISH="Verifica tu correo electrónico para mas información."
 # Functions
 # =============================================================================
 
+chooseIntroduction()
+{
+    LANGUAGE=$1
+    if [ "$LANGUAGE" = "english" ]; then
+        LOCAL_INTRODUCTION=${LOCAL_INTRODUCTION_ENGLISH}
+    else
+        LOCAL_INTRODUCTION=${LOCAL_INTRODUCTION_SPANISH}
+    fi
+}
+
 chooseGreeting()
 {
     LANGUAGE=$1
@@ -96,11 +109,13 @@ chooseClosure()
 # Main
 # =============================================================================
 
+chooseIntroduction $LOCAL_LANGUAGE
 chooseGreeting $LOCAL_LANGUAGE
 chooseReminder $LOCAL_LANGUAGE
 chooseClosure $LOCAL_LANGUAGE
 
-LOCAL_MESSAGE="${LOCAL_GREETING} ${LOCAL_INSTITUTION_NAME}. \
+LOCAL_MESSAGE="${LOCAL_INTRODUCTION} \
+               ${LOCAL_GREETING} ${LOCAL_INSTITUTION_NAME}. \
                ${LOCAL_REMINDER} ${LOCAL_EVENT_NAME}. \
                ${LOCAL_CLOSURE}"
 
