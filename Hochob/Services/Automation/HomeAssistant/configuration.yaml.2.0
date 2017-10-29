@@ -133,6 +133,15 @@ homeassistant:
       friendly_name: Video
       icon: mdi:file-video
 
+    # Amikoo Maya Lands :: Expertise
+
+    script.amikoogcvisionapi:
+      friendly_name: Google Vision API
+      icon: mdi:camera
+    script.amikoogctranslationapi:
+      friendly_name: Google Translation API
+      icon: mdi:google-translate
+
     # Amikoo Maya Lands :: Knowledge
 
     script.sphero:
@@ -142,15 +151,6 @@ homeassistant:
     script.makeblock:
       friendly_name: Centro de Visitantes
       icon: mdi:audiobook
-
-    # Amikoo Maya Lands :: Expertise
-
-    script.amikoogcvisionapi:
-      friendly_name: Google Vision API
-      icon: mdi:camera
-    script.amikoogctranslationapi:
-      friendly_name: Google Translation API
-      icon: mdi:google-translate
 
     # Amikoo Maya Lands :: Applications
 
@@ -658,16 +658,6 @@ script:
     sequence:
       - service: shell_command.amikoocommunicationvideo
 
-  # Amikoo Maya Lands :: Knowledge
-
-  sphero:
-    sequence:
-      - service: shell_command.sphero
-
-  makeblock:
-    sequence:
-      - service: shell_command.makeblock
-
   # Amikoo Maya Lands :: Expertise
 
   amikoogcvisionapi:
@@ -677,6 +667,16 @@ script:
   amikoogctranslationapi:
     sequence:
       - service: shell_command.amikoogctranslationapi
+
+  # Amikoo Maya Lands :: Knowledge
+
+  sphero:
+    sequence:
+      - service: shell_command.sphero
+
+  makeblock:
+    sequence:
+      - service: shell_command.makeblock
 
   # Amikoo Maya Lands :: Application
 
@@ -914,15 +914,15 @@ shell_command:
   amikoocommunicationimage: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooCommunication.sh Amikoo Image Random
   amikoocommunicationvideo: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooCommunication.sh Amikoo Video Random
 
-  # Amikoo Maya Lands :: Knowledge
-
-  sphero: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Sphero.sh &
-  makeblock: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Makeblock.sh &
-
   # Amikoo Maya Lands: Expertise
 
   amikoogcvisionapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gcvisionapi 1
   amikoogctranslationapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gctranslationapi 1
+
+  # Amikoo Maya Lands :: Knowledge
+
+  sphero: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Sphero.sh &
+  makeblock: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Makeblock.sh &
 
   # Amikoo Maya Lands: Application
 
