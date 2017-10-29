@@ -15,6 +15,7 @@
   - Communication :: Visual
     - Image
     - Video
+- Knowledge  
 - Expertise
   - Google Cloud
     - Google Vision API
