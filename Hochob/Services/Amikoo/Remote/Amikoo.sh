@@ -41,11 +41,9 @@ if [ "$LOCAL_COMMAND" = "gcvisionapi" ]; then
     Mosquitto.sh $AMIKOO_GCVISIONAPI "Google Cloud Vision API"
 elif [ "$LOCAL_COMMAND" = "gctranslationapi" ]; then
     Mosquitto.sh $AMIKOO_GCTRANSLATIONAPI "Google Cloud Translation API"
-elif [ "$LOCAL_COMMAND" = "picture" ]; then
-    Mosquitto.sh $AMIKOO_PICTURE "Camera Picture"
 fi
 
-# Movement & Speak
+# Movement
 
 Mosquitto.sh $LOCAL_COMMAND $LOCAL_MESSAGE
 
