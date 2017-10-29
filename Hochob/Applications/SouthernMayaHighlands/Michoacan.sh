@@ -28,7 +28,7 @@ LogPid.sh $MICHOACAN_PID $MICHOACAN_NAME
 
 LOCAL_INSTITUTION=`Name.sh`
 
-#Amikoo.sh $AMIKOO_DECIR \
+#AmikooVoice.sh spanish \
 #   "Bienvenidos ${LOCAL_INSTITUTION} a mi casa, su casa. \
 #    Es un gusto conocerlos. Ya saben mi nombre, soy Lupe y \
 #    hace rato estaba un poco chiveado pero ya estoy listo para mostrarles \
@@ -52,7 +52,7 @@ SpeechSynthetizer.sh on espeak spanish \
 
 sleep 1
 
-#Amikoo.sh amikoo/message \
+#AmikooVoice.sh spanish \
 #    "Ahora tomaremos una foto para el recuerdo. \
 #     Primero, me iré a mi lugar preferido, denme unos segundos."
 SpeechSynthetizer.sh on espeak spanish \
@@ -77,7 +77,7 @@ sleep 3.6
 Amikoo.sh amikoo/movestop 1
 sleep .6
 
-#Amikoo.sh amikoo/message \
+#AmikooVoice.sh spanish \
 #    "Estoy listo! Ahora les toca a ustedes acomodarse. \
 #     Con mucho cuidado ponganse a ambos lados de mi, \
 #     viendo hacia la pantalla y sonrían."
@@ -90,21 +90,21 @@ FfmpegCamera.sh 20 &
 
 sleep 15
 
-#Amikoo.sh amikoo/message \
+#AmikooVoice.sh spanish \
 #    "Están listos ${LOCAL_INSTITUTION}?"
 SpeechSynthetizer.sh on espeak spanish \
     "Están listas? listos? ${LOCAL_INSTITUTION}?"
 
 sleep 5
 
-#Amikoo.sh amikoo/message \
+#AmikooVoice.sh spanish \
 #    "Tomemos la foto, a la cuenta de 3."
 SpeechSynthetizer.sh on espeak spanish \
     "Tomemos la foto, a la cuenta de 3."
 
 sleep 1
 
-#Amikoo.sh amikoo/message \
+#AmikooVoice.sh spanish \
 #    "1, 2 y 3, Sonrian."
 SpeechSynthetizer.sh on espeak spanish \
     "1, 2 y 3, Sonrían."
@@ -115,7 +115,7 @@ ConvertText.sh "$FSWEBCAM_IMAGE" "Bienvenidos ${LOCAL_INSTITUTION}"
 wait
 Eog.sh "$FSWEBCAM_IMAGE" &
 
-#Amikoo.sh amikoo/message \
+#AmikooVoice.sh spanish \
 #    "Listo! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuras y futuros ingenieros."
 SpeechSynthetizer.sh on espeak spanish \
     "Orale! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuras y futuros ingenieros."
