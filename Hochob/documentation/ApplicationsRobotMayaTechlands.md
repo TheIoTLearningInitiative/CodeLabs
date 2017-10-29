@@ -5,23 +5,21 @@
 - __Meccanoid__
 - __Sphero__
 
-# Name: Coji
+# Applications :: Coji
 
-- __Area__: Amikoo
-- __Group__: Applications
 - __Friendly Name__: Discurso Bilingüe
-- __Services__: Robot
+- __Services__:
+  - 
 
-# Name: Meccanoid
+# Applications :: Meccanoid
 
 - __Area__: Amikoo
-- __Group__: Applications
 - __Friendly Name__: Thriller Dance
 - __Services__:
   - Amikoo.sh
   - AmikooTradition.sh
 
-# Name: Sphero
+# Applications :: Sphero
 
 - __Area__: Amikoo
 - __Group__: Knowledge
