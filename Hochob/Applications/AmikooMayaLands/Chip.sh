@@ -35,6 +35,8 @@ else
     "Es hora de tomarte una foto, Sonríe cuando escuches un sonido."
 fi
 
+sleep 1
+
 Amikoo.sh amikoo/headright && sleep .6
 Amikoo.sh amikoo/headleft && sleep .6
 
