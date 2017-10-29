@@ -56,36 +56,7 @@ homeassistant:
       friendly_name: Ahora
       icon: mdi:lock-reset
 
-    # Amikoo Maya Lands :: Applications
-
-    script.coji:
-      friendly_name: Discurso Bilingüe
-      icon: mdi:speaker
-    script.meccanoid:
-      friendly_name: Baile Thriller
-      icon: mdi:account
-
-    # Amikoo Maya Lands :: Skills
-
-    script.amikoogcvisionapi:
-      friendly_name: Google Vision API
-      icon: mdi:camera
-    script.amikoogctranslationapi:
-      friendly_name: Google Translation API
-      icon: mdi:google-translate
-    script.amikoopicture:
-      friendly_name: Fotógrafia
-      icon: mdi:camera
-
-    # Amikoo Maya Lands :: Knowledge
-
-    script.sphero:
-      friendly_name: Frases Populares
-      icon: mdi:audiobook
-
-    script.makeblock:
-      friendly_name: Centro de Visitantes
-      icon: mdi:audiobook
+    # Amikoo Maya Lands :: Movement
 
     script.headright:
       friendly_name: Derecha
@@ -93,7 +64,7 @@ homeassistant:
     script.headleft:
       friendly_name: Izquierda
       icon: mdi:arrow-left-thick
-
+ 
     script.rightup:
       friendly_name: Arriba
       icon: mdi:human-handsup
@@ -135,6 +106,48 @@ homeassistant:
     script.movestop:
       friendly_name: Parar
       icon: mdi:stop
+
+    # Amikoo Maya Lands :: Voice
+
+    # Tbd
+
+    # Amikoo Maya Lands :: Sense
+
+    script.amikoosensesight:
+      friendly_name: Vista
+      icon: mdi:camera
+
+    # Amikoo Maya Lands :: Communication
+    
+    # Tbd
+
+    # Amikoo Maya Lands :: Knowledge
+
+    script.sphero:
+      friendly_name: Frases Populares
+      icon: mdi:audiobook
+
+    script.makeblock:
+      friendly_name: Centro de Visitantes
+      icon: mdi:audiobook
+
+    # Amikoo Maya Lands :: Expertise
+
+    script.amikoogcvisionapi:
+      friendly_name: Google Vision API
+      icon: mdi:camera
+    script.amikoogctranslationapi:
+      friendly_name: Google Translation API
+      icon: mdi:google-translate
+
+    # Amikoo Maya Lands :: Applications
+
+    script.coji:
+      friendly_name: Discurso Bilingüe
+      icon: mdi:speaker
+    script.meccanoid:
+      friendly_name: Baile Thriller
+      icon: mdi:account
 
     # Central Maya Lowlands, Stations
 
@@ -545,40 +558,6 @@ script:
     sequence:
       - service: shell_command.resetall
 
-  # Amikoo Maya Lands :: Applications
-
-  coji:
-    sequence:
-      - service: shell_command.coji
-
-  meccanoid:
-    sequence:
-      - service: shell_command.meccanoid
-
-  # Amikoo Maya Lands :: Skills
-
-  amikoogcvisionapi:
-    sequence:
-      - service: shell_command.amikoogcvisionapi
-
-  amikoogctranslationapi:
-    sequence:
-      - service: shell_command.amikoogctranslationapi
-
-  amikoopicture:
-    sequence:
-      - service: shell_command.amikoopicture
-
-  # Amikoo Maya Lands :: Knowledge
-
-  sphero:
-    sequence:
-      - service: shell_command.sphero
-
-  makeblock:
-    sequence:
-      - service: shell_command.makeblock
-
   # Amikoo Maya Lands :: Movement
 
   headright:
@@ -640,6 +619,52 @@ script:
   movestop:
     sequence:
       - service: shell_command.movestop
+
+  # Amikoo Maya Lands :: Voice
+  
+  # Tbd
+
+  # Amikoo Maya Lands :: Sense
+  
+  # Tbd
+
+  # Amikoo Maya Lands :: Communication
+  
+  # Tbd
+
+  # Amikoo Maya Lands :: Knowledge
+
+  sphero:
+    sequence:
+      - service: shell_command.sphero
+
+  makeblock:
+    sequence:
+      - service: shell_command.makeblock
+
+  # Amikoo Maya Lands :: Expertise
+
+  amikoogcvisionapi:
+    sequence:
+      - service: shell_command.amikoogcvisionapi
+
+  amikoogctranslationapi:
+    sequence:
+      - service: shell_command.amikoogctranslationapi
+
+  amikoosensesight:
+    sequence:
+      - service: shell_command.amikoosensesight
+
+  # Amikoo Maya Lands :: Application
+
+  coji:
+    sequence:
+      - service: shell_command.coji
+
+  meccanoid:
+    sequence:
+      - service: shell_command.meccanoid
 
   # Central Maya Lowlands, Stations
 
@@ -831,22 +856,6 @@ shell_command:
   # Amikoo Maya Lands
   
   resetall: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/resetall 1
-  
-  # Amikoo Maya Lands: Applications
-
-  coji: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Coji.sh &
-  meccanoid: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Meccanoid.sh &
-  
-  # Amikoo Maya Lands: Skills
-
-  amikoogcvisionapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gcvisionapi 1
-  amikoogctranslationapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gctranslationapi 1
-  amikoopicture: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh picture 1
-
-  # Amikoo Maya Lands :: Knowledge
-
-  sphero: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Sphero.sh &
-  makeblock: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Makeblock.sh &
 
   # Amikoo Maya Lands: Movement
 
@@ -868,7 +877,32 @@ shell_command:
   moveforward: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/moveforward "Body Move Forward"
   movebackward: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/movebackward "Body Move Backward"
   movestop: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/movestop "Body Stop"
+
+  # Amikoo Maya Lands :: Voice
+  # Tbd
+
+  # Amikoo Maya Lands: Sense
   
+  amikoosensesight: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooSense.sh sight picture
+
+  # Amikoo Maya Lands :: Communication
+  # Tbd
+
+  # Amikoo Maya Lands :: Knowledge
+
+  sphero: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Sphero.sh &
+  makeblock: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Makeblock.sh &
+
+  # Amikoo Maya Lands: Expertise
+
+  amikoogcvisionapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gcvisionapi 1
+  amikoogctranslationapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gctranslationapi 1
+
+  # Amikoo Maya Lands: Application
+
+  coji: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Coji.sh &
+  meccanoid: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Meccanoid.sh &
+
   # Console Maya Lands
 
   keypadyes: ~/CodeLabs/Hochob/Services/Keypad/KeypadYesNo.sh virtual yes &
@@ -1171,8 +1205,11 @@ group:
     name: Robot
     entities:
       - group.robotmayalandsapplications
-      - group.robotmayalandsskills
+      - group.robotmayalandsexpertise
       - group.robotmayalandsknowledge
+      - group.robotmayalandscommunication
+      - group.robotmayalandssense
+      - group.robotmayalandsvoice
       - group.robotmayalandshead
       - group.robotmayalandsarmright
       - group.robotmayalandsarmleft
@@ -1296,30 +1333,12 @@ group:
     entities:
       - script.zacatecas
 
-  # Amikoo Maya Lands: Applications
+  # Amikoo Maya Lands
 
-  robotmayalandsapplications:
-    name: Aplicaciones
+  robotmayalandsreset:
+    name: Reiniciar
     entities:
-      - script.coji
-      - script.meccanoid
-
-  # Amikoo Maya Lands: Applications
-
-  robotmayalandsskills:
-    name: Habilidades
-    entities:
-      - script.amikoogcvisionapi
-      - script.amikoogctranslationapi
-      - script.amikoopicture
-
-  # Amikoo Maya Lands: Knowledge
-
-  robotmayalandsknowledge:
-    name: Conocimiento
-    entities:
-      - script.makeblock
-      - script.sphero
+      - script.resetall
 
   # Amikoo Maya Lands: Head
   
@@ -1360,12 +1379,50 @@ group:
       - script.movebackward
       - script.movestop
 
-  # Amikoo Maya Lands: Reset
+  # Amikoo Maya Lands: Voice
 
-  robotmayalandsreset:
-    name: Reiniciar
+  robotmayalandsvoice:
+    name: Voz
     entities:
       - script.resetall
+
+  # Amikoo Maya Lands: Sense
+
+  robotmayalandssense:
+    name: Sentidos
+    entities:
+      - script.amikoosensesight
+
+  # Amikoo Maya Lands: Communication
+
+  robotmayalandscommunication:
+    name: Comunicaciones
+    entities:
+      - script.resetall
+
+  # Amikoo Maya Lands: Knowledge
+
+  robotmayalandsknowledge:
+    name: Conocimiento
+    entities:
+      - script.makeblock
+      - script.sphero
+
+  # Amikoo Maya Lands: Expertise
+
+  robotmayalandsexpertise:
+    name: Expertise
+    entities:
+      - script.amikoogcvisionapi
+      - script.amikoogctranslationapi
+
+  # Amikoo Maya Lands: Applications
+
+  robotmayalandsapplications:
+    name: Aplicaciones
+    entities:
+      - script.coji
+      - script.meccanoid
 
   # Central Maya Lowlands: Stations
 
