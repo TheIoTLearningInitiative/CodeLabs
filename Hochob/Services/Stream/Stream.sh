@@ -48,7 +48,7 @@ LOCAL_AMIKOO_AVAILABLE=`AmikooAvailable.sh`
 if [ "$LOCAL_AMIKOO_AVAILABLE" -eq "0" ]; then
     Espeak.sh on spanish "Nel"
 else
-    AmikooVoice.sh english "Nel"
+    AmikooVoice.sh spanish "Nel"
 fi
 
 # End of File
