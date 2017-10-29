@@ -3,7 +3,7 @@
 - Musculoskeletal System
 - Nervous System
   - Voice
-  - Senses
+  - Sense
     - Sight (Vision)
     - Hearing (Audition)
     - Taste (Gustation)
