@@ -11,7 +11,10 @@
     - Touch (Somatosensation)
 - Communication
   - Communication :: Verbal
+    - Audio
   - Communication :: Visual
+    - Image
+    - Video
 - Expertise
   - Google Cloud
     - Google Vision API
