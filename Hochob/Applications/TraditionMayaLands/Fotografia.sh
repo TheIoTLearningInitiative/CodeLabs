@@ -27,7 +27,18 @@ LOCAL_TRADITION="DiaDeMuertos"
 
 LogPid.sh $FOTOGRAFIA_PID $FOTOGRAFIA_NAME
 
-Amikoo.sh "picture"
+LOCAL_LANGUAGE=`Language.sh`
+
+if [ "$LOCAL_LANGUAGE" = "english" ]; then
+    AmikooVoice.sh $LOCAL_LANGUAGE \
+    "Happy Halloween and Monsters Day."
+else
+    AmikooVoice.sh $LOCAL_LANGUAGE \
+    "Feliz día de los Muertos."
+fi
+
+AmikooSense.sh "Sight" "Picture"
+sleep 2
 AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "Witch.mp3"
 sleep 3
 AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "Stop"
