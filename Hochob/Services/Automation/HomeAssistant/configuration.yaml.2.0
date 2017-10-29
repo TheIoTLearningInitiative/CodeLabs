@@ -913,7 +913,7 @@ shell_command:
 
   # Amikoo Maya Lands: Sense
   
-  amikoosensesight: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooSense.sh sight picture
+  amikoosensesight: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooSense.sh Sight Picture
 
   # Amikoo Maya Lands :: Communication
   
