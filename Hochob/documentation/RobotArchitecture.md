@@ -16,6 +16,7 @@
   - Google Cloud
     - Google Vision API
     - Google Translation API
+- Applications
 
 # Hardware
 
