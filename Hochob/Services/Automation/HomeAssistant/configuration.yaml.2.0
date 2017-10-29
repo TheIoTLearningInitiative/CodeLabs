@@ -1204,12 +1204,12 @@ group:
     view: yes
     name: Robot
     entities:
-      - group.robotmayalandsapplications
-      - group.robotmayalandsexpertise
-      - group.robotmayalandsknowledge
-      - group.robotmayalandscommunication
-      - group.robotmayalandssense
       - group.robotmayalandsvoice
+      - group.robotmayalandssense
+      - group.robotmayalandscommunication
+      - group.robotmayalandsexpertise
+      - group.robotmayalandsapplications
+      - group.robotmayalandsknowledge
       - group.robotmayalandshead
       - group.robotmayalandsarmright
       - group.robotmayalandsarmleft
@@ -1333,51 +1333,12 @@ group:
     entities:
       - script.zacatecas
 
-  # Amikoo Maya Lands
+  # Amikoo Maya Lands :: Reset
 
   robotmayalandsreset:
     name: Reiniciar
     entities:
       - script.resetall
-
-  # Amikoo Maya Lands: Head
-  
-  robotmayalandshead:
-    name: Cabeza
-    entities:
-      - script.headright
-      - script.headleft
-
-  # Amikoo Maya Lands: Arm Right
-
-  robotmayalandsarmright:
-    name: Brazo Derecho
-    entities:
-      - script.rightup
-      - script.rightdown
-      - script.rightfold
-      - script.rightunfold
-
-  # Amikoo Maya Lands: Arm Left
-
-  robotmayalandsarmleft:
-    name: Brazo Izquierdo
-    entities:
-      - script.leftup
-      - script.leftdown
-      - script.leftfold
-      - script.leftunfold
-
-  # Amikoo Maya Lands: Legs
-
-  robotmayalandslegs:
-    name: Piernas
-    entities:
-      - script.moveright
-      - script.moveleft
-      - script.moveforward
-      - script.movebackward
-      - script.movestop
 
   # Amikoo Maya Lands: Voice
 
@@ -1400,14 +1361,6 @@ group:
     entities:
       - script.resetall
 
-  # Amikoo Maya Lands: Knowledge
-
-  robotmayalandsknowledge:
-    name: Conocimiento
-    entities:
-      - script.makeblock
-      - script.sphero
-
   # Amikoo Maya Lands: Expertise
 
   robotmayalandsexpertise:
@@ -1423,6 +1376,53 @@ group:
     entities:
       - script.coji
       - script.meccanoid
+
+  # Amikoo Maya Lands: Knowledge
+
+  robotmayalandsknowledge:
+    name: Conocimiento
+    entities:
+      - script.makeblock
+      - script.sphero
+
+  # Amikoo Maya Lands :: Movement :: Head
+  
+  robotmayalandshead:
+    name: Cabeza
+    entities:
+      - script.headright
+      - script.headleft
+
+  # Amikoo Maya Lands :: Movement :: Arm Right
+
+  robotmayalandsarmright:
+    name: Brazo Derecho
+    entities:
+      - script.rightup
+      - script.rightdown
+      - script.rightfold
+      - script.rightunfold
+
+  # Amikoo Maya Lands :: Movement :: Arm Left
+
+  robotmayalandsarmleft:
+    name: Brazo Izquierdo
+    entities:
+      - script.leftup
+      - script.leftdown
+      - script.leftfold
+      - script.leftunfold
+
+  # Amikoo Maya Lands :: Movement :: Legs
+
+  robotmayalandslegs:
+    name: Piernas
+    entities:
+      - script.moveright
+      - script.moveleft
+      - script.moveforward
+      - script.movebackward
+      - script.movestop
 
   # Central Maya Lowlands: Stations
 
