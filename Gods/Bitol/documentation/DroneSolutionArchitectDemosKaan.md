@@ -1,6 +1,10 @@
 # Ka’an :: Cielo
 
 ```sh
+user@workstation:~/CodeLabs/Gods/Bitol$ sudo apt install gstreamer1.0-plugins-ugly
+```
+
+```sh
 user@workstation:~/CodeLabs/Gods/Bitol$ gst-launch-1.0 videotestsrc pattern=ball ! x264enc ! rtph264pay ! udpsink host=qgroundcontrolip port=5600
 ```
 
