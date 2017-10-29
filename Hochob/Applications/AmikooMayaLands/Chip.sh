@@ -44,4 +44,4 @@ AmikooCommunication.sh "Amikoo" "Audio" "TakePictureEllie.mp3"
 
 AmikooSense.sh "Sight" "Picture"
 
-AmikooCommunication.sh "DiaDeMuertos" "Audio" "Stop"
+AmikooCommunication.sh "Amikoo" "Audio" "Stop"
