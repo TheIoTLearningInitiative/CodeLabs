@@ -27,6 +27,7 @@ function espeakSay(phrase) {
 var state = 'closed'
 
 client.on('connect', function () {  
+  client.subscribe('amikoo/#')
   client.subscribe('amikoo/open')
   client.subscribe('amikoo/close')
   client.subscribe('amikoo/sound/speechsynthetizer/say')
