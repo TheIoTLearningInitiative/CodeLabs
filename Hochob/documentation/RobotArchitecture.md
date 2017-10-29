@@ -15,11 +15,11 @@
   - Communication :: Visual
     - Image
     - Video
-- Knowledge  
 - Expertise
   - Google Cloud
     - Google Vision API
     - Google Translation API
+- Knowledge  
 - Applications
 
 # Hardware
