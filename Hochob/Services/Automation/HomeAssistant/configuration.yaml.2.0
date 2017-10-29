@@ -1376,7 +1376,7 @@ group:
   # Amikoo Maya Lands: Communication
 
   robotmayalandscommunication:
-    name: Comunicacion
+    name: Comunicación
     entities:
       - script.amikoocommunicationaudio
       - script.amikoocommunicationimage
@@ -1385,7 +1385,7 @@ group:
   # Amikoo Maya Lands: Expertise
 
   robotmayalandsexpertise:
-    name: Expertise
+    name: Especialización
     entities:
       - script.amikoogcvisionapi
       - script.amikoogctranslationapi
