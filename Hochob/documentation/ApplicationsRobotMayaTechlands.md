@@ -27,7 +27,7 @@
 
 - __Friendly Name__: Discurso Bilingüe
 - __Services__:
-  - 
+  - AmikooVoice.sh
 
 # Applications :: Meccanoid
 
@@ -35,6 +35,7 @@
 - __Services__:
   - Amikoo.sh
   - AmikooTradition.sh
+  - AmikooVoice.sh
 
 # Applications :: CHiP
 
