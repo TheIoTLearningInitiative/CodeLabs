@@ -107,7 +107,7 @@ LOCAL_MESSAGE="${LOCAL_GREETING} ${LOCAL_INSTITUTION_NAME}. \
 if [ "$LOCAL_HOST" = "server" ]; then
     SpeechSynthetizer.sh on voicerss $LANGUAGE "${LOCAL_MESSAGE}"
 else
-    Amikoo.sh $LOCAL_LANGUAGE "${LOCAL_MESSAGE}"
+    AmikooVoice.sh $LOCAL_LANGUAGE "${LOCAL_MESSAGE}"
 fi
 
 # End of File
