@@ -34,10 +34,10 @@ sleep 5
 
 LOCAL_LANGUAGE=`Language.sh`
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Amikoo.sh $LOCAL_LANGUAGE \
+    AmikooVoice.sh $LOCAL_LANGUAGE \
     "Hello World. I can speak English. One, Two, Three."
 else
-    Amikoo.sh $LOCAL_LANGUAGE \
+    AmikooVoice.sh $LOCAL_LANGUAGE \
     "Hola Mundo. Puedo hablar Español. Uno, Dos, Tres."
 fi
 
