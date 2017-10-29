@@ -4,7 +4,9 @@
 # Variables
 # =============================================================================
 
-# Hochob Server Configuration
+# --------------------------- #
+# Hochob Server Configuration #
+# --------------------------- #
 
 export HOCHOB_SERVER_CONFIGURATION=/tmp/hochob/
 export HOCHOB_SERVER_CONFIGURATION_PID=$HOCHOB_SERVER_CONFIGURATION/pid/
@@ -16,12 +18,16 @@ export HOCHOB_SERVER_CONFIGURATION_DEMO=$HOCHOB_SERVER_CONFIGURATION/demo
 export HOCHOB_SERVER_CONFIGURATION_LANGUAGE=$HOCHOB_SERVER_CONFIGURATION/language
 export HOCHOB_SERVER_CONFIGURATION_AMIKOOAVAILABLE=$HOCHOB_SERVER_CONFIGURATION/amikooavailable
 
-# Hochob Server Root
+# ------------------ #
+# Hochob Server Root #
+# ------------------ #
 
 cd ~/CodeLabs/Hochob/
 export HOCHOB_ROOT=`pwd`
 
-# Hochob Server Services
+# ---------------------- #
+# Hochob Server Services #
+# ---------------------- #
 
 export HOCHOB_SERVER=$HOCHOB_ROOT
 
@@ -73,7 +79,9 @@ export PATH=$PATH:$HOCHOB_SERVER_SERVICES_SURVEY
 export PATH=$PATH:$HOCHOB_SERVER_SERVICES_VIDEO
 export PATH=$PATH:$HOCHOB_SERVER_SERVICES_VISITORS
 
-# Hochob Server Media Raw
+# ------------------- #
+# Hochob Server Media #
+# ------------------- #
 
 export HOCHOB_SERVER_MEDIA=$HOME/HochobServerMedia/
 
@@ -97,7 +105,9 @@ export HOCHOB_SERVER_MEDIA_TRADITION_NAVIDAD=$HOCHOB_SERVER_MEDIA_TRADITION/Navi
 
 export HOCHOB_SERVER_MEDIA_VISITORS=$HOCHOB_SERVER_MEDIA/Visitors/
 
-# Hochob Server Media Executive
+# ----------------------------- #
+# Hochob Server Media Executive #
+# ----------------------------- #
 
 export AREA_SOUTERN_MAYA_HIGHLANDS=$HOCHOB_SERVER_MEDIA_AREA_SOUTERN_MAYA_HIGHLANDS
 export AREA_CENTRAL_MAYA_LOWLANDS=$HOCHOB_SERVER_MEDIA_AREA_CENTRAL_MAYA_LOWLANDS
@@ -116,7 +126,9 @@ export TRADITION_NAVIDAD=$HOCHOB_SERVER_MEDIA_TRADITION_NAVIDAD
 
 export VISITORS=$HOCHOB_SERVER_MEDIA_VISITORS
 
-# Hochob Server Media Source Raw
+# -------------------------- #
+# Hochob Server Media Source #
+# -------------------------- #
 
 export HOCHOB_SERVER_MEDIA_SOURCE=$HOME/HochobServerMediaSource/
 
@@ -157,7 +169,9 @@ export HOCHOB_SERVER_MEDIA_SOURCE_VIDEO_FFMPEG_VIDEO_AUDIO=$HOCHOB_SERVER_MEDIA_
 
 export HOCHOB_SERVER_MEDIA_SOURCE_VISITORS=$HOCHOB_SERVER_MEDIA_SOURCE/Visitors/
 
-# Hochob Server Media Source Executive
+# ------------------------------------ #
+# Hochob Server Media Source Executive #
+# ------------------------------------ #
 
 export FSWEBCAM_DIRECTORY=$HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM
 export FSWEBCAM_ALLFILES=$HOCHOB_SERVER_MEDIA_SOURCE_CAMERA_FSWEBCAM_ALLFILES
@@ -190,45 +204,66 @@ export FFMPEG_VIDEO_AUDIO=$HOCHOB_SERVER_MEDIA_SOURCE_VIDEO_FFMPEG_VIDEO_AUDIO
 
 export VISITORS_SOURCE=$HOCHOB_SERVER_MEDIA_SOURCE_VISITORS
 
-# MQ Telemetry Transport 
+# ---------------------- #
+# MQ Telemetry Transport #
+# ---------------------- #
 
 #MQTT_SERVER_ADDRESS=127.0.0.1
 #MQTT_SERVER_ADDRESS=10.215.56.158
 MQTT_SERVER_ADDRESS=iot.eclipse.org
 MQTT_SERVER_PORT=1883
 
-# Amikoo
+# ------ #
+# Amikoo #
+# ------ #
 
 AMIKOO=amikoo
 
-AMIKOO_SOUND=$AMIKOO/sound
-AMIKOO_SOUND_SPEECHSYNTHETIZER=$AMIKOO_SOUND/speechsynthetizer
+# Musculoskeletal System #
+## Tbd
 
-AMIKOO_TRADITION=$AMIKOO/tradition
-AMIKOO_TRADITION_AUDIO=$AMIKOO_TRADITION/audio
-AMIKOO_TRADITION_IMAGE=$AMIKOO_TRADITION/image
-AMIKOO_TRADITION_VIDEO=$AMIKOO_TRADITION/video
+# Nervous System #
 
-AMIKOO_CAMERA=$AMIKOO/camera
-AMIKOO_CAMERA_PICTURE=$AMIKOO_CAMERA/picture
+## Voice ##
+AMIKOO_HUMANVOICE=$AMIKOO/sound/speechsynthetizer
+AMIKOO_SAY=$AMIKOO_HUMANVOICE/say
+AMIKOO_DECIR=$AMIKOO_HUMANVOICE/decir
 
-## Applications
+## Sense ##
+AMIKOO_SENSE=$AMIKOO/sense
 
-AMIKOO_SAY=$AMIKOO_SOUND_SPEECHSYNTHETIZER/say
-AMIKOO_DECIR=$AMIKOO_SOUND_SPEECHSYNTHETIZER/decir
+### Sight (Vision) ###
+AMIKOO_SENSE_SIGHT=$AMIKOO_SENSE/sight
+AMIKOO_SENSE_SIGHT_PICTURE=$AMIKOO_SENSE_SIGHT/picture
+AMIKOO_PICTURE=$AMIKOO_SENSE_SIGHT_PICTURE
+AMIKOO_PICTURE=/amikoo/camera/picture
 
-## Skills
+### Hearing (Audition) ###
+AMIKOO_SENSE_HEARING=$AMIKOO_SENSE/hearing
 
+### Taste (Gustation) ###
+#### Tbd
+
+### Smell (Olfaction) ###
+#### Tbd
+
+### Touch (Somatosensation) ###
+#### Tbd
+
+# Communication #
+AMIKOO_COMMUNICATION=$AMIKOO/tradition
+
+## Communication :: Verbal ##
+AMIKOO_AUDIO=$AMIKOO_COMMUNICATION/audio
+
+## Communication :: Visual ##
+AMIKOO_IMAGE=$AMIKOO_COMMUNICATION/image
+AMIKOO_VIDEO=$AMIKOO_COMMUNICATION/video
+
+# Expertise #
+AMIKOO_SKILLS=$AMIKOO/skills
 AMIKOO_GCVISIONAPI=$AMIKOO/gc/visionapi
 AMIKOO_GCTRANSLATIONAPI=$AMIKOO/gc/translationapi
-AMIKOO_PICTURE=$AMIKOO_CAMERA_PICTURE
-
-## Skill Tradition
-
-AMIKOO_AUDIO=$AMIKOO_TRADITION_AUDIO
-AMIKOO_IMAGE=$AMIKOO_TRADITION_IMAGE
-AMIKOO_VIDEO=$AMIKOO_TRADITION_VIDEO
-AMIKOO_PICTURE=$AMIKOO_CAMERA_PICTURE
 
 # =============================================================================
 # Functions
