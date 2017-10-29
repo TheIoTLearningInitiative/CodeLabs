@@ -4,6 +4,7 @@
 - __Makeblock__
 - __Coji__
 - __Meccanoid__
+- __CHiP__
 
 # Knowledge :: Sphero
 
