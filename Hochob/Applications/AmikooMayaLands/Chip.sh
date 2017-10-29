@@ -29,10 +29,10 @@ LOCAL_LANGUAGE=`Language.sh`
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     AmikooVoice.sh $LOCAL_LANGUAGE \
-    "Time to take you a picture, Smile when you hear the sound."
+    "Time to take you a picture, Smile."
 else
     AmikooVoice.sh $LOCAL_LANGUAGE \
-    "Es hora de tomarte una foto, Sonríe cuando escuches un sonido."
+    "Es hora de tomarte una foto, Sonríe."
 fi
 
 sleep 3
