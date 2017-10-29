@@ -13,7 +13,6 @@ export VELADORA_NAME="Veladora"
 export VELADORA_PATH=$(readlink -f "$0")
 export VELADORA_DIRECTORY=$(dirname "$VELADORA_PATH")
 
-LOCAL_SEASON="DiaDeMuertos"
 LOCAL_DEVICE="Triki"
 
 # =============================================================================
@@ -30,15 +29,5 @@ LogPid.sh $VELADORA_PID $VELADORA_NAME
 
 LOCAL_SOUND=`find $TRADITION_DIADEMUERTOS/Sound/ -type f | shuf -n 1`
 Stream.sh "$LOCAL_DEVICE" "1.0" "$LOCAL_SOUND"
-
-exit 0
-
-if [ "$LANGUAGE" = "english" ]; then
-    Amikoo.sh $AMIKOO_SAY "Happy Halloween"
-else
-    Amikoo.sh $AMIKOO_DECIR "Feliz dia de muertos"
-fi
-
-# See implement WindRiver.sh logic, maybe Season service?
 
 # End of File

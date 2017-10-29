@@ -31,7 +31,7 @@ Eog.sh "$TRADITION_VISITORS_CENTER/Image/*" &
 sleep 2
 Vlc.sh "$AREA_SOUTERN_MAYA_HIGHLANDS/BajaCaliforniaNorte.mp3" &
 sleep 18.8
-Amikoo.sh $AMIKOO_DECIR "Nel Pastel"
+AmikooVoice.sh spanish "Nel Pastel"
 sleep .6
 Amikoo.sh amikoo/headright 1
 sleep .6

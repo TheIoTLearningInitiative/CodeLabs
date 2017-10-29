@@ -25,12 +25,8 @@ LOCAL_TEXT="$4"
 # Main
 # =============================================================================
 
-if [ "$LOCAL_DEVICE" = "Amikoo" ] && [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Amikoo.sh $AMIKOO_SAY \
-    "${LOCAL_TEXT}"
-elif [ "$LOCAL_DEVICE" = "Amikoo" ] && [ "$LOCAL_LANGUAGE" = "spanish" ]; then
-    Amikoo.sh $AMIKOO_DECIR \
-    "${LOCAL_TEXT}"
+if [ "$LOCAL_DEVICE" = "Amikoo" ]; then
+    AmikooVoice.sh $LOCAL_LANGUAGE "${LOCAL_TEXT}"
 else
     if [ "$LOCAL_LANGUAGE" = "english" ] && [ "$LOCAL_CHARACTER" = "robot" ]; then
         SpeechSynthetizer.sh off espeak english "${LOCAL_TEXT}"

@@ -39,7 +39,7 @@ LOCAL_GREETING_SPANISH[7]="Que onda,"
 LOCAL_REMINDER_ENGLISH[0]="Welcome to our"
 LOCAL_REMINDER_ENGLISH[1]="Great you did not forget about"
 LOCAL_REMINDER_ENGLISH[2]="Today is our big meetup,"
-LOCAL_REMINDER_ENGLISH[3]="It is finally here!,"
+LOCAL_REMINDER_ENGLISH[3]="It is finally here,"
 LOCAL_REMINDER_ENGLISH[4]="Finally with us,"
 LOCAL_REMINDER_ENGLISH[5]="The big boy has just arrived,"
 LOCAL_REMINDER_ENGLISH[6]="Let's not say anything else, this great journey,"
@@ -118,11 +118,7 @@ LOCAL_MESSAGE="${LOCAL_INTRODUCTION} \
 if [ "$LOCAL_HOST" = "server" ]; then
     SpeechSynthetizer.sh on voicerss $LANGUAGE "${LOCAL_MESSAGE}"
 else
-    if [ "$LANGUAGE" = "english" ]; then
-        Amikoo.sh $AMIKOO_SAY "${LOCAL_MESSAGE}"
-    else
-        Amikoo.sh $AMIKOO_DECIR "${LOCAL_MESSAGE}"
-    fi
+    AmikooVoice.sh $LOCAL_LANGUAGE "${LOCAL_MESSAGE}"
 fi
 
 

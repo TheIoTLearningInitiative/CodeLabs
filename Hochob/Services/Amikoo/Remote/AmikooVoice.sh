@@ -8,10 +8,11 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export AMIKOO_PID=$$
+export AMIKOOVOICE_PID=$$
 
-LOCAL_COMMAND="$1"
+LOCAL_LANGUAGE="$1"
 LOCAL_MESSAGE=""
+LOCAL_TOPIC=""
 
 # =============================================================================
 # Functions
@@ -33,25 +34,15 @@ do
     i=`expr $i + 1`
 done
 
-echo $LOCAL_MESSAGE
-
-# Skills Advanced
-
-if [ "$LOCAL_COMMAND" = "gcvisionapi" ]; then
-    Mosquitto.sh $AMIKOO_GCVISIONAPI "Google Cloud Vision API"
-elif [ "$LOCAL_COMMAND" = "gctranslationapi" ]; then
-    Mosquitto.sh $AMIKOO_GCTRANSLATIONAPI "Google Cloud Translation API"
-elif [ "$LOCAL_COMMAND" = "picture" ]; then
-    Mosquitto.sh $AMIKOO_PICTURE "Camera Picture"
+if [ "$LOCAL_LANGUAGE" = "english" ]; then
+    LOCAL_TOPIC=$AMIKOO_TALK
+elif [ "$LOCAL_LANGUAGE" = "spanish" ]; then
+    LOCAL_TOPIC=$AMIKOO_HABLAR
 fi
 
-# Movement & Speak
-
-Mosquitto.sh $LOCAL_COMMAND $LOCAL_MESSAGE
+Mosquitto.sh $LOCAL_TOPIC $LOCAL_MESSAGE
 
 exit 0
-
-# Sandbox
 
 LOCAL_DEMO=`Demo.sh`
 if [ "$LOCAL_DEMO" -eq "1" ]; then
@@ -59,19 +50,5 @@ if [ "$LOCAL_DEMO" -eq "1" ]; then
     then
         Espeak.sh on spanish "$LOCAL_MESSAGE"
     fi
-else
-    Mosquitto.sh $LOCAL_COMMAND "$LOCAL_MESSAGE"
 fi
 
-if [ "$LOCAL_COMMAND" = "lupe/message" ]; then
-    LOCAL_LANGUAGE=`Language.sh`
-    if [ "$LOCAL_LANGUAGE" = "english" ]; then
-        AmikooVoice.sh $LOCAL_LANGUAGE $LOCAL_MESSAGE
-    else
-        AmikooVoice.sh $LOCAL_LANGUAGE $LOCAL_MESSAGE
-    fi
-else
-    Mosquitto.sh $LOCAL_COMMAND $LOCAL_MESSAGE
-fi
-
-# End of File

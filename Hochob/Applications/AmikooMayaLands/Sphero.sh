@@ -13,7 +13,6 @@ export SPHERO_NAME="Sphero"
 export SPHERO_PATH=$(readlink -f "$0")
 export SPHERO_DIRECTORY=$(dirname "$SPHERO_PATH")
 
-
 LOCAL_PHRASE[0]="¿Que pez, acuaman?"
 LOCAL_PHRASE[1]="¿Que pasotes con esos zapatotes, brother?"
 LOCAL_PHRASE[2]="¿Que Honduras con las verduras que andan bajas las temperaturas?"
@@ -84,6 +83,6 @@ choosePhrase()
 LogPid.sh $SPHERO_PID $SPHERO_NAME
 
 choosePhrase
-Amikoo.sh $AMIKOO_DECIR "$LOCAL_PHRASE"
+AmikooVoice.sh spanish "$LOCAL_PHRASE"
 
 # End of File

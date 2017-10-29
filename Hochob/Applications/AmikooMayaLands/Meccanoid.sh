@@ -13,8 +13,6 @@ export MECCANOID_NAME="Meccanoid"
 export MECCANOID_PATH=$(readlink -f "$0")
 export MECCANOID_DIRECTORY=$(dirname "$MECCANOID_PATH")
 
-LOCAL_TRADITION="DiaDeMuertos"
-
 # =============================================================================
 # Functions
 # =============================================================================
@@ -30,14 +28,14 @@ LogPid.sh $MECCANOID_PID $MECCANOID_NAME
 LOCAL_LANGUAGE=`Language.sh`
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Amikoo.sh $AMIKOO_SAY \
+    AmikooVoice.sh $LOCAL_LANGUAGE \
     "Let's dance"
 else
-    Amikoo.sh $AMIKOO_DECIR \
+    AmikooVoice.sh $LOCAL_LANGUAGE \
     "Vamos a bailar"
 fi
 
-AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "MichaelJacksonThrillerShort.mp3"
+AmikooCommunication.sh "DiaDeMuertos" "Audio" "MichaelJacksonThrillerShort.mp3"
 
 sleep 10
 
@@ -69,6 +67,6 @@ Amikoo.sh amikoo/rightup && sleep .6
 Amikoo.sh amikoo/headleft && sleep .6
 Amikoo.sh amikoo/headright && sleep .6
 
-AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "Stop"
+AmikooCommunication.sh "DiaDeMuertos" "Audio" "Stop"
 
 # End of File
