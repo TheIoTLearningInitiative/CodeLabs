@@ -1359,13 +1359,6 @@ group:
     entities:
       - script.zacatecas
 
-  # Amikoo Maya Lands :: Reset
-
-  robotmayalandsreset:
-    name: Reiniciar
-    entities:
-      - script.resetall
-
   # Amikoo Maya Lands: Voice
 
   robotmayalandsvoice:
@@ -1451,6 +1444,13 @@ group:
       - script.moveforward
       - script.movebackward
       - script.movestop
+
+  # Amikoo Maya Lands :: Reset
+
+  robotmayalandsreset:
+    name: Reiniciar
+    entities:
+      - script.resetall
 
   # Central Maya Lowlands: Stations
 
