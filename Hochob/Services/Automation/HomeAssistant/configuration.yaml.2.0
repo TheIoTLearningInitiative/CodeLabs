@@ -119,9 +119,19 @@ homeassistant:
       friendly_name: Vista
       icon: mdi:camera
 
-    # Amikoo Maya Lands :: Communication
+    # Amikoo Maya Lands :: Communication ::
     
-    # Tbd
+    script.amikoocommunicationaudio:
+      friendly_name: Audio
+      icon: mdi:audiobook
+
+    script.amikoocommunicationimage:
+      friendly_name: Imágen
+      icon: mdi:file-image
+
+    script.amikoocommunicationvideo:
+      friendly_name: Video
+      icon: mdi:file-video
 
     # Amikoo Maya Lands :: Knowledge
 
@@ -630,11 +640,23 @@ script:
 
   # Amikoo Maya Lands :: Sense
   
-  # Tbd
+  amikoosensesight:
+    sequence:
+      - service: shell_command.amikoosensesight
 
   # Amikoo Maya Lands :: Communication
   
-  # Tbd
+  amikoocommunicationaudio:
+    sequence:
+      - service: shell_command.amikoocommunicationaudio
+
+  amikoocommunicationimage:
+    sequence:
+      - service: shell_command.amikoocommunicationimage
+
+  amikoocommunicationvideo:
+    sequence:
+      - service: shell_command.amikoocommunicationvideo
 
   # Amikoo Maya Lands :: Knowledge
 
@@ -655,10 +677,6 @@ script:
   amikoogctranslationapi:
     sequence:
       - service: shell_command.amikoogctranslationapi
-
-  amikoosensesight:
-    sequence:
-      - service: shell_command.amikoosensesight
 
   # Amikoo Maya Lands :: Application
 
@@ -891,7 +909,10 @@ shell_command:
   amikoosensesight: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooSense.sh sight picture
 
   # Amikoo Maya Lands :: Communication
-  # Tbd
+  
+  amikoocommunicationaudio: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooCommunication.sh Amikoo Audio Random
+  amikoocommunicationimage: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooCommunication.sh Amikoo Image Random
+  amikoocommunicationvideo: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooCommunication.sh Amikoo Video Random
 
   # Amikoo Maya Lands :: Knowledge
 
@@ -1364,7 +1385,9 @@ group:
   robotmayalandscommunication:
     name: Comunicaciones
     entities:
-      - script.resetall
+      - script.amikoocommunicationaudio
+      - script.amikoocommunicationimage
+      - script.amikoocommunicationvideo
 
   # Amikoo Maya Lands: Expertise
 
