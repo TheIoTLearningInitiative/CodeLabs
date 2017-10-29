@@ -32,7 +32,7 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
     "Photography express service, Smile."
 else
     AmikooVoice.sh $LOCAL_LANGUAGE \
-    "Servicio express de fotógrafia, Sonríe."
+    "Servicio express de fotografía, Sonríe."
 fi
 
 sleep 3
