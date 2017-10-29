@@ -110,7 +110,7 @@ homeassistant:
     # Amikoo Maya Lands :: Voice
 
     script.amikoovoice:
-      friendly_name: 1 2 3 4 5
+      friendly_name: 5 4 3 2 1 0
       icon: mdi:voice
 
     # Amikoo Maya Lands :: Sense
@@ -884,7 +884,7 @@ shell_command:
 
   # Amikoo Maya Lands :: Voice
   
-  amikoovoice: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "5 4 3 2 1"
+  amikoovoice: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "5 4 3 2 1 0"
 
   # Amikoo Maya Lands: Sense
   
