@@ -27,6 +27,7 @@
 - Make Demo a option under HA UI
 - Remove & from Vlc.sh
 - Create a new service to generate random movements for Amikoo
+- Robot Anatomy Training
 
 ## Robot
 
