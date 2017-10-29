@@ -4,7 +4,7 @@
 
 - Captain Maya Lands: Captain
   - 
-- Southern Maya Highlands: Show
+- Southern Maya Highlands: Welcome
   - States
 - Robot Maya Lands: Robotics
   - Robot Names
