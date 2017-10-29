@@ -28,6 +28,7 @@
 - Remove & from Vlc.sh
 - Create a new service to generate random movements for Amikoo
 - Robot Anatomy Training
+  - Major Rework In Robot Anatomy
 
 ## Robot
 
