@@ -1369,14 +1369,14 @@ group:
   # Amikoo Maya Lands: Sense
 
   robotmayalandssense:
-    name: Sentidos
+    name: Sentido
     entities:
       - script.amikoosensesight
 
   # Amikoo Maya Lands: Communication
 
   robotmayalandscommunication:
-    name: Comunicaciones
+    name: Comunicacion
     entities:
       - script.amikoocommunicationaudio
       - script.amikoocommunicationimage
