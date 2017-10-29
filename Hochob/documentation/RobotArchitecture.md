@@ -19,7 +19,7 @@
   - Google Cloud
     - Google Vision API
     - Google Translation API
-- Knowledge  
+- Knowledge
 - Applications
 
 # Hardware
