@@ -109,7 +109,9 @@ homeassistant:
 
     # Amikoo Maya Lands :: Voice
 
-    # Tbd
+    script.amikoovoice:
+      friendly_name: 1 2 3 4 5
+      icon: mdi:voice
 
     # Amikoo Maya Lands :: Sense
 
@@ -622,7 +624,9 @@ script:
 
   # Amikoo Maya Lands :: Voice
   
-  # Tbd
+  amikoovoice:
+    sequence:
+      - service: shell_command.amikoovoice
 
   # Amikoo Maya Lands :: Sense
   
@@ -879,7 +883,8 @@ shell_command:
   movestop: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/movestop "Body Stop"
 
   # Amikoo Maya Lands :: Voice
-  # Tbd
+  
+  amikoovoice: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "5 4 3 2 1"
 
   # Amikoo Maya Lands: Sense
   
@@ -1345,7 +1350,7 @@ group:
   robotmayalandsvoice:
     name: Voz
     entities:
-      - script.resetall
+      - script.amikoovoice
 
   # Amikoo Maya Lands: Sense
 
