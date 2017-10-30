@@ -43,18 +43,13 @@ LOCAL_LANGUAGE="english"
 AmikooCommunication.sh "Drones" "Image" "IntelAeroReadyToFlyDrone.jpg"
 AmikooVoice.sh $LOCAL_LANGUAGE \
     "The Airbone Revolution in Drone Innovation, visit our Drone Stands"
-sleep 4
+sleep 5
 
 AmikooVoice.sh $LOCAL_LANGUAGE \
     "Experience the amazing innovation driving the next frontier of flight. \
     Our technology propels everything from commercial inspection, surveying and \
     mapping to world record setting light show spectacles"
 sleep 15
-
-AmikooVoice.sh $LOCAL_LANGUAGE \
-    "Intel Aero Ready to Fly Drone is an Unmanned Aerial Vehicle \
-    development platform: fully assembled, fully functional quadcopter"
-sleep 10
 
 AmikooCommunication.sh "Drones" "Image" "DroneDemoStandsDronecode.jpg"
 AmikooVoice.sh $LOCAL_LANGUAGE \
@@ -67,28 +62,28 @@ AmikooCommunication.sh "Drones" "Image" "DroneDemoStandsStationKaan.jpg"
 AmikooVoice.sh $LOCAL_LANGUAGE \
     "Drone Simulation using Software In The Loop \
     and Ground Control Station"
-sleep 4
+sleep 5
 
 AmikooCommunication.sh "Drones" "Image" "DroneDemoStandsStationMuuyal.jpg"
 AmikooVoice.sh $LOCAL_LANGUAGE \
     "Drone Simulation using Mavlink and DroneKit"
-sleep 3
+sleep 5
 
 AmikooCommunication.sh "Drones" "Image" "DroneDemoStandsIntelAeroRTFSpecs.jpg"
 AmikooVoice.sh $LOCAL_LANGUAGE \
     "Intel Aero Ready to Fly Drone is an Unmanned Aerial Vehicle development \
     platform: fully assembled, fully functional quadcopter"
-sleep 5
+sleep 10
 
 AmikooCommunication.sh "Drones" "Image" "DroneDemoStandsStationIik.jpg"
 AmikooVoice.sh $LOCAL_LANGUAGE \
     "Intel Aero Ready to Fly Drone controlled via Mavlink with Python Programming Language"
-sleep 4
+sleep 5
 
 AmikooCommunication.sh "Drones" "Image" "DroneDemoStandsStationChakiik.jpg"
 AmikooVoice.sh $LOCAL_LANGUAGE \
     "Intel Aero Ready to Fly Drone via Remote Control"
-sleep 3
+sleep 5
 
 AmikooVoice.sh $LOCAL_LANGUAGE \
     "Come and talk to us about your ideas."
