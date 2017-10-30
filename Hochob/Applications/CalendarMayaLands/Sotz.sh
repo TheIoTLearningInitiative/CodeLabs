@@ -38,6 +38,8 @@ chooseLanguage()
 
 LogPid.sh $SOTZ_PID $SOTZ_NAME
 
+LOCAL_LANGUAGE="english"
+
 AmikooCommunication.sh "Drones" "Image" "IntelAeroReadyToFlyDrone.jpg"
 AmikooVoice.sh $LOCAL_LANGUAGE "The Airbone Revolution in Drone Innovation"
 AmikooVoice.sh $LOCAL_LANGUAGE \
