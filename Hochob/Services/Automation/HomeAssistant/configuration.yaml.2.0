@@ -312,6 +312,14 @@ homeassistant:
       friendly_name: 15 segundos .. Bienvenida Robot
       icon: mdi:calendar-clock
 
+    automation.sotz:
+      friendly_name: 15 segundos .. PoC Campaign Drones
+      icon: mdi:calendar-clock
+
+    script.sotz:
+      friendly_name: PoC Campaign Drones
+      icon: mdi:drone
+
     # Tradition Maya Lands :: Dia De Muertos
     
     automation.veladora:
@@ -763,6 +771,12 @@ script:
     sequence:
       - service: shell_command.tiburonballena
 
+  # Calendar Maya Lands
+
+  sotz:
+    sequence:
+      - service: shell_command.sotz
+
   # Tradition Maya Lands :: Dia De Muertos
 
   veladora:
@@ -951,7 +965,8 @@ shell_command:
   pop: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Pop.sh &
   sip: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Sip.sh &
   wo: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Wo.sh &
-
+  sotz: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Sotz.sh &
+  
   # Tradition Maya Lands :: Dia De Muertos
 
   veladora: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Veladora.sh &
@@ -1062,9 +1077,17 @@ automation:
     initial_state: 'off'
     trigger:
       platform: time
-      seconds: '/15'
+      seconds: '/30'
     action:
       - service: shell_command.wo
+
+  - alias: sotz
+    initial_state: 'off'
+    trigger:
+      platform: time
+      seconds: '/30'
+    action:
+      - service: shell_command.sotz
 
   # Tradition Maya Lands :: Dia De Muertos
 
@@ -1302,6 +1325,7 @@ group:
     entities:
       - group.calendarmayalandseventsinternal
       - group.calendarmayalandseventsexternal
+      - group.calendarmayalandseventscampaign
 
   # Tradition Maya Lands
   
@@ -1586,6 +1610,12 @@ group:
     name: Eventos Externos
     entities:
       - automation.wo
+
+  calendarmayalandseventscampaigns:
+    name: Campañas
+    entities:
+      - automation.sotz
+      - script.sotz
 
   # Tradition Maya Lands :: Dia De Muertos
 
