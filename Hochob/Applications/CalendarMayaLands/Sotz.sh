@@ -42,16 +42,21 @@ LOCAL_LANGUAGE="english"
 
 AmikooCommunication.sh "Drones" "Image" "IntelAeroReadyToFlyDrone.jpg"
 AmikooVoice.sh $LOCAL_LANGUAGE "The Airbone Revolution in Drone Innovation"
+
+sleep 1
+
 AmikooVoice.sh $LOCAL_LANGUAGE \
     "Experience the amazing innovation driving the next frontier of flight. \
     Our technology propels everything from commercial inspection, surveying and \
     mapping to world record setting light show spectacles"
 
+sleep 15
+
 AmikooVoice.sh $LOCAL_LANGUAGE \
     "Intel Aero Ready to Fly Drone is an Unmanned Aerial Vehicle \
     development platform: fully assembled, fully functional quadcopter"
 
-sleep 20
+sleep 10
 
 AmikooCommunication.sh "Drones" "Image" "DroneDemoStandsDronecode.jpg"
 AmikooVoice.sh $LOCAL_LANGUAGE \
