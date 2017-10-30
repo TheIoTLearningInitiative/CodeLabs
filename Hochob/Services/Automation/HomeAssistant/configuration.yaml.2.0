@@ -1611,8 +1611,8 @@ group:
     entities:
       - automation.wo
 
-  calendarmayalandseventscampaigns:
-    name: Campañas
+  calendarmayalandseventscampaign:
+    name: Campaña
     entities:
       - automation.sotz
       - script.sotz
