@@ -4,7 +4,7 @@
 - __Pop__
 - __Wo'__
 - __Sip__
-- Sotz'
+- __Sotz__'
 - Sek
 - Xul
 
@@ -14,22 +14,29 @@ To migrate
 
 ## Name: Pop
 
-- __Area__: Calendar
-- __Group__: Robot Internal System Event
-- __Friendly Name__: Robot Scheduled Internal Welcome
-- __Services__: Events
+- __Group__: Internal Events
+- __Friendly Name__: 15 Seconds .. Robot Welcome
+- __Services__:
+  - HostInternal.sh
 
 ## Name: Sip
 
-- __Area__: Calendar
-- __Group__: Server Internal System Event
-- __Friendly Name__: Server Scheduled Internal Welcome
+- __Group__: Internal Events
+- __Friendly Name__: 15 Seconds .. Server Welcome
 - __Services__: Events
+  - HostInternal.sh
 
 ## Name: Wo'
 
-- __Area__: Calendar
-- __Group__: Robot External System Event
-- __Friendly Name__: Robot Scheduled External Welcome
-- __Services__: Events
+- __Group__: External Events
+- __Friendly Name__: 15 Seconds .. Robot Welcome
+- __Services__:
+  - HostExternal.sh
+
+## Name: Sotz'
+
+- __Group__: Campaings
+- __Friendly Name__: Aerial Technology Overview
+- __Services__:
+  - 
 
