@@ -466,6 +466,23 @@ homeassistant:
       friendly_name: Hoy digo...
       icon: mdi:approval
 
+    # Intel Experience Day
+
+    script.iedone:
+      friendly_name: Hola, bienvenidos...
+      icon: mdi:numeric-1-box
+
+    script.iedtwo:
+      friendly_name: Que es eso?
+      icon: mdi:numeric-2-box
+
+    script.iedthree:
+      friendly_name: Como yo?
+      icon: mdi:numeric-3-box
+
+    script.ieddance:
+      friendly_name: Bailar...
+
 # Enables the frontend
 frontend:
 
