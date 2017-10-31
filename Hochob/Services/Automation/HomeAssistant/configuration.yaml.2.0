@@ -1798,4 +1798,4 @@ group:
     name: Bienvenida
     entities:
       - script.iedwelcome
-      - script.wo
+      - automation.wo
