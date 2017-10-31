@@ -483,6 +483,9 @@ homeassistant:
     script.ieddance:
       friendly_name: Bailar...
 
+    script.iedwelcmewelcome:
+      friendly_name: Saludo
+
 # Enables the frontend
 frontend:
 
@@ -894,6 +897,10 @@ script:
     sequence:
       - service: shell_command.ieddance
 
+  iedwelcome:
+    sequence:
+      - service: shell_command.iedwelcome
+
 shell_command:
 
   # Southern Maya Highlands
@@ -1033,6 +1040,7 @@ shell_command:
   iedtwo: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Que es eso"
   iedthree: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Como yo"
   ieddance: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Dance.sh
+  iedwelcome: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Welcome.sh
 
 switch:
 
@@ -1402,6 +1410,7 @@ group:
     entities:
       - group.intelexperiencedaylandsopening
       - group.intelexperiencedaylandsdance
+      - group.intelexperiencedaylandswelcome
 
   # Captain Maya Lands: Language
 
@@ -1774,13 +1783,18 @@ group:
       - script.visitorsusb
 
   intelexperiencedaylandsopening:
-    name: Opening
+    name: Escenario
     entities:
       - script.iedone
       - script.iedtwo
       - script.iedthree
 
   intelexperiencedaylandsdance:
-    name: Dance
+    name: Baile
     entities:
       - script.ieddance
+
+  intelexperiencedaylandswelcome:
+    name: Bienvenida
+    entities:
+      - script.iedwelcome
