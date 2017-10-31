@@ -39,10 +39,10 @@ Amikoo.sh amikoo/leftfold && sleep .8
 #Amikoo.sh amikoo/movestop && sleep .8
 #Amikoo.sh amikoo/moveleft && sleep .8
 #Amikoo.sh amikoo/movestop && sleep .8
-Amikoo.sh amikoo/leftfold && sleep .8
-Amikoo.sh amikoo/rightfold && sleep .8
-Amikoo.sh amikoo/leftup && sleep .8
-Amikoo.sh amikoo/rightup && sleep .8
+Amikoo.sh amikoo/leftunfold && sleep .8
+Amikoo.sh amikoo/rightunfold && sleep .8
+Amikoo.sh amikoo/leftdown && sleep .8
+Amikoo.sh amikoo/rightdown && sleep .8
 Amikoo.sh amikoo/headleft && sleep .8
 Amikoo.sh amikoo/headright && sleep .8
 
