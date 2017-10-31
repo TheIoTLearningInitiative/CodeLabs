@@ -36,6 +36,10 @@ chooseLanguage()
 
 LogPid.sh $WO_PID $WO_NAME
 
+HostExternal.sh robot spanish "${LOCAL_INSTITUTION_NAME}" "${LOCAL_EVENT_NAME_SPANISH}"
+
+exit 0
+
 chooseLanguage
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
