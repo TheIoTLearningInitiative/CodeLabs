@@ -49,8 +49,10 @@ AmikooCommunication.sh "Intel" "Image" "Random"
 
 AmikooCommunication.sh "Intel" "Image" "Random"
 Amikoo.sh amikoo/headright && sleep .7
+AmikooAudio.sh spanish "eeh" && sleep .7
 AmikooCommunication.sh "Intel" "Image" "Random"
 Amikoo.sh amikoo/headleft && sleep .7
+AmikooAudio.sh spanish "eeh" && sleep .7
 
 Amikoo.sh amikoo/leftunfold && sleep .7
 AmikooCommunication.sh "Intel" "Image" "Random"
