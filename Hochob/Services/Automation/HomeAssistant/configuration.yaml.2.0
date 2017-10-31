@@ -1354,6 +1354,12 @@ group:
       - group.techiemayalandsserverinfrastructure
       - group.techiemayalandssandbox
 
+  intelexperiencedaylands:
+    view: yes
+    name: Techie
+    entities:
+      - group.intelexperiencedaylandspoc
+
   # Captain Maya Lands: Language
 
   captainmayalandslanguage:
@@ -1723,3 +1729,8 @@ group:
     name: Sandbox
     entities:
       - script.visitorsusb
+
+  intelexperiencedaylandspoc:
+    name: Intel Experience Day
+    entities:
+      - script.resetall
