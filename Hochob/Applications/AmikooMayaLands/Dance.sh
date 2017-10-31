@@ -47,12 +47,11 @@ AmikooCommunication.sh "Intel" "Image" "Random"
 #Amikoo.sh amikoo/moveleft && sleep .7
 #Amikoo.sh amikoo/movestop && sleep .7
 
+AmikooVoice.sh spanish "eh eh" && sleep .7
 AmikooCommunication.sh "Intel" "Image" "Random"
 Amikoo.sh amikoo/headright && sleep .7
-AmikooVoice.sh spanish "eeh" && sleep .7
 AmikooCommunication.sh "Intel" "Image" "Random"
 Amikoo.sh amikoo/headleft && sleep .7
-AmikooVoice.sh spanish "eeh" && sleep .7
 
 Amikoo.sh amikoo/leftunfold && sleep .7
 AmikooCommunication.sh "Intel" "Image" "Random"
