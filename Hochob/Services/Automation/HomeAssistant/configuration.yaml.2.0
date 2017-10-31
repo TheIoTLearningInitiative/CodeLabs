@@ -859,6 +859,12 @@ script:
     sequence:
       - service: shell_command.keypadfour
 
+  # Intel Experience Day
+
+  iedone:
+    sequence:
+      - service: shell_command.iedone
+
 shell_command:
 
   # Southern Maya Highlands
@@ -994,8 +1000,8 @@ shell_command:
 
   # Intel Experience Day
   
-  one: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Hola, bienvenidos al show de baile de Intel"
-  two: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Que es eso"
+  iedone: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Hola, bienvenidos al show de baile de Intel"
+  iedtwo: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Que es eso"
 
 switch:
 
@@ -1738,5 +1744,5 @@ group:
   intelexperiencedaylandsopening:
     name: Intel Experience Day
     entities:
-      - shell_command.one
-      - shell_command.two
+      - script.iedone
+      - script.eidtwo
