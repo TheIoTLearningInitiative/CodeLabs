@@ -25,6 +25,7 @@ export DANCE_DIRECTORY=$(dirname "$DANCE_PATH")
 
 LogPid.sh $MECCANOID_PID $MECCANOID_NAME
 
+AmikooVoice.sh spanish "Aplausos por favor" && sleep .7
 AmikooCommunication.sh "Intel" "Image" "Random"
 Amikoo.sh amikoo/headright && sleep .7
 AmikooCommunication.sh "Intel" "Image" "Random"
@@ -47,7 +48,6 @@ AmikooCommunication.sh "Intel" "Image" "Random"
 #Amikoo.sh amikoo/moveleft && sleep .7
 #Amikoo.sh amikoo/movestop && sleep .7
 
-AmikooVoice.sh spanish "eah eah" && sleep .7
 AmikooCommunication.sh "Intel" "Image" "Random"
 Amikoo.sh amikoo/headright && sleep .7
 AmikooCommunication.sh "Intel" "Image" "Random"
