@@ -483,7 +483,7 @@ homeassistant:
     script.ieddance:
       friendly_name: Bailar...
 
-    script.iedwelcmewelcome:
+    script.iedwelcome:
       friendly_name: Saludo
 
 # Enables the frontend
@@ -1798,3 +1798,4 @@ group:
     name: Bienvenida
     entities:
       - script.iedwelcome
+      - script.wo
