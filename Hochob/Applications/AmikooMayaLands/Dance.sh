@@ -26,26 +26,24 @@ export DANCE_DIRECTORY=$(dirname "$DANCE_PATH")
 LogPid.sh $MECCANOID_PID $MECCANOID_NAME
 
 AmikooCommunication.sh "Intel" "Image" "Random"
-Amikoo.sh amikoo/headright && sleep .7
+Amikoo.sh amikoo/headright && sleep .8
+Amikoo.sh amikoo/headleft && sleep .8
 
 AmikooCommunication.sh "Intel" "Image" "Random"
-Amikoo.sh amikoo/headleft && sleep .7
+Amikoo.sh amikoo/rightup && sleep .8
+Amikoo.sh amikoo/headright && sleep .8
 
 AmikooCommunication.sh "Intel" "Image" "Random"
-Amikoo.sh amikoo/rightup && sleep .7
-Amikoo.sh amikoo/headright && sleep .7
+Amikoo.sh amikoo/leftup && sleep .8
+Amikoo.sh amikoo/headleft && sleep .8
 
 AmikooCommunication.sh "Intel" "Image" "Random"
-Amikoo.sh amikoo/leftup && sleep .7
-Amikoo.sh amikoo/headleft && sleep .7
+Amikoo.sh amikoo/rightfold && sleep .8
+Amikoo.sh amikoo/headright && sleep .8
 
 AmikooCommunication.sh "Intel" "Image" "Random"
-Amikoo.sh amikoo/rightfold && sleep .7
-Amikoo.sh amikoo/headright && sleep .7
-
-AmikooCommunication.sh "Intel" "Image" "Random"
-Amikoo.sh amikoo/leftfold && sleep .7
-Amikoo.sh amikoo/headleft && sleep .7
+Amikoo.sh amikoo/leftfold && sleep .8
+Amikoo.sh amikoo/headleft && sleep .8
 
 #Amikoo.sh amikoo/moveright && sleep .7
 #Amikoo.sh amikoo/movestop && sleep .7
@@ -57,30 +55,26 @@ Amikoo.sh amikoo/headleft && sleep .7
 #Amikoo.sh amikoo/movestop && sleep .7
 
 AmikooCommunication.sh "Intel" "Image" "Random"
-Amikoo.sh amikoo/headright && sleep .7
+Amikoo.sh amikoo/headright && sleep .8
+Amikoo.sh amikoo/headleft && sleep .8
 
 AmikooCommunication.sh "Intel" "Image" "Random"
-Amikoo.sh amikoo/headleft && sleep .7
+Amikoo.sh amikoo/leftunfold && sleep .8
+Amikoo.sh amikoo/headright && sleep .8
 
 AmikooCommunication.sh "Intel" "Image" "Random"
-Amikoo.sh amikoo/leftunfold && sleep .7
-Amikoo.sh amikoo/headright && sleep .7
+Amikoo.sh amikoo/rightunfold && sleep .8
+Amikoo.sh amikoo/headleft && sleep .8
 
 AmikooCommunication.sh "Intel" "Image" "Random"
-Amikoo.sh amikoo/rightunfold && sleep .7
-Amikoo.sh amikoo/headleft && sleep .7
+Amikoo.sh amikoo/leftdown && sleep .8
+Amikoo.sh amikoo/headright && sleep .8
 
 AmikooCommunication.sh "Intel" "Image" "Random"
-Amikoo.sh amikoo/leftdown && sleep .7
-Amikoo.sh amikoo/headright && sleep .7
+Amikoo.sh amikoo/rightdown && sleep .8
+Amikoo.sh amikoo/headleft && sleep .8
 
-AmikooCommunication.sh "Intel" "Image" "Random"
-Amikoo.sh amikoo/rightdown && sleep .7
+Amikoo.sh amikoo/headright && sleep .8
+Amikoo.sh amikoo/headleft && sleep .8
 
-AmikooCommunication.sh "Intel" "Image" "Random"
-Amikoo.sh amikoo/headleft && sleep .7
-
-AmikooCommunication.sh "Intel" "Image" "Random"
-Amikoo.sh amikoo/headright && sleep .7
-AmikooCommunication.sh "Intel" "Image" "IntelExperienceWhatsInside.png"
 # End of File
