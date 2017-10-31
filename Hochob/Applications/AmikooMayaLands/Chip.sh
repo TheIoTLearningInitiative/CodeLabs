@@ -37,11 +37,10 @@ fi
 
 sleep 3
 
-Amikoo.sh amikoo/headright && sleep .6
-Amikoo.sh amikoo/headleft && sleep .6
-
-AmikooCommunication.sh "Amikoo" "Audio" "TakePictureEllie.mp3"
+Amikoo.sh amikoo/headright && sleep 1
+Amikoo.sh amikoo/headleft && sleep 1
 
 AmikooSense.sh "Sight" "Picture"
-
+AmikooCommunication.sh "Amikoo" "Audio" "TakePictureEllie.mp3"
+sleep 3
 AmikooCommunication.sh "Amikoo" "Audio" "Stop"
