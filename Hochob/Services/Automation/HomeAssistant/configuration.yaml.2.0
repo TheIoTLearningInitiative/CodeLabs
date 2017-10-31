@@ -992,6 +992,11 @@ shell_command:
   qualcomm: amixer -D pulse sset Master '{{ volume_level }}%'
   visitorsusb: ~/CodeLabs/Hochob/Services/Visitors/Usb.sh &
 
+  # Intel Experience Day
+  
+  one: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Hola, bienvenidos al show de baile de Intel"
+  two: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Que es eso"
+
 switch:
 
   - platform: command_line
@@ -1733,4 +1738,5 @@ group:
   intelexperiencedaylandsopening:
     name: Intel Experience Day
     entities:
-      - script.resetall
+      - shell_command.one
+      - shell_command.two
