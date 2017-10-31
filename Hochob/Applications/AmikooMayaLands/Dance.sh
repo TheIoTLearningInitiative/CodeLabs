@@ -57,5 +57,5 @@ AmikooCommunication.sh "Intel" "Image" "Random"
 Amikoo.sh amikoo/headleft && sleep .7
 AmikooCommunication.sh "Intel" "Image" "Random"
 Amikoo.sh amikoo/headright && sleep .7
-AmikooCommunication.sh "Intel" "Image" "Stop"
+AmikooCommunication.sh "Intel" "Image" "IntelExperienceWhatsInside.png"
 # End of File
