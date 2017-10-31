@@ -1356,9 +1356,9 @@ group:
 
   intelexperiencedaylands:
     view: yes
-    name: Techie
+    name: Intel Experience Day
     entities:
-      - group.intelexperiencedaylandspoc
+      - group.intelexperiencedaylandsopening
 
   # Captain Maya Lands: Language
 
@@ -1730,7 +1730,7 @@ group:
     entities:
       - script.visitorsusb
 
-  intelexperiencedaylandspoc:
+  intelexperiencedaylandsopening:
     name: Intel Experience Day
     entities:
       - script.resetall
