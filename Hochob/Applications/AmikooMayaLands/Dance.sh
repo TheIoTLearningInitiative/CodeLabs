@@ -47,6 +47,9 @@ AmikooCommunication.sh "Intel" "Image" "Random"
 Amikoo.sh amikoo/leftfold && sleep .7
 Amikoo.sh amikoo/headleft && sleep .7
 
+Amikoo.sh amikoo/moveright && sleep 2
+Amikoo.sh amikoo/move left && sleep 2
+
 #Amikoo.sh amikoo/moveright && sleep .7
 #Amikoo.sh amikoo/movestop && sleep .7
 #Amikoo.sh amikoo/moveleft && sleep .8
