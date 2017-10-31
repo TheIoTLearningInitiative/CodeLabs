@@ -873,6 +873,10 @@ script:
     sequence:
       - service: shell_command.iedthree
 
+  ieddance:
+    sequence:
+      - service: shell_command.ieddance
+
 shell_command:
 
   # Southern Maya Highlands
@@ -1011,6 +1015,7 @@ shell_command:
   iedone: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Hola, bienvenidos al show de baile de Intel"
   iedtwo: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Que es eso"
   iedthree: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Como yo"
+  ieddance: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Dance.sh
 
 switch:
 
@@ -1379,6 +1384,7 @@ group:
     name: Intel Experience Day
     entities:
       - group.intelexperiencedaylandsopening
+      - group.intelexperiencedaylandsdance
 
   # Captain Maya Lands: Language
 
@@ -1751,8 +1757,13 @@ group:
       - script.visitorsusb
 
   intelexperiencedaylandsopening:
-    name: Intel Experience Day
+    name: Opening
     entities:
       - script.iedone
       - script.iedtwo
       - script.iedthree
+
+  intelexperiencedaylandsdance:
+    name: Dance
+    entities:
+      - script.ieddance
