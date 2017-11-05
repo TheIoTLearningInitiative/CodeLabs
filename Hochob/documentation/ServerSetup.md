@@ -232,6 +232,12 @@ Unpacking objects: 100% (28/28), done.
 hochob@server:~/HochobServerMedia/Tradition$ 
 ```
 
+## Ubuntu Server
+
+```sh
+sudo apt-get install --no-install-recommends ubuntu-desktop
+```
+
 # Sandbox
 
 # Sudo Privileges
