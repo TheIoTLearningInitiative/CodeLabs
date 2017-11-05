@@ -1011,20 +1011,20 @@ shell_command:
   
   # Tradition Maya Lands :: Dia De Muertos
 
-  veladora: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Veladora.sh &
-  papelpicado: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/PapelPicado.sh &
-  mantel: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Mantel.sh &
-  calaveritas: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Calaveritas.sh &
-  fotografia: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Fotografia.sh &
+  veladora: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/DiaDeMuertos/Veladora.sh &
+  papelpicado: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/DiaDeMuertos/PapelPicado.sh &
+  mantel: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/DiaDeMuertos/Mantel.sh &
+  calaveritas: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/DiaDeMuertos/Calaveritas.sh &
+  fotografia: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/DiaDeMuertos/Fotografia.sh &
 
   # Tradition Maya Lands :: Intel
 
-  4004: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/4004.sh &
-  8008: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/8008.sh &
-  8080: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/8080.sh &
-  8086: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/8086.sh &
-  80286: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/80286.sh &  
-  i486: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/i486.sh &
+  4004: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Intel/4004.sh &
+  8008: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Intel/8008.sh &
+  8080: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Intel/8080.sh &
+  8086: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Intel/8086.sh &
+  80286: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Intel/80286.sh &  
+  i486: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Intel/i486.sh &
   
   # Techie Maya Lands
   

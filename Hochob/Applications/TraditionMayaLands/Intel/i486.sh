@@ -35,6 +35,8 @@ sleep 2
 KillApp.sh "cvlc"
 KillApp.sh "eog"
 
+sleep 1
+
 Eog.sh "$TRADITION_INTEL/Image/IntelChorus.jpg"
 sleep 1
 Vlc.sh $TRADITION_INTEL/Sound/IntelBongChorus.mp3

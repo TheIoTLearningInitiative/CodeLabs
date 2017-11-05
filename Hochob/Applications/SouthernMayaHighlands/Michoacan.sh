@@ -44,7 +44,7 @@ SpeechSynthetizer.sh on espeak spanish \
     leer cuentos divertidos, hacer ejercicio y aprender con mis familiares y amigos \
     todo el conocimiento científico y tecnológico que está presente en nuestra vida cotidiana. \
     También soy guia en este emocionante Centro de Visitantes. \
-    Hace rato estaba un poco chiveado pero ya estoy listo para mostrarles \
+    Hace rato estaba un poco chiviado pero ya estoy listo para mostrarles \
     lo interesante que es el mundo de las Ciencias, la Tecnología, \
     las Ingenierías y las Matemáticas. A nombre de cada uno de los Ingenieros \
     que aquí trabajamos les deseamos la mejor de las experiencias. \
