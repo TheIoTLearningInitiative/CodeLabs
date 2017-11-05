@@ -22,6 +22,8 @@
   - Tzolk'in Calendar
 - Techie Maya Lands: Techie
   - Tech Companies
+- Nohoch Tata Maya Lands
+  - Server Side Proof Of Concepts
 
 ## Yucatan Food
 
