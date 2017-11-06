@@ -17,6 +17,9 @@ export POP_DIRECTORY=$(dirname "$POP_PATH")
 LOCAL_INSTITUTION_NAME=`Intel Guadalajara`
 LOCAL_EVENT_NAME_ENGLISH="Innovation Week 2017"
 LOCAL_EVENT_NAME_SPANISH="Semana de Innovación 2017"
+LOCAL_PHRASE="The PCI Center of Excellence invites you to attend \
+              the PCIE Tech Week at Intel GDC Auditorium this November 7th, 8th and 9th. \
+              We will host Senior Principal Engineers, Principal Engineers and Technical Leaders."
 
 # PCIE Tech Week 2017
 LOCAL_INSTITUTION_NAME=`Intel Guadalajara`
