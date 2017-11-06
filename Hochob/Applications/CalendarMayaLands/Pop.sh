@@ -24,7 +24,9 @@ LOCAL_EVENT_NAME_ENGLISH="PCI Express Tech Week"
 LOCAL_EVENT_NAME_SPANISH="Semana de Tecnología PCI Express"
 LOCAL_PHRASE="The PCI Center of Excellence invites you to attend \
               the PCIE Tech Week at Intel GDC Auditorium this November 7th, 8th and 9th. \
-              We will host Senior Principal Engineers, Principal Engineers and Technical Leaders."
+              Senior Principal Engineers, Principal Engineers and Technical Leaders \
+              will be available to hear your ideas. Please come and share your knowledge so \
+              we can provide customer support with excellende and efficiency."
 
 LOCAL_LANGUAGE[0]="english"
 LOCAL_LANGUAGE[1]="english"
