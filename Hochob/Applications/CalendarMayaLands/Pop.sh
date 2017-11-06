@@ -17,14 +17,14 @@ export POP_DIRECTORY=$(dirname "$POP_PATH")
 LOCAL_INSTITUTION_NAME=`Intel Guadalajara`
 LOCAL_EVENT_NAME_ENGLISH="Innovation Week 2017"
 LOCAL_EVENT_NAME_SPANISH="Semana de Innovación 2017"
-LOCAL_PHRASE="The PCI Center of Excellence invites you to attend \
-              the PCIE Tech Week at Intel GDC Auditorium this November 7th, 8th and 9th. \
-              We will host Senior Principal Engineers, Principal Engineers and Technical Leaders."
 
 # PCIE Tech Week 2017
 LOCAL_INSTITUTION_NAME=`Intel Guadalajara`
 LOCAL_EVENT_NAME_ENGLISH="PCI Express Tech Week"
 LOCAL_EVENT_NAME_SPANISH="Semana de Tecnología PCI Express"
+LOCAL_PHRASE="The PCI Center of Excellence invites you to attend \
+              the PCIE Tech Week at Intel GDC Auditorium this November 7th, 8th and 9th. \
+              We will host Senior Principal Engineers, Principal Engineers and Technical Leaders."
 
 LOCAL_LANGUAGE[0]="english"
 LOCAL_LANGUAGE[1]="english"
@@ -48,9 +48,9 @@ LogPid.sh $POP_PID $POP_NAME
 chooseLanguage
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    HostInternal.sh robot $LOCAL_LANGUAGE "${LOCAL_INSTITUTION_NAME}" "${LOCAL_EVENT_NAME_ENGLISH}"
+    HostInternal.sh robot $LOCAL_LANGUAGE "${LOCAL_INSTITUTION_NAME}" "${LOCAL_EVENT_NAME_ENGLISH}" "${LOCAL_PHRASE}"
 else
-    HostInternal.sh robot $LOCAL_LANGUAGE "${LOCAL_INSTITUTION_NAME}" "${LOCAL_EVENT_NAME_SPANISH}"
+    HostInternal.sh robot $LOCAL_LANGUAGE "${LOCAL_INSTITUTION_NAME}" "${LOCAL_EVENT_NAME_SPANISH}" "${LOCAL_PHRASE}"
 fi
 
 # End of File
