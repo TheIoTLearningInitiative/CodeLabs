@@ -14,9 +14,9 @@ export POP_PATH=$(readlink -f "$0")
 export POP_DIRECTORY=$(dirname "$POP_PATH")
 
 # Innovation Week 2017
-#LOCAL_INSTITUTION_NAME=`Intel Guadalajara`
-#LOCAL_EVENT_NAME_ENGLISH="Innovation Week 2017"
-#LOCAL_EVENT_NAME_SPANISH="Semana de Innovación 2017"
+LOCAL_INSTITUTION_NAME=`Intel Guadalajara`
+LOCAL_EVENT_NAME_ENGLISH="Innovation Week 2017"
+LOCAL_EVENT_NAME_SPANISH="Semana de Innovación 2017"
 
 # PCIE Tech Week 2017
 LOCAL_INSTITUTION_NAME=`Intel Guadalajara`
