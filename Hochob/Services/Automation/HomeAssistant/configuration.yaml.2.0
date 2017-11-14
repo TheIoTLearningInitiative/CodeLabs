@@ -940,28 +940,28 @@ shell_command:
   
   # Amikoo Maya Lands
   
-  resetall: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/resetall 1
+  resetall: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/resetall 1
 
   # Amikoo Maya Lands: Movement
 
-  headleft: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/headleft "Head Left"
-  headright: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/headright "Head Right"
+  headleft: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/headleft "Head Left"
+  headright: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/headright "Head Right"
 
-  rightup: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/rightup "Arm Right Up"
-  rightdown: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/rightdown "Arm Right Down"
-  rightfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/rightfold "Arm Right Fold"
-  rightunfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/rightunfold "Arm Right Unfold"
+  rightup: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/rightup "Arm Right Up"
+  rightdown: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/rightdown "Arm Right Down"
+  rightfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/rightfold "Arm Right Fold"
+  rightunfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/rightunfold "Arm Right Unfold"
 
-  leftup: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/leftup "Arm Left Up"
-  leftdown: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/leftdown "Arm Left Down"
-  leftfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/leftfold "Arm Left Fold"
-  leftunfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/leftunfold "Arm Left Unfold"
+  leftup: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/leftup "Arm Left Up"
+  leftdown: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/leftdown "Arm Left Down"
+  leftfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/leftfold "Arm Left Fold"
+  leftunfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/leftunfold "Arm Left Unfold"
       
-  moveright: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/moveright "Body Move Right"
-  moveleft: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/moveleft "Body Move Left"
-  moveforward: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/moveforward "Body Move Forward"
-  movebackward: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/movebackward "Body Move Backward"
-  movestop: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh lupe/movestop "Body Stop"
+  moveright: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/moveright "Body Move Right"
+  moveleft: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/moveleft "Body Move Left"
+  moveforward: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/moveforward "Body Move Forward"
+  movebackward: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/movebackward "Body Move Backward"
+  movestop: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/movestop "Body Stop"
 
   # Amikoo Maya Lands :: Voice
   
