@@ -27,10 +27,10 @@
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Images
   - __Friendly Name__: Images
-- Pesebre
+- Trineo
   - __Group__: Robot
-  - __Friendly Name__: 10 minutes .. Images
-  - __Friendly Name__: Images
+  - __Friendly Name__: 10 minutes .. Video
+  - __Friendly Name__: Video
 
 
 # Name: Dia De Muertos
