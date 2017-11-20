@@ -28,7 +28,7 @@ LOCAL_SEASON="Intel"
 LogPid.sh $i486_PID $i486_NAME
 
 
-Eog.sh "$TRADITION_INTEL/Image/IntelExperienceWhatsInside.png" &
+Eog.sh "$TRADITION_INTEL/Image/IntelExperienceWhatsInside.png"
 sleep 1
 Vlc.sh $TRADITION_INTEL/Sound/IntelBong.mp3
 sleep 2
