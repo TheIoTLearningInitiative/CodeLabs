@@ -320,6 +320,40 @@ homeassistant:
       friendly_name: PoC Campaign Drones
       icon: mdi:drone
 
+    # Tradition Maya Lands :: Navidad
+    
+    automation.familia:
+      friendly_name:  10 minutos .. Sonidos
+      icon: mdi:calendar-clock
+
+    script.familia:
+      friendly_name: Sonidos
+      icon: mdi:speaker
+
+    automation.campana:
+      friendly_name:  10 minutos .. Sonidos
+      icon: mdi:calendar-clock
+
+    script.campana:
+      friendly_name: Sonidos
+      icon: mdi:speaker
+
+    automation.pesebre:
+      friendly_name:  10 minutos .. Imágenes
+      icon: mdi:calendar-clock
+
+    script.pesebre:
+      friendly_name: Imágenes
+      icon: mdi:file-image
+
+    automation.trineo:
+      friendly_name:  10 minutos .. Video
+      icon: mdi:calendar-clock
+
+    script.trineo:
+      friendly_name: Video
+      icon: mdi:file-video
+
     # Tradition Maya Lands :: Dia De Muertos
     
     automation.veladora:
@@ -797,6 +831,24 @@ script:
     sequence:
       - service: shell_command.sotz
 
+  # Tradition Maya Lands :: Navidad
+
+  familia:
+    sequence:
+      - service: shell_command.familia
+
+  campana:
+    sequence:
+      - service: shell_command.campana
+
+  pesebre:
+    sequence:
+      - service: shell_command.pesebre
+
+  trineo:
+    sequence:
+      - service: shell_command.trineo
+
   # Tradition Maya Lands :: Dia De Muertos
 
   veladora:
@@ -1008,7 +1060,14 @@ shell_command:
   sip: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Sip.sh &
   wo: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Wo.sh &
   sotz: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Sotz.sh &
-  
+
+  # Tradition Maya Lands :: Navidad
+
+  familia: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Navidad/Familia.sh &
+  campana: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Navidad/Campana.sh &
+  pesebre: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Navidad/Pesebre.sh &
+  trineo: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Navidad/Trineo.sh &
+
   # Tradition Maya Lands :: Dia De Muertos
 
   veladora: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/DiaDeMuertos/Veladora.sh &
@@ -1138,6 +1197,60 @@ automation:
       seconds: '/30'
     action:
       - service: shell_command.sotz
+
+  # Tradition Maya Lands :: Navidad
+
+  - alias: Familia
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.familia
+
+  - alias: Campana
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.campana
+
+  - alias: Pesebre
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.pesebre
+
+  - alias: Trineo
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.trineo
 
   # Tradition Maya Lands :: Dia De Muertos
 
@@ -1383,11 +1496,13 @@ group:
     view: yes
     name: Tradición
     entities:
-      - group.traditionmayalandsdiademuertoschromecast
-      - group.traditionmayalandsdiademuertosamikoo
+      - group.traditionmayalandsnavidadchromecast
+      - group.traditionmayalandsnavidadamikoo    
       - group.traditionmayalandsintelchromecast
       - group.traditionmayalandsintelamikoo
-      - group.traditionmayalandsintelnohochtata
+      - group.traditionmayalandsintelnohochtata    
+      - group.traditionmayalandsdiademuertoschromecast
+      - group.traditionmayalandsdiademuertosamikoo
   
   # Techie Maya Lands
 
@@ -1674,6 +1789,24 @@ group:
     entities:
       - automation.sotz
       - script.sotz
+
+  # Tradition Maya Lands :: Navidad
+
+  traditionmayalandsnavidadchromecast:
+    name: Navidad <> Chromecast
+    entities:
+      - automation.familia
+      - script.familia
+
+  traditionmayalandsnavidadamikoo:
+    name: Navidad <> Robot
+    entities:
+      - automation.campana
+      - automation.pesebre
+      - automation.trineo
+      - script.campana
+      - script.pesebre
+      - script.trineo
 
   # Tradition Maya Lands :: Dia De Muertos
 
