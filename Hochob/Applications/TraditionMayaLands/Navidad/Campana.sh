@@ -8,10 +8,10 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export CAMPANAS_PID=$$
-export CAMPANAS_NAME="Campanas"
-export CAMPANAS_PATH=$(readlink -f "$0")
-export CAMPANAS_DIRECTORY=$(dirname "$CAMPANAS_PATH")
+export CAMPANA_PID=$$
+export CAMPANA_NAME="Campana"
+export CAMPANA_PATH=$(readlink -f "$0")
+export CAMPANA_DIRECTORY=$(dirname "$CAMPANA_PATH")
 
 LOCAL_TRADITION="Navidad"
 
@@ -25,7 +25,7 @@ LOCAL_TRADITION="Navidad"
 # Main
 # =============================================================================
 
-LogPid.sh $CAMPANAS_PID $CAMPANAS_NAME
+LogPid.sh $CAMPANA_PID $CAMPANA_NAME
 
 AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "Random"
 sleep 5
