@@ -396,6 +396,14 @@ homeassistant:
       friendly_name: Fotógrafo
       icon: mdi:camera
 
+    automation.santaclaus:
+      friendly_name:  10 minutos .. Feliz Navidad
+      icon: mdi:calendar-clock
+
+    script.santaclaus:
+      friendly_name: Feliz Navidad
+      icon: mdi:face-profile
+
     # Tradition Maya Lands :: Intel
 
     automation.4004:
@@ -849,6 +857,10 @@ script:
     sequence:
       - service: shell_command.trineo
 
+  santaclaus:
+    sequence:
+      - service: shell_command.santaclaus
+
   # Tradition Maya Lands :: Dia De Muertos
 
   veladora:
@@ -1067,6 +1079,7 @@ shell_command:
   campana: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Navidad/Campana.sh &
   pesebre: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Navidad/Pesebre.sh &
   trineo: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Navidad/Trineo.sh &
+  santaclaus: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Navidad/SantaClaus.sh &
 
   # Tradition Maya Lands :: Dia De Muertos
 
@@ -1251,6 +1264,19 @@ automation:
       before: '21:00:00'
     action:
       - service: shell_command.trineo
+
+  - alias: SantaClaus
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.santaclaus
 
   # Tradition Maya Lands :: Dia De Muertos
 
@@ -1497,10 +1523,11 @@ group:
     name: Tradición
     entities:
       - group.traditionmayalandsnavidadchromecast
-      - group.traditionmayalandsnavidadamikoo    
+      - group.traditionmayalandsnavidadamikoo
+      - group.traditionmayalandsnavidadnohochtata
       - group.traditionmayalandsintelchromecast
       - group.traditionmayalandsintelamikoo
-      - group.traditionmayalandsintelnohochtata    
+      - group.traditionmayalandsintelnohochtata
       - group.traditionmayalandsdiademuertoschromecast
       - group.traditionmayalandsdiademuertosamikoo
   
@@ -1807,6 +1834,12 @@ group:
       - script.campana
       - script.pesebre
       - script.trineo
+
+  traditionmayalandsnavidadnohochtata:
+    name: Navidad <> Server
+    entities:
+      - automation.santaclaus
+      - script.santaclaus
 
   # Tradition Maya Lands :: Dia De Muertos
 
