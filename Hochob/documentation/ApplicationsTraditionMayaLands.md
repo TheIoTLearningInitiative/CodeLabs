@@ -1,18 +1,5 @@
 # Tradition Maya Lands
 
-> The tzolk'in calendar combines twenty day names with the thirteen day numbers to produce 260 unique days. It is used to determine the time of religious and ceremonial events and for divination. [Wikipedia](https://en.wikipedia.org/wiki/Maya_calendar)
-
-- __Imix'__
-- __Ik'__
-- __Ak'b'al__
-- __K'an__
-- __Chikchan__
-- __Kimi__
-- Manik'
-- Lamat
-- Muluk
-- Ok
-
 # Name: Navidad
 
 - Familia
@@ -59,15 +46,15 @@
 
 # Name: Intel
 
-- Ak'b'al 4004
+- 4004
   - __Group__: Chromecast
   - __Friendly Name__: 10 minutes .. Sounds
   - __Friendly Name__: Sounds
-- K'an 8008
+- 8008
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Sounds
   - __Friendly Name__: Sounds
-- Kimi 8080
+- 8080
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Images
   - __Friendly Name__: Images
