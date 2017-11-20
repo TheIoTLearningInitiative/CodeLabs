@@ -13,6 +13,26 @@
 - Muluk
 - Ok
 
+# Name: Navidad
+
+- Familia
+  - __Group__: Chromecast
+  - __Friendly Name__: 10 minutes .. Sounds
+  - __Friendly Name__: Sounds
+- Campana
+  - __Group__: Robot
+  - __Friendly Name__: 10 minutes .. Sounds
+  - __Friendly Name__: Sounds
+- Pesebre
+  - __Group__: Robot
+  - __Friendly Name__: 10 minutes .. Images
+  - __Friendly Name__: Images
+- Pesebre
+  - __Group__: Robot
+  - __Friendly Name__: 10 minutes .. Images
+  - __Friendly Name__: Images
+
+
 # Name: Dia De Muertos
 
 - Imix' Veladora
