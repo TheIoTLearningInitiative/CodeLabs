@@ -54,45 +54,36 @@
 - __Area__: The Experience
 - __Group__: Stations
 - __Friendly Name__: Bienvenida Experiencia Intel
-- __Services__:
-  - __Stream__: Chromecast
-- __Digital Media Player__: Eek'
 
 # Name: Ojo de Liebre
 
 - __Area__: The Experience
 - __Group__: Stations
 - __Friendly Name__: Juego Binario
-- __Services__:
-  - __Stream__: Chromecast
-- __Digital Media Player__: Eek'
 
 # Name: La Michilía
 
 - __Area__: The Experience
 - __Group__: Stations
 - __Friendly Name__: Intel en el espacio
-- __Services__:
-  - __Stream__: Chromecast
-- __Digital Media Player__: Eek'
 
 # Name: El Cielo
 
 - __Area__: The Experience
 - __Group__: Stations
 - __Friendly Name__: Los muones
-- __Services__:
-  - __Stream__: Chromecast
-- __Digital Media Player__: Eek'
+
+# Name: Islas Marias
+
+- __Area__: The Experience
+- __Group__: Stations
+- __Friendly Name__: Preguntas Finales
 
 # Name: Mapimi
 
 - __Area__: The Experience
 - __Group__: Stations
 - __Friendly Name__: Hasta pronto
-- __Services__:
-  - __Stream__: Chromecast
-- __Digital Media Player__: Eek'
 
 # Under Development
 
@@ -101,25 +92,16 @@
 - __Area__: The Experience
 - __Group__: Fun
 - __Friendly Name__: El Baile del Robot
-- __Services__:
-  - __Stream__: Chromecast
-- __Digital Media Player__: Eek'
 
 ## Name: Calakmul
 
 - __Area__: The Experience
 - __Group__: Topics
 - __Friendly Name__: La Ciencia
-- __Services__:
-  - __Stream__: Chromecast
-- __Digital Media Player__: Eek'
 
 ## Tiburón Ballena
 
 - __Area__: The Experience
 - __Group__: Topics
 - __Friendly Name__: Planeta Marte
-- __Services__:
-  - __Stream__: Chromecast
-- __Digital Media Player__: Eek'
 
