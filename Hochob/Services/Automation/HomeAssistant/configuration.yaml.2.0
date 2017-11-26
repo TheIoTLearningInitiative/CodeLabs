@@ -556,9 +556,14 @@ logbook:
 #  - platform: ffmpeg
 #    input: /dev/video0
 
-#google:
-#  client_id: !secret google_calendar_client_id
-#  client_secret: !secret google_calendar_client_secret
+google:
+  client_id: !secret google_calendar_client_id
+  client_secret: !secret google_calendar_client_secret
+
+tts:
+  - platform: google
+    cache: true
+    time_memory: 300
 
 input_slider:
 
@@ -1168,6 +1173,27 @@ switch:
         command_off: "pkill -9 vlc"
 
 automation:
+
+- alias: TTS Clear Cache
+  trigger:
+    platform: time
+    hours: '/24'
+  condition:
+    - condition: time
+      weekday:
+        - mon
+  action:
+    service: tts.clear_cache
+
+  - alias: Home Assistant Start
+    trigger:
+      platform: homeassistant
+      event: start
+    action:
+      - delay: '00:00:10'
+      - service: tts.google_say
+        data:
+          message: 'Home Assistant has started'
 
   # Calendar Maya Lands
 
