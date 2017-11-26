@@ -238,6 +238,10 @@ hochob@server:~/HochobServerMedia/Tradition$
 sudo apt-get install --no-install-recommends ubuntu-desktop
 ```
 
+```
+https://community.home-assistant.io/t/install-home-assistant-mosquitto-broker-and-node-red-on-android/14350
+```
+
 # Sandbox
 
 # Sudo Privileges
