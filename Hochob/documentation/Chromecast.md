@@ -3,6 +3,7 @@
 # Issues
 
 - Make package to start automatically?
+- https://community.home-assistant.io/t/chromecast-radio-with-station-and-player-selection/12732
 
 # Stream2Chromecast Chromecast Media Streamer
 
