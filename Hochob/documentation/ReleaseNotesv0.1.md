@@ -4,7 +4,7 @@
 
 ## Summary
 
-Welcome to our Visitors Center, an awesome space built by an awesome team of volunteers thought to inspire young people to discover what Engineers, Scientists and Researchers and do and to motivate them to explore the Science, Technology, Engineering and Mathematics fields for their future Education through the use of hardware and software projects.
+Welcome to our Visitors Center, an awesome space built by an awesome team of volunteers thought to inspire young people to discover what Engineers, Scientists and Researchers and do and to motivate them to explore the Science, Technology, Engineering and Mathematics fields for their future Education through the use of hardware and software tecnologies.
 
 ## Hocho Project
 
