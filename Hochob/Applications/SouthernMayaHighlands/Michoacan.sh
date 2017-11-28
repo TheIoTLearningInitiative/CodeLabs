@@ -64,7 +64,7 @@ sleep .6
 Amikoo.sh amikoo/headleft 1
 sleep .6
 
-Amikoo.sh amikoo/moveleft 1
+Amikoo.sh amikoo/moveright 1
 sleep 1.6
 Amikoo.sh amikoo/movestop 1
 sleep .6
@@ -72,7 +72,7 @@ Amikoo.sh amikoo/moveforward 1
 sleep 4.5
 Amikoo.sh amikoo/movestop 1
 sleep .6
-Amikoo.sh amikoo/moveleft 1
+Amikoo.sh amikoo/moveright 1
 sleep 3.6
 Amikoo.sh amikoo/movestop 1
 sleep .6

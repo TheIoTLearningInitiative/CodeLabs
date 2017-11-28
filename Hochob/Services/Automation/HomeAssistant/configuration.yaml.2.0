@@ -1174,16 +1174,16 @@ switch:
 
 automation:
 
-- alias: TTS Clear Cache
-  trigger:
-    platform: time
-    hours: '/24'
-  condition:
-    - condition: time
-      weekday:
-        - mon
-  action:
-    service: tts.clear_cache
+  - alias: TTS Clear Cache
+    trigger:
+      platform: time
+      hours: '/24'
+    condition:
+      - condition: time
+        weekday:
+          - mon
+    action:
+      service: tts.clear_cache
 
   - alias: Home Assistant Start
     trigger:
