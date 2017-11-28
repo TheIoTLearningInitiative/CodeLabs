@@ -1745,7 +1745,7 @@ group:
       - script.ojodeliebre
       - script.lamichilia
       - script.elcielo
-      - script.mapimi
+      #- script.mapimi
 
   # Northern Maya Highlands: Stations
 
