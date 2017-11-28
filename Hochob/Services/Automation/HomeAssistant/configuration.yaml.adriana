@@ -1,0 +1,1993 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 20.35
+  longitude: -102
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 1674
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: America/Mexico_City
+  customize:
+
+    # Language
+    
+    switch.language:
+      friendly_name: Idioma English / Español
+      icon: mdi:audiobook
+
+    # Southern Maya Highlands
+
+    # Southern Maya Highlands : 1 Introducción
+
+    script.aguascalientes:
+      friendly_name: 1.1 Bienvenidos Intel, Protocolo de Seguridad
+      icon: mdi:audiobook
+
+    # Southern Maya Highlands : 2 Robot
+
+    script.bajacalifornianorte:
+      friendly_name: 2.1 Bienvenidos Guadalajara Design Center
+      icon: mdi:audiobook
+    script.bajacaliforniasur:
+      friendly_name: 2.2 Lupe Robot Show
+      icon: mdi:video
+    script.michoacan:
+      friendly_name: 2.3 Lupe Robot Foto Grupal
+      icon: mdi:video      
+
+    # Southern Maya Highlands : 3 Tour
+
+    script.campeche:
+      friendly_name: 3.1 Bienvenidos Recorrido
+      icon: mdi:audiobook
+
+    # Southern Maya Highlands : Sandbox
+    
+    script.zacatecas:
+      friendly_name: Sandbox
+      icon: mdi:test-tube
+
+    # Amikoo Maya Lands
+
+    script.resetall:
+      friendly_name: Ahora
+      icon: mdi:lock-reset
+
+    # Amikoo Maya Lands :: Movement
+
+    script.headright:
+      friendly_name: Derecha
+      icon: mdi:arrow-right-thick
+    script.headleft:
+      friendly_name: Izquierda
+      icon: mdi:arrow-left-thick
+ 
+    script.rightup:
+      friendly_name: Arriba
+      icon: mdi:human-handsup
+    script.rightdown:
+      friendly_name: Abajo
+      icon: mdi:human-handsup
+    script.rightfold:
+      friendly_name: Doblar
+      icon: mdi:gesture-swipe-up
+    script.rightunfold:
+      friendly_name: Desdoblar
+      icon: mdi:gesture-swipe-up
+
+    script.leftup:
+      friendly_name: Arriba
+      icon: mdi:human-handsup
+    script.leftdown:
+      friendly_name: Abajo
+      icon: mdi:human-handsup
+    script.leftfold:
+      friendly_name: Doblar
+      icon: mdi:gesture-swipe-up
+    script.leftunfold:
+      friendly_name: Desdoblar
+      icon: mdi:gesture-swipe-up
+
+    script.moveright:
+      friendly_name: Derecha
+      icon: mdi:arrow-right-thick
+    script.moveleft:
+      friendly_name: Izquierda
+      icon: mdi:arrow-left-thick
+    script.moveforward:
+      friendly_name: Adelante
+      icon: mdi:arrow-up-thick
+    script.movebackward:
+      friendly_name: Atrás
+      icon: mdi:arrow-down-thick
+    script.movestop:
+      friendly_name: Parar
+      icon: mdi:stop
+
+    # Amikoo Maya Lands :: Voice
+
+    script.amikoovoice:
+      friendly_name: 5 4 3 2 1 0
+      icon: mdi:voice
+
+    # Amikoo Maya Lands :: Sense
+
+    script.amikoosensesight:
+      friendly_name: Vista
+      icon: mdi:camera
+
+    # Amikoo Maya Lands :: Communication
+    
+    script.amikoocommunicationaudio:
+      friendly_name: Audio
+      icon: mdi:audiobook
+
+    script.amikoocommunicationimage:
+      friendly_name: Imágen
+      icon: mdi:file-image
+
+    script.amikoocommunicationvideo:
+      friendly_name: Video
+      icon: mdi:file-video
+
+    # Amikoo Maya Lands :: Expertise
+
+    script.amikoogcvisionapi:
+      friendly_name: Google Vision API
+      icon: mdi:camera
+    script.amikoogctranslationapi:
+      friendly_name: Google Translation API
+      icon: mdi:google-translate
+
+    # Amikoo Maya Lands :: Knowledge
+
+    script.sphero:
+      friendly_name: Frases Populares
+      icon: mdi:audiobook
+
+    script.makeblock:
+      friendly_name: Centro de Visitantes
+      icon: mdi:audiobook
+
+    # Amikoo Maya Lands :: Applications
+
+    script.coji:
+      friendly_name: Discurso Bilingüe
+      icon: mdi:speaker
+    script.meccanoid:
+      friendly_name: Baile Thriller
+      icon: mdi:account
+    script.chip:
+      friendly_name: Fotógrafo
+      icon: mdi:camera
+
+    # Central Maya Lowlands, Stations
+
+    script.acapulco:
+      friendly_name: 1. Antes del inicio
+      icon: mdi:audiobook
+    script.cancun:
+      friendly_name: 2. Intel
+      icon: mdi:audiobook
+    script.huatulco:
+      friendly_name: 3. Intel GDC
+      icon: mdi:audiobook
+    script.mazatlan:
+      friendly_name: 4. El microprocesador
+      icon: mdi:audiobook
+    script.puertovallarta:
+      friendly_name: 5. Labs y Fabs
+      icon: mdi:audiobook
+
+    # Central Maya Lowlands, Stations
+ 
+    script.ixtapa:
+      friendly_name: Preguntas
+      icon: mdi:audiobook
+
+    # Central Maya Lowlands, Sandbox
+    
+    script.veracruz:
+      friendly_name: Sandbox
+      icon: mdi:test-tube
+
+    # Northern Maya Lowlands
+
+    script.montesazules:
+      friendly_name: 1. Bienvenida Experiencia Intel
+      icon: mdi:audiobook
+
+    script.ojodeliebre:
+      friendly_name: 2. Juego Binario
+      icon: mdi:audiobook
+
+    script.lamichilia:
+      friendly_name: 3. Intel en el Espacio
+      icon: mdi:audiobook
+
+    script.elcielo:
+      friendly_name: 4. Los Muones
+      icon: mdi:audiobook
+
+    script.mapimi:
+      friendly_name: 5. Hasta Pronto
+      icon: mdi:audiobook
+
+    script.siankaan:
+      friendly_name: El Baile de Lupe
+      icon: mdi:test-tube
+
+    script.calakmul:
+      friendly_name: La Ciencia
+      icon: mdi:test-tube
+
+    script.tiburonballena:
+      friendly_name: Planeta Marte
+      icon: mdi:test-tube
+
+    # Console Maya Lands : Keypad Yes No
+
+    script.keypadyes:
+      friendly_name: Botón Sí
+      icon: mdi:check-circle
+
+    script.keypadno:
+      friendly_name: Botón No
+      icon: mdi:checkbox-blank-circle
+
+    # Console Maya Lands : Keypad Multiple Choice
+
+    script.keypadone:
+      friendly_name: Botón Uno
+      icon: mdi:numeric-1-box
+
+    script.keypadtwo:
+      friendly_name: Botón Dos
+      icon: mdi:numeric-2-box
+
+    script.keypadthree:
+      friendly_name: Botón Tres
+      icon: mdi:numeric-3-box
+
+    script.keypadfour:
+      friendly_name: Botón Cuatro
+      icon: mdi:numeric-4-box
+
+    # Media Maya Lands : Corporate
+
+    switch.aak:
+      friendly_name: Imágenes Corporativas
+      icon: mdi:folder-multiple-image
+    switch.aayin:
+      friendly_name: Videos Corporativos
+      icon: mdi:file-video
+
+    # Media Maya Lands : Intel Guadalajara
+
+    switch.chakmool:
+      friendly_name: Imágenes Intel Guadalajara
+      icon: mdi:folder-multiple-image
+
+    # Media Maya Lands : Visitors Center
+
+    switch.am:
+      friendly_name: Imágenes Centro de Visitantes
+      icon: mdi:folder-multiple-image
+
+    # Media Maya Lands : Drawing
+
+    switch.chiich:
+      friendly_name: Imágenes de Dibujos
+      icon: mdi:folder-multiple-image
+
+    # Media Maya Lands : Memories
+
+    switch.cho:
+      friendly_name: Imágenes de Visitas
+      icon: mdi:folder-multiple-image
+    switch.chuwen:
+      friendly_name: Videos de Visitas
+      icon: mdi:file-video
+
+    # Media Maya Lands : Camera
+
+    switch.kaab:
+      friendly_name: Vista Previa Cámara
+      icon: mdi:camera
+
+    # Calendar Maya Lands
+    
+    automation.pop:
+      friendly_name: 30 segundos .. Bienvenida Robot
+      icon: mdi:calendar-clock
+
+    automation.sip:
+      friendly_name: 30 segundos .. Bienvenida Servidor
+      icon: mdi:calendar-clock
+
+    automation.wo:
+      friendly_name: 15 segundos .. Bienvenida Robot
+      icon: mdi:calendar-clock
+
+    automation.sotz:
+      friendly_name: 15 segundos .. PoC Campaign Drones
+      icon: mdi:calendar-clock
+
+    script.sotz:
+      friendly_name: PoC Campaign Drones
+      icon: mdi:drone
+
+    # Tradition Maya Lands :: Navidad
+    
+    automation.familia:
+      friendly_name:  10 minutos .. Sonidos
+      icon: mdi:calendar-clock
+
+    script.familia:
+      friendly_name: Sonidos
+      icon: mdi:speaker
+
+    automation.campana:
+      friendly_name:  10 minutos .. Sonidos
+      icon: mdi:calendar-clock
+
+    script.campana:
+      friendly_name: Sonidos
+      icon: mdi:speaker
+
+    automation.pesebre:
+      friendly_name:  10 minutos .. Imágenes
+      icon: mdi:calendar-clock
+
+    script.pesebre:
+      friendly_name: Imágenes
+      icon: mdi:file-image
+
+    automation.trineo:
+      friendly_name:  10 minutos .. Video
+      icon: mdi:calendar-clock
+
+    script.trineo:
+      friendly_name: Video
+      icon: mdi:file-video
+
+    # Tradition Maya Lands :: Dia De Muertos
+    
+    automation.veladora:
+      friendly_name:  10 minutos .. Sonidos
+      icon: mdi:calendar-clock
+
+    script.veladora:
+      friendly_name: Sonidos
+      icon: mdi:speaker
+
+    automation.papelpicado:
+      friendly_name:  10 minutos .. Sonidos
+      icon: mdi:calendar-clock
+
+    script.papelpicado:
+      friendly_name: Sonidos
+      icon: mdi:speaker
+
+    automation.mantel:
+      friendly_name:  10 minutos .. Imágenes
+      icon: mdi:calendar-clock
+
+    script.mantel:
+      friendly_name: Imágenes
+      icon: mdi:file-image
+
+    automation.calaverita:
+      friendly_name:  10 minutos .. Fantasma
+      icon: mdi:calendar-clock
+
+    script.calaverita:
+      friendly_name: Fantasma
+      icon: mdi:face-profile
+
+    automation.fotografia:
+      friendly_name:  10 minutos .. Fotógrafo
+      icon: mdi:calendar-clock
+
+    script.fotografia:
+      friendly_name: Fotógrafo
+      icon: mdi:camera
+
+    automation.santaclaus:
+      friendly_name:  10 minutos .. Feliz Navidad
+      icon: mdi:calendar-clock
+
+    script.santaclaus:
+      friendly_name: Feliz Navidad
+      icon: mdi:face-profile
+
+    # Tradition Maya Lands :: Intel
+
+    automation.4004:
+      friendly_name:  10 minutos .. Sonidos
+      icon: mdi:calendar-clock
+
+    script.4004:
+      friendly_name: Sonidos
+      icon: mdi:speaker
+
+    automation.8008:
+      friendly_name:  10 minutos .. Sonidos
+      icon: mdi:calendar-clock
+
+    script.8008:
+      friendly_name: Sonidos
+      icon: mdi:speaker
+
+    automation.8080:
+      friendly_name:  10 minutos .. Imágenes
+      icon: mdi:calendar-clock
+
+    script.8080:
+      friendly_name: Imágenes
+      icon: mdi:file-image
+
+    automation.8086:
+      friendly_name:  10 minutos .. Video
+      icon: mdi:calendar-clock
+
+    script.8086:
+      friendly_name: Video
+      icon: mdi:file-video
+
+    automation.80286:
+      friendly_name:  10 minutos .. Intel Bong
+      icon: mdi:calendar-clock
+
+    script.80286:
+      friendly_name: Intel Bong
+      icon: mdi:face-profile
+
+    automation.i486:
+      friendly_name:  10 minutos .. Intel Bong
+      icon: mdi:calendar-clock
+
+    script.i486:
+      friendly_name: Intel Bong
+      icon: mdi:face-profile
+
+    # Techie Maya Lands : System Health
+
+    script.toyota:
+      friendly_name: Verificar Infraestructura
+      icon: mdi:approval
+
+    script.kodak:
+      friendly_name: Reiniciar Servidor
+      icon: mdi:restart
+    
+    # Techie Maya Lands : System Calendar
+    
+    automation.apple:
+      friendly_name: 30 minutos .. Anuncio Servidor
+      icon: mdi:calendar-clock
+
+    # Techie Maya Lands : System Audio
+
+    input_slider.qualcomm:
+      friendly_name: Volumén % Ajustar
+      icon: mdi:volume-high
+
+    sensor.qualcomm:
+      friendly_name: Volumén % Nivel
+      icon: mdi:volume-high
+
+    #automation.snapdragon:
+    #  friendly_name: Habilitado Ajustar
+
+    #automation.csr101x:
+    #  friendly_name: Habilitado Nivel
+
+    # Techie Maya Lands : System Sandbox
+
+    script.visitorsusb:
+      friendly_name: Visitantes USB
+      icon: mdi:usb
+
+    # Techie Maya Lands : System Infrastructure
+
+    device_tracker.eclipse:
+      friendly_name: IoT Eclipse Org
+      icon: mdi:server
+
+    device_tracker.hochob:
+      friendly_name: Hochob Server
+      icon: mdi:server-network
+
+    # Techie Maya Lands : System Quote
+
+    sensor.bosch:
+      friendly_name: Hoy digo...
+      icon: mdi:approval
+
+    # Intel Experience Day
+
+    script.iedone:
+      friendly_name: Hola, bienvenidos...
+      icon: mdi:numeric-1-box
+
+    script.iedtwo:
+      friendly_name: Que es eso?
+      icon: mdi:numeric-2-box
+
+    script.iedthree:
+      friendly_name: Como yo?
+      icon: mdi:numeric-3-box
+
+    script.ieddance:
+      friendly_name: Bailar...
+
+    script.iedwelcome:
+      friendly_name: Saludo
+
+# Enables the frontend
+frontend:
+
+http:
+  # Uncomment this to add a password (recommended!)
+  # api_password: PASSWORD
+  # Uncomment this if you are using SSL or running in Docker etc
+  # base_url: example.duckdns.org:8123
+
+# Checks for available updates
+updater:
+
+# Discover some devices automatically
+#discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time.
+history:
+
+# View all events in a logbook
+logbook:
+
+#camera:
+#  - platform: ffmpeg
+#    input: /dev/video0
+
+google:
+  client_id: !secret google_calendar_client_id
+  client_secret: !secret google_calendar_client_secret
+
+tts:
+  - platform: google
+    cache: true
+    time_memory: 300
+
+input_slider:
+
+  qualcomm:
+    name: Server Volume
+    initial: 50
+    min: 0
+    max: 100
+    step: 5
+    icon: mdi:volume-medium
+
+sensor:
+
+  - platform: template
+    sensors:
+      imac:
+        friendly_name: Quién?
+        value_template: '{{ states.calendar.hochobvcgmailcom.attributes.message }}'
+
+  - platform: template
+    sensors:
+      ipod:
+        friendly_name: Cuando?
+        value_template: '{{ states.calendar.hochobvcgmailcom.attributes.start_time }}'
+
+  - platform: command_line
+    name: Qualcomm
+    command: amixer -D pulse sget Master | grep Left | grep -Eo '\[(\w+)\%\]' | grep -Eo '\w+'
+    unit_of_measurement: "%"
+    value_template: '{{ value | int }}'
+
+  - platform: systemmonitor
+    name: SpaceX
+    resources:
+      - type: processor_use
+      - type: memory_free
+      - type: disk_use_percent
+        arg: /home/
+
+  - platform: command_line
+    name: Bosch
+    command: fortune
+    scan_interval: 300
+
+device_tracker:
+  - platform: ping
+    hosts:
+      eclipse: iot.eclipse.org
+      hochob: 10.215.56.158
+
+script:
+
+  # Southern Maya Highlands
+
+  aguascalientes:
+    sequence:
+      - service: shell_command.aguascalientes
+
+  bajacalifornianorte:
+    sequence:
+      - service: shell_command.bajacalifornianorte
+
+  bajacaliforniasur:
+    sequence:
+      - service: shell_command.bajacaliforniasur
+
+  campeche:
+    sequence:
+      - service: shell_command.campeche
+
+  michoacan:
+    sequence:
+      - service: shell_command.michoacan
+
+  zacatecas:
+    sequence:
+      - service: shell_command.zacatecas
+
+  # Amikoo Maya Lands
+
+  resetall:
+    sequence:
+      - service: shell_command.resetall
+
+  # Amikoo Maya Lands :: Movement
+
+  headright:
+    sequence:
+      - service: shell_command.headright
+
+  headleft:
+    sequence:
+      - service: shell_command.headleft
+
+  rightup:
+    sequence:
+      - service: shell_command.rightup
+
+  rightdown:
+    sequence:
+      - service: shell_command.rightdown
+
+  rightfold:
+    sequence:
+      - service: shell_command.rightfold
+
+  rightunfold:
+    sequence:
+      - service: shell_command.rightunfold
+
+  leftup:
+    sequence:
+      - service: shell_command.leftup
+
+  leftdown:
+    sequence:
+      - service: shell_command.leftdown
+
+  leftfold:
+    sequence:
+      - service: shell_command.leftfold
+
+  leftunfold:
+    sequence:
+      - service: shell_command.leftunfold
+
+  moveright:
+    sequence:
+      - service: shell_command.moveright
+
+  moveleft:
+    sequence:
+      - service: shell_command.moveleft
+
+  moveforward:
+    sequence:
+      - service: shell_command.moveforward
+
+  movebackward:
+    sequence:
+      - service: shell_command.movebackward
+
+  movestop:
+    sequence:
+      - service: shell_command.movestop
+
+  # Amikoo Maya Lands :: Voice
+  
+  amikoovoice:
+    sequence:
+      - service: shell_command.amikoovoice
+
+  # Amikoo Maya Lands :: Sense
+  
+  amikoosensesight:
+    sequence:
+      - service: shell_command.amikoosensesight
+
+  # Amikoo Maya Lands :: Communication
+  
+  amikoocommunicationaudio:
+    sequence:
+      - service: shell_command.amikoocommunicationaudio
+
+  amikoocommunicationimage:
+    sequence:
+      - service: shell_command.amikoocommunicationimage
+
+  amikoocommunicationvideo:
+    sequence:
+      - service: shell_command.amikoocommunicationvideo
+
+  # Amikoo Maya Lands :: Expertise
+
+  amikoogcvisionapi:
+    sequence:
+      - service: shell_command.amikoogcvisionapi
+
+  amikoogctranslationapi:
+    sequence:
+      - service: shell_command.amikoogctranslationapi
+
+  # Amikoo Maya Lands :: Knowledge
+
+  sphero:
+    sequence:
+      - service: shell_command.sphero
+
+  makeblock:
+    sequence:
+      - service: shell_command.makeblock
+
+  # Amikoo Maya Lands :: Application
+
+  coji:
+    sequence:
+      - service: shell_command.coji
+
+  meccanoid:
+    sequence:
+      - service: shell_command.meccanoid
+
+  chip:
+    sequence:
+      - service: shell_command.chip
+
+  # Central Maya Lowlands, Stations
+
+  acapulco:
+    sequence:
+      - service: shell_command.acapulco
+
+  cancun:
+    sequence:
+      - service: shell_command.cancun
+
+  huatulco:
+    sequence:
+      - service: shell_command.huatulco
+
+  mazatlan:
+    sequence:
+      - service: shell_command.mazatlan
+
+  puertovallarta:
+    sequence:
+      - service: shell_command.puertovallarta
+
+  # Central Maya Lowlands, Questions
+
+  ixtapa:
+    sequence:
+      - service: shell_command.ixtapa
+
+  # Central Maya Lowlands, Sandbox
+
+  veracruz:
+    sequence:
+      - service: shell_command.veracruz
+
+  # Northern Maya Lowlands
+
+  ojodeliebre:
+    sequence:
+      - service: shell_command.ojodeliebre
+
+  montesazules:
+    sequence:
+      - service: shell_command.montesazules
+
+  lamichilia:
+    sequence:
+      - service: shell_command.lamichilia
+
+  elcielo:
+    sequence:
+      - service: shell_command.elcielo
+
+  mapimi:
+    sequence:
+      - service: shell_command.mapimi
+
+  siankaan:
+    sequence:
+      - service: shell_command.siankaan
+
+  calakmul:
+    sequence:
+      - service: shell_command.calakmul
+
+  tiburonballena:
+    sequence:
+      - service: shell_command.tiburonballena
+
+  # Calendar Maya Lands
+
+  sotz:
+    sequence:
+      - service: shell_command.sotz
+
+  # Tradition Maya Lands :: Navidad
+
+  familia:
+    sequence:
+      - service: shell_command.familia
+
+  campana:
+    sequence:
+      - service: shell_command.campana
+
+  pesebre:
+    sequence:
+      - service: shell_command.pesebre
+
+  trineo:
+    sequence:
+      - service: shell_command.trineo
+
+  santaclaus:
+    sequence:
+      - service: shell_command.santaclaus
+
+  # Tradition Maya Lands :: Dia De Muertos
+
+  veladora:
+    sequence:
+      - service: shell_command.veladora
+
+  papelpicado:
+    sequence:
+      - service: shell_command.papelpicado
+
+  mantel:
+    sequence:
+      - service: shell_command.mantel
+
+  calaverita:
+    sequence:
+      - service: shell_command.calaverita
+
+  fotografia:
+    sequence:
+      - service: shell_command.fotografia
+
+  # Tradition Maya Lands :: Intel
+
+  4004:
+    sequence:
+      - service: shell_command.4004
+
+  8008:
+    sequence:
+      - service: shell_command.8008
+
+  8080:
+    sequence:
+      - service: shell_command.8080
+
+  8086:
+    sequence:
+      - service: shell_command.8086
+
+  80286:
+    sequence:
+      - service: shell_command.80286
+
+  i486:
+    sequence:
+      - service: shell_command.i486
+
+  # Techie Maya Lands
+  
+  toyota:
+    sequence:
+      - service: shell_command.toyota
+  kodak:
+    sequence:
+      - service: shell_command.kodak
+
+  visitorsusb:
+    sequence:
+      - service: shell_command.visitorsusb
+
+  # Console Maya Lands
+
+  keypadyes:
+    sequence:
+      - service: shell_command.keypadyes
+  keypadno:
+    sequence:
+      - service: shell_command.keypadno
+  keypadone:
+    sequence:
+      - service: shell_command.keypadone
+  keypadtwo:
+    sequence:
+      - service: shell_command.keypadtwo
+  keypadthree:
+    sequence:
+      - service: shell_command.keypadthree
+  keypadfour:
+    sequence:
+      - service: shell_command.keypadfour
+
+  # Intel Experience Day
+
+  iedone:
+    sequence:
+      - service: shell_command.iedone
+
+  iedtwo:
+    sequence:
+      - service: shell_command.iedtwo
+
+  iedthree:
+    sequence:
+      - service: shell_command.iedthree
+
+  ieddance:
+    sequence:
+      - service: shell_command.ieddance
+
+  iedwelcome:
+    sequence:
+      - service: shell_command.iedwelcome
+
+shell_command:
+
+  # Southern Maya Highlands
+
+  aguascalientes: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Aguascalientes.sh &
+  bajacalifornianorte: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/BajaCaliforniaNorte.sh &
+  bajacaliforniasur: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/BajaCaliforniaSur.sh &
+  campeche: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Campeche.sh &
+  michoacan: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Michoacan.sh &
+  zacatecas: ~/CodeLabs/Hochob/Applications/SouthernMayaHighlands/Zacatecas.sh &
+
+  # Central Maya Lowlands, Stations
+
+  acapulco: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Acapulco.sh &
+  cancun: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Cancun.sh &
+  huatulco: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Huatulco.sh &
+  mazatlan: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Mazatlan.sh &
+  puertovallarta: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/PuertoVallarta.sh &
+
+  # Central Maya Lowlands, Questions
+  ixtapa: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Ixtapa.sh &
+
+  # Central Maya Lowlands, Sandbox
+
+  veracruz: ~/CodeLabs/Hochob/Applications/CentralMayaLowlands/Veracruz.sh &
+
+  # Northern Maya Lowlands
+  
+  montesazules: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/MontesAzules.sh &
+  ojodeliebre: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/OjoDeLiebre.sh &
+  lamichilia: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/LaMichilia.sh &
+  elcielo: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/ElCielo.sh &
+  mapimi: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Mapimi.sh &
+  siankaan: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/SianKaan.sh &
+  calakmul: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Calakmul.sh &
+  tiburonballena: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/TiburonBallena.sh &
+  
+  # Amikoo Maya Lands
+  
+  resetall: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/resetall 1
+
+  # Amikoo Maya Lands: Movement
+
+  headleft: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/headleft "Head Left"
+  headright: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/headright "Head Right"
+
+  rightup: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/rightup "Arm Right Up"
+  rightdown: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/rightdown "Arm Right Down"
+  rightfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/rightfold "Arm Right Fold"
+  rightunfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/rightunfold "Arm Right Unfold"
+
+  leftup: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/leftup "Arm Left Up"
+  leftdown: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/leftdown "Arm Left Down"
+  leftfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/leftfold "Arm Left Fold"
+  leftunfold: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/leftunfold "Arm Left Unfold"
+      
+  moveright: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/moveright "Body Move Right"
+  moveleft: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/moveleft "Body Move Left"
+  moveforward: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/moveforward "Body Move Forward"
+  movebackward: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/movebackward "Body Move Backward"
+  movestop: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh amikoo/movestop "Body Stop"
+
+  # Amikoo Maya Lands :: Voice
+  
+  amikoovoice: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "5 4 3 2 1 0"
+
+  # Amikoo Maya Lands: Sense
+  
+  amikoosensesight: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooSense.sh Sight Picture
+
+  # Amikoo Maya Lands :: Communication
+  
+  amikoocommunicationaudio: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooCommunication.sh Amikoo Audio Random
+  amikoocommunicationimage: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooCommunication.sh Amikoo Image Random
+  amikoocommunicationvideo: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooCommunication.sh Amikoo Video Random
+
+  # Amikoo Maya Lands: Expertise
+
+  amikoogcvisionapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gcvisionapi 1
+  amikoogctranslationapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gctranslationapi 1
+
+  # Amikoo Maya Lands :: Knowledge
+
+  sphero: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Sphero.sh &
+  makeblock: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Makeblock.sh &
+
+  # Amikoo Maya Lands: Application
+
+  coji: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Coji.sh &
+  meccanoid: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Meccanoid.sh &
+  chip: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Chip.sh &
+
+  # Console Maya Lands
+
+  keypadyes: ~/CodeLabs/Hochob/Services/Keypad/KeypadYesNo.sh virtual yes &
+  keypadno: ~/CodeLabs/Hochob/Services/Keypad/KeypadYesNo.sh virtual no &
+  keypadone: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 1 &
+  keypadtwo: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 2 &
+  keypadthree: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 3 &
+  keypadfour: ~/CodeLabs/Hochob/Services/Keypad/KeypadMultipleChoice.sh virtual 4 &
+
+  # Calendar Maya Lands
+
+  pop: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Pop.sh &
+  sip: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Sip.sh &
+  wo: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Wo.sh &
+  sotz: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Sotz.sh &
+
+  # Tradition Maya Lands :: Navidad
+
+  familia: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Navidad/Familia.sh &
+  campana: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Navidad/Campana.sh &
+  pesebre: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Navidad/Pesebre.sh &
+  trineo: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Navidad/Trineo.sh &
+  santaclaus: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Navidad/SantaClaus.sh &
+
+  # Tradition Maya Lands :: Dia De Muertos
+
+  veladora: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/DiaDeMuertos/Veladora.sh &
+  papelpicado: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/DiaDeMuertos/PapelPicado.sh &
+  mantel: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/DiaDeMuertos/Mantel.sh &
+  calaverita: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/DiaDeMuertos/Calaverita.sh &
+  fotografia: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/DiaDeMuertos/Fotografia.sh &
+
+  # Tradition Maya Lands :: Intel
+
+  4004: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Intel/4004.sh &
+  8008: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Intel/8008.sh &
+  8080: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Intel/8080.sh &
+  8086: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Intel/8086.sh &
+  80286: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Intel/80286.sh &  
+  i486: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/Intel/i486.sh &
+  
+  # Techie Maya Lands
+  
+  toyota: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Toyota.sh &
+  kodak: ssh root@127.0.0.1 sudo reboot
+  apple: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Apple.sh &
+  qualcomm: amixer -D pulse sset Master '{{ volume_level }}%'
+  visitorsusb: ~/CodeLabs/Hochob/Services/Visitors/Usb.sh &
+
+  # Intel Experience Day
+  
+  iedone: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Hola, bienvenidos al show de baile de Intel"
+  iedtwo: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Que es eso"
+  iedthree: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Como yo"
+  ieddance: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Dance.sh
+  iedwelcome: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Welcome.sh
+
+switch:
+
+  - platform: command_line
+    switches:
+
+      # Language
+      
+      language:
+        command_on: "~/CodeLabs/Hochob/Services/Language/Language.sh spanish &"
+        command_off: "~/CodeLabs/Hochob/Services/Language/Language.sh english &"
+ 
+      # Media Maya Lands: Corporate
+
+      aak:
+        command_on: "~/CodeLabs/Hochob/Applications/MediaMayaLands/Aak.sh &"
+        command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
+      aayin:
+        command_on: "~/CodeLabs/Hochob/Applications/MediaMayaLands/Aayin.sh &"
+        command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh vlc"
+
+      # Media Maya Lands: Intel Guadalajara
+
+      chakmool:
+        command_on: "~/CodeLabs/Hochob/Applications/MediaMayaLands/Chakmool.sh &"
+        command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
+
+      # Media Maya Lands: Visitors Center
+
+      am:
+        command_on: "~/CodeLabs/Hochob/Applications/MediaMayaLands/Am.sh &"
+        command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
+
+      # Media Maya Lands: Drawing
+
+      chiich:
+        command_on: "~/CodeLabs/Hochob/Applications/MediaMayaLands/Chiich.sh &"
+        command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
+
+      # Media Maya Lands: Memories
+
+      cho:
+        command_on: "~/CodeLabs/Hochob/Applications/MediaMayaLands/Cho.sh &"
+        command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh eog"
+      chuwen:
+        command_on: "~/CodeLabs/Hochob/Applications/MediaMayaLands/Chuwen.sh &"
+        command_off: "~/CodeLabs/Hochob/Services/Kill/KillApp.sh vlc"
+
+      # Media Maya Lands: Camera
+
+      kaab:
+        command_on: "cvlc --no-video-title-show --fullscreen v4l2:///dev/video0 &"
+        command_off: "pkill -9 vlc"
+
+automation:
+
+  - alias: TTS Clear Cache
+    trigger:
+      platform: time
+      hours: '/24'
+    condition:
+      - condition: time
+        weekday:
+          - mon
+    action:
+      service: tts.clear_cache
+
+  - alias: Home Assistant Start
+    trigger:
+      platform: homeassistant
+      event: start
+    action:
+      - delay: '00:00:10'
+      - service: tts.google_say
+        data:
+          message: 'Home Assistant has started'
+
+  # Calendar Maya Lands
+
+  - alias: pop
+    initial_state: 'off'
+    trigger:
+      platform: time
+      seconds: '/30'
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.pop
+
+  - alias: sip
+    initial_state: 'off'
+    trigger:
+      platform: time
+      seconds: '/30'
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.sip
+
+  - alias: wo
+    initial_state: 'off'
+    trigger:
+      platform: time
+      seconds: '/30'
+    action:
+      - service: shell_command.wo
+
+  - alias: sotz
+    initial_state: 'off'
+    trigger:
+      platform: time
+      seconds: '/30'
+    action:
+      - service: shell_command.sotz
+
+  # Tradition Maya Lands :: Navidad
+
+  - alias: Familia
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.familia
+
+  - alias: Campana
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.campana
+
+  - alias: Pesebre
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.pesebre
+
+  - alias: Trineo
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.trineo
+
+  - alias: SantaClaus
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.santaclaus
+
+  # Tradition Maya Lands :: Dia De Muertos
+
+  - alias: Veladora
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.veladora
+
+  - alias: PapelPicado
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    action:
+      - service: shell_command.papelpicado
+
+  - alias: Mantel
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    action:
+      - service: shell_command.mantel
+
+  - alias: Calaverita
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    action:
+      - service: shell_command.calaverita
+
+  - alias: Fotografia
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    action:
+      - service: shell_command.fotografia
+
+  # Tradition Maya Lands :: Intel
+
+  - alias: 4004
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.4004
+
+  - alias: 8008
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    action:
+      - service: shell_command.8008
+
+  - alias: 8080
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    action:
+      - service: shell_command.8080
+
+  - alias: 8086
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    action:
+      - service: shell_command.8086
+
+  - alias: 80286
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    action:
+      - service: shell_command.80286
+
+  - alias: i486
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    action:
+      - service: shell_command.i486
+
+  # Techie Maya Lands: System Calendar
+
+  - alias: Apple
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/30'
+      seconds: 00
+    action:
+      - service: shell_command.apple
+
+  # Techie Maya Lands: System Audio
+
+  - alias: snapdragon
+    initial_state: 'on'
+    trigger:
+      - platform: state
+        entity_id: input_slider.qualcomm
+    action:
+      - service: shell_command.qualcomm
+        data_template:
+          volume_level: "{{ states.input_slider.qualcomm.state }}"
+
+  - alias: csr101x
+    initial_state: 'on'
+    trigger:
+      - platform: state
+        entity_id: sensor.qualcomm
+    action:
+      - service: input_slider.select_value
+        data_template:
+          entity_id: input_slider.qualcomm
+          value: "{{ states.sensor.qualcomm.state | int }}"
+
+group:
+
+  default_view:
+    view: yes
+    name: Sensei
+    entities:
+      - group.techiemayalandssystemhealth
+      - group.techiemayalandssystemcalendar
+      - group.captainmayalandslanguage
+
+  # Southern Maya Highlands
+
+  southernmayalands:
+    view: yes
+    name: Bienvenida
+    entities:
+      - group.southernmayahighlandsintroduction
+      - group.southernmayahighlandsrobot
+      - group.southernmayahighlandstour
+      #- group.southernmayahighlandssandbox
+
+  # Amikoo Maya Lands
+
+  robotmayalands:
+    view: yes
+    name: Robot
+    entities:
+      #- group.robotmayalandsvoice
+      #- group.robotmayalandssense
+      #- group.robotmayalandscommunication
+      #- group.robotmayalandsexpertise
+      #- group.robotmayalandsapplications
+      #- group.robotmayalandsknowledge
+      - group.robotmayalandshead
+      - group.robotmayalandsarmright
+      - group.robotmayalandsarmleft
+      - group.robotmayalandslegs
+      - group.robotmayalandsreset
+
+  # Central Maya Lowlands
+
+  centralmayalowlands:
+    view: yes
+    name: Inicios
+    entities:
+      - group.centralmayalowlandsstations
+      #- group.centralmayalowlandsquestions
+      #- group.centralmayalowlandssandbox
+
+  # Northern Maya Lowlands
+
+  northernmayalowlands:
+    view: yes
+    name: Experiencia
+    entities:
+      - group.northernmayalowlandsstations
+      #- group.northernmayalowlandsstories
+      #- group.northernmayalowlandsrobot
+
+  # Console Maya Lands
+
+  consolemayalands:
+    view: no
+    #icon: mdi:keyboard
+    name: Teclado
+    entities:
+      - group.consolemayalandskeypadyesno
+      - group.consolemayalandskeypadmultiplechoice
+
+  # Media Maya Lands
+
+  mediamayalands:
+    view: no
+    #icon: mdi:filmstrip
+    name: Memorias
+    entities:
+      - group.mediamayalandscorporate
+      - group.mediamayalandsintelguadalajara
+      - group.mediamayalandsvisitorscenter
+      - group.mediamayalandsdrawing
+      - group.mediamayalandsmemories
+      - group.mediamayalandscamera
+
+  # Calendar Maya Lands
+  
+  calendarmayalands:
+    view: no
+    name: Calendario
+    entities:
+      - group.calendarmayalandseventsinternal
+      - group.calendarmayalandseventsexternal
+      - group.calendarmayalandseventscampaign
+
+  # Tradition Maya Lands
+  
+  traditionmayalands:
+    view: no
+    name: Tradición
+    entities:
+      - group.traditionmayalandsnavidadchromecast
+      - group.traditionmayalandsnavidadamikoo
+      - group.traditionmayalandsnavidadnohochtata
+      - group.traditionmayalandsintelchromecast
+      - group.traditionmayalandsintelamikoo
+      - group.traditionmayalandsintelnohochtata
+      - group.traditionmayalandsdiademuertoschromecast
+      - group.traditionmayalandsdiademuertosamikoo
+  
+  # Techie Maya Lands
+
+  techiemayalands:
+    view: yes
+    name: Techie
+    entities:
+      - group.techiemayalandssystemhealth
+      - group.techiemayalandssystemcalendar
+      - group.techiemayalandssystemaudio
+      - group.techiemayalandssystemmonitor
+      - group.techiemayalandssystemevent
+      - group.techiemayalandssystemquote
+      - group.techiemayalandsserverinfrastructure
+      #- group.techiemayalandssandbox
+
+  intelexperiencedaylands:
+    view: no
+    name: Intel Experience Day
+    entities:
+      - group.intelexperiencedaylandsopening
+      - group.intelexperiencedaylandsdance
+      - group.intelexperiencedaylandswelcome
+
+  # Captain Maya Lands: Language
+
+  captainmayalandslanguage:
+    name: Idioma
+    entities:
+      - switch.language
+
+  # Southern Maya Highlands: Introduction
+
+  southernmayahighlandsintroduction:
+    name: 1 Introduccion
+    entities:
+      - script.aguascalientes
+
+  # Southern Maya Highlands: Robot
+
+  southernmayahighlandsrobot:
+    name: 2 Robot
+    entities:
+      - script.bajacalifornianorte
+      - script.bajacaliforniasur
+      - script.michoacan
+
+  # Southern Maya Highlands: Tour
+
+  southernmayahighlandstour:
+    name: 3 Tour
+    entities:
+      - script.campeche
+
+  # Southern Maya Highlands: Sandbox
+
+  southernmayahighlandssandbox:
+    name: Sandbox
+    entities:
+      - script.zacatecas
+
+  # Amikoo Maya Lands: Voice
+
+  robotmayalandsvoice:
+    name: Voz
+    entities:
+      - script.amikoovoice
+
+  # Amikoo Maya Lands: Sense
+
+  robotmayalandssense:
+    name: Sentido
+    entities:
+      - script.amikoosensesight
+
+  # Amikoo Maya Lands: Communication
+
+  robotmayalandscommunication:
+    name: Comunicación
+    entities:
+      - script.amikoocommunicationaudio
+      - script.amikoocommunicationimage
+      - script.amikoocommunicationvideo
+
+  # Amikoo Maya Lands: Expertise
+
+  robotmayalandsexpertise:
+    name: Especialización
+    entities:
+      - script.amikoogcvisionapi
+      - script.amikoogctranslationapi
+
+  # Amikoo Maya Lands: Applications
+
+  robotmayalandsapplications:
+    name: Aplicaciones
+    entities:
+      - script.coji
+      - script.meccanoid
+      - script.chip
+
+  # Amikoo Maya Lands: Knowledge
+
+  robotmayalandsknowledge:
+    name: Conocimiento
+    entities:
+      - script.makeblock
+      - script.sphero
+
+  # Amikoo Maya Lands :: Movement :: Head
+  
+  robotmayalandshead:
+    name: Cabeza
+    entities:
+      - script.headright
+      - script.headleft
+
+  # Amikoo Maya Lands :: Movement :: Arm Right
+
+  robotmayalandsarmright:
+    name: Brazo Derecho
+    entities:
+      - script.rightup
+      - script.rightdown
+      - script.rightfold
+      - script.rightunfold
+
+  # Amikoo Maya Lands :: Movement :: Arm Left
+
+  robotmayalandsarmleft:
+    name: Brazo Izquierdo
+    entities:
+      - script.leftup
+      - script.leftdown
+      - script.leftfold
+      - script.leftunfold
+
+  # Amikoo Maya Lands :: Movement :: Legs
+
+  robotmayalandslegs:
+    name: Piernas
+    entities:
+      - script.moveright
+      - script.moveleft
+      - script.moveforward
+      - script.movebackward
+      - script.movestop
+
+  # Amikoo Maya Lands :: Reset
+
+  robotmayalandsreset:
+    name: Reiniciar
+    entities:
+      - script.resetall
+
+  # Central Maya Lowlands: Stations
+
+  centralmayalowlandsstations:
+    name: Estaciones
+    entities:
+      - script.acapulco
+      - script.cancun
+      - script.huatulco
+      - script.mazatlan
+      - script.puertovallarta
+
+  # Central Maya Lowlands: Questions
+
+  centralmayalowlandsquestions:
+    name: Conocimiento
+    entities:
+      - script.ixtapa
+
+  # Central Maya Lowlands: Sandbox
+
+  centralmayalowlandssandbox:
+    name: Sandbox
+    entities:
+      - script.veracruz
+
+  # Northern Maya Highlands: Stations
+
+  northernmayalowlandsstations:
+    name: Estaciones
+    entities:
+      - script.montesazules
+      - script.ojodeliebre
+      - script.lamichilia
+      - script.elcielo
+      - script.mapimi
+
+  # Northern Maya Highlands: Stations
+
+  northernmayalowlandsrobot:
+    name: Robot Dance
+    entities:
+      - script.siankaan
+
+  # Northern Maya Highlands: Stations
+
+  northernmayalowlandsstories:
+    name: Historias
+    entities:
+      - script.calakmul
+      - script.tiburonballena
+
+  # Console Maya Lands: Keypad Yes No 
+
+  consolemayalandskeypadyesno:
+    name: Teclado Sí No
+    entities:
+      - script.keypadyes
+      - script.keypadno
+
+  # Console Maya Lands: Keypad Multiple Choice
+
+  consolemayalandskeypadmultiplechoice:
+    name: Teclado Opción Multiple
+    entities:
+      - script.keypadone
+      - script.keypadtwo
+      - script.keypadthree
+      - script.keypadfour
+
+  # Media Maya Lands: Corporate
+
+  mediamayalandscorporate:
+    name: Corporativo
+    entities:
+      - switch.aak
+      - switch.aayin
+
+  # Media Maya Lands: Intel Guadalajara
+
+  mediamayalandsintelguadalajara:
+    name: Intel Guadalajara
+    entities:
+      - switch.chakmool
+
+  # Media Maya Lands: Visitors Center
+
+  mediamayalandsvisitorscenter:
+    name: Centro de Visitantes
+    entities:
+      - switch.am
+
+  # Media Maya Lands: Drawing
+
+  mediamayalandsdrawing:
+    name: Dibujos
+    entities:
+      - switch.chiich
+
+  # Media Maya Lands: Memories
+
+  mediamayalandsmemories:
+    name: Visitas
+    entities:
+      - switch.cho
+      - switch.chuwen
+
+  # Media Maya Lands: Camera
+
+  mediamayalandscamera:
+    name: Cámara
+    entities:
+      - switch.kaab
+
+  # Calendar Maya Lands: Internal Events
+  
+  calendarmayalandseventsinternal:
+    name: Eventos Internos
+    entities:
+      - automation.pop
+      - automation.sip
+
+  calendarmayalandseventsexternal:
+    name: Eventos Externos
+    entities:
+      - automation.wo
+
+  calendarmayalandseventscampaign:
+    name: Campaña
+    entities:
+      - automation.sotz
+      - script.sotz
+
+  # Tradition Maya Lands :: Navidad
+
+  traditionmayalandsnavidadchromecast:
+    name: Navidad <> Chromecast
+    entities:
+      - automation.familia
+      - script.familia
+
+  traditionmayalandsnavidadamikoo:
+    name: Navidad <> Robot
+    entities:
+      - automation.campana
+      - automation.pesebre
+      - automation.trineo
+      - script.campana
+      - script.pesebre
+      - script.trineo
+
+  traditionmayalandsnavidadnohochtata:
+    name: Navidad <> Server
+    entities:
+      - automation.santaclaus
+      - script.santaclaus
+
+  # Tradition Maya Lands :: Dia De Muertos
+
+  traditionmayalandsdiademuertoschromecast:
+    name: Dia De Muertos <> Chromecast
+    entities:
+      - automation.veladora
+      - script.veladora
+
+  traditionmayalandsdiademuertosamikoo:
+    name: Dia De Muertos <> Robot
+    entities:
+      - automation.papelpicado
+      - automation.mantel
+      - automation.calaverita
+      - automation.fotografia
+      - script.papelpicado
+      - script.mantel
+      - script.calaverita
+      - script.fotografia
+
+  # Tradition Maya Lands :: Intel
+
+  traditionmayalandsintelchromecast:
+    name: Intel <> Chromecast
+    entities:
+      - automation.4004
+      - script.4004
+
+  traditionmayalandsintelamikoo:
+    name: Intel <> Robot
+    entities:
+      - automation.8008
+      - automation.8080
+      - automation.8086
+      - automation.80286
+      - script.8008
+      - script.8080
+      - script.8086
+      - script.80286
+
+  traditionmayalandsintelnohochtata:
+    name: Intel <> Server
+    entities:
+      - automation.i486
+      - script.i486
+
+  # Techie Maya Lands: System Health
+
+  techiemayalandssystemhealth:
+    name: Verificación del Sistema
+    entities:
+      - script.toyota
+      - script.kodak
+
+  # Techie Maya Lands: System Calendar
+
+  techiemayalandssystemcalendar:
+    name: Próxima Visita
+    entities:
+      - automation.apple
+      - sensor.imac
+      - sensor.ipod
+      #- calendar.hochobvcgmailcom
+
+  # Techie Maya Lands: System Audio
+
+  techiemayalandssystemaudio:
+    name: Audio del Servidor
+    entities:
+      - input_slider.qualcomm
+      - sensor.qualcomm
+      #- shell_command.qualcomm
+      #- automation.snapdragon
+      #- automation.csr101x
+
+  # Techie Maya Lands: System Monitor
+
+  techiemayalandssystemmonitor:
+    name: Monitor del Servidor
+    entities:
+      - sensor.cpu_use
+      - sensor.ram_free
+      - sensor.disk_use_home
+      #- camera.ffmpeg
+
+  # Techie Maya Lands: System Quote
+
+  techiemayalandssystemquote:
+    name: Citas del Servidor
+    entities:
+      - sensor.bosch
+
+  # Techie Maya Lands: Server Infrastructure
+
+  mayalandsserverinfrastructure:
+    name: Disponibilidad de Servidores
+    entities:
+      - device_tracker.eclipse
+      - device_tracker.hochob
+
+  # Techie Maya Lands: Sandbox
+
+  techiemayalandssandbox:
+    name: Sandbox
+    entities:
+      - script.visitorsusb
+
+  intelexperiencedaylandsopening:
+    name: Escenario
+    entities:
+      - script.iedone
+      - script.iedtwo
+      - script.iedthree
+
+  intelexperiencedaylandsdance:
+    name: Baile
+    entities:
+      - script.ieddance
+
+  intelexperiencedaylandswelcome:
+    name: Bienvenida
+    entities:
+      - script.iedwelcome
+      - automation.wo
