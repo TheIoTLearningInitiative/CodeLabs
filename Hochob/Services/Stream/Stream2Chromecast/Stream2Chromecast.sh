@@ -26,6 +26,14 @@ LOCAL_FILE="$3"
 # Main
 # =============================================================================
 
+if [ "$LOCAL_DEVICE" = "Triki" ];
+then
+    LOCAL_DEVICE="10.215.56.102"
+elif [ "$LOCAL_DEVICE" = "Juum" ];
+then
+    LOCAL_DEVICE="10.215.56.103"
+fi
+
 if [ $# -eq 3 ] 
 then
     $STREAM2CHROMECAST_BINARY -devicename $LOCAL_DEVICE -stop
