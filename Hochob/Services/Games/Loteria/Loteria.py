@@ -18,6 +18,7 @@ with open("LasCartasSimple.rnd", "w") as f:
         print line
         image = line.replace(" ", "") + ".jpg"
         #image = unidecode.unidecode(image)
+        image = unicode(image,'utf-8')
         image = unicodedata.normalize('NFKD', image).encode('ASCII', 'ignore')
         print image
         os.system('mosquitto_pub -h iot.eclipse.org -p 1883 -q 2 -t amikoo/sound/speechsynthetizer/decir -m "' + line + '"')
