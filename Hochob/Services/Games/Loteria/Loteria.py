@@ -14,6 +14,8 @@ with open("LasCartasSimple.rnd", "w") as f:
     for line in lines:
         line = line.rstrip('\r\n')
         print line
+        image = line.replace(" ", "") + ".jpg"
+        print image
         os.system('mosquitto_pub -h 10.215.56.158 -p 1883 -q 2 -t amikoo/sound/speechsynthetizer/decir -m "' + line + '"')
         time.sleep(3)
     f.close()
