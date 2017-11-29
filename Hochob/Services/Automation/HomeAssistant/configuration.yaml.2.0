@@ -508,6 +508,12 @@ homeassistant:
       friendly_name: Hoy digo...
       icon: mdi:approval
 
+    # Games
+
+    script.loteria:
+      friendly_name: Loteria
+      icon: mdi:gamepad-variant
+
     # Intel Experience Day
 
     script.iedone:
@@ -948,6 +954,12 @@ script:
     sequence:
       - service: shell_command.keypadfour
 
+  # Games
+
+  loteria:
+    sequence:
+      - service: shell_command.loteria
+
   # Intel Experience Day
 
   iedone:
@@ -1110,6 +1122,10 @@ shell_command:
   apple: ~/CodeLabs/Hochob/Applications/TechieMayaLands/Apple.sh &
   qualcomm: amixer -D pulse sset Master '{{ volume_level }}%'
   visitorsusb: ~/CodeLabs/Hochob/Services/Visitors/Usb.sh &
+
+  # Games
+
+  loteria: ~/CodeLabs/Hochob/Services/Games/Loteria/Loteria.sh
 
   # Intel Experience Day
   
@@ -1572,6 +1588,12 @@ group:
       - group.techiemayalandsserverinfrastructure
       - group.techiemayalandssandbox
 
+  gameslands:
+    view: yes
+    name: Juegos
+    entities:
+      - group.games
+
   intelexperiencedaylands:
     view: yes
     name: Intel Experience Day
@@ -1974,6 +1996,11 @@ group:
     entities:
       - script.visitorsusb
 
+  games:
+    name: Mexicanos
+    entities:
+      - script.loteria
+  
   intelexperiencedaylandsopening:
     name: Escenario
     entities:
