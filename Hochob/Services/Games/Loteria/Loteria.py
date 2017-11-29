@@ -21,8 +21,8 @@ with open("LasCartasSimple.rnd", "w") as f:
         image = unicode(image,'utf-8')
         image = unicodedata.normalize('NFKD', image).encode('ASCII', 'ignore')
         print image
-        os.system('mosquitto_pub -h iot.eclipse.org -p 1883 -q 2 -t amikoo/tradition/image -m Loteria' + '/' + image)
-        os.system('mosquitto_pub -h iot.eclipse.org -p 1883 -q 2 -t amikoo/sound/speechsynthetizer/decir -m "' + line + '"')
+        os.system('mosquitto_pub -h 10.215.56.158 -p 1883 -q 2 -t amikoo/tradition/image -m Loteria' + '/' + image)
+        os.system('mosquitto_pub -h 10.215.56.158 -p 1883 -q 2 -t amikoo/sound/speechsynthetizer/decir -m "' + line + '"')
         time.sleep(3.5)
     f.close()
 
