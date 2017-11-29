@@ -23,7 +23,7 @@ export LOTERIA_BASEDIR="$( cd "$(dirname "$0")" ; pwd -P )"
 # Main
 # =============================================================================
 
-cd $LOTERIA_BASEDIR/Services/Games/Loteria
+cd $LOTERIA_BASEDIR
 python Loteria.py
 
 # End of File
