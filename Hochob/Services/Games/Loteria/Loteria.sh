@@ -9,7 +9,8 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export LOTERIA_PID=$$
-export LOTERIA_BASEDIR=$(dirname "$0")
+export LOTERIA_PATH=$(readlink -f "$0")
+export LOTERIA_BASEDIR=$(dirname "$SCRIPT")
 
 # =============================================================================
 # Functions
