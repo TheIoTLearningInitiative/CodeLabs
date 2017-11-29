@@ -4,6 +4,7 @@
 import os
 import random
 import time
+import unidecode
 
 with open("LasCartasSimple.txt") as f:
     lines = f.readlines()
@@ -15,6 +16,7 @@ with open("LasCartasSimple.rnd", "w") as f:
         line = line.rstrip('\r\n')
         print line
         image = line.replace(" ", "") + ".jpg"
+        image = unidecode.unidecode(image)
         print image
         os.system('mosquitto_pub -h iot.eclipse.org -p 1883 -q 2 -t amikoo/sound/speechsynthetizer/decir -m "' + line + '"')
         time.sleep(3)
