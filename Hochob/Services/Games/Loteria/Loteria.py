@@ -5,6 +5,7 @@ import os
 import random
 import time
 import unidecode
+import unicodedata
 
 with open("LasCartasSimple.txt") as f:
     lines = f.readlines()
