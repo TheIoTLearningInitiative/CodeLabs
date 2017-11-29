@@ -11,6 +11,7 @@ set -x
 export LOTERIA_PID=$$
 export LOTERIA_PATH=$(readlink -f "$0")
 export LOTERIA_BASEDIR=$(dirname "$SCRIPT")
+export LOTERIA_BASEDIR="$( cd "$(dirname "$0")" ; pwd -P )"
 
 # =============================================================================
 # Functions
