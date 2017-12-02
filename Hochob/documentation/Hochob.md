@@ -31,7 +31,8 @@
 - Create a new service to generate random movements for Amikoo
 - Robot Anatomy Training
   - Major Rework In Robot Anatomy
-  - 
+- Leteria 
+  http://juegostradicionalesmexicanos.blogspot.mx/2010/01/juegos-de-mesa.html
 
 ## Robot
 
