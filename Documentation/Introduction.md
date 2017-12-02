@@ -20,8 +20,8 @@
 - 14 __Alom__ Briko
 - 15 __Bitol__ Drones
 - 16 __Chaac__ Laboratory
-- 17 __EekMex__ 
-- 18 __NuupXe__ 
+- 17 __EekMex__ Aerospace Learning Platform
+- 18 __NuupXe__ Amateur Radio Voice Software Infrastructure
 
 # Priority - In Process
 
