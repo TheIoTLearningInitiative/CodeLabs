@@ -6,7 +6,7 @@
 
 ## Ppentac-ob .. Esclavos
 
-> Resume Review
+> Resume Review + Half Hour Talk
 
 __Requirements__
 
@@ -78,7 +78,7 @@ __Tasks__
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
-> 1 Hour Talk
+> Resume Review + One Hour Talk
 
 ## Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
 
