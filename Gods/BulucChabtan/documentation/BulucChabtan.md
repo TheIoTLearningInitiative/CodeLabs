@@ -79,10 +79,12 @@ __Tasks__
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
 > One Hour Phone Call
+  - 
 
 ## Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
 
-> One Hour One On One
+> One Hour Phone Call
+> - 
 
 ## Ahau kan .. Sumo Sacerdote
 
