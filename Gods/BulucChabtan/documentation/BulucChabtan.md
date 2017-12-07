@@ -42,25 +42,25 @@ __Tasks__
      - 10 Arduino Based
      - 10 Linux Based
    - All this information logged @ Github
-1. __Linux__
+2. __Linux__
    - Kernel Compilation Steps @ Github
    - Kernel Config @ Github
-2. __Shell Scripting__
+3. __Shell Scripting__
    - 3 Scripts @ Github
-3. __Python Programming Language__
+4. __Python Programming Language__
    - 3 Scripts @ Github
-4. __Communications__
+5. __Communications__
    - MQTT Protocol
      - Server __Implementation__
      - Client __Implementation__
        - Use Python
-5. __Cloud Services__
+6. __Cloud Services__
    - Google Cloud
      - Vision API __Implementation__ @ Github
      - Translation API __Implementation__ @ Github
    - Amazon Alexa
      - Alexa Voice Service __Implementation__ @ Github
-6. __Project Integration__
+7. __Project Integration__
    - Think about one problem to solve
      - Personal
        - Automate your room
