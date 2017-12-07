@@ -6,8 +6,9 @@
 
 > Resume Review
 
-1. Github Account
-2. 
+1. (Master) Github Account
+2. Schools Projects Uploaded
+2. Linux Kernel Compilation
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
