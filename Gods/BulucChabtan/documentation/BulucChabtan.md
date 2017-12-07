@@ -8,7 +8,7 @@
 
 > Resume Review
 
-Requirements
+__Requirements__
 
 - Linux Based Computer
 - Arduino Based Board
@@ -16,13 +16,17 @@ Requirements
 - Linux Based Board
   - Raspberry Pi
 
-Accounts
+__Accounts__
 
 - [Github](https://github.com/)
 - [Hackster](https://www.hackster.io/)
 - [Instructables](http://www.instructables.com/)
 - [Amazon Developer Services](https://developer.amazon.com/)
 - [Google Cloud Platform](https://cloud.google.com/)
+
+
+
+__Tasks__
 
 1. 3 Schools Projects
    - @ Github
@@ -32,13 +36,15 @@ Accounts
    - Kernel Compilation Steps @ Github
    - Kernel Config @ Github
 3. Shell Scripting
+   - 3 Scripts @ Github
 3. Python
+   - 3 Scripts @ Github
 4. Cloud Services
    - Google Cloud
-     - Vision API @ Github
-     - 
+     - Vision API Implementation @ Github
+     - Translation API Implementation @ Github
    - Amazon Alexa
-     - 
+     - Alexa Voice Service Implementation @ Github
 5. 3D Printing
    - 1 Project
 
