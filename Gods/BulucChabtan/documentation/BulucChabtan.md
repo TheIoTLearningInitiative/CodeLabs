@@ -50,6 +50,7 @@ __Tasks__
      - Alexa Voice Service __Implementation__ @ Github
 6. __Communications__
    - MQTT Protocol
+     - Server 
      - Python Implementation
 6. Project Integration
    - It needs to be 
