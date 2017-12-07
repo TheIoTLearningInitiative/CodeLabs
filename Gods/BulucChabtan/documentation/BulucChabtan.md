@@ -58,7 +58,13 @@ __Tasks__
      - Automate your room
      - Etc...
    - It needs to have the following components:
-     - 
+     - Server
+       - Linux Based Computer
+     - Clients
+       - Arduino
+       - Raspberry Pi
+     - Communications
+       - 
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
