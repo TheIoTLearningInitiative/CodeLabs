@@ -1070,8 +1070,8 @@ shell_command:
 
   # Amikoo Maya Lands: Expertise
 
-  amikoogcvisionapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gcvisionapi 1
-  amikoogctranslationapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/Amikoo.sh gctranslationapi 1
+  amikoogcvisionapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooExpertise.sh gcvisionapi 1
+  amikoogctranslationapi: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooExpertise.sh gctranslationapi 1
 
   # Amikoo Maya Lands :: Knowledge
 
