@@ -42,7 +42,9 @@ __Tasks__
    - Kernel Config @ Github
 2. __Shell Scripting__
    - 3 Scripts @ Github
-3. __Communications__
+3. __Python__
+   - 3 Scripts @ Github
+4. __Communications__
    - MQTT Protocol
      - Server __Implementation__
      - Client __Implementation__
@@ -53,10 +55,11 @@ __Tasks__
    - Amazon Alexa
      - Alexa Voice Service __Implementation__ @ Github
 6. Project Integration
-   - Think about one project to implement
-     - Solve a problem you have
-     - Automate your room
-     - Etc...
+   - Think about one problem to solve
+     - Personal
+       - Automate your room
+     - School
+       - Automate your Laboratory
    - It needs to have the following components:
      - Server
        - Linux Based Computer
