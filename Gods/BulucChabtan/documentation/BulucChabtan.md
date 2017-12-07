@@ -81,8 +81,10 @@ __Tasks__
 > One Hour Phone Call
 > > 15 Minutes - Hardware Architecture
 > > 15 Minutes - Software Architecture
-> > 15 Minutes - Embedded Linux Architecuture
-> > 15 Minutes - Linux Kernel Architecture
+> > 30 Minutes - Embedded Linux Architecuture
+
+> One Hour Talk
+> > Linux Kernel Development Process
 
 ## Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
 
