@@ -50,8 +50,8 @@ __Tasks__
      - Translation API __Implementation__ @ Github
    - Amazon Alexa
      - Alexa Voice Service __Implementation__ @ Github
-6. Solution
-   - 1 Project
+6. Project Integration
+   - It needs to be 
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
