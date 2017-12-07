@@ -11,7 +11,10 @@
 Requirements
 
 - Linux Based Computer
-- 
+- Arduino Based Board
+  - Arduino
+- Linux Based Board
+  - Raspberry Pi
 
 Accounts
 
@@ -31,7 +34,12 @@ Accounts
 3. Python
    - 
 4. Google Cloud
-   - Vision API @ Intel
+   - Vision API @ Github
+   - 
+5. Amazon Alexa
+   - 
+5. 3D Printing
+   - 1 Project
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
