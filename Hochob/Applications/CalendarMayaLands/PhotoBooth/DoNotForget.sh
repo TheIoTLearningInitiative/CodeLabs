@@ -34,7 +34,7 @@ LogPid.sh $DONOTFORGET_PID $DONOTFORGET_NAME
 
 chooseLanguage
 
-AmikooCommunication.sh "Navidad" "Image" "Random"
+AmikooCommunication.sh "Navidad" "Image" "PhotoBoothFirst.jpg"
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     AmikooVoice.sh $LOCAL_LANGUAGE \
         "Do not forget our christmas photo booth at the classroom of the future, check your email for more information"
