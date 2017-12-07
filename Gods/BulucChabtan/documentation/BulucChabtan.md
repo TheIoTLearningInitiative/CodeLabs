@@ -53,7 +53,12 @@ __Tasks__
    - Amazon Alexa
      - Alexa Voice Service __Implementation__ @ Github
 6. Project Integration
-   - It needs to be 
+   - Think about one project to implement
+     - Solve a problem you have
+     - Automate your room
+     - Etc...
+   - It needs to have the following components:
+     - 
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
