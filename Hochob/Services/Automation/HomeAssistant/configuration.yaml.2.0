@@ -298,7 +298,7 @@ homeassistant:
       friendly_name: Vista Previa Cámara
       icon: mdi:camera
 
-    # Calendar Maya Lands
+    # Calendar Maya Lands :: Internal
     
     automation.pop:
       friendly_name: 30 segundos .. Bienvenida Robot
@@ -308,16 +308,26 @@ homeassistant:
       friendly_name: 30 segundos .. Bienvenida Servidor
       icon: mdi:calendar-clock
 
+    # Calendar Maya Lands :: External
+
     automation.wo:
       friendly_name: 15 segundos .. Bienvenida Robot
       icon: mdi:calendar-clock
 
-    automation.sotz:
-      friendly_name: 15 segundos .. PoC Campaign Drones
+    # Calendar Maya Lands :: Photo Booth
+
+    automation.photoboothdonotforget:
+      friendly_name: 15 segundos .. No Olvides Photo Booth!
       icon: mdi:calendar-clock
 
-    script.sotz:
-      friendly_name: PoC Campaign Drones
+    # Campaign Maya Lands: Drones
+
+    automation.intelaero:
+      friendly_name: 15 segundos .. Drones Intel Aero
+      icon: mdi:calendar-clock
+
+    script.intelaero:
+      friendly_name: Drones Intel Aero
       icon: mdi:drone
 
     # Tradition Maya Lands :: Navidad
@@ -844,12 +854,6 @@ script:
     sequence:
       - service: shell_command.tiburonballena
 
-  # Calendar Maya Lands
-
-  sotz:
-    sequence:
-      - service: shell_command.sotz
-
   # Tradition Maya Lands :: Navidad
 
   familia:
@@ -1088,7 +1092,11 @@ shell_command:
   pop: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Pop.sh &
   sip: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Sip.sh &
   wo: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Wo.sh &
-  sotz: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/Sotz.sh &
+  photoboothdonotforget: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/PhotoBooth/DoNotForget.sh
+
+  # Campaign Maya Lands :: Drones :: Intel Aero
+  
+  intelaero: ~/CodeLabs/Hochob/Applications/CampaignMayaLands/Drones/IntelAero.sh &
 
   # Tradition Maya Lands :: Navidad
 
@@ -1132,8 +1140,8 @@ shell_command:
   iedone: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Hola, bienvenidos al show de baile de Intel"
   iedtwo: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Que es eso"
   iedthree: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooVoice.sh spanish "Como yo"
-  ieddance: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Dance.sh
-  iedwelcome: ~/CodeLabs/Hochob/Applications/AmikooMayaLands/Welcome.sh
+  ieddance: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/IntelExperienceDay/Dance.sh
+  iedwelcome: ~/CodeLabs/Hochob/Applications/CalendarMayaLands/IntelExperienceDay/Welcome.sh
 
 switch:
 
@@ -1245,13 +1253,23 @@ automation:
     action:
       - service: shell_command.wo
 
-  - alias: sotz
+  - alias: photoboothdonotforget
+    initial_state: 'off'
+    trigger:
+      platform: time
+      seconds: '/15'
+    action:
+      - service: shell_command.photoboothdonotforget
+
+  # Campaign Maya Lands :: Drones :: Intel Aero
+
+  - alias: intelaero
     initial_state: 'off'
     trigger:
       platform: time
       seconds: '/30'
     action:
-      - service: shell_command.sotz
+      - service: shell_command.intelaero
 
   # Tradition Maya Lands :: Navidad
 
@@ -1556,7 +1574,15 @@ group:
     entities:
       - group.calendarmayalandseventsinternal
       - group.calendarmayalandseventsexternal
-      - group.calendarmayalandseventscampaign
+      - group.calendarmayalandsphotobooth
+
+  # Campaign Maya Lands
+  
+  campaignmayalands:
+    view: yes
+    name: Campañas
+    entities:
+      - group.campaignmayalandsdronesintelaero
 
   # Tradition Maya Lands
   
@@ -1854,16 +1880,27 @@ group:
       - automation.pop
       - automation.sip
 
+  # Calendar Maya Lands: External Events
+  
   calendarmayalandseventsexternal:
     name: Eventos Externos
     entities:
       - automation.wo
 
-  calendarmayalandseventscampaign:
-    name: Campaña
+  # Calendar Maya Lands: Photo Booth
+  
+  calendarmayalandsphotobooth:
+    name: Photo Booth
     entities:
-      - automation.sotz
-      - script.sotz
+      - automation.photoboothdonotforget
+
+  # Campaign Maya Lands: Drones
+
+  campaignmayalandsdronesintelaero:
+    name: Drones Intel® Aero
+    entities:
+      - automation.intelaero
+      - script.intelaero
 
   # Tradition Maya Lands :: Navidad
 
@@ -2000,7 +2037,9 @@ group:
     name: Mexicanos
     entities:
       - script.loteria
-  
+
+  # Intel Experience Day
+
   intelexperiencedaylandsopening:
     name: Escenario
     entities:
@@ -2018,3 +2057,4 @@ group:
     entities:
       - script.iedwelcome
       - automation.wo
+ 
