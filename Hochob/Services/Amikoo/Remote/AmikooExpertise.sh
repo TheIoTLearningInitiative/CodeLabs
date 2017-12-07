@@ -8,7 +8,7 @@ set -x
 
 . ~/CodeLabs/Hochob/Main.sh
 
-export AMIKOO_PID=$$
+export AMIKOOEXPERTISE_PID=$$
 
 LOCAL_COMMAND="$1"
 LOCAL_MESSAGE="$2"
@@ -28,7 +28,7 @@ if [ "$LOCAL_COMMAND" = "gcvisionapi" ]; then
 elif [ "$LOCAL_COMMAND" = "gctranslationapi" ]; then
     Mosquitto.sh $AMIKOO_GCTRANSLATIONAPI "Google Cloud Translation API"
 elif [ "$LOCAL_COMMAND" = "amazonalexa" ]; then
-    Mosquitto.sh $AMIKOO_GCTRANSLATIONAPI $LOCAL_MESSAGE
+    Mosquitto.sh $AMIKOO_AMAZONALEXA $LOCAL_MESSAGE
 fi
 
 # End of File
