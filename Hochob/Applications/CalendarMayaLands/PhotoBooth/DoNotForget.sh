@@ -43,6 +43,6 @@ else
         "No olvides tu fotografía navideña en el aula del futuro, mas información en tu correo electrónico"
 fi
 sleep 3
-AmikooCommunication.sh "Drones" "Image" "Stop"
+AmikooCommunication.sh "Navidad" "Image" "Stop"
 
 # End of File
