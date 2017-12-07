@@ -38,9 +38,9 @@ __Tasks__
    - @ Hackster
    - @ Instructables
 1. __Hardware__
-   - Identify, deeply learn and list 20 development boards available
-     - 10 Arduino Based
-     - 10 Linux Based
+   - Identify, deeply learn their architecture and list 10 development boards available
+     - 5 Arduino Based
+     - 5 Linux Based
    - All this information logged @ Github
 2. __Linux__
    - Kernel Compilation Steps @ Github
