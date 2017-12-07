@@ -84,5 +84,5 @@ __Tasks__
 
 ## Ahau kan .. Sumo Sacerdote
 
-> Referral
+> Resume Review + Half Hour Talk + 1:1 + Referral
 
