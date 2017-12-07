@@ -8,11 +8,18 @@
 
 > Resume Review
 
+Requirements
+
+- Linux Based Computer
+- 
+
 Accounts
 
 - [Github](https://github.com/)
 - [Hackster](https://www.hackster.io/)
 - [Instructables](http://www.instructables.com/)
+- [Amazon Developer Services](https://developer.amazon.com/)
+- [Google Cloud Platform](https://cloud.google.com/)
 
 1. 3 Schools Projects
    - @ Github
@@ -24,7 +31,7 @@ Accounts
 3. Python
    - 
 4. Google Cloud
-   - Vision API Implementation
+   - Vision API @ Intel
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
