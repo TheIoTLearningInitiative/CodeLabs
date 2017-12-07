@@ -41,7 +41,7 @@ __Tasks__
    - Identify, deeply learn their architecture and list 10 development boards available
      - 5 Arduino Based
      - 5 Linux Based
-   - All this information logged @ Github
+   - All this logged @ Github
 2. __Linux__
    - Kernel Compilation Steps @ Github
    - Kernel Config @ Github
