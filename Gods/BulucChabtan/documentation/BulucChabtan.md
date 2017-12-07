@@ -78,7 +78,7 @@ __Tasks__
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
-> Resume Review + One Hour Talk
+> Resume Review + Half Hour Talk
 
 ## Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
 
