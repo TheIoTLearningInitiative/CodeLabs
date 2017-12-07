@@ -18,7 +18,7 @@
 - __Pop__
 - __Wo'__
 - __Sip__
-- __Sotz__'
+- Sotz'
 - Sek
 - Xul
 
@@ -46,11 +46,4 @@ To migrate
 - __Friendly Name__: 15 Seconds .. Robot Welcome
 - __Services__:
   - HostExternal.sh
-
-## Name: Sotz'
-
-- __Group__: Campaings
-- __Friendly Name__: Aerial Technology Overview
-- __Services__:
-  - 
 
