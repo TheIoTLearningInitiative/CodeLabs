@@ -78,11 +78,13 @@ __Tasks__
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
-> One Hour Talk
+> One Hour Talk 
 
 ## Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
 
+> 
+
 ## Ahau kan .. Sumo Sacerdote
 
-> Resume Review + Half Hour Talk + 1:1 + Referral
+> Referral
 
