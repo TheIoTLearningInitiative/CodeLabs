@@ -6,9 +6,11 @@
 
 > Resume Review
 
-## Ah Chembal Uinicoob .. Artesanos Campesinos
+## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
 > 1 Hour Talk
+
+## Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
 
 ## Ahau kan .. Sumo Sacerdote
 
