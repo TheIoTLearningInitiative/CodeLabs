@@ -6,10 +6,19 @@
 
 > Resume Review
 
-1. (Master) Github Account
-2. 3 Schools Projects Uploaded
-3. 
-3. Linux Kernel Compilation
+Accounts
+
+- [Github](https://github.com/)
+- [Hackster](https://www.hackster.io/)
+- [Instructables](http://www.instructables.com/)
+
+1. 3 Schools Projects
+   - @ Github
+   - @ Hackster
+   - @ Instructables
+3. Linux Kernel
+   - Compilation Steps @ Github
+   - 
 
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
