@@ -37,6 +37,11 @@ __Tasks__
    - @ Github
    - @ Hackster
    - @ Instructables
+1. __Hardware__
+   - Identify, deeply learn and list 20 development boards available
+     - 10 Arduino Based
+     - 10 Linux Based
+   - All this information logged @ Github
 1. __Linux__
    - Kernel Compilation Steps @ Github
    - Kernel Config @ Github
