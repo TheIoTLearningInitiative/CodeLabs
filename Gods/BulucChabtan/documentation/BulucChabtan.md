@@ -65,7 +65,6 @@ __Tasks__
        - Raspberry Pi
      - Communications
        - MQTT Protocol
-     
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
