@@ -33,23 +33,24 @@ Please consider the following:
 
 __Tasks__
 
-1. 3 Schools Projects
+1. __3 Schools Projects__
    - @ Github
    - @ Hackster
    - @ Instructables
-2. Linux
+2. __Linux__
    - Kernel Compilation Steps @ Github
    - Kernel Config @ Github
-3. Shell Scripting
+3. __Shell Scripting__
    - 3 Scripts @ Github
-4. Python
-   - 3 Scripts @ Github
-5. Cloud Services
+5. __Cloud Services__
    - Google Cloud
      - Vision API __Implementation__ @ Github
      - Translation API __Implementation__ @ Github
    - Amazon Alexa
      - Alexa Voice Service __Implementation__ @ Github
+6. __Communications__
+   - MQTT Protocol
+     - Python Implementation
 6. Project Integration
    - It needs to be 
 
