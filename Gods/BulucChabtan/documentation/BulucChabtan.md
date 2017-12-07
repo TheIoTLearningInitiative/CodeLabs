@@ -33,16 +33,16 @@ Please consider the following:
 
 __Tasks__
 
-1. __3 Schools Projects__
+0. __3 Schools Projects__
    - @ Github
    - @ Hackster
    - @ Instructables
-2. __Linux__
+1. __Linux__
    - Kernel Compilation Steps @ Github
    - Kernel Config @ Github
-3. __Shell Scripting__
+2. __Shell Scripting__
    - 3 Scripts @ Github
-6. __Communications__
+3. __Communications__
    - MQTT Protocol
      - Server __Implementation__
      - Client __Implementation__
