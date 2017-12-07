@@ -59,7 +59,7 @@ __Tasks__
      - Personal
        - Automate your room
      - School
-       - Automate your Laboratory
+       - Automate your school laboratory
    - It needs to have the following components:
      - Server
        - Linux Based Computer
