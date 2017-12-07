@@ -42,16 +42,16 @@ __Tasks__
    - Kernel Config @ Github
 3. __Shell Scripting__
    - 3 Scripts @ Github
+6. __Communications__
+   - MQTT Protocol
+     - Server __Implementation__
+     - Client __Implementation__
 5. __Cloud Services__
    - Google Cloud
      - Vision API __Implementation__ @ Github
      - Translation API __Implementation__ @ Github
    - Amazon Alexa
      - Alexa Voice Service __Implementation__ @ Github
-6. __Communications__
-   - MQTT Protocol
-     - Server 
-     - Python Implementation
 6. Project Integration
    - It needs to be 
 
