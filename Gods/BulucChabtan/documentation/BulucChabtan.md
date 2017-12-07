@@ -24,7 +24,12 @@ __Accounts__
 - [Amazon Developer Services](https://developer.amazon.com/)
 - [Google Cloud Platform](https://cloud.google.com/)
 
+Please consider the following:
 
+- Implementation means
+  - List of materials
+  - A working source code
+  - The step by step guide to replicate
 
 __Tasks__
 
