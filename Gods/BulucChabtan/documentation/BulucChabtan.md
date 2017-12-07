@@ -88,7 +88,7 @@ __Tasks__
 
 ## Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
 
-> 2 Hours Talk
+> 2 Hours Workshop
 > >  Internet of Things Architecture
 
 ## Ahau kan .. Sumo Sacerdote
