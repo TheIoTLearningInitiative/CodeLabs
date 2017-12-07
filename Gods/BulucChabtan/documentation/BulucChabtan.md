@@ -2,6 +2,8 @@
 
 > The god of war, violence and sacrifice. [Wikipedia](https://en.wikipedia.org/wiki/List_of_Maya_gods_and_supernatural_beings)
 
+> [Short Url](https://goo.gl/EaHYCN)
+
 ## Ppentac-ob .. Esclavos
 
 > Resume Review
@@ -16,10 +18,10 @@ Accounts
    - @ Github
    - @ Hackster
    - @ Instructables
-3. Linux Kernel
-   - Compilation Steps @ Github
-   - 
-
+2. Linux
+   - Kernel Compilation Steps @ Github
+   - Kernel Config @ Github
+3. 
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
