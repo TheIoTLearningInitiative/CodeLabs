@@ -47,7 +47,7 @@ __Tasks__
    - Kernel Config @ Github
 2. __Shell Scripting__
    - 3 Scripts @ Github
-3. __Python__
+3. __Python Programming Language__
    - 3 Scripts @ Github
 4. __Communications__
    - MQTT Protocol
@@ -60,7 +60,7 @@ __Tasks__
      - Translation API __Implementation__ @ Github
    - Amazon Alexa
      - Alexa Voice Service __Implementation__ @ Github
-6. Project Integration
+6. __Project Integration__
    - Think about one problem to solve
      - Personal
        - Automate your room
@@ -74,6 +74,7 @@ __Tasks__
        - Raspberry Pi
      - Communications
        - MQTT Protocol
+     - Cloud Services
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
