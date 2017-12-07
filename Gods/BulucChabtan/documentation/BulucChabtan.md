@@ -24,7 +24,7 @@ Accounts
 3. Python
    - 
 4. Google Cloud
-   - Vision API Implementation 
+   - Vision API Implementation
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
