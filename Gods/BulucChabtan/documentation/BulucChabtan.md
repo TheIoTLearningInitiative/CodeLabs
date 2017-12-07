@@ -75,6 +75,10 @@ __Tasks__
      - Communications
        - MQTT Protocol
      - Cloud Services
+   - It needs to be a project @
+     - Github
+     - Hackster
+     - Instructables
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
