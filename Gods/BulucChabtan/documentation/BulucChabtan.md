@@ -6,7 +6,7 @@
 
 ## Ppentac-ob .. Esclavos
 
-> Resume Review + 15 Minute Phone Call
+> Resume Review + 30 Minutes Phone Call
 
 __Requirements__
 
