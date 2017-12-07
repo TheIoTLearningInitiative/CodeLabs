@@ -37,10 +37,10 @@ chooseLanguage
 AmikooCommunication.sh "Navidad" "Image" "Random"
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     AmikooVoice.sh $LOCAL_LANGUAGE \
-        "No olvides tomarte la fotografía en el aula del futuro"
+        "Do not forget our christmas photo booth at the classroom of the future, check your email for more information"
 else
     AmikooVoice.sh $LOCAL_LANGUAGE \
-        "Do not forget our photo booth at the classroom of the future"
+        "No olvides tu fotografía navideña en el aula del futuro, mas información en tu correo electrónico"
 fi
 sleep 3
 AmikooCommunication.sh "Drones" "Image" "Stop"
