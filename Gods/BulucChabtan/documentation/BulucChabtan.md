@@ -6,7 +6,8 @@
 
 > Resume Review
 
-1. 
+1. Github Account
+2. 
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
