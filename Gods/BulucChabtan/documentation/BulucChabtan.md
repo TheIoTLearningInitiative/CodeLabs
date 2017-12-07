@@ -21,7 +21,10 @@ Accounts
 2. Linux
    - Kernel Compilation Steps @ Github
    - Kernel Config @ Github
-3. 
+3. Python
+   - 
+4. Google Cloud
+   - Vision API Implementation 
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
