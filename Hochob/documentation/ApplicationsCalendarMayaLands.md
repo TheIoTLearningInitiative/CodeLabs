@@ -53,3 +53,11 @@ To migrate
 - __Friendly Name__: Aerial Technology Overview
 - __Services__:
   - 
+
+## Name: Sek
+
+- __Group__: Campaings
+- __Friendly Name__: Photo Booth
+- __Services__:
+  - 
+
