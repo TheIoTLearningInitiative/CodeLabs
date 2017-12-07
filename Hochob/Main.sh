@@ -265,6 +265,8 @@ AMIKOO_SKILLS=$AMIKOO/skills
 AMIKOO_GCVISIONAPI=$AMIKOO/gc/visionapi
 AMIKOO_GCTRANSLATIONAPI=$AMIKOO/gc/translationapi
 
+AMIKOO_AMAZONALEXA=$AMIKOO/amazon/alexa
+
 # =============================================================================
 # Functions
 # =============================================================================
