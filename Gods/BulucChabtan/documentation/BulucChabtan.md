@@ -79,12 +79,15 @@ __Tasks__
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
 > One Hour Phone Call
-> - 
+> > 15 Minutes - Hardware Architecture
+> > 15 Minutes - Software Architecture
+> > 15 Minutes - Embedded Linux Architecuture
+> > 15 Minutes - Linux Kernel Architecture
 
 ## Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
 
 > One Hour Phone Call
-> - 
+> >  Internet of Things Architecture
 
 ## Ahau kan .. Sumo Sacerdote
 
