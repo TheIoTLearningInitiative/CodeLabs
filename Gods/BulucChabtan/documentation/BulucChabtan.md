@@ -82,6 +82,7 @@ __Tasks__
 > > 15 Minutes - Hardware Architecture
 > > 15 Minutes - Software Architecture
 > > 30 Minutes - Embedded Linux Architecture
+>
 > One Hour Workshop
 > > Linux Kernel Development Process
 
