@@ -42,15 +42,15 @@ __Tasks__
    - Kernel Config @ Github
 3. Shell Scripting
    - 3 Scripts @ Github
-3. Python
+4. Python
    - 3 Scripts @ Github
-4. Cloud Services
+5. Cloud Services
    - Google Cloud
-     - Vision API Implementation @ Github
-     - Translation API Implementation @ Github
+     - Vision API __Implementation__ @ Github
+     - Translation API __Implementation__ @ Github
    - Amazon Alexa
-     - Alexa Voice Service Implementation @ Github
-5. 3D Printing
+     - Alexa Voice Service __Implementation__ @ Github
+6. Solution
    - 1 Project
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
