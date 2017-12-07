@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export DONOTFORGET_PID=$$
-export DONOTFORGET_NAME="Sotz"
+export DONOTFORGET_NAME="DoNotForget"
 export DONOTFORGET_PATH=$(readlink -f "$0")
 export DONOTFORGET_DIRECTORY=$(dirname "$DONOTFORGET_PATH")
 
