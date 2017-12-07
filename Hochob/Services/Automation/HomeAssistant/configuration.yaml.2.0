@@ -133,7 +133,7 @@ homeassistant:
       friendly_name: Video
       icon: mdi:file-video
 
-    # Amikoo Maya Lands :: Expertise
+    # Amikoo Maya Lands :: Expertise :: Google Cloud
 
     script.amikoogcvisionapi:
       friendly_name: Google Vision API
@@ -141,6 +141,12 @@ homeassistant:
     script.amikoogctranslationapi:
       friendly_name: Google Translation API
       icon: mdi:google-translate
+
+    # Amikoo Maya Lands :: Expertise :: Amazon
+
+    switch.amikooamazonalexa:
+      friendly_name: Amazon Alexa
+      icon: mdi:amazon
 
     # Amikoo Maya Lands :: Knowledge
 
@@ -1153,7 +1159,13 @@ switch:
       language:
         command_on: "~/CodeLabs/Hochob/Services/Language/Language.sh spanish &"
         command_off: "~/CodeLabs/Hochob/Services/Language/Language.sh english &"
- 
+
+      # Robot Maya Lands :: Expertise :: Amazon
+
+      amikooamazonalexa:
+        command_on: "~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooExpertise.sh amazonalexa start &"
+        command_off: "~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooExpertise.sh amazonalexa stop"
+
       # Media Maya Lands: Corporate
 
       aak:
@@ -1695,6 +1707,7 @@ group:
     entities:
       - script.amikoogcvisionapi
       - script.amikoogctranslationapi
+      - switch.amikooamazonalexa
 
   # Amikoo Maya Lands: Applications
 
