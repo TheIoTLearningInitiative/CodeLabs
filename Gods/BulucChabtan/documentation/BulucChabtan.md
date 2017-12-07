@@ -53,6 +53,7 @@ __Tasks__
    - MQTT Protocol
      - Server __Implementation__
      - Client __Implementation__
+       - Use Python
 5. __Cloud Services__
    - Google Cloud
      - Vision API __Implementation__ @ Github
