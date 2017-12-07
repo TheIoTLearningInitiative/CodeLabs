@@ -83,7 +83,7 @@ __Tasks__
 > > 15 Minutes - Software Architecture
 > > 30 Minutes - Embedded Linux Architecuture
 
-> One Hour Talk
+> One Hour Workshop
 > > Linux Kernel Development Process
 
 ## Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
