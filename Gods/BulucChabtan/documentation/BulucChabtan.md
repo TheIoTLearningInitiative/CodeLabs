@@ -31,13 +31,14 @@ Accounts
 2. Linux
    - Kernel Compilation Steps @ Github
    - Kernel Config @ Github
+3. Shell Scripting
 3. Python
-   - 
-4. Google Cloud
-   - Vision API @ Github
-   - 
-5. Amazon Alexa
-   - 
+4. Cloud Services
+   - Google Cloud
+     - Vision API @ Github
+     - 
+   - Amazon Alexa
+     - 
 5. 3D Printing
    - 1 Project
 
