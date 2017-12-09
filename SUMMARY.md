@@ -140,6 +140,7 @@
       * [Calendar](Hochob/documentation/Calendar.md)
       * [Camera](Hochob/documentation/Camera.md)
       * [Communications](Hochob/documentation/Communications.md)
+      * [Games](Hochob/documentation/Games.md)
       * [Image](Hochob/documentation/Image.md)
       * Institution
       * [Keypad](Hochob/documentation/ServicesKeypad.md)
@@ -152,7 +153,7 @@
       * [Stream](Hochob/documentation/Stream.md)
       * Usb
       * [Survey](Hochob/documentation/Survey.md)
-      * [Video](Hochob/documentation/video.md)
+      * Games
     * [Applications](Hochob/documentation/Applications.md)
       * [Captain Maya Lands](Hochob/documentation/ApplicationsCaptainMayaLands.md)
       * [Southern Maya Highlands](Hochob/documentation/ApplicationsSouthernMayaHighlands.md)
