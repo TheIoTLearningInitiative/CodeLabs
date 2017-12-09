@@ -141,6 +141,7 @@
       * [Camera](Hochob/documentation/Camera.md)
       * [Communications](Hochob/documentation/Communications.md)
       * [Games](Hochob/documentation/Games.md)
+        * [Loteria](Hochob/documentation/Loteria.md)
       * [Image](Hochob/documentation/Image.md)
       * Institution
       * [Keypad](Hochob/documentation/ServicesKeypad.md)
