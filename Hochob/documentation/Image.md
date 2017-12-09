@@ -11,7 +11,7 @@ hochob@server:~$ convert yir2014-curiosity-portrait-crop.jpg -resize 4096x2304\!
 
 convert  -resize 4096x2304\! 
 
-convert -pointsize 100 -gravity Center -fill white -draw 'text 100,100 $version' Black.jpg Version.jpg
+convert -size 4096x2304 -pointsize 100 -gravity Center -weight 700 -pointsize 200 -fill white -draw 'text 100,100 HiThere' Black.jpg Version.jpg
 ``
 
 ```sh
