@@ -1,2 +1,4 @@
 # Caras y Gestos
 
+- Microprocesador
+- 
