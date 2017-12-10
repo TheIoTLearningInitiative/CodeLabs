@@ -14,7 +14,7 @@
 - __Services__:
   - Amikoo.sh
 
-# Knowledge: Makeblock
+# Knowledge :: Makeblock
 
 - __Area__: Amikoo
 - __Group__: Knowledge
