@@ -530,6 +530,10 @@ homeassistant:
       friendly_name: Loteria
       icon: mdi:gamepad-variant
 
+    script.carasygestos:
+      friendly_name: Caras Y Gestos
+      icon: mdi:gamepad-variant
+ 
     # Intel Experience Day
 
     script.iedone:
@@ -970,6 +974,10 @@ script:
     sequence:
       - service: shell_command.loteria
 
+  carasygestos:
+    sequence:
+      - service: shell_command.carasygestos
+
   # Intel Experience Day
 
   iedone:
@@ -1140,6 +1148,7 @@ shell_command:
   # Games
 
   loteria: ~/CodeLabs/Hochob/Services/Games/Loteria/Loteria.sh
+  carasygestos: ~/CodeLabs/Hochob/Services/Games/CarasYGestos/CarasYGestos.sh
 
   # Intel Experience Day
   
@@ -2050,6 +2059,7 @@ group:
     name: Mexicanos
     entities:
       - script.loteria
+      - script.carasygestos
 
   # Intel Experience Day
 
