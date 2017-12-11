@@ -1182,7 +1182,7 @@ switch:
 
       amikooamazonalexa:
         command_on: "~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooExpertise.sh amazonalexa start &"
-        command_off: "~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooExpertise.sh amazonalexa stop"
+        command_off: "~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooExpertise.sh amazonalexa stop &"
 
       # Media Maya Lands: Corporate
 
