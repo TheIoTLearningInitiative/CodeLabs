@@ -218,8 +218,12 @@ homeassistant:
       friendly_name: 4. Los Muones
       icon: mdi:audiobook
 
+    script.islasmarias:
+      friendly_name: 5. Islas Marías
+      icon: mdi:audiobook
+
     script.mapimi:
-      friendly_name: 5. Hasta Pronto
+      friendly_name: 6. Hasta Pronto
       icon: mdi:audiobook
 
     script.siankaan:
@@ -852,6 +856,10 @@ script:
     sequence:
       - service: shell_command.mapimi
 
+  islasmarias:
+    sequence:
+      - service: shell_command.islasmarias
+
   siankaan:
     sequence:
       - service: shell_command.siankaan
@@ -1033,6 +1041,7 @@ shell_command:
   lamichilia: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/LaMichilia.sh &
   elcielo: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/ElCielo.sh &
   mapimi: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Mapimi.sh &
+  islasmarias: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/IslasMarias.sh &
   siankaan: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/SianKaan.sh &
   calakmul: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Calakmul.sh &
   tiburonballena: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/TiburonBallena.sh &
@@ -1817,6 +1826,7 @@ group:
       - script.lamichilia
       - script.elcielo
       - script.mapimi
+      - script.islasmarias
 
   # Northern Maya Highlands: Stations
 
