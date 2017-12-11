@@ -30,6 +30,4 @@ LOCAL_IMAGE=`echo $LOCAL_IMAGE | rev | cut -d'/' -f-1 | rev`
 
 AmikooCommunication.sh "$LOCAL_GAME" "Image" "$LOCAL_IMAGE"
 
-AmikooCommunication.sh "$LOCAL_GAME" "Image" "Stop"
-
 # End of File
