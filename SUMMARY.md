@@ -141,7 +141,7 @@
       * [Camera](Hochob/documentation/Camera.md)
       * [Communications](Hochob/documentation/Communications.md)
       * [Games](Hochob/documentation/Games.md)
-        * [Loteria](Hochob/documentation/Loteria.md)
+        * [Loteria Mexicana](Hochob/documentation/Loteria.md)
         * [Caras Y Gestos](Hochob/documentation/caras-y-gestos.md)
       * [Image](Hochob/documentation/Image.md)
       * Institution
