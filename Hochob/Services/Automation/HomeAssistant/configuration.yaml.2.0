@@ -531,7 +531,7 @@ homeassistant:
       icon: mdi:gamepad-variant
 
     script.carasygestos:
-      friendly_name: Caras Y Gestos
+      friendly_name: Carta Aleatoria
       icon: mdi:gamepad-variant
  
     # Intel Experience Day
