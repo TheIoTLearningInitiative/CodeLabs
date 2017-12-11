@@ -852,13 +852,13 @@ script:
     sequence:
       - service: shell_command.elcielo
 
-  mapimi:
-    sequence:
-      - service: shell_command.mapimi
-
   islasmarias:
     sequence:
       - service: shell_command.islasmarias
+
+  mapimi:
+    sequence:
+      - service: shell_command.mapimi
 
   siankaan:
     sequence:
@@ -1040,8 +1040,8 @@ shell_command:
   ojodeliebre: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/OjoDeLiebre.sh &
   lamichilia: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/LaMichilia.sh &
   elcielo: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/ElCielo.sh &
-  mapimi: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Mapimi.sh &
   islasmarias: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/IslasMarias.sh &
+  mapimi: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Mapimi.sh &
   siankaan: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/SianKaan.sh &
   calakmul: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Calakmul.sh &
   tiburonballena: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/TiburonBallena.sh &
@@ -1825,8 +1825,8 @@ group:
       - script.ojodeliebre
       - script.lamichilia
       - script.elcielo
-      - script.mapimi
       - script.islasmarias
+      - script.mapimi
 
   # Northern Maya Highlands: Stations
 
