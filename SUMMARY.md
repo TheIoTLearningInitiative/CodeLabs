@@ -315,6 +315,7 @@
         * [Chak iik’](Gods/Bitol/documentation/DroneSolutionArchitectDemosChakIik.md)
 * [Chaac](Gods/Chaac/documentation/Chaac.md)
 * [Buluc Chabtan](Gods/BulucChabtan/documentation/BulucChabtan.md)
+  * [Challenge](Gods/BulucChabtan/documentation/BulucChabtanChallenge.md)
 
 ## Food
 
