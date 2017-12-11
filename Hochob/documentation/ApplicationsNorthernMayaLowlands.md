@@ -35,7 +35,7 @@
 * Selva El Ocote
 * **Mapimí**
 * Barranca de Metztitlán
-* Islas Marías
+* __Islas Marías__
 * Ría Celestún
 * Isla San Pedro Mártir
 * Volcán Tacaná
