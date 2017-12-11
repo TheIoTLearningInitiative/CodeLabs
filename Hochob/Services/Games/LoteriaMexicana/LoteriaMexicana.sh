@@ -24,6 +24,6 @@ export LOTERIA_BASEDIR="$( cd "$(dirname "$0")" ; pwd -P )"
 # =============================================================================
 
 cd $LOTERIA_BASEDIR
-python Loteria.py
+python LoteriaMexicana.py
 
 # End of File
