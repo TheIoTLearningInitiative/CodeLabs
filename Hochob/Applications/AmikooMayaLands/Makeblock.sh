@@ -13,6 +13,12 @@ export MAKEBLOCK_NAME="Makeblock"
 export MAKEBLOCK_PATH=$(readlink -f "$0")
 export MAKEBLOCK_DIRECTORY=$(dirname "$IXTAPA_PATH")
 
+LOCAL_INSTITUTION=`Name.sh`
+LOCAL_DEVICE="Juum"
+LOCAL_VOLUME="1.0"
+LOCAL_LANGUAGE=`Language.sh`
+LOCAL_TTS_ENGINE="pico2wave"
+
 # =============================================================================
 # Functions
 # =============================================================================
@@ -23,78 +29,72 @@ export MAKEBLOCK_DIRECTORY=$(dirname "$IXTAPA_PATH")
 # Main
 # =============================================================================
 
-LOCAL_DEVICE="Amikoo"
-LOCAL_INSTITUTION=`Name.sh`
-LOCAL_LANGUAGE=`Language.sh`
+StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
+      " \
+       Puedes decirme que aportaron los Mayas a la tecnología? \
+       Uno, Las pirámides. \
+       Dos, El cero. \
+       Tres, El calendario. \
+       Cuatro, El chocolate. \
+      "
+SurveyMultipleChoice.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE 2
 
-StreamText.sh $LOCAL_DEVICE spanish robot \
+StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
+      " \
+       Quiénes son los fundadores de Intel? \
       "
-      Puedes decirme que aportaron los Mayas a la tecnología? \
-      Uno, Las pirámides. \
-      Dos, El cero. \
-      Tres, El calendario. \
-      Cuatro, El chocolate. \
-      "
-SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 2
-
-StreamText.sh $LOCAL_DEVICE spanish robot \
-      "
-      Quiénes son los fundadores de Intel? \
-      "
-StreamText.sh $LOCAL_DEVICE english robot \
-      "
-      Uno, Robert Noyce, Gordon Moore. \
-      Dos, Steve Allen. \
-      Tres, Elon Musk. \
-      Cuatro, Larry Page and Sergey Brin. \
+StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
+      " \
+       Uno, Robert Noyce, Gordon Moore. \
+       Dos, Steve Allen. \
+       Tres, Elon Musk. \
+       Cuatro, Larry Page and Sergey Brin. \
       "      
-SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 1
+SurveyMultipleChoice.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE 1
 
-StreamText.sh $LOCAL_DEVICE spanish robot \
-      "
-      Cuántos ingenieros erán cuando empezó Intel Guadalajara?
-      Uno, 60. \
-      Dos, 34. \
-      Tres, 1200. \
-      Cuatro, 15.
+StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
+      " \
+       Cuántos ingenieros erán cuando empezó Intel Guadalajara? \
+       Uno, 60. \
+       Dos, 33. \
+       Tres, 1200. \
+       Cuatro, 15.
       " 
-SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 2
+SurveyMultipleChoice.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE 2
 
-StreamText.sh $LOCAL_DEVICE spanish robot \
+StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
+      " \
+       El microprocesador es el cerebro de la computadora? Sí o no?
       "
-      El microprocesador es el cerebro de la computadora? Sí o no?
-      "
-SurveyYesNo.sh $LOCAL_DEVICE spanish robot yes
+SurveyYesNo.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE yes
 
-StreamText.sh $LOCAL_DEVICE spanish robot \
+StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
+      " \
+       Las fábricas de Intel son 200 veces mas limpias que un quirófano? Sí o no?
       "
-      Las fábricas de Intel son 200 veces mas limpias que un quirófano? Sí o no?
-      "
-SurveyYesNo.sh $LOCAL_DEVICE spanish robot no
+SurveyYesNo.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE no
 
-StreamText.sh $LOCAL_DEVICE spanish robot \
+StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
+      " \
+       Podemos encontrar el microprocesador en? \
+       Uno, Accesorios para las personas. \
+       Dos, En la tierra. \
+       Tres, En el espacio. \
+       Cuatro, En todos los anteriores.
       "
-      Podemos encontrar el microprocesador en?
-      Uno, Accesorios para las personas. \
-      Dos, En la tierra. \
-      Tres, En el espacio. \
-      Cuatro, En todos los anteriores.
-      "
-SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 4
+SurveyMultipleChoice.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE 4
 
-StreamText.sh $LOCAL_DEVICE spanish robot \
+StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
+      " \
+       En el sistema binario, el cero significa? \
+       Uno, Encendido. \
+       Dos, Apagado. \
+       Tres, Nada. \
+       Cuatro, Todo.
       "
-      En el sistema binario, el cero significa?
-      Uno, Encendido. \
-      Dos, Apagado. \
-      Tres, Nada. \
-      Cuatro, Todo.
-      "
-SurveyMultipleChoice.sh $LOCAL_DEVICE spanish robot 2
+SurveyMultipleChoice.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE 2
 
-StreamText.sh $LOCAL_DEVICE spanish robot \
-      "
-      Eso es todo. Muchas gracias por tu participacion.
-      "
+StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
+      "Eso es todo. Muchas gracias por tu participacion."
 
 # End of File
