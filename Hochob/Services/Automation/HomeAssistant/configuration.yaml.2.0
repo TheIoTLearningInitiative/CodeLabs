@@ -156,6 +156,17 @@ homeassistant:
       friendly_name: Amazon Alexa Stop
       icon: mdi:amazon
 
+
+    # Amikoo Maya Lands :: Expertise :: Google
+
+    script.amikoogoogleassistantstart:
+      friendly_name: Google Assistant Start
+      icon: mdi:google
+
+    script.amikoogoogleassistantstop:
+      friendly_name: Google Asistant Stop
+      icon: mdi:google
+
     # Amikoo Maya Lands :: Knowledge
 
     script.sphero:
@@ -794,6 +805,16 @@ script:
     sequence:
       - service: shell_command.amikooamazonalexastop
 
+  # Amikoo Maya Lands :: Expertise :: Google Assistant
+
+  amikoogoogleassistantstart:
+    sequence:
+      - service: shell_command.amikoogoogleassistantstart
+
+  amikoogoogleassistantstop:
+    sequence:
+      - service: shell_command.amikoogoogleassistantstop
+
   # Amikoo Maya Lands :: Knowledge
 
   sphero:
@@ -1112,6 +1133,11 @@ shell_command:
 
   amikooamazonalexastart: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooExpertise.sh amazonalexa start
   amikooamazonalexastop: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooExpertise.sh amazonalexa stop
+
+  # Amikoo Maya Lands :: Expertise :: Google Assistant
+
+  amikoogoogleassistantstart: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooExpertise.sh googleassistant start
+  amikoogoogleassistantstop: ~/CodeLabs/Hochob/Services/Amikoo/Remote/AmikooExpertise.sh googleassistant stop
 
   # Amikoo Maya Lands :: Knowledge
 
@@ -1752,6 +1778,8 @@ group:
       - switch.amikooamazonalexa
       - script.amikooamazonalexastart
       - script.amikooamazonalexastop
+      - script.amikoogoogleassistantstart
+      - script.amikoogoogleassistantstop
 
   # Amikoo Maya Lands: Applications
 
