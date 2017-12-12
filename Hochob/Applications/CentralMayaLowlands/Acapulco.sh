@@ -33,7 +33,7 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
     Here we will remember the Mayans, the history of Intel y this Intel Guadalajara Design Center. \
     Enjoy your tour."
 else
-    StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
+    StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE tt \
     "Futuros Ingenieros de ${LOCAL_INSTITUTION}. Bienvenidos a esta primer sala, le llamamos: El Inicio. \
     Aquí  recordaras a los Mayas, la historia de Intel y de este Centro de Diseño de Intel en Guadalajara. \
     Que disfruten su recorrido."
