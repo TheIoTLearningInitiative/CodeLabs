@@ -14,6 +14,10 @@ export MICHOACAN_NAME="Michoacan"
 export MICHOACAN_PATH=$(readlink -f "$0")
 export MICHOACAN_DIRECTORY=$(dirname "$MICHOACAN_PATH")
 
+LOCAL_INSTITUTION=`Name.sh`
+LOCAL_LANGUAGE="spanish"
+LOCAL_TTS_ENGINE="pico2wave"
+
 # =============================================================================
 # Functions
 # =============================================================================
@@ -26,9 +30,6 @@ export MICHOACAN_DIRECTORY=$(dirname "$MICHOACAN_PATH")
 
 LogPid.sh $MICHOACAN_PID $MICHOACAN_NAME
 
-LOCAL_INSTITUTION=`Name.sh`
-LOCAL_TTS_ENGINE="pico2wave"
-
 #AmikooVoice.sh spanish \
 #   "Bienvenidos ${LOCAL_INSTITUTION} a mi casa, su casa. \
 #    Es un gusto conocerlos. Ya saben mi nombre, soy Lupe y \
@@ -37,7 +38,7 @@ LOCAL_TTS_ENGINE="pico2wave"
 #    las Ingenierías y las Matemáticas. A nombre de cada uno de los Ingenieros \
 #    que aquí trabajamos les deseamos la mejor de las experiencias. \
 #    Muchas gracias por haber venido."
-SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE spanish \
+SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE $LOCAL_LANGUAGE \
     "Bienvenidos ${LOCAL_INSTITUTION} a mi casa, su casa. \
     Es un gusto conocerlas y conocerlos. Ya saben mi nombre, soy Lupe, \
     tengo  2 años robot y estudio el primer año de primaria robot. \
@@ -53,10 +54,10 @@ SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE spanish \
 
 sleep 1
 
-#AmikooVoice.sh spanish \
+#AmikooVoice.sh $LOCAL_LANGUAGE \
 #    "Ahora tomaremos una foto para el recuerdo. \
 #     Primero, me iré a mi lugar preferido, denme unos segundos."
-SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE spanish \
+SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE $LOCAL_LANGUAGE \
     "Ahora tomaremos una foto para el recuerdo. \
      Primero, me iré a mi lugar preferido, denme unos segundos."
 
@@ -78,11 +79,11 @@ sleep 3.6
 Amikoo.sh amikoo/movestop 1
 sleep .6
 
-#AmikooVoice.sh spanish \
+#AmikooVoice.sh $LOCAL_LANGUAGE \
 #    "Estoy listo! Ahora les toca a ustedes acomodarse. \
 #     Con mucho cuidado ponganse a ambos lados de mi, \
 #     viendo hacia la pantalla y sonrían."
-SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE spanish \
+SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE $LOCAL_LANGUAGE \
     "Estoy listo! Ahora les toca a ustedes acomodarse. \
      Con mucho cuidado ponganse a ambos lados de mi, \
      viendo hacia la pantalLOCAL_TTS_ENGINEla y sonrían."
@@ -91,23 +92,23 @@ FfmpegCamera.sh 20 &
 
 sleep 15
 
-#AmikooVoice.sh spanish \
+#AmikooVoice.sh $LOCAL_LANGUAGE \
 #    "Están listos ${LOCAL_INSTITUTION}?"
-SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE spanish \
+SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE $LOCAL_LANGUAGE \
     "Están listas? listos? ${LOCAL_INSTITUTION}?"
 
 sleep 5
 
-#AmikooVoice.sh spanish \
+#AmikooVoice.sh $LOCAL_LANGUAGE \
 #    "Tomemos la foto, a la cuenta de 3."
-SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE spanish \
+SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE $LOCAL_LANGUAGE \
     "Tomemos la foto, a la cuenta de 3."
 
 sleep 1
 
-#AmikooVoice.sh spanish \
+#AmikooVoice.sh $LOCAL_LANGUAGE \
 #    "1, 2 y 3, Sonrian."
-SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE spanish \
+SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE $LOCAL_LANGUAGE \
     "1, 2 y 3, Sonrían."
 
 Memories.sh "5" "on" "${MICHOACAN_NAME}" &
@@ -116,9 +117,9 @@ ConvertText.sh "$FSWEBCAM_IMAGE" "Bienvenidos ${LOCAL_INSTITUTION}"
 wait
 Eog.sh "$FSWEBCAM_IMAGE" &
 
-#AmikooVoice.sh spanish \
+#AmikooVoice.sh $LOCAL_LANGUAGE \
 #    "Listo! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuras y futuros ingenieros."
-SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE spanish \
+SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE $LOCAL_LANGUAGE \
     "Orale! Tenemos nuestra foto del recuerdo. A iniciar con el recorrido futuras y futuros ingenieros."
 
 sleep 5
