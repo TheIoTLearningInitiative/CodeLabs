@@ -15,3 +15,7 @@ hochob@server:~$ espeak --stdout "hello world" | tee -a hbsSoundSsEspeakOutput.w
 ```sh
 hochob@server:~$ espeak -w hbsSoundSsEspeakOutput.wav "hello world"
 ```
+
+- https://web.archive.org/web/20070615221707/http://cslu.cse.ogi.edu/tts/flinger/
+- https://web.archive.org/web/20060831005215/http://speech.bme.ogi.edu/cgi-bin/flinger/show_jukebox.pl?all
+- http://tcts.fpms.ac.be/synthesis/mbrola/mbrcopybin.html
