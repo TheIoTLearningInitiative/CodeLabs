@@ -10,7 +10,13 @@ set -x
 
 export PUERTOVALLARTA_PID=$$
 export PUERTOVALLARTA_PATH=$(readlink -f "$0")
-export PUERTOVALLARTA_DIRECTORY=$(dirname "$CAMPECHE_PATH")
+export PUERTOVALLARTA_DIRECTORY=$(dirname "$PUERTOVALLARTA_PATH")
+
+LOCAL_INSTITUTION=`Name.sh`
+LOCAL_DEVICE="Triki"
+LOCAL_VOLUME="1.0"
+LOCAL_LANGUAGE=`Language.sh`
+LOCAL_TTS_ENGINE="pico2wave"
 
 # =============================================================================
 # Functions
@@ -22,22 +28,10 @@ export PUERTOVALLARTA_DIRECTORY=$(dirname "$CAMPECHE_PATH")
 # Main
 # =============================================================================
 
-LOCAL_LANGUAGE=`Language.sh`
-
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Stream.sh "Juum" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/PuertoVallartaEnglish.mp3"
+    StreamAudio.sh "$LOCAL_DEVICE" "$LOCAL_VOLUME" "$AREA_CENTRAL_MAYA_LOWLANDS/PuertoVallartaEnglish.mp3"
 else
-    Stream.sh "Juum" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/PuertoVallarta.mp3"
+    StreamAudio.sh "$LOCAL_DEVICE" "$LOCAL_VOLUME" "$AREA_CENTRAL_MAYA_LOWLANDS/PuertoVallarta.mp3"
 fi
-
-if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    SpeechSynthetizer.sh off espeak english \
-    ""
-else
-    SpeechSynthetizer.sh off espeak spanish \
-    ""
-fi
-
-Stream.sh "Juum" "1.0" "$SPEECH_MP3"
 
 # End of File
