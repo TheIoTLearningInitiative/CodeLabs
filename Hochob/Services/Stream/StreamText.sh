@@ -32,10 +32,14 @@ else
         SpeechSynthetizer.sh off espeak english "${LOCAL_TEXT}"
     elif [ "$LOCAL_LANGUAGE" = "english" ] && [ "$LOCAL_CHARACTER" = "tt" ]; then
         SpeechSynthetizer.sh off voicerss english "${LOCAL_TEXT}"
+    elif [ "$LOCAL_LANGUAGE" = "english" ] && [ "$LOCAL_CHARACTER" = "pico2wave" ]; then
+        SpeechSynthetizer.sh off pico2wave english "${LOCAL_TEXT}"
     elif [ "$LOCAL_LANGUAGE" = "spanish" ] && [ "$LOCAL_CHARACTER" = "robot" ]; then
         SpeechSynthetizer.sh off espeak spanish "${LOCAL_TEXT}"
     elif [ "$LOCAL_LANGUAGE" = "spanish" ] && [ "$LOCAL_CHARACTER" = "tt" ]; then
         SpeechSynthetizer.sh off voicerss spanish "${LOCAL_TEXT}"
+    elif [ "$LOCAL_LANGUAGE" = "spanish" ] && [ "$LOCAL_CHARACTER" = "pico2wave" ]; then
+        SpeechSynthetizer.sh off pico2wave spanish "${LOCAL_TEXT}"
     fi
 
     Stream.sh $LOCAL_DEVICE 1.0 $SPEECH_MP3

@@ -25,15 +25,16 @@ export MAPIMI_DIRECTORY=$(dirname "$MAPIMI_PATH")
 
 LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
+LOCAL_TTS_ENGINE="pico2wave"
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    SpeechSynthetizer.sh off espeak english \
+    SpeechSynthetizer.sh off $LOCAL_TTS_ENGINE english \
     "
     It was a great pleasure to meet you and have you here at Intel Guadalajara. \
     Come back soon future Engineers.
     "
 else
-    SpeechSynthetizer.sh off espeak spanish \
+    SpeechSynthetizer.sh off $LOCAL_TTS_ENGINE spanish \
     "
     Me da mucho gusto conocerlos y que hayan venido a Intel Guadalajara. \
     Regresen pronto futuras y futuros Ingenieros

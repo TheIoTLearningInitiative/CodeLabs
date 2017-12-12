@@ -25,12 +25,13 @@ export CALAKMUL_DIRECTORY=$(dirname "$CALAKMUL_PATH")
 
 LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
+LOCAL_TTS_ENGINE="pico2wave"
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    SpeechSynthetizer.sh off espeak english \
+    SpeechSynthetizer.sh off $LOCAL_TTS_ENGINE english \
     "To be written"
 else
-    SpeechSynthetizer.sh off espeak spanish \
+    SpeechSynthetizer.sh off $LOCAL_TTS_ENGINE spanish \
     "La ciencia es muy divertida, es la curiosidad sobre el mundo y cómo se comporta. \
     Es observarlo, escucharlo y registrar lo que se aprende. \
     Te gustaría entender porqué la Tierra gira alrededor del Sol? \

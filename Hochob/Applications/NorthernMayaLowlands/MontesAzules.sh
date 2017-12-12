@@ -24,12 +24,13 @@ export MONTESAZULES_DIRECTORY=$(dirname "$MONTESAZULES_PATH")
 
 LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
+LOCAL_TTS_ENGINE="pico2wave"
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    SpeechSynthetizer.sh off espeak english \
+    SpeechSynthetizer.sh off $LOCAL_TTS_ENGINE english \
     ""
 else
-    SpeechSynthetizer.sh off espeak spanish \
+    SpeechSynthetizer.sh off $LOCAL_TTS_ENGINE spanish \
     "Futuras y futuros Matemáticos. Ya vimos la importancia de nuestras Fábricas y Laboratorios. \
     Ahora entraremos a una sección que nos permite jugar y conocer de cerca la tecnología."
 fi

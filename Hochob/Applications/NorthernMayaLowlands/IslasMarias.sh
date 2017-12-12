@@ -14,6 +14,7 @@ export ISLASMARIAS_PATH=$(readlink -f "$0")
 export ISLASMARIAS_DIRECTORY=$(dirname "$ISLASMARIAS_PATH")
 
 LOCAL_LANGUAGE="spanish"
+LOCAL_TTS_ENGINE="pico2wave"
 
 LOCAL_QUESTION_SPANISH[0]="¿Cual fue la aportación de los Mayas?"
 LOCAL_QUESTION_SPANISH[1]="¿Cual es el sistema de numeración en el que los números se representan utilizando solamente dos cifras? cero y uno"
@@ -48,7 +49,8 @@ chooseQuestion()
 
 chooseQuestion $LOCAL_LANGUAGE
 
-SpeechSynthetizer.sh on pico2wave spanish "${LOCAL_QUESTION}"
-AmikooVoice.sh $LOCAL_LANGUAGE "${LOCAL_QUESTION}"
+SpeechSynthetizer.sh off $LOCAL_TTS_ENGINE $LOCAL_LANGUAGE "${LOCAL_QUESTION}"
+Stream.sh "Eek'" "1.0" "$SPEECH_MP3"
+#AmikooVoice.sh $LOCAL_LANGUAGE "${LOCAL_QUESTION}"
 
 # End of File

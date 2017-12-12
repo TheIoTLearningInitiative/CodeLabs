@@ -12,6 +12,8 @@ export LAMICHILIA_PID=$$
 export LAMICHILIA_PATH=$(readlink -f "$0")
 export LAMICHILIA_DIRECTORY=$(dirname "$LAMICHILIA_PATH")
 
+LOCAL_TTS_ENGINE="pico2wave"
+
 # =============================================================================
 # Functions
 # =============================================================================
@@ -26,10 +28,10 @@ export LAMICHILIA_DIRECTORY=$(dirname "$LAMICHILIA_PATH")
 
 LOCAL_LANGUAGE=`Language.sh`
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    SpeechSynthetizer.sh off espeak english \
+    SpeechSynthetizer.sh off $LOCAL_TTS_ENGINE english \
     "To be written"
 else
-    SpeechSynthetizer.sh off espeak spanish \
+    SpeechSynthetizer.sh off $LOCAL_TTS_ENGINE spanish \
     "Intel no solo se queda en la tierra, es tal el alcance del Microprocesador que puede \
      estar en el universo, por ejemplo, ha trabajado con la NASA para crear cohetes y vehiculos \
      no tripulados. Veamos el siguiente video."
