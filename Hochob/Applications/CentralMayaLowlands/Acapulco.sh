@@ -23,8 +23,8 @@ export ACAPULCO_DIRECTORY=$(dirname "$ACAPULCO_PATH")
 # =============================================================================
 
 LOCAL_INSTITUTION=`Name.sh`
-LOCAL_LANGUAGE=`Language.sh`
 LOCAL_DEVICE='Triki'
+LOCAL_LANGUAGE=`Language.sh`
 LOCAL_TTS_ENGINE='pico2wave'
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
