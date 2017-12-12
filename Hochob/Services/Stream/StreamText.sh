@@ -36,6 +36,7 @@ elif [ "$LOCAL_DEVICE" = "NohochTata" ]; then
     SpeechSynthetizer.sh on "$LOCAL_CHARACTER" "$LOCAL_LANGUAGE" "${LOCAL_TEXT}"
 else
     SpeechSynthetizer.sh off "$LOCAL_CHARACTER" "$LOCAL_LANGUAGE" "${LOCAL_TEXT}"
+    StreamAudio.sh $LOCAL_DEVICE 1.0 $SPEECH_MP3
 fi
 
 exit 0
