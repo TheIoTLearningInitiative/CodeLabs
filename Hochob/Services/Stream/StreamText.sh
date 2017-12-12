@@ -42,7 +42,7 @@ else
         SpeechSynthetizer.sh off pico2wave spanish "${LOCAL_TEXT}"
     fi
 
-    Stream.sh $LOCAL_DEVICE 1.0 $SPEECH_MP3
+    StreamAudio.sh $LOCAL_DEVICE 1.0 $SPEECH_MP3
 fi
 
 # End of File
