@@ -13,6 +13,7 @@ export ISLASMARIAS_NAME="IslasMarias"
 export ISLASMARIAS_PATH=$(readlink -f "$0")
 export ISLASMARIAS_DIRECTORY=$(dirname "$ISLASMARIAS_PATH")
 
+LOCAL_DEVICE="Eek'"
 LOCAL_LANGUAGE="spanish"
 LOCAL_TTS_ENGINE="pico2wave"
 
@@ -49,8 +50,6 @@ chooseQuestion()
 
 chooseQuestion $LOCAL_LANGUAGE
 
-SpeechSynthetizer.sh off $LOCAL_TTS_ENGINE $LOCAL_LANGUAGE "${LOCAL_QUESTION}"
-Stream.sh "Eek'" "1.0" "$SPEECH_MP3"
-#AmikooVoice.sh $LOCAL_LANGUAGE "${LOCAL_QUESTION}"
+StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE $LOCAL_QUESTION
 
 # End of File
