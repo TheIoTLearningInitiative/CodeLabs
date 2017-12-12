@@ -35,8 +35,9 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
          Come back soon future Engineers."
 else
     StreamText.sh "$LOCAL_DEVICE" "$LOCAL_LANGUAGE" "$LOCAL_TTS_ENGINE" \
-        "Me da mucho gusto conocerlos y que hayan venido a Intel Guadalajara. \
-         Regresen pronto futuras y futuros Ingenieros"
+        "Nos dio mucho gusto conocerlas, conocerlos y que hayan venido a Intel Guadalajara. \
+         Fue un placer recibirlos en nuestras instalaciones y esperamos verlos de nuevo!.\
+         "
 fi
 
 # End of File
