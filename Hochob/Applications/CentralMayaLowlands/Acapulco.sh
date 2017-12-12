@@ -12,6 +12,12 @@ export ACAPULCO_PID=$$
 export ACAPULCO_PATH=$(readlink -f "$0")
 export ACAPULCO_DIRECTORY=$(dirname "$ACAPULCO_PATH")
 
+LOCAL_INSTITUTION=`Name.sh`
+LOCAL_DEVICE="Triki"
+LOCAL_LANGUAGE=`Language.sh`
+LOCAL_TTS_ENGINE="pico2wave"
+LOCAL_VOLUME="1.0"
+
 # =============================================================================
 # Functions
 # =============================================================================
@@ -21,11 +27,6 @@ export ACAPULCO_DIRECTORY=$(dirname "$ACAPULCO_PATH")
 # =============================================================================
 # Main
 # =============================================================================
-
-LOCAL_INSTITUTION=`Name.sh`
-LOCAL_DEVICE="Triki"
-LOCAL_LANGUAGE=`Language.sh`
-LOCAL_TTS_ENGINE="pico2wave"
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     StreamText.sh "$LOCAL_DEVICE" "$LOCAL_LANGUAGE" "$LOCAL_TTS_ENGINE" \
@@ -40,9 +41,9 @@ else
 fi
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    StreamAudio.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/AcapulcoEnglish.mp3"
+    StreamAudio.sh "$LOCAL_DEVICE" "$LOCAL_VOLUME" "$AREA_CENTRAL_MAYA_LOWLANDS/AcapulcoEnglish.mp3"
 else
-    StreamAudio.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/Acapulco.mp3"
+    StreamAudio.sh "$LOCAL_DEVICE" "$LOCAL_VOLUME" "$AREA_CENTRAL_MAYA_LOWLANDS/Acapulco.mp3"
 fi
 
 # End of File
