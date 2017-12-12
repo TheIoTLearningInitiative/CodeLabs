@@ -42,9 +42,9 @@ if [ "$LOCAL_LANGUAGE" = "english" ]; then
 else
     StreamText.sh "$LOCAL_DEVICE" "$LOCAL_LANGUAGE" "$LOCAL_TTS_ENGINE" \
         "${LOCAL_INSTITUTION}, ahora que saben más acerca de los Mayas, \
-        de Intel y del Centro de Diseño de Intel en Guadalajara, podemos pasar a la siguiente seccion \
-        en la que encontraremos informacion acerca del Microprocesador, nuestras Fabricas \
-        y nuestros Laboratorios. Vamos."
+        de Intel y del Centro de Diseño de Intel en Guadalajara, podemos pasar a la siguiente sección \
+        en la que encontraremos información acerca del Microprocesador, nuestras fábricas \
+        y nuestros laboratorios. Vamos!"
 fi
 
 # End of File
