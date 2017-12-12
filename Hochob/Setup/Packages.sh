@@ -48,7 +48,7 @@ sudo apt install vlc
 
 # Hochob Server Services Sound Speech Synthetizer
 sudo apt install espeak tee
-sudo apt install festival festvox-ellpc11k
+sudo apt install festival festival-doc festvox-kdlpc16k festvox-ellpc11k
 
 # Hochob Server Services Stream
 sudo apt install ffmpeg
