@@ -27,7 +27,7 @@ sudo apt-get install festival festival-doc festvox-kdlpc16k festvox-ellpc11k
 ## Pico
 
 ```sh
-sudo apt-get install libttspico-utils
+sudo apt-get install libttspico0 libttspico-utils libttspico-data
 ```
 
 - https://web.archive.org/web/20070615221707/http://cslu.cse.ogi.edu/tts/flinger/
