@@ -243,6 +243,7 @@ AMIKOO=amikoo
 
 ## Voice ##
 AMIKOO_HUMANVOICE=$AMIKOO/sound/speechsynthetizer
+AMIKOO_TTS_ENGINE=$AMIKOO/sound/speechsynthetizer/engine
 AMIKOO_TALK=$AMIKOO_HUMANVOICE/say
 AMIKOO_HABLAR=$AMIKOO_HUMANVOICE/decir
 
