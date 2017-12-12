@@ -32,12 +32,13 @@ LOCAL_TTS_ENGINE="pico2wave"
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     StreamText.sh "$LOCAL_DEVICE" "$LOCAL_LANGUAGE" "$LOCAL_TTS_ENGINE" \
         "It was a great pleasure to meet you and have you here at Intel Guadalajara. \
-         Come back soon future Engineers."
+         Come back soon future Engineers. \
+        "
 else
     StreamText.sh "$LOCAL_DEVICE" "$LOCAL_LANGUAGE" "$LOCAL_TTS_ENGINE" \
         "Nos dio mucho gusto conocerlas, conocerlos y que hayan venido a Intel Guadalajara. \
-         Fue un placer recibirlos en nuestras instalaciones y esperamos verlos de nuevo!.\
-         "
+         Fue un placer recibirlos en nuestras instalaciones y esperamos verlos de nuevo!. \
+        "
 fi
 
 # End of File
