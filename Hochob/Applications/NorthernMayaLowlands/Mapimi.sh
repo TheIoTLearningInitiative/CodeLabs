@@ -17,7 +17,7 @@ LOCAL_INSTITUTION=`Name.sh`
 LOCAL_DEVICE="Eek'"
 LOCAL_VOLUME="1.0"
 LOCAL_LANGUAGE=`Language.sh`
-LOCAL_TTS_ENGINE="robot"
+LOCAL_TTS_ENGINE="espeak"
 
 # =============================================================================
 # Functions
