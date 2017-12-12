@@ -23,7 +23,7 @@ export ACAPULCO_DIRECTORY=$(dirname "$ACAPULCO_PATH")
 # =============================================================================
 
 LOCAL_INSTITUTION=`Name.sh`
-LOCAL_DEVICE="Eek'"
+LOCAL_DEVICE="Triki"
 LOCAL_LANGUAGE=`Language.sh`
 LOCAL_TTS_ENGINE="pico2wave"
 
