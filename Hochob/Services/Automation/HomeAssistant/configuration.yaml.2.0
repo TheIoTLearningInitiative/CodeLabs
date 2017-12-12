@@ -1058,7 +1058,7 @@ shell_command:
   ojodeliebre: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/OjoDeLiebre.sh &
   lamichilia: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/LaMichilia.sh &
   elcielo: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/ElCielo.sh &
-  islasmarias: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/IslasMarias.sh &
+  islasmarias: bash ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/IslasMarias.sh &
   mapimi: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Mapimi.sh &
   siankaan: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/SianKaan.sh &
   calakmul: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Calakmul.sh &
