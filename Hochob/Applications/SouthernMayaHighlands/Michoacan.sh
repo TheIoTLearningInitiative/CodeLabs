@@ -17,7 +17,7 @@ export MICHOACAN_DIRECTORY=$(dirname "$MICHOACAN_PATH")
 LOCAL_INSTITUTION=`Name.sh`
 LOCAL_DEVICE="NohochTata"
 LOCAL_LANGUAGE="spanish"
-LOCAL_TTS_ENGINE="pico2wave"
+LOCAL_TTS_ENGINE="robot"
 
 # =============================================================================
 # Functions
