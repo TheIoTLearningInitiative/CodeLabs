@@ -33,6 +33,16 @@ fi
 if [ "$LOCAL_DEVICE" = "Amikoo" ]; then
     AmikooVoice.sh $LOCAL_LANGUAGE "${LOCAL_TEXT}"
 elif [ "$LOCAL_DEVICE" = "NohochTata" ]; then
+    SpeechSynthetizer.sh on "$LOCAL_CHARACTER" "$LOCAL_LANGUAGE" "${LOCAL_TEXT}"
+else
+    SpeechSynthetizer.sh off "$LOCAL_CHARACTER" "$LOCAL_LANGUAGE" "${LOCAL_TEXT}"
+fi
+
+exit 0
+
+if [ "$LOCAL_DEVICE" = "Amikoo" ]; then
+    AmikooVoice.sh $LOCAL_LANGUAGE "${LOCAL_TEXT}"
+elif [ "$LOCAL_DEVICE" = "NohochTata" ]; then
     SpeechSynthetizer.sh on $LOCAL_CHARACTER $LOCAL_LANGUAGE "${LOCAL_TEXT}"
 else
     if [ "$LOCAL_LANGUAGE" = "english" ] && [ "$LOCAL_CHARACTER" = "robot" ]; then
