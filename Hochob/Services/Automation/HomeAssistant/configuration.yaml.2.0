@@ -148,11 +148,11 @@ homeassistant:
       friendly_name: Amazon Alexa
       icon: mdi:amazon
 
-    switch.amikooamazonalexastart:
+    script.amikooamazonalexastart:
       friendly_name: Amazon Alexa Start
       icon: mdi:amazon
 
-    switch.amikooamazonalexastop:
+    script.amikooamazonalexastop:
       friendly_name: Amazon Alexa Stop
       icon: mdi:amazon
 
