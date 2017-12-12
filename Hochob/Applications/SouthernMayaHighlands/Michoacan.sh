@@ -52,6 +52,7 @@ SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE $LOCAL_LANGUAGE \
     que aquí trabajamos les deseamos la mejor de las experiencias. \
     Muchas gracias por haber venido."
 
+exit 0
 sleep 1
 
 #AmikooVoice.sh $LOCAL_LANGUAGE \
