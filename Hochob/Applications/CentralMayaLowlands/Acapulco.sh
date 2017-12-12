@@ -30,14 +30,14 @@ LOCAL_TTS_ENGINE="pico2wave"
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     StreamText.sh "$LOCAL_DEVICE" "$LOCAL_LANGUAGE" "$LOCAL_TTS_ENGINE" \
-    "Future Engineers from ${LOCAL_INSTITUTION}. Welcome to this first hall! We called it: The Beginning. \
-    Here we will remember the Mayans, the history of Intel y this Intel Guadalajara Design Center. \
-    Enjoy your tour."
+        "Future Engineers from ${LOCAL_INSTITUTION}. Welcome to this first hall! We called it: The Beginning. \
+         Here we will remember the Mayans, the history of Intel y this Intel Guadalajara Design Center. \
+         Enjoy your tour."
 else
     StreamText.sh "$LOCAL_DEVICE" "$LOCAL_LANGUAGE" "$LOCAL_TTS_ENGINE" \
-    "Futuros Ingenieros de ${LOCAL_INSTITUTION}. Bienvenidos a esta primer sala, le llamamos: El Inicio. \
-    Aquí  recordaras a los Mayas, la historia de Intel y de este Centro de Diseño de Intel en Guadalajara. \
-    Que disfruten su recorrido."
+        "Futuros Ingenieros de ${LOCAL_INSTITUTION}. Bienvenidos a esta primer sala, le llamamos: El Inicio. \
+         Aquí  recordaras a los Mayas, la historia de Intel y de este Centro de Diseño de Intel en Guadalajara. \
+         Que disfruten su recorrido."
 fi
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
