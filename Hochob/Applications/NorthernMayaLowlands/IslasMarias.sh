@@ -48,6 +48,7 @@ chooseQuestion()
 
 chooseQuestion $LOCAL_LANGUAGE
 
-AmikooVoice.sh $LOCAL_LANGUAGE "${LOCAL_QUESTION}"
+SpeechSynthetizer.sh off espeak spanish "${LOCAL_QUESTION}"
+#AmikooVoice.sh $LOCAL_LANGUAGE "${LOCAL_QUESTION}"
 
 # End of File
