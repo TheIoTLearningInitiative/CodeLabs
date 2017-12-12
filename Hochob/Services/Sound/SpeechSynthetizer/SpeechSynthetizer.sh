@@ -31,6 +31,8 @@ if [ $# -eq 4 ]; then
         Espeak.sh $LOCAL_LANGUAGE "${LOCAL_TEXT}"
     elif [ "$LOCAL_ENGINE" = "voicerss" ]; then
         VoiceRss.sh $LOCAL_LANGUAGE "${LOCAL_TEXT}"
+    elif [ "$LOCAL_ENGINE" = "pico2wave" ]; then
+        Pico2Wave.sh $LOCAL_LANGUAGE "${LOCAL_TEXT}"
     fi
 
     if [ "$LOCAL_PLAY" = "on" ]; then
