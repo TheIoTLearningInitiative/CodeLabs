@@ -25,9 +25,9 @@ export CANCUN_DIRECTORY=$(dirname "$CANCUN_PATH")
 LOCAL_LANGUAGE=`Language.sh`
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    Stream.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/CancunEnglish.mp3"
+    StreamAudio.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/CancunEnglish.mp3"
 else
-    Stream.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/Cancun.mp3"
+    StreamAudio.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/Cancun.mp3"
 fi
 
 # End of File
