@@ -16,8 +16,9 @@ export MICHOACAN_DIRECTORY=$(dirname "$MICHOACAN_PATH")
 
 LOCAL_INSTITUTION=`Name.sh`
 LOCAL_DEVICE="NohochTata"
-LOCAL_LANGUAGE="spanish"
-LOCAL_TTS_ENGINE="robot"
+LOCAL_VOLUME="1.0"
+LOCAL_LANGUAGE=`Language.sh`
+LOCAL_TTS_ENGINE="espeak"
 
 # =============================================================================
 # Functions
@@ -41,19 +42,19 @@ LogPid.sh $MICHOACAN_PID $MICHOACAN_NAME
 #    Muchas gracias por haber venido."
 StreamText.sh "$LOCAL_DEVICE" "$LOCAL_LANGUAGE" "$LOCAL_TTS_ENGINE" \
     "Bienvenidos ${LOCAL_INSTITUTION} a mi casa, su casa. \
-    Es un gusto conocerlas y conocerlos. Ya saben mi nombre, soy Lupe, \
-    tengo  2 años robot y estudio el primer año de primaria robot. \
-    Mis pasatiempos favoritos son compartir tiempo con mi familia, jugar al aire libre, \
-    leer cuentos divertidos, hacer ejercicio y aprender con mis familiares y amigos \
-    todo el conocimiento científico y tecnológico que está presente en nuestra vida cotidiana. \
-    También soy guia en este emocionante Centro de Visitantes. \
-    Hace rato estaba un poco chiviado pero ya estoy listo para mostrarles \
-    lo interesante que es el mundo de las Ciencias, la Tecnología, \
-    las Ingenierías y las Matemáticas. A nombre de cada uno de los Ingenieros \
-    que aquí trabajamos les deseamos la mejor de las experiencias. \
-    Muchas gracias por haber venido."
+     Es un gusto conocerlas y conocerlos. Ya saben mi nombre, soy Lupe, \
+     tengo  2 años robot y estudio el primer año de primaria robot. \
+     Mis pasatiempos favoritos son compartir tiempo con mi familia, jugar al aire libre, \
+     leer cuentos divertidos, hacer ejercicio y aprender con mis familiares y amigos \
+     todo el conocimiento científico y tecnológico que está presente en nuestra vida cotidiana. \
+     También soy guia en este emocionante Centro de Visitantes. \
+     Hace rato estaba un poco chiviado pero ya estoy listo para mostrarles \
+     lo interesante que es el mundo de las Ciencias, la Tecnología, \
+     las Ingenierías y las Matemáticas. A nombre de cada uno de los Ingenieros \
+     que aquí trabajamos les deseamos la mejor de las experiencias. \
+     Muchas gracias por haber venido. \
+    "
 
-exit 0
 sleep 1
 
 #AmikooVoice.sh $LOCAL_LANGUAGE \
@@ -61,7 +62,8 @@ sleep 1
 #     Primero, me iré a mi lugar preferido, denme unos segundos."
 SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE $LOCAL_LANGUAGE \
     "Ahora tomaremos una foto para el recuerdo. \
-     Primero, me iré a mi lugar preferido, denme unos segundos."
+     Primero, me iré a mi lugar preferido, denme unos segundos. \
+    "
 
 Amikoo.sh amikoo/headright 1
 sleep .6
@@ -88,7 +90,8 @@ sleep .6
 SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE $LOCAL_LANGUAGE \
     "Estoy listo! Ahora les toca a ustedes acomodarse. \
      Con mucho cuidado ponganse a ambos lados de mi, \
-     viendo hacia la pantalLOCAL_TTS_ENGINEla y sonrían."
+     viendo hacia la pantalLOCAL_TTS_ENGINEla y sonrían. \
+    "
 
 FfmpegCamera.sh 20 &
 
