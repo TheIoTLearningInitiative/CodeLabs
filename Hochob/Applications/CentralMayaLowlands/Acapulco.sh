@@ -27,8 +27,6 @@ LOCAL_DEVICE="Eek'"
 LOCAL_LANGUAGE=`Language.sh`
 LOCAL_TTS_ENGINE='pico2wave'
 
-exit 0
-
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
     "Future Engineers from ${LOCAL_INSTITUTION}. Welcome to this first hall! We called it: The Beginning. \
