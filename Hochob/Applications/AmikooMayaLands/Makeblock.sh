@@ -14,10 +14,10 @@ export MAKEBLOCK_PATH=$(readlink -f "$0")
 export MAKEBLOCK_DIRECTORY=$(dirname "$IXTAPA_PATH")
 
 LOCAL_INSTITUTION=`Name.sh`
-LOCAL_DEVICE="Juum"
+LOCAL_DEVICE="Amikoo"
 LOCAL_VOLUME="1.0"
 LOCAL_LANGUAGE=`Language.sh`
-LOCAL_TTS_ENGINE="pico2wave"
+LOCAL_TTS_ENGINE="espeak"
 
 # =============================================================================
 # Functions
