@@ -39,8 +39,6 @@ else
     Que disfruten su recorrido."
 fi
 
-exit 0
-
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     StreamAudio.sh "Triki" "1.0" "$AREA_CENTRAL_MAYA_LOWLANDS/AcapulcoEnglish.mp3"
 else
