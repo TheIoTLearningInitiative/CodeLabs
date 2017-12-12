@@ -39,8 +39,6 @@ StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
       "
 SurveyMultipleChoice.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE 2
 
-exit 0
-
 StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
       "
       Quiénes son los fundadores de Intel? \
@@ -58,7 +56,7 @@ StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
       "
       Cuántos ingenieros erán cuando empezó Intel Guadalajara?
       Uno, 60. \
-      Dos, 34. \
+      Dos, 33. \
       Tres, 1200. \
       Cuatro, 15.
       " 
