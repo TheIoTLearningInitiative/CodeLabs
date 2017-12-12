@@ -48,7 +48,7 @@ chooseQuestion()
 
 chooseQuestion $LOCAL_LANGUAGE
 
-SpeechSynthetizer.sh on espeak spanish "${LOCAL_QUESTION}"
+SpeechSynthetizer.sh on pico2wave spanish "${LOCAL_QUESTION}"
 #AmikooVoice.sh $LOCAL_LANGUAGE "${LOCAL_QUESTION}"
 
 # End of File
