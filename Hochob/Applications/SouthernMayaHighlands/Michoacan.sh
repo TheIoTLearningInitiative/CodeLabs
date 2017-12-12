@@ -15,6 +15,7 @@ export MICHOACAN_PATH=$(readlink -f "$0")
 export MICHOACAN_DIRECTORY=$(dirname "$MICHOACAN_PATH")
 
 LOCAL_INSTITUTION=`Name.sh`
+LOCAL_DEVICE="NohochTata"
 LOCAL_LANGUAGE="spanish"
 LOCAL_TTS_ENGINE="pico2wave"
 
@@ -38,7 +39,7 @@ LogPid.sh $MICHOACAN_PID $MICHOACAN_NAME
 #    las Ingenierías y las Matemáticas. A nombre de cada uno de los Ingenieros \
 #    que aquí trabajamos les deseamos la mejor de las experiencias. \
 #    Muchas gracias por haber venido."
-SpeechSynthetizer.sh on $LOCAL_TTS_ENGINE $LOCAL_LANGUAGE \
+StreamText.sh "$LOCAL_DEVICE" "$LOCAL_LANGUAGE" "$LOCAL_TTS_ENGINE" \
     "Bienvenidos ${LOCAL_INSTITUTION} a mi casa, su casa. \
     Es un gusto conocerlas y conocerlos. Ya saben mi nombre, soy Lupe, \
     tengo  2 años robot y estudio el primer año de primaria robot. \
