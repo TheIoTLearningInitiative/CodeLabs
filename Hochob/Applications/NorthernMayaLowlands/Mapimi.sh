@@ -29,10 +29,6 @@ LOCAL_TTS_ENGINE="espeak"
 # Main
 # =============================================================================
 
-LOCAL_INSTITUTION=`Name.sh`
-LOCAL_LANGUAGE=`Language.sh`
-LOCAL_TTS_ENGINE="pico2wave"
-
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     StreamText.sh "$LOCAL_DEVICE" "$LOCAL_LANGUAGE" "$LOCAL_TTS_ENGINE" \
         "It was a great pleasure to meet you and have you here at Intel Guadalajara. \
