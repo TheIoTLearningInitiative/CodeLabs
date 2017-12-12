@@ -41,7 +41,7 @@ then
     $STREAM2CHROMECAST_BINARY -devicename $LOCAL_DEVICE -setvol $LOCAL_VOLUME
     $STREAM2CHROMECAST_BINARY -devicename $LOCAL_DEVICE \
                               $STREAM2CHROMECAST_ARGUMENTS \
-                              -transcodeopts '-b:v 1000k -b:a  32k' \
+                              -transcodeopts '-b:v 1000k -b:a  128k' \
                               $STREAM2CHROMECAST_TRANSCODER \
                               $LOCAL_FILE
     $STREAM2CHROMECAST_BINARY -devicename $LOCAL_DEVICE -stop
