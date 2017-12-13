@@ -257,6 +257,10 @@ homeassistant:
       friendly_name: Planeta Marte
       icon: mdi:test-tube
 
+    script.janos:
+      friendly_name: Primaria
+      icon: mdi:test-tube
+
     # Console Maya Lands : Keypad Yes No
 
     script.keypadyes:
@@ -911,6 +915,10 @@ script:
     sequence:
       - service: shell_command.tiburonballena
 
+  janos:
+    sequence:
+      - service: shell_command.janos
+
   # Tradition Maya Lands :: Navidad
 
   familia:
@@ -1084,6 +1092,7 @@ shell_command:
   siankaan: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/SianKaan.sh &
   calakmul: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Calakmul.sh &
   tiburonballena: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/TiburonBallena.sh &
+  janos: ~/CodeLabs/Hochob/Applications/NorthernMayaLowlands/Janos.sh &
   
   # Amikoo Maya Lands
   
@@ -1880,6 +1889,7 @@ group:
       - script.elcielo
       - script.islasmarias
       - script.mapimi
+      - script.janos
 
   # Northern Maya Highlands: Stations
 
