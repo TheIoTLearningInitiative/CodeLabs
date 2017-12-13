@@ -29,13 +29,13 @@ LogPid.sh $i80286_PID $i80286_NAME
 
 AmikooCommunication.sh "$LOCAL_TRADITION" "Image" "IntelExperienceWhatsInside.png"
 AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "IntelBong.mp3"
-sleep 2
+sleep 5
 AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "Stop"
 AmikooCommunication.sh "$LOCAL_TRADITION" "Image" "Stop"
 
 AmikooCommunication.sh "$LOCAL_TRADITION" "Image" "IntelChorus.jpg"
 AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "IntelBongChorus.mp3"
-sleep 2
+sleep 5
 AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "Stop"
 AmikooCommunication.sh "$LOCAL_TRADITION" "Image" "Stop"
 

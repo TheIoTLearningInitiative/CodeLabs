@@ -285,6 +285,8 @@ AMIKOO_GCTRANSLATIONAPI=$AMIKOO/gc/translationapi
 
 AMIKOO_AMAZONALEXA=$AMIKOO/amazon/alexa
 
+AMIKOO_GOOGLEASSISTANT=$AMIKOO/google/assistant
+
 # =============================================================================
 # Functions
 # =============================================================================

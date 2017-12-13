@@ -29,6 +29,8 @@ elif [ "$LOCAL_COMMAND" = "gctranslationapi" ]; then
     Mosquitto.sh $AMIKOO_GCTRANSLATIONAPI "Google Cloud Translation API"
 elif [ "$LOCAL_COMMAND" = "amazonalexa" ]; then
     Mosquitto.sh $AMIKOO_AMAZONALEXA $LOCAL_MESSAGE
+elif [ "$LOCAL_COMMAND" = "googleassistant" ]; then
+    Mosquitto.sh $AMIKOO_GOOGLEASSISTANT $LOCAL_MESSAGE
 fi
 
 # End of File

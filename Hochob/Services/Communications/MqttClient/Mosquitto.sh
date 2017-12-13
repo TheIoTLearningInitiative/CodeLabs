@@ -13,8 +13,8 @@ export MOSQUITTO_PUB_BINARY=mosquitto_pub
 export MQTT_SERVER_ADDRESS=$MQTT_SERVER_ADDRESS
 export MQTT_SERVER_PORT=$MQTT_SERVER_PORT
 
-LOCAL_TOPIC="$1"
-LOCAL_MESSAGE="$2"
+LOCAL_TOPIC="${1}"
+LOCAL_MESSAGE="${2}"
 
 # =============================================================================
 # Functions
@@ -36,7 +36,7 @@ do
     i=`expr $i + 1`
 done
 
-$MOSQUITTO_PUB_BINARY -h $MQTT_SERVER_ADDRESS -p $MQTT_SERVER_PORT -q 1 -t $LOCAL_TOPIC -m "\"${LOCAL_MESSAGE}\""
+$MOSQUITTO_PUB_BINARY -h $MQTT_SERVER_ADDRESS -p $MQTT_SERVER_PORT -q 2 -t "$LOCAL_TOPIC" -m "\"${LOCAL_MESSAGE}\""
 
 exit 0
 
