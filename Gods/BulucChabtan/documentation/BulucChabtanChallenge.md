@@ -3,6 +3,6 @@
 
 <center><img src="http://www.ti.com/lsds/media/images/wireless_connectivity/50BillionThings.png"></center>
 
-<center><h1 style="color:blue;"><b>https://goo.gl/EaHYCN</b></h1></center>
+<center><b><h1 style="color:blue;">https://goo.gl/EaHYCN</h1></b></center>
 
 <center><b>Experiment, Make, Innovate</b></center>
