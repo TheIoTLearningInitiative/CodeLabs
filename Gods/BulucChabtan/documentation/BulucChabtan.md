@@ -82,17 +82,17 @@ __Tasks__
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
-> One Hour Phone Call
+> One Hour Phone Call Interview Dry Run
 > > 15 Minutes - Hardware Architecture
 > > 15 Minutes - Software Architecture
 > > 30 Minutes - Embedded Linux Architecture
 >
-> One Hour Workshop
+> One Hour Remote Workshop
 > > Linux Kernel Development Process
 
 ## Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
 
-> 2 Hours Workshop
+> Two Hours Remote Workshop
 > >  Internet of Things Architecture
 
 ## Ahau kan .. Sumo Sacerdote
