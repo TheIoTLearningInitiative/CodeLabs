@@ -6,7 +6,7 @@ Are you a University Student? Do you want to code, learn and contribute while yo
 
 ## Ppentac-ob .. Esclavos
 
-> Resume Review + 30 Minutes Phone Call
+> You earn a Resume Review + 30 Minutes Phone Call
 
 __Requirements__
 
@@ -82,19 +82,19 @@ __Tasks__
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
-> One Hour Phone Call Interview Dry Run
+> You earn One Hour Phone Call Interview Dry Run
 > > 15 Minutes - Hardware Architecture
 > > 15 Minutes - Software Architecture
 > > 30 Minutes - Embedded Linux Architecture
 >
-> One Hour Remote Workshop
+> and One Hour Remote Workshop
 > > Linux Kernel Development Process
 
 ## Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
 
-> Two Hours Remote Workshop
+> You earn Two Hours Remote Workshop
 > >  Internet of Things Architecture
 
 ## Ahau kan .. Sumo Sacerdote
 
-> Referral to my Employeer
+> You earn Referral to my Employeer
