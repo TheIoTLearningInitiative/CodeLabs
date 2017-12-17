@@ -16,8 +16,11 @@ __Requirements__
 
 - Linux Based Computer
 - Arduino Based Board
+  - Arduino UNO
+  - ...
 - Linux Based Board
   - Raspberry Pi
+  - ...
 
 __Accounts__
 
