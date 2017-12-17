@@ -22,6 +22,7 @@
 - https://www.flaticon.es/resultados?word=vehiculos
 - https://pypi.python.org/pypi/youtube_dl
 - https://github.com/Rapptz/discord.py
+- Discord https://discord.gg/gV2wH2
 
 ## Server
 
