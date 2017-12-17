@@ -1,7 +1,7 @@
 # Applications
 
 - Games
-  - As might get requested by Little Girl
+  - As might get requested by [#KmiLittleGirl](https://twitter.com/hashtag/KmiLittlePrincess?src=hash)
 - Shop
   - Amazon
   - Aliexpress
