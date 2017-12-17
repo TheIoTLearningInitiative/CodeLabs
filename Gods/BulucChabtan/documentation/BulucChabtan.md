@@ -6,7 +6,9 @@ Are you a University Student? Do you want to code, learn and contribute while yo
 
 Have you completed the "Ppentac-ob" challenge? Then mention us __@IoTLearningInit__ Twitter with Hashtag __#BulucChabtanChallenge__ or send us a Direct Message.
 
-## Ppentac-ob .. Esclavos
+## Challenge One
+
+> __Codename__ Ppentac-ob .. Esclavos
 
 > You earn a Resume Review + 30 Minutes Phone Call
 
@@ -87,7 +89,9 @@ __Tasks__
      - @ Hackster
      - @ Instructables
 
-## Ah Chembal Uinicoob .. Artesanos / Campesinos
+## Challenge Two
+
+> __Codename__ Ah Chembal Uinicoob .. Artesanos / Campesinos
 
 > You earn One Hour Phone Call Interview Dry Run
 > > 15 Minutes - Hardware Architecture
@@ -99,15 +103,18 @@ __Tasks__
 
 To be written once the previous challenge is completed.
 
-## Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
+## Challenge Three
+
+> __Codename__ Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
 
 > You earn Two Hours Remote Workshop
 > >  Internet of Things Architecture
 
 To be written once the previous challenge is completed.
 
-## Ahau kan .. Sumo Sacerdote
+## Challenge Four
 
+> __Codename__ Ahau kan .. Sumo Sacerdote
 > You earn Referral to my Employeer
 
 To be written once the previous challenge is completed.
