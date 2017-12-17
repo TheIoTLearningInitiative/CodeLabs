@@ -90,11 +90,17 @@ __Tasks__
 > and One Hour Remote Workshop
 > > Linux Kernel Development Process
 
+To be written once the previous challenge is completed.
+
 ## Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
 
 > You earn Two Hours Remote Workshop
 > >  Internet of Things Architecture
 
+To be written once the previous challenge is completed.
+
 ## Ahau kan .. Sumo Sacerdote
 
 > You earn Referral to my Employeer
+
+To be written once the previous challenge is completed.
