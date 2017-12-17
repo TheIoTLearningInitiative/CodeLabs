@@ -2,7 +2,7 @@
 
 > The god of war, violence and sacrifice. [Wikipedia](https://en.wikipedia.org/wiki/List_of_Maya_gods_and_supernatural_beings) [Short Url](https://goo.gl/EaHYCN)
 
-Are you a University Student? Do you want to access 
+Are you a University Student? Do you want to code, learn and contribute while you challenge yourself in the world of hardware and software?
 
 ## Ppentac-ob .. Esclavos
 
@@ -97,4 +97,4 @@ __Tasks__
 
 ## Ahau kan .. Sumo Sacerdote
 
-> Referral
+> Referral to my Employeer
