@@ -33,7 +33,7 @@ Please consider the following:
 
 __Tasks__
 
-0. __3 Schools Projects__
+0. __3 Schools Projects__ uploaded
    - @ Github
    - @ Hackster
    - @ Instructables
@@ -41,44 +41,49 @@ __Tasks__
    - Identify, deeply learn their architecture and list 10 development boards available
      - 5 Arduino Based
      - 5 Linux Based
-   - All this logged @ Github
+   - All this documented @ Github
 2. __Linux__
-   - Kernel Compilation Steps @ Github
-   - Kernel Config @ Github
+   - Kernel Compilation Steps documented @ Github
+   - Kernel Config uplaoded @ Github
 3. __Shell Scripting__
-   - 3 Scripts @ Github
+   - 3 Scripts uploaded @ Github
 4. __Python Programming Language__
-   - 3 Scripts @ Github
+   - 3 Scripts uploaded @ Github
 5. __Communications__
    - MQTT Protocol
      - Server __Implementation__
      - Client __Implementation__
        - Use Python
+     - All this uploaded and documented @ Github
 6. __Cloud Services__
    - Google Cloud
-     - Vision API __Implementation__ @ Github
-     - Translation API __Implementation__ @ Github
+     - Vision API __Implementation__ uploaded @ Github
+     - Translation API __Implementation__ uploaded @ Github
    - Amazon Alexa
-     - Alexa Voice Service __Implementation__ @ Github
+     - Alexa Voice Service __Implementation__ uploaded @ Github
 7. __Project Integration__
    - Think about one problem to solve
      - Personal
        - Automate your room
+       - ...
      - School
        - Automate your school laboratory
+       - ...
    - It needs to have the following components:
      - Server
        - Linux Based Computer
-     - Clients
+     - Client
        - Arduino
        - Raspberry Pi
+       - ...
      - Communications
        - MQTT Protocol
      - Cloud Services
-   - It needs to be a project @
-     - Github
-     - Hackster
-     - Instructables
+       - Any
+   - It needs to be a project uploaded
+     - @ Github
+     - @ Hackster
+     - @ Instructables
 
 ## Ah Chembal Uinicoob .. Artesanos / Campesinos
 
