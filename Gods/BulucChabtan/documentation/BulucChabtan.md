@@ -16,7 +16,6 @@ __Requirements__
 
 - Linux Based Computer
 - Arduino Based Board
-  - Arduino
 - Linux Based Board
   - Raspberry Pi
 
