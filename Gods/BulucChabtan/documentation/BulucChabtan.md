@@ -4,7 +4,7 @@
 
 Are you a University Student? Do you want to code, learn and contribute while you challenge yourself in the world of hardware and software?
 
-Have you completed the challenge? Then mention us @IoTLearningInit Twitter with Hashtag #BulucChabtanChallenge or send us a Direct Message.
+Have you completed the "Ppentac-ob" challenge? Then mention us @IoTLearningInit Twitter with Hashtag #BulucChabtanChallenge or send us a Direct Message.
 
 ## Ppentac-ob .. Esclavos
 
