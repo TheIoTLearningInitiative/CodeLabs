@@ -100,7 +100,7 @@ __Tasks__
 > > - 15 Minutes - Software Architecture
 > > - 30 Minutes - Embedded Linux Architecture
 >
-> and One Hour Remote Workshop
+> and One Hour Remote Workshop for you and your school
 > > Linux Kernel Development Process
 
 To be written once the previous challenge is completed.
@@ -109,7 +109,7 @@ To be written once the previous challenge is completed.
 
 > __Codename__ Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
 
-> You earn Two Hours Remote Workshop
+> You earn Two Hours Remote Workshop for you and your school
 > >  Internet of Things Architecture
 
 To be written once the previous challenge is completed.
