@@ -16,7 +16,6 @@ LOCAL_INSTITUTION=`Name.sh`
 LOCAL_DEVICE="Triki"
 LOCAL_VOLUME="1.0"
 LOCAL_LANGUAGE=`Language.sh`
-LOCAL_TTS_ENGINE="pico2wave"
 
 # =============================================================================
 # Functions
