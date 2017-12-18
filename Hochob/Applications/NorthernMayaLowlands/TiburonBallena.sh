@@ -16,7 +16,7 @@ export TIBURONBALLENA_DIRECTORY=$(dirname "$TIBURONBALLENA_PATH")
 LOCAL_DEVICE="Eek'"
 LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
-LOCAL_TTS_ENGINE="pico2wave"
+LOCAL_TTS_ENGINE="festival"
 
 # =============================================================================
 # Functions
