@@ -13,9 +13,9 @@ export ISLASMARIAS_NAME="IslasMarias"
 export ISLASMARIAS_PATH=$(readlink -f "$0")
 export ISLASMARIAS_DIRECTORY=$(dirname "$ISLASMARIAS_PATH")
 
-LOCAL_DEVICE="Eek'"
-LOCAL_LANGUAGE="spanish"
-LOCAL_TTS_ENGINE="festival"
+LOCAL_DEVICE=$HOCHOB_SERVER_APPLICATIONS_NORTHERN_MAYA_LOWLANDS_DEVICE
+LOCAL_LANGUAGE=`Language.sh`
+LOCAL_TTS_ENGINE=$HOCHOB_SERVER_APPLICATIONS_NORTHERN_MAYA_LOWLANDS_TTS_ENGINE
 
 LOCAL_QUESTION_SPANISH[0]="¿Cual fue la aportación de los Mayas?"
 LOCAL_QUESTION_SPANISH[1]="¿Cual es el sistema de numeración en el que los números se representan utilizando solamente dos cifras? cero y uno"
