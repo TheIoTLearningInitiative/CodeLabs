@@ -17,7 +17,7 @@ LOCAL_INSTITUTION=`Name.sh`
 LOCAL_DEVICE="Juum"
 LOCAL_VOLUME="1.0"
 LOCAL_LANGUAGE=`Language.sh`
-LOCAL_TTS_ENGINE="pico2wave"
+LOCAL_TTS_ENGINE="festival"
 
 # =============================================================================
 # Functions
