@@ -14,7 +14,7 @@ export JANOS_PATH=$(readlink -f "$0")
 export JANOS_DIRECTORY=$(dirname "$JANOS_PATH")
 
 LOCAL_INSTITUTION=`Name.sh`
-LOCAL_DEVICE="Juum"
+LOCAL_DEVICE="Eek'"
 LOCAL_VOLUME="1.0"
 LOCAL_LANGUAGE=`Language.sh`
 LOCAL_TTS_ENGINE="festival"
