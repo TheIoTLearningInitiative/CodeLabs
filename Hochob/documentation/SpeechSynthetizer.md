@@ -24,6 +24,7 @@ hochob@server:~$ espeak -w hbsSoundSsEspeakOutput.wav "hello world"
 
 ```sh
 sudo apt-get install festival festival-doc festvox-kdlpc16k festvox-ellpc11k
+sudo apt-get install festvox-don festvox-rablpc16k festvox-kallpc16k festvox-kdlpc16k
 ```
 
 ```sh
