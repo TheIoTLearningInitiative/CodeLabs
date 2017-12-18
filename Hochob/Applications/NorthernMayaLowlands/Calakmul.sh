@@ -9,7 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export CALAKMUL_PID=$$
-export CALAKMUL_NAME="Mapimi Application"
+export CALAKMUL_NAME="Calakmul"
 export CALAKMUL_PATH=$(readlink -f "$0")
 export CALAKMUL_DIRECTORY=$(dirname "$CALAKMUL_PATH")
 
@@ -26,7 +26,7 @@ export CALAKMUL_DIRECTORY=$(dirname "$CALAKMUL_PATH")
 LOCAL_INSTITUTION=`Name.sh`
 LOCAL_DEVICE="Eek'"
 LOCAL_LANGUAGE=`Language.sh`
-LOCAL_TTS_ENGINE="pico2wave"
+LOCAL_TTS_ENGINE="festival"
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
