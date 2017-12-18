@@ -20,6 +20,8 @@ hochob@server:~$ espeak -w hbsSoundSsEspeakOutput.wav "hello world"
 
 ## Festival
 
+- https://ubuntuforums.org/showthread.php?t=751169
+
 ```sh
 sudo apt-get install festival festival-doc festvox-kdlpc16k festvox-ellpc11k
 ```
