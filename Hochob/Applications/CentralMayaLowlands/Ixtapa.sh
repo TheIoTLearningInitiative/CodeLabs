@@ -14,10 +14,10 @@ export IXTAPA_PATH=$(readlink -f "$0")
 export IXTAPA_DIRECTORY=$(dirname "$IXTAPA_PATH")
 
 LOCAL_INSTITUTION=`Name.sh`
-LOCAL_DEVICE="Juum"
+LOCAL_DEVICE=$HOCHOB_SERVER_APPLICATIONS_CENTRAL_MAYA_HIGHLANDS_DEVICE
 LOCAL_VOLUME="1.0"
 LOCAL_LANGUAGE=`Language.sh`
-LOCAL_TTS_ENGINE="festival"
+LOCAL_TTS_ENGINE=$HOCHOB_SERVER_APPLICATIONS_CENTRAL_MAYA_LOWLANDS_TTS_ENGINE
 
 # =============================================================================
 # Functions
