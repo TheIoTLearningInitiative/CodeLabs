@@ -25,9 +25,9 @@ export HOCHOB_SERVER_CONFIGURATION_AMIKOOAVAILABLE=$HOCHOB_SERVER_CONFIGURATION/
 cd ~/CodeLabs/Hochob/
 export HOCHOB_ROOT=`pwd`
 
-# ------------------- #
-# Hochob Applications #
-# ------------------- #
+# -------------------------- #
+# Hochob Server Applications #
+# -------------------------- #
 
 HOCHOB_SERVER_APPLICATIONS_SOUTHERN_MAYA_HIGHLANDS_TTS_ENGINE="espeak"
 HOCHOB_SERVER_APPLICATIONS_CENTRAL_MAYA_LOWLANDS_TTS_ENGINE="festival"
