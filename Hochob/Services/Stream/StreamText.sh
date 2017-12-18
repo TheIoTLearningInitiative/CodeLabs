@@ -25,10 +25,10 @@ LOCAL_TEXT="$4"
 # Main
 # =============================================================================
 
-if [ -z "$LOCAL_LANGUAGE" ] 
-then
-    LOCAL_LANGUAGE="spanish"
-fi
+#if [ -z "$LOCAL_LANGUAGE" ] 
+#then
+#    LOCAL_LANGUAGE="spanish"
+#fi
 
 if [ "$LOCAL_DEVICE" = "Amikoo" ]; then
     AmikooVoice.sh $LOCAL_LANGUAGE "${LOCAL_TEXT}"
