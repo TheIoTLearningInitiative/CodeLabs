@@ -13,10 +13,10 @@ export HUATULCO_PATH=$(readlink -f "$0")
 export HUATULCO_DIRECTORY=$(dirname "$HUATULCO_PATH")
 
 LOCAL_INSTITUTION=`Name.sh`
-LOCAL_DEVICE="Triki"
+LOCAL_DEVICE=$HOCHOB_SERVER_APPLICATIONS_CENTRAL_MAYA_LOWLANDS_DEVICE
 LOCAL_VOLUME="1.0"
 LOCAL_LANGUAGE=`Language.sh`
-LOCAL_TTS_ENGINE="festival"
+LOCAL_TTS_ENGINE=$HOCHOB_SERVER_APPLICATIONS_CENTRAL_MAYA_LOWLANDS_TTS_ENGINE
 
 # =============================================================================
 # Functions
