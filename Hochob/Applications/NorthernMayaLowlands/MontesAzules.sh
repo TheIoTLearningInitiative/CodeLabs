@@ -9,6 +9,7 @@ set -x
 . ~/CodeLabs/Hochob/Main.sh
 
 export MONTESAZULES_PID=$$
+export MONTESAZULES_NAME="MontesAzules"
 export MONTESAZULES_PATH=$(readlink -f "$0")
 export MONTESAZULES_DIRECTORY=$(dirname "$MONTESAZULES_PATH")
 
@@ -31,6 +32,8 @@ LOCAL_TTS_ENGINE="festival"
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
     " \
+     Future Mathematicians. We have seen the importance of our Fabs and Labs. \
+     Now, we will get into a section where we can play and understand closely the technology.
     "
 else
     StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
