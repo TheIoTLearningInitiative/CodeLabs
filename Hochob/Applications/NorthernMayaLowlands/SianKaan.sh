@@ -13,6 +13,13 @@ export SIANKAAN_NAME="Mapimi Application"
 export SIANKAAN_PATH=$(readlink -f "$0")
 export SIANKAAN_DIRECTORY=$(dirname "$SIANKAAN_PATH")
 
+
+LOCAL_INSTITUTION=`Name.sh`
+LOCAL_DEVICE=$HOCHOB_SERVER_APPLICATIONS_NORTHERN_MAYA_LOWLANDS_DEVICE
+LOCAL_VOLUME=$HOCHOB_SERVER_APPLICATIONS_NORTHERN_MAYA_LOWLANDS_DEVICE_VOLUME
+LOCAL_LANGUAGE=`Language.sh`
+LOCAL_TTS_ENGINE=$HOCHOB_SERVER_APPLICATIONS_NORTHERN_MAYA_LOWLANDS_TTS_ENGINE
+
 # =============================================================================
 # Functions
 # =============================================================================
@@ -27,14 +34,18 @@ LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    SpeechSynthetizer.sh off espeak english \
-    "To be written"
+    StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
+    " \
+     To be written, ${LOCAL_INSTITUTION} \
+    "
 else
-    SpeechSynthetizer.sh off espeak spanish \
-    "Por escribirse, ${LOCAL_INSTITUTION}"
+    StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
+    " \
+     Por escribirse, ${LOCAL_INSTITUTION} \
+    "
 fi
 
-Stream.sh "Eek'" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/SianKaan.mp3" &
+Stream.sh $LOCAL_DEVICE $LOCAL_VOLUME "$AREA_NORTHERN_MAYA_LOWLANDS/SianKaan.mp3" &
 
 Amikoo.sh amikoo/headright 1
 sleep .75
