@@ -15,7 +15,7 @@ export ISLASMARIAS_DIRECTORY=$(dirname "$ISLASMARIAS_PATH")
 
 LOCAL_DEVICE="Eek'"
 LOCAL_LANGUAGE="spanish"
-LOCAL_TTS_ENGINE="pico2wave"
+LOCAL_TTS_ENGINE="festival"
 
 LOCAL_QUESTION_SPANISH[0]="¿Cual fue la aportación de los Mayas?"
 LOCAL_QUESTION_SPANISH[1]="¿Cual es el sistema de numeración en el que los números se representan utilizando solamente dos cifras? cero y uno"
