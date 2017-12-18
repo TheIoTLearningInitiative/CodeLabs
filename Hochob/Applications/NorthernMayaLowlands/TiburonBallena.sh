@@ -13,10 +13,11 @@ export TIBURONBALLENA_NAME="TiburonBallena"
 export TIBURONBALLENA_PATH=$(readlink -f "$0")
 export TIBURONBALLENA_DIRECTORY=$(dirname "$TIBURONBALLENA_PATH")
 
-LOCAL_DEVICE="Eek'"
 LOCAL_INSTITUTION=`Name.sh`
+LOCAL_DEVICE=$HOCHOB_SERVER_APPLICATIONS_NORTHERN_MAYA_LOWLANDS_DEVICE
+LOCAL_VOLUME=$HOCHOB_SERVER_APPLICATIONS_NORTHERN_MAYA_LOWLANDS_DEVICE_VOLUME
 LOCAL_LANGUAGE=`Language.sh`
-LOCAL_TTS_ENGINE="festival"
+LOCAL_TTS_ENGINE=$HOCHOB_SERVER_APPLICATIONS_NORTHERN_MAYA_LOWLANDS_TTS_ENGINE
 
 # =============================================================================
 # Functions
@@ -28,7 +29,7 @@ LOCAL_TTS_ENGINE="festival"
 # Main
 # =============================================================================
 
-StreamAudio.sh "Eek'" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/TiburonBallena/LiftoffSpaceXFalcon9CRS10Mission.mp4"
+StreamAudio.sh $LOCAL_DEVICE $LOCAL_VOLUME "$AREA_NORTHERN_MAYA_LOWLANDS/TiburonBallena/LiftoffSpaceXFalcon9CRS10Mission.mp4"
 
 StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
       " \
