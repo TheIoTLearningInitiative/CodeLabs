@@ -24,7 +24,7 @@ export CALAKMUL_DIRECTORY=$(dirname "$CALAKMUL_PATH")
 # =============================================================================
 
 LOCAL_INSTITUTION=`Name.sh`
-LOCAL_DEVICE="Juum"
+LOCAL_DEVICE="Eek"
 LOCAL_LANGUAGE=`Language.sh`
 LOCAL_TTS_ENGINE="festival"
 
