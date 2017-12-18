@@ -13,7 +13,7 @@ export CANCUN_PATH=$(readlink -f "$0")
 export CANCUN_DIRECTORY=$(dirname "$CANCUN_PATH")
 
 LOCAL_LANGUAGE=`Language.sh`
-LOCAL_DEVICE="Triki"
+LOCAL_DEVICE=$HOCHOB_SERVER_APPLICATIONS_CENTRAL_MAYA_LOWLANDS_DEVICE
 LOCAL_VOLUME="1.0"
 
 # =============================================================================
