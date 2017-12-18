@@ -47,7 +47,7 @@ fi
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     echo "Tbd"
 else
-    Stream.sh "Eek'" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/MontesAzules.mp3"
+    StreamAudio.sh "Eek'" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/MontesAzules.mp3"
 fi
 
 #kill -- -$(ps -o pgid=$MONTESAZULES_PID | grep -o '[0-9]*')
