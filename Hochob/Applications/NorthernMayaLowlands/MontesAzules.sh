@@ -12,6 +12,12 @@ export MONTESAZULES_PID=$$
 export MONTESAZULES_PATH=$(readlink -f "$0")
 export MONTESAZULES_DIRECTORY=$(dirname "$MONTESAZULES_PATH")
 
+LOCAL_INSTITUTION=`Name.sh`
+LOCAL_DEVICE="Eek'"
+LOCAL_INSTITUTION=`Name.sh`
+LOCAL_LANGUAGE=`Language.sh`
+LOCAL_TTS_ENGINE="festival"
+
 # =============================================================================
 # Functions
 # =============================================================================
@@ -22,20 +28,17 @@ export MONTESAZULES_DIRECTORY=$(dirname "$MONTESAZULES_PATH")
 # Main
 # =============================================================================
 
-LOCAL_INSTITUTION=`Name.sh`
-LOCAL_LANGUAGE=`Language.sh`
-LOCAL_TTS_ENGINE="pico2wave"
-
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
-    SpeechSynthetizer.sh off $LOCAL_TTS_ENGINE english \
-    ""
+    StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
+    " \
+    "
 else
-    SpeechSynthetizer.sh off $LOCAL_TTS_ENGINE spanish \
-    "Futuras y futuros Matemáticos. Ya vimos la importancia de nuestras Fábricas y Laboratorios. \
-    Ahora entraremos a una sección que nos permite jugar y conocer de cerca la tecnología."
+    StreamText.sh $LOCAL_DEVICE $LOCAL_LANGUAGE $LOCAL_TTS_ENGINE \
+    " \
+     Futuras y futuros Matemáticos. Ya vimos la importancia de nuestras Fábricas y Laboratorios. \
+     Ahora entraremos a una sección que nos permite jugar y conocer de cerca la tecnología. \
+    "
 fi
-
-Stream.sh "Eek'" "1.0" "$SPEECH_MP3"
 
 if [ "$LOCAL_LANGUAGE" = "english" ]; then
     echo "Tbd"
