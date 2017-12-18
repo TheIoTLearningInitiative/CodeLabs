@@ -13,7 +13,7 @@ export TIBURONBALLENA_NAME="TiburonBallena"
 export TIBURONBALLENA_PATH=$(readlink -f "$0")
 export TIBURONBALLENA_DIRECTORY=$(dirname "$TIBURONBALLENA_PATH")
 
-LOCAL_DEVICE="NohochTata"
+LOCAL_DEVICE="Eek'"
 LOCAL_INSTITUTION=`Name.sh`
 LOCAL_LANGUAGE=`Language.sh`
 LOCAL_TTS_ENGINE="festival"
