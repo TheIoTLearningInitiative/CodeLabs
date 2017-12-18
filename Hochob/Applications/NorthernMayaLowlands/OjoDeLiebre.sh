@@ -12,6 +12,12 @@ export OJODELIEBRE_PID=$$
 export OJODELIEBRE_PATH=$(readlink -f "$0")
 export OJODELIEBRE_DIRECTORY=$(dirname "$OJODELIEBRE_PATH")
 
+LOCAL_INSTITUTION=`Name.sh`
+LOCAL_DEVICE=$HOCHOB_SERVER_APPLICATIONS_NORTHERN_MAYA_LOWLANDS_DEVICE
+LOCAL_VOLUME=$HOCHOB_SERVER_APPLICATIONS_NORTHERN_MAYA_LOWLANDS_DEVICE_VOLUME
+LOCAL_LANGUAGE=`Language.sh`
+LOCAL_TTS_ENGINE=$HOCHOB_SERVER_APPLICATIONS_NORTHERN_MAYA_LOWLANDS_TTS_ENGINE
+
 # =============================================================================
 # Functions
 # =============================================================================
@@ -22,6 +28,6 @@ export OJODELIEBRE_DIRECTORY=$(dirname "$OJODELIEBRE_PATH")
 # Main
 # =============================================================================
 
-Stream.sh "Eek'" "1.0" "$AREA_NORTHERN_MAYA_LOWLANDS/OjoDeLiebre.mp3"
+Stream.sh $LOCAL_DEVICE $LOCAL_VOLUME "$AREA_NORTHERN_MAYA_LOWLANDS/OjoDeLiebre.mp3"
 
 # End of File
