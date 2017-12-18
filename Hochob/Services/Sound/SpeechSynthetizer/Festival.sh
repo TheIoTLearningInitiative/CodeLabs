@@ -39,7 +39,7 @@ then
     #echo "${FESTIVAL_TEXT}" | $FESTIVAL_CONVERSION | $FESTIVAL_BINARY $FESTIVAL_COMMANDLINE $FESTIVAL_LANGUAGE 
     #$FESTIVAL_BINARY $FESTIVAL_COMMANDLINE $FESTIVAL_FILE
     if [ "$LOCAL_LANGUAGE" = "english" ]; then
-        echo "(set! voice_default kal_diphone)" > ~/.festivalrc
+        echo "(set! voice_default voice_ked_diphone)" > ~/.festivalrc
     elif [ "$LOCAL_LANGUAGE" = "spanish" ]; then
         echo "(set! voice_default voice_JuntaDeAndalucia_es_pa_diphone)" > ~/.festivalrc
     fi
