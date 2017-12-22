@@ -35,11 +35,15 @@
     - Buffer Cache
     - Device Drivers
     - Physical Devices
+    - linux/fs/
   - Memory Management
-      - linux/mm/
+    - linux/mm/
   - Network Stack
+    - linux/net/
   - Arch
+    - linux/arch
   - Device Drivers
+    - linux/drivers
 
 ```
 C Standard library	open(), exec(), sbrk(), socket(), fopen(), calloc(), ... (up to 2000 subroutines)
