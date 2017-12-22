@@ -48,6 +48,10 @@
     - linux/arch
   - Device Drivers
     - linux/drivers
+    - Types
+      - Character
+      - Block
+      - Network
 
 ```
 C Standard library	open(), exec(), sbrk(), socket(), fopen(), calloc(), ... (up to 2000 subroutines)
