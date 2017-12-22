@@ -4,6 +4,16 @@
 
 - [Anatomy of the Linux kernel](https://www.ibm.com/developerworks/library/l-linux-kernel/index.html)
 
+
+C tandard library	open(), exec(), sbrk(), socket(), fopen(), calloc(), ... (up to 2000 subroutines)
+glibc aims to be POSIX/SUS-compatible, uClibc targets embedded systems, bionic written for Android, etc.
+
+## User Space
+
+> [](https://en.wikipedia.org/wiki/User_space)
+
+## Kernel Space
+
 - System Call Interface
 - Kernel
 - Architecture Dependent Code
