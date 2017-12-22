@@ -71,6 +71,7 @@
     * [SpeechRecognition](ChichenItza/documentation/SpeechRecognition.md)
 * [Coba](Coba/documentation/Coba.md)
   * [Linux Kernel Development Process](Coba/Documentation/LinuxKernelDevelopmentProcess/LinuxKernelDevelopmentProcess.md)
+    * [A Guide To The Linux Kernel Development Process](Coba/Documentation/LinuxKernelDevelopmentProcess/AGuideToTheLinuxKernelDevelopmentProcess.md)
   * [Linux Kernel Architecture](Coba/Documentation/LinuxKernelArchitecture/LinuxKernelArchitecture.md)
   * [Linux Kernel Build System](Coba/Documentation/LinuxKernelBuildSystem/LinuxKernelBuildSystem.md)
   * [Linux Kernel Module](Coba/Documentation/LinuxKernelModule/LinuxKernelModule.md)
