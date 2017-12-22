@@ -48,6 +48,7 @@ https://lkml.org/lkml/2010/11/2/147
 - Read how unprepared code submissions make Linus Torvalds mad 
 http://thread.gmane.org/gmane.linux.kernel/1114495/focus=112007
 
+```sh
 $ vi README
 
 $ git log
@@ -59,3 +60,4 @@ $ git ls-files arch/arm | grep gpio | wc -l
 
 $ git ls-files arch/powerpc | grep gpio
 $ git ls-files arch/powerpc | grep gpio | wc -l
+```
