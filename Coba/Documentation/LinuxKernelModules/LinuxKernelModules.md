@@ -11,7 +11,7 @@ user@workstation:~$ mkdir helloworld
 Create helloworld.c file under our helloworld directory and add the C code below, this is a simple Hello World Kernel Module
 
 ```sh
-user@workstation:~$ nano helloworld/helloworld.c
+user@workstation:~/helloworld$ helloworld.c
 ```
 
 ```sh
@@ -44,7 +44,7 @@ module_exit(module_exit_function);
 Create the Makefile under helloworld directory and add the code below
 
 ```sh
-user@workstation:~$ nano helloworld/Makefile
+user@workstation:~/helloworld$ nano Makefile
 obj-m += helloworld.o
 
 all:
@@ -58,14 +58,14 @@ clean:
 Now compile your Hello World Module
 
 ```sh
-xe1gyq@kali:~/helloworld$ make
-make -C /lib/modules/4.12.0-kali2-amd64/build M=/home/xe1gyq/helloworld modules
+user@workstation:~/helloworld$ make
+make -C /lib/modules/4.12.0-kali2-amd64/build M=/home/user/helloworld modules
 make[1]: Entering directory '/usr/src/linux-headers-4.12.0-kali2-amd64'
-  CC [M]  /home/xe1gyq/helloworld/helloworld.o
+  CC [M]  /home/user/helloworld/helloworld.o
   Building modules, stage 2.
   MODPOST 1 modules
-  CC      /home/xe1gyq/helloworld/helloworld.mod.o
-  LD [M]  /home/xe1gyq/helloworld/helloworld.ko
+  CC      /home/user/helloworld/helloworld.mod.o
+  LD [M]  /home/user/helloworld/helloworld.ko
 make[1]: Leaving directory '/usr/src/linux-headers-4.12.0-kali2-amd64'
-xe1gyq@kali:~/helloworld$ 
+user@workstation:~/helloworld$ 
 ```
