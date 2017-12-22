@@ -107,3 +107,19 @@ $ cat 0001-Linux-3.6.patch
 
 checkout version 3.5 and generate top patch where version is changed
 
+## Mailing lists
+
+```sh
+$ git log | grep vger.kernel.org
+$ vi MAINTAINERS
+```
+
+## How patches get into the kernel
+
+None
+
+```sh
+$ git log | grep torvalds
+$ git log | grep Torvalds | wc -l
+```
+
