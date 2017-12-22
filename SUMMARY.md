@@ -77,7 +77,7 @@
   * [Linux Kernel Modules](Coba/Documentation/LinuxKernelModules/LinuxKernelModules.md)
   * [Linux Kernel Build System](Coba/Documentation/LinuxKernelBuildSystem/LinuxKernelBuildSystem.md)
   * [Linux Kernel Patch](Coba/Documentation/LinuxKernelPatch/LinuxKernelPatch.md)
-    * Patch
+    * [Patchset](Coba/Documentation/LinuxKernelPatch/LinuxKernelPatchset.md)
   * [Linux Kernel Device Drivers](Coba/Documentation/LinuxKernelDeviceDrivers/LinuxKernelDeviceDrivers.md)
   * [Loadable Kernel Module](Coba/documentation/LoadableKernelModule.md)
 * [Dos Pilas](DosPilas/documentation/DosPilas.md)
