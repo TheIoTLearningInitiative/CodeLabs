@@ -55,6 +55,12 @@ clean:
 
 ## Hello World Module Compilation
 
+```
+user@workstation:~/helloworld$ ls
+helloworld.c  Makefile
+user@workstation:~/helloworld$  
+```
+
 Now compile your Hello World Module
 
 ```sh
