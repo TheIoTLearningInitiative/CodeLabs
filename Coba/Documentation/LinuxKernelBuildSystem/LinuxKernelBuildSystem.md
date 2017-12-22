@@ -4,10 +4,8 @@
 
 ## Prerequisites
 
-Please read the "Kbuild: the Linux Kernel Build System" carefully, you will understand how this system works  
+Please read the "Kbuild: the Linux Kernel Build System" carefully, you will understand how this system works
 [Kbuild Linux Kernel Build System](http://www.linuxjournal.com/content/kbuild-linux-kernel-build-system)
-
-Do you want to do another Linux Kernel Build System exercise by writing a Hello World Kernel Module? then keep reading...
 
 ## Hello World Module
 
