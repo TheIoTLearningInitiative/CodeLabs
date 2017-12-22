@@ -40,6 +40,8 @@
     - linux/fs/
   - Memory Management
     - linux/mm/
+    - Statically, Boot Time
+    - Dinamically, Page Collector
   - Network Stack
     - linux/net/
   - Arch
