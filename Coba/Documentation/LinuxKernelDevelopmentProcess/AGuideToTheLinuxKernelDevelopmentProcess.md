@@ -76,6 +76,8 @@ $ git log | grep signed-off
 
 ## How the process development works
 
+- [Ask a kernel developer: maintainer workflow](https://lwn.net/Articles/512720/)
+
 ### The big picture
 
 > _Nobody knows when a kernel will be released, because it's released according to perceived bug status, not according to a	preconceived timeline._
