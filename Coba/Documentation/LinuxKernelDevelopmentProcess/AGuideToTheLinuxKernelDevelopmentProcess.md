@@ -2,8 +2,8 @@
 
 Let’s get started
 
-Ask Wikipedia about [Free Software](http://en.wikipedia.org/wiki/Free_software)
-Ask Wikipedia about [Linux Kernel](http://en.wikipedia.org/wiki/Linux_Kernel)
+- Ask Wikipedia about [Free Software](http://en.wikipedia.org/wiki/Free_software)
+- Ask Wikipedia about [Linux Kernel](http://en.wikipedia.org/wiki/Linux_Kernel)
 
 ```sh
 $ git ls-files
