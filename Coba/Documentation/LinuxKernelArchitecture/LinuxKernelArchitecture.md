@@ -7,6 +7,7 @@
 - https://cse.yeditepe.edu.tr/~kserdaroglu/spring2014/cse331/termproject/BOOKS/ProfessionalLinuxKernelArchitecture-WolfgangMauerer.pdf
 - http://www.informit.com/articles/article.aspx?p=389712&seqNum=3
 - https://0xax.gitbooks.io/linux-insides/content/index.html
+- Ask a Kernel Developer Lwn
 
 - User Space
   - User Applications
