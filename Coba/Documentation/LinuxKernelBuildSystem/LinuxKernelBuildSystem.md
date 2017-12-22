@@ -7,7 +7,7 @@
 Please read the "Kbuild: the Linux Kernel Build System" carefully, you will understand how this system works
 [Kbuild Linux Kernel Build System](http://www.linuxjournal.com/content/kbuild-linux-kernel-build-system)
 
-## Hello World Source Code Module
+## Hello World Module Source Code
 
 Make a "helloworld" directory under drivers
 
@@ -46,7 +46,7 @@ module_init(module_init_function);
 module_exit(module_exit_function);
 ```
 
-## Hello World Kconfig
+## Hello World Module Kconfig
 
 Create the Kconfig file under helloworld directory and add the code below, make sure indentation is correct
 
@@ -62,7 +62,7 @@ config HELLO_WORLD
 endmenu
 ```
 
-## Hello World Makefile
+## Hello World Module Makefile
 
 Create the Makefile under helloworld directory and add the code below
 

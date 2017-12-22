@@ -1,6 +1,6 @@
 # Linux Kernel Modules
 
-## Hello World Source Code Module
+## Hello World Module Source Code
 
 Make a "helloworld" directory
 
@@ -39,7 +39,7 @@ module_init(module_init_function);
 module_exit(module_exit_function);
 ```
 
-## Hello World Makefile
+## Hello World Module Makefile
 
 Create the Makefile under helloworld directory and add the code below
 
@@ -76,7 +76,7 @@ make[1]: Leaving directory '/usr/src/linux-headers-4.12.0-kali2-amd64'
 user@workstation:~/helloworld$ 
 ```
 
-## Hello World Module
+## Hello World Module Binary
 
 ```sh
 user@workstation:~/helloworld$ ls
