@@ -84,6 +84,7 @@ $ git log | grep signed-off
 
 - [](https://git.kernel.org/pub/linux/kernel/v4.x/)
 - [Linux Kernel's Source Management Tool](https://git-scm.com/)
+- [](http://kerneltrap.org/node/14152)
 
 #### 4.x.y -Stable Kernel Tree
 
