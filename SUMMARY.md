@@ -76,6 +76,8 @@
   * [Linux Kernel Compilation](Coba/Documentation/LinuxKernelCompilation/LinuxKernelCompilation.md)
   * [Linux Kernel Modules](Coba/Documentation/LinuxKernelModules/LinuxKernelModules.md)
   * [Linux Kernel Build System](Coba/Documentation/LinuxKernelBuildSystem/LinuxKernelBuildSystem.md)
+    * [Compilation Kernel Object](Coba/Documentation/LinuxKernelBuildSystem/LinuxKernelBuildSystemCompilationKernelObject.md)
+    * [Compilation Built-In](Coba/Documentation/LinuxKernelBuildSystem/LinuxKernelBuildSystemCompilationBuiltIn.md)
   * [Linux Kernel Patch](Coba/Documentation/LinuxKernelPatch/LinuxKernelPatch.md)
     * [Patchset](Coba/Documentation/LinuxKernelPatch/LinuxKernelPatchset.md)
   * [Linux Kernel Device Drivers](Coba/Documentation/LinuxKernelDeviceDrivers/LinuxKernelDeviceDrivers.md)
