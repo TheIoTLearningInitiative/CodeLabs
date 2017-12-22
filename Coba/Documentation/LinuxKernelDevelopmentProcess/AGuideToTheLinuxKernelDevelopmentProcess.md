@@ -61,3 +61,13 @@ $ git ls-files arch/arm | grep gpio | wc -l
 $ git ls-files arch/powerpc | grep gpio
 $ git ls-files arch/powerpc | grep gpio | wc -l
 ```
+
+## Licensing
+
+- Ask Wikipedia about GNU General Public License http://en.wikipedia.org/wiki/Gpl
+
+```sh
+$ git grep GPLv2
+$ vi COPYING
+$ git log | grep signed-off
+```
