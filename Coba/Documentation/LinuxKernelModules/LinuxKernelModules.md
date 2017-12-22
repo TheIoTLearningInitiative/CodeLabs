@@ -1,6 +1,6 @@
 # Linux Kernel Modules
 
-## Hello World Module
+## Hello World Source Code
 
 Make a "helloworld" directory
 
@@ -53,7 +53,7 @@ clean:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
 ```
 
-# Hello World Compilation
+# Hello World Module Compilation
 
 Now compile your Hello World Module
 
@@ -69,3 +69,5 @@ make[1]: Entering directory '/usr/src/linux-headers-4.12.0-kali2-amd64'
 make[1]: Leaving directory '/usr/src/linux-headers-4.12.0-kali2-amd64'
 user@workstation:~/helloworld$ 
 ```
+
+# Hello World 
