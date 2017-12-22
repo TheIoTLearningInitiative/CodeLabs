@@ -8,10 +8,19 @@
 - User Space
   - User Applications
   - GNU C Library
+    - Glibc aims to be POSIX/SUS-compatible
+    - uClibc targets embedded systems
+    - bionic written for Android
 - Kernel Space
   - System Call Interface
+    - read()
+    - write()
   - Kernel
+    - Architecture independent kernel code
+    - Common to all processor architectures
   - Architecture Dependent Kernel Code
+    - Processor and Platform specific code
+    - Aka Board Support Package
 
 ```
 C Standard library	open(), exec(), sbrk(), socket(), fopen(), calloc(), ... (up to 2000 subroutines)
