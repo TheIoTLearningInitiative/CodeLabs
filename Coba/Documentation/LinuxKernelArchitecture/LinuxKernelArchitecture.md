@@ -5,6 +5,12 @@
 - [Anatomy of the Linux kernel](https://www.ibm.com/developerworks/library/l-linux-kernel/index.html)
 
 - System Call Interface
+- Kernel
+- Architecture Dependent Code
 - Process Management
 - Memory Management
+- 
+
+Kernel Subsystems
+
 - 
