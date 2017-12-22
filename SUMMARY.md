@@ -72,7 +72,7 @@
 * [Coba](Coba/documentation/Coba.md)
   * Linux Kernel Development Process
   * Linux Kernel Architecture
-  * [Linux Kernel Module](Coba/documentation/LinuxKernelModule.md)
+  * [Linux Kernel Modules](Coba/Documentation/LinuxKernelModule/LinuxKernelModule.md)
   * [Linux Kernel Build System](Coba/Documentation/LinuxKernelBuildSystem/LinuxKernelBuildSystem.md)
   * [Loadable Kernel Module](Coba/documentation/LoadableKernelModule.md)
 * [Dos Pilas](DosPilas/documentation/DosPilas.md)
