@@ -2,7 +2,7 @@
 
 > _The kernel has many abstraction layers and levels of indirection and because its build system allows for creating highly customized kernel binary images._
 
-## Overview
+## Prerequisites
 
 Please read the "Kbuild: the Linux Kernel Build System" carefully, you will understand how this system works  
 [Kbuild Linux Kernel Build System](http://www.linuxjournal.com/content/kbuild-linux-kernel-build-system)
