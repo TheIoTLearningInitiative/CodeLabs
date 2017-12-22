@@ -53,15 +53,3 @@
       - Block
       - Network
 
-```
-C Standard library	open(), exec(), sbrk(), socket(), fopen(), calloc(), ... (up to 2000 subroutines)
-glibc aims to be POSIX/SUS-compatible, uClibc targets embedded systems, bionic written for Android, etc.
-```
-
-## User Space
-
-> [](https://en.wikipedia.org/wiki/User_space)
-
-## Kernel Space
-
-> 
