@@ -7,7 +7,7 @@
 Please read the "Kbuild: the Linux Kernel Build System" carefully, you will understand how this system works
 [Kbuild Linux Kernel Build System](http://www.linuxjournal.com/content/kbuild-linux-kernel-build-system)
 
-## Hello World Module
+## Hello World Source Code Module
 
 Make a "helloworld" directory under drivers
 
