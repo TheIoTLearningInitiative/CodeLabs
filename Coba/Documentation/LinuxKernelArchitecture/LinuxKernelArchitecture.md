@@ -23,7 +23,13 @@
     - Aka Board Support Package
 
 - Kernel Subsystems
-  - 
+  - System Call Interface
+  - Process Management
+  - Virtual File System
+  - Memory Management
+  - Network Stack
+  - Arch
+  - Device Drivers
 
 ```
 C Standard library	open(), exec(), sbrk(), socket(), fopen(), calloc(), ... (up to 2000 subroutines)
