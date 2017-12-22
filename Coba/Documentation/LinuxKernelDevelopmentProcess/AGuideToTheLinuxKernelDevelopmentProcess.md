@@ -66,7 +66,7 @@ $ git ls-files arch/powerpc | grep gpio | wc -l
 
 ## Licensing
 
-- Ask Wikipedia about GNU General Public License http://en.wikipedia.org/wiki/Gpl
+- Ask Wikipedia about [GNU General Public License](http://en.wikipedia.org/wiki/Gpl)
 
 ```sh
 $ git grep GPLv2
