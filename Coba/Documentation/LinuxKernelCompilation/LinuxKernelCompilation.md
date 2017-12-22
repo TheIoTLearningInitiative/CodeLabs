@@ -1,7 +1,6 @@
 # Linux Kernel Compilation
 
-> Objective: Understand the Linux Kernel compilation process
-> Proficiency Level: Basic
+> Understand the Linux Kernel compilation process
 
 ```sh
 root@workstation:~# apt-get update
