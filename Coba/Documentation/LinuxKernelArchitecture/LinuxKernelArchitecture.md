@@ -5,6 +5,7 @@
 - [Anatomy of the Linux kernel](https://www.ibm.com/developerworks/library/l-linux-kernel/index.html)
 - https://www.slideshare.net/dominiquec/architecture-of-the-linux-kernel-1851975
 - https://cse.yeditepe.edu.tr/~kserdaroglu/spring2014/cse331/termproject/BOOKS/ProfessionalLinuxKernelArchitecture-WolfgangMauerer.pdf
+- http://www.informit.com/articles/article.aspx?p=389712&seqNum=3
 
 - User Space
   - User Applications
