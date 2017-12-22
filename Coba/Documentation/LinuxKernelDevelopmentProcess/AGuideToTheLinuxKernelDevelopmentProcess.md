@@ -78,6 +78,9 @@ $ git log | grep signed-off
 
 ### The big picture
 
+> _Nobody knows when a kernel will be released, because it's released according to perceived bug status, not according to a	preconceived timeline._
+
+
 - Go to mainline, the main repository of the Linux Kernel source code
 http://git.kernel.org/?p=linux/kernel/git/torvalds/linux.git
 - Review section “tags”
