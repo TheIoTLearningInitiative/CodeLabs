@@ -93,3 +93,17 @@ https://lkml.org/lkml/2012/3/18/132
 ```sh
 $ git tag -l
 ```
+
+## The lifecycle of a patch
+
+```sh
+$ git checkout –b my.master origin/master
+$ git tag -l
+$ git checkout v3.6
+$ git log
+$ git format-patch -s -1
+$ cat 0001-Linux-3.6.patch
+```
+
+checkout version 3.5 and generate top patch where version is changed
+
