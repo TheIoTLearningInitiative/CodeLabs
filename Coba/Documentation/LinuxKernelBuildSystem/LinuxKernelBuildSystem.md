@@ -12,13 +12,13 @@ Please read the "Kbuild: the Linux Kernel Build System" carefully, you will unde
 Make a "helloworld" directory under drivers
 
 ```sh
-user@workstation:~$ mkdir drivers/helloworld
+user@workstation:~/linux$ mkdir drivers/helloworld
 ```
 
 Create helloworld.c file under our helloworld directory and add the C code below, this is a simple Hello World Kernel Module
 
 ```sh
-user@workstation:~$ nano drivers/helloworld/helloworld.c
+user@workstation:~/linux$ nano drivers/helloworld/helloworld.c
 ```
 
 ```sh
@@ -51,7 +51,7 @@ module_exit(module_exit_function);
 Create the Kconfig file under helloworld directory and add the code below, make sure indentation is correct
 
 ```sh
-user@workstation:~$ nano drivers/helloworld/Kconfig
+user@workstation:~/linux$ nano drivers/helloworld/Kconfig
 menu "Hello Module Kernel Support"
 
 config HELLO_WORLD
@@ -67,7 +67,7 @@ endmenu
 Create the Makefile under helloworld directory and add the code below
 
 ```sh
-user@workstation:~$ nano drivers/helloworld/Makefile
+user@workstation:~/linux$ nano drivers/helloworld/Makefile
 obj-$(CONFIG_HELLO_WORLD)               += helloworld.o
 ```
 
@@ -78,7 +78,7 @@ obj-$(CONFIG_HELLO_WORLD)               += helloworld.o
 Modify Kconfig under drivers directory and add the line with helloworld
 
 ```sh
-user@workstation:~$ nano drivers/Kconfig
+user@workstation:~/linux$ nano drivers/Kconfig
 menu "Device Drivers"
 
 source "drivers/helloworld/Kconfig"
@@ -91,7 +91,7 @@ source "drivers/amba/Kconfig"
 > Compiling Hello World Directory
 
 Modify Makefile under drivers directory and add the line with CONFIG\_HELLO\_WORLD  
-user@workstation:~$ nano drivers/Makefile
+user@workstation:~/linux$ nano drivers/Makefile
 
 ```sh
 #
@@ -127,12 +127,12 @@ no changes added to commit (use "git add" and/or "git commit -a")
 user@workstation:~/linux$ 
 ```
 
-# Hello World Menuconfig
+## Hello World Menuconfig
 
 We are ready to view our Hello World Module under menuconfig
 
 ```sh
-user@workstation:~$ make menuconfig
+user@workstation:~/linux$ make menuconfig
 ```
 
 Go to its location under  
@@ -174,7 +174,7 @@ modify Kconfig so you can have it built as default
  Symbol: HELLO_WORLD [=n]
 ```
 
-# Hello World Compilation
+## Hello World Compilation Module
 
 Now compile your Hello World Module both as module and built-in into the  
 Kernel image making sure you boot your system twice to confirm your  
@@ -183,7 +183,7 @@ changes using dmesg command
 As Module \(M\)
 
 ```sh
-user@workstation:~$ make
+user@workstation:~/linux$ make
   CHK     include/config/kernel.release
   CHK     include/generated/uapi/linux/version.h
   CHK     include/generated/utsrelease.h
@@ -196,15 +196,15 @@ Kernel: arch/x86/boot/bzImage is ready  (#2)
   MODPOST 2255 modules
   CC      drivers/helloworld/helloworld.mod.o
   LD [M]  drivers/helloworld/helloworld.ko
-root@workstation:~# make modules_install
-root@workstation:~# make install
-root@workstation:~# shutdown -r now
+root@workstation:~/linux# make modules_install
+root@workstation:~/linux# make install
+root@workstation:~/linux# shutdown -r now
 <reboot>
 root@workstation:~# modprobe helloworld
 root@workstation:~# dmesg
 ```
 
-Built-In \(\*\)
+## Hello World Compilation Built-In \(\*\)
 
 ```sh
 user@workstation:~$ make
