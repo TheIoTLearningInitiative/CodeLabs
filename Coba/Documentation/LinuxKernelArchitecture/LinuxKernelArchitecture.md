@@ -57,13 +57,3 @@ glibc aims to be POSIX/SUS-compatible, uClibc targets embedded systems, bionic w
 
 ## Kernel Space
 
-- System Call Interface
-- Kernel
-- Architecture Dependent Code
-- Process Management
-- Memory Management
-- 
-
-Kernel Subsystems
-
-- 
