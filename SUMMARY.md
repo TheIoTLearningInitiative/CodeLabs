@@ -74,6 +74,7 @@
   * [Linux Kernel Architecture](Coba/Documentation/LinuxKernelArchitecture/LinuxKernelArchitecture.md)
   * [Linux Kernel Module](Coba/Documentation/LinuxKernelModule/LinuxKernelModule.md)
   * [Linux Kernel Build System](Coba/Documentation/LinuxKernelBuildSystem/LinuxKernelBuildSystem.md)
+  * [Linux Kernel Patch](Coba/Documentation/LinuxKernelPatch/LinuxKernelPatch.md)
   * [Loadable Kernel Module](Coba/documentation/LoadableKernelModule.md)
 * [Dos Pilas](DosPilas/documentation/DosPilas.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
