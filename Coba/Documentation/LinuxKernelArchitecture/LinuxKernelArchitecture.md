@@ -31,7 +31,7 @@
       - linux/kernel/
       - linux/arch/
   - Virtual File System
-    - Ext3 .. NFS
+    - Ext3 .. NFS .. /proc
     - Buffer Cache
     - Device Drivers
     - Physical Devices
