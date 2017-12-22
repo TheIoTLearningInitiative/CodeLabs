@@ -83,5 +83,3 @@ user@workstation:~/helloworld$ ls
 helloworld.c  helloworld.ko  helloworld.mod.c  helloworld.mod.o  helloworld.o  Makefile  modules.order	Module.symvers
 user@workstation:~/helloworld$ 
 ```
-
-#
