@@ -55,83 +55,17 @@ clean:
 
 # Hello World Compilation
 
-Now compile your Hello World Module both as module and built-in into the  
-Kernel image making sure you boot your system twice to confirm your  
-changes using dmesg command
-
-As Module \(M\)
+Now compile your Hello World Module
 
 ```sh
-user@workstation:~$ make
-  CHK     include/config/kernel.release
-  CHK     include/generated/uapi/linux/version.h
-  CHK     include/generated/utsrelease.h
-  CALL    scripts/checksyscalls.sh
-  CHK     include/generated/compile.h
-  LD      drivers/helloworld/built-in.o
-  CC [M]  drivers/helloworld/helloworld.o
-Kernel: arch/x86/boot/bzImage is ready  (#2)
+xe1gyq@kali:~/helloworld$ make
+make -C /lib/modules/4.12.0-kali2-amd64/build M=/home/xe1gyq/helloworld modules
+make[1]: Entering directory '/usr/src/linux-headers-4.12.0-kali2-amd64'
+  CC [M]  /home/xe1gyq/helloworld/helloworld.o
   Building modules, stage 2.
-  MODPOST 2255 modules
-  CC      drivers/helloworld/helloworld.mod.o
-  LD [M]  drivers/helloworld/helloworld.ko
-root@workstation:~# make modules_install
-root@workstation:~# make install
-root@workstation:~# shutdown -r now
-<reboot>
-root@workstation:~# modprobe helloworld
-root@workstation:~# dmesg
-```
-
-Built-In \(\*\)
-
-```sh
-user@workstation:~$ make
-xe1gyq@Minnowboard:~/linux$ make                                                                                                               
-scripts/kconfig/conf --silentoldconfig Kconfig
-  CHK     include/config/kernel.release                    
-  CHK     include/generated/uapi/linux/version.h                    
-  CHK     include/generated/utsrelease.h            
-  CALL    scripts/checksyscalls.sh                    
-  CHK     include/generated/compile.h                    
-  CC      drivers/helloworld/helloworld.o                    
-  LD      drivers/helloworld/built-in.o                    
-  LD      drivers/built-in.o                    
-  LINK    vmlinux                    
-  LD      vmlinux.o                    
-  MODPOST vmlinux.o                    
-  GEN     .version                    
-  CHK     include/generated/compile.h                    
-  UPD     include/generated/compile.h
-  CC      init/version.o                    
-  LD      init/built-in.o                    
-  KSYM    .tmp_kallsyms1.o                    
-  KSYM    .tmp_kallsyms2.o                    
-  LD      vmlinux
-  SORTEX  vmlinux
-  SYSMAP  System.map
-  VOFFSET arch/x86/boot/voffset.h
-  OBJCOPY arch/x86/boot/compressed/vmlinux.bin
-  GZIP    arch/x86/boot/compressed/vmlinux.bin.gz
-  MKPIGGY arch/x86/boot/compressed/piggy.S
-  AS      arch/x86/boot/compressed/piggy.o
-  LD      arch/x86/boot/compressed/vmlinux
-  ZOFFSET arch/x86/boot/zoffset.h
-  AS      arch/x86/boot/header.o
-  CC      arch/x86/boot/version.o
-  LD      arch/x86/boot/setup.elf
-  OBJCOPY arch/x86/boot/setup.bin
-  OBJCOPY arch/x86/boot/vmlinux.bin
-  BUILD   arch/x86/boot/bzImage
-Setup is 17516 bytes (padded to 17920 bytes).
-System is 4046 kB
-CRC 113cf27d
-Kernel: arch/x86/boot/bzImage is ready  (#3)
-  Building modules, stage 2.
-  MODPOST 2254 modules
-root@workstation:~# make modules_install
-root@workstation:~# make install
-root@workstation:~# shutdown -r now
-<reboot>
-user@workstation:~$ dmesg
+  MODPOST 1 modules
+  CC      /home/xe1gyq/helloworld/helloworld.mod.o
+  LD [M]  /home/xe1gyq/helloworld/helloworld.ko
+make[1]: Leaving directory '/usr/src/linux-headers-4.12.0-kali2-amd64'
+xe1gyq@kali:~/helloworld$ 
 ```
