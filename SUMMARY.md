@@ -70,9 +70,9 @@
       * [PyAudio](ChichenItza/documentation/CmuSphynxPyAudio.md)
     * [SpeechRecognition](ChichenItza/documentation/SpeechRecognition.md)
 * [Coba](Coba/documentation/Coba.md)
-  * Linux Kernel Development Process
-  * Linux Kernel Architecture
-  * [Linux Kernel Modules](Coba/Documentation/LinuxKernelModule/LinuxKernelModule.md)
+  * [Linux Kernel Development Process](Coba/Documentation/LinuxKernelDevelopmentProcess/LinuxKernelDevelopmentProcess.md)
+  * [Linux Kernel Architecture](Coba/Documentation/LinuxKernelArchitecture/LinuxKernelArchitecture.md)
+  * [Linux Kernel Module](Coba/Documentation/LinuxKernelModule/LinuxKernelModule.md)
   * [Linux Kernel Build System](Coba/Documentation/LinuxKernelBuildSystem/LinuxKernelBuildSystem.md)
   * [Loadable Kernel Module](Coba/documentation/LoadableKernelModule.md)
 * [Dos Pilas](DosPilas/documentation/DosPilas.md)
