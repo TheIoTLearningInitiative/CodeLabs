@@ -24,9 +24,19 @@
 
 - Kernel Subsystems
   - System Call Interface
+    - linux/kernel/
+    - linux/arch/
   - Process Management
+    - Scheduler
+      - linux/kernel/
+      - linux/arch/
   - Virtual File System
+    - Ext3 .. NFS
+    - Buffer Cache
+    - Device Drivers
+    - Physical Devices
   - Memory Management
+      - linux/mm/
   - Network Stack
   - Arch
   - Device Drivers
