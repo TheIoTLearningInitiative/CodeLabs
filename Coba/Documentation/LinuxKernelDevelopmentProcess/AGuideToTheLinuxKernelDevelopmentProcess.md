@@ -3,7 +3,6 @@
 > _The purpose of "A guide to the Linux Kernel development process" is to help developers (and their managers) work with the development community with a minimum of frustration.  It is an attempt to document how this community works in a way which is accessible to those who are not intimately familiar with Linux kernel development (or, indeed, free software development in general). While there is some technical material here, this is very much a process-oriented
 discussion which does not require a deep knowledge of kernel programming to understand._ [Homepage](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process) Based on Linux Kernel Commit ID 75b021468368288ac8fec1a86a13f5cf2229139e
 
-
 ## Let’s get started
 
 - Ask Wikipedia about [Free Software](http://en.wikipedia.org/wiki/Free_software)
