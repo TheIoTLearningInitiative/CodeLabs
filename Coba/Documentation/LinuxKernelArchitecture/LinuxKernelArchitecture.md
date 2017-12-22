@@ -24,6 +24,7 @@
     - Aka Board Support Package
 
 - Kernel Subsystems
+  - Inter-Process Communication Interface
   - System Call Interface
     - linux/kernel/
     - linux/arch/
