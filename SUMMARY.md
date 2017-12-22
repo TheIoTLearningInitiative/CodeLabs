@@ -71,8 +71,10 @@
     * [SpeechRecognition](ChichenItza/documentation/SpeechRecognition.md)
 * [Coba](Coba/documentation/Coba.md)
   * Linux Kernel Development Process
-  * [Loadable Kernel Module](Coba/documentation/LoadableKernelModule.md)
+  * Linux Kernel Architecture
   * [Linux Kernel Module](Coba/documentation/LinuxKernelModule.md)
+  * [Linux Kernel Build System](Coba/Documentation/LinuxKernelBuildSystem/LinuxKernelBuildSystem.md)
+  * [Loadable Kernel Module](Coba/documentation/LoadableKernelModule.md)
 * [Dos Pilas](DosPilas/documentation/DosPilas.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
 * [Edzna](Edzna/documentation/Edzna.md)
