@@ -71,3 +71,25 @@ $ git grep GPLv2
 $ vi COPYING
 $ git log | grep signed-off
 ```
+
+## How the process development works
+
+### The big picture
+
+- Go to mainline, the main repository of the Linux Kernel source code
+http://git.kernel.org/?p=linux/kernel/git/torvalds/linux.git
+- Review section “tags”
+- What is the latest version of the Linux Kernel?
+- How many Release Candidates the Kernel has had in the last 2 cycles?
+- Find out more about the Merge Window cycle
+  - https://lkml.org/lkml/2011/5/23/358
+  - https://lkml.org/lkml/2012/5/21/296
+  - https://lkml.org/lkml/2012/1/19/418
+- Find out more about some concerns on Merge Window cycle
+http://kerneltrap.org/node/14152
+- Read Linus’ message celebrating the final release of a version
+https://lkml.org/lkml/2012/3/18/132
+
+```sh
+$ git tag -l
+```
