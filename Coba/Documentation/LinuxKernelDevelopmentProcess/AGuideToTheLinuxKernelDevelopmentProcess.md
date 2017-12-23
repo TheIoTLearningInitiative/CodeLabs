@@ -5,7 +5,8 @@ discussion which does not require a deep knowledge of kernel programming to unde
 
 ## Let’s get started
 
-- Ask Wikipedia about [Free Software](http://en.wikipedia.org/wiki/Free_software)
+> The Linux Foundation (LF) is dedicated to building sustainable ecosystems around open source projects to accelerate technology development and commercial adoption. The largest open source non-profit organization, it works to promote, protect, and advance Linux and collaborative development and support the "greatest shared technology resources in history." [Wikipedia](https://en.wikipedia.org/wiki/Linux_Foundation)
+
 - Ask Wikipedia about [Linux Kernel](http://en.wikipedia.org/wiki/Linux_Kernel)
 
 ```sh
@@ -66,6 +67,7 @@ $ git ls-files arch/powerpc | grep gpio | wc -l
 
 ## Licensing
 
+- Ask Wikipedia about [Free Software](http://en.wikipedia.org/wiki/Free_software)
 - Ask Wikipedia about [GNU General Public License](http://en.wikipedia.org/wiki/Gpl)
 
 ```sh

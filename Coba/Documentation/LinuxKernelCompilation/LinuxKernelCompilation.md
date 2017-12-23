@@ -5,7 +5,7 @@
 ```sh
 root@workstation:~# apt-get update
 root@workstation:~# apt-get upgrade
-root@workstation:~# apt-get install linux-headers-$(uname -r) kernel-package libncurses5 libncurses5-dev git
+root@workstation:~# apt-get install linux-headers-$(uname -r) kernel-package libncurses5 libncurses5-dev git libelf-dev
 ```
 
 ```sh
