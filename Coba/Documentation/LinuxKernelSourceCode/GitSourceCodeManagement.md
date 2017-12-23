@@ -8,8 +8,6 @@
 
 > Learn Git in your browser for free with [Try Git](https://try.github.io/)
 
-
-
 # HelloWorld
 
 ```sh
