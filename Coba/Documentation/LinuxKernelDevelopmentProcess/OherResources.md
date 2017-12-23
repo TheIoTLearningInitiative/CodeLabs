@@ -11,3 +11,7 @@ instructions on how to become a Linux kernel developer and how to learn
 to work with the Linux kernel development community.  It tries to not
 contain anything related to the technical aspects of kernel programming,
 but will help point you in the right direction for that. [Homepage](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/howto.rst)
+
+## Linux Insides
+
+> A book-in-progress about the linux kernel and its insides. The goal is simple - to share my modest knowledge about the insides of the linux kernel and help people who are interested in linux kernel insides, and other low-level subject matter. [Gitbook](https://www.gitbook.com/book/0xax/linux-insides/details)
