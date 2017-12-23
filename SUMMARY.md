@@ -71,6 +71,7 @@
     * [SpeechRecognition](ChichenItza/documentation/SpeechRecognition.md)
 * [Coba](Coba/documentation/Coba.md)
   * [Linux Kernel Source Code](Coba/Documentation/LinuxKernelSourceCode/LinuxKernelSourceCode.md)
+    * [Git Source Code Management](Coba/Documentation/LinuxKernelSourceCode/GitSourceCodeManagement.md)
   * [Linux Kernel Development Process](Coba/Documentation/LinuxKernelDevelopmentProcess/LinuxKernelDevelopmentProcess.md)
     * [A Guide To The Linux Kernel Development Process](Coba/Documentation/LinuxKernelDevelopmentProcess/AGuideToTheLinuxKernelDevelopmentProcess.md)
     * [Linux Kernel Developers](Coba/Documentation/LinuxKernelDevelopmentProcess/LinuxKernelDevelopers.md)
