@@ -23,7 +23,7 @@ user@workstation:~$
 
 ```sh
 user@workstation:~$ uname -a
-Linux Minnowboard 3.2.0-4-amd64 #1 SMP Debian 3.2.63-2+deb7u2 x86_64 GNU/Linux
+Linux kali 4.12.0-kali2-amd64 #1 SMP Debian 4.12.13-1kali2 (2017-10-03) x86_64 GNU/Linux
 ```
 
 ```sh
@@ -41,6 +41,10 @@ user@workstation:~/linux$
 user@workstation:~$ make oldconfig
 <You will be asked configuration questions not answered, hit Enter for all of them>
 DesignWare Cores SATA support (SATA_DWC) [N/m/?] (NEW)
+...
+#
+# configuration written to .config
+#
 ```
 
 ```sh
