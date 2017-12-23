@@ -14,7 +14,7 @@
 2. Login in
 3. Click '+' sign on the top right
 4. Select 'New repository'
-5. Enter the name "hello". Keep default settings. 
+5. Enter the name "LinuxKernelHelloWorld" and keep default settings.
 6. Click the "Create repository" button.
 
 Then in your Linux Workstation
