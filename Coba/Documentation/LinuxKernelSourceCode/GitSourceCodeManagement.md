@@ -11,12 +11,12 @@
 # HelloWorld
 
 ```sh
-cd
-mkdir LinuxKernelHelloWorld
-cd LinuxKernelHelloWorld
-git init .
-git remote add origin https://github.com/xe1gyq/LinuxKernelHelloWorld
-git add helloworld.c Makefile
-git commit -m "LinuxKernelHelloWorld"
-git push origin master
+user@workstation:~$ cd
+user@workstation:~$ mkdir LinuxKernelHelloWorld
+user@workstation:~$ cd LinuxKernelHelloWorld
+user@workstation:~/LinuxKernelHelloWorld$ git init .
+user@workstation:~/LinuxKernelHelloWorld$ git remote add origin https://github.com/xe1gyq/LinuxKernelHelloWorld
+user@workstation:~/LinuxKernelHelloWorld$ git add helloworld.c Makefile
+user@workstation:~/LinuxKernelHelloWorld$ git commit -m "LinuxKernelHelloWorld"
+user@workstation:~/LinuxKernelHelloWorld$ git push origin master
 ```
