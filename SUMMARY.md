@@ -73,6 +73,8 @@
   * [Linux Kernel Source Code](Coba/Documentation/LinuxKernelSourceCode/LinuxKernelSourceCode.md)
   * [Linux Kernel Development Process](Coba/Documentation/LinuxKernelDevelopmentProcess/LinuxKernelDevelopmentProcess.md)
     * [A Guide To The Linux Kernel Development Process](Coba/Documentation/LinuxKernelDevelopmentProcess/AGuideToTheLinuxKernelDevelopmentProcess.md)
+    * [Linux Kernel Developers](Coba/Documentation/LinuxKernelDevelopmentProcess/LinuxKernelDevelopers.md)
+    * [Other Resources](Coba/Documentation/LinuxKernelDevelopmentProcess/OherResources.md)
   * [Linux Kernel Architecture](Coba/Documentation/LinuxKernelArchitecture/LinuxKernelArchitecture.md)
   * [Linux Kernel Compilation](Coba/Documentation/LinuxKernelCompilation/LinuxKernelCompilation.md)
   * [Linux Kernel Modules](Coba/Documentation/LinuxKernelModules/LinuxKernelModules.md)
