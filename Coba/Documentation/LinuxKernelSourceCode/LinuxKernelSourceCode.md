@@ -24,7 +24,11 @@ user@workstation:~$
 ```
 
 ```sh
+user@workstation:~$ cd linux
 user@workstation:~/linux$ 
+```
+
+```sh
 user@workstation:~/linux$ ls
 arch	    crypto	   init     MAINTAINERS      net       System.map
 block	    Documentation  ipc	    Makefile	     README    tools
