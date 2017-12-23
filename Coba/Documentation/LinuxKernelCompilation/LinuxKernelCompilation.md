@@ -5,7 +5,7 @@
 ```sh
 root@workstation:~# apt-get update
 root@workstation:~# apt-get upgrade
-root@workstation:~# apt-get install linux-headers-$(uname -r) kernel-package libncurses5 libncurses5-dev git
+root@workstation:~# apt-get install linux-headers-$(uname -r) kernel-package libncurses5 libncurses5-dev git libelf-dev
 ```
 
 ```sh
@@ -39,7 +39,7 @@ user@workstation:~/linux$
 
 ```sh
 user@workstation:~$ make oldconfig
-<You will be asked configuration questions not answered, hit Enter for all of them>
+<You will be asked configuration questions not answered, for now hit Enter for all of them>
 DesignWare Cores SATA support (SATA_DWC) [N/m/?] (NEW)
 ...
 #
