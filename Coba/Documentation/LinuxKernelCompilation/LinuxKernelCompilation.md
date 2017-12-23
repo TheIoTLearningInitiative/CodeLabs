@@ -32,8 +32,11 @@ user@workstation:~$ cd linux
 
 ```sh
 user@workstation:~/linux$ ls
-arch   certs    CREDITS  Documentation  firmware  include  ipc     Kconfig  lib          Makefile  net     samples  security  tools  virt
-block  COPYING  crypto   drivers        fs        init     Kbuild  kernel   MAINTAINERS  mm        README  scripts  sound     usr
+arch	 crypto		include  kernel       modules.builtin  scripts	 virt
+block	 Documentation	init	 lib	      modules.order    security
+certs	 drivers	ipc	 MAINTAINERS  net	       sound
+COPYING  firmware	Kbuild	 Makefile     README	       tools
+CREDITS  fs		Kconfig  mm	      samples	       usr
 user@workstation:~/linux$ 
 ```
 
