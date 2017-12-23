@@ -1,5 +1,9 @@
 # Linux Kernel Source Code
 
+- git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+- git@github.com:torvalds/linux.git
+- https://www.kernel.org/
+
 ```sh
 root@workstation:~# apt-get update
 root@workstation:~# apt-get upgrade
