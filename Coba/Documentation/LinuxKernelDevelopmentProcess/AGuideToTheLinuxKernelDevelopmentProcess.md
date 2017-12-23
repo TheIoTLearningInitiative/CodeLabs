@@ -16,14 +16,12 @@ user@workstation:~$ cd linux
 How many files in total?
 
 ```sh
-$ git ls-files
 $ git ls-files | wc -l
 ```
 
 How many collaborations in total?
 
 ```
-$ git log --pretty=oneline
 $ git log --pretty=oneline | wc -l
 ```
 
