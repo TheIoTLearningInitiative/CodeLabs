@@ -11,6 +11,7 @@ discussion which does not require a deep knowledge of kernel programming to unde
 
 ```sh
 user@workstation:~$ cd linux
+user@workstation:~/linux$ 
 ```
 
 How many files in total?

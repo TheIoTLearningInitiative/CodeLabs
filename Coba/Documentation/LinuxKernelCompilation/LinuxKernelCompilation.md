@@ -9,6 +9,7 @@ Linux kali 4.12.0-kali2-amd64 #1 SMP Debian 4.12.13-1kali2 (2017-10-03) x86_64 G
 
 ```sh
 user@workstation:~$ cd linux
+user@workstation:~/linux$ 
 ```
 
 ```sh
@@ -22,7 +23,7 @@ user@workstation:~/linux$
 ```
 
 ```sh
-user@workstation:~$ make oldconfig
+user@workstation:~/linux$ make oldconfig
 <You will be asked configuration questions not answered, for now hit Enter for all of them>
 DesignWare Cores SATA support (SATA_DWC) [N/m/?] (NEW)
 ...
@@ -32,9 +33,9 @@ DesignWare Cores SATA support (SATA_DWC) [N/m/?] (NEW)
 ```
 
 ```sh
-user@workstation:~$ make
-root@workstation:~# make modules_install
-root@workstation:~# make install
+user@workstation:~/linux$ make
+root@workstation:~/linux# make modules_install
+root@workstation:~/linux# make install
 ```
 
 ```sh

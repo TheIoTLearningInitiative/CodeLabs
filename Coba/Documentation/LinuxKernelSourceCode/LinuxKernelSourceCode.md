@@ -22,3 +22,15 @@ Checking connectivity... done.
 Checking out files: 100% (59844/59844), done.
 user@workstation:~$ 
 ```
+
+```sh
+user@workstation:~/linux$ 
+user@workstation:~/linux$ ls
+arch	    crypto	   init     MAINTAINERS      net       System.map
+block	    Documentation  ipc	    Makefile	     README    tools
+built-in.o  drivers	   Kbuild   mm		     samples   usr
+certs	    firmware	   Kconfig  modules.builtin  scripts   virt
+COPYING     fs		   kernel   modules.order    security  vmlinux
+CREDITS     include	   lib	    Module.symvers   sound     vmlinux.o
+user@workstation:~/linux$ 
+```
