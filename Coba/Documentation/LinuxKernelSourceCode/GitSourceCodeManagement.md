@@ -12,8 +12,8 @@
 
 1. Create a GitHub account
 2. Login in
-3. Click the big '+' sign on the top right
-4. Choose 'New repository'
+3. Click '+' sign on the top right
+4. Select 'New repository'
 5. Enter the name "hello". Keep default settings. 
 6. Click the "Create repository" button.
 
