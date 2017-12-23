@@ -6,12 +6,16 @@
 
 ## HOWTO Do Linux Kernel Development
 
-> This is the be-all, end-all document on this topic.  It contains
+> _This is the be-all, end-all document on this topic.  It contains
 instructions on how to become a Linux kernel developer and how to learn
 to work with the Linux kernel development community.  It tries to not
 contain anything related to the technical aspects of kernel programming,
-but will help point you in the right direction for that. [Homepage](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/howto.rst)
+but will help point you in the right direction for that._ [Homepage](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/howto.rst)
 
 ## Linux Insides
 
-> A book-in-progress about the linux kernel and its insides. The goal is simple - to share my modest knowledge about the insides of the linux kernel and help people who are interested in linux kernel insides, and other low-level subject matter. [Gitbook](https://www.gitbook.com/book/0xax/linux-insides/details)
+> _A book-in-progress about the linux kernel and its insides. The goal is simple - to share my modest knowledge about the insides of the linux kernel and help people who are interested in linux kernel insides, and other low-level subject matter._ [Gitbook](https://www.gitbook.com/book/0xax/linux-insides/details)
+
+## How to Make a Computer Operating System
+
+> _Online book about how to write a computer operating system in C/C++ from scratch._ [Gibtook](https://www.gitbook.com/book/samypesse/how-to-create-an-operating-system/details)
