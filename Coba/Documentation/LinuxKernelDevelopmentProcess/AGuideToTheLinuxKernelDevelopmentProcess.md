@@ -194,3 +194,13 @@ None
 ### Getting official buy-in
 None
 
+## Getting the code right
+
+## Posting patches
+
+## Followthrough
+
+None
+## Advanced Topics
+
+None
