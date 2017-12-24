@@ -70,6 +70,7 @@ $ git ls-files arch/powerpc | grep gpio
 $ git ls-files arch/powerpc | grep gpio | wc -l
 ```
 
+Extra Reading
 
 - Read how changes can influence the direction of the Linux Kernel http://marc.info/?l=linux-kernel&m=128979084506774
 - Read how delayed code changes make kernel developers angry 
