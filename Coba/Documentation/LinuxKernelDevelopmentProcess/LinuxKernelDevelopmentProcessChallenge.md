@@ -11,16 +11,17 @@ We require a script to do some "processing" for every kernel released:
 
 We need the following working directory structure
 
+```sh
     ...
-    |- 01.core
-      |- shelllearning
-        |- kernelimages  (directory)
-        |- preworkspace  (directory)
-        |- postworksapce (directory)
-        |- main.sh (our script)
-        |- stats.pre (text file)
-        |- stats.post (text file)
-        |- intel.contributors (text file)
+    |- shelllearning
+      |- kernelimages  (directory)
+      |- preworkspace  (directory)
+      |- postworksapce (directory)
+      |- main.sh (our script)
+      |- stats.pre (text file)
+      |- stats.post (text file)
+      |- intel.contributors (text file)
+```
 
 ## Script Arguments
 
