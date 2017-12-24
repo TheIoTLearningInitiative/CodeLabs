@@ -76,7 +76,7 @@ make[1]: Leaving directory '/usr/src/linux-headers-4.12.0-kali2-amd64'
 user@workstation:~/helloworld$ 
 ```
 
-## Hello World Module Insertion
+## Hello World Module Files
 
 ```sh
 user@workstation:~/helloworld$ ls
