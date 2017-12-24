@@ -29,7 +29,9 @@ The script will receive 3 arguments: the file location, version of the kernel an
 
     user $ myscript.sh <internet/local> <x.x.xx> <xz|gz>
 
-If file location is the internet then use this repository to grab the kernel tar file **https://www.kernel.org/pub/linux/kernel/v3.x/** and download it to kernelimages directory
+If file location is the internet then use this repository to grab the kernel tar file:
+- __https://www.kernel.org/pub/linux/kernel/v4.x/__
+and download it to kernelimages directory.
 
 If file location is local then use kernelimages directory to grab the kernel tar file
 
