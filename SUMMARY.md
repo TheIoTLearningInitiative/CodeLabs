@@ -87,6 +87,7 @@
     * [Patchset](Coba/Documentation/LinuxKernelPatch/LinuxKernelPatchset.md)
   * [Linux Kernel Device Drivers](Coba/Documentation/LinuxKernelDeviceDrivers/LinuxKernelDeviceDrivers.md)
   * [Linux Kernel Developer](Coba/Documentation/LinuxKernelDeveloper/LinuxKernelDeveloper.md)
+  * [Learn More](Coba/Documentation/LearnMore/LearnMore.md)
 * [Dos Pilas](DosPilas/documentation/DosPilas.md)
 * [Dzibilchaltun](Dzibilchaltun/documentation/Dzibilchaltun.md)
 * [Edzna](Edzna/documentation/Edzna.md)
