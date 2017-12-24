@@ -13,7 +13,7 @@ We need the following working directory structure
 
 ```sh
     ...
-    |- shelllearning
+    |- LinuxKernelDevelopmentProcessChallenge
       |- kernelimages  (directory)
       |- preworkspace  (directory)
       |- postworksapce (directory)
