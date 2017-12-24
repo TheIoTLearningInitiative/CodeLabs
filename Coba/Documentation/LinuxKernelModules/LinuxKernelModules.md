@@ -85,6 +85,10 @@ user@workstation:~/helloworld$
 ```
 
 ```sh
+user@workstation:~/helloworld$ insmod helloworld
+```
+
+```sh
 user@workstation:~/helloworld$ cat /proc/modules
 ```
 
