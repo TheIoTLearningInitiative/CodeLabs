@@ -25,6 +25,7 @@ user@workstation:~$ mkdir LinuxKernelDevelopment
 user@workstation:~$ cd LinuxKernelDevelopment
 user@workstation:~/LinuxKernelDevelopment$ git init .
 user@workstation:~/LinuxKernelDevelopment$ git remote add origin https://github.com/xe1gyq/LinuxKernelDevelopment
+user@workstation:~/LinuxKernelDevelopment$ echo "# Linux Kernel Development" > README.md
 user@workstation:~/LinuxKernelDevelopment$ git add README.md
 user@workstation:~/LinuxKernelDevelopment$ git commit -m "LinuxKernelDevelopment"
 user@workstation:~/LinuxKernelDevelopment$ git push origin master
