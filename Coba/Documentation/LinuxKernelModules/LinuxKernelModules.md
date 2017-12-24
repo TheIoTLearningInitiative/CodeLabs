@@ -97,11 +97,11 @@ user@workstation:~/helloworld$ dmesg
 ```
 
 ```sh
-user@workstation:~/helloworld$ cat /proc/modules
+user@workstation:~/helloworld$ lsmod
 ```
 
 ```sh
-user@workstation:~/helloworld$ lsmod
+user@workstation:~/helloworld$ cat /proc/modules
 ```
 
 ```sh
