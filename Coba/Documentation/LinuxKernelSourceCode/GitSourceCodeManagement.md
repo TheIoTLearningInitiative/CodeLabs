@@ -8,7 +8,7 @@
 
 > Learn Git in your browser for free with [Try Git](https://try.github.io/)
 
-# LinuxKernelDevelopment Project
+# Linux Kernel Development Project
 
 1. Create a GitHub account
 2. Login in
