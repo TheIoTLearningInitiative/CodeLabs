@@ -54,7 +54,7 @@ $ git log | grep reliable
 
 ## The importance of “getting” code into the mainline
 
-- Go to mainline, the main repository of the Linux Kernel source code and get used to the interface, find out about the different sections http://git.kernel.org/?p=linux/kernel/git/torvalds/linux.git
+- Go to mainline, the main repository of the Linux Kernel source code and get used to the interface, find out about the different sections [mainline](http://git.kernel.org/?p=linux/kernel/git/torvalds/linux.git)
 
 ```sh
 $ vi README
