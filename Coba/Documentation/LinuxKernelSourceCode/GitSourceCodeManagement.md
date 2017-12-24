@@ -8,24 +8,24 @@
 
 > Learn Git in your browser for free with [Try Git](https://try.github.io/)
 
-# LinuxKernelHelloWorld Project
+# LinuxKernelDevelopment Project
 
 1. Create a GitHub account
 2. Login in
 3. Click '+' sign on the top right
 4. Select 'New repository'
-5. Enter the name "LinuxKernelHelloWorld" and keep default settings.
+5. Enter the name "LinuxKernelDevelopment" and keep default settings.
 6. Click the "Create repository" button.
 
 Then in your Linux Workstation
 
 ```sh
 user@workstation:~$ cd
-user@workstation:~$ mkdir LinuxKernelHelloWorld
-user@workstation:~$ cd LinuxKernelHelloWorld
-user@workstation:~/LinuxKernelHelloWorld$ git init .
-user@workstation:~/LinuxKernelHelloWorld$ git remote add origin https://github.com/xe1gyq/LinuxKernelHelloWorld
-user@workstation:~/LinuxKernelHelloWorld$ git add helloworld.c Makefile
-user@workstation:~/LinuxKernelHelloWorld$ git commit -m "LinuxKernelHelloWorld"
-user@workstation:~/LinuxKernelHelloWorld$ git push origin master
+user@workstation:~$ mkdir LinuxKernelDevelopment
+user@workstation:~$ cd LinuxKernelDevelopment
+user@workstation:~/LinuxKernelDevelopment$ git init .
+user@workstation:~/LinuxKernelDevelopment$ git remote add origin https://github.com/xe1gyq/LinuxKernelDevelopment
+user@workstation:~/LinuxKernelDevelopment$ git add README.md
+user@workstation:~/LinuxKernelDevelopment$ git commit -m "LinuxKernelDevelopment"
+user@workstation:~/LinuxKernelDevelopment$ git push origin master
 ```
