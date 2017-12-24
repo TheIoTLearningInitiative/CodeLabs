@@ -155,3 +155,42 @@ $ git log | grep torvalds
 $ git log | grep Torvalds | wc -l
 ```
 
+## Other Trees
+
+> None
+
+### Next trees
+
+> None
+
+### Staging trees
+
+> None
+
+## Tools
+
+> None
+
+## Getting started with Kernel development
+
+> None
+
+## Early stage planning
+
+### Early Stage Planning
+None
+
+### Early Discussion
+None
+
+### Who do you talk to?
+
+$ scripts/get_maintainer.pl -f drivers/input/…
+$ git log | grep Morton
+
+### When to post?
+None
+
+### Getting official buy-in
+None
+
