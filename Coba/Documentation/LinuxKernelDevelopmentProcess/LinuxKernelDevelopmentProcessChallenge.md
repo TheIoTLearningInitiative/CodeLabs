@@ -5,7 +5,9 @@
 > Objective: Shell scripting is a basic skill every Linux developer has
 > Proficiency Level: Advanced
 
-We require a script to do some "processing" for every kernel released, make it work first then optimize it.
+We require a script to do some "processing" for every kernel released: 
+- First, make it work
+- Second, optimize it
 
 We need the following working directory structure
 
