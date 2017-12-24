@@ -74,8 +74,6 @@
     * [Git Source Code Management](Coba/Documentation/LinuxKernelSourceCode/GitSourceCodeManagement.md)
   * [Linux Kernel Development Process](Coba/Documentation/LinuxKernelDevelopmentProcess/LinuxKernelDevelopmentProcess.md)
     * [A Guide To The Linux Kernel Development Process](Coba/Documentation/LinuxKernelDevelopmentProcess/AGuideToTheLinuxKernelDevelopmentProcess.md)
-    * [Linux Kernel Developers](Coba/Documentation/LinuxKernelDevelopmentProcess/LinuxKernelDevelopers.md)
-    * [Other Resources](Coba/Documentation/LinuxKernelDevelopmentProcess/OherResources.md)
     * [Challenge](Coba/Documentation/LinuxKernelDevelopmentProcess/LinuxKernelDevelopmentProcessChallenge.md)
   * [Linux Kernel Architecture](Coba/Documentation/LinuxKernelArchitecture/LinuxKernelArchitecture.md)
   * [Linux Kernel Compilation](Coba/Documentation/LinuxKernelCompilation/LinuxKernelCompilation.md)
