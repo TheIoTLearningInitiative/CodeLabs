@@ -3,16 +3,18 @@
 > _The purpose of "A guide to the Linux Kernel development process" is to help developers (and their managers) work with the development community with a minimum of frustration.  It is an attempt to document how this community works in a way which is accessible to those who are not intimately familiar with Linux kernel development (or, indeed, free software development in general). While there is some technical material here, this is very much a process-oriented
 discussion which does not require a deep knowledge of kernel programming to understand._ [Homepage](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process) Based on Linux Kernel Commit ID 75b021468368288ac8fec1a86a13f5cf2229139e
 
-## Let’s get started
-
-> The Linux Foundation (LF) is dedicated to building sustainable ecosystems around open source projects to accelerate technology development and commercial adoption. The largest open source non-profit organization, it works to promote, protect, and advance Linux and collaborative development and support the "greatest shared technology resources in history." [Wikipedia](https://en.wikipedia.org/wiki/Linux_Foundation)
-
-- Ask Wikipedia about [Linux Kernel](http://en.wikipedia.org/wiki/Linux_Kernel)
+Go to the Linux Kernel Source Code
 
 ```sh
 user@workstation:~$ cd linux
 user@workstation:~/linux$ 
 ```
+
+## Let’s get started
+
+> The Linux Foundation (LF) is dedicated to building sustainable ecosystems around open source projects to accelerate technology development and commercial adoption. The largest open source non-profit organization, it works to promote, protect, and advance Linux and collaborative development and support the "greatest shared technology resources in history." [Wikipedia](https://en.wikipedia.org/wiki/Linux_Foundation)
+
+- Ask Wikipedia about [Linux Kernel](http://en.wikipedia.org/wiki/Linux_Kernel)
 
 How many files in total?
 

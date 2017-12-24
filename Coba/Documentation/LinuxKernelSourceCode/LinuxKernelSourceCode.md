@@ -1,8 +1,13 @@
 # Linux Kernel Source Code
 
-- git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
-- git@github.com:torvalds/linux.git
+3 Linux Kernel Source Code Repositories
+
+- https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+  - git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+- https://github.com/torvalds/linux
+  - git@github.com:torvalds/linux.git
 - https://www.kernel.org/
+  - Tar.Gz
 
 ```sh
 root@workstation:~# apt-get update
