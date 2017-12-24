@@ -127,10 +127,3 @@ File Content
 A message of Pass / Fail should be printed to stdout for each of the following:
 
 - Our Total number of files is the same in both stats.pre and stats.post
-
-## Python
-
-> Objective: Bring your basic skills up-to-speed
-> Proficiency Level: Basic
-
-Guess what? Port the previous script to Python :) remember to change the name of the host directory, now called, pythonlearning 
