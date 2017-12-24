@@ -22,6 +22,8 @@ CREDITS  fs		Kconfig  mm	      samples	       usr
 user@workstation:~/linux$ 
 ```
 
+## Configuration Setup
+
 ```sh
 user@workstation:~/linux$ make oldconfig
 <You will be asked configuration questions not answered, for now hit Enter for all of them>
@@ -32,9 +34,21 @@ DesignWare Cores SATA support (SATA_DWC) [N/m/?] (NEW)
 #
 ```
 
+## Compilation Kernel and Modules
+
 ```sh
 user@workstation:~/linux$ make
+```
+
+## Modules Installation
+
+```sh
 root@workstation:~/linux# make modules_install
+```
+
+## Kernel Installation
+
+```sh
 root@workstation:~/linux# make install
 ```
 
