@@ -25,6 +25,7 @@ user@workstation:~/linux$
 ## Configuration Setup
 
 ```sh
+user@workstation:~/linux$ cp /boot/config-4.12.0-kali2-amd64 .config
 user@workstation:~/linux$ make oldconfig
 <You will be asked configuration questions not answered, for now hit Enter for all of them>
 DesignWare Cores SATA support (SATA_DWC) [N/m/?] (NEW)
