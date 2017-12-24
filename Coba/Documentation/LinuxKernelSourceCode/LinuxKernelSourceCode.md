@@ -9,6 +9,8 @@
 - https://www.kernel.org/
   - Tar.Gz
 
+## Workstation Setup
+
 ```sh
 root@workstation:~# apt-get update
 root@workstation:~# apt-get upgrade
