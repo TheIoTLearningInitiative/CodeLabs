@@ -1,7 +1,9 @@
 # Linux Kernel Developer
 
 - Linux Kernel Newbies
+  - https://kernelnewbies.org/OutreachyTasks
 - Bug Reporting
+
 
 ## Linux Kernel Developers
 
