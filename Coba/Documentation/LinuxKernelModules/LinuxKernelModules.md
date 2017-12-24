@@ -85,7 +85,15 @@ user@workstation:~/helloworld$
 ```
 
 ```sh
-user@workstation:~/helloworld$ insmod helloworld
+user@workstation:~/helloworld$ modinfo helloworld.ko
+```
+
+```sh
+user@workstation:~/helloworld$ insmod helloworld.ko
+```
+
+```sh
+user@workstation:~/helloworld$ dmesg
 ```
 
 ```sh
@@ -98,4 +106,8 @@ user@workstation:~/helloworld$ lsmod
 
 ```sh
 user@workstation:~/helloworld$ rmmod helloworld
+```
+
+```sh
+user@workstation:~/helloworld$ dmesg
 ```
