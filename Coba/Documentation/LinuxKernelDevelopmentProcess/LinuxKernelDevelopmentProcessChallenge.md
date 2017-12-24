@@ -115,12 +115,12 @@ File Names
 
 File Content
 
-    # of ocurrences for Linus
-    # of ocurrences for kernel_start
-    # of ocurrences for __init
-    # of files in its filename containing the word gpio
-    # of ocurrences for #include <linux/module.h>
-    # of ocurrences for #include <linux/learningscripting.h>
+    # of ocurrences having "Linus" string
+    # of ocurrences having "kernel_start" string
+    # of ocurrences having "__init" string
+    # of files in its filename containing the word "gpio"
+    # of ocurrences having "#include <linux/module.h>"
+    # of ocurrences having "#include <linux/learningscripting.h>"
 
 ### Results
 
