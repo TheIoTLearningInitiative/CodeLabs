@@ -2,8 +2,6 @@
 
 - Linux Kernel Newbies
   - https://kernelnewbies.org/
-
-
 - Bug Reporting
 
 ## Linux Kernel Developers
