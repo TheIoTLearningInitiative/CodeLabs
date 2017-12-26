@@ -11,6 +11,11 @@ Have you completed "Challenge One"? Then mention us __@IoTLearningInit__ Twitter
 > __Codename__ Ppentac-ob .. Esclavos
 
 > You earn a Resume Review + 30 Minutes Phone Call
+>
+> and One Hour Remote Workshop for you and your school
+> > Linux Kernel Development Process
+
+
 
 __Requirements__
 
@@ -100,8 +105,16 @@ __Tasks__
 > > - 15 Minutes - Software Architecture
 > > - 30 Minutes - Embedded Linux Architecture
 >
-> and One Hour Remote Workshop for you and your school
-> > Linux Kernel Development Process
+> and Four Hours Remote Workshop for you and your school
+> > __Linux Kernel Development__
+> > Agenda
+> > > Linux Kernel Source Code
+> > > Linux Kernel Development Process
+> > > Linux Kernel Compilation
+> > > Linux Kernel Modules
+> > > Linux Kernel Build System
+> > > Linux Kernel Patch
+> > > Linux Kernel Developer
 
 To be written once the previous challenge is completed.
 
