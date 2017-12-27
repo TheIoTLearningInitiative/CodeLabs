@@ -2,6 +2,8 @@
 
 > The god of war, violence and sacrifice. [Wikipedia](https://en.wikipedia.org/wiki/List_of_Maya_gods_and_supernatural_beings) [Short Url](https://goo.gl/EaHYCN)
 
+> Give some basic hardware and software skills...
+
 Are you a University Student? Do you want to code, learn and contribute while you challenge yourself in the world of hardware and software?
 
 Have you completed "Challenge One"? Then mention us __@IoTLearningInit__ Twitter with Hashtag __#BulucChabtanChallenge__ or send us a Direct Message.
