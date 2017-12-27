@@ -18,7 +18,7 @@
 - 12 __Hochob__ Visitors Center
 - 13 __Awilix__ The IoT Learning Initiative
 - 14 __Alom__ Briko
-- 15 __Bitol__ Drones
+- 15 __Bitol__ Drone Software Development
 - 16 __Chaac__ Laboratory
 - 17 __EekMex__ Aerospace Learning Platform
 - 18 __NuupXe__ Amateur Radio Voice Software Infrastructure
