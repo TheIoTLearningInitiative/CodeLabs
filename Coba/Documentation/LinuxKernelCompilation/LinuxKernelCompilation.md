@@ -217,6 +217,10 @@ user@workstation:~/boot$ cat /proc/kallsyms | grep exception_stacks
 0000000000004000 A exception_stacks
 ```
 
+### Vmlinuz
+
+> _vmlinuz is the name of the Linux kernel executable. vmlinuz is a compressed Linux kernel, and it is capable of loading the operating system into memory so that the computer becomes usable and application programs can be run. vmlinuz = Virtual Memory LINUx gZip = Compressed Linux kernel Executable._ [Anatomy of the initrd and vmlinuz](https://www.ibm.com/developerworks/community/blogs/mhhaque/entry/anatomy_of_the_initrd_and_vmlinuz?lang=en)
+
 ## Lib Directory
 
 > _The /lib directory contains kernel modules and those shared library images (the C programming code library) needed to boot the system and run the commands in the root filesystem._ [LDP Linux Filesystem Hierarchy /lib](http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/lib.html)
