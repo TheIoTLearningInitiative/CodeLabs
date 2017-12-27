@@ -57,6 +57,14 @@ user@workstation:~/boot$ file initrd.img-4.12.0-kali2-amd64
 initrd.img-4.12.0-kali2-amd64: ASCII cpio archive (SVR4 with no CRC)
 ```
 
+### System
+
+```sh
+user@workstation:~/boot$ file System.map-4.12.0-kali2-amd64 
+System.map-4.12.0-kali2-amd64: ASCII text
+user@workstation:~/boot$ 
+```
+
 ## Lib Directory
 
 > _The /lib directory contains kernel modules and those shared library images (the C programming code library) needed to boot the system and run the commands in the root filesystem._ [LDP Linux Filesystem Hierarchy /lib](http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/lib.html)
