@@ -38,7 +38,7 @@ user@workstation:~$ uname -r
 4.12.0-kali2-amd64
 ```
 
-## Boot Directory
+## Directory /boot
 
 > _This directory contains everything required for the boot process except for configuration files not needed at boot time (the most notable of those being those that belong to the GRUB boot-loader) and the map installer._ [LDP Linux Filesystem Hierarchy /boot](http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/boot.html)
 
@@ -267,7 +267,7 @@ user@workstation:~/boot$ cd
 user@workstation:~$ 
 ```
 
-## Lib Directory
+## Directory /lib
 
 > _The /lib directory contains kernel modules and those shared library images (the C programming code library) needed to boot the system and run the commands in the root filesystem._ [LDP Linux Filesystem Hierarchy /lib](http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/lib.html)
 
@@ -319,7 +319,7 @@ user@workstation:~$ find /lib/modules/4.12.0-kali2-amd64/kernel/ -type f | wc -l
 user@workstation:~$ 
 ```
 
-## /Src Directory
+## Directory /usr/src 
 
 ```sh
 user@workstation:~$ ls /boot
