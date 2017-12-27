@@ -18,8 +18,8 @@ __Challenge__
 
 Find out where button and pcspkr are under:
 - /lib/modules/
-- Mainline
 - Kernel Configuration
+- Mainline
 
 ## Hello World Module Source Code
 
