@@ -58,6 +58,11 @@ initrd.img-4.12.0-kali2-amd64: ASCII cpio archive (SVR4 with no CRC)
 ```
 
 ```sh
+user@workstation:~/boot$ ls -alh initrd.img-4.12.0-kali2-amd64
+-rw-r--r-- 1 root root 26M Oct  8 22:54 initrd.img-4.12.0-kali2-amd64
+```
+
+```sh
 user@workstation:~/boot$ mkdir /tmp/temp
 user@workstation:~/boot$ cd /tmp/temp/
 user@workstation:/tmp/temp$ cp /boot/initrd.img-4.12.0-kali2-amd64 .
