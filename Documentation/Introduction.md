@@ -107,7 +107,7 @@ Yucatán
 * **Bacab**  Smart Home
 * **Bahlam**
 * **Bitol** Drones
-* **Bolon Ts'akab (Dzacab)** 
+* **Bolon Ts'akab (Dzacab)** Hardware, Software and Soft Skills Training Program
 * **Bolontiku**
 * **Bolon Yokte'**
 * **Buluc Chabtan** Hardware, Software, and Soft Skills Training Challenge
