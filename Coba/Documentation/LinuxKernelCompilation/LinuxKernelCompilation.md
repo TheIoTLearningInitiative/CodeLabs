@@ -2,7 +2,9 @@
 
 > Understand the Linux Kernel compilation process
 
-## Kernel Version, Actual
+## Uname, Kernel Release
+
+> Print system information
 
 ```sh
 user@workstation:~$ uname -a
@@ -13,6 +15,10 @@ Linux kali 4.12.0-kali2-amd64 #1 SMP Debian 4.12.13-1kali2 (2017-10-03) x86_64 G
 user@workstation:~$ uname -r
 4.12.0-kali2-amd64
 ```
+
+## Lsmod
+
+> Show the status of modules in the Linux Kernel
 
 ```sh
 user@workstation:~$ lsmod | grep button
