@@ -301,6 +301,14 @@ user@workstation:~$
 ```
 
 ```sh
+user@workstation:~$ ls /usr/src/linux-headers-4.12.0-kali2-common
+arch  include  Makefile  scripts
+user@workstation:~$ ls /usr/src/linux-headers-4.12.0-kali2-amd64/
+arch  include  Makefile  Module.symvers  scripts
+user@workstation:~$ 
+```
+
+```sh
 user@workstation:~$ find /lib/modules/4.12.0-kali2-amd64/kernel/ -type f | wc -l
 3403
 user@workstation:~$ 
