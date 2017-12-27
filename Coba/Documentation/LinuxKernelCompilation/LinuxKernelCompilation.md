@@ -364,6 +364,16 @@ DesignWare Cores SATA support (SATA_DWC) [N/m/?] (NEW)
 user@workstation:~/linux$ make
 ```
 
+```sh
+user@workstation:~/linux$ ls
+arch	 crypto		include  kernel       modules.builtin  scripts	 virt
+block	 Documentation	init	 lib	      modules.order    security
+certs	 drivers	ipc	 MAINTAINERS  net	       sound
+COPYING  firmware	Kbuild	 Makefile     README	       tools
+CREDITS  fs		Kconfig  mm	      samples	       usr
+user@workstation:~/linux$ 
+```
+
 ## Modules Installation
 
 ```sh
@@ -374,16 +384,6 @@ root@workstation:~/linux# make modules_install
 
 ```sh
 root@workstation:~/linux# make install
-```
-
-```sh
-user@workstation:~/linux$ ls
-arch	 crypto		include  kernel       modules.builtin  scripts	 virt
-block	 Documentation	init	 lib	      modules.order    security
-certs	 drivers	ipc	 MAINTAINERS  net	       sound
-COPYING  firmware	Kbuild	 Makefile     README	       tools
-CREDITS  fs		Kconfig  mm	      samples	       usr
-user@workstation:~/linux$ 
 ```
 
 ## Uname
