@@ -14,7 +14,9 @@ Once you have completed "Challenge One"? Then mention us __@IoTLearningInit__ Tw
 
 > __Codename__ Ppentac-ob .. Esclavos
 
-> You earn 30 Minutes Phone Call for a Resume Review
+> You earn 1 hour phone call for:
+> > - a resume review
+> > - discuss any topic you want
 >
 > and One Hour Remote Workshop for you and your school
 > > Linux Kernel Development Process
