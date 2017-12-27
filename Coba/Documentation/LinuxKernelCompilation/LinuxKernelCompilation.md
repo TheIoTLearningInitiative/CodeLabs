@@ -2,14 +2,18 @@
 
 > Understand the Linux Kernel compilation process
 
-## Uname, Kernel Release
+## Uname
 
 > Print system information
+
+Print all information
 
 ```sh
 user@workstation:~$ uname -a
 Linux kali 4.12.0-kali2-amd64 #1 SMP Debian 4.12.13-1kali2 (2017-10-03) x86_64 GNU/Linux
 ```
+
+Print the Kernel Release
 
 ```sh
 user@workstation:~$ uname -r
