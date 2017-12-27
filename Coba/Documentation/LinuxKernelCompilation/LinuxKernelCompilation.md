@@ -57,6 +57,19 @@ user@workstation:~/boot$ file initrd.img-4.12.0-kali2-amd64
 initrd.img-4.12.0-kali2-amd64: ASCII cpio archive (SVR4 with no CRC)
 ```
 
+```sh
+user@workstation:~/boot$ mkdir /tmp/temp
+user@workstation:~/boot$ cd /tmp/temp/
+user@workstation:/tmp/temp$ cp /boot/initrd.img-4.12.0-kali2-amd64 .
+user@workstation:/tmp/temp$ (cpio -id; zcat | cpio -id) < initrd.img-4.12.0-kali2-amd64
+cpio: kernel/x86/microcode/GenuineIntel.bin not created: newer or same age version exists
+36 blocks
+148321 blocks
+user@workstation:/tmp/temp$ ls
+bin  conf  etc	init  initrd.img-4.12.0-kali2-amd64  kernel  lib  lib64  run  sbin  scripts
+user@workstation:/tmp/temp$ 
+```
+
 ### System
 
 ```sh
