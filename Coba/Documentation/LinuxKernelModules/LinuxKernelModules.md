@@ -1,5 +1,19 @@
 # Linux Kernel Modules
 
+## Lsmod
+
+> Show the status of modules in the Linux Kernel
+
+Let's look at two modules
+
+```sh
+user@workstation:~$ lsmod | grep button
+button                 16384  1 i915
+user@workstation:~$ lsmod | grep pcspkr
+pcspkr                 16384  0
+user@workstation:~$ 
+```
+
 ## Hello World Module Source Code
 
 Make a "helloworld" directory
