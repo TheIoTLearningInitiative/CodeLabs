@@ -27,7 +27,7 @@ user@workstation:~$ /boot
 config-4.12.0-kali1-amd64      initrd.img-4.12.0-kali2-amd64  vmlinuz-4.12.0-kali1-amd64
 config-4.12.0-kali2-amd64      initrd.img-4.15.0-kali1-amd64  vmlinuz-4.12.0-kali2-amd64
 config-4.15.0-kali1-amd64      System.map-4.12.0-kali1-amd64  vmlinuz-4.15.0-kali1-amd64
-     System.map-4.12.0-kali2-amd64
+grub                           System.map-4.12.0-kali2-amd64
 initrd.img-4.12.0-kali1-amd64  System.map-4.15.0-kali1-amd64
 ```
 
