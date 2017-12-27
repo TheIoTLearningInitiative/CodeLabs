@@ -83,9 +83,7 @@ CONFIG_NEED_SG_DMA_LENGTH=y
 
 ### initrd
 
-> _The initial RAM disk (initrd) is an initial root file system that is mounted prior to when the real root file system is available. The initrd is bound to the kernel and loaded as part of the kernel boot procedure. The kernel then mounts this initrd as part of the two-stage boot process to load the modules to make the real file systems available and get at the real root file system._ [Linux initial RAM disk (initrd) overview](https://www.ibm.com/developerworks/library/l-initrd/index.html)
-
-> _initrd is mainly designed to allow system startup to occur in two phases, where the kernel comes up with a minimum set of compiled-in drivers, and where additional modules are loaded from initrd._ [Debian Wiki Initrd](https://wiki.debian.org/Initrd)
+> _In computing, initrd (initial ramdisk) is a scheme for loading a temporary root file system into memory, which may be used as part of the Linux startup process. initrd and initramfs refer to two different methods of achieving this. Both are commonly used to make preparations before the real root file system can be mounted._ [Wikipedia](https://en.wikipedia.org/wiki/Initrd)
 
 ```sh
 user@workstation:~/boot$ ls /boot/initrd.img-$(uname -r)
@@ -220,8 +218,6 @@ user@workstation:~/boot$ cat /proc/kallsyms | grep exception_stacks
 ### Vmlinuz
 
 > _On Linux systems, vmlinux is a statically linked executable file that contains the Linux kernel in one of the object file formats supported by Linux, which includes ELF, COFF and a.out. The vmlinux file might be required for kernel debugging, symbol table generation or other operations, but must be made bootable before being used as an operating system kernel by adding a multiboot header, bootsector and setup routines._ [Wikipedia](https://en.wikipedia.org/wiki/Vmlinux)
-
-> _vmlinuz is the name of the Linux kernel executable. vmlinuz is a compressed Linux kernel, and it is capable of loading the operating system into memory so that the computer becomes usable and application programs can be run. vmlinuz = Virtual Memory LINUx gZip = Compressed Linux kernel Executable._ [Anatomy of the initrd and vmlinuz](https://www.ibm.com/developerworks/community/blogs/mhhaque/entry/anatomy_of_the_initrd_and_vmlinuz?lang=en)
 
 ```sh
 user@workstation:~/boot$ ls /boot/vmlinuz-$(uname -r)
