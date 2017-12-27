@@ -12,7 +12,7 @@
   - Embedded Linux
   - Linux Kernel Architecture
   - Linux Kernel Development
-  - Linux Audio as a Service
+  - Audio as a Service
   - Camera as a Service
 - IoT Solution Architect
   - Digital Transformation
