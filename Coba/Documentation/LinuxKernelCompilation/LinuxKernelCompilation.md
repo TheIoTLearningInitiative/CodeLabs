@@ -88,6 +88,11 @@ CONFIG_NEED_SG_DMA_LENGTH=y
 > _initrd is mainly designed to allow system startup to occur in two phases, where the kernel comes up with a minimum set of compiled-in drivers, and where additional modules are loaded from initrd._ [Debian Wiki Initrd](https://wiki.debian.org/Initrd)
 
 ```sh
+user@workstation:~/boot$ ls /boot/initrd.img-$(uname -r)
+/boot/initrd.img-4.12.0-kali2-amd64
+```
+
+```sh
 user@workstation:~/boot$ file initrd.img-4.12.0-kali2-amd64
 initrd.img-4.12.0-kali2-amd64: ASCII cpio archive (SVR4 with no CRC)
 ```
