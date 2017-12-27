@@ -139,7 +139,9 @@ certs  crypto   firmware       init     Kconfig  MAINTAINERS  modules.builtin  n
 user@workstation:~/linux$ 
 ```
 
-Reboot your workstation and confirm the new version has been installed
+## Uname
+
+Reboot your workstation and confirm the new version has been installed, print the Kernel Release
 
 ```
 user@workstation:~$ uname -a
