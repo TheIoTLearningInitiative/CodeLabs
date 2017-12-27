@@ -115,6 +115,8 @@ __Tasks__
 > > > Linux Kernel Build System
 > > > Linux Kernel Patch
 > > > Linux Kernel Developer
+> > > 
+> > > [Linux Kernel Development](https://goo.gl/AzK8Q2)
 
 To be written once the previous challenge is completed.
 
