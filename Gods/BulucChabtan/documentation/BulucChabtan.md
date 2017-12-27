@@ -6,7 +6,9 @@
 
 Are you a University Student? Do you want to code, learn and contribute while you challenge yourself in the world of hardware and software?
 
-Have you completed "Challenge One"? Then mention us __@IoTLearningInit__ Twitter with Hashtag __#BulucChabtanChallenge__ or send us a Direct Message.
+Once you have completed "Challenge One"? Then mention us __@IoTLearningInit__ Twitter with Hashtag __#BulucChabtanChallenge__ or send us a Direct Message.
+
+"Challenge Two" will be posted once "Challenge One" has been completed once.
 
 ## Challenge One
 
