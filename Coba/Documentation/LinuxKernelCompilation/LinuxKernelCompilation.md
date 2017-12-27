@@ -8,6 +8,11 @@ Linux kali 4.12.0-kali2-amd64 #1 SMP Debian 4.12.13-1kali2 (2017-10-03) x86_64 G
 ```
 
 ```sh
+user@workstation:~$ uname -r
+4.12.0-kali2-amd64
+```
+
+```sh
 user@workstation:~$ cd linux
 user@workstation:~/linux$ 
 ```
@@ -65,5 +70,5 @@ Reboot your workstation and confirm the new version has been installed
 
 ```
 user@workstation:~$ uname -a
-Linux Minnowboard 3.19.0-rc7+ #1 SMP Debian ... x86_64 GNU/Linux
+Linux kali config-4.15.0-rc4+ #1 SMP Debian 4.12.13-1kali2 (2017-10-03) x86_64 GNU/Linux
 ```
