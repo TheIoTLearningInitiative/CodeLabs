@@ -54,9 +54,7 @@ user@workstation:~/boot$
 
 ### initrd
 
-> Initial ramdisk
-
-- [Linux initial RAM disk (initrd) overview](https://www.ibm.com/developerworks/library/l-initrd/index.html)
+> _The initial RAM disk (initrd) is an initial root file system that is mounted prior to when the real root file system is available. The initrd is bound to the kernel and loaded as part of the kernel boot procedure. The kernel then mounts this initrd as part of the two-stage boot process to load the modules to make the real file systems available and get at the real root file system._ [Linux initial RAM disk (initrd) overview](https://www.ibm.com/developerworks/library/l-initrd/index.html)
 
 ```sh
 user@workstation:~/boot$ file initrd.img-4.12.0-kali2-amd64
