@@ -26,11 +26,11 @@ This release is based on the Architecture version 2.0, which includes the follow
 - Accounts
 - Areas
 - Digital Media Players
-- Keypad
+- Keypads
 - Mobile Device
-- Robot
+- Amikoo
 - Server
-- Station
+- Stations
 
 ## Additions
 
