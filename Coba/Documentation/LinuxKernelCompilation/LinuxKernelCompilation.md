@@ -47,8 +47,17 @@ drwxr-xr-x 12 root root    4096 Sep 26 00:17 kernel
 -rw-r--r--  1 root root  618714 Oct  8 22:54 modules.symbols.bin
 lrwxrwxrwx  1 root root      42 Oct  3 01:58 source -> /usr/src/linux-headers-4.12.0-kali2-common
 user@workstation:~$ 
-
 ```
+
+```sh
+user@workstation:~$ lsmod | grep button
+button                 16384  1 i915
+user@workstation:~$ lsmod | grep pcspkr
+pcspkr                 16384  0
+user@workstation:~$ 
+```
+
+## /Src Directory
 
 ```sh
 user@workstation:~$ ls /boot
