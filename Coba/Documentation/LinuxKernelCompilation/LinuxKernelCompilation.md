@@ -143,6 +143,11 @@ System.map-4.12.0-kali2-amd64: ASCII text
 user@workstation:~/boot$ 
 ```
 
+```
+user@workstation:~/boot$ ls -alh System.map-4.12.0-kali2-amd64
+-rw-r--r-- 1 root root 2.9M Oct  3 01:58 System.map-4.12.0-kali2-amd64
+```
+
 ```sh
 user@workstation:~/boot$ cat System.map-4.12.0-kali2-amd64 | less
 0000000000000000 D __per_cpu_start
