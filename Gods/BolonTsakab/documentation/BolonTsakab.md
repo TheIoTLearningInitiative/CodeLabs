@@ -8,7 +8,7 @@
   - Intel Edison
   - Raspberry Pi
   - ESP8266
-- Linux
+- Operating Systems
   - Embedded Linux
   - Linux Kernel Architecture
   - Linux Kernel Development
@@ -17,4 +17,7 @@
 - IoT Solution Architect
   - Digital Transformation
   - From The Device To A Cloud Platform
+  - Sensors
   - Smart Home
+  - IBM Internet of Things
+  - Amazon Web Services IoT
