@@ -24,19 +24,34 @@ user@workstation:~$ uname -r
 
 > _This directory contains everything required for the boot process except for configuration files not needed at boot time (the most notable of those being those that belong to the GRUB boot-loader) and the map installer._ [LDP Linux Filesystem Hierarchy /boot](http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/boot.html)
 
+```
+user@workstation:~$ cd /boot/
+user@workstation:~/boot$ 
+```
+
 ```sh
-user@workstation:~$ /boot
+user@workstation:~/boot$ ls
 config-4.12.0-kali1-amd64      initrd.img-4.12.0-kali2-amd64  vmlinuz-4.12.0-kali1-amd64
 config-4.12.0-kali2-amd64      initrd.img-4.15.0-kali1-amd64  vmlinuz-4.12.0-kali2-amd64
 config-4.15.0-kali1-amd64      System.map-4.12.0-kali1-amd64  vmlinuz-4.15.0-kali1-amd64
 grub                           System.map-4.12.0-kali2-amd64
 initrd.img-4.12.0-kali1-amd64  System.map-4.15.0-kali1-amd64
 ```
-- config-*
-  - Installed kernel configuration
-- initrd.*
-  - Initial ramdisk, 
-  - [Linux initial RAM disk (initrd) overview](https://www.ibm.com/developerworks/library/l-initrd/index.html)
+### config
+
+> Installed kernel configuration
+
+
+### initrd
+
+> Initial ramdisk
+
+- [Linux initial RAM disk (initrd) overview](https://www.ibm.com/developerworks/library/l-initrd/index.html)
+
+```sh
+user@workstation:~/boot$ file initrd.img-4.12.0-kali2-amd64
+initrd.img-4.12.0-kali2-amd64: ASCII cpio archive (SVR4 with no CRC)
+```
 
 ## Lib Directory
 
