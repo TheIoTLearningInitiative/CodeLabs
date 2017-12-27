@@ -221,6 +221,24 @@ user@workstation:~/boot$ cat /proc/kallsyms | grep exception_stacks
 
 > _vmlinuz is the name of the Linux kernel executable. vmlinuz is a compressed Linux kernel, and it is capable of loading the operating system into memory so that the computer becomes usable and application programs can be run. vmlinuz = Virtual Memory LINUx gZip = Compressed Linux kernel Executable._ [Anatomy of the initrd and vmlinuz](https://www.ibm.com/developerworks/community/blogs/mhhaque/entry/anatomy_of_the_initrd_and_vmlinuz?lang=en)
 
+```sh
+user@workstation:~/boot$ ls /boot/vmlinuz-$(uname -r)
+/boot/vmlinuz-4.12.0-kali2-amd64
+user@workstation:~/boot$ 
+```
+
+```sh
+user@workstation:~/boot$ file vmlinuz-4.12.0-kali2-amd64
+vmlinuz-4.12.0-kali2-amd64: Linux kernel x86 boot executable bzImage, version 4.12.0-kali2-amd64 (devel@kali.org) #1 SMP Debian 4.12.13-1kali2 (2017-10-03), RO-rootFS, swap_dev 0x4, Normal VGA
+user@workstation:~/boot$ 
+```
+
+```sh
+user@workstation:~/boot$ ls -alh vmlinuz-4.12.0-kali2-amd64
+-rw-r--r-- 1 root root 4.2M Oct  3 01:58 vmlinuz-4.12.0-kali2-amd64
+user@workstation:~/boot$ 
+```
+
 ## Lib Directory
 
 > _The /lib directory contains kernel modules and those shared library images (the C programming code library) needed to boot the system and run the commands in the root filesystem._ [LDP Linux Filesystem Hierarchy /lib](http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/lib.html)
