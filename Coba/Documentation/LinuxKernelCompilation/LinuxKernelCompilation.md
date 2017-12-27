@@ -219,6 +219,8 @@ user@workstation:~/boot$ cat /proc/kallsyms | grep exception_stacks
 
 ### Vmlinuz
 
+> _On Linux systems, vmlinux is a statically linked executable file that contains the Linux kernel in one of the object file formats supported by Linux, which includes ELF, COFF and a.out. The vmlinux file might be required for kernel debugging, symbol table generation or other operations, but must be made bootable before being used as an operating system kernel by adding a multiboot header, bootsector and setup routines._ [Wikipedia](https://en.wikipedia.org/wiki/Vmlinux)
+
 > _vmlinuz is the name of the Linux kernel executable. vmlinuz is a compressed Linux kernel, and it is capable of loading the operating system into memory so that the computer becomes usable and application programs can be run. vmlinuz = Virtual Memory LINUx gZip = Compressed Linux kernel Executable._ [Anatomy of the initrd and vmlinuz](https://www.ibm.com/developerworks/community/blogs/mhhaque/entry/anatomy_of_the_initrd_and_vmlinuz?lang=en)
 
 ```sh
