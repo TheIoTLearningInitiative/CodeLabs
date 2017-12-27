@@ -57,8 +57,6 @@ user@workstation:~/boot$ file initrd.img-4.12.0-kali2-amd64
 initrd.img-4.12.0-kali2-amd64: ASCII cpio archive (SVR4 with no CRC)
 ```
 
-Let's look at its content...
-
 ```sh
 user@workstation:~/boot$ mkdir /tmp/temp
 user@workstation:~/boot$ cd /tmp/temp/
@@ -77,6 +75,12 @@ user@workstation:/tmp/temp$ find . -type f | wc -l
 user@workstation:/tmp/temp$ find lib/modules/4.12.0-kali2-amd64/kernel/ -type f | wc -l
 662
 xe1gyq@kali:/tmp/temp$ 
+```
+
+```sh
+user@workstation:/tmp/temp$ cd /boot
+user@workstation:~/boot$ rm -rf /tmp/temp/
+user@workstation:~/boot$ 
 ```
 
 ### System
