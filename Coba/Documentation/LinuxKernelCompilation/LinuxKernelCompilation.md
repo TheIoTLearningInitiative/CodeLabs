@@ -237,6 +237,13 @@ user@workstation:~/boot$ ls -alh vmlinuz-4.12.0-kali2-amd64
 user@workstation:~/boot$ 
 ```
 
+```sh
+xe1gyq@kali:/boot$ mkdir /tmp/vmlinuz
+xe1gyq@kali:/boot$ cd /tmp/vmlinuz/
+xe1gyq@kali:/tmp/vmlinuz$ cp /boot/vmlinuz-4.12.0-kali2-amd64 .
+xe1gyq@kali:/tmp/vmlinuz$ gunzip vmlinuz-4.12.0-kali2-amd64 
+```
+
 ## Lib Directory
 
 > _The /lib directory contains kernel modules and those shared library images (the C programming code library) needed to boot the system and run the commands in the root filesystem._ [LDP Linux Filesystem Hierarchy /lib](http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/lib.html)
