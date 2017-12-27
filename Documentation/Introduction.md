@@ -22,7 +22,7 @@
 - 16 __Chaac__ Laboratory
 - 17 __EekMex__ Aerospace Learning Platform
 - 18 __NuupXe__ Amateur Radio Voice Software Infrastructure
-- 19 __Buluc Chabtan__ 
+- 19 __Buluc Chabtan__ Hardware, Software, and Soft Skills Training Challenge
 
 # Priority - In Process
 
@@ -107,10 +107,10 @@ Yucatán
 * **Bacab**  Smart Home
 * **Bahlam**
 * **Bitol** Drones
-* **Bolon**
+* **Bolon Ts'akab (Dzacab)** 
 * **Bolontiku**
 * **Bolon Yokte'**
-* **Buluc Chabtan** 
+* **Buluc Chabtan** Hardware, Software, and Soft Skills Training Challenge
 
 
 
