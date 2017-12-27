@@ -2,7 +2,7 @@
 
 > Understand the Linux Kernel compilation process
 
-## Kernel Version
+## Kernel Version, Actual
 
 ```sh
 user@workstation:~$ uname -a
@@ -12,6 +12,14 @@ Linux kali 4.12.0-kali2-amd64 #1 SMP Debian 4.12.13-1kali2 (2017-10-03) x86_64 G
 ```sh
 user@workstation:~$ uname -r
 4.12.0-kali2-amd64
+```
+
+```sh
+user@workstation:~$ lsmod | grep button
+button 16384 1 i915
+user@workstation:~$ lsmod | grep pcspkr
+pcspkr 16384 0
+user@workstation:~$
 ```
 
 ## Lib Directory
