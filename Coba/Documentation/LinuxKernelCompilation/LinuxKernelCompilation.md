@@ -241,7 +241,7 @@ user@workstation:~/boot$
 xe1gyq@kali:/boot$ mkdir /tmp/vmlinuz
 xe1gyq@kali:/boot$ cd /tmp/vmlinuz/
 xe1gyq@kali:/tmp/vmlinuz$ cp /boot/vmlinuz-4.12.0-kali2-amd64 .
-xe1gyq@kali:/tmp/vmlinuz$ gunzip vmlinuz-4.12.0-kali2-amd64 
+...
 ```
 
 ## Lib Directory
@@ -250,12 +250,13 @@ xe1gyq@kali:/tmp/vmlinuz$ gunzip vmlinuz-4.12.0-kali2-amd64
 
 ```sh
 user@workstation:~$ ls -al /lib/modules/
-drwxr-xr-x  7 root root 4096 Dec 23 09:05 .
-drwxr-xr-x 18 root root 4096 Sep  9 19:05 ..
-drwxr-xr-x  3 root root 4096 Sep 10 09:26 4.12.0-kali1-amd64
-drwxr-xr-x  3 root root 4096 Oct  8 22:54 4.12.0-kali2-amd64
-drwxr-xr-x  2 root root 4096 Oct  8 22:59 4.6.0-kali1-amd64
-drwxr-xr-x  2 root root 4096 Oct  8 22:59 4.9.0-kali2-amd64
+total 24K
+drwxr-xr-x  7 root root 4.0K Dec 23 09:05 .
+drwxr-xr-x 18 root root 4.0K Sep  9 19:05 ..
+drwxr-xr-x  3 root root 4.0K Sep 10 09:26 4.12.0-kali1-amd64
+drwxr-xr-x  3 root root 4.0K Oct  8 22:54 4.12.0-kali2-amd64
+drwxr-xr-x  2 root root 4.0K Oct  8 22:59 4.6.0-kali1-amd64
+drwxr-xr-x  2 root root 4.0K Oct  8 22:59 4.9.0-kali2-amd64
 user@workstation:~$ 
 ```
 
