@@ -16,7 +16,7 @@ Once you have completed "Challenge One"? Then mention us __@IoTLearningInit__ Tw
 
 > You earn 1 hour phone call for:
 > > - a resume review
-> > - discuss any topic you want
+> > - and to discuss any topic you want
 >
 > and One Hour Remote Workshop for you and your school
 > > Linux Kernel Development Process
