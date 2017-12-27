@@ -41,6 +41,10 @@ initrd.img-4.12.0-kali1-amd64  System.map-4.15.0-kali1-amd64
 
 > Installed kernel configuration
 
+```sh
+user@workstation:~/boot$ file config-4.12.0-kali2-amd64
+config-4.12.0-kali2-amd64: Linux make config build file, ASCII text
+```
 
 ### initrd
 
