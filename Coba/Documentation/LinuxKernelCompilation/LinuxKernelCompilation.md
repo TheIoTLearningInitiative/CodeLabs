@@ -338,11 +338,10 @@ user@workstation:~/linux$
 
 ```sh
 user@workstation:~/linux$ ls
-arch	 crypto		include  kernel       modules.builtin  scripts	 virt
-block	 Documentation	init	 lib	      modules.order    security
-certs	 drivers	ipc	 MAINTAINERS  net	       sound
-COPYING  firmware	Kbuild	 Makefile     README	       tools
-CREDITS  fs		Kconfig  mm	      samples	       usr
+arch	 CREDITS	firmware  ipc	   lib		net	 security  virt
+block	 crypto		fs	  Kbuild   MAINTAINERS	README	 sound
+certs	 Documentation	include   Kconfig  Makefile	samples  tools
+COPYING  drivers	init	  kernel   mm		scripts  usr
 user@workstation:~/linux$ 
 ```
 
@@ -379,9 +378,11 @@ root@workstation:~/linux# make install
 
 ```sh
 user@workstation:~/linux$ ls
-arch   COPYING  Documentation  fs       ipc      kernel       Makefile         modules.order   README   security    tools  vmlinux
-block  CREDITS  drivers        include  Kbuild   lib          mm               Module.symvers  samples  sound       usr    vmlinux.o
-certs  crypto   firmware       init     Kconfig  MAINTAINERS  modules.builtin  net             scripts  System.map  virt
+arch	 crypto		include  kernel       modules.builtin  scripts	 virt
+block	 Documentation	init	 lib	      modules.order    security
+certs	 drivers	ipc	 MAINTAINERS  net	       sound
+COPYING  firmware	Kbuild	 Makefile     README	       tools
+CREDITS  fs		Kconfig  mm	      samples	       usr
 user@workstation:~/linux$ 
 ```
 
