@@ -8,7 +8,9 @@ Are you a University Student? Do you want to code, learn and contribute while yo
 
 Once you have completed "Challenge One"? Then mention us __@IoTLearningInit__ Twitter with Hashtag __#BulucChabtanChallenge__ or send us a Direct Message.
 
-"Challenge Two" will be posted once "Challenge One" has been completed once.
+"Challenge Two" will be posted once "Challenge One" has been completed the first time.
+
+Special prize to the first student who has completed
 
 ## Challenge One
 
@@ -23,6 +25,7 @@ Once you have completed "Challenge One"? Then mention us __@IoTLearningInit__ Tw
 
 __Requirements__
 
+- One Github Repository named "BulucChabtanChallenge"
 - Linux Based Computer
 - Arduino Based Board
   - Arduino UNO
@@ -49,31 +52,31 @@ Please consider the following:
 __Tasks__
 
 0. __3 Schools Projects__ uploaded
-   - @ Github
+   - @ Github "BulucChabtanChallenge" Repository
    - @ Hackster
    - @ Instructables
 1. __Hardware__
    - Search, identify, deeply learn their architecture and document 10 development boards available
      - 5 Arduino Based
      - 5 Linux Based
-   - This Documentation @ Github
+   - This Documentation @ Github "BulucChabtanChallenge" Repository
 2. __Linux__
-   - Learn about Linux Kernel Compilation and document the step to compile @ Github
+   - Learn about Linux Kernel Compilation and document the step to compile @ Github "BulucChabtanChallenge" Repository
    - Upload your working Linux Kernel Config @ Github
 3. __Shell Scripting__
-   - 3 Shell Scripts uploaded @ Github
+   - 3 Shell Scripts uploaded @ Github "BulucChabtanChallenge" Repository
 4. __Python Programming Language__
-   - 3 Python Scripts uploaded @ Github
+   - 3 Python Scripts uploaded @ Github "BulucChabtanChallenge" Repository
 5. __Communications__
    - Search and deeply learn about MQTT Protocol
-     - A working Server __Implementation__ @ Github
-     - A working Client __Implementation__ using Python @ Github
+     - A working Server __Implementation__ @ Github "BulucChabtanChallenge" Repository
+     - A working Client __Implementation__ using Python @ Github "BulucChabtanChallenge" Repository
 6. __Cloud Services__
    - Use Google Cloud Services
-     - Vision API __Implementation__ @ Github
-     - Translation API __Implementation__ @ Github
+     - Vision API __Implementation__ @ Github "BulucChabtanChallenge" Repository
+     - Translation API __Implementation__ @ Github "BulucChabtanChallenge" Repository
    - Use Amazon Alexa Service
-     - Alexa Voice Service __Implementation__ @ Github
+     - Alexa Voice Service __Implementation__ @ Github "BulucChabtanChallenge" Repository
 7. __Project Integration__
    - Think about one problem to solve
      - Personal
@@ -94,7 +97,7 @@ __Tasks__
      - Cloud Services
        - Any
    - It needs to be an __Implementation__ of your project uploaded
-     - @ Github
+     - @ Github "BulucChabtanChallenge" Repository
      - @ Hackster
      - @ Instructables
 
