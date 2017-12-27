@@ -14,6 +14,13 @@ pcspkr                 16384  0
 user@workstation:~$ 
 ```
 
+__Challenge__
+
+Find out where button and pcspkr are under:
+- /lib/modules/
+- Mainline
+- Kernel Configuration
+
 ## Hello World Module Source Code
 
 Make a "helloworld" directory
