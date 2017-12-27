@@ -207,6 +207,14 @@ user@workstation:~/boot$ cat /proc/kallsyms | less
 000000000000b820 A pt_ctx
 000000000000b900 A xen_vcpu_info
 000000000000b940 A xen_vcpu_id
+...
+```
+
+```sh
+user@workstation:~/boot$ cat System.map-4.12.0-kali2-amd64 | grep exception_stacks
+0000000000004000 d exception_stacks
+user@workstation:~/boot$ cat /proc/kallsyms | grep exception_stacks
+0000000000004000 A exception_stacks
 ```
 
 ## Lib Directory
