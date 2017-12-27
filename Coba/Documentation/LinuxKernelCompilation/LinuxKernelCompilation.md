@@ -72,6 +72,8 @@ user@workstation:/tmp/temp$
 ```
 
 ```sh
+user@workstation:/tmp/temp$ find . -type f | wc -l
+1117
 user@workstation:/tmp/temp$ find lib/modules/4.12.0-kali2-amd64/kernel/ -type f | wc -l
 662
 xe1gyq@kali:/tmp/temp$ 
