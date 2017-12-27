@@ -11,7 +11,7 @@
 # Linux Kernel Development Project
 
 1. Create a GitHub account
-2. Login in with <username>
+2. Login in and verify your <username>
 3. Click '+' sign on the top right
 4. Select 'New repository'
 5. Enter the name "LinuxKernelDevelopment" and keep default settings.
