@@ -138,5 +138,8 @@ To be written once the previous challenge is completed.
 
 > __Codename__ Ahau kan .. Sumo Sacerdote
 > You earn Referral to my Employeer
+> 
+> and four hours remote workshop for you and your school
+> > __IoT Solution Architect: From The Device To A Cloud Platform__
 
 To be written once the previous challenge is completed.
