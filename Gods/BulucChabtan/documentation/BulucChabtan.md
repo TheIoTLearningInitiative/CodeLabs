@@ -10,7 +10,7 @@ Have you completed "Challenge One"? Then mention us __@IoTLearningInit__ Twitter
 
 > __Codename__ Ppentac-ob .. Esclavos
 
-> You earn a Resume Review + 30 Minutes Phone Call
+> You earn 30 Minutes Phone Call for a Resume Review
 >
 > and One Hour Remote Workshop for you and your school
 > > Linux Kernel Development Process
@@ -49,28 +49,28 @@ __Tasks__
    - @ Hackster
    - @ Instructables
 1. __Hardware__
-   - Identify, deeply learn their architecture and list 10 development boards available
+   - Search, identify, deeply learn their architecture and document 10 development boards available
      - 5 Arduino Based
      - 5 Linux Based
-   - All this documented @ Github
+   - This Documentation @ Github
 2. __Linux__
-   - Kernel Compilation Steps documented @ Github
-   - Kernel Config uplaoded @ Github
+   - Learn about Linux Kernel Compilation and document the step to compile @ Github
+   - Upload your working Linux Kernel Config @ Github
 3. __Shell Scripting__
-   - 3 Scripts uploaded @ Github
+   - 3 Shell Scripts uploaded @ Github
 4. __Python Programming Language__
-   - 3 Scripts uploaded @ Github
+   - 3 Python Scripts uploaded @ Github
 5. __Communications__
-   - MQTT Protocol
-     - Server __Implementation__
-     - Client __Implementation__
-       - Use Python
+   - Search and deeply learn about MQTT Protocol
+     - Document the Server __Implementation__
+     - Code your Client __Implementation__
+       - Use Python for the Clients
      - All this uploaded and documented @ Github
 6. __Cloud Services__
-   - Google Cloud
+   - Use Google Cloud Services
      - Vision API __Implementation__ uploaded @ Github
      - Translation API __Implementation__ uploaded @ Github
-   - Amazon Alexa
+   - Use Amazon Alexa Service
      - Alexa Voice Service __Implementation__ uploaded @ Github
 7. __Project Integration__
    - Think about one problem to solve
