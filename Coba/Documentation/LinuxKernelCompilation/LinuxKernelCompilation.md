@@ -2,6 +2,24 @@
 
 > Understand the Linux Kernel compilation process
 
+## Man
+
+> An interface to the on-line reference manuals
+
+```sh
+user@workstation:~$ man man
+...
+MAN(1)                        Manual pager utils                        MAN(1)
+
+NAME
+       man - an interface to the on-line reference manuals
+
+SYNOPSIS
+       man  [-C  file]  [-d]  [-D]  [--warnings[=warnings]]  [-R encoding] [-L
+       locale] [-m system[,...]] [-M path] [-S list]  [-e  extension]  [-i|-I]
+...
+```
+
 ## Uname
 
 > Print system information
