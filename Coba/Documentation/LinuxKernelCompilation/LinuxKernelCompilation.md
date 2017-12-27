@@ -46,6 +46,12 @@ user@workstation:~/boot$ file config-4.12.0-kali2-amd64
 config-4.12.0-kali2-amd64: Linux make config build file, ASCII text
 ```
 
+```sh
+user@workstation:~/boot$ ls -alh config-4.12.0-kali2-amd64 
+-rw-r--r-- 1 root root 190K Oct  3 01:58 config-4.12.0-kali2-amd64
+user@workstation:~/boot$ 
+```
+
 ### initrd
 
 > Initial ramdisk
