@@ -256,10 +256,15 @@ user@workstation:~/boot$
 ```
 
 ```sh
-xe1gyq@kali:/boot$ mkdir /tmp/vmlinuz
-xe1gyq@kali:/boot$ cd /tmp/vmlinuz/
+user@workstation:~/boot$ mkdir /tmp/vmlinuz
+user@workstation:~/boot$ cd /tmp/vmlinuz/
 xe1gyq@kali:/tmp/vmlinuz$ cp /boot/vmlinuz-4.12.0-kali2-amd64 .
 ...
+```
+
+```sh
+user@workstation:~/boot$ cd
+user@workstation:~$ 
 ```
 
 ## Lib Directory
