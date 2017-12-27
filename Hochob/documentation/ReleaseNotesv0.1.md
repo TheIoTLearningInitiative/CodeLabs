@@ -8,7 +8,7 @@ Welcome to our Visitors Center, an awesome space built by an awesome team of vol
 
 ## Hocho Project
 
-Hochob Project is an open source storytelling type of automated system for museums, based on the Linux operating system, created by taking a wide array of ideas from a wide array of Volunteers to orchestrate a wide range of commercial and non commercial devices managed by a wide range of software technologies and programming languages, all packed into one single user interface to help volunteers tell our visitors a compelling visual and spoken story of our history, our technology and topics related to Science, Technology, Engineering and Mathematics. [Presentation](https://goo.gl/KuMWxD)
+Hochob Project is an open source storytelling type of automated system for museums, based on the Linux operating system, created by taking a wide array of ideas from a wide array of Volunteers to orchestrate a wide range of commercial and non commercial devices managed by a wide range of software technologies and programming languages, all packed into one single user interface to help volunteers tell our visitors a compelling visual and spoken story of our history, our technology and different topics related to Science, Technology, Engineering and Mathematics. [Presentation](https://goo.gl/KuMWxD)
 
 ## Roles
 
