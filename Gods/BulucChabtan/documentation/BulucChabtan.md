@@ -111,7 +111,7 @@ __Tasks__
 > > - 30 Minutes - Embedded Linux Architecture
 >
 > and two hours remote workshop for you and your school
-> >  Internet of Things Architecture
+> >  __Internet of Things Architecture__
 
 To be written once the previous challenge is completed.
 
