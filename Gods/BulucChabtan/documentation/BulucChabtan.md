@@ -102,12 +102,12 @@ __Tasks__
 
 > __Codename__ Ah Chembal Uinicoob .. Artesanos / Campesinos
 
-> You earn One Hour Phone Call Interview Dry Run
+> You earn one hour phone call for a dry run interview
 > > - 15 Minutes - Hardware Architecture
 > > - 15 Minutes - Software Architecture
 > > - 30 Minutes - Embedded Linux Architecture
 >
-> and Four Hours Remote Workshop for you and your school
+> and four hours remote workshop for you and your school
 > > __Linux Kernel Development__
 > > Agenda
 > > > Linux Kernel Source Code
