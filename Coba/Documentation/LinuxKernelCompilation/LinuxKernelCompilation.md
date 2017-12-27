@@ -18,7 +18,6 @@ user@workstation:~$ uname -r
 
 ```sh
 user@workstation:~$ ls -al /lib/modules/
-total 28
 drwxr-xr-x  7 root root 4096 Dec 23 09:05 .
 drwxr-xr-x 18 root root 4096 Sep  9 19:05 ..
 drwxr-xr-x  3 root root 4096 Sep 10 09:26 4.12.0-kali1-amd64
