@@ -33,6 +33,8 @@ initrd.img-4.12.0-kali1-amd64  System.map-4.15.0-kali1-amd64
 
 ## Lib Directory
 
+> The /lib directory contains kernel modules and those shared library images (the C programming code library) needed to boot the system and run the commands in the root filesystem. [LDP Linux Filesystem Hierarchy](http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/lib.html)
+
 ```sh
 user@workstation:~$ ls -al /lib/modules/
 drwxr-xr-x  7 root root 4096 Dec 23 09:05 .
