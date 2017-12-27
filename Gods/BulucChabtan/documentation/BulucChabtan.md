@@ -15,8 +15,6 @@ Have you completed "Challenge One"? Then mention us __@IoTLearningInit__ Twitter
 > and One Hour Remote Workshop for you and your school
 > > Linux Kernel Development Process
 
-
-
 __Requirements__
 
 - Linux Based Computer
@@ -62,16 +60,14 @@ __Tasks__
    - 3 Python Scripts uploaded @ Github
 5. __Communications__
    - Search and deeply learn about MQTT Protocol
-     - Document the Server __Implementation__
-     - Code your Client __Implementation__
-       - Use Python for the Clients
-     - All this uploaded and documented @ Github
+     - A working Server __Implementation__ @ Github
+     - A working Client __Implementation__ using Python @ Github
 6. __Cloud Services__
    - Use Google Cloud Services
-     - Vision API __Implementation__ uploaded @ Github
-     - Translation API __Implementation__ uploaded @ Github
+     - Vision API __Implementation__ @ Github
+     - Translation API __Implementation__ @ Github
    - Use Amazon Alexa Service
-     - Alexa Voice Service __Implementation__ uploaded @ Github
+     - Alexa Voice Service __Implementation__ @ Github
 7. __Project Integration__
    - Think about one problem to solve
      - Personal
@@ -91,7 +87,7 @@ __Tasks__
        - MQTT Protocol
      - Cloud Services
        - Any
-   - It needs to be a project uploaded
+   - It needs to be an __Implementation__ of your project uploaded
      - @ Github
      - @ Hackster
      - @ Instructables
