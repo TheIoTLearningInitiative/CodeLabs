@@ -22,6 +22,8 @@ user@workstation:~$ uname -r
 
 ## Boot Directory
 
+> _This directory contains everything required for the boot process except for configuration files not needed at boot time (the most notable of those being those that belong to the GRUB boot-loader) and the map installer._ [LDP Linux Filesystem Hierarchy /boot](http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/boot.html)
+
 ```sh
 user@workstation:~$ /boot
 config-4.12.0-kali1-amd64      initrd.img-4.12.0-kali2-amd64  vmlinuz-4.12.0-kali1-amd64
@@ -33,7 +35,7 @@ initrd.img-4.12.0-kali1-amd64  System.map-4.15.0-kali1-amd64
 
 ## Lib Directory
 
-> The /lib directory contains kernel modules and those shared library images (the C programming code library) needed to boot the system and run the commands in the root filesystem. [LDP Linux Filesystem Hierarchy](http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/lib.html)
+> _The /lib directory contains kernel modules and those shared library images (the C programming code library) needed to boot the system and run the commands in the root filesystem._ [LDP Linux Filesystem Hierarchy /lib](http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/lib.html)
 
 ```sh
 user@workstation:~$ ls -al /lib/modules/
