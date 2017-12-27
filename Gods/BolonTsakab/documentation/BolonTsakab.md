@@ -4,19 +4,19 @@
 
 > Hardware, Software, and Soft Skills Training Program
 
-- Core
+- __Core__
   - The Hardware and Software Basics
-- Hardware Development Boards
+- __Hardware Development Boards__
   - Intel Edison
   - Raspberry Pi
   - ESP8266
-- Operating Systems
+- __Operating Systems__
   - Embedded Linux
   - Linux Kernel Architecture
   - Linux Kernel Development
   - Audio as a Service
   - Camera as a Service
-- IoT Solution Architect
+- __IoT Solution Architect__
   - Digital Transformation
   - From The Device To A Cloud Platform
   - Sensors
