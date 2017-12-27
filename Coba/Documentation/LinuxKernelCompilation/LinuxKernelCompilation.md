@@ -42,6 +42,11 @@ initrd.img-4.12.0-kali1-amd64  System.map-4.15.0-kali1-amd64
 > Installed kernel configuration
 
 ```sh
+user@workstation:~/boot$ ls /boot/config-$(uname -r)
+/boot/config-4.12.0-kali2-amd64
+```
+
+```sh
 user@workstation:~/boot$ file config-4.12.0-kali2-amd64
 config-4.12.0-kali2-amd64: Linux make config build file, ASCII text
 ```
@@ -121,6 +126,11 @@ user@workstation:~/boot$
 ### System
 
 > _In Linux, the System.map file is a symbol table used by the kernel. A symbol table is a look-up between symbol names and their addresses in memory. A symbol name may be the name of a variable or the name of a function. The System.map is required when the address of a symbol name, or the symbol name of an address, is needed. It is especially useful for debugging kernel panics and kernel oopses. The kernel does the address-to-name translation itself when CONFIG_KALLSYMS is enabled so that tools like ksymoops are not required._ [Wikipedia](https://en.wikipedia.org/wiki/System.map)
+
+```sh
+user@workstation:~/boot$ ls /boot/System.map-$(uname -r)
+/boot/System.map-4.12.0-kali2-amd64
+```
 
 ```sh
 user@workstation:~/boot$ file System.map-4.12.0-kali2-amd64 
