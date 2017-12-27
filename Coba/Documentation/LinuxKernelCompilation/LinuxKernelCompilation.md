@@ -322,14 +322,11 @@ user@workstation:~$
 ## Directory /usr/src 
 
 ```sh
-user@workstation:~$ ls /boot
-config-4.12.0-kali1-amd64      System.map-4.12.0-kali1-amd64
-config-4.12.0-kali2-amd64      System.map-4.12.0-kali2-amd64
-config-4.15.0-rc4+	       System.map-4.15.0-rc4+
-grub			       vmlinuz-4.12.0-kali1-amd64
-initrd.img-4.12.0-kali1-amd64  vmlinuz-4.12.0-kali2-amd64
-initrd.img-4.12.0-kali2-amd64  vmlinuz-4.15.0-rc4+
-initrd.img-4.15.0-rc4+
+user@workstation:~$ ls /usr/src
+aufs-4.12+20170904		   linux-kbuild-4.12
+linux-headers-4.12.0-kali2-amd64   volatility-tools
+linux-headers-4.12.0-kali2-common
+user@workstation:~$ 
 ```
 
 ## Mainline
