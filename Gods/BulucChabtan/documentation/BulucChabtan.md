@@ -107,6 +107,18 @@ __Tasks__
 > > - 15 Minutes - Software Architecture
 > > - 30 Minutes - Embedded Linux Architecture
 >
+> and two hours remote workshop for you and your school
+> >  Internet of Things Architecture
+
+To be written once the previous challenge is completed.
+
+## Challenge Three
+
+> __Codename__ Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
+
+> You earn 1 hour phone call to:
+> > - discuss any topic you want
+>
 > and four hours remote workshop for you and your school
 > > __Linux Kernel Development__
 > > Agenda
@@ -119,15 +131,6 @@ __Tasks__
 > > > Linux Kernel Developer
 > > > 
 > > > [Linux Kernel Development Brochure](https://goo.gl/AzK8Q2)
-
-To be written once the previous challenge is completed.
-
-## Challenge Three
-
-> __Codename__ Ahkim / Chilan / Ahmen .. Discursos Religiosos / Adivinos / Hechiceros, Brujos
-
-> You earn Two Hours Remote Workshop for you and your school
-> >  Internet of Things Architecture
 
 To be written once the previous challenge is completed.
 
