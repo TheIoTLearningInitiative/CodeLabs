@@ -11,7 +11,7 @@
 # Linux Kernel Development Project
 
 1. Create a GitHub account
-2. Login in
+2. Login in with <username>
 3. Click '+' sign on the top right
 4. Select 'New repository'
 5. Enter the name "LinuxKernelDevelopment" and keep default settings.
@@ -24,7 +24,7 @@ user@workstation:~$ cd
 user@workstation:~$ mkdir LinuxKernelDevelopment
 user@workstation:~$ cd LinuxKernelDevelopment
 user@workstation:~/LinuxKernelDevelopment$ git init .
-user@workstation:~/LinuxKernelDevelopment$ git remote add origin https://github.com/xe1gyq/LinuxKernelDevelopment
+user@workstation:~/LinuxKernelDevelopment$ git remote add origin https://github.com/<username>/LinuxKernelDevelopment
 user@workstation:~/LinuxKernelDevelopment$ echo "# Linux Kernel Development" > README.md
 user@workstation:~/LinuxKernelDevelopment$ git add README.md
 user@workstation:~/LinuxKernelDevelopment$ git commit -m "Linux Kernel Development README"
