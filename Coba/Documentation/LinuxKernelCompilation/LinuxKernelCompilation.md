@@ -179,6 +179,36 @@ user@workstation:~/boot$ cat System.map-4.12.0-kali2-amd64 | less
 ...
 ```
 
+```sh
+user@workstation:~/boot$ cat /proc/kallsyms | less
+0000000000000000 A irq_stack_union
+0000000000000000 A __per_cpu_start
+0000000000004000 A exception_stacks
+0000000000009000 A gdt_page
+000000000000a000 A espfix_waddr
+000000000000a008 A espfix_stack
+000000000000a020 A cpu_llc_id
+000000000000a040 A cpu_llc_shared_map
+000000000000a080 A cpu_core_map
+000000000000a0c0 A cpu_sibling_map
+000000000000a100 A cpu_info
+000000000000a1e8 A cpu_number
+000000000000a1f0 A this_cpu_off
+000000000000a1f8 A x86_cpu_to_acpiid
+000000000000a1fc A x86_cpu_to_apicid
+000000000000a1fe A x86_bios_cpu_apicid
+000000000000a200 A sched_core_priority
+000000000000a240 A cpu_loops_per_jiffy
+000000000000a280 A pmc_prev_left
+000000000000a480 A cpu_hw_events
+000000000000b740 A bts_ctx
+000000000000b800 A pqr_state
+000000000000b810 A insn_buffer
+000000000000b820 A pt_ctx
+000000000000b900 A xen_vcpu_info
+000000000000b940 A xen_vcpu_id
+```
+
 ## Lib Directory
 
 > _The /lib directory contains kernel modules and those shared library images (the C programming code library) needed to boot the system and run the commands in the root filesystem._ [LDP Linux Filesystem Hierarchy /lib](http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/lib.html)
