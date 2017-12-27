@@ -36,6 +36,7 @@ initrd.img-4.12.0-kali1-amd64  System.map-4.15.0-kali1-amd64
   - Installed kernel configuration
 - initrd.*
   - Initial ramdisk, 
+  - [Linux initial RAM disk (initrd) overview](https://www.ibm.com/developerworks/library/l-initrd/index.html)
 
 ## Lib Directory
 
