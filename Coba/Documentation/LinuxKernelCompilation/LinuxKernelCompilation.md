@@ -80,6 +80,8 @@ CONFIG_NEED_SG_DMA_LENGTH=y
 
 > _The initial RAM disk (initrd) is an initial root file system that is mounted prior to when the real root file system is available. The initrd is bound to the kernel and loaded as part of the kernel boot procedure. The kernel then mounts this initrd as part of the two-stage boot process to load the modules to make the real file systems available and get at the real root file system._ [Linux initial RAM disk (initrd) overview](https://www.ibm.com/developerworks/library/l-initrd/index.html)
 
+> _initrd is mainly designed to allow system startup to occur in two phases, where the kernel comes up with a minimum set of compiled-in drivers, and where additional modules are loaded from initrd._ [Debian Wiki Initrd](https://wiki.debian.org/Initrd)
+
 ```sh
 user@workstation:~/boot$ file initrd.img-4.12.0-kali2-amd64
 initrd.img-4.12.0-kali2-amd64: ASCII cpio archive (SVR4 with no CRC)
