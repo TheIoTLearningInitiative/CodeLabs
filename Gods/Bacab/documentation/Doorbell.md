@@ -10,6 +10,10 @@
 ## Implementation
 
 ```sh
+user@workstation:~$ sudo apt-get install nodejs-legacy
+```
+
+```sh
 user@workstation:~$ git clone https://github.com/maddox/dasher.git
 Cloning into 'dasher'...
 remote: Counting objects: 290, done.
