@@ -43,6 +43,12 @@ user@workstation:~$ source ubuntu_sim_nuttx.sh
 #### PX4 Build
 
 ```sh
+user@workstation:~$ cd src/
+user@workstation:~/src$ cd Firmware/
+user@workstation:~/src/Firmware$ make posix jmavsim
+```
+
+```sh
 user@workstation:~$ git clone https://github.com/PX4/Firmware.git
 user@workstation:~$ cd Firmware
 user@workstation:~$ make posix jmavsim
