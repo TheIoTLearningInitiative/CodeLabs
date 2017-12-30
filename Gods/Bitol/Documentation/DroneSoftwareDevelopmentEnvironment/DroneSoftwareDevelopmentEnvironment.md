@@ -16,7 +16,16 @@ user    ALL=(ALL:ALL) ALL
 ...
 ```
 
-## Java
+## Packages
+
+```sh
+user@workstation:~$ sudo apt update
+user@workstation:~$ sudo apt install git
+user@workstation:~$ sudo apt install python-pip
+user@workstation:~$ sudo apt install unzip
+```
+
+## Packages :: Java
 
 ```sh
 user@workstation:~/Drones$ sudo add-apt-repository ppa:webupd8team/java
@@ -31,17 +40,7 @@ user@workstation:~$ sudo apt-get remove modemmanager
 user@workstation:~$ sudo usermod -a -G dialout $USER
 ```
 
-### Packages
-
-```sh
-user@workstation:~$ sudo apt update
-user@workstation:~$ sudo apt install git
-user@workstation:~$ sudo apt install python-pip
-user@workstation:~$ sudo apt install unzip
-```
-
-# Autopilot / Flight Stack / Flight Controller
-
+# Software In the Loop
 
 ## DroneKit SITL
 
