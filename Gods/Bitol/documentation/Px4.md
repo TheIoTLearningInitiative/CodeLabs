@@ -73,38 +73,12 @@ Links
 
 ## Setup
 
-### Dependencies
-
-```sh
-pyme@pyme-desktop:~/Drones$ sudo apt update
-pyme@pyme-desktop:~/Drones$ sudo apt install git
-pyme@pyme-desktop:~/Drones$ sudo apt install python-pip
-pyme@pyme-desktop:~/Drones$ sudo apt install unzip
-```
-
-### PX4 Source Code
-
-```sh
-user@workstation:~/Drones$ wget https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_nuttx.sh
-user@workstation:~/Drones$ sudo apt-get remove modemmanager
-user@workstation:~/Drones$ sudo usermod -a -G dialout $USER
-user@workstation:~/Drones$ sudo sh ubuntu_sim_nuttx.sh
-```
-
 ### PX4 Build
 
 ```sh
 user@workstation:~/Drones$ git clone https://github.com/PX4/Firmware.git
 user@workstation:~/Drones$ cd Firmware
 user@workstation:~/Drones/Firmware$ make posix jmavsim
-```
-
-#### Ubuntu Server
-
-```sh
-user@workstation:~/Drones$ sudo add-apt-repository ppa:webupd8team/java
-user@workstation:~/Drones$ sudo apt-get update
-user@workstation:~/Drones$ sudo apt-get install oracle-java8-installer
 ```
 
 ### Demo
