@@ -326,11 +326,9 @@
   * [Drone Solution Architect](Gods/Bitol/Documentation/DroneSolutionArchitect/DroneSolutionArchitect.md)
   * [Drone Code Platform](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)
   * [Autopilot](Gods/Bitol/Documentation/Autopilot/Autopilot.md)
-    * Tbd
     * [Px4](Gods/Bitol/documentation/Px4.md)
       * [Docker](Gods/Bitol/documentation/Px4/docker.md)
     * [Ardupilot](Gods/Bitol/documentation/Ardupilot.md)
-    * Tbd
   * [Software In The Loop](Gods/Bitol/Documentation/SoftwareInTheLoop/SoftwareInTheLoop.md)
     * [DroneKit SITL](Gods/Bitol/Documentation/SoftwareInTheLoop/DroneKitSitl.md)
     * Tb

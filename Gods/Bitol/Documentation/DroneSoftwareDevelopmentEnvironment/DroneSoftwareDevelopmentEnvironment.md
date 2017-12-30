@@ -45,19 +45,9 @@ user@workstation:~$ sudo usermod -a -G dialout $USER
 ## DroneKit SITL
 
 ```sh
+user@workstation:~$ sudo apt-get install python-pip python-dev
 user@workstation:~$ sudo pip install dronekit
-user@workstation:~$ sudo pip install dronekit-sitl
-```
-
-```sh
-user@workstation:~$ dronekit-sitl --list
-solo-1.2.0
-solo-2.0.18
-solo-2.0.20
-plane-3.3.0
-copter-3.3
-rover-2.50
-user@workstation:~$ 
+user@workstation:~$ sudo pip install dronekit-sitl -UI
 ```
 
 ## PX4

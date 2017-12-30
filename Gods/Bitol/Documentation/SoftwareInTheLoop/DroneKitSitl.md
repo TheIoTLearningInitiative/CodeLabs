@@ -8,13 +8,18 @@
 - [Tower for Web](https://github.com/dronekit/tower-web)
 - [Idiot's Guide to DroneKit-Python](http://diydrones.com/profiles/blogs/idiot-s-guide-to-dronekit-python-a-journey-to-whoz-chillin)
 
-DroneKit
+```sh
+user@workstation:~$ dronekit-sitl --list
+solo-1.2.0
+solo-2.0.18
+solo-2.0.20
+plane-3.3.0
+copter-3.3
+rover-2.50
+user@workstation:~$ 
+```
 
 ```sh
-user@workstation:~/Drones$ sudo apt-get install python-pip python-dev
-user@workstation:~/Drones$ sudo pip install dronekit
-user@workstation:~/Drones$ sudo pip install dronekit-sitl
-user@workstation:~/Drones$ sudo pip install dronekit-sitl -UI
 user@workstation:~/Drones$ dronekit-sitl copter --home=19.3931814,-99.1748997,30,0
 user@workstation:~/Drones$ dronekit-sitl copter --home=19.3931814,-99.1748997,30,0 --instance 0
 ```
@@ -25,4 +30,5 @@ Tower
 user@workstation:~/Drones$ sudo -H pip install -UI git+https://github.com/dronekit/tower-web.git
 user@workstation:~/Drones$ tower tcp:127.0.0.1:5760
 ```
+
 
