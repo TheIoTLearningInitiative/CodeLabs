@@ -48,7 +48,9 @@ Ubuntu 14.04
 sudo -E add-apt-repository -y ppa:george-edison55/cmake-3.x
 sudo -E apt-get update
 sudo apt-get install cmake
-sudo apt-get install python-jinja2 		
+sudo apt-get install python-jinja2
+sudo python -m pip install numpy toml
+sudo apt-get install python-empy
 ```
 
 ```sh
