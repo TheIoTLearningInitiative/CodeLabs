@@ -12,11 +12,7 @@ user@workstation:~$ sudo nano /etc/sudoers
 user    ALL=(ALL:ALL) ALL
 ```
 
-# Autopilot / Flight Stack / Flight Controller
-
-## PX4
-
-### Dependencies
+### Packages
 
 ```sh
 user@workstation:~$ sudo apt update
@@ -24,6 +20,10 @@ user@workstation:~$ sudo apt install git
 user@workstation:~$ sudo apt install python-pip
 user@workstation:~$ sudo apt install unzip
 ```
+
+# Autopilot / Flight Stack / Flight Controller
+
+## PX4
 
 #### PX4 Source Code
 
