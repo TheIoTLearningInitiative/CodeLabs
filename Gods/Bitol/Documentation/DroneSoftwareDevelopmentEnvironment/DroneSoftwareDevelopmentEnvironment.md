@@ -24,7 +24,7 @@ user@workstation:~$ sudo apt install unzip
 # Autopilot / Flight Stack / Flight Controller
 
 
-## DroneKit
+## DroneKit SITL
 
 ```sh
 user@workstation:~$ sudo pip install dronekit-sitl
