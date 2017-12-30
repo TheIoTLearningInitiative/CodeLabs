@@ -75,6 +75,12 @@ user@workstation:~$ source ubuntu_sim_nuttx.sh
 
 #### PX4 Build
 
+Steps
+
+1. https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_common_deps.sh
+2. ubuntu_sim.sh
+3. ubuntu_sim_nuttx.sh
+
 Ubuntu 14.04
 
 ```sh
