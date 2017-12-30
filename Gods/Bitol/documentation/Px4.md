@@ -91,14 +91,6 @@ user@workstation:~/Drones$ sudo usermod -a -G dialout $USER
 user@workstation:~/Drones$ sudo sh ubuntu_sim_nuttx.sh
 ```
 
-### QGroundControl App Image
-
-```sh
-user@workstation:~/Drones$ wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage
-user@workstation:~/Drones$ chmod +x QGroundControl.AppImage
-user@workstation:~/Drones$ ./QGroundControl.AppImage
-```
-
 ### PX4 Build
 
 ```sh
