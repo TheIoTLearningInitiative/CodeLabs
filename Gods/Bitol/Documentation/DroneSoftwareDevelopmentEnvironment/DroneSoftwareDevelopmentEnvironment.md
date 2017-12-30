@@ -12,6 +12,11 @@ user@workstation:~$ sudo nano /etc/sudoers
 user    ALL=(ALL:ALL) ALL
 ```
 
+```sh
+user@workstation:~$ sudo apt-get remove modemmanager
+user@workstation:~$ sudo usermod -a -G dialout $USER
+```
+
 ### Packages
 
 ```sh
@@ -27,6 +32,7 @@ user@workstation:~$ sudo apt install unzip
 ## DroneKit SITL
 
 ```sh
+user@workstation:~$ sudo pip install dronekit
 user@workstation:~$ sudo pip install dronekit-sitl
 ```
 
@@ -42,11 +48,6 @@ user@workstation:~$
 ```
 
 ## PX4
-
-```sh
-user@workstation:~$ sudo apt-get remove modemmanager
-user@workstation:~$ sudo usermod -a -G dialout $USER
-```
 
 #### PX4 Source Code
 
