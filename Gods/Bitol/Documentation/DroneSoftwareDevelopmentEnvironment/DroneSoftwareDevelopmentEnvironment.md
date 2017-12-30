@@ -42,6 +42,15 @@ user@workstation:~$ source ubuntu_sim_nuttx.sh
 
 #### PX4 Build
 
+Ubuntu 14.04
+
+```sh
+sudo -E add-apt-repository -y ppa:george-edison55/cmake-3.x
+sudo -E apt-get update
+sudo apt-get install cmake
+sudo apt-get install python-jinja2 		
+```
+
 ```sh
 user@workstation:~$ cd src/
 user@workstation:~/src$ cd Firmware/
