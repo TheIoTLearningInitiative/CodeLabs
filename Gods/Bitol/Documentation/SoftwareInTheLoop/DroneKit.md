@@ -1,4 +1,4 @@
-# DroneKit
+# DroneKit-Sitl
 
 > Your aerial platform. DroneKit offers an SDK and web API to easily develop apps for your drones.
 
