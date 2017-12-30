@@ -319,8 +319,7 @@
       * [Docker](Gods/Bitol/documentation/Px4/docker.md)
     * [Ardupilot](Gods/Bitol/documentation/Ardupilot.md)
   * [Developer APIs](Gods/Bitol/documentation/DeveloperApis.md)
-    * [DroneKit](Gods/Bitol/documentation/DroneKit.md)
-  * Training
+  * [Training](Gods/Bitol/documentation/training.md)
     * [Drone Solution Architect](Gods/Bitol/documentation/DroneSolutionArchitect.md)
       * [Demos](Gods/Bitol/documentation/DroneSolutionArchitect/demos.md)
         * [Ka’an](Gods/Bitol/documentation/DroneSolutionArchitectDemosKaan.md)
