@@ -314,7 +314,6 @@
     * [Intel® Aero Ready to Fly Drone](Gods/Bitol/documentation/IntelAeroReadyToFlyDrone.md)
     * [PIXHAWK2.1](Gods/Bitol/documentation/PixHawk21.md)
   * [Communications](Gods/Bitol/documentation/Communications.md)
-  * [Autopilot / Flight Stack](Gods/Bitol/documentation/AutopilotFlightStack.md)
   * [Developer APIs](Gods/Bitol/documentation/DeveloperApis.md)
   * [Drone Software Development Environment](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/DroneSoftwareDevelopmentEnvironment.md)
   * [Training](Gods/Bitol/documentation/training.md)
