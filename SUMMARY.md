@@ -332,9 +332,7 @@
   * [Software In The Loop](Gods/Bitol/Documentation/SoftwareInTheLoop/SoftwareInTheLoop.md)
     * [DroneKit SITL](Gods/Bitol/Documentation/SoftwareInTheLoop/DroneKitSitl.md)
   * [Ground Control Station](Gods/Bitol/Documentation/GroundControlStation/GroundControlStation.md)
-    * Tbd
     * [QGroundControl](Gods/Bitol/documentation/GroundControlStation/QGroundControl.md)
-    * tbd
 * [Chaac](Gods/Chaac/documentation/Chaac.md)
 * [Bolon Tsakab](Gods/BolonTsakab/documentation/BolonTsakab.md)
 * [Buluc Chabtan](Gods/BulucChabtan/documentation/BulucChabtan.md)
