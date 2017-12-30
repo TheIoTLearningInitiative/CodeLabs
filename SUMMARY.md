@@ -315,9 +315,6 @@
     * [PIXHAWK2.1](Gods/Bitol/documentation/PixHawk21.md)
   * [Communications](Gods/Bitol/documentation/Communications.md)
   * [Autopilot / Flight Stack](Gods/Bitol/documentation/AutopilotFlightStack.md)
-    * [Px4](Gods/Bitol/documentation/Px4.md)
-      * [Docker](Gods/Bitol/documentation/Px4/docker.md)
-    * [Ardupilot](Gods/Bitol/documentation/Ardupilot.md)
   * [Developer APIs](Gods/Bitol/documentation/DeveloperApis.md)
   * [Drone Software Development Environment](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/DroneSoftwareDevelopmentEnvironment.md)
   * [Training](Gods/Bitol/documentation/training.md)
@@ -329,11 +326,16 @@
         * [Chak iik’](Gods/Bitol/documentation/DroneSolutionArchitectDemosChakIik.md)
   * [Drone Solution Architect](Gods/Bitol/Documentation/DroneSolutionArchitect/DroneSolutionArchitect.md)
   * [Drone Code Platform](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)
+  * [Autopilot](Gods/Bitol/Documentation/Autopilot/Autopilot.md)
+    * Tbd
+    * [Px4](Gods/Bitol/documentation/Px4.md)
+      * [Docker](Gods/Bitol/documentation/Px4/docker.md)
+    * [Ardupilot](Gods/Bitol/documentation/Ardupilot.md)
+    * Tbd
   * [Software In The Loop](Gods/Bitol/Documentation/SoftwareInTheLoop/SoftwareInTheLoop.md)
     * [DroneKit SITL](Gods/Bitol/Documentation/SoftwareInTheLoop/DroneKitSitl.md)
     * Tb
-  * [Ground Control Station](Gods/Bitol/Documentation/GroundControlStation/GroundControlStation.md)
-    * [QGroundControl](Gods/Bitol/documentation/GroundControlStation/QGroundControl.md)
+  * Autopilot
 * [Chaac](Gods/Chaac/documentation/Chaac.md)
 * [Bolon Tsakab](Gods/BolonTsakab/documentation/BolonTsakab.md)
 * [Buluc Chabtan](Gods/BulucChabtan/documentation/BulucChabtan.md)
