@@ -34,6 +34,10 @@ user@workstation:~$ sudo usermod -a -G dialout $USER
 
 ```sh
 user@workstation:~$ wget https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_nuttx.sh
+user@workstation:~$ chmod +x ubuntu_sim_nuttx.sh
+```
+
+```sh
 user@workstation:~$ sudo sh ubuntu_sim_nuttx.sh
 ```
 
