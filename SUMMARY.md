@@ -313,7 +313,6 @@
   * [Hardware](Gods/Bitol/documentation/Hardware.md)
     * [Intel® Aero Ready to Fly Drone](Gods/Bitol/documentation/IntelAeroReadyToFlyDrone.md)
     * [PIXHAWK2.1](Gods/Bitol/documentation/PixHawk21.md)
-  * [Communications](Gods/Bitol/documentation/Communications.md)
   * [Developer APIs](Gods/Bitol/documentation/DeveloperApis.md)
   * [Drone Software Development Environment](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/DroneSoftwareDevelopmentEnvironment.md)
   * [Training](Gods/Bitol/documentation/training.md)
@@ -325,14 +324,18 @@
         * [Chak iik’](Gods/Bitol/documentation/DroneSolutionArchitectDemosChakIik.md)
   * [Drone Solution Architect](Gods/Bitol/Documentation/DroneSolutionArchitect/DroneSolutionArchitect.md)
   * [Drone Code Platform](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)
-  * [Autopilot](Gods/Bitol/Documentation/Autopilot/Autopilot.md)
-    * [Px4](Gods/Bitol/documentation/Px4.md)
-      * [Docker](Gods/Bitol/documentation/Px4/docker.md)
-    * [Ardupilot](Gods/Bitol/documentation/Ardupilot.md)
-  * [Software In The Loop](Gods/Bitol/Documentation/SoftwareInTheLoop/SoftwareInTheLoop.md)
-    * [DroneKit SITL](Gods/Bitol/Documentation/SoftwareInTheLoop/DroneKitSitl.md)
-    * Tb
-  * Autopilot
+  * [Flight Stack](Gods/Bitol/Documentation/FlightStack/FlightStack.md)
+    * Tbd
+    * [Autopilot](Gods/Bitol/Documentation/Autopilot/Autopilot.md)
+      * [Px4](Gods/Bitol/documentation/Px4.md)
+        * [Docker](Gods/Bitol/documentation/Px4/docker.md)
+      * [Ardupilot](Gods/Bitol/documentation/Ardupilot.md)
+    * [Software In The Loop](Gods/Bitol/Documentation/SoftwareInTheLoop/SoftwareInTheLoop.md)
+      * [DroneKit SITL](Gods/Bitol/Documentation/SoftwareInTheLoop/DroneKitSitl.md)
+      * Tb
+    * [Communications](Gods/Bitol/documentation/Communications.md)
+    * Tbd
+  * Flight Stack
 * [Chaac](Gods/Chaac/documentation/Chaac.md)
 * [Bolon Tsakab](Gods/BolonTsakab/documentation/BolonTsakab.md)
 * [Buluc Chabtan](Gods/BulucChabtan/documentation/BulucChabtan.md)
