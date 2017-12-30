@@ -26,4 +26,5 @@
 > The DroneCode Messaging Working Group is currently evaluating middleware solutions for communication between GCS, drone, cloud, and between processes running on the vehicle. At time of writing, the WG is enabling this via the RTPS protocol, which is also being used by the ROS2 efforts from the OSRF.
 
 - [RTPS Homepage](https://wiki.dronecode.org/workgroup/messaging/start)
+- [Fast RTPS](https://github.com/eProsima/Fast-RTPS)
 
