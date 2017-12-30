@@ -1,5 +1,7 @@
 # DroneKit
 
+> Your aerial platform. DroneKit offers an SDK and web API to easily develop apps for your drones.
+
 > DroneKit is a set of developer tools for drones. It includes Python and Android APIs that automatically aggregate drone information sent over MAVLink and simplify sending common commands over MAVLink. There is also a separate tool for analysing different types of logs.
 
 - [DroneKit Homepage](http://python.dronekit.io/about/index.html)
