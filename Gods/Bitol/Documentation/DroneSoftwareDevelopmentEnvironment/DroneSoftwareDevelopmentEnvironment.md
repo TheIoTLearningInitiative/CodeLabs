@@ -1,5 +1,17 @@
 # Drone Software Development Environment
 
+# Workstation
+
+```sh
+user@workstation:~$ sudo adduser user sudo
+user@workstation:~$ sudo usermod -a -G sudo user
+```
+
+```sh
+user@workstation:~$ sudo nano /etc/sudoers
+user    ALL=(ALL:ALL) ALL
+```
+
 # Autopilot / Flight Stack / Flight Controller
 
 ## PX4
@@ -7,27 +19,27 @@
 ### Dependencies
 
 ```sh
-pyme@pyme-desktop:~/Drones$ sudo apt update
-pyme@pyme-desktop:~/Drones$ sudo apt install git
-pyme@pyme-desktop:~/Drones$ sudo apt install python-pip
-pyme@pyme-desktop:~/Drones$ sudo apt install unzip
+user@workstation:~$ sudo apt update
+user@workstation:~$ sudo apt install git
+user@workstation:~$ sudo apt install python-pip
+user@workstation:~$ sudo apt install unzip
 ```
 
 #### PX4 Source Code
 
 ```sh
-user@workstation:~/Drones$ wget https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_nuttx.sh
-user@workstation:~/Drones$ sudo apt-get remove modemmanager
-user@workstation:~/Drones$ sudo usermod -a -G dialout $USER
-user@workstation:~/Drones$ sudo sh ubuntu_sim_nuttx.sh
+user@workstation:~$ wget https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_nuttx.sh
+user@workstation:~$ sudo apt-get remove modemmanager
+user@workstation:~$ sudo usermod -a -G dialout $USER
+user@workstation:~$ sudo sh ubuntu_sim_nuttx.sh
 ```
 
 #### PX4 Build
 
 ```sh
-user@workstation:~/Drones$ git clone https://github.com/PX4/Firmware.git
-user@workstation:~/Drones$ cd Firmware
-user@workstation:~/Drones/Firmware$ make posix jmavsim
+user@workstation:~$ git clone https://github.com/PX4/Firmware.git
+user@workstation:~$ cd Firmware
+user@workstation:~$ make posix jmavsim
 ```
 
 # Ground Control Station
@@ -35,8 +47,8 @@ user@workstation:~/Drones/Firmware$ make posix jmavsim
 ## QGroundControl
 
 ```sh
-user@workstation:~/Drones$ wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage
-user@workstation:~/Drones$ chmod +x QGroundControl.AppImage
-user@workstation:~/Drones$ ./QGroundControl.AppImage
+user@workstation:~$ wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage
+user@workstation:~$ chmod +x QGroundControl.AppImage
+user@workstation:~$ ./QGroundControl.AppImage
 ```
 
