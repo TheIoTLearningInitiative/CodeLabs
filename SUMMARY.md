@@ -313,7 +313,6 @@
   * [Hardware](Gods/Bitol/documentation/Hardware.md)
     * [Intel® Aero Ready to Fly Drone](Gods/Bitol/documentation/IntelAeroReadyToFlyDrone.md)
     * [PIXHAWK2.1](Gods/Bitol/documentation/PixHawk21.md)
-  * [Developer APIs](Gods/Bitol/documentation/DeveloperApis.md)
   * [Drone Software Development Environment](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/DroneSoftwareDevelopmentEnvironment.md)
   * [Training](Gods/Bitol/documentation/training.md)
     * [Drone Solution Architect](Gods/Bitol/documentation/DroneSolutionArchitect.md)
@@ -323,6 +322,9 @@
         * [lik’](Gods/Bitol/documentation/DroneSolutionArchitectDemosLik.md)
         * [Chak iik’](Gods/Bitol/documentation/DroneSolutionArchitectDemosChakIik.md)
   * [Drone Solution Architect](Gods/Bitol/Documentation/DroneSolutionArchitect/DroneSolutionArchitect.md)
+    * Tb
+    * [Hardware](Gods/Bitol/Documentation/DroneSolutionArchitect/Hardware.md)
+    * Tb
   * [Drone Code Platform](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)
   * [Flight Stack](Gods/Bitol/Documentation/FlightStack/FlightStack.md)
     * Tbd
@@ -334,6 +336,7 @@
       * [DroneKit SITL](Gods/Bitol/Documentation/SoftwareInTheLoop/DroneKitSitl.md)
       * Tb
     * [Communications](Gods/Bitol/documentation/Communications.md)
+    * [Developer APIs](Gods/Bitol/documentation/DeveloperApis.md)
     * Tbd
   * Flight Stack
 * [Chaac](Gods/Chaac/documentation/Chaac.md)
