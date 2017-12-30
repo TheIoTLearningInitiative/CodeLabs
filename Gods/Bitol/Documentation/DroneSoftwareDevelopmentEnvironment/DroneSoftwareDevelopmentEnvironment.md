@@ -62,7 +62,7 @@ user@workstation:~$
 
 ## PX4
 
-#### PX4 Source Code
+### PX4 Source Code
 
 ```sh
 user@workstation:~$ wget https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_nuttx.sh
@@ -72,15 +72,15 @@ user@workstation:~$ wget https://raw.githubusercontent.com/PX4/Devguide/master/b
 user@workstation:~$ source ubuntu_sim_nuttx.sh
 ```
 
-#### PX4 Build
+### PX4 Build
 
-Steps
+Scripting Steps
 
 1. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim_common_deps.sh
 2. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim.sh
 3. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim_nuttx.sh
 
-Ubuntu 14.04
+### Ubuntu 14.04 :: CMake
 
 ```sh
 sudo -E add-apt-repository -y ppa:george-edison55/cmake-3.x
