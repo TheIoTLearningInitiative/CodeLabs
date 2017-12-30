@@ -30,5 +30,3 @@ Tower
 user@workstation:~/Drones$ sudo -H pip install -UI git+https://github.com/dronekit/tower-web.git
 user@workstation:~/Drones$ tower tcp:127.0.0.1:5760
 ```
-
-
