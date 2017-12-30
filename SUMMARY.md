@@ -312,24 +312,19 @@
 * [Bitol](Gods/Bitol/documentation/Bitol.md)
   * [Drone Software Development Environment](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/DroneSoftwareDevelopmentEnvironment.md)
   * [Drone Solution Architect](Gods/Bitol/Documentation/DroneSolutionArchitect/DroneSolutionArchitect.md)
-    * Tb
     * [Hardware](Gods/Bitol/Documentation/DroneSolutionArchitect/Hardware.md)
       * [Intel® Aero Ready to Fly Drone](Gods/Bitol/Documentation/DroneSolutionArchitect/IntelAeroReadyToFlyDrone.md)
       * [PixHawk 2.1](Gods/Bitol/Documentation/DroneSolutionArchitect/PixHawk21.md)
-    * Tb
   * [Drone Code Platform](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)
   * [Flight Stack](Gods/Bitol/Documentation/FlightStack/FlightStack.md)
-    * Tbd
     * [Autopilot](Gods/Bitol/Documentation/Autopilot/Autopilot.md)
       * [Px4](Gods/Bitol/documentation/Px4.md)
         * [Docker](Gods/Bitol/documentation/Px4/docker.md)
-      * [Ardupilot](Gods/Bitol/documentation/Ardupilot.md)
-    * [Software In The Loop](Gods/Bitol/Documentation/SoftwareInTheLoop/SoftwareInTheLoop.md)
-      * [DroneKit SITL](Gods/Bitol/Documentation/SoftwareInTheLoop/DroneKitSitl.md)
-      * Tb
+      * [Ardupilot](Gods/Bitol/Documentation/FlightStack/Ardupilot.md)
+      * [Software In The Loop](Gods/Bitol/Documentation/SoftwareInTheLoop/SoftwareInTheLoop.md)
+        * [DroneKit SITL](Gods/Bitol/Documentation/SoftwareInTheLoop/DroneKitSitl.md)
     * [Communications](Gods/Bitol/documentation/Communications.md)
     * [Developer APIs](Gods/Bitol/documentation/DeveloperApis.md)
-    * Tbd
   * [Training](Gods/Bitol/documentation/training.md)
     * [Drone Solution Architect](Gods/Bitol/documentation/DroneSolutionArchitect.md)
       * [Demos](Gods/Bitol/documentation/DroneSolutionArchitect/demos.md)
