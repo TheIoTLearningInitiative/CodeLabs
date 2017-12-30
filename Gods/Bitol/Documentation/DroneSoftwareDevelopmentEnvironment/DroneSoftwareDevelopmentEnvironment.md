@@ -25,12 +25,15 @@ user@workstation:~$ sudo apt install unzip
 
 ## PX4
 
+```sh
+user@workstation:~$ sudo apt-get remove modemmanager
+user@workstation:~$ sudo usermod -a -G dialout $USER
+```
+
 #### PX4 Source Code
 
 ```sh
 user@workstation:~$ wget https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_nuttx.sh
-user@workstation:~$ sudo apt-get remove modemmanager
-user@workstation:~$ sudo usermod -a -G dialout $USER
 user@workstation:~$ sudo sh ubuntu_sim_nuttx.sh
 ```
 
