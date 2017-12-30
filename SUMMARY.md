@@ -324,6 +324,7 @@
   * [Drone Solution Architect](Gods/Bitol/Documentation/DroneSolutionArchitect/DroneSolutionArchitect.md)
     * Tb
     * [Hardware](Gods/Bitol/Documentation/DroneSolutionArchitect/Hardware.md)
+      * [Intel® Aero Ready to Fly Drone](Gods/Bitol/Documentation/DroneSolutionArchitect/IntelAeroReadyToFlyDrone.md)
     * Tb
   * [Drone Code Platform](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)
   * [Flight Stack](Gods/Bitol/Documentation/FlightStack/FlightStack.md)
