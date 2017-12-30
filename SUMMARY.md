@@ -319,7 +319,6 @@
       * [Docker](Gods/Bitol/documentation/Px4/docker.md)
     * [Ardupilot](Gods/Bitol/documentation/Ardupilot.md)
   * [Ground Control Station](Gods/Bitol/documentation/GroundControlStation.md)
-    * [QGroundControl](Gods/Bitol/documentation/GroundControlStation/QGroundControl.md)
   * [Developer APIs](Gods/Bitol/documentation/DeveloperApis.md)
     * [DroneKit](Gods/Bitol/documentation/DroneKit.md)
   * Training
@@ -335,6 +334,8 @@
   * [Software In The Loop](Gods/Bitol/Documentation/SoftwareInTheLoop/SoftwareInTheLoop.md)
   * [Ground Control Station](Gods/Bitol/Documentation/GroundControlStation/GroundControlStation.md)
     * Tbd
+    * [QGroundControl](Gods/Bitol/documentation/GroundControlStation/QGroundControl.md)
+    * tbd
 * [Chaac](Gods/Chaac/documentation/Chaac.md)
 * [Bolon Tsakab](Gods/BolonTsakab/documentation/BolonTsakab.md)
 * [Buluc Chabtan](Gods/BulucChabtan/documentation/BulucChabtan.md)
