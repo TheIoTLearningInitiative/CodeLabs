@@ -27,7 +27,18 @@ user@workstation:~$ sudo apt install unzip
 ## DroneKit
 
 ```sh
-user@workstation:~$ pip install dronekit-sitl
+user@workstation:~$ sudo pip install dronekit-sitl
+```
+
+```sh
+user@workstation:~$ dronekit-sitl --list
+solo-1.2.0
+solo-2.0.18
+solo-2.0.20
+plane-3.3.0
+copter-3.3
+rover-2.50
+user@workstation:~$ 
 ```
 
 ## PX4
