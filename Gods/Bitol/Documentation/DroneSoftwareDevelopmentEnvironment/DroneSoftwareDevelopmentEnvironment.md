@@ -14,17 +14,19 @@ user@workstation:~$ sudo nano /etc/sudoers
 user    ALL=(ALL:ALL) ALL
 ```
 
-```sh
-user@workstation:~$ sudo apt-get remove modemmanager
-user@workstation:~$ sudo usermod -a -G dialout $USER
-```
-
 ## Java
 
 ```sh
 user@workstation:~/Drones$ sudo add-apt-repository ppa:webupd8team/java
 user@workstation:~/Drones$ sudo apt-get update
 user@workstation:~/Drones$ sudo apt-get install oracle-java8-installer
+```
+
+## Extra Settings
+
+```sh
+user@workstation:~$ sudo apt-get remove modemmanager
+user@workstation:~$ sudo usermod -a -G dialout $USER
 ```
 
 ### Packages
