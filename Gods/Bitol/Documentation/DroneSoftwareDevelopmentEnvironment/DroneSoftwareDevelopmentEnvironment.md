@@ -77,9 +77,9 @@ user@workstation:~$ source ubuntu_sim_nuttx.sh
 
 Steps
 
-1. https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_common_deps.sh
-2. ubuntu_sim.sh
-3. ubuntu_sim_nuttx.sh
+1. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim_common_deps.sh
+2. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim.sh
+3. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim_nuttx.sh
 
 Ubuntu 14.04
 
