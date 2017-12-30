@@ -4,7 +4,7 @@
 
 > DroneKit is a set of developer tools for drones. It includes Python and Android APIs that automatically aggregate drone information sent over MAVLink and simplify sending common commands over MAVLink. There is also a separate tool for analysing different types of logs.
 
-- [DroneKit Homepage](http://python.dronekit.io/about/index.html)
+- [DroneKit Python](http://python.dronekit.io/)
 - [Tower for Web](https://github.com/dronekit/tower-web)
 - [Idiot's Guide to DroneKit-Python](http://diydrones.com/profiles/blogs/idiot-s-guide-to-dronekit-python-a-journey-to-whoz-chillin)
 
