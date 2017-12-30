@@ -330,7 +330,7 @@
   * [Drone Solution Architect](Gods/Bitol/Documentation/DroneSolutionArchitect/DroneSolutionArchitect.md)
   * [Drone Code Platform](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)
   * [Software In The Loop](Gods/Bitol/Documentation/SoftwareInTheLoop/SoftwareInTheLoop.md)
-    * [DroneKit](Gods/Bitol/Documentation/SoftwareInTheLoop/DroneKit.md)
+    * [DroneKit SITL](Gods/Bitol/Documentation/SoftwareInTheLoop/DroneKitSitl.md)
   * [Ground Control Station](Gods/Bitol/Documentation/GroundControlStation/GroundControlStation.md)
     * Tbd
     * [QGroundControl](Gods/Bitol/documentation/GroundControlStation/QGroundControl.md)
