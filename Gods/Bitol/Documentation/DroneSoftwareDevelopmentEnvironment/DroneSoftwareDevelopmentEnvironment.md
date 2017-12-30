@@ -2,16 +2,18 @@
 
 # Workstation
 
-```sh
-user@workstation:~$ sudo adduser user sudo
-user@workstation:~$ sudo usermod -a -G sudo user
-```
-
 ## Sudoers
 
 ```sh
+user@workstation:~$ sudo adduser <user> sudo
+user@workstation:~$ sudo usermod -a -G sudo <user>
+```
+
+```sh
 user@workstation:~$ sudo nano /etc/sudoers
+...
 user    ALL=(ALL:ALL) ALL
+...
 ```
 
 ## Java
