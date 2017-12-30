@@ -23,6 +23,13 @@ user@workstation:~$ sudo apt install unzip
 
 # Autopilot / Flight Stack / Flight Controller
 
+
+## DroneKit
+
+```sh
+user@workstation:~$ pip install dronekit-sitl
+```
+
 ## PX4
 
 ```sh
