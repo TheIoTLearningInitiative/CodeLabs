@@ -20,7 +20,7 @@ UAV Solution
 3. Ground control station
 4. Developer APIs for enhanced/advanced use cases.
 
-Applications
+UAV Applications
 
 - Cargo/delivery
 - Surveying & inspections
