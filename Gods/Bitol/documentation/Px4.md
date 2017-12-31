@@ -186,6 +186,25 @@ bebop  eagle  excelsior  ocpoc  rpi  SITL
 user@workstation:~/src/Firmware$ 
 ```
 
+## Directory Images/
+
+```sh
+user@workstation:~/src/Firmware$ cat Images/aerocore2.prototype 
+{
+    "board_id": 98,
+    "magic": "AeroCore2",
+    "description": "Firmware for the Gumstix AeroCore2 board",
+    "image": "",
+    "build_time": 0,
+    "summary": "AEROCORE2",
+    "version": "0.1",
+    "image_size": 0,
+    "git_identity": "",
+    "board_revision": 0
+}
+user@workstation:~/src/Firmware$ 
+```
+
 ## Directory mavlink/
 
 ```sh
