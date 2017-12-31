@@ -168,6 +168,16 @@ dumpfile   led_control    motor_test  param    reboot  tests     usb_connected
 user@workstation:~/src/Firmware$ 
 ```
 
+## Directory nuttx-configs/
+
+```sh
+user@workstation:~/src/Firmware$ ls nuttx-configs/
+aerocore2  esc35-v1       PX4_Config.mk  px4fmu-v4     px4nucleoF767ZI-v1     s2740vc-v1
+aerofc-v1  mindpx-v2      px4esc-v1      px4fmu-v4pro  px4-same70xplained-v1  tap-v1
+auav-x21   nxphlite-v3    px4flow-v2     px4fmu-v5     px4-stm32f4discovery   zubaxgnss-v1
+crazyflie  px4cannode-v1  px4fmu-v2      px4io-v2      PX4_Warnings.mk
+```
+
 ## Directory posix-configs/
 
 ```sh
