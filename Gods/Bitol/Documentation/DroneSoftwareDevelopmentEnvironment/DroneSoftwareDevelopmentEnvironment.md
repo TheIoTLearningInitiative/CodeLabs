@@ -132,6 +132,7 @@ pxh> INFO  [logger] Start file log
 INFO  [logger] Opened log file: rootfs/fs/microsd/log/2017-12-31/19_44_38.ulg
 INFO  [lib__ecl] EKF aligned, (pressure height, IMU buf: 22, OBS buf: 14)
 
+pxh> 
 ```
 
 ### PX4 Build
