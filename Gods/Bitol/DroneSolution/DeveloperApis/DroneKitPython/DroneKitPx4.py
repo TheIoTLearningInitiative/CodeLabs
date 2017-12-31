@@ -45,8 +45,6 @@ def PX4setMode(mavMode):
                                                mavMode,
                                                0, 0, 0, 0, 0, 0)
 
-
-
 def get_location_offset_meters(original_location, dNorth, dEast, alt):
     """
     Returns a LocationGlobal object containing the latitude/longitude `dNorth` and `dEast` metres from the
@@ -154,7 +152,6 @@ while nextwaypoint < len(vehicle.commands):
 # wait for the vehicle to land
 while vehicle.commands.next > 0:
     time.sleep(1)
-
 
 # Disarm vehicle
 vehicle.armed = False

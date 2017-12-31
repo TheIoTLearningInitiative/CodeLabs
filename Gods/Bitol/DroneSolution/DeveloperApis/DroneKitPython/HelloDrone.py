@@ -25,4 +25,3 @@ vehicle.close()
 # Shut down simulator
 sitl.stop()
 print("Completed")
-
