@@ -12,7 +12,6 @@ from dronekit import connect, Command, LocationGlobal
 from pymavlink import mavutil
 import time, sys, argparse, math
 
-
 ################################################################################################
 # Settings
 ################################################################################################
@@ -20,7 +19,6 @@ import time, sys, argparse, math
 connection_string       = '127.0.0.1:14540'
 MAV_MODE_AUTO   = 4
 # https://github.com/PX4/Firmware/blob/master/Tools/mavlink_px4.py
-
 
 # Parse connection argument
 parser = argparse.ArgumentParser()
