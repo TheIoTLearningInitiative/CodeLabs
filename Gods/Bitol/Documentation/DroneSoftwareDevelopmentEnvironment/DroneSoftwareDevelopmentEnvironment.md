@@ -21,11 +21,13 @@ user    ALL=(ALL:ALL) ALL
 ```sh
 user@workstation:~$ sudo apt update
 user@workstation:~$ sudo apt install git
-user@workstation:~$ sudo apt install python-pip
+user@workstation:~$ sudo apt install python-pip --upgrade
 user@workstation:~$ sudo apt install unzip
 ```
 
 ## Packages :: Java
+
+Only if you are under Ubuntu Server
 
 ```sh
 user@workstation:~/Drones$ sudo add-apt-repository ppa:webupd8team/java
@@ -69,29 +71,6 @@ Scripting Steps
 1. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim_common_deps.sh
 2. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim.sh
 3. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim_nuttx.sh
-
-### Ubuntu 14.04 :: CMake
-
-```sh
-sudo -E add-apt-repository -y ppa:george-edison55/cmake-3.x
-sudo -E apt-get update
-sudo apt-get install cmake
-sudo apt-get install python-jinja2
-sudo python -m pip install numpy toml
-sudo apt-get install python-empy
-```
-
-```sh
-user@workstation:~$ cd src/
-user@workstation:~/src$ cd Firmware/
-user@workstation:~/src/Firmware$ make posix jmavsim
-```
-
-```sh
-user@workstation:~$ git clone https://github.com/PX4/Firmware.git
-user@workstation:~$ cd Firmware
-user@workstation:~$ make posix jmavsim
-```
 
 # Ground Control Station
 

@@ -73,51 +73,12 @@ Links
 
 ## Setup
 
-### PX4 Build
-
 ```sh
-user@workstation:~/Drones$ git clone https://github.com/PX4/Firmware.git
-user@workstation:~/Drones$ cd Firmware
-user@workstation:~/Drones/Firmware$ make posix jmavsim
+user@workstation:~$ cd src/
+user@workstation:~/src$ cd Firmware/
+user@workstation:~/src/Firmware$ make posix jmavsim
 ```
-
-### Demo
 
 ```sh
 user@workstation:~/Drones/Firmware$ make posix gazebo_typhoon_h480
-user@workstation:~/Drones$ ./QGroundControl.AppImage
-```
-
-# Docker
-
-```sh
-sudo apt-get install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository \
-   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   $(lsb_release -cs) \
-   stable"
-sudo apt-get update
-sudo apt-get install docker-ce
-sudo docker run hello-world    
-```
-
-```sh
-root@workstation:~/Drones# docker run -it --privileged     -v px4-dev-base:/root/Drone/Dfirmware:rw     -v /tmp/.X11-unix:/tmp/.X11-unix:ro     -e DISPLAY=:0     -p 14556:14556/udp     --name=container_name px4io/px4-dev-base bash
-Unable to find image 'px4io/px4-dev-base:latest' locally
-latest: Pulling from px4io/px4-dev-base
-```
-
-Good
-
-```sh
-root@workstation:~/Drones# docker run -it --privileged -v /root/Drones/DockerSimulation:/root/DockerSimulation:rw -v /tmp/.X11-unix:/tmp/.X11-unix:ro -p 14556:14556/udp --name=DockerSimulation px4io/px4-dev bash
-```
-
-```sh
-root@workstation:~/Drones/containers/docker/px4-dev# docker build -t px4io/px4-dev-simulation -f Dockerfile_simulation .
 ```
