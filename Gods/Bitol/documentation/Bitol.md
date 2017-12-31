@@ -56,12 +56,6 @@ Applications
 
 # Projects
 
-## Dronecode
-
-> The Dronecode project delivers a collaborative and shared Open Source Platform for unmanned aerial vehicles (UAVS). A neutral place where industry and community developers can contribute technology in order to reduce costs and time to market
-
-- [Dronecode](https://www.dronecode.org/)
-
 ### Drone Application Development SDK
 
 > This SDK should allow developers to create drone “applications” that can run on mobile devices (tablets, phones) and on-board companion computers, and that can also seamlessly integrate drones with cloud-based services. The SDK should ideally support Python, C++ and Android Developer APIs, including options like ROS, Cloud etc., and also integration with any simulation environment.

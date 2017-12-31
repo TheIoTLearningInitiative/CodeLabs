@@ -315,7 +315,7 @@
     * [Hardware](Gods/Bitol/Documentation/DroneSolutionArchitect/Hardware.md)
       * [Intel® Aero Ready to Fly Drone](Gods/Bitol/Documentation/DroneSolutionArchitect/IntelAeroReadyToFlyDrone.md)
       * [PixHawk 2.1](Gods/Bitol/Documentation/DroneSolutionArchitect/PixHawk21.md)
-  * [Drone Code Platform](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)
+  * [Dronecode Platform](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)
   * [Flight Stack](Gods/Bitol/Documentation/FlightStack/FlightStack.md)
     * [Flight Controller](Gods/Bitol/Documentation/FlightStack/FlightController.md)
     * [Autopilot](Gods/Bitol/Documentation/Autopilot/Autopilot.md)

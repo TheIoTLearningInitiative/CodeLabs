@@ -1,4 +1,8 @@
-# Drone Code Platform
+# Dronecode Platform
+
+> The Dronecode project delivers a collaborative and shared Open Source Platform for unmanned aerial vehicles (UAVS). A neutral place where industry and community developers can contribute technology in order to reduce costs and time to market
+
+- [Dronecode](https://www.dronecode.org/)
 
 The active Working Groups are:
 
