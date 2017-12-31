@@ -331,6 +331,8 @@
     * [Developer APIs](Gods/Bitol/documentation/DeveloperApis.md)
     * [Ground Control Station](Gods/Bitol/Documentation/DroneSolution/GroundControlStation.md)
       * [QGroundControl](Gods/Bitol/Documentation/DroneSolution/QGroundControl.md)
+  * [Hybrid Drone Solution](Gods/Bitol/Documentation/HybridDroneSolution/HybridDroneSolution.md)
+  * [Autonomous Drone Solution](Gods/Bitol/Documentation/AutonomousDroneSolution/AutonomousDroneSolution.md)
   * [Training](Gods/Bitol/documentation/training.md)
     * [Drone Solution Architect](Gods/Bitol/documentation/DroneSolutionArchitect.md)
       * [Demos](Gods/Bitol/documentation/DroneSolutionArchitect/demos.md)
