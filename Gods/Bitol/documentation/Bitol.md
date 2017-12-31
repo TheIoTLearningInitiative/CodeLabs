@@ -2,7 +2,7 @@
 
 > A sky god and one of the creator deities who participated in the last two attempts at creating humanity.
 
-## UAV Model Architecture
+UAV Model Architecture
 
 - Base Frame
 - ESCs (Speed Controllers) 
@@ -13,7 +13,7 @@
 - LiPo Battery
 - __Advanced__ FPV Camera and Transmitter
 
-## Complete UAV Solution
+UAV Solution
 
 1. Flight-controller hardware
 2. Autopilot software
@@ -29,22 +29,6 @@ Applications
 - Search, rescue, law enforcement
 - Scientific research & exploration
 - Humanitarian Services
-
-The active Working Groups are:
-
-- Camera API WG
-- Code Quality WG
-- Messaging WG
-- Safety WG
-- User experience (UX) WG
-- Dronecode SDK WG
-
-Links to archived Working Groups (Inactive):
-
-- Airspace Management WG
-- Autopilot Connector Definitions WG
-- MAVLINK Camera WG
-- Documentation WG
 
 ## FPV
 
