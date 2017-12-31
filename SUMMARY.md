@@ -319,6 +319,7 @@
   * [Dronecode Platform](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)
   * [Drone Solution](Gods/Bitol/Documentation/DroneSolution/DroneSolution.md)
     * [Flight Controller Hardware](Gods/Bitol/Documentation/DroneSolution/FlightControllerHardware.md)
+      * [PixHawk v2.1](Gods/Bitol/Documentation/DroneSolution/PixHawk21.md)
     * [Flight Controller Operating System](Gods/Bitol/Documentation/DroneSolution/FlightControllerOperatingSystem.md)
     * [Autopilot](Gods/Bitol/Documentation/Autopilot/Autopilot.md)
       * [Px4](Gods/Bitol/documentation/Px4.md)
