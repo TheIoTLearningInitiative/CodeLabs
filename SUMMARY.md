@@ -312,7 +312,6 @@
 * [Bitol](Gods/Bitol/documentation/Bitol.md)
   * [Drone Software Development Environment](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/DroneSoftwareDevelopmentEnvironment.md)
   * [Drone Solution Architect](Gods/Bitol/Documentation/DroneSolutionArchitect/DroneSolutionArchitect.md)
-    * [Hardware](Gods/Bitol/Documentation/DroneSolutionArchitect/Hardware.md)
     * [Companies](Gods/Bitol/Documentation/DroneSolutionArchitect/Companies.md)
   * [Dronecode Platform](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)
   * [Drone Solution](Gods/Bitol/Documentation/DroneSolution/DroneSolution.md)

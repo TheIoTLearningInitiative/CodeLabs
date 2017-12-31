@@ -33,4 +33,3 @@ UAV Applications
 ## FPV
 
 > First Person View (FPV) flying is when you fly your radio aircraft using a wireless video feed and view it from the pilot's perspective using a FPV monitor or video goggles. It's the closest thing to flying without actually flying! [UnmannedTechShop](https://www.unmannedtechshop.co.uk/fpv/)
-
