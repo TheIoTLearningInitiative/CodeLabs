@@ -72,6 +72,10 @@ Links
 - [PX4 Seminar](https://www.slideshare.net/narnars0/02-px4-seminaroam)
 - [PX4 Github](https://github.com/PX4/Firmware)
 
+# Architecture
+
+- [PX4 Architectural Overview](https://dev.px4.io/en/concept/architecture.html)
+
 ```sh
 user@workstation:~$ cd src/
 user@workstation:~/src$ cd Firmware/
