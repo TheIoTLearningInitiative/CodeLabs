@@ -231,8 +231,23 @@ commander start
 navigator start
 ekf2 start
 fw_pos_control_l1 start
-...
-...
+fw_att_control start
+land_detector start fixedwing
+mixer load /dev/pwm_output0 ../../../../ROMFS/sitl/mixers/delta_wing_sitl.main.mix
+mavlink start -x -u 14556 -r 2000000
+mavlink start -x -u 14557 -r 2000000 -m onboard -o 14540
+mavlink stream -r 80 -s POSITION_TARGET_LOCAL_NED -u 14556
+mavlink stream -r 80 -s LOCAL_POSITION_NED -u 14556
+mavlink stream -r 80 -s GLOBAL_POSITION_INT -u 14556
+mavlink stream -r 80 -s ATTITUDE -u 14556
+mavlink stream -r 80 -s ATTITUDE_QUATERNION -u 14556
+mavlink stream -r 80 -s ATTITUDE_TARGET -u 14556
+mavlink stream -r 20 -s RC_CHANNELS -u 14556
+mavlink stream -r 250 -s HIGHRES_IMU -u 14556
+mavlink stream -r 10 -s OPTICAL_FLOW_RAD -u 14556
+logger start -e -t
+mavlink boot_complete
+replay trystart
 ```
 
 ## Directory Images/
