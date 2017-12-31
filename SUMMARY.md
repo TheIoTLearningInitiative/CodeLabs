@@ -323,6 +323,7 @@
       * [Ardupilot](Gods/Bitol/Documentation/FlightStack/Ardupilot.md)
       * [Software In The Loop](Gods/Bitol/Documentation/SoftwareInTheLoop/SoftwareInTheLoop.md)
         * [DroneKit SITL](Gods/Bitol/Documentation/SoftwareInTheLoop/DroneKitSitl.md)
+        * [jMAVSim](Gods/Bitol/Documentation/SoftwareInTheLoop/jMAVSim.md)
     * [Communications](Gods/Bitol/documentation/Communications.md)
     * [Developer APIs](Gods/Bitol/documentation/DeveloperApis.md)
   * [Training](Gods/Bitol/documentation/training.md)

@@ -71,14 +71,8 @@ Links
 - [PX4 Pro Drone Autopilot Github Source code](https://github.com/px4)
 - [PX4 Seminar](https://www.slideshare.net/narnars0/02-px4-seminaroam)
 
-## Setup
 
 ```sh
 user@workstation:~$ cd src/
 user@workstation:~/src$ cd Firmware/
-user@workstation:~/src/Firmware$ make posix jmavsim
-```
-
-```sh
-user@workstation:~/Drones/Firmware$ make posix gazebo_typhoon_h480
 ```
