@@ -317,7 +317,7 @@
       * [PixHawk 2.1](Gods/Bitol/Documentation/DroneSolutionArchitect/PixHawk21.md)
     * [Companies](Gods/Bitol/Documentation/DroneSolutionArchitect/Companies.md)
   * [Dronecode Platform](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)
-  * [Flight Stack](Gods/Bitol/Documentation/DroneSolution/FlightStack.md)
+  * [Drone Solution](Gods/Bitol/Documentation/DroneSolution/DroneSolution.md)
     * [Flight Controller](Gods/Bitol/Documentation/DroneSolution/FlightController.md)
     * [Operating System](Gods/Bitol/Documentation/DroneSolution/OperatingSystem.md)
     * [Autopilot](Gods/Bitol/Documentation/Autopilot/Autopilot.md)
