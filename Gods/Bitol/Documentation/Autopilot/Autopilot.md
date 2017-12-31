@@ -1,6 +1,8 @@
-# Autopilot / Flight Stack
+# Autopilot / Flight Controller
 
 > A system used to control the trajectory of an aircraft without constant 'hands-on' control by a human operator being required. Autopilots do not replace human operators but assist them in controlling aircraft, allowing them to focus on broader aspects of operations such as monitoring the trajectory, weather and systems. [Wikipedia](https://en.wikipedia.org/wiki/Autopilot)
+
+> "Wait!" you ask, "Why do you need flight controller for simulator?". The primary job of flight controller is to take in desired state as input, estimate actual state using sensors data and then drive the actuators in such a way so that actual state comes as close to the desired state. For quadrotors, desired state can be specified as roll, pitch and yaw, for example. It than estimates actual roll, pitch and yaw using gyroscope and accelerometer. Then it generates appropriate motor signals so actual state becomes desired state. [AirSim Docs](https://github.com/Microsoft/AirSim/blob/master/docs/flight_controller.md)
 
 - Fligt Controller
   - Inputs .. Sensors(IMU, Compass, Barometer, Somar, Cameras)
