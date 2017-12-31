@@ -186,6 +186,55 @@ bebop  eagle  excelsior  ocpoc  rpi  SITL
 user@workstation:~/src/Firmware$ 
 ```
 
+```sh
+user@workstation:~/src/Firmware$ nano posix-configs/SITL/init/rcS_gazebo_delta_wing
+uorb start
+param load
+param set MAV_TYPE 1
+param set SYS_AUTOSTART 3033
+param set SYS_RESTART_TYPE 2
+dataman start
+param set BAT_N_CELLS 3
+param set CAL_GYRO0_ID 2293768
+param set CAL_ACC0_ID 1376264
+param set CAL_ACC1_ID 1310728
+param set CAL_MAG0_ID 196616
+param set CAL_GYRO0_XOFF 0.01
+param set CAL_ACC0_XOFF 0.01
+param set CAL_ACC0_YOFF -0.01
+param set CAL_ACC0_ZOFF 0.01
+param set CAL_ACC0_XSCALE 1.01
+param set CAL_ACC0_YSCALE 1.01
+param set CAL_ACC0_ZSCALE 1.01
+param set CAL_ACC1_XOFF 0.01
+param set CAL_MAG0_XOFF 0.01
+param set SENS_BOARD_ROT 8
+param set SENS_DPRES_OFF 0.001
+param set SENS_BOARD_X_OFF 0.000001
+param set COM_RC_IN_MODE 1
+param set NAV_DLL_ACT 2
+param set NAV_ACC_RAD 15.0
+param set FW_THR_IDLE 0.6
+param set FS_GCS_ENABLE 2
+replay tryapplyparams
+simulator start -s
+tone_alarm start
+gyrosim start
+accelsim start
+barosim start
+adcsim start
+gpssim start
+measairspeedsim start
+pwm_out_sim mode_pwm
+sensors start
+commander start
+navigator start
+ekf2 start
+fw_pos_control_l1 start
+...
+...
+```
+
 ## Directory Images/
 
 ```sh
@@ -213,4 +262,36 @@ ardupilotmega  checksum.h   mavlink_conversions.h  mavlink_sha256.h     minimal 
 ASLUAV         common       mavlink_get_info.h     mavlink_types.h      protocol.h  test
 autoquad       matrixpilot  mavlink_helpers.h      message_definitions  slugs       uAvionix
 user@workstation:~/src/Firmware$ 
+```
+
+```sh
+pxh> mavlink help
+
+### Description
+This module implements the MAVLink protocol, which can be used on a Serial link or UDP network connection.
+It communicates with the system via uORB: some messages are directly handled in the module (eg. mission
+protocol), others are published via uORB (eg. vehicle_command).
+
+Streams are used to send periodic messages with a specific rate, such as the vehicle attitude.
+When starting the mavlink instance, a mode can be specified, which defines the set of enabled streams with their rates.
+For a running instance, streams can be configured via `mavlink stream` command.
+
+There can be multiple independent instances of the module, each connected to one serial device or network port.
+
+### Implementation
+The implementation uses 2 threads, a sending and a receiving thread. The sender runs at a fixed rate and dynamically
+reduces the rates of the streams if the combined bandwidth is higher than the configured rate (`-r`) or the
+physical link becomes saturated. This can be checked with `mavlink status`, see if `rate mult` is less than 1.
+
+**Careful**: some of the data is accessed and modified from both threads, so when changing code or extend the
+functionality, this needs to be take into account, in order to avoid race conditions and corrupt data.
+
+### Examples
+Start mavlink on ttyS1 serial with baudrate 921600 and maximum sending rate of 80kB/s:
+$ mavlink start -d /dev/ttyS1 -b 921600 -m onboard -r 80000
+
+Start mavlink on UDP port 14556 and enable the HIGHRES_IMU message with 50Hz:
+$ mavlink start -u 14556 -r 1000000
+$ mavlink stream -u 14556 -s HIGHRES_IMU -r 50
+...
 ```
