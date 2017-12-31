@@ -322,7 +322,6 @@
     * [Flight Controller Operating System](Gods/Bitol/Documentation/DroneSolution/FlightControllerOperatingSystem.md)
     * [Autopilot](Gods/Bitol/Documentation/Autopilot/Autopilot.md)
       * [Px4](Gods/Bitol/documentation/Px4.md)
-        * [Docker](Gods/Bitol/documentation/Px4/docker.md)
       * [Ardupilot](Gods/Bitol/Documentation/FlightStack/Ardupilot.md)
       * [Software In The Loop](Gods/Bitol/Documentation/SoftwareInTheLoop/SoftwareInTheLoop.md)
         * [DroneKit SITL](Gods/Bitol/Documentation/SoftwareInTheLoop/DroneKitSitl.md)

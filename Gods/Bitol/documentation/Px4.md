@@ -71,8 +71,25 @@ Links
 - [PX4 Pro Drone Autopilot Github Source code](https://github.com/px4)
 - [PX4 Seminar](https://www.slideshare.net/narnars0/02-px4-seminaroam)
 
-
 ```sh
 user@workstation:~$ cd src/
 user@workstation:~/src$ cd Firmware/
+user@workstation:~/src/Firmware$ 
+```
+
+```sh
+user@workstation:~/src/Firmware$ ls
+build               Documentation             LICENSE        README.md
+circle.yml          eclipse.cproject          Makefile       ROMFS
+cmake               eclipse.project           mavlink        src
+CMakeLists.txt      Firmware.sublime-project  msg            test_data
+CODE_OF_CONDUCT.md  Images                    nuttx-configs  Tools
+CONTRIBUTING.md     integrationtests          package.xml    Vagrantfile
+CTestConfig.cmake   Jenkinsfile               platforms
+Debug               launch                    posix-configs
+user@workstation:~/src/Firmware$ 
+```
+
+```sh
+user@workstation:~/src/Firmware$ make posix jmavsim
 ```
