@@ -67,7 +67,12 @@ user@workstation:~$ source ubuntu_sim_nuttx.sh
 ```sh
 user@workstation:~$ cd src/
 user@workstation:~/src$ cd Firmware/
+```
+
+```sh
 user@workstation:~/src/Firmware$ make posix jmavsim
+...
+...
 [1/1] cd /home/user/src/Firmware/build/posix_sitl_default/.../Firmware /home/user/src/Firmware/build/posix_sitl_default
 args: /home/user/src/Firmware/build/posix_sitl_default/px4 posix-configs/SITL/init/ekf2 none jmavsim none /home/user/src/Firmware /home/user/src/Firmware/build/posix_sitl_default
 SITL ARGS
