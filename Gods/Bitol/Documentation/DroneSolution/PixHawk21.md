@@ -5,3 +5,9 @@
 - [PIXHAWK2.1 Homepage One](http://www.hex.aero/)
 - [PIXHAWK2.1 Homepage Two](http://www.proficnc.com/)
 - [PIXHAWK2.1 Assembly Guide](http://www.hex.aero/wp-content/uploads/2016/09/PIXHAWK2-Assembly-Guide.pdf)
+
+## Pixhawk
+
+> Pixhawk is an independent, open-hardware project aiming at providing high-end autopilot hardware to the academic, hobby and industrial communities at low costs and high availability.
+
+- [Pixhawk Homepage](https://pixhawk.org/start) 

@@ -1,7 +1,15 @@
 # Flight Controller
 
-## Pixhawk
+# Hardware
 
-> Pixhawk is an independent, open-hardware project aiming at providing high-end autopilot hardware to the academic, hobby and industrial communities at low costs and high availability.
+- [Flight Stack](https://altax.net/blog/flight-stack/)
 
-- [Pixhawk Homepage](https://pixhawk.org/start) 
+## Flight Controller
+
+> Combination of hardware and software that helps control the UAV flight [Wikipedia](https://en.wikipedia.org/wiki/Flight_controller_(disambiguation))
+
+## Companion Computer
+
+> Advanced navigation requiring more powerful processing
+
+- [APSync](http://ardupilot.org/dev/docs/apsync-intro.html)
