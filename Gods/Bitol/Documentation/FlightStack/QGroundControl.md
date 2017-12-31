@@ -21,4 +21,3 @@ user@workstation:~$ wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/lates
 user@workstation:~$ chmod +x QGroundControl.AppImage
 user@workstation:~$ ./QGroundControl.AppImage
 ```
-
