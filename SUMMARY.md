@@ -326,6 +326,8 @@
         * [jMAVSim](Gods/Bitol/Documentation/SoftwareInTheLoop/jMAVSim.md)
     * [Communications](Gods/Bitol/documentation/Communications.md)
     * [Developer APIs](Gods/Bitol/documentation/DeveloperApis.md)
+    * [Ground Control Station](Gods/Bitol/Documentation/FlightStack/GroundControlStation.md)
+      * [QGroundControl](Gods/Bitol/Documentation/FlightStack/QGroundControl.md)
   * [Training](Gods/Bitol/documentation/training.md)
     * [Drone Solution Architect](Gods/Bitol/documentation/DroneSolutionArchitect.md)
       * [Demos](Gods/Bitol/documentation/DroneSolutionArchitect/demos.md)
