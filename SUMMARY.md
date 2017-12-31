@@ -319,6 +319,7 @@
   * [Dronecode Platform](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)
   * [Flight Stack](Gods/Bitol/Documentation/FlightStack/FlightStack.md)
     * [Flight Controller](Gods/Bitol/Documentation/FlightStack/FlightController.md)
+    * [Operating System](Gods/Bitol/Documentation/FlightStack/OperatingSystem.md)
     * [Autopilot](Gods/Bitol/Documentation/Autopilot/Autopilot.md)
       * [Px4](Gods/Bitol/documentation/Px4.md)
         * [Docker](Gods/Bitol/documentation/Px4/docker.md)
