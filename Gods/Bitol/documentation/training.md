@@ -6,3 +6,8 @@
 - [4](http://ardupilot.org/copter/docs/build-your-own-multicopter.html)
 - [5](https://edu.gaitech.hk/getting_started/get-started.html)
 
+## Camera Streaming Daemon
+
+- [Camera Streaming Daemon](https://github.com/01org/camera-streaming-daemon)
+
+
