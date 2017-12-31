@@ -5,12 +5,6 @@
 
 # Hardware
 
-## Pixhawk
-
-> Pixhawk is an independent, open-hardware project aiming at providing high-end autopilot hardware to the academic, hobby and industrial communities at low costs and high availability.
-
-- [Pixhawk Homepage](https://pixhawk.org/start) 
-
 # Software
 
 ## NuttX Real-Time Operating System
@@ -24,25 +18,6 @@
 - [Camera Streaming Daemon](https://github.com/01org/camera-streaming-daemon)
 
 # Projects
-
-### Drone Application Development SDK
-
-> This SDK should allow developers to create drone “applications” that can run on mobile devices (tablets, phones) and on-board companion computers, and that can also seamlessly integrate drones with cloud-based services. The SDK should ideally support Python, C++ and Android Developer APIs, including options like ROS, Cloud etc., and also integration with any simulation environment.
-
-Mobile SDK
-
-- DJI
-- Parrot
-- FlytOS
-- DroneKit
-
-OnBoard SDK
-
-- DJI
-- Parrot
-- FlytOS
-- DroneKit
-- AirLib, Microsoft AirSim
 
 # Companies
 
