@@ -2,6 +2,8 @@
 
 > A sky god and one of the creator deities who participated in the last two attempts at creating humanity.
 
+> An unmanned aerial vehicle (UAV), commonly known as a drone, is an aircraft without a human pilot aboard. UAVs are a component of an unmanned aircraft system (UAS); which include a UAV, a ground-based controller, and a system of communications between the two. The flight of UAVs may operate with various degrees of autonomy: either under remote control by a human operator or autonomously by onboard computers. [Wikipedia](https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle)
+
 UAV Model Architecture
 
 - Base Frame
