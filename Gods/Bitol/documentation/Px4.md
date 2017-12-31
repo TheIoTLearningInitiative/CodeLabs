@@ -164,3 +164,11 @@ config     hardfault_log  motor_ramp  nshterm  pwm     sd_bench  topic_listener
 dumpfile   led_control    motor_test  param    reboot  tests     usb_connected
 user@workstation:~/src/Firmware$ 
 ```
+
+```ss
+user@workstation:~/src/Firmware$ ls mavlink/include/mavlink/v2.0/
+ardupilotmega  checksum.h   mavlink_conversions.h  mavlink_sha256.h     minimal     standard
+ASLUAV         common       mavlink_get_info.h     mavlink_types.h      protocol.h  test
+autoquad       matrixpilot  mavlink_helpers.h      message_definitions  slugs       uAvionix
+user@workstation:~/src/Firmware$ 
+```
