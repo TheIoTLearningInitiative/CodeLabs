@@ -126,6 +126,8 @@ user@server:~/src/Firmware$ ls src/firmware/
 nuttx  posix  qurt
 ```
 
+## Directory src/
+
 ```sh
 user@workstation:~/src/Firmware$ ls src/include/
 containers  px4.h  unit_test.h  visibility.h
@@ -165,7 +167,17 @@ dumpfile   led_control    motor_test  param    reboot  tests     usb_connected
 user@workstation:~/src/Firmware$ 
 ```
 
-```ss
+## Directory posix-configs/
+
+```sh
+user@workstation:~/src/Firmware$ ls posix-configs/
+bebop  eagle  excelsior  ocpoc  rpi  SITL
+user@workstation:~/src/Firmware$ 
+```
+
+## Directory mavlink/
+
+```sh
 user@workstation:~/src/Firmware$ ls mavlink/include/mavlink/v2.0/
 ardupilotmega  checksum.h   mavlink_conversions.h  mavlink_sha256.h     minimal     standard
 ASLUAV         common       mavlink_get_info.h     mavlink_types.h      protocol.h  test
