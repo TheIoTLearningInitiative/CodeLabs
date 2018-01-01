@@ -73,4 +73,7 @@ pxh>
 
 ```sh
 pxh> commander takeoff
+pxh> INFO  [tone_alarm] positive
+INFO  [tone_alarm] arming
+INFO  [commander] Takeoff detected
 ```
