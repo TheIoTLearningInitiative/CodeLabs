@@ -7,6 +7,14 @@ import sys
 
 copter_args = ['-S', '--model', 'quad', '--home=-35.363261,149.165230,584,353']
 
+sitl = SITL()
+sitl.launch(copter_args, await_ready=True, use_saved_data=True)
+vehicle = dronekit.connect(connection_string, wait_ready=True)
+print vehicle.parameters["COMPASS_USE"]
+vehicle.close()
+sitl.stop()
+
+sys.exit(0)
 
 sitl = SITL()
 sitl.stop()
@@ -50,9 +58,4 @@ sitl.stop()
 vehicle.close()
 
 # Now see if it persisted
-sitl.launch(copter_args, await_ready=True, use_saved_data=True)
-vehicle = dronekit.connect(connection_string, wait_ready=True)
-print vehicle.parameters["COMPASS_USE"]
-vehicle.close()
-sitl.stop()
 
