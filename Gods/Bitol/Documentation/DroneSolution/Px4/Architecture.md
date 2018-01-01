@@ -183,6 +183,16 @@ replay trystart
 ## Directory Images/
 
 ```sh
+user@workstation:~/src/Firmware$ ls Images/
+aerocore2.prototype  mindpx-v2.prototype      px4fmu-v2.prototype     px4io-v2.prototype               tap-v1.prototype
+aerofc-v1.prototype  nxphlite-v3.prototype    px4fmu-v3.prototype     px4nucleoF767ZI-v1.prototype     zubaxgnss-v1.prototype
+auav-x21.prototype   px4cannode-v1.prototype  px4fmu-v4pro.prototype  px4-same70xplained-v1.prototype
+crazyflie.prototype  px4esc-v1.prototype      px4fmu-v4.prototype     px4-stm32f4discovery.prototype
+esc35-v1.prototype   px4flow-v2.prototype     px4fmu-v5.prototype     s2740vc-v1.prototype
+user@workstation:~/src/Firmware$ 
+```
+
+```sh
 user@workstation:~/src/Firmware$ cat Images/aerocore2.prototype 
 {
     "board_id": 98,
