@@ -71,9 +71,20 @@ INFO  [lib__ecl] EKF aligned, (pressure height, IMU buf: 22, OBS buf: 14)
 pxh> 
 ```
 
+# Command, Commander
+
 ```sh
 pxh> commander takeoff
 pxh> INFO  [tone_alarm] positive
 INFO  [tone_alarm] arming
 INFO  [commander] Takeoff detected
+```
+
+```sh
+pxh> commander land
+pxh> INFO  [commander] Landing at current position
+INFO  [tone_alarm] positive
+INFO  [commander] Landing detected
+INFO  [tone_alarm] neutral
+INFO  [logger] closed logfile, bytes written: 4366497
 ```
