@@ -10,4 +10,12 @@
 
 - [Camera Streaming Daemon](https://github.com/01org/camera-streaming-daemon)
 
+## Packages :: Java
 
+Only if you are under Ubuntu Server
+
+```sh
+user@workstation:~/Drones$ sudo add-apt-repository ppa:webupd8team/java
+user@workstation:~/Drones$ sudo apt-get update
+user@workstation:~/Drones$ sudo apt-get install oracle-java8-installer
+```
