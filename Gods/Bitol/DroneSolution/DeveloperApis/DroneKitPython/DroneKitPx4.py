@@ -7,6 +7,8 @@
 # Code partly based on DroneKit (c) Copyright 2015-2016, 3D Robotics.
 ################################################################################################
 
+#!/usr/bin/python
+
 # Import DroneKit-Python
 from dronekit import connect, Command, LocationGlobal
 from pymavlink import mavutil
