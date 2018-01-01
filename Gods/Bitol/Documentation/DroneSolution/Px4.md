@@ -72,9 +72,8 @@ Links
 - [PX4 Seminar](https://www.slideshare.net/narnars0/02-px4-seminaroam)
 - [PX4 Github](https://github.com/PX4/Firmware)
 
-Scripting Steps
+## Installation, Scripting Levels
 
 1. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim_common_deps.sh
 2. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim.sh
 3. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim_nuttx.sh
-
