@@ -70,3 +70,7 @@ INFO  [lib__ecl] EKF aligned, (pressure height, IMU buf: 22, OBS buf: 14)
 
 pxh> 
 ```
+
+```sh
+pxh> commander takeoff
+```
