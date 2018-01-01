@@ -32,16 +32,6 @@ user@workstation:~$ sudo apt-get remove modemmanager
 user@workstation:~$ sudo usermod -a -G dialout $USER
 ```
 
-# Software In the Loop
-
-## DroneKit SITL
-
-```sh
-user@workstation:~$ sudo apt-get install python-pip python-dev
-user@workstation:~$ sudo pip install dronekit
-user@workstation:~$ sudo pip install dronekit-sitl -UI
-```
-
 ## PX4
 
 ### PX4 Source Code
@@ -125,13 +115,15 @@ INFO  [lib__ecl] EKF aligned, (pressure height, IMU buf: 22, OBS buf: 14)
 pxh> 
 ```
 
-### PX4 Build
+# Software In the Loop
 
-Scripting Steps
+## DroneKit SITL
 
-1. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim_common_deps.sh
-2. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim.sh
-3. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim_nuttx.sh
+```sh
+user@workstation:~$ sudo apt-get install python-pip python-dev
+user@workstation:~$ sudo pip install dronekit
+user@workstation:~$ sudo pip install dronekit-sitl -UI
+```
 
 # Ground Control Station
 

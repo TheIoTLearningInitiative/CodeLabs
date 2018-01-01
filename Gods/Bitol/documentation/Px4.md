@@ -76,6 +76,12 @@ Links
 
 - [PX4 Architectural Overview](https://dev.px4.io/en/concept/architecture.html)
 
+Scripting Steps
+
+1. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim_common_deps.sh
+2. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim.sh
+3. https://github.com/PX4/Devguide/blob/master/build_scripts/ubuntu_sim_nuttx.sh
+
 ```sh
 user@workstation:~$ cd src/
 user@workstation:~/src$ cd Firmware/
