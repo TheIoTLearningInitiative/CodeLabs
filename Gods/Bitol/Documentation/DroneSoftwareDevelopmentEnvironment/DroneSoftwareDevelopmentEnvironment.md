@@ -25,14 +25,14 @@ user@workstation:~$ sudo apt install python-pip --upgrade
 user@workstation:~$ sudo apt install unzip
 ```
 
-## Extra Settings
+# Flight Controllers
+
+## PX4
 
 ```sh
 user@workstation:~$ sudo apt-get remove modemmanager
 user@workstation:~$ sudo usermod -a -G dialout $USER
 ```
-
-## PX4
 
 ### PX4 Source Code
 
@@ -112,7 +112,34 @@ pxh> INFO  [logger] Start file log
 INFO  [logger] Opened log file: rootfs/fs/microsd/log/2017-12-31/19_44_38.ulg
 INFO  [lib__ecl] EKF aligned, (pressure height, IMU buf: 22, OBS buf: 14)
 
-pxh> 
+pxh>
+```
+
+## Ardupilot
+
+From [Ardupilot Setting up SITL on Linux](http://ardupilot.org/dev/docs/setting-up-sitl-on-linux.html)
+
+### Dependencies
+
+```sh
+user@workstation:~$ sudo apt-get install python-matplotlib python-serial python-wxgtk3.0 python-wxtools python-lxml
+user@workstation:~$ sudo apt-get install python-scipy python-opencv ccache gawk git python-pip python-pexpect
+user@workstation:~$ sudo pip install future pymavlink MAVProxy
+```
+
+### Source Code
+
+```sh
+user@workstation:~$ git clone git://github.com/ArduPilot/ardupilot.git
+user@workstation:~$ cd ardupilot
+user@workstation:~$ git submodule update --init --recursive
+```
+
+```sh
+user@workstation:~$ nano ~/.bashrc
+export PATH=$PATH:$HOME/ardupilot/Tools/autotest
+export PATH=/usr/lib/ccache:$PATH
+user@workstation:~$ . ~/.bashrc
 ```
 
 # Software In the Loop
