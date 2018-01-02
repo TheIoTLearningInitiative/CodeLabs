@@ -22,6 +22,7 @@ user@workstation:~/Drones$ chmod +x QGroundControl.AppImage
 user@workstation:~/Drones$ ./QGroundControl.AppImage
 ```
 
+# Firmware
 
-
+- [QGroundControl User Guide Loading Firmware](https://donlakeflyer.gitbooks.io/qgroundcontrol-user-guide/en/SetupView/Firmware.html)
 
