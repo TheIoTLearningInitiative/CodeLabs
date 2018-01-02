@@ -14,14 +14,19 @@
 - 08 __Acat__ IBM Node-Red
 - 09 __Chacmultun__ Optimization Through Device Drivers Layers
 - 10 __Coba__ Linux Kernel Development
+     -  https://github.com/cobaproject
 - 11 __Ah Puch__ Recon Instruments __On Hold!__
 - 12 __Hochob__ Visitors Center
+     -  https://github.com/hochob
 - 13 __Awilix__ The IoT Learning Initiative
 - 14 __Alom__ Briko
 - 15 __Bitol__ Drone Software Development
+     -  https://github.com/bitolproject
 - 16 __Chaac__ Laboratory
 - 17 __EekMex__ Aerospace Learning Platform
+     -  https://github.com/eekmex
 - 18 __NuupXe__ Amateur Radio Voice Software Infrastructure
+     -  https://github.com/nuupxe
 - 19 __Buluc Chabtan__ Hardware, Software, and Soft Skills Training Challenge
 
 # Priority - In Process
