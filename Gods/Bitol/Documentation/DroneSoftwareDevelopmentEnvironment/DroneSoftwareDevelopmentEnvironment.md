@@ -1,8 +1,8 @@
 # Drone Software Development Environment
 
-# Workstation
+> Workstation
 
-## Sudoers
+# Sudoers
 
 ```sh
 user@workstation:~$ sudo adduser <user> sudo
@@ -16,7 +16,7 @@ user    ALL=(ALL:ALL) ALL
 ...
 ```
 
-## Packages
+# Packages
 
 ```sh
 user@workstation:~$ sudo apt update
