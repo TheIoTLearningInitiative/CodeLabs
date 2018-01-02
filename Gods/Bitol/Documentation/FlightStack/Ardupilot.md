@@ -1,5 +1,11 @@
 # Ardupilot
 
+> Hardware - The embedded systems and peripheral sensors that act as the vehicle’s brain, eyes, ears, etc. Almost any mobile machine can be transformed into a robot, by simply integrating a small hardware package into it. [Homepage](http://ardupilot.org/ardupilot/)
+
+> Firmware- The “skill set” code running on the hardware, which configures it for the kind of vehicle you’ve put it in. You choose the firmware and vehicle that match your mission: Plane, Copter, Rover... The choice is yours – one autopilot for any mission. An easy firmware update is all it takes to repurpose your hardware into a different role. [Homepage](http://ardupilot.org/ardupilot/)
+
+> Software- Your interface to the hardware. Initial set-up, configuration, and testing. Mission-planning/operation, and post-mission analysis. Point-and-click intuitive interaction with your hardware, or advanced custom scripting for niche mission profiles. Options are everything with ArduPilot. [Homepage](http://ardupilot.org/ardupilot/)
+
 ```sh
 user@workstation:~/src/ardupilot/$ 
 ```
