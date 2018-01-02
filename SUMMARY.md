@@ -324,6 +324,7 @@
       * [Px4](Gods/Bitol/Documentation/DroneSolution/Px4.md)
         * [Architecture](Gods/Bitol/Documentation/DroneSolution/Px4/Architecture.md)
           * [DriverFramework](Gods/Bitol/Documentation/DroneSolution/Px4/DriverFramework.md)
+          * [NuttX](Gods/Bitol/Documentation/DroneSolution/Px4/NuutX.md)
         * [Shell](Gods/Bitol/Documentation/DroneSolution/Px4/Shell.md)
       * [Ardupilot](Gods/Bitol/Documentation/FlightStack/Ardupilot.md)
       * [Software In The Loop](Gods/Bitol/Documentation/SoftwareInTheLoop/SoftwareInTheLoop.md)
