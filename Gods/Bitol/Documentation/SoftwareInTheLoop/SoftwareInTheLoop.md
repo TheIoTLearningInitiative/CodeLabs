@@ -8,7 +8,6 @@ Architecture
 - Flight Dynamics Model (FDM)
   - https://github.com/tridge/jsbsim
 
-
 Projects
 
 - Gazebo
