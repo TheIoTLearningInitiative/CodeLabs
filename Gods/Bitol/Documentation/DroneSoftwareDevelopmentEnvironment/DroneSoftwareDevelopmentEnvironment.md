@@ -156,7 +156,7 @@ user@workstation:~/src$ git submodule update --init --recursive
 
 ```sh
 user@workstation:~/src$ cd ardupilot/ArduPlane
-user@workstation:~/src$ sim_vehicle.py -w
+user@workstation:~/src/ardupilot/ArduPlane$ sim_vehicle.py -w
 ...
 Init ArduPlane V3.8.3-dev (b5bdaa18)
 
@@ -190,6 +190,11 @@ APM: EKF2 IMU1 Origin set to GPS
 MANUAL> 
 ```
 
+```sh
+user@workstation:~/src/ardupilot/ArduPlane$ cd
+user@workstation:~$ 
+```
+
 # Software In the Loop
 
 ## DroneKit SITL
@@ -209,3 +214,8 @@ user@workstation:~$ wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/lates
 user@workstation:~$ chmod +x QGroundControl.AppImage
 ```
 
+# Communications
+
+```sh
+user@workstation:~$ sudo pip install --upgrade pymavlink MAVProxy
+```
