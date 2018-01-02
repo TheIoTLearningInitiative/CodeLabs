@@ -8,11 +8,15 @@
 - 02 __Kaminaljuyu__ Air Quality
 - 03 __Tikal__ Emergency Medical Monitoring System __On Hold!__
 - 04 __Edzna__ Smart Home
+     - https://github.com/Edzna
 - 05 __Q'umarkaj__ Amazon Echo / Alexa Voice Service
 - 06 __Chichen Itza__ Audio as a Service
+     - https://github.com/ChichenItzaProject
 - 07 __Chicanna__ Camara as a Service
+     - https://github.com/Chicanna
 - 08 __Acat__ IBM Node-Red
 - 09 __Chacmultun__ Optimization Through Device Drivers Layers
+     - https://github.com/Chacmultun
 - 10 __Coba__ Linux Kernel Development
      -  https://github.com/cobaproject
 - 11 __Ah Puch__ Recon Instruments __On Hold!__
@@ -28,6 +32,7 @@
 - 18 __NuupXe__ Amateur Radio Voice Software Infrastructure
      -  https://github.com/nuupxe
 - 19 __Buluc Chabtan__ Hardware, Software, and Soft Skills Training Challenge
+     - https://github.com/BulucChabtanChallenge
 
 # Priority - In Process
 
