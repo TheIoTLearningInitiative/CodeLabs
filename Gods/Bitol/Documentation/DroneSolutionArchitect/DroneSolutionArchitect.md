@@ -13,6 +13,8 @@ UAV Model Architecture
 - LiPo Battery
 - __Advanced__ FPV Camera and Transmitter
 
+> __First Person View__ (FPV) flying is when you fly your radio aircraft using a wireless video feed and view it from the pilot's perspective using a FPV monitor or video goggles. It's the closest thing to flying without actually flying! [UnmannedTechShop](https://www.unmannedtechshop.co.uk/fpv/)
+
 UAV Solution
 
 1. Flight-controller hardware
@@ -29,7 +31,3 @@ UAV Applications
 - Search, rescue, law enforcement
 - Scientific research & exploration
 - Humanitarian Services
-
-## FPV
-
-> First Person View (FPV) flying is when you fly your radio aircraft using a wireless video feed and view it from the pilot's perspective using a FPV monitor or video goggles. It's the closest thing to flying without actually flying! [UnmannedTechShop](https://www.unmannedtechshop.co.uk/fpv/)
