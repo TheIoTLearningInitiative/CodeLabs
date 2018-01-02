@@ -1,7 +1,5 @@
 # Communications
 
-> Communications between the flight stack and ground control currently use MAVLink. In future protocols like RTPS are expected to provide more configurable messaging between the drone, GCS, cloud, and between processes running on the vehicle. Other comms protocols are used at different layers within the platform.
-
 - [PX4 Middleware](https://dev.px4.io/en/middleware/)
 
 ## uORB
@@ -9,6 +7,8 @@
 > The uORB is an asynchronous publish() / subscribe() messaging API used for inter-thread/inter-process communication.
 
 ## Mavlink
+
+> Communications between the flight stack and ground control currently use MAVLink. In future protocols like RTPS are expected to provide more configurable messaging between the drone, GCS, cloud, and between processes running on the vehicle. Other comms protocols are used at different layers within the platform.
 
 > The Micro Air Vehicle Communication Protocol (MAVLink) is a lightweight, header-only message marshalling library for micro air vehicles. It is widely used for communicating commands and telemetry between ground stations and autopilots (it is also the protocol used by DroneKit to communicate with vehicles). The protocol is currently being updated to support signing/authentication and other features that are becoming increasingly important.
 
