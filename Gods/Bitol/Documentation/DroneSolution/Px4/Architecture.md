@@ -22,6 +22,42 @@ user@workstation:~/src/Firmware$
 ```
 
 ```sh
+user@workstation:~/src/Firmware$ cat .git/config 
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/PX4/Firmware.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[submodule "src/lib/ecl"]
+	url = https://github.com/PX4/ecl.git
+[submodule "src/lib/matrix"]
+	url = https://github.com/PX4/Matrix.git
+[submodule "Tools/gencpp"]
+	url = https://github.com/ros/gencpp.git
+[submodule "Tools/genmsg"]
+	url = https://github.com/ros/genmsg.git
+[submodule "src/lib/DriverFramework"]
+	url = https://github.com/PX4/DriverFramework.git
+[submodule "src/drivers/gps/devices"]
+	url = https://github.com/PX4/GpsDrivers.git
+[submodule "mavlink/include/mavlink/v2.0"]
+	url = https://github.com/mavlink/c_library_v2.git
+[submodule "mavlink/include/mavlink/v1.0"]
+	url = https://github.com/mavlink/c_library_v1.git
+[submodule "Tools/sitl_gazebo"]
+	url = https://github.com/PX4/sitl_gazebo.git
+[submodule "Tools/jMAVSim"]
+	url = https://github.com/PX4/jMAVSim.git
+user@workstation:~/src/Firmware$ 
+```
+
+```sh
 user@workstation:~/src/Firmware$ ls src/
 drivers  examples  firmware  include  lib  modules  platforms  systemcmds
 user@server:~/src/Firmware$ ls src/drivers/
@@ -218,3 +254,4 @@ ASLUAV         common       mavlink_get_info.h     mavlink_types.h      protocol
 autoquad       matrixpilot  mavlink_helpers.h      message_definitions  slugs       uAvionix
 user@workstation:~/src/Firmware$ 
 ```
+
