@@ -3,9 +3,11 @@
 Architecture
 
 - Platforms
-  - Any
+  - Several
   - + x86
-- Flight Dynamics Model
+- Flight Dynamics Model (FDM)
+  - https://github.com/tridge/jsbsim
+
 
 Projects
 
