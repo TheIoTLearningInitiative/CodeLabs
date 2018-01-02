@@ -1,7 +1,15 @@
 # Ardupilot
 
 ```sh
-user@server:~/src/ardupilot/ArduPlane$ sim_vehicle.py -w
+user@workstation:~/src/ardupilot/$ 
+```
+
+```sh
+user@workstation:~/src/ardupilot$ 
+```
+
+```sh
+user@workstation:~/src/ardupilot/ArduPlane$ sim_vehicle.py -w
 SIM_VEHICLE: Start
 SIM_VEHICLE: Killing tasks
 SIM_VEHICLE: Starting up at -35.363261,149.165230,584,353 (CMAC)
