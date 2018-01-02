@@ -331,6 +331,8 @@
         * [jMAVSim](Gods/Bitol/Documentation/SoftwareInTheLoop/jMAVSim.md)
         * [DroneKit SITL](Gods/Bitol/Documentation/SoftwareInTheLoop/DroneKitSitl.md)
     * [Communications](Gods/Bitol/documentation/Communications.md)
+      * [Mavlink](Gods/Bitol/documentation/Communications/Mavlink.md)
+        * [PyMAVLink](Gods/Bitol/documentation/Communications/PythonMavlink.md)
     * [Ground Control Station](Gods/Bitol/Documentation/DroneSolution/GroundControlStation.md)
       * [QGroundControl](Gods/Bitol/Documentation/DroneSolution/QGroundControl.md)
     * [Developer APIs](Gods/Bitol/documentation/DeveloperApis.md)
