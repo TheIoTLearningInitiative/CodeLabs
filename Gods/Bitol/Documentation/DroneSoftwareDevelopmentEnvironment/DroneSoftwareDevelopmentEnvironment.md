@@ -29,16 +29,20 @@ user@workstation:~$ sudo apt install unzip
 
 ## PX4
 
+From [PX4 Developer Guide](https://dev.px4.io/en/setup/getting_started.html)
+
 ```sh
 user@workstation:~$ sudo apt-get remove modemmanager
 user@workstation:~$ sudo usermod -a -G dialout $USER
 ```
 
-### PX4 Source Code
+Source Code
 
 ```sh
 user@workstation:~$ wget https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_nuttx.sh
 ```
+
+Dependencies
 
 ```sh
 user@workstation:~$ source ubuntu_sim_nuttx.sh
@@ -48,6 +52,8 @@ user@workstation:~$ source ubuntu_sim_nuttx.sh
 user@workstation:~$ cd src/
 user@workstation:~/src$ cd Firmware/
 ```
+
+### Software In the Loop, JMAVSim
 
 ```sh
 user@workstation:~/src/Firmware$ make posix jmavsim
@@ -119,7 +125,7 @@ pxh>
 
 From [Ardupilot Setting up SITL on Linux](http://ardupilot.org/dev/docs/setting-up-sitl-on-linux.html)
 
-### Dependencies
+Dependencies
 
 ```sh
 user@workstation:~$ sudo apt-get install python-matplotlib python-serial python-wxgtk3.0 python-wxtools python-lxml
@@ -127,19 +133,61 @@ user@workstation:~$ sudo apt-get install python-scipy python-opencv ccache gawk 
 user@workstation:~$ sudo pip install future pymavlink MAVProxy
 ```
 
-### Source Code
-
-```sh
-user@workstation:~$ git clone git://github.com/ArduPilot/ardupilot.git
-user@workstation:~$ cd ardupilot
-user@workstation:~$ git submodule update --init --recursive
-```
+Configuration
 
 ```sh
 user@workstation:~$ nano ~/.bashrc
-export PATH=$PATH:$HOME/ardupilot/Tools/autotest
+export PATH=$PATH:$HOME/src/ardupilot/Tools/autotest
 export PATH=/usr/lib/ccache:$PATH
 user@workstation:~$ . ~/.bashrc
+```
+
+Source Code
+
+```sh
+user@workstation:~$ cd src/
+user@workstation:~/src$ 
+user@workstation:~/src$ git clone git://github.com/ArduPilot/ardupilot.git
+user@workstation:~/src$ cd ardupilot
+user@workstation:~/src$ git submodule update --init --recursive
+```
+
+### Software In the Loop, SITL Simulator
+
+```sh
+user@workstation:~/src$ cd ardupilot/ArduPlane
+user@workstation:~/src$ sim_vehicle.py -w
+...
+Init ArduPlane V3.8.3-dev (b5bdaa18)
+
+Free RAM: 131072
+Firmware change: erasing EEPROM...
+done.
+load_all took 0us
+0 0 0 validate_structures:209: Validating structures
+DataFlash_File: buffer size=16384
+online system 1
+INITIALISING> Mode INITIALISING
+APM: ArduPlane V3.8.3-dev (b5bdaa18)
+Flight battery 100 percent
+Received 908 parameters
+Saved 908 parameters to mav.parm
+APM: Barometer calibration complete
+APM: Airspeed calibration started
+APM: Ground start complete
+APM: GPS 1: detected as u-blox at 115200 baud
+APM: Init HOME
+APM: EKF2 IMU0 initial yaw alignment complete
+APM: EKF2 IMU1 initial yaw alignment complete
+APM: Airspeed sensor calibrated
+Mode MANUAL
+
+APM: EKF2 IMU0 tilt alignment complete
+APM: EKF2 IMU1 tilt alignment complete
+APM: EKF2 IMU0 Origin set to GPS
+APM: EKF2 IMU1 Origin set to GPS
+
+MANUAL> 
 ```
 
 # Software In the Loop
