@@ -16,7 +16,7 @@ Architecture
 - Vehicles
   - Works with all vehicle types supported by PX4 Pro and ArduPilot (multi-rotor, fixed-wing, VTOL, etc.)
 
-
+# Binary Download, Execution
 
 ```sh
 user@workstation:~/Drones$ wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage
