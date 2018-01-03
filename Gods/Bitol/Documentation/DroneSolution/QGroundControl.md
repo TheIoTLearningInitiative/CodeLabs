@@ -26,4 +26,4 @@ user@workstation:~/Drones$ ./QGroundControl.AppImage
 
 # Firmware
 
-- [QGroundControl User Guide Loading Firmware](https://donlakeflyer.gitbooks.io/qgroundcontrol-user-guide/en/SetupView/Firmware.html)
+> _QGroundControl desktop versions can install PX4 Pro or ArduPilot firmware onto Pixhawk-family flight-controller boards. By default QGC will install the current stable version of the selected autopilot, but you can also choose to install beta builds, daily builds, or custom firmware files. QGroundControl can also install the firmware for SiK Radios and PX4 Flow devices._ [QGroundControl User Guide Loading Firmware](https://donlakeflyer.gitbooks.io/qgroundcontrol-user-guide/en/SetupView/Firmware.html)
