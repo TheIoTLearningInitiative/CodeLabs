@@ -6,6 +6,8 @@
 
 > Software- Your interface to the hardware. Initial set-up, configuration, and testing. Mission-planning/operation, and post-mission analysis. Point-and-click intuitive interaction with your hardware, or advanced custom scripting for niche mission profiles. Options are everything with ArduPilot. [Homepage](http://ardupilot.org/ardupilot/)
 
+> -Farming industries is starting adapt on autonomous vehicles and ArduPilot is leading platform when creating small or big autonomous vehicles._ [Autonomous Harvesting Tractor](http://ardupilot.org/casestudies/case-automatic-tractor)
+
 # Community
 
 > _Community is what really sets ArduPilot apart from the closed-source offerings in the market. An area for open discourse on the ArduPilot projects direction between developers and its customers. Here are some of the places you can find ardupilot users and developers._
