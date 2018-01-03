@@ -12,7 +12,7 @@
 
 > _Community is what really sets ArduPilot apart from the closed-source offerings in the market. An area for open discourse on the ArduPilot projects direction between developers and its customers. Here are some of the places you can find ardupilot users and developers._
 
-- __Commercial Support__ _We are proud to provide the following list of individuals and companies who can provide commercial support for ArduPilot. We hope this will help you get the most out of the ArduPilot project._ [Ardupilot ](http://ardupilot.org/planner/docs/common-commercial-support.html)
+> __Commercial Support__ _We are proud to provide the following list of individuals and companies who can provide commercial support for ArduPilot. We hope this will help you get the most out of the ArduPilot project._ [Ardupilot ](http://ardupilot.org/planner/docs/common-commercial-support.html)
 
 ```sh
 user@workstation:~/src/ardupilot/$ 
