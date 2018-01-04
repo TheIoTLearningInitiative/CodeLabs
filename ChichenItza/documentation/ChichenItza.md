@@ -8,6 +8,8 @@
 - Microphone
 - Speakers
 
-# Speech Enable Hardware
+# Intel® Speech Enabling Developer Kit
+
+> Enable speech recognition capabilities on your IoT-based products. This kit helps smart home developers to quickly prototype and bring products to market by using the cloud-based Amazon Alexa* Voice Service. [Homepage](https://software.intel.com/en-us/iot/speech-enabling-dev-kit)
 
 - [Intel Getting Started Guide for the Intel® Speech Enabling Developer Kit](https://software.intel.com/en-us/articles/getting-started-guide-for-the-intel-speech-enabling-developer-kit)
