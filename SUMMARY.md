@@ -346,7 +346,7 @@
         * [lik’](Gods/Bitol/documentation/DroneSolutionArchitectDemosLik.md)
         * [Chak iik’](Gods/Bitol/documentation/DroneSolutionArchitectDemosChakIik.md)
 * [Chaac](Gods/Chaac/documentation/Chaac.md)
-* [Bolon Tsakab](Gods/BolonTsakab/documentation/BolonTsakab.md)
+* [Bolon Ts'akab](Gods/BolonTsakab/documentation/BolonTsakab.md)
 * [Buluc Chabtan](Gods/BulucChabtan/documentation/BulucChabtan.md)
   * [Challenge](Gods/BulucChabtan/documentation/BulucChabtanChallenge.md)
 
