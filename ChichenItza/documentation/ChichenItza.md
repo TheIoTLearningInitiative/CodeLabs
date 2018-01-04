@@ -8,3 +8,6 @@
 - Microphone
 - Speakers
 
+# Speech Enable Hardware
+
+- [Intel Getting Started Guide for the Intel® Speech Enabling Developer Kit](https://software.intel.com/en-us/articles/getting-started-guide-for-the-intel-speech-enabling-developer-kit)
