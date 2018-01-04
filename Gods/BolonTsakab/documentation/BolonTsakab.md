@@ -20,7 +20,7 @@
 - __IoT Solution Architect__
   - Digital Transformation
   - From The Device To A Cloud Platform
-  - Sensors
+  - Sensor Code Optimization
   - Smart Home
   - IBM Internet of Things
   - Amazon Web Services IoT

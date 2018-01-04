@@ -15,7 +15,7 @@
 - 07 __Chicanna__ Camara as a Service
      - https://github.com/Chicanna
 - 08 __Acat__ IBM Node-Red
-- 09 __Chacmultun__ Optimization Through Device Drivers Layers
+- 09 __Chacmultun__ Sensor Code Optimization
      - https://github.com/Chacmultun
 - 10 __Coba__ Linux Kernel Development
      -  https://github.com/cobaproject
