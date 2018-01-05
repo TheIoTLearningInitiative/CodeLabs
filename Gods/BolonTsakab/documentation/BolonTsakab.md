@@ -4,6 +4,8 @@
 
 > Hardware, Software, and Soft Skills Training Program
 
+> Software Development Essentials
+
 - __Core__
   - The Hardware and Software Basics
   - Internet of Things 101
