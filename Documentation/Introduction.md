@@ -34,6 +34,7 @@
 - 19 __Buluc Chabtan__ Hardware, Software, and Soft Skills Training Challenge
      - https://github.com/BulucChabtanChallenge
 - 20 __Bolon Ts'akab__ IoT Software Developer Essentials
+- 21 __Chaac Uayab Xoc__ STEM Inspiration
 
 # Priority - In Process
 
