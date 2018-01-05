@@ -13,6 +13,8 @@
   - Intel Edison
   - Raspberry Pi
   - ESP8266
+- __Version Control Systems__
+  - Git
 - __Operating Systems__
   - Embedded Linux
   - Linux Kernel Architecture
