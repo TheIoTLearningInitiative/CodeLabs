@@ -349,6 +349,7 @@
 * [Bolon Ts'akab](Gods/BolonTsakab/documentation/BolonTsakab.md)
 * [Buluc Chabtan](Gods/BulucChabtan/documentation/BulucChabtan.md)
   * [Challenge](Gods/BulucChabtan/documentation/BulucChabtanChallenge.md)
+* [Chaac Uayab Xoc](Gods/ChaacUayabXoc/documentation/ChaacUayabXoc.md)
 
 ## Food
 
