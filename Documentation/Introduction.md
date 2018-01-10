@@ -38,6 +38,7 @@
 - 22 __Cacoch__ Formacion de Formadores
      - http://formatalent.com/course/formador-de-formadores-online/
      - http://vidaacademicaenlinea.cenart.gob.mx/formacion-de-formadores/
+     - https://www.slideshare.net/preethi_madhan/train-the-trainer-power-point-presentation
 
 # Priority - In Process
 
