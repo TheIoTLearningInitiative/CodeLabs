@@ -22,6 +22,8 @@ UAV Model Architecture
 
 UAV Solution
 
+> Air Based Automated System, 
+
 1. Flight-controller hardware
 2. Autopilot software
 3. Ground control station
