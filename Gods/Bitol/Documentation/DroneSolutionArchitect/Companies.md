@@ -69,6 +69,8 @@ http://www.precisionhawk.com
 
 # Intel
 
+- Intel Mission Control
+- Intel Insight Platform
 - [Aerial Technology Overview](https://www.intel.com/content/www/us/en/technology-innovation/aerial-technology-overview.html)
 - [Intel® Aero Ready to Fly Drone](https://click.intel.com/intel-aero-ready-to-fly-drone.html)
 - [Intel® Aero Ready to Fly Drone Getting Started](https://www.intel.com/content/dam/support/us/en/documents/boardsandkits/aero/intel-aero-rtf-drone-getting-started.pdf)
