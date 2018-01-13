@@ -1,5 +1,6 @@
 # Learn More
 
+- https://www.slideshare.net/ennael/kernel-recipes-2015-porting-linux-to-a-new-processor-architecture?next_slideshow=1
 - Architecture
   - Boot Process
   - Linux Kernel
