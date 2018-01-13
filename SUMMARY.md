@@ -315,6 +315,9 @@
     * [JMAVSim](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/JMavSim.md)
     * [Ardupilot](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/Ardupilot.md)
     * [Git Source Code Management](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/GitSourceCodeManagement.md)
+    * SITL Simulator
+    * DroneKit SITL
+    * QGroundControl
   * [Drone Solution Architect](Gods/Bitol/Documentation/DroneSolutionArchitect/DroneSolutionArchitect.md)
     * [Companies](Gods/Bitol/Documentation/DroneSolutionArchitect/Companies.md)
   * [Dronecode Platform](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)

@@ -94,6 +94,8 @@ user@workstation:~$ chmod +x QGroundControl.AppImage
 
 # Communications
 
+## MAVLink
+
 ```sh
 user@workstation:~$ sudo pip install --upgrade pymavlink MAVProxy
 ```
