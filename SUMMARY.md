@@ -313,6 +313,7 @@
   * [Drone Software Development Environment](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/DroneSoftwareDevelopmentEnvironment.md)
     * [PX4](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/Px4.md)
     * [JMAVSim](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/JMavSim.md)
+    * [Ardupilot](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/Ardupilot.md)
     * [Git Source Code Management](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/GitSourceCodeManagement.md)
   * [Drone Solution Architect](Gods/Bitol/Documentation/DroneSolutionArchitect/DroneSolutionArchitect.md)
     * [Companies](Gods/Bitol/Documentation/DroneSolutionArchitect/Companies.md)
