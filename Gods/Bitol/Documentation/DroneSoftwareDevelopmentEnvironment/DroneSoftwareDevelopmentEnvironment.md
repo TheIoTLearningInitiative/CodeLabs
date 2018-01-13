@@ -57,7 +57,11 @@ user@workstation:~/src$ cd Firmware/
 
 ```sh
 user@workstation:~/src/Firmware$ make posix jmavsim
-...
+```
+
+Output
+
+```sh
 ...
 [1/1] cd /home/user/src/Firmware/build/posix_sitl_default/.../Firmware /home/user/src/Firmware/build/posix_sitl_default
 args: /home/user/src/Firmware/build/posix_sitl_default/px4 posix-configs/SITL/init/ekf2 none jmavsim none /home/user/src/Firmware /home/user/src/Firmware/build/posix_sitl_default
@@ -157,6 +161,11 @@ user@workstation:~/src$ git submodule update --init --recursive
 ```sh
 user@workstation:~/src$ cd ardupilot/ArduPlane
 user@workstation:~/src/ardupilot/ArduPlane$ sim_vehicle.py -w
+```
+
+Output
+
+```
 ...
 Init ArduPlane V3.8.3-dev (b5bdaa18)
 
