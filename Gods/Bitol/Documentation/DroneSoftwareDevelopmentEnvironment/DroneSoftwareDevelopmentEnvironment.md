@@ -1,7 +1,18 @@
 # Drone Software Development Environment
 
-> Workstation
+> This is executed at your __Workstation__
 
+Please make sure to execute all the steps found under this page and under the following pages as part of Drone Software Development Environment:
+
+- PX4
+- JMAVSim
+- Ardupilot
+- SITL Simulator
+- DroneKit SITL
+- QGroundControl
+- MAVLink
+- OpenCV
+- Git Source Code Management
 
 ## Common Setup
 
