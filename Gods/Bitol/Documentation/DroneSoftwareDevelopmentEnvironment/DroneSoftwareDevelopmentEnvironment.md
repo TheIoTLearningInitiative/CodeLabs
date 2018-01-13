@@ -228,3 +228,7 @@ user@workstation:~$ chmod +x QGroundControl.AppImage
 ```sh
 user@workstation:~$ sudo pip install --upgrade pymavlink MAVProxy
 ```
+
+# OpenCV
+
+Entirely based on [](https://reyes-fred.gitbooks.io/xiaomin/content/chapter1/installing-opencv-330-on-ubuntu-1604-lts.html)
