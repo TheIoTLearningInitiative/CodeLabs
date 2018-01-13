@@ -314,10 +314,12 @@
     * [PX4](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/Px4.md)
     * [JMAVSim](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/JMavSim.md)
     * [Ardupilot](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/Ardupilot.md)
+    * [SITL Simulator](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/SitlSimulator.md)
+    * [DroneKit SITL](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/DroneKitSitl.md)
+    * [QGroundControl](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/QGroundControl.md)
+    * [MAVLink](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/MavLink.md)
+    * [OpenCV](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/OpenCv.md)
     * [Git Source Code Management](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/GitSourceCodeManagement.md)
-    * SITL Simulator
-    * DroneKit SITL
-    * QGroundControl
   * [Drone Solution Architect](Gods/Bitol/Documentation/DroneSolutionArchitect/DroneSolutionArchitect.md)
     * [Companies](Gods/Bitol/Documentation/DroneSolutionArchitect/Companies.md)
   * [Dronecode Platform](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)

@@ -92,13 +92,7 @@ user@workstation:~$ wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/lates
 user@workstation:~$ chmod +x QGroundControl.AppImage
 ```
 
-# Communications
 
-## MAVLink
-
-```sh
-user@workstation:~$ sudo pip install --upgrade pymavlink MAVProxy
-```
 
 # OpenCV
 
