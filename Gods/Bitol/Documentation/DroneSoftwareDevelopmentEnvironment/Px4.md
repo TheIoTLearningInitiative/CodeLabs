@@ -19,8 +19,11 @@ Dependencies
 user@workstation:~$ source ubuntu_sim_nuttx.sh
 ```
 
+Our working directory is src/
+
 ```sh
 user@workstation:~$ cd src/
 user@workstation:~/src$ cd Firmware/
 ```
+
 
