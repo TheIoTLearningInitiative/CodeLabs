@@ -26,6 +26,6 @@ user@workstation:~$ cd src/
 user@workstation:~/src$ 
 user@workstation:~/src$ git clone git://github.com/ArduPilot/ardupilot.git
 user@workstation:~/src$ cd ardupilot
-user@workstation:~/src$ git submodule update --init --recursive
+user@workstation:~/src/ardupilot$ git submodule update --init --recursive
 ```
 
