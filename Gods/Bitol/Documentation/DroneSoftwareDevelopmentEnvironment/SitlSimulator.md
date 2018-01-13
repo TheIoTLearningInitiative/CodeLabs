@@ -1,7 +1,12 @@
 # SITL Simulator
 
 ```sh
-user@workstation:~/src$ cd ardupilot/ArduPlane
+user@workstation:~$ cd src/
+user@workstation:~/src$ cd ardupilot
+```
+
+```sh
+user@workstation:~/src/ardupilot$ cd ArduPlane
 user@workstation:~/src/ardupilot/ArduPlane$ sim_vehicle.py -w
 ```
 

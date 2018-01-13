@@ -29,3 +29,7 @@ user@workstation:~/src$ cd ardupilot
 user@workstation:~/src/ardupilot$ git submodule update --init --recursive
 ```
 
+```sh
+user@workstation:~/src/ardupilot$ cd
+user@workstation:~$  
+```
