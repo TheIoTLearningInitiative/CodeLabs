@@ -36,6 +36,7 @@ user    ALL=(ALL:ALL) ALL
 
 ```sh
 user@workstation:~$ sudo apt update
+user@workstation:~$ sudo apt upgrade
 user@workstation:~$ sudo apt install git
 user@workstation:~$ sudo apt install python-pip --upgrade
 user@workstation:~$ sudo apt install unzip
