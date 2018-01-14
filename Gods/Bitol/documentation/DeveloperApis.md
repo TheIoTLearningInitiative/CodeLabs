@@ -43,3 +43,13 @@ OnBoard SDK
   - Remote Web
   - Remote Mobile
 
+
+# DroneKit
+
+```sh
+user@workstation:~$ git clone https://github.com/ArduPilot/droneapi-python.git
+user@workstation:~$ 
+user@workstation:~$ 
+user@workstation:~$ 
+user@workstation:~$ 
+```

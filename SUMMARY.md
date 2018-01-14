@@ -315,7 +315,7 @@
     * [JMAVSim](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/JMavSim.md)
     * [Ardupilot](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/Ardupilot.md)
     * [SITL Simulator](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/SitlSimulator.md)
-    * [DroneKit SITL](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/DroneKitSitl.md)
+    * [DroneKit](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/DroneKitSitl.md)
     * [QGroundControl](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/QGroundControl.md)
     * [MAVLink](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/MavLink.md)
     * [OpenCV](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/OpenCv.md)
