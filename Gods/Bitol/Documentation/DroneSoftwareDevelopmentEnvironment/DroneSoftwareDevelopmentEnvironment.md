@@ -48,4 +48,12 @@ user@workstation:~$ sudo apt install build-essential
 user@workstation:~$ sudo apt install python-pip --upgrade
 user@workstation:~$ pip install --upgrade pip
 user@workstation:~$ sudo pip install virtualenv virtualenvwrapper
+user@workstation:~$ sudo rm -rf ~/.cache/pip
+user@workstation:~$ nano ~/.bashrc
+# virtualenv and virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+user@workstation:~$ source ~/.bashrc
+user@workstation:~$ mkvirtualenv cv -p python3
+(cv) user@workstation:~$ exit
 ```

@@ -22,3 +22,17 @@ user@workstation:~$ sudo apt-get install python2.7-dev python3.5-dev
 ```sh
 user@workstation:~$ git clone https://github.com/opencv/opencv.git
 ```
+
+```sh
+user@workstation:~$ workon cv
+(cv) xe1gyq@kali:~$ pip install numpy
+```
+
+```sh
+user@workstation:~$ cd opencv
+(cv) xe1gyq@kali:~/opencv$ git checkout -b 3.3.0 3.3.0
+Switched to a new branch '3.3.0'
+(cv) xe1gyq@kali:~/opencv$ 
+```
+
+
