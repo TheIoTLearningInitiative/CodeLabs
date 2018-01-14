@@ -21,8 +21,6 @@ Components
 - Membership++
 - Community
 
-
-
 ## Technology
 
 Complete Autopilot Solution
