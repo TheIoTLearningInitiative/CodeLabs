@@ -47,9 +47,16 @@ OnBoard SDK
 # DroneKit
 
 ```sh
-user@workstation:~$ git clone https://github.com/ArduPilot/droneapi-python.git
-user@workstation:~$ 
-user@workstation:~$ 
-user@workstation:~$ 
-user@workstation:~$ 
+user@workstation:~$ git clone https://github.com/dronekit/dronekit-python.git
+user@workstation:~$ cd dronekit-python
+user@workstation:~/dronekit-python$ ls
+appveyor.yml  CONTRIBUTING.md  dronekit.egg-info  requirements.txt  windows
+build	      dist	       examples		  scripts
+CHANGELOG.md  docs	       LICENSE		  setup.py
+circle.yml    dronekit	       README.md	  Vagrantfile
+```
+
+```sh
+user@workstation:~/dronekit-python$ cd examples
+user@workstation:~/dronekit-python/examples$ 
 ```
