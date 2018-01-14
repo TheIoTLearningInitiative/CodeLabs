@@ -8,6 +8,8 @@
 
 > -Farming industries is starting adapt on autonomous vehicles and ArduPilot is leading platform when creating small or big autonomous vehicles._ [Autonomous Harvesting Tractor](http://ardupilot.org/casestudies/case-automatic-tractor)
 
+- [1](https://wiki.dronecode.org/_media/d02.ardupilot_overview_-_andrew_tridgell.pdf)
+
 # Community
 
 > _Community is what really sets ArduPilot apart from the closed-source offerings in the market. An area for open discourse on the ArduPilot projects direction between developers and its customers. Here are some of the places you can find ardupilot users and developers._
