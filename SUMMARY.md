@@ -349,6 +349,7 @@
   * [Autonomous Drone Solution](Gods/Bitol/Documentation/AutonomousDroneSolution/AutonomousDroneSolution.md)
   * [Drone Solutions](Gods/Bitol/Documentation/DroneSolutions/ErleRobotics.md)
     * [Erle Robotics](Gods/Bitol/Documentation/DroneSolutions/ErleRobotics/erle-robotics.md)
+    * Emlid
   * [Training](Gods/Bitol/documentation/training.md)
     * [Drone Solution Architect](Gods/Bitol/documentation/DroneSolutionArchitect.md)
       * [Demos](Gods/Bitol/documentation/DroneSolutionArchitect/demos.md)
