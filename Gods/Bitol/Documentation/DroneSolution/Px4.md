@@ -4,6 +4,10 @@
 
 > PX4 is used in a wide range of use-cases, from consumer drones to industrial applications. It is also the leading research platform for drones and has been successfully applied to under water vehicles and boats.
 
+- [PX4 Flight Core Presentation](https://wiki.dronecode.org/_media/d03-r.px4_overview_-_lorenz_meier.pdf)
+
+Components
+
 - Open Source
 - Full stack
   - Flight Stack
@@ -16,7 +20,8 @@
 - World Class Devs
 - Membership++
 - Community
-- [1](https://wiki.dronecode.org/_media/d03-r.px4_overview_-_lorenz_meier.pdf)
+
+
 
 ## Technology
 
