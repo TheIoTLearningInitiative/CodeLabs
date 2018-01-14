@@ -325,7 +325,7 @@
   * [Dronecode Project](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)
   * [Base Drone Solution](Gods/Bitol/Documentation/DroneSolution/DroneSolution.md)
     * [Flight Controller Hardware](Gods/Bitol/Documentation/DroneSolution/FlightControllerHardware.md)
-      * [PixHawk v2.1](Gods/Bitol/Documentation/DroneSolution/PixHawk21.md)
+      * [PixHawk](Gods/Bitol/Documentation/DroneSolution/PixHawk21.md)
       * [Intel® Aero Ready to Fly Drone](Gods/Bitol/Documentation/DroneSolution/IntelAeroReadyToFlyDrone.md)
       * [Emlid](Gods/Bitol/Documentation/DroneSolution/Emlid.md)
     * [Flight Controller Operating System](Gods/Bitol/Documentation/DroneSolution/FlightControllerOperatingSystem.md)
