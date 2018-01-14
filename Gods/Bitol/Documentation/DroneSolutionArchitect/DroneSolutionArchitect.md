@@ -38,3 +38,8 @@ UAV Applications
 - Search, rescue, law enforcement
 - Scientific research & exploration
 - Humanitarian Services
+- Experimental Aircraft
+- Drone Image Systems
+- Disaster Management
+- Search and Rescue
+- Agricultural Applications

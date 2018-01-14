@@ -322,7 +322,7 @@
     * [Git Source Code Management](Gods/Bitol/Documentation/DroneSoftwareDevelopmentEnvironment/GitSourceCodeManagement.md)
   * [Drone Solution Architect](Gods/Bitol/Documentation/DroneSolutionArchitect/DroneSolutionArchitect.md)
     * [Companies](Gods/Bitol/Documentation/DroneSolutionArchitect/Companies.md)
-  * [Dronecode Platform](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)
+  * [Dronecode Project](Gods/Bitol/Documentation/DroneCodePlatform/DroneCodePlatform.md)
   * [Base Drone Solution](Gods/Bitol/Documentation/DroneSolution/DroneSolution.md)
     * [Flight Controller Hardware](Gods/Bitol/Documentation/DroneSolution/FlightControllerHardware.md)
       * [PixHawk v2.1](Gods/Bitol/Documentation/DroneSolution/PixHawk21.md)
