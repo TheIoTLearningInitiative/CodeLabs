@@ -39,6 +39,7 @@ user@workstation:~$ sudo apt update
 user@workstation:~$ sudo apt upgrade
 user@workstation:~$ sudo apt install git
 user@workstation:~$ sudo apt install python-pip --upgrade
+user@workstation:~$ pip install --upgrade pip
 user@workstation:~$ sudo apt install unzip
 user@workstation:~$ sudo apt install build-essential
 ```
