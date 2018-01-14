@@ -60,3 +60,12 @@ circle.yml    dronekit	       README.md	  Vagrantfile
 user@workstation:~/dronekit-python$ cd examples
 user@workstation:~/dronekit-python/examples$ 
 ```
+
+```sh
+user@workstation:~/dronekit-python/examples$ mavproxy.py --master=udp:127.0.0.1:6000
+Connect udp:127.0.0.1:6000 source_system=255
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from 127.0.0.1:6000
+ MAV> 
+```
