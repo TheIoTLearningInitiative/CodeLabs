@@ -3,7 +3,6 @@
 > Pixhawk is an independent, open-hardware project aiming at providing high-end autopilot hardware to the academic, hobby and industrial communities at low costs and high availability.
 
 - [Pixhawk Homepage](https://pixhawk.org/start)
-- [](https://wiki.dronecode.org/_media/d03-r.px4_overview_-_lorenz_meier.pdf)
 
 ## Pixhawk v2.1
 
