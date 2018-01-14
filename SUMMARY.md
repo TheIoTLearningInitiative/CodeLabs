@@ -327,6 +327,7 @@
     * [Flight Controller Hardware](Gods/Bitol/Documentation/DroneSolution/FlightControllerHardware.md)
       * [PixHawk v2.1](Gods/Bitol/Documentation/DroneSolution/PixHawk21.md)
       * [Intel® Aero Ready to Fly Drone](Gods/Bitol/Documentation/DroneSolution/IntelAeroReadyToFlyDrone.md)
+      * [Emlid](Gods/Bitol/Documentation/DroneSolution/Emlid.md)
     * [Flight Controller Operating System](Gods/Bitol/Documentation/DroneSolution/FlightControllerOperatingSystem.md)
     * [Autopilot](Gods/Bitol/Documentation/Autopilot/Autopilot.md)
       * [Px4](Gods/Bitol/Documentation/DroneSolution/Px4.md)
