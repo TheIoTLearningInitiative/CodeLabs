@@ -32,7 +32,8 @@ user@workstation:~$ workon cv
 user@workstation:~$ cd opencv
 (cv) xe1gyq@kali:~/opencv$ git checkout -b 3.3.0 3.3.0
 Switched to a new branch '3.3.0'
-(cv) xe1gyq@kali:~/opencv$ 
+(cv) xe1gyq@kali:~/opencv$ mkdir build
+(cv) xe1gyq@kali:~/opencv/build$ cd build
 ```
 
 
