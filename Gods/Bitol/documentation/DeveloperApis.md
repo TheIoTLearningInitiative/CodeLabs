@@ -49,6 +49,7 @@ OnBoard SDK
 # DroneKit
 
 - [1](https://wiki.dronecode.org/_media/u10.droneapi_structure_and_usage_-_kevin_hester.pdf)
+- [2](https://www.youtube.com/watch?v=C3kk4XMpFjs)
 
 ```sh
 user@workstation:~$ git clone https://github.com/dronekit/dronekit-python.git
