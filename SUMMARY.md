@@ -348,9 +348,9 @@
     * [Developer APIs](Gods/Bitol/documentation/DeveloperApis.md)
   * [Hybrid Drone Solution](Gods/Bitol/Documentation/HybridDroneSolution/HybridDroneSolution.md)
   * [Autonomous Drone Solution](Gods/Bitol/Documentation/AutonomousDroneSolution/AutonomousDroneSolution.md)
-  * [Drone Solutions](Gods/Bitol/Documentation/DroneSolutions/ErleRobotics.md)
-    * [Erle Robotics](Gods/Bitol/Documentation/DroneSolutions/ErleRobotics/erle-robotics.md)
-    * Emlid
+  * [Drone Solutions](Gods/Bitol/Documentation/DroneSolutions/DroneSolutions.md)
+    * [Erle Robotics](Gods/Bitol/Documentation/DroneSolutions/ErleRobotics.md)
+    * [Emlid](Gods/Bitol/Documentation/DroneSolutions/emlid.md)
   * [Training](Gods/Bitol/documentation/training.md)
     * [Drone Solution Architect](Gods/Bitol/documentation/DroneSolutionArchitect.md)
       * [Demos](Gods/Bitol/documentation/DroneSolutionArchitect/demos.md)
