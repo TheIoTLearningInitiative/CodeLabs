@@ -14,3 +14,4 @@ Projects
 - jMAVSim
 - AirSim
 - XPlane
+- DroneKit SITL
