@@ -39,6 +39,9 @@
      - http://formatalent.com/course/formador-de-formadores-online/
      - http://vidaacademicaenlinea.cenart.gob.mx/formacion-de-formadores/
      - https://www.slideshare.net/preethi_madhan/train-the-trainer-power-point-presentation
+- 23 __Tbd__
+     - https://github.com/Microsoft/AirSim
+     - https://github.com/Microsoft/AutonomousDrivingCookbook
 
 # Priority - In Process
 
