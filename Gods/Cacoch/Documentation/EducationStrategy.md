@@ -32,3 +32,4 @@ Online Platforms
 Social Media
 
 - Twitter
+- Slack
