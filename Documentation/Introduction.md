@@ -9,10 +9,12 @@ Why Mayans? This initiative loves the Mayan culture, that is the reason we are c
 - 10 __Coba__ Linux Kernel Development
      - [Workshop Material](https://drive.google.com/drive/u/0/folders/0B6h7kxp-oIy8SjRtMV9SZ0MyTEU)
      - [Gitbook Material](https://theiotlearninginitiative.gitbooks.io/codelabs/content/Coba/documentation/Coba.html)
-     - [Github Material]()
+     - [Github Material](https://github.com/TheIoTLearningInitiative/CodeLabs/tree/master/Coba)
      - [](https://github.com/cobaproject)
 - 15 __Bitol__ Drone Software Development
      - [Workshop Material](https://drive.google.com/drive/u/0/folders/0B6h7kxp-oIy8X1pSOFd0UHBZRzA)
+     - [Gitbook Material](https://theiotlearninginitiative.gitbooks.io/codelabs/content/Gods/Bitol/documentation/Bitol.html)
+     - [Github Material](https://github.com/TheIoTLearningInitiative/CodeLabs/tree/master/Gods/Bitol)
      - [](https://github.com/bitolproject)
 
 # Projects .. Good Level
