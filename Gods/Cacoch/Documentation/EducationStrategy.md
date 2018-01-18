@@ -33,3 +33,5 @@ Social Media
 
 - Twitter
 - Slack
+  - Team Name: The IoT Learning Initiative
+  - Team Domain: https://iotlearninginit.slack.com/messages
