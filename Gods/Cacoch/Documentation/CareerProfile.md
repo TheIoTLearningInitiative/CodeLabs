@@ -14,7 +14,6 @@ Skills
 - Excellent written, verbal and presentation English skills
 - Basic knowledge of Hardware hacking (Arduino, Raspberry Pi, Intel Edison, Intel Galileo, etc.)
 
-
 # Spanish Version
 
 > Educación: Ingeniería o maestría en ciencias de la computación, electrónica, mecatrónica o relacionada con el área.
