@@ -12,7 +12,7 @@ Skills
 
 # Our Goal
 
-Experience on:
+Skills:
 
 - Computer Architecture
 - C/C++
