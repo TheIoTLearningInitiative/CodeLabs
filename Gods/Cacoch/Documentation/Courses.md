@@ -23,12 +23,12 @@
 
 # Programming Languages
 
-1. C
-2. Python
-3. JavaScript
-4. Verilog
-5. R
-6. Shell Scripting
+1. Shell Scripting
+2. C
+3. Python
+4. JavaScript
+5. Verilog
+6. R
 
 # Linux
 
