@@ -373,6 +373,7 @@
     * [Career Profile](Gods/Cacoch/Documentation/CareerProfile.md)
     * [Education Strategy](Gods/Cacoch/Documentation/EducationStrategy.md)
     * [Courses](Gods/Cacoch/Documentation/Courses.md)
+    * [Infrastructure](Gods/Cacoch/Documentation/Infrastructure.md)
 
 ## Food
 
