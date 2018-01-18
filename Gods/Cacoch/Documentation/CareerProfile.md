@@ -1,9 +1,5 @@
 # Career Profile
 
-Some rework is needed here...
-
-# English Version
-
 > You must possess either a Bachelors or Master's Degree in Computer Science, Electrical, Computer Engineering or a related field.
 
 Skills
@@ -14,7 +10,7 @@ Skills
 - Excellent written, verbal and presentation English skills
 - Basic knowledge of Hardware hacking (Arduino, Raspberry Pi, Intel Edison, Intel Galileo, etc.)
 
-# Spanish Version
+# Our Goal
 
 > Educación: Ingeniería o maestría en ciencias de la computación, electrónica, mecatrónica o relacionada con el área.
 
