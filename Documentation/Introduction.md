@@ -1,8 +1,18 @@
 # Introduction
 
-> The Maya civilization was a Mesoamerican civilization developed by the Maya peoples, and noted for its hieroglyphic script—the only known fully developed writing system of the pre-Columbian Americas—as well as for its art, architecture, mathematics, calendar, and astronomical system. The Maya civilization developed in an area that encompasses southeastern Mexico, all of Guatemala and Belize, and the western portions of Honduras and El Salvador. [Wikipedia Maya Civilization](https://en.wikipedia.org/wiki/Maya_civilization)
+> Why Mayans? The Maya civilization was a Mesoamerican civilization developed by the Maya peoples, and noted for its hieroglyphic script—the only known fully developed writing system of the pre-Columbian Americas—as well as for its art, architecture, mathematics, calendar, and astronomical system. The Maya civilization developed in an area that encompasses southeastern Mexico, all of Guatemala and Belize, and the western portions of Honduras and El Salvador. [Wikipedia Maya Civilization](https://en.wikipedia.org/wiki/Maya_civilization)
 
-# Priority - Completed
+# Workshops .. In Process
+
+- 10 __Coba__ Linux Kernel Development
+     - []()
+     - [](https://github.com/cobaproject)
+- 15 __Bitol__ Drone Software Development
+     - 
+     - [](https://github.com/bitolproject)
+
+
+# Projects .. Good Level
 
 - 01 __Caracol__ Video Conference System
 - 02 __Kaminaljuyu__ Air Quality
@@ -17,15 +27,11 @@
 - 08 __Acat__ IBM Node-Red
 - 09 __Chacmultun__ Sensor Code Optimization
      - https://github.com/Chacmultun
-- 10 __Coba__ Linux Kernel Development
-     -  https://github.com/cobaproject
 - 11 __Ah Puch__ Recon Instruments __On Hold!__
 - 12 __Hochob__ Visitors Center
      -  https://github.com/hochob
 - 13 __Awilix__ The IoT Learning Initiative
 - 14 __Alom__ Briko
-- 15 __Bitol__ Drone Software Development
-     -  https://github.com/bitolproject
 - 16 __Chaac__ Laboratory
 - 17 __EekMex__ Aerospace Learning Platform
      -  https://github.com/eekmex
