@@ -7,6 +7,7 @@
 * [Introduction](Documentation/Introduction.md)
   * [Getting Started](Documentation/GettingStarted.md)
   * [Resources](Documentation/Resources.md)
+  * [Naming Convention](Documentation/NamingConvention.md)
 * [Caracol](Caracol/documentation/Caracol.md)
   * [Architecture](Caracol/documentation/Architecture.md)
     * [Intel](Caracol/documentation/Intel.md)
