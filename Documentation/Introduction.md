@@ -53,7 +53,7 @@ Why Mayans? This initiative loves the Mayan culture, that is the reason we are c
      - https://github.com/Microsoft/AirSim
      - https://github.com/Microsoft/AutonomousDrivingCookbook
 
-# Priority - In Process
+# Projects .. In Review
 
 - __Kinich KaK Moo__ Python: Virtual, Grove While, Grove Threads
 - __Kohunlich__ Product Development
