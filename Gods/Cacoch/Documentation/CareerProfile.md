@@ -1,6 +1,6 @@
 # Career Profile
 
-Educación: Ingeniería o maestría en ciencias de la computación, electrónica, mecatrónica o relacionada con el área.
+> Educación: Ingeniería o maestría en ciencias de la computación, electrónica, mecatrónica o relacionada con el área.
 
 Áreas de conocimiento
 
