@@ -21,4 +21,4 @@ Learning Types
 - Training
   - ~ 2 days length
 - Challenge
-  - Onsite, Virtual
+  - Self Pace
