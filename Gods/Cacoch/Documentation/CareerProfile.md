@@ -12,30 +12,26 @@ Skills
 
 # Our Goal
 
-> Educación: Ingeniería o maestría en ciencias de la computación, electrónica, mecatrónica o relacionada con el área.
+Experience on:
 
-Áreas de conocimiento
+- Computer Architecture
+- C/C++
+- Scripting languages such as Shell, Python, Node.js
+- Working in a Linux environment
+- Familiar with Open Source communities
+- Solid understanding of Algorithms, Data Structures and Object Oriented Programming
+- Excellent problem analysis and problem solving skills
+- Excellent written, verbal and presentation English skills
 
-- Arquitectura de Computadoras
-- C/C++*
-- Lenguajes de scripting (Shell, Python, Node.js)
-- Trabajo en ambientes Linux
-- Familiarizado con comunidades de código abierto
-- Comprensión y uso de algoritmos, estructura de datos y programación orientada a objetos
-- Análisis y resolución de problemas
-- Escritura, verbal y presentación en el idioma inglés
-- Conocimientos en cloud, big data, analytics
+Educational experience with the following:
 
-Competencias organizacionales
- 
-- Alta capacidad para trabajar en equipo, con iniciativa propia y apasionado por el desarrollo personal y de otros.
-- Promover la creatividad e innovación de todos los miembros de cada proyecto.
-- Altamente efectivo mediante la colaboración en múltiples proyectos en ambientes diversos con la flexibilidad de enfrentarse y resolver situaciones ambiguas
-- Poder llevar discusiones técnicas con interesados claves en la tecnología del laboratorio
- 
-Experiencia deseable
- 
-- Comunidades en desarrollo de hardware (Arduino, Raspberry Pi, Intel Edison, Intel Galileo)
-- Servicios en la Nube
-- Protocolos de comunicaciones publisher/subscriber.
-- Programación de servicios Web REST
+- Hardware hacking (Arduino, Raspberry Pi, Intel Edison, Intel Galileo, etc)
+- Networking and Cloud Service
+- Familiarity with Pub/Sub Architectures
+- Familiarity with REST APIs
+
+Organizational Skills
+
+- Strong team player with self-motivation, self-starter and passionate about personal and others' Career Development
+- Highly effective collaborating in multiple initiatives with a diverse team environment and with others in worlwide organizations with flexibility to deal with ambiguous situations
+- Ability to drive technical discussion with key stakeholders
