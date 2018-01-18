@@ -32,6 +32,8 @@ Online Platforms
 Social Media
 
 - Twitter
+  - Name: The IoT Learning Initiative
+  - Url: https://twitter.com/IoTLearningInit
 - Slack
   - Team Name: The IoT Learning Initiative
   - Team Domain: https://iotlearninginit.slack.com/messages
