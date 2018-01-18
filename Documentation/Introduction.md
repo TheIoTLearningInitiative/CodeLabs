@@ -5,7 +5,7 @@
 # Workshops .. In Process
 
 - 10 __Coba__ Linux Kernel Development
-     - []()
+     - [Workshop Material](https://drive.google.com/drive/u/0/folders/0B6h7kxp-oIy8SjRtMV9SZ0MyTEU)
      - [](https://github.com/cobaproject)
 - 15 __Bitol__ Drone Software Development
      - []()
