@@ -1,6 +1,6 @@
 # Education Strategy
 
-Learning Phases
+Phases
 
 - Personal
 - Team Work
@@ -8,11 +8,11 @@ Learning Phases
   - School Projects
   - Subjects
 
-Learning Modes
+Modes
 
 - Onsite, Virtual
 
-Learning Types
+Resources
 
 - Presentation
   - ~ 1 hour length
@@ -22,5 +22,13 @@ Learning Types
   - ~ 2 days length
 - Challenge
   - Self Pace
+
+Online Platforms
+
+- Google Drive
+- Github
+- Gitbook
   
 Social Media
+
+- Twitter
