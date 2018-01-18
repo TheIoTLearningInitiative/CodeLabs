@@ -22,3 +22,5 @@ Learning Types
   - ~ 2 days length
 - Challenge
   - Self Pace
+  
+Social Media

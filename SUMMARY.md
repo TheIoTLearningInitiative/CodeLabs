@@ -365,11 +365,14 @@
   * [Challenge](Gods/BulucChabtan/documentation/BulucChabtanChallenge.md)
 * [Chaac Uayab Xoc](Gods/ChaacUayabXoc/documentation/ChaacUayabXoc.md)
 * [Cacoch](Gods/Cacoch/Documentation/Cacoch.md)
-  * [Open Source](Gods/Cacoch/Documentation/OpenCommunities.md)
-  * [Do It Yourself Communities](Gods/Cacoch/Documentation/DoItYourselfCommunities.md)
-  * [History](Gods/Cacoch/Documentation/History.md)
-  * [Career Profile](Gods/Cacoch/Documentation/CareerProfile.md)
-  * [Education Strategy](Gods/Cacoch/Documentation/EducationStrategy.md)
+  * Background
+    * [Open Source](Gods/Cacoch/Documentation/OpenCommunities.md)
+    * [Do It Yourself Communities](Gods/Cacoch/Documentation/DoItYourselfCommunities.md)
+  * The Project
+    * [History](Gods/Cacoch/Documentation/History.md)
+    * [Career Profile](Gods/Cacoch/Documentation/CareerProfile.md)
+    * [Education Strategy](Gods/Cacoch/Documentation/EducationStrategy.md)
+    * [Courses](Gods/Cacoch/Documentation/Courses.md)
 
 ## Food
 
