@@ -12,7 +12,7 @@ Modes
 
 - Onsite, Virtual
 
-Resources
+Learning Resources
 
 - Presentation
   - ~ 1 hour length
