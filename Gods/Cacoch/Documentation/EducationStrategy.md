@@ -8,11 +8,11 @@ Learning Phases
   - School Projects
   - Subjects
 
-Resources Modes
+Learning Modes
 
 - Onsite, Virtual
 
-Resources Types
+Learning Types
 
 - Presentation
 - Onsite, Virtual
