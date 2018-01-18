@@ -45,7 +45,7 @@ Why Mayans? This initiative loves the Mayan culture, that is the reason we are c
      - https://github.com/BulucChabtanChallenge
 - 20 __Bolon Ts'akab__ IoT Software Developer Essentials
 - 21 __Chaac Uayab Xoc__ STEM Inspiration
-- 22 __Cacoch__ Train of Trainers
+- 22 __Cacoch__ The IoT Learning Initiative Train of Trainers
      - http://formatalent.com/course/formador-de-formadores-online/
      - http://vidaacademicaenlinea.cenart.gob.mx/formacion-de-formadores/
      - https://www.slideshare.net/preethi_madhan/train-the-trainer-power-point-presentation
