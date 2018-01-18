@@ -368,6 +368,7 @@
   * [History](Gods/Cacoch/Documentation/History.md)
   * [Open Source](Gods/Cacoch/Documentation/OpenCommunities.md)
   * [Do It Yourself Communities](Gods/Cacoch/Documentation/DoItYourselfCommunities.md)
+  * [Career Profile](Gods/Cacoch/Documentation/CareerProfile.md)
 
 ## Food
 
