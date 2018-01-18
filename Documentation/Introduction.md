@@ -8,9 +8,8 @@
      - []()
      - [](https://github.com/cobaproject)
 - 15 __Bitol__ Drone Software Development
-     - 
+     - []()
      - [](https://github.com/bitolproject)
-
 
 # Projects .. Good Level
 
