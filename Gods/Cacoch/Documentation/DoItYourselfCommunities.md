@@ -39,12 +39,12 @@ Platforms and resources
 
 Category
 
-Arduino
-Intel Edison
-Particle Photon
-ESP8266
-Wearables
-Intel Edison
+- Arduino
+- Intel Edison
+- Particle Photon
+- ESP8266
+- Wearables
+- Intel Edison
 
 # Instructables
 
