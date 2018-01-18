@@ -2,7 +2,7 @@
 
 # Hackster
 
-> Urban Dictionary Noun, a subculture of hipsters that enjoy working with mechanics such as obscure 80's cars, bycicles, motorcycles, etc.
+> __Urban Dictionary__ Noun, a subculture of hipsters that enjoy working with mechanics such as obscure 80's cars, bycicles, motorcycles, etc.
 
 > __Homepage About__ The community dedicated to learning hardware. Hackster helps people everywhere learn how to design, create and program Internet-connected hardware. By bringing together our network of close to 200,000 engineers, makers and hackers, 90 technology partners, and 100 Hackster Live ambassadors, we hope to support the creation of technologies that impact meaningful issues, such as a healthy environment, wildlife preservation, and our own welfare. Join our community today or partner with us on Hackster for Business and learn how we can help you advance your cause. 
 
