@@ -1,5 +1,7 @@
 # Career Profile
 
+Some rework is needed here...
+
 # English Version
 
 > You must possess either a Bachelors or Master's Degree in Computer Science, Electrical, Computer Engineering or a related field.
