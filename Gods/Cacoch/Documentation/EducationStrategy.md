@@ -15,7 +15,6 @@ Learning Modes
 Learning Types
 
 - Presentation
-- Onsite, Virtual
   - ~ 1 hour length
 - Workshop
   - ~ 4 hours length
