@@ -1,6 +1,6 @@
 # Infrastructure
 
-# Basic
+# Basic Class Room Kit
 
 | Quantity | Single Price USD | Total Price USD |  Description ~ Link  |
 | -------- | ---------------- | --------------- | -------------------- |
