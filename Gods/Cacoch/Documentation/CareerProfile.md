@@ -1,5 +1,20 @@
 # Career Profile
 
+# English Version
+
+> You must possess either a Bachelors or Master's Degree in Computer Science, Electrical, Computer Engineering or a related field.
+
+Skills
+
+- Working in a Linux environment
+- Scripting languages such as Shell, Python, Node.js
+- Familiar with Open Source communities
+- Excellent written, verbal and presentation English skills
+- Basic knowledge of Hardware hacking (Arduino, Raspberry Pi, Intel Edison, Intel Galileo, etc.)
+
+
+# Spanish Version
+
 > Educación: Ingeniería o maestría en ciencias de la computación, electrónica, mecatrónica o relacionada con el área.
 
 Áreas de conocimiento
