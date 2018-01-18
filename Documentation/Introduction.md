@@ -8,7 +8,7 @@
      - [Workshop Material](https://drive.google.com/drive/u/0/folders/0B6h7kxp-oIy8SjRtMV9SZ0MyTEU)
      - [](https://github.com/cobaproject)
 - 15 __Bitol__ Drone Software Development
-     - []()
+     - [Workshop Material](https://drive.google.com/drive/u/0/folders/0B6h7kxp-oIy8X1pSOFd0UHBZRzA)
      - [](https://github.com/bitolproject)
 
 # Projects .. Good Level
