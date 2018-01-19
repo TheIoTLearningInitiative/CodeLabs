@@ -4,7 +4,7 @@
 
 > Hardware, Software, and Soft Skills Training Challenge
 
-Are you a University Student? Do you want to code, learn and contribute while you challenge yourself in the world of hardware and software?
+Are you a University Student? Do you want to code, learn and contribute while you challenge yourself in the world of hardware and software for the jobs of tomorrow?
 
 Once you have completed "Challenge One"? Then mention us __@IoTLearningInit__ Twitter with Hashtag __#BulucChabtanChallenge__ or send us a Direct Message.
 
