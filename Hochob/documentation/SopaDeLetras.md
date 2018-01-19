@@ -8,4 +8,4 @@
 6. Cuando se corta el lingote obtenemos? Oblea
 7. Lugar donde se fabrica un Microprocesador? Fabs
 8. Asistente Virtual? Alexa
-9. 
+9. Aparato
