@@ -13,6 +13,6 @@
 11. Una de las tantas soluciones de Intel? Drones
 12. Intel empezo actividades con 33? Ingenieros
 13. El silicio proviene de? Arena
-14. Es microprocesador es el para las computadoras? Cerebro
+14. Es microprocesador es el, para las computadoras? Cerebro
 15. Me gustaria trabajar en? Intel
 16. Nombre de particulas que entran a la tierra? Muon
