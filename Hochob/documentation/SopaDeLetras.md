@@ -13,6 +13,6 @@
 11. Una de las tantas soluciones de Intel? Drones
 12. Intel empezo actividades con 33? Ingenieros
 13. El silicio proviene de? Arena
-14. Es microprocesador es el, para las computadoras? Cerebro
+14. Que parte del cuerpo simula un microprocesador? Es aquello que permite pensar tanto a lupe como a nosotros? Es lo que nos permite procesar la informacion? Cerebro
 15. Me gustaria trabajar en? Intel
 16. Nombre de particulas que entran a la tierra? Muon
