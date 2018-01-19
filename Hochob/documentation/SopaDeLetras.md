@@ -4,12 +4,16 @@
 2. Lenguage de las Computadoras? Binario
 3. Intel es una empresa de? Soluciones
 4. Material en un Microprocesador? Silicio
-5. El silicio proviene de? Arena
-6. Cuando se corta el lingote obtenemos? Oblea
-7. Lugar donde se fabrica un Microprocesador? Fabs
-8. Asistente Virtual? Alexa
-9. Equipo para escuchar muones? Piano Cosmico
-10. Aportaron el 0? Mayas
-11. Nombre de particulas que entran a la tierra? Muon
+5. Cuando se corta el lingote obtenemos? Oblea
+6. Lugar donde se fabrica un Microprocesador? Fabs
+7. Asistente Virtual? Alexa
+8. Equipo para escuchar muones? Piano Cosmico
+9. Aportaron el 0? Mayas
+10. Ingenieros
+11. Nanometro
 12. Una de las tantas soluciones de Intel? Drones
-13. 
+13. Programacion
+14. El silicio proviene de? Arena
+15. Es microprocesador es para las computadoras? Cerebro
+16. Me gustaria trabajar en? Intel
+17. Nombre de particulas que entran a la tierra? Muon
