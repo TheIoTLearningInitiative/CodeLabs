@@ -54,6 +54,7 @@ Why Mayans? This initiative loves the Mayan culture, that is the reason we are c
 - 23 __Tbd__
      - https://github.com/Microsoft/AirSim
      - https://github.com/Microsoft/AutonomousDrivingCookbook
+- 24 __Taller Visitor Center__
 
 # Projects .. In Review
 
