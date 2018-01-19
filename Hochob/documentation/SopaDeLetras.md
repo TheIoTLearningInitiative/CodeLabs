@@ -8,5 +8,6 @@
 6. Cuando se corta el lingote obtenemos? Oblea
 7. Lugar donde se fabrica un Microprocesador? Fabs
 8. Asistente Virtual? Alexa
-9. Equipo para escuchar muones?
-10. 
+9. Equipo para escuchar muones? Piano Cosmico
+10. Aportaron el 0? Mayas
+11. Nombre de particulas que entran a la tierra? Muon
