@@ -7,4 +7,4 @@
 5. El silicio proviene de? Arena
 6. Cuando se corta el lingote obtenemos? Oblea
 7. Lugar donde se fabrica un Microprocesador? Fabs
-8. 
+8. Asistente Virtual
