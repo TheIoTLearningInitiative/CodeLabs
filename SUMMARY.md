@@ -156,6 +156,7 @@
       * [Games](Hochob/documentation/Games.md)
         * [Loteria Mexicana](Hochob/documentation/Loteria.md)
         * [Caras Y Gestos](Hochob/documentation/caras-y-gestos.md)
+        * [Sopa De Letras](Hochob/documentation/SopaDeLetras.md)
       * [Image](Hochob/documentation/Image.md)
       * Institution
       * [Keypad](Hochob/documentation/ServicesKeypad.md)
