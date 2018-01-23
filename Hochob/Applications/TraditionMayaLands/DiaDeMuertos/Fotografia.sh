@@ -38,7 +38,7 @@ else
 fi
 
 AmikooSense.sh "Sight" "Picture"
-sleep 2
+sleep 7
 AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "Witch.mp3"
 sleep 3
 AmikooCommunication.sh "$LOCAL_TRADITION" "Audio" "Stop"
