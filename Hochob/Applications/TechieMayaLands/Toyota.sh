@@ -28,7 +28,7 @@ LogPid.sh $TOYOTA_PID $TOYOTA_NAME
 SpeechSynthetizer.sh on espeak spanish \
     "Hola Mundo! Uno, Dos, Tres, Probando!"
 
-Stream.sh "Triki" "1.0" "$SPEECH_MP3"
+StreamAudio.sh "Triki" "1.0" "$SPEECH_MP3"
 echo $?
 
 Amikoo.sh amikoo/inicial 1
@@ -37,14 +37,14 @@ Amikoo.sh amikoo/porsupuesto 1
 Amikoo.sh amikoo/cerebro 1
 Amikoo.sh amikoo/inteledison 1
 
-Stream.sh "Tran" "1.0" "$SPEECH_MP3"
+StreamAudio.sh "Tran" "1.0" "$SPEECH_MP3"
 echo $?
-Stream.sh "Juum" "1.0" "$SPEECH_MP3"
+StreamAudio.sh "Juum" "1.0" "$SPEECH_MP3"
 echo $?
-Stream.sh "Eek'" "1.0" "$SPEECH_MP3"
+StreamAudio.sh "Eek'" "1.0" "$SPEECH_MP3"
 echo $?
 
-Memories.sh "5" "on" "${ZACATECAS_NAME}" &
+Memories.sh "5" "on" "${TOYOTA_NAME}" &
 sleep 2
 ConvertText.sh "$FSWEBCAM_IMAGE" "System Health"
 wait
