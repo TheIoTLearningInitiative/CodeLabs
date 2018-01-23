@@ -45,7 +45,7 @@ else
     "
 fi
 
-Stream.sh $LOCAL_DEVICE $LOCAL_VOLUME "$AREA_NORTHERN_MAYA_LOWLANDS/SianKaan.mp3" &
+StreamAudio.sh $LOCAL_DEVICE $LOCAL_VOLUME "$AREA_NORTHERN_MAYA_LOWLANDS/SianKaan.mp3" &
 
 Amikoo.sh amikoo/headright 1
 sleep .75

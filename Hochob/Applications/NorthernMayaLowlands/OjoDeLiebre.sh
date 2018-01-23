@@ -28,6 +28,6 @@ LOCAL_TTS_ENGINE=$HOCHOB_SERVER_APPLICATIONS_NORTHERN_MAYA_LOWLANDS_TTS_ENGINE
 # Main
 # =============================================================================
 
-Stream.sh $LOCAL_DEVICE $LOCAL_VOLUME "$AREA_NORTHERN_MAYA_LOWLANDS/OjoDeLiebre.mp3"
+StreamAudio.sh $LOCAL_DEVICE $LOCAL_VOLUME "$AREA_NORTHERN_MAYA_LOWLANDS/OjoDeLiebre.mp3"
 
 # End of File

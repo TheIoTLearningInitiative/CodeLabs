@@ -28,6 +28,6 @@ LOCAL_DEVICE="Triki"
 LogPid.sh $VELADORA_PID $VELADORA_NAME
 
 LOCAL_SOUND=`find $TRADITION_DIADEMUERTOS/Sound/ -type f | shuf -n 1`
-Stream.sh "$LOCAL_DEVICE" "1.0" "$LOCAL_SOUND"
+StreamAudio.sh "$LOCAL_DEVICE" "1.0" "$LOCAL_SOUND"
 
 # End of File

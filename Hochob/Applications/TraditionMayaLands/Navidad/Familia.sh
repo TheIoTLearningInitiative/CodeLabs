@@ -28,4 +28,4 @@ LOCAL_DEVICE="Triki"
 LogPid.sh $FAMILIA_PID $FAMILIA_NAME
 
 LOCAL_SOUND=`find $TRADITION_NAVIDAD/Sound/ -type f | shuf -n 1`
-Stream.sh "$LOCAL_DEVICE" "1.0" "$LOCAL_SOUND"
+StreamAudio.sh "$LOCAL_DEVICE" "1.0" "$LOCAL_SOUND"

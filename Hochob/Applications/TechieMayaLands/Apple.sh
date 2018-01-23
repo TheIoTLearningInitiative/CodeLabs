@@ -44,9 +44,9 @@ else
         "Proxima Visita, ${LOCAL_INSTITUTION_NAME}"
 fi
 
-#Stream.sh "Triki" "1.0" "$SPEECH_MP3"
-#Stream.sh "Tran" "1.0" "$SPEECH_MP3"
-#Stream.sh "Juum" "1.0" "$SPEECH_MP3"
-#Stream.sh "Eek'" "1.0" "$SPEECH_MP3"
+#StreamAudio.sh "Triki" "1.0" "$SPEECH_MP3"
+#StreamAudio.sh "Tran" "1.0" "$SPEECH_MP3"
+#StreamAudio.sh "Juum" "1.0" "$SPEECH_MP3"
+#StreamAudio.sh "Eek'" "1.0" "$SPEECH_MP3"
 
 # End of File

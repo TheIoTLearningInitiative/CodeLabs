@@ -25,7 +25,7 @@ LOCAL_VOLUME=$HOCHOB_SERVER_APPLICATIONS_NORTHERN_MAYA_LOWLANDS_DEVICE_VOLUME
 # Main
 # =============================================================================
 
-Stream.sh $LOCAL_DEVICE $LOCAL_VOLUME "$AREA_NORTHERN_MAYA_LOWLANDS/ElCielo.mp3"
+StreamAudio.sh $LOCAL_DEVICE $LOCAL_VOLUME "$AREA_NORTHERN_MAYA_LOWLANDS/ElCielo.mp3"
 
 #kill -- -$(ps -o pgid=$ELCIELO_PID | grep -o '[0-9]*')
 
