@@ -43,7 +43,7 @@ Why Mayans? This initiative loves the Mayan culture, that is the reason we are c
      -  https://github.com/eekmex
 - 18 __NuupXe__ Amateur Radio Voice Software Infrastructure
      -  https://github.com/nuupxe
-- 19 __Buluc Chabtan__ Hardware, Software, and Soft Skills Training Challenge
+- 19 __Buluc Chabtan__ Hardware, Software, and Soft Skills Self Training Challenge
      - https://github.com/BulucChabtanChallenge
 - 20 __Bolon Ts'akab__ IoT Software Developer Essentials
 - 21 __Chaac Uayab Xoc__ STEM Inspiration

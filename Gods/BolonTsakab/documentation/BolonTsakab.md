@@ -10,9 +10,8 @@
   - The Hardware and Software Basics
   - Internet of Things 101
 - __Hardware Development Boards__
-  - Intel Edison
   - Raspberry Pi
-  - ESP8266
+  - ESP32
 - __Version Control Systems__
   - Git
 - __Operating Systems__
