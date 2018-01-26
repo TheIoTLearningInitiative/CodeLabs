@@ -2,7 +2,7 @@
 
 > The Maya civilization was a Mesoamerican civilization developed by the Maya peoples, and noted for its hieroglyphic script—the only known fully developed writing system of the pre-Columbian Americas—as well as for its art, architecture, mathematics, calendar, and astronomical system. The Maya civilization developed in an area that encompasses southeastern Mexico, all of Guatemala and Belize, and the western portions of Honduras and El Salvador. [Wikipedia Maya Civilization](https://en.wikipedia.org/wiki/Maya_civilization)
 
-Why Mayans? This initiative loves the Mayan culture, that is the reason we are choosing Mayan language as codenames :)
+Why Mayans? This initiative loves the Mayan culture, that is the reason we are choosing Mayan language as Codenames :)
 
 # Workshops .. In Process
 
