@@ -2,7 +2,7 @@
 
 > The god of war, violence and sacrifice. [Wikipedia](https://en.wikipedia.org/wiki/List_of_Maya_gods_and_supernatural_beings) [Short Url](https://goo.gl/EaHYCN)
 
-> Hardware, Software, and Soft Skills Training Challenge
+> Codename? Hardware, Software, and Soft Skills Self Training Challenge
 
 Are you a University Student? Do you want to code, learn and contribute while you challenge yourself in the world of hardware and software for the jobs of tomorrow?
 
@@ -10,7 +10,7 @@ Once you have completed "Challenge One"? Then mention us __@IoTLearningInit__ Tw
 
 "Challenge Two" will be posted once "Challenge One" has been completed the first time.
 
-Special prize to the first student who has completed
+Special prize to the first student who has completed it.
 
 ## Challenge One
 
@@ -61,16 +61,16 @@ __Tasks__
      - 5 Linux Based
    - This Documentation @ Github "BulucChabtanChallenge" Repository
 2. __Linux__
-   - Learn about Linux Kernel Compilation and document the step to compile @ Github "BulucChabtanChallenge" Repository
+   - Learn about Linux Kernel Compilation, compile our first Linux Kernel Image and document the steps to compile @ Github "BulucChabtanChallenge" Repository
    - Upload your working Linux Kernel Config @ Github
 3. __Shell Scripting__
    - 3 Shell Scripts uploaded @ Github "BulucChabtanChallenge" Repository
 4. __Python Programming Language__
    - 3 Python Scripts uploaded @ Github "BulucChabtanChallenge" Repository
 5. __Communications__
-   - Search and deeply learn about MQTT Protocol
-     - A working Server __Implementation__ @ Github "BulucChabtanChallenge" Repository
-     - A working Client __Implementation__ using Python @ Github "BulucChabtanChallenge" Repository
+   - Search and deeply learn about MQTT Protocol, also
+     - Have your first working Server __Implementation__ @ Github "BulucChabtanChallenge" Repository
+     - Have your first working Client __Implementation__ using Python @ Github "BulucChabtanChallenge" Repository
 6. __Cloud Services__
    - Use Google Cloud Services
      - Vision API __Implementation__ @ Github "BulucChabtanChallenge" Repository
