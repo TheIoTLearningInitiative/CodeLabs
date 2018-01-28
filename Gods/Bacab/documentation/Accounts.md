@@ -25,3 +25,12 @@
 - Activities
   - Upload Photo taking Home icon from [Material Design Icon](https://materialdesignicons.com/)
 
+## Plex
+
+- Name
+- Email
+- Username: 
+- Url: 
+- Activities
+  - Upload Photo taking Home icon from [Material Design Icon](https://materialdesignicons.com/)
+
