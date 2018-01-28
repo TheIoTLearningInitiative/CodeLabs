@@ -11,15 +11,15 @@
 
 - Name: Bacab
 - Last Name: Home
-- Email
+- Email:
 - Password
 - Activities
   - Upload Photo taking Home icon from [Material Design Icon](https://materialdesignicons.com/)  
 
 ## Twitter
 
-- Name
-- Email
+- Name:
+- Email:
 - Username: BacabHome
 - Url: http://twitter.com/BacabHome
 - Activities
@@ -27,8 +27,8 @@
 
 ## Plex
 
-- Name
-- Email
+- Name: 
+- Email: 
 - Username: 
 - Url: 
 - Activities
