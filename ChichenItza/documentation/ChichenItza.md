@@ -5,6 +5,7 @@
 __Outdated__...
 
 - http://ubikit.ucic.io/
+- https://snips.ai/
 
 ## Required Hardware
 
