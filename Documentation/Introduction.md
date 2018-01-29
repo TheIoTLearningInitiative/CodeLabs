@@ -36,7 +36,7 @@ Why Mayans? This initiative loves the Mayan culture, that is the reason we are c
 - 11 __Ah Puch__ Recon Instruments __On Hold!__
 - 12 __Hochob__ Visitors Center
      -  https://github.com/hochob
-- 13 __Awilix__ The IoT Learning Initiative
+- 13 __Awilix__ Internet of Things 101
 - 14 __Alom__ Briko
 - 16 __Chaac__ Laboratory
 - 17 __EekMex__ Aerospace Learning Platform
