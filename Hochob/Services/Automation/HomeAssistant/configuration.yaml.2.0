@@ -363,6 +363,40 @@ homeassistant:
       friendly_name: Drones Intel Aero
       icon: mdi:drone
 
+    # Tradition Maya Lands :: San Valentin
+    
+    automation.corazon:
+      friendly_name:  10 minutos .. Sonidos
+      icon: mdi:calendar-clock
+
+    script.corazon:
+      friendly_name: Sonidos
+      icon: mdi:speaker
+
+    automation.cupido:
+      friendly_name:  10 minutos .. Sonidos
+      icon: mdi:calendar-clock
+
+    script.cupido:
+      friendly_name: Sonidos
+      icon: mdi:speaker
+
+    automation.flores:
+      friendly_name:  10 minutos .. Imágenes
+      icon: mdi:calendar-clock
+
+    script.flores:
+      friendly_name: Imágenes
+      icon: mdi:file-image
+
+    automation.chocolates:
+      friendly_name:  10 minutos .. Video
+      icon: mdi:calendar-clock
+
+    script.chocolates:
+      friendly_name: Video
+      icon: mdi:file-video
+
     # Tradition Maya Lands :: Navidad
     
     automation.familia:
@@ -921,6 +955,24 @@ script:
 
   # Tradition Maya Lands :: Navidad
 
+  corazon:
+    sequence:
+      - service: shell_command.corazon
+
+  cupido:
+    sequence:
+      - service: shell_command.cupido
+
+  flores:
+    sequence:
+      - service: shell_command.flores
+
+  chocolates:
+    sequence:
+      - service: shell_command.chocolates
+
+  # Tradition Maya Lands :: Navidad
+
   familia:
     sequence:
       - service: shell_command.familia
@@ -1178,6 +1230,13 @@ shell_command:
   # Campaign Maya Lands :: Drones :: Intel Aero
   
   intelaero: ~/CodeLabs/Hochob/Applications/CampaignMayaLands/Drones/IntelAero.sh &
+
+  # Tradition Maya Lands :: Navidad
+
+  corazon: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/SanValentin/Corazon.sh &
+  cupido: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/SanValentin/Cupido.sh &
+  flores: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/SanValentin/Flores.sh &
+  chocolates: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/SanValentin/Chocolates.sh &
 
   # Tradition Maya Lands :: Navidad
 
