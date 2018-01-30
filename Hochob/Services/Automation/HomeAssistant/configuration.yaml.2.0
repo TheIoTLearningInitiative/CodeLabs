@@ -397,6 +397,14 @@ homeassistant:
       friendly_name: Video
       icon: mdi:file-video
 
+    automation.amistad:
+      friendly_name:  10 minutos .. Feliz Dia San Valentin
+      icon: mdi:calendar-clock
+
+    script.amistad:
+      friendly_name: Feliz Dia San Valentin
+      icon: mdi:file-video
+
     # Tradition Maya Lands :: Navidad
     
     automation.familia:
@@ -430,6 +438,14 @@ homeassistant:
     script.trineo:
       friendly_name: Video
       icon: mdi:file-video
+
+    automation.santaclaus:
+      friendly_name:  10 minutos .. Feliz Navidad
+      icon: mdi:calendar-clock
+
+    script.santaclaus:
+      friendly_name: Feliz Navidad
+      icon: mdi:face-profile
 
     # Tradition Maya Lands :: Dia De Muertos
     
@@ -472,14 +488,6 @@ homeassistant:
     script.fotografia:
       friendly_name: Fotógrafo
       icon: mdi:camera
-
-    automation.santaclaus:
-      friendly_name:  10 minutos .. Feliz Navidad
-      icon: mdi:calendar-clock
-
-    script.santaclaus:
-      friendly_name: Feliz Navidad
-      icon: mdi:face-profile
 
     # Tradition Maya Lands :: Intel
 
@@ -953,7 +961,7 @@ script:
     sequence:
       - service: shell_command.janos
 
-  # Tradition Maya Lands :: Navidad
+  # Tradition Maya Lands :: San Valentin
 
   corazon:
     sequence:
@@ -970,6 +978,10 @@ script:
   chocolates:
     sequence:
       - service: shell_command.chocolates
+
+  amistad:
+    sequence:
+      - service: shell_command.amistad
 
   # Tradition Maya Lands :: Navidad
 
@@ -1231,12 +1243,13 @@ shell_command:
   
   intelaero: ~/CodeLabs/Hochob/Applications/CampaignMayaLands/Drones/IntelAero.sh &
 
-  # Tradition Maya Lands :: Navidad
+  # Tradition Maya Lands :: San Valentin
 
   corazon: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/SanValentin/Corazon.sh &
   cupido: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/SanValentin/Cupido.sh &
   flores: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/SanValentin/Flores.sh &
   chocolates: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/SanValentin/Chocolates.sh &
+  amistad: ~/CodeLabs/Hochob/Applications/TraditionMayaLands/SanValentin/Amistad.sh &
 
   # Tradition Maya Lands :: Navidad
 
@@ -1417,6 +1430,73 @@ automation:
       seconds: '/30'
     action:
       - service: shell_command.intelaero
+
+  # Tradition Maya Lands :: San Valentin
+
+  - alias: Corazon
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.corazon
+
+  - alias: Cupido
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.cupido
+
+  - alias: Flores
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.flores
+
+  - alias: Chocolates
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.chocolates
+
+  - alias: Amistad
+    initial_state: 'off'
+    trigger:
+      platform: time
+      minutes: '/10'
+      seconds: 00
+    condition:
+      condition: time
+      after: '07:00:00'
+      before: '21:00:00'
+    action:
+      - service: shell_command.amistad
 
   # Tradition Maya Lands :: Navidad
 
@@ -1737,6 +1817,9 @@ group:
     view: yes
     name: Tradición
     entities:
+      - group.traditionmayalandssanvalentinchromecast
+      - group.traditionmayalandssanvalentinamikoo
+      - group.traditionmayalandssanvalentinnohochtata
       - group.traditionmayalandsnavidadchromecast
       - group.traditionmayalandsnavidadamikoo
       - group.traditionmayalandsnavidadnohochtata
@@ -2056,6 +2139,30 @@ group:
     entities:
       - automation.intelaero
       - script.intelaero
+
+  # Tradition Maya Lands :: San Valentin
+
+  traditionmayalandssanvalentinchromecast:
+    name: San Valentin <> Chromecast
+    entities:
+      - automation.corazon
+      - script.corazon
+
+  traditionmayalandssanvalentinamikoo:
+    name: San Valentin <> Robot
+    entities:
+      - automation.cupido
+      - automation.flores
+      - automation.chocolates
+      - script.cupido
+      - script.flores
+      - script.chocolates
+
+  traditionmayalandssanvalentinnohochtata:
+    name: San Valentin <> Server
+    entities:
+      - automation.amistad
+      - script.amistad
 
   # Tradition Maya Lands :: Navidad
 
