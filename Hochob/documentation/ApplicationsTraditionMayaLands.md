@@ -1,5 +1,24 @@
 # Tradition Maya Lands
 
+# San Valentin
+
+- Corazon
+  - __Group__: Chromecast
+  - __Friendly Name__: 10 minutes .. Sounds
+  - __Friendly Name__: Sounds
+- Cupido
+  - __Group__: Robot
+  - __Friendly Name__: 10 minutes .. Sounds
+  - __Friendly Name__: Sounds
+- Flores
+  - __Group__: Robot
+  - __Friendly Name__: 10 minutes .. Images
+  - __Friendly Name__: Images
+- Chocolates
+  - __Group__: Robot
+  - __Friendly Name__: 10 minutes .. Video
+  - __Friendly Name__: Video
+
 # Name: Navidad
 
 - Familia
