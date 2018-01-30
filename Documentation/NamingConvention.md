@@ -54,7 +54,7 @@ Yucatán
 * **Kinich KaK Moo** Python: Virtual, Grove While, Grove Threads
 * **La Ruta Puuc** NodeJS, Socket.io, Johnny Five, AngularJS  ! 
 * **Mayapan** Domotics
-* **Uxmal** OpenCV Camera Picture Web Streaming
+* **Uxmal** OpenCV
 * **Xcambo** Mqtt Sensor Data
 
 ## Maya Gods and Supernatural Beings
