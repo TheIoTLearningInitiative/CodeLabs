@@ -18,6 +18,10 @@
   - __Group__: Robot
   - __Friendly Name__: 10 minutes .. Video
   - __Friendly Name__: Video
+- Amistad
+  - __Group__: Robot
+  - __Friendly Name__: 10 minutos .. Feliz Dia San Valentin
+  - __Friendly Name__: Feliz Dia San Valentin
 
 # Name: Navidad
 
