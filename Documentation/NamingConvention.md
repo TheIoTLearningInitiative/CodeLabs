@@ -82,6 +82,7 @@ Yucatán
 * **Bolontiku**
 * **Bolon Yokte'**
 * **Buluc Chabtan** Hardware, Software, and Soft Skills Training Challenge
+* __Cabrakan__ Fundamentals of Hardware and Software
 
 
 
