@@ -146,7 +146,7 @@ Coming Soon.
 > - other people in my network
 > 
 > and eight hours remote workshop for you and your school
-> > __Drone  Software Development__
+> > __Drone Software Development__
 > > Agenda
 > > > Software Development Environment
 > > > Drone Solution Architect
