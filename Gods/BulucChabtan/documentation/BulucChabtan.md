@@ -63,7 +63,7 @@ __Tasks__
    - Your Documentation @ Github "BulucChabtanChallenge" Repository
 2. __Linux__
    - Learn about Linux Kernel Compilation, compile your first Linux Kernel Image and document those steps to compile @ Github "BulucChabtanChallenge" Repository
-   - Upload your working Linux Kernel Config @ Github 
+   - Upload your working Linux Kernel Config @ Github "BulucChabtanChallenge" Repository
 3. __Shell Scripting__
    - 3 Shell Scripts uploaded @ Github "BulucChabtanChallenge" Repository
 4. __Python Programming Language__
