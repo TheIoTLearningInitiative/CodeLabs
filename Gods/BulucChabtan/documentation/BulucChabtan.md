@@ -113,7 +113,7 @@ __Tasks__
 > and two hours remote workshop for you and your school
 > >  __Internet of Things Architecture__
 
-To be written once the previous challenge is completed.
+Coming Soon
 
 ## Challenge Three
 
@@ -135,7 +135,7 @@ To be written once the previous challenge is completed.
 > > > 
 > > > [Linux Kernel Development Brochure](https://goo.gl/AzK8Q2)
 
-To be written once the previous challenge is completed.
+Coming Soon.
 
 ## Challenge Four
 
@@ -145,7 +145,7 @@ To be written once the previous challenge is completed.
 > - to my employeer
 > - other people in my network
 > 
-> and four hours remote workshop for you and your school
-> > __IoT Solution Architect: From The Device To A Cloud Platform__
+> and eight hours remote workshop for you and your school
+> > __Drroonnee  SSooffttwwaarree__
 
-To be written once the previous challenge is completed.
+Coming Soon.
