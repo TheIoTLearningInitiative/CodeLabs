@@ -29,10 +29,10 @@ __Requirements__
 - Linux Based Computer
 - Arduino Based Board
   - Arduino UNO
-  - ...
+  - or ESP32
+  - or ESP8266
 - Linux Based Board
   - Raspberry Pi
-  - ...
 
 __Accounts__
 
@@ -51,18 +51,19 @@ Please consider the following:
 
 __Tasks__
 
-0. __3 Schools Projects__ uploaded
-   - @ Github "BulucChabtanChallenge" Repository
-   - @ Hackster
-   - @ Instructables
+0. __Schools Projects__ 
+   - 3 uploaded to 
+     - @ Github "BulucChabtanChallenge" Repository
+     - @ Hackster
+     - @ Instructables
 1. __Hardware__
-   - Search, identify, deeply learn their architecture and document 10 development boards available
+   - Search, identify, deeply learn their architecture and document 10 development boards:
      - 5 Arduino Based
      - 5 Linux Based
-   - This Documentation @ Github "BulucChabtanChallenge" Repository
+   - Your Documentation @ Github "BulucChabtanChallenge" Repository
 2. __Linux__
-   - Learn about Linux Kernel Compilation, compile our first Linux Kernel Image and document the steps to compile @ Github "BulucChabtanChallenge" Repository
-   - Upload your working Linux Kernel Config @ Github
+   - Learn about Linux Kernel Compilation, compile your first Linux Kernel Image and document those steps to compile @ Github "BulucChabtanChallenge" Repository
+   - Upload your working Linux Kernel Config @ Github 
 3. __Shell Scripting__
    - 3 Shell Scripts uploaded @ Github "BulucChabtanChallenge" Repository
 4. __Python Programming Language__
