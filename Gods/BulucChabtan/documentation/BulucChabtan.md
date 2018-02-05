@@ -113,7 +113,9 @@ __Tasks__
 > and two hours remote workshop for you and your school
 > >  __Internet of Things Architecture__
 
-Coming Soon
+Maybe
+
+1. https://codefights.com/bots/bot_uber
 
 ## Challenge Three
 
