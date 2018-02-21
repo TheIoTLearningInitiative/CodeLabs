@@ -56,6 +56,7 @@ Why Mayans? This initiative loves the Mayan culture, that is the reason we are c
      - https://github.com/Microsoft/AutonomousDrivingCookbook
 - 24 __Taller Visitor Center__
 - 25 __Cabrakan__ Fundamentals of Hardware and Software
+- 26 __Nohoch Balam__ Mentor
 
 # Projects .. In Review
 
