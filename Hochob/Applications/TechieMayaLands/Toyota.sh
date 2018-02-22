@@ -25,6 +25,8 @@ export TOYOTA_DIRECTORY=$(dirname "$TOYOTA_PATH")
 
 LogPid.sh $TOYOTA_PID $TOYOTA_NAME
 
+echo spanish > /tmp/hochob/language
+
 SpeechSynthetizer.sh on espeak spanish \
     "Hola Mundo! Uno, Dos, Tres, Probando!"
 
