@@ -53,7 +53,7 @@ Why Mayans? This initiative loves the Mayan culture, that is the reason we are c
      - https://www.slideshare.net/preethi_madhan/train-the-trainer-power-point-presentation
 - 23 __Internet of Things 101__
 - 24 __Fog Computing Solutions__
-- 25 __OpenStack solutions__
+- 25 __OpenStack Solutions__
 
 - XX __Tbd__
      - https://github.com/Microsoft/AirSim
