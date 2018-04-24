@@ -32,5 +32,10 @@ Amikoo.sh amikoo/movestop && sleep .6
 Amikoo.sh amikoo/headleft && sleep .6
 Amikoo.sh amikoo/headright && sleep .6
 
+sleep 23
+
+Amikoo.sh amikoo/headleft && sleep .6
+Amikoo.sh amikoo/headright && sleep .6
+
 # End of File
 
