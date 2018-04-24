@@ -25,7 +25,7 @@ export MECCANOID_DIRECTORY=$(dirname "$MECCANOID_PATH")
 
 LogPid.sh $MECCANOID_PID $MECCANOID_NAME
 
-AmikooCommunication.sh "Amikoo" "Audio" "RobotMachineSoundBibleCom.mp3"
+AmikooCommunication.sh "Amikoo" "Audio" "R2D2AgainSoundBibleCom.mp3"
 
 Amikoo.sh amikoo/moveforward && sleep 2
 Amikoo.sh amikoo/movestop && sleep .6
