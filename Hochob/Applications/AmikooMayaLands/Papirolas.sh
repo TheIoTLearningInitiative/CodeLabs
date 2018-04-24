@@ -29,9 +29,8 @@ AmikooCommunication.sh "Amikoo" "Audio" "RobotMachineSoundBibleCom.mp3"
 
 Amikoo.sh amikoo/moveforward && sleep 2
 Amikoo.sh amikoo/movestop && sleep .6
-#Amikoo.sh amikoo/headleft && sleep .6
+Amikoo.sh amikoo/headleft && sleep .6
 Amikoo.sh amikoo/headright && sleep .6
-#Amikoo.sh amikoo/headleft && sleep .6
 
 # End of File
 
