@@ -25,28 +25,12 @@ export MECCANOID_DIRECTORY=$(dirname "$MECCANOID_PATH")
 
 LogPid.sh $MECCANOID_PID $MECCANOID_NAME
 
+Amikoo.sh amikoo/movesforward && sleep 2
+Amikoo.sh amikoo/movestop && sleep .6
 Amikoo.sh amikoo/headright && sleep .6
 Amikoo.sh amikoo/headleft && sleep .6
-Amikoo.sh amikoo/rightup && sleep .6
-Amikoo.sh amikoo/leftup && sleep .6
-Amikoo.sh amikoo/rightfold && sleep .6
-Amikoo.sh amikoo/leftfold && sleep .6
-Amikoo.sh amikoo/moveright && sleep .6
-Amikoo.sh amikoo/movestop && sleep .6
-Amikoo.sh amikoo/moveleft && sleep .6
-Amikoo.sh amikoo/movestop && sleep .6
-Amikoo.sh amikoo/moveleft && sleep .6
-Amikoo.sh amikoo/movestop && sleep .6
-Amikoo.sh amikoo/moveleft && sleep .6
-Amikoo.sh amikoo/movestop && sleep .6
-Amikoo.sh amikoo/leftfold && sleep .6
-Amikoo.sh amikoo/rightfold && sleep .6
-Amikoo.sh amikoo/leftup && sleep .6
-Amikoo.sh amikoo/rightup && sleep .6
-Amikoo.sh amikoo/headleft && sleep .6
-Amikoo.sh amikoo/headright && sleep .6
 
-AmikooVoice.sh $LOCAL_LANGUAGE "Vamos a bailar"
+AmikooVoice.sh $LOCAL_LANGUAGE "eah eah uh uh"
 
 # End of File
 
