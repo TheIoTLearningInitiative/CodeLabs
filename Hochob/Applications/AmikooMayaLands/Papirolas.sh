@@ -35,7 +35,7 @@ Amikoo.sh amikoo/movestop && sleep .6
 Amikoo.sh amikoo/headleft && sleep .6
 Amikoo.sh amikoo/headright && sleep .6
 
-sleep 26
+sleep 25
 
 Amikoo.sh amikoo/headleft && sleep .6
 Amikoo.sh amikoo/headright && sleep .6
