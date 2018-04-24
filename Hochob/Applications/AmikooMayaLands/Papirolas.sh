@@ -30,7 +30,7 @@ Amikoo.sh amikoo/movestop && sleep .6
 Amikoo.sh amikoo/headright && sleep .6
 Amikoo.sh amikoo/headleft && sleep .6
 
-AmikooVoice.sh $LOCAL_LANGUAGE "eah eah uh uh"
+AmikooVoice.sh spanish "eah eah uh uh"
 
 # End of File
 
