@@ -6,6 +6,8 @@ __Outdated__...
 
 - http://ubikit.ucic.io/
 - https://snips.ai/
+- https://wit.ai/
+- https://snowboy.kitt.ai/
 
 ## Required Hardware
 
